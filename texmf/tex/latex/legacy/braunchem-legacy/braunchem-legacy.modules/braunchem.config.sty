@@ -1,0 +1,369 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{config}{2019/10/11}{beta}{ Basic Chemistry Macros and Configuration }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMMACROS CONFIGURATIONS            
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\chemsetup[newman]{ring = { chemline }, scale=0.8}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMFIG CONFIGURATIONS            
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   PRINT CHEMFIG ATOMS WITH CHEMFORMULA (\ch)
+%============================================================%
+
+\tex_def:D \CF_nodecontent
+{
+    \expandafter\expandafter\expandafter
+    \printatom
+    \expandafter\expandafter\expandafter
+    {
+        \csname atom_\number\CF_cntatom \endcsname \CF_nodestrut
+    }
+    
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMFIG SETUP                       
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setchemfig
+{
+    chemfig~style    =  { chemline },
+    bond~style       =  { cap = round },
+    atom~sep         =  \l_Fixed_Lenght_tl,
+    double~bond~sep  =  \l_Bond_Spacing_tl,
+    bond~offset      =  \l_Margin_Width_tl,
+    angle~increment  =  30,
+    cram~width       =  \l_Bold_Width_tl,
+    cram~dash~width  =  \l_Line_Width_tl,
+    cram~dash~sep    =  \l_Hash_Spacing_tl,
+    %bond~join       =  true,
+}
+
+\tex_def:D\printatom#1
+{
+    \ch{#1}
+    %\ch{\ensuremath{\mathsf{#1}}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   TIKZ STYLES            
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   MACROS
+%============================================================%
+
+% Drawing circles in aromatic rings. 
+
+\NewDocumentCommand \mcfcringle
+{ m }
+{ 
+    \tikz
+    \draw[chemline](0,0) 
+        circle( \l_Fixed_Lenght_tl * #1 * 0.5 );
+}
+
+% Rendering  double and triple bonds parallel bond strokes
+
+\pgfdeclaredecoration{mcfsecondstroke}{initial}
+{
+    \state{initial}[ width = \pgfdecoratedpathlength-1sp ]
+    {
+        \pgfmoveto{ \pgfpointorigin }
+    }
+    \state{final}
+    {
+        \pgflineto{ \pgfpointorigin }
+    }
+}
+
+%============================================================%
+%   SET STYLES
+%============================================================%
+
+\tikzset{ 
+
+    chemline  /. style = { line~width = \l_Line_Width_tl },
+
+    %% BOND STYLES
+
+    bold~bond /. style = { line~width = \l_Bond_Spacing_tl },
+
+    dash~bond /. style =
+    {
+        dash~pattern = on \l_Hash_Spacing_tl off \l_Hash_Spacing_tl,
+        cap          = butt,
+    },
+
+    hash~bond /. style =
+    {
+        dash~pattern = on \l_Line_Width_tl off \l_Hash_Spacing_tl,
+        line~width   = \l_Bold_Width_tl,
+        cap          = butt,
+    },
+
+    fix       /. style = { shorten~<= - 0.15 ex },
+
+    fixout    /. style = { shorten~>= - 0.15 ex },
+
+    dbfix     /. style = { shorten~<= - #1 ex },
+
+    dbfixout  /. style = { shorten~>= - #1 ex },
+
+    mcfwavy   /. style =
+    {
+        decorate,
+        decoration = 
+        {
+            snake,
+            post~length = 0pt,
+            amplitude   = {\l_Fixed_Lenght_tl / 8},
+        }
+    },
+
+    %% MOL2CHEMFIG COMPATIBILITY
+
+    mcfpusharrow /. style = {
+        ->,
+        red,
+        >=stealth,
+        shorten~<= 3pt,
+        shorten~>= 2pt,
+        preaction =
+        { 
+            draw = white, 
+            -, 
+            line~width = 1.5pt,
+        },
+    },
+    
+    mcfbond    /. style = { cap = round }, 
+
+    mcfbgcolor /. style = {white},
+    
+    mcfx       /. style~2~args =
+    {
+        preaction={
+            draw,
+            mcfbgcolor,
+            line~width = \l_Bond_Spacing_tl,
+            shorten~<= { #1 * \l_Bond_Spacing_tl / 100 },
+            shorten~>= { #2 * \l_Bond_Spacing_tl / 100 }
+        },
+        mcfbond,
+    },
+    
+    mcfcrossbond /. style = { mcfx = { 100 }{ 100 } },
+    
+    secondbond   /. style~2~args =
+    {
+        shorten~<= { #1 * \l_Bond_Spacing_tl / 100 }, 
+        shorten~>= { #2 * \l_Bond_Spacing_tl / 100 }, 
+        mcfbond,
+    },
+    
+    secondfgbond  /.style~2~args =
+    {
+        preaction = 
+        { 
+            draw, 
+            -,
+            mcfbgcolor,
+            line width=\l_Bond_Spacing_tl,
+        },
+        secondbond = { #1 }{ #2 }    
+    },
+    
+    secondleft    /.style~2~args =
+    {
+        secondbond   = { #1 }{ #2 },
+        decoration   = { mcfsecondstroke, raise =   \l_Bond_Spacing_tl },
+        decorate,
+    },
+    
+    secondright   /.style~2~args =
+    {
+        secondbond   = { #1 }{ #2 },
+        decoration   = { mcfsecondstroke, raise = - \l_Bond_Spacing_tl },
+        decorate,
+    },
+    
+    secondfgleft  /.style~2~args =
+    {
+        secondfgbond = { #1 }{ #2 },
+        decoration   = { mcfsecondstroke, raise =   \l_Bond_Spacing_tl },
+        decorate,
+    },
+    
+    secondfgright /. style~2~args = 
+    {
+        secondfgbond = { #1 }{ #2 },
+        decoration   = { mcfsecondstroke, raise = - \l_Bond_Spacing_tl },
+        decorate,
+    },
+    
+    dbl   /. style~2~args =
+    {
+        preaction = { draw, secondleft = { #1 }{ #2 } },
+    },
+    
+    dbr   /. style~2~args =
+    {
+        preaction = { draw, secondright = { #1 }{ #2 } },
+    },
+    
+    trpl  /. style~2~args =
+    {
+        preaction = { draw, secondleft  = { #1 }{ #2 } },
+        preaction = { draw, secondright = { #1 }{ #2 } },
+    },
+    
+    dblx  /. style~n~args = {4}
+    {
+        preaction = { draw, secondfgleft = { #1 }{ #2 } },
+        mcfx      = { #3 }{ #4 },
+    },
+    
+    dbrx  /. style~n~args = {4}
+    {
+        preaction = { draw, secondfgright = { #1 }{ #2 } },
+        mcfx      = { #3 }{ #4 },
+    },
+    
+    trplx /. style~n~args = {4}
+    {
+        preaction = { draw, secondfgleft  = { #1 }{ #2 } },
+        preaction = { draw, secondfgright = { #1 }{ #2 } },
+        mcfx      = { #3 }{ #4 },
+    },
+    
+    drh  /.style = { dbr = { 58 }{ 58 } },
+    dlh  /.style = { dbl = { 58 }{ 58 } },
+    drhs /.style = { dbr = { 58 }{  0 } },
+    dlhs /.style = { dbl = { 58 }{  0 } },
+    drhe /.style = { dbr = {  0 }{ 58 } },
+    dlhe /.style = { dbl = {  0 }{ 58 } },
+    drn  /.style = { dbr = {  0 }{  0 } },
+    dln  /.style = { dbl = {  0 }{  0 } }
+}
+
+%============================================================%
+%   DRAWING PUSH ARROWS
+%============================================================%
+
+\NewDocumentCommand{\mcfelmove}
+{ O{} m m m m }
+{
+    \node at (0,0) 
+    {
+        \chemmove{ \draw[ mcfpusharrow , #1 ] (#2).. controls +(#3) and +(#5)..(#4); }
+    };
+}
+
+\NewDocumentCommand{\mcfpush}
+{ o o m m m m }
+{
+    \IfNoValueTF{#2}
+    {
+        \IfNoValueTF{#1}
+        { 
+            \mcfelmove{#3}{#4}{#5}{#6} 
+        }
+        {
+            \mcfelmove[shorten~<=#1]{#3}{#4}{#5}{#6} 
+        }
+    }
+    {
+        \IfNoValueTF{#1}
+        {
+            \mcfelmove[shorten~>=#2]{#3}{#4}{#5}{#6}
+        }
+        {
+            \mcfelmove[shorten~<=#1, shorten~>=#2]{#3}{#4}{#5}{#6}
+        }
+    }
+}
+
+%============================================================%
+%   STACKING ATOMS HORIZONTALY AND VERTICALY
+%============================================================%
+
+\RenewDocumentCommand \chembelow
+{ m m }
+{
+    \hcoffin_set:Nn \l_tmpa_coffin { #1 }
+    \hcoffin_set:Nn \l_tmpb_coffin { #2 }
+
+    \coffin_attach:NnnNnnnn
+    \l_tmpa_coffin {hc} {b}
+    \l_tmpb_coffin {hc} {t} {0pt} { - \l_Margin_Width_tl }
+
+    \coffin_typeset:Nnnnn
+    \l_tmpa_coffin {\l_tmpa_coffin-l} {\l_tmpa_coffin-H} {0pt} {0pt}%{ - 2\coffin_ht:N\l_tmpa_coffin - \l_Margin_Width_tl }
+}
+
+\RenewDocumentCommand \chemabove
+{ m m }
+{
+    \hcoffin_set:Nn \l_tmpa_coffin { #1 }
+    \hcoffin_set:Nn \l_tmpb_coffin { #2 }
+
+    \coffin_attach:NnnNnnnn
+    \l_tmpa_coffin {hc} {t}
+    \l_tmpb_coffin {hc} {b} {0pt} { + \l_Margin_Width_tl }
+
+    \coffin_typeset:Nnnnn
+    \l_tmpa_coffin {\l_tmpa_coffin-l} {\l_tmpa_coffin-H} {0pt} {0pt}%{ + \coffin_ht:N\l_tmpb_coffin + \l_Margin_Width_tl }
+}
+
+\NewDocumentCommand \mcfabove { m m } { \chemabove{#1}{#2} }
+
+\NewDocumentCommand \mcfbelow { m m } { \chembelow{#1}{#2} }
+
+%%
+
+\newlength{\mcf@boxwidth}
+\newlength{\mcf@boxheight}
+
+\newcommand{\mcf@box}[3][l]{
+\settowidth{\mcf@boxwidth}{\printatom{#2}}
+\settoheight{\mcf@boxheight}{\printatom{#2}}
+\makebox[\mcf@boxwidth][#1]{\raisebox{0pt}[\mcf@boxheight][0pt]{\printatom{#3}}}}
+
+\newcommand{\mcfleft}[2]{\mcf@box[r]{#2}{#1#2}}
+\newcommand{\mcfright}[2]{\mcf@box{#1}{#1#2}}
+
+\newcommand{\mcfaboveright}[3]{\mcfabove{#1}{\mcf@box{#2}{#2#3}}}
+\newcommand{\mcfbelowright}[3]{\mcfbelow{#1}{\mcf@box{#2}{#2#3}}}
+
+%============================================================%
+%   CHARGES
+%============================================================%
+
+\NewDocumentCommand \mcfplus  {}{+}
+
+\NewDocumentCommand \mcfminus {}{-}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

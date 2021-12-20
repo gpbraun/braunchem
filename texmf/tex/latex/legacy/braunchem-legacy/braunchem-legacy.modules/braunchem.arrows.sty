@@ -1,0 +1,357 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{arrows}{2019/10/11}{beta}{ Chemistry arrows }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   ARROW COMMAND                
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   GERNERAL ARROW KEYS
+%============================================================%
+
+\dim_new:N    \l_arrow_len_dim
+\dim_const:Nn \c_arrow_base_len_dim   { 4.0 em }
+\dim_const:Nn \c_arrow_base_shift_dim { 0.3 em }
+
+\keys_define:nn { arrows }
+{
+    % ARROW LENGHT
+    len .code:n      = \dim_set:Nn \l_arrow_len_dim { #1 \c_arrow_base_len_dim },
+    len .initial:n   = 1,
+
+    % FLIP ARROW DIRECTION
+    flip .bool_set:N  = \l_arrow_flip_bool,
+    flip .initial:n   = false,
+    flip .default:n   = true,
+
+    % EQUILIBRIUM ARROW SEPARATION
+    eq-sep .dim_set:N   = \l_arrow_eq_sep_dim,
+    eq-sep .initial:n   = 0.6ex,
+
+    % MULTIPLE ARROW SEPARATION
+    multi-sep .dim_set:N   = \l_arrow_multi_sep_dim,
+    multi-sep .initial:n   = 1.0ex,
+
+    % HORIZONTAL SPACE
+    hspace .skip_set:N  = \l_arrow_hspace_skip,
+    hspace .initial:n   = 0.3 em,
+
+    % VERTICAL SHIFT
+    yshift .dim_set:N   = \l_arrow_yshift_dim,
+    yshift .initial:n   = 0 pt,
+
+    % ARROW ANGLE
+    angle .fp_set:N    = \l_arrow_angle_fp,
+    angle .initial:n   = 0.0,
+}
+
+\NewDocumentCommand{\ArrowSet}
+{ m }
+{
+    \keys_set:nn { arrows } { #1 }    
+}
+
+%============================================================%
+%   ARROW COMMAND DEFINITION
+%============================================================%
+
+\bool_new:N \l_arrow_reverse_bool
+
+\NewDocumentCommand \arrow
+{ s D(){} O{} }
+{
+    \group_begin:
+
+        \IfBooleanT{#1}
+        { \bool_set_true:N \l_arrow_flip_bool }
+
+        \arrow_set:nn {#2} {#3}
+
+        \skip_horizontal:N \l_arrow_hspace_skip
+
+        \coffin_typeset:Nnnnn \l_arrow_body_coffin 
+        { \l_arrow_body_coffin-l } { \l_arrow_body_coffin-vc } {-0.5pt} {\c_arrow_base_shift_dim}
+        
+        \skip_horizontal:N \l_arrow_hspace_skip
+
+    \group_end:
+}
+
+%============================================================%
+%   ARROW TEXT
+%============================================================%
+
+\tl_new:N     \l_arrow_text_align_tl
+\bool_new:N   \l_arrow_vertical_bool
+
+\coffin_new:N \l_arrow_text_coffin
+
+\keys_define:nn { arrow-text }
+{
+    xshift  .dim_set:N   = \l_arrow_text_xshift_dim,
+    yshift  .dim_set:N   = \l_arrow_text_yshift_dim,
+    align   .choices:nn  = {c,l,r} { \tl_set:Nn \l_arrow_text_align_tl {#1} },
+    free    .bool_set:N  = \l_arrow_free_bool,
+
+    % INITIAL VALUES
+
+    xshift  .initial:n   = 0pt,
+    yshift  .initial:n   = 0pt,
+    align   .initial:n   = c,
+    free    .initial:n   = true,
+
+    % DEFAULT VALUES
+
+    align   .default:n   = l,
+    free    .default:n   = true,
+}
+
+\cs_new:Nn \arrow_text_set:nn
+{
+	\seq_set_split:Nnn \l_tmpb_seq {!} { #1 }
+
+	\keys_set:nx { arrow-text } { \seq_item:Nn \l_tmpb_seq {2} }
+
+    \tl_set:Nn  \l_molecule_align_tl   {b}
+    \dim_set:Nn \l_molecule_yshift_dim {-1ex}
+
+    \vcoffin_set:Nnn \l_arrow_text_coffin
+    { \l_arrow_len_dim - \l_arrow_text_xshift_dim }
+    {
+	    \str_case_e:nn { \l_arrow_text_align_tl }
+	    {
+	        { c }{ \centering   } 
+	        { l }{ \raggedright }
+	        { r }{ \raggedleft  } 
+        } 
+        %\hbox:n{
+	    	\sffamily \seq_item:Nn \l_tmpb_seq {1} 
+        %}
+    }
+
+    %% Join text and arrow
+
+    \clist_set:Nn \l_tmpa_clist {#2}
+
+    \cs:w coffin_ \bool_if:NTF \l_arrow_free_bool {join}{attach} :NxxNxxnn \cs_end:
+    \l_arrow_body_coffin { \clist_item:Nn\l_tmpa_clist {1} }{ \clist_item:Nn\l_tmpa_clist {2} }
+    \l_arrow_text_coffin { \clist_item:Nn\l_tmpa_clist {3} }{ \clist_item:Nn\l_tmpa_clist {4} } 
+    {0pt}{\l_arrow_text_yshift_dim}
+}
+
+\cs_generate_variant:Nn \coffin_join:NnnNnnnn   { NxxNxxnn }
+\cs_generate_variant:Nn \coffin_attach:NnnNnnnn { NxxNxxnn }
+\cs_generate_variant:Nn \arrow_text_set:nn      {    xx    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SET ARROW              
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cs_new:Nn \arrow_set:nn
+{
+	\seq_set_split:Nnn \l_tmpa_seq {|} { #2 }
+
+    %% Set arrow style and keys
+
+    \clist_set:Nn        \l_tmpa_clist { -> , #1 }
+    \clist_map_inline:Nn \l_tmpa_clist
+    {
+        \prop_if_in:NnT  \l_arrow_styles_prop  { ##1 }
+        {
+            \tl_set:Nn \l_tmpa_tl { ##1 }
+            \clist_remove_all:Nn \l_tmpa_clist { ##1 }
+        }
+    }
+	\keys_set:nx { arrows } { \clist_use:Nn \l_tmpa_clist {,} }    
+
+    \arrow_style_set:x { \l_tmpa_tl }
+
+    %% Set top/right text and keys
+
+    \bool_if:NT \l_arrow_vertical_bool 
+    {
+    	\tl_set:Nn        \l_arrow_text_align_tl {l}	
+    	\bool_set_false:N \l_arrow_free_bool
+    }
+
+    \arrow_text_set:xx  { \seq_item:Nn \l_tmpa_seq {1} }  
+	{ \bool_if:NTF \l_arrow_vertical_bool {r,vc,l,H}{r,t,r,H} }
+
+    %% Set bottom/left text and keys
+
+    \bool_if:NT \l_arrow_vertical_bool 
+    {
+    	\tl_set:Nn        \l_arrow_text_align_tl {r}	
+    	\bool_set_false:N \l_arrow_free_bool
+    }
+
+    \arrow_text_set:xx  { \seq_item:Nn \l_tmpa_seq {2} } 
+    { \bool_if:NTF \l_arrow_vertical_bool {l,vc,r,H}{r,b,r,t} }
+}
+
+\cs_generate_variant:Nn \keys_set:nn { nx }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   ARROW BODY              
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\coffin_new:N \l_arrow_body_coffin
+
+\cs_new:Nn \arrow_style_set:n
+{
+    \hbox_set_to_wd:Nnn \l_tmpa_box { \l_arrow_len_dim }
+    { \prop_item:Nn \l_arrow_styles_prop {#1} }
+
+    %% Set arrow margins
+
+    \box_set_dp:Nn \l_tmpa_box { 1.3ex + \l_arrow_yshift_dim - \box_ht:N \l_tmpa_box / 2 }
+    \box_set_ht:Nn \l_tmpa_box { 1.3ex + \l_arrow_yshift_dim + \box_ht:N \l_tmpa_box / 2 }
+
+    %% Flip box
+
+    \bool_lazy_and:nnT { \l_arrow_flip_bool } { !(\l_arrow_vertical_bool) }
+    { \box_scale:Nnn \l_tmpa_box { -1 } { 1 } }
+
+    %% Rotate box
+
+    \fp_compare:nF { \l_arrow_angle_fp = 0 }
+    { \box_rotate:Nn \l_tmpa_box { \l_arrow_angle_fp } }
+
+    %% Set arrow coffin
+
+    \hcoffin_set:Nn \l_arrow_body_coffin { \box_use:N \l_tmpa_box }
+}
+
+\cs_generate_variant:Nn \arrow_style_set:n { x }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   ARROW STYLES             
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cs_new:Nn \tikz_dim:N 
+{ % Converts an LaTeX3 dimension variable into tikz dimension units
+   \dim_to_decimal_in_unit:nn { #1 } { 1cm } 
+}
+
+\prop_new:N \l_arrow_styles_prop
+
+%============================================================%
+%   NOTHING
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ none }{ }
+
+%============================================================%
+%   STRAIGHT LINE
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ - }
+{
+    \tikzpicture
+        \draw[ chemline ]
+            ( 0 , 0 ) -- ( \tikz_dim:N \l_arrow_len_dim , 0 );
+    \endtikzpicture 
+}
+
+%============================================================%
+%   REACTION ARROW
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ -> }
+{
+    \tikzpicture
+        \draw[ chemline , arrows={-CF} ]
+            ( 0 , 0 ) -- ( \tikz_dim:N \l_arrow_len_dim , 0 );
+    \endtikzpicture 
+}
+
+%============================================================%
+%   REVERSE ARROW
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ <- }
+{
+    \tikzpicture
+        \draw[ chemline , arrows={CF-} ]
+            ( 0 , 0 ) -- ( \tikz_dim:N \l_arrow_len_dim , 0 );
+    \endtikzpicture 
+}
+
+%============================================================%
+%   RESSONANCE ARROW
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ <-> }
+{
+    \tikzpicture
+        \draw[ chemline , arrows={CF-CF} ] 
+            ( 0 , 0 ) -- ( \tikz_dim:N \l_arrow_len_dim , 0 );
+    \endtikzpicture 
+}
+
+%============================================================%
+%   EQUILIBRIUM ARROW
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ <=> }
+{
+    \tikzpicture
+        \draw[ chemline , arrows={-CF[harpoon]} ] 
+            ( 0 , \tikz_dim:N \l_arrow_eq_sep_dim ) -- ( \tikz_dim:N \l_arrow_len_dim , \tikz_dim:N \l_arrow_eq_sep_dim );
+        \draw[ chemline , arrows={-CF[harpoon]} ] 
+            ( \tikz_dim:N \l_arrow_len_dim , 0    ) -- ( 0 , 0 );
+    \endtikzpicture 
+}
+
+%============================================================%
+%   MULTIPLE STEP ARROW
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ ->> }
+{
+    \tikzpicture
+        \draw[ chemline , arrows={-CF} ] 
+            ( 0 , \tikz_dim:N \l_arrow_multi_sep_dim ) -- ( \tikz_dim:N \l_arrow_len_dim * 0.9 , \tikz_dim:N \l_arrow_multi_sep_dim );
+        \draw[ chemline , arrows={-CF} ] 
+            ( \tikz_dim:N \l_arrow_len_dim * 0.1 , 0 ) -- ( \tikz_dim:N \l_arrow_len_dim , 0 );
+    \endtikzpicture 
+}
+
+%============================================================%
+%   RETROSYNTHESIS ARROW
+%============================================================%
+
+\prop_put:Nnn \l_arrow_styles_prop
+{ => }
+{
+    \tikzpicture
+        \draw[ chemline , -Implies , double~distance = \l_arrow_eq_sep_dim  ] 
+            ( 0 , 0 ) -- ( \tikz_dim:N \l_arrow_len_dim , 0 );
+    \endtikzpicture 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,276 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{schemes}{2019/10/11}{beta}{ Organic Reaction Schemes }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SCHEME ENVIRONMENT AND COMMANDS                  
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   GENERAL SCHEME KEYS
+%============================================================%
+
+\keys_define:nn { schemes }
+{
+    scale      .fp_set:N   = \l_scheme_scale_fp,
+    width      .dim_set:N  = \l_scheme_width_dim,
+    spacing    .skip_set:N = \l_scheme_spacing_skip,
+    fill       .bool_set:N = \l_scheme_fill_bool,
+    reverse    .bool_set:N = \l_scheme_reverse_bool,
+    depth      .dim_set:N  = \l_scheme_depth_dim,
+    fix-depth  .bool_set:N = \l_scheme_fix_depth_bool,
+
+    % INITIAL VALUES
+
+    scale      .initial:n  = 1.0,
+    width      .initial:n  = \linewidth,
+    spacing    .initial:n  = 1em,
+    fill       .initial:n  = false,
+    reverse    .initial:n  = true,
+    depth      .initial:n  = 4.5em,
+    fix-depth  .initial:n  = false,
+
+    % DEFAULT VALUES
+
+    fill       .default:n  = true,
+    reverse    .default:n  = true,
+    fix-depth  .default:n  = true,
+}
+
+\NewDocumentCommand{\SchemeSet}
+{ m }
+{
+    \keys_set:nn { schemes } { #1 }    
+}
+
+%============================================================%
+%   SCHEME ENVIRONMENT
+%============================================================%
+
+\cs_new:Nn \scheme_input:n
+{
+    \seq_set_split:Nnn \l_tmpa_seq {;} { #1 } 
+    \seq_use:Nn \l_tmpa_seq { \skip_horizontal:N \l_scheme_spacing_skip }
+}
+
+\cs_new:Nn \scheme_typeset:Nn
+{
+    \group_begin:
+
+        %% Get input from user
+
+        \seq_set_split:Nnx \l_tmpa_seq {;} { \seq_item:Nn #1 {#2} } 
+
+        %% Reverse even lines
+
+        \bool_lazy_and:nnT { \int_if_even_p:n {#2} } { \l_scheme_reverse_bool }
+        { 
+            \seq_reverse:N   \l_tmpa_seq
+            \bool_set_true:N \l_fork_flip_bool 
+            \bool_set_true:N \l_arrow_flip_bool 
+        }
+
+        %% Set box
+
+        \hbox_set_to_wd:Nnn \l_tmpa_box { \fp_eval:n{1/\l_scheme_scale_fp} \l_scheme_width_dim - 1em }
+        {
+            \tex_hfill:D
+            %\bool_if:NT \l_scheme_fill_bool { \tex_hfill:D }
+            \seq_use:Nn \l_tmpa_seq 
+            { 
+                \bool_if:NT \l_scheme_fill_bool 
+                { \tex_hfill:D }
+                    %\int_compare:nNnT { #2 } < { \seq_count:N #1 } { \tex_hfill:D } 
+                %}
+                %
+                \skip_horizontal:N \l_scheme_spacing_skip 
+            }
+            %\bool_if:NF \l_scheme_fill_bool { \tex_hfill:D }
+            %\tex_hfill:D
+        }
+
+        %% Set line margins (for evenly spaced arrows)
+
+        \int_compare:nNnT { #2 } > { 1 }
+        {
+            \bool_if:NTF \l_scheme_fix_depth_bool
+            {
+                \box_set_ht:Nn \l_tmpa_box { \l_scheme_depth_dim }
+            }
+            {
+                \box_set_ht:Nn \l_tmpa_box { 3.5em + \box_ht:N \l_tmpa_box / 2 }
+            }
+            
+        }
+        \int_compare:nNnT { #2 } < { \seq_count:N #1 }
+        {
+            \bool_if:NTF \l_scheme_fix_depth_bool
+            {
+                \box_set_dp:Nn \l_tmpa_box { \l_scheme_depth_dim }
+            }
+            {
+                \box_set_dp:Nn \l_tmpa_box { 3.5em - \box_ht:N \l_tmpa_box / 2 }
+            }
+        }
+            
+        %% Typeset adjusted scheme line box
+
+        \box_use:N \l_tmpa_box
+
+        \int_compare:nNnT { #2 } < { \seq_count:N #1 } { \mode_leave_vertical:\\ }
+
+    \group_end:
+}
+
+\cs_generate_variant:Nn \seq_set_split:Nnn { Nnx }
+
+\NewCoffin\Scheme_Coffin
+
+\seq_new:N \l_scheme_seq
+
+\tl_new:N  \l_scheme_tl
+
+\DeclareDocumentEnvironment {scheme}
+{ O{}  d() > { \TrimSpaces } +b }
+{
+    \group_align_safe_begin:
+
+        \hfuzz=\maxdimen
+
+        \seq_set_split:Nnn \l_scheme_seq {?} { #3 } 
+
+        \tl_set:Nn  \l_molecule_align_tl   {vc}
+        \dim_set:Nn \l_arrow_hspace_skip   {0.3em}
+        \dim_set:Nn \l_molecule_yshift_dim {0.3em}
+
+        \keys_set:nn { schemes } { #1 }
+
+        \SetVerticalCoffin \Scheme_Coffin { \fp_eval:n{1/\l_scheme_scale_fp} \linewidth - 1em}
+        {
+            \bigskip
+            %\centering
+            \seq_indexed_map_inline:Nn \l_scheme_seq
+            { 
+                \scheme_typeset:Nn \l_scheme_seq {##1} 
+            } 
+            \bigskip
+        }
+
+        \ScaleCoffin \Scheme_Coffin {\l_scheme_scale_fp} {\l_scheme_scale_fp}
+}
+{
+        \TypesetCoffin\Scheme_Coffin
+
+        \IfValueT{#2}
+        {
+            \center \sffamily #2 \endcenter
+        }
+        
+    \group_align_safe_end:
+}
+
+%============================================================%
+%   QUALITY OF LIFE MACROS FOR SCIENCE
+%============================================================%
+
+\NewDocumentCommand \rxn
+{ D(){len=0.75} O{} m }
+{
+    \braun_reaction:nnn {#1}{#2}{#3}
+}
+
+\seq_new:N \l_braun_reaction_seq
+
+\cs_new:Nn \braun_reaction:nnn
+{
+    \hfuzz=\maxdimen
+    \group_begin:
+    
+    \seq_set_split:Nnn \l_braun_reaction_seq {->} {#3}
+
+    \braun_reaction_segment:e
+    { \seq_item:Nn \l_braun_reaction_seq {1} }
+
+    \;\arrow(#1)[#2]\;
+
+    \braun_reaction_segment:e
+    { \seq_item:Nn \l_braun_reaction_seq {2} }
+
+    \group_end:
+}
+
+\cs_new:Nn \braun_reaction_segment:n
+{
+    \group_begin:
+        \seq_set_split:Nnn \l_tmpa_seq {+} {#1}
+        \seq_map_inline:Nn \l_tmpa_seq {
+            \seq_put_right:Nn \l_tmpb_seq
+            { 
+                \ch { ##1 } 
+            } 
+        }
+        \seq_use:Nn \l_tmpb_seq {\;+\;}
+    \group_end:
+}
+\cs_generate_variant:Nn \braun_reaction_segment:n {e}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   HOOK COMMAND                
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%============================================================%
+%   HOOK COMMAND DEFINITION
+%============================================================%
+
+\NewDocumentCommand \hook
+{ D(){} O{} D(){} O{} }
+{
+    \group_begin:
+
+        \hook_set:nnnn {#1} {#2} {#3} {#4}
+
+        \coffin_typeset:Nnnnn  \l_tmpa_coffin
+        { \l_tmpa_coffin-l } { \l_tmpa_coffin-H } {0pt} {\c_arrow_base_shift_dim}
+
+        \hspace{-0.9ex}
+
+    \group_end:
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SET HOOK        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cs_new:Nn \hook_set:nnnn
+{
+    \arrow_set:nn {-,#1}{#2}
+
+    \coffin_set_eq:NN \l_tmpa_coffin \l_arrow_body_coffin
+
+    \fp_set:Nn        \l_arrow_angle_fp {-90}
+
+    \bool_set_true:N  \l_arrow_vertical_bool
+
+    \arrow_set:nn {->,#3}{#4}
+
+    \coffin_join:NxxNxxnn
+    \l_tmpa_coffin        { \bool_if:NTF \l_arrow_flip_bool {l} {r} }{H}
+    \l_arrow_body_coffin  {hc}{t} 
+    {0pt}{0.5pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

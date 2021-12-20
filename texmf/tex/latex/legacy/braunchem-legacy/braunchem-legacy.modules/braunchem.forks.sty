@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{forks}{2019/10/11}{beta}{ Chemistry forks }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   FORK AND HOOK COMMAND                
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%============================================================%
+%   GENERAL FORK KEYS
+%============================================================%
+
+\dim_new:N \l_fork_x_len_dim
+\dim_new:N \l_fork_y_len_dim
+
+\keys_define:nn { forks }
+{
+    dist       .code:n      = \dim_set:Nn \l_fork_y_len_dim { #1 \c_arrow_base_len_dim },
+    angle      .code:n      = \dim_set:Nn \l_fork_x_len_dim { \fp_eval:n { tand(#1) } \l_fork_y_len_dim },
+    flip       .bool_set:N  = \l_fork_flip_bool,
+
+    % INITIAL VALUES
+
+    dist       .initial:n   = 1,
+    angle      .initial:n   = 15,
+    flip       .initial:n   = false,
+
+    % DEFAULTS
+
+    flip       .default:n   = true,
+}
+
+\NewDocumentCommand \ForkSet
+
+{ m }
+{
+    \keys_set:nn { forks } { #1 }    
+}
+
+%============================================================%
+%   FORK COMMAND DEFINITION
+%============================================================%
+
+\NewDocumentCommand \fork
+{ s O{} D(){-} O{} D(){->} O{} D(){->} O{} }
+{
+    \group_begin:
+
+    	\IfBooleanT{#1}
+    	{ 
+    		\bool_set_true:N \l_fork_flip_bool 
+    		\bool_set_true:N \l_arrow_flip_bool 
+    	}
+
+        \keys_set:nn { forks } { #2 }
+
+        \fork_set:nnnnnn {#3}{#4}{#5}{#6}{#7}{#8}
+
+        \coffin_typeset:Nnnnn 
+        \l_fork_body_coffin {l} {\l_fork_body_coffin-vc} {0pt} {\c_arrow_base_shift_dim}
+
+    \group_end:
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SET FORK             
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cs_new:Nn \fork_arrow_set:nnnnnn
+{
+	\arrow_set:nn {#1}{#2}
+
+    \coffin_join:NnnNnnnn
+    \l_fork_body_coffin  {#3}{#5}
+    \l_arrow_body_coffin {\l_arrow_body_coffin-#4}{\l_arrow_body_coffin-vc}{0pt}{#6}
+}
+
+\cs_new:Nn \fork_set:nnnnnn
+{
+    \fork_style_set:
+
+    %% Set middle arrow
+
+    \bool_if:NTF \l_fork_flip_bool
+    { \fork_arrow_set:nnnnnn {#1}{#2}{r}{l}{vc}{0pt} }
+    { \fork_arrow_set:nnnnnn {#1}{#2}{l}{r}{vc}{0pt} }
+
+    %% Set top arrow
+
+    \bool_if:NTF \l_fork_flip_bool
+    { \fork_arrow_set:nnnnnn {#3}{#4}{\l_fork_body_coffin-l}{r}{\l_fork_body_coffin-t}{-\l_Line_Width_dim/2} }
+    { \fork_arrow_set:nnnnnn {#3}{#4}{\l_fork_body_coffin-r}{l}{\l_fork_body_coffin-t}{-\l_Line_Width_dim/2} }
+
+    %% Set bottom arrow
+
+    \bool_if:NTF \l_fork_flip_bool
+    { \fork_arrow_set:nnnnnn {#5}{#6}{\l_fork_body_coffin-l}{r}{\l_fork_body_coffin-b}{+\l_Line_Width_dim/2} }
+    { \fork_arrow_set:nnnnnn {#5}{#6}{\l_fork_body_coffin-r}{l}{\l_fork_body_coffin-b}{+\l_Line_Width_dim/2} }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   FORK BODY        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\coffin_new:N \l_fork_body_coffin
+
+\cs_new:Nn \fork_style_set:
+{
+    \hbox_set_to_wd:Nnn \l_tmpa_box { \l_fork_x_len_dim }
+    {
+        \tikzpicture
+            \draw[ chemline , line~cap=round ] 
+               ( \tikz_dim:N \l_fork_x_len_dim , - \tikz_dim:N \l_fork_y_len_dim ) 
+            -- ( 0 , 0 )
+            -- ( \tikz_dim:N \l_fork_x_len_dim ,   \tikz_dim:N \l_fork_y_len_dim );
+        \endtikzpicture   
+    }
+
+    \bool_if:NT \l_fork_flip_bool
+    { \box_scale:Nnn \l_tmpa_box {-1} {1} }
+
+    \hcoffin_set:Nn \l_fork_body_coffin { \box_use:N \l_tmpa_box }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   STACK COMMAND                
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%============================================================%
+%   GENERAL STACK KEYS
+%============================================================%
+
+\dim_new:N \l_stack_ylen_dim
+
+\keys_define:nn { stacks }
+{
+    dist       .code:n      = \dim_set:Nn \l_stack_ylen_dim { #1 \c_arrow_base_len_dim },
+    yshift     .dim_set:N   = \l_stack_yshift_dim,
+    align      .tl_set:N    = \l_stack_align_tl,
+
+    % INITIAL VALUES
+
+    dist       .initial:n   = 1,
+    yshift     .initial:n   = 1em,
+    align      .initial:n   = hc,
+
+    % DEFAULT VALUES
+
+    align      .default:n   = l,
+}
+
+\NewDocumentCommand{\StackSet}
+{ m }
+{
+    \keys_set:nn { stacks } { #1 }    
+}
+
+%============================================================%
+%   STACK COMMAND DEFINITION
+%============================================================%
+
+\NewDocumentCommand \stack
+{ O{} D(){} O{} +m +m }
+{
+    \group_begin:
+
+        \keys_set:nn { stacks } { #1 }   
+
+        \stack_set:nnnn {#2} {#3} {#4} {#5}
+
+        \coffin_typeset:Nnnnn \l_stack_body_coffin {l} {H} {0pt} {-\l_stack_ylen_dim}
+
+    \group_end:
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SET STACK           
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\coffin_new:N \l_stack_body_coffin
+
+\cs_new:Nn \stack_set:nnnn
+{
+    \hcoffin_set:Nn \l_stack_body_coffin { \scheme_input:n {#3} }
+
+    \hcoffin_set:Nn \l_tmpa_coffin       { \scheme_input:n {#4} }
+
+    %% Set arrow length
+
+    \dim_set:Nn \l_arrow_len_dim
+    { 
+    	2 \l_stack_ylen_dim   %- %0.5 \coffin_ht:N\l_stack_body_coffin - 0.5 \coffin_ht:N\l_tmpa_coffin 
+      - 2 \l_stack_yshift_dim - \coffin_dp:N\l_tmpa_coffin %- 0.5 \coffin_dp:N\l_tmpa_coffin
+    } 
+
+    \fp_set:Nn       \l_arrow_angle_fp {-90}
+
+    \bool_set_true:N \l_arrow_vertical_bool
+
+    \arrow_set:nn {none,#1}{#2}
+
+    \coffin_attach:NnnNnnnn
+    \l_stack_body_coffin  {hc}{t}
+    \l_arrow_body_coffin  {hc}{b} 
+    {0pt}{ \l_stack_yshift_dim }
+
+    \coffin_join:NxxNxxnn
+    \l_stack_body_coffin  {\l_stack_align_tl}{H}
+    \l_tmpa_coffin        {\l_stack_align_tl}{H} 
+    {0pt}{ 2 \l_stack_ylen_dim }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

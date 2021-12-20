@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  ______                       _____ _                      %
+%  | ___ \                     /  __ \ |                     %
+%  | |_/ /_ __ __ _ _   _ _ __ | /  \/ |__   ___ _ __ ___    %
+%  | ___ \ '__/ _` | | | | '_ \| |   | '_ \ / _ \ '_ ` _ \   %
+%  | |_/ / | | (_| | |_| | | | | \__/\ | | |  __/ | | | | |  %
+%  \____/|_|  \__,_|\__,_|_| |_|\____/_| |_|\___|_| |_| |_|  %
+%                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  The BRAUNCHEM Package
+%
+%          --  Beautiful Reaction Schemes  -- 
+%
+%============================================================%
+%
+%  GABRIEL P. BRAUN, 2019-2021
+%
+%============================================================%
+%
+%  CONTACT: braun.pineschi@gmail.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE REQUIREMENTS AND SETUP                   
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{ chemfig, xcoffins, tikz, expl3, xparse, chemmacros, chemgreek }
+
+\chemsetup
+{
+    modules=all,
+    formula={chemformula},
+    greek=upgreek,
+}
+
+\usetikzlibrary{ backgrounds, calc, decorations }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplPackage{braunchem-legacy}{2019/10/11}{alpha}{ Beautiful Reaction Schemes }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   STRUCTURE STYLE                      
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cs_new:Npn \chb #1 { \ch { \bfseries #1 } }
+
+%============================================================%
+%   STYLE PARAMETERS
+%============================================================%
+
+\sffamily
+
+\tl_const:Nn \l_Fixed_Lenght_tl { 1.44 em }
+\tl_const:Nn \l_Bold_Width_tl   { 0.30 em }
+\tl_const:Nn \l_Line_Width_tl   { 0.06 em }
+\tl_const:Nn \l_Margin_Width_tl { 0.16 em }
+\tl_const:Nn \l_Hash_Spacing_tl { 0.25 em }
+\tl_const:Nn \l_Bond_Spacing_tl { 0.26 em }
+
+\dim_const:Nn \l_Line_Width_dim   { \l_Line_Width_tl }
+
+\file_input:n { braunchem-legacy.modules / braunchem.config.sty }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   ORGANIC CHEMISTRY MODULES        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\file_input:n { braunchem-legacy.modules / braunchem.schemes.sty   }
+
+\file_input:n { braunchem-legacy.modules / braunchem.arrows.sty    }
+
+\file_input:n { braunchem-legacy.modules / braunchem.forks.sty     }
+
+\file_input:n { braunchem-legacy.modules / braunchem.molecules.sty }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
