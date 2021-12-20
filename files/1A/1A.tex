@@ -20,13 +20,13 @@
 
 \logo{pensi}
 
-\DBPath{../../}
+\DBPath{../../database}
 
 \begin{document}
 
 \maketitle[botrule=true]
 
-\makedata[front-data=false,front-data=false,math/math={ ln(2)/ln(10), ln(3)/ln(10) }, elements/style=ptable]
+\makedata[front-data=true,math/math={ ln(2)/ln(10), ln(3)/ln(10) }, elements/style=ptable]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -36,7 +36,8 @@
 
 \InputDB
 {
-    1A01
+    1A01, 
+    1A02
 }
 
 \makegaba

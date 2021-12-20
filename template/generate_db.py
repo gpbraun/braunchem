@@ -52,4 +52,4 @@ def generate_db(db_path):
     print(f'COUNT: {count}')
 
 if __name__ == "__main__":
-    generate_db(sys.argv[1])
+    generate_db("../database")
