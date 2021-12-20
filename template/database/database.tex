@@ -1,0 +1,609 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   TEMPLATE FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{braun.problems.db}{2021/07/03}{1.0}%
+{ Braun Template - Problem Parameter Management }
+
+
+%============================================================%
+%   DEFINITIONS
+%============================================================%
+
+\ExplSyntaxOff
+
+\AddDefinition{CNTP}{condições normais de temperatura e pressão (CNTP) }{ \qty{0}{\degreeCelsius} e \qty{1}{atm} }
+
+\AddDefinition{Atm}{composição do ar atmosférico }{ \qty{80}{\%} \ch{N2} e \qty{20}{\%} \ch{O2} }
+
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   DEFAULT CONSTANTS         
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{g}
+{ aceleração~da~gravidade }{ g }
+{9.80665}{\meter\per\square\second}
+
+\AddData{e}
+{ carga~elementar }{ e }
+{1.602176634e-19}{\coulomb}
+
+\AddData{F}
+{ constante~de~Faraday }{ F }
+{96485.3321233}{\coulomb\per\mol}
+
+\AddData{Na}
+{ constante~de~Avogadro }{ N\c_math_subscript_token A }
+{6.02214086e23}{\per\mol}
+
+\AddData{h}
+{ constante~de~Planck }{ h }
+{6.62607015e-34}{\joule\second}
+
+\AddData{Ryd}
+{ constante~de~Rydberg }{ \mathcal{R}\c_math_subscript_token \infty }
+{10973731.568160}{\per\meter}
+
+\AddData{R}
+{ constante~dos~gases~ideais }{ R }
+{8.31446261815324}{\joule\per\kelvin\per\mol}
+     
+\AddData{me}
+{ massa~do~elétron }{ m \c_math_subscript_token e }
+{9.1093837015e-31}{\kilo\gram}
+
+\AddData{mp}
+{ massa~do~próton }{ m \c_math_subscript_token p }
+{1.672621777e-27}{\kilo\gram}
+
+\AddData{mn}
+{ massa~do~neutron }{ m \c_math_subscript_token n }
+{1.674927471e-27}{\kilo\gram}
+
+
+\AddData{c}
+{ velocidade~da~luz~no~vácuo }{ c }
+{299792458}{\meter\per\second}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THERMOCHEMICAL DATA  
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usechemmodule{symbols}
+
+\ExplSyntaxOff
+
+\AddData{Hs-Mg}
+{energia de sublimação do magnésio}{\Delta_{\text{sub}} H^{\standardstate}_{\ch{Mg}}}{147.1}{\kilo\joule\per\mol}
+
+
+\AddData{EI-H}
+{energia de ionização do hidrogênio}{EI_{\ch{H}}}{1312}{\kilo\joule\per\mol}
+
+\AddData{EI1-Mg}
+{energia de ionização 1 magnésio}{EI_{1,\ch{Mg}}}{737.7}{\kilo\joule\per\mol}
+
+\AddData{EI2-Mg}
+{energia de ionização 2 magnésio}{EI_{2,\ch{Mg}}}{1450.7}{\kilo\joule\per\mol}
+
+\AddData{El-H-H}
+{energia de ligação \ch{H-H}}{EL_{\ch{H-H}}}{436}{\kilo\joule\per\mol}
+
+\AddData{El-Br-Br}
+{energia de ligação \ch{Br-Br}}{EL_{\ch{Br-Br}}}{193}{\kilo\joule\per\mol}
+
+\AddData{El-H-Br}
+{energia de ligação \ch{H-Br}}{EL_{\ch{H-Br}}}{366}{\kilo\joule\per\mol}
+
+%============================================================%
+%   BORON
+%============================================================%
+
+\AddData{Hf-BN(s)}
+{Entalpia de formação do \ch{BN} sólido}{\Delta_{f} H^{\standardstate}_{\ch{BN\sld}}}{-254}{\kilo\joule\per\mol}
+
+\AddData{Hf-BF3(g)}
+{Entalpia de formação do \ch{BF3} gasoso}{\Delta_{f} H^{\standardstate}_{\ch{BF3\gas}}}{-1136}{\kilo\joule\per\mol}
+
+%============================================================%
+%   CARBON
+%============================================================%
+
+%% CO2
+
+\AddData{Hf-PbSO4(s)}
+{Entalpia de formação do sulfato de chumbo (II) sólido}{\Delta_{f} H^{\standardstate}_{\ch{PbSO4\sld}}}{-981.4}{\kilo\joule\per\mol}
+
+\AddData{Hf-diamante}
+{Entalpia de formação do diamante}{\Delta_{f} H^{\standardstate}_{\ch{diamante}}}{2}{\kilo\joule\per\mol}
+
+\AddData{S-grafite}
+{Entropia do grafite}{S^{\standardstate}_{\ch{diamante}}}{5.5}{\joule\per\kelvin\per\mol}
+
+\AddData{S-diamante}
+{Entropia do diamante}{S^{\standardstate}_{\ch{diamante}}}{3.5}{\joule\per\kelvin\per\mol}
+
+\AddData{Hf-CO2(g)}
+{Entalpia de formação do \ch{CO2} gasoso}{\Delta_{f} H^{\standardstate}_{\ch{CO2\gas}}}{-393.51}{\kilo\joule\per\mol}
+
+\AddData{Hf-CO2(g)-cal}
+{Entalpia de formação do \ch{CO2} gasoso}{\Delta_{f} H^{\standardstate}_{\ch{CO2\gas}}}{-94.1}{\kilo\cal\per\mol}
+
+\AddData{Cp-CO2(g)}
+{Capacidade calorífica do \ch{CO2} gasoso}{C_{p,\ch{CO2\gas}}}{37.11}{\joule\per\mol\per\kelvin}
+
+%% CO
+
+\AddData{Hf-CO(g)}
+{Entalpia de formação do \ch{CO} gasoso}{\Delta_{f} H^{\standardstate}_{\ch{CO\gas}}}{-99}{\kilo\joule\per\mol}
+
+%% C8H18
+
+\AddData{Hf-octane(l)}
+{Entalpia de formação do octano líquido}{\Delta_{f} H^{\standardstate}_{\ch{C8H18\lqd}}}{-249.9}{\kilo\joule\per\mol}
+
+%============================================================%
+%   HYDROGEN
+%============================================================%
+
+%% H2O
+
+\AddData{Hf-H2O(l)}
+{Entalpia de formação da água líquida}{\Delta_{f} H^{\standardstate}_{\ch{H2O\lqd}}}{-285.83}{\kilo\joule\per\mol}
+
+\AddData{Hf-H2O(l)-cal}
+{Entalpia de formação da água líquida}{\Delta_{f} H^{\standardstate}_{\ch{H2O\lqd}}}{-68.3}{\kilo\cal\per\mol}
+
+\AddData{Hf-H2O(g)}
+{Entalpia de formação da água gasosa}{\Delta_{f} H^{\standardstate}_{\ch{H2O\gas}}}{-241.82}{\kilo\joule\per\mol}
+
+\AddData{Cp-H2O(g)}
+{Capacidade calorífica da água gasosa}{C_{p,\ch{H2O\gas}}}{33.58}{\joule\per\mol\per\kelvin}
+
+\AddData{c-H2O(l)}
+{Calor específico da água líquida}{c_{\ch{H2O\lqd}}}{4.1844}{\joule\per\gram\per\kelvin}
+
+%============================================================%
+%   OXYGEN
+%============================================================%
+
+%% O2
+
+\AddData{Cp-O2(g)}
+{Capacidade calorífica do \ch{O2} gasoso}{C_{p,\ch{O2\gas}}}{29.36}{\joule\per\mol\per\kelvin}
+
+%============================================================%
+%   NITROGEN
+%============================================================%
+
+%% N2
+
+\AddData{Cp-N2(g)}
+{Capacidade calorífica do \ch{N2} gasoso}{C_{p,\ch{N2\gas}}}{29.12}{\joule\per\mol\per\kelvin}
+
+%============================================================%
+%   In
+%============================================================%
+
+\AddData{Gf-In+3(aq)}
+{Energia livre de formação do \ch{In^{3+}} aquoso}{\Delta_{f} G^{\standardstate}_{\ch{In^{3+}\aq}}}{-97.9}{\kilo\joule\per\mol}
+
+%============================================================%
+%   IODINE
+%============================================================%
+
+\AddData{Hf-IF(g)}
+{Entalpia de formação do \ch{IF} gasoso}{\Delta_{f} H^{\standardstate}_{\ch{IF\sld}}}{-96}{\kilo\joule\per\mol}
+
+%============================================================%
+%   ORGANIC
+%============================================================%
+
+
+\AddData{Hf-C8H18(l)}
+{Entalpia de formação do octano líquido}{\Delta_{f} H^{\standardstate}_{\ch{C8H18\lqd}}}{-249.73}{\kilo\joule\per\mol}
+
+\AddData{Hf-CH4(g)}
+{Entalpia de formação do metano gasoso}{\Delta_{f} H^{\standardstate}_{\ch{CH4\gas}}}{-74.81}{\kilo\joule\per\mol}
+
+\AddData{Hf-C2H4(g)}
+{Entalpia de formação do eteno gasoso}{\Delta_{f} H^{\standardstate}_{\ch{C2H4\gas}}}{52.56}{\kilo\joule\per\mol}
+
+
+%% Benzene
+
+\AddData{Hc-benzene(l)}
+{Entalpia de combustão do benzeno líquido}{\Delta_{c} H^{\standardstate}_{\ch{C6H6\lqd}}}{-3268}{\kilo\joule\per\mol}
+
+\AddData{Hc-benzene(g)}
+{Entalpia de combustão do benzeno gasoso}{\Delta_{c} H^{\standardstate}_{\ch{C6H6\gas}}}{-3302}{\kilo\joule\per\mol}
+
+%% Cicloexano
+
+\AddData{Hc-cyclohexane(l)}
+{Entalpia de combustão do cicloexano líquido}{\Delta_{c} H^{\standardstate}_{\ch{C6H12\lqd}}}{-3920}{\kilo\joule\per\mol}
+
+\AddData{Hc-cyclohexane(g)}
+{Entalpia de combustão do cicloexano gasoso}{\Delta_{c} H^{\standardstate}_{\ch{C6H12\gas}}}{-3953}{\kilo\joule\per\mol}
+
+%% Cicloexeno
+
+\AddData{Hc-cyclohexene(g)}
+{Entalpia de combustão do cicloexeno gasoso}{\Delta_{c} H^{\standardstate}_{\ch{C6H10\lqd}}}{-3750}{\kilo\joule\per\mol}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SOLVENT DATA
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{Kc-H2O}
+{Constante crioscópica da água}{K_{c,\ch{H2O}}}{1.86}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Kb-H2O}
+{Constante ebulioscópica da água}{K_{c,\ch{H2O}}}{0.51}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Hvap-H2O}
+{Entalpia de vaporização da água}{\Delta_\mathrm{vap} H^{\standardstate}_{\ch{H2O}}}{40.0}{\kilo\joule\per\mol}
+
+%============================================================%
+%   BENZENE
+%============================================================%
+
+\AddData{Tf-benzene}
+{Temperatura de fusão do benzeno}{T_{f,\ch{C6H6}}}{5.5}{\celsius}
+
+\AddData{Kc-benzene}
+{Constante crioscópica do benzeno}{K_{c,\ch{C6H6}}}{5.0}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Hfus-benzene}
+{Entalpia de fusão do benzeno}{\Delta_{fus} H^{\standardstate}_{\ch{C6H6}}}{9.9}{\kilo\joule\per\mol}
+
+\AddData{Tb-benzene}
+{Temperatura de ebulição do benzeno}{T_{b,\ch{C6H6}}}{80.1}{\celsius}
+
+\AddData{Kb-benzene}
+{Constante ebulioscópica do benzeno}{K_{c,\ch{C6H6}}}{2.5}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Hvap-benzene}
+{Entalpia de vaporização do benzeno}{\Delta_{vap} H^{\standardstate}_{\ch{C6H6}}}{30.77}{\kilo\joule\per\mol}
+
+\AddData{d-benzene}
+{Densidade do benzeno}{\rho_{\ch{C6H6}}}{879}{\kilo\gram\per\cubic\meter}
+
+\AddData{Pvap-benzene}
+{Pressão de vapor do benzeno}{P_{vap,\ch{C6H6}}}{750}{mmHg}
+
+
+\AddData{d-grafite}
+{Densidade do grafite}{\rho_\text{grafite}}{4.0}{\gram\per\cubic\centi\meter}
+
+\AddData{d-diamante}
+{Densidade do diamante}{\rho_\text{diamante}}{2.4}{\gram\per\cubic\centi\meter}
+
+
+
+%============================================================%
+%   TOLUENE
+%============================================================%
+
+\AddData{Tb-toluene}
+{Temperatura de ebulição do tolueno}{T_{b,\ch{C7H8}}}{111}{\celsius}
+
+\AddData{Kb-toluene}
+{Constante ebulioscópica do tolueno}{K_{c,\ch{C7H8}}}{3.3}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Hvap-toluene}
+{Entalpia de vaporização do tolueno}{\Delta_{vap} H^{\standardstate}_{\ch{C7H8}}}{38.0}{\kilo\joule\per\mol}
+
+\AddData{d-toluene}
+{Densidade do tolueno}{\rho_{\ch{C6H6}}}{862}{\kilo\gram\per\cubic\meter}
+
+\AddData{Pvap-toluene}
+{Pressão de vapor do tolueno}{P_{vap,\ch{C6H6}}}{300}{mmHg}
+
+%============================================================%
+%   CCl4
+%============================================================%
+
+\AddData{Tf-CCl4}
+{Temperatura de fusão do \ch{CCl4}}{T_{f,\ch{CCl4}}}{-23.0}{\celsius}
+
+\AddData{Kc-CCl4}
+{Constante crioscópica do \ch{CCl4}}{K_{c\,\ch{CCl4}}}{30.0}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Hfus-CCl4}
+{Entalpia de fusão do \ch{CCl4}}{\Delta_{fus} H^{\standardstate}_{\ch{CCl4}}}{2.69}{\kilo\joule\per\mol}
+
+\AddData{Tb-CCl4}
+{Temperatura de ebulição do \ch{CCl4}}{T_{b,\ch{CCl4}}}{76.5}{\celsius}
+
+\AddData{Kb-CCl4}
+{Constante ebulioscópica do \ch{CCl4}}{K_{b,\ch{CCl4}}}{5.0}{\kilo\gram\kelvin\per\mol}
+
+\AddData{Hvap-CCl4}
+{Entalpia de vaporização do \ch{CCl4}}{\Delta_{vap} H^{\standardstate}_{\ch{CCl4}}}{32.0}{\kilo\joule\per\mol}
+
+\AddData{d-CCl4}
+{Densidade do \ch{CCl4}}{\rho_{\ch{CCl4}}}{1590}{\kilo\gram\per\cubic\meter}
+
+\AddData{Pvap-CCl4}
+{Pressão de vapor do \ch{CCl4}}{P_{vap,\ch{C6H6}}}{100}{mmHg}
+
+\AddData{Tb-CH2Cl2}
+{Temperatura de ebulição do \ch{CH2Cl2}}{T_{b,\ch{CH2Cl2}}}{76.5}{\celsius}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CONSTANTES DE FORMAÇÃO
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{Kf-Cu(CN)2-}
+{constante de formação do \ch{Cu(CN)2^-}}{K_{\mathrm{f},\ch{Cu(CN)2^-}}}{1e16}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CONSTANTES DE IONIZAÇÃO
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{Ka-CH3CO2H}
+{constante de ionização ácido acético}{K_{\mathrm{a},\ch{C2H4O2}}}{1.8e-5}{}
+
+\AddData{Ka1-H2S}
+{constante de ionização 1 do \ch{H2S}}{K_{\mathrm{a1},\ch{H2S}}}{9.6e-8}{}
+
+\AddData{Ka2-H2S}
+{constante de ionização 2 do \ch{H2S}}{K_{\mathrm{a2},\ch{H2S}}}{1.3e-14}{}
+
+\AddData{Ka1-oxalic-acid}
+{constante de ionização 1 do ácido oxálico}{K_{\mathrm{a1},\ch{H2C2O4}}}{5.6e-2}{}
+
+\AddData{Ka2-oxalic-acid}
+{constante de ionização 2 do ácido oxálico}{K_{\mathrm{a2},\ch{H2C2O4}}}{5.4e-5}{}
+
+\AddData{Ka1-H3PO4}
+{constante de ionização 1 do ácido fosfórico}{K_{\mathrm{a1},\ch{H3PO4}}}{7.11e-3}{}
+
+\AddData{Ka2-H3PO4}
+{constante de ionização 2 do ácido fosfórico}{K_{\mathrm{a2},\ch{H3PO4}}}{6.32e-8}{}
+
+\AddData{Ka3-H3PO4}
+{constante de ionização 3 do ácido fosfórico}{K_{\mathrm{a3},\ch{H3PO4}}}{4.5e-13}{}
+
+\AddData{Ka2-H2SO4}
+{constante de ionização 2 do ácido sulfúrico}{K_{\mathrm{a2},\ch{H2SO4}}}{1.2e-2}{}
+
+\AddData{Ka-HCN}
+{constante de ionização do ácido cianídrico}{K_{\mathrm{a},\ch{HCN}}}{6.2e-10}{}
+
+\AddData{Kb1-nicotine}
+{constante de ionização 1 da nicotina}{K_{\mathrm{b1},\ch{C10H14N2}}}{1e-6}{}
+
+\AddData{Kb2-nicotine}
+{constante de ionização 2 da nicotina}{K_{\mathrm{b2},\ch{C10H14N2}}}{1e-11}{}
+
+\AddData{Ka-HClO}
+{constante de ionização do ácido hipocloroso}{K_{\mathrm{a},\ch{HClO}}}{3.5e-8}{}
+
+\AddData{Ka-HF}
+{constante de ionização do ácido fluorídrico}{K_{\mathrm{a},\ch{HF}}}{6.8e-4}{}
+
+\AddData{Kb-NH3}
+{constante de ionização da amônia}{K_{\mathrm{b},\ch{NH3}}}{1.8e-5}{}
+
+\AddData{Kw}
+{constante de autoionização da água}{K_{\mathrm{w}}}{1e-14}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PRODUTO DE SOLUBILIDADE
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{Kps-NiS}
+{produto de solubilidade do \ch{NiS}}{K_{\mathrm{ps},\ch{NiS}}}{3e-21}{}
+
+\AddData{Kps-Ba(IO3)2}
+{produto de solubilidade do \ch{Ba(IO3)2}}{K_{\mathrm{ps},\ch{Ba(IO3)2}}}{1.57e-9}{}
+
+\AddData{Kps-CaC2O4}
+{produto de solubilidade do \ch{CaC2O4}}{K_{\mathrm{ps},\ch{CaC2O4}}}{1.7e-9}{}
+
+
+\AddData{Kps-CaSO4}
+{produto de solubilidade do \ch{CaSO4}}{K_{\mathrm{ps},\ch{CaSO4}}}{2.6e-5}{}
+
+\AddData{Kd-CaSO4}
+{constante de dissociação do \ch{CaSO4}}{K_{\mathrm{d},\ch{CaSO4}}}{5.2e-3}{}
+
+\AddData{Kps-AgCl}
+{produto de solubilidade do \ch{AgCl}}{K_{\mathrm{ps},\ch{AgCl}}}{1.8e-10}{}
+
+\AddData{Kps-AgBr}
+{produto de solubilidade do \ch{AgBr}}{K_{\mathrm{ps},\ch{AgBr}}}{5.0e-13}{}
+
+
+\AddData{Kps-AgSCN}
+{produto de solubilidade do \ch{AgSCN}}{K_{\mathrm{ps},\ch{AgSCN}}}{1.1e-12}{}
+
+
+\AddData{Kd-AgCl}
+{constante de dissociação do \ch{AgCl}}{K_{\mathrm{d},\ch{AgCl}}}{3.9e-4}{}
+
+
+\AddData{Kps-Fe(OH)3}
+{produto de solubilidade do \ch{Fe(OH)3}}{K_{\mathrm{ps},\ch{Fe(OH)3}}}{2.0e-39}{}
+
+\AddData{Kps-Mg(OH)2}
+{produto de solubilidade do \ch{Mg(OH)2}}{K_{\mathrm{ps},\ch{Mg(OH)2}}}{7.1e-12}{}
+
+\AddData{Kps-Al(OH)3}
+{produto de solubilidade do \ch{Al(OH)3}}{K_{\mathrm{ps},\ch{Al(OH)3}}}{3.0e-34}{}
+
+
+\AddData{Kps-BiOOH}
+{produto de solubilidade do \ch{BiOOH}}{K_{\mathrm{ps},\ch{BiOOH}}}{4.0e-10}{}
+
+\AddData{Kps-Be(OH)2}
+{produto de solubilidade do \ch{Be(OH)2}}{K_{\mathrm{ps},\ch{Be(OH)2}}}{7.0e-22}{}
+
+\AddData{Kps-Fe(OH)2}
+{produto de solubilidade do \ch{Fe(OH)2}}{K_{\mathrm{ps},\ch{Fe(OH)2}}}{4.0e-15}{}
+
+\AddData{Kps-Tm(OH)3}
+{produto de solubilidade do \ch{Tm(OH)3}}{K_{\mathrm{ps},\ch{Tm(OH)3}}}{3.0e-24}{}
+
+\AddData{Kps-Hf(OH)4}
+{produto de solubilidade do \ch{Hf(OH)4}}{K_{\mathrm{ps},\ch{Hf(OH)4}}}{4.0e-26}{}
+
+\AddData{Kps-SrF2}
+{produto de solubilidade do \ch{SrF2}}{K_{\mathrm{ps},\ch{SrF2}}}{2.5e-9}{}
+
+
+
+\AddData{Kps-CdS}
+{produto de solubilidade do \ch{CdS}}{K_{\mathrm{ps},\ch{CdS}}}{1e-27}
+
+\AddData{Kps-Tl2S}
+{produto de solubilidade do \ch{Tl2S}}{K_{\mathrm{ps},\ch{Tl2S}}}{6e-22}
+
+
+\AddData{Kf-FeSCN+2}
+{constante de formação do \ch{FeSCN^{2+}}}{K_{\mathrm{f},\ch{FeSCN^{2+}}}}{1.05e3}
+
+\AddData{b2-Ag(CN)2}
+{constante de formação do \ch{Ag(CN)2}}{\beta_{2,\ch{Ag(CN)2}}}{1.3e21}
+
+\AddData{kH-O2}
+{constante de Henry do \ch{O2}}{k_{H,\ch{O2}}}{769.23}{\atm\liter\per\mol}
+
+\AddData{kH-N2}
+{constante de Henry do \ch{N2}}{k_{H,\ch{N2}}}{1639.34}{\atm\liter\per\mol}
+
+
+\AddData{kH-H2S}
+{constante de Henry do \ch{H2S}}{k_{H,\ch{H2S}}}{10}{\atm\liter\per\mol}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   POTENTIALS
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{E-In3+/In+}
+{Potencial-padrão de redução para o \ch{In^{3+}}/\ch{In^{+}}}{\mathcal{E}^{\standardstate}_{\ch{In^{3+}}/\ch{In^{+}}}}{-0.444}{\volt}
+
+\AddData{E-In+/In}
+{Potencial-padrão de redução para o \ch{In^{+}}/\ch{In}}{\mathcal{E}^{\standardstate}_{\ch{In^{+}}/\ch{In}}}{-0.126}{\volt}
+
+\AddData{E-SbO+/Sb}
+{Potencial-padrão de redução para o \ch{SbO^{+}}/\ch{Sb}}{\mathcal{E}^{\standardstate}_{\ch{SbO^{+}}/\ch{Sb}}}{0.208}{\volt}
+
+
+\AddData{E-Cu2+/Cu+}
+{Potencial-padrão de redução para o \ch{Cu^{2+}}/\ch{Cu^{+}}}{\mathcal{E}^{\standardstate}_{\ch{Cu^{2+}}/\ch{Cu^{+}}}}{0.16}{\volt}
+
+\AddData{E-Cu+/Cu}
+{Potencial-padrão de redução para o \ch{Cu^{+}}/\ch{Cu}}{\mathcal{E}^{\standardstate}_{\ch{Cu^{+}}/\ch{Cu}}}{0.50}{\volt}
+
+
+\AddData{E-Fe3+/Fe2+}
+{Potencial-padrão de redução para o \ch{Fe^{3+}}/\ch{Fe^{2+}}}{\mathcal{E}^{\standardstate}_{\ch{Fe^{3+}}/\ch{Fe^{2+}}}}{0.77}{\volt}
+
+
+\AddData{E-MnO4-/Mn2+}
+{Potencial-padrão de redução para o \ch{MnO4^{-}}/\ch{Mn^{2+}}}{\mathcal{E}^{\standardstate}_{\ch{MnO4^{-}}/\ch{Mn^{2+}}}}{1.51}{\volt}
+
+
+\AddData{E-Fe2+/Fe}
+{Potencial-padrão de redução para o \ch{Fe^{2+}}/\ch{Fe}}{\mathcal{E}^{\standardstate}_{\ch{Fe^{2+}}/\ch{Fe}}}{-0.44}{\volt}
+
+\AddData{E-Pb2+/Pb}
+{Potencial-padrão de redução para o \ch{Pb^{2+}}/\ch{Pb}}{\mathcal{E}^{\standardstate}_{\ch{Pb^{2+}}/\ch{Pb}}}{-0.126}{\volt}
+
+\AddData{E-Cd2+/Cd}
+{Potencial-padrão de redução para o \ch{Cd^{2+}}/\ch{Cd}}{\mathcal{E}^{\standardstate}_{\ch{Cd^{2+}}/\ch{Cd}}}{-0.40}{\volt}
+
+\AddData{E-Zn2+/Zn}
+{Potencial-padrão de redução para o \ch{Zn^{2+}}/\ch{Zn}}{\mathcal{E}^{\standardstate}_{\ch{Zn^{2+}}/\ch{Zn}}}{-0.76}{\volt}
+
+\AddData{E-Cu2+/Cu}
+{Potencial-padrão de redução para o \ch{Cu^{2+}}/\ch{Cu}}{\mathcal{E}^{\standardstate}_{\ch{Cu^{2+}}/\ch{Cu}}}{0.34}{\volt}
+
+\AddData{E-Ag+/Ag}
+{Potencial-padrão de redução para o \ch{Ag^{+}}/\ch{Ag}}{\mathcal{E}^{\standardstate}_{\ch{Ag^{+}}/\ch{Ag}}}{0.80}{\volt}
+
+\AddData{ECS}
+{Potencial do eletrodo de calomelano saturado}{\mathcal{E}^{\standardstate}_\mathrm{ECS}}{0.242}{\volt}
+
+
+
+
+\AddData{E-Ce+4/Ce+3}
+{Potencial-padrão de redução para o \ch{Ce^{4+}}/\ch{Ce^{3+}}}{\mathcal{E}^{\standardstate}_{\ch{Ce^{4+}}/\ch{Ce^{3+}}}}{1.44}{\volt}
+
+\AddData{E-UO2+2/U+4}
+{Potencial-padrão de redução para o \ch{UO2^{2+}}/\ch{U^{4+}}}{\mathcal{E}^{\standardstate}_{\ch{UO2^{2+}}/\ch{U^{4+}}}}{0.33}{\volt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   HALF-LIVES
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AddData{rho-n}
+{densidade nuclear média}{\rho_{\text{nuclear}}}{2.3e17}{\kilo\gram\per\cubic\meter}
+
+\AddData{t1/2-U-238}
+{Meia vida do urânio-238}{t_{\sfrac{1}{2}, \ch{U}-238}}{4.5e9}{anos}
+
+\AddData{t1/2-U-235}
+{Meia vida do urânio-235}{t_{\sfrac{1}{2}, \ch{U}-235}}{7.07e8}{anos}
+
+
+\AddData{t1/2-Sm-147}
+{Meia vida do samário-147}{t_{\sfrac{1}{2}, \ch{Sm}-147}}{1.0e11}{anos}
+
+\AddData{t1/2-Sr-59}
+{Meia vida do estrôncio-59}{t_{\sfrac{1}{2}, \ch{Sr}-59}}{50.5}{dias}
+
+\AddData{t1/2-C-11}
+{Meia vida do carbono-11}{t_{\sfrac{1}{2}, \ch{C}-11}}{21}{min}
+
+\AddData{t1/2-C-14}
+{Meia vida do carbono-14}{t_{\sfrac{1}{2}, \ch{C}-14}}{5730}{anos}
+
+\AddData{t1/2-K-40}
+{Meia vida do potássio-40}{t_{\sfrac{1}{2}, \ch{K}-40}}{1.27e9}{anos}
+
+\AddData{t1/2-H-3}
+{Meia vida do trítio}{t_{\sfrac{1}{2}, \ch{H}-3}}{12.3}{anos}
+
+\AddData{t1/2-Rb-87}
+{Meia vida do rubídio-87}{t_{\sfrac{1}{2}, \ch{Rb}-87}}{4.7e10}{anos}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MISC
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\ExplSyntaxOn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END                
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

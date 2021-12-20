@@ -1,0 +1,325 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  ______                       _____ _                      %
+%  | ___ \                     /  __ \ |                     %
+%  | |_/ /_ __ __ _ _   _ _ __ | /  \/ |__   ___ _ __ ___    %
+%  | ___ \ '__/ _` | | | | '_ \| |   | '_ \ / _ \ '_ ` _ \   %
+%  | |_/ / | | (_| | |_| | | | | \__/\ | | |  __/ | | | | |  %
+%  \____/|_|  \__,_|\__,_|_| |_|\____/_| |_|\___|_| |_| |_|  %
+%                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  The BRAUNBOX Package
+%
+%          --  Typeset Boxes and Headers -- 
+%
+%============================================================%
+%
+%  GABRIEL P. BRAUN, 2019-2021
+%
+%============================================================%
+%
+%  CONTACT: braun.pineschi@gmail.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE REQUIREMENTS AND SETUP                   
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage
+{ 
+	expl3, 
+	l3keys2e,
+	xparse, 
+	l3draw,
+	mendeleev,
+	brauncolor,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplPackage{braunbox}{2021/07/07}{1.0}%
+{ Typeset Boxes and Headers }
+
+%============================================================%
+%   VARIANTS OF KERNEL FUNCTIONS
+%============================================================%
+
+\cs_generate_variant:Nn \draw_linewidth:n {V}
+\cs_generate_variant:Nn \color_fill:n {V}
+\cs_generate_variant:Nn \color_stroke:n {V}
+\cs_generate_variant:Nn \vcoffin_set:Nnn {NVn}
+\cs_generate_variant:Nn \coffin_typeset:Nnnnn {NnVnV}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MACROS                     
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cs_set:Npn \BraunNoWarning % Avoid badness errors
+    { 
+        \dim_set_eq:NN \vfuzz    \c_max_dim
+        \dim_set_eq:NN \hfuzz    \c_max_dim
+        \int_set_eq:NN \hbadness \c_max_int
+        \int_set_eq:NN \vbadness \c_max_int
+    }
+
+%============================================================%
+%   HEADER MACROS
+%============================================================%
+
+\coffin_new:N \l__braun_txta_coffin
+\coffin_new:N \l__braun_txtb_coffin
+
+% #1 -> name
+% #2 -> code
+\NewDocumentCommand \DeclareBraunHeader { m o m o }
+	{
+		\exp_args:Nc \NewDocumentCommand { \char_uppercase:N #1 Header } { o m }
+			{
+				\BraunNoWarning
+				\skip_vertical:n { 1ex } 
+				\group_begin:
+					\dim_zero:N \parindent
+					\draw_begin:
+						\draw_linewidth:V \g_braun_linewidth_dim
+						\hcoffin_set:Nn   \l__braun_txta_coffin {##2}
+						\hcoffin_set:Nn   \l__braun_txtb_coffin {##1}
+						#3
+					\draw_end:
+				\group_end:
+				\skip_vertical:n { 1ex } 
+			}
+	}
+
+%============================================================%
+%   BOX MACROS
+%============================================================%
+
+% #1 -> name
+% #2 -> code
+\NewDocumentCommand \DeclareBraunBox { m o m }
+	{
+		\exp_args:Nc \NewDocumentCommand { \char_uppercase:N #1 Box } { o m }
+			{
+				\BraunNoWarning
+				\group_begin:
+					\dim_zero:N \parindent
+					\IfValueT {##1} { \keys_set:nn { braun/box } {##1} }
+					\vcoffin_set:NVn \l__braun_txta_coffin \l_braun_box_width_dim
+						{ 	
+							\color { black }
+							\centering
+							##2 
+						}
+					\hcoffin_set:Nn \l_tmpa_coffin
+						{
+							\draw_begin:
+								\draw_linewidth:V \g_braun_linewidth_dim
+								\color_stroke:V   \l_braun_box_stroke_tl
+								\color_fill:V     \l_braun_box_fill_tl
+								#3
+							\draw_end:
+						}
+					\coffin_typeset:NnVnV \l_tmpa_coffin {l} \l_braun_box_align_tl {0pt} \l_braun_box_yshift_dim
+				\group_end:
+			}
+	}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   BOX KEYS          
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\keys_define:nn { braun/box }
+{
+
+    linewidth  .dim_set:N = \g_braun_linewidth_dim,
+    linewidth  .initial:n = 0.4pt,
+
+	width .dim_set:N = \l_braun_box_width_dim,
+    width .initial:n = 2em,
+
+	fill  .tl_set:N  = \l_braun_box_fill_tl,
+    fill  .initial:n = white,
+
+	stroke  .tl_set:N  = \l_braun_box_stroke_tl,
+    stroke  .initial:n = black,
+
+	align  .tl_set:N  = \l_braun_box_align_tl,
+    align  .initial:n = t,
+
+	yshift .dim_set:N  = \l_braun_box_yshift_dim,
+    yshift .initial:n  = 0pt,
+}
+
+\ProcessKeysOptions{ braun/box }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MINIBOXES                    
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   BRAUN MINIBOX
+%============================================================%
+
+% #1 -> content
+% #2 -> size
+\cs_set:Nn \braun_mini_box:nn
+{
+	\group_begin:
+
+	\hcoffin_set:Nn \l_tmpa_coffin 
+	{
+		\draw_begin:
+			\draw_path_moveto:n { -#2 +0.2ex, -#2 }
+			\draw_path_lineto:n { #2 -0.2ex  , -#2 }
+			\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
+			\draw_path_lineto:n { #2 -0.2ex, #2 }
+			\draw_path_corner_arc:nn { 0cm }{ 0cm }
+			\draw_path_lineto:n { -#2 +0.2ex, #2 }
+			\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
+			\draw_path_close:
+			\color_fill:n { gray-1!60 }
+			\draw_path_use_clear:n { fill }
+	\draw_end:
+	}
+	\hcoffin_set:Nn \l_tmpb_coffin {#1}
+	\coffin_join:NnnNnnnn \l_tmpa_coffin {hc}{vc} \l_tmpb_coffin {hc}{vc} {0pt} {0pt}
+
+	\coffin_typeset:Nnnnn \l_tmpa_coffin {\l_tmpb_coffin-H}{l} {0pt}{0pt}
+
+	\group_end:
+}
+
+%% FRONT-END
+
+\NewDocumentCommand \MiniBox { m }
+{ \braun_mini_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   BOXES                    
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   ROUND BOX
+%============================================================%
+
+\DeclareBraunBox { round }
+	{
+		\draw_path_circle:nn { 0cm, 0cm } { \l_braun_box_width_dim/2 }
+		\draw_path_use_clear:n { fill, stroke }
+		\draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {vc}
+	}
+
+%============================================================%
+%   SQUARE BOX
+%============================================================%
+
+\DeclareBraunBox { square }
+	{
+		\draw_path_rectangle_corners:nn 
+			{ -\l_braun_box_width_dim/2 , -\l_braun_box_width_dim/2 }
+			{  \l_braun_box_width_dim/2 ,  \l_braun_box_width_dim/2 }
+		\draw_path_use_clear:n { fill, stroke }
+		\draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {vc}
+	}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   HEADERS                   
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   BRAUN HEADER
+%============================================================%
+
+\DeclareBraunHeader { braun }
+	{
+		\draw_path_moveto:n 
+			{ \linewidth , 0em }
+		\draw_path_lineto:n 
+			{ \coffin_wd:N \l__braun_txta_coffin + 4ex , 0cm }
+		\draw_path_corner_arc:nn { 2ex }{ 2ex }
+		\draw_path_lineto:n 
+			{ \coffin_wd:N \l__braun_txta_coffin + 4ex , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
+		\draw_path_corner_arc:nn { 0cm }{ 0cm }
+		\draw_path_lineto:n 
+			{ 0cm , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
+		\draw_path_corner_arc:nn { 2ex }{ 2ex }
+		\draw_path_lineto:n 
+			{ 0cm , 0em }
+		\draw_path_lineto:n 
+			{ \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
+		\color_fill:n { gray-1!60 }
+		\draw_path_use_clear:n { fill, stroke }
+		\draw_transform_shift:n 
+			{ \linewidth - 1em , 1.25ex }
+		\draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
+		\draw_transform_shift:n 
+			{ ( \coffin_wd:N \l__braun_txta_coffin + 4ex ) / 2 - \linewidth + 1em , 0cm }
+		\draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
+	}
+
+%============================================================%
+%   IME HEADER
+%============================================================%
+
+%% Header das questões
+\DeclareBraunHeader { IME }
+	{
+		\skip_horizontal:n { -\marginparsep }
+        \draw_path_rectangle:nn 
+			{ 0cm , 0cm }
+			{ \linewidth + 2 \marginparsep , \coffin_ht:N \l__braun_txtb_coffin + 1em }
+		\color_fill:n { white }
+        \draw_path_use_clear:n { stroke, fill }
+        \draw_transform_shift:n 
+			{ \linewidth - \coffin_wd:N \l__braun_txtb_coffin , 0.0cm }
+        \draw_path_moveto:n 
+			{ 0cm , 0cm }
+        \draw_path_lineto:n 
+			{ 0cm , \coffin_ht:N \l__braun_txtb_coffin + 1em }
+        \draw_path_use_clear:n { stroke }
+        \draw_transform_shift:n 
+			{ \coffin_wd:N \l__braun_txtb_coffin + \marginparsep , 0.5em }
+        \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
+        \draw_transform_shift:n 
+			{ -\linewidth , 0cm }
+        \draw_coffin_use:Nnn \l__braun_txta_coffin {l} {H}
+	}
+
+%% Header p/ outros
+\DeclareBraunHeader { IMEc }
+	{
+		\skip_horizontal:n { -\marginparsep }
+        \draw_path_rectangle:nn 
+			{ 0cm  , 0cm }
+			{ \linewidth + 2 \marginparsep ,  \coffin_ht:N \l__braun_txtb_coffin + 1em }
+		\color_fill:n { white }
+        \draw_path_use_clear:n { stroke, fill }
+        \draw_transform_shift:n 
+			{ \linewidth / 2 + \marginparsep ,  0.5em }
+        \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
+	}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ExplSyntaxOff

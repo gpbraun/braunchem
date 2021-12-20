@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{schemes}{2021/06/06}{1.0}%
+{ BraunChem - Chemistry Schemes }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SCHEME KEYS            
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\keys_define:nn { braun/chem/schemes }
+{
+    % SCALE
+    scale .fp_set:N   = \l_bchem_scheme_scale_fp,
+    scale .initial:n  = 1.0,
+
+    % WIDTH
+    width .dim_set:N  = \l_bchem_scheme_width_dim,
+    width .initial:n  = {\linewidth - 1em},
+
+    % SPACING BETWEEN ELEMENTS
+    spacing .skip_set:N = \l_bchem_scheme_spacing_skip,
+    spacing .initial:n  = 1em,
+
+    % FILL ENTIRE WIDTH
+    fill .bool_set:N = \l_bchem_scheme_fill_bool,
+    fill .initial:n  = false,
+    fill .default:n  = true,
+
+    % REVERSE SCHEME DIRECTION
+    reverse .bool_set:N = \l_bchem_scheme_reverse_bool,
+    reverse .initial:n  = true,
+    reverse .default:n  = true,
+
+    % DEPTH
+    depth .dim_set:N  = \l_bchem_scheme_depth_dim,
+    depth .initial:n  = 4.5em,
+
+    % DISTRIBUTE EVENLY VERTICALY
+    fix-depth .bool_set:N = \l_bchem_scheme_fix_depth_bool,
+    fix-depth .initial:n  = false,
+    fix-depth .default:n  = true,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   SCHEME COMMAND          
+%                                             
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\seq_new:N \l_bchem_scheme_seq
+\seq_new:N \l_bchem_scheme_line_seq
+
+\dim_new:N \l_bchem_tmpa_dim
+
+\box_new:N \l_bchem_scheme_line_box
+
+\coffin_new:N \l_bchem_scheme_coffin
+
+\cs_generate_variant:Nn \dim_set:Nn {Nx}
+\cs_generate_variant:Nn \vcoffin_set:Nnn {NVn}
+\cs_generate_variant:Nn \hbox_set_to_wd:Nnn {NVn}
+
+% #1 -> current_number
+% #2 -> total_number
+% #3 -> line tl
+\cs_new:Nn \bchem_scheme_line:nnn
+{
+    \seq_set_split:Nnn \l_bchem_scheme_line_seq {;} {#3}
+
+    \bool_lazy_and:nnT
+    { \int_if_even_p:n {#2}  } 
+    { \l_bchem_scheme_reverse_bool }
+    { 
+        \seq_reverse:N   \l_bchem_scheme_line_seq
+        \bool_set_true:N \l_bchem_arrow_flip_bool 
+    }
+
+    \hbox_set_to_wd:NVn \l_bchem_scheme_line_box 
+    \l_bchem_scheme_width_dim
+    {
+        \tex_hfill:D
+        \seq_use:Nn \l_bchem_scheme_line_seq
+        { 
+            \skip_horizontal:N \l_bchem_scheme_spacing_skip 
+            \bool_if:NT \l_bchem_scheme_fill_bool 
+            { \tex_hfill:D }
+        }
+        \tex_hfill:D
+    }
+
+    \int_compare:nNnT { #1 } > { 1 }
+    {
+        \bool_if:NTF \l_bchem_scheme_fix_depth_bool
+        {
+            \box_set_ht:Nn \l_bchem_scheme_line_box
+            { \l_bchem_scheme_depth_dim }
+        }
+        {
+            \box_set_ht:Nn \l_bchem_scheme_line_box
+            { 3.5em + \box_ht:N \l_bchem_scheme_line_box / 2 }
+        }
+        
+    }
+
+    \int_compare:nNnT { #1 } < { #2 }
+    {
+        \bool_if:NTF \l_bchem_scheme_fix_depth_bool
+        {
+            \box_set_dp:Nn \l_bchem_scheme_line_box 
+            { \l_bchem_scheme_depth_dim }
+        }
+        {
+            \box_set_dp:Nn \l_bchem_scheme_line_box 
+            { 3.5em - \box_ht:N \l_bchem_scheme_line_box / 2 }
+        }
+    }
+
+    \box_use_drop:N \l_bchem_scheme_line_box
+}
+\cs_generate_variant:Nn \bchem_scheme_line:nnn {nVn}
+
+% #1 -> environment input (+b)
+\cs_new:Nn \bchem_scheme:n
+{
+    \BraunNoWarning
+    
+    \seq_set_split:Nnn \l_bchem_scheme_seq {?} { #1 }
+
+    \tl_set:Nx \l__bchem_tmpa_tl 
+    { \seq_count:N \l_bchem_scheme_seq }
+
+    \keys_set:nn { braun/chem/molecules }{ align = vc, yshift = 0.3em, }
+
+    \vcoffin_set:NVn \l_bchem_scheme_coffin 
+    \l_bchem_scheme_width_dim
+    {
+        \skip_vertical:n {3ex}
+
+        \centering
+
+        \seq_indexed_map_inline:Nn \l_bchem_scheme_seq
+        {
+            \bchem_scheme_line:nVn 
+            { ##1 } \l__bchem_tmpa_tl { ##2 }
+        }
+
+        \skip_vertical:n {2ex}
+    }
+
+    \coffin_typeset:Nnnnn \l_bchem_scheme_coffin {l}{H}{0pt}{0pt}
+}
+
+%% FRONT-END
+
+\DeclareDocumentEnvironment {scheme}
+{ o d() > { \TrimSpaces } +b }
+{
+    \group_begin:
+    \IfNoValueF {#1} { \keys_set:nn { braun/chem/schemes } {#1} }
+    \bchem_scheme:n {#3}
+}
+{
+    \IfValueT{#2}
+    { \center \sffamily #2 \endcenter }
+    \group_end:
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

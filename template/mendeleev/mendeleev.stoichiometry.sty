@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{mendeleev.stoichiometry}{2019/10/11}{beta}%
+{ Mendeleev - Molar Mass Calculation }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MOLAR MASS CALCULATOR                  
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tl_new:N \l__molmass_tmp_tl
+\fp_new:N \l__molmass_tmp_fp
+
+%============================================================%
+%   COMMAND TO CALCULATE MOLAR MASS
+%============================================================%
+
+\NewDocumentCommand \MM
+{ O{} m }
+{
+    \group_begin:
+
+    \molmass_calc:Nn \l__molmass_tmp_fp { #2 } 
+    
+    \qty [ round-integer-to-decimal, round-mode = places, #1 ] 
+    { \fp_use:N \l__molmass_tmp_fp } 
+    { g.mol^{-1} }
+
+    \group_end:
+}
+
+\cs_new:Nn \molmass_calc:Nn
+{
+    \tl_set:Nn \l__molmass_tmp_tl { #2 . }
+
+    \tl_remove_all:Nn          \l__molmass_tmp_tl {~}
+
+    \molmass_dot_fix:N         \l__molmass_tmp_tl
+    \molmass_replace_groups:N  \l__molmass_tmp_tl
+    \molmass_par_fix:N         \l__molmass_tmp_tl
+    \molmass_atoms_calc:N      \l__molmass_tmp_tl
+    
+    \fp_set:Nn #1 { ( 0 \l__molmass_tmp_tl + 0 ) } 
+}
+
+%============================================================%
+%   HANDLE DOTS IN CHEMICAL FORMULA (CaSO4.5H2O)
+%============================================================%
+
+\regex_const:Nn \c_molmass_dot_regex { (\d*) ([^.+]+) (?:[\.+]) }
+
+\cs_new:Nn \molmass_dot_fix:N
+{
+    \regex_replace_all:NnN \c_molmass_dot_regex  
+    { 
+        ( \2 ) \c{tl_if_empty:nF} \cB\{\1\cE\} \cB\{\1\cE\} +
+    } #1
+}
+
+%============================================================%
+%   HANDLE GROUPS IN CHEMICAL FORMULA (Et -> C2H5)
+%============================================================%
+
+\cs_new:Nn \molmass_replace_groups:N
+{
+    \regex_replace_all:NnN \c_molmass_find_elements_regex 
+    { 
+        \c{molmass_replace_group:n} \cB\{\1\cE\} \2
+    } #1
+
+    \tl_set:Nx #1 { #1 }
+}
+
+\cs_new:Nn \molmass_replace_group:n
+%% Not optimized!
+{
+    \prop_if_in:NnTF \c_groups_prop {#1}
+    {
+        ( \prop_item:Nn \c_groups_prop {#1} )
+    }
+    { #1 }
+}
+
+%============================================================%
+%   HANDLE PARENTHESIS AND BRACKETS IN CHEMICAL FORMULA
+%============================================================%
+
+\regex_const:Nn \c_molmass_open_par_regex  { (?:[\[\(])       }  
+\regex_const:Nn \c_molmass_close_par_regex { (?:[\]\)]) (\d*) }
+
+\cs_new:Nn \molmass_par_fix:N
+{
+    \regex_replace_all:NnN \c_molmass_open_par_regex
+    { 
+        + (
+    } #1
+
+    \regex_replace_all:NnN \c_molmass_close_par_regex
+    { 
+        ) * \c{tl_if_empty:nTF} \cB\{\1\cE\} \cB\{1\cE\} \cB\{\1\cE\} + 0
+    } #1
+}
+
+%============================================================%
+%   REPLACE ATOMS WITH RESPECTIVE MOLAR MASSES
+%============================================================%
+
+\regex_const:Nn \c_molmass_find_elements_regex { ([A-Z][a-z]*) (\d*) }
+
+\cs_new:Nn \molmass_atoms_calc:N
+{
+    \regex_replace_all:NnN \c_molmass_find_elements_regex 
+    { 
+        \c{fp_eval:n} 
+        \cB\{
+            \c{elements_get_property_S:nn}   \cB\{\1\cE\} \cB\{mass\cE\} *
+            \c{tl_if_empty:nTF} \cB\{\2\cE\} \cB\{1\cE\}  \cB\{\2\cE\} 
+        \cE\} + 0
+    } #1
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

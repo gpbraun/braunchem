@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{braunchem.reactions}{2021/06/06}{2.0}%
+{ BraunChem - Chemistry Reactions }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   REACTION KEYS          
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\keys_define:nn { braun/chem/reactions }{}
+
+%%============================================================%
+%   REACTIONS
+%============================================================%
+
+\seq_new:N \l_bchem_reaction_seq
+
+\cs_new:Nn \bchem_reaction:nnnn
+{
+    \group_begin:
+    \BraunNoWarning
+    
+    \seq_set_split:Nnn \l_bchem_reaction_seq {->} {#4}
+
+    \bchem_reaction_segment:e
+    { \seq_item:Nn \l_bchem_reaction_seq {1} }
+
+    \;\arrow{#1}[#2][#3]\;
+
+    \bchem_reaction_segment:e
+    { \seq_item:Nn \l_bchem_reaction_seq {2} }
+
+    \group_end:
+}
+
+\cs_new:Nn \bchem_reaction_segment:n
+{
+    \group_begin:
+
+    \seq_set_split:Nnn \l_tmpa_seq {+} {#1}
+    \seq_map_inline:Nn \l_tmpa_seq 
+    {
+        \seq_put_right:Nn \l_tmpb_seq
+        { 
+            \ch { ##1 } 
+        } 
+    }
+    \seq_use:Nn \l_tmpb_seq {\;+\;}
+
+    \group_end:
+}
+\cs_generate_variant:Nn \bchem_reaction_segment:n {e}
+
+%% FRONT-END
+
+\NewDocumentCommand \rxn
+{ D(){->;len=0.75} O{} O{} m }
+{ \bchem_reaction:nnnn {#1}{#2}{#3}{#4} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

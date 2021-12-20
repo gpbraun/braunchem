@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  ______                       _____ _                      %
+%  | ___ \                     /  __ \ |                     %
+%  | |_/ /_ __ __ _ _   _ _ __ | /  \/ |__   ___ _ __ ___    %
+%  | ___ \ '__/ _` | | | | '_ \| |   | '_ \ / _ \ '_ ` _ \   %
+%  | |_/ / | | (_| | |_| | | | | \__/\ | | |  __/ | | | | |  %
+%  \____/|_|  \__,_|\__,_|_| |_|\____/_| |_|\___|_| |_| |_|  %
+%                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  The BRAUNFIG Package
+%
+%          --  Typeset Graphics  -- 
+%
+%============================================================%
+%
+%  GABRIEL P. BRAUN, 2019-2021
+%
+%============================================================%
+%
+%  CONTACT: braun.pineschi@gmail.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE REQUIREMENTS AND SETUP                   
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage { l3keys2e, l3graphics, graphics }
+
+\ExplSyntaxOn
+
+\tl_const:Nn \c_braunfig_date_tl                 {2021/08/11}
+\tl_const:Nn \c_braunfig_version_major_number_tl {1}
+\tl_const:Nn \c_braunfig_version_minor_number_tl {2}
+\tl_const:Nn \c_braunfig_version_subrelease_tl   {a}
+\tl_const:Nx \c_braunfig_version_number_tl
+	{
+			\c_braunfig_version_major_number_tl .
+			\c_braunfig_version_minor_number_tl
+	}
+\tl_const:Nx \c_braunfig_version_tl
+	{
+		\c_braunfig_version_number_tl
+		\c_braunfig_version_subrelease_tl
+	}
+\tl_const:Nn \c_braunfig_info_tl { Redefining ~ Maketitle }
+
+\ProvidesExplPackage
+	{ braunfig }
+	{ \c_braunfig_date_tl    }
+	{ \c_braunfig_version_tl }
+	{ \c_braunfig_info_tl    }
+
+%============================================================%
+%   VARIANTS OF KERNEL FUNCTIONS
+%============================================================%
+
+\cs_generate_variant:Nn \box_autosize_to_wd_and_ht:Nnn {NVV}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   INCLUDE GRAPHICS                       
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\keys_define:nn { braun/graphics }
+	{
+        plot .code:n = 
+            { \RequirePackage { pgfplots } \pgfplotsset { compat = 1.17 } },
+            
+        width .dim_set:N = \l_braun_graphics_width_dim,
+		width .initial:n = { \linewidth },
+
+		height .dim_set:N = \l_braun_graphics_height_dim,
+		height .initial:n = 15cm,
+	}
+
+\ProcessKeysOptions { braun/graphics }
+
+% #1 -> coffin
+% #2 -> figure path
+\cs_set:Nn \braun_include_graphics:Nn
+    { 
+        \hcoffin_set:Nn #1
+            {
+                \group_begin:
+                    \hbox_set:Nn \l_tmpa_box { \graphics_include:n { #2 } }
+                    \box_autosize_to_wd_and_ht:NVV \l_tmpa_box \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
+                    \box_use_drop:N \l_tmpa_box
+                \group_end:
+            }   
+    }
+
+\cs_set_eq:NN \legacyincludegraphics \includegraphics
+
+% #1 -> figure path
+\DeclareDocumentCommand \includegraphics { o m }
+    { 
+        \group_begin:
+            \IfValueT {#1} { \keys_set:nn {braun/graphics} {#1} }
+            \braun_include_graphics:Nn \l_tmpa_coffin {#2}
+            \center
+                \coffin_typeset:Nnnnn  \l_tmpa_coffin {l} {H} {0pt} {0pt}
+            \endcenter
+        \group_end:
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ExplSyntaxOff

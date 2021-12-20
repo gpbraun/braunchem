@@ -1,0 +1,295 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMISTRY FILE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesExplFile{braunchem.molecules}{2021/06/06}{1.0}%
+{ BraunChem - Chemistry molecules }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MOLECULE COMMAND                
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%============================================================%
+%   GERNERAL STACK KEYS
+%============================================================%
+
+\tl_new:N \l_bchem_molecule_scale_tl
+\tl_new:N \g_bchem_molecule_filename_tl
+
+\keys_define:nn { braun/chem/molecules }
+{
+    %% BASIC DOCUMENT STYLE
+    type.choices:nn = { fig, plot, scheme, inline, chemfig, ch, chb }
+    { 
+        \tl_set:Nn \l_bchem_molecule_type_tl {#1}
+    },
+    type.initial:n = fig,
+
+    %% VERTICAL ALIGNMENT
+    align.tl_set:N  = \l_bchem_molecule_align_tl,
+    align.initial:n = vc,
+
+    %% VERTICAL SHIFT
+    yshift.dim_set:N = \l_bchem_molecule_yshift_dim,
+    yshift.initial:n = 0pt,
+
+    %% FIGURE FONT SIZE
+    fontsize.code:n   = 
+    {
+        \tl_set:Nx \l_bchem_molecule_scale_tl
+        { \fp_eval:n { \dim_ratio:nn  { \f@size pt } { #1 } } } 
+    },
+    fontsize.initial:n = 10pt,
+
+    %% FIGURE PATH
+    path.tl_set:N  = \g_bchem_molecule_path_tl,
+
+    %% BOX
+    box.tl_set:N  = \l_bchem_molecule_box_tl,
+    box.default:n = braun,
+
+    %% BOX SUB/SUP TEXT
+    sub.tl_set:N  = \l_bchem_molecule_sub_tl,
+    sup.tl_set:N  = \l_bchem_molecule_sup_tl,
+
+    %% POLYMER-STRECH
+    polymer-xshift.dim_set:N  = \l_bchem_molecule_polymer_xshift_dim,
+    polymer-xshift.initial:n = 5em,
+}
+
+\coffin_new:N \l__molecule_coffin
+
+%============================================================%
+%   MOLECULE COMMAND DEFINITION
+%============================================================%
+
+% Function to input figure
+
+% #1 -> figure
+\cs_set:Nn \bchem_moldraw_input:n
+{
+    \str_case:Vn \l_bchem_molecule_type_tl
+    {
+        { fig }
+        {
+            \graphics_include:e { \g_bchem_molecule_path_tl /  \g_bchem_molecule_filename_tl - #1 .pdf }
+        }
+        { plot }
+        {
+            \graphics_include:e { \g_bchem_molecule_path_tl /  \g_bchem_molecule_filename_tl - plot - #1 / \g_bchem_molecule_filename_tl - plot - #1 .pdf }
+        }
+        { scheme }
+        {
+            \graphics_include:e { \g_bchem_molecule_path_tl /  \g_bchem_molecule_filename_tl - scheme - #1 / \g_bchem_molecule_filename_tl - scheme - #1 .pdf }
+        }
+        { inline }   
+        {
+            #1
+        }
+        { ch }   
+        {
+            \ch{#1}
+        }   
+        { chb }   
+        {
+            \chb{#1}
+        }         
+        { chemfig }   
+        {
+            \chemfig{#1}
+        }         
+    }
+}
+\cs_generate_variant:Nn \graphics_include:n {e}
+
+% Function to create an array of figures
+
+% #1 -> key options
+% #2 -> figure
+% #3 -> name
+\cs_set:Nn \bchem_moldraw:nnn
+{
+    \group_begin:
+
+        \IfNoValueF{#1}
+        { \keys_set:nn { braun/chem/molecules } { #1 } }
+
+        \hcoffin_set:Nn \l__molecule_coffin
+        { \bchem_moldraw_input:n {#2} }
+
+        \coffin_scale:NVV \l__molecule_coffin \l_bchem_molecule_scale_tl \l_bchem_molecule_scale_tl
+
+        \bchem_molecule_namebox:Nn \l__molecule_coffin {#3}
+
+        \coffin_typeset:NnVnn
+        \l__molecule_coffin {l} \l_bchem_molecule_align_tl {0pt} {\l_bchem_molecule_yshift_dim}
+
+    \group_end:
+}
+\cs_generate_variant:Nn \coffin_scale:Nnn { NVV }
+\cs_generate_variant:Nn \coffin_typeset:Nnnnn { NnVnn }
+
+%% FRONT-END
+
+\NewDocumentCommand \moldraw
+{ o m o }
+{ \bchem_moldraw:nnn {#1}{#2}{#3} }
+
+\RenewDocumentCommand \boxed
+{ O{type=inline,box=braun} m o }
+{ \bchem_moldraw:nnn {#1}{$\displaystyle #2$}{#3} }
+
+
+%============================================================%
+%   DECORATIONS
+%============================================================%
+
+\coffin_new:N \l__molecule_box_coffin
+\coffin_new:N \l__molecule__coffin
+
+\dim_new:N \l_bchem_molecule_box_ht_dim
+\dim_new:N \l_bchem_molecule_box_wd_dim
+
+% #1 -> molecule coffin
+\cs_new:Nn \bchem_molecule_box:N
+{
+    \dim_set:Nn \l_bchem_molecule_box_wd_dim { \coffin_wd:N #1 + 1.5em }
+    \dim_set:Nn \l_bchem_molecule_box_ht_dim { \box_ht_plus_dp:N #1 + 1.5em }
+
+    \hcoffin_set:Nn \l__molecule_box_coffin
+    { 
+        \prop_item:NV \l_bchem_molecule_box_styles_prop \l_bchem_molecule_box_tl
+    }
+
+    \coffin_attach:NnnNnnnn \l__molecule_box_coffin {hc} {vc} #1 {hc} {vc} {0pt} {0pt}
+    \coffin_set_eq:NN #1 \l__molecule_box_coffin
+}
+\cs_generate_variant:Nn \prop_item:Nn {NV}
+
+% #1 -> molecule coffin
+% #2 -> name
+\cs_new:Nn \bchem_molecule_namebox:Nn
+{
+    %% BOX AND NAME
+    \IfNoValueTF{#2}
+    {
+        \tl_if_empty:NF \l_bchem_molecule_box_tl
+        {
+            \bchem_molecule_box:N #1
+        }
+    }
+    {
+        \tl_if_empty:NTF \l_bchem_molecule_box_tl
+        {
+            \hcoffin_set:Nn \l_tmpa_coffin { \sffamily #2 } 
+            \coffin_join:NnnNnnnn #1 {hc} {b} \l_tmpa_coffin {hc} {t}  {0pt} {-1ex}
+        }
+        {
+            \bchem_molecule_box:N #1
+            \hcoffin_set:Nn \l_tmpa_coffin 
+            {
+                \colorbox{white}{\sffamily #2}
+            } 
+            \coffin_join:NnnNnnnn #1 {hc} {b} \l_tmpa_coffin {hc} {vc}  {0pt} {0pt}
+        }
+    }
+    % %SUPERSCRIPT AND SUBSCRIPT
+    \tl_if_empty:NF \l_bchem_molecule_sub_tl
+    {
+        \hcoffin_set:Nn \l_tmpa_coffin { \sffamily \l_bchem_molecule_sub_tl }
+        \coffin_attach:NnnNnnnn #1 {r} {b} \l_tmpa_coffin {l} {H}  {1ex} {+1ex}
+    }
+    \tl_if_empty:NF \l_bchem_molecule_sup_tl
+    {
+        \hcoffin_set:Nn \l_tmpa_coffin { \sffamily \l_bchem_molecule_sup_tl }
+        \coffin_attach:NnnNnnnn #1 {r} {t} \l_tmpa_coffin {l} {H}  {1ex} {-1ex}
+    }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MOLECULE BOX STYLES             
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\prop_new:N \l_bchem_molecule_box_styles_prop
+
+%============================================================%
+%   STANDARD BOX
+%============================================================%
+
+\prop_put:Nnn \l_bchem_molecule_box_styles_prop
+{ braun }
+{
+    \draw_begin:
+        \draw_linewidth:n { 0.1em }
+        \draw_path_moveto:n { 0em , 0em }
+        \draw_path_lineto:n { \l_bchem_molecule_box_wd_dim  , 0cm }
+        \draw_path_corner_arc:nn { 2ex }{ 2ex }
+        \draw_path_lineto:n { \l_bchem_molecule_box_wd_dim , \l_bchem_molecule_box_ht_dim }
+        \draw_path_corner_arc:nn { 0cm }{ 0cm }
+        \draw_path_lineto:n { 0em , \l_bchem_molecule_box_ht_dim }
+        \draw_path_corner_arc:nn { 2ex }{ 2ex }
+        \draw_path_close:
+        \color_select:n { black!30 }
+        \draw_path_use_clear:n { stroke }
+    \draw_end:
+}
+
+%============================================================%
+%   BRACKETS
+%============================================================%
+
+\dim_const:Nn \c_bracket_dim { 0.5 em }
+
+\prop_put:Nnn \l_bchem_molecule_box_styles_prop
+{ bracket }
+{
+    \draw_begin:
+        \draw_linewidth:n { 0.06em }
+        \draw_path_moveto:n { 0cm , 0cm }
+        \draw_path_lineto:n { -\c_bracket_dim , 0cm }
+        \draw_path_lineto:n { -\c_bracket_dim , \l_bchem_molecule_box_ht_dim }
+        \draw_path_lineto:n { 0cm , \l_bchem_molecule_box_ht_dim }
+        \draw_path_use_clear:n { stroke }
+        \draw_transform_shift:n { \l_bchem_molecule_box_wd_dim , 0cm }
+        \draw_path_moveto:n { 0cm , 0cm }
+        \draw_path_lineto:n { +\c_bracket_dim , 0cm }
+        \draw_path_lineto:n { +\c_bracket_dim , \l_bchem_molecule_box_ht_dim }
+        \draw_path_lineto:n { 0cm , \l_bchem_molecule_box_ht_dim }
+        \draw_path_use_clear:n { stroke }
+    \draw_end:
+}
+
+%============================================================%
+%   POLYMER
+%============================================================%
+
+\prop_put:Nnn \l_bchem_molecule_box_styles_prop
+{ polymer }
+{
+    \draw_begin:
+        \draw_linewidth:n { 0.06em }
+        \draw_path_moveto:n { 0cm , 0cm }
+        \draw_path_lineto:n { -\c_bracket_dim , 0cm }
+        \draw_path_lineto:n { -\c_bracket_dim , \l_bchem_molecule_box_ht_dim }
+        \draw_path_lineto:n { 0cm , \l_bchem_molecule_box_ht_dim }
+        \draw_path_use_clear:n { stroke }
+        \draw_transform_shift:n { \l_bchem_molecule_box_wd_dim - \l_bchem_molecule_polymer_xshift_dim , 0cm }
+        \draw_path_moveto:n { 0cm , 0cm }
+        \draw_path_lineto:n { +\c_bracket_dim , 0cm }
+        \draw_path_lineto:n { +\c_bracket_dim , \l_bchem_molecule_box_ht_dim }
+        \draw_path_lineto:n { 0cm , \l_bchem_molecule_box_ht_dim }
+        \draw_path_use_clear:n { stroke }
+    \draw_end:
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
