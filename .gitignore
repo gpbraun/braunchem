@@ -1,6 +1,5 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/latex,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=latex,python
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,latex
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,latex
 
 ### Output Folder ###
 **/out/*
@@ -19,6 +18,9 @@
 *.cb
 *.cb2
 .*.lb
+
+## Latex file structure
+ls-R
 
 ## Intermediate documents:
 *.dvi
@@ -441,4 +443,23 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# End of https://www.toptal.com/developers/gitignore/api/latex,python
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,latex

@@ -16,11 +16,12 @@ from datetime import date
 #
 ######################################################
 
+
 def generate_db(db_path):
 
-    module      = 'database'
+    module = 'database'
     description = 'Data Base Problem Paths'
-    version     = '1.0'
+    version = '1.1'
 
     today = date.today().strftime('%Y/%d/%m')
 
@@ -29,27 +30,32 @@ def generate_db(db_path):
 
     identifier = '\\begin{problem}'
 
-    prop = open( db_path + '/.db-paths.sty', 'w+')
+    prop = open(db_path + '/.db-paths.sty', 'w+')
 
-    prop.write( '\\ProvidesExplFile{%s}{%s}{%s}%%\n{ %s }\n\n' % (module,today,version,description) )
+    prop.write('\\ProvidesExplFile{%s}{%s}{%s}%%\n{ %s }\n\n' % (
+        module, today, version, description))
 
-    prop.write('\\prop_const_from_keyval:Nn \\l_braun_db_prop\n{\n')
+    prop.write('\\prop_const_from_keyval:Nn \\l_braun_db_prop\n{')
 
     count = 0
 
     for root, _, files in os.walk(db_path):
         for file in files:
             if file.endswith('.tex'):
-                if identifier in open(os.path.join(root,file),mode='r',encoding='utf-8-sig').read():
+                if identifier in open(os.path.join(root, file), mode='r', encoding='utf-8-sig').read():
                     ID = os.path.splitext(file)[0]
-                    path = os.path.relpath(root,db_path).replace('\\', '/').replace(' ','~')
-                    prop.write(f'\t{ID} = {path},')
+                    path = os.path.relpath(root, db_path).replace(
+                        '\\', '/').replace(' ', '~')
+                    prop.write(f'\n\t{ID} = {path},')
                     count += 1
     prop.write('\n}')
+
+    prop.close()
 
     print('Data Base Generated!')
     print(f'PATH:  {db_path}')
     print(f'COUNT: {count}')
 
+
 if __name__ == "__main__":
-    generate_db("../database")
+    generate_db("./database")
