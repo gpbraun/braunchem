@@ -272,19 +272,6 @@
 %   ITA
 %============================================================%
 
-\DeclareBraunTemplate { math }
-    {
-        DIV = 16,
-        font = lmodern,
-        fontsize = 12pt,
-        emph = \bfseries,
-        maketitle / affiliation / font = \itshape,
-    }
-
-%============================================================%
-%   ITA
-%============================================================%
-
 \DeclareBraunTemplate { ITA }
     {
         DIV = 20,
@@ -365,37 +352,6 @@
         chem / formula-format = \sffamily ,
         problems / name = Problema,
         problems / template = braun,
-    }
-
-%============================================================%
-%   PESC
-%============================================================%
-
-\DeclareBraunTemplate { PESC }
-    {
-        braun,
-        headinclude=true,
-        footinclude=true,
-        page / header / sepline = true,
-        page / footer / sepline = true,
-        page / footer / title-sepline = false,
-        page / header / inner  = { \textbf{\PrintTitle} } ,
-        page / header / center = { },
-        page / header / outer  = { \PrintAuthor ,\; \PrintDate },
-        page / footer / title-inner  = ,
-        page / footer / title-center = \thepage,
-        page / footer / title-outer  = ,
-        page / footer / inner  = ,
-        page / footer / center = \thepage,
-        page / footer / outer  = ,
-        page / mcrule / line-style = dashed,
-        page / mcrule / width      = thick,
-        page / mcrule / color      = gray-1!60,
-        page / caption / labelfont = bf,
-        page / caption / labelsep  = quad,
-        page / caption / font      = sf,
-        maketitle / logo / value  = pesc-color,
-        maketitle / logo / height = 3cm,
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

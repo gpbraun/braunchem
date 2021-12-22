@@ -4,7 +4,9 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[braun]{braun}
+\documentclass[braun, twocolumn]{braun}
+
+\braunsetup{DIV=calc}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -24,9 +26,7 @@
 
 \begin{document}
 
-\maketitle[botrule=true]
-
-\makedata[front-data=true,math/math={ ln(2)/ln(10), ln(3)/ln(10) }, elements/style=ptable]
+\maketitle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -38,6 +38,7 @@
 {
     1A01, 
     1A02,
+    1B01,
 }
 
 \makegaba
