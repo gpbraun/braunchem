@@ -113,10 +113,9 @@ class Problem(object):
 
     def aslatex(self):
         return f'''
-            \\begin{{problem}}
-                {self.statement.tex}
-            \\end{{problem}}
-        '''
+\\begin{{problem}}
+    {self.statement.tex}
+\\end{{problem}}'''
 
 #
 # ARSENAL CLASS
@@ -175,15 +174,15 @@ class Latex(object):
         content = '\n'.join([ problem.aslatex() for problem in self.problems ])
 
         return f'''\\documentclass[braun, twocolumn]{{braun}}
-            \\braunsetup{{DIV=calc}}
-            \\title{{{self.title}}}
-            \\affiliation{{{self.affiliation}}}
-            \\author{{{self.author}}}
-            \\logo{{{self.logo}}}
-            \\begin{{document}}
-            \\maketitle[botrule=false]
-            {content}
-            \\end{{document}}'''
+\\braunsetup{{DIV=calc}}
+\\title{{{self.title}}}
+\\affiliation{{{self.affiliation}}}
+\\author{{{self.author}}}
+\\logo{{{self.logo}}}
+\\begin{{document}}
+\\maketitle[botrule=false]
+{content}
+\\end{{document}}'''
 
 #
 # MAIN
