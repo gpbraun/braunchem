@@ -32,7 +32,7 @@ def generate_db(db_path):
 
     prop = open(db_path + '/.db-paths.sty', 'w+')
 
-    prop.write('\\ProvidesExplFile{%s}{%s}{%s}%%\n{ %s }\n\n' % (
+    prop.write('\\ProvidesExplFile{%s}{%s}{%s}%%\n\t{ %s }\n\n' % (
         module, today, version, description))
 
     prop.write('\\prop_const_from_keyval:Nn \\l_braun_db_prop\n{')

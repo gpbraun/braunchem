@@ -28,7 +28,6 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \PassOptionsToPackage{blank,no-files,use-aux}{xsim}
 
 \RequirePackage{ 
@@ -43,7 +42,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ProvidesExplPackage{braundb}{2021/07/03}{1.0}%
-{ Problem Database Managment }
+    { Problem Database Managment }
 
 %============================================================%
 %   VARIANTS OF KERNEL FUNCTIONS
@@ -119,8 +118,8 @@
 
 \int_zero_new:N \l__braun_inputsp_tmp_int
 
-% Iterate over path1, path2, path3, ... and inputs all files
-% #2 -> file path + name
+% Iterate over path1, path2, path3, ..., pathn and inputs all files
+% #1 -> file path + name
 \cs_set:Npn \InputSP #1
 	{
 		\group_begin:
@@ -142,7 +141,7 @@
 				}
 			\int_compare:VNnT \l__braun_inputsp_tmp_int = {1}
 				{
-					\msg_warning_text:n {File~#1 1 .tex ~not~found!}
+					\msg_warning_text:n { File~#1 1 .tex ~not~found! }
 				}
 		\group_end:
 	}
@@ -734,8 +733,7 @@
         unknown .code:n = \exp_args:Ne \sisetup { \l_keys_key_tl } {#1},
     }
 
-\NewDocumentCommand \makedata
-    { o }
+\NewDocumentCommand \makedata { o }
     {
         \group_begin:
             \IfValueT {#1} { \keys_set:nn { braun/problems/makedata } {#1} }

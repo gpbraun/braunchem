@@ -28,7 +28,7 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage { l3keys2e }
+\RequirePackage { l3keys2e, tikz, pgfplots }
 
 \ExplSyntaxOn
 
@@ -49,7 +49,7 @@
 \tl_const:Nn \c_brauncolor_info_tl { Color ~ Pallets }
 
 \ProvidesExplPackage
-	{ brauncolor }
+	{ braundraw }
 	{ \c_brauncolor_date_tl    }
 	{ \c_brauncolor_version_tl }
 	{ \c_brauncolor_info_tl    }
@@ -117,14 +117,20 @@
                     \definecolor { color-2 } { HTML } { C21E56 } % RoseRed
                     \definecolor { color-3 } { HTML } { FDD166 } % PensiYellow
                     \definecolor { color-4 } { HTML } { 009F6B } % GreenNCS
-                    \definecolor { gray-1  } { HTML } { 727176 } % PESC
-                    \definecolor { gray-2  } { HTML } { 87868A } % PESC
-                    \definecolor { gray    } { HTML } { 87868A } % PESC
+                    \definecolor { gray-1  } { HTML } { 727176 } 
+                    \definecolor { gray-2  } { HTML } { 87868A } 
+                    \definecolor { gray    } { HTML } { 87868A } 
                 }            
             }
+        \pgfplotscreateplotcyclelist { braun-pallet }
+            {
+                { color-1 },
+                { color-2 },
+                { color-3 },
+                { color-4 },
+            }
+        \pgfplotsset { cycle~list~name = braun-pallet }
     }
-
-\cs_set:Npn \SetMainColor #1 #2 { \definecolor { color-1 } { #1 } { #2 } }
 
 \keys_define:nn { braun/color }
     {
@@ -132,12 +138,39 @@
         pallet .initial:n = classic,
     }
 
-\ProcessKeysOptions { braun/colors }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PLOTTING      
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\keys_define:nn { braun/draw/plot }
+    { 
+        unknown .code:n = \exp_args:Ne \pgfplotsset { \l_keys_key_tl = #1 },
+    }
+
+\pgfqkeys { /pgf/number~format }
+    {
+        set~thousands~separator = {},
+        set~decimal~separator = {,},
+    }
+
+\pgfplotsset
+    {
+        compat = 1.17,
+        samples = 150,
+        no~markers,
+        every~axis~plot/.append~style = {very~thick},   
+    }
+    
+\tikzstyle{every pin}=[draw=black]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   THE END!!!
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProcessKeysOptions { braun/colors }
 
 \ExplSyntaxOff

@@ -1,13 +1,34 @@
 \begin{problem}
 
+Considere o gráfico.
+
+\begin{center}
+\begin{tikzpicture}
+    \def\kB{1.4e-23}
+    \def\hc{6.6*3e-17}
+    \begin{axis}
+        [
+            grid = both,
+            xlabel={Comprimento de onda, $\lambda/\si{nm}$},
+            ylabel={Irradiância, $B/(\si{W.m^{-2}.nm^{-1}})$},
+            domain=100:2500,
+            xmin=100, ymin=0,
+            xmax=2500, 
+        ]
+    \pgfplotsinvokeforeach{8000,7000,6000}
+        {
+            \addplot
+            {
+                2*3.14*6.6*9*1.6e13/(x^5*(exp(1.4e7/(#1*x))-1))
+            };
+        }
+    \legend{\ch{\textbf{A}},\ch{\textbf{B}},\ch{\textbf{C}}}
+    \end{axis}
+\end{tikzpicture}
+\end{center}
+
 Assinale a alternativa que mais se aproxima da entalpia de reação, $\Delta H/\unit{kJ.mol^{-1}}$
 
-\begin{options}(5)
-    \item 10
-    \item 20
-    \item 30
-    \item 40
-    \item 50
-\end{options}
+\ChoicesNum{10, 20, 30, 40, 50}
 
 \end{problem}

@@ -29,14 +29,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage
-{ 
-	expl3, 
-	l3keys2e,
-	xparse, 
-	l3draw,
-	mendeleev,
-	brauncolor,
-}
+	{ 
+		l3keys2e, 
+		l3draw,
+		mendeleev,
+		braundraw,
+	}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -45,7 +43,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ProvidesExplPackage{braunbox}{2021/07/07}{1.0}%
-{ Typeset Boxes and Headers }
+	{ Typeset Boxes and Headers }
 
 %============================================================%
 %   VARIANTS OF KERNEL FUNCTIONS
@@ -176,36 +174,36 @@
 % #1 -> content
 % #2 -> size
 \cs_set:Nn \braun_mini_box:nn
-{
-	\group_begin:
-
-	\hcoffin_set:Nn \l_tmpa_coffin 
 	{
-		\draw_begin:
-			\draw_path_moveto:n { -#2 +0.2ex, -#2 }
-			\draw_path_lineto:n { #2 -0.2ex  , -#2 }
-			\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
-			\draw_path_lineto:n { #2 -0.2ex, #2 }
-			\draw_path_corner_arc:nn { 0cm }{ 0cm }
-			\draw_path_lineto:n { -#2 +0.2ex, #2 }
-			\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
-			\draw_path_close:
-			\color_fill:n { gray-1!60 }
-			\draw_path_use_clear:n { fill }
-	\draw_end:
+		\group_begin:
+
+		\hcoffin_set:Nn \l_tmpa_coffin 
+			{
+				\draw_begin:
+					\draw_path_moveto:n { -#2 +0.2ex, -#2 }
+					\draw_path_lineto:n { #2 -0.2ex  , -#2 }
+					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
+					\draw_path_lineto:n { #2 -0.2ex, #2 }
+					\draw_path_corner_arc:nn { 0cm }{ 0cm }
+					\draw_path_lineto:n { -#2 +0.2ex, #2 }
+					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
+					\draw_path_close:
+					\color_fill:n { gray-1!60 }
+					\draw_path_use_clear:n { fill }
+				\draw_end:
+			}
+		\hcoffin_set:Nn \l_tmpb_coffin {#1}
+		\coffin_join:NnnNnnnn \l_tmpa_coffin {hc}{vc} \l_tmpb_coffin {hc}{vc} {0pt} {0pt}
+
+		\coffin_typeset:Nnnnn \l_tmpa_coffin {\l_tmpb_coffin-H}{l} {0pt}{0pt}
+
+		\group_end:
 	}
-	\hcoffin_set:Nn \l_tmpb_coffin {#1}
-	\coffin_join:NnnNnnnn \l_tmpa_coffin {hc}{vc} \l_tmpb_coffin {hc}{vc} {0pt} {0pt}
-
-	\coffin_typeset:Nnnnn \l_tmpa_coffin {\l_tmpb_coffin-H}{l} {0pt}{0pt}
-
-	\group_end:
-}
 
 %% FRONT-END
 
 \NewDocumentCommand \MiniBox { m }
-{ \braun_mini_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
+	{ \braun_mini_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              

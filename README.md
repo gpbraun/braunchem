@@ -1,4 +1,18 @@
-## Química
+# ChemProblems
+
+## Texto
+
+### Matemática
+
+### Unidades
+
+Valores com unidade devem ser colocadas utilizando a função `\qty{<valor>}{<unidade>}` do pacote `siunitx`. Todos os valores numéricos devem ser colocados utilizando a função `\unit{<valor>}` do pacote `siunitx`.
+
+### Química
+
+Fórmulas químicas devem ser colocadas utilizando a função  `\ch{<fórmula>}`.
+
+## Problemas Discursivos
 
 ## Problemas Objetivos
 
@@ -8,7 +22,7 @@ O **comando** de questões objetivas com resposta numérica deve ser da seguinte
 
 > **Assinale** a alternativa que mais se aproxima da entalpia de reação, $\Delta H/\pu{kJ mol-1}$.
 
-a unidade é digitada utilizando a função `\unit` do pacote `siunitx`.
+a unidade é digitada utilizando a função `\unit{<valor>}` do pacote `siunitx`.
 
 As alternativas são colocadas com a função:
 

@@ -28,7 +28,11 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage { l3keys2e, silence }
+\RequirePackage 
+    { 
+        l3keys2e, 
+        silence 
+    }
 
 \ExplSyntaxOn
 
@@ -121,12 +125,12 @@
                 {
                     \RequirePackage { lmodern }
                     \RequirePackage { cascadia-code }
-                    \RequirePackage [ scaled  ] { PTSans }
+                    \RequirePackage [ scaled ] { PTSans }
                 }
                 { paratype }
                 {
                     \RequirePackage { paratype }
-                    \RequirePackage [ scaled  ] { cascadia-code }
+                    \RequirePackage [ scaled   ] { cascadia-code }
                     \RequirePackage { eulervm  }
                 }  
                 { helvetica }
@@ -198,6 +202,10 @@
         range-phrase = { ~a~ }, 
         list-final-separator = { ~e~ }, 
         locale = FR,
+        exponent-mode = engineering,
+        round-mode = figures,
+        round-precision = 3,
+        drop-zero-decimal,
     }
 
 %============================================================%
@@ -223,13 +231,8 @@
 
 \keys_define:nn { braun }
     {
-        plots .code:n = 
-            {
-                \RequirePackage { pgfplots }
-                \pgfplotsset    { compat = #1 }
-                \keys_define:nn { braun } { plots .undefine: }
-            },
-        plots .default:n = 1.17,
+        seed .code:n    = { \sys_gset_rand_seed:n {#1} },
+        seed .initial:n = { 1234 },
 
         listings .code:n = 
             {
@@ -251,7 +254,7 @@
 \RequirePackage
     { 
         braunbox,
-        brauncolor,
+        braundraw,
         braunpage,
         brauntitle,
         braunfig,
@@ -382,6 +385,8 @@
     { 
         \recalctypearea 
     }
+
+\cs_set:Npn \pu #1 { \mathrm{#1} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              

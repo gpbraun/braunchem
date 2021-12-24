@@ -64,6 +64,8 @@
 
 \RequirePackage [ blank, no-files, use-aux ] { xsim } 
 
+\cs_set_eq:NN \tightlist \relax
+
 \RequirePackage
     { 
         siunitx,
@@ -72,16 +74,13 @@
         braundb,
     }
 
-%%% OPTIONS
+%%% CHOICES
 
 \NewTasksEnvironment[
-	label-offset = 0.667em,
     label  = { \MiniBox{\Alph*} },
-	%label = { \textbf{\Alph*}~(\;\;) },
 	label-align = right,
-	label-width = 3em,
-	item-indent = 4em,
-]{options}[\item]
+    label-offset = 0.7em,
+]{choices}[\item]
 
 %%% ITEMS
 
@@ -95,12 +94,56 @@
 %%% TASKS
 
 \RenewTasksEnvironment[
-	label = ( \alph* ),
+    label = \sffamily{\alph*.},
 	label-align = right,
-	label-width = 2.5em,
-	label-offset = 1ex,
-    item-indent = 3em,
-]{tasks}[\item]
+]{itemize}[\item]
+
+%============================================================%
+%   MULTIPLE CHOICES
+%============================================================%
+
+\keys_define:nn { braun/problems/choices }
+    {
+        incr .fp_set:N  = \l_braun_choices_incr_fp,
+        incr .initial:n = 1.5,
+
+        log .bool_set:N = \l_braun_choices_log_bool,
+        log .initial:n  = false,
+        log .default:n  = true,
+    }
+
+\NewDocumentCommand \AutoChoicesNum { m }
+    {
+        \group_begin:
+            \int_set:Nn \l_tmpa_int { \int_rand:n {5} }
+
+            \bool_if:NT \l_braun_choices_log_bool 
+                {
+                    \fp_set:Nn \l_braun_choices_incr_fp 
+                        {
+                            10 ^ ( \l_braun_choices_incr_fp - 1 )
+                        }
+                }
+
+            \fp_set:Nn  \l_tmpa_fp  { #1 / ( \l_braun_choices_incr_fp ^ (\l_tmpa_int - 1) ) }
+
+            \clist_clear:N \l_tmpa_clist
+            \int_step_inline:nn {5}
+                {
+                    \clist_put_right:Nx \l_tmpa_clist 
+                        { 
+                            \num { \fp_eval:n { ( \l_tmpa_fp * ( \l_braun_choices_incr_fp ^ (##1 - 1) ) ) } } 
+                        }
+                }
+
+            \exp_args:Nnne \braun_task_list:nnn
+                { choices }
+                { 3 }
+                { \clist_use:Nn \l_tmpa_clist {\item} }
+        \group_end:
+    }
+
+\cs_set:Nn \braun_task_list:nnn { \begin{#1}(#2) \item #3 \end{#1} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -150,9 +193,8 @@
 \seq_new:N \l__braun_problem_tmp_data_seq
 
 % #1 -> template name
-% #2 -> before problem
-% #3 -> after problem
-\cs_set:Npn \DeclareBraunProblemTemplate #1 #2 #3
+% #2 -> header code
+\cs_set:Npn \DeclareBraunProblemTemplate #1 #2
     { 
         \DeclareExerciseEnvironmentTemplate {#1}
             {
@@ -167,10 +209,10 @@
                     }
                 \dim_zero:N \parindent
                 \braun_begin_problem_box:
+                %% HEADER
                 #2
             }
             {
-                #3
                 %% OBSERVAÇÃO
                 \GetExercisePropertyT { obs } { \paragraph { Observação } #1 }
                 %% DADOS
@@ -214,7 +256,7 @@
                     { \GetExerciseParameter { exercise-name } } ~
                 \GetExerciseProperty  { counter } 
             }
-    }{}
+    }
 
 %============================================================%
 %   IME
@@ -239,7 +281,7 @@
                 \text_uppercase:n
                     { \GetExerciseParameter { exercise-name } }
             }
-    }{}
+    }
 
 %============================================================%
 %   ITA
@@ -252,27 +294,12 @@
                 \GetExerciseParameter { exercise-name } ~
                 \GetExerciseProperty  { counter } . 
             }
-    }{}
+    }
 
 %============================================================%
 %   ELEVA
 %============================================================%
 
-\DeclareBraunProblemTemplate { eleva }
-    {
-        \paragraph 
-        {
-            \SquareBox [ fill=color-1, width=1.4em, align = b, yshift=-3pt, stroke=white ]
-                { 
-                    \small
-                    \color { white }
-                    \num [ minimum-integer-digits = 2, detect-all ]
-                        { \GetExerciseProperty { counter } }
-                }
-            \skip_horizontal:n { -1ex }
-        }
-        \GetExercisePropertyT{source}{ \textbf{(#1)} }\;
-    }{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              

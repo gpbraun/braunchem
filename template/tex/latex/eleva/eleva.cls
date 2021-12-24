@@ -394,6 +394,23 @@
 		\skip_vertical:n { 2ex }
 	}
 
+
+% \DeclareBraunProblemTemplate { eleva }
+%     {
+%         \paragraph 
+%         {
+%             \SquareBox [ fill=color-1, width=1.4em, align = b, yshift=-3pt, stroke=white ]
+%                 { 
+%                     \small
+%                     \color { white }
+%                     \num [ minimum-integer-digits = 2, detect-all ]
+%                         { \GetExerciseProperty { counter } }
+%                 }
+%             \skip_horizontal:n { -1ex }
+%         }
+%         \GetExercisePropertyT{source}{ \textbf{(#1)} }\;
+%     }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   THE END!!!
