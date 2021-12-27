@@ -73,70 +73,113 @@
         }
       ],
       "N1": [
-        "1A01"
+        "1A01",
+        "1A02",
+        "1A03",
+        "1A04",
+        "1A05",
+        "1A06",
+        "1A07"
       ],
-      "N2": [
-        "1A02"
-      ],
-      "N3": [
-        "1A03"
-      ]
+      "N2": null,
+      "N3": null
     }
   ],
   "problems": [
     {
       "id": "1A02",
       "path": "",
-      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de\ncarbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de\n$\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n-   **Assinale** a alternativa que mais se aproxima da massa de\n    dissulfeto de carbono formada.\n-   **Determine** a alternativa que mais se aproxima da massa de\n    dissulfeto de carbono formada.\n",
-      "answer": "> -   -10\n> -   11\n> -   12\n>\n> Assim, substituindo a em $$\n> \\sum f(x) \\mathrm{d} x = \\int \\Delta x\n> $$ Temos o seguinte: A função fica $f(x) = 3$\n",
-      "obj": -1,
-      "options": [],
-      "data": [
-        {
-          "id": "Hf-H2O(g)",
-          "name": "Entalpia de formação do $\\ce{CO2(g)}$",
-          "symbol": "\\Delta_\\text{f} H_{\\ce{CO2(g)}}",
-          "value": -394,
-          "unit": "kJ.mol^{-1}"
-        }
-      ]
+      "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
+      "answer": "$\\pu{7e16}$",
+      "obj": 1,
+      "options": [
+        "$\\pu{7e15}$",
+        "$\\pu{7e16}$",
+        "$\\pu{7e17}$",
+        "$\\pu{7e18}$",
+        "$\\pu{7e19}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A06",
+      "path": "",
+      "statement": "Cinco amostras idênticas de um mesmo metal são aquecidas a diferentes\ntemperaturas até a incandescência.\n\n**Assinale** a alternativa com a cor da amostra submetida a uma maior\ntemperatura.\n",
+      "answer": "Branco",
+      "obj": 4,
+      "options": [
+        "Vermelho   ",
+        "Laranja   ",
+        "Amarelo   ",
+        "Verde   ",
+        "Branco"
+      ],
+      "data": []
     },
     {
       "id": "1A01",
       "path": "",
-      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de\ncarbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de\n$\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n**Assinale** a alternativa que mais se aproxima da massa de dissulfeto\nde carbono formada $m_{\\ce{CS2}}/\\pu{g}$.\n",
-      "answer": "$\\pu{71}$",
+      "statement": "**Assinale** a alternativa que mais se aproxima da energia liberada por\n$\\pu{5 g}$ de sódio em uma lâmpada que produz luz amarela com\ncomprimento de onda $\\pu{590 nm}$.\n",
+      "answer": "$\\pu{200 kJ}$",
       "obj": 1,
       "options": [
-        "$\\pu{35}$",
-        "$\\pu{71}$",
-        "$\\pu{142}$",
-        "$\\pu{285}$",
-        "$\\pu{570}$"
+        "$\\pu{100 kJ}$",
+        "$\\pu{200 kJ}$",
+        "$\\pu{300 kJ}$",
+        "$\\pu{400 kJ}$",
+        "$\\pu{500 kJ}$"
       ],
-      "data": [
-        {
-          "id": "Hf-CO2(g)",
-          "name": "Entalpia de formação do $\\ce{CO2(g)}$",
-          "symbol": "\\Delta_\\text{f} H_{\\ce{CO2(g)}}",
-          "value": -394,
-          "unit": "kJ.mol^{-1}"
-        }
-      ]
+      "data": []
     },
     {
       "id": "1A04",
       "path": "",
-      "statement": "teste teste teste\n",
-      "answer": "",
-      "obj": -1,
-      "options": [],
+      "statement": "A mensuração da eficiência quântica da fotossíntese em plantas revelou\nque 8 quanta de luz vermelha a $\\pu{685 nm}$ são necessários para\nliberar uma molécula de oxigênio. A quantidade média de energia\narmazenada no processo fotoquímico é $\\pu{469 kJ}$ por mol de oxigênio\nliberado.\n\n**Assinale** a alternativa que mais se aproxima da eficiência da\nfotossíntese.\n",
+      "answer": "30%",
+      "obj": 1,
+      "options": [
+        "10%",
+        "30%",
+        "50%",
+        "70%",
+        "90%"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A08",
+      "path": "",
+      "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Gráfico de irradiância por comprimento de onda](./images/1A08-P1.tex)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
+      "answer": "$\\pu{6}$",
+      "obj": 3,
+      "options": [
+        "$\\pu{3}$",
+        "$\\pu{4}$",
+        "$\\pu{5}$",
+        "$\\pu{6}$",
+        "$\\pu{7}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A09",
+      "path": "",
+      "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiancia por comprimento de onda](./images/1A09-P2.tex)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
+      "answer": "C, B, A",
+      "obj": 4,
+      "options": [
+        "A, B, C",
+        "A, C, B",
+        "B, A, C",
+        "C, A, B",
+        "C, B, A"
+      ],
       "data": []
     },
     {
       "id": "1A03",
       "path": "",
-      "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico. ABCD\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$EL_{\\ce{I-I}}/\\pu{kJ.mol^{-1}}$.\n",
+      "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$EL_{\\ce{I-I}}/\\pu{kJ.mol^{-1}}$.\n",
       "answer": "$\\pu{240}$",
       "obj": 3,
       "options": [
@@ -147,6 +190,44 @@
         "$\\pu{280}$"
       ],
       "data": []
+    },
+    {
+      "id": "1A05",
+      "path": "",
+      "statement": "**Assinale** a alternativa *correta*.\n",
+      "answer": "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
+      "obj": 3,
+      "options": [
+        "A intensidade total da radiação emitida por um corpo negro é diretamente proporcional à temperatura. ",
+        "O comprimento de onda emitido com maior intensidade por um corpo negro aumenta com o aumento da temperatura.",
+        "Fótons de ondas de rádio são mais energéticos que fótons de radiação ultravioleta.",
+        "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
+        "A energia de um fóton é diretamente proporcional ao comprimento de onda da radiação."
+      ],
+      "data": []
+    },
+    {
+      "id": "1A07",
+      "path": "",
+      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão.\n",
+      "answer": "130 nm",
+      "obj": 0,
+      "options": [
+        "130 nm",
+        "260 nm",
+        "390 nm",
+        "520 nm",
+        "650 nm"
+      ],
+      "data": [
+        {
+          "id": "Tf-Fe",
+          "name": "Temperatura de fusão do ferro",
+          "symbol": "T_{\\text{fus} \\ce{Fe}}",
+          "value": 1540,
+          "unit": "\\degree C"
+        }
+      ]
     }
   ]
 }

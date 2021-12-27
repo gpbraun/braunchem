@@ -42,7 +42,7 @@ def html2md(content):
     # convert md to html using pandoc and parse as soup
     return convert_text(
         content, 'md',
-        format='html+tex_math_dollars-raw_tex',
+        format='html+tex_math_dollars+raw_tex',
     )
 
 
@@ -81,10 +81,9 @@ def latex2pdf(tex, file_name):
 #
 
 
-data = ['potentials', 'thermochem']
+data = ['elements', 'thermochem']
 frames = [pd.read_csv(f'database/data/{dataset}.csv') for dataset in data]
 DATA = pd.concat(frames)
-
 
 @attr.s()
 class Data(object):
@@ -124,7 +123,7 @@ class Problem(object):
     answer: str = attr.ib(default="")
     obj: int = attr.ib(default=-1)
     options = attr.ib(factory=list)
-    data = attr.ib(factory=list)
+    data = attr.ib(default=[])
 
     def read_file(self, root_path):
         # get YAML data and contents
@@ -172,12 +171,16 @@ class Problem(object):
     def asdict(self):
         return attr.asdict(self)
 
+    def printdata(self):
+        if not data:
+            return ''
+        return f'\\subsubsection*{{Dados}}\n{dataset2latex(self.data)}'
+
     def aslatex(self):
         # return problem in latex format
         return f'''\\begin{{problem}}
 {md2latex(self.statement)}
-\\subsubsection*{{Dados}}
-{dataset2latex(self.data)}
+{self.printdata()}
 \\end{{problem}}'''
 
 
@@ -302,16 +305,16 @@ class Arsenal(object):
                 for problem in self.problems:
                     if problem.id in topic.N1:
                         N1_problems.append(problem)
-                    elif problem.id in topic.N2:
+                    elif topic.N2 and problem.id in topic.N2:
                         N2_problems.append(problem)
-                    elif problem.id in topic.N3:
+                    elif topic.N3 and problem.id in topic.N3:
                         N3_problems.append(problem)
 
                 N1 = ProblemSet(N1_problems)
                 N2 = ProblemSet(N2_problems)
                 N3 = ProblemSet(N3_problems)
 
-                l = List(id=topic.id, title=topic.title, N1=N1, N2=N2, N3=N3)
+                l = List(topic.id, topic.title, N1=N1, N2=N2, N3=N3)
 
                 print(l.aslatex())
                 latex2pdf(l.aslatex(), topic.id)
@@ -324,13 +327,28 @@ class Arsenal(object):
 @attr.s(frozen=True)
 class List(object):
     id: str = attr.ib()
-    title: str = attr.ib(default="Título")
+    title: str = attr.ib()
     affiliation: str = attr.ib(default="Colégio e Curso Pensi")
     author: str = attr.ib(default="Gabriel Braun")
     logo: str = attr.ib(default="pensi")
-    N1 = attr.ib(default = False)
-    N2 = attr.ib(default = False)
-    N3 = attr.ib(default = False)
+    N1 = attr.ib(default = ProblemSet([]))
+    N2 = attr.ib(default = ProblemSet([]))
+    N3 = attr.ib(default = ProblemSet([]))
+
+    def N1_aslatex(self):
+        if not self.N1.problems:
+            return ''
+        return f'\\section*{{Nível 1}} {self.N1.latex_statements()}'
+
+    def N2_aslatex(self):
+        if not self.N2.problems:
+            return ''
+        return f'\\section*{{Nível 2}} {self.N2.latex_statements()}'
+
+    def N3_aslatex(self):
+        if not self.N3.problems:
+            return ''
+        return f'\\section*{{Nível 3}} {self.N3.latex_statements()}'
 
     def aslatex(self):
         return f'''\\documentclass[braun, twocolumn]{{braun}}
@@ -341,12 +359,9 @@ class List(object):
 \\logo{{{self.logo}}}
 \\begin{{document}}
 \\maketitle[botrule=false]
-\\section*{{Nível 1}}
-{self.N1.latex_statements()}
-\\section*{{Nível 2}}
-{self.N2.latex_statements()}
-\\section*{{Nível 3}}
-{self.N3.latex_statements()}
+{self.N1_aslatex()}
+{self.N2_aslatex()}
+{self.N3_aslatex()}
 \\section*{{Gabarito}}
 \\end{{document}}'''
 

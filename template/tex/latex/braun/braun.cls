@@ -184,7 +184,7 @@
 \numberwithin { equation     } { section }
 \mathtoolsset { showonlyrefs }
 
-%% THEOREM LIKE ENVIRONMENTS
+%% THEOREM LIKE ENVIRONMENTSs
 
 \RequirePackage { amsthm }
 
@@ -202,7 +202,6 @@
         range-phrase = { ~a~ }, 
         list-final-separator = { ~e~ }, 
         locale = FR,
-        exponent-mode = engineering,
         round-mode = figures,
         round-precision = 3,
         drop-zero-decimal,
