@@ -208,6 +208,8 @@
         drop-zero-decimal,
     }
 
+\cs_set:Npn \pu #1 { \mathrm{#1} }
+
 %============================================================%
 %   CHEMISTRY
 %============================================================%
@@ -216,10 +218,11 @@
 
 \chemsetup
     { 
-        modules = { thermodynamics, nomenclature, isotopes, units, redox },
         formula = chemformula, 
         greek   = upgreek, 
     }
+
+\cs_set_eq:NN \ce \ch
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -385,8 +388,6 @@
     { 
         \recalctypearea 
     }
-
-\cs_set:Npn \pu #1 { \mathrm{#1} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              

@@ -36,6 +36,6 @@ O **comando** de questões
 
 ## Dados Termodinâmicos
 
-| Código | Nome | Valor |
-| -- | -- | -- |
-| `Hf-CO2(g)` | Entalpia de formação do CO2(g) | $-394$ | 
+| ID | Nome | Símbolo | Valor |
+| -- | -- | -- | -- |
+`Hf-CO2(g)` | Entalpia de formação do $\ce{CO2(g)}$ | $\Delta_\text{f} H_{\ce{CO2(g)}}$ | $\pu{-394 kJ.mol^{-1}}$ |
