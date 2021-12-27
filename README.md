@@ -37,6 +37,7 @@ O **comando** de questões
 ## Dados a serem adicionados
 Temperatura de fusão do ferro: 1540 °C
 Função trabalho do potássio: 2,29 eV
+Função trabalho do zinco: 3,63 eV
 
 ## Dados Termodinâmicos
 
