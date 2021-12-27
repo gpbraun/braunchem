@@ -8,81 +8,87 @@
           "id": "1A.1",
           "title": "Radiação Eletromagnética",
           "items": [
-            "- Relação entre frequência, $f$, e comprimento de onda, $\\lambda$, da radiação eletromagnética:\n $$\n c=\\lambda f\n $$",
-            "- Energia da radiação eletromagnética, $E$:\n $$\n E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n $$",
-            "- Espectro eletromagnético (IV, Vis, UV)."
+            "Relação entre frequência, $f$, e comprimento de onda, $\\lambda$, da\nradiação eletromagnética: $$\n    c=\\lambda f\n    $$\n",
+            "Energia da radiação eletromagnética, $E$: $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n",
+            "Espectro eletromagnético (IV, Vis, UV).\n"
           ],
           "abilities": [
-            "- **Calcular** o comprimento de onda, a energia e a frequência da radiação."
+            "**Calcular** o comprimento de onda, a energia e a frequência da\nradiação.\n"
           ]
         },
         {
           "id": "1A.2",
           "title": "Radiação de Corpo Negro",
           "items": [
-            "- Espectro de emissão do corpo negro.",
-            "- Lei de Stefan-Boltzmann.",
-            "- Lei de Wien: \n $$ \n T \\lambda\\_\\text{max} = 2,!9\\;\\mathrm{mm\\,K}\n $$"
+            "Espectro de emissão do corpo negro.\n",
+            "Lei de Stefan-Boltzmann.\n",
+            "Lei de Wien: $$ \n    T \\lambda_\\text{max} = 2,!9\\;\\mathrm{mm\\,K}\n    $$\n"
           ],
           "abilities": [
-            "- **Calcular** a temperatura de um corpo a partir da Lei de Wien."
+            "**Calcular** a temperatura de um corpo a partir da Lei de Wien.\n"
           ]
         },
         {
           "id": "1A.3",
           "title": "Efeito Fotoelétrico",
           "items": [
-            "- Função trabalho, $\\Phi$.",
-            "- Conservação de Energia no Efeito Fotoelétrico: \n $$\n hf = \\frac{1}{2}m\\_ev^2 + \\Phi\n $$"
+            "Função trabalho, $\\Phi$.\n",
+            "Conservação de Energia no Efeito Fotoelétrico: $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n"
           ],
           "abilities": [
-            "- **Calcular** a função trabalho de um metal.",
-            "- **Comparar** a função trabalho de diferentes metais."
+            "**Calcular** a função trabalho de um metal.\n",
+            "**Comparar** a função trabalho de diferentes metais.\n"
           ]
         },
         {
           "id": "1A.4",
           "title": "Dualidade Onda-Partícula",
           "items": [
-            "- Relação de De Broglie: \n $$ \n \\lambda = \\dfrac{h}{p} \n $$",
-            "- Princípio da Incerteza de Heisenberg.",
-            "- Partícula na caixa unidimensional: \n $$ \n E\\_n = \\dfrac{n^2h^2}{8 m L^2} \n $$"
+            "Relação de De Broglie: $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n",
+            "Princípio da Incerteza de Heisenberg.\n",
+            "Partícula na caixa unidimensional: $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n"
           ],
           "abilities": [
-            "- **Calcular** o comprimento de onda associado a uma partícula.",
-            "- **Determinar** os níveis de energia para um sistema quântico utilizando a Relação de De Broglie."
+            "**Calcular** o comprimento de onda associado a uma partícula.\n",
+            "**Determinar** os níveis de energia para um sistema quântico utilizando\na Relação de De Broglie.\n"
           ]
         },
         {
           "id": "1A.5",
           "title": "Espectros Atômicos e Teoria de Bohr",
           "items": [
-            "- Espectros atômicos.",
-            "- Limitações do modelo de Rutherford.",
-            "- Quantização do momento angular.",
-            "- Níveis de energia no átomo de Bohr: \n $$\n E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon\\_0^2 h^2 }\\right)\\dfrac{n^2 }{Z^2 } = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n $$",
-            "- Equação de Rydberg: \n $$\n \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n\\_1^2 }-\\dfrac{1}{n\\_2^2 }\\right) \n $$",
-            "- Energia de ionização.",
-            "- Efeito da massa nuclear nos níveis de energia e [átomos exóticos](https://en.wikipedia.org/wiki/Exotic_atom).",
-            "- Átomo de Sommerfeld."
+            "Espectros atômicos.\n",
+            "Limitações do modelo de Rutherford.\n",
+            "Quantização do momento angular.\n",
+            "Níveis de energia no átomo de Bohr: $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{n^2 }{Z^2 } = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n    $$\n",
+            "Equação de Rydberg: $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n",
+            "Energia de ionização.\n",
+            "Efeito da massa nuclear nos níveis de energia e [átomos\nexóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n",
+            "Átomo de Sommerfeld.\n"
           ],
           "abilities": [
-            "- **Determinar** a expressão para a energia e raio do átomo hidrogenoide.",
-            "- **Calcular** a energia, frequência e comprimento de onda de uma transição eletrônica a partir da Equação de Rydberg."
+            "**Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n",
+            "**Calcular** a energia, frequência e comprimento de onda de uma\ntransição eletrônica a partir da Equação de Rydberg.\n"
           ]
         }
       ],
-      "N1": null,
-      "N2": null,
-      "N3": null
+      "N1": [
+        "1A01"
+      ],
+      "N2": [
+        "1A02"
+      ],
+      "N3": [
+        "1A03"
+      ]
     }
   ],
   "problems": [
     {
       "id": "1A02",
       "path": "",
-      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de carbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de $\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n\n* **Assinale** a alternativa que mais se aproxima da massa de dissulfeto de carbono formada.\n* **Determine** a alternativa que mais se aproxima da massa de dissulfeto de carbono formada.",
-      "answer": "\n> \n> * -10\n> * 11\n> * 12\n> \n> \n> Assim, substituindo a em \n> $$\n> \\sum f(x) \\mathrm{d} x = \\int \\Delta x\n> $$\n> Temos o seguinte:\n> A função fica $f(x) = 3$\n> \n> \n>",
+      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de\ncarbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de\n$\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n-   **Assinale** a alternativa que mais se aproxima da massa de\n    dissulfeto de carbono formada.\n-   **Determine** a alternativa que mais se aproxima da massa de\n    dissulfeto de carbono formada.\n",
+      "answer": "> -   -10\n> -   11\n> -   12\n>\n> Assim, substituindo a em $$\n> \\sum f(x) \\mathrm{d} x = \\int \\Delta x\n> $$ Temos o seguinte: A função fica $f(x) = 3$\n",
       "obj": -1,
       "options": [],
       "data": [
@@ -98,7 +104,7 @@
     {
       "id": "1A01",
       "path": "",
-      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de carbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de $\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n\n**Assinale** a alternativa que mais se aproxima da massa de dissulfeto de carbono formada $m\\_{\\ce{CS2}}/\\pu{g}$.",
+      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de\ncarbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de\n$\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n**Assinale** a alternativa que mais se aproxima da massa de dissulfeto\nde carbono formada $m_{\\ce{CS2}}/\\pu{g}$.\n",
       "answer": "$\\pu{71}$",
       "obj": 1,
       "options": [
@@ -119,21 +125,28 @@
       ]
     },
     {
-      "id": "1A03",
+      "id": "1A04",
       "path": "",
-      "statement": "Quando gás metano é aquecido com enxofre, são formados dissulfeto de carbono e sulfeto de hidrogênio como únicos produtos. Uma amostra de $\\pu{120 g}$ de metano é aquecida com $\\pu{120 g}$ enxofre.\n\n\n* **Assinale** a alternativa que mais se aproxima da massa de dissulfeto de carbono formada.\n* **Determine** a alternativa que mais se aproxima da massa de dissulfeto de carbono formada.",
-      "answer": "\n> \n> * -10\n> * 11\n> * 12\n> \n> \n> Assim, substituindo a em \n> $$\n> \\sum f(x) \\mathrm{d} x = \\int \\Delta x\n> $$\n> Temos o seguinte:\n> A função fica $f(x) = 3$\n> \n> \n>",
+      "statement": "teste teste teste\n",
+      "answer": "",
       "obj": -1,
       "options": [],
-      "data": [
-        {
-          "id": "Hf-CO2(g)",
-          "name": "Entalpia de formação do $\\ce{CO2(g)}$",
-          "symbol": "\\Delta_\\text{f} H_{\\ce{CO2(g)}}",
-          "value": -394,
-          "unit": "kJ.mol^{-1}"
-        }
-      ]
+      "data": []
+    },
+    {
+      "id": "1A03",
+      "path": "",
+      "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico. ABCD\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$EL_{\\ce{I-I}}/\\pu{kJ.mol^{-1}}$.\n",
+      "answer": "$\\pu{240}$",
+      "obj": 3,
+      "options": [
+        "$\\pu{120}$",
+        "$\\pu{160}$",
+        "$\\pu{200}$",
+        "$\\pu{240}$",
+        "$\\pu{280}$"
+      ],
+      "data": []
     }
   ]
 }

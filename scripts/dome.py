@@ -35,15 +35,22 @@ def md2soup(content):
     return BeautifulSoup(html, 'html.parser')
 
 
+# def html2md(content):
+#     return markdownify(str(content)).rstrip()
+
 def html2md(content):
-    return markdownify(str(content)).rstrip()
+    # convert md to html using pandoc and parse as soup
+    return convert_text(
+        content, 'md',
+        format='html+tex_math_dollars-raw_tex',
+    )
 
 
-def html2latex(content):
+def md2latex(content):
     # convert html string to latex using pandoc
     return convert_text(
         str(content), 'latex',
-        format='html-tex_math_dollars+raw_tex',
+        format='markdown+tex_math_dollars+raw_tex',
     ).replace('\\tightlist\n', '').rstrip()
     # TODO: convert \pu to \unit and \qty fom siunitx!
 
@@ -93,14 +100,14 @@ class Data(object):
         for prop in ['name', 'symbol', 'value', 'unit']:
             object.__setattr__(self, prop, col[prop].item())
 
-    def to_latex(self):
+    def aslatex(self):
         # print data in sunitx format
         return f"${self.symbol} = \\qty{{{self.value}}}{{{self.unit}}}$"
 
 
 def dataset2latex(dataset):
     # return data array to latex list
-    datalist = '\n'.join([f'\\item {data.to_latex()}\n' for data in dataset])
+    datalist = '\n'.join([f'\\item {data.aslatex()}\n' for data in dataset])
     return f'\\begin{{itemize}}\n{datalist}\\end{{itemize}}'
 
 
@@ -151,7 +158,7 @@ class Problem(object):
             task_list.decompose()
 
         # get problem answer
-        # TODO: remove blockquote tags (teste)
+        # TODO: remove blockquote tags
         answer = soup.find('blockquote')
         if answer:
             self.answer = html2md(answer)
@@ -168,7 +175,7 @@ class Problem(object):
     def aslatex(self):
         # return problem in latex format
         return f'''\\begin{{problem}}
-{self.statement.to_latex()}
+{md2latex(self.statement)}
 \\subsubsection*{{Dados}}
 {dataset2latex(self.data)}
 \\end{{problem}}'''
@@ -178,10 +185,10 @@ class Problem(object):
 class ProblemSet(object):
     problems = attr.ib()
 
-    def latex_statements():
-        return 0
+    def latex_statements(self):
+        return '\n'.join([problem.aslatex() for problem in self.problems])
 
-    def latex_answers(cols=1):
+    def latex_answers(self, cols=1):
         return 0
 
 #
@@ -222,7 +229,7 @@ class Topic(object):
         all_abilities = soup.find_all('ul')
 
         for i, subtopic in enumerate(all_subtopics):
-            subtopic_id = self.id + f'.{i+1}'
+            subtopic_id = f'{self.id}.{i+1}'
             subtopic_title = subtopic.text
             subtopic_items = [
                 html2md(item) for item in all_items[i].find_all('li')
@@ -286,28 +293,28 @@ class Arsenal(object):
     def asdict(self):
         return attr.asdict(self)
 
-    def generate_pdfs(self, topic_ids):
+    def aspdf(self, topic_ids):
         for topic in self.topics:
             if topic.id in topic_ids:
-
                 N1_problems = []
                 N2_problems = []
                 N3_problems = []
                 for problem in self.problems:
                     if problem.id in topic.N1:
                         N1_problems.append(problem)
-                    elif topic.id in topic.N2:
+                    elif problem.id in topic.N2:
                         N2_problems.append(problem)
-                    elif topic.id in topic.N3:
+                    elif problem.id in topic.N3:
                         N3_problems.append(problem)
 
                 N1 = ProblemSet(N1_problems)
-                N2 = ProblemSet(N1_problems)
-                N3 = ProblemSet(N1_problems)
+                N2 = ProblemSet(N2_problems)
+                N3 = ProblemSet(N3_problems)
 
-                l = List(title=topic.title, N1=N1, N2=N2, N3=N3)
+                l = List(id=topic.id, title=topic.title, N1=N1, N2=N2, N3=N3)
 
-                print(l)
+                print(l.aslatex())
+                latex2pdf(l.aslatex(), topic.id)
 
 
 #
@@ -316,17 +323,16 @@ class Arsenal(object):
 
 @attr.s(frozen=True)
 class List(object):
+    id: str = attr.ib()
     title: str = attr.ib(default="Título")
     affiliation: str = attr.ib(default="Colégio e Curso Pensi")
     author: str = attr.ib(default="Gabriel Braun")
     logo: str = attr.ib(default="pensi")
-    N1 = attr.ib()
-    N2 = attr.ib()
-    N3 = attr.ib()
+    N1 = attr.ib(default = False)
+    N2 = attr.ib(default = False)
+    N3 = attr.ib(default = False)
 
-    def document(self):
-        content = '\n'.join([problem.aslatex() for problem in self.problems])
-
+    def aslatex(self):
         return f'''\\documentclass[braun, twocolumn]{{braun}}
 \\braunsetup{{DIV=calc}}
 \\title{{{self.title}}}
@@ -335,7 +341,12 @@ class List(object):
 \\logo{{{self.logo}}}
 \\begin{{document}}
 \\maketitle[botrule=false]
-{content}
+\\section*{{Nível 1}}
+{self.N1.latex_statements()}
+\\section*{{Nível 2}}
+{self.N2.latex_statements()}
+\\section*{{Nível 3}}
+{self.N3.latex_statements()}
 \\section*{{Gabarito}}
 \\end{{document}}'''
 
@@ -347,7 +358,7 @@ class List(object):
 
 def main():
     data = Arsenal().read_dir("database")
-    data.generate_pdfs()
+    data.aspdf(['1A'])
     #tex = ProblemSet(data, ['1A01', '1A02', '1A03']).document()
     #latex2pdf(tex, '1A')
 
