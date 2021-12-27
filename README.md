@@ -34,6 +34,9 @@ As alternativas são colocadas com a função:
 
 O **comando** de questões 
 
+## Dados a serem adicionados
+Temperatura de fusão do ferro: 1540 °C
+
 ## Dados Termodinâmicos
 
 | ID | Nome | Símbolo | Valor |
