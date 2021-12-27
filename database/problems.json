@@ -92,7 +92,8 @@
       "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
       "answer": "$\\pu{7e16}$",
       "obj": 1,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "$\\pu{7e15}$",
         "$\\pu{7e16}$",
         "$\\pu{7e17}$",
@@ -107,7 +108,8 @@
       "statement": "Cinco amostras idênticas de um mesmo metal são aquecidas a diferentes\ntemperaturas até a incandescência.\n\n**Assinale** a alternativa com a cor da amostra submetida a uma maior\ntemperatura.\n",
       "answer": "Branco",
       "obj": 4,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "Vermelho   ",
         "Laranja   ",
         "Amarelo   ",
@@ -122,7 +124,8 @@
       "statement": "**Assinale** a alternativa que mais se aproxima da energia liberada por\n$\\pu{5 g}$ de sódio em uma lâmpada que produz luz amarela com\ncomprimento de onda $\\pu{590 nm}$.\n",
       "answer": "$\\pu{200 kJ}$",
       "obj": 1,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "$\\pu{100 kJ}$",
         "$\\pu{200 kJ}$",
         "$\\pu{300 kJ}$",
@@ -135,14 +138,15 @@
       "id": "1A04",
       "path": "",
       "statement": "A mensuração da eficiência quântica da fotossíntese em plantas revelou\nque 8 quanta de luz vermelha a $\\pu{685 nm}$ são necessários para\nliberar uma molécula de oxigênio. A quantidade média de energia\narmazenada no processo fotoquímico é $\\pu{469 kJ}$ por mol de oxigênio\nliberado.\n\n**Assinale** a alternativa que mais se aproxima da eficiência da\nfotossíntese.\n",
-      "answer": "30%",
+      "answer": "$\\pu{30\\%}$",
       "obj": 1,
-      "options": [
-        "10%",
-        "30%",
-        "50%",
-        "70%",
-        "90%"
+      "is_obj": true,
+      "choices": [
+        "$\\pu{10\\%}$",
+        "$\\pu{30\\%}$",
+        "$\\pu{50\\%}$",
+        "$\\pu{70\\%}$",
+        "$\\pu{90\\%}$"
       ],
       "data": []
     },
@@ -152,7 +156,8 @@
       "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Gráfico de irradiância por comprimento de onda](./images/1A08-P1.tex)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
       "answer": "$\\pu{6}$",
       "obj": 3,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "$\\pu{3}$",
         "$\\pu{4}$",
         "$\\pu{5}$",
@@ -167,7 +172,8 @@
       "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiancia por comprimento de onda](./images/1A09-P2.tex)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
       "answer": "C, B, A",
       "obj": 4,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "A, B, C",
         "A, C, B",
         "B, A, C",
@@ -177,12 +183,29 @@
       "data": []
     },
     {
+      "id": "1A14",
+      "path": "",
+      "statement": "O comprimento de onda crítico para a verificação do efeito fotoelétrico\nno tungstênio é $\\pu{260 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nnecessário para produzir fotoelétrons do tungstênio com o dobro da\nenergia cinética daqueles produzidos a $\\pu{220 nm}$, $nm$.\n",
+      "answer": "$\\pu{190}$",
+      "obj": 4,
+      "is_obj": true,
+      "choices": [
+        "$\\pu{110}$ ",
+        "$\\pu{130}$ ",
+        "$\\pu{150}$",
+        "$\\pu{170}$",
+        "$\\pu{190}$"
+      ],
+      "data": []
+    },
+    {
       "id": "1A03",
       "path": "",
       "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$EL_{\\ce{I-I}}/\\pu{kJ.mol^{-1}}$.\n",
       "answer": "$\\pu{240}$",
       "obj": 3,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "$\\pu{120}$",
         "$\\pu{160}$",
         "$\\pu{200}$",
@@ -197,7 +220,8 @@
       "statement": "**Assinale** a alternativa *correta*.\n",
       "answer": "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
       "obj": 3,
-      "options": [
+      "is_obj": true,
+      "choices": [
         "A intensidade total da radiação emitida por um corpo negro é diretamente proporcional à temperatura. ",
         "O comprimento de onda emitido com maior intensidade por um corpo negro aumenta com o aumento da temperatura.",
         "Fótons de ondas de rádio são mais energéticos que fótons de radiação ultravioleta.",
@@ -207,24 +231,113 @@
       "data": []
     },
     {
+      "id": "1A12",
+      "path": "",
+      "statement": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco, $J$.\n",
+      "answer": "$\\pu{8,4e-19}$",
+      "obj": 1,
+      "is_obj": true,
+      "choices": [
+        "$\\pu{1,4e-19}$",
+        "$\\pu{8,4e-19}$",
+        "$\\pu{1,4e-18}$",
+        "$\\pu{8,4e-18}$",
+        "$\\pu{1,4e-17}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A15",
+      "path": "",
+      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nde uma partícula de $\\pu{1 g}$ viajando a $\\pu{1 m/s}$.\n",
+      "answer": "$\\pu{7e-31}$",
+      "obj": 3,
+      "is_obj": true,
+      "choices": [
+        "$\\pu{7e-34}$",
+        "$\\pu{7e-33}$",
+        "$\\pu{7e-32}$",
+        "$\\pu{7e-31}$",
+        "$\\pu{7e-30}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A13",
+      "path": "",
+      "statement": "A superfície de um metal é irradiada com luz de dois comprimentos de\nonda, $\\lambda_1$ e $\\lambda_2$. As velocidades máximas dos fotoelétrons\nemitidos são, respectivamente, $v_1$ e $v_2$, sendo $v_1 = 2 v_2$. Seja\n$h$ a constante de Planck e $c$ a velocidade da luz.\n\n**Assinale** a alternativa com a função trabalho desse metal.\n",
+      "answer": "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$",
+      "obj": 3,
+      "is_obj": true,
+      "choices": [
+        "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{\\lambda_1 \\lambda_2}$",
+        "$\\dfrac{(\\lambda_2 - 2\\lambda_1)hc}{\\lambda_1 \\lambda_2}$",
+        "$\\dfrac{(\\lambda_2 - 4\\lambda_1)hc}{3\\lambda_1 \\lambda_2}$",
+        "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$",
+        "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A11",
+      "path": "",
+      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s^{-1}}$. **Assinale** a alternativa que mais se aproxima do\ncomprimento de onda da radiação incidente, $\\pu{nm}$.\n",
+      "answer": "$\\pu{350}$",
+      "obj": 1,
+      "is_obj": true,
+      "choices": [
+        "$\\pu{300}$",
+        "$\\pu{350}$",
+        "$\\pu{400}$",
+        "$\\pu{450}$",
+        "$\\pu{500}$"
+      ],
+      "data": [
+        {
+          "id": "Phi-K",
+          "name": "Função trabalho do potássio",
+          "symbol": "\\Phi_{\\ce{K}}",
+          "value": "2,2",
+          "unit": "eV"
+        }
+      ]
+    },
+    {
+      "id": "1A10",
+      "path": "",
+      "statement": "Uma placa é feita de um metal, cuja função trabalho é menor que a\nenergia dos fótons da luz visível, é exposta ao sol.\\\n**Assinale** a alternativa *correta*.\n",
+      "answer": "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.   ",
+      "obj": 3,
+      "is_obj": true,
+      "choices": [
+        "Os elétrons não são ejetados instantaneamente, já que precisam de um tempo mínimo para acúmulo de energia.   ",
+        "Os elétrons podem ser ejetados instantaneamente com uma mesma energia cinética para qualquer elétron.   ",
+        "Os elétrons não podem ser ejetados já que a placa metálica apenas reflete a radiação.   ",
+        "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.   ",
+        "Os elétrons não podem ser ejetados instantaneamente e a energia cinética após a ejeção depende da frequência da radiação absorvida e da energia do elétron no metal."
+      ],
+      "data": []
+    },
+    {
       "id": "1A07",
       "path": "",
-      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão.\n",
-      "answer": "130 nm",
+      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão, $\\lambda/\\pu{nm}$.\n",
+      "answer": "$\\pu{130}$",
       "obj": 0,
-      "options": [
-        "130 nm",
-        "260 nm",
-        "390 nm",
-        "520 nm",
-        "650 nm"
+      "is_obj": true,
+      "choices": [
+        "$\\pu{130}$",
+        "$\\pu{260}$",
+        "$\\pu{390}$",
+        "$\\pu{520}$",
+        "$\\pu{650}$"
       ],
       "data": [
         {
           "id": "Tf-Fe",
           "name": "Temperatura de fusão do ferro",
-          "symbol": "T_{\\text{fus} \\ce{Fe}}",
-          "value": 1540,
+          "symbol": "T_{\\text{fus}, \\ce{Fe}}",
+          "value": "1540",
           "unit": "\\degree C"
         }
       ]

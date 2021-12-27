@@ -11,6 +11,7 @@
 
 import attr
 from json import dump as json_dump
+import sys
 import os
 import re
 import pandas as pd
@@ -82,8 +83,10 @@ def latex2pdf(tex, file_name):
 
 
 data = ['elements', 'thermochem']
-frames = [pd.read_csv(f'database/data/{dataset}.csv') for dataset in data]
+frames = [pd.read_csv(
+    f'database/data/{dataset}.csv', sep=';') for dataset in data]
 DATA = pd.concat(frames)
+
 
 @attr.s()
 class Data(object):
@@ -96,8 +99,12 @@ class Data(object):
     def __attrs_post_init__(self):
         col = DATA.loc[DATA.id == self.id]
 
+        if col.empty:
+            print(f'O dado "{self.id}" não foi cadastrado!')
+            sys.exit(f'Cadastre os dados necessários e tente denovo.')
+
         for prop in ['name', 'symbol', 'value', 'unit']:
-            object.__setattr__(self, prop, col[prop].item())
+            object.__setattr__(self, prop, col[prop].item().strip())
 
     def aslatex(self):
         # print data in sunitx format
@@ -122,7 +129,8 @@ class Problem(object):
     statement = attr.ib(default="")
     answer: str = attr.ib(default="")
     obj: int = attr.ib(default=-1)
-    options = attr.ib(factory=list)
+    is_obj: int = attr.ib(default=False)
+    choices = attr.ib(factory=list)
     data = attr.ib(default=[])
 
     def read_file(self, root_path):
@@ -148,12 +156,13 @@ class Problem(object):
         # TODO: remove listitem tags
         task_list = soup.find('ul', class_='task-list')
         if task_list:
+            self.is_obj = True
             for index, item in enumerate(task_list.find_all('li')):
                 check_box = item.find('input').extract()
                 if check_box.has_attr('checked'):
                     self.obj = index
                     self.answer = item.text.lstrip()
-                self.options.append(item.text.lstrip())
+                self.choices.append(item.text.lstrip())
             task_list.decompose()
 
         # get problem answer
@@ -171,16 +180,32 @@ class Problem(object):
     def asdict(self):
         return attr.asdict(self)
 
-    def printdata(self):
-        if not data:
+    def latex_data(self):
+        # return data as latex list with header
+        if not self.data:
             return ''
         return f'\\subsubsection*{{Dados}}\n{dataset2latex(self.data)}'
+
+    def latex_choices(self):
+        # return choices as latex list
+        if not self.is_obj:
+            return ''
+        choices = '\n'.join([f'\\item {choice}' for choice in self.choices])
+        return f'\\begin{{choices}}\n{choices}\n\\end{{choices}}'
+
+    def latex_answer(self):
+        # return choices as latex list
+        if self.is_obj:
+            return f'\MiniBox{{{chr(65 + self.obj)}}}'
+        else:
+            return self.answer
 
     def aslatex(self):
         # return problem in latex format
         return f'''\\begin{{problem}}
 {md2latex(self.statement)}
-{self.printdata()}
+{self.latex_choices()}
+{self.latex_data()}
 \\end{{problem}}'''
 
 
@@ -188,11 +213,31 @@ class Problem(object):
 class ProblemSet(object):
     problems = attr.ib()
 
-    def latex_statements(self):
-        return '\n'.join([problem.aslatex() for problem in self.problems])
+    def latex_statements(self, header_title=''):
+        if not self.problems:
+            return ''
 
-    def latex_answers(self, cols=1):
-        return 0
+        # empty header title removes \section (for lists without levels)
+        head = f'\section*{{{header_title}}}' if header_title else ''
+
+        statements = '\n'.join(
+            [problem.aslatex() for problem in self.problems]
+        )
+        return f'{head}\n{statements}'
+
+    def latex_answers(self, header_title=''):
+        if not self.problems:
+            return ''
+
+        # empty header title removes \section (for lists without levels)
+        head = f'\subsection*{{{header_title}}}' if header_title else ''
+
+        cols = 5 if all([problem.is_obj for problem in self.problems]) else 2
+
+        answers = '\n'.join(
+            [f'\\item {problem.latex_answer()}' for problem in self.problems]
+        )
+        return f'{head}\\begin{{itemize}}({cols})\n{answers}\n\\end{{itemize}}'
 
 #
 # TOPIC CLASS
@@ -328,27 +373,12 @@ class Arsenal(object):
 class List(object):
     id: str = attr.ib()
     title: str = attr.ib()
-    affiliation: str = attr.ib(default="Colégio e Curso Pensi")
+    affiliation: str = attr.ib(default="Colégio e Curso Pensi, Química")
     author: str = attr.ib(default="Gabriel Braun")
     logo: str = attr.ib(default="pensi")
-    N1 = attr.ib(default = ProblemSet([]))
-    N2 = attr.ib(default = ProblemSet([]))
-    N3 = attr.ib(default = ProblemSet([]))
-
-    def N1_aslatex(self):
-        if not self.N1.problems:
-            return ''
-        return f'\\section*{{Nível 1}} {self.N1.latex_statements()}'
-
-    def N2_aslatex(self):
-        if not self.N2.problems:
-            return ''
-        return f'\\section*{{Nível 2}} {self.N2.latex_statements()}'
-
-    def N3_aslatex(self):
-        if not self.N3.problems:
-            return ''
-        return f'\\section*{{Nível 3}} {self.N3.latex_statements()}'
+    N1 = attr.ib(default=ProblemSet([]))
+    N2 = attr.ib(default=ProblemSet([]))
+    N3 = attr.ib(default=ProblemSet([]))
 
     def aslatex(self):
         return f'''\\documentclass[braun, twocolumn]{{braun}}
@@ -359,10 +389,13 @@ class List(object):
 \\logo{{{self.logo}}}
 \\begin{{document}}
 \\maketitle[botrule=false]
-{self.N1_aslatex()}
-{self.N2_aslatex()}
-{self.N3_aslatex()}
+{self.N1.latex_statements('Nível I')}
+{self.N2.latex_statements('Nível II')}
+{self.N3.latex_statements('Nível III')}
 \\section*{{Gabarito}}
+{self.N1.latex_answers('Nível I')}
+{self.N2.latex_answers('Nível II')}
+{self.N3.latex_answers('Nível III')}
 \\end{{document}}'''
 
 
