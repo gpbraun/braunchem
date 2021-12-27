@@ -2,120 +2,242 @@
 # DOME - Gabriel Braun, 2021
 #
 
+# TODO:
+# Gabarito do nível 1 em n=5 columas.
+# Gerar o "elements"
+# adicionar guard clauses
+
 # IMPORTS
 
 import attr
-import json
+from json import dump as json_dump
 import os
-import frontmatter
+import re
+import pandas as pd
+from subprocess import run, DEVNULL
 from pathlib import Path
-import pypandoc
+from frontmatter import load
 from bs4 import BeautifulSoup
+from pypandoc import convert_text
+from markdown import Markdown
+from markdownify import markdownify
+
 
 #
 # TEXT CLASS
 #
 
+MD = Markdown(extensions=['pymdownx.tasklist'])
+
 
 def md2soup(content):
-    # convert md to html using pandoc and parse as soup
-    pandoc_html = pypandoc.convert_text(
-        content, 'html',
-        format='markdown-tex_math_dollars-raw_tex',
-        # extra_args=['--katex']
-    )
-    return BeautifulSoup(pandoc_html, 'html.parser')
+    html = MD.convert(content)
+    return BeautifulSoup(html, 'html.parser')
 
 
 def html2md(content):
-    # convert html string to markdown using pandoc
-    return pypandoc.convert_text(
-        content, 'md',
-        format='html+tex_math_dollars-raw_tex',
-    ).rstrip()
+    return markdownify(str(content)).rstrip()
 
 
-def html2tex(content):
+def html2latex(content):
     # convert html string to latex using pandoc
-    return pypandoc.convert_text(
-        content, 'latex',
-        format='html+tex_math_dollars-raw_tex',
-    ).replace('\\tightlist\n','').rstrip()
+    return convert_text(
+        str(content), 'latex',
+        format='html-tex_math_dollars+raw_tex',
+    ).replace('\\tightlist\n', '').rstrip()
     # TODO: convert \pu to \unit and \qty fom siunitx!
 
 
-@attr.s(frozen=True)
-class Text(object):
-    html: str = attr.ib(converter=str)
-    md: str = attr.ib(init=False)
-    tex: str = attr.ib(init=False)
+def latex2pdf(tex, file_name):
+    # convert tex string to pdf
+    cwd = os.getcwd()
+    os.chdir("template")
+
+    with open('1A.tex', 'w') as f:
+        f.write(tex)
+
+    run(
+        ["pdflatex", "-interaction=nonstopmode", f"{file_name}.tex"],
+        stdout=DEVNULL
+    )
+
+    # clear output files
+    for ext in ['.tex', '.aux', '.log', '.out']:
+        os.remove(file_name + ext)
+
+    os.replace(f"{file_name}.pdf", f"../archive/{file_name}.pdf")
+
+    os.chdir(cwd)
+
+#
+# DATA CLASS
+#
+
+
+data = ['potentials', 'thermochem']
+frames = [pd.read_csv(f'database/data/{dataset}.csv') for dataset in data]
+DATA = pd.concat(frames)
+
+
+@attr.s()
+class Data(object):
+    id: str = attr.ib()
+    name: str = attr.ib(init=False)
+    symbol: str = attr.ib(init=False)
+    value: str = attr.ib(init=False)
+    unit: str = attr.ib(init=False)
 
     def __attrs_post_init__(self):
-        object.__setattr__(self, "md", html2md(self.html))
-        object.__setattr__(self, "tex", html2tex(self.html))
+        col = DATA.loc[DATA.id == self.id]
+
+        for prop in ['name', 'symbol', 'value', 'unit']:
+            object.__setattr__(self, prop, col[prop].item())
+
+    def to_latex(self):
+        # print data in sunitx format
+        return f"${self.symbol} = \\qty{{{self.value}}}{{{self.unit}}}$"
+
+
+def dataset2latex(dataset):
+    # return data array to latex list
+    datalist = '\n'.join([f'\\item {data.to_latex()}\n' for data in dataset])
+    return f'\\begin{{itemize}}\n{datalist}\\end{{itemize}}'
+
 
 #
 # PROBLEM CLASS
 #
 
 
-@attr.s(frozen=True)
+@attr.s()
 class Problem(object):
     id: str = attr.ib()
-    problem_path: str = attr.ib()
-    statement = attr.ib(init=False)
-    solution: str = attr.ib(default="")
+    path: str = attr.ib(default="")
+    statement = attr.ib(default="")
+    answer: str = attr.ib(default="")
     obj: int = attr.ib(default=-1)
-    answer: str = attr.ib(init=False)
     options = attr.ib(factory=list)
     data = attr.ib(factory=list)
 
-    def __attrs_post_init__(self):
-        file = os.path.join(self.problem_path, f'{self.id}.md')
-
+    def read_file(self, root_path):
         # get YAML data and contents
-        problem_file = frontmatter.load(file)
+        problem_path = os.path.join(root_path, f'{self.id}.md')
+        problem_file = load(problem_path)
         soup = md2soup(problem_file.content)
 
-        for prop in ['data', 'answer']:
+        for prop in ['answer']:
             if prop in problem_file:
                 object.__setattr__(self, prop, problem_file[prop])
+
+        if 'data' in problem_file:
+            self.data = [Data(data_id) for data_id in problem_file['data']]
 
         # change images direcory to images folder
         for img in soup.find_all('img'):
             img['src'] = os.path.join(
                 "./images/", os.path.basename(img['src']))
 
-        # get problem options and ansewer, if objective
+        # get problem choices and ansewer, if objective
+        # TODO: automatic choices
+        # TODO: remove listitem tags
         task_list = soup.find('ul', class_='task-list')
         if task_list:
-            options = []
             for index, item in enumerate(task_list.find_all('li')):
                 check_box = item.find('input').extract()
                 if check_box.has_attr('checked'):
-                    object.__setattr__(self, "obj", Text(index))
-                    object.__setattr__(self, "answer", Text(item))
-                options.append(Text(item))
+                    self.obj = index
+                    self.answer = item.text.lstrip()
+                self.options.append(item.text.lstrip())
             task_list.decompose()
-            object.__setattr__(self, "options", options)
 
-        # get problem solution
-        solution = soup.find('blockquote')
-        if solution:
-            object.__setattr__(self, "solution", Text(solution.extract().text))
+        # get problem answer
+        # TODO: remove blockquote tags
+        answer = soup.find('blockquote')
+        if answer:
+            self.answer = html2md(answer)
+            answer.decompose()
 
         # get problem statement
-        object.__setattr__(self, "statement", Text(soup))
+        self.statement = html2md(soup)
+
+        return self
 
     def asdict(self):
-        filters = attr.filters.exclude(attr.fields(Text).html)
-        return attr.asdict(self, filter=filters)
+        return attr.asdict(self)
 
     def aslatex(self):
-        return f'''
-\\begin{{problem}}
-    {self.statement.tex}
+        # return problem in latex format
+        return f'''\\begin{{problem}}
+{self.statement.to_latex()}
+\\subsubsection*{{Dados}}
+{dataset2latex(self.data)}
 \\end{{problem}}'''
+
+
+@attr.s(frozen=True)
+class ProblemSet(object):
+    problems = attr.ib()
+
+    def latex_statements():
+        return 0
+
+    def latex_answers(cols=1):
+        return 0
+
+#
+# TOPIC CLASS
+#
+
+
+@attr.s(frozen=True)
+class Subtopic(object):
+    id: str = attr.ib()
+    title: str = attr.ib()
+    items = attr.ib()
+    abilities = attr.ib()
+
+
+@attr.s(frozen=True)
+class Topic(object):
+    id: str = attr.ib()
+    title: str = attr.ib(default="")
+    subtopics = attr.ib(factory=list)
+    N1 = attr.ib(factory=list)
+    N2 = attr.ib(factory=list)
+    N3 = attr.ib(factory=list)
+
+    def read_file(self, topic_path):
+        # get YAML data and contents
+        problem_path = os.path.join(topic_path, f'{self.id}.md')
+        problem_file = load(problem_path)
+        soup = md2soup(problem_file.content)
+
+        for prop in ['title', 'N1', 'N2', 'N3']:
+            if prop in problem_file:
+                object.__setattr__(self, prop, problem_file[prop])
+
+        # get subtopics items and abilities from HTML tags
+        all_subtopics = soup.find_all('h1')
+        all_items = soup.find_all('ol')
+        all_abilities = soup.find_all('ul')
+
+        for i, subtopic in enumerate(all_subtopics):
+            subtopic_id = self.id + f'.{i+1}'
+            subtopic_title = subtopic.text
+            subtopic_items = [
+                html2md(item) for item in all_items[i].find_all('li')
+            ]
+            subtopic_abilities = [
+                html2md(ability) for ability in all_abilities[i].find_all('li')
+            ]
+
+            self.subtopics.append(
+                Subtopic(subtopic_id, subtopic_title,
+                         subtopic_items, subtopic_abilities)
+            )
+
+        return self
+
 
 #
 # ARSENAL CLASS
@@ -123,55 +245,87 @@ class Problem(object):
 
 
 def get_file_paths(directory):
-    return [(Path(filename).stem, root) for root, _, files in os.walk(directory) for filename in files if filename.endswith('.md')]
+    # get the path of all problems and topics
+    topic_files = []
+    problem_files = []
+
+    topic_regex = re.compile('\d[A-Z].md')
+    problem_regex = re.compile('\d[A-Z]\d{2}.md')
+
+    for root, _, files in os.walk(directory):
+        for filename in files:
+            if topic_regex.match(filename):
+                topic_files.append((Path(filename).stem, root))
+            elif problem_regex.match(filename):
+                problem_files.append((Path(filename).stem, root))
+            # TODO: copy images to "images" folder
+
+    return topic_files, problem_files
 
 
 @attr.s(frozen=True)
 class Arsenal(object):
-    db_path: str = attr.ib()
-    problem_ids = attr.ib(factory=list)
+    topics = attr.ib(factory=list)
+    problems = attr.ib(factory=list)
 
-    def __attrs_post_init__(self):
-        problems = []
-        for id, path in get_file_paths(self.db_path):
-            problems.append(Problem(id, path))
-        object.__setattr__(self, "problems", problems)
+    def read_dir(self, db_path):
+        topic_files, problem_files = get_file_paths(db_path)
 
-        json_file = os.path.join(self.db_path, 'problems.json')
+        for topic_id, path in topic_files:
+            self.topics.append(Topic(topic_id).read_file(path))
+
+        for problem_id, path in problem_files:
+            self.problems.append(Problem(problem_id).read_file(path))
+
+        json_file = os.path.join(db_path, 'problems.json')
         with open(json_file, 'w') as f:
-            json.dump(self.asdict(), f, indent=4, ensure_ascii=False)
+            json_dump(self.asdict(), f, indent=2, ensure_ascii=False)
+
+        return self
 
     def asdict(self):
-        filters = attr.filters.exclude(
-            attr.fields(Arsenal).db_path,
-            attr.fields(Text).html
-        )
-        return attr.asdict(self, filter=filters)
+        return attr.asdict(self)
+
+    def generate_pdfs(self, topic_ids):
+        for topic in self.topics:
+            if topic.id in topic_ids:
+
+                N1_problems = []
+                N2_problems = []
+                N3_problems = []
+                for problem in self.problems:
+                    if problem.id in topic.N1:
+                        N1_problems.append(problem)
+                    elif topic.id in topic.N2:
+                        N2_problems.append(problem)
+                    elif topic.id in topic.N3:
+                        N3_problems.append(problem)
+
+                N1 = ProblemSet(N1_problems)
+                N2 = ProblemSet(N1_problems)
+                N3 = ProblemSet(N1_problems)
+
+                l = List(title=topic.title, N1=N1, N2=N2, N3=N3)
+
+                print(l)
+
 
 #
-# Latex CLASS
 #
-
+#
 
 @attr.s(frozen=True)
-class Latex(object):
-    Arsenal: str = attr.ib()
-    problem_ids = attr.ib()
-    problems = attr.ib(init=False)
+class List(object):
     title: str = attr.ib(default="Título")
-    affiliation: str = attr.ib(default="Colégio e Curso Pensi, Turma IME-ITA")
+    affiliation: str = attr.ib(default="Colégio e Curso Pensi")
     author: str = attr.ib(default="Gabriel Braun")
     logo: str = attr.ib(default="pensi")
-
-    def __attrs_post_init__(self):
-        problems = []
-        for problem in self.Arsenal.problems:
-            if problem.id in self.problem_ids:
-                problems.append(problem)
-        object.__setattr__(self, "problems", problems)
+    N1 = attr.ib()
+    N2 = attr.ib()
+    N3 = attr.ib()
 
     def document(self):
-        content = '\n'.join([ problem.aslatex() for problem in self.problems ])
+        content = '\n'.join([problem.aslatex() for problem in self.problems])
 
         return f'''\\documentclass[braun, twocolumn]{{braun}}
 \\braunsetup{{DIV=calc}}
@@ -182,7 +336,9 @@ class Latex(object):
 \\begin{{document}}
 \\maketitle[botrule=false]
 {content}
+\\section*{{Gabarito}}
 \\end{{document}}'''
+
 
 #
 # MAIN
@@ -190,10 +346,10 @@ class Latex(object):
 
 
 def main():
-    data = Arsenal("database")
-    tex = Latex(data, ['1A01', '1A02']).document()
-    with open('database/testes/1A.tex', 'w') as f:
-            f.write(tex)
+    data = Arsenal().read_dir("database")
+    data.generate_pdfs()
+    #tex = ProblemSet(data, ['1A01', '1A02', '1A03']).document()
+    #latex2pdf(tex, '1A')
 
 
 if __name__ == "__main__":
