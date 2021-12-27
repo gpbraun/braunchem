@@ -151,7 +151,7 @@ class Problem(object):
             task_list.decompose()
 
         # get problem answer
-        # TODO: remove blockquote tags
+        # TODO: remove blockquote tags (teste)
         answer = soup.find('blockquote')
         if answer:
             self.answer = html2md(answer)
