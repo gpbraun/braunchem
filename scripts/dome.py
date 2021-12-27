@@ -42,7 +42,7 @@ def html2md(content):
     # convert md to html using pandoc and parse as soup
     return convert_text(
         content, 'md',
-        format='html+tex_math_dollars-raw_tex',
+        format='html+tex_math_dollars+raw_tex',
     )
 
 
