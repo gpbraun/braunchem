@@ -329,7 +329,7 @@
     {
         DIV = 14,
         font = paratype,
-        emph = \bfseries\sffamily ,
+        emph = \itshape ,
         page / headfoot-font = \sffamily ,
         page / footer / sepline = true,
         page / footer / title-sepline = true,

@@ -91,12 +91,13 @@
     item-indent = 4em,
 ]{items}[\item]
 
-%%% ANSWER
+%%% DATALIST
 
 \NewTasksEnvironment[
-	label = { \sffamily{\textbf{\arabic*.}} },
+	label = {$\bullet$},
 	label-align = right,
-]{answers}[\item]
+]{datalist}[\item]
+
 
 %%% TASKS
 
@@ -104,6 +105,16 @@
     label = \sffamily{\alph*.},
 	label-align = right,
 ]{itemize}[\item]
+
+%%% ANSWER
+
+\NewTasksEnvironment[
+	label = { \sffamily{\textbf{\arabic*.}} },
+	label-align = right,
+    item-indent = 2em,
+    label-offset = 0.7em,
+    before-skip = 1em,
+]{answers}[\item]
 
 %============================================================%
 %   MULTIPLE CHOICES

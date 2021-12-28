@@ -3,12 +3,12 @@
 #
 
 # TODO:
-# Gabarito do nível 1 em n=5 columas.
-# Gerar o "elements"
-# adicionar guard clauses
+# - Gerar o "elements"
+# -
 
 # IMPORTS
 
+from enum import auto
 import attr
 from json import dump as json_dump
 import sys
@@ -25,7 +25,7 @@ from markdownify import markdownify
 
 
 #
-# TEXT CLASS
+# CONVERSION
 #
 
 MD = Markdown(extensions=['pymdownx.tasklist'])
@@ -36,38 +36,12 @@ def md2soup(content):
     return BeautifulSoup(html, 'html.parser')
 
 
-# def html2md(content):
-#     return markdownify(str(content)).rstrip()
-
 def html2md(content):
     # convert md to html using pandoc and parse as soup
     return convert_text(
         content, 'md',
         format='html+tex_math_dollars+raw_tex',
     )
-
-
-PU_CMD = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
-DIM_EXP = re.compile(r'[\+\-]\d+')
-
-
-def pu2siunitx(match_obj):
-    # convert pu function to siunitx
-    if match_obj.group(2) is None:
-        return f'\\num{{{match_obj.group(1)}}}'
-
-    dimension = re.sub(
-        DIM_EXP, lambda x: f"^{{{x.group(0)}}}", match_obj.group(2)
-    )
-
-    if match_obj.group(1) is None:
-        return f'\\unit{{{dimension}}}'
-
-    return f'\\qty{{{match_obj.group(1)}}}{{{dimension}}}'
-
-
-def latex_dim(content):
-    return re.sub(PU_CMD, pu2siunitx, content)
 
 
 def md2latex(content):
@@ -98,6 +72,59 @@ def latex2pdf(tex, file_name):
     os.replace(f"{file_name}.pdf", f"../archive/{file_name}.pdf")
 
     os.chdir(cwd)
+
+
+#
+# LATEX INTEGRATION FUNCTIONS
+#
+
+PU_CMD = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
+DIM_EXP = re.compile(r'[\+\-]\d+')
+
+
+def pu2siunitx(match_obj):
+    # convert \pu command to \unit, \num or \qty
+    if match_obj.group(2) is None:  # number only
+        return f'\\num{{{match_obj.group(1)}}}'
+
+    dimension = re.sub(
+        DIM_EXP, lambda x: f"^{{{x.group(0)}}}", match_obj.group(2)
+    )
+
+    if match_obj.group(1) is None:  # dimension ony
+        return f'\\unit{{{dimension}}}'
+
+    return f'\\qty{{{match_obj.group(1)}}}{{{dimension}}}'
+
+
+def latex_dim(content):
+    # converts all \pu commands to \unit, \num or \qty
+    return re.sub(PU_CMD, pu2siunitx, content)
+
+
+def latex_cmd(content, cmd):
+    return f'\\{cmd}{{{content}}}'
+
+
+def latex_env(content, env):
+    return f'\\begin{{{env}}]\n{content}\n\\end{{{env}}}'
+
+
+def latex_section(content, level=0):
+    return f"\\{'sub'*level}section*{{{content}}}\n" if content else ''
+
+
+def list2latex(items, env, cols=1, auto_cols=False, resume=False):
+    if auto_cols:
+        min_length = min([len(item) for item in items])
+        if min_length < 30:
+            cols = 3
+
+    resume = 'resume=true' if resume else ''
+
+    content = '\n'.join([f'\\item {item}\n' for item in items])
+    return f'\\begin{{{env}}}[{resume}]({cols})\n{content}\n\\end{{{env}}}'
+
 
 #
 # DATA CLASS
@@ -131,13 +158,6 @@ class Data(object):
     def aslatex(self):
         # print data in sunitx format
         return f"${self.symbol} = \\qty{{{self.value}}}{{{self.unit}}}$"
-
-
-def dataset2latex(dataset):
-    # return data array to latex list
-    datalist = '\n'.join([f'\\item {data.aslatex()}\n' for data in dataset])
-    return f'\\begin{{itemize}}\n{datalist}\\end{{itemize}}'
-
 
 #
 # PROBLEM CLASS
@@ -201,64 +221,59 @@ class Problem(object):
     def asdict(self):
         return attr.asdict(self)
 
+    def latex_statement(self):
+        return md2latex(self.statement)
+
     def latex_data(self):
         # return data as latex list with header
         if not self.data:
             return ''
-        return f'\\subsubsection*{{Dados}}\n{dataset2latex(self.data)}'
+        data = list2latex(
+            [data.aslatex() for data in self.data], 'datalist', cols=2
+        )
+        return latex_section('Dados', 1) + data
 
     def latex_choices(self):
         # return choices as latex list
         if not self.is_obj:
             return ''
-        choices = '\n'.join([f'\\item {choice}' for choice in self.choices])
-        return f'\\begin{{choices}}\n{choices}\n\\end{{choices}}'
+        return list2latex(self.choices, 'choices', auto_cols=True)
 
     def latex_answer(self):
         # return choices as latex list
         if self.is_obj:
-            return f'\MiniBox{{{chr(65 + self.obj)}}}'
+            return latex_cmd(chr(65 + self.obj), 'MiniBox')
         else:
-            return self.answer
+            return md2latex(self.answer)
 
     def aslatex(self):
         # return problem in latex format
-        return f'''\\begin{{problem}}
-{md2latex(self.statement)}
-{self.latex_choices()}
-{self.latex_data()}
-\\end{{problem}}'''
+        p = self.latex_statement() + self.latex_choices() + self.latex_data()
+        return latex_env(p, 'problem')
 
 
 @attr.s(frozen=True)
 class ProblemSet(object):
     problems = attr.ib()
 
-    def latex_statements(self, header_title=''):
+    def latex_statements(self, header=''):
         if not self.problems:
             return ''
-
-        # empty header title removes \section (for lists without levels)
-        head = f'\section*{{{header_title}}}\n' if header_title else ''
 
         statements = '\n'.join(
             [problem.aslatex() for problem in self.problems]
         )
-        return f'{head}\n{statements}'
+        return latex_section(header) + statements
 
-    def latex_answers(self, header_title=''):
+    def latex_answers(self, header=''):
         if not self.problems:
             return ''
 
-        # empty header title removes \section (for lists without levels)
-        head = f'\subsection*{{{header_title}}}\n' if header_title else ''
+        cols = 6 if all([problem.is_obj for problem in self.problems]) else 2
 
-        cols = 5 if all([problem.is_obj for problem in self.problems]) else 2
+        answers = [problem.latex_answer() for problem in self.problems]
 
-        answers = '\n'.join(
-            [f'\\item {problem.latex_answer()}' for problem in self.problems]
-        )
-        return f'{head}\\begin{{answers}}({cols})\n{answers}\n\\end{{answers}}'
+        return latex_section(header, level=1) + list2latex(answers, 'answers', cols=cols)
 
 #
 # TOPIC CLASS
@@ -319,20 +334,20 @@ class Topic(object):
 # ARSENAL CLASS
 #
 
+TOPIC_FILE = re.compile('\d[A-Z].md')
+PROBLEM_FILE = re.compile('\d[A-Z]\d{2}.md')
+
 
 def get_file_paths(directory):
     # get the path of all problems and topics
     topic_files = []
     problem_files = []
 
-    topic_regex = re.compile('\d[A-Z].md')
-    problem_regex = re.compile('\d[A-Z]\d{2}.md')
-
     for root, _, files in os.walk(directory):
         for filename in files:
-            if topic_regex.match(filename):
+            if TOPIC_FILE.match(filename):
                 topic_files.append((Path(filename).stem, root))
-            elif problem_regex.match(filename):
+            elif PROBLEM_FILE.match(filename):
                 problem_files.append((Path(filename).stem, root))
             # TODO: copy images to "images" folder
 
@@ -367,13 +382,9 @@ class Arsenal(object):
         if not problem_ids:
             return ProblemSet([])
 
-        print(problem_ids)
-
         problems = sorted([
             problem for problem in self.problems if problem.id in problem_ids
         ], key=lambda p: problem_ids.index(p.id))
-
-        print(problems)
 
         return ProblemSet(problems)
 
@@ -388,7 +399,6 @@ class Arsenal(object):
 
                 l = List(topic.id, topic.title, N1=N1, N2=N2, N3=N3)
 
-                print(l.aslatex())
                 latex2pdf(l.aslatex(), topic.id)
 
 
@@ -419,7 +429,7 @@ class List(object):
 {self.N1.latex_statements('Nível I')}
 {self.N2.latex_statements('Nível II')}
 {self.N3.latex_statements('Nível III')}
-\\section*{{Gabarito}}
+{latex_section('Gabarito')}
 {self.N1.latex_answers('Nível I')}
 {self.N2.latex_answers('Nível II')}
 {self.N3.latex_answers('Nível III')}
