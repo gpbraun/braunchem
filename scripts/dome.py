@@ -55,6 +55,11 @@ def md2latex(content):
     ).replace('\\tightlist\n', '').rstrip()
     # TODO: convert \pu to \unit and \qty fom siunitx!
 
+def pu2si(content):
+    pu_command = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
+
+    return 
+
 
 def latex2pdf(tex, file_name):
     # convert tex string to pdf
@@ -218,7 +223,7 @@ class ProblemSet(object):
             return ''
 
         # empty header title removes \section (for lists without levels)
-        head = f'\section*{{{header_title}}}' if header_title else ''
+        head = f'\section*{{{header_title}}}\n' if header_title else ''
 
         statements = '\n'.join(
             [problem.aslatex() for problem in self.problems]
@@ -230,7 +235,7 @@ class ProblemSet(object):
             return ''
 
         # empty header title removes \section (for lists without levels)
-        head = f'\subsection*{{{header_title}}}' if header_title else ''
+        head = f'\subsection*{{{header_title}}}\n' if header_title else ''
 
         cols = 5 if all([problem.is_obj for problem in self.problems]) else 2
 
