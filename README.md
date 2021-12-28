@@ -39,7 +39,9 @@ Temperatura de fusão do ferro: 1540 °C
 Função trabalho do potássio: 2,29 eV
 Função trabalho do zinco: 3,63 eV
 Capacidade calorífica da água (l): 4,2 J/(K g) 
-Entalpia de formação da glicose (s).
+Entalpia de formação da glicose (s)
+Entalpia de formação do cloreto de prata (s)
+Entalpia de ligação Cl-Cl.
 
 ## Dados Termodinâmicos
 
