@@ -38,6 +38,8 @@ O **comando** de questões
 Temperatura de fusão do ferro: 1540 °C
 Função trabalho do potássio: 2,29 eV
 Função trabalho do zinco: 3,63 eV
+Capacidade calorífica da água (l): 4,2 J/(K g) 
+Entalpia de formação da glicose (s).
 
 ## Dados Termodinâmicos
 
