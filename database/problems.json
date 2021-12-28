@@ -72,27 +72,29 @@
           ]
         }
       ],
-      "N1": [
-        "1A01",
-        "1A02",
-        "1A03",
-        "1A04",
-        "1A05",
-        "1A06",
-        "1A07"
-      ],
-      "N2": null,
-      "N3": null
+      "problems": {
+        "Nível I": [
+          "1A01",
+          "1A02",
+          "1A03",
+          "1A04",
+          "1A05",
+          "1A06",
+          "1A07"
+        ],
+        "Nível III": [
+          "1X01"
+        ]
+      }
     }
   ],
   "problems": [
     {
       "id": "1A17",
-      "path": "",
       "statement": "**Assinale** a alternativa com o momento angular do elétron na quinta\nórbita do átomo de hidrogênio, considerando o modelo atômico de Bohr,\n$L/\\pu{J*s}$.\n",
       "answer": "$\\pu{5e-34}$",
       "obj": 2,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{1e-34}$",
         "$\\pu{2e-34}$",
@@ -104,11 +106,10 @@
     },
     {
       "id": "1A02",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
       "answer": "$\\pu{7e16}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{7e15}$",
         "$\\pu{7e16}$",
@@ -120,13 +121,12 @@
     },
     {
       "id": "1A22",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio, $\\pu{MJ/mol}$.\n",
-      "answer": "$\\pu{1,3}$ ",
+      "answer": "$\\pu{1,3}$",
       "obj": 0,
-      "is_obj": true,
+      "prop": false,
       "choices": [
-        "$\\pu{1,3}$ ",
+        "$\\pu{1,3}$",
         "$\\pu{2,6}$",
         "$\\pu{3,9}$",
         "$\\pu{4,2}$",
@@ -136,11 +136,10 @@
     },
     {
       "id": "1A21",
-      "path": "",
       "statement": "Um elétron em um estado excitado do átomo de hidrogênio decai para o\nestado fundamental emitindo dois fótons cujos comprimentos de onda são\n$\\lambda_{1}$ e $\\lambda_{2}$.\n\n**Assinale** a alternativa com o comprimento de onda do fóton emitido\ncaso o decaimento ocorresse em uma única etapa.\n",
       "answer": "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} + \\lambda_{2}}$",
       "obj": 2,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\lambda_1 + \\lambda_2$",
         "$\\lambda_{1} - \\lambda_{2}$",
@@ -152,11 +151,10 @@
     },
     {
       "id": "1A24",
-      "path": "",
       "statement": "**Assinale** a alternativa com o átomo cuja última energia de ionização\né $\\pu{122,4 eV}$.\n",
       "answer": "$\\ce{Li}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\ce{He}$",
         "$\\ce{Li}$",
@@ -168,43 +166,40 @@
     },
     {
       "id": "1A18",
-      "path": "",
       "statement": "Considere a excitação de um átomo de hidrogênio do estado fundamental\naté o segundo estado excitado.\n\n**Assinale** a alternativa *correta*.\n",
       "answer": "O comprimento de onda da radiação emitida quando o elétron retornar para o estado fundamental será igual ao comprimento de onda da radiação absorvida para a excitação.",
       "obj": 4,
-      "is_obj": true,
+      "prop": false,
       "choices": [
-        "Esse estado excitado é o primeiro permitido para o átomo de hidrogênio.   ",
-        "A distância média do elétron ao núcleo será menor no estado excitado do que no estado fundamental.   ",
+        "Esse estado excitado é o primeiro permitido para o átomo de hidrogênio.",
+        "A distância média do elétron ao núcleo será menor no estado excitado do que no estado fundamental.",
         "Será necessário fornecer mais energia para ionizar o átomo a partir desse estado excitado do que do estado fundamental.",
-        "A energia de excitação é a mesma do que a necessária para excitar um elétron do segundo para o quarto estado excitado.   ",
+        "A energia de excitação é a mesma do que a necessária para excitar um elétron do segundo para o quarto estado excitado.",
         "O comprimento de onda da radiação emitida quando o elétron retornar para o estado fundamental será igual ao comprimento de onda da radiação absorvida para a excitação."
       ],
       "data": []
     },
     {
       "id": "1A06",
-      "path": "",
       "statement": "Cinco amostras idênticas de um mesmo metal são aquecidas a diferentes\ntemperaturas até a incandescência.\n\n**Assinale** a alternativa com a cor da amostra submetida a uma maior\ntemperatura.\n",
       "answer": "Branco",
       "obj": 4,
-      "is_obj": true,
+      "prop": false,
       "choices": [
-        "Vermelho   ",
-        "Laranja   ",
-        "Amarelo   ",
-        "Verde   ",
+        "Vermelho",
+        "Laranja",
+        "Amarelo",
+        "Verde",
         "Branco"
       ],
       "data": []
     },
     {
       "id": "1A01",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia liberada por\n$\\pu{5 g}$ de sódio em uma lâmpada que produz luz amarela com\ncomprimento de onda $\\pu{590 nm}$.\n",
       "answer": "$\\pu{200 kJ}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{100 kJ}$",
         "$\\pu{200 kJ}$",
@@ -216,11 +211,10 @@
     },
     {
       "id": "1A04",
-      "path": "",
       "statement": "A mensuração da eficiência quântica da fotossíntese em plantas revelou\nque 8 quanta de luz vermelha a $\\pu{685 nm}$ são necessários para\nliberar uma molécula de oxigênio. A quantidade média de energia\narmazenada no processo fotoquímico é $\\pu{469 kJ}$ por mol de oxigênio\nliberado.\n\n**Assinale** a alternativa que mais se aproxima da eficiência da\nfotossíntese.\n",
       "answer": "$\\pu{30\\%}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{10\\%}$",
         "$\\pu{30\\%}$",
@@ -232,11 +226,10 @@
     },
     {
       "id": "1A08",
-      "path": "",
       "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Gráfico de irradiância por comprimento de onda](./images/1A08-P1.tex)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
       "answer": "$\\pu{6}$",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{3}$",
         "$\\pu{4}$",
@@ -248,11 +241,10 @@
     },
     {
       "id": "1A19",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida quando um átomo de hidrogênio decai do segundo para\no primeiro estado excitado, $\\pu{nm}$.\n",
       "answer": "$\\pu{660}$",
       "obj": 2,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{460}$",
         "$\\pu{560}$",
@@ -264,11 +256,10 @@
     },
     {
       "id": "1A09",
-      "path": "",
       "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiancia por comprimento de onda](./images/1A09-P2.tex)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
       "answer": "C, B, A",
       "obj": 4,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "A, B, C",
         "A, C, B",
@@ -280,11 +271,10 @@
     },
     {
       "id": "1A16",
-      "path": "",
       "statement": "**Assinale** a alternativa com a identidade do átomo que possui\ncomprimento de onda $\\pu{3,3 fm}$ quando viaja a $\\pu{1\\%}$ da\nvelocidade da luz.\n",
       "answer": "$\\ce{Ca}$",
       "obj": 2,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\ce{Be}$",
         "$\\ce{Mg}$",
@@ -296,14 +286,13 @@
     },
     {
       "id": "1A14",
-      "path": "",
       "statement": "O comprimento de onda crítico para a verificação do efeito fotoelétrico\nno tungstênio é $\\pu{260 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nnecessário para produzir fotoelétrons do tungstênio com o dobro da\nenergia cinética daqueles produzidos a $\\pu{220 nm}$, $nm$.\n",
       "answer": "$\\pu{190}$",
       "obj": 4,
-      "is_obj": true,
+      "prop": false,
       "choices": [
-        "$\\pu{110}$ ",
-        "$\\pu{130}$ ",
+        "$\\pu{110}$",
+        "$\\pu{130}$",
         "$\\pu{150}$",
         "$\\pu{170}$",
         "$\\pu{190}$"
@@ -312,11 +301,10 @@
     },
     {
       "id": "1A23",
-      "path": "",
       "statement": "A energia de ionização um átomo hidrogenoide é $\\pu{412 kJ/mol}$. Quando\nos átomos desse elemento estão no primeiro estado excitado, a energia de\nionização é $\\pu{126 kJ/mol}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nemitido por esse átomo em uma transição do primeiro estado excitado para\no estado fundamental, $\\pu{nm}$.\n",
       "answer": "$\\pu{420}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{210}$",
         "$\\pu{420}$",
@@ -328,11 +316,10 @@
     },
     {
       "id": "1A03",
-      "path": "",
       "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$EL_{\\ce{I-I}}/\\pu{kJ.mol-1}$.\n",
       "answer": "$\\pu{240}$",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{120}$",
         "$\\pu{160}$",
@@ -344,13 +331,12 @@
     },
     {
       "id": "1A05",
-      "path": "",
       "statement": "**Assinale** a alternativa *correta*.\n",
       "answer": "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
-        "A intensidade total da radiação emitida por um corpo negro é diretamente proporcional à temperatura. ",
+        "A intensidade total da radiação emitida por um corpo negro é diretamente proporcional à temperatura.",
         "O comprimento de onda emitido com maior intensidade por um corpo negro aumenta com o aumento da temperatura.",
         "Fótons de ondas de rádio são mais energéticos que fótons de radiação ultravioleta.",
         "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
@@ -360,11 +346,10 @@
     },
     {
       "id": "1A12",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco, $J$.\n",
       "answer": "$\\pu{8,4e-19}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{1,4e-19}$",
         "$\\pu{8,4e-19}$",
@@ -376,11 +361,10 @@
     },
     {
       "id": "1A15",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nde uma partícula de $\\pu{1 g}$ viajando a $\\pu{1 m/s}$.\n",
       "answer": "$\\pu{7e-31}$",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{7e-34}$",
         "$\\pu{7e-33}$",
@@ -392,11 +376,10 @@
     },
     {
       "id": "1A13",
-      "path": "",
       "statement": "A superfície de um metal é irradiada com luz de dois comprimentos de\nonda, $\\lambda_1$ e $\\lambda_2$. As velocidades máximas dos fotoelétrons\nemitidos são, respectivamente, $v_1$ e $v_2$, sendo $v_1 = 2 v_2$. Seja\n$h$ a constante de Planck e $c$ a velocidade da luz.\n\n**Assinale** a alternativa com a função trabalho desse metal.\n",
       "answer": "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{\\lambda_1 \\lambda_2}$",
         "$\\dfrac{(\\lambda_2 - 2\\lambda_1)hc}{\\lambda_1 \\lambda_2}$",
@@ -408,11 +391,10 @@
     },
     {
       "id": "1A11",
-      "path": "",
       "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s^{-1}}$. **Assinale** a alternativa que mais se aproxima do\ncomprimento de onda da radiação incidente, $\\pu{nm}$.\n",
       "answer": "$\\pu{350}$",
       "obj": 1,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{300}$",
         "$\\pu{350}$",
@@ -432,27 +414,25 @@
     },
     {
       "id": "1A10",
-      "path": "",
       "statement": "Uma placa é feita de um metal, cuja função trabalho é menor que a\nenergia dos fótons da luz visível, é exposta ao sol.\\\n**Assinale** a alternativa *correta*.\n",
-      "answer": "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.   ",
+      "answer": "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
-        "Os elétrons não são ejetados instantaneamente, já que precisam de um tempo mínimo para acúmulo de energia.   ",
-        "Os elétrons podem ser ejetados instantaneamente com uma mesma energia cinética para qualquer elétron.   ",
-        "Os elétrons não podem ser ejetados já que a placa metálica apenas reflete a radiação.   ",
-        "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.   ",
+        "Os elétrons não são ejetados instantaneamente, já que precisam de um tempo mínimo para acúmulo de energia.",
+        "Os elétrons podem ser ejetados instantaneamente com uma mesma energia cinética para qualquer elétron.",
+        "Os elétrons não podem ser ejetados já que a placa metálica apenas reflete a radiação.",
+        "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.",
         "Os elétrons não podem ser ejetados instantaneamente e a energia cinética após a ejeção depende da frequência da radiação absorvida e da energia do elétron no metal."
       ],
       "data": []
     },
     {
       "id": "1A25",
-      "path": "",
       "statement": "\\\"Lasers\\\" funcionam pela colisão de átomos excitados com espécies no\nestado fundamental. A transferência de energia é mais eficiente quando\nas diferenças energéticas dos níveis são próximas.\n\n**Assinale** a alternativa com a transição do cátion $\\ce{He+}$ que pode\nser excitada por colisão com átomos de hidrogênio no primeiro estado\nexcitado.\n",
       "answer": "$n=2 \\rightarrow n=4$",
       "obj": 3,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$n=1 \\rightarrow n=2$",
         "$n=1 \\rightarrow n=4$",
@@ -464,11 +444,10 @@
     },
     {
       "id": "1A20",
-      "path": "",
       "statement": "**Assinale** a alternativa com o decaimento para o átomo de hidrogênio\nque leva à emissão de um fóton com maior comprimento de onda.\n",
       "answer": "$n=6 \\rightarrow n=5$",
       "obj": 4,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$n=2 \\rightarrow n=1$",
         "$n=3 \\rightarrow n=2$",
@@ -479,12 +458,20 @@
       "data": []
     },
     {
+      "id": "1X01",
+      "statement": "Esse é o arquivo para testes.\n",
+      "answer": "A resposta é: $$\\int f(x) \\; \\mathrm{d} x$$\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
       "id": "1A07",
-      "path": "",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão, $\\lambda/\\pu{nm}$.\n",
       "answer": "$\\pu{130}$",
       "obj": 0,
-      "is_obj": true,
+      "prop": false,
       "choices": [
         "$\\pu{130}$",
         "$\\pu{260}$",

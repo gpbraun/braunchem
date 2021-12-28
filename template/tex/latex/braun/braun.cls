@@ -327,7 +327,7 @@
 
 \DeclareBraunTemplate { braun }
     {
-        DIV = 14,
+        DIV = calc,
         font = paratype,
         emph = \itshape ,
         page / headfoot-font = \sffamily ,
@@ -347,7 +347,7 @@
         maketitle / align = l,
         maketitle / print = { title, subtitle, author, affiliation },
         maketitle / toprule = true,
-        maketitle / botrule = true,
+        maketitle / botrule = false,
         maketitle / title / font = \Huge\bfseries ,
         maketitle / subtitle / font = \Large\bfseries ,
         maketitle / author / font = \large\bfseries\sffamily ,
