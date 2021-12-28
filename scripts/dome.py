@@ -47,18 +47,35 @@ def html2md(content):
     )
 
 
+PU_CMD = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
+DIM_EXP = re.compile(r'[\+\-]\d+')
+
+
+def pu2siunitx(match_obj):
+    # convert pu function to siunitx
+    if match_obj.group(2) is None:
+        return f'\\num{{{match_obj.group(1)}}}'
+
+    dimension = re.sub(
+        DIM_EXP, lambda x: f"^{{{x.group(0)}}}", match_obj.group(2)
+    )
+
+    if match_obj.group(1) is None:
+        return f'\\unit{{{dimension}}}'
+
+    return f'\\qty{{{match_obj.group(1)}}}{{{dimension}}}'
+
+
+def latex_dim(content):
+    return re.sub(PU_CMD, pu2siunitx, content)
+
+
 def md2latex(content):
     # convert html string to latex using pandoc
     return convert_text(
         str(content), 'latex',
         format='markdown+tex_math_dollars+raw_tex',
     ).replace('\\tightlist\n', '').rstrip()
-    # TODO: convert \pu to \unit and \qty fom siunitx!
-
-def pu2si(content):
-    pu_command = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
-
-    return 
 
 
 def latex2pdf(tex, file_name):
@@ -157,7 +174,6 @@ class Problem(object):
                 "./images/", os.path.basename(img['src']))
 
         # get problem choices and ansewer, if objective
-        # TODO: automatic choices
         # TODO: remove listitem tags
         task_list = soup.find('ul', class_='task-list')
         if task_list:
@@ -242,7 +258,7 @@ class ProblemSet(object):
         answers = '\n'.join(
             [f'\\item {problem.latex_answer()}' for problem in self.problems]
         )
-        return f'{head}\\begin{{itemize}}({cols})\n{answers}\n\\end{{itemize}}'
+        return f'{head}\\begin{{answers}}({cols})\n{answers}\n\\end{{answers}}'
 
 #
 # TOPIC CLASS
@@ -346,23 +362,29 @@ class Arsenal(object):
     def asdict(self):
         return attr.asdict(self)
 
+    def filter(self, problem_ids):
+        # get ProblemSet from list of ids
+        if not problem_ids:
+            return ProblemSet([])
+
+        print(problem_ids)
+
+        problems = sorted([
+            problem for problem in self.problems if problem.id in problem_ids
+        ], key=lambda p: problem_ids.index(p.id))
+
+        print(problems)
+
+        return ProblemSet(problems)
+
     def aspdf(self, topic_ids):
+        # compile list pdf for lists with id in topic_ids
         for topic in self.topics:
             if topic.id in topic_ids:
-                N1_problems = []
-                N2_problems = []
-                N3_problems = []
-                for problem in self.problems:
-                    if problem.id in topic.N1:
-                        N1_problems.append(problem)
-                    elif topic.N2 and problem.id in topic.N2:
-                        N2_problems.append(problem)
-                    elif topic.N3 and problem.id in topic.N3:
-                        N3_problems.append(problem)
 
-                N1 = ProblemSet(N1_problems)
-                N2 = ProblemSet(N2_problems)
-                N3 = ProblemSet(N3_problems)
+                N1 = self.filter(topic.N1)
+                N2 = self.filter(topic.N2)
+                N3 = self.filter(topic.N3)
 
                 l = List(topic.id, topic.title, N1=N1, N2=N2, N3=N3)
 
@@ -371,7 +393,7 @@ class Arsenal(object):
 
 
 #
-#
+# PDF LIST CLASS
 #
 
 @attr.s(frozen=True)
@@ -386,7 +408,7 @@ class List(object):
     N3 = attr.ib(default=ProblemSet([]))
 
     def aslatex(self):
-        return f'''\\documentclass[braun, twocolumn]{{braun}}
+        return latex_dim(f'''\\documentclass[braun, twocolumn]{{braun}}
 \\braunsetup{{DIV=calc}}
 \\title{{{self.title}}}
 \\affiliation{{{self.affiliation}}}
@@ -401,7 +423,7 @@ class List(object):
 {self.N1.latex_answers('Nível I')}
 {self.N2.latex_answers('Nível II')}
 {self.N3.latex_answers('Nível III')}
-\\end{{document}}'''
+\\end{{document}}''')
 
 
 #
