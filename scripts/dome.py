@@ -92,13 +92,13 @@ def pu2siunitx(match_obj):
         UNIT_EXP, lambda x: f"^{{{x.group(0)}}}", match_obj.group(2)
     )
 
-    if match_obj.group(1) is None:  # dimension ony
+    if match_obj.group(1) is None: # unit ony
         return latex_cmd('unit', [unit])
 
     return latex_cmd('qty', [match_obj.group(1), unit])
 
 
-def latex_dim(content):
+def latex_units(content):
     # converts all \pu commands to \unit, \num or \qty
     return re.sub(PU_CMD, pu2siunitx, content)
 
@@ -172,7 +172,7 @@ class Data(object):
 #
 
 
-@attr.s()
+@attr.s(frozen=True)
 class Problem(object):
     path = attr.ib()
     id: str = attr.ib(init=False)
@@ -180,7 +180,6 @@ class Problem(object):
     statement = attr.ib(init=False)
     answer: str = attr.ib(init=False)
     obj = attr.ib(default=-1)
-    is_obj: bool = attr.ib(default=False)
     prop: bool = attr.ib(default=False)
     choices = attr.ib(factory=list)
     data = attr.ib(factory=list)
@@ -197,7 +196,7 @@ class Problem(object):
                 object.__setattr__(self, prop, pfile[prop])
 
         if 'data' in pfile:
-            self.data = [Data(i) for i in pfile['data']]
+            object.__setattr__(self, 'data', [Data(i) for i in pfile['data']])
 
         # change images direcory to images folder
         for img in soup.find_all('img'):
@@ -208,11 +207,10 @@ class Problem(object):
         # FIXME: remove listitem tags (remendado com .text)
         task_list = soup.find('ul', class_='task-list')
         if task_list:
-            self.is_obj = True
             for index, item in enumerate(task_list.find_all('li')):
                 check_box = item.find('input').extract()
                 if check_box.has_attr('checked'):
-                    self.obj = index
+                    object.__setattr__(self, 'obj', index)
                     object.__setattr__(self, 'answer', item.text.strip())
                 self.choices.append(item.text.strip())
             task_list.decompose()
@@ -225,12 +223,17 @@ class Problem(object):
             answer.decompose()
 
         # get problem statement
-        self.statement = html2md(soup)
+        object.__setattr__(self, 'statement', html2md(soup))
 
         return self
 
     def asdict(self):
         return attr.asdict(self)
+
+    def is_obj(self):
+        if self.obj == -1:
+            return False
+        return True
 
     def latex_statement(self):
         return md2latex(self.statement)
@@ -246,16 +249,15 @@ class Problem(object):
 
     def latex_choices(self):
         # return choices as latex list
-        if not self.is_obj:
+        if not self.is_obj():
             return ''
         return list2latex('choices', self.choices, auto_cols=True)
 
     def latex_answer(self):
         # return choices as latex list
-        if self.is_obj:
+        if self.is_obj():
             return latex_cmd('MiniBox', content=[chr(65 + self.obj)])
-        else:
-            return md2latex(self.answer)
+        return md2latex(self.answer)
 
     def aslatex(self):
         # return problem as latex
@@ -279,7 +281,7 @@ class ProblemSet(object):
         if not self.problems:
             return ''
 
-        cols = 6 if all([p.is_obj for p in self.problems]) else 2
+        cols = 6 if all([p.is_obj() for p in self.problems]) else 2
         answers = [p.latex_answer() for p in self.problems]
         return latex_section(self.title, level=1) + list2latex('answers', answers, cols=cols)
 
@@ -429,10 +431,10 @@ class List(object):
     logo: str = attr.ib(default="pensi")
 
     def aslatex(self, template='braun, twocolumn, DIV=calc'):
-        doc_class = latex_cmd(f'documentclass[{template}]', ['braun'])
-
-        doc_config = latex_cmd('title', [self.title]) + latex_cmd('affiliation', [
-            self.affiliation]) + latex_cmd('author', [self.author]) + latex_cmd('logo', [self.logo])
+        # return tex file for compiling list as pdf
+        doc_preamble = latex_cmd(f'documentclass[{template}]', ['braun'])
+        for prop in ['title', 'affiliation', 'author', 'logo']:
+            doc_preamble += latex_cmd(prop, getattr(self, prop)) + '\n'
 
         doc_answers = latex_section('Gabarito', newpage=True)
         doc_problems = ''
@@ -440,7 +442,7 @@ class List(object):
             doc_problems += pset.latex_statements()
             doc_answers += pset.latex_answers()
 
-        return doc_class + doc_config + latex_env('document', latex_cmd('maketitle') + latex_dim(doc_problems + doc_answers))
+        return doc_preamble + latex_env('document', latex_cmd('maketitle') + latex_units(doc_problems + doc_answers))
 
 
 #
