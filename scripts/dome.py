@@ -107,7 +107,7 @@ def latex_cmd(content, cmd):
 
 
 def latex_env(content, env):
-    return f'\\begin{{{env}}]\n{content}\n\\end{{{env}}}'
+    return f'\\begin{{{env}}}\n{content}\n\\end{{{env}}}'
 
 
 def latex_section(content, level=0):
