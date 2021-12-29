@@ -42,6 +42,9 @@ Capacidade calorífica da água (l): 4,2 J/(K g)
 Entalpia de formação da glicose (s)
 Entalpia de formação do cloreto de prata (s)
 Entalpia de ligação Cl-Cl.
+Calor de fusão do gelo: 80 cal/g
+Calor específico do gelo: 0,5 cal/(g K)
+Calor específico da água líquida: 1 cal/(g K)
 
 ## Dados Termodinâmicos
 
