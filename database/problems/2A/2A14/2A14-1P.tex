@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            xlabel = {Calor trocado, $Q$},
+            ylabel = {Temperatura, $T$}, 
+            xtick = \empty, ytick = \empty, 
+            legend pos = north west
+        ]
+    \addplot coordinates 
+        {
+        	(8,8)
+        	(15,18)
+        	(25,18)
+        	(35,35)
+        	(48,35)
+        	(53,43)
+        };
+    \addplot coordinates 
+        {
+        	(8,8)
+        	(15,15)
+        	(35,15)
+        	(40,30)
+        	(48,30)
+        	(53,43)
+        };
+    \legend{\ch{\bfseries A}, \ch{\bfseries B}}
+    \end{axis}
+\end{tikzpicture}
