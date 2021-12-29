@@ -3,6 +3,14 @@
     {
       "id": "1A",
       "title": "Teoria Quântica",
+      "problems": {
+        "Nível I": [
+          "1A08"
+        ],
+        "Nível III": [
+          "1X01"
+        ]
+      },
       "subtopics": [
         {
           "id": "1A.1",
@@ -71,21 +79,7 @@
             "**Calcular** a energia, frequência e comprimento de onda de uma\ntransição eletrônica a partir da Equação de Rydberg.\n"
           ]
         }
-      ],
-      "problems": {
-        "Nível I": [
-          "1A01",
-          "1A02",
-          "1A03",
-          "1A04",
-          "1A05",
-          "1A06",
-          "1A07"
-        ],
-        "Nível III": [
-          "1X01"
-        ]
-      }
+      ]
     }
   ],
   "problems": [
@@ -105,6 +99,54 @@
       "data": []
     },
     {
+      "id": "1A27",
+      "statement": "Quando átomos colidem, parte de sua energia cinética pode ser convertida\nem energia eletrônica. O processo é mais eficiente quando a energia\ncinética é próxima da energia necessária para a excitação.\n\n**Determine** a temperatura onde a excitação de átomos de hidrogênio ao\nprimeiro estado excitado é mais eficiente\n",
+      "answer": "$\\pu{79 kK}$\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
+      "id": "1A37",
+      "statement": "Considere um semicondutor com uma impureza de carga $\\pu{+1}$ atraindo\num elétron. Devido a interações com os átomos da rede cristalina, o\nelétron no semicondutor possui massa igual a $\\pu{m_{r}m_{e}}$ sendo\n$\\pu{m_{e}}$ é a massa de repouso do elétron e $\\pu{m_{r}}$ uma\nconstante adimensional. A permissividade relativa no meio semicondutor é\n$\\pu{\\epsilon_{r}}$.\n\n**Assinale** a alternativa com a razão entre a energia de ionização da\nimpureza e a energia de ionização do átomo de hidrogênio.\n",
+      "answer": "-",
+      "obj": -1,
+      "prop": false,
+      "choices": [
+        "$\\pu{1}$",
+        "$\\dfrac{m_{r}}{\\epsilon_{r}}$",
+        "$\\dfrac{\\epsilon_{r}}{m_{r}}$",
+        "$\\dfrac{m_{r}}{\\epsilon_{r}^{2}}$",
+        "$\\dfrac{m\\epsilon_{r}^{2}}{{m_{r}}}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A35",
+      "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. Seja $\\pu{a_{0}}$\no raio da órbita do estado fundamental, $\\pu{m}$ a massa do elétron, e\n$\\pu{a}$ carga do elétron e $\\pu{e_{0}}$ a permissividade do vácuo.\n\n**Assinale** a alternativa com o período orbital para o nível $\\pu{n}$.\n",
+      "answer": "-",
+      "obj": -1,
+      "prop": false,
+      "choices": [
+        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{(\\epsilon_{0}ma_{0})}}$",
+        "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{(\\epsilon_{0}ma_{0})}}{e}$",
+        "$\\dfrac{\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}{e}$",
+        "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}{e}$",
+        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A26",
+      "statement": "**Determine** a identidade de um átomo que, movendo se com sua\nvelocidade média quadrática a $\\pu{100 °C}$, possui comprimento de onda\n$\\pu{23 pm}$.\n",
+      "answer": "Enxofre\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
       "id": "1A02",
       "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
       "answer": "$\\pu{7e16}$",
@@ -120,6 +162,23 @@
       "data": []
     },
     {
+      "id": "1A29",
+      "statement": "Radiação de comprimento de onda $\\pu{427 nm}$ é utilizada no processo de\nfotossíntese para a produção de glicose ($\\ce{C6H12O6}$) a partir do\n$\\ce{CO2}$.\n\n-   **Determine** a entalpia da reação de fotossíntese.\n-   **Determine** o número de fótons necessários para produzir uma\n    molécula de glicose.\n",
+      "answer": "$\\pu{2080 kJ mol-1}$ 10 fótons\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": [
+        {
+          "id": "Hc-glicose(s)",
+          "name": "Entalpia de combustão da glicose (s)",
+          "symbol": "\\Delta_\\text{c} H_{\\ce{C6H12O6(s)}}",
+          "value": "-2808",
+          "unit": "kJ.mol-1"
+        }
+      ]
+    },
+    {
       "id": "1A22",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio, $\\pu{MJ/mol}$.\n",
       "answer": "$\\pu{1,3}$",
@@ -133,6 +192,29 @@
         "$\\pu{6,5}$"
       ],
       "data": []
+    },
+    {
+      "id": "1A28",
+      "statement": "Uma amostra com $\\pu{586 g}$ de água, inicialmente a $\\pu{25 °C}$, é\ncolocada em um forno de micro-ondas que emite radiação eletromagnética\ncom frequência de $\\pu{2,45 GHz}$ e aquecida até $\\pu{91 °C}$.\n\n**Assinale** a alternativa que mais se aproxima do número de fótons\nabsorvidos pela água.\n",
+      "answer": "$\\pu{1e29}$",
+      "obj": 2,
+      "prop": false,
+      "choices": [
+        "$\\pu{3e27}$",
+        "$\\pu{4e28}$",
+        "$\\pu{1e29}$",
+        "$\\pu{5e30}$",
+        "$\\pu{2e31}$"
+      ],
+      "data": [
+        {
+          "id": "cp-H2O(l)",
+          "name": "Capacidade calorífica da $\\ce{H2O(l)}$",
+          "symbol": "C_P H_{\\ce{H2O(l)}}",
+          "value": "75,29",
+          "unit": "J.K-1.mol-1"
+        }
+      ]
     },
     {
       "id": "1A21",
@@ -161,6 +243,20 @@
         "$\\ce{Be}$",
         "$\\ce{B}$",
         "$\\ce{C}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A31",
+      "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $\\pu{n}$\npara o estado fundamental. A função trabalho do metal é metade da\nenergia de ionização do átomo de hidrogênio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n\n-   I e III, apenas.\n-   I e II, apenas.\n-   II e III, apenas.\n-   III e IV, apenas.\n-   I, II e III, apenas.\n\nResposta: \\[E\\]\n",
+      "answer": "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da frequência da luz incidente no metal a partir da frequência mínima de emissão.",
+      "obj": 2,
+      "prop": false,
+      "choices": [
+        "A energia cinética máxima dos elétrons emitidos pelo metal é $E_{c} = \\dfrac{E_{1}}{n^{2}} - \\dfrac{E_{1}}{2}$",
+        "A função trabalho do metal é $\\phi = \\dfrac{E_{1}}{2}$",
+        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da frequência da luz incidente no metal a partir da frequência mínima de emissão.",
+        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da pressão da amostra de hidrogênio."
       ],
       "data": []
     },
@@ -226,7 +322,7 @@
     },
     {
       "id": "1A08",
-      "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Gráfico de irradiância por comprimento de onda](./images/1A08-P1.tex)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
+      "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Irradiância por comprimento de onda](images/1A08-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
       "answer": "$\\pu{6}$",
       "obj": 3,
       "prop": false,
@@ -255,8 +351,17 @@
       "data": []
     },
     {
+      "id": "1A30",
+      "statement": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz a reação a seguir ocorre: $\\ce{AgCl -> Ag + Cl}$.\n\n-   **Determine** a entalpia de decomposição do cloreto de prata.\n-   **Determine** o comprimento de onda máximo para esse processo.\n",
+      "answer": "? $\\pu{480 nm}$\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
       "id": "1A09",
-      "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiancia por comprimento de onda](./images/1A09-P2.tex)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
+      "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiancia por comprimento de onda](images/1A09-P2.svg)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
       "answer": "C, B, A",
       "obj": 4,
       "prop": false,
@@ -281,6 +386,36 @@
         "$\\ce{Ca}$",
         "$\\ce{Sr}$",
         "$\\ce{Ba}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A36",
+      "statement": "Um átomo de hidrogênio emite um fóton de energia $\\pu{2,55 eV}$ na\ntransição entre dois estados estacionários. A razão entre as velocidades\ndo elétron nesses estados é $\\pu{\\dfrac{1}{2}}$.\n\n**Assinale** a alternativa que mais se aproxima da energia potencial do\nelétron no estado final.\n",
+      "answer": "$\\pu{-6,8 eV}$",
+      "obj": 1,
+      "prop": false,
+      "choices": [
+        "$\\pu{-13,6 eV}$",
+        "$\\pu{-6,8 eV}$",
+        "$\\pu{-4,5 eV}$",
+        "$\\pu{-3,4 eV}$",
+        "$\\pu{-1,5 eV}$"
+      ],
+      "data": []
+    },
+    {
+      "id": "1A34",
+      "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. O raio da órbita\ndo estado fundamental é $\\pu{53 pm}$, sendo $\\pu{2200 km/s}$ a\nvelocidade do elétron nessa órbita. O tempo de vida médio de um elétron\nno primeiro estado excitado é de $\\pu{10 ns}$.\n\n**Assinale** a alternativa que mais se aproxima do número médio de\nrevoluções efetuadas por um elétron no primeiro estado excitado do átomo\nde hidrogênio.\n",
+      "answer": "$\\pu{8e6}$",
+      "obj": 1,
+      "prop": false,
+      "choices": [
+        "$\\pu{1e6}$",
+        "$\\pu{8e6}$",
+        "$\\pu{9e6}$",
+        "$\\pu{4e7}$",
+        "$\\pu{5e7}$"
       ],
       "data": []
     },
@@ -315,6 +450,24 @@
       "data": []
     },
     {
+      "id": "1A38",
+      "statement": "Os dados a seguir foram obtidos em um experimento de efeito fotoelétrico\nem três metais, **A**, **B**, e **C**.\n\n![Energia por frequência](images/1A38-1P.tex)\n\n**Assinale** a alternativa que relaciona os metais em ordem crescente de\nfunção trabalho.\n",
+      "answer": "-",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
+      "id": "1A32",
+      "statement": "Uma linha violeta é observada em $\\pu{434 nm}$ no espectro de emissão do\nátomo de hidrogênio.\n\n-   **Determine** a energia do fóton dessa emissão.\n-   **Determine** a transição eletrônica correspondente a essa emissão.\n",
+      "answer": "$\\pu{2,85 eV}$ $n=5 \\rightarrow n=2$\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
       "id": "1A03",
       "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$EL_{\\ce{I-I}}/\\pu{kJ.mol-1}$.\n",
       "answer": "$\\pu{240}$",
@@ -332,15 +485,30 @@
     {
       "id": "1A05",
       "statement": "**Assinale** a alternativa *correta*.\n",
-      "answer": "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
+      "answer": "Fótons radiação infravermelha são menos energéticos que fótons de radiação ultravioleta.",
       "obj": 3,
       "prop": false,
       "choices": [
         "A intensidade total da radiação emitida por um corpo negro é diretamente proporcional à temperatura.",
         "O comprimento de onda emitido com maior intensidade por um corpo negro aumenta com o aumento da temperatura.",
         "Fótons de ondas de rádio são mais energéticos que fótons de radiação ultravioleta.",
-        "Fótons radiação infravermelha são menos energia que fótons de radiação ultravioleta.",
+        "Fótons radiação infravermelha são menos energéticos que fótons de radiação ultravioleta.",
         "A energia de um fóton é diretamente proporcional ao comprimento de onda da radiação."
+      ],
+      "data": []
+    },
+    {
+      "id": "1A33",
+      "statement": "Um feixe de luz solar passa atravessar um filtro de radiação\nultravioleta, o qual não permite passar fótons de comprimento de onda\nmenor que $\\pu{300 nm}$, sendo direcionado para uma amostra de\nhidrogênio atômico gasoso. A amostra é mantida em um recipiente\ntransparente à luz visível e opaco ao infravermelho (com comprimento de\nonda superior a $\\pu{663 nm}$). Após passarem pela amostra, os fótons\nsão detectados por sensores posicionados ortogonalmente ao feixe de luz.\n\n**Assinale** a alternativa que mais se aproxima das energias dos fótons\ndetectados.\n",
+      "answer": "$\\pu{1,9 eV; 2,6 eV; 2,9 eV; 3,0 eV}$",
+      "obj": 3,
+      "prop": false,
+      "choices": [
+        "$\\pu{0,7 eV; 1,9 eV; 3,3 eV; 10,2 eV}$",
+        "$\\pu{0,9 eV; 1,4 eV; 1,9 eV; 3,3 eV}$",
+        "$\\pu{1,0 eV; 1,5 eV; 3,4 eV; 13,6 eV}$",
+        "$\\pu{1,9 eV; 2,6 eV; 2,9 eV; 3,0 eV}$",
+        "$\\pu{2,1 eV; 2,4 eV; 3,4 eV; 3,8 eV}$"
       ],
       "data": []
     },
@@ -375,6 +543,15 @@
       "data": []
     },
     {
+      "id": "1A39",
+      "statement": "A figura abaixo representa parte do espectro de emissão para um íon\nmonoeletrônico em fase gasosa. Todas as linhas resultam de transições\neletrônicas para o segundo estado excitado.\n\n![Comprimento de onda](images/1A39-1P.tex)\n\n**Determine** o comprimento de onda da linha de menor energia.\n",
+      "answer": "-",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
       "id": "1A13",
       "statement": "A superfície de um metal é irradiada com luz de dois comprimentos de\nonda, $\\lambda_1$ e $\\lambda_2$. As velocidades máximas dos fotoelétrons\nemitidos são, respectivamente, $v_1$ e $v_2$, sendo $v_1 = 2 v_2$. Seja\n$h$ a constante de Planck e $c$ a velocidade da luz.\n\n**Assinale** a alternativa com a função trabalho desse metal.\n",
       "answer": "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$",
@@ -391,7 +568,7 @@
     },
     {
       "id": "1A11",
-      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s^{-1}}$. **Assinale** a alternativa que mais se aproxima do\ncomprimento de onda da radiação incidente, $\\pu{nm}$.\n",
+      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$. **Assinale** a alternativa que mais se aproxima do\ncomprimento de onda da radiação incidente, $\\pu{nm}$.\n",
       "answer": "$\\pu{350}$",
       "obj": 1,
       "prop": false,
@@ -461,6 +638,15 @@
       "id": "1X01",
       "statement": "Esse é o arquivo para testes.\n",
       "answer": "A resposta é: $$\\int f(x) \\; \\mathrm{d} x$$\n",
+      "obj": -1,
+      "prop": false,
+      "choices": [],
+      "data": []
+    },
+    {
+      "id": "1A40",
+      "statement": "Um tubo contendo átomos de hidrogênio no estado fundamental é irradiado\ncom luz monocromática e o espectro de emissão é analisado.\n\n-   **Determine** o comprimento de onda da radiação incidente para serem\n    observadas dez linhas espectrais de emissão.\n-   **Determine** o comprimento de onda da radiação incidente serem\n    observadas duas linhas espectrais de emissão no visível\n    ($\\pu{400 nm a 750 nm}$).\n",
+      "answer": "$\\pu{\\dfrac{1}{\\lambda} = (\\dfrac{14}{25})R45 nm}$\n$\\pu{\\dfrac{1}{\\lambda} = (\\dfrac{15}{16})R97 nm}$\n",
       "obj": -1,
       "prop": false,
       "choices": [],
