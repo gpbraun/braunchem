@@ -8,18 +8,24 @@
 # - Automatic options with \pu{} regex
 
 
-# IMPORTS
+# REQUIREMENTS
 
-from enum import auto
-import attr
-from json import dump as json_dump
-import sys
 import os
 import re
+
+import attr
+from attr import frozen, field, Factory, asdict, fields
+
+import pickle
+from json import dump as json_dump
+
+from sys import exit
 from shutil import move, copy, SameFileError
-import pandas as pd
 from subprocess import run, DEVNULL
 from pathlib import Path
+
+import pandas as pd
+
 from frontmatter import load
 from bs4 import BeautifulSoup
 from pypandoc import convert_text
@@ -33,46 +39,44 @@ MD = Markdown(extensions=['pymdownx.tasklist'])
 
 
 def md2soup(content):
-    html = MD.convert(content)
-    return BeautifulSoup(html, 'html.parser')
+    return BeautifulSoup(MD.convert(content), 'html.parser')
 
 
 def html2md(content):
     # convert md to html using pandoc and parse as soup
+    return convert_text(content, 'md',format='html+tex_math_dollars+raw_tex')
+
+
+def md2tex(content):
+    # convert html string to tex using pandoc
     return convert_text(
-        content, 'md',
-        format='html+tex_math_dollars+raw_tex',
+        str(content), 'tex',
+        format='markdown+tex_math_dollars+raw_tex-implicit_figures',
     )
 
-
-def md2latex(content):
-    # convert html string to latex using pandoc
-    return convert_text(
-        str(content), 'latex',
-        format='markdown+tex_math_dollars+raw_tex',
-    ).replace('\\tightlist\n', '').rstrip()
-
-
-def latex2pdf(tex, file_name):
+def tex2pdf(tex, filename, path=''):
     # convert tex string to pdf
     cwd = os.getcwd()
-    os.chdir("template")
+    os.chdir('template')
 
     with open('1A.tex', 'w') as f:
         f.write(tex)
 
     run(
-        ["pdflatex", "-interaction=nonstopmode", f"{file_name}.tex"],
+        ['pdflatex', '-interaction=nonstopmode', '%s.tex' % filename],
         stdout=DEVNULL
     )
 
     # clear output files
     for ext in ['.tex', '.aux', '.log', '.out']:
-        os.remove(file_name + ext)
-
-    move(f"{file_name}.pdf", f"../archive/{file_name}.pdf")
+        os.remove(filename + ext)
 
     os.chdir(cwd)
+
+    move(
+        os.path.join('template', '%s.pdf' % filename),
+        os.path.join(path, '%s.pdf' % filename)
+    )
 
 
 #
@@ -83,55 +87,55 @@ PU_CMD = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
 UNIT_EXP = re.compile(r'[\+\-]\d+')
 
 
-def pu2siunitx(match_obj):
+def qty(num, unit):
     # convert \pu command to \unit, \num or \qty
-    if match_obj.group(2) is None:  # number only
-        return latex_cmd('num', [match_obj.group(1)])
+    if not unit:  # number only
+        return tex_cmd('num', [num])
 
-    unit = re.sub(
-        UNIT_EXP, lambda x: f"^{{{x.group(0)}}}", match_obj.group(2)
+    formated_unit = re.sub(
+        UNIT_EXP, lambda x: '^{%s}' % x.group(0), unit
     )
 
-    if match_obj.group(1) is None: # unit ony
-        return latex_cmd('unit', [unit])
+    if not num:  # unit ony
+        return tex_cmd('unit', [formated_unit])
 
-    return latex_cmd('qty', [match_obj.group(1), unit])
+    return tex_cmd('qty', [num, formated_unit])
 
 
-def latex_units(content):
+def pu2qty(content):
     # converts all \pu commands to \unit, \num or \qty
-    return re.sub(PU_CMD, pu2siunitx, content)
+    return re.sub(PU_CMD, lambda x: qty(x.group(1), x.group(2)), content)
 
 
-def latex_cmd(cmd, content=[]):
+def tex_cmd(cmd, content=[]):
     if content:
-        latex_args = ''.join(f'{{{arg}}}' for arg in content)
-        return f'\\{cmd}{latex_args}'
+        tex_args = ''.join('{%s}' % arg for arg in content)
+        return '\\%s%s' % (cmd, tex_args)
 
-    return f'\\{cmd}'
-
-
-def latex_env(env, content):
-    return f'\\begin{{{env}}}\n{content}\n\\end{{{env}}}'
+    return '\\%s' % cmd
 
 
-def latex_section(content, level=0, newpage=False):
+def tex_env(env, content):
+    return '\n\n\\begin{%s}\n%s\n\\end{%s}\n' % (env, content, env)
+
+
+def tex_section(content, level=0, newpage=False):
     if not content:
         return ''
 
-    newpage_cmd = latex_cmd('newpage') if newpage else ''
-    return newpage_cmd + latex_cmd(level*'sub'+'section*', [content]) + '\n'
+    newpage_cmd = tex_cmd('newpage') if newpage else ''
+    return newpage_cmd + tex_cmd(level*'sub'+'section*', [content]) + '\n'
 
 
-def list2latex(env, items, cols=1, auto_cols=False, resume=False):
+def list2tex(env, items, cols=1, auto_cols=False, resume=False):
     if auto_cols:
         min_length = min([len(i) for i in items])
         if min_length < 30:
             cols = 3
 
     resume = 'resume=true' if resume else ''
-    content = '\n'.join([f'\\item {i}\n' for i in items])
-    return latex_env(env, f'[{resume}]({cols}){content}')
+    content = '\n'.join(['\\item %s' % i for i in items])
+    return tex_env(env, '[%s](%s)\n%s' % (resume, cols, content))
 
 
 #
@@ -139,50 +143,56 @@ def list2latex(env, items, cols=1, auto_cols=False, resume=False):
 #
 
 
-datasets = ['elements', 'thermochem']
+datasets = ['elements', 'inorganic', 'organic', 'potentials']
 frames = [pd.read_csv(
-    f'database/data/{d}.csv', sep=';') for d in datasets]
+    'database/data/%s.csv' % d, sep=';') for d in datasets]
 DATA = pd.concat(frames)
 
 
-@attr.s(frozen=True)
-class Data(object):
-    id: str = attr.ib()
-    name: str = attr.ib(init=False)
-    symbol: str = attr.ib(init=False)
-    value: str = attr.ib(init=False)
-    unit: str = attr.ib(init=False)
+@frozen
+class Data:
+    id: str
+    name: str = field(init=False)
+    symbol: str = field(init=False)
+    value: str = field(init=False)
+    unit: str = field(init=False)
 
     def __attrs_post_init__(self):
         col = DATA.loc[DATA.id == self.id]
 
         if col.empty:
-            print(f"O dado '{self.id}' não foi cadastrado!")
-            sys.exit(f'Cadastre os dados necessários e tente denovo.')
+            print("O dado '%s' não foi cadastrado!" % self.id)
+            exit('Cadastre os dados necessários e tente denovo.')
 
         for prop in ['name', 'symbol', 'value', 'unit']:
-            object.__setattr__(self, prop, col[prop].item().strip())
+            object.__setattr__(self, prop, str(col[prop].item()).strip())
 
-    def aslatex(self):
+    def astex(self):
         # return data in sunitx format
-        return f"${self.symbol} = {latex_cmd('qty', [self.value, self.unit])}$"
+        return '$%s = %s$' % (self.symbol, qty(self.value, self.unit))
+
+@frozen
+class DataSet:
+    data: list[Data] = Factory(list)
+    def filter():
+        return 0
 
 #
 # PROBLEM CLASS
 #
 
 
-@attr.s(frozen=True)
-class Problem(object):
-    path = attr.ib()
-    id: str = attr.ib(init=False)
-    date: str = attr.ib(init=False)
-    statement = attr.ib(init=False)
-    answer: str = attr.ib(init=False)
-    obj = attr.ib(default=-1)
-    prop: bool = attr.ib(default=False)
-    choices = attr.ib(factory=list)
-    data = attr.ib(factory=list)
+@frozen
+class Problem:
+    path: str
+    id: str = field(init=False) 
+    date: float = field(init=False) 
+    statement: str = field(init=False) 
+    answer: str = '-'
+    obj: int = -1
+    prop: bool = False
+    choices: list = Factory(list)
+    data: list = Factory(list)
 
     def __attrs_post_init__(self):
         # get YAML data and contents
@@ -191,22 +201,18 @@ class Problem(object):
         pfile = load(self.path)
         soup = md2soup(pfile.content)
 
-        for prop in ['answer']:
-            if prop in pfile:
-                object.__setattr__(self, prop, pfile[prop])
-
         if 'data' in pfile:
             object.__setattr__(self, 'data', [Data(i) for i in pfile['data']])
 
         # change images direcory to images folder
         for img in soup.find_all('img'):
-            img['src'] = os.path.join(
-                "./images/", os.path.basename(img['src']))
+            img['src'] = os.path.join("images", os.path.basename(img['src']))
 
         # get problem choices and ansewer, if objective
         # FIXME: remove listitem tags (remendado com .text)
         task_list = soup.find('ul', class_='task-list')
         if task_list:
+            choices = []
             for index, item in enumerate(task_list.find_all('li')):
                 check_box = item.find('input').extract()
                 if check_box.has_attr('checked'):
@@ -227,84 +233,79 @@ class Problem(object):
 
         return self
 
-    def asdict(self):
-        return attr.asdict(self)
-
     def is_obj(self):
         if self.obj == -1:
             return False
         return True
 
-    def latex_statement(self):
-        return md2latex(self.statement)
+    def tex_statement(self):
+        return md2tex(self.statement)
 
-    def latex_data(self):
-        # return data as latex list with header
+    def tex_data(self):
+        # return data as tex list with header
         if not self.data:
             return ''
-        latex_datalist = list2latex('datalist',
-                                    [d.aslatex() for d in self.data], cols=2
-                                    )
-        return latex_section('Dados', 1) + latex_datalist
+        dlist = list2tex('datalist', [d.astex() for d in self.data], cols=2)
+        return tex_section('Dados', 2) + dlist
 
-    def latex_choices(self):
-        # return choices as latex list
+    def tex_choices(self):
+        # return choices as tex list
         if not self.is_obj():
             return ''
-        return list2latex('choices', self.choices, auto_cols=True)
+        return list2tex('choices', self.choices, auto_cols=True)
 
-    def latex_answer(self):
-        # return choices as latex list
+    def tex_answer(self):
+        # return choices as tex list
         if self.is_obj():
-            return latex_cmd('MiniBox', content=[chr(65 + self.obj)])
-        return md2latex(self.answer)
+            return tex_cmd('MiniBox', content=[chr(65 + self.obj)])
+        return md2tex(self.answer)
 
-    def aslatex(self):
-        # return problem as latex
-        p = self.latex_statement() + self.latex_choices() + self.latex_data()
-        return latex_env('problem', p)
+    def astex(self):
+        # return problem as tex
+        p = self.tex_statement() + self.tex_choices() + self.tex_data()
+        return tex_env('problem', '[%s]%s' % (self.id, p))
 
 
-@attr.s(frozen=True)
-class ProblemSet(object):
-    title = attr.ib()
-    problems = attr.ib()
+@frozen
+class ProblemSet:
+    title: str
+    problems: list[Problem]
 
-    def latex_statements(self):
+    def tex_statements(self):
         if not self.problems:
             return ''
 
-        statements = '\n'.join([p.aslatex() for p in self.problems])
-        return latex_section(self.title) + statements
+        statements = '\n'.join([p.astex() for p in self.problems])
+        return tex_section(self.title) + statements
 
-    def latex_answers(self):
+    def tex_answers(self):
         if not self.problems:
             return ''
 
         cols = 6 if all([p.is_obj() for p in self.problems]) else 2
-        answers = [p.latex_answer() for p in self.problems]
-        return latex_section(self.title, level=1) + list2latex('answers', answers, cols=cols)
+        answers = [p.tex_answer() for p in self.problems]
+        return tex_section(self.title, level=1) + list2tex('answers', answers, cols=cols)
 
 #
 # TOPIC CLASS
 #
 
 
-@attr.s(frozen=True)
-class Subtopic(object):
-    id: str = attr.ib()
-    title: str = attr.ib()
-    items = attr.ib()
-    abilities = attr.ib()
+@frozen
+class Subtopic:
+    id: str
+    title: str
+    items: list[str]
+    abilities: list[str]
 
 
-@attr.s(frozen=True)
-class Topic(object):
-    path = attr.ib()
-    id: str = attr.ib(init=False)
-    title: str = attr.ib(default="")
-    subtopics = attr.ib(factory=list)
-    problems = attr.ib(factory=list)
+@frozen
+class Topic:
+    path: str
+    id: str = field(init=False)
+    title: str = field(init=False)
+    problems: dict = field(init=False)
+    subtopics: list = Factory(list)
 
     def __attrs_post_init__(self):
         # get YAML data and contents
@@ -322,7 +323,7 @@ class Topic(object):
         all_abilities = soup.find_all('ul')
 
         for index, subtopic in enumerate(all_subtopics):
-            subtopic_id = f'{self.id}.{index+1}'
+            subtopic_id = '%s.%d' % (self.id, index+1)
             subtopic_title = subtopic.text
             subtopic_items = [
                 html2md(i) for i in all_items[index].find_all('li')
@@ -343,8 +344,11 @@ class Topic(object):
 # ARSENAL CLASS
 #
 
-TOPIC_FILE = re.compile('\d[A-Z].md')
-PROBLEM_FILE = re.compile('\d[A-Z]\d{2}.md')
+def copyr(loc, dest):
+    try:
+        copy(loc, dest)
+    except SameFileError:
+        pass
 
 
 def get_file_paths(db_path):
@@ -352,32 +356,33 @@ def get_file_paths(db_path):
     topic_files = []
     problem_files = []
 
-    for root, _, files in os.walk(db_path):
+    for root, _, files in os.walk(os.path.join(db_path, 'topics')):
+        for f in files:
+            path = Path(os.path.join(root, f))
+            if path.suffix == '.md':
+                topic_files.append(path)
+
+    for root, _, files in os.walk(os.path.join(db_path, 'problems')):
         for f in files:
             path = Path(os.path.join(root, f))
             # problems
-            if PROBLEM_FILE.match(path.name):
+            if path.suffix == '.md':
                 problem_files.append(path)
             # topics
-            elif TOPIC_FILE.match(path.name):
-                topic_files.append(path)
-            # images
             elif path.suffix in ['.jpg', '.jpeg', '.svg', '.pdf', '.tex']:
-                try:
-                    copy(path, os.path.join(db_path, 'images', path.name))
-                except SameFileError:
-                    pass
+                copyr(path, os.path.join(db_path, 'images', path.name))
 
     return topic_files, problem_files
 
 
-@attr.s(frozen=True)
-class Arsenal(object):
-    topics = attr.ib(factory=list)
-    problems = attr.ib(factory=list)
+@frozen
+class Arsenal:
+    path: str
+    topics: list[Topic] = Factory(list)
+    problems: list[Problem] = Factory(list)
 
-    def read_dir(self, db_path):
-        topic_files, problem_files = get_file_paths(db_path)
+    def __attrs_post_init__(self):
+        topic_files, problem_files = get_file_paths(self.path)
 
         for path in topic_files:
             self.topics.append(Topic(path))
@@ -385,19 +390,28 @@ class Arsenal(object):
         for path in problem_files:
             self.problems.append(Problem(path))
 
-        json_file = os.path.join(db_path, 'problems.json')
-        with open(json_file, 'w') as f:
-            json_dump(self.asdict(), f, indent=2, ensure_ascii=False)
+        self.dump()
 
         return self
 
-    def asdict(self):
+    def dump(self):
+        # dump contents to pickle
+        pickle_file = os.path.join(self.path, 'arsenal.p')
+        with open(pickle_file, 'wb') as f:
+            pickle.dump(self, f)
+
+        # dump contents to json
         filters = attr.filters.exclude(
-            attr.fields(Topic).path,
-            attr.fields(Problem).path,
-            attr.fields(Problem).date
+            fields(Topic).path,
+            fields(Problem).path,
+            fields(Problem).date
         )
-        return attr.asdict(self, filter=filters)
+
+        json_file = os.path.join(self.path, 'arsenal.json')
+        with open(json_file, 'w') as f:
+            json_dump(
+                asdict(self, filter=filters), f, indent=2, ensure_ascii=False
+            )
 
     def filter(self, title, problem_ids):
         # get ProblemSet from list of ids
@@ -414,35 +428,48 @@ class Arsenal(object):
                 psets = [self.filter(t, p) for t, p in topic.problems.items()]
 
                 l = List(topic.id, topic.title, psets)
-                latex2pdf(l.aslatex(), topic.id)
+                tex2pdf(l.astex(), topic.id, path='archive')
 
+
+def load_arsenal(path):
+    if not os.path.exists(path):
+        exit("O diretório '%s' não existe!" % path)
+    
+    # pickle_file = os.path.join(path, 'arsenal.p')
+    # if os.path.exists(pickle_file):
+    #     with open(pickle_file, 'rb') as f:
+    #         print("Arquivo '%s' carregado" % pickle_file)
+    #         return pickle.load(f)
+    return Arsenal(path)
 
 #
 # PDF LIST CLASS
 #
 
-@attr.s(frozen=True)
-class List(object):
-    id: str = attr.ib()
-    title: str = attr.ib()
-    problem_sets = attr.ib()
-    affiliation: str = attr.ib(default="Colégio e Curso Pensi, Química")
-    author: str = attr.ib(default="Gabriel Braun")
-    logo: str = attr.ib(default="pensi")
+@frozen
+class List:
+    id: str
+    title: str
+    problem_sets: dict
+    affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
+    author: str = "Gabriel Braun"
+    logo: str = "pensi"
 
-    def aslatex(self, template='braun, twocolumn, DIV=calc'):
+    def astex(self, template='braun, twocolumn'):
         # return tex file for compiling list as pdf
-        doc_preamble = latex_cmd(f'documentclass[{template}]', ['braun'])
+        doc_preamble = tex_cmd('documentclass[%s]' % template, ['braun'])
         for prop in ['title', 'affiliation', 'author', 'logo']:
-            doc_preamble += latex_cmd(prop, getattr(self, prop)) + '\n'
+            doc_preamble += '\n' + tex_cmd(prop, [getattr(self, prop)]) 
 
-        doc_answers = latex_section('Gabarito', newpage=True)
-        doc_problems = ''
+        doc_preamble += '\n' + tex_cmd('dbpath', ['../database'])
+
+        doc_answers = tex_section('Gabarito', newpage=True)
+        doc_problems = '\n'
         for pset in self.problem_sets:
-            doc_problems += pset.latex_statements()
-            doc_answers += pset.latex_answers()
+            doc_problems += pset.tex_statements()
+            doc_answers += pset.tex_answers()
 
-        return doc_preamble + latex_env('document', latex_cmd('maketitle') + latex_units(doc_problems + doc_answers))
+        return doc_preamble + tex_env('document', tex_cmd('maketitle') + pu2qty(doc_problems + doc_answers))
 
 
 #
@@ -451,7 +478,7 @@ class List(object):
 
 
 def main():
-    data = Arsenal().read_dir("database")
+    data = load_arsenal('database')
     data.aspdf(['1A'])
 
 
