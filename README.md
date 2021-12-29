@@ -45,6 +45,7 @@ Entalpia de ligação Cl-Cl.
 Calor de fusão do gelo: 80 cal/g
 Calor específico do gelo: 0,5 cal/(g K)
 Calor específico da água líquida: 1 cal/(g K)
+Capacidade calorífica em pressão constante do O₂: 30 J/(K mol)
 
 ## Dados Termodinâmicos
 
