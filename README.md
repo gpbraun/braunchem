@@ -49,6 +49,8 @@ Capacidade calorífica em pressão constante do O₂: 30 J/(K mol)
 Entalpia de formação da ureia (s): -333,51 kJ/mol
 Entalpia de formação do CO₂ (g): -393,51 kJ/mol
 Entalpia de formação da água (l): -286 kJ/mol
+Entalpia de combustão do metano (g): -890,5 kJ/mol
+
 
 ## Dados Termodinâmicos
 
