@@ -50,6 +50,11 @@ Entalpia de formação da ureia (s): -333,51 kJ/mol
 Entalpia de formação do CO₂ (g): -393,51 kJ/mol
 Entalpia de formação da água (l): -286 kJ/mol
 Entalpia de combustão do metano (g): -890,5 kJ/mol
+Energia de ligação C-C: 347 kJ/mol
+Energia de ligação C-H: 413 kJ/mol
+Energia de ligação C=O: 803 kJ/mol
+Energia de ligação H-H: 436 kJ/mol
+Energia de ligação O=O: 498 kJ/mol
 
 
 ## Dados Termodinâmicos
