@@ -42,6 +42,25 @@ Capacidade calorífica da água (l): 4,2 J/(K g)
 Entalpia de formação da glicose (s)
 Entalpia de formação do cloreto de prata (s)
 Entalpia de ligação Cl-Cl.
+Calor de fusão do gelo: 80 cal/g
+Calor específico do gelo: 0,5 cal/(g K)
+Calor específico da água líquida: 1 cal/(g K)
+Capacidade calorífica em pressão constante do O₂: 30 J/(K mol)
+Entalpia de formação da ureia (s): -333,51 kJ/mol
+Entalpia de formação do CO₂ (g): -393,51 kJ/mol
+Entalpia de formação da água (l): -286 kJ/mol
+Entalpia de combustão do metano (g): -890,5 kJ/mol
+Energia de ligação C-C: 347 kJ/mol
+Energia de ligação C-H: 413 kJ/mol
+Energia de ligação C=O: 803 kJ/mol
+Energia de ligação H-H: 436 kJ/mol
+Energia de ligação O=O: 498 kJ/mol
+Entalpia de vaporização do Br₂: 30 kJ/mol
+Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
+Energia de ligação C=C: 612 kJ/mol
+Energia de ligação Br-Br: 193 kJ/mol
+
+
 
 ## Dados Termodinâmicos
 
