@@ -1272,7 +1272,7 @@
 %%% ANSWER
 
 \NewTasksEnvironment[
-	label = \sffamily{\textbf{\arabic*.}},
+	label = \sffamily{\small\textbf{\arabic*.}},
 	label-align = right,
     item-indent = 2em,
     label-offset = 0.7em,
@@ -1324,7 +1324,7 @@
         \braun_begin_problem_box:
         %% HEADER
         \BraunHeader
-            [ \texttt{ \color{color-1} \small #1 } ]
+            [ \texttt{ \color{color-2} #1 } ]
             { 
                 \small\sffamily\bfseries
                 \text_uppercase:n { \l_braun_problem_name_tl } ~
