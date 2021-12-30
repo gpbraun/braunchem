@@ -55,6 +55,11 @@ Energia de ligação C-H: 413 kJ/mol
 Energia de ligação C=O: 803 kJ/mol
 Energia de ligação H-H: 436 kJ/mol
 Energia de ligação O=O: 498 kJ/mol
+Entalpia de vaporização do Br₂: 30 kJ/mol
+Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
+Energia de ligação C=C: 612 kJ/mol
+Energia de ligação Br-Br: 193 kJ/mol
+
 
 
 ## Dados Termodinâmicos
