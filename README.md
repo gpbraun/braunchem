@@ -59,6 +59,9 @@ Entalpia de vaporização do Br₂: 30 kJ/mol
 Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
 Energia de ligação C=C: 612 kJ/mol
 Energia de ligação Br-Br: 193 kJ/mol
+Entalpia padrão de sublimação da grafita: 720,0 kJ/mol
+Energia de ligação C-O: 360 kJ/mol
+Energia de ligação O-H: 463 kJ/mol
 
 
 
