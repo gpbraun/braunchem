@@ -46,6 +46,9 @@ Calor de fusão do gelo: 80 cal/g
 Calor específico do gelo: 0,5 cal/(g K)
 Calor específico da água líquida: 1 cal/(g K)
 Capacidade calorífica em pressão constante do O₂: 30 J/(K mol)
+Entalpia de formação da ureia (s): -333,51 kJ/mol
+Entalpia de formação do CO₂ (g): -393,51 kJ/mol
+Entalpia de formação da água (l): -286 kJ/mol
 
 ## Dados Termodinâmicos
 
