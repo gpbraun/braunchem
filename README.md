@@ -171,7 +171,7 @@ O **comando** de questões
 `CuSO4(s)` | -771,36 | -661,8 | 100 | 109 | 
 `CuSO4,5H2O(s)` | -2279,7 | -1879,7 | 280 | 300,4 | 
 
-`### Deutério ($\ce{^2H)`
+### Deutério ($\ce{^2H)
 
 `id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
 :-- | --: | --: | --: | --: |
