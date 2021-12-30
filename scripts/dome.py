@@ -16,6 +16,7 @@ import re
 import attr
 from attr import frozen, field, Factory, asdict, fields
 
+import csv
 import pickle
 from json import dump as json_dump
 
@@ -23,8 +24,6 @@ from sys import exit
 from shutil import move, copy, SameFileError
 from subprocess import run, DEVNULL
 from pathlib import Path
-
-import pandas as pd
 
 from frontmatter import load
 from bs4 import BeautifulSoup
@@ -44,7 +43,7 @@ def md2soup(content):
 
 def html2md(content):
     # convert md to html using pandoc and parse as soup
-    return convert_text(content, 'md',format='html+tex_math_dollars+raw_tex')
+    return convert_text(content, 'md', format='html+tex_math_dollars+raw_tex')
 
 
 def md2tex(content):
@@ -53,6 +52,7 @@ def md2tex(content):
         str(content), 'tex',
         format='markdown+tex_math_dollars+raw_tex-implicit_figures',
     )
+
 
 def tex2pdf(tex, filename, path=''):
     # convert tex string to pdf
@@ -83,8 +83,8 @@ def tex2pdf(tex, filename, path=''):
 # LATEX INTEGRATION FUNCTIONS
 #
 
-PU_CMD = re.compile(r'\\pu\{\s*([\deE,.]*)\s*(.*)\s*\}')
-UNIT_EXP = re.compile(r'[\+\-]\d+')
+RE_PU_CMD = re.compile(r'\\pu\{\s*([\deE\,\.\+\-]*)\s*([\w\d\.\+\-]*)\s*\}')
+RE_UNIT_EXP = re.compile(r'[\+\-]\d+')
 
 
 def qty(num, unit):
@@ -93,7 +93,7 @@ def qty(num, unit):
         return tex_cmd('num', [num])
 
     formated_unit = re.sub(
-        UNIT_EXP, lambda x: '^{%s}' % x.group(0), unit
+        RE_UNIT_EXP, lambda x: '^{%s}' % x.group(0), unit
     )
 
     if not num:  # unit ony
@@ -104,7 +104,7 @@ def qty(num, unit):
 
 def pu2qty(content):
     # converts all \pu commands to \unit, \num or \qty
-    return re.sub(PU_CMD, lambda x: qty(x.group(1), x.group(2)), content)
+    return re.sub(RE_PU_CMD, lambda x: qty(x.group(1), x.group(2)), content)
 
 
 def tex_cmd(cmd, content=[]):
@@ -143,39 +143,126 @@ def list2tex(env, items, cols=1, auto_cols=False, resume=False):
 #
 
 
-datasets = ['elements', 'inorganic', 'organic', 'potentials']
-frames = [pd.read_csv(
-    'database/data/%s.csv' % d, sep=';') for d in datasets]
-DATA = pd.concat(frames)
+@frozen
+class DataType:
+    name: str
+    symbol: str
+    unit: str
+
+
+DATATYPES = {
+    # ORGANIC/INORGANIC
+    'Hf': DataType(
+        'Entalpia de formação do ', '\\Delta H_\\text{f}',  'kJ.mol-1'
+    ),
+    'Gf': DataType(
+        'Entalpia livre de formação do ', '\\Delta G_\\text{f}', 'kJ.mol-1'
+    ),
+    'Cp': DataType(
+        'Capacidade calorífica do ', 'C_P', 'J.K-1.mol-1'
+    ),
+    'S':  DataType(
+        'Entropia do ', 'S', 'J.K-1.mol-1'
+    ),
+    'Hc': DataType(
+        'Entalpia de combustão do ', '\\Delta H_\\text{c}', 'kJ.mol-1'
+    ),
+    # BONDS
+    'HL': DataType(
+        'Entalpia da ligação ', '\\Delta H_\\text{L}', 'kJ.mol-1'
+    ),
+    # ELEMENTS
+    'Tfus': DataType(
+        'Temperatura de fusão do ', 'T_\\text{fus}', '\degree C'
+    ),
+    'Phi': DataType(
+        'Função trabalho do ', '\\Phi', 'eV'
+    ),
+}
 
 
 @frozen
 class Data:
     id: str
-    name: str = field(init=False)
-    symbol: str = field(init=False)
-    value: str = field(init=False)
-    unit: str = field(init=False)
-
-    def __attrs_post_init__(self):
-        col = DATA.loc[DATA.id == self.id]
-
-        if col.empty:
-            print("O dado '%s' não foi cadastrado!" % self.id)
-            exit('Cadastre os dados necessários e tente denovo.')
-
-        for prop in ['name', 'symbol', 'value', 'unit']:
-            object.__setattr__(self, prop, str(col[prop].item()).strip())
+    mol: str
+    state: str
+    value: float
+    unit: str
+    name: str
+    symbol: str
 
     def astex(self):
         # return data in sunitx format
-        return '$%s = %s$' % (self.symbol, qty(self.value, self.unit))
+        return f'${self.symbol} = {qty(self.value, self.unit)}$'
+
 
 @frozen
 class DataSet:
-    data: list[Data] = Factory(list)
-    def filter():
-        return 0
+    dataset: dict = Factory(dict)
+
+    def append_csv(self):
+
+        return self
+
+    def filter(self, data_ids):
+        return [self.dataset[i] for i in data_ids]
+
+
+RE_DATA_MOL = re.compile(r'(.*)\((.*)\)')
+
+
+def cell2data(id, datatype, datamol, value):
+    # return data object from csv cell
+    dt = DATATYPES[datatype]
+
+    value = value.replace('.', ',')
+    unit = dt.unit
+
+    mol_match = re.match(RE_DATA_MOL, datamol)
+    if mol_match:
+        mol, state = mol_match.group(1), mol_match.group(2)
+        name = dt.name + f'\\ce{{{mol}}} ({state})'
+        symbol = dt.symbol + f'(\\ce{{{mol}, {{{state}}}}})'
+    else:
+        state = ''
+        name = dt.name + f'\\ce{{{datamol}}}'
+        symbol = dt.symbol + f'(\\ce{{{datamol}}})'
+
+    return Data(id, datamol, state, value, unit, name, symbol)
+
+
+def csv2dataset(csv_path):
+    dataset = {}
+
+    if not os.path.exists(csv_path):
+        print(f"O diretório '{csv_path}' não existe!")
+        return
+
+    with open(csv_path, newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+
+        for row in reader:
+            for prop in reader.fieldnames[1:]:
+                if row[prop]:
+                    id = f"{prop}-{row['id']}"
+                    dataset[id] = cell2data(id, prop, row['id'], row[prop])
+
+    return dataset
+
+
+def get_datasets(db_path):
+    dataset = {}
+
+    for root, _, files in os.walk(db_path):
+        for f in files:
+            path = Path(os.path.join(root, f))
+            if path.suffix == '.csv':
+                dataset.update(csv2dataset(path))
+
+    return dataset
+
+
+DATA = DataSet(get_datasets('database/data'))
 
 #
 # PROBLEM CLASS
@@ -185,9 +272,9 @@ class DataSet:
 @frozen
 class Problem:
     path: str
-    id: str = field(init=False) 
-    date: float = field(init=False) 
-    statement: str = field(init=False) 
+    id: str = field(init=False)
+    date: float = field(init=False)
+    statement: str = field(init=False)
     answer: str = '-'
     obj: int = -1
     prop: bool = False
@@ -202,7 +289,7 @@ class Problem:
         soup = md2soup(pfile.content)
 
         if 'data' in pfile:
-            object.__setattr__(self, 'data', [Data(i) for i in pfile['data']])
+            object.__setattr__(self, 'data', DATA.filter(pfile['data']))
 
         # change images direcory to images folder
         for img in soup.find_all('img'):
@@ -246,7 +333,7 @@ class Problem:
         if not self.data:
             return ''
         dlist = list2tex('datalist', [d.astex() for d in self.data], cols=2)
-        return tex_section('Dados', 2) + dlist
+        return tex_section('Dados', 2) + tex_cmd('small') + dlist
 
     def tex_choices(self):
         # return choices as tex list
@@ -282,9 +369,10 @@ class ProblemSet:
         if not self.problems:
             return ''
 
-        cols = 6 if all([p.is_obj() for p in self.problems]) else 2
+        cols = 5 if all([p.is_obj() for p in self.problems]) else 2
         answers = [p.tex_answer() for p in self.problems]
         return tex_section(self.title, level=1) + list2tex('answers', answers, cols=cols)
+
 
 #
 # TOPIC CLASS
@@ -428,13 +516,14 @@ class Arsenal:
                 psets = [self.filter(t, p) for t, p in topic.problems.items()]
 
                 l = List(topic.id, topic.title, psets)
+                print('compiling latex problem')
                 tex2pdf(l.astex(), topic.id, path='archive')
 
 
 def load_arsenal(path):
     if not os.path.exists(path):
         exit("O diretório '%s' não existe!" % path)
-    
+
     # pickle_file = os.path.join(path, 'arsenal.p')
     # if os.path.exists(pickle_file):
     #     with open(pickle_file, 'rb') as f:
@@ -445,6 +534,7 @@ def load_arsenal(path):
 #
 # PDF LIST CLASS
 #
+
 
 @frozen
 class List:
@@ -459,11 +549,11 @@ class List:
         # return tex file for compiling list as pdf
         doc_preamble = tex_cmd('documentclass[%s]' % template, ['braun'])
         for prop in ['title', 'affiliation', 'author', 'logo']:
-            doc_preamble += '\n' + tex_cmd(prop, [getattr(self, prop)]) 
+            doc_preamble += '\n' + tex_cmd(prop, [getattr(self, prop)])
 
         doc_preamble += '\n' + tex_cmd('dbpath', ['../database'])
 
-        doc_answers = tex_section('Gabarito', newpage=True)
+        doc_answers = tex_section('Gabarito', newpage=False)
         doc_problems = '\n'
         for pset in self.problem_sets:
             doc_problems += pset.tex_statements()
