@@ -39,16 +39,10 @@ As alternativas são colocadas com a função:
 
 O **comando** de questões 
 
-<<<<<<< HEAD
 ## Dados a serem adicionados
-=======
-=======
->>>>>>> 7af6a4843a50d64a894f2f0014d52df676a4b0ec
 
-- Temperatura de fusão do ferro: 1540 °C
 - Função trabalho do potássio: 2,29 eV
 - Função trabalho do zinco: 3,63 eV
-- Entalpia de formação da ureia (s): -333,51 kJ/mol
 - Entalpia de combustão do metano (g): -890,5 kJ/mol
 - Entalpia de vaporização do Br₂: 30 kJ/mol
 - Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
