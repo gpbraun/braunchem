@@ -39,7 +39,11 @@ As alternativas são colocadas com a função:
 
 O **comando** de questões 
 
+<<<<<<< HEAD
 ## Dados a serem adicionados
+=======
+=======
+>>>>>>> 7af6a4843a50d64a894f2f0014d52df676a4b0ec
 
 - Temperatura de fusão do ferro: 1540 °C
 - Função trabalho do potássio: 2,29 eV
