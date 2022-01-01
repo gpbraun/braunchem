@@ -1,5 +1,10 @@
 # ChemProblems
 
+<p align="center">
+  <img width="460" height="300" src="cupula.svg">
+</p>
+
+
 ## Texto
 
 ### Matemática
@@ -35,35 +40,6 @@ As alternativas são colocadas com a função:
 O **comando** de questões 
 
 ## Dados a serem adicionados
-<<<<<<< HEAD
-Temperatura de fusão do ferro: 1540 °C
-Função trabalho do potássio: 2,29 eV
-Função trabalho do zinco: 3,63 eV
-Capacidade calorífica da água (l): 4,2 J/(K g) 
-Entalpia de formação da glicose (s)
-Entalpia de formação do cloreto de prata (s)
-Entalpia de ligação Cl-Cl.
-Calor de fusão do gelo: 80 cal/g
-Calor específico do gelo: 0,5 cal/(g K)
-Calor específico da água líquida: 1 cal/(g K)
-Capacidade calorífica em pressão constante do O₂: 30 J/(K mol)
-Entalpia de formação da ureia (s): -333,51 kJ/mol
-Entalpia de formação do CO₂ (g): -393,51 kJ/mol
-Entalpia de formação da água (l): -286 kJ/mol
-Entalpia de combustão do metano (g): -890,5 kJ/mol
-Energia de ligação C-C: 347 kJ/mol
-Energia de ligação C-H: 413 kJ/mol
-Energia de ligação C=O: 803 kJ/mol
-Energia de ligação H-H: 436 kJ/mol
-Energia de ligação O=O: 498 kJ/mol
-Entalpia de vaporização do Br₂: 30 kJ/mol
-Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
-Energia de ligação C=C: 612 kJ/mol
-Energia de ligação Br-Br: 193 kJ/mol
-Entalpia padrão de sublimação da grafita: 720,0 kJ/mol
-Energia de ligação C-O: 360 kJ/mol
-Energia de ligação O-H: 463 kJ/mol
-=======
 
 - Temperatura de fusão do ferro: 1540 °C
 - Função trabalho do potássio: 2,29 eV
@@ -73,13 +49,22 @@ Energia de ligação O-H: 463 kJ/mol
 - Entalpia de vaporização do Br₂: 30 kJ/mol
 - Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
 
-# Dados Termodinâmicos
+## Dados Termodinâmicos
 
-## Compostos inorgânicos
+Legenda
+- `Hf`: Entalpia de formação
+- `Hc`: Entalpia de combustão
+- `HL`: Entalpia de ligação
+- `Gf`: Entalpia livre de formação
+- `S`: Entropia
+- `Cp`: Capacidade Calorífica em pressão constante
+  
 
-### Alumínio
+### Compostos inorgânicos
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+#### Alumínio
+
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Al(s)` | 0 | 0 | 24,35 | 28,33 | 
 `Al^3+(aq)` | 524,7 | 481,2 |  | -321,7 | 
@@ -87,9 +72,9 @@ Energia de ligação O-H: 463 kJ/mol
 `Al(OH)3(s)` | -1276 |  |  |  | 
 `AlCl3(s)` | -704,2 | -628,8 | 91,84 | 110,67 | 
 
-### Antimônio
+#### Antimônio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Sb(s)` | 0 | 0 | 25,23 | 45,69 | 
 `SbH3(g)` | 145,11 | 147,75 | 41,05 | 232,78 | 
@@ -98,7 +83,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Arsênio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `As(s)` | 0 | 0 | 24,64 | 35,1 | 
 `As2S3(s)` | -169 | -168,6 | 116,3 | 163,6 | 
@@ -106,7 +91,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Bário
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Ba(s)` | 0 | 0 | 28,07 | 62,8 | 
 `Ba+2(aq)` | -537,64 | -560,77 |  | 9,6 | 
@@ -116,7 +101,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Boro
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `B(s)` | 0 | 0 | 11,09 | 5,86 | 
 `B2O3(s)` | -1272,8 | -1193,7 | 62,93 | 53,97 | 
@@ -124,7 +109,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Bromo
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Br2(l)` | 0 | 0 | 75,69 | 152,23 | 
 `Br2(g)` | 30,91 | 3,11 | 36,02 | 245,46 | 
@@ -134,7 +119,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Cálcio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Ca(s)` | 0 | 0 | 25,31 | 41,42 | 
 `Ca(g)` | 178,2 | 144,3 | 20,79 | 154,88 | 
@@ -156,7 +141,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Carbono
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `C(grafite)` | 0 | 0 | 8,53 | 5,74 | 
 `C(diamante)` | 1,895 | 2,9 | 6,11 | 2,377 | 
@@ -172,7 +157,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Cério
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Ce(s)` | 0 | 0 | 26,94 | 72 | 
 `Ce^3+(aq)` | -696,2 | -672 |  | -205 | 
@@ -180,7 +165,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Cloro
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Cl2(g)` | 0 | 0 | 33,91 | 223,07 | 
 `Cl(g)` | 121,68 | 105,68 | 21,84 | 165,2 | 
@@ -190,7 +175,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Cobre
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Cu(s)` | 0 | 0 | 24,44 | 33,15 | 
 `Cu+(aq)` | 71,67 | 49,98 |  | 40,6 | 
@@ -202,7 +187,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Deutério ($\ce{^2H)
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `D2(g)` | 0 | 0 | 29,2 | 144,96 | 
 `D2O(g)` | -249,2 | -234,54 | 34,27 | 198,34 | 
@@ -210,7 +195,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Flúor
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `F2(g)` | 0 | 0 | 31,3 | 202,78 | 
 `F-(aq)` | -332,63 | -278,79 |  | -13,8 | 
@@ -219,7 +204,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Hidrogênio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `H2(g)` | 0 | 0 | 28,82 | 130,68 | 
 `H(g)` | 217,97 | 203,25 | 20,78 | 114,71 | 
@@ -232,7 +217,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Iodo
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `I2(s)` | 0 | 0 | 54,44 | 116,14 | 
 `I2(g)` | -62,44 | -19,33 | 36,9 | 260,69 | 
@@ -241,7 +226,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Ferro
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Fe(s)` | 0 | 0 | 25,1 | 27,28 | 
 `Fe^2+(aq)` | -89,1 | -78,9 |  | -137,7 | 
@@ -255,7 +240,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Chumbo
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Pb(s)` | 0 | 0 | 26,44 | 64,81 | 
 `Pb^2+(aq)` | -1,7 | -24,43 |  | 10,5 | 
@@ -266,7 +251,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Magnésio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Mg(s)` | 0 | 0 | 24,89 | 32,68 | 
 `Mg(g)` | 147,7 | -113,1 | 20,79 | 148,65 | 
@@ -277,7 +262,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Mercúrio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Hg(l)` | 0 | 0 | 27,98 | 76,02 | 
 `Hg(g)` | 61,32 | 31,82 | 20,79 | 174,96 | 
@@ -286,7 +271,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Nitrogênio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `N2(g)` | 0 | 0 | 29,12 | 191,61 | 
 `NO(g)` | 90,25 | 86,55 | 29,84 | 210,76 | 
@@ -308,7 +293,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Oxigênio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `O2(g)` | 0 | 0 | 29,36 | 205,14 | 
 `O3(g)` | 142,7 | 163,2 | 39,29 | 238,93 | 
@@ -316,7 +301,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Fósforo
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `P(s)` | 0 | 0 | 23,84 | 41,09 | 
 `P4(g)` | 58,91 | 24,44 | 67,15 | 279,98 | 
@@ -333,7 +318,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Potássio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `K(s)` | 0 | 0 | 29,58 | 64,18 | 
 `K(g)` | 89,24 | 60,59 | 20,79 | 160,34 | 
@@ -351,14 +336,14 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Silício
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Si(s)` | 0 | 0 | 20 | 18,83 | 
 `SiO2(s)` | -910,94 | -856,64 | 44,43 | 41,84 | 
 
 ### Prata
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Ag(s)` | 0 | 0 | 25,35 | 42,55 | 
 `Ag+(aq)` | 105,58 | 77,11 |  | 72,68 | 
@@ -373,7 +358,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Sódio
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Na(s)` | 0 | 0 | 28,24 | 51,21 | 
 `Na(g)` | 107,32 | 76,76 | 20,79 | 153,71 | 
@@ -386,7 +371,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Enxofre
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `S(rômbico)` | 0 | 0 | 22,64 | 31,8 | 
 `S(monoclinico)` | 0,33 | 0,1 | 23,6 | 32,6 | 
@@ -401,7 +386,7 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Estanho
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `SF6(g)` | -1209 | -1105,3 | 97,28 | 291,82 | 
 `Sn(branco)` | 0 | 0 | 26,99 | 51,55 | 
@@ -411,17 +396,16 @@ Energia de ligação O-H: 463 kJ/mol
 
 ### Zinco
 
-`id` | Entalpia de formação `Hf` | Entalpia livre de formação `Gf` | Capacidade Calorífica `Cp` | Entropia `S` |
+`id` | `Hf` | `Gf` | `Cp` | `S` |
 :-- | --: | --: | --: | --: |
 `Zn(s)` | 0 | 0 | 25,4 | 41,63 | 
 `Zn^2+(aq)` | -153,8 | -147,06 |  | -112,1 | 
 `ZnO(s)` | -348,28 | -318,3 | 40,25 | 43,64 | 
->>>>>>> d83bf92cd20804d26061f3a76ccb39563ddd2716
 
 
 ## Entalpia de Ligação
 
-`id` | Entalpia de Ligação `HL` |
+`id` | `HL` |
 :-- | --: |
 `H2`   |  436 | 
 `N2`   |  944 |
