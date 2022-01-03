@@ -195,7 +195,7 @@
 %   FIGURES AND TABLES 
 %============================================================%
 
-\RequirePackage { float, caption, booktabs }
+\RequirePackage { float, booktabs }
 
 %============================================================%
 %   MATH
@@ -1203,6 +1203,29 @@
         \group_end:
     }
 
+\RenewDocumentEnvironment { figure } {} 
+{ 
+    \group_begin:
+    \cs_set:Npn \caption #1 { \relax }
+    \begin{center} 
+    
+} 
+{ 
+    \end{center} 
+    \group_end:
+}
+
+\RenewDocumentEnvironment { table  } {} 
+{ 
+    \group_begin:
+    \cs_set:Npn \caption #1 { \relax }
+    \begin{center} 
+} 
+{ 
+    \end{center} 
+    \group_end:
+}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   PROBLEMS
@@ -1236,23 +1259,18 @@
 %   CUSTOM LISTS FOR PROBLEMS
 %============================================================%
 
-\RequirePackage { tasks }
-
-%%% ITEMIZE (TASKS)
-
-\RenewTasksEnvironment[
-    label = \sffamily{\alph*.},
-	label-align = right,
-]{itemize}[\item]
+\RequirePackage { tasks, enumitem }
 
 %%% ENUMERATE (ITEMS)
 
-\RenewTasksEnvironment[
-	label = \emph{\Roman*.},
-	label-align = right,
-	label-width = 3em,
-    item-indent = 4em,
-]{enumerate}[\item]
+\setlist[enumerate,1]{label = \sffamily{\bfseries \Roman*.}, leftmargin=*}
+\setlist[enumerate,2]{label = \sffamily{(\roman*)}}
+
+%%% ITEMIZE (TASKS)
+
+\renewlist{itemize}{enumerate}{2}
+\setlist[itemize,1]{label = \sffamily{\alph*.}, leftmargin=*}
+\setlist[itemize,2]{label = \sffamily{(\roman*)}}
 
 %%% CHOICES
 
@@ -1269,7 +1287,13 @@
 	label-align = right,
 ]{datalist}[\item]
 
-%%% ANSWER
+%%% ANSWERS
+
+\newlist{answers}{enumerate}{2}
+\setlist[answers,1]{label = \sffamily{\bfseries \arabic*.}}
+\setlist[answers,2]{label = \sffamily{\alph*.}, leftmargin=*}
+
+%%% OBJECTIVE ANSWERS
 
 \NewTasksEnvironment[
 	label = \sffamily{\small\textbf{\arabic*.}},
@@ -1277,7 +1301,7 @@
     item-indent = 2em,
     label-offset = 0.7em,
     before-skip = 1em,
-]{answers}[\item]
+]{checks}[\item]
 
 %============================================================%
 %   PROBLEM ENVIRONMENT
@@ -1314,7 +1338,7 @@
             }
     }
 
-\newcounter { problem_counter }
+\newcounter { problem_counter } [ section* ]
 
 \NewDocumentEnvironment { problem } { O{} }
     {
@@ -1328,7 +1352,7 @@
             { 
                 \small\sffamily\bfseries
                 \text_uppercase:n { \l_braun_problem_name_tl } ~
-                \arabic { problem_counter }
+                \arabic { section* } . \arabic { problem_counter }
             }
     } 
     {
@@ -1398,7 +1422,7 @@
 
 \DeclareBraunTemplate { braun }
     {
-        DIV = 25,
+        DIV = 23,
         font = paratype,
         emph = \itshape,
         page / headfoot-font = \sffamily ,

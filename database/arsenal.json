@@ -121,112 +121,135 @@
     {
       "id": "1A17",
       "statement": "**Assinale** a alternativa com o momento angular do elétron na quinta\nórbita do átomo de hidrogênio, considerando o modelo atômico de Bohr.\n",
-      "answer": "$\\pu{5e-34 J.s}$",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "$\\pu{1e-34 J.s}$",
-        "$\\pu{2e-34 J.s}$",
-        "$\\pu{5e-34 J.s}$",
-        "$\\pu{7e-34 J.s}$",
-        "$\\pu{1e-33 J.s}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{5e-34 J.s}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{1e-34 J.s}$\n",
+        "$\\pu{2e-34 J.s}$\n",
+        "$\\pu{5e-34 J.s}$\n",
+        "$\\pu{7e-34 J.s}$\n",
+        "$\\pu{1e-33 J.s}$\n"
+      ]
     },
     {
       "id": "1A27",
       "statement": "Quando átomos colidem, parte de sua energia cinética pode ser convertida\nem energia eletrônica. O processo é mais eficiente quando a energia\ncinética é próxima da energia necessária para a excitação.\n\n**Determine** a temperatura onde a excitação de átomos de hidrogênio ao\nprimeiro estado excitado é mais eficiente\n",
-      "answer": "$\\pu{79 kK}$\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "$\\pu{79 kK}$\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A37",
       "statement": "Considere um semicondutor com uma impureza de carga $+1$ atraindo um\nelétron. Devido a interações com os átomos da rede cristalina, o elétron\nno semicondutor possui massa igual a $m_{r}m_{e}$ sendo $m_{e}$ é a\nmassa de repouso do elétron e $m_{r}$ uma constante adimensional. A\npermissividade relativa no meio semicondutor é $\\epsilon_r$.\n\n**Assinale** a alternativa com a razão entre a energia de ionização da\nimpureza e a energia de ionização do átomo de hidrogênio.\n",
-      "answer": "$\\dfrac{m_{r}}{\\epsilon_{r}^{2}}$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$1$",
-        "$\\dfrac{m_{r}}{\\epsilon_{r}}$",
-        "$\\dfrac{\\epsilon_{r}}{m_{r}}$",
-        "$\\dfrac{m_{r}}{\\epsilon_{r}^{2}}$",
-        "$\\dfrac{m\\epsilon_{r}^{2}}{{m_{r}}}$"
+      "solution": "",
+      "answer": [
+        "$\\dfrac{m_{r}}{\\epsilon_{r}^{2}}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$1$\n",
+        "$\\dfrac{m_{r}}{\\epsilon_{r}}$\n",
+        "$\\dfrac{\\epsilon_{r}}{m_{r}}$\n",
+        "$\\dfrac{m_{r}}{\\epsilon_{r}^{2}}$\n",
+        "$\\dfrac{m\\epsilon_{r}^{2}}{{m_{r}}}$\n"
+      ]
     },
     {
       "id": "1A44",
       "statement": "Considere a estrutura da porfirina, a seguir.\n\n![Porfirina.](images/1A44-1M.svg)\n\nO sistema eletrônico $\\pi$ desse composto, com $26$ elétrons, pode ser\nmodelado como uma caixa bidimensional quadrada, com $L = \\pu{1000 pm}$\nde comprimento. Nesse sistema os orbitais têm energia dada por:\n\n$E(n_{1}, n_{2}) = \\dfrac{h^{2}}{8m_{e}L^{2}}(n_{1}^{2}+n_{2}^{2})$\n\nEm que apenas dois elétrons ocupam um mesmo nível de energia.\n\n**Assinale** a alternativa que apresenta a transição eletrônica de menor\nenergia da porfirina, em termos dos números quânticos $(n_{1}, n_{2})$.\n",
-      "answer": "$(4,2) \\rightarrow (4,3)$",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "$(1,1) \\rightarrow (1,2)$",
-        "$(2,1) \\rightarrow (2,2)$",
-        "$(3,3) \\rightarrow (4,3)$",
-        "$(3,2) \\rightarrow (4,2)$",
-        "$(4,2) \\rightarrow (4,3)$"
+      "solution": "",
+      "answer": [
+        "$(4,2) \\rightarrow (4,3)$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$(1,1) \\rightarrow (1,2)$\n",
+        "$(2,1) \\rightarrow (2,2)$\n",
+        "$(3,3) \\rightarrow (4,3)$\n",
+        "$(3,2) \\rightarrow (4,2)$\n",
+        "$(4,2) \\rightarrow (4,3)$\n"
+      ]
     },
     {
       "id": "1A35",
-      "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. Seja $a_0$ o raio\nda órbita do estado fundamental, $m$ a massa do elétron, e $\\a$ carga do\nelétron e $\\varepsilon_0$ a permissividade do vácuo.\n\n**Assinale** a alternativa com o período orbital para do $n$.\n",
-      "answer": "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}$",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{(\\epsilon_{0}ma_{0})}}$",
-        "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{(\\epsilon_{0}ma_{0})}}{e}$",
-        "$\\dfrac{\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}{e}$",
-        "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}{e}$",
-        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{(\\pi\\epsilon_{0}ma_{0})}}$"
+      "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. Seja $a_0$ o raio\nda órbita do estado fundamental, $m$ a massa do elétron, $e$ a carga do\nelétron e $\\varepsilon_0$ a permissividade do vácuo.\n\n**Assinale** a alternativa com o período orbital para do $n$.\n",
+      "solution": "",
+      "answer": [
+        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\epsilon_{0}ma_{0}}}$\n",
+        "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{\\epsilon_{0}ma_{0}}}{e}$\n",
+        "$\\dfrac{\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}{e}$\n",
+        "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}{e}$\n",
+        "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}$\n"
+      ]
     },
     {
       "id": "1A41",
       "statement": "Um recipiente de $\\pu{10 L}$ contendo gás cloro e gás hidrogênio é\nirradiado durante $\\pu{2,5 s}$ com luz UV ($\\pu{\\lambda = 250 nm}$)\nproveniente de uma lâmpada de mercúrio com potência de $\\pu{10 W}$. A\nmistura gasosa absorve $2\\%$ da energia fornecida, levando à formação de\n$\\pu{65 mmol}$ de ácido clorídrico.\n\n-   **Determine** os possíveis valores de comprimento de onda da luz em\n    que se espera que ocorra a dissociação do cloro molecular.\n-   **Determine** o rendimento quântico para a formação de ácido\n    clorídrico.\n-   **Explique**, qualitativamente, o valor obtido para o rendimento\n    quântico.\n",
-      "answer": "????\n",
-      "obj": -1,
+      "solution": "> ????\n",
+      "answer": [],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A26",
       "statement": "**Determine** a identidade de um átomo que, movendo se com sua\nvelocidade média quadrática a $\\pu{100 \\degree C}$, possui comprimento\nde onda $\\pu{23 pm}$.\n",
-      "answer": "Enxofre\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "Enxofre\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A02",
       "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
-      "answer": "$\\pu{7e16}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{7e15}$",
-        "$\\pu{7e16}$",
-        "$\\pu{7e17}$",
-        "$\\pu{7e18}$",
-        "$\\pu{7e19}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{7e16}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{7e15}$\n",
+        "$\\pu{7e16}$\n",
+        "$\\pu{7e17}$\n",
+        "$\\pu{7e18}$\n",
+        "$\\pu{7e19}$\n"
+      ]
     },
     {
       "id": "1A29",
       "statement": "Radiação de comprimento de onda $\\pu{427 nm}$ é utilizada no processo de\nfotossíntese para a produção de glicose ($\\ce{C6H12O6}$) a partir do\n$\\ce{CO2}$.\n\n-   **Determine** a entalpia da reação de fotossíntese.\n-   **Determine** o número de fótons necessários para produzir uma\n    molécula de glicose.\n",
-      "answer": "$\\pu{2080 kJ mol-1}$ 10 fótons\n",
-      "obj": -1,
-      "prop": false,
-      "choices": [],
+      "solution": "\n",
+      "answer": [
+        "$\\pu{2080 kJ mol-1}$\n",
+        "10 fótons\n"
+      ],
       "data": [
         {
           "id": "Hc-glicose(s)",
@@ -237,48 +260,53 @@
           "name": "Entalpia de combustão do \\ce{glicose} (s)",
           "symbol": "\\Delta H_\\text{c}(\\ce{glicose, {s}})"
         }
-      ]
+      ],
+      "prop": false,
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A22",
-      "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio, $\\pu{MJ/mol}$.\n",
-      "answer": "$\\pu{1,3}$",
-      "obj": 0,
-      "prop": false,
-      "choices": [
-        "$\\pu{1,3}$",
-        "$\\pu{2,6}$",
-        "$\\pu{3,9}$",
-        "$\\pu{4,2}$",
-        "$\\pu{6,5}$"
+      "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio, $\\pu{MJ.mol-1}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{1,3}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{1,3}$\n",
+        "$\\pu{2,6}$\n",
+        "$\\pu{3,9}$\n",
+        "$\\pu{4,2}$\n",
+        "$\\pu{6,5}$\n"
+      ]
     },
     {
       "id": "1A42",
       "statement": "Um recipiente de quartzo é irradiado por um \\\"laser\\\" de $\\pu{1,5 mW}$\nque emite luz UV ($\\lambda = \\pu{330 nm}$). O recipiente contem propanal\ngasoso que absorve $6\\%$ da radiação incidente decompondo-se em etano e\nmonóxido de carbono. São formados $\\pu{56 \\mu g}$ de monóxido de carbono\npor segundo.\n\n-   **Determine** a taxa de incidência de fótons no recipiente.\n-   **Determine** o rendimento quântico para a decomposição do propanal.\n-   **Explique**, qualitativamente, o valor obtido para o rendimento\n    quântico.\n",
-      "answer": "$\\pu{2,5e15}$ fótons por segundo $8000$ ???\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "$\\pu{2,5e15}$ fótons por segundo\n",
+        "$8000$\n",
+        "???\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A28",
       "statement": "Uma amostra com $\\pu{586 g}$ de água, inicialmente a\n$\\pu{25 \\degree C}$, é colocada em um forno de micro-ondas que emite\nradiação eletromagnética com frequência de $\\pu{2,45 GHz}$ e aquecida\naté $\\pu{91 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do número de fótons\nabsorvidos pela água.\n",
-      "answer": "$\\pu{1e29}$",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "$\\pu{3e27}$",
-        "$\\pu{4e28}$",
-        "$\\pu{1e29}$",
-        "$\\pu{5e30}$",
-        "$\\pu{2e31}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{1e29}$\n"
       ],
       "data": [
         {
-          "id": "Cp-H2O(l)",
+          "id": "CP-H2O(l)",
           "mol": "H2O(l)",
           "state": "l",
           "value": "75,29",
@@ -286,149 +314,186 @@
           "name": "Capacidade calorífica do \\ce{H2O} (l)",
           "symbol": "C_P(\\ce{H2O, {l}})"
         }
+      ],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{3e27}$\n",
+        "$\\pu{4e28}$\n",
+        "$\\pu{1e29}$\n",
+        "$\\pu{5e30}$\n",
+        "$\\pu{2e31}$\n"
       ]
     },
     {
       "id": "1A21",
       "statement": "Um elétron em um estado excitado do átomo de hidrogênio decai para o\nestado fundamental emitindo dois fótons cujos comprimentos de onda são\n$\\lambda_{1}$ e $\\lambda_{2}$.\n\n**Assinale** a alternativa com o comprimento de onda do fóton emitido\ncaso o decaimento ocorresse em uma única etapa.\n",
-      "answer": "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} + \\lambda_{2}}$",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "$\\lambda_1 + \\lambda_2$",
-        "$\\lambda_{1} - \\lambda_{2}$",
-        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} + \\lambda_{2}}$",
-        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} - \\lambda_{2}}$",
-        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{2} - \\lambda_{1}}$"
+      "solution": "",
+      "answer": [
+        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} + \\lambda_{2}}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\lambda_1 + \\lambda_2$\n",
+        "$\\lambda_{1} - \\lambda_{2}$\n",
+        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} + \\lambda_{2}}$\n",
+        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} - \\lambda_{2}}$\n",
+        "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{2} - \\lambda_{1}}$\n"
+      ]
     },
     {
       "id": "1A24",
       "statement": "**Assinale** a alternativa com o átomo cuja última energia de ionização\né $\\pu{122,4 eV}$.\n",
-      "answer": "$\\ce{Li}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\ce{He}$",
-        "$\\ce{Li}$",
-        "$\\ce{Be}$",
-        "$\\ce{B}$",
-        "$\\ce{C}$"
+      "solution": "",
+      "answer": [
+        "$\\ce{Li}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\ce{He}$\n",
+        "$\\ce{Li}$\n",
+        "$\\ce{Be}$\n",
+        "$\\ce{B}$\n",
+        "$\\ce{C}$\n"
+      ]
     },
     {
       "id": "1A31",
       "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio.\n",
-      "answer": "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da frequência da luz incidente no metal a partir da frequência mínima de emissão.",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "A energia cinética máxima dos elétrons emitidos pelo metal é $E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$",
-        "A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$",
-        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da frequência da luz incidente no metal a partir da frequência mínima de emissão.",
-        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da pressão da amostra de hidrogênio."
+      "solution": "",
+      "answer": [
+        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da\nfrequência da luz incidente no metal a partir da frequência mínima de\nemissão.\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "A energia cinética máxima dos elétrons emitidos pelo metal é\n$E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n",
+        "A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n",
+        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da\nfrequência da luz incidente no metal a partir da frequência mínima de\nemissão.\n",
+        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da\npressão da amostra de hidrogênio.\n"
+      ]
     },
     {
       "id": "1A18",
       "statement": "Considere a excitação de um átomo de hidrogênio do estado fundamental\naté o segundo estado excitado.\n\n**Assinale** a alternativa *correta*.\n",
-      "answer": "O comprimento de onda da radiação emitida quando o elétron retornar para o estado fundamental será igual ao comprimento de onda da radiação absorvida para a excitação.",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "Esse estado excitado é o primeiro permitido para o átomo de hidrogênio.",
-        "A distância média do elétron ao núcleo será menor no estado excitado do que no estado fundamental.",
-        "Será necessário fornecer mais energia para ionizar o átomo a partir desse estado excitado do que do estado fundamental.",
-        "A energia de excitação é a mesma do que a necessária para excitar um elétron do segundo para o quarto estado excitado.",
-        "O comprimento de onda da radiação emitida quando o elétron retornar para o estado fundamental será igual ao comprimento de onda da radiação absorvida para a excitação."
+      "solution": "",
+      "answer": [
+        "O comprimento de onda da radiação emitida quando o elétron retornar para\no estado fundamental será igual ao comprimento de onda da radiação\nabsorvida para a excitação.\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "Esse estado excitado é o primeiro permitido para o átomo de hidrogênio.\n",
+        "A distância média do elétron ao núcleo será menor no estado excitado do\nque no estado fundamental.\n",
+        "Será necessário fornecer mais energia para ionizar o átomo a partir\ndesse estado excitado do que do estado fundamental.\n",
+        "A energia de excitação é a mesma do que a necessária para excitar um\nelétron do segundo para o quarto estado excitado.\n",
+        "O comprimento de onda da radiação emitida quando o elétron retornar para\no estado fundamental será igual ao comprimento de onda da radiação\nabsorvida para a excitação.\n"
+      ]
     },
     {
       "id": "1A06",
       "statement": "Cinco amostras idênticas de um mesmo metal são aquecidas a diferentes\ntemperaturas até a incandescência.\n\n**Assinale** a alternativa com a cor da amostra submetida a uma maior\ntemperatura.\n",
-      "answer": "Branco",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "Vermelho",
-        "Laranja",
-        "Amarelo",
-        "Verde",
-        "Branco"
+      "solution": "",
+      "answer": [
+        "Branco\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "Vermelho\n",
+        "Laranja\n",
+        "Amarelo\n",
+        "Verde\n",
+        "Branco\n"
+      ]
     },
     {
       "id": "1A01",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia liberada por\n$\\pu{5 g}$ de sódio em uma lâmpada que produz luz amarela com\ncomprimento de onda $\\pu{590 nm}$.\n",
-      "answer": "$\\pu{200 kJ}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{100 kJ}$",
-        "$\\pu{200 kJ}$",
-        "$\\pu{300 kJ}$",
-        "$\\pu{400 kJ}$",
-        "$\\pu{500 kJ}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{200 kJ}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{100 kJ}$\n",
+        "$\\pu{200 kJ}$\n",
+        "$\\pu{300 kJ}$\n",
+        "$\\pu{400 kJ}$\n",
+        "$\\pu{500 kJ}$\n"
+      ]
     },
     {
       "id": "1A04",
       "statement": "A mensuração da eficiência quântica da fotossíntese em plantas revelou\nque 8 quanta de luz vermelha a $\\pu{685 nm}$ são necessários para\nliberar uma molécula de oxigênio. A quantidade média de energia\narmazenada no processo fotoquímico é $\\pu{469 kJ}$ por mol de oxigênio\nliberado.\n\n**Assinale** a alternativa que mais se aproxima da eficiência da\nfotossíntese.\n",
-      "answer": "$\\pu{30\\%}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{10\\%}$",
-        "$\\pu{30\\%}$",
-        "$\\pu{50\\%}$",
-        "$\\pu{70\\%}$",
-        "$\\pu{90\\%}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{30\\%}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{10\\%}$\n",
+        "$\\pu{30\\%}$\n",
+        "$\\pu{50\\%}$\n",
+        "$\\pu{70\\%}$\n",
+        "$\\pu{90\\%}$\n"
+      ]
     },
     {
       "id": "1A08",
       "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Irradiância por comprimento de onda](images/1A08-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
-      "answer": "$\\pu{6}$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$\\pu{3}$",
-        "$\\pu{4}$",
-        "$\\pu{5}$",
-        "$\\pu{6}$",
-        "$\\pu{7}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{6}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{3}$\n",
+        "$\\pu{4}$\n",
+        "$\\pu{5}$\n",
+        "$\\pu{6}$\n",
+        "$\\pu{7}$\n"
+      ]
     },
     {
       "id": "1A19",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida quando um átomo de hidrogênio decai do segundo para\no primeiro estado excitado, $\\pu{nm}$.\n",
-      "answer": "$\\pu{660}$",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "$\\pu{460}$",
-        "$\\pu{560}$",
-        "$\\pu{660}$",
-        "$\\pu{760}$",
-        "$\\pu{860}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{660}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{460}$\n",
+        "$\\pu{560}$\n",
+        "$\\pu{660}$\n",
+        "$\\pu{760}$\n",
+        "$\\pu{860}$\n"
+      ]
     },
     {
       "id": "1A30",
       "statement": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz a reação a seguir ocorre: $$\n\\ce{AgCl -> Ag + Cl}\n$$\n\n-   **Determine** a entalpia de decomposição do cloreto de prata.\n-   **Determine** o comprimento de onda máximo para esse processo.\n",
-      "answer": "? $\\pu{480 nm}$\n",
-      "obj": -1,
-      "prop": false,
-      "choices": [],
+      "solution": "\n",
+      "answer": [
+        "?\n",
+        "$\\pu{480 nm}$\n"
+      ],
       "data": [
         {
           "id": "Hf-AgCl(s)",
@@ -448,236 +513,283 @@
           "name": "Entalpia da ligação \\ce{Cl2}",
           "symbol": "\\Delta H_\\text{L}(\\ce{Cl2})"
         }
-      ]
+      ],
+      "prop": false,
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A09",
       "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiância por comprimento de onda](images/1A09-2P.svg)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
-      "answer": "C, B, A",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "A, B, C",
-        "A, C, B",
-        "B, A, C",
-        "C, A, B",
-        "C, B, A"
+      "solution": "",
+      "answer": [
+        "C, B, A\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "A, B, C\n",
+        "A, C, B\n",
+        "B, A, C\n",
+        "C, A, B\n",
+        "C, B, A\n"
+      ]
     },
     {
       "id": "1A16",
       "statement": "**Assinale** a alternativa com a identidade do átomo que possui\ncomprimento de onda $\\pu{3,3 fm}$ quando viaja a $\\pu{1 \\%}$ da\nvelocidade da luz.\n",
-      "answer": "$\\ce{Ca}$",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "$\\ce{Be}$",
-        "$\\ce{Mg}$",
-        "$\\ce{Ca}$",
-        "$\\ce{Sr}$",
-        "$\\ce{Ba}$"
+      "solution": "",
+      "answer": [
+        "$\\ce{Ca}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\ce{Be}$\n",
+        "$\\ce{Mg}$\n",
+        "$\\ce{Ca}$\n",
+        "$\\ce{Sr}$\n",
+        "$\\ce{Ba}$\n"
+      ]
     },
     {
       "id": "1A36",
       "statement": "Um átomo de hidrogênio emite um fóton de energia $\\pu{2,55 eV}$ na\ntransição entre dois estados estacionários. A razão entre as velocidades\ndo elétron nesses estados é $1/2$.\n\n**Assinale** a alternativa que mais se aproxima da energia potencial do\nelétron no estado final.\n",
-      "answer": "$\\pu{-6,8 eV}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{-13,6 eV}$",
-        "$\\pu{-6,8 eV}$",
-        "$\\pu{-4,5 eV}$",
-        "$\\pu{-3,4 eV}$",
-        "$\\pu{-1,5 eV}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{-6,8 eV}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{-13,6 eV}$\n",
+        "$\\pu{-6,8 eV}$\n",
+        "$\\pu{-4,5 eV}$\n",
+        "$\\pu{-3,4 eV}$\n",
+        "$\\pu{-1,5 eV}$\n"
+      ]
     },
     {
       "id": "1A34",
       "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. O raio da órbita\ndo estado fundamental é $\\pu{53 pm}$, sendo $\\pu{2200 km s-1}$ a\nvelocidade do elétron nessa órbita. O tempo de vida médio de um elétron\nno primeiro estado excitado é de $\\pu{10 ns}$.\n\n**Assinale** a alternativa que mais se aproxima do número médio de\nrevoluções efetuadas por um elétron no primeiro estado excitado do átomo\nde hidrogênio.\n",
-      "answer": "$\\pu{8e6}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{1e6}$",
-        "$\\pu{8e6}$",
-        "$\\pu{9e6}$",
-        "$\\pu{4e7}$",
-        "$\\pu{5e7}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{8e6}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{1e6}$\n",
+        "$\\pu{8e6}$\n",
+        "$\\pu{9e6}$\n",
+        "$\\pu{4e7}$\n",
+        "$\\pu{5e7}$\n"
+      ]
     },
     {
       "id": "1A14",
       "statement": "O comprimento de onda crítico para a verificação do efeito fotoelétrico\nno tungstênio é $\\pu{260 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nnecessário para produzir fotoelétrons do tungstênio com o dobro da\nenergia cinética daqueles produzidos a $\\pu{220 nm}$.\n",
-      "answer": "$\\pu{190}$",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "$\\pu{110}$",
-        "$\\pu{130}$",
-        "$\\pu{150}$",
-        "$\\pu{170}$",
-        "$\\pu{190}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{190}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$\\pu{110}$\n",
+        "$\\pu{130}$\n",
+        "$\\pu{150}$\n",
+        "$\\pu{170}$\n",
+        "$\\pu{190}$\n"
+      ]
     },
     {
       "id": "1A43",
       "statement": "Considere uma cadeia linear de carbono modelada como uma caixa\nunidimensional, onde os elétrons estão distribuídos. O comprimento da\nligação entre os átomos de carbono é $\\pu{140 pm}$. Apenas dois elétrons\nocupam um mesmo nível de energia.\n\n-   **Determine** os possíveis comprimentos de onda para os elétrons\n    nesse sistema.\n-   **Determine** os possíveis valores de energia para os elétrons nesse\n    sistema.\n-   **Determine** o maior comprimento de onda que esse sistema pode\n    emitir, em função do número de carbonos.\n-   **Determine** o número de átomos de carbono que esse sistema deve\n    possuir para possuir emissão no visível ($\\pu{400 nm}$ a\n    $\\pu{750 nm}$).\n",
-      "answer": "??? ??? ??? 10 átomos de carbono\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "???\n",
+        "???\n",
+        "???\n",
+        "10 átomos de carbono\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A23",
-      "statement": "A energia de ionização um átomo hidrogenoide é $\\pu{412 kJ/mol}$. Quando\nos átomos desse elemento estão no primeiro estado excitado, a energia de\nionização é $\\pu{126 kJ/mol}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nemitido por esse átomo em uma transição do primeiro estado excitado para\no estado fundamental, $\\pu{nm}$.\n",
-      "answer": "$\\pu{420}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{210}$",
-        "$\\pu{420}$",
-        "$\\pu{340}$",
-        "$\\pu{450}$",
-        "$\\pu{560}$"
+      "statement": "A energia de ionização um átomo hidrogenoide é $\\pu{412 kJ.mol-1}$.\nQuando os átomos desse elemento estão no primeiro estado excitado, a\nenergia de ionização é $\\pu{126 kJ.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nemitido por esse átomo em uma transição do primeiro estado excitado para\no estado fundamental, $\\pu{nm}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{420}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{210}$\n",
+        "$\\pu{420}$\n",
+        "$\\pu{340}$\n",
+        "$\\pu{450}$\n",
+        "$\\pu{560}$\n"
+      ]
     },
     {
       "id": "1A38",
       "statement": "Os dados a seguir foram obtidos em um experimento de efeito fotoelétrico\nem três metais, **A**, **B**, e **C**.\n\n![Energia por frequência](images/1A38-1P.tex)\n\n**Assinale** a alternativa que relaciona os metais em ordem crescente de\nfunção trabalho.\n",
-      "answer": "-",
-      "obj": -1,
+      "solution": "",
+      "answer": [],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A32",
       "statement": "Uma linha violeta é observada em $\\pu{434 nm}$ no espectro de emissão do\nátomo de hidrogênio.\n\n-   **Determine** a energia do fóton dessa emissão.\n-   **Determine** a transição eletrônica correspondente a essa emissão.\n",
-      "answer": "$\\pu{2,85 eV}$ $n=5 \\rightarrow n=2$\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "$\\pu{2,85 eV}$\n",
+        "$n=5 \\rightarrow n=2$\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A03",
       "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$\\ce{I-I}$.\n",
-      "answer": "$\\pu{240 kJ.mol-1}$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$\\pu{120 kJ.mol-1}$",
-        "$\\pu{160 kJ.mol-1}$",
-        "$\\pu{200 kJ.mol-1}$",
-        "$\\pu{240 kJ.mol-1}$",
-        "$\\pu{280 kJ.mol-1}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{240 kJ.mol-1}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{120 kJ.mol-1}$\n",
+        "$\\pu{160 kJ.mol-1}$\n",
+        "$\\pu{200 kJ.mol-1}$\n",
+        "$\\pu{240 kJ.mol-1}$\n",
+        "$\\pu{280 kJ.mol-1}$\n"
+      ]
     },
     {
       "id": "1A05",
       "statement": "**Assinale** a alternativa *correta*.\n",
-      "answer": "Fótons radiação infravermelha são menos energéticos que fótons de radiação ultravioleta.",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "A intensidade total da radiação emitida por um corpo negro é diretamente proporcional à temperatura.",
-        "O comprimento de onda emitido com maior intensidade por um corpo negro aumenta com o aumento da temperatura.",
-        "Fótons de ondas de rádio são mais energéticos que fótons de radiação ultravioleta.",
-        "Fótons radiação infravermelha são menos energéticos que fótons de radiação ultravioleta.",
-        "A energia de um fóton é diretamente proporcional ao comprimento de onda da radiação."
+      "solution": "",
+      "answer": [
+        "Fótons radiação infravermelha são menos energéticos que fótons de\nradiação ultravioleta.\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "A intensidade total da radiação emitida por um corpo negro é diretamente\nproporcional à temperatura.\n",
+        "O comprimento de onda emitido com maior intensidade por um corpo negro\naumenta com o aumento da temperatura.\n",
+        "Fótons de ondas de rádio são mais energéticos que fótons de radiação\nultravioleta.\n",
+        "Fótons radiação infravermelha são menos energéticos que fótons de\nradiação ultravioleta.\n",
+        "A energia de um fóton é diretamente proporcional ao comprimento de onda\nda radiação.\n"
+      ]
     },
     {
       "id": "1A33",
       "statement": "Um feixe de luz solar passa atravessar um filtro de radiação\nultravioleta, o qual não permite passar fótons de comprimento de onda\nmenor que $\\pu{300 nm}$, sendo direcionado para uma amostra de\nhidrogênio atômico gasoso. A amostra é mantida em um recipiente\ntransparente à luz visível e opaco ao infravermelho (com comprimento de\nonda superior a $\\pu{663 nm}$). Após passarem pela amostra, os fótons\nsão detectados por sensores posicionados ortogonalmente ao feixe de luz.\n\n**Assinale** a alternativa que mais se aproxima das energias dos fótons\ndetectados.\n",
-      "answer": "$\\pu{1,9 eV}$, $\\pu{2,6 eV}$, $\\pu{2,9 eV}$, $\\pu{3,0 eV}$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$\\pu{0,7 eV}$, $\\pu{1,9 eV}$, $\\pu{3,3 eV}$, $\\pu{10,2 eV}$",
-        "$\\pu{0,9 eV}$, $\\pu{1,4 eV}$, $\\pu{1,9 eV}$, $\\pu{3,3 eV}$",
-        "$\\pu{1,0 eV}$, $\\pu{1,5 eV}$, $\\pu{3,4 eV}$, $\\pu{13,6 eV}$",
-        "$\\pu{1,9 eV}$, $\\pu{2,6 eV}$, $\\pu{2,9 eV}$, $\\pu{3,0 eV}$",
-        "$\\pu{2,1 eV}$, $\\pu{2,4 eV}$, $\\pu{3,4 eV}$, $\\pu{3,8 eV}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{1,9 eV}$, $\\pu{2,6 eV}$, $\\pu{2,9 eV}$, $\\pu{3,0 eV}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{0,7 eV}$, $\\pu{1,9 eV}$, $\\pu{3,3 eV}$, $\\pu{10,2 eV}$\n",
+        "$\\pu{0,9 eV}$, $\\pu{1,4 eV}$, $\\pu{1,9 eV}$, $\\pu{3,3 eV}$\n",
+        "$\\pu{1,0 eV}$, $\\pu{1,5 eV}$, $\\pu{3,4 eV}$, $\\pu{13,6 eV}$\n",
+        "$\\pu{1,9 eV}$, $\\pu{2,6 eV}$, $\\pu{2,9 eV}$, $\\pu{3,0 eV}$\n",
+        "$\\pu{2,1 eV}$, $\\pu{2,4 eV}$, $\\pu{3,4 eV}$, $\\pu{3,8 eV}$\n"
+      ]
     },
     {
       "id": "1A12",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco, $J$.\n",
-      "answer": "$\\pu{8,4e-19}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{1,4e-19}$",
-        "$\\pu{8,4e-19}$",
-        "$\\pu{1,4e-18}$",
-        "$\\pu{8,4e-18}$",
-        "$\\pu{1,4e-17}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{8,4e-19}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{1,4e-19}$\n",
+        "$\\pu{8,4e-19}$\n",
+        "$\\pu{1,4e-18}$\n",
+        "$\\pu{8,4e-18}$\n",
+        "$\\pu{1,4e-17}$\n"
+      ]
     },
     {
       "id": "1A15",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nde uma partícula de $\\pu{1 g}$ viajando a $\\pu{1 m/s}$.\n",
-      "answer": "$\\pu{7e-31}$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$\\pu{7e-34}$",
-        "$\\pu{7e-33}$",
-        "$\\pu{7e-32}$",
-        "$\\pu{7e-31}$",
-        "$\\pu{7e-30}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{7e-31}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{7e-34}$\n",
+        "$\\pu{7e-33}$\n",
+        "$\\pu{7e-32}$\n",
+        "$\\pu{7e-31}$\n",
+        "$\\pu{7e-30}$\n"
+      ]
     },
     {
       "id": "1A39",
       "statement": "A figura abaixo representa parte do espectro de emissão para um íon\nmonoeletrônico em fase gasosa. Todas as linhas resultam de transições\neletrônicas para o segundo estado excitado.\n\n![Comprimento de onda](images/1A39-1P.tex)\n\n**Determine** o comprimento de onda da linha de menor energia.\n",
-      "answer": "????\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "????\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A13",
       "statement": "A superfície de um metal é irradiada com luz de dois comprimentos de\nonda, $\\lambda_1$ e $\\lambda_2$. As velocidades máximas dos fotoelétrons\nemitidos são, respectivamente, $v_1$ e $v_2$, sendo $v_1 = 2 v_2$. Seja\n$h$ a constante de Planck e $c$ a velocidade da luz.\n\n**Assinale** a alternativa com a função trabalho desse metal.\n",
-      "answer": "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{\\lambda_1 \\lambda_2}$",
-        "$\\dfrac{(\\lambda_2 - 2\\lambda_1)hc}{\\lambda_1 \\lambda_2}$",
-        "$\\dfrac{(\\lambda_2 - 4\\lambda_1)hc}{3\\lambda_1 \\lambda_2}$",
-        "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$",
-        "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$"
+      "solution": "",
+      "answer": [
+        "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{\\lambda_1 \\lambda_2}$\n",
+        "$\\dfrac{(\\lambda_2 - 2\\lambda_1)hc}{\\lambda_1 \\lambda_2}$\n",
+        "$\\dfrac{(\\lambda_2 - 4\\lambda_1)hc}{3\\lambda_1 \\lambda_2}$\n",
+        "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$\n",
+        "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$\n"
+      ]
     },
     {
       "id": "1A11",
-      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$. **Assinale** a alternativa que mais se aproxima do\ncomprimento de onda da radiação incidente, $\\pu{nm}$.\n",
-      "answer": "$\\pu{350}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{300}$",
-        "$\\pu{350}$",
-        "$\\pu{400}$",
-        "$\\pu{450}$",
-        "$\\pu{500}$"
+      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação incidente, $\\pu{nm}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{350}$\n"
       ],
       "data": [
         {
@@ -689,83 +801,100 @@
           "name": "Função trabalho do \\ce{K}",
           "symbol": "\\Phi(\\ce{K})"
         }
+      ],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{300}$\n",
+        "$\\pu{350}$\n",
+        "$\\pu{400}$\n",
+        "$\\pu{450}$\n",
+        "$\\pu{500}$\n"
       ]
     },
     {
       "id": "1A10",
       "statement": "Uma placa é feita de um metal, cuja função trabalho é menor que a\nenergia dos fótons da luz visível, é exposta ao sol.\\\n**Assinale** a alternativa *correta*.\n",
-      "answer": "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "Os elétrons não são ejetados instantaneamente, já que precisam de um tempo mínimo para acúmulo de energia.",
-        "Os elétrons podem ser ejetados instantaneamente com uma mesma energia cinética para qualquer elétron.",
-        "Os elétrons não podem ser ejetados já que a placa metálica apenas reflete a radiação.",
-        "Os elétrons podem ser ejetados instantaneamente, com energia que depende da frequência da radiação absorvida e da energia do elétron no metal.",
-        "Os elétrons não podem ser ejetados instantaneamente e a energia cinética após a ejeção depende da frequência da radiação absorvida e da energia do elétron no metal."
+      "solution": "",
+      "answer": [
+        "Os elétrons podem ser ejetados instantaneamente, com energia que depende\nda frequência da radiação absorvida e da energia do elétron no metal.\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "Os elétrons não são ejetados instantaneamente, já que precisam de um\ntempo mínimo para acúmulo de energia.\n",
+        "Os elétrons podem ser ejetados instantaneamente com uma mesma energia\ncinética para qualquer elétron.\n",
+        "Os elétrons não podem ser ejetados já que a placa metálica apenas\nreflete a radiação.\n",
+        "Os elétrons podem ser ejetados instantaneamente, com energia que depende\nda frequência da radiação absorvida e da energia do elétron no metal.\n",
+        "Os elétrons não podem ser ejetados instantaneamente e a energia cinética\napós a ejeção depende da frequência da radiação absorvida e da energia\ndo elétron no metal.\n"
+      ]
     },
     {
       "id": "1A25",
       "statement": "*Lasers* funcionam pela colisão de átomos excitados com espécies no\nestado fundamental. A transferência de energia é mais eficiente quando\nas diferenças energéticas dos níveis são próximas.\n\n**Assinale** a alternativa com a transição do cátion $\\ce{He+}$ que pode\nser excitada por colisão com átomos de hidrogênio no primeiro estado\nexcitado.\n",
-      "answer": "$n=2 \\rightarrow n=4$",
-      "obj": 3,
-      "prop": false,
-      "choices": [
-        "$n=1 \\rightarrow n=2$",
-        "$n=1 \\rightarrow n=4$",
-        "$n=2 \\rightarrow n=3$",
-        "$n=2 \\rightarrow n=4$",
-        "$n=2 \\rightarrow n=5$"
+      "solution": "",
+      "answer": [
+        "$n=2 \\rightarrow n=4$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$n=1 \\rightarrow n=2$\n",
+        "$n=1 \\rightarrow n=4$\n",
+        "$n=2 \\rightarrow n=3$\n",
+        "$n=2 \\rightarrow n=4$\n",
+        "$n=2 \\rightarrow n=5$\n"
+      ]
     },
     {
       "id": "1A20",
       "statement": "**Assinale** a alternativa com o decaimento para o átomo de hidrogênio\nque leva à emissão de um fóton com maior comprimento de onda.\n",
-      "answer": "$n=6 \\rightarrow n=5$",
-      "obj": 4,
-      "prop": false,
-      "choices": [
-        "$n=2 \\rightarrow n=1$",
-        "$n=3 \\rightarrow n=2$",
-        "$n=4 \\rightarrow n=3$",
-        "$n=5 \\rightarrow n=4$",
-        "$n=6 \\rightarrow n=5$"
+      "solution": "",
+      "answer": [
+        "$n=6 \\rightarrow n=5$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$n=2 \\rightarrow n=1$\n",
+        "$n=3 \\rightarrow n=2$\n",
+        "$n=4 \\rightarrow n=3$\n",
+        "$n=5 \\rightarrow n=4$\n",
+        "$n=6 \\rightarrow n=5$\n"
+      ]
     },
     {
       "id": "1X01",
       "statement": "Esse é o arquivo para testes.\n",
-      "answer": "A resposta é: $$\\int f(x) \\; \\mathrm{d} x$$\n",
-      "obj": -1,
+      "solution": "> A resposta é: $$\\int f(x) \\; \\mathrm{d} x$$\n",
+      "answer": [],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A40",
       "statement": "Um tubo contendo átomos de hidrogênio no estado fundamental é irradiado\ncom luz monocromática e o espectro de emissão é analisado.\n\n-   **Determine** o comprimento de onda da radiação incidente para serem\n    observadas dez linhas espectrais de emissão.\n-   **Determine** o comprimento de onda da radiação incidente serem\n    observadas duas linhas espectrais de emissão no visível\n    ($\\pu{400 nm a 750 nm}$).\n",
-      "answer": "$\\dfrac{1}{\\lambda} = (\\dfrac{14}{25}) R = \\pu{45 nm}$\n$\\dfrac{1}{\\lambda} = (\\dfrac{15}{16}) R = \\pu{97 nm}$\n",
-      "obj": -1,
+      "solution": "\n",
+      "answer": [
+        "$\\dfrac{1}{\\lambda} = (\\dfrac{14}{25}) R = \\pu{45 nm}$\n",
+        "$\\dfrac{1}{\\lambda} = (\\dfrac{15}{16}) R = \\pu{97 nm}$\n"
+      ],
+      "data": [],
       "prop": false,
-      "choices": [],
-      "data": []
+      "obj": -1,
+      "choices": []
     },
     {
       "id": "1A07",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão, $\\lambda/\\pu{nm}$.\n",
-      "answer": "$\\pu{130}$",
-      "obj": 0,
-      "prop": false,
-      "choices": [
-        "$\\pu{130}$",
-        "$\\pu{260}$",
-        "$\\pu{390}$",
-        "$\\pu{520}$",
-        "$\\pu{650}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{130}$\n"
       ],
       "data": [
         {
@@ -777,37 +906,446 @@
           "name": "Temperatura de fusão do \\ce{Fe}",
           "symbol": "T_\\text{fus}(\\ce{Fe})"
         }
+      ],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{130}$\n",
+        "$\\pu{260}$\n",
+        "$\\pu{390}$\n",
+        "$\\pu{520}$\n",
+        "$\\pu{650}$\n"
+      ]
+    },
+    {
+      "id": "2A14",
+      "statement": "Amostras de massas iguais de duas substâncias, **A** e **B**, foram\nsubmetidas independentemente a um processo de aquecimento em atmosfera\ninerte e sob pressão constante. A curva de aquecimento das amostras é\napresentado a seguir.\n\n![Temaperatura por calor trocado.](images/2A14-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+      "solution": "",
+      "answer": [
+        "A entalpia de vaporização de **A** é menor que a de **B**.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "A entalpia de fusão de **A** é menor que a de **B**.\n",
+        "A entalpia de vaporização de **A** é menor que a de **B**.\n",
+        "A capacidade calorífica na fase sólida de **A** é menor que na de **B**.\n",
+        "A capacidade calorífica na fase líquida de **A** é maior que na de\n**B**.\n",
+        "A capacidade calorífica na fase gasosa de **A** é maior que na de **B**.\n"
+      ]
+    },
+    {
+      "id": "2A04",
+      "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado na eletrólise de $\\pu{50 g}$ de água formando gás\nhidrogênio e oxigênio a $\\pu{25 \\degree C}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{10 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{10 kJ}$\n",
+        "$\\pu{12 kJ}$\n",
+        "$\\pu{18 kJ}$\n",
+        "$\\pu{15 kJ}$\n",
+        "$\\pu{20 kJ}$\n"
       ]
     },
     {
       "id": "2A01",
       "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado por um gás que se expande em $\\pu{500 mL}$ contra uma\npressão de $\\pu{1,2 atm}$.\n",
-      "answer": "$\\pu{60 J}$",
-      "obj": 1,
-      "prop": false,
-      "choices": [
-        "$\\pu{54 J}$",
-        "$\\pu{60 J}$",
-        "$\\pu{66 J}$",
-        "$\\pu{72 J}$",
-        "$\\pu{70 J}$"
+      "solution": "",
+      "answer": [
+        "$\\pu{60 J}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{54 J}$\n",
+        "$\\pu{60 J}$\n",
+        "$\\pu{66 J}$\n",
+        "$\\pu{72 J}$\n",
+        "$\\pu{70 J}$\n"
+      ]
+    },
+    {
+      "id": "2A08",
+      "statement": "Considere os processos químicos a seguir, realizados em temperatura\nconstante.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
+      "solution": "",
+      "answer": [
+        "Oxidação do sódio metálico.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "Dissolução do nitrato de potássio.\n",
+        "Ebulição da água.\n",
+        "Conversão da grafita em diamante.\n",
+        "Oxidação do sódio metálico.\n"
+      ]
+    },
+    {
+      "id": "2A16",
+      "statement": "Aminoácidos são oxidados no organismo formando ureia ($\\ce{H2NCONH2}$),\ndióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{650 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{620 kJ.mol-1}$\n",
+        "$\\pu{650 kJ.mol-1}$\n",
+        "$\\pu{680 kJ.mol-1}$\n",
+        "$\\pu{710 kJ.mol-1}$\n",
+        "$\\pu{740 kJ.mol-1}$\n"
+      ]
+    },
+    {
+      "id": "2A24",
+      "statement": "Um calorímetro foi calibrado pela queima de $\\pu{0,825 g}$ de ácido\nbenzoico com excesso de oxigênio. A elevação de temperatura registrada\nfoi de $\\pu{8,60 \\degree C}$. Quando uma amostra com $\\pu{0,725 g}$ de\nribose ($\\ce{C5H10O5}$) é queimada no mesmo calorímetro, a temperatura\naumenta de $\\pu{21,81 \\degree C}$ para $\\pu{22,72 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da energia de combustão\nda ribose.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{580 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{220 kJ.mol-1}$\n",
+        "$\\pu{4700 kJ.mol-1}$\n",
+        "$\\pu{580 kJ.mol-1}$\n",
+        "$\\pu{740 kJ.mol-1}$\n",
+        "$\\pu{850 kJ.mol-1}$\n"
+      ]
+    },
+    {
+      "id": "2A19",
+      "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de bromação\nde um mol de $\\ce{propeno}$ ($\\ce{CH3CHCH2}$), formando\n$\\ce{1,2-dibromopropano}$ ($\\ce{CH3CHBrCH2Br}$).\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{-101 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{-101 kJ}$\n",
+        "$\\pu{-401 kJ}$\n",
+        "$\\pu{-302 kJ}$\n",
+        "$\\pu{-130 kJ}$\n",
+        "$\\pu{-202 kJ}$\n"
+      ]
+    },
+    {
+      "id": "2A10",
+      "statement": "Um sistema termicamente isolado é composto por dois balões idênticos\nresistentes, porém não inquebráveis, **A** e **B**, conectados por um\ntubo com uma válvula fechada. O balão **A** contém um mol de um gás\nideal monoatômico e **B** encontra-se perfeitamente evacuado. Em um dado\ninstante a válvula é aberta.\n\n**Assinale** a alternativa *correta*.\n",
+      "solution": "",
+      "answer": [
+        "A variação da energia interna da expansão será nula.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "O balão B quebrar-se-á devido ao impacto do gás ideal.\n",
+        "O trabalho gerado pela expansão do gás aquecerá o sistema.\n",
+        "O gás em expansão absorverá calor da vizinhança, resfriando o sistema.\n",
+        "A variação da energia interna da expansão será nula.\n",
+        "A variação da energia interna do sistema será negativa.\n"
+      ]
+    },
+    {
+      "id": "2A11",
+      "statement": "**Assinale** a alternativa que mais se aproxima da variação de entalpia\nquando um mol de um gás pressurizado em $\\pu{1 MPa}$ e $\\pu{300 K}$ se\nexpande adiabaticamente contra pressão de $\\pu{0,1 MPa}$ até atingir o\nequilíbrio.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{22 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{15 kJ}$\n",
+        "$\\pu{17 kJ}$\n",
+        "$\\pu{20 kJ}$\n",
+        "$\\pu{22 kJ}$\n",
+        "$\\pu{25 kJ}$\n"
+      ]
+    },
+    {
+      "id": "2A07",
+      "statement": "A expansão de um gás ideal em um recipiente de $\\pu{1 L}$ a\n$\\pu{10 atm}$ é realizada de duas maneiras diferentes em temperatura\nconstante.\n\n1.  Expansão contra pressão constante de $\\pu{1 atm}$, levando o volume\n    final do recipiente a $\\pu{10 L}$.\n2.  Expansão contra pressão constante de $\\pu{5 atm}$ até atingir um\n    volume de $\\pu{2 L}$, seguida de expansão contra pressão constante\n    de $\\pu{1 atm}$ atingindo o volume final de $\\pu{10 L}$.\n\n**Assinale** a alternativa *correta*.\n",
+      "solution": "",
+      "answer": [
+        "A variação de energia interna do gás é igual em ambos os processos.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "O trabalho realizado pelo gás é igual nos dois processos de expansão.\n",
+        "O trabalho realizado no primeiro processo é metade do trabalho realizado\nno segundo processo.\n",
+        "A variação de energia interna do gás é igual em ambos os processos.\n",
+        "A variação de energia interna do gás no primeiro processo é metade da do\nsegundo processo.\n",
+        "O calor trocado pelo gás é igual em ambos os processos.\n"
+      ]
+    },
+    {
+      "id": "2A18",
+      "statement": "**Assinale** a alternativa que mais se aproxima da razão entre a energia\nliberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n",
+      "solution": "",
+      "answer": [
+        "$2,5$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$0,2$\n",
+        "$0,5$\n",
+        "$1,0$\n",
+        "$2,5$\n",
+        "$5,0$\n"
+      ]
+    },
+    {
+      "id": "2A22",
+      "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de\ndesidrogenação de $\\pu{1 mol}$ de butano, formando buteno.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{+114,0 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$\\pu{-3,5 MJ}$\n",
+        "$\\pu{-2,2 MJ}$\n",
+        "$\\pu{+2,2 MJ}$\n",
+        "$\\pu{+125,4 kJ}$\n",
+        "$\\pu{+114,0 kJ}$\n"
+      ]
+    },
+    {
+      "id": "2A13",
+      "statement": "Considere a curva de aquecimento a seguir, para uma substância sólida\ncom apenas uma fase cristalina.\n\n![Temperatura por tempo.](images/2A13-1P.svg)\n\nConsidere as proposições a seguir.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+      "solution": "",
+      "answer": [
+        "O calor específico do sólido é maior que o calor específico do líquido.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "Na região entre *P* e *Q* ocorre aumento da energia cinética.\n",
+        "Na região entre *Q* e *R* ocorre aumento da energia potencial.\n",
+        "O calor de fusão da substância é menor que o seu calor de vaporização.\n",
+        "O calor específico do sólido é maior que o calor específico do líquido.\n"
+      ]
+    },
+    {
+      "id": "2A06",
+      "statement": "Em um calorímetro adiabático foram adicionados $\\pu{300 g}$ de gelo a\n$\\pu{0 \\degree C}$ e $\\pu{400 g}$ de água a $\\pu{55 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final do\nsistema.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{0 \\degree C}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{-4 \\degree C}$\n",
+        "$\\pu{-3 \\degree C}$\n",
+        "$\\pu{0 \\degree C}$\n",
+        "$\\pu{3 \\degree C}$\n",
+        "$\\pu{4 \\degree C}$\n"
+      ]
+    },
+    {
+      "id": "2A05",
+      "statement": "Em um calorímetro foram adicionados $\\pu{20 g}$ de um metal a\n$\\pu{100 \\degree C}$ e $\\pu{50 g}$ de água a $\\pu{22 \\degree C}$. A\ntemperatura final registrada foi $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da capacidade calorífica\ndo metal.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{0,4 J(K.g)-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{0,1 J(K.g)-1}$\n",
+        "$\\pu{0,2 J(K.g)-1}$\n",
+        "$\\pu{0,3 J(K.g)-1}$\n",
+        "$\\pu{0,4 J(K.g)-1}$\n",
+        "$\\pu{0,5 J(K.g)-1}$\n"
+      ]
+    },
+    {
+      "id": "2A23",
+      "statement": "Uma amostra de $\\pu{0,113 g}$ de benzeno é queimada em um calorímetro\nisobárico (C = $\\pu{551 J.\\degree C-1}$) com excesso de oxigênio. A\nelevação de temperatura registrada foi de $\\pu{8,60 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo benzeno.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{-6,55 MJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{-6,55 MJ}$\n",
+        "$\\pu{-7,05 MJ}$\n",
+        "$\\pu{-8,90 MJ}$\n",
+        "$\\pu{-5,50 MJ}$\n",
+        "$\\pu{-9,75 MJ}$\n"
+      ]
+    },
+    {
+      "id": "2A20",
+      "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{-260 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{-260 kJ.mol-1}$\n",
+        "$\\pu{-200 kJ.mol-1}$\n",
+        "$\\pu{-130 kJ.mol-1}$\n",
+        "$\\pu{130 kJ.mol-1}$\n",
+        "$\\pu{260 kJ.mol-1}$\n"
+      ]
+    },
+    {
+      "id": "2A21",
+      "statement": "A hidrogenação do monóxido de carbono libera $\\pu{131 kJ}$ por mol de\ngrafita formado.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reforma\nde $\\pu{1 mol}$ de metano com vapor d'água, método industrial para\nprodução de hidrogênio.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{+207 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{+207 kJ.mol-1}$\n",
+        "$\\pu{-204 kJ.mol-1}$\n",
+        "$\\pu{+302 kJ.mol-1}$\n",
+        "$\\pu{-197 kJ.mol-1}$\n",
+        "$\\pu{+250 kJ.mol-1}$\n"
+      ]
     },
     {
       "id": "2A02",
-      "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado no congelamento de $\\pu{100 g}$ de água a $\\pu{0 °C}$\ne $\\pu{1070 atm}$.\n",
-      "answer": "$\\pu{860 J}$",
-      "obj": 2,
-      "prop": false,
-      "choices": [
-        "$\\pu{720 J}$",
-        "$\\pu{790 J}$",
-        "$\\pu{860 J}$",
-        "$\\pu{880 J}$",
-        "$\\pu{910 J}$"
+      "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado no congelamento de $\\pu{100 g}$ de água a\n$\\pu{0 \\degree C}$ e $\\pu{1070 atm}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{860 J}$\n"
       ],
-      "data": []
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{720 J}$\n",
+        "$\\pu{790 J}$\n",
+        "$\\pu{860 J}$\n",
+        "$\\pu{880 J}$\n",
+        "$\\pu{910 J}$\n"
+      ]
+    },
+    {
+      "id": "2A15",
+      "statement": "Considera a variação da capacidade calorífica de uma substância com a\ntemperatura.\n\n![CP por temperatura.](images/2A15-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+      "solution": "",
+      "answer": [
+        "A variação de entalpia quando essa substância sofre uma reação química\nno estado líquido aumenta com o aumento da temperatura.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "A substância apresenta mais de uma estrutura cristalina.\n",
+        "A capacidade calorífica da substância é menor no estado gasoso do que no\nestado líquido.\n",
+        "A capacidade calorífica para qualquer fase da substância aumenta com o\naumento da temperatura.\n",
+        "Caso a substância se mantenha no estado líquido em temperaturas\ninferiores a $T_f$, a capacidade calorífica da substância líquida é\nmaior que a capacidade calorífica da fase sólida metaestável em\ntemperaturas inferiores à $T_f$.\n",
+        "A variação de entalpia quando essa substância sofre uma reação química\nno estado líquido aumenta com o aumento da temperatura.\n"
+      ]
+    },
+    {
+      "id": "2A03",
+      "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado quando $\\pu{50 g}$ de ferro reagem com ácido\nclorídrico formando gás hidrogênio e $\\ce{cloreto de ferro (II)}$ a\n$\\pu{25 \\degree C}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{2,2 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 0,
+      "choices": [
+        "$\\pu{2,2 kJ}$\n",
+        "$\\pu{4,4 kJ}$\n",
+        "$\\pu{6,6 kJ}$\n",
+        "$\\pu{8,8 kJ}$\n",
+        "$\\pu{5,3 kJ}$\n"
+      ]
+    },
+    {
+      "id": "2A17",
+      "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metano.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{-75 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{-225 kJ.mol-1}$\n",
+        "$\\pu{-75 kJ.mol-1}$\n",
+        "$\\pu{75 kJ.mol-1}$\n",
+        "$\\pu{150 kJ.mol-1}$\n",
+        "$\\pu{225 kJ.mol-1}$\n"
+      ]
+    },
+    {
+      "id": "2A09",
+      "statement": "São descritos abaixo dois experimentos em que há sublimação completa de\numa mesma quantidade de dióxido de carbono no estado sólido a\n$\\pu{25 \\degree C}$:\n\n1.  O processo é realizado em um recipiente hermeticamente fechado, de\n    paredes rígidas e indeformáveis.\n2.  O processo é realizado em cilindro provido de um pistão, cuja massa\n    e desprezível e se desloca sem atrito.\n\n**Assinale** a alternativa *incorreta*.\n",
+      "solution": "",
+      "answer": [
+        "A variação de energia interna é igual ao calor no segundo processo.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "O primeiro processo ocorre com absorção de calor.\n",
+        "O valor absoluto do trabalho realizado é maior no primeiro.\n",
+        "A variação de energia interna é maior no primeiro processo.\n",
+        "Há realização de trabalho no segundo processo.\n",
+        "A variação de energia interna é igual ao calor no segundo processo.\n"
+      ]
+    },
+    {
+      "id": "2A12",
+      "statement": "**Assinale** a alternativa que mais se aproxima da variação de entalpia\nquando $\\pu{500 J}$ de energia são transferidos em volume constante a\numa amostra contendo $\\pu{0,9 mol}$ de oxigênio.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{700 J}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$\\pu{-700 J}$\n",
+        "$\\pu{-500 J}$\n",
+        "$\\pu{300 J}$\n",
+        "$\\pu{500 J}$\n",
+        "$\\pu{700 J}$\n"
+      ]
     }
   ]
 }
