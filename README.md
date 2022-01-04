@@ -11,15 +11,35 @@
 
 ### Unidades
 
-Valores com unidade devem ser colocadas utilizando a função `\qty{<valor>}{<unidade>}` do pacote `siunitx`. Todos os valores numéricos devem ser colocados utilizando a função `\unit{<valor>}` do pacote `siunitx`.
+Valores numéricos, com ou sem unidades, devem ser colocados com a função `$\pu{<valor> <unidade>}$`.
 
 ### Química
 
-Fórmulas químicas devem ser colocadas utilizando a função  `\ch{<fórmula>}`.
+Fórmulas químicas devem ser colocadas com a função  `$\ce{<fórmula>}$`.
 
 ## Problemas Discursivos
 
 ## Problemas Objetivos
+
+Problemas objetivos 
+
+```
+- [ ] Alternativa incorreta.
+- [x] Alternativa correta.
+- [ ] Alternativa incorreta.
+- [ ] Alternativa incorreta.
+- [ ] Alternativa incorreta.
+```
+
+### Problemas Objetivos (V ou F)
+
+
+```
+1. [ ] Proposição incorreta.
+2. [x] Proposição incorreta.
+3. [ ] Proposição incorreta.
+4. [x] Mais uma proposição correta.
+```
 
 
 ### Proposições

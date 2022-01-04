@@ -577,7 +577,6 @@ def file2problem(path):
         choices = []
         for index, item in enumerate(choice_list.find_all('li')):
             choice = html2md(item)
-            print(choice)
             choices.append(choice)
             check_box = item.find('input').extract()
             if check_box.has_attr('checked'):
@@ -601,7 +600,6 @@ def file2problem(path):
             check_box = item.find('input').extract()
             if check_box.has_attr('checked'):
                 true_props.append(index)
-        print(true_props)
         props['choices'], props['answer'], props['obj'] = autoprops(true_props)
 
         if solution:
