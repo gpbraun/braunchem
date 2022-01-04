@@ -11,9 +11,9 @@
           "1A04",
           "1A05",
           "1A06",
-          "1A07",
           "1A08",
           "1A09",
+          "1A07",
           "1A10",
           "1A11",
           "1A12",
@@ -38,8 +38,8 @@
           "1A29",
           "1A30",
           "1A31",
-          "1A32",
           "1A33",
+          "1A32",
           "1A34",
           "1A35",
           "1A36",
@@ -168,7 +168,7 @@
     },
     {
       "id": "1A44",
-      "statement": "Considere a estrutura da porfirina, a seguir.\n\n![Porfirina.](images/1A44-1M.svg)\n\nO sistema eletrônico $\\pi$ desse composto, com $26$ elétrons, pode ser\nmodelado como uma caixa bidimensional quadrada, com $L = \\pu{1000 pm}$\nde comprimento. Nesse sistema os orbitais têm energia dada por:\n\n$E(n_{1}, n_{2}) = \\dfrac{h^{2}}{8m_{e}L^{2}}(n_{1}^{2}+n_{2}^{2})$\n\nEm que apenas dois elétrons ocupam um mesmo nível de energia.\n\n**Assinale** a alternativa que apresenta a transição eletrônica de menor\nenergia da porfirina, em termos dos números quânticos $(n_{1}, n_{2})$.\n",
+      "statement": "Considere a estrutura da porfirina.\n\n![Porfirina.](images/1A44-1M.svg)\n\nO sistema eletrônico $\\pi$ desse composto, com $26$ elétrons, pode ser\nmodelado como uma caixa bidimensional quadrada, com $L = \\pu{1000 pm}$\nde comprimento. Nesse sistema os orbitais têm energia dada por:\n\n$E(n_{1}, n_{2}) = \\dfrac{h^{2}}{8m_{e}L^{2}}(n_{1}^{2}+n_{2}^{2})$\n\nEm que apenas dois elétrons ocupam um mesmo nível de energia.\n\n**Assinale** a alternativa que apresenta a transição eletrônica de menor\nenergia da porfirina, em termos dos números quânticos $(n_{1}, n_{2})$.\n",
       "solution": "",
       "answer": [
         "$(4,2) \\rightarrow (4,3)$\n"
@@ -267,20 +267,20 @@
     },
     {
       "id": "1A22",
-      "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio, $\\pu{MJ.mol-1}$.\n",
+      "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio.\n",
       "solution": "",
       "answer": [
-        "$\\pu{1,3}$\n"
+        "$\\pu{1,3 MJ.mol-1}$\n"
       ],
       "data": [],
       "prop": false,
       "obj": 0,
       "choices": [
-        "$\\pu{1,3}$\n",
-        "$\\pu{2,6}$\n",
-        "$\\pu{3,9}$\n",
-        "$\\pu{4,2}$\n",
-        "$\\pu{6,5}$\n"
+        "$\\pu{1,3 MJ.mol-1}$\n",
+        "$\\pu{2,6 MJ.mol-1}$\n",
+        "$\\pu{3,9 MJ.mol-1}$\n",
+        "$\\pu{4,2 MJ.mol-1}$\n",
+        "$\\pu{6,5 MJ.mol-1}$\n"
       ]
     },
     {
@@ -363,19 +363,18 @@
     },
     {
       "id": "1A31",
-      "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio.\n",
+      "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio. Considere as proposições:\n\n1.  A energia cinética máxima dos elétrons emitidos pelo metal é\n    $E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n2.  A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n3.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da frequência da luz incidente no metal a partir da\n    frequência mínima de emissão.\n4.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da pressão da amostra de hidrogênio.\n\n**Assinale** a alternativa que relaciona todas as proposições\n*corretas*.\n",
       "solution": "",
-      "answer": [
-        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da\nfrequência da luz incidente no metal a partir da frequência mínima de\nemissão.\n"
-      ],
+      "answer": "1, 2 e 3",
       "data": [],
       "prop": false,
-      "obj": 2,
+      "obj": 1,
       "choices": [
-        "A energia cinética máxima dos elétrons emitidos pelo metal é\n$E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n",
-        "A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n",
-        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da\nfrequência da luz incidente no metal a partir da frequência mínima de\nemissão.\n",
-        "A energia cinética máxima dos elétrons emitidos aumenta com o aumento da\npressão da amostra de hidrogênio.\n"
+        "1, 2 e 3",
+        "1, 2 e 3",
+        "1, 2 e 3",
+        "1, 2 e 3",
+        "1, 2, 3 e 3"
       ]
     },
     {
@@ -452,43 +451,43 @@
     },
     {
       "id": "1A08",
-      "statement": "Considere o espectro de emissão da radiação solar, a seguir.\n\n![Irradiância por comprimento de onda](images/1A08-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol,\n$T_\\text{sol}/\\pu{kK}$.\n",
+      "statement": "Considere o espectro de emissão da radiação solar.\n\n![Irradiância por comprimento de onda](images/1A08-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol.\n",
       "solution": "",
       "answer": [
-        "$\\pu{6}$\n"
+        "$\\pu{6 kK}$\n"
       ],
       "data": [],
       "prop": false,
       "obj": 3,
       "choices": [
-        "$\\pu{3}$\n",
-        "$\\pu{4}$\n",
-        "$\\pu{5}$\n",
-        "$\\pu{6}$\n",
-        "$\\pu{7}$\n"
+        "$\\pu{3 kK}$\n",
+        "$\\pu{4 kK}$\n",
+        "$\\pu{5 kK}$\n",
+        "$\\pu{6 kK}$\n",
+        "$\\pu{7 kK}$\n"
       ]
     },
     {
       "id": "1A19",
-      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida quando um átomo de hidrogênio decai do segundo para\no primeiro estado excitado, $\\pu{nm}$.\n",
+      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida quando um átomo de hidrogênio decai do segundo para\no primeiro estado excitado.\n",
       "solution": "",
       "answer": [
-        "$\\pu{660}$\n"
+        "$\\pu{660 nm}$\n"
       ],
       "data": [],
       "prop": false,
       "obj": 2,
       "choices": [
-        "$\\pu{460}$\n",
-        "$\\pu{560}$\n",
-        "$\\pu{660}$\n",
-        "$\\pu{760}$\n",
-        "$\\pu{860}$\n"
+        "$\\pu{460 nm}$\n",
+        "$\\pu{560 nm}$\n",
+        "$\\pu{660 nm}$\n",
+        "$\\pu{760 nm}$\n",
+        "$\\pu{860 nm}$\n"
       ]
     },
     {
       "id": "1A30",
-      "statement": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz a reação a seguir ocorre: $$\n\\ce{AgCl -> Ag + Cl}\n$$\n\n-   **Determine** a entalpia de decomposição do cloreto de prata.\n-   **Determine** o comprimento de onda máximo para esse processo.\n",
+      "statement": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz ocorre a reação: $$\n\\ce{AgCl -> Ag + Cl}\n$$\n\n-   **Determine** a entalpia de decomposição do cloreto de prata.\n-   **Determine** o comprimento de onda máximo para esse processo.\n",
       "solution": "\n",
       "answer": [
         "?\n",
@@ -520,20 +519,20 @@
     },
     {
       "id": "1A09",
-      "statement": "Considere o espectro de emissão da radiação de três estrelas, A, B e C,\na seguir.\n\n![Irradiância por comprimento de onda](images/1A09-2P.svg)\n\nAssinale a alternativa que relaciona as estrelas em ordem crescente de\ntemperatura.\n",
+      "statement": "Considere o espectro de emissão da radiação de três estrelas, **A**,\n**B** e **C**.\n\n![Irradiância por comprimento de onda](images/1A09-2P.svg)\n\n**Assinale** a alternativa que relaciona as estrelas em ordem crescente\nde temperatura.\n",
       "solution": "",
       "answer": [
-        "C, B, A\n"
+        "**C**, **B**, **A**\n"
       ],
       "data": [],
       "prop": false,
       "obj": 4,
       "choices": [
-        "A, B, C\n",
-        "A, C, B\n",
-        "B, A, C\n",
-        "C, A, B\n",
-        "C, B, A\n"
+        "**A**, **B**, **C**\n",
+        "**A**, **C**, **B**\n",
+        "**B**, **A**, **C**\n",
+        "**C**, **A**, **B**\n",
+        "**C**, **B**, **A**\n"
       ]
     },
     {
@@ -595,17 +594,17 @@
       "statement": "O comprimento de onda crítico para a verificação do efeito fotoelétrico\nno tungstênio é $\\pu{260 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nnecessário para produzir fotoelétrons do tungstênio com o dobro da\nenergia cinética daqueles produzidos a $\\pu{220 nm}$.\n",
       "solution": "",
       "answer": [
-        "$\\pu{190}$\n"
+        "$\\pu{190 nm}$\n"
       ],
       "data": [],
       "prop": false,
       "obj": 4,
       "choices": [
-        "$\\pu{110}$\n",
-        "$\\pu{130}$\n",
-        "$\\pu{150}$\n",
-        "$\\pu{170}$\n",
-        "$\\pu{190}$\n"
+        "$\\pu{110 nm}$\n",
+        "$\\pu{130 nm}$\n",
+        "$\\pu{150 nm}$\n",
+        "$\\pu{170 nm}$\n",
+        "$\\pu{190 nm}$\n"
       ]
     },
     {
@@ -625,25 +624,25 @@
     },
     {
       "id": "1A23",
-      "statement": "A energia de ionização um átomo hidrogenoide é $\\pu{412 kJ.mol-1}$.\nQuando os átomos desse elemento estão no primeiro estado excitado, a\nenergia de ionização é $\\pu{126 kJ.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nemitido por esse átomo em uma transição do primeiro estado excitado para\no estado fundamental, $\\pu{nm}$.\n",
+      "statement": "A energia de ionização um átomo com apenas um elétron é\n$\\pu{412 kJ.mol-1}$. Quando os átomos desse elemento estão no primeiro\nestado excitado, a energia de ionização é $\\pu{126 kJ.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nemitido por esse átomo em uma transição do primeiro estado excitado para\no estado fundamental.\n",
       "solution": "",
       "answer": [
-        "$\\pu{420}$\n"
+        "$\\pu{420 nm}$\n"
       ],
       "data": [],
       "prop": false,
       "obj": 1,
       "choices": [
-        "$\\pu{210}$\n",
-        "$\\pu{420}$\n",
-        "$\\pu{340}$\n",
-        "$\\pu{450}$\n",
-        "$\\pu{560}$\n"
+        "$\\pu{210 nm}$\n",
+        "$\\pu{420 nm}$\n",
+        "$\\pu{340 nm}$\n",
+        "$\\pu{450 nm}$\n",
+        "$\\pu{560 nm}$\n"
       ]
     },
     {
       "id": "1A38",
-      "statement": "Os dados a seguir foram obtidos em um experimento de efeito fotoelétrico\nem três metais, **A**, **B**, e **C**.\n\n![Energia por frequência](images/1A38-1P.tex)\n\n**Assinale** a alternativa que relaciona os metais em ordem crescente de\nfunção trabalho.\n",
+      "statement": "Considere os dados obtidos em um experimento de efeito fotoelétrico com\ntrês metais, **A**, **B**, e **C**.\n\n![Energia por frequência](images/1A38-1P.svg)\n\n**Assinale** a alternativa que relaciona os metais em ordem crescente de\nfunção trabalho.\n",
       "solution": "",
       "answer": [],
       "data": [],
@@ -720,25 +719,35 @@
     },
     {
       "id": "1A12",
-      "statement": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco, $J$.\n",
+      "statement": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco.\n",
       "solution": "",
       "answer": [
-        "$\\pu{8,4e-19}$\n"
+        "$\\pu{8,4e-19 J}$\n"
       ],
-      "data": [],
+      "data": [
+        {
+          "id": "Phi-Zn",
+          "mol": "Zn",
+          "state": "",
+          "value": "4,3",
+          "unit": "eV",
+          "name": "Função trabalho do \\ce{Zn}",
+          "symbol": "\\Phi(\\ce{Zn})"
+        }
+      ],
       "prop": false,
       "obj": 1,
       "choices": [
-        "$\\pu{1,4e-19}$\n",
-        "$\\pu{8,4e-19}$\n",
-        "$\\pu{1,4e-18}$\n",
-        "$\\pu{8,4e-18}$\n",
-        "$\\pu{1,4e-17}$\n"
+        "$\\pu{1,4e-19 J}$\n",
+        "$\\pu{8,4e-19 J}$\n",
+        "$\\pu{1,4e-18 J}$\n",
+        "$\\pu{8,4e-18 J}$\n",
+        "$\\pu{1,4e-17 J}$\n"
       ]
     },
     {
       "id": "1A15",
-      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nde uma partícula de $\\pu{1 g}$ viajando a $\\pu{1 m/s}$.\n",
+      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nde uma partícula de $\\pu{1 g}$ viajando a $\\pu{1 m.s-1}$.\n",
       "solution": "",
       "answer": [
         "$\\pu{7e-31}$\n"
@@ -786,10 +795,10 @@
     },
     {
       "id": "1A11",
-      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação incidente, $\\pu{nm}$.\n",
+      "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação incidente.\n",
       "solution": "",
       "answer": [
-        "$\\pu{350}$\n"
+        "$\\pu{350 nm}$\n"
       ],
       "data": [
         {
@@ -805,11 +814,11 @@
       "prop": false,
       "obj": 1,
       "choices": [
-        "$\\pu{300}$\n",
-        "$\\pu{350}$\n",
-        "$\\pu{400}$\n",
-        "$\\pu{450}$\n",
-        "$\\pu{500}$\n"
+        "$\\pu{300 nm}$\n",
+        "$\\pu{350 nm}$\n",
+        "$\\pu{400 nm}$\n",
+        "$\\pu{450 nm}$\n",
+        "$\\pu{500 nm}$\n"
       ]
     },
     {
@@ -891,10 +900,10 @@
     },
     {
       "id": "1A07",
-      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão, $\\lambda/\\pu{nm}$.\n",
+      "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão.\n",
       "solution": "",
       "answer": [
-        "$\\pu{130}$\n"
+        "$\\pu{130 nm}$\n"
       ],
       "data": [
         {
@@ -910,11 +919,11 @@
       "prop": false,
       "obj": 0,
       "choices": [
-        "$\\pu{130}$\n",
-        "$\\pu{260}$\n",
-        "$\\pu{390}$\n",
-        "$\\pu{520}$\n",
-        "$\\pu{650}$\n"
+        "$\\pu{130 nm}$\n",
+        "$\\pu{260 nm}$\n",
+        "$\\pu{390 nm}$\n",
+        "$\\pu{520 nm}$\n",
+        "$\\pu{650 nm}$\n"
       ]
     },
     {
@@ -973,19 +982,18 @@
     },
     {
       "id": "2A08",
-      "statement": "Considere os processos químicos a seguir, realizados em temperatura\nconstante.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
+      "statement": "Considere os processos químicos realizados em temperatura constante.\n\n1.  Dissolução do nitrato de potássio.\n2.  Ebulição da água.\n3.  Conversão da grafita em diamante.\n4.  Oxidação do sódio metálico.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
       "solution": "",
-      "answer": [
-        "Oxidação do sódio metálico.\n"
-      ],
+      "answer": "1, 2, 3 e 3",
       "data": [],
       "prop": false,
-      "obj": 3,
+      "obj": 4,
       "choices": [
-        "Dissolução do nitrato de potássio.\n",
-        "Ebulição da água.\n",
-        "Conversão da grafita em diamante.\n",
-        "Oxidação do sódio metálico.\n"
+        "1, 2 e 3",
+        "1, 2 e 4",
+        "1, 3 e 4",
+        "2, 3 e 4",
+        "1, 2, 3 e 3"
       ]
     },
     {
@@ -1134,7 +1142,7 @@
     },
     {
       "id": "2A13",
-      "statement": "Considere a curva de aquecimento a seguir, para uma substância sólida\ncom apenas uma fase cristalina.\n\n![Temperatura por tempo.](images/2A13-1P.svg)\n\nConsidere as proposições a seguir.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+      "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](images/2A13-1P.svg)\n\nConsidere as proposições.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
       "solution": "",
       "answer": [
         "O calor específico do sólido é maior que o calor específico do líquido.\n"
