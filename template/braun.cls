@@ -1177,29 +1177,27 @@
 \DeclareDocumentCommand \includegraphics { o m }
     { 
         \group_begin:
-        \center
-            \IfValueT {#1} { \keys_set:nn {braun/graphics} {#1} }
-            \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
-            \str_case:VnF \l_tmpc_tl
-                {
-                    { .svg }
-                    { 
-                        \file_if_exist_input:nF 
-                            { \l_tmpa_tl / \l_tmpb_tl .tex }
-                            {
-                                \l_tmpa_tl / \l_tmpb_tl .tex
-                                %\braun_include_graphics:Nn \l_tmpa_coffin
-                                %    { \l_tmpa_tl / \l_tmpb_tl .pdf }
-                            }
-                    }      
-                }
-                {
-                    \file_if_exist_input:n
-                        { \braun_include_graphics:Nn \l_tmpa_coffin {#2} }
-                }
+        \IfValueT {#1} { \keys_set:nn {braun/graphics} {#1} }
+        \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
+        \str_case:VnF \l_tmpc_tl
+            {
+                { .svg }
+                { 
+                    \file_if_exist_input:nF 
+                        { \l_tmpa_tl / \l_tmpb_tl .tex }
+                        {
+                            \l_tmpa_tl / \l_tmpb_tl .tex
+                            %\braun_include_graphics:Nn \l_tmpa_coffin
+                            %    { \l_tmpa_tl / \l_tmpb_tl .pdf }
+                        }
+                }      
+            }
+            {
+                \file_if_exist_input:n
+                    { \braun_include_graphics:Nn \l_tmpa_coffin {#2} }
+            }
 
-            \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {H} {0pt} {0pt}
-        \endcenter
+        \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {H} {0pt} {0pt}
         \group_end:
     }
 
@@ -1338,7 +1336,7 @@
             }
     }
 
-\newcounter { problem_counter } [ section* ]
+\newcounter { problem_counter } [ section ]
 
 \NewDocumentEnvironment { problem } { O{} }
     {
@@ -1352,7 +1350,7 @@
             { 
                 \small\sffamily\bfseries
                 \text_uppercase:n { \l_braun_problem_name_tl } ~
-                \arabic { section* } . \arabic { problem_counter }
+                \arabic { section } . \arabic { problem_counter }
             }
     } 
     {

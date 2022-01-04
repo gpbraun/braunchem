@@ -5,7 +5,6 @@
 # TODO:
 # - Gerar o "elements"
 # - Usar o GitHub Actions para rodar esse script automaticamente
-# - Automatic options with \pu{} regex
 
 
 # REQUIREMENTS
@@ -89,7 +88,7 @@ UNIT_EXP = re.compile(r'[\+\-]\d+')
 
 def qty(num, unit):
     # convert \pu command to \unit, \num or \qty
-    if not unit: # number only
+    if not unit:  # number only
         return tex_cmd('num', [num])
 
     formated_unit = re.sub(UNIT_EXP, lambda x: f'^{{{x.group(0)}}}', unit)
@@ -117,19 +116,27 @@ def tex_env(env, content):
     return f'\n\n\\begin{{{env}}}\n{content}\n\\end{{{env}}}\n'
 
 
-def tex_section(content, level=0, newpage=False):
+def tex_section(content, level=0, newpage=False, numbered=True):
     if not content:
         return ''
 
     newpage_cmd = tex_cmd('newpage') if newpage else ''
-    return newpage_cmd + tex_cmd(level*'sub'+'section*', [content]) + '\n'
+    section_cmd = level*'sub' + ('section' if numbered else 'section*')
+    return newpage_cmd + tex_cmd(section_cmd, [content]) + '\n'
+
+
+TEX_LEN = re.compile(r'\\\w+|[\w\d\=\%]|\d')
 
 
 def list2tex(env, items, cols=0, auto_cols=False):
     if auto_cols:
-        min_length = min([len(i) for i in items])
-        if min_length < 30:
+        max_length = max([len(re.findall(TEX_LEN, i)) for i in items])
+        if max_length < 4:
+            cols = 5
+        elif max_length < 7:
             cols = 3
+        elif max_length < 20:
+            cols = 2
 
     cols = f'({cols})' if cols else ''
     content = '\n'.join([f'\\item {i}' for i in items])
@@ -284,20 +291,21 @@ class Problem:
         return True
 
     def tex_statement(self):
-        return md2tex(self.statement)
+        return md2tex(self.statement) + self.tex_choices()
 
     def tex_data(self):
         # return data as tex list with header
         if not self.data:
             return ''
-        dlist = list2tex('datalist', [d.astex() for d in self.data], cols=2)
-        return tex_section('Dados') + dlist
+        dlist = list2tex('datalist', [d.astex() for d in self.data])
+        return tex_section('Dados', level=2, numbered=False) + dlist
 
     def tex_choices(self):
         # return choices as tex list
         if not self.is_obj():
             return ''
-        return list2tex('choices', self.choices, auto_cols=True)
+        tex_choices = [md2tex(c) for c in self.choices]
+        return list2tex('choices', tex_choices, auto_cols=True)
 
     def tex_answer(self):
         if not self.answer:
@@ -310,7 +318,7 @@ class Problem:
 
     def astex(self):
         # return problem as tex
-        p = self.tex_statement() + self.tex_choices() + self.tex_data()
+        p = self.tex_statement() + self.tex_data()
         return tex_env('problem', f'[{self.id}]{p}')
 
 
@@ -330,13 +338,217 @@ class ProblemSet:
         if not self.problems:
             return ''
 
-        header =  tex_section(self.title, level=1) 
+        header = tex_section(self.title, level=1)
         answers = [p.tex_answer() for p in self.problems]
 
         if all([p.is_obj() for p in self.problems]):
             return header + list2tex('checks', answers, cols=5)
-        
+
         return header + list2tex('answers', answers)
+
+
+def autoprops(true_props):
+    # generate choices for T/F problems
+    if not true_props:
+        choices = [
+            'Nenhuma'
+            '1',
+            '2',
+            '3',
+            '4',
+        ]
+        obj = 1
+    if true_props == [0]:
+        choices = [
+            '1',
+            '2',
+            '1 e 2',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [1]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [2]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [0, 1]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [0, 2]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [0, 3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [1, 0]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [1, 2]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [1, 3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [2, 0]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [2, 1]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [2, 3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [3, 0]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [3, 1]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [3, 2]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3'
+        ]
+        obj = 1
+    if true_props == [0, 1, 2]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2, 3 e 3'
+        ]
+        obj = 1
+    if true_props == [1, 2, 4]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2, 3 e 3'
+        ]
+        obj = 1
+    if true_props == [0, 2, 3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2, 3 e 3'
+        ]
+        obj = 1
+    if true_props == [1, 2, 3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2 e 3',
+            '1, 2, 3 e 3'
+        ]
+        obj = 1
+    if true_props == [0, 1, 2, 3]:
+        choices = [
+            '1, 2 e 3',
+            '1, 2 e 4',
+            '1, 3 e 4',
+            '2, 3 e 4',
+            '1, 2, 3 e 3'
+        ]
+        obj = 4
+    answer = choices[obj]
+    return choices, answer, obj
 
 
 def file2problem(path):
@@ -356,37 +568,23 @@ def file2problem(path):
         img_name = os.path.basename(img['src'])
         img['src'] = os.path.join('images', img_name)
 
-    # get problem choices and ansewer, if objective
-    task_list = soup.find('ul', class_='task-list')
     solution = soup.find('blockquote')
 
-    # problema discursivo
-    if not task_list:
-        if solution:
-            alist = solution.find('ul')
-            if alist:
-                props['answer'] = [html2md(i) for i in alist.find_all('li')]
-                alist.decompose()
-            props['solution'] = html2md(solution.extract())
-            
-        props['statement'] = html2md(soup)
-
-        return Problem(**props)
-
-    # problema objetivo normal
-    #if not pfile['prop']:
-    if True:
+    # problema objetivo: normal
+    choice_list = soup.find('ul', class_='task-list')
+    if choice_list:
         # get problem choices, obj and answer
         choices = []
-        for index, item in enumerate(task_list.find_all('li')):
+        for index, item in enumerate(choice_list.find_all('li')):
             choice = html2md(item)
+            print(choice)
             choices.append(choice)
             check_box = item.find('input').extract()
             if check_box.has_attr('checked'):
                 props['obj'] = index
                 props['answer'] = [choice]
         props['choices'] = choices
-        task_list.decompose()
+        choice_list.decompose()
 
         if solution:
             props['solution'] = html2md(solution.extract())
@@ -395,7 +593,35 @@ def file2problem(path):
 
         return Problem(**props)
 
-    # problema objetivo: análise de proposições
+    # problema objetivo: V ou F
+    prop_list = soup.find('ol', class_='task-list')
+    if prop_list:
+        true_props = []
+        for index, item in enumerate(prop_list.find_all('li')):
+            check_box = item.find('input').extract()
+            if check_box.has_attr('checked'):
+                true_props.append(index)
+        print(true_props)
+        props['choices'], props['answer'], props['obj'] = autoprops(true_props)
+
+        if solution:
+            props['solution'] = html2md(solution.extract())
+
+        props['statement'] = html2md(soup)
+
+        return Problem(**props)
+
+    # problema discursivo
+    if solution:
+        alist = solution.find('ul')
+        if alist:
+            props['answer'] = [html2md(i) for i in alist.find_all('li')]
+            alist.decompose()
+        props['solution'] = html2md(solution.extract())
+
+    props['statement'] = html2md(soup)
+
+    return Problem(**props)
 
 
 #
@@ -494,8 +720,7 @@ class Arsenal:
                 psets = [self.filter(t, p) for t, p in topic.problems.items()]
 
                 l = List(topic.id, topic.title, psets)
-                print('compiling latex problem')
-                print(l.astex())
+                print('compiling latex list')
                 tex2pdf(l.astex(), topic.id, path='archive')
 
 
