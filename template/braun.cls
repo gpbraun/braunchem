@@ -739,6 +739,42 @@
 \ModifyLayer [ addvoffset = -0.7ex ] { plain.scrheadings.foot.above.line }
 
 %============================================================%
+%   SECTIONS
+%============================================================%
+
+\keys_define:nn { braun/page/section }
+{
+    name .tl_set:N = \l_braun_page_section_type_tl,
+    name .initial:n = latex,
+}
+
+\cs_set_eq:NN \legacysection \section
+
+\cs_set:Nn \braun_ghost_section: { \legacysection*{} \skip_vertical:n {-3em} }
+
+\RenewDocumentCommand \section { s m }
+	{
+        \IfBooleanF {#1} { \refstepcounter { section } }
+        \group_begin:
+		\braun_ghost_section: 
+        \str_case:Vn \l_braun_page_section_type_tl
+        {
+            { latex }
+            {
+                \Large \textbf {#2}
+            }
+            { ime }
+            {
+                \IMEaltHeader 
+                    { 
+                        \bfseries \normalsize  \text_uppercase:n {#2} 
+                    } 
+            }
+        }
+        \group_end:
+	}
+
+%============================================================%
 %   PAGE STYLE TEMPLATES
 %============================================================%
 
@@ -749,6 +785,7 @@
                 header/plain,
                 footer/plain,
                 boxed = true,
+                section/name = ime,
             }
     }
 
@@ -1305,9 +1342,7 @@
 %   PROBLEM ENVIRONMENT
 %============================================================%
 
-%% EVEN SPACE HACK
 
-\cs_set:Nn \braun_even_space_hack: { \section*{} \skip_vertical:n {-3em} }
 \counterwithout * { subsection } { section }
 
 \box_new:N \l__braun_problem_box
@@ -1317,7 +1352,7 @@
         \bool_if:NF \l_braun_problem_breakable_bool 
             { 
                 \BraunVFill
-                \braun_even_space_hack: 
+                \braun_ghost_section:
                 \vbox_set:Nw \l__braun_problem_box 
             }
     }

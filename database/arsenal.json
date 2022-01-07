@@ -1,6 +1,639 @@
 {
   "topics": [
     {
+      "id": "2E",
+      "title": "Solubilidade",
+      "problems": {},
+      "subtopics": []
+    },
+    {
+      "id": "2D",
+      "title": "Pressão de Vapor",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "2D.1",
+          "title": "Pressão de Vapor",
+          "items": [
+            "Origem da pressão de vapor.\n",
+            "Volatilidade e forças intermoleculares.\n",
+            "Pressão de vapor e temperatura.\n",
+            "Equação de Clausius Clapeyron: $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta_\\text{vap} H}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n",
+            "Ebulição.\n"
+          ],
+          "abilities": [
+            "**Calcular** a pressão de vapor utilizando a Equação de Clausius\nClapeyron.\n",
+            "**Calcular** a temperatura de ebulição utilizando a Equação de Clausius\nClapeyron.\n"
+          ]
+        },
+        {
+          "id": "2D.2",
+          "title": "Equilíbrio de Fase",
+          "items": [
+            "Diagramas de fases.\n",
+            "Propriedades críticas.\n"
+          ],
+          "abilities": [
+            "**Identificar** os pontos triplos e o ponto crítico no diagrama de\nfases.\n",
+            "**Identificar** os pontos de fusão e ebulição no diagrama de fases.\n"
+          ]
+        },
+        {
+          "id": "2D.3",
+          "title": "Equilíbrio de Fase Multicomponente",
+          "items": [
+            "Pressão de vapor de misturas\n",
+            "Lei de Raoult: $$\n   P_A = x_A P_A^\\star\n   $$\n",
+            "Misturas líquidas binárias.\n",
+            "Destilação.\n",
+            "Azeótropos.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2F",
+      "title": "Propriedades Coligativas",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "2F.1",
+          "title": "Osmose",
+          "items": [
+            "Pressão osmótica: $$\n   \\Pi = i RT c\n   $$\n",
+            "Osmometria.\n",
+            "Osmose reversa.\n"
+          ],
+          "abilities": [
+            "**Calcular** massa molar do soluto por osmometria.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2B",
+      "title": "Entropia",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "2B.1",
+          "title": "Reversibilidade e Espontaneidade",
+          "items": [
+            "Trabalho de expansão reversível.\n",
+            "Teorema do Trabalho Máximo.\n",
+            "Reversibilidade e entropia.\n",
+            "Definição macroscópica de entropia: $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n",
+            "Segunda Lei da Termodinâmica.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de entropia para uma transformação reversível.\n"
+          ]
+        },
+        {
+          "id": "2B.2",
+          "title": "Entropia",
+          "items": [
+            "Entropia e desordem.\n",
+            "Entropia e temperatura: $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n",
+            "Entropia e volume de gás ideal: $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n",
+            "Entropia e estado físico: sólido, líquido, gasoso e em solução.\n"
+          ],
+          "abilities": [
+            "**Determinar** qualitativamente o sinal da variação de entropia para uma\ntransformação.\n",
+            "**Calcular** a variação de entropia para aquecimento ou resfriamento de\numa substância.\n",
+            "**Calcular** a variação de entropia para um gás ideal em uma\ntransformação isotérmica.\n",
+            "**Calcular** a entropia padrão para transição de fase.\n"
+          ]
+        },
+        {
+          "id": "2B.3",
+          "title": "Entropia Absoluta",
+          "items": [
+            "Interpretação microscópica da entropia.\n",
+            "Fórmula de Boltzmann.\n",
+            "Entropia Residual.\n",
+            "Terceira Lei da Termodinâmica.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "2B.4",
+          "title": "Entropia de Reação",
+          "items": [
+            "Entropia padrão.\n",
+            "Entropia de reação.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de entropia para uma reação química.\n",
+            "**Determinar** qualitativamente o sinal da variação de entropia para uma\nreação química.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2A",
+      "title": "Entalpia",
+      "problems": {
+        "Nível I": [
+          "2A01",
+          "2A02",
+          "2A03",
+          "2A04",
+          "2A05",
+          "2A06",
+          "2A07",
+          "2A08",
+          "2A09",
+          "2A10",
+          "2A11",
+          "2A12",
+          "2A13",
+          "2A14",
+          "2A15",
+          "2A16",
+          "2A17",
+          "2A18",
+          "2A19",
+          "2A20",
+          "2A21",
+          "2A22",
+          "2A23",
+          "2A24",
+          "2A25",
+          "2A26",
+          "2A27",
+          "2A28"
+        ],
+        "Nível II": [
+          "2A29",
+          "2A30",
+          "2A31",
+          "2A32",
+          "2A33",
+          "2A34",
+          "2A35",
+          "2A36",
+          "2A37",
+          "2A38",
+          "2A39",
+          "2A40",
+          "2A41",
+          "2A42"
+        ],
+        "Nível III": [
+          "2A43",
+          "2A44",
+          "2A45",
+          "2A46",
+          "2A47",
+          "2A48",
+          "2A49",
+          "2A50"
+        ]
+      },
+      "subtopics": [
+        {
+          "id": "2A.1",
+          "title": "Trabalho e Calor",
+          "items": [
+            "Sistema e Vizinhança.\n",
+            "Sistema fechado e isolado.\n",
+            "Funções de Estado.\n",
+            "Trabalho, $W$, e Calor, $Q$.\n",
+            "Trabalho de expansão irreversível.\n",
+            "Calor específico e capacidade calorífica.\n"
+          ],
+          "abilities": [
+            "Habilidades\n"
+          ]
+        },
+        {
+          "id": "2A.2",
+          "title": "Energia Interna",
+          "items": [
+            "Primeira Lei da Termodinâmica: $$ \n    \\Delta U = Q - W \n    $$\n",
+            "Energia interna.\n",
+            "Capacidade calorífica em volume constante: $$ \n    C_V = \\dfrac{\\Delta U}{\\Delta T}\n    $$\n",
+            "Expansão livre.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de energia interna para um processo de expansão\n*irreversível*.\n"
+          ]
+        },
+        {
+          "id": "2A.3",
+          "title": "Entalpia",
+          "items": [
+            "Definição de Entalpia: $$ \n   H = U + PV \n   $$\n",
+            "Capacidade calorífica em pressão constante: $$ \n    C_P = \\dfrac{\\Delta H}{\\Delta T} \n    $$\n",
+            "Relação de Meyer: $$ \n    C_P = C_V + R \n    $$\n",
+            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
+            "Curvas de aquecimento.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de entalpia para um processo de expansão\n*irreversível*.\n"
+          ]
+        },
+        {
+          "id": "2A.4",
+          "title": "Entalpia e Estado Físico",
+          "items": [
+            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
+            "Curvas de aquecimento.\n",
+            "Relação entre $\\Delta U$ e $\\Delta H$ de transição de fase.\n"
+          ],
+          "abilities": [
+            "**Calcular** a entalpia de mudança de fase.\n"
+          ]
+        },
+        {
+          "id": "2A.5",
+          "title": "Entalpia de Reação",
+          "items": [
+            "Processos endotérmicos e exotérmicos.\n",
+            "Equações termoquímicas.\n",
+            "Entalpia de formação.\n",
+            "[Estado padrão](https://goldbook.iupac.org/terms/view/S05927) e\n[grandezas termodinâmicas\npadrão](https://goldbook.iupac.org/terms/view/S05927).\n",
+            "Entalpia de ligação.\n",
+            "Lei de Hess.\n",
+            "Entalpia de reação e temperatura: $$ \n    \\Delta H^T = \\Delta H^{T_0} + (T-T_0) \\Delta C_P \n    $$\n"
+          ],
+          "abilities": [
+            "**Calcular** a entalpia de reação a partir das entalpias de formação.\n",
+            "**Calcular** a entalpia de reação a partir das entalpias de ligação.\n",
+            "**Calcular** a entalpia de reação aplicando a Lei de Hess.\n",
+            "**Calcular** a variação na entalpia de reação com a temperatura.\n"
+          ]
+        },
+        {
+          "id": "2A.6",
+          "title": "Calorimetria",
+          "items": [
+            "Calorímetro isobárico: $$ \n    Q_P = \\Delta H = C_P \\Delta T\n    $$\n",
+            "Calorímetro isocórico: $$ \n    Q_V = \\Delta U = C_V \\Delta T\n    $$\n",
+            "Relação entre $\\Delta U$ e $\\Delta H$ de reação.\n",
+            "Potencial calorífico superior e inferior.\n",
+            "Temperatura Adiabática de Reação.\n",
+            "Reação autossustentável.\n"
+          ],
+          "abilities": [
+            "**Calcular** o calor liberado em pressão constante a partir do calor\nliberado em volume constante.\n",
+            "**Calcular** a variação de temperatura causada por uma reação.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2C",
+      "title": "Energia Livre",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "2C.1",
+          "title": "Energia Livre",
+          "items": [
+            "Definição de Energia Livre: $$ \n   G = H - TS \n   $$\n",
+            "Energia livre e espontaneidade: $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$ \\| $\\Delta H$ \\| $\\Delta S$ \\| Espontaneidade \\| \\| \\-- \\| \\-- \\|\n\\-- \\| \\| $-$ \\| $+$ \\| Sempre \\| \\| $-$ \\| $-$ \\|\n$T < \\left\\vert \\frac{\\Delta H}{\\Delta S} \\right\\vert$ \\| \\| $+$ \\| $+$\n\\| $T > \\left\\vert \\frac{\\Delta H}{\\Delta S} \\right\\vert$ \\| \\| $+$ \\|\n$-$ \\| Nunca \\|\n",
+            "Energia Livre e estado físico.\n"
+          ],
+          "abilities": [
+            "**Classificar** um processo quanto a sua espontaneidade.\n"
+          ]
+        },
+        {
+          "id": "2C.2",
+          "title": "Energia Livre de Reação",
+          "items": [
+            "Energia livre de reação e temperatura.\n",
+            "Trabalho não Expansivo.\n"
+          ],
+          "abilities": [
+            "**Calcular** a energia livre de uma reação para determinar sua\nespontaneidade.\n",
+            "**Calcular** a temperatura mínima para que uma reação endotérmica seja\nespontânea.\n"
+          ]
+        },
+        {
+          "id": "2C.3",
+          "title": "Potencial de Reação",
+          "items": [
+            "Potencial de reação: $$\n   \\Delta G = -nF \\Delta E\n   $$\n",
+            "Potencial e temperatura $$\n   \\Delta E^T = \\Delta E^{T_0} + (T-T_0) \\left( \\frac{\\Delta S}{nF} \\right)\n   $$\n",
+            "Diagrama de Latimer.\n"
+          ],
+          "abilities": [
+            "**Calcular** o potencial associado a uma reação química.\n",
+            "**Calcular** a variação do potencial de uma reação com a temperatura.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1B",
+      "title": "Átomo de Hidrogênio",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "1B.1",
+          "title": "Função de Onda e Orbitais Atômicos",
+          "items": [
+            "Interpretação de Born --- A densidade de probabilidade de encontrar um\nelétron é proporcional a $\\psi^2$.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "1B.2",
+          "title": "Números Quânticos, Níveis e Subníveis",
+          "items": [
+            "Número quântico principal, $n$, tamanho e energia dos orbitais.\n",
+            "Número quântico secundário, $l$ e o formato dos orbitais.\n",
+            "Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n"
+          ],
+          "abilities": [
+            "**Identificar** um orbital dado um conjunto de números quânticos.\n",
+            "**Identificar** um conjunto de números quânticos inexistente.\n"
+          ]
+        },
+        {
+          "id": "1B.3",
+          "title": "Spin Eletrônico",
+          "items": [
+            "Experimento de Stern-Gerlach.\n",
+            "Número quântico de spin, $m_s=\\pm 1/2$.\n"
+          ],
+          "abilities": [
+            "\\[Inventar questão\\]\n"
+          ]
+        },
+        {
+          "id": "1B.4",
+          "title": "Forma dos Orbitais",
+          "items": [
+            "Superfícies nodais angulares e radiais.\n",
+            "Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n",
+            "Influência da carga nuclear na função de onda.\n"
+          ],
+          "abilities": [
+            "**Calcular** o número de nodos radiais e angulares de um orbital.\n",
+            "**Comparar** orbitais atômicos com base em sua função de onda.\n"
+          ]
+        },
+        {
+          "id": "1B.5",
+          "title": "Energias dos Orbitais",
+          "items": [
+            "Blindagem.\n",
+            "Carga nuclear efetiva, $Z_\\text{eff}$.\n",
+            "Grau de penetrabilidade.\n"
+          ],
+          "abilities": [
+            "**Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n",
+            "**Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n"
+          ]
+        },
+        {
+          "id": "1B.6",
+          "title": "Princípio de Construção",
+          "items": [
+            "Princípio da Exclusão de Pauli.\n",
+            "Regra de Hund.\n",
+            "Diagrama de construção.\n",
+            "Configurações eletrônicas anômalas tipo $s^1 d^5$\n($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$\n($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$).\n",
+            "Configurações eletrônicas anômalas tipo $s^2 d^1$\n($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$\n($\\mathrm{Gd}, \\mathrm{Cm}$).\n",
+            "Camada de valência.\n",
+            "Relação com a tabela periódica.\n"
+          ],
+          "abilities": [
+            "**Determinar** a configuração eletrônica para átomos em seu estado\nfundamental.\n",
+            "**Determinar** a configuração eletrônica para íons em seu estado\nfundamental.\n",
+            "**Determinar** se uma dada configuração eletrônica representa um estado\nfundamental ou excitado.\n",
+            "**Explicar** a origem de anomalias na configuração eletrônica.\n"
+          ]
+        },
+        {
+          "id": "1B.7",
+          "title": "A Tabela Periódica",
+          "items": [
+            "Número atômico e número de Massa.\n",
+            "Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n",
+            "Grupos e famílias.\n",
+            "Períodos.\n",
+            "Blocos.\n",
+            "Metais, ametais e semi-metais.\n"
+          ],
+          "abilities": [
+            "**Determinar** a posição de um átomo na Tabela Periódica dada sua\nconfiguração eletrônica.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1E",
+      "title": "Ligações Intermoleculares",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "1E.1",
+          "title": "Ligação Iônica",
+          "items": [
+            "Íons formados por elementos.\n",
+            "Energia da ligação iônica.\n",
+            "Polarizabilidade e Poder Polarizante.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de seu raio.\n",
+            "**Explicar** a origem do Efeito de Contração do Bloco $d$.\n",
+            "**Explicar** a origem do Efeito de Contração dos Lantanídeos.\n"
+          ]
+        },
+        {
+          "id": "1E.2",
+          "title": "Ligação Covalente",
+          "items": [
+            "Íons formados por elementos.\n",
+            "Energia da ligação iônica.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "1E.3",
+          "title": "Estruturas de Lewis",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "1E.4",
+          "title": "Ressonância",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "1E.5",
+          "title": "Moléculas Diatômicas",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "1E.6",
+          "title": "Carga Formal",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1D",
+      "title": "Ligações Interatômicas",
+      "problems": {},
+      "subtopics": []
+    },
+    {
+      "id": "1C",
+      "title": "Periodicidade",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "1C.1",
+          "title": "Raio Atômico",
+          "items": [
+            "Raio covalente.\n",
+            "Raio de van der Waals.\n",
+            "Tendência no raio atômico.\n",
+            "Contração do Bloco $d$.\n",
+            "Contração dos Lantanídeos.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de seu raio.\n",
+            "**Explicar** a origem do efeito de Contração do Bloco $d$.\n",
+            "**Explicar** a origem do efeito de Contração dos Lantanídeos.\n"
+          ]
+        },
+        {
+          "id": "1C.2",
+          "title": "Raio Iônico",
+          "items": [
+            "Tendência no raio de cátions e ânions.\n",
+            "Raio de espécies isoeletrônicas.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos e íons em função de seu raio.\n"
+          ]
+        },
+        {
+          "id": "1C.3",
+          "title": "Energia de Ionização",
+          "items": [
+            "Tendência da primeira energia de ionização.\n",
+            "$n$-ésima energia de ionização.\n",
+            "Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e\n$\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n",
+            "Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$;\n$\\ce{S}$ e $\\ce{P}$).\n",
+            "Teoria do Mar de Elétrons.\n",
+            "Condutores e isolantes.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de sua primeira energia de ionização.\n",
+            "**Explicar** a origem de anomalias na energia de ionização.\n",
+            "**Determinar** o número de elétrons na camada de valência de uma espécie\ncom base em suas energias de ionização.\n"
+          ]
+        },
+        {
+          "id": "1C.4",
+          "title": "Afinidade Eletrônica",
+          "items": [
+            "Tendência da afinidade eletrônica.\n",
+            "Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n",
+            "Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e\n$\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n",
+            "Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$).\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de sua afinidade eletrônica.\n",
+            "**Explicar** a origem de anomalias na afinidade eletrônica.\n"
+          ]
+        },
+        {
+          "id": "1C.5",
+          "title": "Eletronegatividade",
+          "items": [
+            "Escala de Eletronegatividade de Mulliken: \\$ \\\\chi = \\\\frac{1}{2}(EI+AE)\n\\$\n",
+            "Tendências na eletronegatividade.\n",
+            "Eletronegatividade de orbitais.\n",
+            "Polarizabilidade.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de sua eletronegatividade e\npolarizabilidade.\n",
+            "**Ordenar** orbitais em função de sua eletronegatividade e\npolarizabilidade.\n"
+          ]
+        },
+        {
+          "id": "1C.6",
+          "title": "Número de Oxidação",
+          "items": [
+            "Tendência no número de oxidação.\n",
+            "Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$;\n$\\ce{Pb}$; $\\ce{Bi}$).\n"
+          ],
+          "abilities": [
+            "**Explicar** a origem do Efeito do Par-Inerte.\n"
+          ]
+        },
+        {
+          "id": "1C.7",
+          "title": "Relações Diagonais",
+          "items": [
+            "Origem das Relações Diagonais.\n",
+            "Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$;\n$\\ce{B}$ e $\\ce{Si}$).\n",
+            "Relações \\\"Movimento do Cavalo\\\" ($\\ce{Zn^{2+}}$ e $\\ce{Sn^{2+}}$;\n$\\ce{Sn^{4+}}$ e $\\ce{Po^{4+}}$; $\\ce{K^+}$, $\\ce{Ag^+}$ e $\\ce{Tl^+}$).\n"
+          ],
+          "abilities": [
+            "**Explicar** a origem das Relações Diagonais.\n"
+          ]
+        },
+        {
+          "id": "1C.8",
+          "title": "Propriedades Físicas dos Elementos",
+          "items": [
+            "Propriedades físicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| condutores elétricos \\| isolantes elétricos \\| \\|\ncondutores térmicos \\| isolantes térmicos \\| \\| maleáveis \\| não\nmaleáveis \\| \\| dúcteis \\| não dúcteis \\| \\| lustrosos \\| não lustrosos\n\\| \\| sólidos \\| sólidos, líquidos e gases \\|\n"
+          ],
+          "abilities": [
+            "**Comparar** propriedades físicas de elementos em função de sua posição\nna tabela periódica.\n"
+          ]
+        },
+        {
+          "id": "1C.9",
+          "title": "Propriedades Químicas dos Elementos",
+          "items": [
+            "Propriedades químicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| reagem com ácidos \\| não reagem com ácidos \\| \\| formam\nóxidos básicos \\| formam óxidos ácidos \\| \\| formam cátions \\| formam\nânions \\| \\| formam haletos iônicos \\| formam haletos covalentes \\|\n"
+          ],
+          "abilities": [
+            "**Comparar** propriedades químicas de elementos em função de sua posição\nna tabela periódica.\n"
+          ]
+        }
+      ]
+    },
+    {
       "id": "1A",
       "title": "Teoria Quântica",
       "problems": {
@@ -115,10 +748,256 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1F",
+      "title": "Ligações Intermoleculares",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "1F.1",
+          "title": "Tópico",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3E",
+      "title": "Mecanismos Reacionais",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "3E.1",
+          "title": "Tópico",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3C",
+      "title": "Soluções",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "3C.1",
+          "title": "Composição das Soluções",
+          "items": [
+            "Molalidade\n",
+            "Concentração em volumes.\n"
+          ],
+          "abilities": [
+            "**Determinar** a concentração de íons em solução a partir de data: de\ncondutividade.\n",
+            "**Relacionar** as unidades de concentração.\n"
+          ]
+        },
+        {
+          "id": "3C.2",
+          "title": "Condutividade Iônica",
+          "items": [
+            "Mobilidade iônica.\n",
+            "Influência do solvente na mobilidade iônica.\n",
+            "Condutividade molar, $\\lambda$.\n",
+            "Lei de migração independente.\n"
+          ],
+          "abilities": [
+            "**Determinar** a concentração de íons em solução a partir de data: de\ncondutividade.\n"
+          ]
+        },
+        {
+          "id": "3C.3",
+          "title": "Absortividade das Soluções",
+          "items": [
+            "Lei de Beer-Lambert.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "3C.4",
+          "title": "Operações em Soluções",
+          "items": [
+            "Balanço molar.\n",
+            "Balanço de cargas.\n",
+            "Balanço energético.\n",
+            "Diluição.\n",
+            "Mistura.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id": "3C.5",
+          "title": "Técnicas de Separação",
+          "items": [
+            "Decantação.\n",
+            "Filtração.\n",
+            "Cromatografia.\n",
+            "Destilação.\n",
+            "Extração.\n"
+          ],
+          "abilities": [
+            "**Determinar** a técnica mais adequada para separação de uma mistura.\n",
+            "**Determinar** os produtos resultantes de uma separação de mistura.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3B",
+      "title": "Gases Reais",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "3B.1",
+          "title": "Desvios da Idealidade",
+          "items": [
+            "Interações Intermoleculares.\n",
+            "Potencial de Lennard-Jones.\n",
+            "Volume molecular.\n"
+          ],
+          "abilities": [
+            "Habilidades\n"
+          ]
+        },
+        {
+          "id": "3B.2",
+          "title": "Equações de Estado do Gás Real",
+          "items": [
+            "Equação de Van der Waals: $$ \n    \\left( P + a\\dfrac{n^2}{V^2} \\right)(V - nb) = nRT \n    $$\n",
+            "Fator de Compressibilidade: $$ \n    Z = \\dfrac{V}{V_\\text{ideal}} = \\dfrac{PV}{RT}\n    $$\n"
+          ],
+          "abilities": [
+            "**Comparar** gases em função de seu fator de compressibilidade.\n",
+            "**Comparar** gases em função de seus parâmetros de Van der Waals.\n"
+          ]
+        },
+        {
+          "id": "3B.3",
+          "title": "Liquefação",
+          "items": [
+            "Isotermas do gás real.\n",
+            "Liquefação de Gases Reais.\n",
+            "Efeito Joule-Thompson.\n"
+          ],
+          "abilities": [
+            "Caminho livre médio\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3D",
+      "title": "Leis de Velocidade",
+      "problems": {},
+      "subtopics": []
+    },
+    {
+      "id": "3F",
+      "title": "Estado Estacionário",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "3F.1",
+          "title": "Tópico",
+          "items": [
+            "Tópico\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3A",
+      "title": "Gases Ideais",
+      "problems": {},
+      "subtopics": [
+        {
+          "id": "3A.1",
+          "title": "Movimento Molecular",
+          "items": [
+            "Modelo Cinético dos Gases.\n",
+            "Distribuição de Maxwell-Boltzmann.\n",
+            "Difusão e efusão.\n",
+            "Lei de Graham.\n"
+          ],
+          "abilities": [
+            "**Calcular** a velocidade média quadrática de uma amostra de gás.\n",
+            "**Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n",
+            "**Comparar** a temperatura de gases ideais com base na sua distribuição\nde velocidades.\n",
+            "**Comparar** a massa molar de gases ideais com base na sua distribuição\nde velocidades.\n"
+          ]
+        },
+        {
+          "id": "3A.2",
+          "title": "Energia do Gás Ideal.",
+          "items": [
+            "Energia interna do gás ideal.\n",
+            "Teorema da Equipartição.\n",
+            "Origem molecular da capacidade calorífica \\| \\| Átomos \\| Lineares \\|\nNão lineares \\| \\| \\-- \\| \\-- \\| \\-- \\| \\-- \\| \\| $C_V$ \\|\n$\\frac{3}{2}R$ \\| $\\frac{5}{2}R$ \\| $3R$ \\| \\| $C_P$ \\| $\\frac{5}{2}R$\n\\| $\\frac{7}{2}R$ \\| $4R$ \\|\n"
+          ],
+          "abilities": [
+            "**Comparar** a capacidade calorífica de gases.\n"
+          ]
+        },
+        {
+          "id": "3A.3",
+          "title": "Lei dos Gases Ideais",
+          "items": [
+            "Pressão\n",
+            "Lei dos Gases Ideais: $$\n   PV=nRT\n   $$\n",
+            "[Condições Normais de Temperatura e Pressão\n(CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n",
+            "Volume molar.\n",
+            "Densidade do gás ideal: $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n"
+          ],
+          "abilities": [
+            "**Calcular** $P$, $V$, $T$ e $n$ para uma dada condição.\n",
+            "**Calcular** $P$, $V$, $T$ e $n$ para uma transformação.\n",
+            "**Calcular** a densidade um gás ideal para uma dada condição.\n"
+          ]
+        },
+        {
+          "id": "3A.4",
+          "title": "Misturas de Gases",
+          "items": [
+            "Pressão parcial.\n",
+            "Massa molar média.\n"
+          ],
+          "abilities": [
+            "**Calcular** a pressão parcial de um gás em uma mistura.\n"
+          ]
+        },
+        {
+          "id": "3A.5",
+          "title": "Estequiometria de Gases",
+          "items": [
+            "Análise de Combustão.\n",
+            "Coleta de Gases sobre água.\n"
+          ],
+          "abilities": [
+            "**Calcular** o volume de reagente gasoso necessário para uma reação.\n",
+            "**Calcular** o volume de gás liberado em uma reação.\n",
+            "**Calcular** a quantidade de gás coletada sobre água.\n"
+          ]
+        }
+      ]
     }
   ],
-  "problems": [
-    {
+  "problems": {
+    "1A17": {
       "id": "1A17",
       "statement": "**Assinale** a alternativa com o momento angular do elétron na quinta\nórbita do átomo de hidrogênio, considerando o modelo atômico de Bohr.\n",
       "solution": "",
@@ -136,7 +1015,7 @@
         "$\\pu{1e-33 J.s}$\n"
       ]
     },
-    {
+    "1A27": {
       "id": "1A27",
       "statement": "Quando átomos colidem, parte de sua energia cinética pode ser convertida\nem energia eletrônica. O processo é mais eficiente quando a energia\ncinética é próxima da energia necessária para a excitação.\n\n**Determine** a temperatura onde a excitação de átomos de hidrogênio ao\nprimeiro estado excitado é mais eficiente\n",
       "solution": "\n",
@@ -148,7 +1027,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A37": {
       "id": "1A37",
       "statement": "Considere um semicondutor com uma impureza de carga $+1$ atraindo um\nelétron. Devido a interações com os átomos da rede cristalina, o elétron\nno semicondutor possui massa igual a $m_{r}m_{e}$ sendo $m_{e}$ é a\nmassa de repouso do elétron e $m_{r}$ uma constante adimensional. A\npermissividade relativa no meio semicondutor é $\\epsilon_r$.\n\n**Assinale** a alternativa com a razão entre a energia de ionização da\nimpureza e a energia de ionização do átomo de hidrogênio.\n",
       "solution": "",
@@ -166,7 +1045,7 @@
         "$\\dfrac{m\\epsilon_{r}^{2}}{{m_{r}}}$\n"
       ]
     },
-    {
+    "1A44": {
       "id": "1A44",
       "statement": "Considere a estrutura da porfirina.\n\n![Porfirina.](images/1A44-1M.svg)\n\nO sistema eletrônico $\\pi$ desse composto, com $26$ elétrons, pode ser\nmodelado como uma caixa bidimensional quadrada, com $L = \\pu{1000 pm}$\nde comprimento. Nesse sistema os orbitais têm energia dada por:\n\n$E(n_{1}, n_{2}) = \\dfrac{h^{2}}{8m_{e}L^{2}}(n_{1}^{2}+n_{2}^{2})$\n\nEm que apenas dois elétrons ocupam um mesmo nível de energia.\n\n**Assinale** a alternativa que apresenta a transição eletrônica de menor\nenergia da porfirina, em termos dos números quânticos $(n_{1}, n_{2})$.\n",
       "solution": "",
@@ -184,7 +1063,7 @@
         "$(4,2) \\rightarrow (4,3)$\n"
       ]
     },
-    {
+    "1A35": {
       "id": "1A35",
       "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. Seja $a_0$ o raio\nda órbita do estado fundamental, $m$ a massa do elétron, $e$ a carga do\nelétron e $\\varepsilon_0$ a permissividade do vácuo.\n\n**Assinale** a alternativa com o período orbital para do $n$.\n",
       "solution": "",
@@ -202,7 +1081,7 @@
         "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}$\n"
       ]
     },
-    {
+    "1A41": {
       "id": "1A41",
       "statement": "Um recipiente de $\\pu{10 L}$ contendo gás cloro e gás hidrogênio é\nirradiado durante $\\pu{2,5 s}$ com luz UV ($\\pu{\\lambda = 250 nm}$)\nproveniente de uma lâmpada de mercúrio com potência de $\\pu{10 W}$. A\nmistura gasosa absorve $2\\%$ da energia fornecida, levando à formação de\n$\\pu{65 mmol}$ de ácido clorídrico.\n\n-   **Determine** os possíveis valores de comprimento de onda da luz em\n    que se espera que ocorra a dissociação do cloro molecular.\n-   **Determine** o rendimento quântico para a formação de ácido\n    clorídrico.\n-   **Explique**, qualitativamente, o valor obtido para o rendimento\n    quântico.\n",
       "solution": "> ????\n",
@@ -212,7 +1091,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A26": {
       "id": "1A26",
       "statement": "**Determine** a identidade de um átomo que, movendo se com sua\nvelocidade média quadrática a $\\pu{100 \\degree C}$, possui comprimento\nde onda $\\pu{23 pm}$.\n",
       "solution": "\n",
@@ -224,7 +1103,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A02": {
       "id": "1A02",
       "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
       "solution": "",
@@ -242,7 +1121,7 @@
         "$\\pu{7e19}$\n"
       ]
     },
-    {
+    "1A29": {
       "id": "1A29",
       "statement": "Radiação de comprimento de onda $\\pu{427 nm}$ é utilizada no processo de\nfotossíntese para a produção de glicose ($\\ce{C6H12O6}$) a partir do\n$\\ce{CO2}$.\n\n-   **Determine** a entalpia da reação de fotossíntese.\n-   **Determine** o número de fótons necessários para produzir uma\n    molécula de glicose.\n",
       "solution": "\n",
@@ -265,7 +1144,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A22": {
       "id": "1A22",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia de ionização\ndo hidrogênio.\n",
       "solution": "",
@@ -283,7 +1162,7 @@
         "$\\pu{6,5 MJ.mol-1}$\n"
       ]
     },
-    {
+    "1A42": {
       "id": "1A42",
       "statement": "Um recipiente de quartzo é irradiado por um \\\"laser\\\" de $\\pu{1,5 mW}$\nque emite luz UV ($\\lambda = \\pu{330 nm}$). O recipiente contem propanal\ngasoso que absorve $6\\%$ da radiação incidente decompondo-se em etano e\nmonóxido de carbono. São formados $\\pu{56 \\mu g}$ de monóxido de carbono\npor segundo.\n\n-   **Determine** a taxa de incidência de fótons no recipiente.\n-   **Determine** o rendimento quântico para a decomposição do propanal.\n-   **Explique**, qualitativamente, o valor obtido para o rendimento\n    quântico.\n",
       "solution": "\n",
@@ -297,7 +1176,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A28": {
       "id": "1A28",
       "statement": "Uma amostra com $\\pu{586 g}$ de água, inicialmente a\n$\\pu{25 \\degree C}$, é colocada em um forno de micro-ondas que emite\nradiação eletromagnética com frequência de $\\pu{2,45 GHz}$ e aquecida\naté $\\pu{91 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do número de fótons\nabsorvidos pela água.\n",
       "solution": "",
@@ -325,7 +1204,7 @@
         "$\\pu{2e31}$\n"
       ]
     },
-    {
+    "1A21": {
       "id": "1A21",
       "statement": "Um elétron em um estado excitado do átomo de hidrogênio decai para o\nestado fundamental emitindo dois fótons cujos comprimentos de onda são\n$\\lambda_{1}$ e $\\lambda_{2}$.\n\n**Assinale** a alternativa com o comprimento de onda do fóton emitido\ncaso o decaimento ocorresse em uma única etapa.\n",
       "solution": "",
@@ -343,7 +1222,7 @@
         "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{2} - \\lambda_{1}}$\n"
       ]
     },
-    {
+    "1A24": {
       "id": "1A24",
       "statement": "**Assinale** a alternativa com o átomo cuja última energia de ionização\né $\\pu{122,4 eV}$.\n",
       "solution": "",
@@ -361,9 +1240,9 @@
         "$\\ce{C}$\n"
       ]
     },
-    {
+    "1A31": {
       "id": "1A31",
-      "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio. Considere as proposições:\n\n1.  A energia cinética máxima dos elétrons emitidos pelo metal é\n    $E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n2.  A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n3.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da frequência da luz incidente no metal a partir da\n    frequência mínima de emissão.\n4.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da pressão da amostra de hidrogênio.\n\n**Assinale** a alternativa que relaciona todas as proposições\n*corretas*.\n",
+      "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio.\n\n1.  A energia cinética máxima dos elétrons emitidos pelo metal é\n    $E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n2.  A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n3.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da frequência da luz incidente no metal a partir da\n    frequência mínima de emissão.\n4.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da pressão da amostra de hidrogênio.\n\n**Assinale** a alternativa que relaciona todas as proposições\n*corretas*.\n",
       "solution": "",
       "answer": "1, 2 e 3",
       "data": [],
@@ -377,7 +1256,7 @@
         "1, 2, 3 e 3"
       ]
     },
-    {
+    "1A18": {
       "id": "1A18",
       "statement": "Considere a excitação de um átomo de hidrogênio do estado fundamental\naté o segundo estado excitado.\n\n**Assinale** a alternativa *correta*.\n",
       "solution": "",
@@ -395,7 +1274,7 @@
         "O comprimento de onda da radiação emitida quando o elétron retornar para\no estado fundamental será igual ao comprimento de onda da radiação\nabsorvida para a excitação.\n"
       ]
     },
-    {
+    "1A06": {
       "id": "1A06",
       "statement": "Cinco amostras idênticas de um mesmo metal são aquecidas a diferentes\ntemperaturas até a incandescência.\n\n**Assinale** a alternativa com a cor da amostra submetida a uma maior\ntemperatura.\n",
       "solution": "",
@@ -413,7 +1292,7 @@
         "Branco\n"
       ]
     },
-    {
+    "1A01": {
       "id": "1A01",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia liberada por\n$\\pu{5 g}$ de sódio em uma lâmpada que produz luz amarela com\ncomprimento de onda $\\pu{590 nm}$.\n",
       "solution": "",
@@ -431,7 +1310,7 @@
         "$\\pu{500 kJ}$\n"
       ]
     },
-    {
+    "1A04": {
       "id": "1A04",
       "statement": "A mensuração da eficiência quântica da fotossíntese em plantas revelou\nque 8 quanta de luz vermelha a $\\pu{685 nm}$ são necessários para\nliberar uma molécula de oxigênio. A quantidade média de energia\narmazenada no processo fotoquímico é $\\pu{469 kJ}$ por mol de oxigênio\nliberado.\n\n**Assinale** a alternativa que mais se aproxima da eficiência da\nfotossíntese.\n",
       "solution": "",
@@ -449,7 +1328,7 @@
         "$\\pu{90\\%}$\n"
       ]
     },
-    {
+    "1A08": {
       "id": "1A08",
       "statement": "Considere o espectro de emissão da radiação solar.\n\n![Irradiância por comprimento de onda](images/1A08-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da temperatura do sol.\n",
       "solution": "",
@@ -467,7 +1346,7 @@
         "$\\pu{7 kK}$\n"
       ]
     },
-    {
+    "1A19": {
       "id": "1A19",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida quando um átomo de hidrogênio decai do segundo para\no primeiro estado excitado.\n",
       "solution": "",
@@ -485,7 +1364,7 @@
         "$\\pu{860 nm}$\n"
       ]
     },
-    {
+    "1A30": {
       "id": "1A30",
       "statement": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz ocorre a reação: $$\n\\ce{AgCl -> Ag + Cl}\n$$\n\n-   **Determine** a entalpia de decomposição do cloreto de prata.\n-   **Determine** o comprimento de onda máximo para esse processo.\n",
       "solution": "\n",
@@ -517,7 +1396,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A09": {
       "id": "1A09",
       "statement": "Considere o espectro de emissão da radiação de três estrelas, **A**,\n**B** e **C**.\n\n![Irradiância por comprimento de onda](images/1A09-2P.svg)\n\n**Assinale** a alternativa que relaciona as estrelas em ordem crescente\nde temperatura.\n",
       "solution": "",
@@ -535,7 +1414,7 @@
         "**C**, **B**, **A**\n"
       ]
     },
-    {
+    "1A16": {
       "id": "1A16",
       "statement": "**Assinale** a alternativa com a identidade do átomo que possui\ncomprimento de onda $\\pu{3,3 fm}$ quando viaja a $\\pu{1 \\%}$ da\nvelocidade da luz.\n",
       "solution": "",
@@ -553,7 +1432,7 @@
         "$\\ce{Ba}$\n"
       ]
     },
-    {
+    "1A36": {
       "id": "1A36",
       "statement": "Um átomo de hidrogênio emite um fóton de energia $\\pu{2,55 eV}$ na\ntransição entre dois estados estacionários. A razão entre as velocidades\ndo elétron nesses estados é $1/2$.\n\n**Assinale** a alternativa que mais se aproxima da energia potencial do\nelétron no estado final.\n",
       "solution": "",
@@ -571,7 +1450,7 @@
         "$\\pu{-1,5 eV}$\n"
       ]
     },
-    {
+    "1A34": {
       "id": "1A34",
       "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. O raio da órbita\ndo estado fundamental é $\\pu{53 pm}$, sendo $\\pu{2200 km s-1}$ a\nvelocidade do elétron nessa órbita. O tempo de vida médio de um elétron\nno primeiro estado excitado é de $\\pu{10 ns}$.\n\n**Assinale** a alternativa que mais se aproxima do número médio de\nrevoluções efetuadas por um elétron no primeiro estado excitado do átomo\nde hidrogênio.\n",
       "solution": "",
@@ -589,7 +1468,7 @@
         "$\\pu{5e7}$\n"
       ]
     },
-    {
+    "1A14": {
       "id": "1A14",
       "statement": "O comprimento de onda crítico para a verificação do efeito fotoelétrico\nno tungstênio é $\\pu{260 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nnecessário para produzir fotoelétrons do tungstênio com o dobro da\nenergia cinética daqueles produzidos a $\\pu{220 nm}$.\n",
       "solution": "",
@@ -607,7 +1486,7 @@
         "$\\pu{190 nm}$\n"
       ]
     },
-    {
+    "1A43": {
       "id": "1A43",
       "statement": "Considere uma cadeia linear de carbono modelada como uma caixa\nunidimensional, onde os elétrons estão distribuídos. O comprimento da\nligação entre os átomos de carbono é $\\pu{140 pm}$. Apenas dois elétrons\nocupam um mesmo nível de energia.\n\n-   **Determine** os possíveis comprimentos de onda para os elétrons\n    nesse sistema.\n-   **Determine** os possíveis valores de energia para os elétrons nesse\n    sistema.\n-   **Determine** o maior comprimento de onda que esse sistema pode\n    emitir, em função do número de carbonos.\n-   **Determine** o número de átomos de carbono que esse sistema deve\n    possuir para possuir emissão no visível ($\\pu{400 nm}$ a\n    $\\pu{750 nm}$).\n",
       "solution": "\n",
@@ -622,7 +1501,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A23": {
       "id": "1A23",
       "statement": "A energia de ionização um átomo com apenas um elétron é\n$\\pu{412 kJ.mol-1}$. Quando os átomos desse elemento estão no primeiro\nestado excitado, a energia de ionização é $\\pu{126 kJ.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nemitido por esse átomo em uma transição do primeiro estado excitado para\no estado fundamental.\n",
       "solution": "",
@@ -640,9 +1519,9 @@
         "$\\pu{560 nm}$\n"
       ]
     },
-    {
+    "1A38": {
       "id": "1A38",
-      "statement": "Considere os dados obtidos em um experimento de efeito fotoelétrico com\ntrês metais, **A**, **B**, e **C**.\n\n![Energia por frequência](images/1A38-1P.svg)\n\n**Assinale** a alternativa que relaciona os metais em ordem crescente de\nfunção trabalho.\n",
+      "statement": "Considere os data: obtidos em um experimento de efeito fotoelétrico com\ntrês metais, **A**, **B**, e **C**.\n\n![Energia por frequência](images/1A38-1P.svg)\n\n**Assinale** a alternativa que relaciona os metais em ordem crescente de\nfunção trabalho.\n",
       "solution": "",
       "answer": [],
       "data": [],
@@ -650,7 +1529,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A32": {
       "id": "1A32",
       "statement": "Uma linha violeta é observada em $\\pu{434 nm}$ no espectro de emissão do\nátomo de hidrogênio.\n\n-   **Determine** a energia do fóton dessa emissão.\n-   **Determine** a transição eletrônica correspondente a essa emissão.\n",
       "solution": "\n",
@@ -663,7 +1542,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A03": {
       "id": "1A03",
       "statement": "A exposição de uma amostra de iodo gasoso à luz com comprimentos de onda\ninferiores a $\\pu{500 nm}$ leva a formação de iodo atômico.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de ligação\n$\\ce{I-I}$.\n",
       "solution": "",
@@ -681,7 +1560,7 @@
         "$\\pu{280 kJ.mol-1}$\n"
       ]
     },
-    {
+    "1A05": {
       "id": "1A05",
       "statement": "**Assinale** a alternativa *correta*.\n",
       "solution": "",
@@ -699,7 +1578,7 @@
         "A energia de um fóton é diretamente proporcional ao comprimento de onda\nda radiação.\n"
       ]
     },
-    {
+    "1A33": {
       "id": "1A33",
       "statement": "Um feixe de luz solar passa atravessar um filtro de radiação\nultravioleta, o qual não permite passar fótons de comprimento de onda\nmenor que $\\pu{300 nm}$, sendo direcionado para uma amostra de\nhidrogênio atômico gasoso. A amostra é mantida em um recipiente\ntransparente à luz visível e opaco ao infravermelho (com comprimento de\nonda superior a $\\pu{663 nm}$). Após passarem pela amostra, os fótons\nsão detectados por sensores posicionados ortogonalmente ao feixe de luz.\n\n**Assinale** a alternativa que mais se aproxima das energias dos fótons\ndetectados.\n",
       "solution": "",
@@ -717,7 +1596,7 @@
         "$\\pu{2,1 eV}$, $\\pu{2,4 eV}$, $\\pu{3,4 eV}$, $\\pu{3,8 eV}$\n"
       ]
     },
-    {
+    "1A12": {
       "id": "1A12",
       "statement": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco.\n",
       "solution": "",
@@ -745,7 +1624,7 @@
         "$\\pu{1,4e-17 J}$\n"
       ]
     },
-    {
+    "1A15": {
       "id": "1A15",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\nde uma partícula de $\\pu{1 g}$ viajando a $\\pu{1 m.s-1}$.\n",
       "solution": "",
@@ -763,7 +1642,7 @@
         "$\\pu{7e-30}$\n"
       ]
     },
-    {
+    "1A39": {
       "id": "1A39",
       "statement": "A figura abaixo representa parte do espectro de emissão para um íon\nmonoeletrônico em fase gasosa. Todas as linhas resultam de transições\neletrônicas para o segundo estado excitado.\n\n![Comprimento de onda](images/1A39-1P.tex)\n\n**Determine** o comprimento de onda da linha de menor energia.\n",
       "solution": "\n",
@@ -775,7 +1654,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A13": {
       "id": "1A13",
       "statement": "A superfície de um metal é irradiada com luz de dois comprimentos de\nonda, $\\lambda_1$ e $\\lambda_2$. As velocidades máximas dos fotoelétrons\nemitidos são, respectivamente, $v_1$ e $v_2$, sendo $v_1 = 2 v_2$.\n\n**Assinale** a alternativa com a função trabalho desse metal.\n",
       "solution": "",
@@ -793,7 +1672,7 @@
         "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$\n"
       ]
     },
-    {
+    "1A11": {
       "id": "1A11",
       "statement": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação incidente.\n",
       "solution": "",
@@ -821,7 +1700,7 @@
         "$\\pu{500 nm}$\n"
       ]
     },
-    {
+    "1A10": {
       "id": "1A10",
       "statement": "Uma placa é feita de um metal, cuja função trabalho é menor que a\nenergia dos fótons da luz visível, é exposta ao sol.\\\n**Assinale** a alternativa *correta*.\n",
       "solution": "",
@@ -839,7 +1718,7 @@
         "Os elétrons não podem ser ejetados instantaneamente e a energia cinética\napós a ejeção depende da frequência da radiação absorvida e da energia\ndo elétron no metal.\n"
       ]
     },
-    {
+    "1A25": {
       "id": "1A25",
       "statement": "*Lasers* funcionam pela colisão de átomos excitados com espécies no\nestado fundamental. A transferência de energia é mais eficiente quando\nas diferenças energéticas dos níveis são próximas.\n\n**Assinale** a alternativa com a transição do cátion $\\ce{He+}$ que pode\nser excitada por colisão com átomos de hidrogênio no primeiro estado\nexcitado.\n",
       "solution": "",
@@ -857,7 +1736,7 @@
         "$n=2 \\rightarrow n=5$\n"
       ]
     },
-    {
+    "1A20": {
       "id": "1A20",
       "statement": "**Assinale** a alternativa com o decaimento para o átomo de hidrogênio\nque leva à emissão de um fóton com maior comprimento de onda.\n",
       "solution": "",
@@ -875,7 +1754,7 @@
         "$n=6 \\rightarrow n=5$\n"
       ]
     },
-    {
+    "1X01": {
       "id": "1X01",
       "statement": "Esse é o arquivo para testes.\n",
       "solution": "> A resposta é: $$\\int f(x) \\; \\mathrm{d} x$$\n",
@@ -885,7 +1764,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A40": {
       "id": "1A40",
       "statement": "Um tubo contendo átomos de hidrogênio no estado fundamental é irradiado\ncom luz monocromática e o espectro de emissão é analisado.\n\n-   **Determine** o comprimento de onda da radiação incidente para serem\n    observadas dez linhas espectrais de emissão.\n-   **Determine** o comprimento de onda da radiação incidente serem\n    observadas duas linhas espectrais de emissão no visível\n    ($\\pu{400 nm a 750 nm}$).\n",
       "solution": "\n",
@@ -898,7 +1777,7 @@
       "obj": -1,
       "choices": []
     },
-    {
+    "1A07": {
       "id": "1A07",
       "statement": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão.\n",
       "solution": "",
@@ -926,7 +1805,7 @@
         "$\\pu{650 nm}$\n"
       ]
     },
-    {
+    "2A14": {
       "id": "2A14",
       "statement": "Amostras de massas iguais de duas substâncias, **A** e **B**, foram\nsubmetidas independentemente a um processo de aquecimento em atmosfera\ninerte e sob pressão constante. A curva de aquecimento das amostras é\napresentado a seguir.\n\n![Temaperatura por calor trocado.](images/2A14-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
       "solution": "",
@@ -944,7 +1823,53 @@
         "A capacidade calorífica na fase gasosa de **A** é maior que na de **B**.\n"
       ]
     },
-    {
+    "2A50": {
+      "id": "2A50",
+      "statement": "Um carro comum possui quatro cilindros, que totalizam um volume de\n$\\pu{1,6 L}$ e um consumo de combustível de $\\pu{9,5 L}$ por\n$\\pu{100 km}$ quando viaja a $\\pu{80 km.h-1}$. Cada cilindro sofre $20$\nciclos de queima por segundo. O combustível,\n$\\ce{2,2,4-trimetilpentano}$, gaseificado e ar são introduzidos a\n$\\pu{390 K}$ no cilindro quando seu volume é máximo, até que a pressão\nseja $\\pu{1 atm}$. Na combustão, $10\\%$ do carbono é convertido em\nmonóxido e o restante em dióxido. Ao final do ciclo, o cilindro se\nexpande novamente até o volume máximo, sob pressão final de\n$\\pu{20 atm}$.\n\n-   **Determine** a vazão de entrada de ar no motor.\n-   **Determine** a composição da mistura gasosa de saída.\n-   **Determine** a temperatura dos gases imediatamente após a\n    combustão.\n-   **Determine** a temperatura de saída dos gases.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{40 L.s-1}$\n",
+        "$75\\%$ $\\ce{N2}$, $4\\%$ $\\ce{O2}$, $1\\%$ $\\ce{CO}$, $9\\%$ $\\ce{CO2}$,\n$11\\%$ $\\ce{H2O}$\n",
+        "$\\pu{2000 \\degree C}$\n",
+        "$\\pu{750 K}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A35": {
+      "id": "2A35",
+      "statement": "Considere os processos químicos a seguir.\n\n1.  Reação de formação da água gasosa.\n2.  Reação de formação da água líquida.\n\n**Assinale** a alternativa *incorreta*.\n",
+      "solution": "",
+      "answer": [
+        "O valor absoluto da variação de entalpia é menor que o da variação de\nenergia interna para a reação $1$.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "As reações $1$ e $2$ são exotérmicas.\n",
+        "O valor absoluto da variação de entalpia é menor que o da variação de\nenergia interna para a reação $1$.\n",
+        "O valor absoluto da variação de energia interna da reação $1$ é menor\nque o da $2$.\n",
+        "O valor absoluto da variação de entalpia da reação $1$ é menor que o da\n$2$.\n",
+        "A capacidade calorífica do produto da reação $1$ é menor que o da $2$.\n"
+      ]
+    },
+    "2A46": {
+      "id": "2A46",
+      "statement": "A estrutura do fulereno, $\\ce{C60}$, é representada a seguir.\n\n![Fulereno.](images/2A46-1M.svg)\n\n-   **Determine** a entalpia de formação do fulereno.\n-   **Determine** a entalpia de ressonância do fulereno.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{-39,6 MJ.mol-1}$\n",
+        "???\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A04": {
       "id": "2A04",
       "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado na eletrólise de $\\pu{50 g}$ de água formando gás\nhidrogênio e oxigênio a $\\pu{25 \\degree C}$.\n",
       "solution": "",
@@ -962,7 +1887,20 @@
         "$\\pu{20 kJ}$\n"
       ]
     },
-    {
+    "2A43": {
+      "id": "2A43",
+      "statement": "O gráfico a seguir apresenta a taxa de liberação de calor para uma\nreação química. Ao final da reação é formado $\\pu{1 mol}$ de produto.\n\n![Calor por tempo.](images/2A43-1P.svg)\n\n-   **Determine** a quantidade de produto formada até 4 minutos de\n    reação.\n-   **Determine** o calor liberado até 11 minutos de reação.\n",
+      "solution": "\n",
+      "answer": [
+        "$n = \\pu{60 mmol}$\n",
+        "$Q = \\pu{8,25 J.mol-1}$.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A01": {
       "id": "2A01",
       "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado por um gás que se expande em $\\pu{500 mL}$ contra uma\npressão de $\\pu{1,2 atm}$.\n",
       "solution": "",
@@ -980,7 +1918,77 @@
         "$\\pu{70 J}$\n"
       ]
     },
-    {
+    "2A26": {
+      "id": "2A26",
+      "statement": "Em um cilindro, provido de um pistão móvel sem atrito, é realizada a\ncombustão completa de carbono. A temperatura no interior do cilindro é\nmantida constante desde a introdução dos reagentes até o final da\nreação.\n\n1.  A variação da energia interna do sistema é igual a zero.\n2.  O sistema não realiza trabalho.\n3.  A quantidade de calor trocada entre o sistema e a vizinhança é igual\n    a zero.\n4.  A variação da entalpia do sistema é igual à variação da energia\n    interna.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
+      "solution": "",
+      "answer": "1, 2 e 3",
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "1, 2 e 3",
+        "1, 2 e 3",
+        "1, 2 e 3",
+        "1, 2 e 3",
+        "1, 2 e 3"
+      ]
+    },
+    "2A29": {
+      "id": "2A29",
+      "statement": "Uma substância de massa molar $\\pu{200 g.mol-1}$ foi colocada em um\nrecipiente equipado com uma serpentina de aquecimento resistivo, a\n$\\pu{80 \\degree C}$ e $\\pu{1 bar}$. Para a manutenção da temperatura,\nfoi utilizada uma fonte de $\\pu{30 V}$ e $\\pu{900 mA}$ durante\n$\\pu{30s}$, vaporizando $\\pu{2 g}$ da substância.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização dessa substância.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{80 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{8 kJ.mol-1}$\n",
+        "$\\pu{40 kJ.mol-1}$\n",
+        "$\\pu{80 kJ.mol-1}$\n",
+        "$\\pu{400 kJ.mol-1}$\n",
+        "$\\pu{800 kJ.mol-1}$\n"
+      ]
+    },
+    "2A42": {
+      "id": "2A42",
+      "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\nda amônia a $\\pu{450 \\degree C}$.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{-46 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{-30 kJ.mol-1}$\n",
+        "$\\pu{-43 kJ.mol-1}$\n",
+        "$\\pu{-46 kJ.mol-1}$\n",
+        "$\\pu{-65 kJ.mol-1}$\n",
+        "$\\pu{-70 kJ.mol-1}$\n"
+      ]
+    },
+    "2A25": {
+      "id": "2A25",
+      "statement": "Uma amostra de $\\pu{1 mol}$ de glicose é queimada em um calorímetro\nisocórico ($C = \\pu{512 J.\\degree C-1}$) com excesso de oxigênio. A\nvariação de temperatura registrada foi de $\\pu{5 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{-2545 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "$\\pu{-2575 kJ}$\n",
+        "$\\pu{-2560 kJ}$\n",
+        "$\\pu{-2545 kJ}$\n",
+        "$\\pu{2545 kJ}$\n",
+        "$\\pu{2560 kJ}$\n"
+      ]
+    },
+    "2A08": {
       "id": "2A08",
       "statement": "Considere os processos químicos realizados em temperatura constante.\n\n1.  Dissolução do nitrato de potássio.\n2.  Ebulição da água.\n3.  Conversão da grafita em diamante.\n4.  Oxidação do sódio metálico.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
       "solution": "",
@@ -996,9 +2004,22 @@
         "1, 2, 3 e 3"
       ]
     },
-    {
+    "2A40": {
+      "id": "2A40",
+      "statement": "Uma mistura ($1:15$) de metano e ar atmosférico, a $\\pu{298 K}$ e\n$\\pu{1 atm}$, entra em combustão em um reservatório adiabático,\nconsumindo completamente o metano. O processo ocorre sob pressão\nconstante e os produtos formados permanecem em fase gasosa. Considere os\ndata: termodinâmicos a seguir.\n\n\\| \\| $\\ce{H0}$($\\pu{1700 K}$) --- $\\ce{H0}$($\\pu{298 K}$) \\|\n$\\ce{H0}$($\\pu{2000 K}$) --- $\\ce{H0}$($\\pu{298 K}$) \\| \\| :\\-- \\| \\--:\n\\| \\--: \\| \\| $\\ce{CO2}$ \\| $\\pu{17,58 kcal.mol-1}$ \\|\n$\\pu{21,90 kcal/mol-1}$ \\| \\| $\\ce{H2O}$ \\| $\\pu{13,74 kcal.mol-1}$ \\|\n$\\pu{17,26 kcal.mol-1}$ \\| \\| $\\ce{N2}$ \\| $\\pu{10,86 kcal.mol-1}$ \\|\n$\\pu{13,42 kcal.mol-1}$ \\| \\| $\\ce{O2}$ \\| $\\pu{11,42 kcal.mol-1}$ \\|\n$\\pu{14,15 kcal.mol-1}$ \\|\n\n-   **Determine** a temperatura final do sistema.\n-   **Determine** a concentração final de vapor d\\'água.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{1733 K}$\n",
+        "$\\pu{5,2 mmol.L-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A16": {
       "id": "2A16",
-      "statement": "Aminoácidos são oxidados no organismo formando ureia ($\\ce{H2NCONH2}$),\ndióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
+      "statement": "Aminoácidos são oxidata: no organismo formando ureia ($\\ce{H2NCONH2}$),\ndióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
       "solution": "",
       "answer": [
         "$\\pu{650 kJ.mol-1}$\n"
@@ -1014,7 +2035,7 @@
         "$\\pu{740 kJ.mol-1}$\n"
       ]
     },
-    {
+    "2A24": {
       "id": "2A24",
       "statement": "Um calorímetro foi calibrado pela queima de $\\pu{0,825 g}$ de ácido\nbenzoico com excesso de oxigênio. A elevação de temperatura registrada\nfoi de $\\pu{8,60 \\degree C}$. Quando uma amostra com $\\pu{0,725 g}$ de\nribose ($\\ce{C5H10O5}$) é queimada no mesmo calorímetro, a temperatura\naumenta de $\\pu{21,81 \\degree C}$ para $\\pu{22,72 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da energia de combustão\nda ribose.\n",
       "solution": "",
@@ -1032,7 +2053,7 @@
         "$\\pu{850 kJ.mol-1}$\n"
       ]
     },
-    {
+    "2A19": {
       "id": "2A19",
       "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de bromação\nde um mol de $\\ce{propeno}$ ($\\ce{CH3CHCH2}$), formando\n$\\ce{1,2-dibromopropano}$ ($\\ce{CH3CHBrCH2Br}$).\n",
       "solution": "",
@@ -1050,7 +2071,7 @@
         "$\\pu{-202 kJ}$\n"
       ]
     },
-    {
+    "2A10": {
       "id": "2A10",
       "statement": "Um sistema termicamente isolado é composto por dois balões idênticos\nresistentes, porém não inquebráveis, **A** e **B**, conectados por um\ntubo com uma válvula fechada. O balão **A** contém um mol de um gás\nideal monoatômico e **B** encontra-se perfeitamente evacuado. Em um dado\ninstante a válvula é aberta.\n\n**Assinale** a alternativa *correta*.\n",
       "solution": "",
@@ -1068,7 +2089,7 @@
         "A variação da energia interna do sistema será negativa.\n"
       ]
     },
-    {
+    "2A11": {
       "id": "2A11",
       "statement": "**Assinale** a alternativa que mais se aproxima da variação de entalpia\nquando um mol de um gás pressurizado em $\\pu{1 MPa}$ e $\\pu{300 K}$ se\nexpande adiabaticamente contra pressão de $\\pu{0,1 MPa}$ até atingir o\nequilíbrio.\n",
       "solution": "",
@@ -1086,7 +2107,25 @@
         "$\\pu{25 kJ}$\n"
       ]
     },
-    {
+    "2A36": {
+      "id": "2A36",
+      "statement": "Considere os processos a seguir, em $\\pu{298 K}$ e $\\pu{1 atm}$.\n\nCombustão de $\\pu{1 g}$ de etanol formando fuligem. Combustão de\n$\\pu{1 g}$ de etanol formando monóxido de carbono.\n\n**Assinale** a alternativa *correta*.\n",
+      "solution": "",
+      "answer": [
+        "O valor absoluto da variação de entalpia é menor que o valor absoluto da\nvariação de energia interna para o segundo processo.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "Os processos ocorrem com a mesma variação de energia interna.\n",
+        "Os processos ocorrem com a mesma variação de entalpia.\n",
+        "O valor absoluto da variação de energia interna é maior para o primeiro\nprocesso.\n",
+        "O valor absoluto da variação de entalpia é maior que o valor absoluto da\nvariação de energia interna para o primeiro processo.\n",
+        "O valor absoluto da variação de entalpia é menor que o valor absoluto da\nvariação de energia interna para o segundo processo.\n"
+      ]
+    },
+    "2A07": {
       "id": "2A07",
       "statement": "A expansão de um gás ideal em um recipiente de $\\pu{1 L}$ a\n$\\pu{10 atm}$ é realizada de duas maneiras diferentes em temperatura\nconstante.\n\n1.  Expansão contra pressão constante de $\\pu{1 atm}$, levando o volume\n    final do recipiente a $\\pu{10 L}$.\n2.  Expansão contra pressão constante de $\\pu{5 atm}$ até atingir um\n    volume de $\\pu{2 L}$, seguida de expansão contra pressão constante\n    de $\\pu{1 atm}$ atingindo o volume final de $\\pu{10 L}$.\n\n**Assinale** a alternativa *correta*.\n",
       "solution": "",
@@ -1104,7 +2143,7 @@
         "O calor trocado pelo gás é igual em ambos os processos.\n"
       ]
     },
-    {
+    "2A18": {
       "id": "2A18",
       "statement": "**Assinale** a alternativa que mais se aproxima da razão entre a energia\nliberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n",
       "solution": "",
@@ -1122,7 +2161,7 @@
         "$5,0$\n"
       ]
     },
-    {
+    "2A22": {
       "id": "2A22",
       "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de\ndesidrogenação de $\\pu{1 mol}$ de butano, formando buteno.\n",
       "solution": "",
@@ -1140,7 +2179,7 @@
         "$\\pu{+114,0 kJ}$\n"
       ]
     },
-    {
+    "2A13": {
       "id": "2A13",
       "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](images/2A13-1P.svg)\n\nConsidere as proposições.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
       "solution": "",
@@ -1157,7 +2196,56 @@
         "O calor específico do sólido é maior que o calor específico do líquido.\n"
       ]
     },
-    {
+    "2A47": {
+      "id": "2A47",
+      "statement": "Uma massa de óxido ferroso é aquecida a $\\pu{1273 K}$ e, em seguida,\nexposta a uma mistura gasosa de monóxido de carbono e hidrogênio. O\nóxido é reduzido a metal sem qualquer fornecimento adicional de energia.\nO sistema perde $\\pu{4,2 kJ}$ de calor para a vizinhança por mol de\nóxido reduzido.\n\n**Determine** a razão mínima entre as pressões parciais de monóxido de\ncarbono e de hidrogênio na mistura gasosa inicial, para que o processo\nseja autossustentável.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{1,5}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A37": {
+      "id": "2A37",
+      "statement": "**Determine** a entalpia de combustão do decano.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{6343 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A33": {
+      "id": "2A33",
+      "statement": "**Determine** a energia liberada durante a precipitação pluviométrica de\n$\\pu{20 mm}$ de chuva sobre uma área de $\\pu{100 km2}$.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{4.9E15 J}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A34": {
+      "id": "2A34",
+      "statement": "O consumo global anual de energia é cerca de $\\pu{100 terawatts-ano}$,\nsendo $\\pu{30\\%}$ desse valor proveniente da queima de combustíveis\nfósseis. Considere que os combustíveis fósseis são compostos\nmajoritariamente por octano, contendo $\\pu{10 ppm}$ de enxofre. Apenas\n$\\pu{80\\%}$ da energia liberada na combustão completa pode ser\naproveitada.\n\n-   **Apresente** a reação de combustão completa do octano com ar\n    atmosférico.\n-   **Determine** a massa de dióxido de enxofre formada por hora devido\n    à queima de combustíveis fósseis.\n",
+      "solution": "\n",
+      "answer": [
+        "???\n",
+        "$\\pu{7}$ toneladas por hora\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A06": {
       "id": "2A06",
       "statement": "Em um calorímetro adiabático foram adicionados $\\pu{300 g}$ de gelo a\n$\\pu{0 \\degree C}$ e $\\pu{400 g}$ de água a $\\pu{55 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final do\nsistema.\n",
       "solution": "",
@@ -1175,7 +2263,19 @@
         "$\\pu{4 \\degree C}$\n"
       ]
     },
-    {
+    "2A48": {
+      "id": "2A48",
+      "statement": "A ustulação da blenda de zinco é conduzida a $\\pu{1273 K}$ em um reator\ndo tipo leito fluidizado. Sulfeto de zinco misturado com sílica e ar são\nadicionados em fluxo contínuo a $\\pu{273 K}$. A reação libera\n$\\pu{460 kJ}$ de calor por mol de sulfeto a $\\pu{1273 K}$, formando\nóxido de zinco e dióxido de enxofre.\n\n**Determine** a fração molar máxima da sílica na mistura com sulfeto de\nzinco para que o processo seja autossustentável a $\\pu{1273 K}$.\n",
+      "solution": "\n",
+      "answer": [
+        "2/3\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A05": {
       "id": "2A05",
       "statement": "Em um calorímetro foram adicionados $\\pu{20 g}$ de um metal a\n$\\pu{100 \\degree C}$ e $\\pu{50 g}$ de água a $\\pu{22 \\degree C}$. A\ntemperatura final registrada foi $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da capacidade calorífica\ndo metal.\n",
       "solution": "",
@@ -1193,7 +2293,33 @@
         "$\\pu{0,5 J(K.g)-1}$\n"
       ]
     },
-    {
+    "2A31": {
+      "id": "2A31",
+      "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico dessa\nmistura em função da fração mássica de hidrogênio.\n\nFração mássica (%) \\| Poder calorífico ($\\pu{kJ.g-1}$) \\| \\--: \\| \\--:\n\\| $\\pu{2}$ \\| $\\pu{3,0}$ \\| $\\pu{5}$ \\| $\\pu{8,7}$ \\|\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{-190 kJ.mol-1}$\n",
+        "$\\pu{-286 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A38": {
+      "id": "2A38",
+      "statement": "Amostras de $\\pu{5 g}$ de etano e propano foram queimadas\nindependentemente em um calorímetro a $\\pu{298K}$ e $\\pu{1 atm}$,\nliberando $\\pu{260 kJ}$ e $\\pu{250 kJ}$ de energia, respectivamente.\n\n-   **Determine** a energia da ligação $\\ce{C-C}$.\n-   **Determine** a energia da ligação $\\ce{C-H}$.\n",
+      "solution": "\n",
+      "answer": [
+        "???\n",
+        "???\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A23": {
       "id": "2A23",
       "statement": "Uma amostra de $\\pu{0,113 g}$ de benzeno é queimada em um calorímetro\nisobárico (C = $\\pu{551 J.\\degree C-1}$) com excesso de oxigênio. A\nelevação de temperatura registrada foi de $\\pu{8,60 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo benzeno.\n",
       "solution": "",
@@ -1211,7 +2337,69 @@
         "$\\pu{-9,75 MJ}$\n"
       ]
     },
-    {
+    "2A41": {
+      "id": "2A41",
+      "statement": "Considere a variação da entalpia com a temperatura para os reagentes e\nprodutos de uma reação.\n\n![Entalpia por temperatura.](images/2A41-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+      "solution": "",
+      "answer": [
+        "A reação ocorre com absorção de calor entre $T_1$ e $T_2$.\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 2,
+      "choices": [
+        "A reação ocorre com liberação de calor em $T_1$.\n",
+        "A capacidade calorífica dos reagentes é maior que a dos produtos em\n$T_1$.\n",
+        "A reação ocorre com absorção de calor entre $T_1$ e $T_2$.\n",
+        "O valor absoluto da entalpia de reação aumenta com o aumento de\ntemperatura.\n",
+        "A capacidade calorífica dos reagentes e dos produtos aumenta com o\naumento da temperatura.\n"
+      ]
+    },
+    "2A49": {
+      "id": "2A49",
+      "statement": "Monóxido de carbono a $\\pu{473 K}$ é queimado com $90\\%$ de excesso de\nar seco, a $\\pu{773 K}$ e $\\pu{1 atm}$. Os produtos da combustão\nabandonam a câmara de reação a $\\pu{1273 K}$.\n\n**Determine** o calor liberado por mol de monóxido de carbono formado.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{-193 kJ}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A44": {
+      "id": "2A44",
+      "statement": "A técnica de calorimetria exploratória diferencial pode ser aplicada\npara determinar a entalpia de desnaturação uma proteína. Uma amostra\ncontendo $\\pu{1 g}$ da proteína e uma amostra de alumínio são colocadas\nno equipamento. O alumínio recebe uma taxa constante de calor de forma\nque sua temperatura varia $\\pu{1 K.s-1}$. A taxa de calor fornecida à\nproteína varia de forma que a temperatura da proteína e do alumínio\npermanecem iguais em todo o processo. O termograma a seguir apresenta a\ntaxa de calor fornecida à proteína em função de sua temperatura.\n\n![Calor por temperatura.](images/2A44-1P.svg)\n\n-   **Classifique** a desnaturação como endotérmica ou exotérmica.\n-   **Compare** a capacidade calorífica da proteína antes e após a\n    desnaturação.\n-   **Estime** a variação de entalpia da desnaturação.\n",
+      "solution": "\n",
+      "answer": [
+        "Endotérmica\n",
+        "Aumenta\n",
+        "$\\pu{3 J.g-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A27": {
+      "id": "2A27",
+      "statement": "**Assinale** a alternativa que mais se aproxima da massa de butano\nnecessária para aquecer $\\pu{1 L}$ de água de $\\pu{17 \\degree C}$ a\n$\\pu{100 \\degree C}$.\n\nResposta: \\[B\\]\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{7 g}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{3 g}$\n",
+        "$\\pu{7 g}$\n",
+        "$\\pu{14 g}$\n",
+        "$\\pu{21 g}$\n",
+        "$\\pu{28 g}$\n"
+      ]
+    },
+    "2A20": {
       "id": "2A20",
       "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
       "solution": "",
@@ -1229,7 +2417,7 @@
         "$\\pu{260 kJ.mol-1}$\n"
       ]
     },
-    {
+    "2A21": {
       "id": "2A21",
       "statement": "A hidrogenação do monóxido de carbono libera $\\pu{131 kJ}$ por mol de\ngrafita formado.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reforma\nde $\\pu{1 mol}$ de metano com vapor d'água, método industrial para\nprodução de hidrogênio.\n",
       "solution": "",
@@ -1247,7 +2435,7 @@
         "$\\pu{+250 kJ.mol-1}$\n"
       ]
     },
-    {
+    "2A02": {
       "id": "2A02",
       "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado no congelamento de $\\pu{100 g}$ de água a\n$\\pu{0 \\degree C}$ e $\\pu{1070 atm}$.\n",
       "solution": "",
@@ -1265,7 +2453,7 @@
         "$\\pu{910 J}$\n"
       ]
     },
-    {
+    "2A15": {
       "id": "2A15",
       "statement": "Considera a variação da capacidade calorífica de uma substância com a\ntemperatura.\n\n![CP por temperatura.](images/2A15-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
       "solution": "",
@@ -1283,7 +2471,25 @@
         "A variação de entalpia quando essa substância sofre uma reação química\nno estado líquido aumenta com o aumento da temperatura.\n"
       ]
     },
-    {
+    "2A39": {
+      "id": "2A39",
+      "statement": "**Assinale** a alternativa que mais se aproxima da temperatura\nadiabática de chama para a combustão octano líquido com $\\pu{300\\%}$ de\nexcesso de ar atmosférico.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{980 K}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 4,
+      "choices": [
+        "$\\pu{580 K}$\n",
+        "$\\pu{680 K}$\n",
+        "$\\pu{780 K}$\n",
+        "$\\pu{880 K}$\n",
+        "$\\pu{980 K}$\n"
+      ]
+    },
+    "2A03": {
       "id": "2A03",
       "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado quando $\\pu{50 g}$ de ferro reagem com ácido\nclorídrico formando gás hidrogênio e $\\ce{cloreto de ferro (II)}$ a\n$\\pu{25 \\degree C}$.\n",
       "solution": "",
@@ -1301,7 +2507,25 @@
         "$\\pu{5,3 kJ}$\n"
       ]
     },
-    {
+    "2A30": {
+      "id": "2A30",
+      "statement": "Um calorímetro foi calibrado aplicando uma corrente de $\\pu{1 A}$ de uma\nfonte de $\\pu{9 V}$ por $\\pu{150 s}$, sendo registrada uma variação de\ntemperatura de $\\pu{5 \\degree C}$. Em um segundo experimento, um mol de\numa substância foi queimado nesse calorímetro e a variação de\ntemperatura registrada foi de $\\pu{3 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização dessa substância.\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{810 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 3,
+      "choices": [
+        "$\\pu{510 kJ.mol-1}$\n",
+        "$\\pu{610 kJ.mol-1}$\n",
+        "$\\pu{710 kJ.mol-1}$\n",
+        "$\\pu{810 kJ.mol-1}$\n",
+        "$\\pu{910 kJ.mol-1}$\n"
+      ]
+    },
+    "2A17": {
       "id": "2A17",
       "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metano.\n",
       "solution": "",
@@ -1319,7 +2543,7 @@
         "$\\pu{225 kJ.mol-1}$\n"
       ]
     },
-    {
+    "2A09": {
       "id": "2A09",
       "statement": "São descritos abaixo dois experimentos em que há sublimação completa de\numa mesma quantidade de dióxido de carbono no estado sólido a\n$\\pu{25 \\degree C}$:\n\n1.  O processo é realizado em um recipiente hermeticamente fechado, de\n    paredes rígidas e indeformáveis.\n2.  O processo é realizado em cilindro provido de um pistão, cuja massa\n    e desprezível e se desloca sem atrito.\n\n**Assinale** a alternativa *incorreta*.\n",
       "solution": "",
@@ -1337,7 +2561,34 @@
         "A variação de energia interna é igual ao calor no segundo processo.\n"
       ]
     },
-    {
+    "2A32": {
+      "id": "2A32",
+      "statement": "Uma mistura de metano e etileno foi queimada em um reator de\n$\\pu{3,0 L}$ a $\\pu{25 \\degree C}$, em presença de excesso de oxigênio.\nO reator é equipado com uma jaqueta externa, preenchida com $\\pu{1 L}$\nde água, que mantém a temperatura constante em seu interior. A combustão\nfoi realizada a $\\pu{25 \\degree C}$, liberando $\\pu{242,7 kcal}$, e\nreduzindo a pressão em $\\pu{16,3 atm}$.\n\n-   **Determine** a energia interna de combustão do metano e do eteno.\n-   **Determine** a massa de metano na mistura inicial.\n",
+      "solution": "\n",
+      "answer": [
+        "metano: $\\pu{-891,2 kJ.mol-1}$; eteno: $\\pu{-1412,6 kJ.mol-1}$\n",
+        "$\\pu{12 g}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A45": {
+      "id": "2A45",
+      "statement": "Dados termodinâmicos podem ser utilizados para quantificar a\nestabilidade de compostos aromáticos.\n\n-   **Determine** a entalpia de hidrogenação do cicloexeno.\n-   **Determine** a entalpia de hidrogenação do benzeno.\n-   **Determine** a entalpia de ressonância do benzeno.\n",
+      "solution": "\n",
+      "answer": [
+        "$\\pu{-120 kJ.mol-1}$\n",
+        "$\\pu{-208 kJ.mol-1}$\n",
+        "$\\pu{18 kJ.mol-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": -1,
+      "choices": []
+    },
+    "2A12": {
       "id": "2A12",
       "statement": "**Assinale** a alternativa que mais se aproxima da variação de entalpia\nquando $\\pu{500 J}$ de energia são transferidos em volume constante a\numa amostra contendo $\\pu{0,9 mol}$ de oxigênio.\n",
       "solution": "",
@@ -1354,6 +2605,24 @@
         "$\\pu{500 J}$\n",
         "$\\pu{700 J}$\n"
       ]
+    },
+    "2A28": {
+      "id": "2A28",
+      "statement": "O poder calorífico superior (PCS) e o poder calorífico inferior (PCI)\nsão definidos como a energia liberada na combustão completa de uma\nsubstância formando água líquida e gasosa, respectivamente.\n\n**Assinale** a alternativa que mais se aproxima do PCI do etanol\n($PCS = \\pu{30 MJ.kg-1}$).\n",
+      "solution": "",
+      "answer": [
+        "$\\pu{27 MJ.kg-1}$\n"
+      ],
+      "data": [],
+      "prop": false,
+      "obj": 1,
+      "choices": [
+        "$\\pu{21 MJ.kg-1}$\n",
+        "$\\pu{27 MJ.kg-1}$\n",
+        "$\\pu{30 MJ.kg-1}$\n",
+        "$\\pu{33 MJ.kg-1}$\n",
+        "$\\pu{39 MJ.kg-1}$\n"
+      ]
     }
-  ]
+  }
 }
