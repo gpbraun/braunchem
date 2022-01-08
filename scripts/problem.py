@@ -258,12 +258,13 @@ def file2problem(path):
     # problema objetivo: V ou F
     prop_list = soup.find('ol', class_='task-list')
     if prop_list:
-        true_kwargs = []
+        true_props = []
         for index, item in enumerate(prop_list.find_all('li')):
             check_box = item.find('input').extract()
             if check_box.has_attr('checked'):
-                true_kwargs.append(index)
-        kwargs['choices'], kwargs['answer'], kwargs['obj'] = autokwargs(true_kwargs)
+                true_props.append(index)
+        kwargs['choices'], kwargs['answer'], kwargs['obj'] = \
+            autoprops(true_props)
 
         if solution:
             kwargs['solution'] = convert.html2md(solution.extract())

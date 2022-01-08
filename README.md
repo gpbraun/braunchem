@@ -56,4 +56,4 @@ O **comando** de questões
 
 ## Dados Termodinâmicos
 
-Os dados termodinâmicos estão disponíveis nessa [planilha](https://docs.google.com/spreadsheets/d/1lNYtEriCuBZ2hztBSJu8akMtKyZMWEe4iaoBbXvlnc4/edit?usp=sharing) para consulta.
+Os dados termodinâmicos estão disponíveis [nesta planilha](https://docs.google.com/spreadsheets/d/1lNYtEriCuBZ2hztBSJu8akMtKyZMWEe4iaoBbXvlnc4/edit?usp=sharing) para consulta.
