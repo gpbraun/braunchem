@@ -145,15 +145,15 @@
                 }
                 { ptsans }
                 {
-                    \RequirePackage { lmodern }
-                    \RequirePackage { cascadia-code }
-                    \RequirePackage [ scaled ] { PTSans }
+                    %\RequirePackage { lmodern }
+                    %\RequirePackage { cascadia-code }
+                    %\RequirePackage [ scaled ] { PTSans }
                 }
                 { paratype }
                 {
-                    \RequirePackage { paratype }
-                    \RequirePackage [ scaled   ] { cascadia-code }
-                    \RequirePackage { eulervm  }
+                    %\RequirePackage { paratype }
+                    %\RequirePackage [ scaled   ] { cascadia-code }
+                    %\RequirePackage { eulervm  }
                 }  
                 { helvetica }
                 { 
@@ -180,7 +180,7 @@
 %============================================================%
 
 \RequirePackage [T1] { fontenc }
-\RequirePackage { microtype }
+%\RequirePackage { microtype }
 
 %============================================================%
 %   KOMASCRIPT FEATURES
@@ -201,10 +201,12 @@
 %   MATH
 %============================================================%
 
-\RequirePackage { mathtools, amssymb }
+\RequirePackage { mathtools, amssymb, textcomp }
 
 \numberwithin { equation     } { section }
 \mathtoolsset { showonlyrefs }
+
+\cs_set_eq:NN \degree \textdegree
 
 %============================================================%
 %   SI UNITS
@@ -221,6 +223,8 @@
         round-precision = 3,
         drop-zero-decimal,
     }
+
+\cs_set_eq:NN \pu \mathrm
 
 %============================================================%
 %   CHEMISTRY
@@ -1032,9 +1036,9 @@
 
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
-		pensi = \file_input:n { images/logos/pensi/pensi-logo.tex },
-		ime   = \graphics_include:n { images/logos/ime/ime-logo.pdf },
-		ita   = \graphics_include:n { images/logos/ita/ita-logo.pdf },
+		pensi = \file_input:n { images/pensi-logo.tex },
+		ime   = \graphics_include:n { images/ime-logo.pdf },
+		ita   = \graphics_include:n { images/ita-logo.pdf },
 	}
 
 %============================================================%
@@ -1241,7 +1245,7 @@
 \RenewDocumentEnvironment { figure } {} 
 { 
     \group_begin:
-    \cs_set:Npn \caption #1 { \relax }
+    \cs_set:Npn \caption ##1 { \relax }
     \begin{center} 
     
 } 
@@ -1253,7 +1257,7 @@
 \RenewDocumentEnvironment { table  } {} 
 { 
     \group_begin:
-    \cs_set:Npn \caption #1 { \relax }
+    \cs_set:Npn \caption ##1 { \relax }
     \begin{center} 
 } 
 { 
@@ -1456,7 +1460,7 @@
 \DeclareBraunTemplate { braun }
     {
         DIV = 23,
-        font = paratype,
+        font = lmodern,
         emph = \itshape,
         page / headfoot-font = \sffamily ,
         page / footer / sepline = true,

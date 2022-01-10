@@ -3,14 +3,15 @@
 #
 
 import os
-from sys import exit
 
+from sys import exit
 from subprocess import run, DEVNULL
 from shutil import move, copy, SameFileError
 
 from bs4 import BeautifulSoup
 from pypandoc import convert_text
 from markdown import Markdown
+from markdownify import markdownify
 
 
 MD = Markdown(extensions=['pymdownx.tasklist'])
@@ -22,15 +23,16 @@ def md2soup(content):
 
 def html2md(content):
     # convert md to html using pandoc and parse as soup
-    return convert_text(content, 'md', format='html+tex_math_dollars+raw_tex')
+    #return markdownify(str(content))
+    return convert_text(str(content), 'md', format='html+tex_math_dollars+raw_tex')
 
 
 def md2tex(content):
     # convert html string to tex using pandoc
     return convert_text(
-        str(content), 'tex',
-        format='markdown+tex_math_dollars+raw_tex',
-    )
+       str(content), 'tex',
+       format='markdown+tex_math_dollars+raw_tex',
+    ).replace('\\tightlist', '')
 
 
 def copyr(loc, dest):
@@ -48,22 +50,22 @@ def tex2pdf(tex, filename, path='', clear=True):
     with open(f'{filename}.tex', 'w') as f:
         f.write(tex)
 
-    run(
-        ['pdflatex', '-interaction=nonstopmode', f'{filename}.tex'],
-        stdout=DEVNULL
-    )
+    # run(
+    #     ['pdflatex', '-interaction=nonstopmode', f'{filename}.tex'],
+    #     stdout=DEVNULL,
+    # )
 
-    if not os.path.exists(f'{filename}.pdf'):
-        exit(f"Falha na compilação do arquivo '{filename}.tex'!")
+    # if not os.path.exists(f'{filename}.pdf'):
+    #     exit(f"Falha na compilação do arquivo '{filename}.tex'!")
 
-    # clear output files
-    if clear:
-        for ext in ['.tex', '.aux', '.log', '.out']:
-            os.remove(filename + ext)
+    # # clear output files
+    # if clear:
+    #     for ext in ['.tex', '.aux', '.log', '.out']:
+    #         os.remove(filename + ext)
 
     os.chdir(cwd)
 
-    move(
-        os.path.join('template', f'{filename}.pdf'),
-        os.path.join(path, f'{filename}.pdf')
-    )
+    # move(
+    #     os.path.join('template', f'{filename}.pdf'),
+    #     os.path.join(path, f'{filename}.pdf')
+    # )

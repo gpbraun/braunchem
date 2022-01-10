@@ -2,153 +2,31 @@
 # PROBLEM CLASS
 #
 
+
 import os
-import re
-import csv
-from pathlib import Path
 
 from attr import frozen, Factory
 
-from frontmatter import load
+from frontmatter import load, loads
 
 import convert
 import latex
 
-#
-# DATA CLASS
-#
+import base64
+
+from data import read_datasets
 
 
-@frozen
-class DataType:
-    name: str
-    symbol: str
-    unit: str
-
-
-DATATYPES = {
-    # ORGANIC/INORGANIC
-    'Hf': DataType(
-        'Entalpia de formação do ', '\\Delta H_\\text{f}',  'kJ.mol-1'
-    ),
-    'Gf': DataType(
-        'Entalpia livre de formação do ', '\\Delta G_\\text{f}', 'kJ.mol-1'
-    ),
-    'CP': DataType(
-        'Capacidade calorífica do ', 'C_P', 'J.K-1.mol-1'
-    ),
-    'S':  DataType(
-        'Entropia do ', 'S', 'J.K-1.mol-1'
-    ),
-    'Hc': DataType(
-        'Entalpia de combustão do ', '\\Delta H_\\text{c}', 'kJ.mol-1'
-    ),
-    # BONDS
-    'HL': DataType(
-        'Entalpia da ligação ', '\\Delta H_\\text{L}', 'kJ.mol-1'
-    ),
-    # ELEMENTS
-    'Tfus': DataType(
-        'Temperatura de fusão do ', 'T_\\text{fus}', '\\degree C'
-    ),
-    'Phi': DataType(
-        'Função trabalho do ', '\\Phi', 'eV'
-    ),
-}
-
-
-@frozen
-class Data:
-    id: str
-    mol: str
-    state: str
-    value: float
-    unit: str
-    name: str
-    symbol: str
-
-    def astex(self):
-        # return data in sunitx format
-        return f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
-
-
-@frozen
-class DataSet:
-    dataset: dict = Factory(dict)
-
-    def append_csv(self):
-
-        return self
-
-    def filter(self, data_ids):
-        return [self.dataset[i] for i in data_ids]
-
-
-RE_DATA_MOL = re.compile(r'(.*)\((.*)\)')
-
-
-def cell2data(id, datatype, datamol, value):
-    # return data object from csv cell
-    dt = DATATYPES[datatype]
-
-    value = value.replace('.', ',')
-    unit = dt.unit
-
-    mol_match = re.match(RE_DATA_MOL, datamol)
-    if mol_match:
-        mol, state = mol_match.group(1), mol_match.group(2)
-        name = dt.name + f'\\ce{{{mol}}} ({state})'
-        symbol = dt.symbol + f'(\\ce{{{mol}, {{{state}}}}})'
-    else:
-        state = ''
-        name = dt.name + f'\\ce{{{datamol}}}'
-        symbol = dt.symbol + f'(\\ce{{{datamol}}})'
-
-    return Data(id, datamol, state, value, unit, name, symbol)
-
-
-def csv2dataset(csv_path):
-    dataset = {}
-
-    if not os.path.exists(csv_path):
-        print(f"O diretório '{csv_path}' não existe!")
-        return
-
-    with open(csv_path, newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-
-        for row in reader:
-            for prop in reader.fieldnames[1:]:
-                if row[prop]:
-                    id = f"{prop}-{row['id']}"
-                    dataset[id] = cell2data(id, prop, row['id'], row[prop])
-
-    return dataset
-
-
-def get_datasets(db_path):
-    dataset = {}
-
-    for root, _, files in os.walk(db_path):
-        for f in files:
-            path = Path(os.path.join(root, f))
-            if path.suffix == '.csv':
-                dataset.update(csv2dataset(path))
-
-    return dataset
-
-
-DATA = DataSet(get_datasets('database/data'))
+DATA = read_datasets('database/data')
 
 
 @frozen
 class Problem:
-    id: str
+    id_: str
     statement: str
     solution: str = ''
     answer: list = Factory(list)
     data: list = Factory(list)
-    prop: bool = False
     obj: int = -1
     choices: list = Factory(list)
 
@@ -186,7 +64,7 @@ class Problem:
     def astex(self):
         # return problem as tex
         p = self.tex_statement() + self.tex_data()
-        return latex.env('problem', f'[{self.id}]{p}')
+        return latex.env('problem', f'[{self.id_}]{p}')
 
 
 @frozen
@@ -214,12 +92,33 @@ class ProblemSet:
         return header + latex.enum('answers', answers)
 
 
-def file2problem(path):
-    kwargs = {}
-    # get YAML data and contents
-    kwargs['id'] = path.stem
+def link2problem(cur, link):
+    # get problem contents from link
+    bytes_id = bytes.hex(base64.urlsafe_b64decode(link+"=="))
+    p_id = '-'.join(
+        [bytes_id[x:y]
+            for x, y in [(0, 8), (8, 12), (12, 16), (16, 20), (20, 32)]]
+    )
+    cur.execute(f'''SELECT * FROM "Notes" WHERE id = {"'"+p_id+"'"}''')
+    query_results = cur.fetchall()
 
+    # get YAML data and contents
+    pfile = loads(query_results[0][2])
+    print(f"Problema carregado do link: '{link}'")
+    return problem_contents(link, pfile)
+
+
+def file2problem(path):
+    # get YAML data and contents
     pfile = load(path)
+    print(f"Problema carregado do arquivo: '{path}'")
+    return problem_contents(path.stem, pfile)
+
+
+def problem_contents(id_, pfile):
+    kwargs = {}
+    kwargs['id_'] = id_
+
     soup = convert.md2soup(pfile.content)
 
     # get problem data
@@ -489,3 +388,11 @@ def autoprops(true_props):
         obj = 4
     answer = choices[obj]
     return choices, answer, obj
+
+
+def main():
+    print(0)
+
+
+if __name__ == "__main__":
+    main()

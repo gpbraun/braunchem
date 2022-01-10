@@ -11,8 +11,7 @@
 
 import os
 
-import attr
-from attr import frozen, Factory, asdict, fields
+from attr import frozen, Factory, asdict
 
 # import pickle
 from json import dump as json_dump
@@ -22,7 +21,7 @@ from pathlib import Path
 
 import convert
 from problem import ProblemSet, file2problem
-from topic import Topic, List
+from topic import Topic, file2topic, List
 
 
 #
@@ -42,14 +41,10 @@ class Arsenal:
         #     pickle.dump(self, f)
 
         # dump contents to json
-        filters = attr.filters.exclude(
-            fields(Topic).path,
-        )
-
         json_file = os.path.join(self.path, 'arsenal.json')
         with open(json_file, 'w') as f:
             json_dump(
-                asdict(self, filter=filters), f, indent=2, ensure_ascii=False
+                asdict(self), f, indent=2, ensure_ascii=False
             )
 
     def filter(self, title, problem_ids):
@@ -59,12 +54,12 @@ class Arsenal:
     def aspdf(self, topic_ids):
         # compile list pdf for lists with id in topic_ids
         for topic in self.topics:
-            if topic.id in topic_ids:
+            if topic.id_ in topic_ids:
                 psets = [self.filter(t, p) for t, p in topic.problems.items()]
 
-                this_list = List(topic.id, topic.title, psets)
+                this_list = List(topic.id_, topic.title, psets)
                 print('compiling latex list')
-                convert.tex2pdf(this_list.astex(), topic.id, path='archive')
+                convert.tex2pdf(this_list.astex(), topic.id_, path='archive')
 
 
 def get_file_paths(db_path):
@@ -98,11 +93,7 @@ def load_arsenal(path):
 
     topic_files, problem_files = get_file_paths(path)
 
-    topics = []
-    for t in topic_files:
-        print(t)
-        topics.append(Topic(t))
-    topics = [Topic(t) for t in topic_files]
+    topics = [file2topic(t) for t in topic_files]
     problems = {p.stem: file2problem(p) for p in problem_files}
 
     ars = Arsenal(path, topics, problems)
@@ -115,10 +106,6 @@ def load_arsenal(path):
     #         print("Arquivo '%s' carregado" % pickle_file)
     #         return pickle.load(f)
     return ars
-
-#
-# PDF LIST CLASS
-#
 
 
 #
