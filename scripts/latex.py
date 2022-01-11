@@ -5,7 +5,7 @@
 import re
 
 
-def cmd(name, content=[], end=''):
+def cmd(name, content=[], end=' '):
     # latex command
     if content:
         tex_args = ''.join(f'{{{arg}}}' for arg in content)
@@ -32,19 +32,31 @@ def section(content, level=0, newpage=False, numbered=True):
 TEX_LEN = re.compile(r'\\\w+|[\w\d\=\%]|\d')
 
 
-def enum(name, items, cols=0, auto_cols=False):
+def latex_len(tex_str):
+    count = 0
+    for match in re.findall(TEX_LEN, tex_str):
+        if match in ['=', '\\rightarrow']:
+            count += 2
+        elif match in ['\\frac', '_']:
+            count -= 1
+        else:
+            count += 1
+    return count
+
+
+def enum(name, items, cols=0, auto_cols=False, sep_cmd='item'):
     # latex enumerate
     if auto_cols:
-        max_length = max([len(re.findall(TEX_LEN, i)) for i in items])
+        max_length = max([latex_len(i) for i in items])
         if max_length < 4:
             cols = 5
-        elif max_length < 7:
+        elif max_length < 8:
             cols = 3
         elif max_length < 20:
             cols = 2
 
     cols = f'({cols})' if cols else ''
-    content = '\n'.join([f'\\item {i}' for i in items])
+    content = '\n'.join([cmd(sep_cmd) + i for i in items])
     return env(name, f'{cols}{content}')
 
 

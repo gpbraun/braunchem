@@ -1338,9 +1338,12 @@
 
 \NewTasksEnvironment[
     label  = {\MiniBox{\Alph*}},
+    item-indent = 3em,
+    after-item-skip = 2\itemsep,
+    label-width = 1.5em,
 	label-align = right,
     label-offset = 0.7em,
-]{choices}[\item]
+]{choices}[\task]
 
 %%% DATALIST
 
@@ -1523,6 +1526,7 @@
     {
         DIV = 23,
         font = paratype,
+        fontsize = 9pt,
         emph = \itshape,
         page / headfoot-font = \sffamily ,
         page / footer / sepline = true,

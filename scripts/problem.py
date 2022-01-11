@@ -50,7 +50,9 @@ class Problem:
         if not self.is_obj():
             return ''
         tex_choices = [convert.md2tex(c) for c in self.choices]
-        return latex.enum('choices', tex_choices, auto_cols=True)
+        return latex.enum(
+            'choices', tex_choices, auto_cols=True, sep_cmd='task'
+        )
 
     def tex_answer(self):
         if not self.answer:
@@ -353,7 +355,7 @@ def autoprops(true_props):
         obj = 1
     if true_props == [0, 1, 2]:
         choices = [
-            '1, 2 e 3',
+            '**1**, **2** e **3**',
             '1, 2 e 3',
             '1, 2 e 3',
             '1, 2 e 3',
