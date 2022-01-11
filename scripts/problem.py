@@ -2,6 +2,9 @@
 # DOME - Gabriel Braun, 2021
 #
 
+# TODO:
+# - Gerar o "elements"
+
 from attr import frozen, Factory
 from frontmatter import load, loads
 from pathlib import Path
@@ -11,6 +14,7 @@ import convert
 import latex
 from data import read_datasets
 
+from multiprocessing import Pool
 
 DATA = read_datasets('database/data')
 
@@ -76,14 +80,12 @@ def link2problem(cur, link):
 
     # get YAML data and contents
     pfile = loads(query_results[0][2])
-    print(f"Problema carregado do link: '{link}'")
     return problem_contents(link, Path(), pfile)
 
 
 def file2problem(path):
     # get YAML data and contents
     pfile = load(path)
-    print(f"Problema carregado do arquivo: '{path}'")
     return problem_contents(path.stem, path.resolve(), pfile)
 
 
@@ -190,7 +192,8 @@ class ProblemSet:
 
 def files2problemset(path):
     # get problemset from list of paths
-    return ProblemSet([file2problem(p) for p in path])
+    pool = Pool()
+    return ProblemSet(pool.map(file2problem, path))
 
 
 def autoprops(true_props):
