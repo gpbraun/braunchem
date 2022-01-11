@@ -19,33 +19,38 @@ class Subtopic:
 @frozen
 class Topic:
     id_: str
-    title: str = ""
-    author: str = "Gabriel Braun"
-    affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
+    title: str = 'Química'
+    author: str = 'Gabriel Braun'
+    affiliation: str = 'Colégio e Curso Pensi, Coordenação de Química'
+    template: str = 'braun, twocolumn'
+    answers: bool = False
+    solutions: bool = False
     problems: dict = Factory(dict)
     subtopics: list = Factory(list)
 
-    def astex(self, template='braun, twocolumn'):
-        # return tex file for compiling list as pdf
-        preamble = latex.cmd(f'documentclass[{template}]', ['braun'])
+    def latex(self):
+        # return tex file for compiling problem sheet as pdf
+        preamble = latex.cmd(f'documentclass[{self.template}]', ['braun'])
 
-        for prop in ['title', 'affiliation', 'author', 'logo']:
+        for prop in ['title', 'affiliation', 'author']:
             preamble += '\n' + latex.cmd(prop, [getattr(self, prop)])
-
-        preamble += '\n' + latex.cmd('dbpath', ['../database'])
 
         answers = latex.section('Gabarito', newpage=False)
         problems = '\n'
-        for pset in self.problems:
-            problems += pset.tex_statements()
-            answers += pset.tex_answers()
+        for name, pset in self.problems.items():
+            problems += pset.tex_statements(title=name)
+            answers += pset.tex_answers(title=name)
 
         body = latex.cmd('maketitle') + latex.pu2qty(problems + answers)
 
         return preamble + latex.env('document', body)
 
+    def compile_pdf(self):
+        # generate problem sheet pdf
+        convert.tex2pdf(self.latex(), self.id_, path='archive')
 
-def file2topic(path):
+
+def file2topic(path, problemset):
     kwargs = {}
     # get YAML data and contents
     id_ = path.stem
@@ -54,9 +59,15 @@ def file2topic(path):
     tfile = load(path)
     soup = convert.md2soup(tfile.content)
 
-    for p in ['title', 'problems']:
+    for p in ['title', 'author', 'affiliation']:
         if p in tfile:
             kwargs[p] = tfile[p]
+
+    if 'problems' in tfile:
+        print(tfile['problems'])
+        kwargs['problems'] = {
+            t: problemset.filter(ids) for t, ids in tfile['problems'].items()
+        }
 
     # get subtopics items and abilities from HTML tags
     all_subtopics = soup.find_all('h1')
@@ -82,29 +93,3 @@ def file2topic(path):
         )
 
     return Topic(**kwargs)
-
-
-@frozen
-class List:
-    id: str
-    title: str
-    problem_sets: dict
-
-    def astex(self, template='braun, twocolumn'):
-        # return tex file for compiling list as pdf
-        preamble = latex.cmd(f'documentclass[{template}]', ['braun'])
-
-        for prop in ['title', 'affiliation', 'author', 'logo']:
-            preamble += '\n' + latex.cmd(prop, [getattr(self, prop)])
-
-        preamble += '\n' + latex.cmd('dbpath', ['../database'])
-
-        answers = latex.section('Gabarito', newpage=False)
-        problems = '\n'
-        for pset in self.problem_sets:
-            problems += pset.tex_statements()
-            answers += pset.tex_answers()
-
-        body = latex.cmd('maketitle') + latex.pu2qty(problems + answers)
-
-        return preamble + latex.env('document', body)

@@ -4,8 +4,6 @@
 
 # TODO:
 # - Gerar o "elements"
-# - Usar o GitHub Actions para rodar esse script automaticamente
-
 
 # REQUIREMENTS
 
@@ -19,9 +17,8 @@ from json import dump as json_dump
 from sys import exit
 from pathlib import Path
 
-import convert
-from problem import Problem, ProblemSet, file2problem
-from topic import Topic, file2topic, List
+from problem import Problem, ProblemSet, files2problemset
+from topic import Topic, file2topic
 
 
 #
@@ -30,49 +27,37 @@ from topic import Topic, file2topic, List
 
 @frozen
 class Arsenal:
-    path: str
+    problems: ProblemSet
     topics: list[Topic] = Factory(list)
-    problems: dict = Factory(dict)
 
-    def dump(self):
+    def dump(self, path):
         # dump contents to pickle
         # pickle_file = os.path.join(self.path, 'arsenal.p')
         # with open(pickle_file, 'wb') as f:
         #     pickle.dump(self, f)
 
         # dump contents to json
-        flter = filters.exclude(fields(Problem).path)
-        json_file = os.path.join(self.path, 'arsenal.json')
+        flter = filters.exclude(
+            fields(Problem).path,
+            fields(Arsenal).problems
+        )
+
+        json_file = os.path.join(path, 'arsenal.json')
+
         with open(json_file, 'w') as f:
             json_dump(
                 asdict(self, filter=flter), f, indent=2, ensure_ascii=False
             )
 
-    def filter(self, title, problem_ids):
-        # get ProblemSet from list of ids
-        return ProblemSet(title, [self.problems[i] for i in problem_ids])
-
-    def aspdf(self, topic_ids):
-        # compile list pdf for lists with id in topic_ids
+    def generate_pdfs(self):
         for topic in self.topics:
-            if topic.id_ in topic_ids:
-                psets = [self.filter(t, p) for t, p in topic.problems.items()]
-
-                this_list = List(topic.id_, topic.title, psets)
-                print('compiling latex list')
-                convert.tex2pdf(this_list.astex(), topic.id_, path='archive')
+            topic.compile_pdf()
 
 
 def get_file_paths(db_path):
     # get the path of all problems and topics
-    topic_files = []
     problem_files = []
-
-    for root, _, files in os.walk(os.path.join(db_path, 'topics')):
-        for f in files:
-            path = Path(os.path.join(root, f))
-            if path.suffix == '.md':
-                topic_files.append(path)
+    topic_files = []
 
     for root, _, files in os.walk(os.path.join(db_path, 'problems')):
         for f in files:
@@ -80,12 +65,14 @@ def get_file_paths(db_path):
             # problems
             if path.suffix == '.md':
                 problem_files.append(path)
-            # topics
-            elif path.suffix in ['.jpg', '.jpeg', '.svg', '.pdf', '.tex']:
-                convert.copy_r(path, os.path.join(
-                    db_path, 'images', path.name))
 
-    return topic_files, problem_files
+    for root, _, files in os.walk(os.path.join(db_path, 'topics')):
+        for f in files:
+            path = Path(os.path.join(root, f))
+            if path.suffix == '.md':
+                topic_files.append(path)
+
+    return problem_files, topic_files
 
 
 def load_arsenal(path):
@@ -93,14 +80,14 @@ def load_arsenal(path):
     if not os.path.exists(path):
         exit(f"O diretório '{path}' não existe!")
 
-    topic_files, problem_files = get_file_paths(path)
+    problem_files, topic_files = get_file_paths(path)
 
-    topics = [file2topic(t) for t in topic_files]
-    problems = {p.stem: file2problem(p) for p in problem_files}
+    problem_set = files2problemset(problem_files)
+    topics = [file2topic(t, problem_set) for t in topic_files]
 
-    ars = Arsenal(path, topics, problems)
+    ars = Arsenal(problem_set, topics)
 
-    ars.dump()
+    ars.dump(path)
 
     # pickle_file = os.path.join(path, 'arsenal.p')
     # if os.path.exists(pickle_file):
@@ -117,7 +104,7 @@ def load_arsenal(path):
 
 def main():
     data = load_arsenal('database')
-    data.aspdf(['1A', '2A'])
+    data.generate_pdfs()
 
 
 if __name__ == "__main__":

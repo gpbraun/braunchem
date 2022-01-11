@@ -5,31 +5,35 @@
 import re
 
 
-def cmd(name, content=[]):
+def cmd(name, content=[], end=''):
+    # latex command
     if content:
         tex_args = ''.join(f'{{{arg}}}' for arg in content)
-        return f'\\{name}{tex_args}'
+        return f'\\{name}{tex_args}' + end
 
-    return f'\\{name}'
+    return f'\\{name}' + end
 
 
 def env(env, content):
+    # latex environment
     return f'\n\n\\begin{{{env}}}\n{content}\n\\end{{{env}}}\n'
 
 
 def section(content, level=0, newpage=False, numbered=True):
+    # latex section
     if not content:
         return ''
 
     newpage_cmd = cmd('newpage') if newpage else ''
     section_cmd = level*'sub' + ('section' if numbered else 'section*')
-    return newpage_cmd + cmd(section_cmd, [content]) + '\n'
+    return newpage_cmd + cmd(section_cmd, [content], end='\n')
 
 
 TEX_LEN = re.compile(r'\\\w+|[\w\d\=\%]|\d')
 
 
 def enum(name, items, cols=0, auto_cols=False):
+    # latex enumerate
     if auto_cols:
         max_length = max([len(re.findall(TEX_LEN, i)) for i in items])
         if max_length < 4:
@@ -41,7 +45,7 @@ def enum(name, items, cols=0, auto_cols=False):
 
     cols = f'({cols})' if cols else ''
     content = '\n'.join([f'\\item {i}' for i in items])
-    return env(name, f'{cols}\n{content}')
+    return env(name, f'{cols}{content}')
 
 
 PU_CMD = re.compile(r'\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-]*)\s*\}')

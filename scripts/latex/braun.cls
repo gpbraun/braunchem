@@ -32,10 +32,10 @@
 
 \ExplSyntaxOn
 
-\tl_const:Nn \c_brauntex_date_tl                 {2021/12/12}
-\tl_const:Nn \c_brauntex_version_major_number_tl {6}
-\tl_const:Nn \c_brauntex_version_minor_number_tl {3}
-\tl_const:Nn \c_brauntex_version_subrelease_tl   {x}
+\tl_const:Nn \c_brauntex_date_tl                 {2022/02/02}
+\tl_const:Nn \c_brauntex_version_major_number_tl {7}
+\tl_const:Nn \c_brauntex_version_minor_number_tl {0}
+\tl_const:Nn \c_brauntex_version_subrelease_tl   {a}
 \tl_const:Nx \c_brauntex_version_number_tl
 	{
 			\c_brauntex_version_major_number_tl .
@@ -765,8 +765,9 @@
             {
                 \Large \textbf {#2}
             }
-            { ime }
+            { IME }
             {
+                \skip_vertical:n {-1em}
                 \IMEaltHeader 
                     { 
                         \bfseries \normalsize  \text_uppercase:n {#2} 
@@ -787,7 +788,7 @@
                 header/plain,
                 footer/plain,
                 boxed = true,
-                section/name = ime,
+                section/name = IME,
             }
     }
 
@@ -812,8 +813,6 @@
                 { csv    } { \seq_use:Nn #1   { ,~  } }
                 { break  } { \seq_use:Nn #1   { \\  } }
 				{ normal } { \seq_use:Nnnn #1 { ~e~ } { ,~ } { ,~e~ } }
-				%{numbered-break}
-				%{et-al}
             }
     }
 \cs_generate_variant:Nn \braun_select_sep:Nn {cv}
@@ -1416,15 +1415,43 @@
 
         \keys_set:nn { braun/problem } {path = , id = , #1}
 
+        \BraunNoWarning
         \dim_zero:N \parindent
         \braun_begin_problem_box:
         %% HEADER
-        \BraunHeader
-            [ \texttt{ \color{color-2} \l_braun_problem_id_tl } ]
-            { 
-                \small\sffamily\bfseries
-                \text_uppercase:n { \l_braun_problem_name_tl } ~
-                \arabic { section } . \arabic { problem_counter }
+        \str_case:VnF \l_braun_problem_template_tl
+            {
+                { braun }
+                { 
+                    \BraunHeader
+                        [ \texttt{ \color{color-2} \l_braun_problem_id_tl } ]
+                        { 
+                            \small\sffamily\bfseries
+                            \text_uppercase:n { \l_braun_problem_name_tl } ~
+                            \arabic { section } . \arabic { problem_counter }
+                        }
+                }
+                { IME }
+                {
+                    \skip_vertical:n {-1em}
+                    \IMEHeader
+                        [
+                            \sffamily\bfseries
+                            \skip_horizontal:n {2em}
+                            Valor: ~  
+                            \num [ detect-all, drop-zero-decimal=false ] { 1.00 }
+                            \skip_horizontal:n {2em}
+                        ]
+                        {
+                            \sffamily\bfseries
+                            \arabic { problem_counter }
+                            \textsuperscript { a } ~
+                            \text_uppercase:n { \l_braun_problem_name_tl }
+                        }
+                }       
+            }
+            {
+                \paragraph{ \l_braun_problem_name_tl ~ \arabic { problem_counter } }   
             }
     } 
     {
@@ -1521,6 +1548,7 @@
         maketitle / affiliation / font = \sffamily\slshape ,
         maketitle / date / value = \int_use:N \c_sys_year_int ,
         maketitle / date / font  = \Large\bfseries ,
+        maketitle / logo / value = pensi,
         problems / name = Problema,
         problems / template = braun,
     }
