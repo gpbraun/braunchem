@@ -145,15 +145,13 @@
                 }
                 { ptsans }
                 {
-                    %\RequirePackage { lmodern }
-                    %\RequirePackage { cascadia-code }
-                    %\RequirePackage [ scaled ] { PTSans }
+                    \RequirePackage { lmodern }
+                    \RequirePackage [ scaled ] { PTSans }
                 }
                 { paratype }
                 {
-                    %\RequirePackage { paratype }
-                    %\RequirePackage [ scaled   ] { cascadia-code }
-                    %\RequirePackage { eulervm  }
+                    \RequirePackage { paratype }
+                    \RequirePackage { eulervm  }
                 }  
                 { helvetica }
                 { 
@@ -1036,9 +1034,9 @@
 
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
-		pensi = \file_input:n { images/pensi-logo.tex },
-		ime   = \graphics_include:n { images/ime-logo.pdf },
-		ita   = \graphics_include:n { images/ita-logo.pdf },
+		pensi = \file_input:n { pensi-logo.tex },
+		ime   = \graphics_include:n { ime-logo.pdf },
+		ita   = \graphics_include:n { ita-logo.pdf },
 	}
 
 %============================================================%
@@ -1185,85 +1183,111 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\RequirePackage { svg }
+
 \keys_define:nn { braun/graphics }
 	{
         fps .code:n = { \cs_set_protected:Npn \fps@figure {#1} },
         fps .initial:n = H,
 
         width .dim_set:N = \l_braun_graphics_width_dim,
-		width .initial:n = { \linewidth },
+		width .initial:n = 5cm,
 
 		height .dim_set:N = \l_braun_graphics_height_dim,
-		height .initial:n = 15cm,
+		height .initial:n = 5cm,
+
+        path .tl_set:N = \g_braun_graphics_path_tl,
+        path .initial:n = ,
+
 	}
+
+% #1 -> coffin
+% #2 -> content
+\cs_set:Nn \braun_graphics_box:Nn
+{ 
+    \hcoffin_set:Nn #1
+        {
+            \group_begin:
+                \hbox_set:Nn \l_tmpa_box {#2}
+                \box_autosize_to_wd_and_ht:NVV \l_tmpa_box 
+                    \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
+                \box_use_drop:N \l_tmpa_box
+            \group_end:
+        }   
+}
 
 % #1 -> coffin
 % #2 -> figure path
 \cs_set:Nn \braun_include_graphics:Nn
     { 
-        \hcoffin_set:Nn #1
-            {
-                \group_begin:
-                    \hbox_set:Nn \l_tmpa_box { \graphics_include:n { #2 } }
-                    \box_autosize_to_wd_and_ht:NVV \l_tmpa_box \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
-                    \box_use_drop:N \l_tmpa_box
-                \group_end:
-            }   
+        \file_if_exist:nT {#2}
+            { 
+                \braun_graphics_box:Nn #1 
+                    { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
+            }
+    }
+
+% #1 -> coffin
+% #2 -> svg path
+\cs_set:Nn \braun_include_svg:Nn
+    { 
+        \file_if_exist:nT {#2}
+            { 
+                \braun_graphics_box:Nn #1 
+                    { \includesvg { \g_braun_graphics_path_tl / #2 } } 
+            }
     }
 
 \cs_set_eq:NN \legacyincludegraphics \includegraphics
 
-% #1 -> figure path
 \tl_new:N \l_tmpc_tl
+
+% #1 -> keys: braun/graphics
+% #2 -> figure path
 \DeclareDocumentCommand \includegraphics { o m }
     { 
         \group_begin:
-        \IfValueT {#1} { \keys_set:nn {braun/graphics} {#1} }
+        \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
         \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
         \str_case:VnF \l_tmpc_tl
             {
                 { .svg }
                 { 
                     \file_if_exist_input:nF 
-                        { \l_tmpa_tl / \l_tmpb_tl .tex }
-                        {
-                            \l_tmpa_tl / \l_tmpb_tl .tex
-                            %\braun_include_graphics:Nn \l_tmpa_coffin
-                            %    { \l_tmpa_tl / \l_tmpb_tl .pdf }
-                        }
+                        { \g_braun_graphics_path_tl / \l_tmpa_tl / \l_tmpb_tl .tex }
+                        { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
                 }      
             }
             {
-                \file_if_exist_input:n
-                    { \braun_include_graphics:Nn \l_tmpa_coffin {#2} }
+                \braun_include_graphics:Nn \l_tmpa_coffin {#2}
             }
 
-        \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {H} {0pt} {0pt}
+        \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {vc} {0pt} {0pt}
         \group_end:
     }
 
 \RenewDocumentEnvironment { figure } {} 
-{ 
-    \group_begin:
-    \cs_set:Npn \caption ##1 { \relax }
-    \begin{center} 
-    
-} 
-{ 
-    \end{center} 
-    \group_end:
-}
+    { 
+        \group_begin:
+        \cs_set:Npn \caption ##1 { \relax }
+        \begin{center} 
+        
+    } 
+    { 
+        \end{center} 
+        \group_end:
+    }
 
 \RenewDocumentEnvironment { table  } {} 
-{ 
-    \group_begin:
-    \cs_set:Npn \caption ##1 { \relax }
-    \begin{center} 
-} 
-{ 
-    \end{center} 
-    \group_end:
-}
+    { 
+        \group_begin:
+        \cs_set:Npn \caption ##1 { \relax }
+        \begin{center} 
+    } 
+    { 
+        \end{center} 
+        \group_end:
+    }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1272,24 +1296,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \keys_define:nn { braun/problems }
-{
-    name .tl_set:N = \l_braun_problem_name_tl,
-    name .initial:n = Problema,
+    {
+        name .tl_set:N = \l_braun_problem_name_tl,
+        name .initial:n = Problema,
 
-    template .tl_set:N = \l_braun_problem_template_tl,
-    template .initial:n = braun,
+        template .tl_set:N = \l_braun_problem_template_tl,
+        template .initial:n = braun,
 
-    skip-after .dim_set:N = \l_braun_problem_after_skip,
-    skip-after .initial:n = 5pt,
+        skip-after .dim_set:N = \l_braun_problem_after_skip,
+        skip-after .initial:n = 5pt,
 
-    breakable .bool_set:N = \l_braun_problem_breakable_bool,
-    breakable .initial:n  = false,
-    breakable .default:n  = true,
+        breakable .bool_set:N = \l_braun_problem_breakable_bool,
+        breakable .initial:n  = false,
+        breakable .default:n  = true,
 
-    single-page .bool_set:N = \l_braun_problem_single_page_bool,
-    single-page .initial:n  = false,
-    single-page .default:n  = true,
-}
+        single-page .bool_set:N = \l_braun_problem_single_page_bool,
+        single-page .initial:n  = false,
+        single-page .default:n  = true,
+    }
 
 
 \cs_set:Npn \dbpath #1 { \seq_put_right:Nn \l_file_search_path_seq {#1} }
@@ -1346,6 +1370,14 @@
 %   PROBLEM ENVIRONMENT
 %============================================================%
 
+\keys_define:nn { braun/problem }
+    {
+        id .tl_set:N = \l_braun_problem_id_tl,
+        id .initial:n = ,
+
+        path .tl_set:N = \g_braun_graphics_path_tl,
+        path .initial:n = ,
+    }
 
 \counterwithout * { subsection } { section }
 
@@ -1377,15 +1409,18 @@
 
 \newcounter { problem_counter } [ section ]
 
+% #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
     {
         \refstepcounter{problem_counter}
+
+        \keys_set:nn { braun/problem } {path = , id = , #1}
 
         \dim_zero:N \parindent
         \braun_begin_problem_box:
         %% HEADER
         \BraunHeader
-            [ \texttt{ \color{color-2} #1 } ]
+            [ \texttt{ \color{color-2} \l_braun_problem_id_tl } ]
             { 
                 \small\sffamily\bfseries
                 \text_uppercase:n { \l_braun_problem_name_tl } ~
@@ -1460,7 +1495,7 @@
 \DeclareBraunTemplate { braun }
     {
         DIV = 23,
-        font = lmodern,
+        font = paratype,
         emph = \itshape,
         page / headfoot-font = \sffamily ,
         page / footer / sepline = true,

@@ -1,19 +1,14 @@
 #
-# PROBLEM CLASS
+# DOME - Gabriel Braun, 2021
 #
 
-
-import os
-
 from attr import frozen, Factory
-
 from frontmatter import load, loads
+from pathlib import Path
+import base64
 
 import convert
 import latex
-
-import base64
-
 from data import read_datasets
 
 
@@ -23,6 +18,7 @@ DATA = read_datasets('database/data')
 @frozen
 class Problem:
     id_: str
+    path: Path
     statement: str
     solution: str = ''
     answer: list = Factory(list)
@@ -64,7 +60,8 @@ class Problem:
     def astex(self):
         # return problem as tex
         p = self.tex_statement() + self.tex_data()
-        return latex.env('problem', f'[{self.id_}]{p}')
+        args = f'[id={self.id_}, path={self.path.parent}]\n{p}'
+        return latex.env('problem', args)
 
 
 @frozen
@@ -105,19 +102,20 @@ def link2problem(cur, link):
     # get YAML data and contents
     pfile = loads(query_results[0][2])
     print(f"Problema carregado do link: '{link}'")
-    return problem_contents(link, pfile)
+    return problem_contents(link, Path(), pfile)
 
 
 def file2problem(path):
     # get YAML data and contents
     pfile = load(path)
     print(f"Problema carregado do arquivo: '{path}'")
-    return problem_contents(path.stem, pfile)
+    return problem_contents(path.stem, path.resolve(), pfile)
 
 
-def problem_contents(id_, pfile):
+def problem_contents(id_, path, pfile):
     kwargs = {}
     kwargs['id_'] = id_
+    kwargs['path'] = path
 
     soup = convert.md2soup(pfile.content)
 
@@ -126,9 +124,9 @@ def problem_contents(id_, pfile):
         kwargs['data'] = DATA.filter(pfile['data'])
 
     # change images direcory to images folder
-    for img in soup.find_all('img'):
-        img_name = os.path.basename(img['src'])
-        img['src'] = os.path.join('images', img_name)
+    # for img in soup.find_all('img'):
+    #    img_name = os.path.basename(img['src'])
+    #    img['src'] = os.path.join('images', img_name)
 
     solution = soup.find('blockquote')
 

@@ -1,11 +1,9 @@
 #
-# TOPIC CLASS
+# DOME - Gabriel Braun, 2021
 #
 
 from attr import frozen, Factory
-
 from frontmatter import load
-
 import convert
 import latex
 
@@ -22,8 +20,29 @@ class Subtopic:
 class Topic:
     id_: str
     title: str = ""
+    author: str = "Gabriel Braun"
+    affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     problems: dict = Factory(dict)
     subtopics: list = Factory(list)
+
+    def astex(self, template='braun, twocolumn'):
+        # return tex file for compiling list as pdf
+        preamble = latex.cmd(f'documentclass[{template}]', ['braun'])
+
+        for prop in ['title', 'affiliation', 'author', 'logo']:
+            preamble += '\n' + latex.cmd(prop, [getattr(self, prop)])
+
+        preamble += '\n' + latex.cmd('dbpath', ['../database'])
+
+        answers = latex.section('Gabarito', newpage=False)
+        problems = '\n'
+        for pset in self.problems:
+            problems += pset.tex_statements()
+            answers += pset.tex_answers()
+
+        body = latex.cmd('maketitle') + latex.pu2qty(problems + answers)
+
+        return preamble + latex.env('document', body)
 
 
 def file2topic(path):
@@ -70,9 +89,6 @@ class List:
     id: str
     title: str
     problem_sets: dict
-    affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
-    author: str = "Gabriel Braun"
-    logo: str = "pensi"
 
     def astex(self, template='braun, twocolumn'):
         # return tex file for compiling list as pdf

@@ -1,8 +1,8 @@
-import re
-
-
-# LATEX INTEGRATION FUNCTIONS
 #
+# DOME - Gabriel Braun, 2021
+#
+
+import re
 
 
 def cmd(name, content=[]):

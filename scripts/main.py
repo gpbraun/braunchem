@@ -11,7 +11,7 @@
 
 import os
 
-from attr import frozen, Factory, asdict
+from attr import frozen, Factory, asdict, filters, fields
 
 # import pickle
 from json import dump as json_dump
@@ -20,7 +20,7 @@ from sys import exit
 from pathlib import Path
 
 import convert
-from problem import ProblemSet, file2problem
+from problem import Problem, ProblemSet, file2problem
 from topic import Topic, file2topic, List
 
 
@@ -41,10 +41,11 @@ class Arsenal:
         #     pickle.dump(self, f)
 
         # dump contents to json
+        flter = filters.exclude(fields(Problem).path)
         json_file = os.path.join(self.path, 'arsenal.json')
         with open(json_file, 'w') as f:
             json_dump(
-                asdict(self), f, indent=2, ensure_ascii=False
+                asdict(self, filter=flter), f, indent=2, ensure_ascii=False
             )
 
     def filter(self, title, problem_ids):
@@ -81,7 +82,8 @@ def get_file_paths(db_path):
                 problem_files.append(path)
             # topics
             elif path.suffix in ['.jpg', '.jpeg', '.svg', '.pdf', '.tex']:
-                convert.copyr(path, os.path.join(db_path, 'images', path.name))
+                convert.copy_r(path, os.path.join(
+                    db_path, 'images', path.name))
 
     return topic_files, problem_files
 
@@ -115,7 +117,7 @@ def load_arsenal(path):
 
 def main():
     data = load_arsenal('database')
-    data.aspdf(['2A'])
+    data.aspdf(['1A', '2A'])
 
 
 if __name__ == "__main__":
