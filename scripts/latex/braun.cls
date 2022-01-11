@@ -500,7 +500,11 @@
                 { color-3 },
                 { color-4 },
             }
-        \pgfplotsset { cycle~list~name = braun-pallet }
+        \pgfplotsset 
+            { 
+                cycle~list~name = braun-pallet, 
+                legend cell align = left, 
+            }
     }
 
 %============================================================%
