@@ -1,47 +1,63 @@
+#
+# DOME - Gabriel Braun, 2021
+#
+
 import re
 
 
-# LATEX INTEGRATION FUNCTIONS
-#
-
-
-def cmd(name, content=[]):
+def cmd(name, content=[], end=' '):
+    # latex command
     if content:
         tex_args = ''.join(f'{{{arg}}}' for arg in content)
-        return f'\\{name}{tex_args}'
+        return f'\\{name}{tex_args}' + end
 
-    return f'\\{name}'
+    return f'\\{name}' + end
 
 
 def env(env, content):
+    # latex environment
     return f'\n\n\\begin{{{env}}}\n{content}\n\\end{{{env}}}\n'
 
 
 def section(content, level=0, newpage=False, numbered=True):
+    # latex section
     if not content:
         return ''
 
     newpage_cmd = cmd('newpage') if newpage else ''
     section_cmd = level*'sub' + ('section' if numbered else 'section*')
-    return newpage_cmd + cmd(section_cmd, [content]) + '\n'
+    return newpage_cmd + cmd(section_cmd, [content], end='\n')
 
 
 TEX_LEN = re.compile(r'\\\w+|[\w\d\=\%]|\d')
 
 
-def enum(name, items, cols=0, auto_cols=False):
+def latex_len(tex_str):
+    count = 0
+    for match in re.findall(TEX_LEN, tex_str):
+        if match in ['=', '\\rightarrow']:
+            count += 2
+        elif match in ['\\frac', '_']:
+            count -= 1
+        else:
+            count += 1
+    return count
+
+
+def enum(name, items, cols=0, auto_cols=False, sep_cmd='item'):
+    # latex enumerate
     if auto_cols:
-        max_length = max([len(re.findall(TEX_LEN, i)) for i in items])
+        max_length = max([latex_len(i) for i in items])
         if max_length < 4:
             cols = 5
-        elif max_length < 7:
+        elif max_length < 8:
             cols = 3
         elif max_length < 20:
             cols = 2
 
     cols = f'({cols})' if cols else ''
-    content = '\n'.join([f'\\item {i}' for i in items])
-    return env(name, f'{cols}\n{content}')
+    content = '\n'.join([cmd(sep_cmd) + i for i in items])
+    return env(name, f'{cols}{content}')
 
 
 PU_CMD = re.compile(r'\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-]*)\s*\}')

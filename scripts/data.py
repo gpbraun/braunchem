@@ -1,3 +1,6 @@
+#
+# DOME - Gabriel Braun, 2021
+#
 
 import os
 import re
@@ -7,10 +10,6 @@ from pathlib import Path
 from attr import frozen, Factory
 
 import latex
-
-#
-# DATA CLASS
-#
 
 
 @frozen

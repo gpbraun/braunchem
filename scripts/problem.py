@@ -1,21 +1,20 @@
 #
-# PROBLEM CLASS
+# DOME - Gabriel Braun, 2021
 #
 
-
-import os
+# TODO:
+# - Gerar o "elements"
 
 from attr import frozen, Factory
-
 from frontmatter import load, loads
+from pathlib import Path
+import base64
 
 import convert
 import latex
-
-import base64
-
 from data import read_datasets
 
+from multiprocessing import Pool
 
 DATA = read_datasets('database/data')
 
@@ -23,6 +22,7 @@ DATA = read_datasets('database/data')
 @frozen
 class Problem:
     id_: str
+    path: Path
     statement: str
     solution: str = ''
     answer: list = Factory(list)
@@ -36,7 +36,7 @@ class Problem:
         return True
 
     def tex_statement(self):
-        return convert.md2tex(self.statement) + self.tex_choices()
+        return convert.md2tex(self.statement).strip() + self.tex_choices()
 
     def tex_data(self):
         # return data as tex list with header
@@ -50,7 +50,9 @@ class Problem:
         if not self.is_obj():
             return ''
         tex_choices = [convert.md2tex(c) for c in self.choices]
-        return latex.enum('choices', tex_choices, auto_cols=True)
+        return latex.enum(
+            'choices', tex_choices, auto_cols=True, sep_cmd='task'
+        )
 
     def tex_answer(self):
         if not self.answer:
@@ -64,32 +66,8 @@ class Problem:
     def astex(self):
         # return problem as tex
         p = self.tex_statement() + self.tex_data()
-        return latex.env('problem', f'[{self.id_}]{p}')
-
-
-@frozen
-class ProblemSet:
-    title: str
-    problems: list[Problem]
-
-    def tex_statements(self):
-        if not self.problems:
-            return ''
-
-        statements = '\n'.join([p.astex() for p in self.problems])
-        return latex.section(self.title) + statements
-
-    def tex_answers(self):
-        if not self.problems:
-            return ''
-
-        header = latex.section(self.title, level=1)
-        answers = [p.tex_answer() for p in self.problems]
-
-        if all([p.is_obj() for p in self.problems]):
-            return header + latex.enum('checks', answers, cols=5)
-
-        return header + latex.enum('answers', answers)
+        args = f'[id={self.id_}, path={self.path.parent}]\n{p}'
+        return latex.env('problem', args)
 
 
 def link2problem(cur, link):
@@ -104,31 +82,25 @@ def link2problem(cur, link):
 
     # get YAML data and contents
     pfile = loads(query_results[0][2])
-    print(f"Problema carregado do link: '{link}'")
-    return problem_contents(link, pfile)
+    return problem_contents(link, Path(), pfile)
 
 
 def file2problem(path):
     # get YAML data and contents
     pfile = load(path)
-    print(f"Problema carregado do arquivo: '{path}'")
-    return problem_contents(path.stem, pfile)
+    return problem_contents(path.stem, path.resolve(), pfile)
 
 
-def problem_contents(id_, pfile):
+def problem_contents(id_, path, pfile):
     kwargs = {}
     kwargs['id_'] = id_
+    kwargs['path'] = path
 
     soup = convert.md2soup(pfile.content)
 
     # get problem data
     if 'data' in pfile:
         kwargs['data'] = DATA.filter(pfile['data'])
-
-    # change images direcory to images folder
-    for img in soup.find_all('img'):
-        img_name = os.path.basename(img['src'])
-        img['src'] = os.path.join('images', img_name)
 
     solution = soup.find('blockquote')
 
@@ -184,6 +156,46 @@ def problem_contents(id_, pfile):
     kwargs['statement'] = convert.html2md(soup)
 
     return Problem(**kwargs)
+
+
+@frozen
+class ProblemSet:
+    problems: list[Problem]
+
+    def asdict(self):
+        return {p.id_: p for p in self.problems}
+
+    def filter(self, problem_ids):
+        # get ProblemSet from list of ids
+        p_dict = self.asdict()
+        return ProblemSet([p_dict[id_] for id_ in problem_ids])
+
+    def tex_statements(self, title=''):
+        # get statements in latex format
+        if not self.problems:
+            return ''
+
+        statements = '\n'.join([p.astex() for p in self.problems])
+        return latex.section(title) + statements
+
+    def tex_answers(self, title=''):
+        # get answers in latex format
+        if not self.problems:
+            return ''
+
+        header = latex.section(title, level=1)
+        answers = [p.tex_answer() for p in self.problems]
+
+        if all([p.is_obj() for p in self.problems]):
+            return header + latex.enum('checks', answers, cols=5)
+
+        return header + latex.enum('answers', answers)
+
+
+def files2problemset(path):
+    # get problemset from list of paths
+    pool = Pool()
+    return ProblemSet(pool.map(file2problem, path))
 
 
 def autoprops(true_props):
@@ -343,7 +355,7 @@ def autoprops(true_props):
         obj = 1
     if true_props == [0, 1, 2]:
         choices = [
-            '1, 2 e 3',
+            '**1**, **2** e **3**',
             '1, 2 e 3',
             '1, 2 e 3',
             '1, 2 e 3',
