@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            xlabel = {Temperatura, $T/\si{K}$},
+            ylabel = {$[H(T) - H(\SI{298}{K})]/\si{J.K^{-1}.mol^{-1}}$},
+            xmajorgrids,
+            legend pos = north west, 
+            xmin=1700,xmax=2000
+        ]
+    \addplot coordinates
+        {
+            (1700,17.58)
+            (2000,21.90)
+        };
+    \addplot coordinates
+        {
+            (1700,13.74)
+            (2000,17.26)
+        };
+    \addplot coordinates
+        {
+            (1700,11.47)
+            (2000,14.15)
+        };
+    \addplot coordinates
+        {
+            (1700,10.86)
+            (2000,13.42)
+        };
+    \legend{{\ch{CO2}},{\ch{H2O}},{\ch{N2}}, {\ch{O2}}}
+    \end{axis}
+\end{tikzpicture}
