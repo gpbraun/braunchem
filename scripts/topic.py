@@ -73,7 +73,7 @@ def file2topic(args):
     tfile = load(path)
     soup = convert.md2soup(tfile.content)
 
-    for p in ['title', 'author', 'affiliation']:
+    for p in ['title', 'author', 'affiliation', 'template']:
         if p in tfile:
             kwargs[p] = tfile[p]
 

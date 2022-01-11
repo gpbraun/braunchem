@@ -1230,7 +1230,7 @@
 % #2 -> svg path
 \cs_set:Nn \braun_include_svg:Nn
     { 
-        \file_if_exist:nT {#2}
+        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
             { 
                 \braun_graphics_box:Nn #1 
                     { \includesvg { \g_braun_graphics_path_tl / #2 } } 
