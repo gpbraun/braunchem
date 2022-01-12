@@ -503,7 +503,7 @@
         \pgfplotsset 
             { 
                 cycle~list~name = braun-pallet, 
-                legend cell align = left, 
+                legend~cell~align = left, 
             }
     }
 

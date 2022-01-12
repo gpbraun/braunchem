@@ -48,7 +48,7 @@ class Topic:
         for prop in ['title', 'affiliation', 'author']:
             preamble += '\n' + latex.cmd(prop, [getattr(self, prop)])
 
-        answers = latex.section('Gabarito', newpage=False)
+        answers = latex.section('Gabarito', newpage=True)
         problems = '\n'
         for name, pset in self.problems.items():
             problems += pset.tex_statements(title=name)

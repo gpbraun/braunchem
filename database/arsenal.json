@@ -488,13 +488,13 @@
               ],
               "data": [
                 {
-                  "id_": "Tfus-Fe",
+                  "id_": "Tf-Fe",
                   "mol": "Fe",
                   "state": "",
                   "value": "1540",
-                  "unit": "\\degree C",
+                  "unit": "K",
                   "name": "Temperatura de fusão do \\ce{Fe}",
-                  "symbol": "T_\\text{fus}(\\ce{Fe})"
+                  "symbol": "T^_\\mathrm{fus} (\\ce{Fe})"
                 }
               ],
               "obj": 0,
@@ -538,7 +538,7 @@
                   "value": "2,2",
                   "unit": "eV",
                   "name": "Função trabalho do \\ce{K}",
-                  "symbol": "\\Phi(\\ce{K})"
+                  "symbol": "\\Phi (\\ce{K})"
                 }
               ],
               "obj": 1,
@@ -565,7 +565,7 @@
                   "value": "4,3",
                   "unit": "eV",
                   "name": "Função trabalho do \\ce{Zn}",
-                  "symbol": "\\Phi(\\ce{Zn})"
+                  "symbol": "\\Phi (\\ce{Zn})"
                 }
               ],
               "obj": 1,
@@ -867,7 +867,7 @@
                   "value": "-2808",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{glicose} (s)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{glicose, {s}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{glicose, {s}})"
                 }
               ],
               "obj": -1,
@@ -889,7 +889,7 @@
                   "value": "-127,07",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{AgCl} (s)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{AgCl, {s}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{AgCl, {s}})"
                 },
                 {
                   "id_": "HL-Cl2",
@@ -898,7 +898,7 @@
                   "value": "242",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{Cl2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{Cl2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{Cl2})"
                 }
               ],
               "obj": -1,
@@ -1548,7 +1548,7 @@
                   "value": "-291,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (s)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {s}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {s}})"
                 },
                 {
                   "id_": "CP-H2O(s)",
@@ -1739,7 +1739,7 @@
             },
             {
               "id_": "2A16",
-              "statement": "Aminoácidos são dados no organismo formando ureia ($\\ce{H2NCONH2}$),\ndióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
+              "statement": "Aminoácidos são oxidados no organismo formando ureia ($\\ce{H2NCONH2}$),\ndióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
               "solution": "",
               "answer": [
                 "$\\pu{650 kJ.mol-1}$\n"
@@ -1752,7 +1752,7 @@
                   "value": "-333,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{ureia} (s)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{ureia, {s}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{ureia, {s}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -1761,7 +1761,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(l)",
@@ -1770,7 +1770,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {l}})"
                 }
               ],
               "obj": 1,
@@ -1797,7 +1797,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(g)",
@@ -1806,7 +1806,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hc-CH4(g)",
@@ -1815,7 +1815,7 @@
                   "value": "-890",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{CH4, {g}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{CH4, {g}})"
                 }
               ],
               "obj": 1,
@@ -1842,7 +1842,7 @@
                   "value": "348",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-C}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C-C})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C-C})"
                 },
                 {
                   "id_": "HL-C-H",
@@ -1851,7 +1851,7 @@
                   "value": "412",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-H}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C-H})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C-H})"
                 },
                 {
                   "id_": "HL-C=O",
@@ -1860,7 +1860,7 @@
                   "value": "743",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C=O}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C=O})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C=O})"
                 },
                 {
                   "id_": "HL-H2",
@@ -1869,7 +1869,7 @@
                   "value": "436",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{H2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{H2})"
                 },
                 {
                   "id_": "HL-O2",
@@ -1878,7 +1878,7 @@
                   "value": "496",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{O2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{O2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{O2})"
                 }
               ],
               "obj": 3,
@@ -1905,7 +1905,7 @@
                   "value": "30,91",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de vaporização do \\ce{Br2}",
-                  "symbol": "\\Delta H_\\text{vap}(\\ce{Br2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{vap} (\\ce{Br2})"
                 },
                 {
                   "id_": "HL-C=C",
@@ -1914,7 +1914,7 @@
                   "value": "612",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C=C}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C=C})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C=C})"
                 },
                 {
                   "id_": "HL-Br2",
@@ -1923,7 +1923,7 @@
                   "value": "193",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{Br2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{Br2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{Br2})"
                 }
               ],
               "obj": 0,
@@ -1950,7 +1950,7 @@
                   "value": "712",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de sublimação do \\ce{grafite}",
-                  "symbol": "\\Delta H_\\text{sub}(\\ce{grafite})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{sub} (\\ce{grafite})"
                 },
                 {
                   "id_": "HL-H2",
@@ -1959,7 +1959,7 @@
                   "value": "436",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{H2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{H2})"
                 },
                 {
                   "id_": "HL-O2",
@@ -1968,7 +1968,7 @@
                   "value": "496",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{O2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{O2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{O2})"
                 },
                 {
                   "id_": "HL-C-H",
@@ -1977,7 +1977,7 @@
                   "value": "412",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-H}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C-H})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C-H})"
                 },
                 {
                   "id_": "HL-C-O",
@@ -1986,7 +1986,7 @@
                   "value": "360",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-O}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C-O})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C-O})"
                 },
                 {
                   "id_": "HL-O-H",
@@ -1995,7 +1995,7 @@
                   "value": "463",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{O-H}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{O-H})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{O-H})"
                 }
               ],
               "obj": 0,
@@ -2022,7 +2022,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(l)",
@@ -2031,7 +2031,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hc-CH4(g)",
@@ -2040,7 +2040,7 @@
                   "value": "-890",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{CH4, {g}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{CH4, {g}})"
                 }
               ],
               "obj": 0,
@@ -2067,7 +2067,7 @@
                   "value": "20,42",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{propeno} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{propeno, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{propeno, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2076,7 +2076,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hc-propano(g)",
@@ -2085,7 +2085,7 @@
                   "value": "-2220",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{propano} (g)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{propano, {g}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{propano, {g}})"
                 }
               ],
               "obj": 4,
@@ -2129,7 +2129,7 @@
                   "value": "-3227",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{C6H5COOH, {s}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{C6H5COOH, {s}})"
                 }
               ],
               "obj": 2,
@@ -2188,7 +2188,7 @@
                   "value": "-2878",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{butano} (g)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{butano, {g}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{butano, {g}})"
                 },
                 {
                   "id_": "CP-H2O(l)",
@@ -2206,7 +2206,7 @@
                   "value": "1",
                   "unit": "g.cm^{-3}",
                   "name": "Densidade do \\ce{H2O}",
-                  "symbol": "\\rho(\\ce{H2O})"
+                  "symbol": "\\rho (\\ce{H2O})"
                 }
               ],
               "obj": 1,
@@ -2233,7 +2233,7 @@
                   "value": "40,7",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de vaporização do \\ce{H2O}",
-                  "symbol": "\\Delta H_\\text{vap}(\\ce{H2O})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{vap} (\\ce{H2O})"
                 }
               ],
               "obj": 1,
@@ -2285,7 +2285,7 @@
             },
             {
               "id_": "2A31",
-              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico dessa\nmistura em função da fração mássica de hidrogênio.\n\nFração mássica (%) \\| Poder calorífico ($\\pu{kJ.g-1}$) \\| \\--: \\| \\--:\n\\| $\\pu{2}$ \\| $\\pu{3,0}$ \\| $\\pu{5}$ \\| $\\pu{8,7}$ \\|\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
+              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico dessa\nmistura em função da fração mássica de hidrogênio.\n\n![Tabela.](2A31-1P.svg)\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{-190 kJ.mol-1}$\n",
@@ -2320,7 +2320,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2329,7 +2329,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-eteno(g)",
@@ -2338,7 +2338,7 @@
                   "value": "52,26",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{eteno} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{eteno, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{eteno, {g}})"
                 },
                 {
                   "id_": "Hf-metano(g)",
@@ -2347,7 +2347,7 @@
                   "value": "-74,81",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{metano} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{metano, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{metano, {g}})"
                 }
               ],
               "obj": -1,
@@ -2368,7 +2368,7 @@
                   "value": "40,7",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de vaporização do \\ce{H2O}",
-                  "symbol": "\\Delta H_\\text{vap}(\\ce{H2O})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{vap} (\\ce{H2O})"
                 },
                 {
                   "id_": "d-H2O",
@@ -2377,7 +2377,7 @@
                   "value": "1",
                   "unit": "g.cm^{-3}",
                   "name": "Densidade do \\ce{H2O}",
-                  "symbol": "\\rho(\\ce{H2O})"
+                  "symbol": "\\rho (\\ce{H2O})"
                 }
               ],
               "obj": -1,
@@ -2399,7 +2399,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2408,7 +2408,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-octano(l)",
@@ -2417,7 +2417,7 @@
                   "value": "-249,9",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{octano, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{octano, {l}})"
                 }
               ],
               "obj": -1,
@@ -2472,7 +2472,7 @@
                   "value": "-3537",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{pentano} (g)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{pentano, {g}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{pentano, {g}})"
                 },
                 {
                   "id_": "Hc-butano(g)",
@@ -2481,7 +2481,7 @@
                   "value": "-2878",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{butano} (g)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{butano, {g}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{butano, {g}})"
                 }
               ],
               "obj": -1,
@@ -2503,7 +2503,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hsub-grafite",
@@ -2512,7 +2512,7 @@
                   "value": "712",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de sublimação do \\ce{grafite}",
-                  "symbol": "\\Delta H_\\text{sub}(\\ce{grafite})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{sub} (\\ce{grafite})"
                 },
                 {
                   "id_": "HL-H2",
@@ -2521,7 +2521,7 @@
                   "value": "436",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{H2})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{H2})"
                 },
                 {
                   "id_": "Hf-H2O(l)",
@@ -2530,7 +2530,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {l}})"
                 }
               ],
               "obj": -1,
@@ -2587,7 +2587,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2596,7 +2596,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-octano(l)",
@@ -2605,7 +2605,7 @@
                   "value": "-249,9",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{octano, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{octano, {l}})"
                 }
               ],
               "obj": 4,
@@ -2619,7 +2619,7 @@
             },
             {
               "id_": "2A40",
-              "statement": "Uma mistura ($1:15$) de metano e ar atmosférico, a $\\pu{298 K}$ e\n$\\pu{1 atm}$, entra em combustão em um reservatório adiabático,\nconsumindo completamente o metano. O processo ocorre sob pressão\nconstante e os produtos formados permanecem em fase gasosa. Considere os\ndata: termodinâmicos a seguir.\n\n\\| \\| $\\ce{H0}$($\\pu{1700 K}$) --- $\\ce{H0}$($\\pu{298 K}$) \\|\n$\\ce{H0}$($\\pu{2000 K}$) --- $\\ce{H0}$($\\pu{298 K}$) \\| \\| :\\-- \\| \\--:\n\\| \\--: \\| \\| $\\ce{CO2}$ \\| $\\pu{17,58 kcal.mol-1}$ \\|\n$\\pu{21,90 kcal/mol-1}$ \\| \\| $\\ce{H2O}$ \\| $\\pu{13,74 kcal.mol-1}$ \\|\n$\\pu{17,26 kcal.mol-1}$ \\| \\| $\\ce{N2}$ \\| $\\pu{10,86 kcal.mol-1}$ \\|\n$\\pu{13,42 kcal.mol-1}$ \\| \\| $\\ce{O2}$ \\| $\\pu{11,42 kcal.mol-1}$ \\|\n$\\pu{14,15 kcal.mol-1}$ \\|\n\n-   **Determine** a temperatura final do sistema.\n-   **Determine** a concentração final de vapor d\\'água.\n",
+              "statement": "Uma mistura ($1:15$) de metano e ar atmosférico, a $\\pu{298 K}$ e\n$\\pu{1 atm}$, entra em combustão em um reservatório adiabático,\nconsumindo completamente o metano. O processo ocorre sob pressão\nconstante e os produtos formados permanecem em fase gasosa.\n\n![Tabela.](2A40-1P.svg)\n\n-   **Determine** a temperatura final do sistema.\n-   **Determine** a concentração final de vapor d\\'água.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{1733 K}$\n",
@@ -2633,7 +2633,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2642,7 +2642,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-metano(g)",
@@ -2651,7 +2651,7 @@
                   "value": "-74,81",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{metano} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{metano, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{metano, {g}})"
                 }
               ],
               "obj": -1,
@@ -2689,7 +2689,7 @@
                   "value": "-46,11",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{NH3} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{NH3, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{NH3, {g}})"
                 },
                 {
                   "id_": "CP-N2(g)",
@@ -2774,7 +2774,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hc-cicloexano(l)",
@@ -2783,7 +2783,7 @@
                   "value": "-3920",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{cicloexano} (l)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{cicloexano, {l}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{cicloexano, {l}})"
                 },
                 {
                   "id_": "Hc-cicloexeno(l)",
@@ -2792,7 +2792,7 @@
                   "value": "-3752",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{cicloexeno, {l}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{cicloexeno, {l}})"
                 },
                 {
                   "id_": "Hc-benzeno(l)",
@@ -2801,7 +2801,7 @@
                   "value": "-3268",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{benzeno} (l)",
-                  "symbol": "\\Delta H_\\text{c}(\\ce{benzeno, {l}})"
+                  "symbol": "\\Delta Hc^\\circ _\\mathrm{c} (\\ce{benzeno, {l}})"
                 }
               ],
               "obj": -1,
@@ -2823,7 +2823,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "HL-C=C",
@@ -2832,7 +2832,7 @@
                   "value": "612",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C=C}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C=C})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C=C})"
                 },
                 {
                   "id_": "HL-C-C",
@@ -2841,7 +2841,7 @@
                   "value": "348",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-C}",
-                  "symbol": "\\Delta H_\\text{L}(\\ce{C-C})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{L} (\\ce{C-C})"
                 }
               ],
               "obj": -1,
@@ -2862,7 +2862,7 @@
                   "value": "-110,53",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(g)",
@@ -2871,7 +2871,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-FeO(s)",
@@ -2880,7 +2880,7 @@
                   "value": "-824,2",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{FeO} (s)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{FeO, {s}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{FeO, {s}})"
                 }
               ],
               "obj": -1,
@@ -2912,7 +2912,7 @@
                   "value": "-110,53",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2921,7 +2921,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "CP-CO(g)",
@@ -3017,7 +3017,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-CO(g)",
@@ -3026,7 +3026,7 @@
                   "value": "-110,53",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{CO, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{CO, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(g)",
@@ -3035,7 +3035,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-octano(l)",
@@ -3044,7 +3044,7 @@
                   "value": "-249,9",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta H_\\text{f}(\\ce{octano, {l}})"
+                  "symbol": "\\Delta H^\\circ _\\mathrm{f} (\\ce{octano, {l}})"
                 }
               ],
               "obj": -1,

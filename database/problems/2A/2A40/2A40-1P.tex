@@ -3,7 +3,7 @@
         [
             grid = major,
             xlabel = {Temperatura, $T/\si{K}$},
-            ylabel = {$[H(T) - H(\SI{298}{K})]/\si{J.K^{-1}.mol^{-1}}$},
+            ylabel = {$\left[H(T) - H(\qty{298}{K})\right]/\si{J.K^{-1}.mol^{-1}}$},
             xmajorgrids,
             legend pos = north west, 
             xmin=1700,xmax=2000
@@ -28,6 +28,6 @@
             (1700,10.86)
             (2000,13.42)
         };
-    \legend{{\ch{CO2}},{\ch{H2O}},{\ch{N2}}, {\ch{O2}}}
+    \legend{{\ce{CO2}},{\ce{H2O}},{\ce{N2}}, {\ce{O2}}}
     \end{axis}
 \end{tikzpicture}
