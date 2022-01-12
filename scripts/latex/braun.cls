@@ -1393,7 +1393,6 @@
     { 
         \bool_if:NF \l_braun_problem_breakable_bool 
             { 
-                \BraunVFill
                 \braun_ghost_section:
                 \vbox_set:Nw \l__braun_problem_box 
             }

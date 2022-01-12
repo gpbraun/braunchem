@@ -6,13 +6,12 @@ import os
 
 from attr import frozen, Factory, asdict, filters, fields
 
-# import pickle
 from json import dump as json_dump
 
 from sys import exit
 from pathlib import Path
 
-from problem import Problem, ProblemSet, files2problemset
+from problem import Problem, ProblemSet, links2problemset, files2problemset
 from multiprocessing import Pool
 
 from frontmatter import load
@@ -32,11 +31,12 @@ class Subtopic:
 @frozen
 class Topic:
     id_: str
+    area: str = ''
     title: str = 'Química'
     author: str = 'Gabriel Braun'
     affiliation: str = 'Colégio e Curso Pensi, Coordenação de Química'
     template: str = 'braun, twocolumn'
-    answers: bool = False
+    answers: bool = True
     solutions: bool = False
     problems: dict = Factory(dict)
     subtopics: list = Factory(list)
@@ -54,13 +54,25 @@ class Topic:
             problems += pset.tex_statements(title=name)
             answers += pset.tex_answers(title=name)
 
-        body = latex.cmd('maketitle') + latex.pu2qty(problems + answers)
+        body = latex.pu2qty(problems + answers if self.answers else problems)
 
-        return preamble + latex.env('document', body)
+        return preamble + latex.env('document', latex.cmd('maketitle') + body)
+
+    def generate_pdf(self):
+        convert.tex2pdf(
+            self.latex(),
+            self.id_,
+            tmp_path=f'temp/{self.area}',
+            out_path=f'archive/{self.area}'
+        )
+        return f'{self.id_} PDF generated!'
 
 
-def topic2pdf(topic):
-    return convert.tex2pdf(topic.latex(), topic.id_, path='archive')
+def links2topic(cur, id_, links, **kwargs):
+    # gera o simulado a partir dos dados
+    print('Carregando problemas...')
+    problem_set = links2problemset(cur, links)
+    return Topic(id_, problems={'': problem_set}, **kwargs)
 
 
 def file2topic(args):
@@ -69,6 +81,7 @@ def file2topic(args):
     # get YAML data and contents
     id_ = path.stem
     kwargs['id_'] = id_
+    kwargs['area'] = path.parent.stem
 
     tfile = load(path)
     soup = convert.md2soup(tfile.content)
@@ -101,11 +114,18 @@ def file2topic(args):
 
         kwargs['subtopics'].append(
             Subtopic(
-                subtopic_id, subtopic_title, subtopic_items, subtopic_abilities
+                subtopic_id,
+                subtopic_title,
+                subtopic_items,
+                subtopic_abilities
             )
         )
 
     return Topic(**kwargs)
+
+
+def topic2pdf(topic):
+    return topic.generate_pdf()
 
 
 @frozen
@@ -114,11 +134,6 @@ class Arsenal:
     topics: list[Topic] = Factory(list)
 
     def dump(self, path):
-        # dump contents to pickle
-        # pickle_file = os.path.join(self.path, 'arsenal.p')
-        # with open(pickle_file, 'wb') as f:
-        #     pickle.dump(self, f)
-
         # dump contents to json
         flter = filters.exclude(
             fields(Problem).path,
@@ -176,9 +191,4 @@ def load_arsenal(path):
 
     ars.dump(path)
 
-    # pickle_file = os.path.join(path, 'arsenal.p')
-    # if os.path.exists(pickle_file):
-    #     with open(pickle_file, 'rb') as f:
-    #         print("Arquivo '%s' carregado" % pickle_file)
-    #         return pickle.load(f)
     return ars
