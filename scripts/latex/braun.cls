@@ -503,7 +503,7 @@
         \pgfplotsset 
             { 
                 cycle~list~name = braun-pallet, 
-                legend cell align = left, 
+                legend~cell~align = left, 
             }
     }
 
@@ -1393,7 +1393,6 @@
     { 
         \bool_if:NF \l_braun_problem_breakable_bool 
             { 
-                \BraunVFill
                 \braun_ghost_section:
                 \vbox_set:Nw \l__braun_problem_box 
             }

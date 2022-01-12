@@ -50,11 +50,11 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def tex2pdf(tex_contents, filename, path='', clear=True):
+def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive'):
     # convert tex string to pdf
     cwd = Path.cwd()
 
-    temp = Path(f'temp/{filename}')
+    temp = Path(os.path.join(tmp_path, filename))
     temp.mkdir(parents=True, exist_ok=True)
 
     # copy latex template files to temp folder
@@ -80,7 +80,10 @@ def tex2pdf(tex_contents, filename, path='', clear=True):
 
     os.chdir(cwd)
 
+    out = Path(out_path)
+    out.mkdir(parents=True, exist_ok=True)
+
     copy_r(
         os.path.join(temp, f'{filename}.pdf'),
-        os.path.join(path, f'{filename}.pdf')
+        os.path.join(out, f'{filename}.pdf')
     )

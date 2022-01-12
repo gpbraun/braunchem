@@ -1,6 +1,6 @@
 import psycopg2
 
-from simulado import create_simulado
+from topic import links2topic, topic2pdf
 
 
 #
@@ -10,7 +10,7 @@ from simulado import create_simulado
 
 def main():
     conn = psycopg2.connect(
-        host='192.168.0.182',
+        host='192.168.0.15',
         port=5432,
         database='codimd',
         user='codimd',
@@ -18,13 +18,19 @@ def main():
     )
     cur = conn.cursor()
 
-    p = create_simulado(cur, ['s4NezMWTSrSntqe9Hcgz2w'])
+    p = links2topic(
+        cur,
+        '2-DIS-QUI',
+        ['s4NezMWTSrSntqe9Hcgz2w'],
+        area='Simulados 2022',
+        template='IME',
+        answers=False,
+    )
+
+    topic2pdf(p)
 
     cur.close()
     conn.close()
-
-    print(p)
-    print(p.astex())
 
 
 if __name__ == "__main__":

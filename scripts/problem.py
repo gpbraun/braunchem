@@ -198,6 +198,11 @@ def files2problemset(path):
     return ProblemSet(pool.map(file2problem, path))
 
 
+def links2problemset(cur, links):
+    # get YAML data and contents
+    return ProblemSet([link2problem(cur, link) for link in links])
+
+
 def autoprops(true_props):
     # generate choices for T/F problems
     if not true_props:
