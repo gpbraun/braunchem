@@ -36,32 +36,33 @@ class Topic:
     author: str = 'Gabriel Braun'
     affiliation: str = 'Colégio e Curso Pensi, Coordenação de Química'
     template: str = 'braun, twocolumn'
-    answers: bool = True
-    solutions: bool = False
     problems: dict = Factory(dict)
     subtopics: list = Factory(list)
 
-    def latex(self):
+    def latex(self, answers=True, solution=False):
         # return tex file for compiling problem sheet as pdf
         preamble = latex.cmd(f'documentclass[{self.template}]', ['braun'])
 
         for prop in ['title', 'affiliation', 'author']:
             preamble += '\n' + latex.cmd(prop, [getattr(self, prop)])
 
-        answers = latex.section('Gabarito', newpage=True)
+        ans = latex.section('Gabarito', newpage=True)
         problems = '\n'
-        for name, pset in self.problems.items():
-            problems += pset.tex_statements(title=name)
-            answers += pset.tex_answers(title=name)
+        for title, pset in self.problems.items():
+            problems += pset.tex_statements(title, solution)
+            ans += pset.tex_answers(title)
 
-        body = latex.pu2qty(problems + answers if self.answers else problems)
+        body = latex.pu2qty(problems + ans if answers else problems)
 
         return preamble + latex.env('document', latex.cmd('maketitle') + body)
 
-    def generate_pdf(self):
+    def generate_pdf(self, name='', **kwargs):
+        if not name:
+            name = self.id_
+
         convert.tex2pdf(
-            self.latex(),
-            self.id_,
+            self.latex(**kwargs),
+            name,
             tmp_path=f'temp/{self.area}',
             out_path=f'archive/{self.area}'
         )

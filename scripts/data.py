@@ -26,7 +26,7 @@ def state(state, sub='', sup='', delta=True, std=True):
     superscript = latex.cmd("circ") if std else '' + sup
     subscript = latex.cmd("mathrm", [sub]) if sub else ''
 
-    suffix = '^' + superscript + '_' + subscript
+    suffix = f'^{{{superscript}}}' + f'_{{{subscript}}}'
 
     return prefix + state + suffix
 

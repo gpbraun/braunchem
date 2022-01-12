@@ -36,7 +36,10 @@ class Problem:
         return True
 
     def tex_statement(self):
-        return convert.md2tex(self.statement).strip() + self.tex_choices()
+        return convert.md2tex(self.statement) + self.tex_choices()
+
+    def tex_solution(self):
+        return convert.md2tex(self.solution)
 
     def tex_data(self):
         # return data as tex list with header
@@ -63,11 +66,16 @@ class Problem:
             return self.answer[0]
         return latex.enum('answers', self.answer)
 
-    def astex(self):
+    def astex(self, solution=False):
         # return problem as tex
-        p = self.tex_statement() + self.tex_data()
-        args = f'[id={self.id_}, path={self.path.parent}]\n{p}'
-        return latex.env('problem', args)
+        contents = self.tex_statement() + self.tex_data()
+        args = f'[id={self.id_}, path={self.path.parent}]\n{contents}'
+
+        if not solution:
+            return latex.env('problem', args)
+
+        sol = latex.section('Gabarito') + self.solution
+        return latex.env('problem', args) + sol
 
 
 def link2problem(cur, link):
@@ -170,12 +178,12 @@ class ProblemSet:
         p_dict = self.asdict()
         return ProblemSet([p_dict[id_] for id_ in problem_ids])
 
-    def tex_statements(self, title=''):
+    def tex_statements(self, title='', solution=False):
         # get statements in latex format
         if not self.problems:
             return ''
 
-        statements = '\n'.join([p.astex() for p in self.problems])
+        statements = '\n'.join([p.astex(solution) for p in self.problems])
         return latex.section(title) + statements
 
     def tex_answers(self, title=''):

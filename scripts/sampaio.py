@@ -7,6 +7,24 @@ from topic import links2topic, topic2pdf
 # MAIN
 #
 
+simulados = {
+    '0-MAT': {
+        'name': 'Ciclo Diagnóstico - Matemática',
+        'template': 'IME',
+        'links': [
+            's4NezMWTSrSntqe9Hcgz2w'
+        ]
+    },
+    '0-FIS': {
+        'name': 'Ciclo Diagnóstico - Física',
+        'template': 'IME',
+    },
+    '0-QUI': {
+        'name': 'Ciclo Diagnóstico - Química',
+        'template': 'IME',
+    },
+}
+
 
 def main():
     conn = psycopg2.connect(
@@ -18,16 +36,17 @@ def main():
     )
     cur = conn.cursor()
 
-    p = links2topic(
-        cur,
-        '2-DIS-QUI',
-        ['s4NezMWTSrSntqe9Hcgz2w'],
-        area='Simulados 2022',
-        template='IME',
-        answers=False,
-    )
+    for name, data in simulados.items():
+        p = links2topic(
+            cur,
+            name,
+            ['s4NezMWTSrSntqe9Hcgz2w'],
+            area='Pensi2022',
+            template=data['template'],
+        )
 
-    topic2pdf(p)
+        topic2pdf(p, name)
+        topic2pdf(p, name+'-S', answers=True, solutions=True)
 
     cur.close()
     conn.close()
