@@ -1237,7 +1237,7 @@
         \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
             { 
                 \braun_graphics_box:Nn #1 
-                    { \includesvg { \g_braun_graphics_path_tl / #2 } } 
+                    { \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 } } 
             }
     }
 

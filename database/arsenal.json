@@ -630,6 +630,320 @@
               ]
             }
           ]
+        },
+        "Nível II": {
+          "problems": [
+            {
+              "id_": "1B01",
+              "statement": "Considere um elétron no orbital $1s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{\\sqrt{\\pi}a_{0}^{3/2}}e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron em um pequeno volume muito próximo do núcleo e a\nprobabilidade de encontrá-lo em um volume de mesmo tamanho a uma\ndistância $a_{0}$ do núcleo.\n",
+              "solution": "",
+              "answer": [
+                "$e^{2}$\n"
+              ],
+              "data": [],
+              "obj": 3,
+              "choices": [
+                "0\n",
+                "1\n",
+                "$e$\n",
+                "$e^{2}$\n",
+                "$e^{3}$\n"
+              ]
+            },
+            {
+              "id_": "1B02",
+              "statement": "Considere um elétron no orbital $2s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{4\\sqrt{2\\pi}a_{0}^{3/2}}(2-\\frac{r}{a_{0}})e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr.\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron a uma distância $a_{0}$ do núcleo e a probabilidade\nde encontrá-lo a uma distância $3a_{0}$ do núcleo.\n",
+              "solution": "",
+              "answer": [
+                "$e^{2}$/9\n"
+              ],
+              "data": [],
+              "obj": 3,
+              "choices": [
+                "1\n",
+                "$e$/3\n",
+                "$e$\n",
+                "$e^{2}$/9\n",
+                "$e^{2}$\n"
+              ]
+            },
+            {
+              "id_": "1B50",
+              "statement": "Considere a função de onda para um orbital átomo de hidrogênio:\n\n$$\n\\phi(r, \\theta) = \\frac{1}{64}\\sqrt{\\frac{1}{5\\pi}}\\left(20 - 10\\frac{r}{a_0} + \\frac{r^2}{a_0^2}\\right) \\frac{r}{a_0} e^{-\\frac{r}{2a_0}} \\cos\\theta\n$$\n\nEm que $a_0$ é o raio de Bohr.\n\n-   **Determine** a posição dos nodos desse orbital.\n-   **Esboce** a isosuperfície desse orbital.\n-   **Determine** a identidade desse orbital\n",
+              "solution": "\n",
+              "answer": [
+                "Dois nodos radiais em $r = (5 - \\sqrt{5})a_0$ e $r = (5 + \\sqrt{5})a_0$\ne um nodo angular em $\\theta = 90$.\n",
+                "Esboço.\n",
+                "$4p$.\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B51",
+              "statement": "Considere a função de distribuição radial para dois orbitais do átomo de\nhidrogênio.\n\n![Porbabilidade por distância.](1B51-1P.svg)\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [],
+              "data": [],
+              "obj": -1,
+              "choices": [
+                "*a* e *b* podem ser, respectivamente, os orbitais $3p$ e $3s$.\n",
+                "*a* e *b* podem ser, respectivamente, os orbitais $3p$ e $4p$.\n",
+                "*a* e *b* podem ser, respectivamente, os orbitais $4p$ e $4d$.\n",
+                "*b* possui menor penetrabilidade que o orbital *a*.\n",
+                "*a* é mais energético que *b*.\n"
+              ]
+            },
+            {
+              "id_": "1B17",
+              "statement": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n1.  $1s^2 2s^2 2p^1$.\n2.  $1s^2 2s^2 2p^3$.\n3.  $1s^2 2s^2 2p^4$.\n4.  $1s^2 2s^2 2p^5$.\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
+              "solution": "",
+              "answer": "1, 2 e 3",
+              "data": [],
+              "obj": 1,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3"
+              ]
+            },
+            {
+              "id_": "1B29",
+              "statement": "Considere as seguintes afirmações:\n\n1.  O nível de energia de um átomo, cujo número quântico principal é\n    igual a $4$, pode ter, no máximo, $32$ elétrons.\n2.  A configuração eletrônica $1s^2 2s^2 2p^2_x 2p^2_y$ representa um\n    estado excitado do átomo de oxigênio.\n3.  O estado fundamental do átomo de fósforo contém três elétrons\n    desemparelhados.\n4.  A energia necessária para excitar um elétron do estado fundamental\n    do átomo de hidrogênio para o orbital $3s$ é igual àquela necessária\n    para excitar este mesmo elétron para o orbital $3d$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "1, 2, 3 e 3",
+              "data": [],
+              "obj": 4,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 4",
+                "1, 3 e 4",
+                "2, 3 e 4",
+                "1, 2, 3 e 3"
+              ]
+            },
+            {
+              "id_": "1B30",
+              "statement": "Considere um átomo neutro cuja configuração eletrônica é\n$1s^2 2s^2 2p^5 3s^1$.\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "O átomo deve receber energia ao passar a $1s^2 2s^2 2p^6$.\n"
+              ],
+              "data": [],
+              "obj": 2,
+              "choices": [
+                "O átomo está em um estado excitado.\n",
+                "O átomo emite radiação eletromagnética ao passar a $1s^2 2s^2 2p^6$.\n",
+                "O átomo deve receber energia ao passar a $1s^2 2s^2 2p^6$.\n",
+                "Os orbitais $1s$ e $2s$ estão completamente preenchidos.\n",
+                "Na configuração mais estável o átomo é diamagnético.\n"
+              ]
+            },
+            {
+              "id_": "1B31",
+              "statement": "**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "As frequências das radiações emitidas pelo íon $\\ce{He+}$ são iguais às\nemitidas pelo átomo de hidrogênio.\n"
+              ],
+              "data": [],
+              "obj": 4,
+              "choices": [
+                "Nas espécies $\\ce{He+}$, $\\ce{Li^2+}$ e $\\ce{Be^3+}$, os orbitais $3s$,\n$3p$ e $3d$ têm a mesma energia.\n",
+                "No átomo de hidrogênio, os orbitais $3s$, $3p$ e $3d$ têm a mesma\nenergia.\n",
+                "No átomo de carbono, os orbitais $3s$, $3p$ e $3d$ têm valores de\nenergias diferentes.\n",
+                "A densidade de probabilidade de encontrar um elétron num átomo de\nhidrogênio no orbital $2p$ é nula num plano que passa pelo núcleo.\n",
+                "As frequências das radiações emitidas pelo íon $\\ce{He+}$ são iguais às\nemitidas pelo átomo de hidrogênio.\n"
+              ]
+            },
+            {
+              "id_": "1B32",
+              "statement": "**Assinale** a alternativa com a degenerescência, desconsiderando\n*spin*, do átomo de hidrogênio em seu segundo estado excitado.\n",
+              "solution": "",
+              "answer": [
+                "$9$\n"
+              ],
+              "data": [],
+              "obj": 3,
+              "choices": [
+                "$1$\n",
+                "$3$\n",
+                "$6$\n",
+                "$9$\n",
+                "$12$\n"
+              ]
+            },
+            {
+              "id_": "1B33",
+              "statement": "**Assinale** a alternativa com a degenerescência, desconsiderando\n*spin*, do ânion hidreto em seu segundo estado excitado.\n",
+              "solution": "",
+              "answer": [
+                "$3$\n"
+              ],
+              "data": [],
+              "obj": 1,
+              "choices": [
+                "$1$\n",
+                "$3$\n",
+                "$6$\n",
+                "$9$\n",
+                "$12$\n"
+              ]
+            },
+            {
+              "id_": "1B34",
+              "statement": "O titânio-48 e vanádio-51 são, respectivamente, isóbaro e isótono de um\nnuclídeo *X*.\n\n**Assinale** a alternativa com os números quânticos ($n, l, m_l, m_s$)\ndo elétron mais energético do íon *X-1*.\n",
+              "solution": "",
+              "answer": [
+                "$(3, 2, -2, -1/2)$\n"
+              ],
+              "data": [],
+              "obj": 0,
+              "choices": [
+                "$(3, 2, -2, -1/2)$\n",
+                "$(3, 2, -2, +1/2)$\n",
+                "$(3, 2, +2, -1/2)$\n",
+                "$(4, 0, 0, -1/2)$\n",
+                "$(4, 0, 0, +1/2)$\n"
+              ]
+            },
+            {
+              "id_": "1B35",
+              "statement": "Considere o elemento **X**, que possui dois isótopos estáveis. Um desses\nisótopos é isótono do nuclídeo \\$\\\\ce{*{46}Q\\^{108}}\\$ e isóbaro do\nnuclídeo \\$\\\\ce{*{48}Z\\^{109}}\\$ .\n\n-   **Determine** o número atômico de **X**.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** a configuração eletrônica de **X** no estado\n    fundamental.\n-   **Determine** os números quânticos do elétron mais energético de\n    **X** no estado fundamental.\n",
+              "solution": "\n",
+              "answer": [
+                "$47$\n",
+                "Grupo $11$\n",
+                "$\\ce{_{47}X}: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10}$\n",
+                "$5s^1$, $n=5$, $l=0$, $m=0$\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B36",
+              "statement": "Considere os elementos cobre e cromo.\n\n-   **Apresente** a configuração eletrônica do cobre.\n-   **Apresente** a configuração eletrônica do cromo.\n-   **Explique** porque as configurações eletrônicas diferem do\n    esperado.\n",
+              "solution": "\n",
+              "answer": [
+                "$[\\ce{Ar}]3d^{10}4s^1$\n",
+                "$[\\ce{Ar}]3d^54s^1$\n",
+                "Devido à simetria semiesférica e simetria esférica do bloco $d$.\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B37",
+              "statement": "Considere os primeiros lantanídeos no estado fundamental.\n\n-   **Explique** porque a configuração eletrônica lantânio é\n    $[\\ce{Xe}] 6s^2 5d^1$.\n-   **Explique** porque a configuração eletrônica do cério é\n    $[\\ce{Xe}] 4f^1 6s^2$.\n-   **Explique** porque a configuração eletrônica do praseodímio é\n    $[\\ce{Xe}] 4f^3 6s^2$.\n",
+              "solution": "\n",
+              "answer": [
+                "Penetrabilidade.\n",
+                "Repulsão e Penetrabilidade.\n",
+                "Repulsão.\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B38",
+              "statement": "Considere a energia dos orbitais $5s$ e $4d$ em função do número\natômico, a seguir.\n\n![Energia por número atômico.](1B38-1P.svg)\n\n**Assinale** a alternativa *incorreta*:\n",
+              "solution": "",
+              "answer": [
+                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
+              ],
+              "data": [],
+              "obj": 4,
+              "choices": [
+                "A energia do orbital $5s$ sofre **COMPLETAR**\n",
+                "A curva I representa o subnível $5s$ e a curva II o subnível $4d$.\n",
+                "A configuração eletrônica para o paládio é $[\\ce{Kr}] 4d^{10}$.\n",
+                "De acordo com o gráfico, a configuração eletrônica para o zircônio é\n$[\\ce{Kr}] 5s^2 4d^2$.\n",
+                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
+              ]
+            },
+            {
+              "id_": "1B39",
+              "statement": "Superactinídeos são elementos teóricos, do oitavo período da tabela\nperiódica, cujo orbital mais energético é o $5g$ ou $6f$, e o primeiro\nelemento cujo orbital mais energético é o $7d$.\n\n-   **Determine** a faixa de números atômicos dos elementos\n    superactinídeos.\n-   **Apresente** a configuração eletrônica do primeiro superactinídeo.\n",
+              "solution": "\n",
+              "answer": [
+                "$121$ a $153$\n",
+                "$[\\ce{Og}] 8s^2 5g^1$\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B40",
+              "statement": "Considere o elemento de número atômico $Z = 79$.\n\n-   **Apresente** a configuração eletrônica desse elemento no estado\n    fundamental.\n-   **Determine** o período da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\ce{_{79}E} : 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^1 4f^{14} 5d^{10}$.\n",
+                "$6º$ Período.\n",
+                "Grupo $11$.\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B41",
+              "statement": "REESCREVER\n",
+              "solution": "",
+              "answer": [],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B42",
+              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são $$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nOnde $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = -1$, $0$, $+1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
+              "solution": "\n",
+              "answer": [
+                "Diagrama.\n",
+                "$3$\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B43",
+              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo. $$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do rutênio, que possui\n    $\\mu = XX,XX \\mu_B$\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
+              "solution": "\n",
+              "answer": [
+                "???\n",
+                "$43$\n",
+                "$64$\n"
+              ],
+              "data": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B44",
+              "statement": "Considere a versão tridimensional da Tabela Periódica sugerida pelo\nquímico Paul Giguère.\n\n![]()\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "O íon $\\gamma ^{2+}$ tem a configuração eletrônica do xenônio.\n"
+              ],
+              "data": [],
+              "obj": 2,
+              "choices": [
+                "O elemento $\\alpha$ é um gás nobre.\n",
+                "O elemento $\\beta$ é o $\\ce{_{80}Hg}$.\n",
+                "O íon $\\gamma ^{2+}$ tem a configuração eletrônica do xenônio.\n",
+                "O $^{75}\\delta$ é isótono do $\\ce{^{85}X_{39}}$.\n",
+                "O elemento $\\epsilon$ é o $\\ce{_{43}Tc}$, primeiro elemento artificial\nconhecido, e pertence ao grupo $6$.\n"
+              ]
+            }
+          ]
         }
       },
       "subtopics": [

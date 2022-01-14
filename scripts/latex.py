@@ -62,7 +62,7 @@ def enum(name, items, cols=0, auto_cols=False, sep_cmd='item'):
         max_length = max([latex_len(i) for i in items])
         if max_length < 4:
             cols = 5
-        elif max_length < 8:
+        elif max_length < 7:
             cols = 3
         elif max_length < 20:
             cols = 2
