@@ -39,41 +39,93 @@ class Topic:
     problems: dict = Factory(dict)
     subtopics: list = Factory(list)
 
-    def latex(self, answers=True, solution=False):
+    def tex_statements(self, print_solutions):
+        # return statements in latex format
+        if not self.problems:
+            return ''
+
+        if len(self.problems) == 1:
+            # se há apenas um problemset, não coloca título
+            pset = next(iter(self.problems.values()))
+            problem_num = pset.len()
+            if not problem_num:
+                return ''
+
+            points = 10/problem_num
+            return pset.tex_statements(
+                points=points, print_solutions=print_solutions
+            )
+
+        problem_num = sum([pset.len() for pset in self.problems.items()])
+        if not problem_num:
+            return ''
+
+        points = 10/problem_num
+        statements = [
+            pset.tex_statements(title, problem_num, print_solutions)
+            for title, pset in self.problems.items()
+        ]
+        return ''.join(statements)
+
+    def tex_answers(self):
+        # return statements in latex format
+        header = latex.section('Gabarito', level=0)
+        if len(self.problems) == 1:
+            # se há apenas um problemset, não coloca título
+            pset = next(iter(self.problems.values()))
+            return header + pset.tex_answers()
+
+        statements = [
+            pset.tex_answers(title)
+            for title, pset in self.problems.items()
+        ]
+        return header + ''.join(statements)
+
+    def latex(self, print_level=1):
         # return tex file for compiling problem sheet as pdf
         preamble = latex.cmd(f'documentclass[{self.template}]', ['braun'])
 
         for prop in ['title', 'affiliation', 'author']:
             preamble += '\n' + latex.cmd(prop, [getattr(self, prop)])
 
-        ans = latex.section('Gabarito', newpage=True)
-        problems = '\n'
-        for title, pset in self.problems.items():
-            problems += pset.tex_statements(title, solution)
-            ans += pset.tex_answers(title)
+        if not print_level:
+            # print_level = 0: sem respostas e sem soluções
+            statements = self.tex_statements(print_solutions=False)
+            return latex.document(preamble, latex.pu2qty(statements))
 
-        body = latex.pu2qty(problems + ans if answers else problems)
+        answers = self.tex_answers()
 
-        return preamble + latex.env('document', latex.cmd('maketitle') + body)
+        if print_level == 2:
+            # print_level = 2: respostas e soluçĩes
+            statements = self.tex_statements(print_solutions=True)
+            return latex.document(preamble, latex.pu2qty(answers + statements))
 
-    def generate_pdf(self, name='', **kwargs):
-        if not name:
-            name = self.id_
+        # print_level = 1: apenas respostas ao final
+        statements = self.tex_statements(print_solutions=False)
+        return latex.document(preamble, latex.pu2qty(statements + answers))
+
+    def generate_pdf(self, file_name='', print_level=1):
+        if not file_name:
+            file_name = self.id_
 
         convert.tex2pdf(
-            self.latex(**kwargs),
-            name,
+            self.latex(print_level),
+            file_name,
             tmp_path=f'temp/{self.area}',
             out_path=f'archive/{self.area}'
         )
         return f'{self.id_} PDF generated!'
 
 
+def topic2pdf(topic):
+    return topic.generate_pdf()
+
+
 def links2topic(cur, id_, links, **kwargs):
     # gera o simulado a partir dos dados
     print('Carregando problemas...')
     problem_set = links2problemset(cur, links)
-    return Topic(id_, problems={'': problem_set}, **kwargs)
+    return Topic(id_, problems={'Questões': problem_set}, **kwargs)
 
 
 def file2topic(args):
@@ -123,10 +175,6 @@ def file2topic(args):
         )
 
     return Topic(**kwargs)
-
-
-def topic2pdf(topic):
-    return topic.generate_pdf()
 
 
 @frozen

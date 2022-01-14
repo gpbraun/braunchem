@@ -5,11 +5,18 @@
 import re
 
 
-def cmd(name, content=[], end=' '):
+def key(args):
+    return ','.join([f'{k}={{{v}}}' for k, v in args.items()])
+
+
+def cmd(name, args=[], end=' '):
     # latex command
-    if content:
-        tex_args = ''.join(f'{{{arg}}}' for arg in content)
+    if isinstance(args, list):
+        tex_args = ''.join(f'{{{arg}}}' for arg in args)
         return f'\\{name}{tex_args}' + end
+
+    if isinstance(args, str):
+        return f'\\{name}{args}' + end
 
     return f'\\{name}' + end
 
@@ -17,6 +24,11 @@ def cmd(name, content=[], end=' '):
 def env(env, content):
     # latex environment
     return f'\n\n\\begin{{{env}}}\n{content}\n\\end{{{env}}}\n'
+
+
+def document(preamble, body):
+    # latex \begin{document} command
+    return preamble + env('document', cmd('maketitle') + body)
 
 
 def section(content, level=0, newpage=False, numbered=True):

@@ -1,6 +1,6 @@
 import psycopg2
 
-from topic import links2topic, topic2pdf
+from topic import links2topic
 
 
 #
@@ -9,26 +9,38 @@ from topic import links2topic, topic2pdf
 
 simulados = {
     '0-MAT': {
-        'name': 'Ciclo Diagnóstico - Matemática',
+        'title': 'Ciclo Diagnóstico - Matemática',
         'template': 'IME',
         'links': [
-            's4NezMWTSrSntqe9Hcgz2w'
+            '9fu8EHZuTxitSuJdfK5psQ',
+            'HNL1t7AlTgqZR31AVqw9ag',
+            'ttJiAAHzSWSRjRDnHyC9Dw',
+            'sV_V7sDiTZepDo9MTU0oag',
+            'vTrRcaEfQNeo0ZbGfHbuCg'
         ]
     },
     '0-FIS': {
-        'name': 'Ciclo Diagnóstico - Física',
+        'title': 'Ciclo Diagnóstico - Física',
         'template': 'IME',
+        'links': [
+            'jslFnKpvTGWqkXVuGNJ_FA',
+            '1byU8AU-Q-OcX7qCgBjgcQ',
+            'akRrouPMR2CI4OQjUVkI0w',
+            'iCLe2iilTNWG13h5Abry3A',
+            'WcI78jOjTo2VqTFyZ9JEMQ'
+        ]
     },
     '0-QUI': {
-        'name': 'Ciclo Diagnóstico - Química',
+        'title': 'Ciclo Diagnóstico - Química',
         'template': 'IME',
+        'links': [],
     },
 }
 
 
 def main():
     conn = psycopg2.connect(
-        host='192.168.0.15',
+        host='editor.painelcupula.com',
         port=5432,
         database='codimd',
         user='codimd',
@@ -40,13 +52,15 @@ def main():
         p = links2topic(
             cur,
             name,
-            ['s4NezMWTSrSntqe9Hcgz2w'],
+            data['links'],
             area='Pensi2022',
+            title=data['title'],
             template=data['template'],
         )
-
-        topic2pdf(p, name)
-        topic2pdf(p, name+'-S', answers=True, solutions=True)
+        # caderno de questões
+        p.generate_pdf(name, print_level=0)
+        # gabarito
+        p.generate_pdf(name+'-S', print_level=2)
 
     cur.close()
     conn.close()

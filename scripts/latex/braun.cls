@@ -1252,6 +1252,14 @@
         \group_begin:
         \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
         \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
+        \str_case:Vn \l_tmpa_tl
+            {
+                { /uploads }
+                {
+                    \braun_include_graphics:Nn \l_tmpa_coffin {\l_tmpb_tl . \l_tmpc_tl}
+                }
+            }
+
         \str_case:VnF \l_tmpc_tl
             {
                 { .svg }
@@ -1383,6 +1391,9 @@
 
         path .tl_set:N = \g_braun_graphics_path_tl,
         path .initial:n = ,
+
+        points .fp_set:N = \g_braun_graphics_points_fp,
+        points .initial:n = 1.00,
     }
 
 \counterwithout * { subsection } { section }
@@ -1445,7 +1456,14 @@
                             \sffamily\bfseries
                             \skip_horizontal:n {2em}
                             Valor: ~  
-                            \num [ detect-all, drop-zero-decimal=false ] { 1.00 }
+                            \num 
+                                [ 
+                                    detect-all, 
+                                    drop-zero-decimal=false, 
+                                    round-mode=places, 
+                                    round-precision=2,
+                                ] 
+                                { \fp_eval:n { \g_braun_graphics_points_fp } }
                             \skip_horizontal:n {2em}
                         ]
                         {
