@@ -9,14 +9,14 @@ def key(args):
     return ','.join([f'{k}={{{v}}}' for k, v in args.items()])
 
 
-def cmd(name, args=[], end=' '):
+def cmd(name, args='', end=' '):
     # latex command
     if isinstance(args, list):
         tex_args = ''.join(f'{{{arg}}}' for arg in args)
         return f'\\{name}{tex_args}' + end
 
     if isinstance(args, str):
-        return f'\\{name}{args}' + end
+        return f'\\{name}{{{args}}}' + end
 
     return f'\\{name}' + end
 
@@ -41,7 +41,7 @@ def section(content, level=0, newpage=False, numbered=True):
     return newpage_cmd + cmd(section_cmd, [content], end='\n')
 
 
-TEX_LEN = re.compile(r'\\\w+|[\w\d\=\%]|\d')
+TEX_LEN = re.compile(r'\\\w+|[\w\d\+\-\=\%]|\d')
 
 
 def latex_len(tex_str):

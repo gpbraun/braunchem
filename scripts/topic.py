@@ -56,7 +56,7 @@ class Topic:
                 points=points, print_solutions=print_solutions
             )
 
-        problem_num = sum([pset.len() for pset in self.problems.items()])
+        problem_num = sum([pset.len() for _, pset in self.problems.items()])
         if not problem_num:
             return ''
 
