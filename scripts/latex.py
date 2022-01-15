@@ -11,14 +11,14 @@ def key(args):
 
 def cmd(name, args='', end=' '):
     # latex command
+    if not args:
+        return f'\\{name}' + end
+
     if isinstance(args, list):
         tex_args = ''.join(f'{{{arg}}}' for arg in args)
         return f'\\{name}{tex_args}' + end
 
-    if isinstance(args, str):
-        return f'\\{name}{{{args}}}' + end
-
-    return f'\\{name}' + end
+    return f'\\{name}{{{args}}}' + end
 
 
 def env(env, content):

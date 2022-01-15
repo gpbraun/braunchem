@@ -176,16 +176,16 @@ def problem_contents(id_, path, pfile):
 class ProblemSet:
     problems: list[Problem]
 
-    def len(self):
+    def __len__(self):
         return len(self.problems)
 
-    def asdict(self):
-        return {p.id_: p for p in self.problems}
+    def asdict(self, attr):
+        return {getattr(p, attr): p for p in self.problems}
 
-    def filter(self, problem_ids):
+    def filter(self, attr, problem_attrs):
         # get ProblemSet from list of ids
-        p_dict = self.asdict()
-        return ProblemSet([p_dict[id_] for id_ in problem_ids])
+        p_dict = self.asdict(attr)
+        return ProblemSet([p_dict[a] for a in problem_attrs])
 
     def tex_statements(self, title='', points=1.0, print_solutions=False):
         # get statements in latex format

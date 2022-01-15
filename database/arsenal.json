@@ -205,7 +205,7 @@
     {
       "id_": "1B",
       "area": "Q1",
-      "title": "Átomo de Hidrogênio",
+      "title": "Átomo de Polieletrônico.",
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
@@ -248,34 +248,36 @@
             },
             {
               "id_": "1B04",
-              "statement": "Considere os orbitais a seguir.\n\n**Assinale** a alternativa que relaciona os orbitais que podem existir\nno átomo de hidrogênio.\n",
+              "statement": "**Assinale** a alternativa com o orbital que pode existir no átomo de\nhidrogênio.\n",
               "solution": "",
               "answer": [
-                "$6f$\n"
+                "$8f$\n"
               ],
               "data": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "$2d$\n",
-                "$4d$\n",
+                "$2f$\n",
+                "$3f$\n",
                 "$4g$\n",
-                "$6f$\n"
+                "$8f$\n"
               ]
             },
             {
               "id_": "1B05",
-              "statement": "Considere os orbitais a seguir.\n\n**Assinale** a alternativa que relaciona os orbitais que podem existir\nno átomo de hidrogênio.\n",
+              "statement": "**Assinale** a alternativa com o orbital que não pode existir no átomo\nde hidrogênio.\n",
               "solution": "",
               "answer": [
-                "$6g$\n"
+                "$1p$\n"
               ],
               "data": [],
-              "obj": 3,
+              "obj": 0,
               "choices": [
                 "$1p$\n",
                 "$5f$\n",
                 "$5g$\n",
-                "$6g$\n"
+                "$6g$\n",
+                "$9h$\n"
               ]
             },
             {
@@ -330,23 +332,6 @@
               ]
             },
             {
-              "id_": "1B09",
-              "statement": "Considere a isosuperfície de um orbital do átomo de hidrogênio.\n\n![Isosuperfície.](1B09.svg)\n\n**Assinale** a alternativa com a identidade desse orbital.\n",
-              "solution": "",
-              "answer": [
-                "$3p_z$\n"
-              ],
-              "data": [],
-              "obj": 1,
-              "choices": [
-                "$2p_z$\n",
-                "$3p_z$\n",
-                "$3d_{z2}$\n",
-                "$4p_z$\n",
-                "$4d_{z2}$\n"
-              ]
-            },
-            {
               "id_": "1B10",
               "statement": "O gráfico abaixo, mostra a função de onda de um orbital do átomo de\nhidrogênio.\n\n![Função de onda por distância.](1B10-1P.svg)\n\n**Assinale** a alternativa com a identidade desse orbital.\n",
               "solution": "",
@@ -361,6 +346,23 @@
                 "$3s$\n",
                 "$3p$\n",
                 "$4s$\n"
+              ]
+            },
+            {
+              "id_": "1B09",
+              "statement": "Considere a isosuperfície de um orbital do hidrogênio.\n\n![Isosuperfície.](1B09.svg)\n\n**Assinale** a alternativa com a identidade desse orbital.\n",
+              "solution": "",
+              "answer": [
+                "$3p_z$\n"
+              ],
+              "data": [],
+              "obj": 1,
+              "choices": [
+                "$2p_z$\n",
+                "$3p_z$\n",
+                "$3d_{z^2}$\n",
+                "$4p_z$\n",
+                "$4d_{z^2}$\n"
               ]
             },
             {
@@ -394,21 +396,6 @@
               ]
             },
             {
-              "id_": "1B13",
-              "statement": "1.  $|E_{2s}| = |E_{2p}|$ para átomo de hidrogênio.\n2.  $|E_{2s}| = |E_{2p}|$ para o íon de hélio carregado com uma carga\n    positiva.\n3.  $|E_{2s}| > |E_{2p}|$ para o átomo de hélio.\n4.  $|E_{2s}| > |E_{2p}|$ para o ânion de hélio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
-              "solution": "",
-              "answer": "1, 2, 3 e 3",
-              "data": [],
-              "obj": 4,
-              "choices": [
-                "1, 2 e 3",
-                "1, 2 e 4",
-                "1, 3 e 4",
-                "2, 3 e 4",
-                "1, 2, 3 e 3"
-              ]
-            },
-            {
               "id_": "1B14",
               "statement": "**Assinale** a alternativa com o número de elétrons com número quântico\nmagnético nulo no estado fundamental do germânio.\n",
               "solution": "",
@@ -426,6 +413,23 @@
               ]
             },
             {
+              "id_": "1B52",
+              "statement": "**Assinale** a alternativa com o número de elétrons com número quântico\nmagnético $m_s = 1$ no estado fundamental do bismuto.\n",
+              "solution": "",
+              "answer": [
+                "$34$\n"
+              ],
+              "data": [],
+              "obj": 3,
+              "choices": [
+                "$12$\n",
+                "$17$\n",
+                "$24$\n",
+                "$34$\n",
+                "$40$\n"
+              ]
+            },
+            {
               "id_": "1B15",
               "statement": "**Assinale** a alternativa com a configuração eletrônica do estado\nfundamental do vanádio.\n",
               "solution": "",
@@ -433,11 +437,11 @@
                 "$\\ce{[Ar]} 4s^2 3d^3$\n"
               ],
               "data": [],
-              "obj": 1,
+              "obj": 2,
               "choices": [
+                "$\\ce{[Ar]} 3d^5$\n",
                 "$\\ce{[Ar]} 4s^1 3d^4$\n",
                 "$\\ce{[Ar]} 4s^2 3d^3$\n",
-                "$\\ce{[Ar]} 4s^0 3d^5$\n",
                 "$\\ce{[Ar]} 4s^1 3d^5$\n",
                 "$\\ce{[Ar]} 4s^2 3d^4$\n"
               ]
@@ -626,7 +630,7 @@
                 "$18$\n",
                 "$19$\n",
                 "$20$\n",
-                "$2$\n"
+                "$21$\n"
               ]
             }
           ]
@@ -635,7 +639,7 @@
           "problems": [
             {
               "id_": "1B01",
-              "statement": "Considere um elétron no orbital $1s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{\\sqrt{\\pi}a_{0}^{3/2}}e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron em um pequeno volume muito próximo do núcleo e a\nprobabilidade de encontrá-lo em um volume de mesmo tamanho a uma\ndistância $a_{0}$ do núcleo.\n",
+              "statement": "Considere um elétron no orbital $1s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{\\sqrt{\\pi}a_{0}^{3/2}}e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr.\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron em um pequeno volume muito próximo do núcleo e a\nprobabilidade de encontrá-lo em um volume de mesmo tamanho a uma\ndistância $a_{0}$ do núcleo.\n",
               "solution": "",
               "answer": [
                 "$e^{2}$\n"
@@ -652,7 +656,7 @@
             },
             {
               "id_": "1B02",
-              "statement": "Considere um elétron no orbital $2s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{4\\sqrt{2\\pi}a_{0}^{3/2}}(2-\\frac{r}{a_{0}})e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr.\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron a uma distância $a_{0}$ do núcleo e a probabilidade\nde encontrá-lo a uma distância $3a_{0}$ do núcleo.\n",
+              "statement": "Considere um elétron no orbital $2s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{4\\sqrt{2\\pi}a_{0}^{3/2}}\\left(2-\\frac{r}{a_{0}}\\right)e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr.\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron a uma distância $a_{0}$ do núcleo e a probabilidade\nde encontrá-lo a uma distância $3a_{0}$ do núcleo.\n",
               "solution": "",
               "answer": [
                 "$e^{2}$/9\n"
@@ -669,10 +673,10 @@
             },
             {
               "id_": "1B50",
-              "statement": "Considere a função de onda para um orbital átomo de hidrogênio:\n\n$$\n\\phi(r, \\theta) = \\frac{1}{64}\\sqrt{\\frac{1}{5\\pi}}\\left(20 - 10\\frac{r}{a_0} + \\frac{r^2}{a_0^2}\\right) \\frac{r}{a_0} e^{-\\frac{r}{2a_0}} \\cos\\theta\n$$\n\nEm que $a_0$ é o raio de Bohr.\n\n-   **Determine** a posição dos nodos desse orbital.\n-   **Esboce** a isosuperfície desse orbital.\n-   **Determine** a identidade desse orbital\n",
+              "statement": "Considere a função de onda para um orbital átomo de hidrogênio:\n\n$$\n\\psi(r, \\theta) = \\frac{1}{64\\sqrt{5\\pi}a_0^{3/2}}\\left(20 - 10\\frac{r}{a_0} + \\frac{r^2}{a_0^2}\\right) \\frac{r}{a_0} e^{-\\frac{r}{2a_0}} \\cos\\theta\n$$\n\nEm que $a_0$ é o raio de Bohr.\n\n-   **Determine** a posição dos nodos desse orbital.\n-   **Esboce** a isosuperfície desse orbital.\n-   **Determine** a identidade desse orbital\n",
               "solution": "\n",
               "answer": [
-                "Dois nodos radiais em $r = (5 - \\sqrt{5})a_0$ e $r = (5 + \\sqrt{5})a_0$\ne um nodo angular em $\\theta = 90$.\n",
+                "Dois nodos radiais em $r = (5 - \\sqrt{5})a_0$ e $r = (5 + \\sqrt{5})a_0$\ne um nodo angular em $\\theta = \\pi/2$.\n",
                 "Esboço.\n",
                 "$4p$.\n"
               ],
@@ -682,22 +686,24 @@
             },
             {
               "id_": "1B51",
-              "statement": "Considere a função de distribuição radial para dois orbitais do átomo de\nhidrogênio.\n\n![Porbabilidade por distância.](1B51-1P.svg)\n\n**Assinale** a alternativa *correta*.\n",
+              "statement": "Considere a função de distribuição radial para dois orbitais do átomo de\nhidrogênio.\n\n![Probabilidade por distância.](1B51-1P.svg)\n\n**Assinale** a alternativa *correta*.\n",
               "solution": "",
-              "answer": [],
+              "answer": [
+                "$\\psi_a$ e $\\psi_b$ podem ser o $3p$ e $3s$, respectivamente.\n"
+              ],
               "data": [],
-              "obj": -1,
+              "obj": 0,
               "choices": [
-                "*a* e *b* podem ser, respectivamente, os orbitais $3p$ e $3s$.\n",
-                "*a* e *b* podem ser, respectivamente, os orbitais $3p$ e $4p$.\n",
-                "*a* e *b* podem ser, respectivamente, os orbitais $4p$ e $4d$.\n",
-                "*b* possui menor penetrabilidade que o orbital *a*.\n",
-                "*a* é mais energético que *b*.\n"
+                "$\\psi_a$ e $\\psi_b$ podem ser o $3p$ e $3s$, respectivamente.\n",
+                "$\\psi_a$ e $\\psi_b$ podem ser o $3p$ e $4p$, respectivamente.\n",
+                "$\\psi_a$ e $\\psi_b$ podem ser o $4p$ e $4d$, respectivamente.\n",
+                "$\\psi_b$ possui menor penetrabilidade que o orbital $\\psi_a$.\n",
+                "$\\psi_a$ é mais energético que $\\psi_b$.\n"
               ]
             },
             {
               "id_": "1B17",
-              "statement": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n1.  $1s^2 2s^2 2p^1$.\n2.  $1s^2 2s^2 2p^3$.\n3.  $1s^2 2s^2 2p^4$.\n4.  $1s^2 2s^2 2p^5$.\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
+              "statement": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n1.  $1s^2 2s^2 2p^1$\n2.  $1s^2 2s^2 2p^3$\n3.  $1s^2 2s^2 2p^4$\n4.  $1s^2 2s^2 2p^5$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
               "solution": "",
               "answer": "1, 2 e 3",
               "data": [],
@@ -727,7 +733,7 @@
             },
             {
               "id_": "1B30",
-              "statement": "Considere um átomo neutro cuja configuração eletrônica é\n$1s^2 2s^2 2p^5 3s^1$.\n\n**Assinale** a alternativa *incorreta*.\n",
+              "statement": "Considere um átomo com configuração eletrônica é $1s^2 2s^2 2p^5 3s^1$.\n\n**Assinale** a alternativa *incorreta*.\n",
               "solution": "",
               "answer": [
                 "O átomo deve receber energia ao passar a $1s^2 2s^2 2p^6$.\n"
@@ -740,6 +746,21 @@
                 "O átomo deve receber energia ao passar a $1s^2 2s^2 2p^6$.\n",
                 "Os orbitais $1s$ e $2s$ estão completamente preenchidos.\n",
                 "Na configuração mais estável o átomo é diamagnético.\n"
+              ]
+            },
+            {
+              "id_": "1B13",
+              "statement": "1.  $|E_{2s}| = |E_{2p}|$ para átomo de hidrogênio.\n2.  $|E_{2s}| = |E_{2p}|$ para o íon de hélio carregado com uma carga\n    positiva.\n3.  $|E_{2s}| > |E_{2p}|$ para o átomo de hélio.\n4.  $|E_{2s}| > |E_{2p}|$ para o ânion de hélio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "1, 2, 3 e 3",
+              "data": [],
+              "obj": 4,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 4",
+                "1, 3 e 4",
+                "2, 3 e 4",
+                "1, 2, 3 e 3"
               ]
             },
             {
@@ -795,7 +816,7 @@
             },
             {
               "id_": "1B34",
-              "statement": "O titânio-48 e vanádio-51 são, respectivamente, isóbaro e isótono de um\nnuclídeo *X*.\n\n**Assinale** a alternativa com os números quânticos ($n, l, m_l, m_s$)\ndo elétron mais energético do íon *X-1*.\n",
+              "statement": "O titânio-48 e vanádio-51 são, respectivamente, isóbaro e isótono de um\nnuclídeo **X**.\n\n**Assinale** a alternativa com os números quânticos ($n, l, m_l, m_s$)\ndo elétron mais energético do íon $\\ce{\\mathbf{X}^{-1}}$.\n",
               "solution": "",
               "answer": [
                 "$(3, 2, -2, -1/2)$\n"
@@ -812,7 +833,7 @@
             },
             {
               "id_": "1B35",
-              "statement": "Considere o elemento **X**, que possui dois isótopos estáveis. Um desses\nisótopos é isótono do nuclídeo \\$\\\\ce{*{46}Q\\^{108}}\\$ e isóbaro do\nnuclídeo \\$\\\\ce{*{48}Z\\^{109}}\\$ .\n\n-   **Determine** o número atômico de **X**.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** a configuração eletrônica de **X** no estado\n    fundamental.\n-   **Determine** os números quânticos do elétron mais energético de\n    **X** no estado fundamental.\n",
+              "statement": "Considere o elemento **X**, que possui dois isótopos estáveis. Um desses\nisótopos é isótono do nuclídeo $\\ce{\\relax_46\\mathbf{Q}^{108}}$ e\nisóbaro do nuclídeo $\\ce{\\relax_48\\mathbf{Z}^{109} }$.\n\n-   **Determine** o número atômico de **X**.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** a configuração eletrônica de **X** no estado\n    fundamental.\n-   **Determine** os números quânticos do elétron mais energético de\n    **X** no estado fundamental.\n",
               "solution": "\n",
               "answer": [
                 "$47$\n",
@@ -839,7 +860,7 @@
             },
             {
               "id_": "1B37",
-              "statement": "Considere os primeiros lantanídeos no estado fundamental.\n\n-   **Explique** porque a configuração eletrônica lantânio é\n    $[\\ce{Xe}] 6s^2 5d^1$.\n-   **Explique** porque a configuração eletrônica do cério é\n    $[\\ce{Xe}] 4f^1 6s^2$.\n-   **Explique** porque a configuração eletrônica do praseodímio é\n    $[\\ce{Xe}] 4f^3 6s^2$.\n",
+              "statement": "Considere os primeiros lantanídeos no estado fundamental.\n\n-   **Explique** porque a configuração eletrônica do estado fundamental\n    lantânio é $[\\ce{Xe}] 6s^2 5d^1$.\n-   **Explique** porque a configuração eletrônica do estado fundamental\n    do cério é $[\\ce{Xe}] 4f^1 6s^2$.\n-   **Explique** porque a configuração eletrônica do estado fundamental\n    do praseodímio é $[\\ce{Xe}] 4f^3 6s^2$.\n",
               "solution": "\n",
               "answer": [
                 "Penetrabilidade.\n",
@@ -852,19 +873,19 @@
             },
             {
               "id_": "1B38",
-              "statement": "Considere a energia dos orbitais $5s$ e $4d$ em função do número\natômico, a seguir.\n\n![Energia por número atômico.](1B38-1P.svg)\n\n**Assinale** a alternativa *incorreta*:\n",
+              "statement": "Considere a energia dos orbitais $5s$ e $4d$ em função do número\natômico, a seguir.\n\n![Energia por número atômico.](1B38-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
               "solution": "",
               "answer": [
                 "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
               ],
               "data": [],
-              "obj": 4,
+              "obj": 1,
               "choices": [
-                "A energia do orbital $5s$ sofre **COMPLETAR**\n",
-                "A curva I representa o subnível $5s$ e a curva II o subnível $4d$.\n",
-                "A configuração eletrônica para o paládio é $[\\ce{Kr}] 4d^{10}$.\n",
-                "De acordo com o gráfico, a configuração eletrônica para o zircônio é\n$[\\ce{Kr}] 5s^2 4d^2$.\n",
-                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
+                "$\\psi_a$ representa o subnível $5s$ e $\\psi_b$ o subnível $4d$.\n",
+                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n",
+                "A configuração eletrônica para o zircônio é $[\\ce{Kr}] 5s^2 4d^2$.\n",
+                "A configuração eletrônica para o ródio é $[\\ce{Kr}] 5s^1 4d^8$.\n",
+                "A configuração eletrônica para o paládio é $[\\ce{Kr}] 4d^{10}$.\n"
               ]
             },
             {
@@ -884,8 +905,8 @@
               "statement": "Considere o elemento de número atômico $Z = 79$.\n\n-   **Apresente** a configuração eletrônica desse elemento no estado\n    fundamental.\n-   **Determine** o período da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n",
               "solution": "\n",
               "answer": [
-                "$\\ce{_{79}E} : 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^1 4f^{14} 5d^{10}$.\n",
-                "$6º$ Período.\n",
+                "$\\ce{_{79}E} : [Xe] 6s^1 4f^{14} 5d^{10}$.\n",
+                "Sexto período.\n",
                 "Grupo $11$.\n"
               ],
               "data": [],
@@ -894,16 +915,24 @@
             },
             {
               "id_": "1B41",
-              "statement": "REESCREVER\n",
+              "statement": "Quando um elétron sofre uma transição no átomo de hidrogênio, os estados\ninicial e final obedecem à regra de seleção $\\Delta l = \\pm 1$.\n\n**Assinale** a alternativa com a transição que não é permitida.\n",
               "solution": "",
-              "answer": [],
+              "answer": [
+                "$4d \\to 3s$\n"
+              ],
               "data": [],
-              "obj": -1,
-              "choices": []
+              "obj": 3,
+              "choices": [
+                "$2p \\to 1s$\n",
+                "$3p \\to 1s$\n",
+                "$3d \\to 4f$\n",
+                "$4d \\to 3s$\n",
+                "$5g \\to 4f$\n"
+              ]
             },
             {
               "id_": "1B42",
-              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são $$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nOnde $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = -1$, $0$, $+1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
+              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são $$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nOnde $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = 0, \\pm 1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
               "solution": "\n",
               "answer": [
                 "Diagrama.\n",
@@ -915,33 +944,16 @@
             },
             {
               "id_": "1B43",
-              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo. $$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do rutênio, que possui\n    $\\mu = XX,XX \\mu_B$\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
+              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo. $$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do nióbio, que possui\n    $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
               "solution": "\n",
               "answer": [
-                "???\n",
+                "$[\\ce{Kr}] 5s^1 6d^4$\n",
                 "$43$\n",
                 "$64$\n"
               ],
               "data": [],
               "obj": -1,
               "choices": []
-            },
-            {
-              "id_": "1B44",
-              "statement": "Considere a versão tridimensional da Tabela Periódica sugerida pelo\nquímico Paul Giguère.\n\n![]()\n\n**Assinale** a alternativa *correta*.\n",
-              "solution": "",
-              "answer": [
-                "O íon $\\gamma ^{2+}$ tem a configuração eletrônica do xenônio.\n"
-              ],
-              "data": [],
-              "obj": 2,
-              "choices": [
-                "O elemento $\\alpha$ é um gás nobre.\n",
-                "O elemento $\\beta$ é o $\\ce{_{80}Hg}$.\n",
-                "O íon $\\gamma ^{2+}$ tem a configuração eletrônica do xenônio.\n",
-                "O $^{75}\\delta$ é isótono do $\\ce{^{85}X_{39}}$.\n",
-                "O elemento $\\epsilon$ é o $\\ce{_{43}Tc}$, primeiro elemento artificial\nconhecido, e pertence ao grupo $6$.\n"
-              ]
             }
           ]
         }
@@ -1269,7 +1281,7 @@
                   "value": "2,2",
                   "unit": "eV",
                   "name": "Função trabalho do \\ce{K}",
-                  "symbol": "\\Phi{} (\\ce{K})"
+                  "symbol": "\\Phi (\\ce{K})"
                 }
               ],
               "obj": 1,
@@ -1296,7 +1308,7 @@
                   "value": "4,3",
                   "unit": "eV",
                   "name": "Função trabalho do \\ce{Zn}",
-                  "symbol": "\\Phi{} (\\ce{Zn})"
+                  "symbol": "\\Phi (\\ce{Zn})"
                 }
               ],
               "obj": 1,
@@ -1598,7 +1610,7 @@
                   "value": "-2808",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{glicose} (s)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{glicose, {s}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}})"
                 }
               ],
               "obj": -1,
@@ -1620,7 +1632,7 @@
                   "value": "-127,07",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{AgCl} (s)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{AgCl, {s}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{AgCl, {s}})"
                 },
                 {
                   "id_": "HL-Cl2",
@@ -1629,7 +1641,7 @@
                   "value": "242",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{Cl2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{Cl2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2})"
                 }
               ],
               "obj": -1,
@@ -2269,7 +2281,7 @@
                   "value": "-291,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (s)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {s}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {s}})"
                 },
                 {
                   "id_": "CP-H2O(s)",
@@ -2473,7 +2485,7 @@
                   "value": "-333,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{ureia} (s)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{ureia, {s}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2482,7 +2494,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(l)",
@@ -2491,7 +2503,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
                 }
               ],
               "obj": 1,
@@ -2518,7 +2530,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(g)",
@@ -2527,7 +2539,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hc-CH4(g)",
@@ -2536,7 +2548,7 @@
                   "value": "-890",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{CH4, {g}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}})"
                 }
               ],
               "obj": 1,
@@ -2563,7 +2575,7 @@
                   "value": "348",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-C}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C-C})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C})"
                 },
                 {
                   "id_": "HL-C-H",
@@ -2572,7 +2584,7 @@
                   "value": "412",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-H}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C-H})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-H})"
                 },
                 {
                   "id_": "HL-C=O",
@@ -2581,7 +2593,7 @@
                   "value": "743",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C=O}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C=O})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=O})"
                 },
                 {
                   "id_": "HL-H2",
@@ -2590,7 +2602,7 @@
                   "value": "436",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{H2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2})"
                 },
                 {
                   "id_": "HL-O2",
@@ -2599,7 +2611,7 @@
                   "value": "496",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{O2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{O2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O2})"
                 }
               ],
               "obj": 3,
@@ -2626,7 +2638,7 @@
                   "value": "30,91",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de vaporização do \\ce{Br2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{vap} }(\\ce{Br2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{Br2})"
                 },
                 {
                   "id_": "HL-C=C",
@@ -2635,7 +2647,7 @@
                   "value": "612",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C=C}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C=C})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C})"
                 },
                 {
                   "id_": "HL-Br2",
@@ -2644,7 +2656,7 @@
                   "value": "193",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{Br2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{Br2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Br2})"
                 }
               ],
               "obj": 0,
@@ -2671,7 +2683,7 @@
                   "value": "712",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de sublimação do \\ce{grafite}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{sub} }(\\ce{grafite})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }(\\ce{grafite})"
                 },
                 {
                   "id_": "HL-H2",
@@ -2680,7 +2692,7 @@
                   "value": "436",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{H2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2})"
                 },
                 {
                   "id_": "HL-O2",
@@ -2689,7 +2701,7 @@
                   "value": "496",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{O2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{O2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O2})"
                 },
                 {
                   "id_": "HL-C-H",
@@ -2698,7 +2710,7 @@
                   "value": "412",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-H}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C-H})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-H})"
                 },
                 {
                   "id_": "HL-C-O",
@@ -2707,7 +2719,7 @@
                   "value": "360",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-O}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C-O})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-O})"
                 },
                 {
                   "id_": "HL-O-H",
@@ -2716,7 +2728,7 @@
                   "value": "463",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{O-H}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{O-H})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O-H})"
                 }
               ],
               "obj": 0,
@@ -2743,7 +2755,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(l)",
@@ -2752,7 +2764,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hc-CH4(g)",
@@ -2761,7 +2773,7 @@
                   "value": "-890",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{CH4, {g}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}})"
                 }
               ],
               "obj": 0,
@@ -2788,7 +2800,7 @@
                   "value": "20,42",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{propeno} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{propeno, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{propeno, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -2797,7 +2809,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hc-propano(g)",
@@ -2806,7 +2818,7 @@
                   "value": "-2220",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{propano} (g)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{propano, {g}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{propano, {g}})"
                 }
               ],
               "obj": 4,
@@ -2850,7 +2862,7 @@
                   "value": "-3227",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}})"
                 }
               ],
               "obj": 2,
@@ -2909,7 +2921,7 @@
                   "value": "-2878",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{butano} (g)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{butano, {g}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}})"
                 },
                 {
                   "id_": "CP-H2O(l)",
@@ -2927,7 +2939,7 @@
                   "value": "1",
                   "unit": "g.cm^{-3}",
                   "name": "Densidade do \\ce{H2O}",
-                  "symbol": "\\rho{} (\\ce{H2O})"
+                  "symbol": "\\rho (\\ce{H2O})"
                 }
               ],
               "obj": 1,
@@ -2954,7 +2966,7 @@
                   "value": "40,7",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de vaporização do \\ce{H2O}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{vap} }(\\ce{H2O})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{H2O})"
                 }
               ],
               "obj": 1,
@@ -3041,7 +3053,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -3050,7 +3062,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-eteno(g)",
@@ -3059,7 +3071,7 @@
                   "value": "52,26",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{eteno} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{eteno, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{eteno, {g}})"
                 },
                 {
                   "id_": "Hf-metano(g)",
@@ -3068,7 +3080,7 @@
                   "value": "-74,81",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{metano} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{metano, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{metano, {g}})"
                 }
               ],
               "obj": -1,
@@ -3089,7 +3101,7 @@
                   "value": "40,7",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de vaporização do \\ce{H2O}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{vap} }(\\ce{H2O})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{H2O})"
                 },
                 {
                   "id_": "d-H2O",
@@ -3098,7 +3110,7 @@
                   "value": "1",
                   "unit": "g.cm^{-3}",
                   "name": "Densidade do \\ce{H2O}",
-                  "symbol": "\\rho{} (\\ce{H2O})"
+                  "symbol": "\\rho (\\ce{H2O})"
                 }
               ],
               "obj": -1,
@@ -3120,7 +3132,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -3129,7 +3141,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-octano(l)",
@@ -3138,7 +3150,7 @@
                   "value": "-249,9",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{octano, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}})"
                 }
               ],
               "obj": -1,
@@ -3193,7 +3205,7 @@
                   "value": "-3537",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{pentano} (g)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{pentano, {g}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{pentano, {g}})"
                 },
                 {
                   "id_": "Hc-butano(g)",
@@ -3202,7 +3214,7 @@
                   "value": "-2878",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{butano} (g)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{butano, {g}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}})"
                 }
               ],
               "obj": -1,
@@ -3224,7 +3236,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hsub-grafite",
@@ -3233,7 +3245,7 @@
                   "value": "712",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de sublimação do \\ce{grafite}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{sub} }(\\ce{grafite})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }(\\ce{grafite})"
                 },
                 {
                   "id_": "HL-H2",
@@ -3242,7 +3254,7 @@
                   "value": "436",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{H2})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2})"
                 },
                 {
                   "id_": "Hf-H2O(l)",
@@ -3251,7 +3263,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
                 }
               ],
               "obj": -1,
@@ -3308,7 +3320,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -3317,7 +3329,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-octano(l)",
@@ -3326,7 +3338,7 @@
                   "value": "-249,9",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{octano, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}})"
                 }
               ],
               "obj": 4,
@@ -3354,7 +3366,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -3363,7 +3375,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-metano(g)",
@@ -3372,7 +3384,7 @@
                   "value": "-74,81",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{metano} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{metano, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{metano, {g}})"
                 }
               ],
               "obj": -1,
@@ -3410,7 +3422,7 @@
                   "value": "-46,11",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{NH3} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{NH3, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{NH3, {g}})"
                 },
                 {
                   "id_": "CP-N2(g)",
@@ -3495,7 +3507,7 @@
                   "value": "-285,83",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
                 },
                 {
                   "id_": "Hc-cicloexano(l)",
@@ -3504,7 +3516,7 @@
                   "value": "-3920",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{cicloexano} (l)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{cicloexano, {l}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{cicloexano, {l}})"
                 },
                 {
                   "id_": "Hc-cicloexeno(l)",
@@ -3513,7 +3525,7 @@
                   "value": "-3752",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{cicloexeno, {l}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{cicloexeno, {l}})"
                 },
                 {
                   "id_": "Hc-benzeno(l)",
@@ -3522,7 +3534,7 @@
                   "value": "-3268",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de combustão do \\ce{benzeno} (l)",
-                  "symbol": "\\Delta{} Hc^{\\circ{} }_{\\mathrm{c} }(\\ce{benzeno, {l}})"
+                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{benzeno, {l}})"
                 }
               ],
               "obj": -1,
@@ -3544,7 +3556,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "HL-C=C",
@@ -3553,7 +3565,7 @@
                   "value": "612",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C=C}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C=C})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C})"
                 },
                 {
                   "id_": "HL-C-C",
@@ -3562,7 +3574,7 @@
                   "value": "348",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia da ligação \\ce{C-C}",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{L} }(\\ce{C-C})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C})"
                 }
               ],
               "obj": -1,
@@ -3583,7 +3595,7 @@
                   "value": "-110,53",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(g)",
@@ -3592,7 +3604,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-FeO(s)",
@@ -3601,7 +3613,7 @@
                   "value": "-824,2",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{FeO} (s)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{FeO, {s}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{FeO, {s}})"
                 }
               ],
               "obj": -1,
@@ -3633,7 +3645,7 @@
                   "value": "-110,53",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}})"
                 },
                 {
                   "id_": "Hf-CO2(g)",
@@ -3642,7 +3654,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "CP-CO(g)",
@@ -3738,7 +3750,7 @@
                   "value": "-393,51",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO2, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
                 },
                 {
                   "id_": "Hf-CO(g)",
@@ -3747,7 +3759,7 @@
                   "value": "-110,53",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{CO, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}})"
                 },
                 {
                   "id_": "Hf-H2O(g)",
@@ -3756,7 +3768,7 @@
                   "value": "-241,82",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{H2O, {g}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
                 },
                 {
                   "id_": "Hf-octano(l)",
@@ -3765,7 +3777,7 @@
                   "value": "-249,9",
                   "unit": "kJ.mol-1",
                   "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta{} H^{\\circ{} }_{\\mathrm{f} }(\\ce{octano, {l}})"
+                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}})"
                 }
               ],
               "obj": -1,

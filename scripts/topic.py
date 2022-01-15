@@ -47,7 +47,7 @@ class Topic:
         if len(self.problems) == 1:
             # se há apenas um problemset, não coloca título
             pset = next(iter(self.problems.values()))
-            problem_num = pset.len()
+            problem_num = len(pset)
             if not problem_num:
                 return ''
 
@@ -56,16 +56,16 @@ class Topic:
                 points=points, print_solutions=print_solutions
             )
 
-        problem_num = sum([pset.len() for _, pset in self.problems.items()])
+        problem_num = sum([len(pset) for _, pset in self.problems.items()])
         if not problem_num:
             return ''
 
         points = 10/problem_num
-        statements = [
+        statements = ''.join([
             pset.tex_statements(title, problem_num, print_solutions)
             for title, pset in self.problems.items()
-        ]
-        return ''.join(statements)
+        ])
+        return statements
 
     def tex_answers(self):
         # return statements in latex format
@@ -75,11 +75,11 @@ class Topic:
             pset = next(iter(self.problems.values()))
             return header + pset.tex_answers()
 
-        statements = [
+        answers = ''.join([
             pset.tex_answers(title)
             for title, pset in self.problems.items()
-        ]
-        return header + ''.join(statements)
+        ])
+        return header + latex.cmd('small') + answers
 
     def latex(self, print_level=1):
         # return tex file for compiling problem sheet as pdf
@@ -114,7 +114,6 @@ class Topic:
             tmp_path=f'temp/{self.area}',
             out_path=f'archive/{self.area}'
         )
-        return f'{self.id_} PDF generated!'
 
 
 def topic2pdf(topic):
@@ -145,7 +144,8 @@ def file2topic(args):
 
     if 'problems' in tfile:
         kwargs['problems'] = {
-            t: problemset.filter(ids) for t, ids in tfile['problems'].items()
+            t: problemset.filter('id_', ids)
+            for t, ids in tfile['problems'].items()
         }
 
     # get subtopics items and abilities from HTML tags

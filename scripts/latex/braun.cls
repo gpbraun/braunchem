@@ -500,10 +500,9 @@
                 { color-3 },
                 { color-4 },
             }
-        \pgfplotsset 
-            { 
-                cycle~list~name = braun-pallet, 
-                legend~cell~align = left, 
+        \pgfplotsset
+            {
+                cycle~list~name = braun-pallet,
             }
     }
 
@@ -528,11 +527,13 @@
     {
         compat = 1.17,
         samples = 150,
-        no~markers,
-        every~axis~plot/.append~style = {very~thick},   
+        legend~cell~align = left,
+        every~axis~plot/.append~style = {very~thick},
+        every~axis~plot/.append~style = {mark=none},
+        every~axis~plot/.append~style = {mark~options={fill=white}},
     }
-    
-\tikzstyle{every pin}=[draw=black]
+
+\tikzstyle{every~pin}=[draw=black]
 
 %============================================================%
 %   DRAWING KEYS
@@ -756,7 +757,10 @@
 
 \cs_set_eq:NN \legacysection \section
 
-\cs_set:Nn \braun_ghost_section: { \legacysection*{} \skip_vertical:n {-3em} }
+\cs_set:Nn \braun_ghost_section: { \subsection*{} \skip_vertical:n {-3em} }
+
+\counterwithout * { subsection } { section }
+\counterwithout * { subsubsection } { subsection }
 
 \RenewDocumentCommand \section { s m }
 	{
@@ -1375,7 +1379,8 @@
 \NewTasksEnvironment[
 	label = \sffamily{\small\textbf{\arabic*.}},
 	label-align = right,
-    item-indent = 2em,
+    item-indent = 3em,
+    label-width = 1.5em,
     label-offset = 0.7em,
     before-skip = 1em,
 ]{checks}[\item]
@@ -1395,8 +1400,6 @@
         points .fp_set:N = \g_braun_graphics_points_fp,
         points .initial:n = 1.00,
     }
-
-\counterwithout * { subsection } { section }
 
 \box_new:N \l__braun_problem_box
 
