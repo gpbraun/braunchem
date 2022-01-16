@@ -12,9 +12,10 @@ import base64
 
 import convert
 import latex
-from data import read_datasets
+from data import read_datasets, DataSet, CONSTANTS
 
 from multiprocessing import Pool
+
 
 DATA = read_datasets('database/data')
 
@@ -26,13 +27,15 @@ class Problem:
     statement: str
     solution: str = ''
     answer: list = Factory(list)
-    data: list = Factory(list)
+    constants: DataSet = Factory(DataSet)
+    data: DataSet = Factory(DataSet)
     obj: int = -1
     choices: list = Factory(list)
 
     def is_obj(self):
         if self.obj == -1:
             return False
+
         return True
 
     def tex_statement(self):
@@ -41,17 +44,21 @@ class Problem:
     def tex_solution(self):
         return convert.md2tex(self.solution)
 
-    def tex_data(self):
+    def tex_data(self, print_data=True):
         # return data as tex list with header
-        if not self.data:
+        if not self.data or not print_data:
             return ''
-        dlist = latex.enum('datalist', [d.astex() for d in self.data])
-        return latex.section('Dados', level=2, numbered=False) + dlist
+
+        header = latex.section('Dados', level=2, numbered=False)
+        data = self.data.astex() if print_data else ''
+
+        return header + data
 
     def tex_choices(self):
         # return choices as tex list
         if not self.is_obj():
             return ''
+
         tex_choices = [convert.md2tex(c) for c in self.choices]
         return latex.enum(
             'choices', tex_choices, auto_cols=True, sep_cmd='task'
@@ -60,15 +67,19 @@ class Problem:
     def tex_answer(self):
         if not self.answer:
             return '-'
+
         if self.is_obj():
             return latex.cmd('MiniBox', chr(65 + self.obj))
+
         if len(self.answer) == 1:
             return self.answer[0]
+
         return latex.enum('answers', self.answer)
 
-    def astex(self, points=1.0, print_solution=False):
+    def astex(self, points=1.0, print_solution=False, print_data=True):
         # return problem as tex
         contents = self.tex_statement() + self.tex_data()
+
         parameters = {
             'id': self.id_,
             'path': self.path.parent,
@@ -112,9 +123,17 @@ def problem_contents(id_, path, pfile):
 
     soup = convert.md2soup(pfile.content)
 
+    # get problem constants
+    if 'constants' in pfile:
+        kwargs['constants'] = CONSTANTS.filter('id_', pfile['constants'], )
+    elif 'constantes' in pfile:
+        kwargs['constants'] = CONSTANTS.filter('id_', pfile['constantes'])
+
     # get problem data
     if 'data' in pfile:
-        kwargs['data'] = DATA.filter(pfile['data'])
+        kwargs['data'] = DATA.filter('id_', pfile['data'])
+    elif 'dados' in pfile:
+        kwargs['data'] = DATA.filter('id_', pfile['dados'])
 
     solution = soup.find('blockquote')
 
@@ -187,13 +206,18 @@ class ProblemSet:
         p_dict = self.asdict(attr)
         return ProblemSet([p_dict[a] for a in problem_attrs])
 
-    def tex_statements(self, title='', points=1.0, print_solutions=False):
+    def tex_constants(self):
+        return sum([p.constants for p in self.problems])
+
+    def tex_statements(self, title='', points=1.0, print_solutions=False,
+                       print_data=False):
         # get statements in latex format
         if not self.problems:
             return ''
 
         statements = '\n'.join(
-            [p.astex(points, print_solutions) for p in self.problems]
+            [p.astex(points, print_solutions, print_data)
+             for p in self.problems]
         )
         return latex.section(title) + statements
 

@@ -31,97 +31,32 @@ def state(state, sub='', sup='', delta=True, std=True):
     return prefix + state + suffix
 
 
-DATATYPES = {
-    # ORGANIC/INORGANIC
-    'Hf': DataType(
-        'Entalpia de formação do ',
-        state('H', sub='f'),
-        'kJ.mol-1'
-    ),
-    'Gf': DataType(
-        'Entalpia livre de formação do ',
-        state('G', sub='f'),
-        'kJ.mol-1'
-    ),
-    'CP': DataType(
-        'Capacidade calorífica do ',
-        'C_P',
-        'J.K-1.mol-1'
-    ),
-    'S':  DataType(
-        'Entropia do ',
-        state('S', delta=False),
-        'J.K-1.mol-1'
-    ),
-    'Hc': DataType(
-        'Entalpia de combustão do ',
-        state('Hc', sub='c'),
-        'kJ.mol-1'
-    ),
-    # BONDS
-    'HL': DataType(
-        'Entalpia da ligação ',
-        state('H', sub='L'),
-        'kJ.mol-1'
-    ),
-    # SOLVENTS
-    'd': DataType(
-        'Densidade do ',
-        latex.cmd('rho'),
-        'g.cm^{-3}'
-    ),
-    'Hvap': DataType(
-        'Entalpia de vaporização do ',
-        state('H', sub='vap'),
-        'kJ.mol-1'
-    ),
-    'Hfus': DataType(
-        'Entalpia de fusão do ',
-        state('H', sub='fus'),
-        'kJ.mol-1'
-    ),
-    'Hsub': DataType(
-        'Entalpia de sublimação do ',
-        state('H', sub='sub'),
-        'kJ.mol-1'
-    ),
-    'Tf': DataType(
-        'Temperatura de fusão do ',
-        state('T', delta=False, sub='fus', std=False),
-        'K'
-    ),
-    'Te': DataType(
-        'Temperatura de ebulição do ',
-        state('T', delta=False, sub='eb', std=False),
-        'K'
-    ),
-    'Pvap': DataType(
-        'Pressão de vapor ',
-        state('P', delta=False, sub='vap'),
-        'mmHg'
-    ),
-    # ELEMENTS
-    'Phi': DataType(
-        'Função trabalho do ',
-        latex.cmd('Phi'),
-        'eV'
-    ),
-}
-
-
 @frozen
 class Data:
     id_: str
-    mol: str
-    state: str
-    value: float
-    unit: str
     name: str
-    symbol: str
+    symbol: str = ''
+    value: float = 0.0
+    unit: str = ''
+
+    def __lt__(self, other):
+        return self.name < other.name
 
     def astex(self):
         # return data in sunitx format
+        if not self.id_:
+            return self.name
+
         return f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
+
+    def tex_display(self):
+        if not self.id_:
+            return self.name
+
+        # return data in sunitx format
+        header = f'{self.name}'
+        eqtn = f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
+        return header + ' ' + eqtn
 
 
 RE_DATA_MOL = re.compile(r'(.*)\((.*)\)')
@@ -129,7 +64,51 @@ RE_DATA_MOL = re.compile(r'(.*)\((.*)\)')
 
 @frozen
 class DataSet:
-    data: dict = Factory(dict)
+    data: list = Factory(list)
+
+    def __len__(self):
+        return len(self.data)
+
+    def __add__(self, other):
+        new_data = sorted(list(set([*self.data, *other.data])))
+        return DataSet(new_data)
+
+    def __radd__(self, other):
+        if other == 0:
+            return self
+        else:
+            return self.__add__(other)
+
+    def sorted(self):
+        data = sorted(self.data)
+        return data
+
+    def asdict(self, attr):
+        return {getattr(p, attr): p for p in self.data}
+
+    def filter(self, attr, data_attrs):
+        p_dict = self.asdict(attr)
+        filtered_data = []
+        for a in data_attrs:
+            try:
+                filtered_data.append(p_dict[a])
+            except KeyError:
+                filtered_data.append(Data(0, a))
+        return DataSet(sorted(filtered_data))
+
+    def astex(self):
+        # return data as tex list
+        if not self.data:
+            return ''
+
+        return latex.enum('datalist', [d.astex() for d in self.data])
+
+    def tex_display(self):
+        # return data as tex list
+        if not self.data:
+            return ''
+
+        return latex.enum('datalist', [d.tex_display() for d in self.data])
 
     def append_csv(self, csv_path):
         if not os.path.exists(csv_path):
@@ -146,11 +125,11 @@ class DataSet:
                         for mol in mol_names:
                             datamol = mol.strip()
                             id_ = f"{prop}-{datamol}"
-                            self.append(id_, prop, datamol, row[prop])
+                            self.append_cell(id_, prop, datamol, row[prop])
 
         return self
 
-    def append(self, id_, datatype, datamol, value):
+    def append_cell(self, id_, datatype, datamol, value):
         # return data object from csv cell
         dt = DATATYPES[datatype]
 
@@ -160,25 +139,16 @@ class DataSet:
         mol_match = re.match(RE_DATA_MOL, datamol)
         if mol_match:
             mol, state = mol_match.group(1), mol_match.group(2)
-            name = dt.name + f'\\ce{{{mol}}} ({state})'
-            symbol = dt.symbol + f'(\\ce{{{mol}, {{{state}}}}})'
+            name = dt.name + ' ' + latex.cmd('ce', mol) + f'({state})'
+            symbol = dt.symbol + latex.cmd('ce', mol + f'{{{state}}}')
         else:
             state = ''
-            name = dt.name + f'\\ce{{{datamol}}}'
-            symbol = dt.symbol + f'(\\ce{{{datamol}}})'
+            name = dt.name + ' ' + latex.cmd('ce', datamol)
+            symbol = dt.symbol + latex.cmd('ce', datamol)
 
-        self.data[id_] = Data(id_, datamol, state, value, unit, name, symbol)
+        self.data.append(Data(id_, name, symbol, value, unit))
 
         return self
-
-    def filter(self, data_ids):
-        filtered_data = []
-        for id_ in data_ids:
-            try:
-                filtered_data.append(self.data[id_])
-            except KeyError:
-                print(f"Dado '{id_}' não encontrado!")
-        return filtered_data
 
 
 def read_datasets(db_path):
@@ -190,6 +160,137 @@ def read_datasets(db_path):
             dataset.append_csv(path)
 
     return dataset
+
+
+CONSTANTS = DataSet([
+    Data(
+        'g',
+        'Aceleração da gravidade',
+        'g',
+        '9,8067',
+        'm.s-2',
+    ),
+    Data(
+        'G',
+        'Constante gravitacional',
+        'G',
+        '6,67384e11',
+        'm3.kg.s-2',
+    ),
+    Data(
+        'c',
+        'Velocidade da luz no vácuo',
+        'c',
+        '2,99792458e8',
+        'm.s-1',
+    ),
+    Data(
+        'e',
+        'Carga elementar',
+        'e',
+        '1,602176634e-19',
+        'C',
+    ),
+    Data(
+        'me',
+        'Massa do elétron',
+        'm_e',
+        '9,1093837015e-31',
+        'kg',
+    ),
+    Data(
+        'h',
+        'Constante de Planck',
+        'h',
+        '6,62607015e-34',
+        'J.s',
+    ),
+    Data(
+        'Kw',
+        'Constante de autoprotólise da água',
+        'Kw',
+        '1e-14',
+
+    )
+])
+
+
+DATATYPES = {
+    # ORGANIC/INORGANIC
+    'Hf': DataType(
+        'Entalpia de formação do',
+        state('H', sub='f'),
+        'kJ.mol-1'
+    ),
+    'Gf': DataType(
+        'Entalpia livre de formação do',
+        state('G', sub='f'),
+        'kJ.mol-1'
+    ),
+    'CP': DataType(
+        'Capacidade calorífica do',
+        'C_P',
+        'J.K-1.mol-1'
+    ),
+    'S':  DataType(
+        'Entropia do ',
+        state('S', delta=False),
+        'J.K-1.mol-1'
+    ),
+    'Hc': DataType(
+        'Entalpia de combustão do',
+        state('Hc', sub='c'),
+        'kJ.mol-1'
+    ),
+    # BONDS
+    'HL': DataType(
+        'Entalpia da ligação',
+        state('H', sub='L'),
+        'kJ.mol-1'
+    ),
+    # SOLVENTS
+    'd': DataType(
+        'Densidade do',
+        latex.cmd('rho'),
+        'g.cm^{-3}'
+    ),
+    'Hvap': DataType(
+        'Entalpia de vaporização do',
+        state('H', sub='vap'),
+        'kJ.mol-1'
+    ),
+    'Hfus': DataType(
+        'Entalpia de fusão do',
+        state('H', sub='fus'),
+        'kJ.mol-1'
+    ),
+    'Hsub': DataType(
+        'Entalpia de sublimação do',
+        state('H', sub='sub'),
+        'kJ.mol-1'
+    ),
+    'Tf': DataType(
+        'Temperatura de fusão do',
+        state('T', delta=False, sub='fus', std=False),
+        'K'
+    ),
+    'Te': DataType(
+        'Temperatura de ebulição do',
+        state('T', delta=False, sub='eb', std=False),
+        'K'
+    ),
+    'Pvap': DataType(
+        'Pressão de vapor',
+        state('P', delta=False, sub='vap'),
+        'mmHg'
+    ),
+    # ELEMENTS
+    'Phi': DataType(
+        'Função trabalho do',
+        latex.cmd('Phi'),
+        'eV'
+    ),
+}
 
 
 def main():

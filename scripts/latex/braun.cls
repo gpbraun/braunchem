@@ -1041,9 +1041,10 @@
 
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
-		pensi = \file_input:n { pensi-logo.tex },
-		ime   = \graphics_include:n { ime-logo.pdf },
-		ita   = \graphics_include:n { ita-logo.pdf },
+		pensi   = \file_input:n { pensi-logo.tex },
+		ime     = \graphics_include:n { ime-logo.pdf },
+		ita     = \graphics_include:n { ita-logo.pdf },
+        ita-alt = \graphics_include:n { ita-logo-alt.pdf },
 	}
 
 %============================================================%
@@ -1256,11 +1257,12 @@
         \group_begin:
         \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
         \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
+        %% Painel Pensi fix
         \str_case:Vn \l_tmpa_tl
             {
                 { /uploads }
                 {
-                    \braun_include_graphics:Nn \l_tmpa_coffin {\l_tmpb_tl . \l_tmpc_tl}
+                    \braun_include_graphics:Nn \l_tmpa_coffin {../images/ \l_tmpb_tl \l_tmpc_tl}
                 }
             }
 
@@ -1511,6 +1513,8 @@
         maketitle / title / font = \large\bfseries,
         problems / name = Questão,
         problems / template = ITA,
+        graphics / width = 10cm,
+        graphics / height = 7cm,
     }
 
 %============================================================%
@@ -1532,14 +1536,17 @@
         maketitle / botrule = false,
         maketitle / title / case = upper,
         maketitle / title / font = \Large\bfseries,
+        maketitle / subtitle /value = Turma~ IME-ITA,
         maketitle / subtitle / case = upper,
-        maketitle / subtitle / font = \Large\bfseries,
+        maketitle / subtitle / font = \large\bfseries,
         maketitle / date / value = \int_use:N \c_sys_year_int,
-        maketitle / date / font = \Large\bfseries,
+        maketitle / date / font = \large\bfseries,
         maketitle / logo / value = ime,
-        maketitle / logo / value = pensi,
+        maketitle / logo / value = ita-alt,
         problems / name = Questão,
         problems / template = IME,
+        graphics / width = 8cm,
+        graphics / height = 6cm,
     }
 
 %============================================================%

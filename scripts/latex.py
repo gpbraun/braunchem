@@ -73,7 +73,7 @@ def enum(name, items, cols=0, auto_cols=False, sep_cmd='item'):
 
 
 PU_CMD = re.compile(r'\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-]*)\s*\}')
-UNIT_EXP = re.compile(r'[\+\-]\d+')
+UNIT_EXP = re.compile(r'[\+\-]?\d+')
 
 
 def qty(num, unit):

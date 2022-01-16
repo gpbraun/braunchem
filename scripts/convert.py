@@ -19,6 +19,7 @@ MD = Markdown(extensions=['pymdownx.tasklist'])
 
 
 def md2soup(content):
+    content = content.replace('\\\\', '\\\\\\')
     return BeautifulSoup(MD.convert(content), 'html.parser')
 
 

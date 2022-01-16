@@ -65,7 +65,16 @@ class Topic:
             pset.tex_statements(title, problem_num, print_solutions)
             for title, pset in self.problems.items()
         ])
-        return statements
+        return latex.pu2qty(statements)
+
+    def tex_data(self):
+        constants = sum([p.tex_constants() for _, p in self.problems.items()])
+        if not constants.data:
+            return ''
+        
+        header = latex.section('Dados', level=0)
+        constants = sum([p.tex_constants() for _, p in self.problems.items()])
+        return header + constants.tex_display() + latex.cmd('bigskip')
 
     def tex_answers(self):
         # return statements in latex format
@@ -90,13 +99,14 @@ class Topic:
 
         if not print_level:
             # print_level = 0: sem respostas e sem soluções
+            data = self.tex_data()
             statements = self.tex_statements(print_solutions=False)
-            return latex.document(preamble, latex.pu2qty(statements))
+            return latex.document(preamble, latex.pu2qty(data + statements))
 
         answers = self.tex_answers()
 
         if print_level == 2:
-            # print_level = 2: respostas e soluçĩes
+            # print_level = 2: respostas e soluções
             statements = self.tex_statements(print_solutions=True)
             return latex.document(preamble, latex.pu2qty(answers + statements))
 
