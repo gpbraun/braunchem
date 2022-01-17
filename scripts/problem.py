@@ -29,6 +29,7 @@ class Problem:
     answer: list = Factory(list)
     constants: DataSet = Factory(DataSet)
     data: DataSet = Factory(DataSet)
+    elements: list = Factory(list)
     obj: int = -1
     choices: list = Factory(list)
 
@@ -135,6 +136,12 @@ def problem_contents(id_, path, pfile):
     elif 'dados' in pfile:
         kwargs['data'] = DATA.filter('id_', pfile['dados'])
 
+    # get problem elements
+    if 'elements' in pfile:
+        kwargs['elements'] = pfile['elements']
+    elif 'elementos' in pfile:
+        kwargs['elements'] = pfile['elementos']
+
     solution = soup.find('blockquote')
 
     # problema objetivo: normal
@@ -205,6 +212,13 @@ class ProblemSet:
         # get ProblemSet from list of ids
         p_dict = self.asdict(attr)
         return ProblemSet([p_dict[a] for a in problem_attrs])
+
+    def elements(self):
+        elements = []
+        for p in self.problems:
+            if p.elements:
+                elements += p.elements
+        return elements
 
     def tex_constants(self):
         return sum([p.constants for p in self.problems])

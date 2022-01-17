@@ -219,7 +219,12 @@
               "answer": [
                 "$4l + 2$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$2l + 1$\n",
@@ -236,7 +241,12 @@
               "answer": [
                 "$2n^2$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$2n + 1$\n",
@@ -253,7 +263,12 @@
               "answer": [
                 "$8f$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "$2d$\n",
@@ -270,7 +285,12 @@
               "answer": [
                 "$1p$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$1p$\n",
@@ -287,7 +307,12 @@
               "answer": [
                 "($6, 4, +3, +1/2$)\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "($2, 2, +1, +1/2$)\n",
@@ -304,7 +329,12 @@
               "answer": [
                 "($5, 4, -4, -1/2$)\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "($1, 1, 0, +1/2$)\n",
@@ -321,7 +351,12 @@
               "answer": [
                 "Não existem análogos clássicos para os números quânticos de *spin*.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "Rotação do elétron em sentido horário e anti-horário, respectivamente.\n",
@@ -338,7 +373,12 @@
               "answer": [
                 "$3p$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$1s$\n",
@@ -355,7 +395,12 @@
               "answer": [
                 "$3p_z$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$2p_z$\n",
@@ -370,7 +415,12 @@
               "statement": "1.  A carga nuclear efetiva independe do número de elétrons presentes em\n    um átomo.\n2.  Os elétrons de um orbital $s$ blindam mais efetivamente da carga do\n    núcleo que os elétrons de outros orbitais devido à maior\n    penetrabilidade dos orbitais $s$.\n3.  Elétrons com $l=2$ blindam mais efetivamente que elétrons com $l=1$.\n4.  A carga nuclear efetiva de um elétron em um orbital $p$ é menor que\n    a de um elétron em um orbital $s$ da mesma camada.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
               "solution": "",
               "answer": "1, 2 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "1, 2 e 3",
@@ -385,7 +435,12 @@
               "statement": "1.  A $Z_\\text{eff}$ de um elétron em um orbital $1$s é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2s$.\n2.  A $Z_\\text{eff}$ de um elétron em um orbital $2s$ é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2p$.\n3.  Um elétron em um orbital $2s$ tem a mesma energia que um elétron no\n    orbital $2p$.\n4.  Os elétrons nos orbitais $2p$ têm números quânticos $ms$ com *spins*\n    de sinais contrários.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
               "answer": "1, 2, 3 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "1, 2 e 3",
@@ -402,7 +457,12 @@
               "answer": [
                 "$15$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$10$\n",
@@ -419,7 +479,12 @@
               "answer": [
                 "$34$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$12$\n",
@@ -436,7 +501,12 @@
               "answer": [
                 "$\\ce{[Ar]} 4s^2 3d^3$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\ce{[Ar]} 3d^5$\n",
@@ -453,7 +523,12 @@
               "answer": [
                 "$\\ce{[Xe]} 4f^{14} 5d^{10} 6s^2 6p^2$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\ce{[Xe]} 4f^{14} 5d^{10} 6s^2$\n",
@@ -470,7 +545,12 @@
               "answer": [
                 "$\\ce{Ge^2+}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\ce{Cu+}$\n",
@@ -487,7 +567,12 @@
               "answer": [
                 "$27$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$24$\n",
@@ -504,7 +589,12 @@
               "answer": [
                 "Caixa\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "Caixa\n",
@@ -521,7 +611,12 @@
               "answer": [
                 "$\\ce{[Ar]} 4s^1 3d^{10}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\ce{[Ar]} 4d^2 3d^8$\n",
@@ -538,7 +633,12 @@
               "answer": [
                 "$\\ce{[Kr]} 4d^{10}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$\\ce{[Kr]} 4d^{10}$\n",
@@ -555,7 +655,12 @@
               "answer": [
                 "$1s^2 2s^2 2p^3$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$1s^2 2s^1$\n",
@@ -572,7 +677,12 @@
               "answer": [
                 "A camada de valência da espécie **C** no estado fundamental é $ns^2$\n$np^6$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "A espécie **B** é um gás nobre.\n",
@@ -589,7 +699,12 @@
               "answer": [
                 "$\\pu{100 g}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{38 g}$\n",
@@ -606,7 +721,12 @@
               "answer": [
                 "$21$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "$17$\n",
@@ -623,7 +743,12 @@
               "answer": [
                 "$19$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$17$\n",
@@ -644,7 +769,12 @@
               "answer": [
                 "$e^{2}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "0\n",
@@ -661,7 +791,12 @@
               "answer": [
                 "$e^{2}$/9\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "1\n",
@@ -680,7 +815,12 @@
                 "Esboço.\n",
                 "$4p$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -691,7 +831,12 @@
               "answer": [
                 "$\\psi_a$ e $\\psi_b$ podem ser o $3p$ e $3s$, respectivamente.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$\\psi_a$ e $\\psi_b$ podem ser o $3p$ e $3s$, respectivamente.\n",
@@ -706,7 +851,12 @@
               "statement": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n1.  $1s^2 2s^2 2p^1$\n2.  $1s^2 2s^2 2p^3$\n3.  $1s^2 2s^2 2p^4$\n4.  $1s^2 2s^2 2p^5$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
               "solution": "",
               "answer": "1, 2 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "1, 2 e 3",
@@ -721,7 +871,12 @@
               "statement": "Considere as seguintes afirmações:\n\n1.  O nível de energia de um átomo, cujo número quântico principal é\n    igual a $4$, pode ter, no máximo, $32$ elétrons.\n2.  A configuração eletrônica $1s^2 2s^2 2p^2_x 2p^2_y$ representa um\n    estado excitado do átomo de oxigênio.\n3.  O estado fundamental do átomo de fósforo contém três elétrons\n    desemparelhados.\n4.  A energia necessária para excitar um elétron do estado fundamental\n    do átomo de hidrogênio para o orbital $3s$ é igual àquela necessária\n    para excitar este mesmo elétron para o orbital $3d$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": "1, 2, 3 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "1, 2 e 3",
@@ -738,7 +893,12 @@
               "answer": [
                 "O átomo deve receber energia ao passar a $1s^2 2s^2 2p^6$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "O átomo está em um estado excitado.\n",
@@ -753,7 +913,12 @@
               "statement": "1.  $|E_{2s}| = |E_{2p}|$ para átomo de hidrogênio.\n2.  $|E_{2s}| = |E_{2p}|$ para o íon de hélio carregado com uma carga\n    positiva.\n3.  $|E_{2s}| > |E_{2p}|$ para o átomo de hélio.\n4.  $|E_{2s}| > |E_{2p}|$ para o ânion de hélio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": "1, 2, 3 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "1, 2 e 3",
@@ -770,7 +935,12 @@
               "answer": [
                 "As frequências das radiações emitidas pelo íon $\\ce{He+}$ são iguais às\nemitidas pelo átomo de hidrogênio.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "Nas espécies $\\ce{He+}$, $\\ce{Li^2+}$ e $\\ce{Be^3+}$, os orbitais $3s$,\n$3p$ e $3d$ têm a mesma energia.\n",
@@ -787,7 +957,12 @@
               "answer": [
                 "$9$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$1$\n",
@@ -804,7 +979,12 @@
               "answer": [
                 "$3$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$1$\n",
@@ -821,7 +1001,12 @@
               "answer": [
                 "$(3, 2, -2, -1/2)$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$(3, 2, -2, -1/2)$\n",
@@ -841,7 +1026,12 @@
                 "$\\ce{_{47}X}: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10}$\n",
                 "$5s^1$, $n=5$, $l=0$, $m=0$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -854,7 +1044,12 @@
                 "$[\\ce{Ar}]3d^54s^1$\n",
                 "Devido à simetria semiesférica e simetria esférica do bloco $d$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -867,7 +1062,12 @@
                 "Repulsão e Penetrabilidade.\n",
                 "Repulsão.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -878,7 +1078,12 @@
               "answer": [
                 "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\psi_a$ representa o subnível $5s$ e $\\psi_b$ o subnível $4d$.\n",
@@ -896,7 +1101,12 @@
                 "$121$ a $153$\n",
                 "$[\\ce{Og}] 8s^2 5g^1$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -909,7 +1119,12 @@
                 "Sexto período.\n",
                 "Grupo $11$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -920,7 +1135,12 @@
               "answer": [
                 "$4d \\to 3s$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$2p \\to 1s$\n",
@@ -938,7 +1158,12 @@
                 "Diagrama.\n",
                 "$3$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -951,7 +1176,12 @@
                 "$43$\n",
                 "$64$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             }
@@ -1093,7 +1323,12 @@
               "answer": [
                 "$\\pu{200 kJ}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{100 kJ}$\n",
@@ -1110,7 +1345,12 @@
               "answer": [
                 "$\\pu{7e16}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{7e15}$\n",
@@ -1127,7 +1367,12 @@
               "answer": [
                 "$\\pu{240 kJ.mol-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{120 kJ.mol-1}$\n",
@@ -1144,7 +1389,12 @@
               "answer": [
                 "$\\pu{30\\%}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{10\\%}$\n",
@@ -1161,7 +1411,12 @@
               "answer": [
                 "Fótons radiação infravermelha são menos energéticos que fótons de\nradiação ultravioleta.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "A intensidade total da radiação emitida por um corpo negro é diretamente\nproporcional à temperatura.\n",
@@ -1178,7 +1433,12 @@
               "answer": [
                 "Branco\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "Vermelho\n",
@@ -1195,7 +1455,12 @@
               "answer": [
                 "$\\pu{6 kK}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{3 kK}$\n",
@@ -1212,7 +1477,12 @@
               "answer": [
                 "**C**, **B**, **A**\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "**A**, **B**, **C**\n",
@@ -1229,17 +1499,20 @@
               "answer": [
                 "$\\pu{130 nm}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Tf-Fe",
-                  "mol": "Fe",
-                  "state": "",
-                  "value": "1540",
-                  "unit": "K",
-                  "name": "Temperatura de fusão do \\ce{Fe}",
-                  "symbol": "T^{}_{\\mathrm{fus} }(\\ce{Fe})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Tf-Fe",
+                    "name": "Temperatura de fusão do \\ce{Fe} ",
+                    "symbol": "T^{}_{\\mathrm{fus} }\\ce{Fe} ",
+                    "value": "1540",
+                    "unit": "K"
+                  }
+                ]
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{130 nm}$\n",
@@ -1256,7 +1529,12 @@
               "answer": [
                 "Os elétrons podem ser ejetados instantaneamente, com energia que depende\nda frequência da radiação absorvida e da energia do elétron no metal.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "Os elétrons não são ejetados instantaneamente, já que precisam de um\ntempo mínimo para acúmulo de energia.\n",
@@ -1273,17 +1551,20 @@
               "answer": [
                 "$\\pu{350 nm}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Phi-K",
-                  "mol": "K",
-                  "state": "",
-                  "value": "2,2",
-                  "unit": "eV",
-                  "name": "Função trabalho do \\ce{K}",
-                  "symbol": "\\Phi (\\ce{K})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Phi-K",
+                    "name": "Função trabalho do \\ce{K} ",
+                    "symbol": "\\Phi \\ce{K} ",
+                    "value": "2,2",
+                    "unit": "eV"
+                  }
+                ]
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{300 nm}$\n",
@@ -1300,17 +1581,20 @@
               "answer": [
                 "$\\pu{8,4e-19 J}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Phi-Zn",
-                  "mol": "Zn",
-                  "state": "",
-                  "value": "4,3",
-                  "unit": "eV",
-                  "name": "Função trabalho do \\ce{Zn}",
-                  "symbol": "\\Phi (\\ce{Zn})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Phi-Zn",
+                    "name": "Função trabalho do \\ce{Zn} ",
+                    "symbol": "\\Phi \\ce{Zn} ",
+                    "value": "4,3",
+                    "unit": "eV"
+                  }
+                ]
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{1,4e-19 J}$\n",
@@ -1327,7 +1611,12 @@
               "answer": [
                 "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{\\lambda_1 \\lambda_2}$\n",
@@ -1344,7 +1633,12 @@
               "answer": [
                 "$\\pu{190 nm}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "$\\pu{110 nm}$\n",
@@ -1361,7 +1655,12 @@
               "answer": [
                 "$\\pu{7e-31}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{7e-34}$\n",
@@ -1378,7 +1677,12 @@
               "answer": [
                 "$\\ce{Ca}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\ce{Be}$\n",
@@ -1395,7 +1699,12 @@
               "answer": [
                 "$\\pu{5e-34 J.s}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{1e-34 J.s}$\n",
@@ -1412,7 +1721,12 @@
               "answer": [
                 "O comprimento de onda da radiação emitida quando o elétron retornar para\no estado fundamental será igual ao comprimento de onda da radiação\nabsorvida para a excitação.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "Esse estado excitado é o primeiro permitido para o átomo de hidrogênio.\n",
@@ -1429,7 +1743,12 @@
               "answer": [
                 "$\\pu{660 nm}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{460 nm}$\n",
@@ -1446,7 +1765,12 @@
               "answer": [
                 "$n=6 \\rightarrow n=5$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "$n=2 \\rightarrow n=1$\n",
@@ -1463,7 +1787,12 @@
               "answer": [
                 "$\\dfrac{\\lambda_{1}\\lambda_{2}}{\\lambda_{1} + \\lambda_{2}}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\lambda_1 + \\lambda_2$\n",
@@ -1480,7 +1809,12 @@
               "answer": [
                 "$\\pu{1,3 MJ.mol-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{1,3 MJ.mol-1}$\n",
@@ -1497,7 +1831,12 @@
               "answer": [
                 "$\\pu{420 nm}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{210 nm}$\n",
@@ -1514,7 +1853,12 @@
               "answer": [
                 "$\\ce{Li}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\ce{He}$\n",
@@ -1531,7 +1875,12 @@
               "answer": [
                 "$n=2 \\rightarrow n=4$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$n=1 \\rightarrow n=2$\n",
@@ -1552,7 +1901,12 @@
               "answer": [
                 "Enxofre\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -1563,7 +1917,12 @@
               "answer": [
                 "$\\pu{79 kK}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -1574,17 +1933,20 @@
               "answer": [
                 "$\\pu{1e29}$\n"
               ],
-              "data": [
-                {
-                  "id_": "CP-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "75,29",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                  "symbol": "C_P(\\ce{H2O, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P\\ce{H2O{l}} ",
+                    "value": "75,29",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{3e27}$\n",
@@ -1602,17 +1964,20 @@
                 "$\\pu{2080 kJ mol-1}$\n",
                 "10 fótons\n"
               ],
-              "data": [
-                {
-                  "id_": "Hc-glicose(s)",
-                  "mol": "glicose(s)",
-                  "state": "s",
-                  "value": "-2808",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{glicose} (s)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-glicose(s)",
+                    "name": "Entalpia de combustão do \\ce{glicose} (s)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{glicose{s}} ",
+                    "value": "-2808",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -1624,26 +1989,27 @@
                 "?\n",
                 "$\\pu{480 nm}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-AgCl(s)",
-                  "mol": "AgCl(s)",
-                  "state": "s",
-                  "value": "-127,07",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{AgCl} (s)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{AgCl, {s}})"
-                },
-                {
-                  "id_": "HL-Cl2",
-                  "mol": "Cl2",
-                  "state": "",
-                  "value": "242",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{Cl2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "HL-Cl2",
+                    "name": "Entalpia da ligação \\ce{Cl2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{Cl2} ",
+                    "value": "242",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-AgCl(s)",
+                    "name": "Entalpia de formação do \\ce{AgCl} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{AgCl{s}} ",
+                    "value": "-127,07",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -1652,7 +2018,12 @@
               "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio.\n\n1.  A energia cinética máxima dos elétrons emitidos pelo metal é\n    $E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n2.  A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n3.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da frequência da luz incidente no metal a partir da\n    frequência mínima de emissão.\n4.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da pressão da amostra de hidrogênio.\n\n**Assinale** a alternativa que relaciona todas as proposições\n*corretas*.\n",
               "solution": "",
               "answer": "1, 2 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "**1**, **2** e **3**",
@@ -1669,7 +2040,12 @@
               "answer": [
                 "$\\pu{1,9 eV}$, $\\pu{2,6 eV}$, $\\pu{2,9 eV}$, $\\pu{3,0 eV}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{0,7 eV}$, $\\pu{1,9 eV}$, $\\pu{3,3 eV}$, $\\pu{10,2 eV}$\n",
@@ -1687,7 +2063,12 @@
                 "$\\pu{2,85 eV}$\n",
                 "$n=5 \\rightarrow n=2$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -1698,7 +2079,12 @@
               "answer": [
                 "$\\pu{8e6}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{1e6}$\n",
@@ -1715,7 +2101,12 @@
               "answer": [
                 "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\epsilon_{0}ma_{0}}}$\n",
@@ -1732,7 +2123,12 @@
               "answer": [
                 "$\\pu{-6,8 eV}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{-13,6 eV}$\n",
@@ -1749,7 +2145,12 @@
               "answer": [
                 "$\\dfrac{m_{r}}{\\epsilon_{r}^{2}}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$1$\n",
@@ -2188,7 +2589,12 @@
               "answer": [
                 "$\\pu{60 J}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{54 J}$\n",
@@ -2205,7 +2611,12 @@
               "answer": [
                 "$\\pu{860 J}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{720 J}$\n",
@@ -2222,7 +2633,12 @@
               "answer": [
                 "$\\pu{2,2 kJ}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{2,2 kJ}$\n",
@@ -2239,7 +2655,12 @@
               "answer": [
                 "$\\pu{10 kJ}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{10 kJ}$\n",
@@ -2256,7 +2677,12 @@
               "answer": [
                 "$\\pu{0,4 J.K-1.g-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{0,1 J.K-1.g-1}$\n",
@@ -2273,35 +2699,34 @@
               "answer": [
                 "$\\pu{0 \\degree C}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-H2O(s)",
-                  "mol": "H2O(s)",
-                  "state": "s",
-                  "value": "-291,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (s)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {s}})"
-                },
-                {
-                  "id_": "CP-H2O(s)",
-                  "mol": "H2O(s)",
-                  "state": "s",
-                  "value": "37,84",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2O} (s)",
-                  "symbol": "C_P(\\ce{H2O, {s}})"
-                },
-                {
-                  "id_": "CP-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "75,29",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                  "symbol": "C_P(\\ce{H2O, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P\\ce{H2O{l}} ",
+                    "value": "75,29",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-H2O(s)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (s)",
+                    "symbol": "C_P\\ce{H2O{s}} ",
+                    "value": "37,84",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(s)",
+                    "name": "Entalpia de formação do \\ce{H2O} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{s}} ",
+                    "value": "-291,83",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{-4 \\degree C}$\n",
@@ -2318,7 +2743,12 @@
               "answer": [
                 "A variação de energia interna do gás é igual em ambos os processos.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "O trabalho realizado pelo gás é igual nos dois processos de expansão.\n",
@@ -2333,7 +2763,12 @@
               "statement": "Considere os processos químicos realizados em temperatura constante.\n\n1.  Dissolução do nitrato de potássio.\n2.  Ebulição da água.\n3.  Conversão da grafita em diamante.\n4.  Oxidação do sódio metálico.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
               "solution": "",
               "answer": "1, 2, 3 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "1, 2 e 3",
@@ -2350,7 +2785,12 @@
               "answer": [
                 "A variação de energia interna é igual ao calor no segundo processo.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "O primeiro processo ocorre com absorção de calor.\n",
@@ -2367,7 +2807,12 @@
               "answer": [
                 "A variação da energia interna da expansão será nula.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "O balão B quebrar-se-á devido ao impacto do gás ideal.\n",
@@ -2384,7 +2829,12 @@
               "answer": [
                 "$\\pu{22 kJ}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{15 kJ}$\n",
@@ -2401,17 +2851,20 @@
               "answer": [
                 "$\\pu{700 J}$\n"
               ],
-              "data": [
-                {
-                  "id_": "CP-O2(g)",
-                  "mol": "O2(g)",
-                  "state": "g",
-                  "value": "29,36",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{O2} (g)",
-                  "symbol": "C_P(\\ce{O2, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-O2(g)",
+                    "name": "Capacidade calorífica do \\ce{O2} (g)",
+                    "symbol": "C_P\\ce{O2{g}} ",
+                    "value": "29,36",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
               "obj": 4,
               "choices": [
                 "$\\pu{-700 J}$\n",
@@ -2426,7 +2879,12 @@
               "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](2A13-1P.svg)\n\nConsidere as proposições.\n\n1.  Na região entre $P$ e $Q$ ocorre aumento da energia cinética.\n2.  Na região entre $Q$ e $R$ ocorre aumento da energia potencial.\n3.  O calor de fusão da substância é menor que o seu calor de\n    vaporização.\n4.  O calor específico do sólido é maior que o calor específico do\n    líquido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
               "answer": "1, 2 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "1, 2 e 3",
@@ -2443,7 +2901,12 @@
               "answer": [
                 "A entalpia de vaporização de **A** é menor que a de **B**.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "A entalpia de fusão de **A** é menor que a de **B**.\n",
@@ -2460,7 +2923,12 @@
               "answer": [
                 "A variação de entalpia quando essa substância sofre uma reação química\nno estado líquido aumenta com o aumento da temperatura.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "A substância apresenta mais de uma estrutura cristalina.\n",
@@ -2477,35 +2945,34 @@
               "answer": [
                 "$\\pu{650 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-ureia(s)",
-                  "mol": "ureia(s)",
-                  "state": "s",
-                  "value": "-333,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{ureia} (s)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "-285,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{l}} ",
+                    "value": "-285,83",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-ureia(s)",
+                    "name": "Entalpia de formação do \\ce{ureia} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{ureia{s}} ",
+                    "value": "-333,51",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{620 kJ.mol-1}$\n",
@@ -2522,35 +2989,34 @@
               "answer": [
                 "$\\pu{-75 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-H2O(g)",
-                  "mol": "H2O(g)",
-                  "state": "g",
-                  "value": "-241,82",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
-                },
-                {
-                  "id_": "Hc-CH4(g)",
-                  "mol": "CH4(g)",
-                  "state": "g",
-                  "value": "-890",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-CH4(g)",
+                    "name": "Entalpia de combustão do \\ce{CH4} (g)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{CH4{g}} ",
+                    "value": "-890",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(g)",
+                    "name": "Entalpia de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{g}} ",
+                    "value": "-241,82",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{-225 kJ.mol-1}$\n",
@@ -2567,53 +3033,48 @@
               "answer": [
                 "$\\pu{2,5}$\n"
               ],
-              "data": [
-                {
-                  "id_": "HL-C-C",
-                  "mol": "C-C",
-                  "state": "",
-                  "value": "348",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C-C}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C})"
-                },
-                {
-                  "id_": "HL-C-H",
-                  "mol": "C-H",
-                  "state": "",
-                  "value": "412",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C-H}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-H})"
-                },
-                {
-                  "id_": "HL-C=O",
-                  "mol": "C=O",
-                  "state": "",
-                  "value": "743",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C=O}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=O})"
-                },
-                {
-                  "id_": "HL-H2",
-                  "mol": "H2",
-                  "state": "",
-                  "value": "436",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2})"
-                },
-                {
-                  "id_": "HL-O2",
-                  "mol": "O2",
-                  "state": "",
-                  "value": "496",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{O2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O2})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "HL-C-C",
+                    "name": "Entalpia da ligação \\ce{C-C} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C-C} ",
+                    "value": "348",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-C-H",
+                    "name": "Entalpia da ligação \\ce{C-H} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C-H} ",
+                    "value": "412",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-C=O",
+                    "name": "Entalpia da ligação \\ce{C=O} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C=O} ",
+                    "value": "743",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-H2",
+                    "name": "Entalpia da ligação \\ce{H2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{H2} ",
+                    "value": "436",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-O2",
+                    "name": "Entalpia da ligação \\ce{O2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{O2} ",
+                    "value": "496",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{0,2}$\n",
@@ -2630,35 +3091,34 @@
               "answer": [
                 "$\\pu{-101 kJ}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hvap-Br2",
-                  "mol": "Br2",
-                  "state": "",
-                  "value": "30,91",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de vaporização do \\ce{Br2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{Br2})"
-                },
-                {
-                  "id_": "HL-C=C",
-                  "mol": "C=C",
-                  "state": "",
-                  "value": "612",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C=C}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C})"
-                },
-                {
-                  "id_": "HL-Br2",
-                  "mol": "Br2",
-                  "state": "",
-                  "value": "193",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{Br2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Br2})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "HL-Br2",
+                    "name": "Entalpia da ligação \\ce{Br2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{Br2} ",
+                    "value": "193",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-C=C",
+                    "name": "Entalpia da ligação \\ce{C=C} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C=C} ",
+                    "value": "612",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hvap-Br2",
+                    "name": "Entalpia de vaporização do \\ce{Br2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }\\ce{Br2} ",
+                    "value": "30,91",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{-101 kJ}$\n",
@@ -2675,62 +3135,55 @@
               "answer": [
                 "$\\pu{-260 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hsub-grafite",
-                  "mol": "grafite",
-                  "state": "",
-                  "value": "712",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de sublimação do \\ce{grafite}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }(\\ce{grafite})"
-                },
-                {
-                  "id_": "HL-H2",
-                  "mol": "H2",
-                  "state": "",
-                  "value": "436",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2})"
-                },
-                {
-                  "id_": "HL-O2",
-                  "mol": "O2",
-                  "state": "",
-                  "value": "496",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{O2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O2})"
-                },
-                {
-                  "id_": "HL-C-H",
-                  "mol": "C-H",
-                  "state": "",
-                  "value": "412",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C-H}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-H})"
-                },
-                {
-                  "id_": "HL-C-O",
-                  "mol": "C-O",
-                  "state": "",
-                  "value": "360",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C-O}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-O})"
-                },
-                {
-                  "id_": "HL-O-H",
-                  "mol": "O-H",
-                  "state": "",
-                  "value": "463",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{O-H}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O-H})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "HL-C-H",
+                    "name": "Entalpia da ligação \\ce{C-H} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C-H} ",
+                    "value": "412",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-C-O",
+                    "name": "Entalpia da ligação \\ce{C-O} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C-O} ",
+                    "value": "360",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-H2",
+                    "name": "Entalpia da ligação \\ce{H2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{H2} ",
+                    "value": "436",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-O-H",
+                    "name": "Entalpia da ligação \\ce{O-H} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{O-H} ",
+                    "value": "463",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-O2",
+                    "name": "Entalpia da ligação \\ce{O2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{O2} ",
+                    "value": "496",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hsub-grafite",
+                    "name": "Entalpia de sublimação do \\ce{grafite} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }\\ce{grafite} ",
+                    "value": "712",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{-260 kJ.mol-1}$\n",
@@ -2747,35 +3200,34 @@
               "answer": [
                 "$\\pu{+207 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "-285,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
-                },
-                {
-                  "id_": "Hc-CH4(g)",
-                  "mol": "CH4(g)",
-                  "state": "g",
-                  "value": "-890",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-CH4(g)",
+                    "name": "Entalpia de combustão do \\ce{CH4} (g)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{CH4{g}} ",
+                    "value": "-890",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{l}} ",
+                    "value": "-285,83",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{+207 kJ.mol-1}$\n",
@@ -2792,35 +3244,34 @@
               "answer": [
                 "$\\pu{+114,0 kJ}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-propeno(g)",
-                  "mol": "propeno(g)",
-                  "state": "g",
-                  "value": "20,42",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{propeno} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{propeno, {g}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hc-propano(g)",
-                  "mol": "propano(g)",
-                  "state": "g",
-                  "value": "-2220",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{propano} (g)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{propano, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-propano(g)",
+                    "name": "Entalpia de combustão do \\ce{propano} (g)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{propano{g}} ",
+                    "value": "-2220",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-propeno(g)",
+                    "name": "Entalpia de formação do \\ce{propeno} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{propeno{g}} ",
+                    "value": "20,42",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 4,
               "choices": [
                 "$\\pu{-3,5 MJ}$\n",
@@ -2837,7 +3288,12 @@
               "answer": [
                 "$\\pu{-6,55 MJ}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 0,
               "choices": [
                 "$\\pu{-6,55 MJ}$\n",
@@ -2854,17 +3310,20 @@
               "answer": [
                 "$\\pu{580 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hc-C6H5COOH(s)",
-                  "mol": "C6H5COOH(s)",
-                  "state": "s",
-                  "value": "-3227",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-C6H5COOH(s)",
+                    "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{C6H5COOH{s}} ",
+                    "value": "-3227",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{220 kJ.mol-1}$\n",
@@ -2881,7 +3340,12 @@
               "answer": [
                 "$\\pu{-2545 kJ}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{-2575 kJ}$\n",
@@ -2896,7 +3360,12 @@
               "statement": "Em um cilindro, provido de um pistão móvel sem atrito, é realizada a\ncombustão completa de carbono. A temperatura no interior do cilindro é\nmantida constante desde a introdução dos reagentes até o final da\nreação.\n\n1.  A variação da energia interna do sistema é igual a zero.\n2.  O sistema não realiza trabalho.\n3.  A quantidade de calor trocada entre o sistema e a vizinhança é igual\n    a zero.\n4.  A variação da entalpia do sistema é igual à variação da energia\n    interna.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
               "solution": "",
               "answer": "1, 2 e 3",
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "1, 2 e 3",
@@ -2913,35 +3382,34 @@
               "answer": [
                 "$\\pu{7 g}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hc-butano(g)",
-                  "mol": "butano(g)",
-                  "state": "g",
-                  "value": "-2878",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{butano} (g)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}})"
-                },
-                {
-                  "id_": "CP-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "75,29",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                  "symbol": "C_P(\\ce{H2O, {l}})"
-                },
-                {
-                  "id_": "d-H2O",
-                  "mol": "H2O",
-                  "state": "",
-                  "value": "1",
-                  "unit": "g.cm^{-3}",
-                  "name": "Densidade do \\ce{H2O}",
-                  "symbol": "\\rho (\\ce{H2O})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P\\ce{H2O{l}} ",
+                    "value": "75,29",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "d-H2O",
+                    "name": "Densidade do \\ce{H2O} ",
+                    "symbol": "\\rho \\ce{H2O} ",
+                    "value": "1",
+                    "unit": "g.cm^{-3}"
+                  },
+                  {
+                    "id_": "Hc-butano(g)",
+                    "name": "Entalpia de combustão do \\ce{butano} (g)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{butano{g}} ",
+                    "value": "-2878",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{3 g}$\n",
@@ -2958,17 +3426,20 @@
               "answer": [
                 "$\\pu{27 MJ.kg-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hvap-H2O",
-                  "mol": "H2O",
-                  "state": "",
-                  "value": "40,7",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de vaporização do \\ce{H2O}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{H2O})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hvap-H2O",
+                    "name": "Entalpia de vaporização do \\ce{H2O} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }\\ce{H2O} ",
+                    "value": "40,7",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 1,
               "choices": [
                 "$\\pu{21 MJ.kg-1}$\n",
@@ -2989,7 +3460,12 @@
               "answer": [
                 "$\\pu{80 kJ.mol-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{8 kJ.mol-1}$\n",
@@ -3006,7 +3482,12 @@
               "answer": [
                 "$\\pu{810 kJ.mol-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 3,
               "choices": [
                 "$\\pu{510 kJ.mol-1}$\n",
@@ -3024,7 +3505,12 @@
                 "$\\pu{-190 kJ.mol-1}$\n",
                 "$\\pu{-286 kJ.mol-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -3036,53 +3522,48 @@
                 "metano: $\\pu{-891,2 kJ.mol-1}$; eteno: $\\pu{-1412,6 kJ.mol-1}$\n",
                 "$\\pu{12 g}$\n"
               ],
-              "data": [
-                {
-                  "id_": "CP-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "75,29",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                  "symbol": "C_P(\\ce{H2O, {l}})"
-                },
-                {
-                  "id_": "Hf-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "-285,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-eteno(g)",
-                  "mol": "eteno(g)",
-                  "state": "g",
-                  "value": "52,26",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{eteno} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{eteno, {g}})"
-                },
-                {
-                  "id_": "Hf-metano(g)",
-                  "mol": "metano(g)",
-                  "state": "g",
-                  "value": "-74,81",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{metano} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{metano, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P\\ce{H2O{l}} ",
+                    "value": "75,29",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{l}} ",
+                    "value": "-285,83",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-eteno(g)",
+                    "name": "Entalpia de formação do \\ce{eteno} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{eteno{g}} ",
+                    "value": "52,26",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-metano(g)",
+                    "name": "Entalpia de formação do \\ce{metano} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{metano{g}} ",
+                    "value": "-74,81",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3093,26 +3574,27 @@
               "answer": [
                 "$\\pu{4.9E15 J}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hvap-H2O",
-                  "mol": "H2O",
-                  "state": "",
-                  "value": "40,7",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de vaporização do \\ce{H2O}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{H2O})"
-                },
-                {
-                  "id_": "d-H2O",
-                  "mol": "H2O",
-                  "state": "",
-                  "value": "1",
-                  "unit": "g.cm^{-3}",
-                  "name": "Densidade do \\ce{H2O}",
-                  "symbol": "\\rho (\\ce{H2O})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "d-H2O",
+                    "name": "Densidade do \\ce{H2O} ",
+                    "symbol": "\\rho \\ce{H2O} ",
+                    "value": "1",
+                    "unit": "g.cm^{-3}"
+                  },
+                  {
+                    "id_": "Hvap-H2O",
+                    "name": "Entalpia de vaporização do \\ce{H2O} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }\\ce{H2O} ",
+                    "value": "40,7",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3124,35 +3606,34 @@
                 "???\n",
                 "$\\pu{7}$ toneladas por hora\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "-285,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-octano(l)",
-                  "mol": "octano(l)",
-                  "state": "l",
-                  "value": "-249,9",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{l}} ",
+                    "value": "-285,83",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-octano(l)",
+                    "name": "Entalpia de formação do \\ce{octano} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{octano{l}} ",
+                    "value": "-249,9",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3163,7 +3644,12 @@
               "answer": [
                 "O valor absoluto da variação de entalpia é menor que o da variação de\nenergia interna para a reação $1$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 1,
               "choices": [
                 "As reações $1$ e $2$ são exotérmicas.\n",
@@ -3180,7 +3666,12 @@
               "answer": [
                 "O valor absoluto da variação de entalpia é menor que o valor absoluto da\nvariação de energia interna para o segundo processo.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 4,
               "choices": [
                 "Os processos ocorrem com a mesma variação de energia interna.\n",
@@ -3197,26 +3688,27 @@
               "answer": [
                 "$\\pu{6343 kJ}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hc-pentano(g)",
-                  "mol": "pentano(g)",
-                  "state": "g",
-                  "value": "-3537",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{pentano} (g)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{pentano, {g}})"
-                },
-                {
-                  "id_": "Hc-butano(g)",
-                  "mol": "butano(g)",
-                  "state": "g",
-                  "value": "-2878",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{butano} (g)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-butano(g)",
+                    "name": "Entalpia de combustão do \\ce{butano} (g)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{butano{g}} ",
+                    "value": "-2878",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hc-pentano(g)",
+                    "name": "Entalpia de combustão do \\ce{pentano} (g)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{pentano{g}} ",
+                    "value": "-3537",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3228,44 +3720,41 @@
                 "???\n",
                 "???\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hsub-grafite",
-                  "mol": "grafite",
-                  "state": "",
-                  "value": "712",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de sublimação do \\ce{grafite}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }(\\ce{grafite})"
-                },
-                {
-                  "id_": "HL-H2",
-                  "mol": "H2",
-                  "state": "",
-                  "value": "436",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{H2}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2})"
-                },
-                {
-                  "id_": "Hf-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "-285,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "HL-H2",
+                    "name": "Entalpia da ligação \\ce{H2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{H2} ",
+                    "value": "436",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{l}} ",
+                    "value": "-285,83",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hsub-grafite",
+                    "name": "Entalpia de sublimação do \\ce{grafite} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }\\ce{grafite} ",
+                    "value": "712",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3276,71 +3765,62 @@
               "answer": [
                 "$\\pu{980 K}$\n"
               ],
-              "data": [
-                {
-                  "id_": "CP-H2O(g)",
-                  "mol": "H2O(g)",
-                  "state": "g",
-                  "value": "33,58",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2O} (g)",
-                  "symbol": "C_P(\\ce{H2O, {g}})"
-                },
-                {
-                  "id_": "CP-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "37,11",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{CO2} (g)",
-                  "symbol": "C_P(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "CP-O2(g)",
-                  "mol": "O2(g)",
-                  "state": "g",
-                  "value": "29,36",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{O2} (g)",
-                  "symbol": "C_P(\\ce{O2, {g}})"
-                },
-                {
-                  "id_": "CP-N2(g)",
-                  "mol": "N2(g)",
-                  "state": "g",
-                  "value": "29,12",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{N2} (g)",
-                  "symbol": "C_P(\\ce{N2, {g}})"
-                },
-                {
-                  "id_": "Hf-H2O(g)",
-                  "mol": "H2O(g)",
-                  "state": "g",
-                  "value": "-241,82",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-octano(l)",
-                  "mol": "octano(l)",
-                  "state": "l",
-                  "value": "-249,9",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-CO2(g)",
+                    "name": "Capacidade calorífica do \\ce{CO2} (g)",
+                    "symbol": "C_P\\ce{CO2{g}} ",
+                    "value": "37,11",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-H2O(g)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (g)",
+                    "symbol": "C_P\\ce{H2O{g}} ",
+                    "value": "33,58",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-N2(g)",
+                    "name": "Capacidade calorífica do \\ce{N2} (g)",
+                    "symbol": "C_P\\ce{N2{g}} ",
+                    "value": "29,12",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-O2(g)",
+                    "name": "Capacidade calorífica do \\ce{O2} (g)",
+                    "symbol": "C_P\\ce{O2{g}} ",
+                    "value": "29,36",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(g)",
+                    "name": "Entalpia de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{g}} ",
+                    "value": "-241,82",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-octano(l)",
+                    "name": "Entalpia de formação do \\ce{octano} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{octano{l}} ",
+                    "value": "-249,9",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 4,
               "choices": [
                 "$\\pu{580 K}$\n",
@@ -3358,35 +3838,34 @@
                 "$\\pu{1733 K}$\n",
                 "$\\pu{5,2 mmol.L-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-H2O(g)",
-                  "mol": "H2O(g)",
-                  "state": "g",
-                  "value": "-241,82",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-metano(g)",
-                  "mol": "metano(g)",
-                  "state": "g",
-                  "value": "-74,81",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{metano} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{metano, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(g)",
+                    "name": "Entalpia de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{g}} ",
+                    "value": "-241,82",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-metano(g)",
+                    "name": "Entalpia de formação do \\ce{metano} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{metano{g}} ",
+                    "value": "-74,81",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3397,7 +3876,12 @@
               "answer": [
                 "A reação ocorre com absorção de calor entre $T_1$ e $T_2$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": 2,
               "choices": [
                 "A reação ocorre com liberação de calor em $T_1$.\n",
@@ -3414,44 +3898,41 @@
               "answer": [
                 "$\\pu{-46 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-NH3(g)",
-                  "mol": "NH3(g)",
-                  "state": "g",
-                  "value": "-46,11",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{NH3} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{NH3, {g}})"
-                },
-                {
-                  "id_": "CP-N2(g)",
-                  "mol": "N2(g)",
-                  "state": "g",
-                  "value": "29,12",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{N2} (g)",
-                  "symbol": "C_P(\\ce{N2, {g}})"
-                },
-                {
-                  "id_": "CP-H2(g)",
-                  "mol": "H2(g)",
-                  "state": "g",
-                  "value": "28,82",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{H2} (g)",
-                  "symbol": "C_P(\\ce{H2, {g}})"
-                },
-                {
-                  "id_": "CP-NH3(g)",
-                  "mol": "NH3(g)",
-                  "state": "g",
-                  "value": "35,06",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{NH3} (g)",
-                  "symbol": "C_P(\\ce{NH3, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2(g)",
+                    "name": "Capacidade calorífica do \\ce{H2} (g)",
+                    "symbol": "C_P\\ce{H2{g}} ",
+                    "value": "28,82",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-N2(g)",
+                    "name": "Capacidade calorífica do \\ce{N2} (g)",
+                    "symbol": "C_P\\ce{N2{g}} ",
+                    "value": "29,12",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-NH3(g)",
+                    "name": "Capacidade calorífica do \\ce{NH3} (g)",
+                    "symbol": "C_P\\ce{NH3{g}} ",
+                    "value": "35,06",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-NH3(g)",
+                    "name": "Entalpia de formação do \\ce{NH3} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{NH3{g}} ",
+                    "value": "-46,11",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": 2,
               "choices": [
                 "$\\pu{-30 kJ.mol-1}$\n",
@@ -3473,7 +3954,12 @@
                 "$n = \\pu{60 mmol}$\n",
                 "$Q = \\pu{8,25 J.mol-1}$.\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -3486,7 +3972,12 @@
                 "Aumenta\n",
                 "$\\pu{3 J.g-1}$\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -3499,44 +3990,41 @@
                 "$\\pu{-208 kJ.mol-1}$\n",
                 "$\\pu{18 kJ.mol-1}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-H2O(l)",
-                  "mol": "H2O(l)",
-                  "state": "l",
-                  "value": "-285,83",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}})"
-                },
-                {
-                  "id_": "Hc-cicloexano(l)",
-                  "mol": "cicloexano(l)",
-                  "state": "l",
-                  "value": "-3920",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{cicloexano} (l)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{cicloexano, {l}})"
-                },
-                {
-                  "id_": "Hc-cicloexeno(l)",
-                  "mol": "cicloexeno(l)",
-                  "state": "l",
-                  "value": "-3752",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{cicloexeno, {l}})"
-                },
-                {
-                  "id_": "Hc-benzeno(l)",
-                  "mol": "benzeno(l)",
-                  "state": "l",
-                  "value": "-3268",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de combustão do \\ce{benzeno} (l)",
-                  "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{benzeno, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-benzeno(l)",
+                    "name": "Entalpia de combustão do \\ce{benzeno} (l)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{benzeno{l}} ",
+                    "value": "-3268",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hc-cicloexano(l)",
+                    "name": "Entalpia de combustão do \\ce{cicloexano} (l)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{cicloexano{l}} ",
+                    "value": "-3920",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hc-cicloexeno(l)",
+                    "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
+                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }\\ce{cicloexeno{l}} ",
+                    "value": "-3752",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{l}} ",
+                    "value": "-285,83",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3548,35 +4036,34 @@
                 "$\\pu{-39,6 MJ.mol-1}$\n",
                 "???\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "HL-C=C",
-                  "mol": "C=C",
-                  "state": "",
-                  "value": "612",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C=C}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C})"
-                },
-                {
-                  "id_": "HL-C-C",
-                  "mol": "C-C",
-                  "state": "",
-                  "value": "348",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia da ligação \\ce{C-C}",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "HL-C-C",
+                    "name": "Entalpia da ligação \\ce{C-C} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C-C} ",
+                    "value": "348",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-C=C",
+                    "name": "Entalpia da ligação \\ce{C=C} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }\\ce{C=C} ",
+                    "value": "612",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3587,35 +4074,34 @@
               "answer": [
                 "$\\pu{1,5}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-CO(g)",
-                  "mol": "CO(g)",
-                  "state": "g",
-                  "value": "-110,53",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}})"
-                },
-                {
-                  "id_": "Hf-H2O(g)",
-                  "mol": "H2O(g)",
-                  "state": "g",
-                  "value": "-241,82",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
-                },
-                {
-                  "id_": "Hf-FeO(s)",
-                  "mol": "FeO(s)",
-                  "state": "s",
-                  "value": "-824,2",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{FeO} (s)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{FeO, {s}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CO(g)",
+                    "name": "Entalpia de formação do \\ce{CO} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO{g}} ",
+                    "value": "-110,53",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-FeO(s)",
+                    "name": "Entalpia de formação do \\ce{FeO} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{FeO{s}} ",
+                    "value": "-824,2",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(g)",
+                    "name": "Entalpia de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{g}} ",
+                    "value": "-241,82",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3626,7 +4112,12 @@
               "answer": [
                 "2/3\n"
               ],
-              "data": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
               "obj": -1,
               "choices": []
             },
@@ -3637,62 +4128,55 @@
               "answer": [
                 "$\\pu{-193 kJ}$\n"
               ],
-              "data": [
-                {
-                  "id_": "Hf-CO(g)",
-                  "mol": "CO(g)",
-                  "state": "g",
-                  "value": "-110,53",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "CP-CO(g)",
-                  "mol": "CO(g)",
-                  "state": "g",
-                  "value": "29,14",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{CO} (g)",
-                  "symbol": "C_P(\\ce{CO, {g}})"
-                },
-                {
-                  "id_": "CP-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "37,11",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{CO2} (g)",
-                  "symbol": "C_P(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "CP-O2(g)",
-                  "mol": "O2(g)",
-                  "state": "g",
-                  "value": "29,36",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{O2} (g)",
-                  "symbol": "C_P(\\ce{O2, {g}})"
-                },
-                {
-                  "id_": "CP-N2(g)",
-                  "mol": "N2(g)",
-                  "state": "g",
-                  "value": "29,12",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{N2} (g)",
-                  "symbol": "C_P(\\ce{N2, {g}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-CO2(g)",
+                    "name": "Capacidade calorífica do \\ce{CO2} (g)",
+                    "symbol": "C_P\\ce{CO2{g}} ",
+                    "value": "37,11",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-CO(g)",
+                    "name": "Capacidade calorífica do \\ce{CO} (g)",
+                    "symbol": "C_P\\ce{CO{g}} ",
+                    "value": "29,14",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-N2(g)",
+                    "name": "Capacidade calorífica do \\ce{N2} (g)",
+                    "symbol": "C_P\\ce{N2{g}} ",
+                    "value": "29,12",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-O2(g)",
+                    "name": "Capacidade calorífica do \\ce{O2} (g)",
+                    "symbol": "C_P\\ce{O2{g}} ",
+                    "value": "29,36",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO(g)",
+                    "name": "Entalpia de formação do \\ce{CO} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO{g}} ",
+                    "value": "-110,53",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             },
@@ -3706,80 +4190,69 @@
                 "$\\pu{2000 \\degree C}$\n",
                 "$\\pu{750 K}$\n"
               ],
-              "data": [
-                {
-                  "id_": "CP-CO(g)",
-                  "mol": "CO(g)",
-                  "state": "g",
-                  "value": "29,14",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{CO} (g)",
-                  "symbol": "C_P(\\ce{CO, {g}})"
-                },
-                {
-                  "id_": "CP-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "37,11",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{CO2} (g)",
-                  "symbol": "C_P(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "CP-O2(g)",
-                  "mol": "O2(g)",
-                  "state": "g",
-                  "value": "29,36",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{O2} (g)",
-                  "symbol": "C_P(\\ce{O2, {g}})"
-                },
-                {
-                  "id_": "CP-N2(g)",
-                  "mol": "N2(g)",
-                  "state": "g",
-                  "value": "29,12",
-                  "unit": "J.K-1.mol-1",
-                  "name": "Capacidade calorífica do \\ce{N2} (g)",
-                  "symbol": "C_P(\\ce{N2, {g}})"
-                },
-                {
-                  "id_": "Hf-CO2(g)",
-                  "mol": "CO2(g)",
-                  "state": "g",
-                  "value": "-393,51",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO2} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}})"
-                },
-                {
-                  "id_": "Hf-CO(g)",
-                  "mol": "CO(g)",
-                  "state": "g",
-                  "value": "-110,53",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{CO} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}})"
-                },
-                {
-                  "id_": "Hf-H2O(g)",
-                  "mol": "H2O(g)",
-                  "state": "g",
-                  "value": "-241,82",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{H2O} (g)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}})"
-                },
-                {
-                  "id_": "Hf-octano(l)",
-                  "mol": "octano(l)",
-                  "state": "l",
-                  "value": "-249,9",
-                  "unit": "kJ.mol-1",
-                  "name": "Entalpia de formação do \\ce{octano} (l)",
-                  "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}})"
-                }
-              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-CO2(g)",
+                    "name": "Capacidade calorífica do \\ce{CO2} (g)",
+                    "symbol": "C_P\\ce{CO2{g}} ",
+                    "value": "37,11",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-CO(g)",
+                    "name": "Capacidade calorífica do \\ce{CO} (g)",
+                    "symbol": "C_P\\ce{CO{g}} ",
+                    "value": "29,14",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-N2(g)",
+                    "name": "Capacidade calorífica do \\ce{N2} (g)",
+                    "symbol": "C_P\\ce{N2{g}} ",
+                    "value": "29,12",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-O2(g)",
+                    "name": "Capacidade calorífica do \\ce{O2} (g)",
+                    "symbol": "C_P\\ce{O2{g}} ",
+                    "value": "29,36",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO2{g}} ",
+                    "value": "-393,51",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO(g)",
+                    "name": "Entalpia de formação do \\ce{CO} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{CO{g}} ",
+                    "value": "-110,53",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(g)",
+                    "name": "Entalpia de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{H2O{g}} ",
+                    "value": "-241,82",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-octano(l)",
+                    "name": "Entalpia de formação do \\ce{octano} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }\\ce{octano{l}} ",
+                    "value": "-249,9",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
               "obj": -1,
               "choices": []
             }

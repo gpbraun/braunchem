@@ -39,6 +39,28 @@ class Topic:
     problems: dict = Factory(dict)
     subtopics: list = Factory(list)
 
+    def tex_data(self):
+        constants = sum([p.tex_constants() for _, p in self.problems.items()])
+        elements = []
+        for _, p in self.problems.items():
+            if p.elements():
+                elements += p.elements()
+
+        if not constants.data and not elements:
+            return ''
+
+        header = latex.section('Dados', level=0)
+
+        el_header = latex.section('Elementos', level=1, numbered=False)
+        elements_table = el_header + latex.cmd(
+            'MolTable', ','.join(elements)) if elements else ''
+
+        const_header = latex.section('Constantes', level=1, numbered=False)
+        constants_list = const_header \
+            + constants.tex_display() if constants else ''
+
+        return header + constants_list + elements_table + latex.cmd('bigskip')
+
     def tex_statements(self, print_solutions):
         # return statements in latex format
         if not self.problems:
@@ -66,15 +88,6 @@ class Topic:
             for title, pset in self.problems.items()
         ])
         return latex.pu2qty(statements)
-
-    def tex_data(self):
-        constants = sum([p.tex_constants() for _, p in self.problems.items()])
-        if not constants.data:
-            return ''
-        
-        header = latex.section('Dados', level=0)
-        constants = sum([p.tex_constants() for _, p in self.problems.items()])
-        return header + constants.tex_display() + latex.cmd('bigskip')
 
     def tex_answers(self):
         # return statements in latex format

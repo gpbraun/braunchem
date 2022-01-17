@@ -208,8 +208,16 @@ CONSTANTS = DataSet([
     Data(
         'Kw',
         'Constante de autoprotólise da água',
-        'Kw',
+        'K_\\mathrm{w}',
         '1e-14',
+
+    ),
+    Data(
+        'R',
+        'Constante dos Gases',
+        'R',
+        '8,314462',
+        'J.K-1.mol-1'
 
     )
 ])
