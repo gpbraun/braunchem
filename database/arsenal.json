@@ -83,7 +83,836 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "problems": {
+        "Nível I": {
+          "problems": [
+            {
+              "id_": "1C01",
+              "statement": "Considere as ordenações de raio atômico.\n\n1.  $\\ce{Si} > \\ce{S} > \\ce{Cl}$\n2.  $\\ce{Ti} > \\ce{Cr} > \\ce{Co}$\n3.  $\\ce{Hg} > \\ce{Cd} > \\ce{Zn}$\n4.  $\\ce{Bi} > \\ce{Sb} > \\ce{P}$\n\n**Assinale** a alternativa que relaciona as ordenações *corretas*.\n",
+              "solution": "",
+              "answer": "1, 2, 3 e 3",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 4",
+                "1, 3 e 4",
+                "2, 3 e 4",
+                "1, 2, 3 e 3"
+              ]
+            },
+            {
+              "id_": "1C02",
+              "statement": "Considere as ordenações de raio atômico.\n\n1.  $\\ce{Cl} > \\ce{Br} > \\ce{I}$\n2.  $\\ce{Ga} > \\ce{As} > \\ce{Se}$\n3.  $\\ce{K} > \\ce{Ca} > \\ce{Zn}$\n4.  $\\ce{Ba} > \\ce{Sr} > \\ce{Ca}$\n\n**Assinale** a alternativa que relaciona as ordenações *corretas*.\n",
+              "solution": "",
+              "answer": "1, 2 e 3",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2, 3 e 3"
+              ]
+            },
+            {
+              "id_": "1C03",
+              "statement": "**Assinale** a alternativa com a comparação *incorreta* de raio iônico.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{F-} < \\ce{Mg^2+}$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\ce{Na+} < \\ce{Na}$.\n",
+                "$\\ce{Na+} < \\ce{F-}$.\n",
+                "$\\ce{Mg^2+} < \\ce{O^2-}$.\n",
+                "$\\ce{F-} < \\ce{O^2-}$.\n",
+                "$\\ce{F-} < \\ce{Mg^2+}$.\n"
+              ]
+            },
+            {
+              "id_": "1C04",
+              "statement": "**Assinale** a alternativa com a comparação *correta* de raio iônico.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{K+} < \\ce{S^2-}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{K+} > \\ce{S^2-}$\n",
+                "$\\ce{K+} = \\ce{S^2-}$\n",
+                "$\\ce{Ba^2+} > \\ce{S^2-}$\n",
+                "$\\ce{K+} < \\ce{S^2-}$\n",
+                "$\\ce{Ba^2+} < \\ce{S^2-}$\n"
+              ]
+            },
+            {
+              "id_": "1C05",
+              "statement": "**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "A primeira energia de ionização do alumínio é maior que a do sódio.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "A primeira energia de ionização do cálcio é menor que a do magnésio.\n",
+                "A primeira energia de ionização do magnésio é menor que a do sódio.\n",
+                "A primeira energia de ionização do alumínio é maior que a do sódio.\n",
+                "A segunda energia de ionização do cálcio é menor que a do magnésio.\n",
+                "A segunda energia de ionização do magnésio é menor que a do sódio.\n"
+              ]
+            },
+            {
+              "id_": "1C06",
+              "statement": "**Assinale** a alternativa com a ordenação *incorreta* de raio atômico.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{I} > \\ce{Se} > \\ce{Xe} > \\ce{Br} > \\ce{Si}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\ce{Cs} > \\ce{Na} > \\ce{Al} > \\ce{S} > \\ce{Cl}$\n",
+                "$\\ce{Bi} > \\ce{Ga} > \\ce{Ar} > \\ce{Br} > \\ce{Al}$\n",
+                "$\\ce{K} > \\ce{Ca} > \\ce{P} > \\ce{F} > \\ce{Ne}$\n",
+                "$\\ce{B} > \\ce{C} > \\ce{N} > \\ce{O} > \\ce{F}$\n",
+                "$\\ce{I} > \\ce{Se} > \\ce{Xe} > \\ce{Br} > \\ce{Si}$\n"
+              ]
+            },
+            {
+              "id_": "1C07",
+              "statement": "Considere as energias de ionização de um elemento.\n\n![Energia por número.](1C07-1P.svg)\n\n**Assinale** a alternativa com o grupo a que esse elemento pertence.\n",
+              "solution": "",
+              "answer": [
+                "$13$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$1$\n",
+                "$2$\n",
+                "$13$\n",
+                "$14$\n",
+                "$15$\n"
+              ]
+            },
+            {
+              "id_": "1C08",
+              "statement": "Considere as energias de ionização de um elemento.\n\n![Energia por número.](1C08-1P.svg)\n\n**Assinale** a alternativa com o grupo a que esse elemento pertence.\n",
+              "solution": "",
+              "answer": [
+                "$15$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$1$\n",
+                "$2$\n",
+                "$13$\n",
+                "$14$\n",
+                "$15$\n"
+              ]
+            },
+            {
+              "id_": "1C09",
+              "statement": "**Assinale** a alternativa com a comparação *incorreta* de afinidade\neletrônica.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{F} > \\ce{Cl}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{Se} > \\ce{Ge}$\n",
+                "$\\ce{C} > \\ce{B}$\n",
+                "$\\ce{As} > \\ce{P}$\n",
+                "$\\ce{F} > \\ce{Cl}$\n",
+                "$\\ce{K} > \\ce{Na}$\n"
+              ]
+            },
+            {
+              "id_": "1C10",
+              "statement": "**Assinale** a alternativa com o elemento com maior afinidade\neletrônica.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{S}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{He}$\n",
+                "$\\ce{K}$\n",
+                "$\\ce{Co}$\n",
+                "$\\ce{S}$\n",
+                "$\\ce{Br}$\n"
+              ]
+            },
+            {
+              "id_": "1C11",
+              "statement": "**Assinale** a alternativa com a comparação *incorreta* de\neletronegatividade.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Be} > \\ce{B}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\ce{S} > \\ce{P}$\n",
+                "$\\ce{Se} > \\ce{Te}$\n",
+                "$\\ce{Na} > \\ce{Cs}$\n",
+                "$\\ce{O} > \\ce{Si}$\n",
+                "$\\ce{Be} > \\ce{B}$\n"
+              ]
+            },
+            {
+              "id_": "1C12",
+              "statement": "**Assinale** a alternativa com a comparação *incorreta* de\neletronegatividade.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Sn} > \\ce{Ge}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{Ca} > \\ce{Ba}$\n",
+                "$\\ce{As} > \\ce{Ga}$\n",
+                "$\\ce{S} > \\ce{Te}$\n",
+                "$\\ce{Sn} > \\ce{Ge}$\n",
+                "$\\ce{Br} > \\ce{Cl}$\n"
+              ]
+            },
+            {
+              "id_": "1C13",
+              "statement": "**Assinale** a alternativa com o composto mais instável para o titânio.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{K2TiO4}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{K3TiF6}$\n",
+                "$\\ce{K2Ti2O5}$\n",
+                "$\\ce{TiCl3}$\n",
+                "$\\ce{K2TiO4}$\n",
+                "$\\ce{K2TiF6}$\n"
+              ]
+            },
+            {
+              "id_": "1C14",
+              "statement": "**Assinale** a alternativa correta com relação ao ósmio.\n",
+              "solution": "",
+              "answer": [
+                "Tem número de oxidação máximo $+8$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "Tem ponto de fusão superior ao do ferro.\n",
+                "Seu íon bivalente apresenta configuração $[\\ce{Xe}] 6s^2 4f^{14} 5d^4$.\n",
+                "Tem número de oxidação máximo $+8$.\n",
+                "É um elemento de transição interna.\n",
+                "Forma o óxido $\\ce{OsO6}$.\n"
+              ]
+            },
+            {
+              "id_": "1C15",
+              "statement": "Considere as características dos elementos.\n\n1.  Líquido vermelho-escuro.\n2.  Gás incolor que queima com oxigênio.\n3.  Metal reativo que reage com água.\n4.  Metal brilhante encontrado em joias.\n5.  Gás inerte.\n\n**Assinale** a alternativa com os elementos referentes às\ncaracterísticas, respectivamente.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Br2}, \\ce{H2}, \\ce{Ca}, \\ce{Au}, \\ce{Ar}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\ce{Ca}, \\ce{Au}, \\ce{H2}, \\ce{Ar}, \\ce{Br}$\n",
+                "$\\ce{Br2}, \\ce{H2}, \\ce{Ca}, \\ce{Au}, \\ce{Ar}$\n",
+                "$\\ce{Br2}, \\ce{Ar}, \\ce{Ca}, \\ce{Ar}, \\ce{H2}$\n",
+                "$\\ce{Br2}, \\ce{H2}, \\ce{Au}, \\ce{Ca}, \\ce{Ar}$\n",
+                "$\\ce{Br2}, \\ce{Ar}, \\ce{Ar}, \\ce{Ca}, \\ce{Au}$\n"
+              ]
+            },
+            {
+              "id_": "1C16",
+              "statement": "Considere as características dos elementos.\n\n1.  Gás amarelo-pálido que reage com água.\n2.  Metal pouco duro que reage com água.\n3.  Metaloide com alto ponto de ebulição.\n4.  Gás inerte.\n5.  Metais mais reativo que o ferro, mas que não sofre corrosão na\n    atmosfera.\n\n**Assinale** a alternativa com os elementos referentes às\ncaracterísticas, respectivamente.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": [
+                "$\\ce{N2, B, Al, F2, Na}$\n",
+                "$\\ce{F2, B, Al, N2, Na}$\n",
+                "$\\ce{F2, Na, B, N2, Al}$\n",
+                "$\\ce{N2, Na, B, F2, Al}$\n",
+                "$\\ce{F2, Al, B, N2, Na}$\n"
+              ]
+            }
+          ]
+        },
+        "Nível II": {
+          "problems": [
+            {
+              "id_": "1C17",
+              "statement": "Considere um aparelho de ionização, que pode ser útil para medir baixas\npressões. Nesse dispositivo, elétrons partem de um filamento aquecido,\natravessam uma rede cuja tensão fixa a energia do elétron, e atingem uma\nregião do tubo sonda ligada ao sistema de alto vácuo cuja pressão se\ndeseja medir. Esses elétrons ionizam espécies neutras presentes no tubo\ne formam íons positivos atraídos por uma placa coletora negativa. Além\ndisso, produzem uma corrente que pode ser medida e correlacionada com a\npressão do sistema de vácuo. Portanto, quanto mais baixa a pressão,\nmenor o número de moléculas neutras e, consequentemente, menor o número\nde íons positivos formados no tubo. Um aparelho de ionização cuja\nenergia eletrônica é $\\pu{15 eV}$ foi calibrado medindo-se a pressão de\num sistema que continha vapor de sódio.\n\n**Assinale** a alternativa com a leitura do instrumento se o vapor de\nsódio fosse substituído por neônio à mesma pressão.\n",
+              "solution": "",
+              "answer": [
+                "A leitura seria zero.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "EI-Na",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "EI-Ne",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "A leitura seria maior.\n",
+                "A leitura manter-se-ia inalterada.\n",
+                "A leitura seria até $50\\%$ menor.\n",
+                "A leitura seria de até $50\\%$ do valor medido com sódio.\n",
+                "A leitura seria zero.\n"
+              ]
+            },
+            {
+              "id_": "1C18",
+              "statement": "Os dados a seguir foram obtidos em um experimento de efeito fotoelétrico\nutilizando os metais rubídio, potássio e sódio.\n\n![Energia por frequência.](1C18-1P.svg)\n\n**Assinale** a alternativa com a identidade de **A**, **B** e **C**,\nrespectivamente.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Na, K, Rb}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{Na, K, Rb}$\n",
+                "$\\ce{Na, Rb, K}$\n",
+                "$\\ce{K, Na, Rb}$\n",
+                "$\\ce{Rb, Na, K}$\n",
+                "$\\ce{Rb, K, Na}$\n"
+              ]
+            },
+            {
+              "id_": "1C19",
+              "statement": "**Assinale** a alternativa com a ordenação *correta* de energia de\nionização.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Na} < \\ce{Al} < \\ce{Mg} < \\ce{Si} < \\ce{S} < \\ce{P} < \\ce{Cl} < \\ce{Ar}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\ce{Na} < \\ce{Mg} < \\ce{Al} < \\ce{Si} < \\ce{P} < \\ce{S} < \\ce{Cl} < \\ce{Ar}$\n",
+                "$\\ce{Na} < \\ce{Al} < \\ce{Mg} < \\ce{Si} < \\ce{S} < \\ce{P} < \\ce{Cl} < \\ce{Ar}$\n",
+                "$\\ce{Mg} < \\ce{Na} < \\ce{Al} < \\ce{P} < \\ce{Si} < \\ce{S} < \\ce{Cl} < \\ce{Ar}$\n",
+                "$\\ce{Na} < \\ce{Mg} < \\ce{Si} < \\ce{Al} < \\ce{P} < \\ce{Cl} < \\ce{S} < \\ce{Ar}$\n",
+                "$\\ce{Na} < \\ce{Al} < \\ce{Mg} < \\ce{Si} < \\ce{P} < \\ce{Cl} < \\ce{S} < \\ce{Ar}$\n"
+              ]
+            },
+            {
+              "id_": "1C20",
+              "statement": "**Assinale** a alternativa com a ordenação *correta* de afinidade\neletrônica.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{N} < \\ce{C} < \\ce{O}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{N} < \\ce{C} < \\ce{O}$\n",
+                "$\\ce{N} < \\ce{O} < \\ce{C}$\n",
+                "$\\ce{C} < \\ce{N} < \\ce{O}$\n",
+                "$\\ce{C} < \\ce{O} < \\ce{N}$\n",
+                "$\\ce{O} < \\ce{N} < \\ce{C}$\n"
+              ]
+            },
+            {
+              "id_": "1C21",
+              "statement": "Considere os elementos com configurações eletrônicas a seguir.\n\n1.  $1s^2 2s^2 2p^6 3s^2 3p^6$\n2.  $1s^2 2s^2 2p^6 3s^2$\n3.  $1s^2 2s^2 2p^6 3s^2 3p^6 4s^1$\n4.  $1s^2 2s^2 2p^6 3s^2 3p^5$\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "$3$ tem a maior afinidade eletrônica.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$1$ tem o maior potencial de ionização.\n",
+                "A perda de dois elétrons pelo átomo $2$ leva à formação do cátion\n$\\ce{Mg^2+}$.\n",
+                "$3$ tem a maior afinidade eletrônica.\n",
+                "O ganho de um elétron pelo átomo $4$ ocorre com a liberação de energia.\n",
+                "O átomo $4$ é o mais eletronegativo.\n"
+              ]
+            },
+            {
+              "id_": "1C22",
+              "statement": "Considere a configuração eletrônica da camada de valência do ânion\nmonovalente dos átomos $1$, $2$, $3$ e $4$.\n\n1.  $ns^2 np^6 nd^{10} (n + 1)s^2 (n + 1)p^6$\n2.  $ns^2 np^6$\n3.  $ns^2 np^6 nd^{10} (n + 1)s^2 (n + 1)p^3$\n4.  $ns^2 np^3$\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "$4$ deve ter maior afinidade eletrônica do $3$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$1$ deve ter a maior energia de ionização entre eles.\n",
+                "$2$ deve ter a maior energia de ionização entre eles.\n",
+                "$1$ deve ter maior afinidade eletrônica do que $2$.\n",
+                "$4$ deve ter maior afinidade eletrônica do que $2$.\n",
+                "$4$ deve ter maior afinidade eletrônica do $3$.\n"
+              ]
+            },
+            {
+              "id_": "1C23",
+              "statement": "**Assinale** a alternativa com os elementos com maior diferença de raio\natômico.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Li}, \\ce{Be}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{Li}, \\ce{Be}$\n",
+                "$\\ce{B}, \\ce{C}$\n",
+                "$\\ce{Ga}, \\ce{Al}$\n",
+                "$\\ce{Ru}, \\ce{Os}$\n",
+                "$\\ce{Ce}, \\ce{Pr}$\n"
+              ]
+            },
+            {
+              "id_": "1C24",
+              "statement": "**Assinale** a alternativa correta com relação aos raios do molibdênio e\ndo tungstênio.\n",
+              "solution": "",
+              "answer": [
+                "São praticamente iguais.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "São praticamente iguais.\n",
+                "O raio do molibdênio é $50\\%$ maior.\n",
+                "O raio do tungstênio é $50\\%$ maior.\n",
+                "Ambos são menores que o cromo.\n",
+                "O raio do molibdênio é próximo da média entre os raios do cromo e do\ntungstênio.\n"
+              ]
+            },
+            {
+              "id_": "1C25",
+              "statement": "**Assinale** a alternativa com o elemento que não apresenta efeito do\npar inerte.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Ba}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\ce{Pb}$\n",
+                "$\\ce{Sb}$\n",
+                "$\\ce{As}$\n",
+                "$\\ce{Tl}$\n",
+                "$\\ce{Ba}$\n"
+              ]
+            },
+            {
+              "id_": "1C26",
+              "statement": "**Assinale** a alternativa com o elemento que apresenta efeito do par\ninerte mais acentuado.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Bi}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{Sn}$\n",
+                "$\\ce{Sb}$\n",
+                "$\\ce{Ga}$\n",
+                "$\\ce{Bi}$\n",
+                "$\\ce{Zn}$\n"
+              ]
+            },
+            {
+              "id_": "1C27",
+              "statement": "**Assinale** a alternativa com o par de elementos que possuem relação\ndiagonal.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Li, Mg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{Li, Mg}$\n",
+                "$\\ce{Ca, Al}$\n",
+                "$\\ce{F, S}$\n",
+                "$\\ce{O, S}$\n",
+                "$\\ce{V, Mo}$\n"
+              ]
+            },
+            {
+              "id_": "1C28",
+              "statement": "**Assinale** a alternativa com pares de elementos que não possuem\nrelação diagonal.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{C, Al}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\ce{Be, Al}$\n",
+                "$\\ce{As, Sn}$\n",
+                "$\\ce{Ga, Sn}$\n",
+                "$\\ce{B, Si}$\n",
+                "$\\ce{C, Al}$\n"
+              ]
+            },
+            {
+              "id_": "1C29",
+              "statement": "**Assinale** a alternativa com o aspecto provável para o elemento\nsintético fleróvio ($Z=114$).\n",
+              "solution": "",
+              "answer": [
+                "Metal cinza-prateado.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "Metal cinza-prateado.\n",
+                "Líquido volátil avermelhado.\n",
+                "Gás verde amarelo pálido.\n",
+                "Cristal incolor.\n",
+                "Sólido em pó preto.\n"
+              ]
+            },
+            {
+              "id_": "1C30",
+              "statement": "Considere as proposições\n\n1.  O índio é um mau condutor de eletricidade.\n2.  O raio atômico do índio é maior que o do estanho.\n3.  A densidade do índio é menor que a do paládio.\n4.  O ponto de fusão do índio é maior que o do gálio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "1, 2 e 3",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2 e 3",
+                "1, 2, 3 e 3"
+              ]
+            },
+            {
+              "id_": "1C31",
+              "statement": "Considere as afirmações a seguir, todas relacionadas a átomos e íons no\nestado gasoso:\n\n1.  A energia do íon $\\ce{Be^2+}$, no seu estado fundamental, é igual à\n    energia do átomo de $\\ce{He}$ neutro no seu estado fundamental.\n2.  A segunda energia de ionização do átomo de $\\ce{He}$ neutro, é igual\n    à afinidade eletrônica do íon $\\ce{He^2+}$.\n3.  O primeiro estado excitado do átomo de $\\ce{He}$ neutro tem a mesma\n    configuração eletrônica do primeiro estado excitado do íon\n    $\\ce{Be^2+}$.\n4.  A primeira energia de ionização de íon $\\ce{H-}$ é menor do que a\n    primeira energia de ionização do átomo de $\\ce{H}$ neutro.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "1, 2, 3 e 3",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "1, 2 e 3",
+                "1, 2 e 4",
+                "1, 3 e 4",
+                "2, 3 e 4",
+                "1, 2, 3 e 3"
+              ]
+            },
+            {
+              "id_": "1C32",
+              "statement": "Considere as seguintes transições eletrônicas em uma espécie A cuja\nconfiguração do primeiro estado excitado é $ns^2 np^5 (n + 1)s^2$.\n\n1.  $s^2 np^4 (n + 1)s^2 \\rightarrow ns^2 np^5$\n2.  $ns^2 np^6 (n + 1)s^1 (n + 1)p^1 \\rightarrow ns^2 np^6 (n + 1)s^2$\n3.  $ns^2 np^5 \\rightarrow ns^2 np^6$\n4.  $ns^2 np^6 (n + 1)s^1 (n + 1)p^1 \\rightarrow ns^2 np^6 (n + 1)s^1$\n5.  $ns^2 np^5 (n + 1)s^1 (n + 1)p^1 \\rightarrow ns^2 np^6 (n + 1)s^1$\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "$4$ pode representar a energia equivalente à afinidade eletrônica do\nátomo neutro ($\\ce{A}$).\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$1$ pode representar a energia equivalente a uma excitação eletrônica do\ncátion ($\\ce{A+}$).\n",
+                "$2$ pode representar a energia equivalente a uma excitação eletrônica do\nânion ($\\ce{A-}$).\n",
+                "$3$ pode representar a energia equivalente à ionização do cátion\n($\\ce{A+}$).\n",
+                "$4$ pode representar a energia equivalente à afinidade eletrônica do\nátomo neutro ($\\ce{A}$).\n",
+                "$5$ pode representar a energia equivalente a uma excitação eletrônica do\nátomo neutro ($\\ce{A}$).\n"
+              ]
+            }
+          ]
+        },
+        "Nível III": {
+          "problems": [
+            {
+              "id_": "1C33",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque a primeira energia de ionização e a afinidade\n    eletrônica do cátion diferem para todos os elementos, exceto o\n    hidrogênio.\n-   **Explique** porque a primeira afinidade eletrônica do enxofre é\n    endotérmica ($\\pu{200 kJ.mol-1}$) enquanto a segunda é exotérmica\n    ($\\pu{-649 kJ.mol-1}$).\n-   **Explique** porque a primeira afinidade eletrônica do flúor\n    ($\\pu{328 kJ.mol-1}$) é menor que a do cloro ($\\pu{349 kJ.mol-1}$).\n-   **Explique** porque as afinidades eletrônicas do carbono e do\n    oxigênio são positivas, enquanto, a afinidade eletrônica do\n    nitrogênio é próxima de zero.\n",
+              "solution": "\n",
+              "answer": [
+                "Hidrogenoide.\n",
+                "Aumento da carga nuclear.\n",
+                "Raio muito pequeno.\n",
+                "Simetria semi-esférica.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1C34",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque a energia de ionização do alumínio\n    ($\\pu{577 kJ.mol-1}$) é menor que a do magnésio\n    ($\\pu{737 kJ.mol-1}$).\n-   **Explique** porque a energia de ionização do oxigênio\n    ($\\pu{1314 kJ.mol-1}$) é menor que a do nitrogênio\n    ($\\pu{1402 kJ.mol-1}$).\n",
+              "solution": "\n",
+              "answer": [
+                "Simetria esférica.\n",
+                "Simetria esférica.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1C35",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque o raio covalente do germânio ($\\pu{122 pm}$) é\n    muito próximo do raio covalente do silício ($\\pu{117 pm}$).\n-   **Explique** porque a energia de ionização do alumínio\n    ($\\pu{577 kJ.mol-1}$) é muito próximo da energia de ionização do\n    gálio ($\\pu{579 kJ.mol-1}$).\n",
+              "solution": "\n",
+              "answer": [
+                "Contração do bloco d.\n",
+                "Contração do bloco d.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1C36",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque o raio atômico aumenta no grupo Sc\n    ($\\pu{157 pm}$), Y ($\\pu{169 pm}$), La ($\\pu{191 pm}$), entretanto,\n    o mesmo não acontece no grupo Ti ($\\pu{148 pm}$), Zr\n    ($\\pu{159 pm}$), Hf ($\\pu{148 pm}$).\n-   **Explique** a diferença entre os raios atômicos do praseodímio\n    ($\\pu{181 pm}$) e o samário ($\\pu{180 pm}$) é menor que entre o\n    háfnio ($\\pu{156 pm}$) e o tântalo ($\\pu{143 pm}$).\n-   **Explique** porque a primeira energia de ionização do chumbo\n    ($\\pu{715 kJ.mol-1}$) é maior que a do estanho\n    ($\\pu{708 kJ.mol-1}$).\n",
+              "solution": "\n",
+              "answer": [
+                "Contração dos lantanídeos.\n",
+                "Contração dos lantanídeos.\n",
+                "Contração dos lantanídeos.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ]
+        }
+      },
       "subtopics": [
         {
           "id_": "1C.1",
