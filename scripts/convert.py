@@ -15,7 +15,14 @@ from markdown import Markdown
 from pathlib import Path
 
 
-MD = Markdown(extensions=['pymdownx.tasklist'])
+MD = Markdown(extensions=['pymdownx.tasklist', 'markdown.extensions.tables'])
+
+EXTENSIONS = ''.join([
+        '+', 'task_lists',
+        '+', 'table_captions',
+        '+', 'simple_tables',
+        '+', 'implicit_figures',
+    ])
 
 
 def md2soup(content):
@@ -31,11 +38,21 @@ def html2md(content):
     )
 
 
+def soup_split(soup, tag):
+    split_tag = soup.find(tag)
+    if split_tag:
+        splited = str(soup).split(str(split_tag), 1)
+
+        return map(lambda s: BeautifulSoup(s, 'html.parser'), splited)
+
+    return [soup, '']
+
+
 def md2tex(content):
     # convert html string to tex using pandoc
     return convert_text(
         content, 'tex',
-        format='markdown+tex_math_dollars+raw_tex',
+        format=f'markdown_strict+tex_math_dollars+raw_tex{EXTENSIONS}',
     ).replace('\\tightlist', '')
 
 

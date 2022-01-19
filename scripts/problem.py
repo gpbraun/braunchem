@@ -87,13 +87,15 @@ class Problem:
             'points': points,
         }
 
-        args = f'[{latex.key(parameters)}]\n{contents}'
-
         if not print_solution:
+            args = f'[{latex.key(parameters)}]\n{contents}'
             return latex.env('problem', args)
 
+        parameters['breakable'] = 'true'
         header = latex.section('Gabarito', level=1, numbered=False)
-        return latex.env('problem', args) + header + self.solution
+        args = f'[{latex.key(parameters)}]\n{contents + header + self.solution}'
+
+        return latex.env('problem', args)
 
 
 def link2problem(cur, link):
@@ -142,7 +144,7 @@ def problem_contents(id_, path, pfile):
     elif 'elementos' in pfile:
         kwargs['elements'] = pfile['elementos']
 
-    solution = soup.find('blockquote')
+    soup, solution = convert.soup_split(soup, 'hr')
 
     # problema objetivo: normal
     choice_list = soup.find('ul', class_='task-list')

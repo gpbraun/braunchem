@@ -140,11 +140,12 @@ class DataSet:
         if mol_match:
             mol, state = mol_match.group(1), mol_match.group(2)
             name = dt.name + ' ' + latex.cmd('ce', mol) + f'({state})'
-            symbol = dt.symbol + latex.cmd('ce', mol + f'{{{state}}}')
+            symbol = dt.symbol + \
+                '(' + latex.cmd('ce', mol + f', {{{state}}}') + ')'
         else:
             state = ''
             name = dt.name + ' ' + latex.cmd('ce', datamol)
-            symbol = dt.symbol + latex.cmd('ce', datamol)
+            symbol = dt.symbol + '(' + latex.cmd('ce', datamol) + ')'
 
         self.data.append(Data(id_, name, symbol, value, unit))
 
@@ -218,6 +219,14 @@ CONSTANTS = DataSet([
         'R',
         '8,314462',
         'J.K-1.mol-1'
+
+    ),
+    Data(
+        'Patm',
+        'Pressão atmosférica',
+        '1 \\pu{atm}',
+        '1,01325e5',
+        'Pa'
 
     )
 ])
@@ -299,12 +308,3 @@ DATATYPES = {
         'eV'
     ),
 }
-
-
-def main():
-    DATA = read_datasets('database/data')
-    print(DATA.filter(['Hf-octano(l)']))
-
-
-if __name__ == "__main__":
-    main()

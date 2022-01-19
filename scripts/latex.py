@@ -77,7 +77,7 @@ UNIT_EXP = re.compile(r'[\+\-]?\d+')
 
 
 def qty(num, unit):
-    # convert \pu command to \unit, \num or \qty
+    # siunitx
     if not unit:  # number only
         return cmd('num', [num])
 

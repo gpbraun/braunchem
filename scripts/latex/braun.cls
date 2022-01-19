@@ -186,7 +186,7 @@
 %   KOMASCRIPT FEATURES
 %============================================================%
 
-\RequirePackage { typearea, scrextend, multicolrule }
+\RequirePackage { typearea, scrextend }
 
 \keys_define:nn { braun }
     { unknown .code:n  = \exp_args:NV \KOMAoption \l_keys_key_tl {#1} }
@@ -195,7 +195,21 @@
 %   FIGURES AND TABLES 
 %============================================================%
 
-\RequirePackage { float, booktabs }
+\RequirePackage { float, booktabs, array }
+
+\cs_set_eq:NN \endhead \relax
+\cs_set_eq:NN \tightlist \relax
+
+\NewDocumentEnvironment { longtable } { O{} m }
+	{
+		\begin{center}
+		\begin{tabular} [] {#2} 
+		
+	}
+	{
+		\end{tabular}
+		\end{center}
+	}
 
 %============================================================%
 %   MATH
@@ -1658,6 +1672,10 @@
         single-page .bool_set:N = \l_braun_problem_single_page_bool,
         single-page .initial:n  = false,
         single-page .default:n  = true,
+
+		vfill .bool_set:N = \l_braun_problem_fill_bool,
+        vfill .initial:n  = true,
+        vfill .default:n  = true,
     }
 
 
@@ -1723,7 +1741,7 @@
 %   PROBLEM ENVIRONMENT
 %============================================================%
 
-\keys_define:nn { braun/problem }
+\keys_define:nn { braun/problems }
     {
         id .tl_set:N = \l_braun_problem_id_tl,
         id .initial:n = ,
@@ -1736,6 +1754,7 @@
     }
 
 \box_new:N \l__braun_problem_box
+\tl_new:N \l__braun_solution_tl
 
 \cs_set:Nn \braun_begin_problem_box:
     { 
@@ -1746,7 +1765,7 @@
             }
     }
 
-\cs_set:Nn \braun_end_problem_box:
+\cs_set:Nn \braun_end_problem_box:n
     { 
         \bool_if:NTF \l_braun_problem_breakable_bool 
             {
@@ -1756,18 +1775,19 @@
                 \vbox_set_end:
                 \box_use_drop:N  \l__braun_problem_box
                 \skip_vertical:N \l_braun_problem_after_skip
-                \BraunVFill
             }
+		\bool_if:NT \l_braun_problem_fill_bool { \BraunVFill }
     }
 
 \newcounter { problem_counter } [ section ]
+
 
 % #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
     {
         \refstepcounter{problem_counter}
 
-        \keys_set:nn { braun/problem } {path = , id = , #1}
+        \keys_set:nn { braun/problems } {path = , id = , #1}
 
         \BraunNoWarning
         \dim_zero:N \parindent
