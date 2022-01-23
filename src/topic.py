@@ -143,11 +143,13 @@ def topic2pdf(topic):
     return topic.generate_pdf()
 
 
-def links2topic(cur, id_, links, **kwargs):
+def links2topic(cur, id_, problem_links, **kwargs):
     # gera o simulado a partir dos dados
     print('Carregando problemas...')
-    problem_set = links2problemset(cur, links)
-    return Topic(id_, problems={'Questões': problem_set}, **kwargs)
+    problems = {}
+    for title, links in problem_links.items():
+        problems[title] = links2problemset(cur, links)
+    return Topic(id_, problems=problems, **kwargs)
 
 
 def file2topic(args):

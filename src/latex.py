@@ -72,7 +72,9 @@ def enum(name, items, cols=0, auto_cols=False, sep_cmd='item'):
     return env(name, f'{cols}{content}')
 
 
-PU_CMD = re.compile(r'\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-]*)\s*\}')
+PU_CMD = re.compile(
+    r'\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}'
+)
 UNIT_EXP = re.compile(r'[\+\-]?\d+')
 
 

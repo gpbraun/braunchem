@@ -93,7 +93,7 @@ class Problem:
 
         parameters['breakable'] = 'true'
         header = latex.section('Gabarito', level=1, numbered=False)
-        args = f'[{latex.key(parameters)}]\n{contents + header + self.solution}'
+        args = f'[{latex.key(parameters)}]\n{contents+header+self.solution}'
 
         return latex.env('problem', args)
 
@@ -125,6 +125,10 @@ def problem_contents(id_, path, pfile):
     kwargs['path'] = path
 
     soup = convert.md2soup(pfile.content)
+
+    # remove problem title
+    if soup.h1:
+        soup.h1.decompose()
 
     # get problem constants
     if 'constants' in pfile:

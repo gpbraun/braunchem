@@ -76,7 +76,7 @@ def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive'):
     temp.mkdir(parents=True, exist_ok=True)
 
     # copy latex template files to temp folder
-    copy_all('scripts/latex', temp)
+    copy_all('src/latex', temp)
 
     os.chdir(temp)
 
