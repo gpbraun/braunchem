@@ -770,10 +770,10 @@
 %============================================================%
 
 \keys_define:nn { braun/page/section }
-{
-    name .tl_set:N = \l_braun_page_section_type_tl,
-    name .initial:n = latex,
-}
+	{
+		name .tl_set:N = \l_braun_page_section_type_tl,
+		name .initial:n = latex,
+	}
 
 \cs_set_eq:NN \legacysection \section
 
@@ -787,23 +787,71 @@
         \IfBooleanF {#1} { \refstepcounter { section } }
         \group_begin:
 		\braun_ghost_section: 
+
         \str_case:Vn \l_braun_page_section_type_tl
-        {
-            { latex }
-            {
-                \Large \textbf {#2}
-            }
-            { IME }
-            {
-                \skip_vertical:n {-1em}
-                \IMEaltHeader 
-                    { 
-                        \bfseries \normalsize  \text_uppercase:n {#2} 
-                    } 
-            }
-        }
+			{
+				{ latex }
+				{
+					\Large \textbf {#2}
+				}
+				{ IME }
+				{
+					\skip_vertical:n {-1em}
+					\IMEaltHeader 
+						{ 
+							\bfseries \normalsize  \text_uppercase:n {#2} 
+						} 
+				}
+				{ ITA }
+				{
+					\begin{center}
+						\bfseries \normalsize \text_uppercase:n {#2} 
+						\BraunHRule
+					\end{center}
+				}
+			}
         \group_end:
 	}
+
+% \cs_set:Nn \braun_firstsection:n
+% 	{
+% 		\str_case:Vn \l_braun_page_section_type_tl
+% 			{
+% 				{ latex }
+% 				{
+% 					\Large \textbf {#2}
+% 				}
+% 				{ IME }
+% 				{
+% 					\skip_vertical:n {-1em}
+% 					\IMEaltHeader 
+% 						{ 
+% 							\bfseries \normalsize  \text_uppercase:n {#2} 
+% 						} 
+% 				}
+% 			}
+		
+% 	}
+
+% \cs_set:Nn \braun_midsection:n
+% 	{
+% 		\str_case:Vn \l_braun_page_section_type_tl
+% 			{
+% 				{ latex }
+% 				{
+% 					\Large \textbf {#2}
+% 				}
+% 				{ IME }
+% 				{
+% 					\skip_vertical:n {-1em}
+% 					\IMEaltHeader 
+% 						{ 
+% 							\bfseries \normalsize  \text_uppercase:n {#2} 
+% 						} 
+% 				}
+% 			}
+		
+% 	}
 
 %============================================================%
 %   PAGE STYLE TEMPLATES
@@ -1199,7 +1247,6 @@
 			\bool_if:NT \l_braun_title_contact_input_bool
 				{ \BraunThanks { \PrintContact } }
         \group_end:
-		\cs_undefine:N \maketitle % save memory
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1696,7 +1743,7 @@
 %   CUSTOM LISTS FOR PROBLEMS
 %============================================================%
 
-\RequirePackage { tasks, enumitem }
+\RequirePackage { tasks, enumitem, needspace }
 
 \renewlist{itemize}{enumerate}{2}
 
@@ -1705,7 +1752,7 @@
         enumerate .code:n = {
             \setlist [enumerate, 1] {#1}
         },
-        enumerate .initial:n = {label = \sffamily{\bfseries \Roman*.}, leftmargin=*},
+        enumerate .initial:n = {},
 
         itemize .code:n = {
             \setlist [itemize, 1] {#1}
@@ -1717,9 +1764,12 @@
 
 \NewTasksEnvironment[
     label  = {\MiniBox{\Alph*}},
+	%label  = {\textbf{\Alph*}\,(\;\;)},
     item-indent = 3em,
-    after-item-skip = 2\itemsep,
+	%item-indent = 4em,
+    %after-item-skip = 2\itemsep,
     label-width = 1.5em,
+	%label-width = 2.5em,
 	label-align = right,
     label-offset = 0.7em,
 ]{choices}[\task]
@@ -1791,12 +1841,15 @@
     }
 
 \newcounter { problem_counter } [ section ]
+\newcounter { problem_counter_absolute }
 
 
 % #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
     {
+		\needspace{10\baselineskip}
         \refstepcounter{problem_counter}
+		\refstepcounter{problem_counter_absolute}
 
         \keys_set:nn { braun/problems } {path = , id = , #1}
 
@@ -1843,7 +1896,7 @@
                 }       
             }
             {
-                \paragraph{ \l_braun_problem_name_tl ~ \arabic { problem_counter } }   
+                \paragraph{ \l_braun_problem_name_tl \; \arabic { problem_counter_absolute } }   
             }
     } 
     {
@@ -1870,14 +1923,23 @@
         font = lmodern,
         fontsize = 11pt,
         emph = \bfseries,
-        chem / formula-format = \rmfamily,
-        maketitle / print = { title },
+		page / section / name = ITA,
+        maketitle / print = { title, subtitle, date },
         maketitle / title / case = upper,
-        maketitle / title / font = \large\bfseries,
+        maketitle / title / font = \Large\bfseries,
+		maketitle / subtitle /value = Turma~ IME-ITA,
+        maketitle / subtitle / case = upper,
+		maketitle / subtitle / font = \large\bfseries,
+        maketitle / date / value = \int_use:N \c_sys_year_int,
+        maketitle / date / font = \large\bfseries,
+		maketitle / logo / value = ita-alt,
+        maketitle / logo / value = pensi,
         problems / name = Questão,
         problems / template = ITA,
         graphics / width = 10cm,
         graphics / height = 7cm,
+		problems / breakable = true,
+		problems / vfill = false,
     }
 
 %============================================================%
@@ -1906,6 +1968,39 @@
         maketitle / date / font = \large\bfseries,
         maketitle / logo / value = ime,
         maketitle / logo / value = ita-alt,
+        problems / name = Questão,
+        problems / template = IME,
+        graphics / width = \linewidth,
+        graphics / height = 5cm,
+        lists / itemize = {label = {\alph*)}},
+    }
+
+%============================================================%
+%   IME
+%============================================================%
+
+\DeclareBraunTemplate { diagnostico }
+    {
+        DIV = 16,
+        font = helvetica,
+        fontsize = 11pt,
+        familydefault = sf,
+        linewidth = 1.5pt,
+        emph = \bfseries,
+        page / IME,
+        maketitle / align = c,
+        maketitle / print = { title, subtitle, date },
+        maketitle / toprule = false,
+        maketitle / botrule = false,
+        maketitle / title / case = upper,
+        maketitle / title / font = \Large\bfseries,
+        maketitle / subtitle /value = Turma~ IME-ITA,
+        maketitle / subtitle / case = upper,
+        maketitle / subtitle / font = \large\bfseries,
+        maketitle / date / value = \int_use:N \c_sys_year_int,
+        maketitle / date / font = \large\bfseries,
+        maketitle / logo / value = ime,
+        maketitle / logo / value = pensi,
         problems / name = Questão,
         problems / template = IME,
         graphics / width = \linewidth,
@@ -1969,6 +2064,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage { csquotes, babel }
+
+\AtBeginEnvironment{quote}{\small}
+
+\cs_set_eq:NN \textbackslash \relax
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              

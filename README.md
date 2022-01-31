@@ -9,9 +9,13 @@
 
 ### Matemática
 
+### Símbolos
+
+
 ### Unidades
 
-Valores numéricos, com ou sem unidades, devem ser colocados com a função `$\pu{<valor> <unidade>}$`.
+Valores numéricos, com ou sem unidades, devem ser colocados com a função `$\pu{<valor> <unidade>}$`. o simbolo grau deve ser colocado como `\degree`, como em `$\pu{25 \degree C}$`
+
 
 ### Química
 

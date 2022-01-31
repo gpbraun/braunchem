@@ -22,6 +22,7 @@ EXTENSIONS = ''.join([
         '+', 'table_captions',
         '+', 'simple_tables',
         '+', 'implicit_figures',
+        '+', 'footnotes',
     ])
 
 

@@ -60,7 +60,11 @@ class Problem:
         if not self.is_obj():
             return ''
 
-        tex_choices = [convert.md2tex(c) for c in self.choices]
+        tex_choices = [
+            latex.cmd('everymath', latex.cmd('displaystyle')) +
+            convert.md2tex(c)
+            for c in self.choices
+        ]
         return latex.enum(
             'choices', tex_choices, auto_cols=True, sep_cmd='task'
         )
@@ -155,6 +159,8 @@ def problem_contents(id_, path, pfile):
     if choice_list:
         # get problem choices, obj and answer
         choices = []
+        # Problem.is_obj() returns trus even if there is no correct choice
+        kwargs['obj'] = 0
         for index, item in enumerate(choice_list.find_all('li')):
             choice = convert.html2md(item)
             choices.append(choice)
@@ -230,7 +236,7 @@ class ProblemSet:
         return sum([p.constants for p in self.problems])
 
     def tex_statements(self, title='', points=1.0, print_solutions=False,
-                       print_data=False):
+                       print_data=False, newpage=False):
         # get statements in latex format
         if not self.problems:
             return ''
@@ -239,7 +245,7 @@ class ProblemSet:
             [p.astex(points, print_solutions, print_data)
              for p in self.problems]
         )
-        return latex.section(title) + statements
+        return latex.section(title, newpage=newpage) + statements
 
     def tex_answers(self, title=''):
         # get answers in latex format

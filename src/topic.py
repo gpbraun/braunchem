@@ -83,10 +83,15 @@ class Topic:
             return ''
 
         points = 10/problem_num
-        statements = ''.join([
-            pset.tex_statements(title, problem_num, print_solutions)
-            for title, pset in self.problems.items()
-        ])
+        statements = ''
+        newpage = False
+        for title, pset in self.problems.items():
+            statements += pset.tex_statements(
+                            title, problem_num, print_solutions,
+                            newpage=newpage
+                        )
+            newpage = True
+
         return latex.pu2qty(statements)
 
     def tex_answers(self):
