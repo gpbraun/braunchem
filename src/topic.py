@@ -96,7 +96,7 @@ class Topic:
 
     def tex_answers(self):
         # return statements in latex format
-        header = latex.section('Gabarito', level=0)
+        header = latex.section('Gabarito', level=0, newpage=True)
         if len(self.problems) == 1:
             # se há apenas um problemset, não coloca título
             pset = next(iter(self.problems.values()))

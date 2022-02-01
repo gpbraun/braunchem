@@ -49,6 +49,8 @@ def latex_len(tex_str):
     for match in re.findall(TEX_LEN, tex_str):
         if match in ['=', '\\rightarrow']:
             count += 2
+        elif match in [',']:
+            count += 0
         elif match in ['\\frac', '_']:
             count -= 1
         else:
@@ -84,6 +86,7 @@ def qty(num, unit):
         return cmd('num', [num])
 
     formated_unit = re.sub(UNIT_EXP, lambda x: f'^{{{x.group(0)}}}', unit)
+    formated_unit = formated_unit.replace('\\mu', '\\micro')
 
     if not num:  # unit ony
         return cmd('unit', [formated_unit])

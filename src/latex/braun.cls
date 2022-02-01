@@ -511,6 +511,7 @@
                     \definecolor { color-2 } { HTML } { C21E56 } % RoseRed
                     \definecolor { color-3 } { HTML } { FDD166 } % PensiYellow
                     \definecolor { color-4 } { HTML } { 009F6B } % GreenNCS
+					\definecolor { color-5 } { HTML } { F5AB00 } % Darker Yellow
                     \definecolor { gray-1  } { HTML } { 727176 } 
                     \definecolor { gray-2  } { HTML } { 87868A } 
                     \definecolor { gray    } { HTML } { 87868A } 
@@ -518,10 +519,10 @@
             }
         \pgfplotscreateplotcyclelist { braun-pallet }
             {
-                { color-1 },
+                { black },
                 { color-2 },
-                { color-3 },
-                { color-4 },
+                { color-1 },
+                { color-5 },
             }
         \pgfplotsset
             {
@@ -543,7 +544,7 @@
 \pgfqkeys { /pgf/number~format }
     {
         set~thousands~separator = {},
-        set~decimal~separator = {,},
+        set~decimal~separator = {,\!},
     }
 
 \pgfplotsset
@@ -1292,7 +1293,7 @@
 % #2 -> figure path
 \cs_set:Nn \braun_include_graphics:Nn
     { 
-        \file_if_exist:nT {#2}
+        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
             { 
                 \braun_graphics_box:Nn #1 
                     { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
@@ -1752,7 +1753,7 @@
         enumerate .code:n = {
             \setlist [enumerate, 1] {#1}
         },
-        enumerate .initial:n = {},
+        enumerate .initial:n = {label = \textbf{\arabic*.}},
 
         itemize .code:n = {
             \setlist [itemize, 1] {#1}
@@ -1767,7 +1768,7 @@
 	%label  = {\textbf{\Alph*}\,(\;\;)},
     item-indent = 3em,
 	%item-indent = 4em,
-    %after-item-skip = 2\itemsep,
+    after-item-skip = 2\itemsep,
     label-width = 1.5em,
 	%label-width = 2.5em,
 	label-align = right,
@@ -1837,7 +1838,11 @@
                 \box_use_drop:N  \l__braun_problem_box
                 \skip_vertical:N \l_braun_problem_after_skip
             }
-		\bool_if:NT \l_braun_problem_fill_bool { \BraunVFill }
+		\bool_if:NT \l_braun_problem_fill_bool 
+			{
+				\skip_vertical:n {-2em} 
+				\BraunVFill 
+			}
     }
 
 \newcounter { problem_counter } [ section ]
