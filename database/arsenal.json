@@ -4781,7 +4781,839 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "problems": {
+        "Nível I": {
+          "problems": [
+            {
+              "id_": "2B01",
+              "statement": "Um sistema **A** transfere, naturalmente, uma determinada quantidade de\nenergia, na forma de calor, para um sistema **B**, que envolve\ntotalmente **A**.\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "O aumento da entropia do sistema **B** será maior que o decréscimo da\nentropia do sistema **A**.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "A entropia do Universo decrescerá.\n",
+                "A entropia do sistema **A** crescerá.\n",
+                "O aumento da entropia do sistema **B** será maior que o decréscimo da\nentropia do sistema **A**.\n",
+                "O aumento da entropia do sistema **B** será menor que o decréscimo da\nentropia do sistema **A**.\n",
+                "O aumento da entropia do sistema **B** será necessariamente igual ao\ndecréscimo da entropia do sistema **A**.\n"
+              ]
+            },
+            {
+              "id_": "2B02",
+              "statement": "O termo *seta do tempo* é usado para distinguir uma direção no tempo nos\nfenômenos naturais, ou seja, que o estado $2$ de um sistema macroscópico\nocorre após o estado $1$.\n\n**Assinale** a alternativa *correta* a respeito de um processo que\nocorre em sistema fechado.\n",
+              "solution": "",
+              "answer": [
+                "$S_2$ independe de $S_1$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$S_2$ é igual a $S_1$.\n",
+                "$S_2$ é maior que $S_1$.\n",
+                "$S_2$ é menor que $S_1$.\n",
+                "$S_2$ independe de $S_1$.\n",
+                "A relação entre $S_2$ e $S_1$ depende do caminho percorrido entre os\nestados.\n"
+              ]
+            },
+            {
+              "id_": "2B03",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\nda água quando $\\pu{100 J}$ são transferidos de forma reversível à água\na $\\pu{25 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,34 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{-0,34 J.K-1}$\n",
+                "$\\pu{-0,17 J.K-1}$\n",
+                "$\\pu{0,08 J.K-1}$\n",
+                "$\\pu{0,17 J.K-1}$\n",
+                "$\\pu{0,34 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B04",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação na entropia\nda vizinhança no congelamento do mercúrio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{44 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$T_\\text{fus}(\\ce{Hg}) = \\pu{249 \\degree C}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{fus}(\\ce{Hg}) = \\pu{2,3 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{-44 J.K-1.mol-1}$\n",
+                "$\\pu{-22 J.K-1.mol-1}$\n",
+                "$\\pu{-11 J.K-1.mol-1}$\n",
+                "$\\pu{22 J.K-1.mol-1}$\n",
+                "$\\pu{44 J.K-1.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B05",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando $\\pu{1 mol}$ de um gás ideal monoatômico é aquecido\nreversivelmente de $\\pu{300 K}$ a $\\pu{400 K}$ sob pressão constante.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{6 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{-6 J.K-1}$\n",
+                "$\\pu{-4 J.K-1}$\n",
+                "$\\pu{-2 J.K-1}$\n",
+                "$\\pu{4 J.K-1}$\n",
+                "$\\pu{6 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B06",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando um cilindro de $\\pu{20 L}$ de gás nitrogênio sob\n$\\pu{5,00 kPa}$ é aquecido reversivelmente de $\\pu{20 \\degree C}$ a\n$\\pu{400 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,7 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-N2(g)",
+                    "name": "Capacidade calorífica do \\ce{N2} (g)",
+                    "symbol": "C_P(\\ce{N2, {g}} )",
+                    "value": "29,12",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{-0,7 J.K-1}$\n",
+                "$\\pu{-0,5 J.K-1}$\n",
+                "$\\pu{0,5 J.K-1}$\n",
+                "$\\pu{0,7 J.K-1}$\n",
+                "$\\pu{0,9 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B07",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando $\\pu{1 mol}$ de nitrogênio se expande reversível e\nisotermicamente de $\\pu{22 L}$ a $\\pu{44 L}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5,7 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{-6,7 J.K-1}$\n",
+                "$\\pu{-4,7 J.K-1}$\n",
+                "$\\pu{-2,7 J.K-1}$\n",
+                "$\\pu{4,7 J.K-1}$\n",
+                "$\\pu{5,7 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B08",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando um mol de oxigênio é rapidamente comprimido de $\\pu{5 L}$\na $\\pu{1 L}$ por um pistão e, no processo, sua temperatura aumentou de\n$\\pu{20 \\degree C}$ para $\\pu{25 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-13 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-O2(g)",
+                    "name": "Capacidade calorífica do \\ce{O2} (g)",
+                    "symbol": "C_P(\\ce{O2, {g}} )",
+                    "value": "29,36",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-13,4 J.K-1}$\n",
+                "$\\pu{-13 J.K-1}$\n",
+                "$\\pu{0,4 J.K-1}$\n",
+                "$\\pu{13 J.K-1}$\n",
+                "$\\pu{13,4 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B09",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando a pressão de $\\pu{1,5 mol}$ de neônio diminui\nisotermicamente de $\\pu{15 atm}$ até $\\pu{0,5 atm}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{42 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{12 J.K-1}$\n",
+                "$\\pu{22 J.K-1}$\n",
+                "$\\pu{32 J.K-1}$\n",
+                "$\\pu{42 J.K-1}$\n",
+                "$\\pu{52 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B10",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando a pressão de $\\pu{70,9 g}$ de gás metano aumenta\nisotermicamente de $\\pu{7 kPa}$ até $\\pu{350 kPa}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{144 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{-288 J.K-1}$\n",
+                "$\\pu{-144 J.K-1}$\n",
+                "$\\pu{-72 J.K-1}$\n",
+                "$\\pu{144 J.K-1}$\n",
+                "$\\pu{288 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B11",
+              "statement": "A entalpia de fusão de uma determinada substância é $\\pu{200 kJ.kg-1}$,\ne seu ponto de fusão normal é $\\pu{27 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo sistema na fusão de $\\pu{3 kg}$ dessa substância.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-2 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-600 J.K-1}$\n",
+                "$\\pu{-2 J.K-1}$\n",
+                "$0$\n",
+                "$\\pu{2 J.K-1}$\n",
+                "$\\pu{600 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B12",
+              "statement": "A entalpia de fusão de uma determinada substância é $\\pu{6 kJ.mol-1}$, e\nseu ponto de fusão normal é $\\pu{-183 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo sistema na fusão de $\\pu{1 mol}$ dessa substância.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{67 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{-20 J.K-1.mol-1}$\n",
+                "$\\pu{-33 J.K-1.mol-1}$\n",
+                "$\\pu{50 J.K-1.mol-1}$\n",
+                "$\\pu{67 J.K-1.mol-1}$\n",
+                "$\\pu{100 J.K-1.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B13",
+              "statement": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\nmercúrio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{670 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{Hg}) = \\pu{60 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta S_\\text{vap}(\\ce{Hg}) = \\pu{90 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{-272 \\degree C}$\n",
+                "$\\pu{100 \\degree C}$\n",
+                "$\\pu{395 \\degree C}$\n",
+                "$\\pu{670 \\degree C}$\n",
+                "$\\pu{1500 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2B14",
+              "statement": "A *Regra de Trouton* estabelece que a entropia molar de vaporização de\nlíquidos em sua temperatura de ebulição é $$\n\\Delta S_\\text{vap} \\approx \\pu{10,5}\\, R = \\pu{87,2 J.K-1.mol-1}\n$$ **Assinale** a alternativa que mais se aproxima do ponto de ebulição\ndo éter metílico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{250 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{CH3OCH3}) = \\pu{21,51 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{200 K}$\n",
+                "$\\pu{225 K}$\n",
+                "$\\pu{250 K}$\n",
+                "$\\pu{275 K}$\n",
+                "$\\pu{300 K}$\n"
+              ]
+            },
+            {
+              "id_": "2B15",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entropia residual do\nmonóxido de carbono.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{11,5 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{5,76 J.K-1.mol-1}$\n",
+                "$\\pu{11,5 J.K-1.mol-1}$\n",
+                "$\\pu{17,2 J.K-1.mol-1}$\n",
+                "$\\pu{23,1 J.K-1.mol-1}$\n",
+                "$\\pu{28,8 J.K-1.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B16",
+              "statement": "Considere as moléculas:\n\n1.  $\\ce{CO2}$\n2.  $\\ce{NO}$\n3.  $\\ce{N2O}$\n4.  $\\ce{Cl2}$\n\n**Assinale** a alternativa que relaciona as moléculas com entropia\nresidual não nula.\n",
+              "solution": "",
+              "answer": "**2** e **3**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B17",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\npara a formação da amônia.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-200 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "S-H2(g)",
+                    "name": "Entropia do  \\ce{H2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{H2, {g}} )",
+                    "value": "130,68",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-N2(g)",
+                    "name": "Entropia do  \\ce{N2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{N2, {g}} )",
+                    "value": "191,61",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-NH3(g)",
+                    "name": "Entropia do  \\ce{NH3} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{NH3, {g}} )",
+                    "value": "192,45",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-400 J.K-1}$\n",
+                "$\\pu{-200 J.K-1}$\n",
+                "$\\pu{100 J.K-1}$\n",
+                "$\\pu{200 J.K-1}$\n",
+                "$\\pu{400 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B18",
+              "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\npara a decomposição do clorato de potássio formando perclorato e cloreto\nde potássio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-36,4 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "S-KClO3(s)",
+                    "name": "Entropia do  \\ce{KClO3} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{KClO3, {s}} )",
+                    "value": "143,1",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-KClO4(s)",
+                    "name": "Entropia do  \\ce{KClO4} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{KClO4, {s}} )",
+                    "value": "151",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-KCl(s)",
+                    "name": "Entropia do  \\ce{KCl} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{KCl, {s}} )",
+                    "value": "82,59",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-72,8 J.K-1}$\n",
+                "$\\pu{-36,4 J.K-1}$\n",
+                "$\\pu{-18,2 J.K-1}$\n",
+                "$\\pu{18,2 J.K-1}$\n",
+                "$\\pu{36,4 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B19",
+              "statement": "Considere os processos:\n\n1.  Cristalização de um sal.\n2.  Sublimação da naftalina.\n3.  Mistura de água e álcool.\n4.  Fusão do ferro.\n\n**Assinale** a alternativa que relaciona os processos que ocorrem com\naumento de entropia do sistema.\n",
+              "solution": "",
+              "answer": "**2**, **3** e **4**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**2** e **3**",
+                "**2** e **4**",
+                "**3** e **4**",
+                "**2**, **3** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B20",
+              "statement": "Considere as reações:\n\n1.  $\\ce{Cl2(g) + H2O(l) -> HCl(aq) + HClO(aq)}$\n2.  $\\ce{Cu3(PO4)2(s) -> 3 Cu^2+ (aq) + 2 PO4^{3-}(aq)}$\n3.  $\\ce{SO2(g) + Br2(g) + 2 H2O(l) -> H2SO4(aq) + 2 HBr(aq)}$\n4.  $\\ce{4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)}$\n\n**Assinale** a alternativa que relaciona as reações com variação\npositiva de entropia.\n",
+              "solution": "",
+              "answer": "**2** e **4**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**4**",
+                "**2** e **4**",
+                "**1**, **2** e **4**",
+                "**2**, **3** e **4**"
+              ]
+            }
+          ]
+        },
+        "Nível II": {
+          "problems": [
+            {
+              "id_": "2B21",
+              "statement": "**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "A variação de entropia é nula quando um gás ideal sofre expansão livre.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "A variação de energia interna é nula na expansão de um gás ideal a\ntemperatura constante.\n",
+                "A variação de energia interna positiva em um processo endotérmico a\nvolume constante.\n",
+                "A variação de entalpia é nula em um processo cíclico.\n",
+                "A variação de entropia é positiva em um processo endotérmico a pressão\nconstante.\n",
+                "A variação de entropia é nula quando um gás ideal sofre expansão livre.\n"
+              ]
+            },
+            {
+              "id_": "2B23",
+              "statement": "Considere as proposições:\n\n1.  A entropia do $\\ce{HBr}$ é maior que a do $\\ce{HF}$ a $\\pu{298 K}$.\n2.  A entropia da amônia é maior que a do neônio a $\\pu{298 K}$.\n3.  A entropia do ciclopentano é maior que a do pent-1-eno a\n    $\\pu{298 K}$.\n4.  A entropia do ciclobutano é maior que a do cicloexano a\n    $\\pu{298 K}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "**1**, **2** e **4**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**1** e **2**",
+                "**1** e **4**",
+                "**2** e **4**",
+                "**1**, **2** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B24",
+              "statement": "Considere os processos:\n\n1.  Conversão de grafite e diamante\n2.  Supersaturação de uma solução saturada.\n3.  Cristalização de um sólido amorfo.\n4.  Adsorção do nitrogênio em sílica.\n\n**Assinale** a alternativa que relaciona os processos que ocorrem com\ndiminuição de entropia do sistema.\n",
+              "solution": "",
+              "answer": "**1**, **3** e **4**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**1** e **3**",
+                "**1** e **4**",
+                "**3** e **4**",
+                "**1**, **3** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B22",
+              "statement": "Um recipiente de paredes adiabáticas contém duas amostras de água pura\nseparadas por uma parede também adiabática e de volume desprezível. Uma\ndas amostras consiste em $\\pu{54 g}$ de água a $\\pu{25 \\degree C}$ e, a\noutra, em $\\pu{126 g}$ a $\\pu{75 \\degree C}$. A parede que separa as\namostras é retirada e que as amostras de água se misturam até atingir o\nequilíbrio.\n\nConsidere as proposições:\n\n1.  A temperatura da mistura no equilíbrio é de $\\pu{323 K}$.\n2.  A variação de entalpia no processo é nula.\n3.  A variação de energia interna no processo é nula.\n4.  A variação de entropia no processo é nula.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "**2** e **3**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B25",
+              "statement": "Considere as proposições:\n\n1.  A variação da entropia independe da quantidade de gás presente no\n    sistema.\n2.  Se a transformação é isotérmica, a variação da entropia é dada por:\n    $$\n        \\Delta S = -nR\\ln\\left(\\frac{P_2}{P_1}\\right)\n        $$\n3.  Se a transformação é isobárica, a variação de entropia é dada por:\n    $$\n        \\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)\n        $$\n4.  Se o sistema realiza um processo cíclico, a variação de entropia é\n    positiva.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "**3**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**1** e **3**",
+                "**2** e **3**",
+                "**3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B27",
+              "statement": "Um bloco de gelo a $\\pu{0 \\degree C}$ é colocado em contato com um\nrecipiente fechado que contém vapor de água a $\\pu{100 \\degree C}$ e\n$\\pu{1 atm}$. Após algum tempo, separa-se o bloco de gelo do recipiente\nfechado. Nesse instante $\\pu{25 g}$ de gelo foram convertidos em água\nlíquida a $\\pu{0 \\degree C}$ e que no recipiente fechado existe água\nlíquida e vapor em equilíbrio.\n\n**Determine** a variação de entropia do bloco de gelo.\n",
+              "solution": "$\\pu{8,1 J.K-1}$\n",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B29",
+              "statement": "Moléculas diatômicas idênticas, na forma de um sólido cristalino, podem\nser modeladas como um conjunto de osciladores.\n\n![Figura](2B29-1P.svg)\n\n1.  À temperatura de $0 K$ a maioria dos osciladores estará no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n2.  À temperatura de $0 K$ todos os osciladores estarão no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n3.  O movimento vibracional cessa a $0 K$.\n4.  O princípio da incerteza de Heisenberg será violado se o movimento\n    vibracional cessar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": "**2** e **4**",
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**4**",
+                "**2** e **4**",
+                "**1**, **2** e **4**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2B30",
+              "statement": "Considere a vaporização de $\\pu{1 mol}$ de água a $\\pu{85 \\degree C}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{111 J.K-1.mol-1}$\n",
+                "$\\pu{115 J.K-1.mol-1}$\n",
+                "$\\pu{-4 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$S_\\text{vap}(\\ce{H2O}) = \\pu{40,6 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-H2O(g)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (g)",
+                    "symbol": "C_P(\\ce{H2O, {g}} )",
+                    "value": "33,58",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,29",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B26",
+              "statement": "Um motor de $\\pu{3 L}$ contendo gás nitrogênio a $\\pu{18,5 \\degree C}$\nfoi comprimido rapidamente até $\\pu{500 mL}$ por um pistão. A\ntemperatura do gás aumentou para $\\pu{28,1 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{14,3 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{-14,3 J.K-1}$\n",
+                "$\\pu{-7,1 J.K-1}$\n",
+                "$0$\n",
+                "$\\pu{7,1 J.K-1}$\n",
+                "$\\pu{14,3 J.K-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B31",
+              "statement": "Considere a vaporização de $\\pu{1 mol}$ de acetona a $\\pu{296 K}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{98,3 J.K-1.mol-1}$\n",
+                "$\\pu{108 J.K-1.mol-1}$\n",
+                "$\\pu{-10,4 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$C_P(\\text{acetona, l}) = \\pu{127 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$T_\\text{eb}(\\text{acetona}) = \\pu{329 K}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\text{acetona}) = \\pu{29,1 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B28",
+              "statement": "Um dispositivo utiliza radiação solar para quantificar variações em\npropriedades termodinâmicas. Este dispositivo é composto por uma lente\nconvergente e por um porta-amostras. A lente possui área útil de\n$\\pu{80 cm2}$, absortividade, $\\alpha = 20\\%$ e transmissividade,\n$\\tau = 80\\%$. O porta-amostras possui absortividade de $100\\%$ e volume\nvariável, operando à pressão constante de $\\pu{1 atm}$.\n\nEm um procedimento experimental, injetou-se $\\pu{0,1 mol}$ de uma\nsubstância pura líquida no porta-amostras do dispositivo. Em seguida,\nmediu-se um tempo de $\\pu{15,0 min}$. para a vaporização total da\namostra, durante o qual a irradiação solar permaneceu constante e igual\na $\\pu{750 W.m2}$. Nesse processo, a temperatura do porta-amostras\nestabilizou-se em $\\pu{351 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\nmolar de vaporização do líquido.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{123 J.mol-1K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{2,3 J.mol-1K-1}$\n",
+                "$\\pu{15,4 J.mol-1K-1}$\n",
+                "$\\pu{123 J.mol-1K-1}$\n",
+                "$\\pu{154 J.mol-1K-1}$\n",
+                "$\\pu{90,0 J.mol-1K-1}$\n"
+              ]
+            }
+          ]
+        }
+      },
       "subtopics": [
         {
           "id_": "2B.1",
