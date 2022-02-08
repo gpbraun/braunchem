@@ -36,7 +36,7 @@ def html2md(content):
     return convert_text(
         content, 'md',
         format='html+tex_math_dollars+raw_tex'
-    )
+    ).replace('\t', '')
 
 
 def soup_split(soup, tag):

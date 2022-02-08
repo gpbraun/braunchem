@@ -1978,6 +1978,8 @@
         graphics / width = \linewidth,
         graphics / height = 5cm,
         lists / itemize = {label = {\alph*)}},
+		problems / breakable = true,
+		problems / vfill = false,
     }
 
 %============================================================%

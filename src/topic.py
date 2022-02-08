@@ -36,13 +36,14 @@ class Topic:
     author: str = 'Gabriel Braun'
     affiliation: str = 'Colégio e Curso Pensi, Coordenação de Química'
     template: str = 'braun, twocolumn'
-    problems: dict = Factory(dict)
+    contents: str = ''
     subtopics: list = Factory(list)
+    problems: list = Factory(list)
 
     def tex_data(self):
-        constants = sum([p.tex_constants() for _, p in self.problems.items()])
+        constants = sum([p.tex_constants() for p in self.problems])
         elements = []
-        for _, p in self.problems.items():
+        for p in self.problems:
             if p.elements():
                 elements += p.elements()
 
@@ -68,7 +69,7 @@ class Topic:
 
         if len(self.problems) == 1:
             # se há apenas um problemset, não coloca título
-            pset = next(iter(self.problems.values()))
+            pset = self.problems[0]
             problem_num = len(pset)
             if not problem_num:
                 return ''
@@ -78,16 +79,16 @@ class Topic:
                 points=points, print_solutions=print_solutions
             )
 
-        problem_num = sum([len(pset) for _, pset in self.problems.items()])
+        problem_num = sum([len(pset) for pset in self.problems])
         if not problem_num:
             return ''
 
         points = 10/problem_num
         statements = ''
         newpage = False
-        for title, pset in self.problems.items():
+        for pset in self.problems:
             statements += pset.tex_statements(
-                            title, problem_num, print_solutions,
+                            pset.title, problem_num, print_solutions,
                             newpage=newpage
                         )
             newpage = True
@@ -99,12 +100,11 @@ class Topic:
         header = latex.section('Gabarito', level=0, newpage=True)
         if len(self.problems) == 1:
             # se há apenas um problemset, não coloca título
-            pset = next(iter(self.problems.values()))
+            pset = self.problems[0]
             return header + pset.tex_answers()
 
         answers = ''.join([
-            pset.tex_answers(title)
-            for title, pset in self.problems.items()
+            pset.tex_answers(pset.title) for pset in self.problems
         ])
         return header + latex.cmd('small') + answers
 
@@ -157,6 +157,14 @@ def links2topic(cur, id_, problem_links, **kwargs):
     return Topic(id_, problems=problems, **kwargs)
 
 
+# html = u""
+# for tag in soup.find("div", { "class" : "lead" }).next_siblings:
+#     if soup.find("div", { "class" : "image" }) == tag:
+#         break
+#     else:
+#         html += unicode(tag)
+# print html
+
 def file2topic(args):
     path, problemset = args
     kwargs = {}
@@ -166,6 +174,7 @@ def file2topic(args):
     kwargs['area'] = path.parent.stem
 
     tfile = load(path)
+    kwargs['contents'] = tfile.content
     soup = convert.md2soup(tfile.content)
 
     for p in ['title', 'author', 'affiliation', 'template']:
@@ -173,10 +182,12 @@ def file2topic(args):
             kwargs[p] = tfile[p]
 
     if 'problems' in tfile:
-        kwargs['problems'] = {
-            t: problemset.filter('id_', ids)
-            for t, ids in tfile['problems'].items()
-        }
+        kwargs['problems'] = [
+            problemset.filter(
+                'id_', ids, title=t, id_=f'{id_}{i}'
+            )
+            for i, (t, ids) in enumerate(tfile['problems'].items())
+        ]
 
     # get subtopics items and abilities from HTML tags
     all_subtopics = soup.find_all('h1')

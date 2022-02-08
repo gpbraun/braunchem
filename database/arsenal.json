@@ -7,7 +7,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Ligação Iônica\n\n1. Íons formados por elementos.\n2. Energia da ligação iônica.\n3. Polarizabilidade e Poder Polarizante.\n\n### Habilidades\n\n- **Ordenar** átomos em função de seu raio.\n- **Explicar** a origem do Efeito de Contração do Bloco $d$.\n- **Explicar** a origem do Efeito de Contração dos Lantanídeos.\n\n# Ligação Covalente\n\n1. Íons formados por elementos.\n2. Energia da ligação iônica.\n\n### Habilidades\n\n- Habilidade\n\n# Estruturas de Lewis\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Ressonância\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Moléculas Diatômicas\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Carga Formal\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "1E.1",
@@ -74,7 +74,8 @@
             "Habilidade\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "1C",
@@ -83,14 +84,134 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {
-        "Nível I": {
+      "contents": "# Raio Atômico\n\n1. Raio covalente.\n2. Raio de van der Waals.\n3. Tendência no raio atômico.\n4. Contração do Bloco $d$.\n5. Contração dos Lantanídeos.\n\n### Habilidades\n\n- **Ordenar** átomos em função de seu raio.\n- **Explicar** a origem do efeito de Contração do Bloco $d$.\n- **Explicar** a origem do efeito de Contração dos Lantanídeos.\n\n# Raio Iônico\n\n1. Tendência no raio de cátions e ânions.\n2. Raio de espécies isoeletrônicas.\n\n### Habilidades\n\n- **Ordenar** átomos e íons em função de seu raio.\n\n# Energia de Ionização\n\n1. Tendência da primeira energia de ionização.\n2. $n$-ésima energia de ionização.\n3. Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e $\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n4. Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$; $\\ce{S}$ e $\\ce{P}$).\n6. Teoria do Mar de Elétrons.\n7. Condutores e isolantes.\n\n### Habilidades\n\n- **Ordenar** átomos em função de sua primeira energia de ionização.\n- **Explicar** a origem de anomalias na energia de ionização.\n- **Determinar** o número de elétrons na camada de valência de uma espécie com base em suas energias de ionização.\n\n# Afinidade Eletrônica\n\n1. Tendência da afinidade eletrônica.\n2. Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n3. Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e $\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n4. Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$). \n\n### Habilidades\n\n- **Ordenar** átomos em função de sua afinidade eletrônica.\n- **Explicar** a origem de anomalias na afinidade eletrônica.\n\n# Eletronegatividade\n\n1. Escala de Eletronegatividade de Mulliken: $ \\chi = \\frac{1}{2}(EI+AE) $\n2. Tendências na eletronegatividade.\n3. Eletronegatividade de orbitais.\n4. Polarizabilidade.\n\n### Habilidades\n\n- **Ordenar** átomos em função de sua eletronegatividade e polarizabilidade.\n- **Ordenar** orbitais em função de sua eletronegatividade e polarizabilidade.\n\n# Número de Oxidação \n\n1. Tendência no número de oxidação.\n2. Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$; $\\ce{Pb}$; $\\ce{Bi}$).\n\n### Habilidades\n\n- **Explicar** a origem do Efeito do Par-Inerte.\n\n# Relações Diagonais\n\n1. Origem das Relações Diagonais. \n2. Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$; $\\ce{B}$ e $\\ce{Si}$).\n3. Relações \"Movimento do Cavalo\" ($\\ce{Zn^{2+}}$ e $\\ce{Sn^{2+}}$; $\\ce{Sn^{4+}}$ e $\\ce{Po^{4+}}$; $\\ce{K^+}$, $\\ce{Ag^+}$ e $\\ce{Tl^+}$).\n\n### Habilidades\n\n- **Explicar** a origem das Relações Diagonais.\n\n# Propriedades Físicas dos Elementos\n\n1. Propriedades físicas dos metais e ametais.\n    | Metais | Ametais |\n    | -- | -- |\n    | condutores elétricos | isolantes elétricos |\n    | condutores térmicos | isolantes térmicos |\n    | maleáveis | não maleáveis |\n    | dúcteis | não dúcteis | \n    | lustrosos | não lustrosos |\n    | sólidos | sólidos, líquidos e gases |\n\n### Habilidades\n\n- **Comparar** propriedades físicas de elementos em função de sua posição na tabela periódica.\n\n# Propriedades Químicas dos Elementos\n\n1. Propriedades químicas dos metais e ametais.\n    | Metais | Ametais |\n    | -- | -- |\n    | reagem com ácidos | não reagem com ácidos |\n    | formam óxidos básicos | formam óxidos ácidos |\n    | formam cátions | formam ânions |\n    | formam haletos iônicos | formam haletos covalentes | \n\n### Habilidades\n\n- **Comparar** propriedades químicas de elementos em função de sua posição na tabela periódica.",
+      "subtopics": [
+        {
+          "id_": "1C.1",
+          "title": "Raio Atômico",
+          "items": [
+            "Raio covalente.\n",
+            "Raio de van der Waals.\n",
+            "Tendência no raio atômico.\n",
+            "Contração do Bloco $d$.\n",
+            "Contração dos Lantanídeos.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de seu raio.\n",
+            "**Explicar** a origem do efeito de Contração do Bloco $d$.\n",
+            "**Explicar** a origem do efeito de Contração dos Lantanídeos.\n"
+          ]
+        },
+        {
+          "id_": "1C.2",
+          "title": "Raio Iônico",
+          "items": [
+            "Tendência no raio de cátions e ânions.\n",
+            "Raio de espécies isoeletrônicas.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos e íons em função de seu raio.\n"
+          ]
+        },
+        {
+          "id_": "1C.3",
+          "title": "Energia de Ionização",
+          "items": [
+            "Tendência da primeira energia de ionização.\n",
+            "$n$-ésima energia de ionização.\n",
+            "Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e\n$\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n",
+            "Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$;\n$\\ce{S}$ e $\\ce{P}$).\n",
+            "Teoria do Mar de Elétrons.\n",
+            "Condutores e isolantes.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de sua primeira energia de ionização.\n",
+            "**Explicar** a origem de anomalias na energia de ionização.\n",
+            "**Determinar** o número de elétrons na camada de valência de uma espécie\ncom base em suas energias de ionização.\n"
+          ]
+        },
+        {
+          "id_": "1C.4",
+          "title": "Afinidade Eletrônica",
+          "items": [
+            "Tendência da afinidade eletrônica.\n",
+            "Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n",
+            "Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e\n$\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n",
+            "Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$).\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de sua afinidade eletrônica.\n",
+            "**Explicar** a origem de anomalias na afinidade eletrônica.\n"
+          ]
+        },
+        {
+          "id_": "1C.5",
+          "title": "Eletronegatividade",
+          "items": [
+            "Escala de Eletronegatividade de Mulliken: \\$ \\\\chi = \\\\frac{1}{2}(EI+AE)\n\\$\n",
+            "Tendências na eletronegatividade.\n",
+            "Eletronegatividade de orbitais.\n",
+            "Polarizabilidade.\n"
+          ],
+          "abilities": [
+            "**Ordenar** átomos em função de sua eletronegatividade e\npolarizabilidade.\n",
+            "**Ordenar** orbitais em função de sua eletronegatividade e\npolarizabilidade.\n"
+          ]
+        },
+        {
+          "id_": "1C.6",
+          "title": "Número de Oxidação",
+          "items": [
+            "Tendência no número de oxidação.\n",
+            "Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$;\n$\\ce{Pb}$; $\\ce{Bi}$).\n"
+          ],
+          "abilities": [
+            "**Explicar** a origem do Efeito do Par-Inerte.\n"
+          ]
+        },
+        {
+          "id_": "1C.7",
+          "title": "Relações Diagonais",
+          "items": [
+            "Origem das Relações Diagonais.\n",
+            "Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$;\n$\\ce{B}$ e $\\ce{Si}$).\n",
+            "Relações \\\"Movimento do Cavalo\\\" ($\\ce{Zn^{2+}}$ e $\\ce{Sn^{2+}}$;\n$\\ce{Sn^{4+}}$ e $\\ce{Po^{4+}}$; $\\ce{K^+}$, $\\ce{Ag^+}$ e $\\ce{Tl^+}$).\n"
+          ],
+          "abilities": [
+            "**Explicar** a origem das Relações Diagonais.\n"
+          ]
+        },
+        {
+          "id_": "1C.8",
+          "title": "Propriedades Físicas dos Elementos",
+          "items": [
+            "Propriedades físicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| condutores elétricos \\| isolantes elétricos \\| \\|\ncondutores térmicos \\| isolantes térmicos \\| \\| maleáveis \\| não\nmaleáveis \\| \\| dúcteis \\| não dúcteis \\| \\| lustrosos \\| não lustrosos\n\\| \\| sólidos \\| sólidos, líquidos e gases \\|\n"
+          ],
+          "abilities": [
+            "**Comparar** propriedades físicas de elementos em função de sua posição\nna tabela periódica.\n"
+          ]
+        },
+        {
+          "id_": "1C.9",
+          "title": "Propriedades Químicas dos Elementos",
+          "items": [
+            "Propriedades químicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| reagem com ácidos \\| não reagem com ácidos \\| \\| formam\nóxidos básicos \\| formam óxidos ácidos \\| \\| formam cátions \\| formam\nânions \\| \\| formam haletos iônicos \\| formam haletos covalentes \\|\n"
+          ],
+          "abilities": [
+            "**Comparar** propriedades químicas de elementos em função de sua posição\nna tabela periódica.\n"
+          ]
+        }
+      ],
+      "problems": [
+        {
           "problems": [
             {
               "id_": "1C01",
               "statement": "Considere as ordenações de raio atômico.\n\n1.  $\\ce{Si} > \\ce{S} > \\ce{Cl}$\n2.  $\\ce{Ti} > \\ce{Cr} > \\ce{Co}$\n3.  $\\ce{Hg} > \\ce{Cd} > \\ce{Zn}$\n4.  $\\ce{Bi} > \\ce{Sb} > \\ce{P}$\n\n**Assinale** a alternativa que relaciona as ordenações *corretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -111,7 +232,9 @@
               "id_": "1C02",
               "statement": "Considere as ordenações de raio atômico.\n\n1.  $\\ce{Cl} > \\ce{Br} > \\ce{I}$\n2.  $\\ce{Ga} > \\ce{As} > \\ce{Se}$\n3.  $\\ce{K} > \\ce{Ca} > \\ce{Zn}$\n4.  $\\ce{Ba} > \\ce{Sr} > \\ce{Ca}$\n\n**Assinale** a alternativa que relaciona as ordenações *corretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -450,9 +573,11 @@
                 "$\\ce{F2, Al, B, N2, Na}$\n"
               ]
             }
-          ]
+          ],
+          "id_": "1C0",
+          "title": "Nível I"
         },
-        "Nível II": {
+        {
           "problems": [
             {
               "id_": "1C17",
@@ -772,7 +897,9 @@
               "id_": "1C30",
               "statement": "Considere as proposições\n\n1.  O índio é um mau condutor de eletricidade.\n2.  O raio atômico do índio é maior que o do estanho.\n3.  A densidade do índio é menor que a do paládio.\n4.  O ponto de fusão do índio é maior que o do gálio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -793,7 +920,9 @@
               "id_": "1C31",
               "statement": "Considere as afirmações a seguir, todas relacionadas a átomos e íons no\nestado gasoso:\n\n1.  A energia do íon $\\ce{Be^2+}$, no seu estado fundamental, é igual à\n    energia do átomo de $\\ce{He}$ neutro no seu estado fundamental.\n2.  A segunda energia de ionização do átomo de $\\ce{He}$ neutro, é igual\n    à afinidade eletrônica do íon $\\ce{He^2+}$.\n3.  O primeiro estado excitado do átomo de $\\ce{He}$ neutro tem a mesma\n    configuração eletrônica do primeiro estado excitado do íon\n    $\\ce{Be^2+}$.\n4.  A primeira energia de ionização de íon $\\ce{H-}$ é menor do que a\n    primeira energia de ionização do átomo de $\\ce{H}$ neutro.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -833,9 +962,11 @@
                 "$5$ pode representar a energia equivalente a uma excitação eletrônica do\nátomo neutro ($\\ce{A}$).\n"
               ]
             }
-          ]
+          ],
+          "id_": "1C1",
+          "title": "Nível II"
         },
-        "Nível III": {
+        {
           "problems": [
             {
               "id_": "1C33",
@@ -912,124 +1043,9 @@
               "obj": -1,
               "choices": []
             }
-          ]
-        }
-      },
-      "subtopics": [
-        {
-          "id_": "1C.1",
-          "title": "Raio Atômico",
-          "items": [
-            "Raio covalente.\n",
-            "Raio de van der Waals.\n",
-            "Tendência no raio atômico.\n",
-            "Contração do Bloco $d$.\n",
-            "Contração dos Lantanídeos.\n"
           ],
-          "abilities": [
-            "**Ordenar** átomos em função de seu raio.\n",
-            "**Explicar** a origem do efeito de Contração do Bloco $d$.\n",
-            "**Explicar** a origem do efeito de Contração dos Lantanídeos.\n"
-          ]
-        },
-        {
-          "id_": "1C.2",
-          "title": "Raio Iônico",
-          "items": [
-            "Tendência no raio de cátions e ânions.\n",
-            "Raio de espécies isoeletrônicas.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos e íons em função de seu raio.\n"
-          ]
-        },
-        {
-          "id_": "1C.3",
-          "title": "Energia de Ionização",
-          "items": [
-            "Tendência da primeira energia de ionização.\n",
-            "$n$-ésima energia de ionização.\n",
-            "Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e\n$\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n",
-            "Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$;\n$\\ce{S}$ e $\\ce{P}$).\n",
-            "Teoria do Mar de Elétrons.\n",
-            "Condutores e isolantes.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de sua primeira energia de ionização.\n",
-            "**Explicar** a origem de anomalias na energia de ionização.\n",
-            "**Determinar** o número de elétrons na camada de valência de uma espécie\ncom base em suas energias de ionização.\n"
-          ]
-        },
-        {
-          "id_": "1C.4",
-          "title": "Afinidade Eletrônica",
-          "items": [
-            "Tendência da afinidade eletrônica.\n",
-            "Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n",
-            "Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e\n$\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n",
-            "Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$).\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de sua afinidade eletrônica.\n",
-            "**Explicar** a origem de anomalias na afinidade eletrônica.\n"
-          ]
-        },
-        {
-          "id_": "1C.5",
-          "title": "Eletronegatividade",
-          "items": [
-            "Escala de Eletronegatividade de Mulliken: \\$ \\\\chi = \\\\frac{1}{2}(EI+AE)\n\\$\n",
-            "Tendências na eletronegatividade.\n",
-            "Eletronegatividade de orbitais.\n",
-            "Polarizabilidade.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de sua eletronegatividade e\npolarizabilidade.\n",
-            "**Ordenar** orbitais em função de sua eletronegatividade e\npolarizabilidade.\n"
-          ]
-        },
-        {
-          "id_": "1C.6",
-          "title": "Número de Oxidação",
-          "items": [
-            "Tendência no número de oxidação.\n",
-            "Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$;\n$\\ce{Pb}$; $\\ce{Bi}$).\n"
-          ],
-          "abilities": [
-            "**Explicar** a origem do Efeito do Par-Inerte.\n"
-          ]
-        },
-        {
-          "id_": "1C.7",
-          "title": "Relações Diagonais",
-          "items": [
-            "Origem das Relações Diagonais.\n",
-            "Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$;\n$\\ce{B}$ e $\\ce{Si}$).\n",
-            "Relações \\\"Movimento do Cavalo\\\" ($\\ce{Zn^{2+}}$ e $\\ce{Sn^{2+}}$;\n$\\ce{Sn^{4+}}$ e $\\ce{Po^{4+}}$; $\\ce{K^+}$, $\\ce{Ag^+}$ e $\\ce{Tl^+}$).\n"
-          ],
-          "abilities": [
-            "**Explicar** a origem das Relações Diagonais.\n"
-          ]
-        },
-        {
-          "id_": "1C.8",
-          "title": "Propriedades Físicas dos Elementos",
-          "items": [
-            "Propriedades físicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| condutores elétricos \\| isolantes elétricos \\| \\|\ncondutores térmicos \\| isolantes térmicos \\| \\| maleáveis \\| não\nmaleáveis \\| \\| dúcteis \\| não dúcteis \\| \\| lustrosos \\| não lustrosos\n\\| \\| sólidos \\| sólidos, líquidos e gases \\|\n"
-          ],
-          "abilities": [
-            "**Comparar** propriedades físicas de elementos em função de sua posição\nna tabela periódica.\n"
-          ]
-        },
-        {
-          "id_": "1C.9",
-          "title": "Propriedades Químicas dos Elementos",
-          "items": [
-            "Propriedades químicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| reagem com ácidos \\| não reagem com ácidos \\| \\| formam\nóxidos básicos \\| formam óxidos ácidos \\| \\| formam cátions \\| formam\nânions \\| \\| formam haletos iônicos \\| formam haletos covalentes \\|\n"
-          ],
-          "abilities": [
-            "**Comparar** propriedades químicas de elementos em função de sua posição\nna tabela periódica.\n"
-          ]
+          "id_": "1C2",
+          "title": "Nível III"
         }
       ]
     },
@@ -1040,8 +1056,105 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {
-        "Nível I": {
+      "contents": "# Função de Onda e Orbitais Atômicos\n\n1. Interpretação de Born — A densidade de probabilidade de encontrar um elétron é proporcional a $\\psi^2$.\n\n### Habilidades\n\n- Habilidade\n\n# Números Quânticos, Níveis e Subníveis\n\n1. Número quântico principal, $n$, tamanho e energia dos orbitais.\n2. Número quântico secundário, $l$ e o formato dos orbitais.\n3. Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n\n### Habilidades\n\n- **Identificar** um orbital dado um conjunto de números quânticos.\n- **Identificar** um conjunto de números quânticos inexistente.\n\n# *Spin* Eletrônico\n\n1. Experimento de Stern-Gerlach.\n2. Número quântico de spin, $m_s=\\pm 1/2$.\n\n### Habilidades\n\n- [Inventar questão]\n\n# Forma dos Orbitais\n\n1. Superfícies nodais angulares e radiais.\n2. Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n3. Influência da carga nuclear na função de onda.\n\n### Habilidades\n\n- **Calcular** o número de nodos radiais e angulares de um orbital.\n- **Comparar** orbitais atômicos com base em sua função de onda.\n\n# Energias dos Orbitais\n\n1. Blindagem.\n2. Carga nuclear efetiva,  $Z_\\text{eff}$.\n3. Grau de penetrabilidade.\n\n### Habilidades\n\n- **Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n- **Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n\n# Princípio de Construção\n\n1. Princípio da Exclusão de Pauli.\n2. Regra de Hund.\n3. Diagrama de construção.\n4. Configurações eletrônicas anômalas tipo $s^1 d^5$ ($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$ ($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$). \n5. Configurações eletrônicas anômalas tipo $s^2 d^1$ ($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$ ($\\mathrm{Gd}, \\mathrm{Cm}$). \n6. Camada de valência.\n7. Relação com a tabela periódica.\n\n### Habilidades\n\n- **Determinar** a configuração eletrônica para átomos em seu estado fundamental.\n- **Determinar** a configuração eletrônica para íons em seu estado fundamental.\n- **Determinar** se uma dada configuração eletrônica representa um estado fundamental ou excitado.\n- **Explicar** a origem de anomalias na configuração eletrônica.\n\n# A Tabela Periódica\n\n1. Número atômico e número de Massa.\n2. Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n3. Grupos e famílias.\n4. Períodos.\n5. Blocos.\n6. Metais, ametais e semi-metais.\n\n### Habilidades\n\n- **Determinar** a posição de um átomo na Tabela Periódica dada sua configuração eletrônica.",
+      "subtopics": [
+        {
+          "id_": "1B.1",
+          "title": "Função de Onda e Orbitais Atômicos",
+          "items": [
+            "Interpretação de Born --- A densidade de probabilidade de encontrar um\nelétron é proporcional a $\\psi^2$.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id_": "1B.2",
+          "title": "Números Quânticos, Níveis e Subníveis",
+          "items": [
+            "Número quântico principal, $n$, tamanho e energia dos orbitais.\n",
+            "Número quântico secundário, $l$ e o formato dos orbitais.\n",
+            "Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n"
+          ],
+          "abilities": [
+            "**Identificar** um orbital dado um conjunto de números quânticos.\n",
+            "**Identificar** um conjunto de números quânticos inexistente.\n"
+          ]
+        },
+        {
+          "id_": "1B.3",
+          "title": "Spin Eletrônico",
+          "items": [
+            "Experimento de Stern-Gerlach.\n",
+            "Número quântico de spin, $m_s=\\pm 1/2$.\n"
+          ],
+          "abilities": [
+            "\\[Inventar questão\\]\n"
+          ]
+        },
+        {
+          "id_": "1B.4",
+          "title": "Forma dos Orbitais",
+          "items": [
+            "Superfícies nodais angulares e radiais.\n",
+            "Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n",
+            "Influência da carga nuclear na função de onda.\n"
+          ],
+          "abilities": [
+            "**Calcular** o número de nodos radiais e angulares de um orbital.\n",
+            "**Comparar** orbitais atômicos com base em sua função de onda.\n"
+          ]
+        },
+        {
+          "id_": "1B.5",
+          "title": "Energias dos Orbitais",
+          "items": [
+            "Blindagem.\n",
+            "Carga nuclear efetiva, $Z_\\text{eff}$.\n",
+            "Grau de penetrabilidade.\n"
+          ],
+          "abilities": [
+            "**Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n",
+            "**Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n"
+          ]
+        },
+        {
+          "id_": "1B.6",
+          "title": "Princípio de Construção",
+          "items": [
+            "Princípio da Exclusão de Pauli.\n",
+            "Regra de Hund.\n",
+            "Diagrama de construção.\n",
+            "Configurações eletrônicas anômalas tipo $s^1 d^5$\n($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$\n($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$).\n",
+            "Configurações eletrônicas anômalas tipo $s^2 d^1$\n($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$\n($\\mathrm{Gd}, \\mathrm{Cm}$).\n",
+            "Camada de valência.\n",
+            "Relação com a tabela periódica.\n"
+          ],
+          "abilities": [
+            "**Determinar** a configuração eletrônica para átomos em seu estado\nfundamental.\n",
+            "**Determinar** a configuração eletrônica para íons em seu estado\nfundamental.\n",
+            "**Determinar** se uma dada configuração eletrônica representa um estado\nfundamental ou excitado.\n",
+            "**Explicar** a origem de anomalias na configuração eletrônica.\n"
+          ]
+        },
+        {
+          "id_": "1B.7",
+          "title": "A Tabela Periódica",
+          "items": [
+            "Número atômico e número de Massa.\n",
+            "Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n",
+            "Grupos e famílias.\n",
+            "Períodos.\n",
+            "Blocos.\n",
+            "Metais, ametais e semi-metais.\n"
+          ],
+          "abilities": [
+            "**Determinar** a posição de um átomo na Tabela Periódica dada sua\nconfiguração eletrônica.\n"
+          ]
+        }
+      ],
+      "problems": [
+        {
           "problems": [
             {
               "id_": "1B03",
@@ -1254,7 +1367,9 @@
               "id_": "1B11",
               "statement": "1.  A carga nuclear efetiva independe do número de elétrons presentes em\n    um átomo.\n2.  Os elétrons de um orbital $s$ blindam mais efetivamente da carga do\n    núcleo que os elétrons de outros orbitais devido à maior\n    penetrabilidade dos orbitais $s$.\n3.  Elétrons com $l=2$ blindam mais efetivamente que elétrons com $l=1$.\n4.  A carga nuclear efetiva de um elétron em um orbital $p$ é menor que\n    a de um elétron em um orbital $s$ da mesma camada.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
               "solution": "",
-              "answer": "**2** e **4**",
+              "answer": [
+                "**2** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -1275,7 +1390,9 @@
               "id_": "1B12",
               "statement": "1.  A $Z_\\text{eff}$ de um elétron em um orbital $1$s é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2s$.\n2.  A $Z_\\text{eff}$ de um elétron em um orbital $2s$ é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2p$.\n3.  Um elétron em um orbital $2s$ tem a mesma energia que um elétron no\n    orbital $2p$.\n4.  Os elétrons nos orbitais $2p$ têm números quânticos $ms$ com *spins*\n    de sinais contrários.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -1614,9 +1731,11 @@
                 "$21$\n"
               ]
             }
-          ]
+          ],
+          "id_": "1B0",
+          "title": "Nível I"
         },
-        "Nível II": {
+        {
           "problems": [
             {
               "id_": "1B01",
@@ -1710,7 +1829,9 @@
               "id_": "1B17",
               "statement": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n1.  $1s^2 2s^2 2p^1$\n2.  $1s^2 2s^2 2p^3$\n3.  $1s^2 2s^2 2p^4$\n4.  $1s^2 2s^2 2p^5$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
               "solution": "",
-              "answer": "**1** e **3**",
+              "answer": [
+                "**1** e **3**"
+              ],
               "constants": {
                 "data": []
               },
@@ -1731,7 +1852,9 @@
               "id_": "1B29",
               "statement": "Considere as seguintes afirmações:\n\n1.  O nível de energia de um átomo, cujo número quântico principal é\n    igual a $4$, pode ter, no máximo, $32$ elétrons.\n2.  A configuração eletrônica $1s^2 2s^2 2p^2_x 2p^2_y$ representa um\n    estado excitado do átomo de oxigênio.\n3.  O estado fundamental do átomo de fósforo contém três elétrons\n    desemparelhados.\n4.  A energia necessária para excitar um elétron do estado fundamental\n    do átomo de hidrogênio para o orbital $3s$ é igual àquela necessária\n    para excitar este mesmo elétron para o orbital $3d$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -1775,7 +1898,9 @@
               "id_": "1B13",
               "statement": "1.  $|E_{2s}| = |E_{2p}|$ para átomo de hidrogênio.\n2.  $|E_{2s}| = |E_{2p}|$ para o íon de hélio carregado com uma carga\n    positiva.\n3.  $|E_{2s}| > |E_{2p}|$ para o átomo de hélio.\n4.  $|E_{2s}| > |E_{2p}|$ para o ânion de hélio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -2062,103 +2187,9 @@
               "obj": -1,
               "choices": []
             }
-          ]
-        }
-      },
-      "subtopics": [
-        {
-          "id_": "1B.1",
-          "title": "Função de Onda e Orbitais Atômicos",
-          "items": [
-            "Interpretação de Born --- A densidade de probabilidade de encontrar um\nelétron é proporcional a $\\psi^2$.\n"
           ],
-          "abilities": [
-            "Habilidade\n"
-          ]
-        },
-        {
-          "id_": "1B.2",
-          "title": "Números Quânticos, Níveis e Subníveis",
-          "items": [
-            "Número quântico principal, $n$, tamanho e energia dos orbitais.\n",
-            "Número quântico secundário, $l$ e o formato dos orbitais.\n",
-            "Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n"
-          ],
-          "abilities": [
-            "**Identificar** um orbital dado um conjunto de números quânticos.\n",
-            "**Identificar** um conjunto de números quânticos inexistente.\n"
-          ]
-        },
-        {
-          "id_": "1B.3",
-          "title": "Spin Eletrônico",
-          "items": [
-            "Experimento de Stern-Gerlach.\n",
-            "Número quântico de spin, $m_s=\\pm 1/2$.\n"
-          ],
-          "abilities": [
-            "\\[Inventar questão\\]\n"
-          ]
-        },
-        {
-          "id_": "1B.4",
-          "title": "Forma dos Orbitais",
-          "items": [
-            "Superfícies nodais angulares e radiais.\n",
-            "Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n",
-            "Influência da carga nuclear na função de onda.\n"
-          ],
-          "abilities": [
-            "**Calcular** o número de nodos radiais e angulares de um orbital.\n",
-            "**Comparar** orbitais atômicos com base em sua função de onda.\n"
-          ]
-        },
-        {
-          "id_": "1B.5",
-          "title": "Energias dos Orbitais",
-          "items": [
-            "Blindagem.\n",
-            "Carga nuclear efetiva, $Z_\\text{eff}$.\n",
-            "Grau de penetrabilidade.\n"
-          ],
-          "abilities": [
-            "**Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n",
-            "**Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n"
-          ]
-        },
-        {
-          "id_": "1B.6",
-          "title": "Princípio de Construção",
-          "items": [
-            "Princípio da Exclusão de Pauli.\n",
-            "Regra de Hund.\n",
-            "Diagrama de construção.\n",
-            "Configurações eletrônicas anômalas tipo $s^1 d^5$\n($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$\n($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$).\n",
-            "Configurações eletrônicas anômalas tipo $s^2 d^1$\n($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$\n($\\mathrm{Gd}, \\mathrm{Cm}$).\n",
-            "Camada de valência.\n",
-            "Relação com a tabela periódica.\n"
-          ],
-          "abilities": [
-            "**Determinar** a configuração eletrônica para átomos em seu estado\nfundamental.\n",
-            "**Determinar** a configuração eletrônica para íons em seu estado\nfundamental.\n",
-            "**Determinar** se uma dada configuração eletrônica representa um estado\nfundamental ou excitado.\n",
-            "**Explicar** a origem de anomalias na configuração eletrônica.\n"
-          ]
-        },
-        {
-          "id_": "1B.7",
-          "title": "A Tabela Periódica",
-          "items": [
-            "Número atômico e número de Massa.\n",
-            "Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n",
-            "Grupos e famílias.\n",
-            "Períodos.\n",
-            "Blocos.\n",
-            "Metais, ametais e semi-metais.\n"
-          ],
-          "abilities": [
-            "**Determinar** a posição de um átomo na Tabela Periódica dada sua\nconfiguração eletrônica.\n"
-          ]
+          "id_": "1B1",
+          "title": "Nível II"
         }
       ]
     },
@@ -2169,7 +2200,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "1F.1",
@@ -2181,7 +2212,8 @@
             "Habilidade\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "1A",
@@ -2190,8 +2222,78 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {
-        "Nível I": {
+      "contents": "# Radiação Eletromagnética\n\n1. Relação entre frequência, $f$, e comprimento de onda, $\\lambda$, da radiação eletromagnética:\n    $$\n    c=\\lambda f\n    $$\n2. Energia da radiação eletromagnética, $E$:\n    $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n3. Espectro eletromagnético (IV, Vis, UV).\n\n### Habilidades\n\n- **Calcular** o comprimento de onda, a energia e a frequência da radiação.\n\n# Radiação de Corpo Negro\n\n1. Espectro de emissão do corpo negro.\n2. Lei de Stefan-Boltzmann.\n3. Lei de Wien: \n    $$ \n    T \\lambda_\\text{max} = \\pu{2,9 mm.K}\n    $$ \n\n### Habilidades\n\n- **Calcular** a temperatura de um corpo a partir da Lei de Wien.\n\n# Efeito Fotoelétrico\n\n1. Função trabalho, $\\Phi$.\n2. Conservação de Energia no Efeito Fotoelétrico: \n    $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n\n### Habilidades\n\n- **Calcular** a função trabalho de um metal.\n- **Comparar** a função trabalho de diferentes metais.\n\n# Dualidade Onda-Partícula\n\n1. Relação de De Broglie: \n    $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n2. Princípio da Incerteza de Heisenberg.\n3. Partícula na caixa unidimensional: \n    $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n\n### Habilidades\n\n- **Calcular** o comprimento de onda associado a uma partícula.\n- **Determinar** os níveis de energia para um sistema quântico utilizando a Relação de De Broglie.\n\n# Espectros Atômicos e Teoria de Bohr\n\n1. Espectros atômicos.\n2. Limitações do modelo de Rutherford.\n3. Quantização do momento angular.\n4. Níveis de energia no átomo de Bohr: \n    $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{n^2}{Z^2} = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n    $$\n5. Equação de Rydberg: \n    $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n6. Energia de ionização.\n7. Efeito da massa nuclear nos níveis de energia e [átomos exóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n8. Átomo de Sommerfeld.\n\n### Habilidades\n\n- **Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n- **Calcular** a energia, frequência e comprimento de onda de uma transição eletrônica a partir da Equação de Rydberg.",
+      "subtopics": [
+        {
+          "id_": "1A.1",
+          "title": "Radiação Eletromagnética",
+          "items": [
+            "Relação entre frequência, $f$, e comprimento de onda, $\\lambda$, da\nradiação eletromagnética: $$\n    c=\\lambda f\n    $$\n",
+            "Energia da radiação eletromagnética, $E$: $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n",
+            "Espectro eletromagnético (IV, Vis, UV).\n"
+          ],
+          "abilities": [
+            "**Calcular** o comprimento de onda, a energia e a frequência da\nradiação.\n"
+          ]
+        },
+        {
+          "id_": "1A.2",
+          "title": "Radiação de Corpo Negro",
+          "items": [
+            "Espectro de emissão do corpo negro.\n",
+            "Lei de Stefan-Boltzmann.\n",
+            "Lei de Wien: $$ \n    T \\lambda_\\text{max} = \\pu{2,9 mm.K}\n    $$\n"
+          ],
+          "abilities": [
+            "**Calcular** a temperatura de um corpo a partir da Lei de Wien.\n"
+          ]
+        },
+        {
+          "id_": "1A.3",
+          "title": "Efeito Fotoelétrico",
+          "items": [
+            "Função trabalho, $\\Phi$.\n",
+            "Conservação de Energia no Efeito Fotoelétrico: $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n"
+          ],
+          "abilities": [
+            "**Calcular** a função trabalho de um metal.\n",
+            "**Comparar** a função trabalho de diferentes metais.\n"
+          ]
+        },
+        {
+          "id_": "1A.4",
+          "title": "Dualidade Onda-Partícula",
+          "items": [
+            "Relação de De Broglie: $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n",
+            "Princípio da Incerteza de Heisenberg.\n",
+            "Partícula na caixa unidimensional: $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n"
+          ],
+          "abilities": [
+            "**Calcular** o comprimento de onda associado a uma partícula.\n",
+            "**Determinar** os níveis de energia para um sistema quântico utilizando\na Relação de De Broglie.\n"
+          ]
+        },
+        {
+          "id_": "1A.5",
+          "title": "Espectros Atômicos e Teoria de Bohr",
+          "items": [
+            "Espectros atômicos.\n",
+            "Limitações do modelo de Rutherford.\n",
+            "Quantização do momento angular.\n",
+            "Níveis de energia no átomo de Bohr: $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{n^2}{Z^2} = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n    $$\n",
+            "Equação de Rydberg: $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n",
+            "Energia de ionização.\n",
+            "Efeito da massa nuclear nos níveis de energia e [átomos\nexóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n",
+            "Átomo de Sommerfeld.\n"
+          ],
+          "abilities": [
+            "**Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n",
+            "**Calcular** a energia, frequência e comprimento de onda de uma\ntransição eletrônica a partir da Equação de Rydberg.\n"
+          ]
+        }
+      ],
+      "problems": [
+        {
           "problems": [
             {
               "id_": "1A01",
@@ -2792,9 +2894,11 @@
                 "$n=2 \\rightarrow n=5$\n"
               ]
             }
-          ]
+          ],
+          "id_": "1A0",
+          "title": "Nível I"
         },
-        "Nível II": {
+        {
           "problems": [
             {
               "id_": "1A38",
@@ -2942,7 +3046,9 @@
               "id_": "1A31",
               "statement": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado $n$ para o\nestado fundamental. A função trabalho do metal é metade da energia de\nionização do átomo de hidrogênio.\n\n1.  A energia cinética máxima dos elétrons emitidos pelo metal é\n    $E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}$\n2.  A função trabalho do metal é $\\Phi = \\dfrac{E_1}{2}$\n3.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da frequência da luz incidente no metal a partir da\n    frequência mínima de emissão.\n4.  A energia cinética máxima dos elétrons emitidos aumenta com o\n    aumento da pressão da amostra de hidrogênio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**1**, **2** e **3**",
+              "answer": [
+                "**1**, **2** e **3**"
+              ],
               "constants": {
                 "data": []
               },
@@ -3109,9 +3215,11 @@
               "obj": -1,
               "choices": []
             }
-          ]
+          ],
+          "id_": "1A1",
+          "title": "Nível II"
         },
-        "Nível III": {
+        {
           "problems": [
             {
               "id_": "1A41",
@@ -3179,7 +3287,7 @@
             },
             {
               "id_": "1A44",
-              "statement": "Considere a estrutura da porfirina.\n\n![Porfirina.](1A44-1M.pdf)\n\nO sistema eletrônico $\\pi$ desse composto, com $26$ elétrons, pode ser\nmodelado como uma caixa bidimensional quadrada, com $L = \\pu{1000 pm}$\nde comprimento. Nesse sistema os orbitais têm energia dada por:\n\n$$\nE(n_1, n_2) = \\dfrac{h^{2}}{8m_{e}L^{2}}\\left(n_{1}^{2}+n_{2}^{2}\\right)\n$$\n\nEm que dois elétrons ocupam um mesmo nível de energia.\n\n**Assinale** a alternativa que apresenta a transição eletrônica de menor\nenergia da porfirina, em termos dos números quânticos $(n_{1}, n_{2})$.\n",
+              "statement": "Considere a estrutura da porfirina.\n\n![Porfirina.](1A44-1M.svg)\n\nO sistema eletrônico $\\pi$ desse composto, com $26$ elétrons, pode ser\nmodelado como uma caixa bidimensional quadrada, com $L = \\pu{1000 pm}$\nde comprimento. Nesse sistema os orbitais têm energia dada por:\n\n$$\nE(n_1, n_2) = \\dfrac{h^{2}}{8m_{e}L^{2}}\\left(n_{1}^{2}+n_{2}^{2}\\right)\n$$\n\nEm que dois elétrons ocupam um mesmo nível de energia.\n\n**Assinale** a alternativa que apresenta a transição eletrônica de menor\nenergia da porfirina, em termos dos números quânticos $(n_{1}, n_{2})$.\n",
               "solution": "",
               "answer": [
                 "$(4,2) \\rightarrow (4,3)$\n"
@@ -3276,7 +3384,7 @@
             },
             {
               "id_": "1A48",
-              "statement": "Os elétrons $\\pi$ em hidrocarbonetos cíclicos conjugados podem ser\nmodelados como partículas em um anel que circunscreve os átomos de\ncarbono.\n\n-   **Prove** que os níveis de energia para esse sistema são dados por\n    $$\n        E(n) = \\dfrac{n^2\\hbar^2}{2mR^2}, \\quad n = 0, \\pm 1, \\pm 2, \\pm 3, \\ldots\n        $$\n-   **Prove** que esse sistema é mais estável quando o número de\n    elétrons é $$\n        N = 4k + 2,\\quad k = 0, 1, 2, 3\\ldots\n        $$ Esse resultado é conhecido como *Regra de Hückel*.\n",
+              "statement": "Os elétrons $\\pi$ em hidrocarbonetos cíclicos conjugados podem ser\nmodelados como partículas em um anel que circunscreve os átomos de\ncarbono.\n\n-   **Prove** que os níveis de energia para esse sistema são dados por\n    $E(n) = \\dfrac{n^2\\hbar^2}{2m_eR^2}$, onde\n    $n = 0, \\pm 1, \\pm 2, \\pm 3, \\ldots$\n\n-   **Prove** que esse sistema é mais estável quando o número de\n    elétrons é $N = 4k + 2$ onde $k = 0, 1, 2, 3\\ldots$ Esse resultado é\n    conhecido como *Regra de Hückel*.\n",
               "solution": "\n",
               "answer": [
                 "Demostração.\n"
@@ -3291,76 +3399,9 @@
               "obj": -1,
               "choices": []
             }
-          ]
-        }
-      },
-      "subtopics": [
-        {
-          "id_": "1A.1",
-          "title": "Radiação Eletromagnética",
-          "items": [
-            "Relação entre frequência, $f$, e comprimento de onda, $\\lambda$, da\nradiação eletromagnética: $$\n    c=\\lambda f\n    $$\n",
-            "Energia da radiação eletromagnética, $E$: $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n",
-            "Espectro eletromagnético (IV, Vis, UV).\n"
           ],
-          "abilities": [
-            "**Calcular** o comprimento de onda, a energia e a frequência da\nradiação.\n"
-          ]
-        },
-        {
-          "id_": "1A.2",
-          "title": "Radiação de Corpo Negro",
-          "items": [
-            "Espectro de emissão do corpo negro.\n",
-            "Lei de Stefan-Boltzmann.\n",
-            "Lei de Wien: $$ \n    T \\lambda_\\text{max} = 2,!9\\;\\mathrm{mm\\,K}\n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a temperatura de um corpo a partir da Lei de Wien.\n"
-          ]
-        },
-        {
-          "id_": "1A.3",
-          "title": "Efeito Fotoelétrico",
-          "items": [
-            "Função trabalho, $\\Phi$.\n",
-            "Conservação de Energia no Efeito Fotoelétrico: $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a função trabalho de um metal.\n",
-            "**Comparar** a função trabalho de diferentes metais.\n"
-          ]
-        },
-        {
-          "id_": "1A.4",
-          "title": "Dualidade Onda-Partícula",
-          "items": [
-            "Relação de De Broglie: $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n",
-            "Princípio da Incerteza de Heisenberg.\n",
-            "Partícula na caixa unidimensional: $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** o comprimento de onda associado a uma partícula.\n",
-            "**Determinar** os níveis de energia para um sistema quântico utilizando\na Relação de De Broglie.\n"
-          ]
-        },
-        {
-          "id_": "1A.5",
-          "title": "Espectros Atômicos e Teoria de Bohr",
-          "items": [
-            "Espectros atômicos.\n",
-            "Limitações do modelo de Rutherford.\n",
-            "Quantização do momento angular.\n",
-            "Níveis de energia no átomo de Bohr: $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{n^2 }{Z^2 } = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n    $$\n",
-            "Equação de Rydberg: $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n",
-            "Energia de ionização.\n",
-            "Efeito da massa nuclear nos níveis de energia e [átomos\nexóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n",
-            "Átomo de Sommerfeld.\n"
-          ],
-          "abilities": [
-            "**Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n",
-            "**Calcular** a energia, frequência e comprimento de onda de uma\ntransição eletrônica a partir da Equação de Rydberg.\n"
-          ]
+          "id_": "1A2",
+          "title": "Nível III"
         }
       ]
     },
@@ -3371,8 +3412,9 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
-      "subtopics": []
+      "contents": "",
+      "subtopics": [],
+      "problems": []
     },
     {
       "id_": "3B",
@@ -3381,7 +3423,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Desvios da Idealidade\n\n1. Interações Intermoleculares.\n2. Potencial de Lennard-Jones.\n3. Volume molecular.\n\n### Habilidades\n\n- Habilidades\n\n# Equações de Estado do Gás Real\n\n1. Equação de Van der Waals: \n    $$ \n    \\left( P + a\\dfrac{n^2}{V^2} \\right)(V - nb) = nRT \n    $$\n2. Fator de Compressibilidade: \n    $$ \n    Z = \\dfrac{V}{V_\\text{ideal}} = \\dfrac{PV}{RT}\n    $$\n\n### Habilidades\n\n- **Comparar** gases em função de seu fator de compressibilidade.\n- **Comparar** gases em função de seus parâmetros de Van der Waals.\n\n# Liquefação\n\n1. Isotermas do gás real.\n1. Liquefação de Gases Reais.\n2. Efeito Joule-Thompson.\n\n### Habilidades\n\n- Caminho livre médio",
       "subtopics": [
         {
           "id_": "3B.1",
@@ -3419,7 +3461,8 @@
             "Caminho livre médio\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "3A",
@@ -3428,8 +3471,79 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {
-        "Nível I": {
+      "contents": "# Movimento Molecular\n\n1. Modelo Cinético dos Gases.\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham.\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal.\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.\n\n# Lei dos Gases Ideais\n\n1. Pressão\n2. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n3. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n4. Volume molar.\n5. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** $P$, $V$, $T$ e $n$ para uma dada condição.\n- **Calcular** $P$, $V$, $T$ e $n$ para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial.\n2. Massa molar média.\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n\n# Estequiometria de Gases\n\n1. Análise de Combustão.\n2. Coleta de Gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.",
+      "subtopics": [
+        {
+          "id_": "3A.1",
+          "title": "Movimento Molecular",
+          "items": [
+            "Modelo Cinético dos Gases.\n",
+            "Distribuição de Maxwell-Boltzmann.\n",
+            "Difusão e efusão.\n",
+            "Lei de Graham.\n"
+          ],
+          "abilities": [
+            "**Calcular** a velocidade média quadrática de uma amostra de gás.\n",
+            "**Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n",
+            "**Comparar** a temperatura de gases ideais com base na sua distribuição\nde velocidades.\n",
+            "**Comparar** a massa molar de gases ideais com base na sua distribuição\nde velocidades.\n"
+          ]
+        },
+        {
+          "id_": "3A.2",
+          "title": "Energia do Gás Ideal.",
+          "items": [
+            "Energia interna do gás ideal.\n",
+            "Teorema da Equipartição.\n",
+            "Origem molecular da capacidade calorífica \\| \\| Átomos \\| Lineares \\|\nNão lineares \\| \\| \\-- \\| \\-- \\| \\-- \\| \\-- \\| \\| $C_V$ \\|\n$\\frac{3}{2}R$ \\| $\\frac{5}{2}R$ \\| $3R$ \\| \\| $C_P$ \\| $\\frac{5}{2}R$\n\\| $\\frac{7}{2}R$ \\| $4R$ \\|\n"
+          ],
+          "abilities": [
+            "**Comparar** a capacidade calorífica de gases.\n"
+          ]
+        },
+        {
+          "id_": "3A.3",
+          "title": "Lei dos Gases Ideais",
+          "items": [
+            "Pressão\n",
+            "Lei dos Gases Ideais: $$\n   PV=nRT\n   $$\n",
+            "[Condições Normais de Temperatura e Pressão\n(CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n",
+            "Volume molar.\n",
+            "Densidade do gás ideal: $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n"
+          ],
+          "abilities": [
+            "**Calcular** $P$, $V$, $T$ e $n$ para uma dada condição.\n",
+            "**Calcular** $P$, $V$, $T$ e $n$ para uma transformação.\n",
+            "**Calcular** a densidade um gás ideal para uma dada condição.\n"
+          ]
+        },
+        {
+          "id_": "3A.4",
+          "title": "Misturas de Gases",
+          "items": [
+            "Pressão parcial.\n",
+            "Massa molar média.\n"
+          ],
+          "abilities": [
+            "**Calcular** a pressão parcial de um gás em uma mistura.\n"
+          ]
+        },
+        {
+          "id_": "3A.5",
+          "title": "Estequiometria de Gases",
+          "items": [
+            "Análise de Combustão.\n",
+            "Coleta de Gases sobre água.\n"
+          ],
+          "abilities": [
+            "**Calcular** o volume de reagente gasoso necessário para uma reação.\n",
+            "**Calcular** o volume de gás liberado em uma reação.\n",
+            "**Calcular** a quantidade de gás coletada sobre água.\n"
+          ]
+        }
+      ],
+      "problems": [
+        {
           "problems": [
             {
               "id_": "3A01",
@@ -3596,7 +3710,9 @@
               "id_": "3A10",
               "statement": "Considere os processos químicos a seguir.\n\n1.  Formação da água gasosa a partir de $\\ce{H2}$ e $\\ce{O2}$.\n2.  Formação da água líquida a partir de $\\ce{H2}$ e $\\ce{O2}$.\n3.  Formação da amônia a partir de $\\ce{H2}$ e $\\ce{N2}$.\n4.  Combustão do metano.\n\n**Assinale** a alternativa que relaciona os processos cujo valor\nabsoluto da entalpia de reação aumenta com a temperatura.\n",
               "solution": "",
-              "answer": "**2** e **4**",
+              "answer": [
+                "**2** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -4043,9 +4159,11 @@
                 "$\\pu{96 \\%}$\n"
               ]
             }
-          ]
+          ],
+          "id_": "3A0",
+          "title": "Nível I"
         },
-        "Nível II": {
+        {
           "problems": [
             {
               "id_": "3A29",
@@ -4424,9 +4542,11 @@
               "obj": -1,
               "choices": []
             }
-          ]
+          ],
+          "id_": "3A1",
+          "title": "Nível II"
         },
-        "Nível III": {
+        {
           "problems": [
             {
               "id_": "3A36",
@@ -4573,77 +4693,9 @@
               "obj": -1,
               "choices": []
             }
-          ]
-        }
-      },
-      "subtopics": [
-        {
-          "id_": "3A.1",
-          "title": "Movimento Molecular",
-          "items": [
-            "Modelo Cinético dos Gases.\n",
-            "Distribuição de Maxwell-Boltzmann.\n",
-            "Difusão e efusão.\n",
-            "Lei de Graham.\n"
           ],
-          "abilities": [
-            "**Calcular** a velocidade média quadrática de uma amostra de gás.\n",
-            "**Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n",
-            "**Comparar** a temperatura de gases ideais com base na sua distribuição\nde velocidades.\n",
-            "**Comparar** a massa molar de gases ideais com base na sua distribuição\nde velocidades.\n"
-          ]
-        },
-        {
-          "id_": "3A.2",
-          "title": "Energia do Gás Ideal.",
-          "items": [
-            "Energia interna do gás ideal.\n",
-            "Teorema da Equipartição.\n",
-            "Origem molecular da capacidade calorífica \\| \\| Átomos \\| Lineares \\|\nNão lineares \\| \\| \\-- \\| \\-- \\| \\-- \\| \\-- \\| \\| $C_V$ \\|\n$\\frac{3}{2}R$ \\| $\\frac{5}{2}R$ \\| $3R$ \\| \\| $C_P$ \\| $\\frac{5}{2}R$\n\\| $\\frac{7}{2}R$ \\| $4R$ \\|\n"
-          ],
-          "abilities": [
-            "**Comparar** a capacidade calorífica de gases.\n"
-          ]
-        },
-        {
-          "id_": "3A.3",
-          "title": "Lei dos Gases Ideais",
-          "items": [
-            "Pressão\n",
-            "Lei dos Gases Ideais: $$\n   PV=nRT\n   $$\n",
-            "[Condições Normais de Temperatura e Pressão\n(CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n",
-            "Volume molar.\n",
-            "Densidade do gás ideal: $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n"
-          ],
-          "abilities": [
-            "**Calcular** $P$, $V$, $T$ e $n$ para uma dada condição.\n",
-            "**Calcular** $P$, $V$, $T$ e $n$ para uma transformação.\n",
-            "**Calcular** a densidade um gás ideal para uma dada condição.\n"
-          ]
-        },
-        {
-          "id_": "3A.4",
-          "title": "Misturas de Gases",
-          "items": [
-            "Pressão parcial.\n",
-            "Massa molar média.\n"
-          ],
-          "abilities": [
-            "**Calcular** a pressão parcial de um gás em uma mistura.\n"
-          ]
-        },
-        {
-          "id_": "3A.5",
-          "title": "Estequiometria de Gases",
-          "items": [
-            "Análise de Combustão.\n",
-            "Coleta de Gases sobre água.\n"
-          ],
-          "abilities": [
-            "**Calcular** o volume de reagente gasoso necessário para uma reação.\n",
-            "**Calcular** o volume de gás liberado em uma reação.\n",
-            "**Calcular** a quantidade de gás coletada sobre água.\n"
-          ]
+          "id_": "3A2",
+          "title": "Nível III"
         }
       ]
     },
@@ -4654,7 +4706,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Composição das Soluções\n\n1. Molalidade\n2. Concentração em volumes.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n- **Relacionar** as unidades de concentração.\n\n# Condutividade Iônica\n\n1. Mobilidade iônica.\n2. Influência do solvente na mobilidade iônica.\n3. Condutividade molar, $\\lambda$.\n4. Lei de migração independente.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n\n# Absortividade das Soluções\n\n1. Lei de Beer-Lambert.\n\n### Habilidades\n\n- Habilidade\n\n# Operações em Soluções\n\n1. Balanço molar.\n2. Balanço de cargas.\n3. Balanço energético.\n4. Diluição.\n5. Mistura.\n\n### Habilidades\n\n- Habilidade\n\n# Técnicas de Separação\n\n1. Decantação.\n2. Filtração.\n3. Cromatografia.\n4. Destilação.\n5. Extração.\n\n### Habilidades\n\n- **Determinar** a técnica mais adequada para separação de uma mistura.\n- **Determinar** os produtos resultantes de uma separação de mistura.",
       "subtopics": [
         {
           "id_": "3C.1",
@@ -4720,7 +4772,8 @@
             "**Determinar** os produtos resultantes de uma separação de mistura.\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "3E",
@@ -4729,7 +4782,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "3E.1",
@@ -4741,7 +4794,8 @@
             "Habilidade\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "3F",
@@ -4750,7 +4804,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "3F.1",
@@ -4762,7 +4816,8 @@
             "Habilidade\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "3D",
@@ -4771,8 +4826,9 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
-      "subtopics": []
+      "contents": "",
+      "subtopics": [],
+      "problems": []
     },
     {
       "id_": "2B",
@@ -4781,8 +4837,66 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {
-        "Nível I": {
+      "contents": "# Reversibilidade e Espontaneidade\n\n1. Trabalho de expansão reversível.\n2. Teorema do Trabalho Máximo.\n3. Reversibilidade e entropia.\n4. Definição macroscópica de entropia: \n    $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n5. Segunda Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma transformação reversível.\n\n# Entropia \n\n1. Entropia e desordem.\n2. Entropia e temperatura: \n    $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n3. Entropia e volume de gás ideal: \n    $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n4. Entropia e estado físico: sólido, líquido, gasoso e em solução.\n\n### Habilidades\n\n- **Determinar** qualitativamente o sinal da variação de entropia para uma transformação.\n- **Calcular** a variação de entropia para aquecimento ou resfriamento de uma substância.\n- **Calcular** a variação de entropia para um gás ideal em uma transformação isotérmica.\n- **Calcular** a entropia padrão para transição de fase.\n\n# Entropia Absoluta \n\n1. Interpretação microscópica da entropia.\n2. Fórmula de Boltzmann.\n3. Entropia Residual.\n4. Terceira Lei da Termodinâmica.\n\n### Habilidades\n\n- Habilidade\n\n# Entropia de Reação\n\n1. Entropia padrão.\n2. Entropia de reação.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma reação química.\n- **Determinar** qualitativamente o sinal da variação de entropia para uma reação química.",
+      "subtopics": [
+        {
+          "id_": "2B.1",
+          "title": "Reversibilidade e Espontaneidade",
+          "items": [
+            "Trabalho de expansão reversível.\n",
+            "Teorema do Trabalho Máximo.\n",
+            "Reversibilidade e entropia.\n",
+            "Definição macroscópica de entropia: $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n",
+            "Segunda Lei da Termodinâmica.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de entropia para uma transformação reversível.\n"
+          ]
+        },
+        {
+          "id_": "2B.2",
+          "title": "Entropia",
+          "items": [
+            "Entropia e desordem.\n",
+            "Entropia e temperatura: $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n",
+            "Entropia e volume de gás ideal: $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n",
+            "Entropia e estado físico: sólido, líquido, gasoso e em solução.\n"
+          ],
+          "abilities": [
+            "**Determinar** qualitativamente o sinal da variação de entropia para uma\ntransformação.\n",
+            "**Calcular** a variação de entropia para aquecimento ou resfriamento de\numa substância.\n",
+            "**Calcular** a variação de entropia para um gás ideal em uma\ntransformação isotérmica.\n",
+            "**Calcular** a entropia padrão para transição de fase.\n"
+          ]
+        },
+        {
+          "id_": "2B.3",
+          "title": "Entropia Absoluta",
+          "items": [
+            "Interpretação microscópica da entropia.\n",
+            "Fórmula de Boltzmann.\n",
+            "Entropia Residual.\n",
+            "Terceira Lei da Termodinâmica.\n"
+          ],
+          "abilities": [
+            "Habilidade\n"
+          ]
+        },
+        {
+          "id_": "2B.4",
+          "title": "Entropia de Reação",
+          "items": [
+            "Entropia padrão.\n",
+            "Entropia de reação.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de entropia para uma reação química.\n",
+            "**Determinar** qualitativamente o sinal da variação de entropia para uma\nreação química.\n"
+          ]
+        }
+      ],
+      "problems": [
+        {
           "problems": [
             {
               "id_": "2B01",
@@ -5187,7 +5301,9 @@
               "id_": "2B16",
               "statement": "Considere as moléculas:\n\n1.  $\\ce{CO2}$\n2.  $\\ce{NO}$\n3.  $\\ce{N2O}$\n4.  $\\ce{Cl2}$\n\n**Assinale** a alternativa que relaciona as moléculas com entropia\nresidual não nula.\n",
               "solution": "",
-              "answer": "**2** e **3**",
+              "answer": [
+                "**2** e **3**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5298,7 +5414,9 @@
               "id_": "2B19",
               "statement": "Considere os processos:\n\n1.  Cristalização de um sal.\n2.  Sublimação da naftalina.\n3.  Mistura de água e álcool.\n4.  Fusão do ferro.\n\n**Assinale** a alternativa que relaciona os processos que ocorrem com\naumento de entropia do sistema.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5319,7 +5437,9 @@
               "id_": "2B20",
               "statement": "Considere as reações:\n\n1.  $\\ce{Cl2(g) + H2O(l) -> HCl(aq) + HClO(aq)}$\n2.  $\\ce{Cu3(PO4)2(s) -> 3 Cu^2+ (aq) + 2 PO4^{3-}(aq)}$\n3.  $\\ce{SO2(g) + Br2(g) + 2 H2O(l) -> H2SO4(aq) + 2 HBr(aq)}$\n4.  $\\ce{4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)}$\n\n**Assinale** a alternativa que relaciona as reações com variação\npositiva de entropia.\n",
               "solution": "",
-              "answer": "**2** e **4**",
+              "answer": [
+                "**2** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5336,9 +5456,11 @@
                 "**2**, **3** e **4**"
               ]
             }
-          ]
+          ],
+          "id_": "2B0",
+          "title": "Nível I"
         },
-        "Nível II": {
+        {
           "problems": [
             {
               "id_": "2B21",
@@ -5367,7 +5489,9 @@
               "id_": "2B23",
               "statement": "Considere as proposições:\n\n1.  A entropia do $\\ce{HBr}$ é maior que a do $\\ce{HF}$ a $\\pu{298 K}$.\n2.  A entropia da amônia é maior que a do neônio a $\\pu{298 K}$.\n3.  A entropia do ciclopentano é maior que a do pent-1-eno a\n    $\\pu{298 K}$.\n4.  A entropia do ciclobutano é maior que a do cicloexano a\n    $\\pu{298 K}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**1**, **2** e **4**",
+              "answer": [
+                "**1**, **2** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5388,7 +5512,9 @@
               "id_": "2B24",
               "statement": "Considere os processos:\n\n1.  Conversão de grafite e diamante\n2.  Supersaturação de uma solução saturada.\n3.  Cristalização de um sólido amorfo.\n4.  Adsorção do nitrogênio em sílica.\n\n**Assinale** a alternativa que relaciona os processos que ocorrem com\ndiminuição de entropia do sistema.\n",
               "solution": "",
-              "answer": "**1**, **3** e **4**",
+              "answer": [
+                "**1**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5409,7 +5535,9 @@
               "id_": "2B22",
               "statement": "Um recipiente de paredes adiabáticas contém duas amostras de água pura\nseparadas por uma parede também adiabática e de volume desprezível. Uma\ndas amostras consiste em $\\pu{54 g}$ de água a $\\pu{25 \\degree C}$ e, a\noutra, em $\\pu{126 g}$ a $\\pu{75 \\degree C}$. A parede que separa as\namostras é retirada e que as amostras de água se misturam até atingir o\nequilíbrio.\n\nConsidere as proposições:\n\n1.  A temperatura da mistura no equilíbrio é de $\\pu{323 K}$.\n2.  A variação de entalpia no processo é nula.\n3.  A variação de energia interna no processo é nula.\n4.  A variação de entropia no processo é nula.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**2** e **3**",
+              "answer": [
+                "**2** e **3**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5430,7 +5558,9 @@
               "id_": "2B25",
               "statement": "Considere as proposições:\n\n1.  A variação da entropia independe da quantidade de gás presente no\n    sistema.\n2.  Se a transformação é isotérmica, a variação da entropia é dada por:\n    $$\n        \\Delta S = -nR\\ln\\left(\\frac{P_2}{P_1}\\right)\n        $$\n3.  Se a transformação é isobárica, a variação de entropia é dada por:\n    $$\n        \\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)\n        $$\n4.  Se o sistema realiza um processo cíclico, a variação de entropia é\n    positiva.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**3**",
+              "answer": [
+                "**3**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5468,7 +5598,9 @@
               "id_": "2B29",
               "statement": "Moléculas diatômicas idênticas, na forma de um sólido cristalino, podem\nser modeladas como um conjunto de osciladores.\n\n![Figura](2B29-1P.svg)\n\n1.  À temperatura de $0 K$ a maioria dos osciladores estará no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n2.  À temperatura de $0 K$ todos os osciladores estarão no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n3.  O movimento vibracional cessa a $0 K$.\n4.  O princípio da incerteza de Heisenberg será violado se o movimento\n    vibracional cessar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
-              "answer": "**2** e **4**",
+              "answer": [
+                "**2** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -5613,64 +5745,9 @@
                 "$\\pu{90,0 J.mol-1K-1}$\n"
               ]
             }
-          ]
-        }
-      },
-      "subtopics": [
-        {
-          "id_": "2B.1",
-          "title": "Reversibilidade e Espontaneidade",
-          "items": [
-            "Trabalho de expansão reversível.\n",
-            "Teorema do Trabalho Máximo.\n",
-            "Reversibilidade e entropia.\n",
-            "Definição macroscópica de entropia: $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n",
-            "Segunda Lei da Termodinâmica.\n"
           ],
-          "abilities": [
-            "**Calcular** a variação de entropia para uma transformação reversível.\n"
-          ]
-        },
-        {
-          "id_": "2B.2",
-          "title": "Entropia",
-          "items": [
-            "Entropia e desordem.\n",
-            "Entropia e temperatura: $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n",
-            "Entropia e volume de gás ideal: $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n",
-            "Entropia e estado físico: sólido, líquido, gasoso e em solução.\n"
-          ],
-          "abilities": [
-            "**Determinar** qualitativamente o sinal da variação de entropia para uma\ntransformação.\n",
-            "**Calcular** a variação de entropia para aquecimento ou resfriamento de\numa substância.\n",
-            "**Calcular** a variação de entropia para um gás ideal em uma\ntransformação isotérmica.\n",
-            "**Calcular** a entropia padrão para transição de fase.\n"
-          ]
-        },
-        {
-          "id_": "2B.3",
-          "title": "Entropia Absoluta",
-          "items": [
-            "Interpretação microscópica da entropia.\n",
-            "Fórmula de Boltzmann.\n",
-            "Entropia Residual.\n",
-            "Terceira Lei da Termodinâmica.\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
-        },
-        {
-          "id_": "2B.4",
-          "title": "Entropia de Reação",
-          "items": [
-            "Entropia padrão.\n",
-            "Entropia de reação.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de entropia para uma reação química.\n",
-            "**Determinar** qualitativamente o sinal da variação de entropia para uma\nreação química.\n"
-          ]
+          "id_": "2B1",
+          "title": "Nível II"
         }
       ]
     },
@@ -5681,8 +5758,9 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
-      "subtopics": []
+      "contents": "",
+      "subtopics": [],
+      "problems": []
     },
     {
       "id_": "2A",
@@ -5691,8 +5769,100 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {
-        "Nível I": {
+      "contents": "# Trabalho e Calor\n\n1. Sistema e Vizinhança.\n2. Sistema fechado e isolado.\n3. Funções de Estado.\n4. Trabalho, $W$, e Calor, $Q$.\n5. Trabalho de expansão irreversível.\n6. Calor específico e capacidade calorífica.\n\n### Habilidades\n\n- Habilidades\n\n# Energia Interna\n\n1. Primeira Lei da Termodinâmica: \n    $$ \n    \\Delta U = Q - W \n    $$\n2. Energia interna.\n3. Capacidade calorífica em volume constante: \n    $$ \n    C_V = \\dfrac{\\Delta U}{\\Delta T}\n    $$\n4. Expansão livre.\n\n### Habilidades\n\n- **Calcular** a variação de energia interna para um processo de expansão *irreversível*.\n\n# Entalpia\n\n1. Definição de Entalpia: \n   $$ \n   H = U + PV \n   $$\n2. Capacidade calorífica em pressão constante: \n    $$ \n    C_P = \\dfrac{\\Delta H}{\\Delta T} \n    $$\n3. Relação de Meyer: \n    $$ \n    C_P = C_V + R \n    $$\n4. Entalpia e estado físico: sólido, líquido e gasoso.\n5. Curvas de aquecimento.\n\n### Habilidades\n\n- **Calcular** a variação de entalpia para um processo de expansão *irreversível*.\n\n# Entalpia e Estado Físico\n\n1. Entalpia e estado físico: sólido, líquido e gasoso.\n2. Curvas de aquecimento.\n3. Relação entre $\\Delta U$ e $\\Delta H$ de transição de fase.\n\n### Habilidades\n\n- **Calcular** a entalpia de mudança de fase.\n\n# Entalpia de Reação\n\n1. Processos endotérmicos e exotérmicos.\n2. Equações termoquímicas.\n3. Entalpia de formação.\n4. [Estado padrão](https://goldbook.iupac.org/terms/view/S05927) e [grandezas termodinâmicas padrão](https://goldbook.iupac.org/terms/view/S05927).\n5. Entalpia de ligação.\n6. Lei de Hess.\n7. Entalpia de reação e temperatura: \n    $$ \n    \\Delta H^T = \\Delta H^{T_0} + (T-T_0) \\Delta C_P \n    $$\n\n### Habilidades\n\n- **Calcular** a entalpia de reação a partir das entalpias de formação.\n- **Calcular** a entalpia de reação a partir das entalpias de ligação.\n- **Calcular** a entalpia de reação aplicando a Lei de Hess.\n- **Calcular** a variação na entalpia de reação com a temperatura.\n\n# Calorimetria\n\n1. Calorímetro isobárico: \n    $$ \n    Q_P = \\Delta H = C_P \\Delta T\n    $$\n2. Calorímetro isocórico: \n    $$ \n    Q_V = \\Delta U = C_V \\Delta T\n    $$\n3. Relação entre $\\Delta U$ e $\\Delta H$ de reação.\n4. Potencial calorífico superior e inferior.\n5. Temperatura Adiabática de Reação.\n6. Reação autossustentável.\n\n### Habilidades\n\n- **Calcular** o calor liberado em pressão constante a partir do calor liberado em volume constante.\n- **Calcular** a variação de temperatura causada por uma reação.",
+      "subtopics": [
+        {
+          "id_": "2A.1",
+          "title": "Trabalho e Calor",
+          "items": [
+            "Sistema e Vizinhança.\n",
+            "Sistema fechado e isolado.\n",
+            "Funções de Estado.\n",
+            "Trabalho, $W$, e Calor, $Q$.\n",
+            "Trabalho de expansão irreversível.\n",
+            "Calor específico e capacidade calorífica.\n"
+          ],
+          "abilities": [
+            "Habilidades\n"
+          ]
+        },
+        {
+          "id_": "2A.2",
+          "title": "Energia Interna",
+          "items": [
+            "Primeira Lei da Termodinâmica: $$ \n    \\Delta U = Q - W \n    $$\n",
+            "Energia interna.\n",
+            "Capacidade calorífica em volume constante: $$ \n    C_V = \\dfrac{\\Delta U}{\\Delta T}\n    $$\n",
+            "Expansão livre.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de energia interna para um processo de expansão\n*irreversível*.\n"
+          ]
+        },
+        {
+          "id_": "2A.3",
+          "title": "Entalpia",
+          "items": [
+            "Definição de Entalpia: $$ \n   H = U + PV \n   $$\n",
+            "Capacidade calorífica em pressão constante: $$ \n    C_P = \\dfrac{\\Delta H}{\\Delta T} \n    $$\n",
+            "Relação de Meyer: $$ \n    C_P = C_V + R \n    $$\n",
+            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
+            "Curvas de aquecimento.\n"
+          ],
+          "abilities": [
+            "**Calcular** a variação de entalpia para um processo de expansão\n*irreversível*.\n"
+          ]
+        },
+        {
+          "id_": "2A.4",
+          "title": "Entalpia e Estado Físico",
+          "items": [
+            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
+            "Curvas de aquecimento.\n",
+            "Relação entre $\\Delta U$ e $\\Delta H$ de transição de fase.\n"
+          ],
+          "abilities": [
+            "**Calcular** a entalpia de mudança de fase.\n"
+          ]
+        },
+        {
+          "id_": "2A.5",
+          "title": "Entalpia de Reação",
+          "items": [
+            "Processos endotérmicos e exotérmicos.\n",
+            "Equações termoquímicas.\n",
+            "Entalpia de formação.\n",
+            "[Estado padrão](https://goldbook.iupac.org/terms/view/S05927) e\n[grandezas termodinâmicas\npadrão](https://goldbook.iupac.org/terms/view/S05927).\n",
+            "Entalpia de ligação.\n",
+            "Lei de Hess.\n",
+            "Entalpia de reação e temperatura: $$ \n    \\Delta H^T = \\Delta H^{T_0} + (T-T_0) \\Delta C_P \n    $$\n"
+          ],
+          "abilities": [
+            "**Calcular** a entalpia de reação a partir das entalpias de formação.\n",
+            "**Calcular** a entalpia de reação a partir das entalpias de ligação.\n",
+            "**Calcular** a entalpia de reação aplicando a Lei de Hess.\n",
+            "**Calcular** a variação na entalpia de reação com a temperatura.\n"
+          ]
+        },
+        {
+          "id_": "2A.6",
+          "title": "Calorimetria",
+          "items": [
+            "Calorímetro isobárico: $$ \n    Q_P = \\Delta H = C_P \\Delta T\n    $$\n",
+            "Calorímetro isocórico: $$ \n    Q_V = \\Delta U = C_V \\Delta T\n    $$\n",
+            "Relação entre $\\Delta U$ e $\\Delta H$ de reação.\n",
+            "Potencial calorífico superior e inferior.\n",
+            "Temperatura Adiabática de Reação.\n",
+            "Reação autossustentável.\n"
+          ],
+          "abilities": [
+            "**Calcular** o calor liberado em pressão constante a partir do calor\nliberado em volume constante.\n",
+            "**Calcular** a variação de temperatura causada por uma reação.\n"
+          ]
+        }
+      ],
+      "problems": [
+        {
           "problems": [
             {
               "id_": "2A01",
@@ -5958,7 +6128,9 @@
               "id_": "2A08",
               "statement": "Considere os processos químicos realizados em temperatura constante.\n\n1.  Dissolução do nitrato de potássio.\n2.  Ebulição da água.\n3.  Conversão da grafita em diamante.\n4.  Oxidação do sódio metálico.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
               "solution": "",
-              "answer": "**2**, **3** e **4**",
+              "answer": [
+                "**2**, **3** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -6070,7 +6242,9 @@
               "id_": "2A13",
               "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](2A13-1P.svg)\n\nConsidere as proposições.\n\n1.  Na região entre $P$ e $Q$ ocorre aumento da energia cinética.\n2.  Na região entre $Q$ e $R$ ocorre aumento da energia potencial.\n3.  O calor de fusão da substância é menor que o seu calor de\n    vaporização.\n4.  O calor específico do sólido é maior que o calor específico do\n    líquido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
-              "answer": "**4**",
+              "answer": [
+                "**4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -6473,7 +6647,9 @@
               "id_": "2A26",
               "statement": "Em um cilindro, provido de um pistão móvel sem atrito, é realizada a\ncombustão completa de carbono. A temperatura no interior do cilindro é\nmantida constante desde a introdução dos reagentes até o final da\nreação.\n\n1.  A variação da energia interna do sistema é igual a zero.\n2.  O sistema não realiza trabalho.\n3.  A quantidade de calor trocada entre o sistema e a vizinhança é igual\n    a zero.\n4.  A variação da entalpia do sistema é igual à variação da energia\n    interna.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
               "solution": "",
-              "answer": "**2** e **4**",
+              "answer": [
+                "**2** e **4**"
+              ],
               "constants": {
                 "data": []
               },
@@ -6566,9 +6742,11 @@
                 "$\\pu{39 MJ.kg-1}$\n"
               ]
             }
-          ]
+          ],
+          "id_": "2A0",
+          "title": "Nível I"
         },
-        "Nível II": {
+        {
           "problems": [
             {
               "id_": "2A15",
@@ -6717,7 +6895,7 @@
               "statement": "**Determine** a energia liberada durante a precipitação pluviométrica de\n$\\pu{20 mm}$ de chuva sobre uma área de $\\pu{100 km2}$.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{4.9E15 J}$\n"
+                "$\\pu{4,9e15 J}$\n"
               ],
               "constants": {
                 "data": []
@@ -7097,9 +7275,11 @@
                 "$\\pu{-70 kJ.mol-1}$\n"
               ]
             }
-          ]
+          ],
+          "id_": "2A1",
+          "title": "Nível II"
         },
-        "Nível III": {
+        {
           "problems": [
             {
               "id_": "2A44",
@@ -7462,98 +7642,9 @@
               "obj": -1,
               "choices": []
             }
-          ]
-        }
-      },
-      "subtopics": [
-        {
-          "id_": "2A.1",
-          "title": "Trabalho e Calor",
-          "items": [
-            "Sistema e Vizinhança.\n",
-            "Sistema fechado e isolado.\n",
-            "Funções de Estado.\n",
-            "Trabalho, $W$, e Calor, $Q$.\n",
-            "Trabalho de expansão irreversível.\n",
-            "Calor específico e capacidade calorífica.\n"
           ],
-          "abilities": [
-            "Habilidades\n"
-          ]
-        },
-        {
-          "id_": "2A.2",
-          "title": "Energia Interna",
-          "items": [
-            "Primeira Lei da Termodinâmica: $$ \n    \\Delta U = Q - W \n    $$\n",
-            "Energia interna.\n",
-            "Capacidade calorífica em volume constante: $$ \n    C_V = \\dfrac{\\Delta U}{\\Delta T}\n    $$\n",
-            "Expansão livre.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de energia interna para um processo de expansão\n*irreversível*.\n"
-          ]
-        },
-        {
-          "id_": "2A.3",
-          "title": "Entalpia",
-          "items": [
-            "Definição de Entalpia: $$ \n   H = U + PV \n   $$\n",
-            "Capacidade calorífica em pressão constante: $$ \n    C_P = \\dfrac{\\Delta H}{\\Delta T} \n    $$\n",
-            "Relação de Meyer: $$ \n    C_P = C_V + R \n    $$\n",
-            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
-            "Curvas de aquecimento.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de entalpia para um processo de expansão\n*irreversível*.\n"
-          ]
-        },
-        {
-          "id_": "2A.4",
-          "title": "Entalpia e Estado Físico",
-          "items": [
-            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
-            "Curvas de aquecimento.\n",
-            "Relação entre $\\Delta U$ e $\\Delta H$ de transição de fase.\n"
-          ],
-          "abilities": [
-            "**Calcular** a entalpia de mudança de fase.\n"
-          ]
-        },
-        {
-          "id_": "2A.5",
-          "title": "Entalpia de Reação",
-          "items": [
-            "Processos endotérmicos e exotérmicos.\n",
-            "Equações termoquímicas.\n",
-            "Entalpia de formação.\n",
-            "[Estado padrão](https://goldbook.iupac.org/terms/view/S05927) e\n[grandezas termodinâmicas\npadrão](https://goldbook.iupac.org/terms/view/S05927).\n",
-            "Entalpia de ligação.\n",
-            "Lei de Hess.\n",
-            "Entalpia de reação e temperatura: $$ \n    \\Delta H^T = \\Delta H^{T_0} + (T-T_0) \\Delta C_P \n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a entalpia de reação a partir das entalpias de formação.\n",
-            "**Calcular** a entalpia de reação a partir das entalpias de ligação.\n",
-            "**Calcular** a entalpia de reação aplicando a Lei de Hess.\n",
-            "**Calcular** a variação na entalpia de reação com a temperatura.\n"
-          ]
-        },
-        {
-          "id_": "2A.6",
-          "title": "Calorimetria",
-          "items": [
-            "Calorímetro isobárico: $$ \n    Q_P = \\Delta H = C_P \\Delta T\n    $$\n",
-            "Calorímetro isocórico: $$ \n    Q_V = \\Delta U = C_V \\Delta T\n    $$\n",
-            "Relação entre $\\Delta U$ e $\\Delta H$ de reação.\n",
-            "Potencial calorífico superior e inferior.\n",
-            "Temperatura Adiabática de Reação.\n",
-            "Reação autossustentável.\n"
-          ],
-          "abilities": [
-            "**Calcular** o calor liberado em pressão constante a partir do calor\nliberado em volume constante.\n",
-            "**Calcular** a variação de temperatura causada por uma reação.\n"
-          ]
+          "id_": "2A2",
+          "title": "Nível III"
         }
       ]
     },
@@ -7564,7 +7655,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Energia Livre\n\n1. Definição de Energia Livre: \n   $$ \n   G = H - TS \n   $$\n2. Energia livre e espontaneidade:\n   $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$\n   | $\\Delta H$ | $\\Delta S$ | Espontaneidade |\n   | -- | -- | -- |\n   | $-$ | $+$ | Sempre |\n   | $-$ | $-$ | $T < \\left\\vert \\frac{\\Delta H}{\\Delta S} \\right\\vert$ |\n   | $+$ | $+$ | $T > \\left\\vert \\frac{\\Delta H}{\\Delta S} \\right\\vert$ |\n   | $+$ | $-$ | Nunca |\n3. Energia Livre e estado físico.\n\n### Habilidades\n\n- **Classificar** um processo quanto a sua espontaneidade.\n\n# Energia Livre de Reação\n\n1. Energia livre de reação e temperatura.\n2. Trabalho não Expansivo.\n\n### Habilidades\n\n- **Calcular** a energia livre de uma reação para determinar sua espontaneidade.\n- **Calcular** a temperatura mínima para que uma reação endotérmica seja espontânea.\n\n# Potencial de Reação\n\n1. Potencial de reação: \n   $$\n   \\Delta G = -nF \\Delta E\n   $$\n2. Potencial e temperatura\n   $$\n   \\Delta E^T = \\Delta E^{T_0} + (T-T_0) \\left( \\frac{\\Delta S}{nF} \\right)\n   $$\n3. Diagrama de Latimer.\n\n### Habilidades\n\n- **Calcular** o potencial associado a uma reação química.\n- **Calcular** a variação do potencial de uma reação com a temperatura.",
       "subtopics": [
         {
           "id_": "2C.1",
@@ -7603,7 +7694,8 @@
             "**Calcular** a variação do potencial de uma reação com a temperatura.\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "2D",
@@ -7612,7 +7704,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Pressão de Vapor\n\n1. Origem da pressão de vapor.\n2. Volatilidade e forças intermoleculares.\n3. Pressão de vapor e temperatura.\n4. Equação de Clausius Clapeyron:\n   $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta_\\text{vap} H}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n5. Ebulição.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor utilizando a Equação de Clausius Clapeyron.\n- **Calcular** a temperatura de ebulição utilizando a Equação de Clausius Clapeyron.\n\n# Equilíbrio de Fase\n\n1. Diagramas de fases.\n2. Propriedades críticas.\n\n### Habilidades\n\n- **Identificar** os pontos triplos e o ponto crítico no diagrama de fases.\n- **Identificar** os pontos de fusão e ebulição no diagrama de fases.\n\n# Equilíbrio de Fase Multicomponente\n\n1. Pressão de vapor de misturas\n2. Lei de Raoult:\n   $$\n   P_A = x_A P_A^\\star\n   $$\n3. Misturas líquidas binárias.\n4. Destilação.\n5. Azeótropos.\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "2D.1",
@@ -7655,7 +7747,8 @@
             "Habilidade\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     },
     {
       "id_": "2F",
@@ -7664,7 +7757,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "problems": {},
+      "contents": "# Osmose\n\n1. Pressão osmótica:\n   $$\n   \\Pi = i RT c\n   $$\n2. Osmometria.\n3. Osmose reversa.\n\n### Habilidades\n\n- **Calcular** massa molar do soluto por osmometria.",
       "subtopics": [
         {
           "id_": "2F.1",
@@ -7678,7 +7771,8 @@
             "**Calcular** massa molar do soluto por osmometria.\n"
           ]
         }
-      ]
+      ],
+      "problems": []
     }
   ]
 }

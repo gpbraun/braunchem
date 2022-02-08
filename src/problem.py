@@ -212,7 +212,9 @@ def problem_contents(id_, path, pfile):
 
 @frozen
 class ProblemSet:
-    problems: list[Problem]
+    problems: list[Problem] = Factory(list)
+    id_: str = 'P'
+    title: str = 'Problemas'
 
     def __len__(self):
         return len(self.problems)
@@ -220,10 +222,14 @@ class ProblemSet:
     def asdict(self, attr):
         return {getattr(p, attr): p for p in self.problems}
 
-    def filter(self, attr, problem_attrs):
+    def filter(self, attr, problem_attrs, id_="", title=""):
+        if not id_:
+            id_ = f'{self.id_}1'
+        if not title:
+            title = f'{self.title} 1'
         # get ProblemSet from list of ids
         p_dict = self.asdict(attr)
-        return ProblemSet([p_dict[a] for a in problem_attrs])
+        return ProblemSet([p_dict[a] for a in problem_attrs], id_, title)
 
     def elements(self):
         elements = []
@@ -421,7 +427,7 @@ def autoprops(true_props):
             '**1**, **2**, **3** e **4**'
         ]
         obj = 3
-    answer = choices[obj]
+    answer = [choices[obj]]
     return choices, answer, obj
 
 
