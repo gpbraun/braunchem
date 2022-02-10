@@ -273,9 +273,9 @@ def files2problemset(path):
     return ProblemSet(pool.map(file2problem, path))
 
 
-def links2problemset(cur, links):
+def links2problemset(cur, links, **kwargs):
     # get YAML data and contents
-    return ProblemSet([link2problem(cur, link) for link in links])
+    return ProblemSet([link2problem(cur, link) for link in links], **kwargs)
 
 
 def autoprops(true_props):

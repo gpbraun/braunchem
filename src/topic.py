@@ -40,6 +40,9 @@ class Topic:
     subtopics: list = Factory(list)
     problems: list = Factory(list)
 
+    def __lt__(self, other):
+        return self.id_ < other.id_
+
     def tex_data(self):
         constants = sum([p.tex_constants() for p in self.problems])
         elements = []
@@ -151,9 +154,11 @@ def topic2pdf(topic):
 def links2topic(cur, id_, problem_links, **kwargs):
     # gera o simulado a partir dos dados
     print('Carregando problemas...')
-    problems = {}
+    problems = []
     for title, links in problem_links.items():
-        problems[title] = links2problemset(cur, links)
+        problems.append(
+            links2problemset(cur, links, id_=title[0], title=title)
+        )
     return Topic(id_, problems=problems, **kwargs)
 
 
@@ -184,7 +189,7 @@ def file2topic(args):
     if 'problems' in tfile:
         kwargs['problems'] = [
             problemset.filter(
-                'id_', ids, title=t, id_=f'{id_}{i}'
+                'id_', ids, title=t, id_=f'{id_}{i+1}'
             )
             for i, (t, ids) in enumerate(tfile['problems'].items())
         ]
@@ -277,7 +282,7 @@ def load_arsenal(path):
     pool = Pool()
     topics = pool.map(file2topic, [(t, problem_set) for t in topic_files])
 
-    ars = Arsenal(problem_set, topics)
+    ars = Arsenal(problem_set, sorted(topics))
 
     ars.dump(path)
 

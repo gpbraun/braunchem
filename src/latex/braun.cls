@@ -1941,10 +1941,24 @@
         maketitle / logo / value = pensi,
         problems / name = Questão,
         problems / template = ITA,
-        graphics / width = 10cm,
-        graphics / height = 7cm,
+        graphics / width = \linewidth,
+        graphics / height = 5cm,
+    }
+
+
+\DeclareBraunTemplate { ITAobj }
+    {
+        ITA,
 		problems / breakable = true,
 		problems / vfill = false,
+    }
+
+
+\DeclareBraunTemplate { ITAdis }
+    {
+        ITA,
+		problems / breakable = false,
+		problems / vfill = true,
     }
 
 %============================================================%
