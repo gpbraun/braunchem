@@ -3,7 +3,7 @@
 #
 
 from topic import load_arsenal
-from convert import copy_r
+from convert import copy_r, copy_all
 
 
 def main():
@@ -14,6 +14,12 @@ def main():
         'database/arsenal.json',
         '/home/braun/Documents/Developer/BraunChem/database/arsenal.json'
     )
+
+    for q in ['Q1', 'Q2', 'Q3']:
+        copy_all(
+            f'archive/{q}',
+            '/home/braun/Documents/Drive/Material/Listas'
+        )
 
 
 if __name__ == "__main__":

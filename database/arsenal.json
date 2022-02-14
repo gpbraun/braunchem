@@ -85,7 +85,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da energia liberada por\n$\\pu{5 g}$ de sódio em uma lâmpada que produz luz amarela com\ncomprimento de onda $\\pu{590 nm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{200 kJ}$\n"
+                "$\\pu{500 kJ}$\n"
               ],
               "constants": {
                 "data": []
@@ -94,7 +94,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 1,
+              "obj": 4,
               "choices": [
                 "$\\pu{100 kJ}$\n",
                 "$\\pu{200 kJ}$\n",
@@ -105,10 +105,10 @@
             },
             {
               "id_": "1A02",
-              "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos por uma lâmpada de $\\pu{40 W}$ que produz luz azul com\ncomprimento de onda $\\pu{470 nm}$.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos em $\\pu{2 s}$ por uma lâmpada de $\\pu{40 W}$ que produz luz\nazul com comprimento de onda $\\pu{470 nm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{7e16}$\n"
+                "$\\pu{2e18}$\n"
               ],
               "constants": {
                 "data": []
@@ -119,11 +119,11 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\pu{7e15}$\n",
-                "$\\pu{7e16}$\n",
-                "$\\pu{7e17}$\n",
-                "$\\pu{7e18}$\n",
-                "$\\pu{7e19}$\n"
+                "$\\pu{2e17}$\n",
+                "$\\pu{2e18}$\n",
+                "$\\pu{2e19}$\n",
+                "$\\pu{2e20}$\n",
+                "$\\pu{2e11}$\n"
               ]
             },
             {
@@ -277,11 +277,11 @@
               "data": {
                 "data": [
                   {
-                    "id_": "Tf-Fe",
-                    "name": "Temperatura de fusão do \\ce{Fe} ",
-                    "symbol": "T^{}_{\\mathrm{fus} }(\\ce{Fe} )",
-                    "value": "1540",
-                    "unit": "K"
+                    "id_": 0,
+                    "name": "$T_\\text{fus}(\\ce{Fe}) = \\pu{1540 \\degree C}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
                   }
                 ]
               },
@@ -1169,7 +1169,7 @@
             },
             {
               "id_": "1A48",
-              "statement": "Os elétrons $\\pi$ em hidrocarbonetos cíclicos conjugados podem ser\nmodelados como partículas em um anel que circunscreve os átomos de\ncarbono.\n\n-   **Prove** que os níveis de energia para esse sistema são dados por\n    $E(n) = \\dfrac{n^2\\hbar^2}{2m_eR^2}$, onde\n    $n = 0, \\pm 1, \\pm 2, \\pm 3, \\ldots$\n\n-   **Prove** que esse sistema é mais estável quando o número de\n    elétrons é $N = 4k + 2$ onde $k = 0, 1, 2, 3\\ldots$ Esse resultado é\n    conhecido como *Regra de Hückel*.\n",
+              "statement": "Os elétrons $\\pi$ em hidrocarbonetos cíclicos conjugados podem ser\nmodelados como partículas em um anel que circunscreve os átomos de\ncarbono.\n\n-   **Prove** que os níveis de energia para esse sistema são dados por\n    $$\n        E(n) = \\dfrac{n^2\\hbar^2}{2m_eR^2}\n        $$ onde $n = 0, \\pm 1, \\pm 2, \\pm 3, \\ldots$\n\n-   **Prove** que esse sistema é mais estável quando o número de\n    elétrons é $$\n        N = 4k + 2\n        $$ onde $k = 0, 1, 2, 3\\ldots$. Esse resultado é conhecido como\n    *Regra de Hückel*.\n",
               "solution": "\n",
               "answer": [
                 "Demostração.\n"
@@ -1450,29 +1450,6 @@
               ]
             },
             {
-              "id_": "1B10",
-              "statement": "O gráfico abaixo, mostra a função de onda de um orbital do átomo de\nhidrogênio.\n\n![Função de onda por distância.](1B10-1P.svg)\n\n**Assinale** a alternativa com a identidade desse orbital.\n",
-              "solution": "",
-              "answer": [
-                "$3p$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 3,
-              "choices": [
-                "$1s$\n",
-                "$2p$\n",
-                "$3s$\n",
-                "$3p$\n",
-                "$4s$\n"
-              ]
-            },
-            {
               "id_": "1B09",
               "statement": "Considere a isosuperfície de um orbital do hidrogênio.\n\n![Isosuperfície.](1B09.svg)\n\n**Assinale** a alternativa com a identidade desse orbital.\n",
               "solution": "",
@@ -1493,6 +1470,29 @@
                 "$3d_{z^2}$\n",
                 "$4p_z$\n",
                 "$4d_{z^2}$\n"
+              ]
+            },
+            {
+              "id_": "1B10",
+              "statement": "O gráfico abaixo, mostra a função de onda de um orbital do átomo de\nhidrogênio.\n\n![Função de onda por distância.](1B10-1P.svg)\n\n**Assinale** a alternativa com a identidade desse orbital.\n",
+              "solution": "",
+              "answer": [
+                "$3p$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$1s$\n",
+                "$2p$\n",
+                "$3s$\n",
+                "$3p$\n",
+                "$4s$\n"
               ]
             },
             {
@@ -2168,7 +2168,7 @@
               "answer": [
                 "$[\\ce{Ar}]3d^{10}4s^1$\n",
                 "$[\\ce{Ar}]3d^54s^1$\n",
-                "Devido à simetria semiesférica e simetria esférica do bloco $d$.\n"
+                "Simetria.\n"
               ],
               "constants": {
                 "data": []
@@ -2198,29 +2198,6 @@
               "elements": [],
               "obj": -1,
               "choices": []
-            },
-            {
-              "id_": "1B38",
-              "statement": "Considere a energia dos orbitais $5s$ e $4d$ em função do número\natômico, a seguir.\n\n![Energia por número atômico.](1B38-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
-              "solution": "",
-              "answer": [
-                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\psi_a$ representa o subnível $5s$ e $\\psi_b$ o subnível $4d$.\n",
-                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n",
-                "A configuração eletrônica para o zircônio é $[\\ce{Kr}] 5s^2 4d^2$.\n",
-                "A configuração eletrônica para o ródio é $[\\ce{Kr}] 5s^1 4d^8$.\n",
-                "A configuração eletrônica para o paládio é $[\\ce{Kr}] 4d^{10}$.\n"
-              ]
             },
             {
               "id_": "1B39",
@@ -2301,6 +2278,35 @@
               "choices": []
             },
             {
+              "id_": "1B38",
+              "statement": "Considere a energia dos orbitais $5s$ e $4d$ em função do número\natômico, a seguir.\n\n![Energia por número atômico.](1B38-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\psi_a$ representa o subnível $5s$ e $\\psi_b$ o subnível $4d$.\n",
+                "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n",
+                "A configuração eletrônica para o zircônio é $[\\ce{Kr}] 5s^2 4d^2$.\n",
+                "A configuração eletrônica para o ródio é $[\\ce{Kr}] 5s^1 4d^8$.\n",
+                "A configuração eletrônica para o paládio é $[\\ce{Kr}] 4d^{10}$.\n"
+              ]
+            }
+          ],
+          "id_": "1B2",
+          "title": "Nível II"
+        },
+        {
+          "problems": [
+            {
               "id_": "1B43",
               "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo. $$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do nióbio, que possui\n    $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
               "solution": "\n",
@@ -2318,10 +2324,101 @@
               "elements": [],
               "obj": -1,
               "choices": []
+            },
+            {
+              "id_": "1B45",
+              "statement": "Considere o elemento **X**, de número atômico $Z=119$.\n\n-   **Determine** a configuração eletrônica do estado fundamental de\n    **X**.\n-   **Determine** os números quânticos do elétron mais energético de\n    **X**.\n-   **Determine** a configuração eletrônica de **X**, supondo que o\n    número quântico de *spin* possa assumir três valores.\n",
+              "solution": "\n",
+              "answer": [
+                "$[\\ce{Og}] 8s^1$\n",
+                "$n= 8, l=0, m=0$\n",
+                "$1s^3 2s^3 2p^9 3s^3 3p^9 4s^3 3d^{15} 4p^9 5s^3 4d^{15} 5p^9 6s^3 4f^{21} 5d^{14}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B49",
+              "statement": "Considere um universo paralelo onde o número quântico azimutal é sempre\nigual ao número quântico principal. Nesse universo, o número quântico\nmagnético pode assumir os valores $-1$, $0$ e $+1$, independentemente\ndos valores dos outros números quânticos.\n\n**Determine** o número de orbitais nos primeiros três níveis dos átomos\ndesse universo.\n",
+              "solution": "\n",
+              "answer": [
+                "9 orbitais\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B47",
+              "statement": "Considere um universo paralelo quadridimensional, onde os átomos possuem\num orbital $s$ e quatro orbitais $p$ em cada nível.\n\n-   **Determine** o número de elementos nos primeiros três períodos da\n    tabela periódica desse universo.\n-   **Determine** o número atômico dos primeiros dois gases nobres desse\n    universo.\n",
+              "solution": "\n",
+              "answer": [
+                "2, 10, 10\n",
+                "2, 12\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B48",
+              "statement": "Considere um universo paralelo em que existe uma regra análoga ao\nprincípio da exclusão, que permite que no máximo dois elétrons no mesmo\nátomo possam ter o mesmo conjunto de quatro números quânticos.\n\n-   **Apresente** a configuração eletrônica do elemento com número\n    atômico $Z=5$ nesse universo.\n-   **Determine** a carga íon mais estável formado pelo elemento com\n    número atômico $Z=7$ nesse universo.\n-   **Determine** o número atômico dos primeiros dois gases nobres desse\n    universo.\n",
+              "solution": "\n",
+              "answer": [
+                "$1s^4 2s^1$\n",
+                "$+2$\n",
+                "20\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "1B46",
+              "statement": "Considere um universo onde o *spin* eletrônico é dado por: $$\ns = \\dfrac{l+1}{2}\n$$ Onde $l$ é o número quântico azimutal. O número quântico magnético de\nspin pode assumir os valores: $-s, -s + 1, \\ldots , s - 1, s$\n\n-   **Determine** o número máximo de elétrons que podem existir\n    simultaneamente em cada um dos orbitais $s$, $p$, $d$ e $f$.\n-   **Determine** quantidade de máxima de elétrons com número quântico\n    azimutal $l$ para um dado número quântico principal em um átomo.\n",
+              "solution": "\n",
+              "answer": [
+                "$N_s = 2, N_p = 3, N_d = 4, N_f = 5$\n",
+                "$(2l + 1)(l + 2) = 2l^2 + 5l + 2$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
             }
           ],
-          "id_": "1B2",
-          "title": "Nível II"
+          "id_": "1B3",
+          "title": "Nível III"
         }
       ]
     },
@@ -3802,7 +3899,22 @@
                 "data": []
               },
               "data": {
-                "data": []
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{H2O, {g}}) = \\pu{0.5 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{H2O, {l}}) = \\pu{1.0 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
               },
               "elements": [],
               "obj": 2,
@@ -6010,52 +6122,6 @@
               ]
             },
             {
-              "id_": "2B15",
-              "statement": "**Assinale** a alternativa que mais se aproxima da entropia residual do\nmonóxido de carbono.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{11,5 J.K-1.mol-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\pu{5,76 J.K-1.mol-1}$\n",
-                "$\\pu{11,5 J.K-1.mol-1}$\n",
-                "$\\pu{17,2 J.K-1.mol-1}$\n",
-                "$\\pu{23,1 J.K-1.mol-1}$\n",
-                "$\\pu{28,8 J.K-1.mol-1}$\n"
-              ]
-            },
-            {
-              "id_": "2B16",
-              "statement": "Considere as moléculas:\n\n1.  $\\ce{CO2}$\n2.  $\\ce{NO}$\n3.  $\\ce{N2O}$\n4.  $\\ce{Cl2}$\n\n**Assinale** a alternativa que relaciona as moléculas com entropia\nresidual não nula.\n",
-              "solution": "",
-              "answer": [
-                "**2** e **3**"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 2,
-              "choices": [
-                "**2**",
-                "**3**",
-                "**2** e **3**",
-                "**1**, **2** e **3**",
-                "**2**, **3** e **4**"
-              ]
-            },
-            {
               "id_": "2B17",
               "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\npara a formação da amônia.\n",
               "solution": "",
@@ -6170,7 +6236,7 @@
             },
             {
               "id_": "2B20",
-              "statement": "Considere as reações:\n\n1.  $\\ce{Cl2(g)} + \\ce{H2O(l) -> HCl(aq)} + \\ce{HClO(aq)}$\n2.  $\\ce{Cu3(PO4)2(s) -> 3 Cu^2+ (aq)} + \\ce{2 PO4^{3-}(aq)}$\n3.  $\\ce{SO2(g)} + \\ce{Br2(g)} + \\ce{2 H2O(l) -> H2SO4(aq)} + \\ce{2 HBr(aq)}$\n4.  $\\ce{4 NH3(g)} + \\ce{5 O2(g) -> 4 NO(g)} + \\ce{6 H2O(g)}$\n\n**Assinale** a alternativa que relaciona as reações com variação\npositiva de entropia.\n",
+              "statement": "Considere as reações:\n\n1.  $\\ce{Cl2(g) + H2O(l) -> HCl(aq) + HClO(aq)}$\n2.  $\\ce{Cu3(PO4)2(s) -> 3 Cu^2+ (aq) + 2 PO4^{3-}(aq)}$\n3.  $\\ce{SO2(g) + Br2(g) + 2 H2O(l) -> H2SO4(aq) + 2 HBr(aq)}$\n4.  $\\ce{4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)}$\n\n**Assinale** a alternativa que relaciona as reações com variação\npositiva de entropia.\n",
               "solution": "",
               "answer": [
                 "**2** e **4**"
@@ -6479,10 +6545,242 @@
                 "$\\pu{154 J.mol-1K-1}$\n",
                 "$\\pu{90,0 J.mol-1K-1}$\n"
               ]
+            },
+            {
+              "id_": "2B15",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entropia residual do\nmonóxido de carbono.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{11,5 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{5,76 J.K-1.mol-1}$\n",
+                "$\\pu{11,5 J.K-1.mol-1}$\n",
+                "$\\pu{17,2 J.K-1.mol-1}$\n",
+                "$\\pu{23,1 J.K-1.mol-1}$\n",
+                "$\\pu{28,8 J.K-1.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2B16",
+              "statement": "Considere as moléculas:\n\n1.  $\\ce{CO2}$\n2.  $\\ce{NO}$\n3.  $\\ce{N2O}$\n4.  $\\ce{Cl2}$\n\n**Assinale** a alternativa que relaciona as moléculas com entropia\nresidual não nula.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
             }
           ],
           "id_": "2B2",
           "title": "Nível II"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2B31",
+              "statement": "Considere a vaporização de $\\pu{1 mol}$ de acetona a $\\pu{296 K}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{98,3 J.K-1.mol-1}$\n",
+                "$\\pu{108 J.K-1.mol-1}$\n",
+                "$\\pu{-10,4 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$C_P(\\text{acetona, l}) = \\pu{127 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$T_\\text{eb}(\\text{acetona}) = \\pu{329 K}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\text{acetona}) = \\pu{29,1 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B32",
+              "statement": "Uma amostra de $\\pu{71 g}$ de cloro, inicialmente a $\\pu{300 K}$ e\n$\\pu{100 atm}$ se expande contra uma pressão constante de $\\pu{1 atm}$\naté o estado de equilíbrio. Como resultado da expansão, $10\\%$ da massa\nde gás é condensada.\n\n-   **Determine** a variação de energia interna do sistema.\n-   **Determine** a variação de entropia do sistema.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{-3590 kJ.mol-1}$\n",
+                "$\\pu{21,35 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$T_\\text{eb}(\\ce{Cl2}) = \\pu{239 K}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{Cl2}) = \\pu{20,42 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{Cl2, {l}}) = \\pu{1,56 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-Cl2(g)",
+                    "name": "Capacidade calorífica do \\ce{Cl2} (g)",
+                    "symbol": "C_P(\\ce{Cl2, {g}} )",
+                    "value": "33,91",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B33",
+              "statement": "Em um calorímetro isolado são misturadas duas amostras de massa $m$ de\num líquido de calor específico $c$ em temperaturas $T_1$ e $T_2$.\n\n-   **Determine** a variação de entropia de mistura\n-   **Prove** que a variação de entropia é sempre positiva.\n",
+              "solution": "\n",
+              "answer": [
+                "$2m c \\ln\\left(\\dfrac{T_1 + T_2}{2\\sqrt{T_1T_2}}\\right)$\n",
+                "Demonstração.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B34",
+              "statement": "Considere um sistema com $k$ cilindros, cada um contendo certa\nquantidade de um gás ideal diferente. Os cilindros são conectados e os\ngases se misturam isotermicamente.\n\nDetermina a variação de entropia de mistura. Determine a variação de\nentropia máxima.\n",
+              "solution": "\n",
+              "answer": [
+                "$-nR \\sum_{i=1}^k x_i \\ln x_i$\n",
+                "$nR \\ln(k)$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B35",
+              "statement": "A capacidade calorífica de certas substâncias pode ser calculada como:\n$$\nC_P = a +  b T + \\dfrac{c}{T^2}\n$$\n\n**Determine** a variação de entropia quando o grafite é aquecido de\n$\\pu{298 K}$ a $\\pu{400 K}$.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{3,31 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$a(\\text{grafite, s}) = \\pu{16,68 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$b(\\text{grafite, s}) = \\pu{4,77 mJ.K-2.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$c(\\text{grafite, s}) = \\pu{-854 kJ.K.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2B36",
+              "statement": "Em baixas temperaturas, a capacidade calorífica um dado material é\nproporcional a $T^2$.\n\n**Prove** que, para temperaturas muito baixas, a desse material é igual\na metade de sua capacidade calorífica na mesma temperatura.\n",
+              "solution": "\n",
+              "answer": [
+                "Demonstração\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "2B3",
+          "title": "Nível III"
         }
       ]
     },
@@ -7043,17 +7341,17 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Lei dos Gases Ideais\n\n1. Definição de gás ideal.\n2. Pressão\n3. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n4. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n5. Volume molar.\n6. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** as funções de estado para uma dada condição.\n- **Calcular** as funções de estado para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial.\n2. Massa molar média.\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n\n# Estequiometria de Gases\n\n1. Análise de combustão.\n2. Coleta de gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.\n\n# Movimento Molecular\n\n1. Modelo cinético dos gases.\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham.\n   $$\n   \\dfrac{v_2}{v_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal.\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.",
+      "contents": "# Lei dos Gases Ideais\n\n1. Definição de gás ideal.\n2. Pressão.\n3. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n4. Volume molar.\n5. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n6. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** as funções de estado para uma dada condição.\n- **Calcular** as funções de estado para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial.\n2. Lei de Dalton.\n3. Massa molar média.\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n\n# Estequiometria de Gases\n\n1. Análise de combustão.\n2. Coleta de gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.\n\n# Movimento Molecular\n\n1. Modelo cinético dos gases.\n   $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham.\n   $$\n   \\dfrac{v_2}{v_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal.\n   $$\n   \n   $$\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.",
       "subtopics": [
         {
           "id_": "3A.1",
           "title": "Lei dos Gases Ideais",
           "items": [
             "Definição de gás ideal.\n",
-            "Pressão\n",
+            "Pressão.\n",
             "Lei dos Gases Ideais: $$\n   PV=nRT\n   $$\n",
-            "[Condições Normais de Temperatura e Pressão\n(CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n",
             "Volume molar.\n",
+            "[Condições Normais de Temperatura e Pressão\n(CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n",
             "Densidade do gás ideal: $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n"
           ],
           "abilities": [
@@ -7067,6 +7365,7 @@
           "title": "Misturas de Gases",
           "items": [
             "Pressão parcial.\n",
+            "Lei de Dalton.\n",
             "Massa molar média.\n"
           ],
           "abilities": [
@@ -7090,7 +7389,7 @@
           "id_": "3A.4",
           "title": "Movimento Molecular",
           "items": [
-            "Modelo cinético dos gases.\n",
+            "Modelo cinético dos gases. $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n",
             "Distribuição de Maxwell-Boltzmann.\n",
             "Difusão e efusão.\n",
             "Lei de Graham. $$\n   \\dfrac{v_2}{v_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n"
@@ -7106,9 +7405,7 @@
           "id_": "3A.5",
           "title": "Energia do Gás Ideal.",
           "items": [
-            "Energia interna do gás ideal.\n",
-            "Teorema da Equipartição.\n",
-            "Origem molecular da capacidade calorífica \\| \\| Átomos \\| Lineares \\|\nNão lineares \\| \\| \\-- \\| \\-- \\| \\-- \\| \\-- \\| \\| $C_V$ \\|\n$\\frac{3}{2}R$ \\| $\\frac{5}{2}R$ \\| $3R$ \\| \\| $C_P$ \\| $\\frac{5}{2}R$\n\\| $\\frac{7}{2}R$ \\| $4R$ \\|\n"
+            "Energia interna do gás ideal. \\$\\$\n"
           ],
           "abilities": [
             "**Comparar** a capacidade calorífica de gases.\n"
@@ -7330,7 +7627,7 @@
               "statement": "Considere a distribuição de velocidades de três amostras de hélio,\n**A**, **B** e **C**.\n\n![Fração por velocidade.](3A04-1P.svg)\n\n**Assinale** a alternativa com a temperatura de **A**, **B** e **C**,\nrespectivamente.\n",
               "solution": "",
               "answer": [
-                "$\\pu{1100 K}, \\pu{700 K}, \\pu{300 K}$\n"
+                "$\\pu{300 K}, \\pu{700 K}, \\pu{1100 K}$\n"
               ],
               "constants": {
                 "data": []
@@ -7339,7 +7636,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 4,
+              "obj": 0,
               "choices": [
                 "$\\pu{300 K}, \\pu{700 K}, \\pu{1100 K}$\n",
                 "$\\pu{300 K}, \\pu{1100 K}, \\pu{700 K}$\n",
@@ -7407,7 +7704,7 @@
               "statement": "Uma amostra de $\\pu{500 mL}$ de gás medindo a $\\pu{28 \\degree C}$ exerce\npressão de $\\pu{92 kPa}$.\n\n**Assinale** a alternativa com a pressão exercida pela amostra quando\nfor comprimida até $\\pu{300 mL}$ e resfriada até $\\pu{25 \\degree C}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{137 kPa}$\n"
+                "$\\pu{150 kPa}$\n"
               ],
               "constants": {
                 "data": []
@@ -7420,9 +7717,9 @@
               "choices": [
                 "$\\pu{130 kPa}$\n",
                 "$\\pu{140 kPa}$\n",
-                "$\\pu{137 kPa}$\n",
-                "$\\pu{144 kPa}$\n",
-                "$\\pu{135 kPa}$\n"
+                "$\\pu{150 kPa}$\n",
+                "$\\pu{160 kPa}$\n",
+                "$\\pu{170 kPa}$\n"
               ]
             },
             {
