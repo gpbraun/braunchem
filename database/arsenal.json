@@ -3902,14 +3902,7 @@
                 "data": [
                   {
                     "id_": 0,
-                    "name": "$\\rho(\\ce{H2O, {g}}) = \\pu{0.5 g.cm-3}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\rho(\\ce{H2O, {l}}) = \\pu{1.0 g.cm-3}$",
+                    "name": "$\\rho(\\ce{H2O, {s}}) = \\pu{0,92 g.cm-3}$",
                     "symbol": "",
                     "value": 0.0,
                     "unit": ""
@@ -8615,7 +8608,395 @@
           ]
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "3B01",
+              "statement": "Considere um gás modelado pela equação de Van der Waals.\n\n1.  Ao dobrar a quantidade de gás em um recipiente, mantendo volume e\n    temperatura constantes, a frequência de choque das partículas com as\n    paredes do recipiente também dobrará, portanto, a pressão de gás\n    dobrará.\n2.  Considerando as interações intermoleculares na fase gasosa, de\n    natureza atrativa, há uma redução na frequência de choque das\n    partículas com as paredes do recipiente, resultando em uma pressão\n    menor do que a prevista pela Lei dos Gases Ideais.\n3.  Considerando o volume intrínseco do sistema, parte do volume do\n    recipiente não está disponível para as moléculas de gás, resultando\n    em um volume menor do que o previsto pela Lei dos Gases Ideais.\n4.  A equação de Van der Waals se aproxima à Lei dos Gases Ideais sob\n    baixas pressões e altas temperaturas.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**4**",
+                "**2** e **4**",
+                "**1**, **2** e **4**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "3B04",
+              "statement": "**Assinale** a alternativa com as moléculas em ordem crescente do\nparâmetro a de Van der Waals\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Ne}$, $\\ce{F2}$, $\\ce{CH4}$, $\\ce{C6H6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{Ne}$, $\\ce{F2}$, $\\ce{CH4}$, $\\ce{C6H6}$\n",
+                "$\\ce{Ne}$, $\\ce{F2}$, $\\ce{C6H6}$, $\\ce{CH4}$\n",
+                "$\\ce{Ne}$, $\\ce{C6H6}$, $\\ce{F2}$, $\\ce{CH4}$\n",
+                "$\\ce{F2}$, $\\ce{Ne}$, $\\ce{CH4}$, $\\ce{C6H6}$\n",
+                "$\\ce{F2}$, $\\ce{Ne}$, $\\ce{C6H6}$, $\\ce{CH4}$\n"
+              ]
+            },
+            {
+              "id_": "3B05",
+              "statement": "**Assinale** a alternativa com o valor aproximado do parâmetro\n$a/(\\pu{1e-2 bar.L2.mol-2})$ de Van der Waals para os gases $\\ce{HCl}$,\n$\\ce{CH3CN}$, $\\ce{Ne}$ e $\\ce{CH4}$, respectivamente.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{17,8}; \\pu{3,7}; \\pu{0,2}; \\pu{2,3}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{3,7}; \\pu{17,8}; \\pu{2,3}; \\pu{0,2}$\n",
+                "$\\pu{17,8}; \\pu{0,2}; \\pu{3,7}; \\pu{2,3}$\n",
+                "$\\pu{3,7}; \\pu{17,8}; \\pu{0,2}; \\pu{2,3}$\n",
+                "$\\pu{0,2}; \\pu{2,3}; \\pu{17,8}; \\pu{3,7}$\n",
+                "$\\pu{17,8}; \\pu{3,7}; \\pu{0,2}; \\pu{2,3}$\n"
+              ]
+            },
+            {
+              "id_": "3B06",
+              "statement": "**Assinale** a alternativa com as moléculas em ordem crescente do\nparâmetro $b$ de Van der Waals.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{Kr}$, $\\ce{CO2}$, $\\ce{SO2}$, $\\ce{CCl4}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\ce{Kr}$, $\\ce{CCl4}$, $\\ce{CO2}$, $\\ce{SO2}$\n",
+                "$\\ce{Kr}$, $\\ce{CO2}$, $\\ce{SO2}$, $\\ce{CCl4}$\n",
+                "$\\ce{CO2}$, $\\ce{Kr}$, $\\ce{SO2}$, $\\ce{CCl4}$\n",
+                "$\\ce{SO2}$, $\\ce{CO2}$, $\\ce{Kr}$, $\\ce{CCl4}$\n",
+                "$\\ce{SO2}$, $\\ce{CO2}$, $\\ce{CCl4}$, $\\ce{Kr}$\n"
+              ]
+            },
+            {
+              "id_": "3B07",
+              "statement": "**Assinale** a alternativa com o valor aproximado do parâmetro\n$b/(\\pu{1e-2 L.mol-1}$) de Van der Waals para os gases $\\ce{Br2}$,\n$\\ce{N2}$, $\\ce{He}$ e $\\ce{SF6}$, respectivamente.\n",
+              "solution": "",
+              "answer": [
+                "$5,9; 3,8; 2,4; 8,8$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$8,8; 3,8; 2,4; 5,9$\n",
+                "$5,9; 8,8; 2,4; 3,8$\n",
+                "$5,9; 2,4; 3,8; 8,8$\n",
+                "$5,9; 3,8; 2,4; 8,8$\n",
+                "$8,8; 2,4; 3,8; 5,9$\n"
+              ]
+            },
+            {
+              "id_": "3B03",
+              "statement": "**Assinale** a alternativa que mais se aproxima da pressão exercida por\n$\\pu{25 mol}$ de oxigênio em um cilindro de $\\pu{10 L}$ em\n$\\pu{25 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{59 bar}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$a=\\pu{1,382 bar.L-2.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$b = \\pu{3,19e-2 L.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{57 bar}$\n",
+                "$\\pu{59 bar}$\n",
+                "$\\pu{61 bar}$\n",
+                "$\\pu{63 bar}$\n",
+                "$\\pu{65 bar}$\n"
+              ]
+            },
+            {
+              "id_": "3B02",
+              "statement": "**Assinale** a alternativa que mais se aproxima da pressão exercida por\n$\\pu{1,50 mol}$ de um gás refrigerante em um cilindro de $\\pu{5 L}$ a\n$\\pu{0 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5,51 bar}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$a_\\text{refrigerante} =\\pu{16,4 bar.L-2.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$b_\\text{refrigerante} = \\pu{8,4e-2 L.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{5,51 bar}$\n",
+                "$\\pu{5,81 bar}$\n",
+                "$\\pu{6,51 bar}$\n",
+                "$\\pu{6,81 bar}$\n",
+                "$\\pu{7,51 bar}$\n"
+              ]
+            },
+            {
+              "id_": "3B08",
+              "statement": "Considere o fator de compressibilidade.\n\n![Fator por pressão.](3B08-1P.svg)\n\n**Assinale** a alternativa que relaciona as curvas para referentes às\nespécies $\\ce{H2}$, $\\ce{NH3}$, $\\ce{CH4}$ e $\\ce{C2H6}$\nrespectivamente.\n",
+              "solution": "",
+              "answer": [
+                "**D, A, C, B**\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**A, B, C, D**\n",
+                "**B, C, A, D**\n",
+                "**D, A, B, C**\n",
+                "**D, A, C, B**\n",
+                "**D, C, B, A**\n"
+              ]
+            },
+            {
+              "id_": "3B10",
+              "statement": "**Assinale** a alternativa que mais se aproxima do raio de Van der Waals\ndo átomo de hélio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{200 pm}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$b(\\ce{He}) = \\pu{2,38e-2 L/mol}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{100 pm}$\n",
+                "$\\pu{200 pm}$\n",
+                "$\\pu{300 pm}$\n",
+                "$\\pu{400 pm}$\n",
+                "$\\pu{500 pm}$\n"
+              ]
+            },
+            {
+              "id_": "3B09",
+              "statement": "Considere o fator de compressibilidade.\n\n![Fator por pressão.](3B09-1P.svg)\n\n**Assinale** a alternativa que relaciona as curvas em ordem crescente de\ntemperatura.\n",
+              "solution": "",
+              "answer": [
+                "**A, B, C**\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "**A, B, C**\n",
+                "**A, C, B**\n",
+                "**B, C, A**\n",
+                "**C, A, B**\n",
+                "**C, B, A**\n"
+              ]
+            }
+          ],
+          "id_": "3B1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "3B11",
+              "statement": "**Esboce** o gráfico da pressão em função do volume para $\\pu{1 mol}$ de\num gás ideal, de oxigênio e de amônia no intervalo de $\\pu{5 mL}$ a\n$\\pu{1,0 L}$ em $\\pu{298 K}$.\n",
+              "solution": "\n",
+              "answer": [
+                "Esboço\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3B12",
+              "statement": "Considere um gás modelado pela equação de estado $$\nP(V - nb) = nRT\n$$ **Determine** seu fator de compressibilidade quando $V = 10 n b$.\n",
+              "solution": "\n",
+              "answer": [
+                "10/9\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3B13",
+              "statement": "Considere dois gases que podem ser modelados pelas equações de estado\n\n1.  $PV = nRT \\left(1 + \\dfrac{nb}{V} \\right)$\n2.  $P(V - nb) = nRT$\n\nOnde $b$ é uma constante\n\n-   **Verifique** qual dos gases pode ser liquefeito.\n-   **Verifique** qual dos gases possui ponto crítico.\n",
+              "solution": "\n",
+              "answer": [
+                "Gás 1.\n",
+                "Gás 1.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3B14",
+              "statement": "A temperatura de Boyle, $T_\\text{B}$, é definida como a temperatura em\nque um gás real se comporta como gás real no maior intervalo de pressão\npossível. Assim, em $T= T_\\text{B}$ a inclinação da curva $Z \\times P$ é\nnula em $P=0$.\n\n-   **Determine** a temperatura de Boyle para um gás de Van der Waals.\n-   **Determine** a inclinação máxima.\n\nConsidere: $(1+x)^n \\approx 1+nx$\n",
+              "solution": "\n",
+              "answer": [
+                "$T_\\text{B} = \\dfrac{a}{Rb}$.\n",
+                "$\\dfrac{b}{RT}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3B15",
+              "statement": "Considere um gás de Van der Waals.\n\n-   **Determine** o volume para que a compressibilidade seja mínima.\n-   **Determine** a condição para haver compressibilidade mínima.\n",
+              "solution": "\n",
+              "answer": [
+                "$V = \\dfrac{b}{1-\\sqrt{T/T_\\text{B} } }$ onde\n$T_\\text{B} = \\dfrac{a}{Rb}$\n",
+                "$T < T_\\text{B}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3B16",
+              "statement": "Considere um gás de Van der Waals.\n\n-   **Esboçe** as isotermas para esse gás e para um gás real que sofre\n    liquefação.\n-   **Determine** a pressão, temperatura e volume molar no ponto\n    crítico.\n-   **Determine** o fator de compressibilidade para um gás de Van der\n    Waals no ponto crítico.\n",
+              "solution": "\n",
+              "answer": [
+                "Esboço\n",
+                "$V_\\text{crítico} = 3c, P_\\text{crítico} = \\dfrac{a}{27 b^2}, T_\\text{crítico} = \\dfrac{8a}{27 Rb}$\n",
+                "$3/8$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "3B2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "3C",
