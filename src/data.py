@@ -256,7 +256,7 @@ DATATYPES = {
     ),
     'Hc': DataType(
         'Entalpia de combustão do',
-        state('Hc', sub='c'),
+        state('H', sub='c'),
         'kJ.mol-1'
     ),
     # BONDS

@@ -7,7 +7,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Radiação Eletromagnética\n\n1. Relação entre frequência e comprimento de onda da radiação eletromagnética:\n    $$\n    c=\\lambda f\n    $$\n2. Energia da radiação eletromagnética:\n    $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n3. Espectro eletromagnético (IV, Vis, UV).\n\n### Habilidades\n\n- **Calcular** o comprimento de onda, a energia e a frequência da radiação.\n\n# Radiação de Corpo Negro\n\n1. Espectro de emissão do corpo negro.\n2. Lei de Stefan-Boltzmann.\n3. Lei de Wien: \n    $$ \n    T \\lambda_\\text{max} = \\pu{2,9 mm.K}\n    $$ \n\n### Habilidades\n\n- **Calcular** a temperatura de um corpo a partir da Lei de Wien.\n\n# Efeito Fotoelétrico\n\n1. Função trabalho.\n2. Conservação de Energia no Efeito Fotoelétrico: \n    $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n\n### Habilidades\n\n- **Calcular** a função trabalho de um metal.\n- **Comparar** a função trabalho de diferentes metais.\n\n# Dualidade Onda-Partícula\n\n1. Relação de De Broglie: \n    $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n2. Princípio da Incerteza de Heisenberg.\n3. Partícula na caixa unidimensional: \n    $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n\n### Habilidades\n\n- **Calcular** o comprimento de onda associado a uma partícula.\n- **Determinar** os níveis de energia para um sistema quântico utilizando a Relação de De Broglie.\n\n# Espectros Atômicos e Teoria de Bohr\n\n1. Espectros atômicos.\n2. Limitações do modelo de Rutherford.\n3. Quantização do momento angular.\n4. Níveis de energia no átomo de Bohr: \n    $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{n^2}{Z^2} = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n    $$\n5. Equação de Rydberg: \n    $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n6. Energia de ionização.\n7. Efeito da massa nuclear nos níveis de energia e [átomos exóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n8. Átomo de Sommerfeld.\n\n### Habilidades\n\n- **Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n- **Calcular** a energia, frequência e comprimento de onda de uma transição eletrônica a partir da Equação de Rydberg.",
+      "contents": "# Radiação Eletromagnética\n\n1. Relação entre frequência e comprimento de onda da radiação eletromagnética:\n    $$\n    c=\\lambda f\n    $$\n2. Energia da radiação eletromagnética:\n    $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n3. Espectro eletromagnético (IV, Vis, UV).\n\n### Habilidades\n\n- **Calcular** o comprimento de onda, a energia e a frequência da radiação.\n\n# Radiação de Corpo Negro\n\n1. Espectro de emissão do corpo negro.\n2. Lei de Stefan-Boltzmann.\n3. Lei de Wien: \n    $$ \n    T \\lambda_\\text{max} = \\pu{2,9 mm.K}\n    $$ \n\n### Habilidades\n\n- **Calcular** a temperatura de um corpo a partir da Lei de Wien.\n\n# Efeito Fotoelétrico\n\n1. Função trabalho.\n2. Conservação de Energia no Efeito Fotoelétrico: \n    $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n\n### Habilidades\n\n- **Calcular** a função trabalho de um metal.\n- **Comparar** a função trabalho de diferentes metais.\n\n# Dualidade Onda-Partícula\n\n1. Relação de De Broglie: \n    $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n2. Princípio da Incerteza de Heisenberg.\n3. Partícula na caixa unidimensional: \n    $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n\n### Habilidades\n\n- **Calcular** o comprimento de onda associado a uma partícula.\n- **Determinar** os níveis de energia para um sistema quântico utilizando a Relação de De Broglie.\n\n# Espectros Atômicos e Teoria de Bohr\n\n1. Espectros atômicos.\n2. Limitações do modelo de Rutherford.\n3. Quantização do momento angular.\n4. Níveis de energia no átomo de Bohr: \n    $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{Z^2}{n^2} = - (\\pu{13,6 eV}) \\dfrac{Z^2}{n^2} \n    $$\n5. Equação de Rydberg: \n    $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n6. Energia de ionização.\n7. Efeito da massa nuclear nos níveis de energia e [átomos exóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n8. Átomo de Sommerfeld.\n\n### Habilidades\n\n- **Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n- **Calcular** a energia, frequência e comprimento de onda de uma transição eletrônica a partir da Equação de Rydberg.",
       "subtopics": [
         {
           "id_": "1A.1",
@@ -65,7 +65,7 @@
             "Espectros atômicos.\n",
             "Limitações do modelo de Rutherford.\n",
             "Quantização do momento angular.\n",
-            "Níveis de energia no átomo de Bohr: $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{n^2}{Z^2} = - (\\pu{13,6 eV}) \\dfrac{n^2 }{Z^2} \n    $$\n",
+            "Níveis de energia no átomo de Bohr: $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{Z^2}{n^2} = - (\\pu{13,6 eV}) \\dfrac{Z^2}{n^2} \n    $$\n",
             "Equação de Rydberg: $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n",
             "Energia de ionização.\n",
             "Efeito da massa nuclear nos níveis de energia e [átomos\nexóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n",
@@ -784,7 +784,7 @@
                   {
                     "id_": "Hc-glicose(s)",
                     "name": "Entalpia de combustão do \\ce{glicose} (s)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}} )",
                     "value": "-2808",
                     "unit": "kJ.mol-1"
                   }
@@ -919,7 +919,7 @@
               "statement": "Considere o modelo de Bohr para o átomo de hidrogênio. Seja $a_0$ o raio\nda órbita do estado fundamental, $m$ a massa do elétron, $e$ a carga do\nelétron e $\\varepsilon_0$ a permissividade do vácuo.\n\n**Assinale** a alternativa com o período orbital para do $n$.\n",
               "solution": "",
               "answer": [
-                "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}$\n"
+                "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{\\pi\\epsilon_{0}ma_{0}}}{e}$\n"
               ],
               "constants": {
                 "data": []
@@ -928,7 +928,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 4,
+              "obj": 3,
               "choices": [
                 "$\\dfrac{e}{4\\pi a_{0}n^{3}\\sqrt{\\epsilon_{0}ma_{0}}}$\n",
                 "$\\dfrac{4\\pi a_{0}n^{3}\\sqrt{\\epsilon_{0}ma_{0}}}{e}$\n",
@@ -4096,7 +4096,7 @@
               "obj": 4,
               "choices": [
                 "O primeiro processo ocorre com absorção de calor.\n",
-                "O valor absoluto do trabalho realizado é maior no primeiro.\n",
+                "O valor absoluto do trabalho realizado é maior no segundo.\n",
                 "A variação de energia interna é maior no primeiro processo.\n",
                 "Há realização de trabalho no segundo processo.\n",
                 "A variação de energia interna é igual ao calor no segundo processo.\n"
@@ -4229,6 +4229,13 @@
                     "unit": "kJ.mol-1"
                   },
                   {
+                    "id_": "Hf-glicina(s)",
+                    "name": "Entalpia de formação do \\ce{glicina} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{glicina, {s}} )",
+                    "value": "-532,9",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
                     "id_": "Hf-ureia(s)",
                     "name": "Entalpia de formação do \\ce{ureia} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}} )",
@@ -4249,7 +4256,7 @@
             },
             {
               "id_": "2A13",
-              "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](2A13-1P.svg)\n\nConsidere as proposições.\n\n1.  Na região entre $P$ e $Q$ ocorre aumento da energia cinética.\n2.  Na região entre $Q$ e $R$ ocorre aumento da energia potencial.\n3.  O calor de fusão da substância é menor que o seu calor de\n    vaporização.\n4.  O calor específico do sólido é maior que o calor específico do\n    líquido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+              "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](2A13-1P.svg)\n\nConsidere as proposições.\n\n1.  Na região entre $P$ e $Q$ ocorre aumento da energia cinética.\n2.  Na região entre $Q$ e $R$ ocorre aumento da energia potencial.\n3.  O calor de fusão da substância é menor que o seu calor de\n    vaporização.\n4.  O calor específico do sólido é menor que o calor específico do\n    líquido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
               "answer": [
                 "**4**"
@@ -4285,7 +4292,7 @@
                   {
                     "id_": "Hc-CH4(g)",
                     "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}} )",
                     "value": "-890",
                     "unit": "kJ.mol-1"
                   },
@@ -4297,10 +4304,10 @@
                     "unit": "kJ.mol-1"
                   },
                   {
-                    "id_": "Hf-H2O(g)",
-                    "name": "Entalpia de formação do \\ce{H2O} (g)",
-                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-241,82",
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
+                    "value": "-285,83",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4394,6 +4401,20 @@
                     "unit": "kJ.mol-1"
                   },
                   {
+                    "id_": "HL-C-Br",
+                    "name": "Entalpia da ligação \\ce{C-Br} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-Br} )",
+                    "value": "276",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "HL-C-C",
+                    "name": "Entalpia da ligação \\ce{C-C} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C} )",
+                    "value": "348",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
                     "id_": "HL-C=C",
                     "name": "Entalpia da ligação \\ce{C=C} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C} )",
@@ -4434,7 +4455,7 @@
                   {
                     "id_": "Hc-CH4(g)",
                     "name": "Entalpia de combustão do \\ce{CH4} (g)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}} )",
                     "value": "-890",
                     "unit": "kJ.mol-1"
                   },
@@ -4545,7 +4566,7 @@
                   {
                     "id_": "Hc-propano(g)",
                     "name": "Entalpia de combustão do \\ce{propano} (g)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{propano, {g}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{propano, {g}} )",
                     "value": "-2220",
                     "unit": "kJ.mol-1"
                   },
@@ -4580,7 +4601,7 @@
               "statement": "Uma amostra de $\\pu{0,113 g}$ de benzeno é queimada em um calorímetro\nisobárico (C = $\\pu{551 J.\\degree C-1}$) com excesso de oxigênio. A\nelevação de temperatura registrada foi de $\\pu{8,60 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo benzeno.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-6,55 MJ}$\n"
+                "$\\pu{-3,25 MJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -4591,11 +4612,11 @@
               "elements": [],
               "obj": 0,
               "choices": [
-                "$\\pu{-6,55 MJ}$\n",
-                "$\\pu{-7,05 MJ}$\n",
-                "$\\pu{-8,90 MJ}$\n",
-                "$\\pu{-5,50 MJ}$\n",
-                "$\\pu{-9,75 MJ}$\n"
+                "$\\pu{-3,25 MJ.mol-1}$\n",
+                "$\\pu{-3,50 MJ.mol-1}$\n",
+                "$\\pu{-3,75 MJ.mol-1}$\n",
+                "$\\pu{-4,25 MJ.mol-1}$\n",
+                "$\\pu{-4,50 MJ.mol-1}$\n"
               ]
             },
             {
@@ -4613,7 +4634,7 @@
                   {
                     "id_": "Hc-C6H5COOH(s)",
                     "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}} )",
                     "value": "-3227",
                     "unit": "kJ.mol-1"
                   }
@@ -4704,7 +4725,7 @@
                   {
                     "id_": "Hc-butano(g)",
                     "name": "Entalpia de combustão do \\ce{butano} (g)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
                     "value": "-2878",
                     "unit": "kJ.mol-1"
                   }
@@ -4776,7 +4797,7 @@
                 "A substância apresenta mais de uma estrutura cristalina.\n",
                 "A capacidade calorífica da substância é menor no estado gasoso do que no\nestado líquido.\n",
                 "A capacidade calorífica para qualquer fase da substância aumenta com o\naumento da temperatura.\n",
-                "Caso a substância se mantenha no estado líquido em temperaturas\ninferiores a $T_f$, a capacidade calorífica da substância líquida é\nmaior que a capacidade calorífica da fase sólida metaestável em\ntemperaturas inferiores à $T_f$.\n",
+                "Caso a substância se mantenha no estado líquido em temperaturas\ninferiores a $T_\\text{fus}$, a capacidade calorífica da substância\nlíquida é maior que a capacidade calorífica da fase sólida metaestável\nem temperaturas inferiores à $T_\\text{fus}$.\n",
                 "A variação de entalpia quando essa substância sofre uma reação química\nno estado líquido aumenta com o aumento da temperatura.\n"
               ]
             },
@@ -4828,7 +4849,7 @@
             },
             {
               "id_": "2A31",
-              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico\n,$\\mathrm{PC}$, dessa mistura em função da fração mássica de hidrogênio.\n\n    $x_{\\ce{H2}}/\\pu{\\%}$   $\\mathrm{PC}/\\pu{kJ.mol-1}$\n  ----------------------- -----------------------------\n                 $\\pu{2}$                    $\\pu{3,0}$\n                 $\\pu{5}$                    $\\pu{8,7}$\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
+              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico, PC, dessa\nmistura em função da fração mássica de hidrogênio.\n\n  $x_{\\ce{H2}}/\\pu{\\%}$   $\\mathrm{PC}/\\pu{kJ.mol-1}$\n  ----------------------- -----------------------------\n  $\\pu{2}$                $\\pu{3,0}$\n  $\\pu{5}$                $\\pu{8,7}$\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{-190 kJ.mol-1}$\n",
@@ -5105,14 +5126,14 @@
                   {
                     "id_": "Hc-butano(g)",
                     "name": "Entalpia de combustão do \\ce{butano} (g)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
                     "value": "-2878",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-pentano(g)",
                     "name": "Entalpia de combustão do \\ce{pentano} (g)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{pentano, {g}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{pentano, {g}} )",
                     "value": "-3537",
                     "unit": "kJ.mol-1"
                   }
@@ -5326,21 +5347,21 @@
                   {
                     "id_": "Hc-benzeno(l)",
                     "name": "Entalpia de combustão do \\ce{benzeno} (l)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{benzeno, {l}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{benzeno, {l}} )",
                     "value": "-3268",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-cicloexano(l)",
                     "name": "Entalpia de combustão do \\ce{cicloexano} (l)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{cicloexano, {l}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{cicloexano, {l}} )",
                     "value": "-3920",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-cicloexeno(l)",
                     "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
-                    "symbol": "\\Delta Hc^{\\circ }_{\\mathrm{c} }(\\ce{cicloexeno, {l}} )",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{cicloexeno, {l}} )",
                     "value": "-3752",
                     "unit": "kJ.mol-1"
                   },

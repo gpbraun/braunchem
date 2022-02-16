@@ -53,7 +53,7 @@ class Topic:
         if not constants.data and not elements:
             return ''
 
-        header = latex.section('Dados', level=0)
+        header = latex.section('Dados', level=0) + latex.cmd('small')
 
         el_header = latex.section('Elementos', level=1, numbered=False)
         elements_table = el_header + latex.cmd(
