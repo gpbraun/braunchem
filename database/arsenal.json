@@ -11,70 +11,23 @@
       "subtopics": [
         {
           "id_": "1A.1",
-          "title": "Radiação Eletromagnética",
-          "items": [
-            "Relação entre frequência e comprimento de onda da radiação\neletromagnética: $$\n    c=\\lambda f\n    $$\n",
-            "Energia da radiação eletromagnética: $$\n    E=hf = \\left( \\pu{6,62e-34 m2 kg s-1} \\right) f\n    $$\n",
-            "Espectro eletromagnético (IV, Vis, UV).\n"
-          ],
-          "abilities": [
-            "**Calcular** o comprimento de onda, a energia e a frequência da\nradiação.\n"
-          ]
+          "title": "Radiação Eletromagnética"
         },
         {
           "id_": "1A.2",
-          "title": "Radiação de Corpo Negro",
-          "items": [
-            "Espectro de emissão do corpo negro.\n",
-            "Lei de Stefan-Boltzmann.\n",
-            "Lei de Wien: $$ \n    T \\lambda_\\text{max} = \\pu{2,9 mm.K}\n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a temperatura de um corpo a partir da Lei de Wien.\n"
-          ]
+          "title": "Radiação de Corpo Negro"
         },
         {
           "id_": "1A.3",
-          "title": "Efeito Fotoelétrico",
-          "items": [
-            "Função trabalho.\n",
-            "Conservação de Energia no Efeito Fotoelétrico: $$\n    hf = \\frac{1}{2}m_ev^2 + \\Phi\n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a função trabalho de um metal.\n",
-            "**Comparar** a função trabalho de diferentes metais.\n"
-          ]
+          "title": "Efeito Fotoelétrico"
         },
         {
           "id_": "1A.4",
-          "title": "Dualidade Onda-Partícula",
-          "items": [
-            "Relação de De Broglie: $$ \n    \\lambda = \\dfrac{h}{p} \n    $$\n",
-            "Princípio da Incerteza de Heisenberg.\n",
-            "Partícula na caixa unidimensional: $$ \n    E_n = \\dfrac{n^2h^2}{8 m L^2} \n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** o comprimento de onda associado a uma partícula.\n",
-            "**Determinar** os níveis de energia para um sistema quântico utilizando\na Relação de De Broglie.\n"
-          ]
+          "title": "Dualidade Onda-Partícula"
         },
         {
           "id_": "1A.5",
-          "title": "Espectros Atômicos e Teoria de Bohr",
-          "items": [
-            "Espectros atômicos.\n",
-            "Limitações do modelo de Rutherford.\n",
-            "Quantização do momento angular.\n",
-            "Níveis de energia no átomo de Bohr: $$\n    E = -\\left(\\dfrac{e^4 \\mu}{8\\varepsilon_0^2 h^2 }\\right)\\dfrac{Z^2}{n^2} = - (\\pu{13,6 eV}) \\dfrac{Z^2}{n^2} \n    $$\n",
-            "Equação de Rydberg: $$\n    \\dfrac{1}{\\lambda}=\\mathcal{R}\\left(\\dfrac{1}{n_1^2 }-\\dfrac{1}{n_2^2 }\\right) \n    $$\n",
-            "Energia de ionização.\n",
-            "Efeito da massa nuclear nos níveis de energia e [átomos\nexóticos](https://en.wikipedia.org/wiki/Exotic_atom).\n",
-            "Átomo de Sommerfeld.\n"
-          ],
-          "abilities": [
-            "**Determinar** a expressão para a energia e raio do átomo hidrogenoide.\n",
-            "**Calcular** a energia, frequência e comprimento de onda de uma\ntransição eletrônica a partir da Equação de Rydberg.\n"
-          ]
+          "title": "Espectros Atômicos e Teoria de Bohr"
         }
       ],
       "problems": [
@@ -334,7 +287,7 @@
                     "id_": "Phi-K",
                     "name": "Função trabalho do \\ce{K} ",
                     "symbol": "\\Phi (\\ce{K} )",
-                    "value": "2,2",
+                    "value": "2,20",
                     "unit": "eV"
                   }
                 ]
@@ -365,7 +318,7 @@
                     "id_": "Phi-Zn",
                     "name": "Função trabalho do \\ce{Zn} ",
                     "symbol": "\\Phi (\\ce{Zn} )",
-                    "value": "4,3",
+                    "value": "4,30",
                     "unit": "eV"
                   }
                 ]
@@ -753,7 +706,7 @@
                     "id_": "CP-H2O(l)",
                     "name": "Capacidade calorífica do \\ce{H2O} (l)",
                     "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,29",
+                    "value": "75,3",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -785,7 +738,7 @@
                     "id_": "Hc-glicose(s)",
                     "name": "Entalpia de combustão do \\ce{glicose} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}} )",
-                    "value": "-2808",
+                    "value": "-2810",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -818,7 +771,7 @@
                     "id_": "Hf-AgCl(s)",
                     "name": "Entalpia de formação do \\ce{AgCl} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{AgCl, {s}} )",
-                    "value": "-127,07",
+                    "value": "-127",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -1197,92 +1150,31 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Função de Onda e Orbitais Atômicos\n\n1. Interpretação de Born — A densidade de probabilidade de encontrar um elétron é proporcional a $\\psi^2$.\n\n### Habilidades\n\n- Habilidade\n\n# Números Quânticos, Níveis e Subníveis\n\n1. Número quântico principal, $n$, tamanho e energia dos orbitais.\n2. Número quântico secundário, $l$ e o formato dos orbitais.\n3. Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n4. Experimento de Stern-Gerlach.\n5. Número quântico de spin, $m_s=\\pm 1/2$.\n\n### Habilidades\n\n- **Identificar** um orbital dado um conjunto de números quânticos.\n- **Identificar** um conjunto de números quânticos inexistente.\n\n# Forma dos Orbitais\n\n1. Superfícies nodais angulares e radiais.\n2. Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n3. Influência da carga nuclear na função de onda.\n\n### Habilidades\n\n- **Calcular** o número de nodos radiais e angulares de um orbital.\n- **Comparar** orbitais atômicos com base em sua função de onda.\n\n# Energias dos Orbitais\n\n1. Blindagem.\n2. Carga nuclear efetiva,  $Z_\\text{eff}$.\n3. Grau de penetrabilidade.\n\n### Habilidades\n\n- **Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n- **Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n\n# Princípio de Construção\n\n1. Princípio da Exclusão de Pauli.\n2. Regra de Hund.\n3. Diagrama de construção.\n4. Configurações eletrônicas anômalas tipo $s^1 d^5$ ($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$ ($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$). \n5. Configurações eletrônicas anômalas tipo $s^2 d^1$ ($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$ ($\\mathrm{Gd}, \\mathrm{Cm}$). \n6. Camada de valência.\n7. Relação com a tabela periódica.\n\n### Habilidades\n\n- **Determinar** a configuração eletrônica para átomos em seu estado fundamental.\n- **Determinar** a configuração eletrônica para íons em seu estado fundamental.\n- **Determinar** se uma dada configuração eletrônica representa um estado fundamental ou excitado.\n- **Explicar** a origem de anomalias na configuração eletrônica.\n\n# A Tabela Periódica\n\n1. Número atômico e número de Massa.\n2. Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n3. Grupos e famílias.\n4. Períodos.\n5. Blocos.\n6. Metais, ametais e semi-metais.\n\n### Habilidades\n\n- **Determinar** a posição de um átomo na Tabela Periódica dada sua configuração eletrônica.",
+      "contents": "# Função de Onda e Orbitais Atômicos\n\n1. Interpretação de Born — A densidade de probabilidade de encontrar um elétron é proporcional a $\\psi^2$.\n\n### Habilidades\n\n- **Comparar** funções de onda em função da probabilidade de encontrar um elétron.\n\n# Números Quânticos, Níveis e Subníveis\n\n1. Número quântico principal, $n$, tamanho e energia dos orbitais.\n2. Número quântico secundário, $l$ e o formato dos orbitais.\n3. Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n4. Experimento de Stern-Gerlach.\n5. Número quântico de spin, $m_s=\\pm 1/2$.\n\n### Habilidades\n\n- **Identificar** um orbital dado um conjunto de números quânticos.\n- **Identificar** um conjunto de números quânticos inexistente.\n\n# Forma dos Orbitais\n\n1. Superfícies nodais angulares e radiais.\n2. Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n3. Influência da carga nuclear na função de onda.\n\n### Habilidades\n\n- **Calcular** o número de nodos radiais e angulares de um orbital.\n- **Comparar** orbitais atômicos com base em sua função de onda.\n\n# Energias dos Orbitais\n\n1. Blindagem.\n2. Carga nuclear efetiva,  $Z_\\text{eff}$.\n3. Grau de penetrabilidade.\n\n### Habilidades\n\n- **Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n- **Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n\n# Princípio de Construção\n\n1. Princípio da Exclusão de Pauli.\n2. Regra de Hund.\n3. Diagrama de construção.\n4. Configurações eletrônicas anômalas tipo $s^1 d^5$ ($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$ ($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$). \n5. Configurações eletrônicas anômalas tipo $s^2 d^1$ ($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$ ($\\mathrm{Gd}, \\mathrm{Cm}$). \n6. Camada de valência.\n7. Relação com a tabela periódica.\n\n### Habilidades\n\n- **Determinar** a configuração eletrônica para átomos em seu estado fundamental.\n- **Determinar** a configuração eletrônica para íons em seu estado fundamental.\n- **Determinar** se uma dada configuração eletrônica representa um estado fundamental ou excitado.\n- **Explicar** a origem de anomalias na configuração eletrônica.\n\n# A Tabela Periódica\n\n1. Número atômico e número de Massa.\n2. Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n3. Grupos e famílias.\n4. Períodos.\n5. Blocos.\n6. Metais, ametais e semi-metais.\n\n### Habilidades\n\n- **Determinar** a posição de um átomo na Tabela Periódica dada sua configuração eletrônica.",
       "subtopics": [
         {
           "id_": "1B.1",
-          "title": "Função de Onda e Orbitais Atômicos",
-          "items": [
-            "Interpretação de Born --- A densidade de probabilidade de encontrar um\nelétron é proporcional a $\\psi^2$.\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Função de Onda e Orbitais Atômicos"
         },
         {
           "id_": "1B.2",
-          "title": "Números Quânticos, Níveis e Subníveis",
-          "items": [
-            "Número quântico principal, $n$, tamanho e energia dos orbitais.\n",
-            "Número quântico secundário, $l$ e o formato dos orbitais.\n",
-            "Número quântico magnético, $m_l$ e a orientação espacial dos orbitais.\n",
-            "Experimento de Stern-Gerlach.\n",
-            "Número quântico de spin, $m_s=\\pm 1/2$.\n"
-          ],
-          "abilities": [
-            "**Identificar** um orbital dado um conjunto de números quânticos.\n",
-            "**Identificar** um conjunto de números quânticos inexistente.\n"
-          ]
+          "title": "Números Quânticos, Níveis e Subníveis"
         },
         {
           "id_": "1B.3",
-          "title": "Forma dos Orbitais",
-          "items": [
-            "Superfícies nodais angulares e radiais.\n",
-            "Número de superfícies nodais angulares: $l$, e radiais: $n-l-1$.\n",
-            "Influência da carga nuclear na função de onda.\n"
-          ],
-          "abilities": [
-            "**Calcular** o número de nodos radiais e angulares de um orbital.\n",
-            "**Comparar** orbitais atômicos com base em sua função de onda.\n"
-          ]
+          "title": "Forma dos Orbitais"
         },
         {
           "id_": "1B.4",
-          "title": "Energias dos Orbitais",
-          "items": [
-            "Blindagem.\n",
-            "Carga nuclear efetiva, $Z_\\text{eff}$.\n",
-            "Grau de penetrabilidade.\n"
-          ],
-          "abilities": [
-            "**Comparar** a energia de orbitais atômicos de átomos polieletrônicos.\n",
-            "**Estimar** a Carga Nuclear Efetiva pela Regra de Slater.\n"
-          ]
+          "title": "Energias dos Orbitais"
         },
         {
           "id_": "1B.5",
-          "title": "Princípio de Construção",
-          "items": [
-            "Princípio da Exclusão de Pauli.\n",
-            "Regra de Hund.\n",
-            "Diagrama de construção.\n",
-            "Configurações eletrônicas anômalas tipo $s^1 d^5$\n($\\mathrm{Cr}, \\mathrm{Mo}$) e $s^1 d^{10}$\n($\\mathrm{Cu}, \\mathrm{Ag}, \\mathrm{Au}$).\n",
-            "Configurações eletrônicas anômalas tipo $s^2 d^1$\n($\\mathrm{La}, \\mathrm{Ac}$) e $s^2f^7 d^{1}$\n($\\mathrm{Gd}, \\mathrm{Cm}$).\n",
-            "Camada de valência.\n",
-            "Relação com a tabela periódica.\n"
-          ],
-          "abilities": [
-            "**Determinar** a configuração eletrônica para átomos em seu estado\nfundamental.\n",
-            "**Determinar** a configuração eletrônica para íons em seu estado\nfundamental.\n",
-            "**Determinar** se uma dada configuração eletrônica representa um estado\nfundamental ou excitado.\n",
-            "**Explicar** a origem de anomalias na configuração eletrônica.\n"
-          ]
+          "title": "Princípio de Construção"
         },
         {
           "id_": "1B.6",
-          "title": "A Tabela Periódica",
-          "items": [
-            "Número atômico e número de Massa.\n",
-            "Isotopos, isóbaros, isótonos, isoeletrônicos, e isodiáferos.\n",
-            "Grupos e famílias.\n",
-            "Períodos.\n",
-            "Blocos.\n",
-            "Metais, ametais e semi-metais.\n"
-          ],
-          "abilities": [
-            "**Determinar** a posição de um átomo na Tabela Periódica dada sua\nconfiguração eletrônica.\n"
-          ]
+          "title": "A Tabela Periódica"
         }
       ],
       "problems": [
@@ -2429,110 +2321,39 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Raio Atômico\n\n1. Raio covalente.\n2. Raio de van der Waals.\n3. Tendência no raio atômico.\n4. Contração do Bloco $d$.\n5. Contração dos Lantanídeos.\n\n### Habilidades\n\n- **Ordenar** átomos em função de seu raio.\n- **Explicar** a origem do efeito de Contração do Bloco $d$.\n- **Explicar** a origem do efeito de Contração dos Lantanídeos.\n\n# Raio Iônico\n\n1. Tendência no raio de cátions e ânions.\n2. Raio de espécies isoeletrônicas.\n\n### Habilidades\n\n- **Ordenar** átomos e íons em função de seu raio.\n\n# Energia de Ionização\n\n1. Tendência da primeira energia de ionização.\n2. $n$-ésima energia de ionização.\n3. Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e $\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n4. Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$; $\\ce{S}$ e $\\ce{P}$).\n6. Teoria do Mar de Elétrons.\n7. Condutores e isolantes.\n\n### Habilidades\n\n- **Ordenar** átomos em função de sua primeira energia de ionização.\n- **Explicar** a origem de anomalias na energia de ionização.\n- **Determinar** o número de elétrons na camada de valência de uma espécie com base em suas energias de ionização.\n\n# Afinidade Eletrônica\n\n1. Tendência da afinidade eletrônica.\n2. Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n3. Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e $\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n4. Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$). \n\n### Habilidades\n\n- **Ordenar** átomos em função de sua afinidade eletrônica.\n- **Explicar** a origem de anomalias na afinidade eletrônica.\n\n# Eletronegatividade\n\n1. Escala de Eletronegatividade de Mulliken: $\\chi = \\frac{1}{2}(EI+AE)$\n2. Tendências na eletronegatividade.\n\n### Habilidades\n\n- **Ordenar** átomos em função de sua eletronegatividade e polarizabilidade.\n\n# Número de Oxidação \n\n1. Tendência no número de oxidação.\n2. Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$; $\\ce{Pb}$; $\\ce{Bi}$).\n\n### Habilidades\n\n- **Explicar** a origem do Efeito do Par-Inerte.\n\n# Relações Diagonais\n\n1. Origem das Relações Diagonais. \n2. Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$; $\\ce{B}$ e $\\ce{Si}$).\n\n### Habilidades\n\n- **Explicar** a origem das Relações Diagonais.\n\n# Propriedades Físico-Químicas dos Elementos\n\n1. Propriedades físicas dos metais e ametais.\n    | Metais | Ametais |\n    | -- | -- |\n    | condutores elétricos | isolantes elétricos |\n    | condutores térmicos | isolantes térmicos |\n    | maleáveis | não maleáveis |\n    | dúcteis | não dúcteis | \n    | lustrosos | não lustrosos |\n    | sólidos | sólidos, líquidos e gases |\n2. Propriedades químicas dos metais e ametais.\n    | Metais | Ametais |\n    | -- | -- |\n    | reagem com ácidos | não reagem com ácidos |\n    | formam óxidos básicos | formam óxidos ácidos |\n    | formam cátions | formam ânions |\n    | formam haletos iônicos | formam haletos covalentes | \n\n### Habilidades\n\n- **Comparar** propriedades físicas de elementos em função de sua posição na tabela periódica.\n- **Comparar** propriedades químicas de elementos em função de sua posição na tabela periódica.",
+      "contents": "# Raio Atômico\n\n1. Raio covalente.\n2. Raio de van der Waals.\n3. Tendência no raio atômico.\n4. Contração do Bloco $d$.\n5. Contração dos Lantanídeos.\n\n### Habilidades\n\n- **Ordenar** átomos em função de seu raio.\n- **Explicar** a origem do efeito de Contração do Bloco $d$.\n- **Explicar** a origem do efeito de Contração dos Lantanídeos.\n\n# Raio Iônico\n\n1. Tendência no raio de cátions e ânions.\n2. Raio de espécies isoeletrônicas.\n\n### Habilidades\n\n- **Ordenar** átomos e íons em função de seu raio.\n\n# Energia de Ionização\n\n1. Tendência da primeira energia de ionização.\n2. $n$-ésima energia de ionização.\n3. Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e $\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n4. Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$; $\\ce{S}$ e $\\ce{P}$).\n6. Teoria do Mar de Elétrons.\n7. Condutores e isolantes.\n\n### Habilidades\n\n- **Ordenar** átomos em função de sua primeira energia de ionização.\n- **Explicar** a origem de anomalias na energia de ionização.\n- **Determinar** o número de elétrons na camada de valência de uma espécie com base em suas energias de ionização.\n\n# Afinidade Eletrônica\n\n1. Tendência da afinidade eletrônica.\n2. Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n3. Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e $\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n4. Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$). \n\n### Habilidades\n\n- **Ordenar** átomos em função de sua afinidade eletrônica.\n- **Explicar** a origem de anomalias na afinidade eletrônica.\n\n# Eletronegatividade\n\n1. Escala de Eletronegatividade de Mulliken: $\\chi = \\frac{1}{2}(EI+AE)$\n2. Tendências na eletronegatividade.\n\n### Habilidades\n\n- **Ordenar** átomos em função de sua eletronegatividade e polarizabilidade.\n\n# Número de Oxidação \n\n1. Cálculo do número de oxidação.\n2. Tendência no número de oxidação.\n3. Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$; $\\ce{Pb}$; $\\ce{Bi}$).\n\n### Habilidades\n\n- **Calcular** o número de oxidação de um átomo em um composto. \n- **Explicar** a origem do Efeito do Par-Inerte.\n\n# Relações Diagonais\n\n1. Origem das Relações Diagonais. \n2. Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$; $\\ce{B}$ e $\\ce{Si}$).\n\n### Habilidades\n\n- **Explicar** a origem das Relações Diagonais.\n\n# Propriedades Físico-Químicas dos Elementos\n\n1. Propriedades físicas dos metais e ametais.\n    | Metais | Ametais |\n    | -- | -- |\n    | condutores elétricos | isolantes elétricos |\n    | condutores térmicos | isolantes térmicos |\n    | maleáveis | não maleáveis |\n    | dúcteis | não dúcteis | \n    | lustrosos | não lustrosos |\n    | sólidos | sólidos, líquidos e gases |\n2. Propriedades químicas dos metais e ametais.\n    | Metais | Ametais |\n    | -- | -- |\n    | reagem com ácidos | não reagem com ácidos |\n    | formam óxidos básicos | formam óxidos ácidos |\n    | formam cátions | formam ânions |\n    | formam haletos iônicos | formam haletos covalentes | \n\n### Habilidades\n\n- **Comparar** propriedades físicas de elementos em função de sua posição na tabela periódica.\n- **Comparar** propriedades químicas de elementos em função de sua posição na tabela periódica.",
       "subtopics": [
         {
           "id_": "1C.1",
-          "title": "Raio Atômico",
-          "items": [
-            "Raio covalente.\n",
-            "Raio de van der Waals.\n",
-            "Tendência no raio atômico.\n",
-            "Contração do Bloco $d$.\n",
-            "Contração dos Lantanídeos.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de seu raio.\n",
-            "**Explicar** a origem do efeito de Contração do Bloco $d$.\n",
-            "**Explicar** a origem do efeito de Contração dos Lantanídeos.\n"
-          ]
+          "title": "Raio Atômico"
         },
         {
           "id_": "1C.2",
-          "title": "Raio Iônico",
-          "items": [
-            "Tendência no raio de cátions e ânions.\n",
-            "Raio de espécies isoeletrônicas.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos e íons em função de seu raio.\n"
-          ]
+          "title": "Raio Iônico"
         },
         {
           "id_": "1C.3",
-          "title": "Energia de Ionização",
-          "items": [
-            "Tendência da primeira energia de ionização.\n",
-            "$n$-ésima energia de ionização.\n",
-            "Energias de ionização anômalas entre $s^2$ e $s^2p^1$ ($\\ce{Be}$ e\n$\\ce{B}$; $\\ce{Al}$ e $\\ce{Mg}$)\n",
-            "Energias de ionização anômalas entre $p^3$ e $p^4$ ($\\ce{O}$ e $\\ce{N}$;\n$\\ce{S}$ e $\\ce{P}$).\n",
-            "Teoria do Mar de Elétrons.\n",
-            "Condutores e isolantes.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de sua primeira energia de ionização.\n",
-            "**Explicar** a origem de anomalias na energia de ionização.\n",
-            "**Determinar** o número de elétrons na camada de valência de uma espécie\ncom base em suas energias de ionização.\n"
-          ]
+          "title": "Energia de Ionização"
         },
         {
           "id_": "1C.4",
-          "title": "Afinidade Eletrônica",
-          "items": [
-            "Tendência da afinidade eletrônica.\n",
-            "Anomalia do flúor ($\\ce{Cl}$ e $\\ce{F}$).\n",
-            "Afinidades eletrônicas anômalas entre $p^2$ e $p^3$ ($\\ce{C}$ e\n$\\ce{N}$; $\\ce{Si}$ e $\\ce{P}$).\n",
-            "Afinidades eletrônicas negativas ($\\ce{O^-}$ e $\\ce{S^-}$).\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de sua afinidade eletrônica.\n",
-            "**Explicar** a origem de anomalias na afinidade eletrônica.\n"
-          ]
+          "title": "Afinidade Eletrônica"
         },
         {
           "id_": "1C.5",
-          "title": "Eletronegatividade",
-          "items": [
-            "Escala de Eletronegatividade de Mulliken: $\\chi = \\frac{1}{2}(EI+AE)$\n",
-            "Tendências na eletronegatividade.\n"
-          ],
-          "abilities": [
-            "**Ordenar** átomos em função de sua eletronegatividade e\npolarizabilidade.\n"
-          ]
+          "title": "Eletronegatividade"
         },
         {
           "id_": "1C.6",
-          "title": "Número de Oxidação",
-          "items": [
-            "Tendência no número de oxidação.\n",
-            "Efeito do Par-Inerte ($\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Tl}$;\n$\\ce{Pb}$; $\\ce{Bi}$).\n"
-          ],
-          "abilities": [
-            "**Explicar** a origem do Efeito do Par-Inerte.\n"
-          ]
+          "title": "Número de Oxidação"
         },
         {
           "id_": "1C.7",
-          "title": "Relações Diagonais",
-          "items": [
-            "Origem das Relações Diagonais.\n",
-            "Relações Diagonais ($\\ce{Li}$ e $\\ce{Mg}$; $\\ce{Be}$ e $\\ce{Al}$;\n$\\ce{B}$ e $\\ce{Si}$).\n"
-          ],
-          "abilities": [
-            "**Explicar** a origem das Relações Diagonais.\n"
-          ]
+          "title": "Relações Diagonais"
         },
         {
           "id_": "1C.8",
-          "title": "Propriedades Físico-Químicas dos Elementos",
-          "items": [
-            "Propriedades físicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| condutores elétricos \\| isolantes elétricos \\| \\|\ncondutores térmicos \\| isolantes térmicos \\| \\| maleáveis \\| não\nmaleáveis \\| \\| dúcteis \\| não dúcteis \\| \\| lustrosos \\| não lustrosos\n\\| \\| sólidos \\| sólidos, líquidos e gases \\|\n",
-            "Propriedades químicas dos metais e ametais. \\| Metais \\| Ametais \\| \\|\n\\-- \\| \\-- \\| \\| reagem com ácidos \\| não reagem com ácidos \\| \\| formam\nóxidos básicos \\| formam óxidos ácidos \\| \\| formam cátions \\| formam\nânions \\| \\| formam haletos iônicos \\| formam haletos covalentes \\|\n"
-          ],
-          "abilities": [
-            "**Comparar** propriedades físicas de elementos em função de sua posição\nna tabela periódica.\n",
-            "**Comparar** propriedades químicas de elementos em função de sua posição\nna tabela periódica.\n"
-          ]
+          "title": "Propriedades Físico-Químicas dos Elementos"
         }
       ],
       "problems": [
@@ -3393,68 +3214,19 @@
       "subtopics": [
         {
           "id_": "1D.1",
-          "title": "Ligação Iônica e Covalente",
-          "items": [
-            "Ligação iônica.\n",
-            "Ligação covalente.\n",
-            "Número de oxidação e carga formal.\n",
-            "Estruturas de Lewis.\n",
-            "Espécies radicalares.\n"
-          ],
-          "abilities": [
-            "**Calcular** o número de oxidação de um átomo em um composto iônico.\n",
-            "**Calcular** a carga formal de um átomo em uma molécula.\n",
-            "**Determinar** a estrutura de uma molécula.\n"
-          ]
+          "title": "Ligação Iônica e Covalente"
         },
         {
           "id_": "1D.2",
-          "title": "Teoria da Ligação de Valência",
-          "items": [
-            "Ligações sigma e pi.\n",
-            "Hibridização de orbitais.\n",
-            "Geometria molecular.\n",
-            "Ressonância.\n",
-            "Ordem de ligação.\n",
-            "Aromaticidade.\n"
-          ],
-          "abilities": [
-            "**Determinar** a geometria molecular e os ângulos de ligação em uma\nmolécula.\n",
-            "**Classificar** compostos como aromáticos, não aromáticos ou\nantiaromáticos.\n"
-          ]
+          "title": "Teoria da Ligação de Valência"
         },
         {
           "id_": "1D.3",
-          "title": "Propriedades das Ligações",
-          "items": [
-            "Eletronegatividade de Pauling.\n",
-            "Momento de dipolo elétrico.\n",
-            "Moléculas polares e apolares.\n",
-            "Polarizabilidade e poder polarizante.\n",
-            "Caráter iônico.\n",
-            "Energia de ligação.\n",
-            "Comprimento de ligação.\n"
-          ],
-          "abilities": [
-            "**Comparar** o caráter covalente e iônico entre espécies.\n",
-            "**Comparar** o comprimento de ligações.\n",
-            "**Comparar** a energia de ligações.\n"
-          ]
+          "title": "Propriedades das Ligações"
         },
         {
           "id_": "1D.4",
-          "title": "Teoria do Orbital Molecular",
-          "items": [
-            "Orbitais moleculares.\n",
-            "Configuração eletrônica de molécular diatômicas.\n",
-            "Ligação em moléculas diatômicas heteronucleares.\n",
-            "Orbitais em moléculas poliatômicas.\n"
-          ],
-          "abilities": [
-            "**Calcular** a ordem de ligação de espécies diatômicas.\n",
-            "**Comparar** a energia de ligação de espécies diatômicas.\n",
-            "**Comparar** o comprimento de ligação de espécies diatômicas.\n"
-          ]
+          "title": "Teoria do Orbital Molecular"
         }
       ],
       "problems": []
@@ -3466,17 +3238,19 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Viscosidade e Tensão Superfícial\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Ligações Intermoleculares\n\n1. Origem das ligações intermoleculares.\n2. Ponto de fusão e de ebulição.\n3. Ligações íon-dipolo.\n4. Ligações dipolo-dipolo.\n5. Forças de London: dipolo instantâneo e dipolo induzido.\n6. Ligações de hidrogênio.\n\n### Habilidades\n\n- **Identificar** o tipo de ligação intermolecular predominante em uma substância.\n- **Comparar** o ponto de fusão e de ebulição de substâncias.\n\n# Líquidos\n\n1. Ordem em líquidos.\n2. Viscosidade e tensão superficial.\n3. Adesão e coesão.\n4. Cristais líquidos.\n5. Líquidos iônicos.\n\n### Habilidades\n\n- **Comparar** forças de adesão e coesão.\n- **Comparar** a viscosidade e tensão superficial de diferentes substâncias.\n- **Comparar** a viscosidade e tensão superficial em diferentes temperaturas.\n\n# Técnicas de Separação\n\n1. Decantação.\n2. Filtração.\n3. Cromatografia.\n4. Destilação simples e fracionada.\n5. Extração.\n\n### Habilidades\n\n- **Determinar** a técnica mais adequada para separação de uma mistura.\n- **Determinar** os produtos resultantes de uma separação de mistura.",
       "subtopics": [
         {
           "id_": "1E.1",
-          "title": "Viscosidade e Tensão Superfícial",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Ligações Intermoleculares"
+        },
+        {
+          "id_": "1E.2",
+          "title": "Líquidos"
+        },
+        {
+          "id_": "1E.3",
+          "title": "Técnicas de Separação"
         }
       ],
       "problems": []
@@ -3488,109 +3262,47 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Hidrogênio\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 1\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 2\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 13\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 14\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 15\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 16\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 17\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 18\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Bloco-d\n\n1. Ponto de fusão e ponto de ebulição.\n2. Número de oxidação.\n3. Compostos de coordenação\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Hidrogênio\n\n1. Prótio, deutério e trítio.\n2. Compostos de hidrogênio.\n3. Hidretos iônicos, covalentes e metálicos.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 1\n\n1. Óxidos e hidróxidos.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 2\n\n1. Óxidos.\n2. Carbonato de cálcio.\n3. Cloreto de cálcio.\n4. Sulfato de cálcio.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 13\n\n1. Óxidos, haletos e nitretos do grupo 13.\n2. Boranos e boridretos.\n3. Ligação tricentrada.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 14\n\n1. Alotropos do carbono: grafite, grafeno, diamante, fulereno e nanotubos.\n2. Carvão.\n3. Óxidos de carbono e silício.\n4. Carbetos iônicos, covalentes e metálicos.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 15\n\n1. Elementos do grupo 15.\n2. Compostos do grupo 15 com hidrogênio e halogênios.\n3. Oxidos e oxoácidos de nitrogênio.\n4. Oxidos e oxoácidos de fósforo.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 16\n\n1. Oxigênio.\n2. Enxofre.\n3. Oxidos e oxoácidos de enxofre.\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 17\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Grupo 18\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Elementos do Bloco-d\n\n1. Ponto de fusão e ponto de ebulição.\n2. Número de oxidação.\n3. Compostos de coordenação\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "1F.1",
-          "title": "Hidrogênio",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Hidrogênio"
         },
         {
           "id_": "1F.2",
-          "title": "Elementos do Grupo 1",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 1"
         },
         {
           "id_": "1F.3",
-          "title": "Elementos do Grupo 2",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 2"
         },
         {
           "id_": "1F.4",
-          "title": "Elementos do Grupo 13",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 13"
         },
         {
           "id_": "1F.5",
-          "title": "Elementos do Grupo 14",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 14"
         },
         {
           "id_": "1F.6",
-          "title": "Elementos do Grupo 15",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 15"
         },
         {
           "id_": "1F.7",
-          "title": "Elementos do Grupo 16",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 16"
         },
         {
           "id_": "1F.8",
-          "title": "Elementos do Grupo 17",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 17"
         },
         {
           "id_": "1F.9",
-          "title": "Elementos do Grupo 18",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Grupo 18"
         },
         {
           "id_": "1F.10",
-          "title": "Elementos do Bloco-d",
-          "items": [
-            "Ponto de fusão e ponto de ebulição.\n",
-            "Número de oxidação.\n",
-            "Compostos de coordenação\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Elementos do Bloco-d"
         }
       ],
       "problems": []
@@ -3602,17 +3314,23 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Ácidos e Bases de Brønsted-Lowry\n\n1. Doadores e receptores de prótons.\n2. Íon espectador.\n3. Ácido conjugado e base conjugada.\n5. Fluxo de densidade eletrônica.\n\n### Habilidades\n\n- **Apresentar** o ácido conjugado e a base conjugada de uma substância.\n- **Identificar** os pares ácido e base conjugada em um reação.\n\n# Força de Ácidos e Bases\n\n1. Estabilidade da base conjugada.\n2. Influência do raio atômico na acidez e basicidade.\n3. Influência da ressonância na acidez e basicidade.\n4. Influência da indução eletrônica na acidez e basicidade.\n5. Influência do orbital na acidez e basicidade.\n\n### Habilidades\n\n- **Comparar** a força de ácidos e bases.\n\n# Solventes\n\n1. Solvatação.\n2. Autoprotólise\n3. Efeito nivelador de solventes.\n4. Acidez e basicidade em fase gasosa.\n\n### Habilidades\n\n- **Comparar** a força de ácidos e bases em solução.\n- **Comparar** a força de ácidos e bases em fase gasosa.\n\n# Ácidos e Bases de Lewis\n\n1. Receptores e doadores de elétrons.\n2. Eletrófilos e nucleófilos.\n\n### Habilidades\n\n- **Identificar** reações ácido-base de Lewis.",
       "subtopics": [
         {
           "id_": "1G.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Ácidos e Bases de Brønsted-Lowry"
+        },
+        {
+          "id_": "1G.2",
+          "title": "Força de Ácidos e Bases"
+        },
+        {
+          "id_": "1G.3",
+          "title": "Solventes"
+        },
+        {
+          "id_": "1G.4",
+          "title": "Ácidos e Bases de Lewis"
         }
       ],
       "problems": []
@@ -3624,17 +3342,15 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Compostos de Coordenação\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Análise Qualitativa\n\n1. Tópico",
       "subtopics": [
         {
           "id_": "1H.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Compostos de Coordenação"
+        },
+        {
+          "id_": "1H.2",
+          "title": "Análise Qualitativa"
         }
       ],
       "problems": []
@@ -3646,17 +3362,15 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Corrosão\n\n1.\n\n### Habilidades\n\n- Habilidade\n\n# Corrosão\n\n1. Galvanização.\n2. Passivação.\n3. Proteção catódica.\n4. Proteção anódica.\n\n### Habilidades\n\n- **Identificar** reações de corrosão em um sistema.\n- **Identificar** meios para inibir o processo corrosivo.",
       "subtopics": [
         {
           "id_": "1I.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Corrosão"
+        },
+        {
+          "id_": "1I.2",
+          "title": "Corrosão"
         }
       ],
       "problems": []
@@ -3672,13 +3386,7 @@
       "subtopics": [
         {
           "id_": "1J.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Tópico"
         }
       ],
       "problems": []
@@ -3690,63 +3398,19 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Classificação dos Sólidos\n\n1. Sólidos cristalinos e amorfos.\n2. Difração de raios-X.\n3. Lei de Bragg\n\n### Habilidades\n\n- Habilidade\n\n# Sólidos Moleculares\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Sólidos Covalentes\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Sólidos Metálicos\n\n1. Maleabilidade.\n2. Ductibilidade.\n3. \n\n### Habilidades\n\n- Habilidade\n\n# Células Unitárias\n\n1. Célula unitária.\n2. Célula cúbica simples (CS), cúbica de corpo centrado (CCC) e cúbica de face centrada (CFC).\n3. \n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Classificação dos Sólidos\n\n1. Sólidos cristalinos e amorfos.\n2. Sólidos moleculares, covalentes, metálicos e iônicos\n    | Classe | Exemplos | Características |\n    | -- | -- | -- |\n    | Metálico  | Elementos dos blocos $s$ e $d$ | Maleável, dúctil, lustroso; condutor elétrico e térmico |\n    | Iônico    |  $\\ce{NaCl}$, $\\ce{KNO3}$, $\\ce{CuSO4·5H2O}$  | Duro, rígido, frágil; alto ponto de fusão e ebulição; condutores quando líquidos ou em solução |\n    | Covalente | Boro, carbono, fósforo negro e sílica | Duro, rígido, frágil; ponto de fusão e ebulição muito alto; insolúvel em água  |\n    | Molecular | $\\ce{BeCl2}$, $\\ce{S8}$, $\\ce{I2}$, gelo, glicose | Baixo ponto de fusão e ebulição; frágil quando puro |\n\n\n### Habilidades\n\n- **Classificar** um sólido como cristalino ou amorfo.\n- **Classificar** um sólido cristalino como molecular, covalente, metálico ou iônico.\n- **Comparar** o ponto de fusão de sólidos.\n\n\n# Células Unitárias\n\n1. Célula unitária.\n2. Número de coordenação.\n3. Redes de Bravais.\n4. Célula cúbica simples (CS), cúbica de corpo centrado (CCC) e cúbica de face centrada (CFC).\n5. Fator de empacotamento:\n    $$\n    f_\\text{CS} = 52\\% \n    \\quad f_\\text{CCC} = 68\\% \n    \\quad f_\\text{CFC} = 74\\% \n    $$\n6. Densidade.\n\n### Habilidades\n\n- **Calcular** o número de átomos em uma célula unitária.\n- **Calcular** o fator de empacotamento de uma estrutura cristalina.\n- **Calcular** a densidade de sólidos cristalinos.\n- **Determinar** a estrutura cristalina de um metal a partir de sua densidade.\n\n# Cristais Iônicos\n\n1. Razão de raios limite.\n2. Estrutura do cloreto de sódio.\n3. Estrutura do cloreto de césio.\n4. Estrutura da blenda de zinco.\n\n### Habilidades\n\n- **Determinar** a fórmula molecular de um composto iônico a partir da célula unitária.",
       "subtopics": [
         {
           "id_": "1K.1",
-          "title": "Classificação dos Sólidos",
-          "items": [
-            "Sólidos cristalinos e amorfos.\n",
-            "Difração de raios-X.\n",
-            "Lei de Bragg\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Classificação dos Sólidos"
         },
         {
           "id_": "1K.2",
-          "title": "Sólidos Moleculares",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Células Unitárias"
         },
         {
           "id_": "1K.3",
-          "title": "Sólidos Covalentes",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
-        },
-        {
-          "id_": "1K.4",
-          "title": "Sólidos Metálicos",
-          "items": [
-            "Maleabilidade.\n",
-            "Ductibilidade.\n",
-            "\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
-        },
-        {
-          "id_": "1K.5",
-          "title": "Células Unitárias",
-          "items": [
-            "Célula unitária.\n",
-            "Célula cúbica simples (CS), cúbica de corpo centrado (CCC) e cúbica de\nface centrada (CFC).\n",
-            "\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Cristais Iônicos"
         }
       ],
       "problems": []
@@ -3758,17 +3422,31 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Materiais Poliméricos\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Materiais Inorgânicos\n\n1. Ligas metálicas.\n2. Cerâmicas.\n3. Compósitos.\n\n### Habilidades\n\n- **Classificar** um material inorgânio como uma liga metálica, uma cerâmica ou um compósito.\n\n# Materiais Poliméricos\n\n1. Homopolímeros e copolimeros.\n2. Copolímeros alternados, aleatórios, em bloco e enxertados.\n3. Polímeros ramificados e lineares.\n4. Temperatura de transição vítrea.\n5. Termoplásticos, resinas termofixas, elastômeros e fibras.\n6. Reciclagem de polímeros.\n\n### Habilidades\n\n- **Classificar** um polímero como homopolímero ou copolímero.\n- **Comparar** a temperatura de transição vítrea de diferentes polímeros.\n- **Classificar** um polímero como termoplástico ou termofixo.\n\n# Propriedades Elétricas dos Materiais\n\n1. Condução elétrica em sólidos.\n2. Teoria das Bandas\n3. Semicondutores intrínsecos e extrínsecos.\n4. Diodo.\n5. Supercondutores.\n\n### Habilidades\n\n- **Explicar** a orgiem da condução elétrica utilizando a Teoria das Bandas.\n- **Explicar** a diferença entre condutores e semicondutores utilizando a Teoria das Bandas.\n- **Comparar** a condutividade de um condutor ou semicondutor em diferentes temperaturas.\n\n# Propriedades Térmicas dos Materiais\n\n1. Capacidade calorífica de sólidos.\n2. Lei de Dulong-Petit:\n    $$\n    C_V = 3R\n    $$\n3. Condução térmica em sólidos.\n4. Isolantes e condutores térmicos.\n\n### Habilidades\n\n- **Comparar** o calor específico de materiais.\n- **Comparar** a condutividade térmica de materiais.\n\n# Propriedades Magnéticas dos Materiais\n\n1. Domínios de magnetização.\n2. Ferromagnetismo.\n3. Antiferromagnetismo.\n4. Ferrofluidos.\n\n### Habilidades\n\n- **Explicar** a origem de propriedades magnéticas em um material.\n\n# Propriedades Óticas dos Materiais\n\n1. Refração, reflexão, absorção e transmissão.\n2. Difração de raios-X.\n3. Lei de Bragg\n    $$\n    n \\lambda = 2 d \\sin \\theta\n    $$\n3. Materiais luminescentes.\n4. Nanomateriais.\n5. Nanotubos.\n\n### Habilidades\n\n- **Comparar** o índice de refração de materiais.\n- **Diferenciar** nanomateriais.",
       "subtopics": [
         {
           "id_": "1L.1",
-          "title": "Materiais Poliméricos",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Materiais Inorgânicos"
+        },
+        {
+          "id_": "1L.2",
+          "title": "Materiais Poliméricos"
+        },
+        {
+          "id_": "1L.3",
+          "title": "Propriedades Elétricas dos Materiais"
+        },
+        {
+          "id_": "1L.4",
+          "title": "Propriedades Térmicas dos Materiais"
+        },
+        {
+          "id_": "1L.5",
+          "title": "Propriedades Magnéticas dos Materiais"
+        },
+        {
+          "id_": "1L.6",
+          "title": "Propriedades Óticas dos Materiais"
         }
       ],
       "problems": []
@@ -3784,82 +3462,23 @@
       "subtopics": [
         {
           "id_": "2A.1",
-          "title": "Trabalho e Calor",
-          "items": [
-            "Sistema e Vizinhança.\n",
-            "Sistema fechado e isolado.\n",
-            "Funções de Estado.\n",
-            "Trabalho, $W$, e Calor, $Q$.\n",
-            "Trabalho de expansão irreversível.\n",
-            "Calor específico e capacidade calorífica.\n"
-          ],
-          "abilities": [
-            "**Calcular** o trabalho realizado por expansão de gases.\n"
-          ]
+          "title": "Trabalho e Calor"
         },
         {
           "id_": "2A.2",
-          "title": "Energia Interna",
-          "items": [
-            "Primeira Lei da Termodinâmica: $$ \n    \\Delta U = Q - W \n    $$\n",
-            "Energia interna.\n",
-            "Capacidade calorífica em volume constante: $$ \n    C_V = \\dfrac{\\Delta U}{\\Delta T}\n    $$\n",
-            "Expansão livre.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de energia interna para um processo de expansão\n*irreversível*.\n"
-          ]
+          "title": "Energia Interna"
         },
         {
           "id_": "2A.3",
-          "title": "Entalpia",
-          "items": [
-            "Definição de Entalpia: $$ \n   H = U + PV \n   $$\n",
-            "Capacidade calorífica em pressão constante: $$ \n    C_P = \\dfrac{\\Delta H}{\\Delta T} \n    $$\n",
-            "Relação de Meyer: $$ \n    C_P = C_V + R \n    $$\n",
-            "Entalpia e estado físico: sólido, líquido e gasoso.\n",
-            "Curvas de aquecimento.\n",
-            "Relação entre $\\Delta U$ e $\\Delta H$ de transição de fase.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de entalpia para um processo de expansão\n*irreversível*.\n",
-            "**Calcular** a entalpia de mudança de fase.\n"
-          ]
+          "title": "Entalpia"
         },
         {
           "id_": "2A.4",
-          "title": "Entalpia de Reação",
-          "items": [
-            "Processos endotérmicos e exotérmicos.\n",
-            "Equações termoquímicas.\n",
-            "Entalpia de formação.\n",
-            "[Estado padrão](https://goldbook.iupac.org/terms/view/S05927) e\n[grandezas termodinâmicas\npadrão](https://goldbook.iupac.org/terms/view/S05927).\n",
-            "Entalpia de ligação.\n",
-            "Lei de Hess.\n",
-            "Entalpia de reação e temperatura: $$ \n    \\Delta H^T = \\Delta H^{T_0} + (T-T_0) \\Delta C_P \n    $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a entalpia de reação a partir das entalpias de formação.\n",
-            "**Calcular** a entalpia de reação a partir das entalpias de ligação.\n",
-            "**Calcular** a entalpia de reação aplicando a Lei de Hess.\n",
-            "**Calcular** a variação na entalpia de reação com a temperatura.\n"
-          ]
+          "title": "Entalpia de Reação"
         },
         {
           "id_": "2A.5",
-          "title": "Calorimetria",
-          "items": [
-            "Calorímetro isobárico: $$ \n    Q_P = \\Delta H = C_P \\Delta T\n    $$\n",
-            "Calorímetro isocórico: $$ \n    Q_V = \\Delta U = C_V \\Delta T\n    $$\n",
-            "Relação entre $\\Delta U$ e $\\Delta H$ de reação.\n",
-            "Potencial calorífico superior e inferior.\n",
-            "Temperatura Adiabática de Reação.\n",
-            "Reação autossustentável.\n"
-          ],
-          "abilities": [
-            "**Calcular** o calor liberado em pressão constante a partir do calor\nliberado em volume constante.\n",
-            "**Calcular** a variação de temperatura causada por uma reação.\n"
-          ]
+          "title": "Calorimetria"
         }
       ],
       "problems": [
@@ -4004,21 +3623,21 @@
                     "id_": "CP-H2O(l)",
                     "name": "Capacidade calorífica do \\ce{H2O} (l)",
                     "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,29",
+                    "value": "75,3",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-H2O(s)",
                     "name": "Capacidade calorífica do \\ce{H2O} (s)",
                     "symbol": "C_P(\\ce{H2O, {s}} )",
-                    "value": "37,84",
+                    "value": "37,8",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(s)",
                     "name": "Entalpia de formação do \\ce{H2O} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {s}} )",
-                    "value": "-291,83",
+                    "value": "-292",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4118,7 +3737,7 @@
                     "id_": "CP-O2(g)",
                     "name": "Capacidade calorífica do \\ce{O2} (g)",
                     "symbol": "C_P(\\ce{O2, {g}} )",
-                    "value": "29,36",
+                    "value": "29,4",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -4218,28 +3837,28 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-glicina(s)",
                     "name": "Entalpia de formação do \\ce{glicina} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{glicina, {s}} )",
-                    "value": "-532,9",
+                    "value": "-533",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-ureia(s)",
                     "name": "Entalpia de formação do \\ce{ureia} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}} )",
-                    "value": "-333,51",
+                    "value": "-334",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4256,7 +3875,7 @@
             },
             {
               "id_": "2A13",
-              "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](2A13-1P.svg)\n\nConsidere as proposições.\n\n1.  Na região entre $P$ e $Q$ ocorre aumento da energia cinética.\n2.  Na região entre $Q$ e $R$ ocorre aumento da energia potencial.\n3.  O calor de fusão da substância é menor que o seu calor de\n    vaporização.\n4.  O calor específico do sólido é menor que o calor específico do\n    líquido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+              "statement": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n![Temperatura por tempo.](2A13-1P.svg)\n\nConsidere as proposições.\n\n1.  Na região entre $P$ e $Q$ ocorre aumento da energia cinética.\n2.  Na região entre $Q$ e $R$ ocorre aumento da energia potencial.\n3.  O calor de fusão da substância é menor que o seu calor de\n    vaporização.\n4.  O calor específico do sólido é maior que o calor específico do\n    líquido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
               "answer": [
                 "**4**"
@@ -4300,14 +3919,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4425,7 +4044,7 @@
                     "id_": "Hvap-Br2",
                     "name": "Entalpia de vaporização do \\ce{Br2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{vap} }(\\ce{Br2} )",
-                    "value": "30,91",
+                    "value": "30,9",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4463,14 +4082,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4574,14 +4193,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-propeno(g)",
                     "name": "Entalpia de formação do \\ce{propeno} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{propeno, {g}} )",
-                    "value": "20,42",
+                    "value": "20,4",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4635,7 +4254,7 @@
                     "id_": "Hc-C6H5COOH(s)",
                     "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}} )",
-                    "value": "-3227",
+                    "value": "-3230",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4652,7 +4271,7 @@
             },
             {
               "id_": "2A25",
-              "statement": "Uma amostra de $\\pu{1 mol}$ de glicose é queimada em um calorímetro\nisocórico ($C = \\pu{512 J.\\degree C-1}$) com excesso de oxigênio. A\nvariação de temperatura registrada foi de $\\pu{5 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
+              "statement": "Uma amostra de $\\pu{1 mol}$ de glicose é queimada em um calorímetro\nisocórico a $\\pu{25 \\degree C}$ ($C = \\pu{512 J.\\degree C-1}$) com\nexcesso de oxigênio. A variação de temperatura registrada foi de\n$\\pu{5 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
               "solution": "",
               "answer": [
                 "$\\pu{-2545 kJ}$\n"
@@ -4712,21 +4331,21 @@
                     "id_": "CP-H2O(l)",
                     "name": "Capacidade calorífica do \\ce{H2O} (l)",
                     "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,29",
+                    "value": "75,3",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "d-H2O",
                     "name": "Densidade do \\ce{H2O} ",
                     "symbol": "\\rho (\\ce{H2O} )",
-                    "value": "1",
-                    "unit": "g.cm^{-3}"
+                    "value": "1,00",
+                    "unit": "g.cm-3"
                   },
                   {
                     "id_": "Hc-butano(g)",
                     "name": "Entalpia de combustão do \\ce{butano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
-                    "value": "-2878",
+                    "value": "-2880",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4883,35 +4502,35 @@
                     "id_": "CP-H2O(l)",
                     "name": "Capacidade calorífica do \\ce{H2O} (l)",
                     "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,29",
+                    "value": "75,3",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-eteno(g)",
                     "name": "Entalpia de formação do \\ce{eteno} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{eteno, {g}} )",
-                    "value": "52,26",
+                    "value": "52,3",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-metano(g)",
                     "name": "Entalpia de formação do \\ce{metano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{metano, {g}} )",
-                    "value": "-74,81",
+                    "value": "-74,8",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4936,8 +4555,8 @@
                     "id_": "d-H2O",
                     "name": "Densidade do \\ce{H2O} ",
                     "symbol": "\\rho (\\ce{H2O} )",
-                    "value": "1",
-                    "unit": "g.cm^{-3}"
+                    "value": "1,00",
+                    "unit": "g.cm-3"
                   },
                   {
                     "id_": "Hvap-H2O",
@@ -4969,21 +4588,21 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-octano(l)",
                     "name": "Entalpia de formação do \\ce{octano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}} )",
-                    "value": "-249,9",
+                    "value": "-250",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5054,49 +4673,49 @@
                     "id_": "CP-CO2(g)",
                     "name": "Capacidade calorífica do \\ce{CO2} (g)",
                     "symbol": "C_P(\\ce{CO2, {g}} )",
-                    "value": "37,11",
+                    "value": "37,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-H2O(g)",
                     "name": "Capacidade calorífica do \\ce{H2O} (g)",
                     "symbol": "C_P(\\ce{H2O, {g}} )",
-                    "value": "33,58",
+                    "value": "33,6",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
-                    "value": "29,12",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-O2(g)",
                     "name": "Capacidade calorífica do \\ce{O2} (g)",
                     "symbol": "C_P(\\ce{O2, {g}} )",
-                    "value": "29,36",
+                    "value": "29,4",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-241,82",
+                    "value": "-242",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-octano(l)",
                     "name": "Entalpia de formação do \\ce{octano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}} )",
-                    "value": "-249,9",
+                    "value": "-250",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5127,14 +4746,14 @@
                     "id_": "Hc-butano(g)",
                     "name": "Entalpia de combustão do \\ce{butano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
-                    "value": "-2878",
+                    "value": "-2880",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-pentano(g)",
                     "name": "Entalpia de combustão do \\ce{pentano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{pentano, {g}} )",
-                    "value": "-3537",
+                    "value": "-3540",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5160,21 +4779,21 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-241,82",
+                    "value": "-242",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-metano(g)",
                     "name": "Entalpia de formação do \\ce{metano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{metano, {g}} )",
-                    "value": "-74,81",
+                    "value": "-74,8",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5207,14 +4826,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -5269,28 +4888,28 @@
                     "id_": "CP-H2(g)",
                     "name": "Capacidade calorífica do \\ce{H2} (g)",
                     "symbol": "C_P(\\ce{H2, {g}} )",
-                    "value": "28,82",
+                    "value": "28,8",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
-                    "value": "29,12",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-NH3(g)",
                     "name": "Capacidade calorífica do \\ce{NH3} (g)",
                     "symbol": "C_P(\\ce{NH3, {g}} )",
-                    "value": "35,06",
+                    "value": "35,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "Hf-NH3(g)",
                     "name": "Entalpia de formação do \\ce{NH3} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{NH3, {g}} )",
-                    "value": "-46,11",
+                    "value": "-46,1",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5348,7 +4967,7 @@
                     "id_": "Hc-benzeno(l)",
                     "name": "Entalpia de combustão do \\ce{benzeno} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{benzeno, {l}} )",
-                    "value": "-3268",
+                    "value": "-3270",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -5362,14 +4981,14 @@
                     "id_": "Hc-cicloexeno(l)",
                     "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{cicloexeno, {l}} )",
-                    "value": "-3752",
+                    "value": "-3750",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-285,83",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5441,7 +5060,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5466,21 +5092,21 @@
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-110,53",
+                    "value": "-111",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-FeO(s)",
                     "name": "Entalpia de formação do \\ce{FeO} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{FeO, {s}} )",
-                    "value": "-824,2",
+                    "value": "-824",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-241,82",
+                    "value": "-242",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5505,28 +5131,28 @@
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
-                    "value": "29,12",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-O2(g)",
                     "name": "Capacidade calorífica do \\ce{O2} (g)",
                     "symbol": "C_P(\\ce{O2, {g}} )",
-                    "value": "29,36",
+                    "value": "29,4",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-SiO2(s)",
                     "name": "Capacidade calorífica do \\ce{SiO2} (s)",
                     "symbol": "C_P(\\ce{SiO2, {s}} )",
-                    "value": "44,43",
+                    "value": "44,4",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-ZnS(s)",
                     "name": "Capacidade calorífica do \\ce{ZnS} (s)",
                     "symbol": "C_P(\\ce{ZnS, {s}} )",
-                    "value": "45,71",
+                    "value": "45,7",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -5551,42 +5177,42 @@
                     "id_": "CP-CO2(g)",
                     "name": "Capacidade calorífica do \\ce{CO2} (g)",
                     "symbol": "C_P(\\ce{CO2, {g}} )",
-                    "value": "37,11",
+                    "value": "37,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-CO(g)",
                     "name": "Capacidade calorífica do \\ce{CO} (g)",
                     "symbol": "C_P(\\ce{CO, {g}} )",
-                    "value": "29,14",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
-                    "value": "29,12",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-O2(g)",
                     "name": "Capacidade calorífica do \\ce{O2} (g)",
                     "symbol": "C_P(\\ce{O2, {g}} )",
-                    "value": "29,36",
+                    "value": "29,4",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-110,53",
+                    "value": "-111",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5614,56 +5240,56 @@
                     "id_": "CP-CO2(g)",
                     "name": "Capacidade calorífica do \\ce{CO2} (g)",
                     "symbol": "C_P(\\ce{CO2, {g}} )",
-                    "value": "37,11",
+                    "value": "37,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-CO(g)",
                     "name": "Capacidade calorífica do \\ce{CO} (g)",
                     "symbol": "C_P(\\ce{CO, {g}} )",
-                    "value": "29,14",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
-                    "value": "29,12",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-O2(g)",
                     "name": "Capacidade calorífica do \\ce{O2} (g)",
                     "symbol": "C_P(\\ce{O2, {g}} )",
-                    "value": "29,36",
+                    "value": "29,4",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-393,51",
+                    "value": "-394",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-110,53",
+                    "value": "-111",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-241,82",
+                    "value": "-242",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-octano(l)",
                     "name": "Entalpia de formação do \\ce{octano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}} )",
-                    "value": "-249,9",
+                    "value": "-250",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5689,71 +5315,23 @@
       "subtopics": [
         {
           "id_": "2B.1",
-          "title": "Reversibilidade e Espontaneidade",
-          "items": [
-            "Trabalho de expansão reversível.\n",
-            "Teorema do Trabalho Máximo.\n",
-            "Reversibilidade e entropia.\n",
-            "Definição macroscópica de entropia: $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n",
-            "Segunda Lei da Termodinâmica.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de entropia para uma transformação reversível.\n"
-          ]
+          "title": "Reversibilidade e Espontaneidade"
         },
         {
           "id_": "2B.2",
-          "title": "Entropia",
-          "items": [
-            "Entropia e desordem.\n",
-            "Entropia e temperatura: $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n",
-            "Entropia e volume de gás ideal: $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n",
-            "Entropia e estado físico: sólido, líquido, gasoso e em solução.\n"
-          ],
-          "abilities": [
-            "**Determinar** qualitativamente o sinal da variação de entropia para uma\ntransformação.\n",
-            "**Calcular** a variação de entropia para aquecimento ou resfriamento de\numa substância.\n",
-            "**Calcular** a variação de entropia para um gás ideal em uma\ntransformação isotérmica.\n",
-            "**Calcular** a entropia padrão para transição de fase.\n"
-          ]
+          "title": "Entropia"
         },
         {
           "id_": "2B.3",
-          "title": "Entropia Absoluta",
-          "items": [
-            "Interpretação microscópica da entropia.\n",
-            "Fórmula de Boltzmann: $$\n    S = k_\\mathrm{B} \\ln \\Omega\n    $$\n",
-            "Entropia Residual.\n",
-            "Terceira Lei da Termodinâmica.\n"
-          ],
-          "abilities": [
-            "**Calcular** a entropia residual a partir da Fórmula de Boltzmann.\n"
-          ]
+          "title": "Entropia Absoluta"
         },
         {
           "id_": "2B.4",
-          "title": "Entropia de Reação",
-          "items": [
-            "Entropia padrão.\n",
-            "Entropia de reação.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de entropia para uma reação química.\n",
-            "**Determinar** qualitativamente o sinal da variação de entropia para uma\nreação química.\n"
-          ]
+          "title": "Entropia de Reação"
         },
         {
           "id_": "2B.5",
-          "title": "Mudanças Globais de Entropia",
-          "items": [
-            "Variação de entropia da vizinhança\n",
-            "Variação de entropia do Universo.\n",
-            "Equilíbrio.\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação de entropia da vizinhança devido à uma\ntransferência de calor em pressão e temperatura constantes.\n",
-            "**Calcular** a variação de entropia do Universo para um processo.\n"
-          ]
+          "title": "Mudanças Globais de Entropia"
         }
       ],
       "problems": [
@@ -5905,7 +5483,7 @@
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
-                    "value": "29,12",
+                    "value": "29,1",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -5959,7 +5537,7 @@
                     "id_": "CP-O2(g)",
                     "name": "Capacidade calorífica do \\ce{O2} (g)",
                     "symbol": "C_P(\\ce{O2, {g}} )",
-                    "value": "29,36",
+                    "value": "29,4",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6151,21 +5729,21 @@
                     "id_": "S-H2(g)",
                     "name": "Entropia do  \\ce{H2} (g)",
                     "symbol": "S^{\\circ }_{}(\\ce{H2, {g}} )",
-                    "value": "130,68",
+                    "value": "131",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-N2(g)",
                     "name": "Entropia do  \\ce{N2} (g)",
                     "symbol": "S^{\\circ }_{}(\\ce{N2, {g}} )",
-                    "value": "191,61",
+                    "value": "192",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-NH3(g)",
                     "name": "Entropia do  \\ce{NH3} (g)",
                     "symbol": "S^{\\circ }_{}(\\ce{NH3, {g}} )",
-                    "value": "192,45",
+                    "value": "192",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6196,7 +5774,7 @@
                     "id_": "S-KClO3(s)",
                     "name": "Entropia do  \\ce{KClO3} (s)",
                     "symbol": "S^{\\circ }_{}(\\ce{KClO3, {s}} )",
-                    "value": "143,1",
+                    "value": "143",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -6210,7 +5788,7 @@
                     "id_": "S-KCl(s)",
                     "name": "Entropia do  \\ce{KCl} (s)",
                     "symbol": "S^{\\circ }_{}(\\ce{KCl, {s}} )",
-                    "value": "82,59",
+                    "value": "82,6",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6457,14 +6035,14 @@
                     "id_": "CP-H2O(g)",
                     "name": "Capacidade calorífica do \\ce{H2O} (g)",
                     "symbol": "C_P(\\ce{H2O, {g}} )",
-                    "value": "33,58",
+                    "value": "33,6",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "CP-H2O(l)",
                     "name": "Capacidade calorífica do \\ce{H2O} (l)",
                     "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,29",
+                    "value": "75,3",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6691,7 +6269,7 @@
                     "id_": "CP-Cl2(g)",
                     "name": "Capacidade calorífica do \\ce{Cl2} (g)",
                     "symbol": "C_P(\\ce{Cl2, {g}} )",
-                    "value": "33,91",
+                    "value": "33,9",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6805,56 +6383,23 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Energia Livre\n\n1. Definição de energia livre: \n   $$ \n   G = H - TS \n   $$\n2. Energia livre e variação global de entropia.\n   $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$\n3.  Energia livre e espontaneidade:\n\n   | $\\Delta H$ | $\\Delta S$ | Espontaneidade |\n   | -- | -- | -- |\n   | $-$ | $+$ | Sempre |\n   | $-$ | $-$ | $T < \\left\\vert \\frac{\\Delta H}{\\Delta S} \\right\\vert$ |\n   | $+$ | $+$ | $T > \\left\\vert \\frac{\\Delta H}{\\Delta S} \\right\\vert$ |\n   | $+$ | $-$ | Nunca |\n\n4. Energia Livre e estado físico.\n\n### Habilidades\n\n- **Classificar** um processo quanto a sua espontaneidade.\n\n# Energia Livre de Reação\n\n1. Energia livre e grau de reação.\n2. Energia livre padrão de formação.\n3. Energia livre a partir da entalpia e entropia de reação.\n4. Compostos estáveis e compostos lábeis.\n\n### Habilidades\n\n- **Calcular** a energia livre de reação a partir da entalpia e entropia de reação.\n- **Determinar** a espontaneidade de uma reação em um dada temperatura.\n- **Calcular** a temperatura mínima para que uma reação endotérmica seja espontânea.\n\n# Energia Livre e Trabalho não Expansivo\n\n1. Trabalho máximo não expansivo:\n   $$\n   \\Delta G = W_\\text{ne, max}\n   $$\n2. Potencial de reação: \n   $$\n   \\Delta G = -nF \\Delta E\n   $$\n\n### Habilidades\n\n- **Calcular** o trabalho máximo não expansivo que pode ser realizado por uma transformação.\n- **Calcular** o potencial de uma reação em função da energia livre.\n\n# Energia Livre e Temperatura\n\n1. Energia livre e temperatura.\n2. Potencial e temperatura:\n   $$\n   \\Delta E^T = \\Delta E^{T_0} + (T-T_0) \\left( \\frac{\\Delta S}{nF} \\right)\n   $$\n\n### Habilidades\n\n- **Calcular** a variação do potencial de uma reação com a temperatura.",
+      "contents": "# Energia Livre\n\n1. Definição de energia livre: \n   $$ \n   G = H - TS \n   $$\n2. Energia livre e variação global de entropia.\n   $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$\n3.  Energia livre e espontaneidade:\n   $$\n   \\Delta G < 0\n   $$\n4. Energia Livre e estado físico.\n\n### Habilidades\n\n- **Classificar** um processo quanto a sua espontaneidade.\n\n# Energia Livre de Reação\n\n1. Energia livre e grau de reação.\n2. Energia livre padrão de formação.\n3. Energia livre a partir da entalpia e entropia de reação.\n4. Compostos estáveis e compostos lábeis.\n\n### Habilidades\n\n- **Calcular** a energia livre de reação a partir da entalpia e entropia de reação.\n- **Determinar** a espontaneidade de uma reação em um dada temperatura.\n- **Calcular** a temperatura mínima para que uma reação endotérmica seja espontânea.\n\n# Energia Livre e Trabalho não Expansivo\n\n1. Trabalho máximo não expansivo:\n   $$\n   \\Delta G = W_\\text{ne, max}\n   $$\n2. Potencial de reação: \n   $$\n   \\Delta G = -nF \\Delta E\n   $$\n3. Diagrama de Frost.\n\n### Habilidades\n\n- **Calcular** o trabalho máximo não expansivo que pode ser realizado por uma transformação.\n- **Calcular** o potencial de uma reação em função da energia livre.\n\n# Energia Livre e Temperatura\n\n1. Energia livre e temperatura.\n2. Potencial e temperatura:\n   $$\n   \\Delta E^T = \\Delta E^{T_0} + (T-T_0) \\left( \\frac{\\Delta S}{nF} \\right)\n   $$\n\n### Habilidades\n\n- **Calcular** a variação do potencial de uma reação com a temperatura.",
       "subtopics": [
         {
           "id_": "2C.1",
-          "title": "Energia Livre",
-          "items": [
-            "Definição de energia livre: $$ \n   G = H - TS \n   $$\n",
-            "Energia livre e variação global de entropia. $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$\n",
-            "Energia livre e espontaneidade:\n"
-          ],
-          "abilities": [
-            "**Classificar** um processo quanto a sua espontaneidade.\n"
-          ]
+          "title": "Energia Livre"
         },
         {
           "id_": "2C.2",
-          "title": "Energia Livre de Reação",
-          "items": [
-            "Energia Livre e estado físico.\n"
-          ],
-          "abilities": [
-            "**Calcular** a energia livre de reação a partir da entalpia e entropia\nde reação.\n",
-            "**Determinar** a espontaneidade de uma reação em um dada temperatura.\n",
-            "**Calcular** a temperatura mínima para que uma reação endotérmica seja\nespontânea.\n"
-          ]
+          "title": "Energia Livre de Reação"
         },
         {
           "id_": "2C.3",
-          "title": "Energia Livre e Trabalho não Expansivo",
-          "items": [
-            "Energia livre e grau de reação.\n",
-            "Energia livre padrão de formação.\n",
-            "Energia livre a partir da entalpia e entropia de reação.\n",
-            "Compostos estáveis e compostos lábeis.\n"
-          ],
-          "abilities": [
-            "**Calcular** o trabalho máximo não expansivo que pode ser realizado por\numa transformação.\n",
-            "**Calcular** o potencial de uma reação em função da energia livre.\n"
-          ]
+          "title": "Energia Livre e Trabalho não Expansivo"
         },
         {
           "id_": "2C.4",
-          "title": "Energia Livre e Temperatura",
-          "items": [
-            "Trabalho máximo não expansivo: $$\n   \\Delta G = W_\\text{ne, max}\n   $$\n",
-            "Potencial de reação: $$\n   \\Delta G = -nF \\Delta E\n   $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a variação do potencial de uma reação com a temperatura.\n"
-          ]
+          "title": "Energia Livre e Temperatura"
         }
       ],
       "problems": []
@@ -6870,48 +6415,15 @@
       "subtopics": [
         {
           "id_": "2D.1",
-          "title": "Pressão de Vapor",
-          "items": [
-            "Origem da pressão de vapor.\n",
-            "Volatilidade e forças intermoleculares.\n",
-            "Pressão de vapor e temperatura.\n",
-            "Equação de Clausius Clapeyron: $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta_\\text{vap} H}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n",
-            "Ebulição.\n"
-          ],
-          "abilities": [
-            "**Calcular** a pressão de vapor em uma dada temperatura utilizando a\nEquação de Clausius Clapeyron.\n",
-            "**Calcular** a temperatura de ebulição utilizando a Equação de Clausius\nClapeyron.\n"
-          ]
+          "title": "Pressão de Vapor"
         },
         {
           "id_": "2D.2",
-          "title": "Equilíbrio de Fase",
-          "items": [
-            "Diagramas de fases.\n",
-            "Pontos de fusão, ebulição triplo.\n",
-            "Inclinação do diagrama de fases: $$\n   \\dfrac{\\Delta P}{\\Delta T} = \\frac{\\Delta S}{\\Delta V}\n   $$\n",
-            "Propriedades críticas.\n"
-          ],
-          "abilities": [
-            "**Identificar** os pontos triplos e o ponto crítico no diagrama de\nfases.\n",
-            "**Identificar** os pontos de fusão e ebulição no diagrama de fases.\n",
-            "**Comparar** densidades a partir do diagrama de fases.\n"
-          ]
+          "title": "Equilíbrio de Fase"
         },
         {
           "id_": "2D.3",
-          "title": "Equilíbrio de Fase Multicomponente",
-          "items": [
-            "Pressão de vapor de misturas\n",
-            "Lei de Raoult: $$\n   P_A = x_A P_A^\\star\n   $$\n",
-            "Misturas líquidas binárias.\n",
-            "Destilação.\n",
-            "Azeótropos.\n"
-          ],
-          "abilities": [
-            "**Calcular** a pressão de vapor de solvente utilizando a Lei de Raoult.\n",
-            "**Calcular** a pressão e composição do vapor para misturas binárias\nutilizando a Lei de Raoult.\n"
-          ]
+          "title": "Equilíbrio de Fase Multicomponente"
         }
       ],
       "problems": []
@@ -6927,69 +6439,23 @@
       "subtopics": [
         {
           "id_": "2E.1",
-          "title": "Solubilidade em Nível Molecular",
-          "items": [
-            "Solvatação.\n",
-            "Interações soluto-solvente.\n",
-            "*Semanhante-dissolve-semelhante*.\n",
-            "Espécies hidrofílicas e hidrofóbicas.\n",
-            "Micelas.\n",
-            "Surfactantes.\n"
-          ],
-          "abilities": [
-            "**Comparar** a solubilidades com base na estrutura molecular.\n"
-          ]
+          "title": "Solubilidade em Nível Molecular"
         },
         {
           "id_": "2E.2",
-          "title": "Limites da Solubilidades",
-          "items": [
-            "Soluções saturadas.\n",
-            "Solubilidade e temperatura.\n",
-            "Curvas de solubilidades.\n",
-            "Soluções supersaturadas.\n"
-          ],
-          "abilities": [
-            "**Determinar** a solubilidade de uma substância a partir da curva de\nsolubilidade.\n"
-          ]
+          "title": "Limites da Solubilidades"
         },
         {
           "id_": "2E.3",
-          "title": "Solubilidade de Gases",
-          "items": [
-            "Lei de Henry: $$\n    s = k_\\text{H} P\n    $$\n",
-            "Solubulidade de gases e temperatura.\n"
-          ],
-          "abilities": [
-            "**Calcular** a solubilidade de um gás em um líquido a partir da Lei de\nHenry.\n"
-          ]
+          "title": "Solubilidade de Gases"
         },
         {
           "id_": "2E.4",
-          "title": "Termodinâmica da Dissolução",
-          "items": [
-            "Entalpia rede.\n",
-            "Ciclo de Born-Haber.\n",
-            "Entalpia de hidratação.\n",
-            "Entalpia de dissolução.\n"
-          ],
-          "abilities": [
-            "**Calcular** a entalpia de rede utilizando o ciclo de Born-Haber.\n",
-            "**Calcular** a entalpia de dissolução em função das entalpias de rede e\nde hidratação.\n"
-          ]
+          "title": "Termodinâmica da Dissolução"
         },
         {
           "id_": "2E.5",
-          "title": "Coloides",
-          "items": [
-            "Movimento Browniano.\n",
-            "Definição de coloides: $$\n    \\pu{1 nm} < d < \\pu{1 \\mu m}\n    $$\n",
-            "Classificação de coloides.\n",
-            "Efeito Tyndall.\n"
-          ],
-          "abilities": [
-            "**Identidicar** os tipos de coloides e suas propriedades.\n"
-          ]
+          "title": "Coloides"
         }
       ],
       "problems": []
@@ -7005,31 +6471,11 @@
       "subtopics": [
         {
           "id_": "2F.1",
-          "title": "Efeito Criscópico e Ebulioscópico",
-          "items": [
-            "Soluções ideais.\n",
-            "Efeito do soluto na temperatura de fusão e ebulição.\n",
-            "Crioscopia: $$\n   \\Delta T_\\text{fus} = -k_\\text{c} w i\n   $$\n",
-            "Ebulioscopia: $$\n   \\Delta T_\\text{eb} = k_\\text{b} w i\n   $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a concentração de soluto com base na temperatura de\ncongelamento ou ebulição.\n",
-            "**Calcular** o grau de ionização do soluto com base na temperatura de\ncongelamento ou ebulição.\n",
-            "**Calcular** massa molar do soluto por crioscopia e ebulioscopia.\n"
-          ]
+          "title": "Efeito Criscópico e Ebulioscópico"
         },
         {
           "id_": "2F.2",
-          "title": "Osmose",
-          "items": [
-            "Pressão osmótica: $$\n   \\Pi = i RT c\n   $$\n",
-            "Solução hipotônicas, isotônicas e hipertônicas.\n",
-            "Osmometria.\n",
-            "Osmose reversa.\n"
-          ],
-          "abilities": [
-            "**Calcular** massa molar do soluto por osmometria.\n"
-          ]
+          "title": "Osmose"
         }
       ],
       "problems": []
@@ -7045,59 +6491,19 @@
       "subtopics": [
         {
           "id_": "2G.1",
-          "title": "Constante de Equilíbrio",
-          "items": [
-            "Atividade Química.\n",
-            "Descrição termodinâmica do equilíbrio: $$\n   \\Delta G = \\Delta G^\\circ + RT \\ln Q\n   $$\n",
-            "Origem da constante de equilíbrio: $$\n   \\Delta G^\\circ = - RT \\ln K\n   $$\n",
-            "Expressão da constante de equilíbrio: $$\n   K = \\left{ \\dfrac{(\\text{atividade dos produtos})^{\\nu_\\text{r}}}{(\\text{atividade dos reagentes})^{\\nu_\\text{r}}} \\right}\n   $$\n",
-            "Equilíbrio homogêneo e heterogêneo.\n"
-          ],
-          "abilities": [
-            "**Determinar** a expressão para a constante de equilíbrio de uma reação.\n",
-            "**Calcular** a constante de equilíbrio em função da energia livre.\n"
-          ]
+          "title": "Constante de Equilíbrio"
         },
         {
           "id_": "2G.2",
-          "title": "Formas Alternativas da Constante de Equilíbrio",
-          "items": [
-            "Mutiplos da equação química.\n",
-            "Composição de equações químicas.\n",
-            "Concentração molar de gases: $$\n   K = K_P = (RT)^{\\Delta n} K_c\n   $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a constante de equilíbrio de uma reação manipulada\nalgebricamente.\n",
-            "**Calcular** o $K_P$ em função do $K_c$.\n"
-          ]
+          "title": "Formas Alternativas da Constante de Equilíbrio"
         },
         {
           "id_": "2G.3",
-          "title": "Cálculos de Equilíbrio",
-          "items": [
-            "Grau de reação.\n",
-            "Direção da reação.\n",
-            "Quadro de equilíbrio.\n"
-          ],
-          "abilities": [
-            "**Determinar** a composição de equilíbrio para um sistema onde ocorre\numa reação química utilizando o quadro de equilíbrio.\n",
-            "**Determinar** a direção de uma reação comparando o quociente reacional\nà constante de equilíbrio.\n"
-          ]
+          "title": "Cálculos de Equilíbrio"
         },
         {
           "id_": "2G.4",
-          "title": "Perturbações no Equilíbrio",
-          "items": [
-            "Efeito da adição ou remoção de reagentes no equilíbrio.\n",
-            "Efeito compressão do volume no equilíbrio.\n",
-            "Efeito da adição de gás inerte.\n",
-            "Efeito da temperatura no equilíbrio.\n",
-            "Equação de van\\'t Hoff: $$\n   \\ln\\left(\\dfrac{K_2}{K_1}\\right) = - \\frac{\\Delta H}{R}\\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n"
-          ],
-          "abilities": [
-            "**Determinar** a nova composição no equiíbrio após uma perturbação\n",
-            "**Calcular** a constante de equilíbrio em uma dada temperatura\nutilizando a Equação de van\\'t Hoff.\n"
-          ]
+          "title": "Perturbações no Equilíbrio"
         }
       ],
       "problems": []
@@ -7113,61 +6519,19 @@
       "subtopics": [
         {
           "id_": "2H.1",
-          "title": "Escala de pH",
-          "items": [
-            "Cálculo do pH: $$\n   \\mathrm{pH} = \\log [\\ce{H3O+}]\n   $$\n",
-            "Constante de autoprotólise da água: $$\n   K_\\mathrm{w} = \\pu{1e-14}\n   $$\n",
-            "pH e pOH: $$\n   \\mathrm{pH} + \\mathrm{pOH} = \\mathrm{p}K_\\mathrm{w}\n   $$\n",
-            "Interpretação do pH.\n"
-          ],
-          "abilities": [
-            "**Calcular** o pH a partir da concentração de ácido ou base forte.\n",
-            "**Calcular** o pH em função do pOH.\n",
-            "**Calcular** a concentração de hidrônio e hidroxila a partir do pH.\n"
-          ]
+          "title": "Escala de pH"
         },
         {
           "id_": "2H.2",
-          "title": "Ácidos e Bases Fracos",
-          "items": [
-            "Constante de ionização.\n",
-            "Grau de ionização.\n",
-            "pH de soluções de ácidos e bases fracos.\n",
-            "Hidrólise.\n",
-            "pH de soluções salinas.\n"
-          ],
-          "abilities": [
-            "**Calcular** o pH de soluções de ácidos e bases fracos.\n",
-            "**Calcular** o grau de ionização de ácidos e bases fracos.\n",
-            "**Calcular** a constante de ionização em função do pH.\n",
-            "**Calcular** o pH de soluções salinas de hidrólise ácida ou básica.\n"
-          ]
+          "title": "Ácidos e Bases Fracos"
         },
         {
           "id_": "2H.3",
-          "title": "Ácidos e Bases Polipróticos",
-          "items": [
-            "pH de soluções de ácidos polipróticos.\n",
-            "Soluções de sais de ácidos polipróticos.\n",
-            "Curva de distribuição de espécies em função do pH.\n"
-          ],
-          "abilities": [
-            "**Calcular** o pH de soluções de ácidos polipróticos.\n",
-            "**Calcular** o pH de soluções de sais anfipróticos.\n",
-            "**Calcular** a concentração de todos os íons em solução em função do pH.\n"
-          ]
+          "title": "Ácidos e Bases Polipróticos"
         },
         {
           "id_": "2H.4",
-          "title": "Soluções Muito Diluídas",
-          "items": [
-            "Soluções muito diluídas de ácidos e bases fortes.\n",
-            "Soluções muito diluídas de ácidos fracos.\n"
-          ],
-          "abilities": [
-            "**Calcular** o pH de soluções muito diluídas de ácidos e bases fortes.\n",
-            "**Calcular** o pH de soluções muito diluídas de ácidos fracos.\n"
-          ]
+          "title": "Soluções Muito Diluídas"
         }
       ],
       "problems": []
@@ -7183,35 +6547,11 @@
       "subtopics": [
         {
           "id_": "2I.1",
-          "title": "Soluções Tampão",
-          "items": [
-            "Ação tamponante.\n",
-            "Escolha do tampão.\n",
-            "Equação de Henderson-Hasselbalch: \\$\\$ \\\\mathrm{pH} = \\\\mathrm{pK_a} -\n\\\\log\n\\\\dfrac{\\[\\\\text{base}\\]*\\\\text{inicial}}{\\[\\\\text{ácido}\\]*\\\\text{inicial}}\n\\$\\$\n",
-            "Capacidade tamponante.\n"
-          ],
-          "abilities": [
-            "**Calcular** o pH de uma solução tampão.\n",
-            "**Calcular** a variação no pH de uma solução tampão por adição de ácido\nou base.\n",
-            "**Calcular** a composição da solução tampão para um pH desejado.\n",
-            "**Comparar** a eficiência de soluções tampão em diferentes valores de\npH.\n"
-          ]
+          "title": "Soluções Tampão"
         },
         {
           "id_": "2I.2",
-          "title": "Titulações ácido-base",
-          "items": [
-            "Titulação ácido forte-base forte.\n",
-            "Titulação ácido forte-base fraca e ácido fraco-base forte.\n",
-            "Indicadores ácido-base.\n",
-            "Tituação de ácidos polipróticos.\n"
-          ],
-          "abilities": [
-            "**Calcular** o pH ao longo de uma titulação ácido forte-base forte.\n",
-            "**Calcular** o pH do ponto de equivalência para um titulação ácido\nfraco-base forte.\n",
-            "**Calcular** o pH ao longo de uma titulação de ácido ou base fracos.\n",
-            "**Identificar** indicadores adequados para uma titulação.\n"
-          ]
+          "title": "Titulações ácido-base"
         }
       ],
       "problems": []
@@ -7227,30 +6567,11 @@
       "subtopics": [
         {
           "id_": "2J.1",
-          "title": "Equilíbrio de Solubilidade",
-          "items": [
-            "Produto de solubilidade\n",
-            "Efeito do íon-comum.\n",
-            "Formação de íons complexos.\n"
-          ],
-          "abilities": [
-            "**Calcular** a constante do produto de solubilidade para um sal pouco\nsolúvel em função de sua concentração molar.\n",
-            "**Calcular** a solubilidade de um sal em função de sua constante do\nproduto de solubilidade.\n",
-            "**Calcular** a solubilidade de um sal em presença de íon comum.\n",
-            "**Calcular** a solubilidade de um íon em presença de formação de\ncomplexos.\n"
-          ]
+          "title": "Equilíbrio de Solubilidade"
         },
         {
           "id_": "2J.2",
-          "title": "Precipitação",
-          "items": [
-            "Predição de precipitação.\n",
-            "Precipitação seletiva.\n"
-          ],
-          "abilities": [
-            "**Determinar** o precipitado formado quando soluções são misturadas.\n",
-            "**Determinar** a ordem de precipitação quando um íon comum é adicionado\na uma solução com diferentes íons.\n"
-          ]
+          "title": "Precipitação"
         }
       ],
       "problems": []
@@ -7262,62 +6583,19 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Células Galvânicas\n\n1. Estrutura de células galvânicas.\n2. Cátodos e ânodos.\n3. Ponte salina\n4. Notação de células galvânicas.\n\n### Habilidades\n\n- **Identificar** os componentes de uma célula galvânica.\n- **Determinar** a reação química de uma célula dada a sua notação.\n\n# Potenciais Padrão\n\n1. [Potenciais padrão de eletrodo](https://goldbook.iupac.org/terms/view/S05912).\n2. Potencial de célula e energia livre.\n3. Série eletroquímica.\n\n### Habilidades\n\n- **Calcular** o potencial padrão de célula a partir dos potenciais padrão de eletrodo.\n- **Comparar** o potencial de redução de pares redox.\n\n# Corrosão\n\n1. Galvanização.\n2. Passivação.\n3. Proteção catódica.\n4. Proteção anódica.\n\n### Habilidades\n\n- **Identificar** reações de corrosão em um sistema.\n- **Identificar** meios para inibir o processo corrosivo.\n\n# Eletrólise\n\n1. Células eletrolíticas.\n2. Produtos da eletrólise.\n3. Aplicações da eletrólise.\n\n### Habilidades\n\n- **Determinar** os produtos de uma eletrólise.\n- **Calcular** a quantidade de produto formada em uma eletrólise.\n- **Calcular** o tempo necessário para formar certa quantidade de produto em uma eletrólise.",
+      "contents": "# Células Galvânicas\n\n1. Estrutura de células galvânicas.\n2. Cátodos e ânodos.\n3. Ponte salina\n4. Notação de células galvânicas.\n\n### Habilidades\n\n- **Identificar** os componentes de uma célula galvânica.\n- **Determinar** a reação química de uma célula dada a sua notação.\n\n# Potenciais Padrão\n\n1. [Potenciais padrão de eletrodo](https://goldbook.iupac.org/terms/view/S05912).\n2. Potencial de célula e energia livre.\n3. Série eletroquímica.\n\n### Habilidades\n\n- **Calcular** o potencial padrão de célula a partir dos potenciais padrão de eletrodo.\n- **Comparar** o potencial de redução de pares redox.\n\n# Eletrólise\n\n1. Células eletrolíticas.\n2. Produtos da eletrólise.\n3. Aplicações da eletrólise.\n\n### Habilidades\n\n- **Determinar** os produtos de uma eletrólise.\n- **Calcular** a quantidade de produto formada em uma eletrólise.\n- **Calcular** o tempo necessário para formar certa quantidade de produto em uma eletrólise.",
       "subtopics": [
         {
           "id_": "2K.1",
-          "title": "Células Galvânicas",
-          "items": [
-            "Estrutura de células galvânicas.\n",
-            "Cátodos e ânodos.\n",
-            "Ponte salina\n",
-            "Notação de células galvânicas.\n"
-          ],
-          "abilities": [
-            "**Identificar** os componentes de uma célula galvânica.\n",
-            "**Determinar** a reação química de uma célula dada a sua notação.\n"
-          ]
+          "title": "Células Galvânicas"
         },
         {
           "id_": "2K.2",
-          "title": "Potenciais Padrão",
-          "items": [
-            "[Potenciais padrão de\neletrodo](https://goldbook.iupac.org/terms/view/S05912).\n",
-            "Potencial de célula e energia livre.\n",
-            "Série eletroquímica.\n"
-          ],
-          "abilities": [
-            "**Calcular** o potencial padrão de célula a partir dos potenciais padrão\nde eletrodo.\n",
-            "**Comparar** o potencial de redução de pares redox.\n"
-          ]
+          "title": "Potenciais Padrão"
         },
         {
           "id_": "2K.3",
-          "title": "Corrosão",
-          "items": [
-            "Galvanização.\n",
-            "Passivação.\n",
-            "Proteção catódica.\n",
-            "Proteção anódica.\n"
-          ],
-          "abilities": [
-            "**Identificar** reações de corrosão em um sistema.\n",
-            "**Identificar** meios para inibir o processo corrosivo.\n"
-          ]
-        },
-        {
-          "id_": "2K.4",
-          "title": "Eletrólise",
-          "items": [
-            "Células eletrolíticas.\n",
-            "Produtos da eletrólise.\n",
-            "Aplicações da eletrólise.\n"
-          ],
-          "abilities": [
-            "**Determinar** os produtos de uma eletrólise.\n",
-            "**Calcular** a quantidade de produto formada em uma eletrólise.\n",
-            "**Calcular** o tempo necessário para formar certa quantidade de produto\nem uma eletrólise.\n"
-          ]
+          "title": "Eletrólise"
         }
       ],
       "problems": []
@@ -7333,17 +6611,7 @@
       "subtopics": [
         {
           "id_": "2L.1",
-          "title": "Potenciais de Eletrodo",
-          "items": [
-            "Potenciais padrão e constante de equilíbrio.\n",
-            "Equação de Nernst.\n",
-            "Eletrodos seletivos.\n"
-          ],
-          "abilities": [
-            "**Calcular** a constante de equilíbrio a partir do potencial de célula.\n",
-            "**Calcular** o potencial de célula utilizando a Equação de Nernst.\n",
-            "**Calcular** concentrações em solução utilizando a Equação de Nernst.\n"
-          ]
+          "title": "Potenciais de Eletrodo"
         }
       ],
       "problems": []
@@ -7355,75 +6623,27 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Lei dos Gases Ideais\n\n1. Definição de gás ideal.\n2. Pressão.\n3. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n4. Volume molar.\n5. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n6. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** as funções de estado para uma dada condição.\n- **Calcular** as funções de estado para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial.\n2. Lei de Dalton.\n3. Massa molar média.\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n\n# Estequiometria de Gases\n\n1. Análise de combustão.\n2. Coleta de gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.\n\n# Movimento Molecular\n\n1. Modelo cinético dos gases.\n   $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham.\n   $$\n   \\dfrac{v_2}{v_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal.\n   $$\n   \n   $$\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.",
+      "contents": "# Lei dos Gases Ideais\n\n1. Definição de gás ideal.\n2. Pressão.\n3. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n4. Volume molar.\n5. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n6. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** as funções de estado para uma dada condição.\n- **Calcular** as funções de estado para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial:\n   $$\n   P_\\text{A} = x_\\text{A} P\n   $$\n2. Lei de Dalton:\n   $$\n   P = \\sum P_\\text{A}\n   $$\n3. Massa molar média:\n   $$\n   \\overline{M} = \\sum x_\\text{A} M_\\text{A}\n   $$\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n- **Calcular** a massa molar média de uma mistura de gases.\n\n# Estequiometria de Gases\n\n1. Análise de combustão.\n2. Coleta de gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.\n\n# Movimento Molecular\n\n1. Modelo cinético dos gases:\n   $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham:\n   $$\n   \\dfrac{r_2}{r_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal.\n   $$\n   U = \\dfrac{3}{2} nRT\n   $$\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica:\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.",
       "subtopics": [
         {
           "id_": "3A.1",
-          "title": "Lei dos Gases Ideais",
-          "items": [
-            "Definição de gás ideal.\n",
-            "Pressão.\n",
-            "Lei dos Gases Ideais: $$\n   PV=nRT\n   $$\n",
-            "Volume molar.\n",
-            "[Condições Normais de Temperatura e Pressão\n(CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n",
-            "Densidade do gás ideal: $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n"
-          ],
-          "abilities": [
-            "**Calcular** as funções de estado para uma dada condição.\n",
-            "**Calcular** as funções de estado para uma transformação.\n",
-            "**Calcular** a densidade um gás ideal para uma dada condição.\n"
-          ]
+          "title": "Lei dos Gases Ideais"
         },
         {
           "id_": "3A.2",
-          "title": "Misturas de Gases",
-          "items": [
-            "Pressão parcial.\n",
-            "Lei de Dalton.\n",
-            "Massa molar média.\n"
-          ],
-          "abilities": [
-            "**Calcular** a pressão parcial de um gás em uma mistura.\n"
-          ]
+          "title": "Misturas de Gases"
         },
         {
           "id_": "3A.3",
-          "title": "Estequiometria de Gases",
-          "items": [
-            "Análise de combustão.\n",
-            "Coleta de gases sobre água.\n"
-          ],
-          "abilities": [
-            "**Calcular** o volume de reagente gasoso necessário para uma reação.\n",
-            "**Calcular** o volume de gás liberado em uma reação.\n",
-            "**Calcular** a quantidade de gás coletada sobre água.\n"
-          ]
+          "title": "Estequiometria de Gases"
         },
         {
           "id_": "3A.4",
-          "title": "Movimento Molecular",
-          "items": [
-            "Modelo cinético dos gases. $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n",
-            "Distribuição de Maxwell-Boltzmann.\n",
-            "Difusão e efusão.\n",
-            "Lei de Graham. $$\n   \\dfrac{v_2}{v_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n"
-          ],
-          "abilities": [
-            "**Calcular** a velocidade média quadrática de uma amostra de gás.\n",
-            "**Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n",
-            "**Comparar** a temperatura de gases ideais com base na sua distribuição\nde velocidades.\n",
-            "**Comparar** a massa molar de gases ideais com base na sua distribuição\nde velocidades.\n"
-          ]
+          "title": "Movimento Molecular"
         },
         {
           "id_": "3A.5",
-          "title": "Energia do Gás Ideal.",
-          "items": [
-            "Energia interna do gás ideal. \\$\\$\n"
-          ],
-          "abilities": [
-            "**Comparar** a capacidade calorífica de gases.\n"
-          ]
+          "title": "Energia do Gás Ideal."
         }
       ],
       "problems": [
@@ -7676,7 +6896,7 @@
                     "name": "Densidade do \\ce{Hg} ",
                     "symbol": "\\rho (\\ce{Hg} )",
                     "value": "13,6",
-                    "unit": "g.cm^{-3}"
+                    "unit": "g.cm-3"
                   }
                 ]
               },
@@ -7899,10 +7119,10 @@
             },
             {
               "id_": "3A27",
-              "statement": "O superóxido de potássio, $\\ce{KO2}$, pode ser utilizado como\npurificador de ar porque reage com o dióxido de carbono liberando\noxigênio e formando carbonato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da massa de $\\ce{KO2}$\nnecessária para a produçãp de $\\pu{22,4 L}$ de oxigênio em CNTP.\n",
+              "statement": "O superóxido de potássio, $\\ce{KO2}$, pode ser utilizado como\npurificador de ar porque reage com o dióxido de carbono liberando\noxigênio e formando carbonato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da massa de $\\ce{KO2}$\nnecessária para a produção de $\\pu{22,4 L}$ de oxigênio em CNTP.\n",
               "solution": "",
               "answer": [
-                "$\\pu{53 g}$\n"
+                "$\\pu{95 g}$\n"
               ],
               "constants": {
                 "data": []
@@ -7911,13 +7131,13 @@
                 "data": []
               },
               "elements": [],
-              "obj": 1,
+              "obj": 4,
               "choices": [
-                "$\\pu{44 g}$\n",
-                "$\\pu{53 g}$\n",
-                "$\\pu{62 g}$\n",
-                "$\\pu{71 g}$\n",
-                "$\\pu{80 g}$\n"
+                "$\\pu{59 g}$\n",
+                "$\\pu{68 g}$\n",
+                "$\\pu{77 g}$\n",
+                "$\\pu{86 g}$\n",
+                "$\\pu{95 g}$\n"
               ]
             },
             {
@@ -8051,7 +7271,7 @@
           "problems": [
             {
               "id_": "3A29",
-              "statement": "Considere um tubo de $\\pu{3 m}$ de comprimento onde em uma ponta é\ncolocado um algodão com uma solução de ácido clorídrico e na outra é\ncolocado um algodão com uma solução de hidróxido de amônio. Um aerossol\nbranco é formado no interior do tubo.\n\n**Assinale** a alternativa que mais se aproxima da distância entre o\naerossol branco e o algodão com amônia.\n",
+              "statement": "Considere um tubo de $\\pu{3 m}$ de comprimento onde em uma ponta é\ncolocado um algodão com uma solução de ácido clorídrico e na outra é\ncolocado um algodão com uma solução de amônia. Um aerossol branco é\nformado no interior do tubo.\n\n**Assinale** a alternativa que mais se aproxima da distância entre o\naerossol branco e o algodão com amônia.\n",
               "solution": "",
               "answer": [
                 "$\\pu{1,78 m}$\n"
@@ -8594,39 +7814,15 @@
       "subtopics": [
         {
           "id_": "3B.1",
-          "title": "Desvios da Idealidade",
-          "items": [
-            "Interações Intermoleculares.\n",
-            "Potencial de Lennard-Jones.\n",
-            "Volume molecular.\n"
-          ],
-          "abilities": [
-            "Habilidades\n"
-          ]
+          "title": "Desvios da Idealidade"
         },
         {
           "id_": "3B.2",
-          "title": "Equações de Estado do Gás Real",
-          "items": [
-            "Equação de Van der Waals: $$ \n    \\left( P + a\\dfrac{n^2}{V^2} \\right)(V - nb) = nRT \n    $$\n",
-            "Fator de Compressibilidade: $$ \n    Z = \\dfrac{V}{V_\\text{ideal}} = \\dfrac{PV}{RT}\n    $$\n"
-          ],
-          "abilities": [
-            "**Comparar** gases em função de seu fator de compressibilidade.\n",
-            "**Comparar** gases em função de seus parâmetros de Van der Waals.\n"
-          ]
+          "title": "Equações de Estado do Gás Real"
         },
         {
           "id_": "3B.3",
-          "title": "Liquefação",
-          "items": [
-            "Isotermas do gás real.\n",
-            "Liquefação de Gases Reais.\n",
-            "Efeito Joule-Thompson.\n"
-          ],
-          "abilities": [
-            "Caminho livre médio\n"
-          ]
+          "title": "Liquefação"
         }
       ],
       "problems": [
@@ -9026,71 +8222,23 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Composição das Soluções\n\n1. Molalidade\n2. Concentração em volumes.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n- **Relacionar** as unidades de concentração.\n\n# Condutividade Iônica\n\n1. Mobilidade iônica.\n2. Influência do solvente na mobilidade iônica.\n3. Condutividade molar, $\\lambda$.\n4. Lei de migração independente.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n\n# Absortividade das Soluções\n\n1. Lei de Beer-Lambert.\n\n### Habilidades\n\n- Habilidade\n\n# Operações em Soluções\n\n1. Balanço molar.\n2. Balanço de cargas.\n3. Balanço energético.\n4. Diluição.\n5. Mistura.\n\n### Habilidades\n\n- Habilidade\n\n# Técnicas de Separação\n\n1. Decantação.\n2. Filtração.\n3. Cromatografia.\n4. Destilação.\n5. Extração.\n\n### Habilidades\n\n- **Determinar** a técnica mais adequada para separação de uma mistura.\n- **Determinar** os produtos resultantes de uma separação de mistura.",
+      "contents": "# Composição das Soluções\n\n1. Molalidade\n2. Concentração em volumes.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n- **Relacionar** as unidades de concentração.\n\n# Condutividade Iônica\n\n1. Mobilidade iônica.\n2. Influência do solvente na mobilidade iônica.\n3. Condutividade molar, $\\lambda$.\n4. Lei de migração independente.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n\n# Absortividade das Soluções\n\n1. Lei de Beer-Lambert.\n\n### Habilidades\n\n- Habilidade\n\n# Operações em Soluções\n\n1. Balanço molar.\n2. Balanço de cargas.\n3. Balanço energético.\n4. Diluição.\n5. Mistura.\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "3C.1",
-          "title": "Composição das Soluções",
-          "items": [
-            "Molalidade\n",
-            "Concentração em volumes.\n"
-          ],
-          "abilities": [
-            "**Determinar** a concentração de íons em solução a partir de data: de\ncondutividade.\n",
-            "**Relacionar** as unidades de concentração.\n"
-          ]
+          "title": "Composição das Soluções"
         },
         {
           "id_": "3C.2",
-          "title": "Condutividade Iônica",
-          "items": [
-            "Mobilidade iônica.\n",
-            "Influência do solvente na mobilidade iônica.\n",
-            "Condutividade molar, $\\lambda$.\n",
-            "Lei de migração independente.\n"
-          ],
-          "abilities": [
-            "**Determinar** a concentração de íons em solução a partir de data: de\ncondutividade.\n"
-          ]
+          "title": "Condutividade Iônica"
         },
         {
           "id_": "3C.3",
-          "title": "Absortividade das Soluções",
-          "items": [
-            "Lei de Beer-Lambert.\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Absortividade das Soluções"
         },
         {
           "id_": "3C.4",
-          "title": "Operações em Soluções",
-          "items": [
-            "Balanço molar.\n",
-            "Balanço de cargas.\n",
-            "Balanço energético.\n",
-            "Diluição.\n",
-            "Mistura.\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
-        },
-        {
-          "id_": "3C.5",
-          "title": "Técnicas de Separação",
-          "items": [
-            "Decantação.\n",
-            "Filtração.\n",
-            "Cromatografia.\n",
-            "Destilação.\n",
-            "Extração.\n"
-          ],
-          "abilities": [
-            "**Determinar** a técnica mais adequada para separação de uma mistura.\n",
-            "**Determinar** os produtos resultantes de uma separação de mistura.\n"
-          ]
+          "title": "Operações em Soluções"
         }
       ],
       "problems": []
@@ -9106,72 +8254,23 @@
       "subtopics": [
         {
           "id_": "3D.1",
-          "title": "Velocidade de Reações",
-          "items": [
-            "Velocidade média de reação.\n",
-            "Concentração e velocidade reacional.\n",
-            "Velocidade instantânea de reação.\n",
-            "Leis de velocidade e ordem de reação. $$\n    v = k [\\ce{A}]^n\n    $$\n",
-            "Método das concentrações iniciais.\n"
-          ],
-          "abilities": [
-            "**Calcular** a velocidade média de consumo de reagentes ou formação de\nprodutos.\n",
-            "**Determinar** a ordem de reação a partir da tabela de velocidades e\nconcentrações iniciais.\n"
-          ]
+          "title": "Velocidade de Reações"
         },
         {
           "id_": "3D.2",
-          "title": "Reações de Ordem Zero",
-          "items": [
-            "Velocidade instantânea de ordem zero: $$\n    v = k\n    $$\n",
-            "Lei de ordem zero: $$\n    [\\ce{A}]_t = [\\ce{A}]_0 - kt\n    $$\n",
-            "Linearização: $[\\ce{A}] \\times t$.\n"
-          ],
-          "abilities": [
-            "**Calcular** a concentração de um reagente ou produto de uma reação de\nordem zero em função do tempo.\n",
-            "**Calcular** a constante de velocidade para reações de ordem zero por\ninterpolação linear.\n"
-          ]
+          "title": "Reações de Ordem Zero"
         },
         {
           "id_": "3D.3",
-          "title": "Reações de Primeira Ordem",
-          "items": [
-            "Velocidade instantânea de primeira ordem: $$\n    v = k [\\ce{A}]\n    $$\n",
-            "Lei integrada de primeira ordem: $$\n    [\\ce{A}]_t = [\\ce{A}]_0 e^{-kt}\n    $$\n",
-            "Tempo de meia-vida de primeira ordem: $$\n    t_{1/2} = \\dfrac{\\ln 2}{k}\n    $$\n",
-            "Linearização: $\\ln[\\ce{A}] \\times t$.\n"
-          ],
-          "abilities": [
-            "**Calcular** a concentração de um reagente ou produto de uma reação de\nprimeira ordem em função do tempo.\n",
-            "**Calcular** o tempo de meia vida para uma reação de primeira ordem em\nfunção da constante cinética.\n",
-            "**Calcular** a constante de velocidade para reações de primeira ordem\npor interpolação linear.\n"
-          ]
+          "title": "Reações de Primeira Ordem"
         },
         {
           "id_": "3D.4",
-          "title": "Reações de Segunda Ordem",
-          "items": [
-            "Velocidade instantânea de segunda ordem: $$\n    v = k [\\ce{A}]^2\n    $$\n",
-            "Lei integrada de segunda ordem: $$\n    \\dfrac{1}{[\\ce{A}]_t} = \\dfrac{1}{[\\ce{A}]_0} + kt\n    $$\n",
-            "Linearização: $1/[\\ce{A}] \\times t$.\n"
-          ],
-          "abilities": [
-            "**Calcular** a concentração de um reagente ou produto de uma reação de\nsegunda ordem em função do tempo.\n",
-            "**Calcular** a constante de velocidade para reações de segunda ordem por\ninterpolação linear.\n"
-          ]
+          "title": "Reações de Segunda Ordem"
         },
         {
           "id_": "3D.5",
-          "title": "Reações de Ordem Superior",
-          "items": [
-            "Reações de ordem superior.\n",
-            "Pseudo-ordem.\n",
-            "Tempo de meia-vida de ordens superiores.\n",
-            "Meias vidas consecutivas: $$\n    \\dfrac{t_{1/2}^\\prime}{t_{1/2}} = 2^{n-1}\n    $$\n"
-          ],
-          "abilities": [
-            "**Determinar** a ordem de uma reação utilizando o método das meias-vidas\nconsecutivas.\n"
-          ]
+          "title": "Reações de Ordem Superior"
         }
       ],
       "problems": []
@@ -9187,13 +8286,7 @@
       "subtopics": [
         {
           "id_": "3E.1",
-          "title": "Temperatura e velocidade de reação",
-          "items": [
-            "Energia\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Temperatura e velocidade de reação"
         }
       ],
       "problems": []
@@ -9209,28 +8302,11 @@
       "subtopics": [
         {
           "id_": "3F.1",
-          "title": "Combinação de Reações Elementares",
-          "items": [
-            "Etapa determinante na velocidade.\n",
-            "Aproximação do estado estacionário.\n",
-            "Aproximação do pré-equilíbrio.\n"
-          ],
-          "abilities": [
-            "**Determinar** a lei de velocidade para uma reação em cadeia.\n"
-          ]
+          "title": "Combinação de Reações Elementares"
         },
         {
           "id_": "3F.2",
-          "title": "Reações em Cadeia",
-          "items": [
-            "Iniciação.\n",
-            "Propagação.\n",
-            "Término.\n",
-            "Reações radicalares.\n"
-          ],
-          "abilities": [
-            "**Determinar** a lei de velocidade para uma reação em cadeia.\n"
-          ]
+          "title": "Reações em Cadeia"
         }
       ],
       "problems": []
@@ -9238,7 +8314,7 @@
     {
       "id_": "3G",
       "area": "Q3",
-      "title": "Reações Inorgânicas",
+      "title": "Análise Quantitativa",
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
@@ -9246,13 +8322,7 @@
       "subtopics": [
         {
           "id_": "3G.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Tópico"
         }
       ],
       "problems": []
@@ -9260,7 +8330,7 @@
     {
       "id_": "3H",
       "area": "Q3",
-      "title": "Reações Ácido-Base",
+      "title": "Análise de Neutralização",
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
@@ -9268,13 +8338,7 @@
       "subtopics": [
         {
           "id_": "3H.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Tópico"
         }
       ],
       "problems": []
@@ -9282,7 +8346,7 @@
     {
       "id_": "3I",
       "area": "Q3",
-      "title": "Reações de Precipitação",
+      "title": "Análise de Precipitação",
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
@@ -9290,13 +8354,7 @@
       "subtopics": [
         {
           "id_": "3I.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Tópico"
         }
       ],
       "problems": []
@@ -9304,21 +8362,19 @@
     {
       "id_": "3J",
       "area": "Q3",
-      "title": "Reações de Oxidação-Redução",
+      "title": "Reações de Redução-Oxidação",
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Semirreações\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Balanceamento de Reações de Redução-Oxidação\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "3J.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Semirreações"
+        },
+        {
+          "id_": "3J.2",
+          "title": "Balanceamento de Reações de Redução-Oxidação"
         }
       ],
       "problems": []
@@ -9326,7 +8382,7 @@
     {
       "id_": "3K",
       "area": "Q3",
-      "title": "Reações de Oxidação-Redução",
+      "title": "Análise de Redução-Oxidação",
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
@@ -9334,13 +8390,7 @@
       "subtopics": [
         {
           "id_": "3K.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Tópico"
         }
       ],
       "problems": []
@@ -9356,13 +8406,7 @@
       "subtopics": [
         {
           "id_": "3L.1",
-          "title": "Tópico",
-          "items": [
-            "Tópico\n"
-          ],
-          "abilities": [
-            "Habilidade\n"
-          ]
+          "title": "Tópico"
         }
       ],
       "problems": []

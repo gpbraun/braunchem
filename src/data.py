@@ -8,6 +8,7 @@ import csv
 from pathlib import Path
 
 from attr import frozen, Factory
+from sigfig import round
 
 import latex
 
@@ -121,11 +122,12 @@ class DataSet:
             for row in reader:
                 for prop in reader.fieldnames[1:]:
                     if row[prop]:
+                        value = round(row[prop], sigfigs=3)
                         mol_names = row['id'].split(',')
                         for mol in mol_names:
                             datamol = mol.strip()
                             id_ = f"{prop}-{datamol}"
-                            self.append_cell(id_, prop, datamol, row[prop])
+                            self.append_cell(id_, prop, datamol, value)
 
         return self
 
@@ -269,7 +271,7 @@ DATATYPES = {
     'd': DataType(
         'Densidade do',
         latex.cmd('rho'),
-        'g.cm^{-3}'
+        'g.cm-3'
     ),
     'Hvap': DataType(
         'Entalpia de vaporização do',

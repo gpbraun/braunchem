@@ -24,8 +24,8 @@ import latex
 class Subtopic:
     id_: str
     title: str
-    items: list[str]
-    abilities: list[str]
+    # items: list[str]
+    # abilities: list[str]
 
 
 @frozen
@@ -196,27 +196,27 @@ def file2topic(args):
 
     # get subtopics items and abilities from HTML tags
     all_subtopics = soup.find_all('h1')
-    all_items = soup.find_all('ol')
-    all_abilities = soup.find_all('ul')
+    # all_items = soup.find_all('ol')
+    # all_abilities = soup.find_all('ul')
 
     kwargs['subtopics'] = []
 
     for index, subtopic in enumerate(all_subtopics):
         subtopic_id = f'{id_}.{index+1}'
         subtopic_title = subtopic.text
-        subtopic_items = [
-            convert.html2md(i) for i in all_items[index].find_all('li')
-        ]
-        subtopic_abilities = [
-            convert.html2md(a) for a in all_abilities[index].find_all('li')
-        ]
+        # subtopic_items = [
+        #     convert.html2md(i) for i in all_items[index].find_all('li')
+        # ]
+        # subtopic_abilities = [
+        #     convert.html2md(a) for a in all_abilities[index].find_all('li')
+        # ]
 
         kwargs['subtopics'].append(
             Subtopic(
                 subtopic_id,
                 subtopic_title,
-                subtopic_items,
-                subtopic_abilities
+                # subtopic_items,
+                # subtopic_abilities
             )
         )
 
