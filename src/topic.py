@@ -53,7 +53,7 @@ class Topic:
         if not constants.data and not elements:
             return ''
 
-        header = latex.section('Dados', level=0) + latex.cmd('small')
+        header = latex.section('Dados', level=0)
 
         el_header = latex.section('Elementos', level=1, numbered=False)
         elements_table = el_header + latex.cmd(
@@ -91,9 +91,9 @@ class Topic:
         newpage = False
         for pset in self.problems:
             statements += pset.tex_statements(
-                            pset.title, problem_num, print_solutions,
-                            newpage=newpage
-                        )
+                pset.title, problem_num, print_solutions,
+                newpage=newpage
+            )
             newpage = True
 
         return latex.pu2qty(statements)
@@ -142,8 +142,8 @@ class Topic:
         convert.tex2pdf(
             self.latex(print_level),
             file_name,
-            tmp_path=f'temp/{self.area}',
-            out_path=f'archive/{self.area}'
+            tmp_path=f'temp/{self.area}/{self.id_}',
+            out_path=f'out/{self.area}'
         )
 
 
@@ -161,14 +161,6 @@ def links2topic(cur, id_, problem_links, **kwargs):
         )
     return Topic(id_, problems=problems, **kwargs)
 
-
-# html = u""
-# for tag in soup.find("div", { "class" : "lead" }).next_siblings:
-#     if soup.find("div", { "class" : "image" }) == tag:
-#         break
-#     else:
-#         html += unicode(tag)
-# print html
 
 def file2topic(args):
     path, problemset = args
@@ -249,17 +241,38 @@ class Arsenal:
 
 def get_file_paths(db_path):
     # get the path of all problems and topics
+    problem_path = Path(os.path.join(db_path, 'problems'))
+    topic_path = Path(os.path.join(db_path, 'topics'))
+
     problem_files = []
     topic_files = []
 
-    for root, _, files in os.walk(os.path.join(db_path, 'problems')):
+    for root, _, files in os.walk(problem_path):
         for f in files:
             path = Path(os.path.join(root, f))
+            dir_ = Path(root).relative_to(problem_path).parent
+
             # problems
             if path.suffix == '.md':
                 problem_files.append(path)
 
-    for root, _, files in os.walk(os.path.join(db_path, 'topics')):
+            elif path.suffix in ['.svg', '.png']:
+                # figure
+                convert.copy_r(
+                    path,
+                    f'database/images/{dir_}/{path.name}'
+                )
+
+            elif path.suffix == '.tex':
+                # tikz figures
+                dir_ = Path(root).relative_to(problem_path).parent
+                convert.tikz2svg(
+                    path,
+                    tmp_path=f'temp/images/{dir_}/{path.stem}',
+                    out_path=f'database/images/{dir_}'
+                )
+
+    for root, _, files in os.walk(topic_path):
         for f in files:
             path = Path(os.path.join(root, f))
             if path.suffix == '.md':

@@ -3,7 +3,9 @@
 #
 
 from topic import load_arsenal
-from convert import copy_r, copy_all
+from convert import copy_r
+
+from shutil import copytree
 
 
 def main():
@@ -15,11 +17,17 @@ def main():
         '/home/braun/Documents/Developer/BraunChem/database/arsenal.json'
     )
 
-    for q in ['Q1', 'Q2', 'Q3']:
-        copy_all(
-            f'archive/{q}',
-            '/home/braun/Documents/Drive/Material/Listas'
-        )
+    copytree(
+        'database/images/',
+        '/home/braun/Documents/Developer/BraunChem/public/',
+        dirs_exist_ok=True
+    )
+
+    copytree(
+        'archive/',
+        '/home/braun/Documents/Drive/Material/Listas',
+        dirs_exist_ok=True
+    )
 
 
 if __name__ == "__main__":

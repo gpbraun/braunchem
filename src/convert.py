@@ -14,16 +14,10 @@ from markdown import Markdown
 
 from pathlib import Path
 
+import latex
+
 
 MD = Markdown(extensions=['pymdownx.tasklist', 'markdown.extensions.tables'])
-
-EXTENSIONS = ''.join([
-        '+', 'task_lists',
-        '+', 'table_captions',
-        '+', 'simple_tables',
-        '+', 'implicit_figures',
-        '+', 'footnotes',
-    ])
 
 
 def md2soup(content):
@@ -35,18 +29,26 @@ def html2md(content):
     # convert md to html using pandoc and parse as soup
     return convert_text(
         content, 'md',
-        format='html+tex_math_dollars+raw_tex'
-    ).replace('\t', '')
+        format='html+tex_math_dollars+raw_tex')
+    # ).replace('\t', '')
 
 
 def soup_split(soup, tag):
     split_tag = soup.find(tag)
-    if split_tag:
-        splited = str(soup).split(str(split_tag), 1)
+    if not split_tag:
+        return [soup, '']
 
-        return map(lambda s: BeautifulSoup(s, 'html.parser'), splited)
+    splited = str(soup).split(str(split_tag), 1)
+    return map(lambda s: BeautifulSoup(s, 'html.parser'), splited)
 
-    return [soup, '']
+
+EXTENSIONS = ''.join([
+    '+', 'task_lists',
+    '+', 'table_captions',
+    '+', 'simple_tables',
+    '+', 'implicit_figures',
+    '+', 'footnotes',
+])
 
 
 def md2tex(content):
@@ -69,11 +71,12 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive'):
+def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive',
+            svg=False):
     # convert tex string to pdf
     cwd = Path.cwd()
 
-    temp = Path(os.path.join(tmp_path, filename))
+    temp = Path(tmp_path)
     temp.mkdir(parents=True, exist_ok=True)
 
     # copy latex template files to temp folder
@@ -97,12 +100,38 @@ def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive'):
     if not os.path.exists(f'{filename}.pdf'):
         exit(f"Falha na compilação do arquivo '{filename}.tex'!")
 
+    if svg:
+        run(
+            ['pdf2svg',
+             f'{filename}.pdf',
+             f'{filename}.svg', ],
+            stdout=DEVNULL,
+        )
+
     os.chdir(cwd)
 
     out = Path(out_path)
     out.mkdir(parents=True, exist_ok=True)
 
-    copy_r(
-        os.path.join(temp, f'{filename}.pdf'),
-        os.path.join(out, f'{filename}.pdf')
-    )
+    if svg:
+        copy_r(
+            os.path.join(temp, f'{filename}.svg'),
+            os.path.join(out, f'{filename}.svg')
+        )
+    else:
+        copy_r(
+            os.path.join(temp, f'{filename}.pdf'),
+            os.path.join(out, f'{filename}.pdf')
+        )
+
+
+def tikz2svg(tikz_path, tmp_path='temp/images', out_path='database/images'):
+    # convert tikz image file to svg for web
+    tikz = Path(tikz_path)
+    filename = tikz.stem
+    input_path = os.path.relpath(tikz, tmp_path)
+
+    tex_contents = latex.cmd('documentclass', 'braunfigure') + \
+        latex.env('document', latex.cmd('input', input_path))
+
+    tex2pdf(tex_contents, filename, tmp_path, out_path, True)

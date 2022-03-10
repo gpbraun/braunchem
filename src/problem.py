@@ -53,7 +53,7 @@ class Problem:
         header = latex.section('Dados', level=2, numbered=False)
         data = self.data.astex() if print_data else ''
 
-        return header + data
+        return header + latex.cmd('small') + data
 
     def tex_choices(self):
         # return choices as tex list
@@ -426,7 +426,7 @@ def autoprops(true_props):
             '**2**, **3** e **4**',
             '**1**, **2**, **3** e **4**'
         ]
-        obj = 3
+        obj = 4
     answer = [choices[obj]]
     return choices, answer, obj
 

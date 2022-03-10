@@ -226,7 +226,7 @@ CONSTANTS = DataSet([
     Data(
         'Patm',
         'Pressão atmosférica',
-        '1 \\pu{atm}',
+        '\\pu{1 atm}',
         '1,01325e5',
         'Pa'
 

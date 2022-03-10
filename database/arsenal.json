@@ -1010,7 +1010,7 @@
               "statement": "Um tubo contendo átomos de hidrogênio no estado fundamental é irradiado\ncom luz monocromática e o espectro de emissão é analisado.\n\n-   **Determine** o comprimento de onda da radiação incidente para serem\n    observadas dez linhas espectrais de emissão.\n-   **Determine** o comprimento de onda da radiação incidente serem\n    observadas duas linhas espectrais de emissão no visível\n    ($\\pu{400 nm}$ a $\\pu{750 nm}$).\n",
               "solution": "\n",
               "answer": [
-                "$\\lambda = \\dfrac{25}{24 R } = \\pu{45 nm}$\n",
+                "$\\lambda = \\dfrac{25}{24 R } = \\pu{95 nm}$\n",
                 "$\\lambda = \\dfrac{16}{15 R } = \\pu{97 nm}$\n"
               ],
               "constants": {
@@ -1277,7 +1277,7 @@
               "statement": "**Assinale** a alternativa com o conjunto de números quânticos\n($n, l, m_l, m_s$) que pode representar um orbital atômico.\n",
               "solution": "",
               "answer": [
-                "($6, 4, +3, +1/2$)\n"
+                "$(6, 4, +3, +1/2)$\n"
               ],
               "constants": {
                 "data": []
@@ -1288,11 +1288,11 @@
               "elements": [],
               "obj": 4,
               "choices": [
-                "($2, 2, +1, +1/2$)\n",
-                "($4, 2, -3, -1/2$)\n",
-                "($4, 4, +2, -1/2$)\n",
-                "($5, 0, 0, +1$)\n",
-                "($6, 4, +3, +1/2$)\n"
+                "$(2, 2, +1, +1/2)$\n",
+                "$(4, 2, -3, -1/2)$\n",
+                "$(4, 4, +2, -1/2)$\n",
+                "$(5, 0, 0, +1)$\n",
+                "$(6, 4, +3, +1/2)$\n"
               ]
             },
             {
@@ -1300,7 +1300,7 @@
               "statement": "**Assinale** a alternativa com o conjunto de números quânticos\n($n, l, m_l, m_s$) que pode representar um orbital atômico.\n",
               "solution": "",
               "answer": [
-                "($5, 4, -4, -1/2$)\n"
+                "$(5, 4, -4, -1/2)$\n"
               ],
               "constants": {
                 "data": []
@@ -1311,11 +1311,11 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "($1, 1, 0, +1/2$)\n",
-                "($5, 3, -3, -1/2$)\n",
-                "($5, 4, -4, -1/2$)\n",
-                "($5, 5, +4, -1/2$)\n",
-                "($6, 4, +5, +1/2$)\n"
+                "$(1, 1, 0, +1/2)$\n",
+                "$(5, 3, -3, -1/2)$\n",
+                "$(5, 4, -4, -1/2)$\n",
+                "$(5, 5, +4, -1/2)$\n",
+                "$(6, 4, +5, +1/2)$\n"
               ]
             },
             {
@@ -1412,10 +1412,10 @@
             },
             {
               "id_": "1B12",
-              "statement": "1.  A $Z_\\text{eff}$ de um elétron em um orbital $1$s é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2s$.\n2.  A $Z_\\text{eff}$ de um elétron em um orbital $2s$ é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2p$.\n3.  Um elétron em um orbital $2s$ tem a mesma energia que um elétron no\n    orbital $2p$.\n4.  Os elétrons nos orbitais $2p$ têm números quânticos $ms$ com *spins*\n    de sinais contrários.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+              "statement": "1.  A $Z_\\text{eff}$ de um elétron em um orbital $1$s é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2s$.\n2.  A $Z_\\text{eff}$ de um elétron em um orbital $2s$ é igual à\n    $Z_\\text{eff}$ de um elétron em um orbital $2p$.\n3.  Um elétron em um orbital $2s$ tem a mesma energia que um elétron no\n    orbital $2p$.\n4.  Elétrons em orbitais $2p$ não podem possuir o mesmo valor de *spin*.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "**1**, **2**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -1424,7 +1424,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "**1**, **2** e **3**",
                 "**1**, **2** e **4**",
@@ -1461,7 +1461,7 @@
               "statement": "**Assinale** a alternativa com o número de elétrons com número quântico\nmagnético $m_s = 1$ no estado fundamental do bismuto.\n",
               "solution": "",
               "answer": [
-                "$34$\n"
+                "$17$\n"
               ],
               "constants": {
                 "data": []
@@ -1472,11 +1472,11 @@
               "elements": [],
               "obj": 3,
               "choices": [
+                "$9$\n",
                 "$12$\n",
+                "$15$\n",
                 "$17$\n",
-                "$24$\n",
-                "$34$\n",
-                "$40$\n"
+                "$20$\n"
               ]
             },
             {
@@ -1789,7 +1789,7 @@
               "statement": "Considere um elétron no orbital $2s$ de um átomo de hidrogênio, cuja\nfunção de onda é\n\n$$\n\\psi_{1s}(r) = \\frac{1}{4\\sqrt{2\\pi}a_{0}^{3/2}}\\left(2-\\frac{r}{a_{0}}\\right)e^{-\\frac{r}{a_{0}}}\n$$\n\nEm que $a_{0}$ é o raio de Bohr.\n\n**Assinale** a alternativa com a razão entre a probabilidade de\nencontrar o elétron a uma distância $a_{0}$ do núcleo e a probabilidade\nde encontrá-lo a uma distância $3a_{0}$ do núcleo.\n",
               "solution": "",
               "answer": [
-                "$e^{2}$/9\n"
+                "$e^4$/9\n"
               ],
               "constants": {
                 "data": []
@@ -1801,10 +1801,10 @@
               "obj": 3,
               "choices": [
                 "1\n",
-                "$e$/3\n",
-                "$e$\n",
-                "$e^{2}$/9\n",
-                "$e^{2}$\n"
+                "$e^2$/3\n",
+                "$e^2$\n",
+                "$e^4$/9\n",
+                "$e^4$\n"
               ]
             },
             {
@@ -1854,7 +1854,7 @@
               "statement": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n1.  $1s^2 2s^2 2p^1$\n2.  $1s^2 2s^2 2p^3$\n3.  $1s^2 2s^2 2p^4$\n4.  $1s^2 2s^2 2p^5$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
               "solution": "",
               "answer": [
-                "**1** e **3**"
+                "**2** e **3**"
               ],
               "constants": {
                 "data": []
@@ -1865,11 +1865,11 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "**1**",
+                "**2**",
                 "**3**",
-                "**1** e **3**",
+                "**2** e **3**",
                 "**1**, **2** e **3**",
-                "**1**, **3** e **4**"
+                "**2**, **3** e **4**"
               ]
             },
             {
@@ -1877,7 +1877,7 @@
               "statement": "Considere as seguintes afirmações:\n\n1.  O nível de energia de um átomo, cujo número quântico principal é\n    igual a $4$, pode ter, no máximo, $32$ elétrons.\n2.  A configuração eletrônica $1s^2 2s^2 2p^2_x 2p^2_y$ representa um\n    estado excitado do átomo de oxigênio.\n3.  O estado fundamental do átomo de fósforo contém três elétrons\n    desemparelhados.\n4.  A energia necessária para excitar um elétron do estado fundamental\n    do átomo de hidrogênio para o orbital $3s$ é igual àquela necessária\n    para excitar este mesmo elétron para o orbital $3d$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "**1**, **2**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -1886,7 +1886,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "**1**, **2** e **3**",
                 "**1**, **2** e **4**",
@@ -1923,7 +1923,7 @@
               "statement": "1.  $|E_{2s}| = |E_{2p}|$ para átomo de hidrogênio.\n2.  $|E_{2s}| = |E_{2p}|$ para o íon de hélio carregado com uma carga\n    positiva.\n3.  $|E_{2s}| > |E_{2p}|$ para o átomo de hélio.\n4.  $|E_{2s}| > |E_{2p}|$ para o ânion de hélio.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "**1**, **2**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -1932,7 +1932,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "**1**, **2** e **3**",
                 "**1**, **2** e **4**",
@@ -2153,7 +2153,7 @@
             },
             {
               "id_": "1B42",
-              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são $$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nOnde $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = 0, \\pm 1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
+              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são\n\n$$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nOnde $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = 0, \\pm 1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
               "solution": "\n",
               "answer": [
                 "Diagrama.\n",
@@ -2200,7 +2200,7 @@
           "problems": [
             {
               "id_": "1B43",
-              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo. $$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do nióbio, que possui\n    $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
+              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo.\n\n$$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do nióbio, que possui\n    $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
               "solution": "\n",
               "answer": [
                 "$[\\ce{Kr}] 5s^1 6d^4$\n",
@@ -2292,7 +2292,7 @@
             },
             {
               "id_": "1B46",
-              "statement": "Considere um universo onde o *spin* eletrônico é dado por: $$\ns = \\dfrac{l+1}{2}\n$$ Onde $l$ é o número quântico azimutal. O número quântico magnético de\nspin pode assumir os valores: $-s, -s + 1, \\ldots , s - 1, s$\n\n-   **Determine** o número máximo de elétrons que podem existir\n    simultaneamente em cada um dos orbitais $s$, $p$, $d$ e $f$.\n-   **Determine** quantidade de máxima de elétrons com número quântico\n    azimutal $l$ para um dado número quântico principal em um átomo.\n",
+              "statement": "Considere um universo onde o *spin* eletrônico é dado por:\n\n$$\ns = \\dfrac{l+1}{2}\n$$\n\nOnde $l$ é o número quântico azimutal. O número quântico magnético de\nspin pode assumir os valores: $-s, -s + 1, \\ldots , s - 1, s$\n\n-   **Determine** o número máximo de elétrons que podem existir\n    simultaneamente em cada um dos orbitais $s$, $p$, $d$ e $f$.\n-   **Determine** quantidade de máxima de elétrons com número quântico\n    azimutal $l$ para um dado número quântico principal em um átomo.\n",
               "solution": "\n",
               "answer": [
                 "$N_s = 2, N_p = 3, N_d = 4, N_f = 5$\n",
@@ -2364,7 +2364,7 @@
               "statement": "Considere as ordenações de raio atômico.\n\n1.  $\\ce{Si} > \\ce{S} > \\ce{Cl}$\n2.  $\\ce{Ti} > \\ce{Cr} > \\ce{Co}$\n3.  $\\ce{Hg} > \\ce{Cd} > \\ce{Zn}$\n4.  $\\ce{Bi} > \\ce{Sb} > \\ce{P}$\n\n**Assinale** a alternativa que relaciona as ordenações *corretas*.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "**1**, **2**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -2373,7 +2373,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "**1**, **2** e **3**",
                 "**1**, **2** e **4**",
@@ -3075,7 +3075,7 @@
               "statement": "Considere as afirmações a seguir, todas relacionadas a átomos e íons no\nestado gasoso:\n\n1.  A energia do íon $\\ce{Be^2+}$, no seu estado fundamental, é igual à\n    energia do átomo de $\\ce{He}$ neutro no seu estado fundamental.\n2.  A segunda energia de ionização do átomo de $\\ce{He}$ neutro, é igual\n    à afinidade eletrônica do íon $\\ce{He^2+}$.\n3.  O primeiro estado excitado do átomo de $\\ce{He}$ neutro tem a mesma\n    configuração eletrônica do primeiro estado excitado do íon\n    $\\ce{Be^2+}$.\n4.  A primeira energia de ionização de íon $\\ce{H-}$ é menor do que a\n    primeira energia de ionização do átomo de $\\ce{H}$ neutro.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "**1**, **2**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -3084,7 +3084,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "**1**, **2** e **3**",
                 "**1**, **2** e **4**",
@@ -3124,7 +3124,7 @@
           "problems": [
             {
               "id_": "1C33",
-              "statement": "Considere as proposições.\n\n-   **Explique** porque a primeira energia de ionização e a afinidade\n    eletrônica do cátion diferem para todos os elementos, exceto o\n    hidrogênio.\n-   **Explique** porque a primeira afinidade eletrônica do enxofre é\n    endotérmica ($\\pu{200 kJ.mol-1}$) enquanto a segunda é exotérmica\n    ($\\pu{-649 kJ.mol-1}$).\n-   **Explique** porque a primeira afinidade eletrônica do flúor\n    ($\\pu{328 kJ.mol-1}$) é menor que a do cloro ($\\pu{349 kJ.mol-1}$).\n-   **Explique** porque as afinidades eletrônicas do carbono e do\n    oxigênio são positivas, enquanto, a afinidade eletrônica do\n    nitrogênio é próxima de zero.\n",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque a primeira energia de ionização e a afinidade\n    eletrônica do cátion diferem para todos os elementos, exceto o\n    hidrogênio.\n-   **Explique** porque a primeira afinidade eletrônica do enxofre é\n    endotérmica enquanto a segunda é exotérmica.\n-   **Explique** porque a primeira afinidade eletrônica do flúor é menor\n    que a do cloro.\n-   **Explique** porque as afinidades eletrônicas do carbono e do\n    oxigênio são positivas, enquanto, a afinidade eletrônica do\n    nitrogênio é próxima de zero.\n",
               "solution": "\n",
               "answer": [
                 "Hidrogenoide.\n",
@@ -3144,7 +3144,7 @@
             },
             {
               "id_": "1C34",
-              "statement": "Considere as proposições.\n\n-   **Explique** porque a energia de ionização do alumínio\n    ($\\pu{577 kJ.mol-1}$) é menor que a do magnésio\n    ($\\pu{737 kJ.mol-1}$).\n-   **Explique** porque a energia de ionização do oxigênio\n    ($\\pu{1314 kJ.mol-1}$) é menor que a do nitrogênio\n    ($\\pu{1402 kJ.mol-1}$).\n",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque a energia de ionização do alumínio é menor que a\n    do magnésio.\n-   **Explique** porque a energia de ionização do oxigênio é menor que a\n    do nitrogênio.\n",
               "solution": "\n",
               "answer": [
                 "Simetria esférica.\n",
@@ -3162,7 +3162,7 @@
             },
             {
               "id_": "1C35",
-              "statement": "Considere as proposições.\n\n-   **Explique** porque o raio covalente do germânio ($\\pu{122 pm}$) é\n    muito próximo do raio covalente do silício ($\\pu{117 pm}$).\n-   **Explique** porque a energia de ionização do alumínio\n    ($\\pu{577 kJ.mol-1}$) é muito próximo da energia de ionização do\n    gálio ($\\pu{579 kJ.mol-1}$).\n",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque o raio covalente do germânio é muito próximo do\n    raio covalente do silício.\n-   **Explique** porque a energia de ionização do alumínio é muito\n    próximo da energia de ionização do gálio.\n",
               "solution": "\n",
               "answer": [
                 "Contração do bloco d.\n",
@@ -3180,7 +3180,7 @@
             },
             {
               "id_": "1C36",
-              "statement": "Considere as proposições.\n\n-   **Explique** porque o raio atômico aumenta no grupo Sc\n    ($\\pu{157 pm}$), Y ($\\pu{169 pm}$), La ($\\pu{191 pm}$), entretanto,\n    o mesmo não acontece no grupo Ti ($\\pu{148 pm}$), Zr\n    ($\\pu{159 pm}$), Hf ($\\pu{148 pm}$).\n-   **Explique** a diferença entre os raios atômicos do praseodímio\n    ($\\pu{181 pm}$) e o samário ($\\pu{180 pm}$) é menor que entre o\n    háfnio ($\\pu{156 pm}$) e o tântalo ($\\pu{143 pm}$).\n-   **Explique** porque a primeira energia de ionização do chumbo\n    ($\\pu{715 kJ.mol-1}$) é maior que a do estanho\n    ($\\pu{708 kJ.mol-1}$).\n",
+              "statement": "Considere as proposições.\n\n-   **Explique** porque o raio atômico aumenta no grupo $\\ce{Sc}$,\n    $\\ce{Y}$, $\\ce{La}$, entretanto, o mesmo não acontece no grupo\n    $\\ce{Ti}$, $\\ce{Zr}$, $\\ce{Hf}$.\n-   **Explique** a diferença entre os raios atômicos do praseodímio e o\n    samário é menor que entre o háfnio e o tântalo.\n-   **Explique** porque a primeira energia de ionização do chumbo é\n    maior que a do estanho.\n",
               "solution": "\n",
               "answer": [
                 "Contração dos lantanídeos.\n",
@@ -3238,7 +3238,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Ligações Intermoleculares\n\n1. Origem das ligações intermoleculares.\n2. Ponto de fusão e de ebulição.\n3. Ligações íon-dipolo.\n4. Ligações dipolo-dipolo.\n5. Forças de London: dipolo instantâneo e dipolo induzido.\n6. Ligações de hidrogênio.\n\n### Habilidades\n\n- **Identificar** o tipo de ligação intermolecular predominante em uma substância.\n- **Comparar** o ponto de fusão e de ebulição de substâncias.\n\n# Líquidos\n\n1. Ordem em líquidos.\n2. Viscosidade e tensão superficial.\n3. Adesão e coesão.\n4. Cristais líquidos.\n5. Líquidos iônicos.\n\n### Habilidades\n\n- **Comparar** forças de adesão e coesão.\n- **Comparar** a viscosidade e tensão superficial de diferentes substâncias.\n- **Comparar** a viscosidade e tensão superficial em diferentes temperaturas.\n\n# Técnicas de Separação\n\n1. Decantação.\n2. Filtração.\n3. Cromatografia.\n4. Destilação simples e fracionada.\n5. Extração.\n\n### Habilidades\n\n- **Determinar** a técnica mais adequada para separação de uma mistura.\n- **Determinar** os produtos resultantes de uma separação de mistura.",
+      "contents": "# Ligações Intermoleculares\n\n1. Origem das ligações intermoleculares.\n2. Ponto de fusão e de ebulição.\n3. Ligações íon-dipolo.\n4. Ligações dipolo-dipolo.\n5. Forças de London: dipolo instantâneo e dipolo induzido.\n6. Ligações de hidrogênio.\n\n### Habilidades\n\n- **Identificar** o tipo de ligação intermolecular predominante em uma substância.\n- **Comparar** o ponto de fusão e de ebulição de substâncias.\n\n# Líquidos\n\n1. Ordem em líquidos.\n2. Viscosidade.\n3. Tensão superficial.\n4. Surfactantes\n5. Adesão e coesão.\n6. Cristais líquidos.\n7. Líquidos iônicos.\n\n### Habilidades\n\n- **Comparar** forças de adesão e coesão.\n- **Comparar** a viscosidade e tensão superficial de diferentes substâncias.\n- **Comparar** a viscosidade e tensão superficial em diferentes temperaturas.\n\n# Técnicas de Separação\n\n1. Decantação.\n2. Filtração.\n3. Cromatografia.\n4. Destilação simples e fracionada.\n5. Extração.\n\n### Habilidades\n\n- **Determinar** a técnica mais adequada para separação de uma mistura.\n- **Determinar** os produtos resultantes de uma separação de mistura.",
       "subtopics": [
         {
           "id_": "1E.1",
@@ -3362,14 +3362,18 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Corrosão\n\n1.\n\n### Habilidades\n\n- Habilidade\n\n# Corrosão\n\n1. Galvanização.\n2. Passivação.\n3. Proteção catódica.\n4. Proteção anódica.\n\n### Habilidades\n\n- **Identificar** reações de corrosão em um sistema.\n- **Identificar** meios para inibir o processo corrosivo.",
+      "contents": "# Potenciais Padrão\n\n\n# Série Eletroquímica\n\n### Habilidades\n\n- Habilidade\n\n# Corrosão\n\n1. Galvanização.\n2. Passivação.\n3. Proteção catódica.\n4. Proteção anódica.\n\n### Habilidades\n\n- **Identificar** reações de corrosão em um sistema.\n- **Identificar** meios para inibir o processo corrosivo.",
       "subtopics": [
         {
           "id_": "1I.1",
-          "title": "Corrosão"
+          "title": "Potenciais Padrão"
         },
         {
           "id_": "1I.2",
+          "title": "Série Eletroquímica"
+        },
+        {
+          "id_": "1I.3",
           "title": "Corrosão"
         }
       ],
@@ -3509,7 +3513,7 @@
             },
             {
               "id_": "2A02",
-              "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado no congelamento de $\\pu{100 g}$ de água a\n$\\pu{0 \\degree C}$ e $\\pu{1070 atm}$.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado no congelamento de $\\pu{100 g}$ de água a\n$\\pu{0 \\degree C}$ e $\\pu{1000 atm}$.\n",
               "solution": "",
               "answer": [
                 "$\\pu{860 J}$\n"
@@ -3632,6 +3636,13 @@
                     "symbol": "C_P(\\ce{H2O, {s}} )",
                     "value": "37,8",
                     "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
+                    "value": "-286",
+                    "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(s)",
@@ -3757,7 +3768,7 @@
               "statement": "Considere os processos químicos realizados em temperatura constante.\n\n1.  Dissolução do nitrato de potássio.\n2.  Ebulição da água.\n3.  Conversão da grafita em diamante.\n4.  Oxidação do sódio metálico.\n\n**Assinale** a alternativa com os processos que apresentam variação de\nenergia interna não nula.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "**1**, **2**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -3766,7 +3777,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "**1**, **2** e **3**",
                 "**1**, **2** e **4**",
@@ -3826,7 +3837,7 @@
               "statement": "A oxidação de aminoácidos no organismo leva a formação de ureia\n($\\ce{H2NCONH2}$), dióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
               "solution": "",
               "answer": [
-                "$\\pu{650 kJ.mol-1}$\n"
+                "$\\pu{-650 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -3866,11 +3877,11 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\pu{620 kJ.mol-1}$\n",
-                "$\\pu{650 kJ.mol-1}$\n",
-                "$\\pu{680 kJ.mol-1}$\n",
-                "$\\pu{710 kJ.mol-1}$\n",
-                "$\\pu{740 kJ.mol-1}$\n"
+                "$\\pu{-620 kJ.mol-1}$\n",
+                "$\\pu{-650 kJ.mol-1}$\n",
+                "$\\pu{-680 kJ.mol-1}$\n",
+                "$\\pu{-710 kJ.mol-1}$\n",
+                "$\\pu{-740 kJ.mol-1}$\n"
               ]
             },
             {
@@ -4002,7 +4013,7 @@
             },
             {
               "id_": "2A19",
-              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de bromação\nde um mol de $\\ce{propeno}$ ($\\ce{CH3CHCH2}$), formando\n1,2-dibromopropano\n($\\ce{CH3CHBrCH2Br}, \\Delta H_\\text{vap} = \\pu{35,61 kJ.mol^{-1}}$).\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de bromação\nde um mol de $\\ce{propeno}$ ($\\ce{CH3CHCH2}$), formando\n1,2-dibromopropano ($\\ce{CH3CHBrCH2Br}$).\n",
               "solution": "",
               "answer": [
                 "$\\pu{-101 kJ}$\n"
@@ -4012,6 +4023,13 @@
               },
               "data": {
                 "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H^\\circ_\\text{vap}(\\ce{CH3CHBrCH2Br}) = \\pu{35,61 kJ.mol^{-1}}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
                   {
                     "id_": "HL-Br2",
                     "name": "Entalpia da ligação \\ce{Br2} ",
@@ -4061,7 +4079,7 @@
             },
             {
               "id_": "2A21",
-              "statement": "A hidrogenação do monóxido de carbono libera $\\pu{131 kJ}$ por mol de\ngrafita formado.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reforma\nde $\\pu{1 mol}$ de metano com vapor d'água, método industrial para\nprodução de hidrogênio.\n",
+              "statement": "A hidrogenação do monóxido de carbono libera $\\pu{131 kJ}$ por mol de\ngrafita formado.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reforma\nde $\\pu{1 mol}$ de metano com vapor, método industrial para produção de\nhidrogênio.\n",
               "solution": "",
               "answer": [
                 "$\\pu{+207 kJ.mol-1}$\n"
@@ -4109,7 +4127,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-260 kJ.mol-1}$\n"
+                "$\\pu{-200 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -4161,7 +4179,7 @@
                 ]
               },
               "elements": [],
-              "obj": 0,
+              "obj": 1,
               "choices": [
                 "$\\pu{-260 kJ.mol-1}$\n",
                 "$\\pu{-200 kJ.mol-1}$\n",
@@ -4194,6 +4212,13 @@
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
                     "value": "-394",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-H2O(l)",
+                    "name": "Entalpia de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
+                    "value": "-286",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -4271,7 +4296,7 @@
             },
             {
               "id_": "2A25",
-              "statement": "Uma amostra de $\\pu{1 mol}$ de glicose é queimada em um calorímetro\nisocórico a $\\pu{25 \\degree C}$ ($C = \\pu{512 J.\\degree C-1}$) com\nexcesso de oxigênio. A variação de temperatura registrada foi de\n$\\pu{5 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
+              "statement": "Uma amostra de $\\pu{180 mg}$ de glicose é queimada em um calorímetro\nisocórico, com capacidade calorífica $C = \\pu{512 J.\\degree C-1}$, a\n$\\pu{25 \\degree C}$com excesso de oxigênio. A variação de temperatura\nregistrada foi de $\\pu{5 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
               "solution": "",
               "answer": [
                 "$\\pu{-2545 kJ}$\n"
@@ -4468,7 +4493,7 @@
             },
             {
               "id_": "2A31",
-              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico, PC, dessa\nmistura em função da fração mássica de hidrogênio.\n\n  $x_{\\ce{H2}}/\\pu{\\%}$   $\\mathrm{PC}/\\pu{kJ.mol-1}$\n  ----------------------- -----------------------------\n  $\\pu{2}$                $\\pu{3,0}$\n  $\\pu{5}$                $\\pu{8,7}$\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
+              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico, PC, dessa\nmistura em função da fração mássica de hidrogênio.\n\n  $x_{\\ce{H2}}/\\pu{\\%}$   $\\mathrm{PC}/\\pu{kJ.g-1}$\n  ----------------------- ---------------------------\n  $\\pu{2}$                $\\pu{3,0}$\n  $\\pu{5}$                $\\pu{8,7}$\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{-190 kJ.mol-1}$\n",
@@ -5684,7 +5709,7 @@
             },
             {
               "id_": "2B14",
-              "statement": "A *Regra de Trouton* estabelece que a entropia molar de vaporização de\nlíquidos em sua temperatura de ebulição é\n$\\Delta S_\\text{vap} \\approx \\pu{10,5}\\, R = \\pu{87,2 J.K-1.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\néter metílico.\n",
+              "statement": "A *Regra de Trouton* estabelece que a entropia molar de vaporização de\nlíquidos em sua temperatura de ebulição é\n\n$$\n\\Delta S_\\text{vap} \\approx \\pu{10,5}\\, R = \\pu{87,2 J.K-1.mol-1}\n$$\n\n**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\néter metílico.\n",
               "solution": "",
               "answer": [
                 "$\\pu{250 K}$\n"
@@ -5696,7 +5721,7 @@
                 "data": [
                   {
                     "id_": 0,
-                    "name": "$\\Delta H_\\text{vap}(\\ce{CH3OCH3}) = \\pu{21,51 kJ.mol-1}$",
+                    "name": "$\\Delta H_\\text{vap}(\\ce{CH3OCH3}) = \\pu{21,5 kJ.mol-1}$",
                     "symbol": "",
                     "value": 0.0,
                     "unit": ""
@@ -5949,7 +5974,7 @@
             },
             {
               "id_": "2B25",
-              "statement": "Considere as proposições:\n\n1.  A variação da entropia independe da quantidade de gás presente no\n    sistema.\n2.  Se a transformação é isotérmica, a variação da entropia é dada por:\n    $$\n        \\Delta S = -nR\\ln\\left(\\frac{P_2}{P_1}\\right)\n        $$\n3.  Se a transformação é isobárica, a variação de entropia é dada por:\n    $$\n        \\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)\n        $$\n4.  Se o sistema realiza um processo cíclico, a variação de entropia é\n    positiva.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere as proposições:\n\n1.  A variação da entropia independe da quantidade de gás presente no\n    sistema.\n2.  Se a transformação é isotérmica, a variação da entropia é dada por:\n    $\\Delta S = -nR\\ln\\left(\\frac{P_2}{P_1}\\right)$\n3.  Se a transformação é isobárica, a variação de entropia é dada por:\n    $\\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)$\n4.  Se o sistema realiza um processo cíclico, a variação de entropia é\n    positiva.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**3**"
@@ -5989,7 +6014,7 @@
             },
             {
               "id_": "2B29",
-              "statement": "Moléculas diatômicas idênticas, na forma de um sólido cristalino, podem\nser modeladas como um conjunto de osciladores.\n\n![Figura](2B29-1P.svg)\n\n1.  À temperatura de $0 K$ a maioria dos osciladores estará no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n2.  À temperatura de $0 K$ todos os osciladores estarão no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n3.  O movimento vibracional cessa a $0 K$.\n4.  O princípio da incerteza de Heisenberg será violado se o movimento\n    vibracional cessar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Moléculas diatômicas idênticas, na forma de um sólido cristalino, podem\nser modeladas como um conjunto de osciladores.\n\n![Figura](2B29-1P.svg)\n\n1.  À temperatura de $\\pu{0 K}$ a maioria dos osciladores estará no\n    estado vibracional fundamental, cujo número quântico vibracional é\n    zero.\n2.  À temperatura de $\\pu{0 K}$ todos os osciladores estarão no estado\n    vibracional fundamental, cujo número quântico vibracional é zero.\n3.  O movimento vibracional cessa a $\\pu{0 K}$.\n4.  O princípio da incerteza de Heisenberg será violado se o movimento\n    vibracional cessar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**2** e **4**"
@@ -6623,7 +6648,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Lei dos Gases Ideais\n\n1. Definição de gás ideal.\n2. Pressão.\n3. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n4. Volume molar.\n5. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n6. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** as funções de estado para uma dada condição.\n- **Calcular** as funções de estado para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial:\n   $$\n   P_\\text{A} = x_\\text{A} P\n   $$\n2. Lei de Dalton:\n   $$\n   P = \\sum P_\\text{A}\n   $$\n3. Massa molar média:\n   $$\n   \\overline{M} = \\sum x_\\text{A} M_\\text{A}\n   $$\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n- **Calcular** a massa molar média de uma mistura de gases.\n\n# Estequiometria de Gases\n\n1. Análise de combustão.\n2. Coleta de gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.\n\n# Movimento Molecular\n\n1. Modelo cinético dos gases:\n   $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham:\n   $$\n   \\dfrac{r_2}{r_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal.\n   $$\n   U = \\dfrac{3}{2} nRT\n   $$\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica:\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.",
+      "contents": "# Lei dos Gases Ideais\n\n1. Definição de gás ideal.\n2. Pressão.\n3. Mol e massa molar.\n4. Lei dos Gases Ideais: \n   $$\n   PV=nRT\n   $$\n5. Volume molar.\n6. [Condições Normais de Temperatura e Pressão (CNTP)](https://goldbook.iupac.org/terms/view/S05910).\n7. Densidade do gás ideal: \n   $$\n   \\rho = \\dfrac{PM}{RT}\n   $$\n\n### Habilidades\n\n- **Calcular** as funções de estado para uma dada condição.\n- **Calcular** as funções de estado para uma transformação.\n- **Calcular** a densidade um gás ideal para uma dada condição.\n\n# Misturas de Gases\n\n1. Pressão parcial:\n   $$\n   P_\\text{A} = x_\\text{A} P\n   $$\n2. Lei de Dalton:\n   $$\n   P = \\sum P_\\text{A}\n   $$\n3. Massa molar média:\n   $$\n   \\overline{M} = \\sum x_\\text{A} M_\\text{A}\n   $$\n\n### Habilidades\n\n- **Calcular** a pressão parcial de um gás em uma mistura.\n- **Calcular** a massa molar média de uma mistura de gases.\n\n# Reações com Gases\n\n1. Estequiometria de gases.\n2. Determinação de composição.\n3. Análise de combustão.\n4. Coleta de gases sobre água.\n\n### Habilidades\n\n- **Calcular** o volume de reagente gasoso necessário para uma reação.\n- **Calcular** o volume de gás liberado em uma reação.\n- **Calcular** a quantidade de gás coletada sobre água.\n\n# Energia do Gás Ideal.\n\n1. Energia interna do gás ideal:\n   $$\n   U = \\dfrac{3}{2} nRT\n   $$\n2. Teorema da Equipartição.\n3. Origem molecular da capacidade calorífica:\n    | | Átomos | Lineares | Não lineares |\n    | -- | -- | -- | -- |\n    | $C_V$ | $\\frac{3}{2}R$ | $\\frac{5}{2}R$ | $3R$ |\n    | $C_P$ | $\\frac{5}{2}R$ | $\\frac{7}{2}R$ | $4R$ |\n\n### Habilidades\n\n- **Comparar** a capacidade calorífica de gases.\n\n# Movimento Molecular\n\n1. Modelo cinético dos gases:\n   $$\n   v_\\text{rms} = \\sqrt{\\frac{3RT}{M}}\n   $$\n2. Distribuição de Maxwell-Boltzmann.\n3. Difusão e efusão.\n4. Lei de Graham:\n   $$\n   \\dfrac{r_2}{r_1} = \\sqrt{\\dfrac{T_2/M_2}{T_1/M_1}}\n   $$\n\n### Habilidades\n\n- **Calcular** a velocidade média quadrática de uma amostra de gás.\n- **Comparar** velocidades de efusão de gases utilizando a Lei de Graham.\n- **Comparar** a temperatura de gases ideais com base na sua distribuição de velocidades.\n- **Comparar** a massa molar de gases ideais com base na sua distribuição de velocidades.",
       "subtopics": [
         {
           "id_": "3A.1",
@@ -6635,15 +6660,15 @@
         },
         {
           "id_": "3A.3",
-          "title": "Estequiometria de Gases"
+          "title": "Reações com Gases"
         },
         {
           "id_": "3A.4",
-          "title": "Movimento Molecular"
+          "title": "Energia do Gás Ideal."
         },
         {
           "id_": "3A.5",
-          "title": "Energia do Gás Ideal."
+          "title": "Movimento Molecular"
         }
       ],
       "problems": [
@@ -8121,7 +8146,7 @@
             },
             {
               "id_": "3B12",
-              "statement": "Considere um gás modelado pela equação de estado $$\nP(V - nb) = nRT\n$$ **Determine** seu fator de compressibilidade quando $V = 10 n b$.\n",
+              "statement": "Considere um gás modelado pela equação de estado\n\n$$\nP(V - nb) = nRT\n$$\n\n**Determine** seu fator de compressibilidade quando $V = 10 n b$.\n",
               "solution": "\n",
               "answer": [
                 "10/9\n"
@@ -8222,7 +8247,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Composição das Soluções\n\n1. Molalidade\n2. Concentração em volumes.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n- **Relacionar** as unidades de concentração.\n\n# Condutividade Iônica\n\n1. Mobilidade iônica.\n2. Influência do solvente na mobilidade iônica.\n3. Condutividade molar, $\\lambda$.\n4. Lei de migração independente.\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de data: de condutividade.\n\n# Absortividade das Soluções\n\n1. Lei de Beer-Lambert.\n\n### Habilidades\n\n- Habilidade\n\n# Operações em Soluções\n\n1. Balanço molar.\n2. Balanço de cargas.\n3. Balanço energético.\n4. Diluição.\n5. Mistura.\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Composição das Soluções\n\n1. Concentração mássica e molar.\n2. Partes por milhão ($\\pu{ppm}$) e bilhão ($\\pu{ppb}$).\n3. Molalidade.\n4. Concentração de peróxido de hidrogênio em volumes.\n    $$\n    CV = \\dfrac{V_\\text{CNTP}(\\ce{O2})}{V} = \\pu{11,2} \\cdot \\dfrac{[\\ce{H2O2}]}{\\pu{mol.L-1}}\n    $$\n\n### Habilidades\n\n- **Calcular** \n- **Calcular** a concentração em volumes para uma solução de peróxido de hidrogênio.\n\n# Reações em Solução\n\n1. teste\n\n### Habilidades\n\n- **Determinar** a\n\n# Soluções Iônicas\n\n1. Balanço de cargas.\n2. Mobilidade iônica.\n3. Influência do solvente na mobilidade iônica.\n4. Condutividade molar.\n5. Lei de migração independente:\n    $$\n    \\Lambda^\\circ_\\text{m} = \\lambda_{+} + \\lambda_{-}\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir da condutividade.\n- **Comparar** a condutividade de diferentes íons em solução.\n\n\n# Absortividade das Soluções\n\n1. Espectrofotometria.\n2. Absortividade molar.\n3. Lei de Beer-Lambert:\n    $$\n    A = \\log_{10}\\dfrac{I_0}{I} = \\epsilon L [\\ce{J}] \n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de sua absortividade.\n  \n# Operações em Soluções\n\n1. Balanço molar.\n2. Balanço de cargas.\n3. Balanço energético.\n4. Diluição.\n5. Mistura.\n\n### Habilidades\n\n- Habilidade",
       "subtopics": [
         {
           "id_": "3C.1",
@@ -8230,14 +8255,18 @@
         },
         {
           "id_": "3C.2",
-          "title": "Condutividade Iônica"
+          "title": "Reações em Solução"
         },
         {
           "id_": "3C.3",
-          "title": "Absortividade das Soluções"
+          "title": "Soluções Iônicas"
         },
         {
           "id_": "3C.4",
+          "title": "Absortividade das Soluções"
+        },
+        {
+          "id_": "3C.5",
           "title": "Operações em Soluções"
         }
       ],
@@ -8250,7 +8279,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Velocidade de Reações\n\n1. Velocidade média de reação.\n2. Concentração e velocidade reacional.\n3. Velocidade instantânea de reação.\n4. Leis de velocidade e ordem de reação.\n    $$\n    v = k [\\ce{A}]^n\n    $$\n5. Método das concentrações iniciais.\n\n### Habilidades\n\n- **Calcular** a velocidade média de consumo de reagentes ou formação de produtos.\n- **Determinar** a ordem de reação a partir da tabela de velocidades e concentrações iniciais.\n\n\n# Reações de Ordem Zero\n\n1. Velocidade instantânea de ordem zero:\n    $$\n    v = k\n    $$\n2. Lei de ordem zero:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 - kt\n    $$\n3. Linearização: $[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de ordem zero em função do tempo.\n- **Calcular** a constante de velocidade para reações de ordem zero por interpolação linear.\n\n# Reações de Primeira Ordem\n\n1. Velocidade instantânea de primeira ordem:\n    $$\n    v = k [\\ce{A}]\n    $$\n2. Lei integrada de primeira ordem:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 e^{-kt}\n    $$\n3. Tempo de meia-vida de primeira ordem:\n    $$\n    t_{1/2} = \\dfrac{\\ln 2}{k}\n    $$\n4. Linearização: $\\ln[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de primeira ordem em função do tempo.\n- **Calcular** o tempo de meia vida para uma reação de primeira ordem em função da constante cinética.\n- **Calcular** a constante de velocidade para reações de primeira ordem por interpolação linear.\n\n# Reações de Segunda Ordem\n\n1. Velocidade instantânea de segunda ordem:\n    $$\n    v = k [\\ce{A}]^2\n    $$\n2. Lei integrada de segunda ordem:\n    $$\n    \\dfrac{1}{[\\ce{A}]_t} = \\dfrac{1}{[\\ce{A}]_0} + kt\n    $$\n3. Linearização: $1/[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de segunda ordem em função do tempo.\n- **Calcular** a constante de velocidade para reações de segunda ordem por interpolação linear.\n\n# Reações de Ordem Superior\n\n1. Reações de ordem superior.\n2. Pseudo-ordem.\n3. Tempo de meia-vida de ordens superiores.\n4. Meias vidas consecutivas:\n    $$\n    \\dfrac{t_{1/2}^\\prime}{t_{1/2}} = 2^{n-1}\n    $$\n\n### Habilidades\n\n- **Determinar** a ordem de uma reação utilizando o método das meias-vidas consecutivas.",
+      "contents": "# Velocidade de Reações\n\n1. Velocidade média de reação:\n    $$\n    v = \\dfrac{\\Delta [\\ce{A}]}{\\Delta t}\n    $$\n2. Concentração e velocidade reacional.\n3. Velocidade instantânea de reação.\n4. Leis de velocidade e ordem de reação.\n    $$\n    v = k [\\ce{A}]^n\n    $$\n5. Constante de velocidade.\n6. Método das concentrações iniciais.\n\n### Habilidades\n\n- **Calcular** a velocidade média de consumo de reagentes ou formação de produtos.\n- **Determinar** a ordem da reação a partir da unidade de constante de velocidade.\n- **Determinar** a ordem de reação a partir da tabela de velocidades e concentrações iniciais.\n\n\n# Reações de Ordem Zero\n\n1. Velocidade instantânea de ordem zero:\n    $$\n    v = k\n    $$\n2. Lei de ordem zero:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 - kt\n    $$\n3. Linearização: $[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de ordem zero em função do tempo.\n- **Calcular** a constante de velocidade para reações de ordem zero por interpolação linear.\n\n# Reações de Primeira Ordem\n\n1. Velocidade instantânea de primeira ordem:\n    $$\n    v = k [\\ce{A}]\n    $$\n2. Lei integrada de primeira ordem:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 e^{-kt}\n    $$\n3. Tempo de meia-vida de primeira ordem:\n    $$\n    t_{1/2} = \\dfrac{\\ln 2}{k}\n    $$\n4. Linearização: $\\ln[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de primeira ordem em função do tempo.\n- **Calcular** o tempo de meia vida para uma reação de primeira ordem em função da constante cinética.\n- **Calcular** a constante de velocidade para reações de primeira ordem por interpolação linear.\n\n# Reações de Segunda Ordem\n\n1. Velocidade instantânea de segunda ordem:\n    $$\n    v = k [\\ce{A}]^2\n    $$\n2. Lei integrada de segunda ordem:\n    $$\n    \\dfrac{1}{[\\ce{A}]_t} = \\dfrac{1}{[\\ce{A}]_0} + kt\n    $$\n3. Linearização: $1/[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de segunda ordem em função do tempo.\n- **Calcular** a constante de velocidade para reações de segunda ordem por interpolação linear.\n\n# Reações de Ordem Superior\n\n1. Reações de ordem superior.\n2. Pseudo-ordem.\n3. Tempo de meia-vida de ordens superiores.\n4. Meias vidas consecutivas:\n    $$\n    \\dfrac{t_{1/2}^\\prime}{t_{1/2}} = 2^{n-1}\n    $$\n\n### Habilidades\n\n- **Determinar** a ordem de uma reação utilizando o método das meias-vidas consecutivas.",
       "subtopics": [
         {
           "id_": "3D.1",
