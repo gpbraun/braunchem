@@ -1,62 +1,10 @@
-# ChemProblems
-
 <p align="center">
-  <img width="460" height="300" src="cupula.svg">
+  <img width="200" src="https://user-images.githubusercontent.com/55512264/157885822-4e446ca0-1301-429e-9b57-f5a5aa8c5505.png">
 </p>
 
+# Banco de Questões
 
-## Texto
-
-### Matemática
-
-### Símbolos
-
-
-### Unidades
-
-Valores numéricos, com ou sem unidades, devem ser colocados com a função `$\pu{<valor> <unidade>}$`. o simbolo grau deve ser colocado como `\degree`, como em `$\pu{25 \degree C}$`
-
-
-### Química
-
-Fórmulas químicas devem ser colocadas com a função  `$\ce{<fórmula>}$`.
-
-## Problemas Discursivos
-
-## Problemas Objetivos
-
-Problemas objetivos 
-
-```markdown
-- [ ] Alternativa incorreta.
-- [x] Alternativa correta.
-- [ ] Alternativa incorreta.
-- [ ] Alternativa incorreta.
-- [ ] Alternativa incorreta.
-```
-
-### Problemas Objetivos (V ou F)
-
-
-```markdown
-1. [ ] Proposição falsa.
-2. [x] Proposição verdadeira.
-3. [ ] Proposição falsa.
-4. [x] Mais uma proposição falsa.
-```
-
-
-### Proposições
-
-O **comando** de questões 
-
-## Dados a serem adicionados
-
-- Função trabalho do potássio: 2,29 eV
-- Função trabalho do zinco: 3,63 eV
-- Entalpia de combustão do metano (g): -890,5 kJ/mol
-- Entalpia de vaporização do Br₂: 30 kJ/mol
-- Entalpia de vaporização CH₃CHBrCH₂Br: 35,61 kJ/mol
+Esse repositório contém questôes de química em nível médio, utilizadas na preparação de alunos das turmas IME-ITA do colégio e curso Pensi.
 
 ## Dados Termodinâmicos
 
