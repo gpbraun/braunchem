@@ -24,7 +24,7 @@ def main():
     )
 
     copytree(
-        'archive/',
+        'out/',
         '/home/braun/Documents/Drive/Material/Listas',
         dirs_exist_ok=True
     )
