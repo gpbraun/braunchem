@@ -4,7 +4,7 @@
 
 # Banco de Questões
 
-Esse repositório contém questôes de química em nível médio, utilizadas na preparação de alunos das turmas IME-ITA do colégio e curso Pensi.
+Esse repositório contém questões de química em nível médio, utilizadas na preparação de alunos das turmas IME-ITA do colégio e curso Pensi.
 
 ## Dados Termodinâmicos
 
