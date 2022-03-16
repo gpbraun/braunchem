@@ -3410,7 +3410,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Classificação dos Sólidos\n\n1. Sólidos cristalinos e amorfos.\n2. Sólidos moleculares, covalentes, metálicos e iônicos\n    | Classe | Exemplos | Características |\n    | -- | -- | -- |\n    | Metálico  | Elementos dos blocos $s$ e $d$ | Maleável, dúctil, lustroso; condutor elétrico e térmico |\n    | Iônico    |  $\\ce{NaCl}$, $\\ce{KNO3}$, $\\ce{CuSO4·5H2O}$  | Duro, rígido, frágil; alto ponto de fusão e ebulição; condutores quando líquidos ou em solução |\n    | Covalente | Boro, carbono, fósforo negro e sílica | Duro, rígido, frágil; ponto de fusão e ebulição muito alto; insolúvel em água  |\n    | Molecular | $\\ce{BeCl2}$, $\\ce{S8}$, $\\ce{I2}$, gelo, glicose | Baixo ponto de fusão e ebulição; frágil quando puro |\n\n\n### Habilidades\n\n- **Classificar** um sólido como cristalino ou amorfo.\n- **Classificar** um sólido cristalino como molecular, covalente, metálico ou iônico.\n- **Comparar** o ponto de fusão de sólidos.\n\n\n# Células Unitárias\n\n1. Célula unitária.\n2. Número de coordenação.\n3. Redes de Bravais.\n4. Célula cúbica simples (CS), cúbica de corpo centrado (CCC) e cúbica de face centrada (CFC).\n5. Fator de empacotamento:\n    $$\n    f_\\text{CS} = 52\\% \n    \\quad f_\\text{CCC} = 68\\% \n    \\quad f_\\text{CFC} = 74\\% \n    $$\n6. Densidade.\n\n### Habilidades\n\n- **Calcular** o número de átomos em uma célula unitária.\n- **Calcular** o fator de empacotamento de uma estrutura cristalina.\n- **Calcular** a densidade de sólidos cristalinos.\n- **Determinar** a estrutura cristalina de um metal a partir de sua densidade.\n\n# Cristais Iônicos\n\n1. Razão de raios limite.\n2. Estrutura do cloreto de sódio.\n3. Estrutura do cloreto de césio.\n4. Estrutura da blenda de zinco.\n\n### Habilidades\n\n- **Determinar** a fórmula molecular de um composto iônico a partir da célula unitária.",
+      "contents": "# Classificação dos Sólidos\n\n1. Sólidos cristalinos e amorfos.\n2. Sólidos moleculares, covalentes, metálicos e iônicos\n    | Classe | Exemplos | Características |\n    | -- | -- | -- |\n    | Metálico  | Elementos dos blocos $s$ e $d$ | Maleável, dúctil, lustroso; condutor elétrico e térmico |\n    | Iônico    |  $\\ce{NaCl}$, $\\ce{KNO3}$, $\\ce{CuSO4.5H2O}$  | Duro, rígido, frágil; alto ponto de fusão e ebulição; condutores quando líquidos ou em solução |\n    | Covalente | Boro, carbono, fósforo negro e sílica | Duro, rígido, frágil; ponto de fusão e ebulição muito alto; insolúvel em água  |\n    | Molecular | $\\ce{BeCl2}$, $\\ce{S8}$, $\\ce{I2}$, gelo, glicose | Baixo ponto de fusão e ebulição; frágil quando puro |\n\n\n### Habilidades\n\n- **Classificar** um sólido como cristalino ou amorfo.\n- **Classificar** um sólido cristalino como molecular, covalente, metálico ou iônico.\n- **Comparar** o ponto de fusão de sólidos.\n\n\n# Células Unitárias\n\n1. Célula unitária.\n2. Número de coordenação.\n3. Redes de Bravais.\n4. Célula cúbica simples (CS), cúbica de corpo centrado (CCC) e cúbica de face centrada (CFC).\n5. Fator de empacotamento:\n    $$\n    f_\\text{CS} = 52\\% \n    \\quad f_\\text{CCC} = 68\\% \n    \\quad f_\\text{CFC} = 74\\% \n    $$\n6. Densidade.\n\n### Habilidades\n\n- **Calcular** o número de átomos em uma célula unitária.\n- **Calcular** o fator de empacotamento de uma estrutura cristalina.\n- **Calcular** a densidade de sólidos cristalinos.\n- **Determinar** a estrutura cristalina de um metal a partir de sua densidade.\n\n# Cristais Iônicos\n\n1. Razão de raios limite.\n2. Estrutura do cloreto de sódio.\n3. Estrutura do cloreto de césio.\n4. Estrutura da blenda de zinco.\n\n### Habilidades\n\n- **Determinar** a fórmula molecular de um composto iônico a partir da célula unitária.",
       "subtopics": [
         {
           "id_": "1K.1",
@@ -3676,7 +3676,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da variação de entalpia\nquando um mol de um gás pressurizado em $\\pu{1 MPa}$ e $\\pu{300 K}$ se\nexpande adiabaticamente contra pressão de $\\pu{0,1 MPa}$ até atingir o\nequilíbrio.\n",
               "solution": "",
               "answer": [
-                "$\\pu{22 kJ}$\n"
+                "$\\pu{2,2 kJ}$\n"
               ],
               "constants": {
                 "data": []
@@ -3687,11 +3687,11 @@
               "elements": [],
               "obj": 3,
               "choices": [
-                "$\\pu{15 kJ}$\n",
-                "$\\pu{17 kJ}$\n",
-                "$\\pu{20 kJ}$\n",
-                "$\\pu{22 kJ}$\n",
-                "$\\pu{25 kJ}$\n"
+                "$\\pu{1,5 kJ}$\n",
+                "$\\pu{1,7 kJ}$\n",
+                "$\\pu{2,0 kJ}$\n",
+                "$\\pu{2,2 kJ}$\n",
+                "$\\pu{2,5 kJ}$\n"
               ]
             },
             {
@@ -4910,7 +4910,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\nda amônia a $\\pu{450 \\degree C}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-46 kJ.mol-1}$\n"
+                "$\\pu{-55 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -4951,8 +4951,8 @@
               "obj": 2,
               "choices": [
                 "$\\pu{-30 kJ.mol-1}$\n",
-                "$\\pu{-43 kJ.mol-1}$\n",
-                "$\\pu{-46 kJ.mol-1}$\n",
+                "$\\pu{-45 kJ.mol-1}$\n",
+                "$\\pu{-55 kJ.mol-1}$\n",
                 "$\\pu{-65 kJ.mol-1}$\n",
                 "$\\pu{-70 kJ.mol-1}$\n"
               ]
@@ -5344,7 +5344,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Reversibilidade e Espontaneidade\n\n1. Trabalho de expansão reversível.\n2. Teorema do Trabalho Máximo.\n3. Reversibilidade e entropia.\n4. Definição macroscópica de entropia: \n    $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n5. Segunda Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma transformação reversível.\n\n# Entropia \n\n1. Entropia e desordem.\n2. Entropia e temperatura: \n    $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n3. Entropia e volume de gás ideal: \n    $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n4. Entropia e estado físico: sólido, líquido, gasoso e em solução.\n5. Entropia de mudança de fase:\n    $$\n    \\Delta S = \\dfrac{\\Delta H}{T}\n    $$\n\n### Habilidades\n\n- **Determinar** qualitativamente o sinal da variação de entropia para uma transformação.\n- **Calcular** a variação de entropia para aquecimento ou resfriamento de uma substância.\n- **Calcular** a variação de entropia para um gás ideal em uma transformação isotérmica.\n- **Calcular** a entropia padrão para transição de fase.\n\n# Entropia Absoluta \n\n1. Interpretação microscópica da entropia.\n2. Fórmula de Boltzmann:\n    $$\n    S = k_\\mathrm{B} \\ln \\Omega\n    $$\n3. Entropia Residual.\n4. Terceira Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a entropia residual a partir da Fórmula de Boltzmann.\n\n# Entropia de Reação\n\n1. Entropia padrão.\n2. Entropia de reação.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma reação química.\n- **Determinar** qualitativamente o sinal da variação de entropia para uma reação química.\n\n# Mudanças Globais de Entropia\n\n1. Variação de entropia da vizinhança:\n    $$\n    \\Delta S_{\\text{viz}} = -\\dfrac{\\Delta H}{T}\n    $$\n2. Variação de entropia do Universo.\n3. Equilíbrio.\n\n### Habilidades\n\n- **Calcular** a variação de entropia da vizinhança devido à uma transferência de calor em pressão e temperatura constantes.\n- **Calcular** a variação de entropia do Universo para um processo.",
+      "contents": "# Reversibilidade e Espontaneidade\n\n1. Trabalho de expansão reversível.\n2. Teorema do Trabalho Máximo.\n3. Reversibilidade e entropia.\n4. Definição macroscópica de entropia: \n    $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n5. Segunda Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma transformação reversível.\n\n# Entropia \n\n1. Entropia e desordem.\n2. Entropia e temperatura: \n    $$ \n    \\Delta S = n C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n3. Entropia e volume de gás ideal: \n    $$ \n    \\Delta S = n R \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n4. Entropia e estado físico: sólido, líquido, gasoso e em solução.\n5. Entropia de mudança de fase:\n    $$\n    \\Delta S = \\dfrac{\\Delta H}{T}\n    $$\n\n### Habilidades\n\n- **Determinar** qualitativamente o sinal da variação de entropia para uma transformação.\n- **Calcular** a variação de entropia para aquecimento ou resfriamento de uma substância.\n- **Calcular** a variação de entropia para um gás ideal em uma transformação isotérmica.\n- **Calcular** a entropia padrão para transição de fase.\n\n# Entropia Absoluta \n\n1. Interpretação microscópica da entropia.\n2. Fórmula de Boltzmann:\n    $$\n    S = k_\\mathrm{B} \\ln \\Omega\n    $$\n3. Entropia Residual.\n4. Terceira Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a entropia residual a partir da Fórmula de Boltzmann.\n\n# Entropia de Reação\n\n1. Entropia padrão.\n2. Entropia de reação.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma reação química.\n- **Determinar** qualitativamente o sinal da variação de entropia para uma reação química.\n\n# Mudanças Globais de Entropia\n\n1. Variação de entropia da vizinhança:\n    $$\n    \\Delta S_{\\text{viz}} = -\\dfrac{\\Delta H}{T}\n    $$\n2. Variação de entropia do Universo.\n3. Equilíbrio.\n\n### Habilidades\n\n- **Calcular** a variação de entropia da vizinhança devido à uma transferência de calor em pressão e temperatura constantes.\n- **Calcular** a variação de entropia do Universo para um processo.",
       "subtopics": [
         {
           "id_": "2B.1",
@@ -5444,7 +5444,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da variação na entropia\nda vizinhança no congelamento do mercúrio.\n",
               "solution": "",
               "answer": [
-                "$\\pu{44 J.K-1.mol-1}$\n"
+                "$\\pu{4,4 J.K-1.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -5470,11 +5470,11 @@
               "elements": [],
               "obj": 4,
               "choices": [
-                "$\\pu{-44 J.K-1.mol-1}$\n",
-                "$\\pu{-22 J.K-1.mol-1}$\n",
-                "$\\pu{-11 J.K-1.mol-1}$\n",
-                "$\\pu{22 J.K-1.mol-1}$\n",
-                "$\\pu{44 J.K-1.mol-1}$\n"
+                "$\\pu{-4,4 J.K-1.mol-1}$\n",
+                "$\\pu{-2,2 J.K-1.mol-1}$\n",
+                "$\\pu{-1,1 J.K-1.mol-1}$\n",
+                "$\\pu{2,2 J.K-1.mol-1}$\n",
+                "$\\pu{4,4 J.K-1.mol-1}$\n"
               ]
             },
             {
@@ -5636,7 +5636,7 @@
               "statement": "A entalpia de fusão de uma determinada substância é $\\pu{200 kJ.kg-1}$,\ne seu ponto de fusão normal é $\\pu{27 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo sistema na fusão de $\\pu{3 kg}$ dessa substância.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-2 J.K-1}$\n"
+                "$\\pu{2 kJ.K-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -5645,12 +5645,12 @@
                 "data": []
               },
               "elements": [],
-              "obj": 1,
+              "obj": 3,
               "choices": [
                 "$\\pu{-600 J.K-1}$\n",
-                "$\\pu{-2 J.K-1}$\n",
+                "$\\pu{-2 kJ.K-1}$\n",
                 "$0$\n",
-                "$\\pu{2 J.K-1}$\n",
+                "$\\pu{2 kJ.K-1}$\n",
                 "$\\pu{600 J.K-1}$\n"
               ]
             },
@@ -5682,7 +5682,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\nmercúrio.\n",
               "solution": "",
               "answer": [
-                "$\\pu{670 \\degree C}$\n"
+                "$\\pu{670 K}$\n"
               ],
               "constants": {
                 "data": []
@@ -5708,11 +5708,11 @@
               "elements": [],
               "obj": 3,
               "choices": [
-                "$\\pu{-272 \\degree C}$\n",
-                "$\\pu{100 \\degree C}$\n",
-                "$\\pu{395 \\degree C}$\n",
-                "$\\pu{670 \\degree C}$\n",
-                "$\\pu{1500 \\degree C}$\n"
+                "$\\pu{-272 K}$\n",
+                "$\\pu{100 K}$\n",
+                "$\\pu{395 K}$\n",
+                "$\\pu{670 K}$\n",
+                "$\\pu{1500 K}$\n"
               ]
             },
             {
@@ -5796,7 +5796,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\npara a decomposição do clorato de potássio formando perclorato e cloreto\nde potássio.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-36,4 J.K-1}$\n"
+                "$\\pu{-9,1 J.K-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -5827,12 +5827,12 @@
                 ]
               },
               "elements": [],
-              "obj": 1,
+              "obj": 2,
               "choices": [
-                "$\\pu{-72,8 J.K-1}$\n",
                 "$\\pu{-36,4 J.K-1}$\n",
                 "$\\pu{-18,2 J.K-1}$\n",
-                "$\\pu{18,2 J.K-1}$\n",
+                "$\\pu{-9,1 J.K-1}$\n",
+                "$\\pu{9,1 J.K-1}$\n",
                 "$\\pu{36,4 J.K-1}$\n"
               ]
             },
@@ -5982,7 +5982,7 @@
             },
             {
               "id_": "2B25",
-              "statement": "Considere as proposições:\n\n1.  A variação da entropia independe da quantidade de gás presente no\n    sistema.\n2.  Se a transformação é isotérmica, a variação da entropia é dada por:\n    $\\Delta S = -nR\\ln\\left(\\frac{P_2}{P_1}\\right)$\n3.  Se a transformação é isobárica, a variação de entropia é dada por:\n    $\\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)$\n4.  Se o sistema realiza um processo cíclico, a variação de entropia é\n    positiva.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere as proposições:\n\n1.  A variação da entropia independe da quantidade de gás presente no\n    sistema.\n2.  Se a transformação é isotérmica, a variação da entropia é dada por:\n    $\\Delta S = nR\\ln\\left(\\frac{P_2}{P_1}\\right)$\n3.  Se a transformação é isobárica, a variação de entropia é dada por:\n    $\\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)$\n4.  Se o sistema realiza um processo cíclico, a variação de entropia é\n    positiva.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**3**"
@@ -6014,7 +6014,15 @@
                 "data": []
               },
               "data": {
-                "data": []
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_{\\text{fus}}(\\ce{H2O}) = \\pu{6 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
               },
               "elements": [],
               "obj": -1,
@@ -6048,9 +6056,9 @@
               "statement": "Considere a vaporização de $\\pu{1 mol}$ de água a $\\pu{85 \\degree C}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{111 J.K-1.mol-1}$\n",
-                "$\\pu{115 J.K-1.mol-1}$\n",
-                "$\\pu{-4 J.K-1.mol-1}$\n"
+                "$\\pu{111 J.K-1}$\n",
+                "$\\pu{115 J.K-1}$\n",
+                "$\\pu{-4 J.K-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6059,7 +6067,7 @@
                 "data": [
                   {
                     "id_": 0,
-                    "name": "$S_\\text{vap}(\\ce{H2O}) = \\pu{40,6 kJ.mol-1}$",
+                    "name": "$\\Delta H_\\text{vap}(\\ce{H2O}) = \\pu{40,6 kJ.mol-1}$",
                     "symbol": "",
                     "value": 0.0,
                     "unit": ""
@@ -8282,7 +8290,975 @@
           "title": "Absortividade das Soluções"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "3C01",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração molar de\numa solução de $\\pu{200 mL}$ contendo $\\pu{10 g}$ de sacarose\n$\\ce{C12H22O11}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,15 mol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{0,05 mol.L-1}$\n",
+                "$\\pu{0,10 mol.L-1}$\n",
+                "$\\pu{0,15 mol.L-1}$\n",
+                "$\\pu{0,20 mol.L-1}$\n",
+                "$\\pu{0,25 mol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C02",
+              "statement": "**Assinale** a alternativa que mais se aproxima da massa de sulfato de\ncobre (II) penta-hidratado, $\\ce{CuSO4.5H2O}$, necessária para preparar\n$\\pu{250 mL}$ de uma solução aquosa de $\\ce{CuSO4}$ de concentração\n$\\pu{0,038 mol/L}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{2,4 g}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1,2 g}$\n",
+                "$\\pu{2,4 g}$\n",
+                "$\\pu{3,6 g}$\n",
+                "$\\pu{4,8 g}$\n",
+                "$\\pu{6,0 g}$\n"
+              ]
+            },
+            {
+              "id_": "3C03",
+              "statement": "**Assinale** a alternativa que mais se aproxima do volume de uma solução\naquosa $\\pu{0,056 mol.L-1}$ de ácido acético necessário para preparar\numa solução contendo $\\pu{0,760 mmol}$ dessa substância.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{13,6 mL}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{10,3 mL}$\n",
+                "$\\pu{11,4 mL}$\n",
+                "$\\pu{12,5 mL}$\n",
+                "$\\pu{13,6 mL}$\n",
+                "$\\pu{14,7 mL}$\n"
+              ]
+            },
+            {
+              "id_": "3C04",
+              "statement": "**Assinale** a alternativa que mais se aproxima do volume de uma solução\n$\\pu{0,027 m}$ de hidróxido de sódio necessário para preparar\n$\\pu{250 mL}$ uma solução $\\pu{1,25 mmol.L-1}$ dessa substância.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{13,4 mL}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{10,7 mL}$\n",
+                "$\\pu{11,6 mL}$\n",
+                "$\\pu{12,5 mL}$\n",
+                "$\\pu{13,4 mL}$\n",
+                "$\\pu{14,3 mL}$\n"
+              ]
+            },
+            {
+              "id_": "3C05",
+              "statement": "**Assinale** a alternativa que mais se aproxima da molalidade da\nfrutose, $\\ce{C6H12O6}$, em uma solução preparada pela dissolução de\n$\\pu{90,5 g}$ de frutose em $\\pu{250 g}$ de água.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{2 mol.kg-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1 mol.kg-1}$\n",
+                "$\\pu{2 mol.kg-1}$\n",
+                "$\\pu{3 mol.kg-1}$\n",
+                "$\\pu{4 mol.kg-1}$\n",
+                "$\\pu{5 mol.kg-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C06",
+              "statement": "**Assinale** a alternativa que mais se aproxima da molalidade da\nsacarose, $\\ce{C12H22O11}$, em uma solução aquosa de concentração\n$\\pu{1,06 mol/L}$, cuja densidade é $\\pu{1,140 g.mL-1}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,36 mol.kg-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1,18 mol.kg-1}$\n",
+                "$\\pu{1,27 mol.kg-1}$\n",
+                "$\\pu{1,36 mol.kg-1}$\n",
+                "$\\pu{1,45 mol.kg-1}$\n",
+                "$\\pu{1,54 mol.kg-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C07",
+              "statement": "**Assinale** a alternativa que mais se aproxima da molalidade do\nbenzeno, em solução de tolueno com fração molar $\\pu{0,150}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,9 mol.kg-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1,7 mol.kg-1}$\n",
+                "$\\pu{1,9 mol.kg-1}$\n",
+                "$\\pu{2,1 mol.kg-1}$\n",
+                "$\\pu{2,3 mol.kg-1}$\n",
+                "$\\pu{2,5 mol.kg-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C08",
+              "statement": "**Assinale** a alternativa que mais se aproxima da massa de $\\pu{1 L}$\nde uma solução aquosa de nitrato de zinco de concentração molar\n$\\pu{0,643 mol.L-1}$ e molal $\\pu{0,653 mol.kg-1}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,1 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1,0 kg}$\n",
+                "$\\pu{1,1 kg}$\n",
+                "$\\pu{1,2 kg}$\n",
+                "$\\pu{1,3 kg}$\n",
+                "$\\pu{1,4 kg}$\n"
+              ]
+            },
+            {
+              "id_": "3C09",
+              "statement": "**Assinale** a alternativa que mais se aproxima da molaridade de uma\nsolução aquosa com $\\pu{0,1 ppm}$ de DDT, $\\ce{C14H9Cl5}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{280 nmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{190 nmol.L-1}$\n",
+                "$\\pu{280 nmol.L-1}$\n",
+                "$\\pu{370 nmol.L-1}$\n",
+                "$\\pu{460 nmol.L-1}$\n",
+                "$\\pu{550 nmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C10",
+              "statement": "Uma fábrica descarrega $\\pu{2500 L.s-1}$ de esgoto tratado contendo\n$\\pu{0,10 mg.L-1}$ de um pesticida em um rio cuja vazão, a montante da\ndescarga, é de $\\pu{1500 m3.min-1}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\npesticida após a mistura da água do rio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{9 ppb}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{6 ppb}$\n",
+                "$\\pu{7 ppb}$\n",
+                "$\\pu{8 ppb}$\n",
+                "$\\pu{9 ppb}$\n",
+                "$\\pu{10 ppb}$\n"
+              ]
+            },
+            {
+              "id_": "3C11",
+              "statement": "Um balão de $\\pu{1 L}$ contendo uma solução $\\pu{0,2 mol.L-1}$ de\nnitrato de amônio é diluída com $\\pu{3L}$ de água destilada.\n\n**Assinale** a alternativa que mais se aproxima da quantidade de soluto\nem $\\pu{100 mL}$ da solução resultante.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5 mmol}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{3 mmol}$\n",
+                "$\\pu{4 mmol}$\n",
+                "$\\pu{5 mmol}$\n",
+                "$\\pu{6 mmol}$\n",
+                "$\\pu{7 mmol}$\n"
+              ]
+            },
+            {
+              "id_": "3C12",
+              "statement": "Um químico dissolveu $\\pu{33 mg}$ de sulfato de cobre pentaidratado em\nágua e diluiu a solução até a marca em um balão volumétrico de\n$\\pu{250 mL}$. Uma amostra de $\\pu{2 mL}$ dessa solução foi transferida\npara outro balão volumétrico de $\\pu{250 mL}$ e diluída.\n\n**Assinale** a alternativa que mais se aproxima concentração molar de\nsulfato de cobre na solução resultante\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,2 \\mu mol}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{2,1 \\mu mol}$\n",
+                "$\\pu{4,2 \\mu mol}$\n",
+                "$\\pu{6,3 \\mu mol}$\n",
+                "$\\pu{8,4 \\mu mol}$\n",
+                "$\\pu{9,6 \\mu mol}$\n"
+              ]
+            },
+            {
+              "id_": "3C13",
+              "statement": "Foram dissolvidos $\\pu{500 mg}$ de um resíduo sólido em $\\pu{13 mL}$ de\numa mistura dos ácidos nítrico e fluorídrico em proporção molar $10:3$.\nA solução aquosa ácida obtida foi diluída até $\\pu{250 mL}$ com água\ndesmineralizada. A quantidade de ferro nesta solução é de\n$\\pu{40 mg.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nferro no resíduo sólido.\n",
+              "solution": "",
+              "answer": [
+                "$2\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$1\\%$\n",
+                "$2\\%$\n",
+                "$3\\%$\n",
+                "$4\\%$\n",
+                "$5\\%$\n"
+              ]
+            },
+            {
+              "id_": "3C14",
+              "statement": "Uma solução de ácido clorídrico concentrado contém $37,5\\%$ de\n$\\ce{HCl}$ em massa e tem densidade $\\pu{1,205 g.cm-3}$.\n\n**Assinale** a alternativa que mais se aproxima do volume de solução\nconcentrada necessário para preparar $\\pu{10 L}$ de uma solução de\nconcentração $\\pu{0,744 mol.L-1}$ de $\\ce{HCl}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{600 mL}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{300 mL}$\n",
+                "$\\pu{400 mL}$\n",
+                "$\\pu{500 mL}$\n",
+                "$\\pu{600 mL}$\n",
+                "$\\pu{700 mL}$\n"
+              ]
+            },
+            {
+              "id_": "3C15",
+              "statement": "Uma amostra de $\\pu{100 kg}$ de um produto contendo $99\\%$ de água em\nmassa é secada até que a fração mássica de água seja $98\\%$.\n\n**Assinale** a alternativa que mais se aproxima da massa de produto\nfinal.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{50 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{50 kg}$\n",
+                "$\\pu{60 kg}$\n",
+                "$\\pu{70 kg}$\n",
+                "$\\pu{80 kg}$\n",
+                "$\\pu{90 kg}$\n"
+              ]
+            },
+            {
+              "id_": "3C16",
+              "statement": "Uma solução é preparada pela adição de $\\pu{50 mL}$ uma solução $1\\%$ em\nmassa de cloreto de sódio a $\\pu{50 mL}$ de uma solução $0,6\\%$ em massa\nde cloreto de potássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncloreto na solução resultante.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,13 mol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{0,11 mol.L-1}$\n",
+                "$\\pu{0,13 mol.L-1}$\n",
+                "$\\pu{0,15 mol.L-1}$\n",
+                "$\\pu{0,17 mol.L-1}$\n",
+                "$\\pu{0,19 mol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C17",
+              "statement": "Para preparar $\\pu{500 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ de nitrato\nde prata dispõe-se de uma solução $\\pu{0,3 mol.L-1}$ e $\\pu{1 L}$ de uma\nsolução $\\pu{0,05 mol.L-1}$ de nitrato de prata.\n\n**Assinale** a alternativa do volume empregado da solução concentrada.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{100 mL}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{100 mL}$\n",
+                "$\\pu{200 mL}$\n",
+                "$\\pu{300 mL}$\n",
+                "$\\pu{400 mL}$\n",
+                "$\\pu{500 mL}$\n"
+              ]
+            },
+            {
+              "id_": "3C18",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração em\nvolumes de uma solução aquosa com $6\\%$ em massa de peróxido de\nhidrogênio.\n",
+              "solution": "",
+              "answer": [
+                "$20$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$6$\n",
+                "$10$\n",
+                "$12$\n",
+                "$20$\n",
+                "$24$\n"
+              ]
+            },
+            {
+              "id_": "3C20",
+              "statement": "Considere uma solução contendo cátions ferro (III), $\\pu{0,30 mol.L-1}$\nde cátions sódio, $\\pu{0,28 mol.L-1}$ de cloreto e $\\pu{0,10 mol.L-1}$\nde sulfato.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncátions ferro (III) em solução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,06 mol/L}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{0,03 mol/L}$\n",
+                "$\\pu{0,06 mol/L}$\n",
+                "$\\pu{0,08 mol/L}$\n",
+                "$\\pu{0,18 mol/L}$\n",
+                "$\\pu{0,26 mol/L}$\n"
+              ]
+            },
+            {
+              "id_": "3C21",
+              "statement": "Considere uma solução contendo cátions prata, $\\pu{0,30 mol.L-1}$ de\nbrometo, $\\pu{0,06 mol.L-1}$ de fosfato e $\\pu{0,10 mol.L-1}$ de cátions\ncálcio.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncátions prata em solução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,28 mol/L}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{0,20 mol/L}$\n",
+                "$\\pu{0,24 mol/L}$\n",
+                "$\\pu{0,28 mol/L}$\n",
+                "$\\pu{0,32 mol/L}$\n",
+                "$\\pu{0,36 mol/L}$\n"
+              ]
+            }
+          ],
+          "id_": "3C1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "3C22",
+              "statement": "Uma coluna de destilação contínua é usada para separar $\\pu{800 kg}$ por\nhora de uma mistura ternária dos compostos **A**, **B** e **C** com\n$40\\%$, $10\\%$ e $50\\%$ em massa, respectivamente. O produto de topo\ndeve apresentar $66\\%$ de **A** em massa e o de fundo é constituído\napenas pelo componente **C**.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n**B** no produto de topo.\n",
+              "solution": "",
+              "answer": [
+                "$16\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$10\\%$\n",
+                "$13\\%$\n",
+                "$16\\%$\n",
+                "$25\\%$\n",
+                "$34\\%$\n"
+              ]
+            },
+            {
+              "id_": "3C23",
+              "statement": "Uma corrente líquida de vazão $\\pu{20,0 kg.h-1}$ e composição percentual\nmássica de $60,0\\%$ de óleo e $40,0\\%$ de água é continuamente separada\nem duas correntes, uma com $95,4\\%$ e outra com $1,00\\%$ de óleo.\n\n**Assinale** a alternativa que mais se aproxima da vazão mássica da\ncorrente com menor concentração de óleo, em\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{7,50 kg.h-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{3,20 kg.h-1}$\n",
+                "$\\pu{5,60 kg.h-1}$\n",
+                "$\\pu{7,50 kg.h-1}$\n",
+                "$\\pu{12,5 kg.h-1}$\n",
+                "$\\pu{15,8 kg.h-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C24",
+              "statement": "Um dos efluentes do processo de hidrotratamento de gás combustível é\nágua contendo $3\\%$ de $\\ce{H2S}$ e $1\\%$ $\\ce{NH3}$ em base molar,\ndenominada água ácida. Para possibilitar a remoção de $\\ce{H2S}$ e\n$\\ce{NH3}$, duas colunas de destilação são empregadas.\n\nSão recuperados no topo da primeira coluna $95\\%$ do $\\ce{H2S}$ e\n$0,5\\%$ do $\\ce{NH3}$ que entram. Na segunda coluna, $99,5\\%$ do\n$\\ce{H2S}$ e do $\\ce{NH3}$ são recuperados no topo. Não há recuperação\nde água no topo das colunas.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\n$\\ce{H2S}$ que sai junto à água na corrente de fundo da segunda coluna\nde destilação.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{7,8e-6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{7,8e-7}$\n",
+                "$\\pu{7,8e-6}$\n",
+                "$\\pu{7,8e-5}$\n",
+                "$\\pu{7,8e-4}$\n",
+                "$\\pu{7,8e-3}$\n"
+              ]
+            },
+            {
+              "id_": "3C25",
+              "statement": "Uma unidade industrial produz uma corrente aquosa de vazão\n$\\pu{10 kg.h-1}$ contendo um sal de baixa solubilidade em água. Visando\na recuperar o sal, inicialmente empregou-se um processo de filtração. A\ncorrente de filtrado obtida apresentou apenas água e vazão de\n$\\pu{6 kg.h-1}$. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d'água com vazão de $\\pu{1 kg.h-1}$ e outra contendo apenas o sal.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de sal\nna corrente inicial.\n",
+              "solution": "",
+              "answer": [
+                "$70\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$10\\%$\n",
+                "$30\\%$\n",
+                "$50\\%$\n",
+                "$70\\%$\n",
+                "$90\\%$\n"
+              ]
+            },
+            {
+              "id_": "3C26",
+              "statement": "Em um processamento, $\\pu{8000 kg}$ de um produto que contém $20\\%$ de\nágua em massa deve ser seco com ar quente, contendo $10\\%$ de água em\nmassa. O produto final apresenta $5\\%$ de água em massa e o ar sai com\n$25\\%$ de água em massa.\n\n-   **Determine** a massa do produto seco.\n-   **Determine** a massa de ar quente empregada.\n-   **Determine** a massa de ar úmido que sai do secador.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{6740 kg}$\n",
+                "$\\pu{6320 kg}$\n",
+                "$\\pu{7580 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3C27",
+              "statement": "*Oleum*, ou ácido sulfúrico fumegante, é obtido através da absorção do\ntrióxido de enxofre por ácido sulfúrico. Ao se misturar oleum com água\nobtém-se ácido sulfúrico concentrado. Considere uma carga de 1 tonelada\nde oleum, com $20\\%$ em massa trióxido de enxofre.\n\n**Assinale** a alternativa que mais se aproxima da massa de água que\ndeve ser adicionada à carga para ser obtido ácido sulfúrico com\nconcentração de $95\\%$ em massa.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{45 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{42 kg}$\n",
+                "$\\pu{45 kg}$\n",
+                "$\\pu{100 kg}$\n",
+                "$\\pu{104,5 kg}$\n",
+                "$\\pu{300 kg}$\n"
+              ]
+            },
+            {
+              "id_": "3C19",
+              "statement": "Uma planta industrial descarrega $\\pu{3,50 m3.s-1}$ de água contendo\n$\\pu{65 ppm}$ de $\\ce{HCl}$ em um rio cuja vazão é $\\pu{50 m3.s-1}$ e\ncontém $\\ce{Ca^{2+}}$ na concentração de $\\pu{10,2 ppm}$ de . Para que\noutra indústria utilize a água do rio, essa deve ser neutralizada com\nóxido de cálcio, que reage com o ácido clorídrico formando cloreto de\ncálcio. A segunda indústria utiliza $\\pu{18 m3.s-1}$ de água e retorna\n$90\\%$ ao rio.\n\n-   **Determine** a concentração de cloreto na água do rio após a\n    descarga da primeira indústria.\n-   **Determine** a concentração de $\\ce{Ca^{2+}}$ na água do rio após a\n    descarga da segunda indústria.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{4,25 ppm}$\n",
+                "$\\pu{10,3 ppm}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3C28",
+              "statement": "Uma turbina descarta vapor saturado a $\\pu{1 atm}$, com uma vazão de\n$\\pu{1150 kg/h}$ e entalpia $\\pu{2676 kJ/kg}$. A corrente de vapor\ndescartado pela turbina se mistura com vapor superaquecido proveniente\nde outra fonte a $\\pu{400 \\degree C}$ e $\\pu{1 atm}$, de entalpia\n$\\pu{3278 kJ/kg}$, produzindo vapor a $\\pu{300 \\degree C}$ e\n$\\pu{1 atm}$, de entalpia $\\pu{3074 kJ/kg}$, para alimentar um trocador\nde calor.\n\n**Assinale** a alternativa que mais se aproxima da alimentação de vapor\nno trocador de calor.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1000 kg/h}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{1000 kg/h}$\n",
+                "$\\pu{2240 kg/h}$\n",
+                "$\\pu{3390 kg/h}$\n",
+                "$\\pu{4450 kg/h}$\n",
+                "$\\pu{6620 kg/h}$\n"
+              ]
+            },
+            {
+              "id_": "3C29",
+              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n  Fração de NaOH   Entalpia   Cp\n  ---------------- ---------- ----------------\n  20%              76 J/g     3,54 J.g-1.K-1\n  30%              104 J/g    3,63 J.g-1.K-1\n\n**Determine** a temperatura final da solução após a diluição.\n",
+              "solution": "\n",
+              "answer": [
+                "32,8 °C\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3C30",
+              "statement": "Considere as proposições.\n\n1.  A condutividade elétrica de uma solução $\\pu{0,1 mol/L}$ de ácido\n    acético é menor que a do ácido acético puro.\n2.  A condutividade elétrica de uma solução de cloreto de amônio é igual\n    a de uma solução de hidróxido de amônio de mesma concentração.\n3.  A condutividade elétrica de uma solução de cloreto de sódio é maior\n    que a de uma solução de cloreto de prata de mesma concentração.\n4.  A condutividade elétrica de uma solução saturada em iodeto de chumbo\n    é menor que a do sal fundido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+              "solution": "",
+              "answer": [
+                "**1**, **2** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**1** e **2**",
+                "**1** e **4**",
+                "**2** e **4**",
+                "**1**, **2** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "3C31",
+              "statement": "Considere uma porção de uma solução aquosa de concentração\n$\\pu{10 mmol/L}$ de um eletrólito em formato de um cilindro de\n$\\pu{2 cm}$ de diâmetro e $\\pu{314 cm}$ de comprimento. A resistência\nelétrica dessa porção é de $\\pu{10 k\\Omega}$.\n\n**Assinale** a alternativa que mais se aproxima da condutividade molar\nda solução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1 kS cm2 mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{1 kS cm2 mol-1}$\n",
+                "$\\pu{2 kS cm2 mol-1}$\n",
+                "$\\pu{3 kS cm2 mol-1}$\n",
+                "$\\pu{4 kS cm2 mol-1}$\n",
+                "$\\pu{5 kS cm2 mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C32",
+              "statement": "A condutividade molar a $\\pu{25 \\degree C}$ do $\\ce{KCl}$, $\\ce{KNO3}$,\ne $\\ce{AgNO3}$ são $\\pu{15 mS.m2.mol-1}$, $\\pu{14 mS.m2.mol-1}$ e\n$\\pu{13 mS.m2.mol-1}$, respectivamente.\n\n**Assinale** a alternativa que mais se aproxima da condutividade molar\ndo $\\ce{AgCl}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{14 mS.m2.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{12 mS.m2.mol-1}$\n",
+                "$\\pu{13 mS.m2.mol-1}$\n",
+                "$\\pu{14 mS.m2.mol-1}$\n",
+                "$\\pu{15 mS.m2.mol-1}$\n",
+                "$\\pu{16 mS.m2.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C33",
+              "statement": "A condutividade molar a $\\pu{25 \\degree C}$ do $\\ce{KF}$,\n$\\ce{KCH3CO2}$, e $\\ce{Mg(CH3CO)2}$ são $\\pu{13 mS.m2.mol-1}$,\n$\\pu{11 mS.m2.mol-1}$ e $\\pu{18 mS.m2.mol-1}$, respectivamente.\n\n**Assinale** a alternativa que mais se aproxima da condutividade molar\ndo $\\ce{MgF2}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{22 mS.m2.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{18 mS.m2.mol-1}$\n",
+                "$\\pu{20 mS.m2.mol-1}$\n",
+                "$\\pu{22 mS.m2.mol-1}$\n",
+                "$\\pu{24 mS.m2.mol-1}$\n",
+                "$\\pu{26 mS.m2.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C34",
+              "statement": "Considere uma solução saturada do sal **MX** que é pouco solúvel em água\ndestilada a $\\pu{25 \\degree C}$. A condutância dessa solução é\n$\\pu{2e-7 S cm-1}$ acima da condutância da água destilada.\n\n**Assinale** a alternativa que mais se aproxima solubilidade de **MX**.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{2 \\micro mol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\lambda_{\\ce{\\mathbf{M}+}} = \\pu{60 S-1 cm2 mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\lambda_{\\ce{\\mathbf{X}-}} = \\pu{40 S-1 cm2 mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1 \\micro mol.L-1}$\n",
+                "$\\pu{2 \\micro mol.L-1}$\n",
+                "$\\pu{3 \\micro mol.L-1}$\n",
+                "$\\pu{4 \\micro mol.L-1}$\n",
+                "$\\pu{5 \\micro mol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C35",
+              "statement": "Considere as relações a respeito da condutividade molar de soluções\ndiluídas de $\\ce{CaCl2}$, $\\ce{NaCl}$ e $\\ce{KCl}$.\n\n1.  $\\Lambda_{\\ce{CaCl2}}/\\Lambda_{\\ce{KCl}} = \\pu{1,9}$\n2.  $\\Lambda_{\\ce{CaCl2}}/\\Lambda_{\\ce{NaCl}} = \\pu{1,8}$\n\n**Assinale** a alternativa com a ordenação correta para a condutividade\nde soluções de mesma concentração mássica dessas espécies.\n",
+              "solution": "",
+              "answer": [
+                "$\\kappa_{\\ce{CaCl2}} = \\kappa_{\\ce{NaCl}} > \\kappa_{\\ce{KCl}}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\kappa_{\\ce{CaCl2}} = \\kappa_{\\ce{NaCl}} = \\kappa_{\\ce{KCl}}$\n",
+                "$\\kappa_{\\ce{CaCl2}} = \\kappa_{\\ce{NaCl}} > \\kappa_{\\ce{KCl}}$\n",
+                "$\\kappa_{\\ce{CaCl2}} > \\kappa_{\\ce{NaCl}} > \\kappa_{\\ce{KCl}}$\n",
+                "$\\kappa_{\\ce{CaCl2}} < \\kappa_{\\ce{NaCl}} = \\kappa_{\\ce{KCl}}$\n",
+                "$\\kappa_{\\ce{CaCl2}} < \\kappa_{\\ce{NaCl}} < \\kappa_{\\ce{KCl}}$\n"
+              ]
+            },
+            {
+              "id_": "3C36",
+              "statement": "Uma solução de concentração molar $C_0$ de hidróxido de sódio é\nadicionada a uma solução de concentração $C_0$ de acetato de etila. A\nreação forma água e íons acetato. As condutividades molares do sódio,\nhidróxido e acetato são, respectivamente, $\\lambda_{\\ce{Na+}}$,\n$\\lambda_{\\ce{OH-}}$ e $\\lambda_{\\ce{Ac-}}$. Em um dado instante, a\ncondutividade da solução é $\\Psi$.\n\n**Determine** a expressão para a concentração de ânions acetato em\nsolução.\n",
+              "solution": "\n",
+              "answer": [
+                "$[\\ce{Ac-}] = \\dfrac{2\\Psi - C_0 \\lambda_{\\ce{Na+}} - C_0\\lambda_{\\ce{OH-}} }{ 2(\\lambda_{\\ce{Ac-}} - \\lambda_{\\ce{OH-}})}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3C37",
+              "statement": "Uma solução $\\pu{0,1 mmol.L-1}$ de um composto desconhecido é colocada\nem uma célula de absorção de $\\pu{1 cm}$ de caminho óptico, transmitindo\n$10\\%$ da luz incidente de comprimento de onda $\\pu{320 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do coeficiente de\nabsorção molar desse composto a $\\pu{320 nm}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1e4 L mol-1 cm-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1e2 L mol-1 cm-1}$\n",
+                "$\\pu{1e3 L mol-1 cm-1}$\n",
+                "$\\pu{1e4 L mol-1 cm-1}$\n",
+                "$\\pu{1e5 L mol-1 cm-1}$\n",
+                "$\\pu{1e6 L mol-1 cm-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C38",
+              "statement": "O coeficiente de absorção molar de um soluto é $\\pu{400 L mol-1 cm-1}$ a\n$\\pu{540 nm}$. Quando luz desse comprimento de onda atravessa uma célula\nde absorção de $\\pu{5 mm}$ contendo essa substância, $40\\%$ da luz é\nabsorvida.\n\n**Assinale** a alternativa que mais se aproxima da concentração desse\nsoluto.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{1 mmol.L-1}$\n",
+                "$\\pu{2 mmol.L-1}$\n",
+                "$\\pu{3 mmol.L-1}$\n",
+                "$\\pu{4 mmol.L-1}$\n",
+                "$\\pu{5 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C39",
+              "statement": "O *Colorímetro de Duboscq* consiste em uma célula de caminho óptico fixo\ne uma célula de caminho óptico variável. O comprimento dessa célula e\najustado até que a transmissão das células seja a mesma. Uma solução de\nconcentração $\\pu{24 \\micro g.L-1}$ de certa substância é adicionada à\ncélula fixa de comprimento $\\pu{4 cm}$. Uma solução do mesmo soluto de\nconcentração desconhecida é adicionada à célula de concentração variável\ne seu comprimento é ajustado para $\\pu{3 cm}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsegunda solução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{16 \\micro g.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{12 \\micro g.L-1}$\n",
+                "$\\pu{14 \\micro g.L-1}$\n",
+                "$\\pu{16 \\micro g.L-1}$\n",
+                "$\\pu{18 \\micro g.L-1}$\n",
+                "$\\pu{20 \\micro g.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3C40",
+              "statement": "A saturação de oxigênio, definida como a razão entre a concentração de\noxi-hemoglobina e a concentração total de hemoglobina no sangue, pode\nser determinada por espectroscopia de absorção. Uma amostra de sangue é\ncoletada e colocada em uma célula com $\\pu{10 mm}$ de caminho óptico.\n\n![Absor por comprimento.](3C40-1P.svg)\n\nA solução transmite $10\\%$ da luz incidente de comprimento de onda\n$\\pu{750 nm}$ e $30\\%$ da luz incidente de comprimento de onda\n$\\pu{850 nm}$.\n\n-   **Determine** concentração de oxi-hemoglobina e desoxi-hemoglobina\n    no sangue.\n-   **Determine** a saturação do sangue.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{7 mmol/L}$ e $\\pu{0,4 mmol/L}$\n",
+                "$95\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3C41",
+              "statement": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald.\n\n$$\n\\begin{aligned}\n\\ce{4 NH3(g) + 5 O2(g) &&-> 4 NO(g) + 6 H2O(g)}\n\\ce{2 NO(g) + O2(g) &&-> 2 NO2(g)}\n\\ce{3 NO2(g) + H2O(l) &&-> 2 HNO3(aq) + NO(g)}\n\\end{aligned}\n$$\n\nUma indústria deve produzir $\\pu{1e6 kg}$ de ácido nítrico.\n\n-   **Determine** a massa de amônia necessária para a produção onde o\n    óxido nítrico formado na última etapa não é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde todo\n    óxido nítrico formado na última etapa é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde 40%\n    do óxido nítrico formado na última etapa é reaproveitado\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{4,1e5 kg}$\n",
+                "$\\pu{2,7e5 kg}$\n",
+                "$\\pu{3,5e5 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3C43",
+              "statement": "Uma planta foi projetada para conduzir a reação: $$\n\\ce{\\mathbf{A} -> \\mathbf{B}}\n$$ Uma corrente de $\\pu{60 kg.h-1}$ de **A** é combinada à corrente de\nrefluxo, contendo $\\pu{140 mol.h-1}$ de **A** e alimentada no reator. A\ncorrente de saída do reator passa por uma unidade de destilação onde o\nproduto de topo contem $\\pu{10 mol.h-1}$ de **A** e $\\pu{50 mol.h-1}$ de\n**B** e o produto de fundo é a corrente de reciclo.\n\n-   **Determine** a composição da corrente de saída do reator.\n-   **Determine** o rendimento da reação por passe no reator.\n-   **Determine** a conversão global do processo.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{150 mol.h-1}$ de **A** e $\\pu{50 mol.h-1}$ de **B**\n",
+                "$25\\%$\n",
+                "$83\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "3C2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "3D",
