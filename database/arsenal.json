@@ -3342,14 +3342,18 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Compostos de Coordenação\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Análise Qualitativa\n\n1. Tópico",
+      "contents": "# Reações de Precipitação\n\n1. Previsão de produtos de precipitação.\n2. Dissolução de precipitados.\n3. Reações que liberam gases.\n\n### Habilidades\n\n- **Prever** os produtos de uma reação de precipitação em solução.\n\n# Compostos de Coordenação\n\n1. Íons complexos.\n2. Nomenclatura de íons complexos.\n3. Reações de complexação.\n4. Teoria do campo cristalino.\n\n### Habilidades\n\n- **Identificar** possíveis reações de complexação.\n\n# Análise Qualitativa\n\n1. Identificação de cátions.\n2. Identificação de ânions.\n\n### Habilidades\n\n- **Propor** um método para separação de um grupo de cátions ou ânions.",
       "subtopics": [
         {
           "id_": "1H.1",
-          "title": "Compostos de Coordenação"
+          "title": "Reações de Precipitação"
         },
         {
           "id_": "1H.2",
+          "title": "Compostos de Coordenação"
+        },
+        {
+          "id_": "1H.3",
           "title": "Análise Qualitativa"
         }
       ],
@@ -3362,18 +3366,22 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Potenciais Padrão\n\n\n# Série Eletroquímica\n\n### Habilidades\n\n- Habilidade\n\n# Corrosão\n\n1. Galvanização.\n2. Passivação.\n3. Proteção catódica.\n4. Proteção anódica.\n\n### Habilidades\n\n- **Identificar** reações de corrosão em um sistema.\n- **Identificar** meios para inibir o processo corrosivo.",
+      "contents": "# Reações de Oxidação e Redução\n\n\n\n# Potenciais Padrão\n\n1. Definição de potenciais padrão.\n2. Série eletroquímica.\n\n### Habilidades\n\n- **Comparar** elementos em função de seu potencial de redução.\n\n# Principais agentes\n\n# Corrosão\n\n1. Galvanização.\n2. Passivação.\n3. Proteção catódica.\n4. Proteção anódica.\n\n### Habilidades\n\n- **Identificar** reações de corrosão em um sistema.\n- **Identificar** meios para inibir o processo corrosivo.",
       "subtopics": [
         {
           "id_": "1I.1",
-          "title": "Potenciais Padrão"
+          "title": "Reações de Oxidação e Redução"
         },
         {
           "id_": "1I.2",
-          "title": "Série Eletroquímica"
+          "title": "Potenciais Padrão"
         },
         {
           "id_": "1I.3",
+          "title": "Principais agentes"
+        },
+        {
+          "id_": "1I.4",
           "title": "Corrosão"
         }
       ],
@@ -3386,11 +3394,11 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Reações dos Elementos Representativos\n\n1. Reações dos elementos representativos\n\n### Habilidades\n\n- **Prever** o produto de reações entre os elementos representativos.",
       "subtopics": [
         {
           "id_": "1J.1",
-          "title": "Tópico"
+          "title": "Reações dos Elementos Representativos"
         }
       ],
       "problems": []
@@ -5336,7 +5344,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Reversibilidade e Espontaneidade\n\n1. Trabalho de expansão reversível.\n2. Teorema do Trabalho Máximo.\n3. Reversibilidade e entropia.\n4. Definição macroscópica de entropia: \n    $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n5. Segunda Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma transformação reversível.\n\n# Entropia \n\n1. Entropia e desordem.\n2. Entropia e temperatura: \n    $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n3. Entropia e volume de gás ideal: \n    $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n4. Entropia e estado físico: sólido, líquido, gasoso e em solução.\n\n### Habilidades\n\n- **Determinar** qualitativamente o sinal da variação de entropia para uma transformação.\n- **Calcular** a variação de entropia para aquecimento ou resfriamento de uma substância.\n- **Calcular** a variação de entropia para um gás ideal em uma transformação isotérmica.\n- **Calcular** a entropia padrão para transição de fase.\n\n# Entropia Absoluta \n\n1. Interpretação microscópica da entropia.\n2. Fórmula de Boltzmann:\n    $$\n    S = k_\\mathrm{B} \\ln \\Omega\n    $$\n3. Entropia Residual.\n4. Terceira Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a entropia residual a partir da Fórmula de Boltzmann.\n\n# Entropia de Reação\n\n1. Entropia padrão.\n2. Entropia de reação.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma reação química.\n- **Determinar** qualitativamente o sinal da variação de entropia para uma reação química.\n\n# Mudanças Globais de Entropia\n\n1. Variação de entropia da vizinhança\n2. Variação de entropia do Universo.\n3. Equilíbrio.\n\n### Habilidades\n\n- **Calcular** a variação de entropia da vizinhança devido à uma transferência de calor em pressão e temperatura constantes.\n- **Calcular** a variação de entropia do Universo para um processo.",
+      "contents": "# Reversibilidade e Espontaneidade\n\n1. Trabalho de expansão reversível.\n2. Teorema do Trabalho Máximo.\n3. Reversibilidade e entropia.\n4. Definição macroscópica de entropia: \n    $$ \n    \\Delta S = \\dfrac{Q_\\text{rev}}{T} \n    $$\n5. Segunda Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma transformação reversível.\n\n# Entropia \n\n1. Entropia e desordem.\n2. Entropia e temperatura: \n    $$ \n    \\Delta S = C_P \\ln\\left( \\frac{T_2}{T_1} \\right) \n    $$\n3. Entropia e volume de gás ideal: \n    $$ \n    \\Delta S = RT \\ln\\left( \\frac{V_2}{V_1} \\right) \n    $$\n4. Entropia e estado físico: sólido, líquido, gasoso e em solução.\n5. Entropia de mudança de fase:\n    $$\n    \\Delta S = \\dfrac{\\Delta H}{T}\n    $$\n\n### Habilidades\n\n- **Determinar** qualitativamente o sinal da variação de entropia para uma transformação.\n- **Calcular** a variação de entropia para aquecimento ou resfriamento de uma substância.\n- **Calcular** a variação de entropia para um gás ideal em uma transformação isotérmica.\n- **Calcular** a entropia padrão para transição de fase.\n\n# Entropia Absoluta \n\n1. Interpretação microscópica da entropia.\n2. Fórmula de Boltzmann:\n    $$\n    S = k_\\mathrm{B} \\ln \\Omega\n    $$\n3. Entropia Residual.\n4. Terceira Lei da Termodinâmica.\n\n### Habilidades\n\n- **Calcular** a entropia residual a partir da Fórmula de Boltzmann.\n\n# Entropia de Reação\n\n1. Entropia padrão.\n2. Entropia de reação.\n\n### Habilidades\n\n- **Calcular** a variação de entropia para uma reação química.\n- **Determinar** qualitativamente o sinal da variação de entropia para uma reação química.\n\n# Mudanças Globais de Entropia\n\n1. Variação de entropia da vizinhança:\n    $$\n    \\Delta S_{\\text{viz}} = -\\dfrac{\\Delta H}{T}\n    $$\n2. Variação de entropia do Universo.\n3. Equilíbrio.\n\n### Habilidades\n\n- **Calcular** a variação de entropia da vizinhança devido à uma transferência de calor em pressão e temperatura constantes.\n- **Calcular** a variação de entropia do Universo para um processo.",
       "subtopics": [
         {
           "id_": "2B.1",
@@ -7835,7 +7843,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Desvios da Idealidade\n\n1. Interações Intermoleculares.\n2. Potencial de Lennard-Jones.\n3. Volume molecular.\n\n### Habilidades\n\n- Habilidades\n\n# Equações de Estado do Gás Real\n\n1. Equação de Van der Waals: \n    $$ \n    \\left( P + a\\dfrac{n^2}{V^2} \\right)(V - nb) = nRT \n    $$\n2. Fator de Compressibilidade: \n    $$ \n    Z = \\dfrac{V}{V_\\text{ideal}} = \\dfrac{PV}{RT}\n    $$\n\n### Habilidades\n\n- **Comparar** gases em função de seu fator de compressibilidade.\n- **Comparar** gases em função de seus parâmetros de Van der Waals.\n\n# Liquefação\n\n1. Isotermas do gás real.\n1. Liquefação de Gases Reais.\n2. Efeito Joule-Thompson.\n\n### Habilidades\n\n- Caminho livre médio",
+      "contents": "# Desvios da Idealidade\n\n1. Interações Intermoleculares.\n2. Potencial de Lennard-Jones.\n3. Volume molecular.\n\n### Habilidades\n\n- **Comparar** moléculas \n\n# Equação de Van der Waals\n\n1. Efeito no volume:\n    $$\n    V = V_{\\text{ideal}} + nb\n    $$\n2. Efeito na pressão:\n    $$\n    P = V_{\\text{ideal}} - \\frac{an^2}{V^2}\n    $$\n3. Equação de Van der Waals: \n    $$ \n    \\left( P + \\dfrac{an^2}{V^2} \\right)(V - nb) = nRT \n    $$\n\n### Habilidades\n\n- **Comparar** gases em função de seus parâmetros de Van der Waals.\n\n# Fator de Compressibilidade\n\n1. Fator de Compressibilidade: \n    $$ \n    Z = \\dfrac{V}{V_\\text{ideal}} = \\dfrac{PV}{nRT}\n    $$\n2. Fator de compressibilidade e pressão.\n\n### Habilidades\n\n- **Comparar** o fator de compressibilidade para diferentes gases.\n- **Comparar** o fator de compressibilidade em diferentes temperaturas.\n\n# Liquefação\n\n1. Isotermas do gás real.\n1. Liquefação de Gases Reais.\n2. Efeito Joule-Thompson.\n\n### Habilidades\n\n- Caminho livre médio",
       "subtopics": [
         {
           "id_": "3B.1",
@@ -7843,10 +7851,14 @@
         },
         {
           "id_": "3B.2",
-          "title": "Equações de Estado do Gás Real"
+          "title": "Equação de Van der Waals"
         },
         {
           "id_": "3B.3",
+          "title": "Fator de Compressibilidade"
+        },
+        {
+          "id_": "3B.4",
           "title": "Liquefação"
         }
       ],
@@ -8247,7 +8259,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Composição das Soluções\n\n1. Concentração mássica e molar.\n2. Partes por milhão ($\\pu{ppm}$) e bilhão ($\\pu{ppb}$).\n3. Molalidade.\n4. Concentração de peróxido de hidrogênio em volumes.\n    $$\n    CV = \\dfrac{V_\\text{CNTP}(\\ce{O2})}{V} = \\pu{11,2} \\cdot \\dfrac{[\\ce{H2O2}]}{\\pu{mol.L-1}}\n    $$\n\n### Habilidades\n\n- **Calcular** \n- **Calcular** a concentração em volumes para uma solução de peróxido de hidrogênio.\n\n# Reações em Solução\n\n1. teste\n\n### Habilidades\n\n- **Determinar** a\n\n# Soluções Iônicas\n\n1. Balanço de cargas.\n2. Mobilidade iônica.\n3. Influência do solvente na mobilidade iônica.\n4. Condutividade molar.\n5. Lei de migração independente:\n    $$\n    \\Lambda^\\circ_\\text{m} = \\lambda_{+} + \\lambda_{-}\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir da condutividade.\n- **Comparar** a condutividade de diferentes íons em solução.\n\n\n# Absortividade das Soluções\n\n1. Espectrofotometria.\n2. Absortividade molar.\n3. Lei de Beer-Lambert:\n    $$\n    A = \\log_{10}\\dfrac{I_0}{I} = \\epsilon L [\\ce{J}] \n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de sua absortividade.\n  \n# Operações em Soluções\n\n1. Balanço molar.\n2. Balanço de cargas.\n3. Balanço energético.\n4. Diluição.\n5. Mistura.\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Composição das Soluções\n\n1. Concentração mássica e molar.\n2. Partes por milhão ($\\pu{ppm}$) e bilhão ($\\pu{ppb}$).\n3. Molalidade.\n4. Concentração de peróxido de hidrogênio em volumes:\n    $$\n    F = \\dfrac{V_\\text{CNTP}(\\ce{O2})}{V} = \\pu{11,2} \\cdot \\dfrac{[\\ce{H2O2}]}{\\pu{mol.L-1}}\n    $$\n\n### Habilidades\n\n- **Relacionar** as unidade de concentração de soluções. \n- **Calcular** a concentração em volumes para uma solução de peróxido de hidrogênio.\n\n# Operações com Soluções\n\n1. Diluição e secagem.\n2. Misturas.\n3. Balançoes materiais.\n4. Balanço energético.\n\n### Habilidades\n\n- **Calcular** a concentração final após uma operação em solução.\n\n# Reações em Solução\n\n1. Estequiometria em solução.\n2. Rendimento.\n\n### Habilidades\n\n- **Calcular** a quantidade de produto formado em uma reação em solução.\n\n# Soluções Iônicas\n\n1. Balanço de cargas.\n2. Mobilidade iônica.\n3. Influência do solvente na mobilidade iônica.\n4. Condutividade molar.\n5. Lei de migração independente:\n    $$\n    \\Lambda^\\circ_\\text{m} = \\lambda_{+} + \\lambda_{-}\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir da condutividade.\n- **Comparar** a condutividade de diferentes íons em solução.\n\n# Absortividade das Soluções\n\n1. Espectrofotometria.\n2. Absortividade molar.\n3. Lei de Beer-Lambert:\n    $$\n    A = \\log_{10}\\dfrac{I_0}{I} = \\epsilon L c\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de sua absortividade.",
       "subtopics": [
         {
           "id_": "3C.1",
@@ -8255,19 +8267,19 @@
         },
         {
           "id_": "3C.2",
-          "title": "Reações em Solução"
+          "title": "Operações com Soluções"
         },
         {
           "id_": "3C.3",
-          "title": "Soluções Iônicas"
+          "title": "Reações em Solução"
         },
         {
           "id_": "3C.4",
-          "title": "Absortividade das Soluções"
+          "title": "Soluções Iônicas"
         },
         {
           "id_": "3C.5",
-          "title": "Operações em Soluções"
+          "title": "Absortividade das Soluções"
         }
       ],
       "problems": []
@@ -8311,11 +8323,11 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Temperatura e velocidade de reação\n\n1. Energia\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Modelos Reacionais\n\n1. Efeito da temperatura na velocidade das reações.\n2. Energia de Ativação.\n3. Equação de Arrhenius:\n    $$\n    k = A e^{-E_{\\text{a}}/RT}\n    $$\n4. Teoria das colições.\n5. Teoria do estado de transição.\n\n### Habilidades\n\n- **Calcular** a constante cinética em diferentes temperaturas.",
       "subtopics": [
         {
           "id_": "3E.1",
-          "title": "Temperatura e velocidade de reação"
+          "title": "Modelos Reacionais"
         }
       ],
       "problems": []
@@ -8327,7 +8339,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Combinação de Reações Elementares\n\n1. Etapa determinante na velocidade.\n2. Aproximação do estado estacionário.\n3. Aproximação do pré-equilíbrio.\n\n### Habilidades\n\n- **Determinar** a lei de velocidade para uma reação em cadeia.\n\n\n# Reações em Cadeia\n\n1. Iniciação.\n2. Propagação.\n3. Término.\n4. Reações radicalares.\n\n### Habilidades\n\n- **Determinar** a lei de velocidade para uma reação em cadeia.",
+      "contents": "# Combinação de Reações Elementares\n\n1. Etapa determinante na velocidade.\n2. Aproximação do estado estacionário.\n3. Aproximação do pré-equilíbrio.\n\n### Habilidades\n\n- **Determinar** a lei de velocidade para um mecanismo reacional.\n\n# Reações em Cadeia\n\n1. Iniciação.\n2. Propagação.\n3. Término.\n4. Reações radicalares.\n\n### Habilidades\n\n- **Determinar** a lei de velocidade para uma reação em cadeia.",
       "subtopics": [
         {
           "id_": "3F.1",
@@ -8347,11 +8359,11 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Análise gravimétrica\n\n1. TGA.\n2. Análise de combustão.\n\n### Habilidades\n\n- **Determinar** a identidade de uma substância por análise gravimétrica.",
       "subtopics": [
         {
           "id_": "3G.1",
-          "title": "Tópico"
+          "title": "Análise gravimétrica"
         }
       ],
       "problems": []
@@ -8363,11 +8375,11 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Titulação de Neutralização\n\n1. Titulação de neutralização.\n\n### Habilidades\n\n- **Calcular** a quantidade de uma substância por titulação de neutralização.",
       "subtopics": [
         {
           "id_": "3H.1",
-          "title": "Tópico"
+          "title": "Titulação de Neutralização"
         }
       ],
       "problems": []
@@ -8379,11 +8391,11 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Titulação de Precipitação\n\n1. Titulação de precipitação.\n\n### Habilidades\n\n- **Calcular** a quantidade de uma substância por titulação de precipitação.",
       "subtopics": [
         {
           "id_": "3I.1",
-          "title": "Tópico"
+          "title": "Titulação de Precipitação"
         }
       ],
       "problems": []
@@ -8395,14 +8407,10 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Semirreações\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade\n\n# Balanceamento de Reações de Redução-Oxidação\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Balanceamento de Reações de Redução-Oxidação\n\n1. Método Íon-Elétron\n\n### Habilidades\n\n- **Balancear** uma reação de redução-oxidação pelo método íon elétron.",
       "subtopics": [
         {
           "id_": "3J.1",
-          "title": "Semirreações"
-        },
-        {
-          "id_": "3J.2",
           "title": "Balanceamento de Reações de Redução-Oxidação"
         }
       ],
@@ -8415,11 +8423,11 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Titulação de Redução-Oxidação\n\n1. Titulação de redução-oxidação.\n\n### Habilidades\n\n- **Calcular** a quantidade de uma substância por titulação de redução-oxidação.",
       "subtopics": [
         {
           "id_": "3K.1",
-          "title": "Tópico"
+          "title": "Titulação de Redução-Oxidação"
         }
       ],
       "problems": []
@@ -8431,11 +8439,19 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Tópico\n\n1. Tópico\n\n### Habilidades\n\n- Habilidade",
+      "contents": "# Decaimento Nuclear\n\n1. Evidências do decaimento nuclear.\n2. Reações nucleares.\n3. Estabilidade nuclear.\n4. Tipos de decaimento nuclear.\n5. Nucleossíntese.\n\n### Habilidades\n\n- **Determinar** as partículas liberadas no decaimento nuclear.\n- **Determinar** o tipo de decaimento mais provável para um isotopo.\n\n# Cinética Radioativa\n\n1. Efeitos biológicos da radiação.\n2. Medida do decaimento radioativo.\n3. Tempo de meia vida.\n4. Usos dos radioisotopos.\n\n### Habilidades\n\n- **Calcular** a massa desintegrada de uma amostra radioativa em função do tempo.\n\n# Energia Nuclear\n\n1. Relação entre massa e energia:\n    $$\n    E = mc^2\n    $$\n2. Energia das reações nucleares.\n\n### Habilidades\n\n- **Calcular** a energia liberada em uma reação nuclear.",
       "subtopics": [
         {
           "id_": "3L.1",
-          "title": "Tópico"
+          "title": "Decaimento Nuclear"
+        },
+        {
+          "id_": "3L.2",
+          "title": "Cinética Radioativa"
+        },
+        {
+          "id_": "3L.3",
+          "title": "Energia Nuclear"
         }
       ],
       "problems": []
