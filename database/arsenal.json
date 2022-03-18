@@ -2467,11 +2467,11 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "A primeira energia de ionização do cálcio é menor que a do magnésio.\n",
+                "A primeira energia de ionização do cálcio é maior que a do magnésio.\n",
                 "A primeira energia de ionização do magnésio é menor que a do sódio.\n",
                 "A primeira energia de ionização do alumínio é maior que a do sódio.\n",
                 "A segunda energia de ionização do cálcio é menor que a do magnésio.\n",
-                "A segunda energia de ionização do magnésio é menor que a do sódio.\n"
+                "A segunda energia de ionização do magnésio é maior que a do sódio.\n"
               ]
             },
             {
@@ -2747,14 +2747,14 @@
                 "data": [
                   {
                     "id_": 0,
-                    "name": "EI-Na",
+                    "name": "$EI(\\ce{Na}) = \\pu{5,14 eV}$",
                     "symbol": "",
                     "value": 0.0,
                     "unit": ""
                   },
                   {
                     "id_": 0,
-                    "name": "EI-Ne",
+                    "name": "$EI(\\ce{Ne}) = \\pu{21,6 eV}$",
                     "symbol": "",
                     "value": 0.0,
                     "unit": ""
@@ -6424,7 +6424,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Energia Livre\n\n1. Definição de energia livre: \n   $$ \n   G = H - TS \n   $$\n2. Energia livre e variação global de entropia.\n   $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$\n3.  Energia livre e espontaneidade:\n   $$\n   \\Delta G < 0\n   $$\n4. Energia Livre e estado físico.\n\n### Habilidades\n\n- **Classificar** um processo quanto a sua espontaneidade.\n\n# Energia Livre de Reação\n\n1. Energia livre e grau de reação.\n2. Energia livre padrão de formação.\n3. Energia livre a partir da entalpia e entropia de reação.\n4. Compostos estáveis e compostos lábeis.\n\n### Habilidades\n\n- **Calcular** a energia livre de reação a partir da entalpia e entropia de reação.\n- **Determinar** a espontaneidade de uma reação em um dada temperatura.\n- **Calcular** a temperatura mínima para que uma reação endotérmica seja espontânea.\n\n# Energia Livre e Trabalho não Expansivo\n\n1. Trabalho máximo não expansivo:\n   $$\n   \\Delta G = W_\\text{ne, max}\n   $$\n2. Potencial de reação: \n   $$\n   \\Delta G = -nF \\Delta E\n   $$\n3. Diagrama de Frost.\n\n### Habilidades\n\n- **Calcular** o trabalho máximo não expansivo que pode ser realizado por uma transformação.\n- **Calcular** o potencial de uma reação em função da energia livre.\n\n# Energia Livre e Temperatura\n\n1. Energia livre e temperatura.\n2. Potencial e temperatura:\n   $$\n   \\Delta E^T = \\Delta E^{T_0} + (T-T_0) \\left( \\frac{\\Delta S}{nF} \\right)\n   $$\n\n### Habilidades\n\n- **Calcular** a variação do potencial de uma reação com a temperatura.",
+      "contents": "# Energia Livre\n\n1. Definição de energia livre: \n   $$ \n   G = H - TS \n   $$\n2. Energia livre e variação global de entropia.\n   $$\n   \\Delta G = - T \\Delta S_\\text{univ}\n   $$\n3. Energia livre e espontaneidade:\n   $$\n   \\Delta G < 0\n   $$\n3. Energia livre e temperatura.\n4. Energia livre e estado físico.\n\n### Habilidades\n\n- **Classificar** um processo quanto a sua espontaneidade a partir de sua energia livre.\n\n# Equilíbrio de Fase\n\n1. Diagramas de fases.\n2. Pontos de fusão, ebulição triplo.\n3. Inclinação do diagrama de fases:\n   $$\n   \\dfrac{\\Delta P}{\\Delta T} = \\frac{\\Delta S}{\\Delta V}\n   $$\n4. Propriedades críticas.\n\n### Habilidades\n\n- **Identificar** os pontos triplos e o ponto crítico no diagrama de fases.\n- **Identificar** os pontos de fusão e ebulição no diagrama de fases.\n- **Comparar** densidades a partir do diagrama de fases.\n\n# Energia Livre de Reação\n\n1. Energia livre e grau de reação.\n2. Energia livre padrão de formação.\n3. Energia livre a partir da entalpia e entropia de reação:\n   $$\n   \\Delta G = \\Delta H - T \\Delta S\n   $$\n5. Compostos estáveis e compostos lábeis.\n\n### Habilidades\n\n- **Calcular** a energia livre de reação a partir da entalpia e entropia de reação.\n- **Determinar** a espontaneidade de uma reação em um dada temperatura.\n- **Calcular** a temperatura mínima para que uma reação endotérmica seja espontânea.\n\n# Energia Livre e Trabalho não Expansivo\n\n1. Trabalho máximo não expansivo:\n   $$\n   \\Delta G = -W_\\text{e, max}\n   $$\n2. Potencial de reação: \n   $$\n   \\Delta G = -nF \\Delta E\n   $$\n3. Potencial e temperatura:\n   $$\n   \\Delta E^T = \\Delta E^{T_0} + (T-T_0) \\left( \\frac{\\Delta S}{nF} \\right)\n   $$\n\n### Habilidades\n\n- **Calcular** o trabalho máximo não expansivo que pode ser realizado por uma transformação.\n- **Calcular** o potencial de uma reação em função da energia livre.\n- **Calcular** a variação do potencial de uma reação com a temperatura.",
       "subtopics": [
         {
           "id_": "2C.1",
@@ -6432,15 +6432,15 @@
         },
         {
           "id_": "2C.2",
-          "title": "Energia Livre de Reação"
+          "title": "Equilíbrio de Fase"
         },
         {
           "id_": "2C.3",
-          "title": "Energia Livre e Trabalho não Expansivo"
+          "title": "Energia Livre de Reação"
         },
         {
           "id_": "2C.4",
-          "title": "Energia Livre e Temperatura"
+          "title": "Energia Livre e Trabalho não Expansivo"
         }
       ],
       "problems": []
@@ -6452,7 +6452,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Pressão de Vapor\n\n1. Origem da pressão de vapor.\n2. Volatilidade e forças intermoleculares.\n3. Pressão de vapor e temperatura.\n4. Equação de Clausius Clapeyron:\n   $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta_\\text{vap} H}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n5. Ebulição.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor em uma dada temperatura utilizando a Equação de Clausius Clapeyron.\n- **Calcular** a temperatura de ebulição utilizando a Equação de Clausius Clapeyron.\n\n# Equilíbrio de Fase\n\n1. Diagramas de fases.\n2. Pontos de fusão, ebulição triplo.\n3. Inclinação do diagrama de fases:\n   $$\n   \\dfrac{\\Delta P}{\\Delta T} = \\frac{\\Delta S}{\\Delta V}\n   $$\n4. Propriedades críticas.\n\n### Habilidades\n\n- **Identificar** os pontos triplos e o ponto crítico no diagrama de fases.\n- **Identificar** os pontos de fusão e ebulição no diagrama de fases.\n- **Comparar** densidades a partir do diagrama de fases.\n\n# Equilíbrio de Fase Multicomponente\n\n1. Pressão de vapor de misturas\n2. Lei de Raoult:\n   $$\n   P_A = x_A P_A^\\star\n   $$\n3. Misturas líquidas binárias.\n4. Destilação.\n5. Azeótropos.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor de solvente utilizando a Lei de Raoult.\n- **Calcular** a pressão e composição do vapor para misturas binárias utilizando a Lei de Raoult.",
+      "contents": "# Pressão de Vapor\n\n1. Origem da pressão de vapor.\n2. Volatilidade e forças intermoleculares.\n3. Pressão de vapor e temperatura.\n4. Equação de Clausius Clapeyron:\n   $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta_\\text{vap} H}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n5. Ebulição.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor em uma dada temperatura utilizando a Equação de Clausius Clapeyron.\n- **Calcular** a temperatura de ebulição utilizando a Equação de Clausius Clapeyron.\n\n# Equilíbrio de Fase Multicomponente\n\n1. Pressão de vapor de misturas\n2. Lei de Raoult:\n   $$\n   P_A = x_A P_A^\\star\n   $$\n3. Misturas líquidas binárias.\n4. Destilação.\n5. Azeótropos.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor de solvente utilizando a Lei de Raoult.\n- **Calcular** a pressão e composição do vapor para misturas binárias utilizando a Lei de Raoult.",
       "subtopics": [
         {
           "id_": "2D.1",
@@ -6460,10 +6460,6 @@
         },
         {
           "id_": "2D.2",
-          "title": "Equilíbrio de Fase"
-        },
-        {
-          "id_": "2D.3",
           "title": "Equilíbrio de Fase Multicomponente"
         }
       ],
@@ -8364,7 +8360,7 @@
             },
             {
               "id_": "3C04",
-              "statement": "**Assinale** a alternativa que mais se aproxima do volume de uma solução\n$\\pu{0,027 m}$ de hidróxido de sódio necessário para preparar\n$\\pu{250 mL}$ uma solução $\\pu{1,25 mmol.L-1}$ dessa substância.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima do volume de uma solução\n$\\pu{0,027 mol.L-1}$ de hidróxido de sódio necessário para preparar\n$\\pu{250 mL}$ uma solução $\\pu{1,25 mmol.L-1}$ dessa substância.\n",
               "solution": "",
               "answer": [
                 "$\\pu{13,4 mL}$\n"
@@ -8640,7 +8636,7 @@
             },
             {
               "id_": "3C16",
-              "statement": "Uma solução é preparada pela adição de $\\pu{50 mL}$ uma solução $1\\%$ em\nmassa de cloreto de sódio a $\\pu{50 mL}$ de uma solução $0,6\\%$ em massa\nde cloreto de potássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncloreto na solução resultante.\n",
+              "statement": "Uma solução é preparada pela adição de $\\pu{50 mL}$ uma solução $1\\%$ em\nmassa de cloreto de sódio a $\\pu{50 mL}$ de uma solução $\\pu{0,6}\\%$ em\nmassa de cloreto de potássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncloreto na solução resultante.\n",
               "solution": "",
               "answer": [
                 "$\\pu{0,13 mol.L-1}$\n"
@@ -9218,7 +9214,7 @@
             },
             {
               "id_": "3C41",
-              "statement": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald.\n\n$$\n\\begin{aligned}\n\\ce{4 NH3(g) + 5 O2(g) &&-> 4 NO(g) + 6 H2O(g)}\n\\ce{2 NO(g) + O2(g) &&-> 2 NO2(g)}\n\\ce{3 NO2(g) + H2O(l) &&-> 2 HNO3(aq) + NO(g)}\n\\end{aligned}\n$$\n\nUma indústria deve produzir $\\pu{1e6 kg}$ de ácido nítrico.\n\n-   **Determine** a massa de amônia necessária para a produção onde o\n    óxido nítrico formado na última etapa não é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde todo\n    óxido nítrico formado na última etapa é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde 40%\n    do óxido nítrico formado na última etapa é reaproveitado\n",
+              "statement": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald.\n\n$$\n\\begin{aligned}\n\\ce{4 NH3(g) + 5 O2(g) &-> 4 NO(g) + 6 H2O(g)} \\\\\n\\ce{2 NO(g) + O2(g) &-> 2 NO2(g)} \\\\\n\\ce{3 NO2(g) + H2O(l) &-> 2 HNO3(aq) + NO(g)}\n\\end{aligned}\n$$\n\nUma indústria deve produzir $\\pu{1e6 kg}$ de ácido nítrico.\n\n-   **Determine** a massa de amônia necessária para a produção onde o\n    óxido nítrico formado na última etapa não é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde todo\n    óxido nítrico formado na última etapa é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde 40%\n    do óxido nítrico formado na última etapa é reaproveitado\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{4,1e5 kg}$\n",
