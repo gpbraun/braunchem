@@ -6540,10 +6540,10 @@
             },
             {
               "id_": "2C04",
-              "statement": "Considere a variação da energia livre molar de uma substância pura com a\ntemperatura em seus estados sólido, líquido e gasoso.\n\n![Energia livre e estado físico.](2C04.svg)\n\n1.  As três retas são decrescentes, pois a expressão é representada por\n    uma reta com inclinação definida pelo termo\n2.  As retas **1**, **2** e **3** representam a substância nos estados\n    sólido, líquido e gasoso, respectivamente.\n3.  A temperatura $T_a$ indica o ponto de fusão da substância nas\n    condições onde o gráfico foi obtido.\n4.  Em temperaturas mais altas do que $T_b$, a fase 1 da substância é a\n    mais estável.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere a variação da energia livre molar de uma substância pura com a\ntemperatura em seus estados sólido, líquido e gasoso.\n\n![Energia livre e estado físico.](2C04.svg)\n\n1.  As três retas são decrescentes, pois a expressão $G = H - TS$ é\n    representada por uma reta com inclinação $-S$.\n2.  As retas **1**, **2** e **3** representam a substância nos estados\n    sólido, líquido e gasoso, respectivamente.\n3.  A temperatura $T_a$ indica o ponto de fusão da substância nas\n    condições onde o gráfico foi obtido.\n4.  Em temperaturas mais altas do que $T_b$, a fase 1 da substância é a\n    mais estável.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
-                "**1**, **2**, **3** e **4**"
+                "**1**, **3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -6552,12 +6552,12 @@
                 "data": []
               },
               "elements": [],
-              "obj": 4,
+              "obj": 3,
               "choices": [
-                "**1**, **2** e **3**",
-                "**1**, **2** e **4**",
+                "**1** e **3**",
+                "**1** e **4**",
+                "**3** e **4**",
                 "**1**, **3** e **4**",
-                "**2**, **3** e **4**",
                 "**1**, **2**, **3** e **4**"
               ]
             },
@@ -7219,7 +7219,7 @@
             },
             {
               "id_": "2C23",
-              "statement": "Considere uma célula eletroquímica onde ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{294 K}$.\n\nAssinale a alternativa que mais se aproxima da variação de entropia para\nessa reação.\n",
+              "statement": "Considere uma célula eletroquímica onde ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{294 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\npara essa reação.\n",
               "solution": "",
               "answer": [
                 "$\\pu{-96,50 J.K-1.mol-1}$\n"
@@ -7242,7 +7242,7 @@
             },
             {
               "id_": "2C24",
-              "statement": "Uma pequena célula eletroquímica blindada, formada por eletrodos de\nalumínio e de níquel, deve operar a temperatura constante de\n$\\pu{298 K}$. Para tanto, recebe uma camisa de refrigeração, isolada do\nmeio externo, contendo $\\pu{100 g}$ de água. A célula apresenta variação\nde potencial na razão de $1,5e-4 V.K-1$.\n\n$\\pu{1 F}$, **Determine** a elevação da temperatura que ocorrerá na água\ndentro da camisa de refrigeração quando a célula transfere ao exterior,\nde maneira reversível, uma carga de $\\pu{1 F}$.\n",
+              "statement": "Uma pequena célula eletroquímica blindada, formada por eletrodos de\nalumínio e de níquel, deve operar a temperatura constante de\n$\\pu{298 K}$. Para tanto, recebe uma camisa de refrigeração, isolada do\nmeio externo, contendo $\\pu{100 g}$ de água. A célula apresenta variação\nde potencial na razão de $\\pu{1,5e-4 V.K-1}$.\n\n**Determine** a elevação da temperatura que ocorrerá na água dentro da\ncamisa de refrigeração quando a célula transfere ao exterior, de maneira\nreversível, uma carga de $\\pu{1 F}$.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{10,3 K}$\n"
@@ -7273,7 +7273,7 @@
           "problems": [
             {
               "id_": "2C22",
-              "statement": "Uma amostra de $\\pu{1 kg}$ de carbonato de cálcio a $\\pu{298 K}$ é\nintroduzido em um forno que opera a $101 kPa$. O forno é então aquecido\naté a temperatura $T$ em que ocorrerá a calcinação do carbonato de\ncálcio. O valor absoluto da variação da energia livre da reação de\ncalcinação à temperatura $T$ é $\\pu{10,7 kJ.mol-1}$. Considere a\nvariação da entalpia e entropia com a temperatura.\n\n-   Determine a temperatura de calcinação $T$.\n-   Determine a quantidade de calor necessária para a calcinação\n    completa do carbonato.\n",
+              "statement": "Uma amostra de $\\pu{1 kg}$ de carbonato de cálcio a $\\pu{298 K}$ é\nintroduzido em um forno que opera a $\\pu{101 kPa}$. O forno é então\naquecido até a temperatura $T$ em que ocorrerá a calcinação do carbonato\nde cálcio. O valor absoluto da variação da energia livre da reação de\ncalcinação à temperatura $T$ é $\\pu{10,7 kJ.mol-1}$. Considere a\nvariação da entalpia e entropia com a temperatura.\n\n-   **Determine** a temperatura de calcinação $T$.\n-   **Determine** a quantidade de calor necessária para a calcinação\n    completa do carbonato.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{1190 K}$\n",
