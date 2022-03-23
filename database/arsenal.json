@@ -5129,18 +5129,18 @@
                     "unit": "kJ.mol-1"
                   },
                   {
-                    "id_": "Hf-FeO(s)",
-                    "name": "Entalpia de formação do \\ce{FeO} (s)",
-                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{FeO, {s}} )",
-                    "value": "-824",
-                    "unit": "kJ.mol-1"
-                  },
-                  {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
                     "value": "-242",
                     "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": 0,
+                    "name": "Hf-FeO(s)",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
                   }
                 ]
               },
@@ -5161,6 +5161,13 @@
               "data": {
                 "data": [
                   {
+                    "id_": 0,
+                    "name": "CP-ZnS(s)",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
                     "id_": "CP-N2(g)",
                     "name": "Capacidade calorífica do \\ce{N2} (g)",
                     "symbol": "C_P(\\ce{N2, {g}} )",
@@ -5179,13 +5186,6 @@
                     "name": "Capacidade calorífica do \\ce{SiO2} (s)",
                     "symbol": "C_P(\\ce{SiO2, {s}} )",
                     "value": "44,4",
-                    "unit": "J.K-1.mol-1"
-                  },
-                  {
-                    "id_": "CP-ZnS(s)",
-                    "name": "Capacidade calorífica do \\ce{ZnS} (s)",
-                    "symbol": "C_P(\\ce{ZnS, {s}} )",
-                    "value": "45,7",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6443,7 +6443,1012 @@
           "title": "Energia Livre e Trabalho não Expansivo"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "2C01",
+              "statement": "Considere as proposições a seguir.\n\n1.  Uma reação química a temperatura e pressão constantes será\n    espontânea se a variação de entropia do sistema for positiva.\n2.  Uma reação química a temperatura e pressão constantes será\n    espontânea se a variação da energia livre de for negativa.\n3.  Em um sistema reacional onde a única forma de trabalho observável é\n    o trabalho de expansão, a variação da entalpia é igual à quantidade\n    de calor liberada ou absorvida pela reação, a pressão constante.\n4.  Para uma substância simples que admite mais de uma forma alotrópica,\n    não há variação de entalpia na conversão de uma forma em outra.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2C03",
+              "statement": "Considere a reação conduzida a pressão e temperatura constantes.\n\n$$\n\\ce{ \\mathbf{A}(l) + \\mathbf{B}(l) -> \\mathbf{C}(g) + \\mathbf{D}(g) }\n$$\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "A reação será sempre espontânea, se for exotérmica.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "A reação será sempre espontânea, se for endotérmica.\n",
+                "A reação será sempre espontânea, se for exotérmica.\n",
+                "A reação será sempre espontânea, independentemente de ser exotérmica ou\nendotérmica.\n",
+                "A reação nunca será espontânea, independentemente de ser exotérmica ou\nendotérmica.\n",
+                "Não há como prever a espontaneidade da reação, mesmo que informações\nadicionais sobre o calor de reação estejam disponíveis.\n"
+              ]
+            },
+            {
+              "id_": "2C02",
+              "statement": "Uma reação química ocorre a pressão e temperatura constantes\napresentando pequena variação de energia livre, de valor próximo de\nzero, variação positiva de entropia e negativa de entalpia.\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "A reação é espontânea, a temperatura é próxima de $\\Delta H/\\Delta S$ e\nhá variação na composição do meio reacional.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "A reação é espontânea, a temperatura é próxima de $\\Delta H/\\Delta G$ e\nela nunca atinge o equilíbrio.\n",
+                "A reação não é espontânea, a temperatura é próxima de\n$\\Delta H/\\Delta S$ e não há variação na composição do meio reacional.\n",
+                "A reação não é espontânea, a temperatura é próxima de\n$\\Delta G/\\Delta H$ e há uma pequena variação na composição do meio\nreacional.\n",
+                "A reação é espontânea, a temperatura é próxima de $\\Delta H/\\Delta S$ e\nhá variação na composição do meio reacional.\n",
+                "A reação é espontânea, a temperatura é próxima de $\\Delta G/\\Delta H$ e\no equilíbrio é atingido.\n"
+              ]
+            },
+            {
+              "id_": "2C07",
+              "statement": "**Assinale** a alternativa correta a respeito de uma substância que\nfunde a $\\pu{1700 K}$ sob $\\pu{1 atm}$ e a $\\pu{1600 K}$ sob\n$\\pu{100 atm}$.\n",
+              "solution": "",
+              "answer": [
+                "A fase líquida é mais densa que a fase sólida.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "A fase líquida é mais densa que a fase sólida.\n",
+                "A fase líquida é menos densa que a fase sólida.\n",
+                "A fase líquida possui a mesma densidade que a fase sólida.\n",
+                "A fase líquida é mais densa que a fase sólida sob pressões abaixo de\n$\\pu{1 atm}$.\n",
+                "A fase líquida é mais densa que a fase sólida sob pressões acima de\n$\\pu{100 atm}$.\n"
+              ]
+            },
+            {
+              "id_": "2C04",
+              "statement": "Considere a variação da energia livre molar de uma substância pura com a\ntemperatura em seus estados sólido, líquido e gasoso.\n\n![Energia livre e estado físico.](2C04.svg)\n\n1.  As três retas são decrescentes, pois a expressão é representada por\n    uma reta com inclinação definida pelo termo\n2.  As retas **1**, **2** e **3** representam a substância nos estados\n    sólido, líquido e gasoso, respectivamente.\n3.  A temperatura $T_a$ indica o ponto de fusão da substância nas\n    condições onde o gráfico foi obtido.\n4.  Em temperaturas mais altas do que $T_b$, a fase 1 da substância é a\n    mais estável.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**1**, **2**, **3** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "**1**, **2** e **3**",
+                "**1**, **2** e **4**",
+                "**1**, **3** e **4**",
+                "**2**, **3** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2C09",
+              "statement": "Assinale a alternativa que mais se aproxima da energia livre de fusão da\nágua a $\\pu{10 \\degree C}$ e $\\pu{1 atm}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-220 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_{\\text{fus}}(\\ce{H2O}) = \\pu{6 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta S_{\\text{fus}}(\\ce{H2O}) = \\pu{22 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-440 kJ.mol-1}$\n",
+                "$\\pu{-220 kJ.mol-1}$\n",
+                "$\\pu{-110 kJ.mol-1}$\n",
+                "$\\pu{110 kJ.mol-1}$\n",
+                "$\\pu{220 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2C10",
+              "statement": "Considere a reação de síntese do óxido nítrico:\n\n$$\n\\ce{NH3(g) + O2(g) -> NO(g) + H2O(g)}\n$$\n\n**Assinale** a alternativa que mais se aproxima da energia livre de\nsíntese de $\\pu{120 g}$ de óxido nítrico a $\\pu{25 \\degree C}$ e\n$\\pu{1 atm}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{960 kJ}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Gf-H2O(g)",
+                    "name": "Entalpia livre de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
+                    "value": "-229",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Gf-NH3(g)",
+                    "name": "Entalpia livre de formação do \\ce{NH3} (g)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{NH3, {g}} )",
+                    "value": "-16,5",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Gf-NO(g)",
+                    "name": "Entalpia livre de formação do \\ce{NO} (g)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{NO, {g}} )",
+                    "value": "86,6",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{320 kJ}$\n",
+                "$\\pu{510 kJ}$\n",
+                "$\\pu{630 kJ}$\n",
+                "$\\pu{780 kJ}$\n",
+                "$\\pu{960 kJ}$\n"
+              ]
+            },
+            {
+              "id_": "2C11",
+              "statement": "**Assinale** a alternativa que mais se aproxima da energia livre de\nformação do $\\ce{HI}$ a $\\pu{25 \\degree C}$ e $\\pu{1 atm}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-220 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-HI(g)",
+                    "name": "Entalpia de formação do \\ce{HI} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{HI, {g}} )",
+                    "value": "-26,5",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-H2(g)",
+                    "name": "Entropia do  \\ce{H2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{H2, {g}} )",
+                    "value": "131",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-HI(g)",
+                    "name": "Entropia do  \\ce{HI} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{HI, {g}} )",
+                    "value": "207",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-I2(s)",
+                    "name": "Entropia do  \\ce{I2} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{I2, {s}} )",
+                    "value": "116",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-440 kJ.mol-1}$\n",
+                "$\\pu{-220 kJ.mol-1}$\n",
+                "$\\pu{-110 kJ.mol-1}$\n",
+                "$\\pu{110 kJ.mol-1}$\n",
+                "$\\pu{220 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2C12",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura onde a\nredução do óxido de ferro com carbono formando ferro metálico e\n$\\ce{CO2}$ é espontânea.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{840 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
+                    "value": "-394",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-Fe2O3(s)",
+                    "name": "Entalpia de formação do \\ce{Fe2O3} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{Fe2O3, {s}} )",
+                    "value": "-824",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-CO2(g)",
+                    "name": "Entropia do  \\ce{CO2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CO2, {g}} )",
+                    "value": "214",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-C(grafite)",
+                    "name": "Entropia do  \\ce{C} (grafite)",
+                    "symbol": "S^{\\circ }_{}(\\ce{C, {grafite}} )",
+                    "value": "5,74",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-Fe2O3(s)",
+                    "name": "Entropia do  \\ce{Fe2O3} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{Fe2O3, {s}} )",
+                    "value": "87,4",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-Fe(s)",
+                    "name": "Entropia do  \\ce{Fe} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{Fe, {s}} )",
+                    "value": "27,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{105 K}$\n",
+                "$\\pu{210 K}$\n",
+                "$\\pu{420 K}$\n",
+                "$\\pu{630 K}$\n",
+                "$\\pu{840 K}$\n"
+              ]
+            },
+            {
+              "id_": "2C13",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura onde a\nformação do óxido de cálcio pela decomposição do carbonato de cálcio é\nespontânea.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1110 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
+                    "value": "-394",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CaCO3(s)",
+                    "name": "Entalpia de formação do \\ce{CaCO3} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaCO3, {s}} )",
+                    "value": "-1210",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CaO(s)",
+                    "name": "Entalpia de formação do \\ce{CaO} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaO, {s}} )",
+                    "value": "-635",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-CO2(g)",
+                    "name": "Entropia do  \\ce{CO2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CO2, {g}} )",
+                    "value": "214",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-CaCO3(s)",
+                    "name": "Entropia do  \\ce{CaCO3} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CaCO3, {s}} )",
+                    "value": "92,9",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-CaO(s)",
+                    "name": "Entropia do  \\ce{CaO} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CaO, {s}} )",
+                    "value": "39,8",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{1110 K}$\n",
+                "$\\pu{2210 K}$\n",
+                "$\\pu{3310 K}$\n",
+                "$\\pu{4410 K}$\n",
+                "$\\pu{5510 K}$\n"
+              ]
+            },
+            {
+              "id_": "2C16",
+              "statement": "O potencial da reação de síntese do ácido nitroso é de $\\pu{0,24 V}$ em\ncondições padrão.\n\n$$\n\\ce{NO + O2(g) + H2O(l) -> HNO2(l)}\n$$\n\n**Assinale** a alternativa que apresenta o valor da energia livre de\nsíntese de um mol de ácido nitroso.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-23,2 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{-11,6 kJ.mol-1}$\n",
+                "$\\pu{-23,2 kJ.mol-1}$\n",
+                "$\\pu{-34,8 kJ.mol-1}$\n",
+                "$\\pu{-46,3 kJ.mol-1}$\n",
+                "$\\pu{-69,5 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2C17",
+              "statement": "Um carro elétrico com motor de $\\pu{310 kW}$ possui $95\\%$ de eficiência\ne utiliza aproximadamente $15\\%$ de sua potência máxima. A eficiência da\ncélula de hidrogênio que produz energia elétrica é de $75\\%$\n\nAssinale a alternativa que mais se aproxima da massa necessária de\nhidrogênio para viajar do Rio de Janeiro a São José dos Campos\n($\\pu{330 km}$) a $\\pu{100 km.h-1}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{7 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Gf-H2O(l)",
+                    "name": "Entalpia livre de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
+                    "value": "-237",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{1 kg}$\n",
+                "$\\pu{3 kg}$\n",
+                "$\\pu{5 kg}$\n",
+                "$\\pu{7 kg}$\n",
+                "$\\pu{9 kg}$\n"
+              ]
+            },
+            {
+              "id_": "2C25",
+              "statement": "Assinale a alternativa que mais se aproxima da quantidade de glicose que\num pássaro de 30 g deve consumir para voar a uma altura de 10 m.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1.9e-4 g}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hc-glicose(s)",
+                    "name": "Entalpia de combustão do \\ce{glicose} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}} )",
+                    "value": "-2810",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-CO2(g)",
+                    "name": "Entropia do  \\ce{CO2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CO2, {g}} )",
+                    "value": "214",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-H2O(l)",
+                    "name": "Entropia do  \\ce{H2O} (l)",
+                    "symbol": "S^{\\circ }_{}(\\ce{H2O, {l}} )",
+                    "value": "69,9",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-glicose(s)",
+                    "name": "Entropia do  \\ce{glicose} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{glicose, {s}} )",
+                    "value": "212",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1.9e-5 g}$\n",
+                "$\\pu{1.9e-4 g}$\n",
+                "$\\pu{1.9e-3 g}$\n",
+                "$\\pu{1.9e-2 g}$\n",
+                "$\\pu{1.9e-1 g}$\n"
+              ]
+            },
+            {
+              "id_": "2C15",
+              "statement": "A reação entre sulfato de chumbo e ácido clorídrico tem potencial\n$\\pu{0,02 V}$ e absorve $\\pu{19,9 kJ}$ de energia por mol de sulfato de\nchumbo a $\\pu{298 K}$.\n\n$$\n\\ce{PbSO4(s) + HOCl(aq) -> Cl2(g) + PbOs(s) + H2SO4(s)}\n$$\n\n**Assinale** a alternativa que apresenta o valor da entropia de reação\nde um mol de sulfato de chumbo.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{80 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{20 J.K-1.mol-1}$\n",
+                "$\\pu{40 J.K-1.mol-1}$\n",
+                "$\\pu{60 J.K-1.mol-1}$\n",
+                "$\\pu{80 J.K-1.mol-1}$\n",
+                "$\\pu{100 J.K-1.mol-1}$\n"
+              ]
+            }
+          ],
+          "id_": "2C1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2C06",
+              "statement": "O ponto triplo da água ocorre a $\\pu{0,01 \\degree C}$ e $\\pu{610 Pa}$ e\no ponto crítico a $\\pu{647 K}$ e $\\pu{218 atm}$.\n\n-   **Esboce** o diagrama de fases da água pura indicando o ponto\n    triplo, ponto crítico e os pontos de fusão e ebulição a\n    $\\pu{1 atm}$.\n-   **Esboce** o diagrama de fases de uma substância que sublime à\n    pressão ambiente, cuja temperatura crítica seja $\\pu{216,6 K}$, e\n    cuja fase sólida é mais densa do que a fase líquida.\n",
+              "solution": "\n",
+              "answer": [
+                "Esboço\n",
+                "Esboço\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2C27",
+              "statement": "Considere as proposições a seguir.\n\n1.  A energia livre de fusão da água é negativa em condições padrão.\n2.  A transição de fase do enxofre ortorrômbico para monoclínico é\n    espontânea para temperaturas acima de $\\pu{95 \\degree C}$, assim, a\n    entalpia e a entropia do enxofre monoclínico são maiores que as do\n    enxofre ortorrômbico\n3.  A mistura de duas amostras de gás sempre apresenta variação de\n    energia livre negativa.\n4.  A variação de energia livre para a complexação em fase aquosa do\n    cátion níquel (II) com amônia formando o composto\n    $\\ce{[Ni(NH3)6]^{2+}}$ é maior que a variação de energia livre para\n    a complexação com $\\ce{NH2CH2CH2NH2}$ ($\\ce{en}$) formando\n    $\\ce{[Ni(en)3]^{2+}}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2C28",
+              "statement": "Um elástico é tensionado rápidamente e posto em contato com um\ntermômetro, que indica um aumento de temperatura. Quando o mesmo\nelástico permanece por um tempo esticado e é rapidamente relaxado, o\ntermometro indica uma diminuição na temperatura.\n\n-   **Compare** a entalpia do elástico tensionado e relaxado.\n-   **Compare** a entropia do elástico tensionado e relaxado.\n",
+              "solution": "\n",
+              "answer": [
+                "A entalpia do elástico tensionado é maior.\n",
+                "A entropia do elástico tensionado é menor.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2C14",
+              "statement": "O oxigênio e o hidrogênio combinam-se, em células de combustível,\nproduzindo água líquida e gerando corrente elétrica. O trabalho elétrico\nmáximo que essas células podem produzir é $\\pu{237 kJ}$ por mol de\nhidrogênio.\n\n**Determine** o ponto de ebulição da água.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{95,6 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-H2O(g)",
+                    "name": "Entalpia de formação do \\ce{H2O} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
+                    "value": "-242",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-H2O(g)",
+                    "name": "Entropia do  \\ce{H2O} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{H2O, {g}} )",
+                    "value": "189",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-H2O(l)",
+                    "name": "Entropia do  \\ce{H2O} (l)",
+                    "symbol": "S^{\\circ }_{}(\\ce{H2O, {l}} )",
+                    "value": "69,9",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-H2(g)",
+                    "name": "Entropia do  \\ce{H2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{H2, {g}} )",
+                    "value": "131",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-O2(g)",
+                    "name": "Entropia do  \\ce{O2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{O2, {g}} )",
+                    "value": "205",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2C26",
+              "statement": "Em uma célula de um organismo, a energia necessária para a síntese da\nureia a partir de amônia e dióxido de carbono é obtida por oxidação da\nglicose.\n\nAssinale a alternativa que mais se aproxima da quantidade de ureia\nformada pela oxidação de $\\pu{60 nmol.L-1.min-1}$ de glicose.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{630 nmol.L-1.min-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Gf-CO2(g)",
+                    "name": "Entalpia livre de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
+                    "value": "-394",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Gf-H2O(l)",
+                    "name": "Entalpia livre de formação do \\ce{H2O} (l)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
+                    "value": "-237",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Gf-NH3(g)",
+                    "name": "Entalpia livre de formação do \\ce{NH3} (g)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{NH3, {g}} )",
+                    "value": "-16,5",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Gf-glicose(s)",
+                    "name": "Entalpia livre de formação do \\ce{glicose} (s)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{glicose, {s}} )",
+                    "value": "-910",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Gf-ureia(s)",
+                    "name": "Entalpia livre de formação do \\ce{ureia} (s)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}} )",
+                    "value": "-197",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{35 nmol.L-1.min-1}$\n",
+                "$\\pu{105 nmol.L-1.min-1}$\n",
+                "$\\pu{315 nmol.L-1.min-1}$\n",
+                "$\\pu{630 nmol.L-1.min-1}$\n",
+                "$\\pu{945 nmol.L-1.min-1}$\n"
+              ]
+            },
+            {
+              "id_": "2C18",
+              "statement": "**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "Diamante pode se transformar, de forma espontânea, em grafite.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{C, {diamante}}) = \\pu{4,0 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{C, {grafite}}) = \\pu{2,5 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Hf-C(diamante)",
+                    "name": "Entalpia de formação do \\ce{C} (diamante)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{C, {diamante}} )",
+                    "value": "1,90",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "Grafite e diamante são exemplos de carbono puro, mas não são formas\nalotrópicas de um mesmo elemento.\n",
+                "Sob altas pressões, o diamante é menos estável que o grafite.\n",
+                "Diamante pode se transformar, de forma espontânea, em grafite.\n",
+                "A conversão do grafite em diamante é exotérmica.\n",
+                "Altas pressões favorecem a formação de grafite.\n"
+              ]
+            },
+            {
+              "id_": "2C19",
+              "statement": "**Assinale** a alternativa que mais se aproxima do trabalho realizado\npara a conversão de $\\pu{1 mol}$ de estanho cinza em estanho branco a\n$\\pu{298 K}$ e $\\pu{10 bar}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-4,4 J}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{Sn, {branco}}) = \\pu{7,31 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{Sn, {cinza}}) = \\pu{5,75 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{-4,4 J}$\n",
+                "$\\pu{0}$\n",
+                "$\\pu{4,4 J}$\n",
+                "$\\pu{2,2 J}$\n",
+                "$\\pu{-3,3 J}$\n"
+              ]
+            },
+            {
+              "id_": "2C23",
+              "statement": "Considere uma célula eletroquímica onde ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{294 K}$.\n\nAssinale a alternativa que mais se aproxima da variação de entropia para\nessa reação.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-96,50 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{-2,60 J.K-1.mol-1}$\n",
+                "$\\pu{-48,20 J.K-1.mol-1}$\n",
+                "$\\pu{-12,90 J.K-1.mol-1}$\n",
+                "$\\pu{-96,50 J.K-1.mol-1}$\n",
+                "$\\pu{-87,90 J.K-1.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2C24",
+              "statement": "Uma pequena célula eletroquímica blindada, formada por eletrodos de\nalumínio e de níquel, deve operar a temperatura constante de\n$\\pu{298 K}$. Para tanto, recebe uma camisa de refrigeração, isolada do\nmeio externo, contendo $\\pu{100 g}$ de água. A célula apresenta variação\nde potencial na razão de $1,5e-4 V.K-1$.\n\n$\\pu{1 F}$, **Determine** a elevação da temperatura que ocorrerá na água\ndentro da camisa de refrigeração quando a célula transfere ao exterior,\nde maneira reversível, uma carga de $\\pu{1 F}$.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{10,3 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "2C2",
+          "title": "Nível II"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2C22",
+              "statement": "Uma amostra de $\\pu{1 kg}$ de carbonato de cálcio a $\\pu{298 K}$ é\nintroduzido em um forno que opera a $101 kPa$. O forno é então aquecido\naté a temperatura $T$ em que ocorrerá a calcinação do carbonato de\ncálcio. O valor absoluto da variação da energia livre da reação de\ncalcinação à temperatura $T$ é $\\pu{10,7 kJ.mol-1}$. Considere a\nvariação da entalpia e entropia com a temperatura.\n\n-   Determine a temperatura de calcinação $T$.\n-   Determine a quantidade de calor necessária para a calcinação\n    completa do carbonato.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{1190 K}$\n",
+                "$\\pu{2750 kJ}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "CP-CO2(g)",
+                    "name": "Capacidade calorífica do \\ce{CO2} (g)",
+                    "symbol": "C_P(\\ce{CO2, {g}} )",
+                    "value": "37,1",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-CaCO3(s)",
+                    "name": "Capacidade calorífica do \\ce{CaCO3} (s)",
+                    "symbol": "C_P(\\ce{CaCO3, {s}} )",
+                    "value": "81,9",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-CaO(s)",
+                    "name": "Capacidade calorífica do \\ce{CaO} (s)",
+                    "symbol": "C_P(\\ce{CaO, {s}} )",
+                    "value": "42,8",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO2(g)",
+                    "name": "Entalpia de formação do \\ce{CO2} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
+                    "value": "-394",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CaCO3(s)",
+                    "name": "Entalpia de formação do \\ce{CaCO3} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaCO3, {s}} )",
+                    "value": "-1210",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CaO(s)",
+                    "name": "Entalpia de formação do \\ce{CaO} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaO, {s}} )",
+                    "value": "-635",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-CO2(g)",
+                    "name": "Entropia do  \\ce{CO2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CO2, {g}} )",
+                    "value": "214",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-CaCO3(s)",
+                    "name": "Entropia do  \\ce{CaCO3} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CaCO3, {s}} )",
+                    "value": "92,9",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-CaO(s)",
+                    "name": "Entropia do  \\ce{CaO} (s)",
+                    "symbol": "S^{\\circ }_{}(\\ce{CaO, {s}} )",
+                    "value": "39,8",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2C21",
+              "statement": "**Assinale** a alternativa que mais se aproxima da pressão necessária\npara a conversão de grafite em diamante a $\\pu{300 K}$. A variação da\nenergia interna com a pressão é desprezível.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,3e4 bar}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{C, {diamante}}) = \\pu{4,0 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{C, {grafite}}) = \\pu{2,5 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Gf-C(diamante)",
+                    "name": "Entalpia livre de formação do \\ce{C} (diamante)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{C, {diamante}} )",
+                    "value": "2,90",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1,3e3 bar}$\n",
+                "$\\pu{1,3e4 bar}$\n",
+                "$\\pu{1,3e5 bar}$\n",
+                "$\\pu{1,3e6 bar}$\n",
+                "$\\pu{1,3e7 bar}$\n"
+              ]
+            },
+            {
+              "id_": "2C20",
+              "statement": "**Determine** a temperatura onde o fundo de uma coluna $\\pu{100 m}$ de\nmercúrio líquido começa a congelar. A variação da energia interna com a\npressão é desprezível.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{235 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$T_\\text{fus}(\\ce{Hg}) = \\pu{234,3 K}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{fus}(\\ce{Hg}) = \\pu{2,29 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{Hg, {l}}) = \\pu{13,6 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\rho(\\ce{Hg, {s}}) = \\pu{14,2 g.cm-3}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "2C3",
+          "title": "Nível III"
+        }
+      ]
     },
     {
       "id_": "2D",
@@ -8263,7 +9268,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Composição das Soluções\n\n1. Concentração mássica e molar.\n2. Partes por milhão ($\\pu{ppm}$) e bilhão ($\\pu{ppb}$).\n3. Molalidade.\n4. Concentração de peróxido de hidrogênio em volumes:\n    $$\n    F = \\dfrac{V_\\text{CNTP}(\\ce{O2})}{V} = \\pu{11,2} \\cdot \\dfrac{[\\ce{H2O2}]}{\\pu{mol.L-1}}\n    $$\n\n### Habilidades\n\n- **Relacionar** as unidade de concentração de soluções. \n- **Calcular** a concentração em volumes para uma solução de peróxido de hidrogênio.\n\n# Operações com Soluções\n\n1. Diluição e secagem.\n2. Misturas.\n3. Balançoes materiais.\n4. Balanço energético.\n\n### Habilidades\n\n- **Calcular** a concentração final após uma operação em solução.\n\n# Reações em Solução\n\n1. Estequiometria em solução.\n2. Rendimento.\n\n### Habilidades\n\n- **Calcular** a quantidade de produto formado em uma reação em solução.\n\n# Soluções Iônicas\n\n1. Balanço de cargas.\n2. Mobilidade iônica.\n3. Influência do solvente na mobilidade iônica.\n4. Condutividade molar.\n5. Lei de migração independente:\n    $$\n    \\Lambda^\\circ_\\text{m} = \\lambda_{+} + \\lambda_{-}\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir da condutividade.\n- **Comparar** a condutividade de diferentes íons em solução.\n\n# Absortividade das Soluções\n\n1. Espectrofotometria.\n2. Absortividade molar.\n3. Lei de Beer-Lambert:\n    $$\n    A = \\log_{10}\\dfrac{I_0}{I} = \\epsilon L c\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de sua absortividade.",
+      "contents": "# Composição das Soluções\n\n1. Concentração mássica e molar.\n2. Partes por milhão ($\\pu{ppm}$) e bilhão ($\\pu{ppb}$).\n3. Molalidade.\n4. Concentração de peróxido de hidrogênio em volumes:\n    $$\n    F = \\dfrac{V_\\text{CNTP}(\\ce{O2})}{V} = \\pu{11,2} \\cdot \\dfrac{[\\ce{H2O2}]}{\\pu{mol.L-1}}\n    $$\n\n### Habilidades\n\n- **Relacionar** as unidade de concentração de soluções. \n- **Calcular** a concentração em volumes para uma solução de peróxido de hidrogênio.\n\n# Operações com Soluções\n\n1. Diluição e secagem.\n2. Misturas.\n3. Balançoes materiais.\n4. Balanço energético.\n\n### Habilidades\n\n- **Calcular** a concentração final após uma operação em solução.\n\n# Reações em Solução\n\n1. Estequiometria em solução.\n2. Rendimento.\n\n### Habilidades\n\n- **Calcular** a quantidade de produto formado em uma reação em solução.\n\n# Soluções Iônicas\n\n1. Balanço de cargas.\n2. Condutividade específica:\n    $$\n    \\kappa =\\dfrac{1}{\\rho} = \\dfrac{l}{RA}\n    $$\n3. Condutividade molar:\n    $$\n    \\Lambda^\\circ_\\text{m} = \\dfrac{\\kappa}{c}\n    $$\n4. Lei de migração independente:\n    $$\n    \\Lambda^\\circ_\\text{m} = \\lambda^\\circ_{+} + \\lambda^\\circ_{-}\n    $$\n5. Mobilidade iônica.\n\n\n### Habilidades\n\n- **Calcular** a concentração de íons em solução a partir da condutividade.\n- **Comparar** a condutividade de diferentes íons em solução.\n\n# Absortividade das Soluções\n\n1. Espectrofotometria.\n2. Absortividade molar.\n3. Lei de Beer-Lambert:\n    $$\n    A = \\log_{10}\\dfrac{I_0}{I} = \\epsilon L c\n    $$\n\n### Habilidades\n\n- **Determinar** a concentração de íons em solução a partir de sua absortividade.",
       "subtopics": [
         {
           "id_": "3C.1",
