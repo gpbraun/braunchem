@@ -2185,7 +2185,7 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\psi_a$ representa o subnível $5s$ e $\\psi_b$ o subnível $4d$.\n",
+                "$\\psi_a$ representa o subnível $4d$ e $\\psi_b$ o subnível $5s$.\n",
                 "O gráfico mostra que o aumento de carga nuclear diminui a energia dos\norbitais atômicos, reduzindo mais a energia do orbital $5s$, por ser\nmais penetrante que o $4d$.\n",
                 "A configuração eletrônica para o zircônio é $[\\ce{Kr}] 5s^2 4d^2$.\n",
                 "A configuração eletrônica para o ródio é $[\\ce{Kr}] 5s^1 4d^8$.\n",
@@ -9368,7 +9368,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima do volume de uma solução\n$\\pu{0,027 mol.L-1}$ de hidróxido de sódio necessário para preparar\n$\\pu{250 mL}$ uma solução $\\pu{1,25 mmol.L-1}$ dessa substância.\n",
               "solution": "",
               "answer": [
-                "$\\pu{13,4 mL}$\n"
+                "$\\pu{11,6 mL}$\n"
               ],
               "constants": {
                 "data": []
@@ -9377,7 +9377,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 1,
               "choices": [
                 "$\\pu{10,7 mL}$\n",
                 "$\\pu{11,6 mL}$\n",
@@ -9808,7 +9808,7 @@
             },
             {
               "id_": "3C24",
-              "statement": "Um dos efluentes do processo de hidrotratamento de gás combustível é\nágua contendo $3\\%$ de $\\ce{H2S}$ e $1\\%$ $\\ce{NH3}$ em base molar,\ndenominada água ácida. Para possibilitar a remoção de $\\ce{H2S}$ e\n$\\ce{NH3}$, duas colunas de destilação são empregadas.\n\nSão recuperados no topo da primeira coluna $95\\%$ do $\\ce{H2S}$ e\n$0,5\\%$ do $\\ce{NH3}$ que entram. Na segunda coluna, $99,5\\%$ do\n$\\ce{H2S}$ e do $\\ce{NH3}$ são recuperados no topo. Não há recuperação\nde água no topo das colunas.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\n$\\ce{H2S}$ que sai junto à água na corrente de fundo da segunda coluna\nde destilação.\n",
+              "statement": "Um dos efluentes do processo de hidrotratamento de gás combustível é\nágua contendo $\\pu{3}\\%$ de $\\ce{H2S}$ e $\\pu{1}\\%$ $\\ce{NH3}$ em base\nmolar, denominada água ácida. Para possibilitar a remoção de $\\ce{H2S}$\ne $\\ce{NH3}$, duas colunas de destilação são empregadas.\n\nSão recuperados no topo da primeira coluna $\\pu{95}\\%$ do $\\ce{H2S}$ e\n$\\pu{0,5}\\%$ do $\\ce{NH3}$ que entram. Na segunda coluna, $\\pu{99,5}\\%$\ndo $\\ce{H2S}$ e do $\\ce{NH3}$ são recuperados no topo. Não há\nrecuperação de água no topo das colunas.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\n$\\ce{H2S}$ que sai junto à água na corrente de fundo da segunda coluna\nde destilação.\n",
               "solution": "",
               "answer": [
                 "$\\pu{7,8e-6}$\n"
@@ -9937,10 +9937,10 @@
             },
             {
               "id_": "3C29",
-              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n  Fração de NaOH   Entalpia   Cp\n  ---------------- ---------- ----------------\n  20%              76 J/g     3,54 J.g-1.K-1\n  30%              104 J/g    3,63 J.g-1.K-1\n\n**Determine** a temperatura final da solução após a diluição.\n",
+              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n    Fração de NaOH           Entalpia   Capacidade calorífica\n  ---------------- ------------------ -----------------------\n            $20\\%$    $\\pu{76 J.g-1}$   $\\pu{3,54 J.g-1.K-1}$\n            $30\\%$   $\\pu{104 J.g-1}$   $\\pu{3,63 J.g-1.K-1}$\n\n**Determine** a temperatura final da solução após a diluição.\n",
               "solution": "\n",
               "answer": [
-                "32,8 °C\n"
+                "$\\pu{32,8 \\degree C}$\n"
               ],
               "constants": {
                 "data": []
@@ -9962,7 +9962,7 @@
             },
             {
               "id_": "3C30",
-              "statement": "Considere as proposições.\n\n1.  A condutividade elétrica de uma solução $\\pu{0,1 mol/L}$ de ácido\n    acético é menor que a do ácido acético puro.\n2.  A condutividade elétrica de uma solução de cloreto de amônio é igual\n    a de uma solução de hidróxido de amônio de mesma concentração.\n3.  A condutividade elétrica de uma solução de cloreto de sódio é maior\n    que a de uma solução de cloreto de prata de mesma concentração.\n4.  A condutividade elétrica de uma solução saturada em iodeto de chumbo\n    é menor que a do sal fundido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+              "statement": "Considere as proposições.\n\n1.  A condutividade elétrica de uma solução $\\pu{0,1 mol/L}$ de ácido\n    acético é menor que a do ácido acético puro.\n2.  A condutividade elétrica de uma solução de cloreto de amônio é igual\n    a de uma solução de hidróxido de amônio de mesma concentração.\n3.  A condutividade elétrica de uma solução de cloreto de sódio é maior\n    que a de uma solução de cloreto de prata de mesma concentração.\n4.  A condutividade elétrica de uma solução saturada em iodeto de chumbo\n    é maior que a do sal fundido.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
               "solution": "",
               "answer": [
                 "**1**, **2** e **4**"
@@ -10135,7 +10135,7 @@
               "statement": "Uma solução $\\pu{0,1 mmol.L-1}$ de um composto desconhecido é colocada\nem uma célula de absorção de $\\pu{1 cm}$ de caminho óptico, transmitindo\n$10\\%$ da luz incidente de comprimento de onda $\\pu{320 nm}$.\n\n**Assinale** a alternativa que mais se aproxima do coeficiente de\nabsorção molar desse composto a $\\pu{320 nm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{1e4 L mol-1 cm-1}$\n"
+                "$\\pu{1e4 L.mol-1.cm-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -10146,11 +10146,11 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "$\\pu{1e2 L mol-1 cm-1}$\n",
-                "$\\pu{1e3 L mol-1 cm-1}$\n",
-                "$\\pu{1e4 L mol-1 cm-1}$\n",
-                "$\\pu{1e5 L mol-1 cm-1}$\n",
-                "$\\pu{1e6 L mol-1 cm-1}$\n"
+                "$\\pu{1e2 L.mol-1.cm-1}$\n",
+                "$\\pu{1e3 L.mol-1.cm-1}$\n",
+                "$\\pu{1e4 L.mol-1.cm-1}$\n",
+                "$\\pu{1e5 L.mol-1.cm-1}$\n",
+                "$\\pu{1e6 L.mol-1.cm-1}$\n"
               ]
             },
             {
