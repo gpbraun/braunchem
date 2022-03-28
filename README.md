@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="https://user-images.githubusercontent.com/55512264/157885822-4e446ca0-1301-429e-9b57-f5a5aa8c5505.png">
+  <img width="200" src="quimica-pensi.svg">
 </p>
 
 # Banco de Questões

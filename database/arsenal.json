@@ -675,7 +675,7 @@
             },
             {
               "id_": "1A27",
-              "statement": "Quando átomos colidem, parte de sua energia cinética pode ser convertida\nem energia eletrônica. O processo é mais eficiente quando a energia\ncinética é próxima da energia necessária para a excitação.\n\n**Determine** a temperatura onde a excitação de átomos de hidrogênio ao\nprimeiro estado excitado é mais eficiente\n",
+              "statement": "Quando átomos colidem, parte de sua energia cinética pode ser convertida\nem energia eletrônica. O processo é mais eficiente quando a energia\ncinética é próxima da energia necessária para a excitação.\n\n**Determine** a temperatura em que a excitação de átomos de hidrogênio\nao primeiro estado excitado é mais eficiente\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{79 kK}$\n"
@@ -1083,7 +1083,7 @@
             },
             {
               "id_": "1A43",
-              "statement": "Considere uma cadeia linear conjugada de carbono, modelada como uma\ncaixa unidimensional onde os elétrons $\\pi$ estão distribuídos. O\ncomprimento da ligação entre os átomos de carbono é $a = \\pu{140 pm}$.\nDois elétrons podem ocupar um mesmo nível de energia.\n\n-   **Determine** os possíveis comprimentos de onda para os elétrons\n    nesse sistema.\n-   **Determine** os possíveis valores de energia para os elétrons nesse\n    sistema.\n-   **Determine** o maior comprimento de onda que esse sistema pode\n    emitir, em função do número de carbonos.\n-   **Determine** o número de átomos de carbono que esse sistema deve\n    possuir para emitir radiação no visível ($\\pu{400 nm}$ a\n    $\\pu{750 nm}$).\n",
+              "statement": "Considere uma cadeia linear conjugada de carbono, modelada como uma\ncaixa unidimensional na qual os elétrons $\\pi$ estão distribuídos. O\ncomprimento da ligação entre os átomos de carbono é $a = \\pu{140 pm}$.\nDois elétrons podem ocupar um mesmo nível de energia.\n\n-   **Determine** os possíveis comprimentos de onda para os elétrons\n    nesse sistema.\n-   **Determine** os possíveis valores de energia para os elétrons nesse\n    sistema.\n-   **Determine** o maior comprimento de onda que esse sistema pode\n    emitir, em função do número de carbonos.\n-   **Determine** o número de átomos de carbono que esse sistema deve\n    possuir para emitir radiação no visível ($\\pu{400 nm}$ a\n    $\\pu{750 nm}$).\n",
               "solution": "\n",
               "answer": [
                 "$\\lambda = \\dfrac{2a(N-1)}{n},\\quad n = 1,2,3,\\ldots$\n",
@@ -1122,7 +1122,7 @@
             },
             {
               "id_": "1A48",
-              "statement": "Os elétrons $\\pi$ em hidrocarbonetos cíclicos conjugados podem ser\nmodelados como partículas em um anel que circunscreve os átomos de\ncarbono.\n\n-   **Prove** que os níveis de energia para esse sistema são dados por\n    $$\n        E(n) = \\dfrac{n^2\\hbar^2}{2m_eR^2}\n        $$ onde $n = 0, \\pm 1, \\pm 2, \\pm 3, \\ldots$\n\n-   **Prove** que esse sistema é mais estável quando o número de\n    elétrons é $$\n        N = 4k + 2\n        $$ onde $k = 0, 1, 2, 3\\ldots$. Esse resultado é conhecido como\n    *Regra de Hückel*.\n",
+              "statement": "Os elétrons $\\pi$ em hidrocarbonetos cíclicos conjugados podem ser\nmodelados como partículas em um anel que circunscreve os átomos de\ncarbono. Os níveis de energia para esse sistema são dados por:\n\n$$\nE(n) = \\dfrac{n^2\\hbar^2}{2m_eR^2}\n$$\n\nSendo $n = 0, \\pm 1, \\pm 2, \\pm 3, \\ldots$\n\n-   **Mostre** que os níveis de energia para esse sistema estão de\n    acordo com o comportamento ondulatório do elétron.\n-   **Prove** que esse sistema é mais estável quando o número de\n    elétrons é $N = 4k + 2$ sendo $k = 0, 1, 2, 3\\ldots$. Esse resultado\n    é conhecido como *Regra de Hückel*.\n",
               "solution": "\n",
               "answer": [
                 "Demostração.\n"
@@ -1688,7 +1688,7 @@
             },
             {
               "id_": "1B26",
-              "statement": "Considere composto iônico binário, onde o cátion, de carga $+2$ possui\n$12$ prótons e o ânion, de carga $-3$ possui $10$ elétrons.\n\n**Assinale** a alternativa que mais se aproxima da massa molar desse\ncomposto.\n",
+              "statement": "Considere composto iônico binário, em que o cátion, de carga $+2$ possui\n$12$ prótons e o ânion, de carga $-3$ possui $10$ elétrons.\n\n**Assinale** a alternativa que mais se aproxima da massa molar desse\ncomposto.\n",
               "solution": "",
               "answer": [
                 "$\\pu{100 g}$\n"
@@ -2153,7 +2153,7 @@
             },
             {
               "id_": "1B42",
-              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são\n\n$$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nOnde $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = 0, \\pm 1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
+              "statement": "Os níveis de energia de um átomo de hidrogênio sujeito à ação de um\ncampo magnético uniforme $B$ são\n\n$$\nE(n, l, m)= E(n) + m_l\\mu B\n$$\n\nSendo $\\mu$, o momento magnético do elétron, é uma constante. Transições\neletrônicas nesse sistema devem obedecer à regra de seleção\n$\\Delta m_l = 0, \\pm 1$.\n\n-   **Apresente** as transições eletrônicas permitidas do nível $n=3$\n    para o nível $n=2$.\n-   **Determine** o número de comprimentos de onda diferentes que podem\n    ser emitidos do nível $n=3$ para o nível $n=2$.\n",
               "solution": "\n",
               "answer": [
                 "Diagrama.\n",
@@ -2200,7 +2200,7 @@
           "problems": [
             {
               "id_": "1B43",
-              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo.\n\n$$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nOnde $n$ é o número de elétrons desemparelhados e $\\mu_ B$, o magneton\nde Bohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do nióbio, que possui\n    $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
+              "statement": "O momento magnético, $\\mu$, é uma medida da força com que uma substância\nparamagnética é atraída por um campo magnético externo.\n\n$$\n\\mu = \\mu_ B \\sqrt{n(n+2)}\n$$\n\nSendo $n$ o número de elétrons desemparelhados e $\\mu_ B$, o magneton de\nBohr, é uma constante.\n\n-   **Determine** a configuração eletrônica do nióbio, que possui\n    $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do quinto período que\n    possui $\\mu = \\pu{5,92} \\mu_B$ no estado fundamental.\n-   **Determine** o número atômico do elemento do sexto período que\n    possui $\\mu = \\pu{8,94} \\mu_B$ no estado fundamental.\n",
               "solution": "\n",
               "answer": [
                 "$[\\ce{Kr}] 5s^1 6d^4$\n",
@@ -2238,7 +2238,7 @@
             },
             {
               "id_": "1B49",
-              "statement": "Considere um universo paralelo onde o número quântico azimutal é sempre\nigual ao número quântico principal. Nesse universo, o número quântico\nmagnético pode assumir os valores $-1$, $0$ e $+1$, independentemente\ndos valores dos outros números quânticos.\n\n**Determine** o número de orbitais nos primeiros três níveis dos átomos\ndesse universo.\n",
+              "statement": "Considere um universo paralelo em que o número quântico azimutal é\nsempre igual ao número quântico principal. Nesse universo, o número\nquântico magnético pode assumir os valores $-1$, $0$ e $+1$,\nindependentemente dos valores dos outros números quânticos.\n\n**Determine** o número de orbitais nos primeiros três níveis dos átomos\ndesse universo.\n",
               "solution": "\n",
               "answer": [
                 "9 orbitais\n"
@@ -2255,7 +2255,7 @@
             },
             {
               "id_": "1B47",
-              "statement": "Considere um universo paralelo quadridimensional, onde os átomos possuem\num orbital $s$ e quatro orbitais $p$ em cada nível.\n\n-   **Determine** o número de elementos nos primeiros três períodos da\n    tabela periódica desse universo.\n-   **Determine** o número atômico dos primeiros dois gases nobres desse\n    universo.\n",
+              "statement": "Considere um universo paralelo quadridimensional, em que os átomos\npossuem um orbital $s$ e quatro orbitais $p$ em cada nível.\n\n-   **Determine** o número de elementos nos primeiros três períodos da\n    tabela periódica desse universo.\n-   **Determine** o número atômico dos primeiros dois gases nobres desse\n    universo.\n",
               "solution": "\n",
               "answer": [
                 "2, 10, 10\n",
@@ -2292,7 +2292,7 @@
             },
             {
               "id_": "1B46",
-              "statement": "Considere um universo onde o *spin* eletrônico é dado por:\n\n$$\ns = \\dfrac{l+1}{2}\n$$\n\nOnde $l$ é o número quântico azimutal. O número quântico magnético de\nspin pode assumir os valores: $-s, -s + 1, \\ldots , s - 1, s$\n\n-   **Determine** o número máximo de elétrons que podem existir\n    simultaneamente em cada um dos orbitais $s$, $p$, $d$ e $f$.\n-   **Determine** quantidade de máxima de elétrons com número quântico\n    azimutal $l$ para um dado número quântico principal em um átomo.\n",
+              "statement": "Considere um universo em que o *spin* eletrônico é dado por:\n\n$$\ns = \\dfrac{l+1}{2}\n$$\n\nSendo $l$ é o número quântico azimutal. O número quântico magnético de\nspin pode assumir os valores: $-s, -s + 1, \\ldots , s - 1, s$\n\n-   **Determine** o número máximo de elétrons que podem existir\n    simultaneamente em cada um dos orbitais $s$, $p$, $d$ e $f$.\n-   **Determine** quantidade de máxima de elétrons com número quântico\n    azimutal $l$ para um dado número quântico principal em um átomo.\n",
               "solution": "\n",
               "answer": [
                 "$N_s = 2, N_p = 3, N_d = 4, N_f = 5$\n",
@@ -6448,7 +6448,7 @@
           "problems": [
             {
               "id_": "2C01",
-              "statement": "Considere as proposições a seguir.\n\n1.  Uma reação química a temperatura e pressão constantes será\n    espontânea se a variação de entropia do sistema for positiva.\n2.  Uma reação química a temperatura e pressão constantes será\n    espontânea se a variação da energia livre de for negativa.\n3.  Em um sistema reacional onde a única forma de trabalho observável é\n    o trabalho de expansão, a variação da entalpia é igual à quantidade\n    de calor liberada ou absorvida pela reação, a pressão constante.\n4.  Para uma substância simples que admite mais de uma forma alotrópica,\n    não há variação de entalpia na conversão de uma forma em outra.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere as proposições a seguir.\n\n1.  Uma reação química a temperatura e pressão constantes será\n    espontânea se a variação de entropia do sistema for positiva.\n2.  Uma reação química a temperatura e pressão constantes será\n    espontânea se a variação da energia livre de for negativa.\n3.  Em um sistema reacional em que a única forma de trabalho observável\n    é o trabalho de expansão, a variação da entalpia é igual à\n    quantidade de calor liberada ou absorvida pela reação, a pressão\n    constante.\n4.  Para uma substância simples que admite mais de uma forma alotrópica,\n    não há variação de entalpia na conversão de uma forma em outra.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**2** e **3**"
@@ -6540,7 +6540,7 @@
             },
             {
               "id_": "2C04",
-              "statement": "Considere a variação da energia livre molar de uma substância pura com a\ntemperatura em seus estados sólido, líquido e gasoso.\n\n![Energia livre e estado físico.](2C04.svg)\n\n1.  As três retas são decrescentes, pois a expressão $G = H - TS$ é\n    representada por uma reta com inclinação $-S$.\n2.  As retas **1**, **2** e **3** representam a substância nos estados\n    sólido, líquido e gasoso, respectivamente.\n3.  A temperatura $T_a$ indica o ponto de fusão da substância nas\n    condições onde o gráfico foi obtido.\n4.  Em temperaturas mais altas do que $T_b$, a fase 1 da substância é a\n    mais estável.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere a variação da energia livre molar de uma substância pura com a\ntemperatura em seus estados sólido, líquido e gasoso.\n\n![Energia livre e estado físico.](2C04.svg)\n\n1.  As três retas são decrescentes, pois a expressão $G = H - TS$ é\n    representada por uma reta com inclinação $-S$.\n2.  As retas **1**, **2** e **3** representam as fases sólida, líquida e\n    gasosa, respectivamente.\n3.  A temperatura $T_a$ indica o ponto de fusão da substância.\n4.  Em temperaturas mais altas do que $T_b$, a fase **1** é a mais\n    estável.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**1**, **3** e **4**"
@@ -6566,7 +6566,7 @@
               "statement": "Assinale a alternativa que mais se aproxima da energia livre de fusão da\nágua a $\\pu{10 \\degree C}$ e $\\pu{1 atm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-220 kJ.mol-1}$\n"
+                "$\\pu{-220 J.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6592,11 +6592,11 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\pu{-440 kJ.mol-1}$\n",
-                "$\\pu{-220 kJ.mol-1}$\n",
-                "$\\pu{-110 kJ.mol-1}$\n",
-                "$\\pu{110 kJ.mol-1}$\n",
-                "$\\pu{220 kJ.mol-1}$\n"
+                "$\\pu{-440 J.mol-1}$\n",
+                "$\\pu{-220 J.mol-1}$\n",
+                "$\\pu{-110 J.mol-1}$\n",
+                "$\\pu{110 J.mol-1}$\n",
+                "$\\pu{220 J.mol-1}$\n"
               ]
             },
             {
@@ -6604,7 +6604,7 @@
               "statement": "Considere a reação de síntese do óxido nítrico:\n\n$$\n\\ce{NH3(g) + O2(g) -> NO(g) + H2O(g)}\n$$\n\n**Assinale** a alternativa que mais se aproxima da energia livre de\nsíntese de $\\pu{120 g}$ de óxido nítrico a $\\pu{25 \\degree C}$ e\n$\\pu{1 atm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{960 kJ}$\n"
+                "$\\pu{-960 kJ}$\n"
               ],
               "constants": {
                 "data": []
@@ -6637,11 +6637,11 @@
               "elements": [],
               "obj": 4,
               "choices": [
-                "$\\pu{320 kJ}$\n",
-                "$\\pu{510 kJ}$\n",
-                "$\\pu{630 kJ}$\n",
-                "$\\pu{780 kJ}$\n",
-                "$\\pu{960 kJ}$\n"
+                "$\\pu{-320 kJ}$\n",
+                "$\\pu{-510 kJ}$\n",
+                "$\\pu{-630 kJ}$\n",
+                "$\\pu{-780 kJ}$\n",
+                "$\\pu{-960 kJ}$\n"
               ]
             },
             {
@@ -6649,7 +6649,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da energia livre de\nformação do $\\ce{HI}$ a $\\pu{25 \\degree C}$ e $\\pu{1 atm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-220 kJ.mol-1}$\n"
+                "$\\pu{-440 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6687,7 +6687,7 @@
                 ]
               },
               "elements": [],
-              "obj": 1,
+              "obj": 0,
               "choices": [
                 "$\\pu{-440 kJ.mol-1}$\n",
                 "$\\pu{-220 kJ.mol-1}$\n",
@@ -6698,7 +6698,7 @@
             },
             {
               "id_": "2C12",
-              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura onde a\nredução do óxido de ferro com carbono formando ferro metálico e\n$\\ce{CO2}$ é espontânea.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura na qual a\nredução do óxido de ferro com carbono formando ferro metálico e\n$\\ce{CO2}$ é espontânea.\n",
               "solution": "",
               "answer": [
                 "$\\pu{840 K}$\n"
@@ -6764,7 +6764,7 @@
             },
             {
               "id_": "2C13",
-              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura onde a\nformação do óxido de cálcio pela decomposição do carbonato de cálcio é\nespontânea.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura na qual a\nformação do óxido de cálcio pela decomposição do carbonato de cálcio é\nespontânea.\n",
               "solution": "",
               "answer": [
                 "$\\pu{1110 K}$\n"
@@ -6884,7 +6884,7 @@
             },
             {
               "id_": "2C25",
-              "statement": "Assinale a alternativa que mais se aproxima da quantidade de glicose que\num pássaro de 30 g deve consumir para voar a uma altura de 10 m.\n",
+              "statement": "Assinale a alternativa que mais se aproxima da quantidade de glicose que\num pássaro de $\\pu{30 g}$ deve consumir para voar a uma altura de\n$\\pu{10 m}$.\n",
               "solution": "",
               "answer": [
                 "$\\pu{1.9e-4 g}$\n"
@@ -6913,6 +6913,13 @@
                     "name": "Entropia do  \\ce{H2O} (l)",
                     "symbol": "S^{\\circ }_{}(\\ce{H2O, {l}} )",
                     "value": "69,9",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-O2(g)",
+                    "name": "Entropia do  \\ce{O2} (g)",
+                    "symbol": "S^{\\circ }_{}(\\ce{O2, {g}} )",
+                    "value": "205",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -6983,7 +6990,7 @@
             },
             {
               "id_": "2C27",
-              "statement": "Considere as proposições a seguir.\n\n1.  A energia livre de fusão da água é negativa em condições padrão.\n2.  A transição de fase do enxofre ortorrômbico para monoclínico é\n    espontânea para temperaturas acima de $\\pu{95 \\degree C}$, assim, a\n    entalpia e a entropia do enxofre monoclínico são maiores que as do\n    enxofre ortorrômbico\n3.  A mistura de duas amostras de gás sempre apresenta variação de\n    energia livre negativa.\n4.  A variação de energia livre para a complexação em fase aquosa do\n    cátion níquel (II) com amônia formando o composto\n    $\\ce{[Ni(NH3)6]^{2+}}$ é maior que a variação de energia livre para\n    a complexação com $\\ce{NH2CH2CH2NH2}$ ($\\ce{en}$) formando\n    $\\ce{[Ni(en)3]^{2+}}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere as proposições a seguir.\n\n1.  A energia livre de fusão da água é negativa a $\\pu{27 \\degree C}$ e\n    $\\pu{1 atm}$.\n2.  A transição de fase do enxofre ortorrômbico para monoclínico é\n    espontânea para temperaturas acima de $\\pu{95 \\degree C}$, assim, a\n    entalpia e a entropia do enxofre monoclínico são maiores que as do\n    enxofre ortorrômbico\n3.  A mistura de duas amostras de gás sempre apresenta variação de\n    energia livre negativa.\n4.  A complexação em fase aquosa do cátion níquel (II) com amônia\n    formando $\\ce{[Ni(NH3)6]^{2+}}$ é mais espontânea complexação que a\n    com $\\ce{NH2CH2CH2NH2}$ ($\\ce{en}$) formando $\\ce{[Ni(en)3]^{2+}}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**2** e **3**"
@@ -7219,7 +7226,7 @@
             },
             {
               "id_": "2C23",
-              "statement": "Considere uma célula eletroquímica onde ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{294 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\npara essa reação.\n",
+              "statement": "Considere uma célula eletroquímica na qual ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{294 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\npara essa reação.\n",
               "solution": "",
               "answer": [
                 "$\\pu{-96,50 J.K-1.mol-1}$\n"
@@ -7400,7 +7407,7 @@
             },
             {
               "id_": "2C20",
-              "statement": "**Determine** a temperatura onde o fundo de uma coluna $\\pu{100 m}$ de\nmercúrio líquido começa a congelar. A variação da energia interna com a\npressão é desprezível.\n",
+              "statement": "**Determine** a temperatura em que o fundo de uma coluna $\\pu{100 m}$ de\nmercúrio líquido começa a congelar. A variação da energia interna com a\npressão é desprezível.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{235 K}$\n"
@@ -7529,7 +7536,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Constante de Equilíbrio\n\n1. Atividade Química.\n2. Descrição termodinâmica do equilíbrio:\n   $$\n   \\Delta G = \\Delta G^\\circ + RT \\ln Q\n   $$\n3. Origem da constante de equilíbrio:\n   $$\n   \\Delta G^\\circ = - RT \\ln K\n   $$\n4. Expressão da constante de equilíbrio:\n   $$\n   K = \\left\\{ \\dfrac{(\\text{atividade dos produtos})^{\\nu_\\text{r}}}{(\\text{atividade dos reagentes})^{\\nu_\\text{r}}} \\right\\}\n   $$\n5. Equilíbrio homogêneo e heterogêneo.\n\n### Habilidades\n\n- **Determinar** a expressão para a constante de equilíbrio de uma reação.\n- **Calcular** a constante de equilíbrio em função da energia livre. \n\n# Formas Alternativas da Constante de Equilíbrio\n\n1. Mutiplos da equação química.\n2. Composição de equações químicas.\n3. Concentração molar de gases:\n   $$\n   K = K_P = (RT)^{\\Delta n} K_c\n   $$\n\n### Habilidades\n\n- **Calcular** a constante de equilíbrio de uma reação manipulada algebricamente.\n- **Calcular** o $K_P$ em função do $K_c$. \n\n# Cálculos de Equilíbrio\n\n1. Grau de reação.\n2. Direção da reação.\n3. Quadro de equilíbrio.\n\n### Habilidades\n\n- **Determinar** a composição de equilíbrio para um sistema onde ocorre uma reação química utilizando o quadro de equilíbrio.\n- **Determinar** a direção de uma reação comparando o quociente reacional à constante de equilíbrio.\n\n# Perturbações no Equilíbrio\n\n1. Efeito da adição ou remoção de reagentes no equilíbrio.\n2. Efeito compressão do volume no equilíbrio.\n3. Efeito da adição de gás inerte.\n4. Efeito da temperatura no equilíbrio.\n5. Equação de van't Hoff:\n   $$\n   \\ln\\left(\\dfrac{K_2}{K_1}\\right) = - \\frac{\\Delta H}{R}\\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n\n### Habilidades\n\n- **Determinar** a nova composição no equiíbrio após uma perturbação\n- **Calcular** a constante de equilíbrio em uma dada temperatura utilizando a Equação de van't Hoff.",
+      "contents": "# Constante de Equilíbrio\n\n1. Atividade Química.\n2. Descrição termodinâmica do equilíbrio:\n   $$\n   \\Delta G = \\Delta G^\\circ + RT \\ln Q\n   $$\n3. Origem da constante de equilíbrio:\n   $$\n   \\Delta G^\\circ = - RT \\ln K\n   $$\n4. Expressão da constante de equilíbrio:\n   $$\n   K = \\left\\{ \\dfrac{(\\text{atividade dos produtos})^{\\nu_\\text{r}}}{(\\text{atividade dos reagentes})^{\\nu_\\text{r}}} \\right\\}\n   $$\n5. Equilíbrio homogêneo e heterogêneo.\n\n### Habilidades\n\n- **Determinar** a expressão para a constante de equilíbrio de uma reação.\n- **Calcular** a constante de equilíbrio em função da energia livre. \n\n# Formas Alternativas da Constante de Equilíbrio\n\n1. Mutiplos da equação química.\n2. Composição de equações químicas.\n3. Concentração molar de gases:\n   $$\n   K = K_P = (RT)^{\\Delta n} K_c\n   $$\n\n### Habilidades\n\n- **Calcular** a constante de equilíbrio de uma reação manipulada algebricamente.\n- **Calcular** o $K_P$ em função do $K_c$. \n\n# Cálculos de Equilíbrio\n\n1. Grau de reação.\n2. Direção da reação.\n3. Quadro de equilíbrio.\n\n### Habilidades\n\n- **Determinar** a composição de equilíbrio para um sistema em que ocorre uma reação química utilizando o quadro de equilíbrio.\n- **Determinar** a direção de uma reação comparando o quociente reacional à constante de equilíbrio.\n\n# Perturbações no Equilíbrio\n\n1. Efeito da adição ou remoção de reagentes no equilíbrio.\n2. Efeito compressão do volume no equilíbrio.\n3. Efeito da adição de gás inerte.\n4. Efeito da temperatura no equilíbrio.\n5. Equação de van't Hoff:\n   $$\n   \\ln\\left(\\dfrac{K_2}{K_1}\\right) = - \\frac{\\Delta H}{R}\\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n\n### Habilidades\n\n- **Determinar** a nova composição no equiíbrio após uma perturbação\n- **Calcular** a constante de equilíbrio em uma dada temperatura utilizando a Equação de van't Hoff.",
       "subtopics": [
         {
           "id_": "2G.1",
@@ -8313,7 +8320,7 @@
           "problems": [
             {
               "id_": "3A29",
-              "statement": "Considere um tubo de $\\pu{3 m}$ de comprimento onde em uma ponta é\ncolocado um algodão com uma solução de ácido clorídrico e na outra é\ncolocado um algodão com uma solução de amônia. Um aerossol branco é\nformado no interior do tubo.\n\n**Assinale** a alternativa que mais se aproxima da distância entre o\naerossol branco e o algodão com amônia.\n",
+              "statement": "Considere um tubo de $\\pu{3 m}$ de comprimento. Em uma das pontas do\ntubo é colocado um algodão com uma solução de ácido clorídrico e na\noutra é colocado um algodão com uma solução de amônia. Um aerossol\nbranco é formado no interior do tubo.\n\n**Assinale** a alternativa que mais se aproxima da distância entre o\naerossol branco e o algodão com amônia.\n",
               "solution": "",
               "answer": [
                 "$\\pu{1,78 m}$\n"
@@ -8713,7 +8720,7 @@
             },
             {
               "id_": "3A49",
-              "statement": "O sol é formado por plasma, um estado da matéria onde os elétrons foram\nremovidos dos átomos de hidrogênio. No ponto médio entre o centro e a\nsuperfície do sol, a temperatura é $\\pu{3,6 MK}$ e a densidade é\n$\\pu{1,2 g.cm-3}$.\n\n-   **Determine** a pressão nesse ponto.\n-   **Determine** a densidade de energia nesse ponto.\n",
+              "statement": "O sol é formado por plasma, um estado da matéria em que os elétrons\nforam removidos dos átomos de hidrogênio. No ponto médio entre o centro\ne a superfície do sol, a temperatura é $\\pu{3,6 MK}$ e a densidade é\n$\\pu{1,2 g.cm-3}$.\n\n-   **Determine** a pressão nesse ponto.\n-   **Determine** a densidade de energia nesse ponto.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{354 atm}$\n",
@@ -9184,7 +9191,7 @@
             },
             {
               "id_": "3B13",
-              "statement": "Considere dois gases que podem ser modelados pelas equações de estado\n\n1.  $PV = nRT \\left(1 + \\dfrac{nb}{V} \\right)$\n2.  $P(V - nb) = nRT$\n\nOnde $b$ é uma constante\n\n-   **Verifique** qual dos gases pode ser liquefeito.\n-   **Verifique** qual dos gases possui ponto crítico.\n",
+              "statement": "Considere dois gases que podem ser modelados pelas equações de estado\n\n1.  $PV = nRT \\left(1 + \\dfrac{nb}{V} \\right)$\n2.  $P(V - nb) = nRT$\n\nSendo $b$ é uma constante\n\n-   **Verifique** qual dos gases pode ser liquefeito.\n-   **Verifique** qual dos gases possui ponto crítico.\n",
               "solution": "\n",
               "answer": [
                 "Gás 1.\n",
@@ -9223,7 +9230,7 @@
               "statement": "Considere um gás de Van der Waals.\n\n-   **Determine** o volume para que a compressibilidade seja mínima.\n-   **Determine** a condição para haver compressibilidade mínima.\n",
               "solution": "\n",
               "answer": [
-                "$V = \\dfrac{b}{1-\\sqrt{T/T_\\text{B} } }$ onde\n$T_\\text{B} = \\dfrac{a}{Rb}$\n",
+                "$V = \\dfrac{b}{1-\\sqrt{T/T_\\text{B} } }$ sendo\n$T_\\text{B} = \\dfrac{a}{Rb}$\n",
                 "$T < T_\\text{B}$\n"
               ],
               "constants": {
@@ -9914,10 +9921,10 @@
             },
             {
               "id_": "3C28",
-              "statement": "Uma turbina descarta vapor saturado a $\\pu{1 atm}$, com uma vazão de\n$\\pu{1150 kg/h}$ e entalpia $\\pu{2676 kJ/kg}$. A corrente de vapor\ndescartado pela turbina se mistura com vapor superaquecido proveniente\nde outra fonte a $\\pu{400 \\degree C}$ e $\\pu{1 atm}$, de entalpia\n$\\pu{3278 kJ/kg}$, produzindo vapor a $\\pu{300 \\degree C}$ e\n$\\pu{1 atm}$, de entalpia $\\pu{3074 kJ/kg}$, para alimentar um trocador\nde calor.\n\n**Assinale** a alternativa que mais se aproxima da alimentação de vapor\nno trocador de calor.\n",
+              "statement": "Uma turbina descarta vapor saturado a $\\pu{1 atm}$, com uma vazão de\n$\\pu{1150 kg/h}$ e entalpia $\\pu{2676 kJ/kg}$. A corrente de vapor\ndescartado pela turbina se mistura com vapor superaquecido proveniente\nde outra fonte a $\\pu{400 \\degree C}$ e $\\pu{1 atm}$, de entalpia\n$\\pu{3278 kJ/kg}$, produzindo vapor a $\\pu{300 \\degree C}$ e\n$\\pu{1 atm}$, de entalpia $\\pu{3070 kJ/kg}$, para alimentar um trocador\nde calor.\n\n**Assinale** a alternativa que mais se aproxima da alimentação de vapor\nno trocador de calor.\n",
               "solution": "",
               "answer": [
-                "$\\pu{1000 kg/h}$\n"
+                "$\\pu{3390 kg/h}$\n"
               ],
               "constants": {
                 "data": []
@@ -9926,7 +9933,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 0,
+              "obj": 2,
               "choices": [
                 "$\\pu{1000 kg/h}$\n",
                 "$\\pu{2240 kg/h}$\n",
@@ -10178,10 +10185,10 @@
             },
             {
               "id_": "3C39",
-              "statement": "O *Colorímetro de Duboscq* consiste em uma célula de caminho óptico fixo\ne uma célula de caminho óptico variável. O comprimento dessa célula e\najustado até que a transmissão das células seja a mesma. Uma solução de\nconcentração $\\pu{24 \\micro g.L-1}$ de certa substância é adicionada à\ncélula fixa de comprimento $\\pu{4 cm}$. Uma solução do mesmo soluto de\nconcentração desconhecida é adicionada à célula de concentração variável\ne seu comprimento é ajustado para $\\pu{3 cm}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsegunda solução.\n",
+              "statement": "O *Colorímetro de Duboscq* consiste em uma célula de caminho óptico fixo\ne uma célula de caminho óptico variável. O comprimento dessa célula e\najustado até que a transmissão das células seja a mesma. Uma solução de\nconcentração $\\pu{24 \\mu g.L-1}$ de certa substância é adicionada à\ncélula fixa de comprimento $\\pu{4 cm}$. Uma solução do mesmo soluto de\nconcentração desconhecida é adicionada à célula de concentração variável\ne seu comprimento é ajustado para $\\pu{3 cm}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsegunda solução.\n",
               "solution": "",
               "answer": [
-                "$\\pu{16 \\micro g.L-1}$\n"
+                "$\\pu{32 \\mu g.L-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -10192,11 +10199,11 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "$\\pu{12 \\micro g.L-1}$\n",
-                "$\\pu{14 \\micro g.L-1}$\n",
-                "$\\pu{16 \\micro g.L-1}$\n",
-                "$\\pu{18 \\micro g.L-1}$\n",
-                "$\\pu{20 \\micro g.L-1}$\n"
+                "$\\pu{24 \\mu g.L-1}$\n",
+                "$\\pu{28 \\mu g.L-1}$\n",
+                "$\\pu{32 \\mu g.L-1}$\n",
+                "$\\pu{36 \\mu g.L-1}$\n",
+                "$\\pu{40 \\mu g.L-1}$\n"
               ]
             },
             {
@@ -10219,7 +10226,7 @@
             },
             {
               "id_": "3C41",
-              "statement": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald.\n\n$$\n\\begin{aligned}\n\\ce{4 NH3(g) + 5 O2(g) &-> 4 NO(g) + 6 H2O(g)} \\\\\n\\ce{2 NO(g) + O2(g) &-> 2 NO2(g)} \\\\\n\\ce{3 NO2(g) + H2O(l) &-> 2 HNO3(aq) + NO(g)}\n\\end{aligned}\n$$\n\nUma indústria deve produzir $\\pu{1e6 kg}$ de ácido nítrico.\n\n-   **Determine** a massa de amônia necessária para a produção onde o\n    óxido nítrico formado na última etapa não é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde todo\n    óxido nítrico formado na última etapa é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção onde 40%\n    do óxido nítrico formado na última etapa é reaproveitado\n",
+              "statement": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald.\n\n$$\n\\begin{aligned}\n\\ce{4 NH3(g) + 5 O2(g) &-> 4 NO(g) + 6 H2O(g)} \\\\\n\\ce{2 NO(g) + O2(g) &-> 2 NO2(g)} \\\\\n\\ce{3 NO2(g) + H2O(l) &-> 2 HNO3(aq) + NO(g)}\n\\end{aligned}\n$$\n\nUma indústria deve produzir $\\pu{1e6 kg}$ de ácido nítrico.\n\n-   **Determine** a massa de amônia necessária para a produção sendo o\n    óxido nítrico formado na última etapa não é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção sendo\n    todo óxido nítrico formado na última etapa é reaproveitado.\n-   **Determine** a massa de amônia necessária para a produção sendo 40%\n    do óxido nítrico formado na última etapa é reaproveitado\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{4,1e5 kg}$\n",
@@ -10238,7 +10245,7 @@
             },
             {
               "id_": "3C43",
-              "statement": "Uma planta foi projetada para conduzir a reação: $$\n\\ce{\\mathbf{A} -> \\mathbf{B}}\n$$ Uma corrente de $\\pu{60 kg.h-1}$ de **A** é combinada à corrente de\nrefluxo, contendo $\\pu{140 mol.h-1}$ de **A** e alimentada no reator. A\ncorrente de saída do reator passa por uma unidade de destilação onde o\nproduto de topo contem $\\pu{10 mol.h-1}$ de **A** e $\\pu{50 mol.h-1}$ de\n**B** e o produto de fundo é a corrente de reciclo.\n\n-   **Determine** a composição da corrente de saída do reator.\n-   **Determine** o rendimento da reação por passe no reator.\n-   **Determine** a conversão global do processo.\n",
+              "statement": "Uma planta foi projetada para conduzir a reação:\n\n$$\n\\ce{\\mathbf{A} -> \\mathbf{B}}\n$$\n\nUma corrente de $\\pu{60 mol.h-1}$ de **A** é combinada à corrente de\nrefluxo, contendo $\\pu{140 mol.h-1}$ de **A** e alimentada no reator. A\ncorrente de saída do reator passa por uma unidade de destilação na qual\no produto de topo contem $\\pu{10 mol.h-1}$ de **A** e $\\pu{50 mol.h-1}$\nde **B** e o produto de fundo é a corrente de reciclo.\n\n-   **Determine** a composição da corrente de saída do reator.\n-   **Determine** o rendimento da reação por passe no reator.\n-   **Determine** a conversão global do processo.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{150 mol.h-1}$ de **A** e $\\pu{50 mol.h-1}$ de **B**\n",
