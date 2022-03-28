@@ -2571,7 +2571,7 @@
               "statement": "**Assinale** a alternativa com o elemento com maior afinidade\neletrônica.\n",
               "solution": "",
               "answer": [
-                "$\\ce{S}$\n"
+                "$\\ce{Br}$\n"
               ],
               "constants": {
                 "data": []
@@ -2580,7 +2580,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 4,
               "choices": [
                 "$\\ce{He}$\n",
                 "$\\ce{K}$\n",
@@ -5129,6 +5129,13 @@
                     "unit": "kJ.mol-1"
                   },
                   {
+                    "id_": "Hf-CO(g)",
+                    "name": "Entalpia de formação do \\ce{CO} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
+                    "value": "-111",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
@@ -6052,47 +6059,6 @@
               ]
             },
             {
-              "id_": "2B30",
-              "statement": "Considere a vaporização de $\\pu{1 mol}$ de água a $\\pu{85 \\degree C}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
-              "solution": "\n",
-              "answer": [
-                "$\\pu{111 J.K-1}$\n",
-                "$\\pu{115 J.K-1}$\n",
-                "$\\pu{-4 J.K-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": [
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{vap}(\\ce{H2O}) = \\pu{40,6 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": "CP-H2O(g)",
-                    "name": "Capacidade calorífica do \\ce{H2O} (g)",
-                    "symbol": "C_P(\\ce{H2O, {g}} )",
-                    "value": "33,6",
-                    "unit": "J.K-1.mol-1"
-                  },
-                  {
-                    "id_": "CP-H2O(l)",
-                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                    "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,3",
-                    "unit": "J.K-1.mol-1"
-                  }
-                ]
-              },
-              "elements": [],
-              "obj": -1,
-              "choices": []
-            },
-            {
               "id_": "2B26",
               "statement": "Um motor de $\\pu{3 L}$ contendo gás nitrogênio a $\\pu{18,5 \\degree C}$\nfoi comprimido rapidamente até $\\pu{500 mL}$ por um pistão. A\ntemperatura do gás aumentou para $\\pu{28,1 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
               "solution": "",
@@ -6114,47 +6080,6 @@
                 "$\\pu{7,1 J.K-1}$\n",
                 "$\\pu{14,3 J.K-1}$\n"
               ]
-            },
-            {
-              "id_": "2B31",
-              "statement": "Considere a vaporização de $\\pu{1 mol}$ de acetona a $\\pu{296 K}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
-              "solution": "\n",
-              "answer": [
-                "$\\pu{98,3 J.K-1.mol-1}$\n",
-                "$\\pu{108 J.K-1.mol-1}$\n",
-                "$\\pu{-10,4 J.K-1.mol-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": [
-                  {
-                    "id_": 0,
-                    "name": "$C_P(\\text{acetona, l}) = \\pu{127 J.K-1.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$T_\\text{eb}(\\text{acetona}) = \\pu{329 K}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{vap}(\\text{acetona}) = \\pu{29,1 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  }
-                ]
-              },
-              "elements": [],
-              "obj": -1,
-              "choices": []
             },
             {
               "id_": "2B28",
@@ -6231,6 +6156,47 @@
         },
         {
           "problems": [
+            {
+              "id_": "2B30",
+              "statement": "Considere a vaporização de $\\pu{1 mol}$ de água a $\\pu{85 \\degree C}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{111 J.K-1}$\n",
+                "$\\pu{115 J.K-1}$\n",
+                "$\\pu{-4 J.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{H2O}) = \\pu{40,6 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-H2O(g)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (g)",
+                    "symbol": "C_P(\\ce{H2O, {g}} )",
+                    "value": "33,6",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
             {
               "id_": "2B31",
               "statement": "Considere a vaporização de $\\pu{1 mol}$ de acetona a $\\pu{296 K}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
@@ -6396,7 +6362,7 @@
             },
             {
               "id_": "2B36",
-              "statement": "Em baixas temperaturas, a capacidade calorífica um dado material é\nproporcional a $T^2$.\n\n**Prove** que, para temperaturas muito baixas, a desse material é igual\na metade de sua capacidade calorífica na mesma temperatura.\n",
+              "statement": "Em baixas temperaturas, a capacidade calorífica um dado material é\nproporcional a $T^2$.\n\n**Prove** que, para temperaturas muito baixas, a entropia absoluta desse\nmaterial é igual a metade de sua capacidade calorífica na mesma\ntemperatura.\n",
               "solution": "\n",
               "answer": [
                 "Demonstração\n"
@@ -10064,7 +10030,7 @@
               "statement": "Considere uma solução saturada do sal **MX** que é pouco solúvel em água\ndestilada a $\\pu{25 \\degree C}$. A condutância dessa solução é\n$\\pu{2e-7 S cm-1}$ acima da condutância da água destilada.\n\n**Assinale** a alternativa que mais se aproxima solubilidade de **MX**.\n",
               "solution": "",
               "answer": [
-                "$\\pu{2 \\micro mol.L-1}$\n"
+                "$\\pu{2 \\mu mol.L-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -10090,11 +10056,11 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\pu{1 \\micro mol.L-1}$\n",
-                "$\\pu{2 \\micro mol.L-1}$\n",
-                "$\\pu{3 \\micro mol.L-1}$\n",
-                "$\\pu{4 \\micro mol.L-1}$\n",
-                "$\\pu{5 \\micro mol.L-1}$\n"
+                "$\\pu{1 \\mu mol.L-1}$\n",
+                "$\\pu{2 \\mu mol.L-1}$\n",
+                "$\\pu{3 \\mu mol.L-1}$\n",
+                "$\\pu{4 \\mu mol.L-1}$\n",
+                "$\\pu{5 \\mu mol.L-1}$\n"
               ]
             },
             {
