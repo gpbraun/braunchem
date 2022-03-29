@@ -9758,7 +9758,7 @@
             },
             {
               "id_": "3C23",
-              "statement": "Uma corrente líquida de vazão $\\pu{20,0 kg.h-1}$ e composição percentual\nmássica de $60,0\\%$ de óleo e $40,0\\%$ de água é continuamente separada\nem duas correntes, uma com $95,4\\%$ e outra com $1,00\\%$ de óleo.\n\n**Assinale** a alternativa que mais se aproxima da vazão mássica da\ncorrente com menor concentração de óleo, em\n",
+              "statement": "Uma corrente líquida de vazão $\\pu{20 kg.h-1}$ e composição percentual\nmássica de $60\\%$ de óleo e $40\\%$ de água é continuamente separada em\nduas correntes, uma com $95\\%$ e outra com $1\\%$ de óleo.\n\n**Assinale** a alternativa que mais se aproxima da vazão mássica da\ncorrente com menor concentração de óleo, em\n",
               "solution": "",
               "answer": [
                 "$\\pu{7,50 kg.h-1}$\n"
@@ -9869,7 +9869,7 @@
             },
             {
               "id_": "3C19",
-              "statement": "Uma planta industrial descarrega $\\pu{3,50 m3.s-1}$ de água contendo\n$\\pu{65 ppm}$ de $\\ce{HCl}$ em um rio cuja vazão é $\\pu{50 m3.s-1}$ e\ncontém $\\ce{Ca^{2+}}$ na concentração de $\\pu{10,2 ppm}$ de . Para que\noutra indústria utilize a água do rio, essa deve ser neutralizada com\nóxido de cálcio, que reage com o ácido clorídrico formando cloreto de\ncálcio. A segunda indústria utiliza $\\pu{18 m3.s-1}$ de água e retorna\n$90\\%$ ao rio.\n\n-   **Determine** a concentração de cloreto na água do rio após a\n    descarga da primeira indústria.\n-   **Determine** a concentração de $\\ce{Ca^{2+}}$ na água do rio após a\n    descarga da segunda indústria.\n",
+              "statement": "Uma planta industrial descarrega $\\pu{3,50 m3.s-1}$ de água contendo\n$\\pu{65 ppm}$ de $\\ce{HCl}$ em um rio cuja vazão é $\\pu{50 m3.s-1}$ e\ncontém $\\ce{Ca^{2+}}$ na concentração de $\\pu{10,2 ppm}$. Para que outra\nindústria utilize a água do rio, essa deve ser neutralizada com óxido de\ncálcio, que reage com o ácido clorídrico formando cloreto de cálcio. A\nsegunda indústria utiliza $\\pu{18 m3.s-1}$ de água e retorna $90\\%$ ao\nrio.\n\n-   **Determine** a concentração de cloreto na água do rio após a\n    descarga da primeira indústria.\n-   **Determine** a concentração de $\\ce{Ca^{2+}}$ na água do rio após a\n    descarga da segunda indústria.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{4,25 ppm}$\n",
@@ -9910,7 +9910,7 @@
             },
             {
               "id_": "3C29",
-              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{3,54}$ |\n|-------------------:|---------------:|----------------:|\n|               $20$ |      $\\pu{76}$ |     $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |     $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
+              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{J.g-1.K-1}$ |\n|-------------------:|---------------:|---------------------:|\n|               $20$ |      $\\pu{76}$ |          $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |          $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{32,8 \\degree C}$\n"
