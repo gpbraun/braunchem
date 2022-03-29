@@ -232,6 +232,7 @@
 \mathtoolsset { showonlyrefs }
 
 \cs_set_eq:NN \degree \textdegree
+\cs_set_eq:NN \hbar   \hslash
 
 %============================================================%
 %   SI UNITS
