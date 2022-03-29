@@ -11,7 +11,7 @@ from json import dump as json_dump
 from sys import exit
 from pathlib import Path
 
-from problem import Problem, ProblemSet, links2problemset, files2problemset
+from problem import Problem, ProblemSet, files2problemset
 from multiprocessing import Pool
 
 from frontmatter import load
@@ -149,17 +149,6 @@ class Topic:
 
 def topic2pdf(topic):
     return topic.generate_pdf()
-
-
-def links2topic(cur, id_, problem_links, **kwargs):
-    # gera o simulado a partir dos dados
-    print('Carregando problemas...')
-    problems = []
-    for title, links in problem_links.items():
-        problems.append(
-            links2problemset(cur, links, id_=title[0], title=title)
-        )
-    return Topic(id_, problems=problems, **kwargs)
 
 
 def file2topic(args):

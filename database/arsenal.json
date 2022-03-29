@@ -61,7 +61,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima do número de fótons\nemitidos em $\\pu{2 s}$ por uma lâmpada de $\\pu{40 W}$ que produz luz\nazul com comprimento de onda $\\pu{470 nm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{2e18}$\n"
+                "$\\pu{2e20}$\n"
               ],
               "constants": {
                 "data": []
@@ -70,7 +70,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 1,
+              "obj": 3,
               "choices": [
                 "$\\pu{2e17}$\n",
                 "$\\pu{2e18}$\n",
@@ -338,7 +338,7 @@
               "statement": "A superfície de um metal é irradiada com luz de dois comprimentos de\nonda, $\\lambda_1$ e $\\lambda_2$. As velocidades máximas dos fotoelétrons\nemitidos são, respectivamente, $v_1$ e $v_2$, sendo $v_1 = 2 v_2$.\n\n**Assinale** a alternativa com a função trabalho desse metal.\n",
               "solution": "",
               "answer": [
-                "$\\dfrac{(4\\lambda_1 - \\lambda_2)hc}{3\\lambda_1 \\lambda_2}$\n"
+                "$\\dfrac{(\\lambda_2 - 4\\lambda_1)hc}{3\\lambda_1 \\lambda_2}$\n"
               ],
               "constants": {
                 "data": []
@@ -347,7 +347,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 2,
               "choices": [
                 "$\\dfrac{(2\\lambda_1 - \\lambda_2)hc}{\\lambda_1 \\lambda_2}$\n",
                 "$\\dfrac{(\\lambda_2 - 2\\lambda_1)hc}{\\lambda_1 \\lambda_2}$\n",
@@ -404,7 +404,7 @@
             },
             {
               "id_": "1A16",
-              "statement": "**Assinale** a alternativa com a identidade do átomo que possui\ncomprimento de onda $\\pu{3,3 fm}$ quando viaja a $\\pu{1 \\%}$ da\nvelocidade da luz.\n",
+              "statement": "**Assinale** a alternativa com a identidade do átomo que possui\ncomprimento de onda $\\pu{3,3 fm}$ quando viaja a $1\\%$ da velocidade da\nluz.\n",
               "solution": "",
               "answer": [
                 "$\\ce{Ca}$\n"
@@ -4201,7 +4201,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de\ndesidrogenação de $\\pu{1 mol}$ de propano, formando propeno.\n",
               "solution": "",
               "answer": [
-                "$\\pu{+114,0 kJ}$\n"
+                "$\\pu{-2,2 MJ}$\n"
               ],
               "constants": {
                 "data": []
@@ -4239,13 +4239,13 @@
                 ]
               },
               "elements": [],
-              "obj": 4,
+              "obj": 1,
               "choices": [
                 "$\\pu{-3,5 MJ}$\n",
                 "$\\pu{-2,2 MJ}$\n",
-                "$\\pu{+2,2 MJ}$\n",
-                "$\\pu{+125,4 kJ}$\n",
-                "$\\pu{+114,0 kJ}$\n"
+                "$\\pu{-2,2 kJ}$\n",
+                "$\\pu{+3,5 kJ}$\n",
+                "$\\pu{+2,2 MJ}$\n"
               ]
             },
             {
@@ -4307,7 +4307,7 @@
               "statement": "Uma amostra de $\\pu{180 mg}$ de glicose é queimada em um calorímetro\nisocórico, com capacidade calorífica $C = \\pu{512 J.\\degree C-1}$, a\n$\\pu{25 \\degree C}$com excesso de oxigênio. A variação de temperatura\nregistrada foi de $\\pu{5 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-2545 kJ}$\n"
+                "$\\pu{-2560 kJ}$\n"
               ],
               "constants": {
                 "data": []
@@ -4316,7 +4316,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 2,
+              "obj": 1,
               "choices": [
                 "$\\pu{-2575 kJ}$\n",
                 "$\\pu{-2560 kJ}$\n",
@@ -4398,7 +4398,7 @@
               "statement": "O poder calorífico superior (PCS) e o poder calorífico inferior (PCI)\nsão definidos como a energia liberada na combustão completa de uma\nsubstância formando água líquida e gasosa, respectivamente.\n\n**Assinale** a alternativa que mais se aproxima do PCI do etanol\n($\\text{PCS} = \\pu{30 MJ.kg-1}$).\n",
               "solution": "",
               "answer": [
-                "$\\pu{27 MJ.kg-1}$\n"
+                "$\\pu{21 MJ.kg-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -4415,7 +4415,7 @@
                 ]
               },
               "elements": [],
-              "obj": 1,
+              "obj": 0,
               "choices": [
                 "$\\pu{21 MJ.kg-1}$\n",
                 "$\\pu{27 MJ.kg-1}$\n",
@@ -4501,7 +4501,7 @@
             },
             {
               "id_": "2A31",
-              "statement": "O perclorato de amônio (PA) é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico, PC, dessa\nmistura em função da fração mássica de hidrogênio.\n\n  $x_{\\ce{H2}}/\\pu{\\%}$   $\\mathrm{PC}/\\pu{kJ.g-1}$\n  ----------------------- ---------------------------\n  $\\pu{2}$                $\\pu{3,0}$\n  $\\pu{5}$                $\\pu{8,7}$\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
+              "statement": "O perclorato de amônio é um dos componentes mais utilizados em\npropelentes de foguetes. Para aperfeiçoar seu desempenho, hidrogênio\npode ser utilizado como aditivo. Considere o poder calorífico, PC, dessa\nmistura em função da fração mássica de hidrogênio.\n\n| $x_{\\ce{H2}}/\\%$ | $\\mathrm{PC}/\\pu{kJ.g-1}$ |\n|-----------------:|--------------------------:|\n|         $\\pu{2}$ |                $\\pu{4,4}$ |\n|         $\\pu{5}$ |                $\\pu{8,7}$ |\n\n-   **Determine** a entalpia de combustão do perclorato de amônio.\n-   **Determine** a entalpia de combustão do hidrogênio.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{-190 kJ.mol-1}$\n",
@@ -4768,7 +4768,7 @@
               "statement": "**Determine** a entalpia de combustão do octano.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{6343 kJ}$\n"
+                "$\\pu{-5520 kJ}$\n"
               ],
               "constants": {
                 "data": []
@@ -4989,7 +4989,7 @@
               "answer": [
                 "$\\pu{-120 kJ.mol-1}$\n",
                 "$\\pu{-208 kJ.mol-1}$\n",
-                "$\\pu{18 kJ.mol-1}$\n"
+                "$\\pu{140 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -5448,10 +5448,10 @@
             },
             {
               "id_": "2B04",
-              "statement": "**Assinale** a alternativa que mais se aproxima da variação na entropia\nda vizinhança no congelamento do mercúrio.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entropia de\ncongelamento do mercúrio.\n",
               "solution": "",
               "answer": [
-                "$\\pu{4,4 J.K-1.mol-1}$\n"
+                "$\\pu{-4,4 J.K-1.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -5475,7 +5475,7 @@
                 ]
               },
               "elements": [],
-              "obj": 4,
+              "obj": 0,
               "choices": [
                 "$\\pu{-4,4 J.K-1.mol-1}$\n",
                 "$\\pu{-2,2 J.K-1.mol-1}$\n",
@@ -5620,7 +5620,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando a pressão de $\\pu{70,9 g}$ de gás metano aumenta\nisotermicamente de $\\pu{7 kPa}$ até $\\pu{350 kPa}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{144 J.K-1}$\n"
+                "$\\pu{-144 J.K-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -5629,7 +5629,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 1,
               "choices": [
                 "$\\pu{-288 J.K-1}$\n",
                 "$\\pu{-144 J.K-1}$\n",
@@ -6015,7 +6015,7 @@
               "statement": "Um bloco de gelo a $\\pu{0 \\degree C}$ é colocado em contato com um\nrecipiente fechado que contém vapor de água a $\\pu{100 \\degree C}$ e\n$\\pu{1 atm}$. Após algum tempo, separa-se o bloco de gelo do recipiente\nfechado. Nesse instante $\\pu{25 g}$ de gelo foram convertidos em água\nlíquida a $\\pu{0 \\degree C}$ e que no recipiente fechado existe água\nlíquida e vapor em equilíbrio.\n\n**Determine** a variação de entropia do bloco de gelo.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{8,1 J.K-1}$\n"
+                "$\\pu{30 J.K-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6063,7 +6063,7 @@
               "statement": "Um motor de $\\pu{3 L}$ contendo gás nitrogênio a $\\pu{18,5 \\degree C}$\nfoi comprimido rapidamente até $\\pu{500 mL}$ por um pistão. A\ntemperatura do gás aumentou para $\\pu{28,1 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
               "solution": "",
               "answer": [
-                "$\\pu{14,3 J.K-1}$\n"
+                "$\\pu{-14,3 J.K-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6072,7 +6072,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 4,
+              "obj": 0,
               "choices": [
                 "$\\pu{-14,3 J.K-1}$\n",
                 "$\\pu{-7,1 J.K-1}$\n",
@@ -6109,7 +6109,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da entropia residual do\nmonóxido de carbono.\n",
               "solution": "",
               "answer": [
-                "$\\pu{11,5 J.K-1.mol-1}$\n"
+                "$\\pu{5,76 J.K-1.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6118,7 +6118,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 1,
+              "obj": 0,
               "choices": [
                 "$\\pu{5,76 J.K-1.mol-1}$\n",
                 "$\\pu{11,5 J.K-1.mol-1}$\n",
@@ -6162,7 +6162,7 @@
               "solution": "\n",
               "answer": [
                 "$\\pu{111 J.K-1}$\n",
-                "$\\pu{115 J.K-1}$\n",
+                "$\\pu{-115 J.K-1}$\n",
                 "$\\pu{-4 J.K-1}$\n"
               ],
               "constants": {
@@ -6203,7 +6203,7 @@
               "solution": "\n",
               "answer": [
                 "$\\pu{98,3 J.K-1.mol-1}$\n",
-                "$\\pu{108 J.K-1.mol-1}$\n",
+                "$\\pu{-108 J.K-1.mol-1}$\n",
                 "$\\pu{-10,4 J.K-1.mol-1}$\n"
               ],
               "constants": {
@@ -6615,7 +6615,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da energia livre de\nformação do $\\ce{HI}$ a $\\pu{25 \\degree C}$ e $\\pu{1 atm}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{-440 kJ.mol-1}$\n"
+                "$\\pu{-1.7 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -6655,11 +6655,11 @@
               "elements": [],
               "obj": 0,
               "choices": [
-                "$\\pu{-440 kJ.mol-1}$\n",
-                "$\\pu{-220 kJ.mol-1}$\n",
-                "$\\pu{-110 kJ.mol-1}$\n",
-                "$\\pu{110 kJ.mol-1}$\n",
-                "$\\pu{220 kJ.mol-1}$\n"
+                "$\\pu{-1.7 kJ.mol-1}$\n",
+                "$\\pu{-1.5 kJ.mol-1}$\n",
+                "$\\pu{-1.3 kJ.mol-1}$\n",
+                "$\\pu{1.5 kJ.mol-1}$\n",
+                "$\\pu{1.7 kJ.mol-1}$\n"
               ]
             },
             {
@@ -7827,10 +7827,10 @@
             },
             {
               "id_": "3A10",
-              "statement": "Considere os processos químicos a seguir.\n\n1.  Formação da água gasosa a partir de $\\ce{H2}$ e $\\ce{O2}$.\n2.  Formação da água líquida a partir de $\\ce{H2}$ e $\\ce{O2}$.\n3.  Formação da amônia a partir de $\\ce{H2}$ e $\\ce{N2}$.\n4.  Combustão do metano.\n\n**Assinale** a alternativa que relaciona os processos cujo valor\nabsoluto da entalpia de reação aumenta com a temperatura.\n",
+              "statement": "Considere os processos químicos a seguir.\n\n1.  Formação da água gasosa a partir de $\\ce{H2}$ e $\\ce{O2}$.\n2.  Formação da amônia a partir de $\\ce{H2}$ e $\\ce{N2}$.\n3.  Desidrogenaçao do etano forando eteno e $\\ce{H2}$.\n4.  Combustão do metano.\n\n**Assinale** a alternativa que relaciona os processos cujo valor\nabsoluto da entalpia de reação aumenta com a temperatura.\n",
               "solution": "",
               "answer": [
-                "**2** e **4**"
+                "**3** e **4**"
               ],
               "constants": {
                 "data": []
@@ -7841,10 +7841,10 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "**2**",
+                "**3**",
                 "**4**",
-                "**2** e **4**",
-                "**1**, **2** e **4**",
+                "**3** e **4**",
+                "**1**, **3** e **4**",
                 "**2**, **3** e **4**"
               ]
             },
@@ -8309,10 +8309,10 @@
             },
             {
               "id_": "3A46",
-              "statement": "No corredor de um laboratório são abertos, no mesmo instante, dois\nfrascos. O frasco da esquerda contem etanoato de metila, enquanto o\nfrasco da direita contem éter metílico. A distância entre os frascos é\nde $\\pu{2,4 m}$.\n\n**Determine** em que posições do laboratório é possível sentir o cheio\ndos compostos simultaneamente.\n",
+              "statement": "No corredor de um laboratório são abertos, no mesmo instante, dois\nfrascos. O frasco da esquerda contem etanoato de etila, enquanto o\nfrasco da direita contem éter metílico. A distância entre os frascos é\nde $\\pu{2,4 m}$.\n\n**Determine** em que posições do laboratório é possível sentir o cheio\ndos compostos simultaneamente.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{6 m}$ à esquerda ou $\\pu{1 m}$ à direita do frasco de etanoato de\netila.\n"
+                "$\\pu{17 m}$ à esquerda ou $\\pu{1 m}$ à direita do frasco de etanoato de\netila.\n"
               ],
               "constants": {
                 "data": []
@@ -8433,8 +8433,8 @@
               "statement": "Em $\\pu{2 min}$, $\\pu{29,7 mL}$ de hélio efundem por um orifício. Nas\nmesmas condições, $\\pu{10 mL}$ de uma mistura de $\\ce{CO}$ e $\\ce{CO2}$\nefundem nesse mesmo intervalo de tempo.\n\n-   **Determine** a fração de $\\ce{CO2}$ na mistura.\n-   **Determine** a composição dos gases que passam pelo orifício logo\n    após o início da efusão.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{50 \\%}$\n",
-                "$\\pu{55,6 \\%}$ $\\ce{CO}$ e $\\pu{45,4 \\%}$ $\\ce{CO2}$\n"
+                "$50\\%$\n",
+                "$55,6\\%$ $\\ce{CO}$ e $44,4\\%$ $\\ce{CO2}$\n"
               ],
               "constants": {
                 "data": []
@@ -8474,7 +8474,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima da massa de carga útil\nque pode ser levantada por um balão de $\\pu{10 kg}$ de hidrogênio em\nCNTP.\n",
               "solution": "",
               "answer": [
-                "$\\pu{140 kg}$\n"
+                "$\\pu{135 kg}$\n"
               ],
               "constants": {
                 "data": []
@@ -8483,13 +8483,13 @@
                 "data": []
               },
               "elements": [],
-              "obj": 2,
+              "obj": 1,
               "choices": [
-                "$\\pu{100 kg}$\n",
-                "$\\pu{120 kg}$\n",
-                "$\\pu{140 kg}$\n",
-                "$\\pu{160 kg}$\n",
-                "$\\pu{180 kg}$\n"
+                "$\\pu{115 kg}$\n",
+                "$\\pu{135 kg}$\n",
+                "$\\pu{155 kg}$\n",
+                "$\\pu{175 kg}$\n",
+                "$\\pu{195 kg}$\n"
               ]
             },
             {
@@ -9066,7 +9066,7 @@
               "statement": "**Assinale** a alternativa que mais se aproxima do raio de Van der Waals\ndo átomo de hélio.\n",
               "solution": "",
               "answer": [
-                "$\\pu{200 pm}$\n"
+                "$\\pu{130 pm}$\n"
               ],
               "constants": {
                 "data": []
@@ -9086,10 +9086,10 @@
               "obj": 1,
               "choices": [
                 "$\\pu{100 pm}$\n",
-                "$\\pu{200 pm}$\n",
-                "$\\pu{300 pm}$\n",
-                "$\\pu{400 pm}$\n",
-                "$\\pu{500 pm}$\n"
+                "$\\pu{130 pm}$\n",
+                "$\\pu{160 pm}$\n",
+                "$\\pu{190 pm}$\n",
+                "$\\pu{210 pm}$\n"
               ]
             },
             {
@@ -9804,10 +9804,10 @@
             },
             {
               "id_": "3C25",
-              "statement": "Uma unidade industrial produz uma corrente aquosa de vazão\n$\\pu{10 kg.h-1}$ contendo um sal de baixa solubilidade em água. Visando\na recuperar o sal, inicialmente empregou-se um processo de filtração. A\ncorrente de filtrado obtida apresentou apenas água e vazão de\n$\\pu{6 kg.h-1}$. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d'água com vazão de $\\pu{1 kg.h-1}$ e outra contendo apenas o sal.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de sal\nna corrente inicial.\n",
+              "statement": "Uma unidade industrial produz uma corrente aquosa de vazão\n$\\pu{10 kg.h-1}$ contendo um sal de baixa solubilidade em água. Visando\na recuperar o sal, inicialmente empregou-se um processo de filtração. A\ncorrente de filtrado obtida apresentou apenas água e vazão de\n$\\pu{6 kg.h-1}$. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor com vazão de $\\pu{1 kg.h-1}$ e outra contendo apenas o sal.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de sal\nna corrente inicial.\n",
               "solution": "",
               "answer": [
-                "$70\\%$\n"
+                "$30\\%$\n"
               ],
               "constants": {
                 "data": []
@@ -9816,7 +9816,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
+              "obj": 1,
               "choices": [
                 "$10\\%$\n",
                 "$30\\%$\n",
@@ -9910,7 +9910,7 @@
             },
             {
               "id_": "3C29",
-              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n    Fração de NaOH           Entalpia   Capacidade calorífica\n  ---------------- ------------------ -----------------------\n            $20\\%$    $\\pu{76 J.g-1}$   $\\pu{3,54 J.g-1.K-1}$\n            $30\\%$   $\\pu{104 J.g-1}$   $\\pu{3,63 J.g-1.K-1}$\n\n**Determine** a temperatura final da solução após a diluição.\n",
+              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{3,54}$ |\n|-------------------:|---------------:|----------------:|\n|               $20$ |      $\\pu{76}$ |     $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |     $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{32,8 \\degree C}$\n"
@@ -10131,7 +10131,7 @@
               "statement": "O coeficiente de absorção molar de um soluto é $\\pu{400 L mol-1 cm-1}$ a\n$\\pu{540 nm}$. Quando luz desse comprimento de onda atravessa uma célula\nde absorção de $\\pu{5 mm}$ contendo essa substância, $40\\%$ da luz é\nabsorvida.\n\n**Assinale** a alternativa que mais se aproxima da concentração desse\nsoluto.\n",
               "solution": "",
               "answer": [
-                "$\\pu{1 mmol.L-1}$\n"
+                "$\\pu{2 mmol.L-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -10140,7 +10140,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 0,
+              "obj": 1,
               "choices": [
                 "$\\pu{1 mmol.L-1}$\n",
                 "$\\pu{2 mmol.L-1}$\n",
@@ -10241,7 +10241,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Velocidade de Reações\n\n1. Velocidade média de reação:\n    $$\n    v = \\dfrac{\\Delta [\\ce{A}]}{\\Delta t}\n    $$\n2. Concentração e velocidade reacional.\n3. Velocidade instantânea de reação.\n4. Leis de velocidade e ordem de reação.\n    $$\n    v = k [\\ce{A}]^n\n    $$\n5. Constante de velocidade.\n6. Método das concentrações iniciais.\n\n### Habilidades\n\n- **Calcular** a velocidade média de consumo de reagentes ou formação de produtos.\n- **Determinar** a ordem da reação a partir da unidade de constante de velocidade.\n- **Determinar** a ordem de reação a partir da tabela de velocidades e concentrações iniciais.\n\n\n# Reações de Ordem Zero\n\n1. Velocidade instantânea de ordem zero:\n    $$\n    v = k\n    $$\n2. Lei de ordem zero:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 - kt\n    $$\n3. Linearização: $[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de ordem zero em função do tempo.\n- **Calcular** a constante de velocidade para reações de ordem zero por interpolação linear.\n\n# Reações de Primeira Ordem\n\n1. Velocidade instantânea de primeira ordem:\n    $$\n    v = k [\\ce{A}]\n    $$\n2. Lei integrada de primeira ordem:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 e^{-kt}\n    $$\n3. Tempo de meia-vida de primeira ordem:\n    $$\n    t_{1/2} = \\dfrac{\\ln 2}{k}\n    $$\n4. Linearização: $\\ln[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de primeira ordem em função do tempo.\n- **Calcular** o tempo de meia vida para uma reação de primeira ordem em função da constante cinética.\n- **Calcular** a constante de velocidade para reações de primeira ordem por interpolação linear.\n\n# Reações de Segunda Ordem\n\n1. Velocidade instantânea de segunda ordem:\n    $$\n    v = k [\\ce{A}]^2\n    $$\n2. Lei integrada de segunda ordem:\n    $$\n    \\dfrac{1}{[\\ce{A}]_t} = \\dfrac{1}{[\\ce{A}]_0} + kt\n    $$\n3. Linearização: $1/[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de segunda ordem em função do tempo.\n- **Calcular** a constante de velocidade para reações de segunda ordem por interpolação linear.\n\n# Reações de Ordem Superior\n\n1. Reações de ordem superior.\n2. Pseudo-ordem.\n3. Tempo de meia-vida de ordens superiores.\n4. Meias vidas consecutivas:\n    $$\n    \\dfrac{t_{1/2}^\\prime}{t_{1/2}} = 2^{n-1}\n    $$\n\n### Habilidades\n\n- **Determinar** a ordem de uma reação utilizando o método das meias-vidas consecutivas.",
+      "contents": "# Velocidade de Reações\n\n1. Velocidade média de reação:\n    $$\n    v = \\dfrac{\\Delta [\\ce{A}]}{\\Delta t}\n    $$\n2. Concentração e velocidade reacional.\n3. Velocidade instantânea de reação.\n4. Leis de velocidade e ordem de reação.\n    $$\n    v = k [\\ce{A}]^n\n    $$\n5. Constante de velocidade.\n6. Método das concentrações iniciais.\n\n### Habilidades\n\n- **Calcular** a velocidade média de consumo de reagentes ou formação de produtos.\n- **Determinar** a ordem da reação a partir da unidade de constante de velocidade.\n- **Determinar** a ordem de reação a partir da tabela de velocidades e concentrações iniciais.\n\n\n# Reações de Ordem Zero\n\n1. Velocidade instantânea de ordem zero:\n    $$\n    v = k\n    $$\n2. Lei de ordem zero:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 - kt\n    $$\n3. Linearização: $[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de ordem zero em função do tempo.\n- **Calcular** a constante de velocidade para reações de ordem zero por interpolação linear.\n\n# Reações de Primeira Ordem\n\n1. Velocidade instantânea de primeira ordem:\n    $$\n    v = k [\\ce{A}]\n    $$\n2. Lei integrada de primeira ordem:\n    $$\n    [\\ce{A}]_t = [\\ce{A}]_0 e^{-kt}\n    $$\n3. Tempo de meia-vida de primeira ordem:\n    $$\n    t_{1/2} = \\dfrac{\\ln 2}{k}\n    $$\n4. Linearização: $\\ln[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de primeira ordem em função do tempo.\n- **Calcular** o tempo de meia vida para uma reação de primeira ordem em função da constante cinética.\n- **Calcular** a constante de velocidade para reações de primeira ordem por interpolação linear.\n\n# Reações de Segunda Ordem\n\n1. Velocidade instantânea de segunda ordem:\n    $$\n    v = k [\\ce{A}]^2\n    $$\n2. Lei integrada de segunda ordem:\n    $$\n    \\dfrac{1}{[\\ce{A}]_t} = \\dfrac{1}{[\\ce{A}]_0} + kt\n    $$\n3. Linearização: $1/[\\ce{A}] \\times t$.\n\n### Habilidades\n\n- **Calcular** a concentração de um reagente ou produto de uma reação de segunda ordem em função do tempo.\n- **Calcular** a constante de velocidade para reações de segunda ordem por interpolação linear.\n\n# Reações de Ordem Superior\n\n1. Reações de ordem superior.\n2. Pseudo-ordem.\n3. Tempo de meia-vida de ordens superiores.\n4. Método das meias-vidas:\n    $$\n    \\dfrac{t_{1/2}^\\prime}{t_{1/2}} = 2^{n-1}\n    $$\n\n### Habilidades\n\n- **Determinar** a ordem de uma reação utilizando o método das meias-vidas.",
       "subtopics": [
         {
           "id_": "3D.1",

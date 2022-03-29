@@ -21,6 +21,7 @@ MD = Markdown(extensions=['pymdownx.tasklist', 'markdown.extensions.tables'])
 
 
 def md2soup(content):
+    # convert markdown to html and parse as soup
     content = content.replace('\\\\', '\\\\\\')
     return BeautifulSoup(MD.convert(content), 'html.parser')
 
@@ -28,9 +29,9 @@ def md2soup(content):
 def html2md(content):
     # convert md to html using pandoc and parse as soup
     return convert_text(
-        content, 'md',
-        format='html+tex_math_dollars+raw_tex')
-    # ).replace('\t', '')
+        content, 'commonmark_x',
+        format='html+tex_math_dollars+raw_tex'
+    )
 
 
 def soup_split(soup, tag):
@@ -45,9 +46,8 @@ def soup_split(soup, tag):
 EXTENSIONS = ''.join([
     '+', 'task_lists',
     '+', 'table_captions',
-    '+', 'simple_tables',
+    '+', 'pipe_tables',
     '+', 'implicit_figures',
-    '+', 'footnotes',
 ])
 
 

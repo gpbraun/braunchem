@@ -6,9 +6,8 @@
 # - Gerar o "elements"
 
 from attr import frozen, Factory
-from frontmatter import load, loads
+from frontmatter import load
 from pathlib import Path
-import base64
 
 import convert
 import latex
@@ -100,21 +99,6 @@ class Problem:
         args = f'[{latex.key(parameters)}]\n{contents+header+self.solution}'
 
         return latex.env('problem', args)
-
-
-def link2problem(cur, link):
-    # get problem contents from link
-    bytes_id = bytes.hex(base64.urlsafe_b64decode(link+"=="))
-    p_id = '-'.join(
-        [bytes_id[x:y]
-            for x, y in [(0, 8), (8, 12), (12, 16), (16, 20), (20, 32)]]
-    )
-    cur.execute(f'''SELECT * FROM "Notes" WHERE id = {"'"+p_id+"'"}''')
-    query_results = cur.fetchall()
-
-    # get YAML data and contents
-    pfile = loads(query_results[0][2])
-    return problem_contents(link, Path(), pfile)
 
 
 def file2problem(path):
@@ -273,11 +257,6 @@ def files2problemset(path):
     return ProblemSet(pool.map(file2problem, path))
 
 
-def links2problemset(cur, links, **kwargs):
-    # get YAML data and contents
-    return ProblemSet([link2problem(cur, link) for link in links], **kwargs)
-
-
 def autoprops(true_props):
     # generate choices for T/F problems
     if not true_props:
@@ -418,6 +397,7 @@ def autoprops(true_props):
             '**1**, **2**, **3** e **4**'
         ]
         obj = 3
+    # Todas corretas
     if true_props == [0, 1, 2, 3]:
         choices = [
             '**1**, **2** e **3**',
