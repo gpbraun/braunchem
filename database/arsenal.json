@@ -7192,7 +7192,7 @@
             },
             {
               "id_": "2C23",
-              "statement": "Considere uma célula eletroquímica na qual ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{294 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\npara essa reação.\n",
+              "statement": "Considere uma célula eletroquímica na qual ocorre a reação:\n\n$$\n\\ce{Hg2Cl2(s) + H2(g) -> 2 Hg(l) + 2 HCl(aq)}\n$$\n\nO potencial padrão para essa célula é $\\pu{0,268 V}$ a $\\pu{294 K}$ e\n$\\pu{0,264 V}$ a $\\pu{302 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\npara essa reação.\n",
               "solution": "",
               "answer": [
                 "$\\pu{-96,50 J.K-1.mol-1}$\n"
@@ -9887,10 +9887,10 @@
             },
             {
               "id_": "3C28",
-              "statement": "Uma turbina descarta vapor saturado a $\\pu{1 atm}$, com uma vazão de\n$\\pu{1150 kg/h}$ e entalpia $\\pu{2676 kJ/kg}$. A corrente de vapor\ndescartado pela turbina se mistura com vapor superaquecido proveniente\nde outra fonte a $\\pu{400 \\degree C}$ e $\\pu{1 atm}$, de entalpia\n$\\pu{3278 kJ/kg}$, produzindo vapor a $\\pu{300 \\degree C}$ e\n$\\pu{1 atm}$, de entalpia $\\pu{3070 kJ/kg}$, para alimentar um trocador\nde calor.\n\n**Assinale** a alternativa que mais se aproxima da alimentação de vapor\nno trocador de calor.\n",
+              "statement": "Uma turbina descarta vapor saturado a $\\pu{1 atm}$, com uma vazão de\n$\\pu{1150 kg.h-1}$ e entalpia $\\pu{2676 kJ.kg-1}$. A corrente de vapor\ndescartado pela turbina se mistura com vapor superaquecido proveniente\nde outra fonte a $\\pu{400 \\degree C}$ e $\\pu{1 atm}$, de entalpia\n$\\pu{3278 kJ.kg-1}$, produzindo vapor a $\\pu{300 \\degree C}$ e\n$\\pu{1 atm}$, de entalpia $\\pu{3070 kJ.kg-1}$, para alimentar um\ntrocador de calor.\n\n**Assinale** a alternativa que mais se aproxima da alimentação de vapor\nno trocador de calor.\n",
               "solution": "",
               "answer": [
-                "$\\pu{3390 kg/h}$\n"
+                "$\\pu{3390 kg.h-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -9901,16 +9901,16 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "$\\pu{1000 kg/h}$\n",
-                "$\\pu{2240 kg/h}$\n",
-                "$\\pu{3390 kg/h}$\n",
-                "$\\pu{4450 kg/h}$\n",
-                "$\\pu{6620 kg/h}$\n"
+                "$\\pu{1000 kg.h-1}$\n",
+                "$\\pu{2240 kg.h-1}$\n",
+                "$\\pu{3390 kg.h-1}$\n",
+                "$\\pu{4450 kg.h-1}$\n",
+                "$\\pu{6620 kg.h-1}$\n"
               ]
             },
             {
               "id_": "3C29",
-              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema NaOH-água a $\\pu{25 \\degree C}$,\nsendo o estado de referência para entalpia a água líquida a\n$\\pu{0 \\degree C}$, são apresentados a seguir.\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{J.g-1.K-1}$ |\n|-------------------:|---------------:|---------------------:|\n|               $20$ |      $\\pu{76}$ |          $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |          $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
+              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema $NaOH$-água a $\\pu{25 \\degree C}$\nsão apresentados a seguir. O estado de referência para a entalpia é água\nlíquida a $\\pu{0 \\degree C}$,\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{J.g-1.K-1}$ |\n|-------------------:|---------------:|---------------------:|\n|               $20$ |      $\\pu{76}$ |          $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |          $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{32,8 \\degree C}$\n"
@@ -10264,7 +10264,259 @@
           "title": "Reações de Ordem Superior"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "3D01",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{4NO2 (g) + O2(g) -> 2N2O5(g)}\n$$\n\nEm um experimento, são formados $\\pu{6 mol}$ de $\\ce{N2O5}$ em um\nminuto.\n\n**Assinale** a alternativa que mais se aproxima da velocidade média de\nconsumo de dióxido de nitrogênio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{200 mmol.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{100 mmol.s-1}$\n",
+                "$\\pu{200 mmol.s-1}$\n",
+                "$\\pu{300 mmol.s-1}$\n",
+                "$\\pu{400 mmol.s-1}$\n",
+                "$\\pu{500 mmol.s-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D02",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{HBrO3(aq) + HBr(aq) -> Br2(aq) + H2O(aq)}\n$$\n\nEm um experimento, são consumidos $\\pu{20 mmol}$ de $\\ce{HBr}$ em um\nsegundo.\n\n**Assinale** a alternativa que mais se aproxima da velocidade média de\nformação de bromo.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{12 mmol.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{12 mmol.s-1}$\n",
+                "$\\pu{14 mmol.s-1}$\n",
+                "$\\pu{16 mmol.s-1}$\n",
+                "$\\pu{18 mmol.s-1}$\n",
+                "$\\pu{20 mmol.s-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D03",
+              "statement": "A reação de Sabatier-Sanderens consiste na hidrogenação catalítica de\nalcenos ou de alcinos com níquel, para a obtenção de alcanos. Considere\nos resultados obtidos na reação de hidrogenação do acetileno:\n\n| $t/\\pu{min}$               |  $0$ |  $4$ |  $6$ | $10$ |\n|:---------------------------|-----:|-----:|-----:|-----:|\n| $[\\ce{C2H2}]/\\pu{mol.L-1}$ | $50$ | $38$ | $35$ | $30$ |\n\n**Assinale** a alternativa que mais se aproxima da velocidade média de\nconsumo do hidrogênio no período de $\\pu{4 min}$ a $\\pu{6 min}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{3,0 mol.L-1.min-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{1,0 mol.L-1.min-1}$\n",
+                "$\\pu{1,5 mol.L-1.min-1}$\n",
+                "$\\pu{2,0 mol.L-1.min-1}$\n",
+                "$\\pu{2,5 mol.L-1.min-1}$\n",
+                "$\\pu{3,0 mol.L-1.min-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D04",
+              "statement": "FAZER O GRÁFICO\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3D05",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{CH3Br(aq) + OH-(aq) -> CH3OH(aq) + Br-(aq)}\n$$\n\nQuando a concentração de hidróxido é duplicada, a velocidade da reação\ndobra. Quando a concentração de bromometano é triplicada, a velocidade\nda reação triplica.\n\n**Assinale** a alternativa com a ordem global da reação.\n",
+              "solution": "",
+              "answer": [
+                "2\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "0\n",
+                "1\n",
+                "2\n",
+                "3\n",
+                "4\n"
+              ]
+            },
+            {
+              "id_": "3D06",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{FeCl2(aq) + O2(aq) + HCl(aq) -> FeCl3(aq) + H2O(l)}\n$$\n\nQuando a concentração de ferro (II) é duplicada, a velocidade da aumenta\n8 vezes. Quando as concentrações de ferro (II) e oxigênio são\nduplicadas, a velocidade aumenta 16 vezes. Quando a concentração de\ntodos os reagentes é duplicada, a velocidade aumenta 32 vezes.\n\nAssinale a alternativa com a ordem da reação em relação ao ácido\nclorídrico.\n",
+              "solution": "",
+              "answer": [
+                "1\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "0\n",
+                "1\n",
+                "2\n",
+                "3\n",
+                "4\n"
+              ]
+            },
+            {
+              "id_": "3D08",
+              "statement": "Considere a reação de decomposição do $\\ce{N2O5}$:\n\n$$\n\\ce{2 NO2(g) -> 2 NO(g) + O2(g)}\n$$\n\nEssa reação possui constante cinética $k = \\pu{0.5 atm-1.s-1}$. Em um\nexperimento $\\pu{460 mg}$ de $\\ce{NO2}$ são adicionados em um recipiente\nde $\\pu{224 mL}$ a $\\pu{0 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da velocidade inicial de\nformação de $\\pu{NO}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{100 atm.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{5 atm.s-1}$\n",
+                "$\\pu{10 atm.s-1}$\n",
+                "$\\pu{50 atm.s-1}$\n",
+                "$\\pu{100 atm.s-1}$\n",
+                "$\\pu{500 atm.s-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D09",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) + 2 \\textbf{B}(g) + \\textbf{C}(g) -> 3 \\textbf{G}(g) + 4 \\textbf{F}(g)}\n$$\n\nConsidere os resultados obtidos no estudo da cinética dessa reação:\n\n| #     | $[\\ce{\\textbf{A}}]/(\\pu{mM})$ | $[\\ce{\\textbf{B}}]/(\\pu{mM})$ | $[\\ce{\\textbf{C}}]/(\\pu{mM})$ | $r_{\\ce{\\textbf{G}}}/(\\pu{mM.s-1})$ |\n|-------|------------------------------:|------------------------------:|------------------------------:|------------------------------------:|\n| **1** |                          $10$ |                         $100$ |                         $700$ |                                 $2$ |\n| **2** |                          $20$ |                         $100$ |                         $300$ |                                 $4$ |\n| **3** |                          $20$ |                         $200$ |                         $200$ |                                $16$ |\n| **4** |                          $10$ |                         $100$ |                         $400$ |                                 $2$ |\n| **5** |                          $50$ |                         $300$ |                         $500$ |                                     |\n\n**Assinale** a alternativa que mais se aproxima da velocidade inicial de\nconsumo de $\\ce{\\textbf{A}}$ no experimento **5**.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{6 mmol.L-1.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{5 mmol.L-1.s-1}$\n",
+                "$\\pu{6 mmol.L-1.s-1}$\n",
+                "$\\pu{7 mmol.L-1.s-1}$\n",
+                "$\\pu{8 mmol.L-1.s-1}$\n",
+                "$\\pu{9 mmol.L-1.s-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D10",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) + 2 \\textbf{B}(g) -> \\textbf{C}(g)}\n$$\n\nConsidere os resultados obtidos no estudo da cinética dessa reação:\n\n| #     | $[\\ce{\\textbf{A}}]/(\\pu{mM})$ | $[\\ce{\\textbf{B}}]/(\\pu{mM})$ | $r_{\\ce{\\textbf{C}}}/(\\pu{mM.s-1})$ |\n|-------|------------------------------:|------------------------------:|------------------------------------:|\n| **1** |                   $\\pu{0,60}$ |                   $\\pu{0,30}$ |                         $\\pu{12,6}$ |\n| **2** |                   $\\pu{0,60}$ |                   $\\pu{0,30}$ |                          $\\pu{1,4}$ |\n| **3** |                   $\\pu{0,60}$ |                   $\\pu{0,10}$ |                          $\\pu{4,2}$ |\n| **4** |                   $\\pu{0,17}$ |                   $\\pu{0,25}$ |                                     |\n\n**Assinale** a alternativa que mais se aproxima da velocidade inicial de\nformação de $\\ce{\\textbf{C}}$ no experimento **4**.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,87 mmol.L-1.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,59 mmol.L-1.s-1}$\n",
+                "$\\pu{0,63 mmol.L-1.s-1}$\n",
+                "$\\pu{0,74 mmol.L-1.s-1}$\n",
+                "$\\pu{0,87 mmol.L-1.s-1}$\n",
+                "$\\pu{0,96 mmol.L-1.s-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D11",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{\\textbf{A}(aq) + \\textbf{B}(aq) + \\textbf{C}(aq) -> \\textbf{G}(aq)}\n$$\n\nConsidere os resultados obtidos no estudo da cinética dessa reação:\n\n| #     | $[\\ce{\\textbf{A}}]/(\\pu{mM})$ | $[\\ce{\\textbf{B}}]/(\\pu{mM})$ | $[\\ce{\\textbf{C}}]/(\\pu{mM})$ | $r_{\\ce{\\textbf{G}}}/(\\pu{mM.s-1})$ |\n|-------|------------------------------:|------------------------------:|------------------------------:|------------------------------------:|\n| **1** |                   $\\pu{1,25}$ |                   $\\pu{1,25}$ |                   $\\pu{1,25}$ |                          $\\pu{8,7}$ |\n| **2** |                   $\\pu{2,50}$ |                   $\\pu{1,25}$ |                   $\\pu{1,25}$ |                         $\\pu{17,4}$ |\n| **3** |                   $\\pu{1,25}$ |                   $\\pu{3,00}$ |                   $\\pu{1,25}$ |                         $\\pu{50,8}$ |\n| **4** |                   $\\pu{1,25}$ |                   $\\pu{3,00}$ |                   $\\pu{3,75}$ |                        $\\pu{457,0}$ |\n| **5** |                   $\\pu{3,00}$ |                   $\\pu{1,00}$ |                   $\\pu{1,15}$ |                                     |\n\n**Assinale** a alternativa que mais se aproxima da velocidade inicial de\nformação de $\\ce{\\textbf{G}}$ no experimento **5**.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{11,5 mmol.L-1.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{10,5 mmol.L-1.s-1}$\n",
+                "$\\pu{11,5 mmol.L-1.s-1}$\n",
+                "$\\pu{12,5 mmol.L-1.s-1}$\n",
+                "$\\pu{13,5 mmol.L-1.s-1}$\n",
+                "$\\pu{14,5 mmol.L-1.s-1}$\n"
+              ]
+            },
+            {
+              "id_": "3D12",
+              "statement": "Considere a reação de síntese do gás fosgênio.\n\n$$\n\\ce{CO(g) + Cl2(g) -> COCl2(g)}\n$$\n\nConsidere os resultados obtidos no estudo da cinética dessa reação:\n\n| #     | $[\\ce{CO}]/(\\pu{mM})$ | $[\\ce{Cl2}]/(\\pu{mM})$ | $r_{\\ce{COCl2}}/(\\pu{mM.s-1})$ |\n|-------|----------------------:|-----------------------:|-------------------------------:|\n| **1** |           $\\pu{0,12}$ |            $\\pu{0,20}$ |                   $\\pu{0,121}$ |\n| **2** |           $\\pu{0,24}$ |            $\\pu{0,20}$ |                   $\\pu{0,241}$ |\n| **3** |           $\\pu{0,24}$ |            $\\pu{0,40}$ |                   $\\pu{0,682}$ |\n| **4** |           $\\pu{0,17}$ |            $\\pu{0,34}$ |                                |\n\n**Assinale** a alternativa que mais se aproxima da velocidade inicial de\nformação de $\\ce{COCl2}$ no experimento **4**.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,77 mmol.L-1.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,17 mmol.L-1.s-1}$\n",
+                "$\\pu{0,37 mmol.L-1.s-1}$\n",
+                "$\\pu{0,57 mmol.L-1.s-1}$\n",
+                "$\\pu{0,77 mmol.L-1.s-1}$\n",
+                "$\\pu{0,97 mmol.L-1.s-1}$\n"
+              ]
+            }
+          ],
+          "id_": "3D1",
+          "title": "Nível I"
+        }
+      ]
     },
     {
       "id_": "3E",
