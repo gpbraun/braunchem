@@ -10872,29 +10872,6 @@
               ]
             },
             {
-              "id_": "3D29",
-              "statement": "Considere os resultados obtidos no estudo cinético da decomposição de\nquatro substâncias, $\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$,\n$\\ce{\\textbf{C}}$ e $\\ce{\\textbf{D}}$.\n\n![Gráfico](3D22-1P.svg)\n\n**Assinale** a alternativa com a substância que sofre decaimento com\ncinética de primeira ordem.\n",
-              "solution": "",
-              "answer": [
-                "$\\ce{\\textbf{D}}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 4,
-              "choices": [
-                "Nenhuma\n",
-                "$\\ce{\\textbf{A}}$\n",
-                "$\\ce{\\textbf{B}}$\n",
-                "$\\ce{\\textbf{C}}$\n",
-                "$\\ce{\\textbf{D}}$\n"
-              ]
-            },
-            {
               "id_": "3D30",
               "statement": "Dois isômeros $\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$ se decompões com\ncinética de segunda ordem formando o composto $\\ce{\\textbf{C}}$:\n\n$$\n\\begin{aligned}\n\\ce{2 \\textbf{A} &->[$k_1$] \\textbf{C}} \\\\\n\\ce{2 \\textbf{B} &->[$k_2$] \\textbf{C}}\n\\end{aligned}\n$$\n\nEm um experimento, uma solução é preparada com $\\pu{10 mmol.L-1}$ de\n$\\ce{\\textbf{A}}$ e $\\pu{25 mmol.L-1}$ de $\\ce{\\textbf{B}}$. Após três\nminutos, a concentração de $\\ce{\\textbf{C}}$ é $\\pu{3,7 mmol.L-1}$.\n\nAssinale a alternativa que mais se aproxima do valor da constante\ncinética $k_2$.\n",
               "solution": "",
@@ -10918,6 +10895,29 @@
               ]
             },
             {
+              "id_": "3D29",
+              "statement": "Considere os resultados obtidos no estudo cinético da decomposição de\nquatro substâncias, $\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$,\n$\\ce{\\textbf{C}}$ e $\\ce{\\textbf{D}}$.\n\n![Gráfico](3D29-1P.svg)\n\n**Assinale** a alternativa com a substância que sofre decaimento com\ncinética de primeira ordem.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{\\textbf{D}}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "Nenhuma\n",
+                "$\\ce{\\textbf{A}}$\n",
+                "$\\ce{\\textbf{B}}$\n",
+                "$\\ce{\\textbf{C}}$\n",
+                "$\\ce{\\textbf{D}}$\n"
+              ]
+            },
+            {
               "id_": "3D31",
               "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{C}(g) + 4 \\textbf{D}(g) + \\textbf{E}(g)}\n$$\n\nA lei de velocidade para essa reação é:\n\n$$\nv_{\\ce{\\textbf{A}}} = -(\\pu{0,25 h-1}) P_{\\ce{\\textbf{A}}}\n$$\n\nUm reator químico, projetado com uma válvula de alívio de pressão que é\nacionada a $\\pu{8,5 atm}$, contém uma mistura gasosa composta por\nquantidades iguais do reagente $\\ce{\\textbf{A}}$ e de uma substância\ninerte $\\ce{\\textbf{B}}$, a $\\pu{10 \\degree C}$ e $\\pu{1 atm}$.\n\n-   **Determine** o tempo até que a válvula de alívio seja acionada.\n-   **Determine** a composição do reator no momento de acionamento da\n    válvula.\n-   **Determine** a quantidade máxima de mistura gasosa que pode ser\n    adicionada ao reator sem que a válvula de alívio seja acionada.\n",
               "solution": "\n",
@@ -10938,7 +10938,7 @@
             },
             {
               "id_": "3D33",
-              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{B}(g)}\n$$\n\nUm reator contem $\\pu{20 atm}$ de uma mistura gasosa contendo $75\\%$ da\nsubstância $\\ce{\\textbf{A}}$ e $25\\%$ do inerte $\\ce{\\textbf{I}}$ em\nvolume. Os resultados a seguir foram obtidos no estudo da cinética dessa\nreação:\n\n| $t/\\pu{s}$       | $\\pu{0,89}$ | $\\pu{2,08}$ | $\\pu{3,75}$ | $\\pu{6,25}$ | $\\pu{10,42}$ |\n|:-----------------|------------:|------------:|------------:|------------:|-------------:|\n| $P/\\pu{atm}$     |   $\\pu{21}$ |   $\\pu{22}$ |   $\\pu{23}$ |   $\\pu{24}$ |    $\\pu{25}$ |\n| $v/\\pu{atm.min}$ | $\\pu{1,96}$ | $\\pu{1,44}$ | $\\pu{1,00}$ | $\\pu{0,64}$ |  $\\pu{0,36}$ |\n\n-   **Determine** a ordem da reação.\n-   **Determine** a constante cinética da reação.\n-   **Determine** a composição do reator em $\\pu{10,42 min}$.\n",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{B}(g)}\n$$\n\nUm reator contem $\\pu{20 atm}$ de uma mistura gasosa contendo $75\\%$ da\nsubstância $\\ce{\\textbf{A}}$ e $25\\%$ do inerte $\\ce{\\textbf{I}}$ em\nvolume. Os resultados a seguir foram obtidos no estudo da cinética dessa\nreação:\n\n| $t/\\pu{s}$         | $\\pu{0,89}$ | $\\pu{2,08}$ | $\\pu{3,75}$ | $\\pu{6,25}$ | $\\pu{10,42}$ |\n|:-------------------|------------:|------------:|------------:|------------:|-------------:|\n| $P/\\pu{atm}$       |   $\\pu{21}$ |   $\\pu{22}$ |   $\\pu{23}$ |   $\\pu{24}$ |    $\\pu{25}$ |\n| $v/\\pu{atm.min-1}$ | $\\pu{1,96}$ | $\\pu{1,44}$ | $\\pu{1,00}$ | $\\pu{0,64}$ |  $\\pu{0,36}$ |\n\n-   **Determine** a ordem da reação.\n-   **Determine** a constante cinética da reação.\n-   **Determine** a composição do reator em $\\pu{10,42 min}$.\n",
               "solution": "\n",
               "answer": [
                 "Segunda ordem\n",
