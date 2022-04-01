@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            xlabel = {tempo, $t/\unit{s}$},
+            ylabel = {$1/([\ce{H2}]/\unit{mol.L^{-1}})$},
+            xmin = 0, xmax = 10,
+            grid = major,
+        ]
+    \addplot [domain=0:10]
+        {
+            100 + 3*x
+        };
+    \end{axis}
+\end{tikzpicture}
