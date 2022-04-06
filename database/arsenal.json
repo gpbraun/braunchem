@@ -10594,7 +10594,7 @@
               "statement": "Considere a reação de decomposição do etano a $\\pu{700 \\degree C}$:\n\n$$\n\\ce{C2H6 -> 2 CH3}\n$$\n\nCom cinética de primeira ordem e constante $k = \\pu{2 h-1}$. Em um\nexperimento a pressão inicial de etano é $\\pu{20 atm}$.\n\n**Assinale** a alternativa que mais se aproxima do tempo necessário para\nque a pressão de metano caia para $\\pu{2 atm}$\n",
               "solution": "",
               "answer": [
-                "$\\pu{140 min}$\n"
+                "$\\pu{70 min}$\n"
               ],
               "constants": {
                 "data": []
@@ -10605,11 +10605,11 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\pu{110 min}$\n",
-                "$\\pu{140 min}$\n",
-                "$\\pu{170 min}$\n",
-                "$\\pu{200 min}$\n",
-                "$\\pu{230 min}$\n"
+                "$\\pu{50 min}$\n",
+                "$\\pu{70 min}$\n",
+                "$\\pu{90 min}$\n",
+                "$\\pu{120 min}$\n",
+                "$\\pu{150 min}$\n"
               ]
             },
             {
@@ -10640,7 +10640,7 @@
               "statement": "Considere a reação de decomposição do $\\ce{NO2}$:\n\n$$\n\\ce{2 NO2(g) -> 2 NO(g) + O2(g)}\n$$\n\nCom cinética de segunda ordem e constante $k = \\pu{0,54 L.mol-1.s-1}$.\nEm um experimento a concentração inicial de $\\ce{NOBr}$ é\n$\\pu{0,3 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima do tempo necessário para\nque a concentração de $\\ce{NOBr}$ caia para $\\pu{0,1 mol.L-1}$\n",
               "solution": "",
               "answer": [
-                "$\\pu{12 mmol.L}$\n"
+                "$\\pu{12 s}$\n"
               ],
               "constants": {
                 "data": []
@@ -10651,11 +10651,11 @@
               "elements": [],
               "obj": 1,
               "choices": [
-                "$\\pu{10 mmol.L}$\n",
-                "$\\pu{12 mmol.L}$\n",
-                "$\\pu{14 mmol.L}$\n",
-                "$\\pu{16 mmol.L}$\n",
-                "$\\pu{18 mmol.L}$\n"
+                "$\\pu{10 s}$\n",
+                "$\\pu{12 s}$\n",
+                "$\\pu{14 s}$\n",
+                "$\\pu{16 s}$\n",
+                "$\\pu{18 s}$\n"
               ]
             },
             {
@@ -10758,7 +10758,7 @@
             },
             {
               "id_": "3D25",
-              "statement": "Considere os resultados obtidos no estudo cinético da decomposição da\nsubstância $\\ce{\\textbf{A}}$.\n\n| $t/\\pu{s}$                      |        $100$ |        $200$ |        $300$ |        $400$ |        $500$ |\n|:--------------------------------|-------------:|-------------:|-------------:|-------------:|-------------:|\n| $[\\ce{\\textbf{A}}]/\\pu{M}$      |  $\\pu{0,63}$ |  $\\pu{0,43}$ |  $\\pu{0,30}$ |  $\\pu{0,21}$ |  $\\pu{0,14}$ |\n| $1/([\\ce{\\textbf{A}}]/\\pu{M})$  | $\\pu{-0,46}$ | $\\pu{-0,84}$ | $\\pu{-1,20}$ | $\\pu{-1,56}$ | $\\pu{-1,97}$ |\n| $\\ln([\\ce{\\textbf{A}}]/\\pu{M})$ |  $\\pu{1,59}$ |  $\\pu{2,33}$ |  $\\pu{3,33}$ |  $\\pu{4,76}$ |  $\\pu{7,14}$ |\n\n**Assinale** alternativa que mais se aproxima da constante cinética\ndessa reação.\n",
+              "statement": "Considere os resultados obtidos no estudo cinético da decomposição da\nsubstância $\\ce{\\textbf{A}}$.\n\n| $t/\\pu{s}$                      |        $100$ |        $200$ |        $300$ |        $400$ |        $500$ |\n|:--------------------------------|-------------:|-------------:|-------------:|-------------:|-------------:|\n| $[\\ce{\\textbf{A}}]/\\pu{M}$      |  $\\pu{0,63}$ |  $\\pu{0,43}$ |  $\\pu{0,30}$ |  $\\pu{0,21}$ |  $\\pu{0,14}$ |\n| $\\ln([\\ce{\\textbf{A}}]/\\pu{M})$ | $\\pu{-0,46}$ | $\\pu{-0,84}$ | $\\pu{-1,20}$ | $\\pu{-1,56}$ | $\\pu{-1,97}$ |\n| $1/([\\ce{\\textbf{A}}]/\\pu{M})$  |  $\\pu{1,59}$ |  $\\pu{2,33}$ |  $\\pu{3,33}$ |  $\\pu{4,76}$ |  $\\pu{7,14}$ |\n\n**Assinale** alternativa que mais se aproxima da constante cinética\ndessa reação.\n",
               "solution": "",
               "answer": [
                 "$\\pu{4e-3 s-1}$\n"
@@ -10781,7 +10781,7 @@
             },
             {
               "id_": "3D24",
-              "statement": "Considere a reação química:\n\n$$\n\\ce{\\textbf{A}(g) -> \\textbf{B}(g)}\n$$\n\nConsidere as proposições:\n\n1.  Se $[\\ce{\\textbf{A}}]$ variar linearmente com o tempo, a lei de\n    velocidade da reação dependerá somente da constante de velocidade.\n2.  Se $1/[\\ce{\\textbf{A}}]$ variar linearmente com o tempo, a reação\n    será de segunda ordem.\n3.  Se a velocidade da reação variar linearmente com\n    $[\\ce{\\textbf{A}}]$, a reação será de primeira ordem.\n4.  Se a velocidade da reação variar linearmente com\n    $[\\ce{\\textbf{A}}]^2$, a reação será de primeira ordem.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{\\textbf{A}(g) -> \\textbf{B}(g)}\n$$\n\nConsidere as proposições:\n\n1.  Se $[\\ce{\\textbf{A}}]$ variar linearmente com o tempo, a lei de\n    velocidade da reação dependerá somente da constante de velocidade.\n2.  Se $1/[\\ce{\\textbf{A}}]$ variar linearmente com o tempo, a reação\n    será de segunda ordem.\n3.  Se a velocidade da reação variar linearmente com\n    $[\\ce{\\textbf{A}}]$, a reação será de primeira ordem.\n4.  Se a velocidade da reação variar linearmente com\n    $[\\ce{\\textbf{A}}]^2$, a reação será de segunda ordem.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**1**, **2**, **3** e **4**"
@@ -10830,7 +10830,7 @@
               "statement": "Considere a reação de decomposição do amônia:\n\n$$\n\\ce{NH3(g) -> 1/2 N2(g) + 3/2 H2(g)}\n$$\n\nOs resultados a seguir foram obtidos no estudo da cinética dessa reação:\n\n| $P_{\\ce{NH3}}/\\pu{atm}$ | $264$ | $130$ |  $59$ | $16$ |\n|:------------------------|------:|------:|------:|-----:|\n| $t_{1/2}/\\pu{min}$      | $456$ | $228$ | $102$ | $60$ |\n\n**Assinale** a alternativa com a ordem dessa reação.\n",
               "solution": "",
               "answer": [
-                "$\\pu{1 h}$\n"
+                "$\\pu{0}$\n"
               ],
               "constants": {
                 "data": []
@@ -10841,11 +10841,11 @@
               "elements": [],
               "obj": 0,
               "choices": [
-                "$\\pu{1 h}$\n",
-                "$\\pu{2 h}$\n",
-                "$\\pu{3 h}$\n",
-                "$\\pu{4 h}$\n",
-                "$\\pu{5 h}$\n"
+                "$\\pu{0}$\n",
+                "$\\pu{1}$\n",
+                "$\\pu{2}$\n",
+                "$\\pu{3}$\n",
+                "$\\pu{4}$´\n"
               ]
             },
             {
@@ -10896,10 +10896,10 @@
             },
             {
               "id_": "3D29",
-              "statement": "Considere os resultados obtidos no estudo cinético da decomposição de\nquatro substâncias, $\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$,\n$\\ce{\\textbf{C}}$ e $\\ce{\\textbf{D}}$.\n\n![Gráfico](3D29-1P.svg)\n\n**Assinale** a alternativa com a substância que sofre decaimento com\ncinética de primeira ordem.\n",
+              "statement": "Considere os resultados obtidos no estudo cinético da decomposição de\nquatro substâncias, $\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$,\n$\\ce{\\textbf{C}}$ e $\\ce{\\textbf{D}}$.\n\n![Gráfico](3D29-1P.svg)\n\n**Assinale** a alternativa com a substância que sofre decaimento com\ncinética de segunda ordem.\n",
               "solution": "",
               "answer": [
-                "$\\ce{\\textbf{D}}$\n"
+                "$\\ce{\\textbf{C}}$\n"
               ],
               "constants": {
                 "data": []
@@ -10908,13 +10908,13 @@
                 "data": []
               },
               "elements": [],
-              "obj": 4,
+              "obj": 2,
               "choices": [
-                "Nenhuma\n",
                 "$\\ce{\\textbf{A}}$\n",
                 "$\\ce{\\textbf{B}}$\n",
                 "$\\ce{\\textbf{C}}$\n",
-                "$\\ce{\\textbf{D}}$\n"
+                "$\\ce{\\textbf{D}}$\n",
+                "N\n"
               ]
             },
             {
@@ -10968,11 +10968,27 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Modelos Reacionais\n\n1. Efeito da temperatura na velocidade das reações.\n2. Energia de Ativação.\n3. Equação de Arrhenius:\n    $$\n    k = A e^{-E_{\\text{a}}/RT}\n    $$\n4. Teoria das colições.\n5. Teoria do estado de transição.\n\n### Habilidades\n\n- **Calcular** a constante cinética em diferentes temperaturas.",
+      "contents": "# Reações Elementares\n\n1. Mecanismos reacionais.\n2. Molecularidade.\n3. Leis de velocidade de reações elementares.\n\n### Habilidades\n\n- **Classificar** uma reação quanto a sua molecularidade.\n- **Determinar** a lei de velocidade para uma reação elementar.\n\n# Energia de Ativação\n\n1. Velocidade de reação e temperatura.\n2. Energia de Ativação.\n3. Equação de Arrhenius:\n    $$\n    k = A e^{-E_{\\text{a}}/RT}\n    $$\n4. Constante cinética e temperatura:\n    $$\n    \\ln\\left(\\dfrac{k_2}{k_1}\\right) = -\\frac{E_\\text{a}}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n    $$\n5. Linearização: $\\ln(k) \\times 1/T$.\n\n### Habilidades\n\n- **Calcular** a constante cinética em diferentes temperaturas.\n\n# Teoria das Colisões\n\n1. Frequência de colisões.\n2. Fator estérico.\n3. Velocidade de reação e área superficial.\n\n### Habilidades\n\n- **Comparar** a velocidade de reação com diferentes áreas superficiais.\n\n# Teoria do Complexo Ativado\n\n1. Perfil energético da reação.\n2. Intermediários e estados de transição.\n\n### Habilidades\n\n- **Identificar** os intermediátios e estados de transição no perfil energético da reação.\n- **Determinar** a energia e energia de ativação de uma reação a partir do perfil energético da reação.\n\n# Catálise\n\n1. Mecanismos de atuação do catalisador.\n2. Catálise homogênea e heterogênea.\n3. Velocidade da reação catalisada.\n4. Perfil energético da reação catalisada.\n5. Catálise enzimática.\n\n### Habilidades\n\n- **Calcular** a velocidade de uma reação catalisada em função de sua nova energia de ativação.\n- **Classificar** um catalisador como homogêneo ou heterogêneo.",
       "subtopics": [
         {
           "id_": "3E.1",
-          "title": "Modelos Reacionais"
+          "title": "Reações Elementares"
+        },
+        {
+          "id_": "3E.2",
+          "title": "Energia de Ativação"
+        },
+        {
+          "id_": "3E.3",
+          "title": "Teoria das Colisões"
+        },
+        {
+          "id_": "3E.4",
+          "title": "Teoria do Complexo Ativado"
+        },
+        {
+          "id_": "3E.5",
+          "title": "Catálise"
         }
       ],
       "problems": []
