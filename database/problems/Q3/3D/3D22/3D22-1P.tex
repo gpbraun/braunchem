@@ -1,12 +1,13 @@
 \begin{tikzpicture}
     \begin{axis}
         [
-            xlabel = {tempo, $t/\unit{s}$},
-            ylabel = {$1/([\ce{H2}]/\unit{mol.L^{-1}})$},
+            xlabel = {Tempo, $t/\unit{s}$},
+            ylabel = {$(\qty{1}{mol.L^{-1}})/[\ce{H2}]$},
             xmin = 0, xmax = 10,
             grid = major,
+            domain=0:10,
         ]
-    \addplot [domain=0:10]
+    \addplot
         {
             100 + 3*x
         };

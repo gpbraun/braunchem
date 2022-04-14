@@ -2446,7 +2446,7 @@
               "choices": [
                 "$\\ce{K+} > \\ce{S^2-}$\n",
                 "$\\ce{K+} = \\ce{S^2-}$\n",
-                "$\\ce{Ba^2+} > \\ce{S^2-}$\n",
+                "$\\ce{Cs^+} > \\ce{S^2-}$\n",
                 "$\\ce{K+} < \\ce{S^2-}$\n",
                 "$\\ce{Ba^2+} < \\ce{S^2-}$\n"
               ]
@@ -2470,7 +2470,7 @@
                 "A primeira energia de ionização do cálcio é maior que a do magnésio.\n",
                 "A primeira energia de ionização do magnésio é menor que a do sódio.\n",
                 "A primeira energia de ionização do alumínio é maior que a do sódio.\n",
-                "A segunda energia de ionização do cálcio é menor que a do magnésio.\n",
+                "A segunda energia de ionização do cálcio é maior que a do magnésio.\n",
                 "A segunda energia de ionização do magnésio é maior que a do sódio.\n"
               ]
             },
@@ -2491,7 +2491,7 @@
               "obj": 4,
               "choices": [
                 "$\\ce{Cs} > \\ce{Na} > \\ce{Al} > \\ce{S} > \\ce{Cl}$\n",
-                "$\\ce{Bi} > \\ce{Ga} > \\ce{Ar} > \\ce{Br} > \\ce{Al}$\n",
+                "$\\ce{Bi} > \\ce{Ga} > \\ce{Al} > \\ce{Br} > \\ce{Ar}$\n",
                 "$\\ce{K} > \\ce{Ca} > \\ce{P} > \\ce{F} > \\ce{Ne}$\n",
                 "$\\ce{B} > \\ce{C} > \\ce{N} > \\ce{O} > \\ce{F}$\n",
                 "$\\ce{I} > \\ce{Se} > \\ce{Xe} > \\ce{Br} > \\ce{Si}$\n"
@@ -9910,7 +9910,7 @@
             },
             {
               "id_": "3C29",
-              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema $NaOH$-água a $\\pu{25 \\degree C}$\nsão apresentados a seguir. O estado de referência para a entalpia é água\nlíquida a $\\pu{0 \\degree C}$,\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{J.g-1.K-1}$ |\n|-------------------:|---------------:|---------------------:|\n|               $20$ |      $\\pu{76}$ |          $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |          $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
+              "statement": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a $30\\%$ em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a $20\\%$ em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema $\\ce{NaOH}$-água a\n$\\pu{25 \\degree C}$ são apresentados a seguir. O estado de referência\npara a entalpia é água líquida a $\\pu{0 \\degree C}$,\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{J.g-1.K-1}$ |\n|-------------------:|---------------:|---------------------:|\n|               $20$ |      $\\pu{76}$ |          $\\pu{3,54}$ |\n|               $30$ |     $\\pu{104}$ |          $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{32,8 \\degree C}$\n"
@@ -10065,7 +10065,7 @@
             },
             {
               "id_": "3C35",
-              "statement": "Considere as relações a respeito da condutividade molar de soluções\ndiluídas de $\\ce{CaCl2}$, $\\ce{NaCl}$ e $\\ce{KCl}$.\n\n1.  $\\Lambda_{\\ce{CaCl2}}/\\Lambda_{\\ce{KCl}} = \\pu{1,9}$\n2.  $\\Lambda_{\\ce{CaCl2}}/\\Lambda_{\\ce{NaCl}} = \\pu{1,8}$\n\n**Assinale** a alternativa com a ordenação correta para a condutividade\nde soluções de mesma concentração mássica dessas espécies.\n",
+              "statement": "Considere as relações a respeito da condutividade molar de soluções\ndiluídas de $\\ce{CaCl2}$, $\\ce{NaCl}$ e $\\ce{KCl}$.\n\n1.  $\\Lambda_{\\ce{CaCl2}}/\\Lambda_{\\ce{KCl}} = \\pu{1,8}$\n2.  $\\Lambda_{\\ce{CaCl2}}/\\Lambda_{\\ce{NaCl}} = \\pu{1,9}$\n\n**Assinale** a alternativa com a ordenação correta para a condutividade\nde soluções de mesma concentração mássica dessas espécies.\n",
               "solution": "",
               "answer": [
                 "$\\kappa_{\\ce{CaCl2}} = \\kappa_{\\ce{NaCl}} > \\kappa_{\\ce{KCl}}$\n"
@@ -10804,7 +10804,7 @@
             },
             {
               "id_": "3D26",
-              "statement": "Considere a reação de decomposição do etanal:\n\n$$\n\\ce{CH3CHO(g) -> CH4(g) + CO(g)}\n$$\n\nEm um experimento, metade do etanal em cim cilindro de $\\pu{90 atm}$\nsofre decomposição em $\\pu{20 min}$. A lei de velocidade para essa\nreação é:\n\n$$\nv_{\\ce{CH3CHO}} = -k [\\ce{CH3CHO}]^{3/2}\n$$\n\n**Assinale** a alternativa que mais se aproxima do tempo necessário para\na decomposição de metade do etanal em um cilindro de $\\pu{10 atm}$.\n",
+              "statement": "Considere a reação de decomposição do etanal:\n\n$$\n\\ce{CH3CHO(g) -> CH4(g) + CO(g)}\n$$\n\nEm um experimento, metade do etanal em um cilindro de $\\pu{90 atm}$\nsofre decomposição em $\\pu{20 min}$. A lei de velocidade para essa\nreação é:\n\n$$\nv_{\\ce{CH3CHO}} = -k [\\ce{CH3CHO}]^{3/2}\n$$\n\n**Assinale** a alternativa que mais se aproxima do tempo necessário para\na decomposição de metade do etanal em um cilindro de $\\pu{10 atm}$.\n",
               "solution": "",
               "answer": [
                 "$\\pu{1 h}$\n"
@@ -10850,7 +10850,7 @@
             },
             {
               "id_": "3D28",
-              "statement": "Considere os resultados obtidos no estudo cinético da decomposição de\ntrês substâncias, $\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e\n$\\ce{\\textbf{C}}$\n\n| $t/\\pu{s}$                 |         $200$ |         $210$ |         $202$ |         $230$ |         $240$ |\n|:---------------------------|--------------:|--------------:|--------------:|--------------:|--------------:|\n| $[\\ce{\\textbf{A}}]/\\pu{M}$ | $\\pu{0,8000}$ | $\\pu{0,7900}$ | $\\pu{0,7800}$ | $\\pu{0,7700}$ | $\\pu{0,7600}$ |\n| $[\\ce{\\textbf{B}}]/\\pu{M}$ | $\\pu{0,8333}$ | $\\pu{0,8264}$ | $\\pu{0,8196}$ | $\\pu{0,8130}$ | $\\pu{0,8064}$ |\n| $[\\ce{\\textbf{C}}]/\\pu{M}$ | $\\pu{0,8186}$ | $\\pu{0,8105}$ | $\\pu{0,8024}$ | $\\pu{0,7945}$ | $\\pu{0,7866}$ |\n\n**Assinale** a com a ordem da cinética de decomposição de\n$\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e $\\ce{\\textbf{C}}$,\nrespectivamente.\n",
+              "statement": "Considere os resultados obtidos no estudo cinético da decomposição de\ntrês substâncias, $\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e\n$\\ce{\\textbf{C}}$\n\n| $t/\\pu{s}$                 |         $200$ |         $210$ |         $202$ |         $230$ |         $240$ |\n|:---------------------------|--------------:|--------------:|--------------:|--------------:|--------------:|\n| $[\\ce{\\textbf{A}}]/\\pu{M}$ | $\\pu{0,8000}$ | $\\pu{0,7900}$ | $\\pu{0,7800}$ | $\\pu{0,7700}$ | $\\pu{0,7600}$ |\n| $[\\ce{\\textbf{B}}]/\\pu{M}$ | $\\pu{0,8333}$ | $\\pu{0,8264}$ | $\\pu{0,8196}$ | $\\pu{0,8130}$ | $\\pu{0,8064}$ |\n| $[\\ce{\\textbf{C}}]/\\pu{M}$ | $\\pu{0,8186}$ | $\\pu{0,8105}$ | $\\pu{0,8024}$ | $\\pu{0,7945}$ | $\\pu{0,7866}$ |\n\n**Assinale** a alternativa com a ordem da cinética de decomposição de\n$\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e $\\ce{\\textbf{C}}$,\nrespectivamente.\n",
               "solution": "",
               "answer": [
                 "0, 2 e 1.\n"
@@ -10873,7 +10873,7 @@
             },
             {
               "id_": "3D30",
-              "statement": "Dois isômeros $\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$ se decompões com\ncinética de segunda ordem formando o composto $\\ce{\\textbf{C}}$:\n\n$$\n\\begin{aligned}\n\\ce{2 \\textbf{A} &->[$k_1$] \\textbf{C}} \\\\\n\\ce{2 \\textbf{B} &->[$k_2$] \\textbf{C}}\n\\end{aligned}\n$$\n\nEm um experimento, uma solução é preparada com $\\pu{10 mmol.L-1}$ de\n$\\ce{\\textbf{A}}$ e $\\pu{25 mmol.L-1}$ de $\\ce{\\textbf{B}}$. Após três\nminutos, a concentração de $\\ce{\\textbf{C}}$ é $\\pu{3,7 mmol.L-1}$.\n\nAssinale a alternativa que mais se aproxima do valor da constante\ncinética $k_2$.\n",
+              "statement": "Dois isômeros $\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$ se decompões com\ncinética de segunda ordem formando o composto $\\ce{\\textbf{C}}$:\n\n$$\n\\begin{aligned}\n\\ce{2 \\textbf{A} &->[$k_1$] \\textbf{C}} \\\\\n\\ce{2 \\textbf{B} &->[$k_2$] \\textbf{C}}\n\\end{aligned}\n$$\n\nSendo $k_1=\\pu{0,25 L.mol-1.s-1}$. Em um experimento, uma solução é\npreparada com $\\pu{10 mmol.L-1}$ de $\\ce{\\textbf{A}}$ e\n$\\pu{25 mmol.L-1}$ de $\\ce{\\textbf{B}}$. Após três minutos, a\nconcentração de $\\ce{\\textbf{C}}$ é $\\pu{3,7 mmol.L-1}$.\n\nAssinale a alternativa que mais se aproxima do valor da constante\ncinética $k_2$.\n",
               "solution": "",
               "answer": [
                 "$\\pu{2,20 L.mol-1.s-1}$\n"
@@ -10919,7 +10919,7 @@
             },
             {
               "id_": "3D31",
-              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{C}(g) + 4 \\textbf{D}(g) + \\textbf{E}(g)}\n$$\n\nA lei de velocidade para essa reação é:\n\n$$\nv_{\\ce{\\textbf{A}}} = -(\\pu{0,25 h-1}) P_{\\ce{\\textbf{A}}}\n$$\n\nUm reator químico, projetado com uma válvula de alívio de pressão que é\nacionada a $\\pu{8,5 atm}$, contém uma mistura gasosa composta por\nquantidades iguais do reagente $\\ce{\\textbf{A}}$ e de uma substância\ninerte $\\ce{\\textbf{B}}$, a $\\pu{10 \\degree C}$ e $\\pu{1 atm}$.\n\n-   **Determine** o tempo até que a válvula de alívio seja acionada.\n-   **Determine** a composição do reator no momento de acionamento da\n    válvula.\n-   **Determine** a quantidade máxima de mistura gasosa que pode ser\n    adicionada ao reator sem que a válvula de alívio seja acionada.\n",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{C}(g) + 4 \\textbf{D}(g) + \\textbf{E}(g)}\n$$\n\nA lei de velocidade para essa reação a $\\pu{293 \\degree C}$ é:\n\n$$\nv_{\\ce{\\textbf{A}}} = -(\\pu{0,25 h-1}) P_{\\ce{\\textbf{A}}}\n$$\n\nUm reator químico, projetado com uma válvula de alívio de pressão que é\nacionada a $\\pu{8,5 atm}$, contém uma mistura gasosa composta por\nquantidades iguais do reagente $\\ce{\\textbf{A}}$ e de uma substância\ninerte $\\ce{\\textbf{B}}$, a $\\pu{10 \\degree C}$ e $\\pu{2 atm}$. Ao\nelevar rapidamente a temperatura do reator para $\\pu{293 \\degree C}$, o\nreagente $\\ce{\\textbf{A}}$ começa a se decompor.\n\n-   **Determine** o tempo até que a válvula de alívio seja acionada.\n-   **Determine** a composição do reator no momento de acionamento da\n    válvula.\n-   **Determine** a quantidade máxima de mistura gasosa que pode ser\n    adicionada ao reator sem que a válvula de alívio seja acionada.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{6 h}$\n",
@@ -10938,7 +10938,7 @@
             },
             {
               "id_": "3D33",
-              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{B}(g)}\n$$\n\nUm reator contem $\\pu{20 atm}$ de uma mistura gasosa contendo $75\\%$ da\nsubstância $\\ce{\\textbf{A}}$ e $25\\%$ do inerte $\\ce{\\textbf{I}}$ em\nvolume. Os resultados a seguir foram obtidos no estudo da cinética dessa\nreação:\n\n| $t/\\pu{s}$         | $\\pu{0,89}$ | $\\pu{2,08}$ | $\\pu{3,75}$ | $\\pu{6,25}$ | $\\pu{10,42}$ |\n|:-------------------|------------:|------------:|------------:|------------:|-------------:|\n| $P/\\pu{atm}$       |   $\\pu{21}$ |   $\\pu{22}$ |   $\\pu{23}$ |   $\\pu{24}$ |    $\\pu{25}$ |\n| $v/\\pu{atm.min-1}$ | $\\pu{1,96}$ | $\\pu{1,44}$ | $\\pu{1,00}$ | $\\pu{0,64}$ |  $\\pu{0,36}$ |\n\n-   **Determine** a ordem da reação.\n-   **Determine** a constante cinética da reação.\n-   **Determine** a composição do reator em $\\pu{10,42 min}$.\n",
+              "statement": "Considere a reação química:\n\n$$\n\\ce{2 \\textbf{A}(g) -> 3 \\textbf{B}(g)}\n$$\n\nUm reator contem $\\pu{20 atm}$ de uma mistura gasosa contendo $75\\%$ da\nsubstância $\\ce{\\textbf{A}}$ e $25\\%$ do inerte $\\ce{\\textbf{I}}$ em\nvolume. Os resultados a seguir foram obtidos no estudo da cinética dessa\nreação:\n\n| $t/\\pu{min}$       | $\\pu{0,89}$ | $\\pu{2,08}$ | $\\pu{3,75}$ | $\\pu{6,25}$ | $\\pu{10,42}$ |\n|:-------------------|------------:|------------:|------------:|------------:|-------------:|\n| $P/\\pu{atm}$       |   $\\pu{21}$ |   $\\pu{22}$ |   $\\pu{23}$ |   $\\pu{24}$ |    $\\pu{25}$ |\n| $v/\\pu{atm.min-1}$ | $\\pu{1,96}$ | $\\pu{1,44}$ | $\\pu{1,00}$ | $\\pu{0,64}$ |  $\\pu{0,36}$ |\n\n-   **Determine** a ordem da reação.\n-   **Determine** a constante cinética da reação.\n-   **Determine** a composição do reator em $\\pu{10,42 min}$.\n",
               "solution": "\n",
               "answer": [
                 "Segunda ordem\n",
