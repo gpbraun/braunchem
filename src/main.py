@@ -4,7 +4,6 @@
 
 from topic import load_arsenal
 from convert import copy_r
-
 from shutil import copytree
 
 
