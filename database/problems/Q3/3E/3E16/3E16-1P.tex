@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            xtick = {1, 4, 6},
+            ytick = \empty,
+            xlabel = {$1/T$},
+            ylabel = {$\ln{k}$},
+            xticklabels = {$1/T_a$, $1/T_b$ , $1/T_c$},
+            xmin=0, xmax = 7,
+        ]
+        \addplot [smooth, tension=0.2, color-1] coordinates
+            {
+              (1, 10)
+              (4,  8)
+              (6,  0)
+            };
+        \node[coordinate, pin=below right:{$P$}] 
+         	at (axis cs:1,10)   {};
+         \node[coordinate, pin=right:{$Q$}] 
+         	at (axis cs:4,8)   {};
+         \node[coordinate, pin=left:{$R$}] 
+         	at (axis cs:6,0)   {};
+    \end{axis}
+\end{tikzpicture}

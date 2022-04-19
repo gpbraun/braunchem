@@ -11316,6 +11316,219 @@
               "elements": [],
               "obj": -1,
               "choices": []
+            },
+            {
+              "id_": "3E18",
+              "statement": "Considere a reação elementar de decomposição do dióxido de nitrogênio\ngasoso:\n\n$$\n\\ce{2 NO2(g) -> 2 NO(g) + O2(g)}\n$$\n\nA reação possui energia de ativação de 110 kJ.mol-1 e constante de\nvelocidade $\\pu{2,8e12 L.mol-1.s-1}$ a $\\pu{273 K}$. Em um experimento,\n$\\pu{2,5 atm}$ de dióxido de nitrogênio são adicionados em um recipiente\na $\\pu{500 K}$.\n\n-   **Determine** a contante de velocidade para a decomposição do\n    dióxido de nitrogênio a $\\pu{500 K}$.\n-   **Determine** o tempo necessário para que a pressão total do\n    recipiente aumente para $\\pu{3 atm}$.\n",
+              "solution": "\n",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E17",
+              "statement": "A constante de velocidade da reação de decomposição de um composto\n$\\ce{\\textbf{A}}$ foi medida em várias temperaturas, com os seguintes\nresultados:\n\n| $T/\\pu{\\degree C}$ |     $\\pu{25}$ |     $\\pu{45}$ |     $\\pu{55}$ |     $\\pu{65}$ |\n|:-------------------|--------------:|--------------:|--------------:|--------------:|\n| $k/\\pu{s-1}$       | $\\pu{3,2e-5}$ | $\\pu{5,1e-4}$ | $\\pu{1,7e-3}$ | $\\pu{5,2e-3}$ |\n\nUma solução contendo 0,02 mol.L-1 de $\\ce{\\textbf{A}}$ foi adicionada a\num reator em temperatura $T$, e a concentração de $\\ce{\\textbf{A}}$ foi\nmonitorada.\n\n![concentração por tempo](3E17-1P.svg)\n\n-   **Determine** a energia de ativação da reação.\n-   **Determine** a ordem da reação.\n-   **Determine** a constante cinética em temperatura $T$.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{100 kJ.mol-1}$\n",
+                "Primeira ordem\n",
+                "$\\pu{55 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E21",
+              "statement": "O estudo da cinética da reação\n\n$$\n\\ce{SO2(g) + O3(g) -> SO3(g) + O2(g)}\n$$\n\nforneceu os dados:\n\n| #     | $T$ $/\\pu{K}$ | $[\\ce{SO2}]$ $/\\pu{mM}$ | $[\\ce{O3}]$ $/\\pu{mM}$ | $v$ $/(\\pu{mM.s-1})$ |\n|-------|--------------:|------------------------:|-----------------------:|---------------------:|\n| **1** |         $250$ |                   $250$ |                  $400$ |                $118$ |\n| **2** |         $250$ |                   $250$ |                  $200$ |                $118$ |\n| **3** |         $250$ |                   $750$ |                  $200$ |               $1062$ |\n| **4** |         $400$ |                   $500$ |                  $300$ |               $1425$ |\n\n-   **Determine** a lei de velocidade da reação.\n-   **Determine** a energia de ativação dessa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$v = k[\\ce{SO2}]^2$\n",
+                "$\\pu{6 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E16",
+              "statement": "A constante de velocidade de uma reação foi medida em várias\ntemperaturas, com os seguintes resultados:\n\n![ln(k) por temperatura](3E16-1P.svg)\n\nConsidere as proposições.\n\n1.  O trecho $P$-$Q$ é referente a reação direta, enquanto o trecho\n    $R$-$S$ se refere à reação inversa.\n2.  Para temperaturas menores que $T_b$, o mecanismo controlador da\n    reação em questão difere daquele para temperaturas maiores que\n    $T_b$.\n3.  A energia de ativação da reação no trecho $P$-$Q$ é menor que a no\n    trecho $R$-$S$.\n4.  A energia de ativação da reação direta é menor que a da reação\n    inversa.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "3E19",
+              "statement": "Considere a distribuição de velocidades para os reagentes de uma reação\nem duas temperaturas.\n\n![fração por energia](3E19-1P.svg)\n\nConsidere as proposições.\n\n1.  A constante de equilíbrio da reação é igual em $T_1$ e em $T_2$.\n2.  A velocidade da reação é menor em $T_1$ do que em $T2$.\n3.  A constante de velocidade da reação é igual em $T_1$ e em $T_2$.\n4.  Em $T_1$, há menos moléculas com energia suficiente para a reação do\n    que em $T_2$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**4**",
+                "**2** e **4**",
+                "**1**, **2** e **4**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "3E22",
+              "statement": "Em sistemas envolvendo reações paralelas, a seletividade é definida como\na razão entre as taxas de geração dos produtos de interesse e dos\nsecundários. Considere um sistema onde uma mesma substância pode reagir\nformando um produto de interesse ou um produto secundário.\n",
+              "solution": "",
+              "answer": [
+                "A seletividade é maior no início da reação quando a ordem da reação de\nformação dos produtos de interesse é maior que a do secundário.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "A seletividade independe da concentração inicial de reagente.\n",
+                "A seletividade independe da ordem das reações de formação do produto de\ninteresse e dos secundários.\n",
+                "A seletividade é maior no início da reação quando a ordem da reação de\nformação dos produtos de interesse é igual à do secundário.\n",
+                "A seletividade é menor no fim da reação quando a ordem da reação de\nformação dos produtos de interesse é menor que a do secundário.\n",
+                "A seletividade é maior no início da reação quando a ordem da reação de\nformação dos produtos de interesse é maior que a do secundário.\n"
+              ]
+            },
+            {
+              "id_": "3E23",
+              "statement": "Considere a reação reversível, em uma etapa:\n\n$$\n\\ce{\\textbf{A} + \\textbf{A} <=> \\textbf{B} + \\textbf{C}}\n$$\n\nA constante de velocidade da reação direta de formação de B é\n$\\pu{265 L·mol-1.min-1}$, e a constante da velocidade da reação inversa\né $\\pu{392 L.mol-1.min-1}$. A energia de ativação da reação direta é\n$\\pu{39,7 kJ.mol-1}$ e a da reação inversa é $\\pu{25,4 kJ. mol-1}$.\n\n-   **Determine** a constante de equilíbrio para essa reação.\n-   **Classifique** a reação como endotérmica ou exotérmica.\n-   **Determine** o efeito da temperatura nas constantes de velocidade e\n    na constante de equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{0,676}$\n",
+                "Endotérmica\n",
+                "A constante de equilíbrio, assim como as constantes de velocidade,\naumenta com a temperatura.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E24",
+              "statement": "Considere a reação reversível, em uma etapa:\n\n$$\n\\ce{\\textbf{A} + \\textbf{B} <=> \\textbf{C} + \\textbf{D}}\n$$\n\nA constante de velocidade da reação direta é $\\pu{52,4 L.mol-1.min-1}$,\ne a constante da velocidade da reação inversa é\n$\\pu{32,1 L.mol-1.min-1}$. A energia de ativação da reação direta é\n$\\pu{35,2 kJ.mol-1}$ e a da reação inversa é $\\pu{44 kJ. mol-1}$.\n\n-   **Determine** a constante de equilíbrio para essa reação.\n-   **Classifique** a reação como endotérmica ou exotérmica.\n-   **Determine** o efeito da temperatura nas constantes de velocidade e\n    na constante de equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{1,63}$\n",
+                "Exotérmica.\n",
+                "A constante de equilíbrio, diferente das constantes de velocidade,\ndiminui com a temperatura.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E25",
+              "statement": "Considere a reação reversível, em uma etapa:\n\n$$\n\\ce{2 \\textbf{A} + \\textbf{B} <=> 3 \\textbf{C}}\n$$\n\nEssa reação possui energia de ativação $\\pu{25 kJ.mol-1}$ e fator de\nfrequência $\\pu{5,5e10 L2.mol-2.s-1}$. Um experimento foi realizado a\n300 K com $\\pu{0,2 mol.L-1}$ de $\\ce{\\textbf{A}}$ e $\\pu{0,2 mol.L-1}$\nde $\\ce{\\textbf{B}}$. O equilíbrio é atingido quando a concentração de\n$\\ce{\\textbf{C}}$ passa a $\\pu{0,15 mol.L-1}$.\n\n-   **Determine** a constante de velocidade da reação inversa.\n-   **Determine** a velocidade da reação direta no equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{11 L2.mol-2.s-1}$\n",
+                "$\\pu{0,037 mol.L-1.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E26",
+              "statement": "Considere a reação reversível, em uma etapa:\n\n$$\n\\ce{\\textbf{A} + \\textbf{B} <=> \\textbf{C}}\n$$\n\nA constante de equilíbrio da reação direta é $K=4$. A reação reversa\npossui energia de ativação $\\pu{2,5 kJ.mol-1}$ e fator de frequência\n$\\pu{2,72e5 L2.mol-1.s-1}$. Um experimento foi realizado a 300 K. No\nequilíbrio $25\\%$ da quantidade inicial de $\\ce{\\textbf{A}}$ foi\nconvertida e a concentração de $\\ce{\\textbf{C}}$ é $\\pu{0,5 mol.L-1}$\n\n-   **Determine** a constante de velocidade da reação inversa.\n-   **Determine** a velocidade da reação direta no equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{4e5 L.mol-1.s-1}$\n",
+                "$\\pu{9e5 mol.L-1.s-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3E20",
+              "statement": "Considere a reação\n\n$$\n\\ce{I2(g) + H2(g) <=> 2 HI(g)}\n$$\n\nEssa reação é conduzida em um reator na presença e ausência de\ncatalisador.\n\n-   **Esboce** o gráfico da velocidade da reação direta e inversa em\n    função do tempo na presença e ausência do catalisador.\n-   **Esboce** o gráfico das concentrações dos reagentes e produtos na\n    presença e ausência do catalisar.\n",
+              "solution": "\n",
+              "answer": [
+                "Esboço\n",
+                "Esboço\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
             }
           ],
           "id_": "3E2",
