@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            xlabel = {$(\qty{1000}{K})/T$},
+            ylabel = {$\ln(P_\text{vap}/\unit{mmHg})$},
+            grid = major,
+        ]
+    \addplot coordinates
+        {
+          (6.20, 253)
+          (1.80, 485)
+        };
+    \end{axis}
+\end{tikzpicture}

@@ -7430,7 +7430,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# Pressão de Vapor\n\n1. Origem da pressão de vapor.\n2. Volatilidade e forças intermoleculares.\n3. Pressão de vapor e temperatura.\n4. Equação de Clausius Clapeyron:\n   $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta_\\text{vap} H}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n5. Ebulição.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor em uma dada temperatura utilizando a Equação de Clausius Clapeyron.\n- **Calcular** a temperatura de ebulição utilizando a Equação de Clausius Clapeyron.\n\n# Equilíbrio de Fase Multicomponente\n\n1. Pressão de vapor de misturas\n2. Lei de Raoult:\n   $$\n   P_A = x_A P_A^\\star\n   $$\n3. Misturas líquidas binárias.\n4. Destilação.\n5. Azeótropos.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor de solvente utilizando a Lei de Raoult.\n- **Calcular** a pressão e composição do vapor para misturas binárias utilizando a Lei de Raoult.",
+      "contents": "# Pressão de Vapor\n\n1. Origem da pressão de vapor.\n2. Volatilidade e forças intermoleculares.\n3. Pressão de vapor e temperatura.\n4. Equação de Clausius Clapeyron:\n   $$\n   \\ln \\left( \\frac{P_2}{P_1} \\right) = -\\frac{\\Delta H_\\text{vap}}{R} \\left( \\frac{1}{T_2} - \\frac{1}{T_1} \\right)\n   $$\n5. Ebulição.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor em uma dada temperatura utilizando a Equação de Clausius Clapeyron.\n- **Calcular** a temperatura de ebulição utilizando a Equação de Clausius Clapeyron.\n\n# Equilíbrio de Fase Multicomponente\n\n1. Pressão de vapor de misturas\n2. Lei de Raoult:\n   $$\n   P_A = x_A P_A^\\star\n   $$\n3. Misturas líquidas binárias.\n4. Destilação.\n5. Azeótropos.\n\n### Habilidades\n\n- **Calcular** a pressão de vapor de solvente utilizando a Lei de Raoult.\n- **Calcular** a pressão e composição do vapor para misturas binárias utilizando a Lei de Raoult.",
       "subtopics": [
         {
           "id_": "2D.1",
@@ -7441,7 +7441,854 @@
           "title": "Equilíbrio de Fase Multicomponente"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "2D01",
+              "statement": "**Assinale** a alternativa com a substância com *menor* pressão de\nvapor.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{C2Cl6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\ce{CCl4}$\n",
+                "$\\ce{CHCl3}$\n",
+                "$\\ce{C2Cl6}$\n",
+                "$\\ce{CH2Cl2}$\n",
+                "$\\ce{C2H5Cl}$\n"
+              ]
+            },
+            {
+              "id_": "2D02",
+              "statement": "**Assinale** a alternativa com a substância com *maior* pressão de\nvapor.\n",
+              "solution": "",
+              "answer": [
+                "Butano\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "Butano\n",
+                "Octano\n",
+                "Propanol\n",
+                "Glicerol\n",
+                "Água\n"
+              ]
+            },
+            {
+              "id_": "2D03",
+              "statement": "**Assinale** a alternativa com a ordem de pressão de vapor.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{CO2} > \\ce{Br2} > \\ce{Hg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{CO2} > \\ce{Br2} > \\ce{Hg}$\n",
+                "$\\ce{CO2} \\approx \\ce{Br2} > \\ce{Hg}$\n",
+                "$\\ce{CO2} \\approx \\ce{Br2} \\approx \\ce{Hg}$\n",
+                "$\\ce{Br2} > \\ce{CO2} > \\ce{Hg}$\n",
+                "$\\ce{Br2} > \\ce{CO2} \\approx \\ce{Hg}$\n"
+              ]
+            },
+            {
+              "id_": "2D04",
+              "statement": "Considere as substâncias.\n\n1.  2-metil-pentano\n2.  3-metil-pentano\n3.  2,2-dimetil-butano\n4.  2,3-dimetil-butano\n\n**Assinale** a alternativa com a ordem de pressão de vapor.\n",
+              "solution": "",
+              "answer": [
+                "**3** \\> **4** \\> **1** \\> **2**\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**1** \\> **2** \\> **3** \\> **4**\n",
+                "**2** \\> **1** \\> **3** \\> **4**\n",
+                "**3** \\> **4** \\> **1** \\> **2**\n",
+                "**4** \\> **3** \\> **1** \\> **2**\n",
+                "**2** \\> **1** \\> **4** \\> **3**\n"
+              ]
+            },
+            {
+              "id_": "2D05",
+              "statement": "Um tambor selado contém ar seco e uma quantidade muito pequena de\nacetona líquida em equilíbrio com a fase vapor. A pressão parcial da\nacetona é de $\\pu{180 mmHg}$ e a pressão total no tambor é de\n$\\pu{760 mmHg}$. Em uma queda durante seu transporte, o tambor foi\ndanificado e seu volume interno diminuiu para $80\\%$ do volume inicial,\nsem que tenha havido vazamento.\n\n**Assinale** a alternativa que mais se aproxima da pressão total após a\nqueda.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{905 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{760 mmHg}$\n",
+                "$\\pu{832 mmHg}$\n",
+                "$\\pu{905 mmHg}$\n",
+                "$\\pu{950 mmHg}$\n",
+                "$\\pu{1175 mmHg}$\n"
+              ]
+            },
+            {
+              "id_": "2D06",
+              "statement": "**Assinale** a alternativa que mais se aproxima da pressão de vapor do\n$\\ce{CCl4}$ a $\\pu{25 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{107 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{330 K}}(\\ce{CCl4}) = \\pu{405 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{CCl4}) = \\pu{33 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{107 mmHg}$\n",
+                "$\\pu{216 mmHg}$\n",
+                "$\\pu{325 mmHg}$\n",
+                "$\\pu{434 mmHg}$\n",
+                "$\\pu{543 mmHg}$\n"
+              ]
+            },
+            {
+              "id_": "2D07",
+              "statement": "A dependência da pressão de vapor do cloreto-difluoreto de fosforila,\n$\\ce{OPClF2}$ foi medida em função da temperatura.\n\n| $T/\\pu{K}$               | $190$ | $228$ | $250$ | $273$ |\n|:-------------------------|------:|------:|------:|------:|\n| $P_\\text{vap}/\\pu{mmHg}$ | $3,2$ |  $68$ | $240$ | $672$ |\n\nAssinale a alternativa que mais se aproxima da entalpia de vaporização.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{28 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{14 kJ.mol-1}$\n",
+                "$\\pu{28 kJ.mol-1}$\n",
+                "$\\pu{42 kJ.mol-1}$\n",
+                "$\\pu{56 kJ.mol-1}$\n",
+                "$\\pu{70 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2D08",
+              "statement": "A dependência da pressão de vapor da arsina, $\\ce{AsH3}$, foi medida em\nfunção da temperatura.\n\n![ln(P) por 1/T](2D08-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização do $\\ce{AsH3}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{18 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{10 kJ.mol-1}$\n",
+                "$\\pu{18 kJ.mol-1}$\n",
+                "$\\pu{42 kJ.mol-1}$\n",
+                "$\\pu{64 kJ.mol-1}$\n",
+                "$\\pu{92 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2D09",
+              "statement": "A dependência da pressão de vapor do dióxido de cloro foi medida em\nfunção da temperatura.\n\n![ln(P) por 1/T](2D09-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da entropia de\nvaporização do $\\ce{ClO2}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{100 J.K-1.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{100 J.K-1.mol-1}$\n",
+                "$\\pu{200 J.K-1.mol-1}$\n",
+                "$\\pu{300 J.K-1.mol-1}$\n",
+                "$\\pu{400 J.K-1.mol-1}$\n",
+                "$\\pu{500 J.K-1.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2D10",
+              "statement": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\netanol sob $\\pu{2 atm}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{367 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{308 K}}(\\ce{C2H5OH}) = \\pu{13,3 kPa}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{C2H5OH}) = \\pu{43,5 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{273 K}$\n",
+                "$\\pu{367 K}$\n",
+                "$\\pu{458 K}$\n",
+                "$\\pu{592 K}$\n",
+                "$\\pu{671 K}$\n"
+              ]
+            },
+            {
+              "id_": "2D11",
+              "statement": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\n$\\ce{BCl3}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{287 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{500 K}}(\\ce{BCl3}) = \\pu{17 kPa}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{BCl3}) = \\pu{23,8 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{287 K}$\n",
+                "$\\pu{325 K}$\n",
+                "$\\pu{412 K}$\n",
+                "$\\pu{545 K}$\n",
+                "$\\pu{638 K}$\n"
+              ]
+            },
+            {
+              "id_": "2D12",
+              "statement": "**Assinale** a alternativa que mais se aproxima da pressão necessária\npara destilar o ácido tricloroacético a $\\pu{100 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{2,4 kPa}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{vap}(\\ce{CCl3COOH}) = \\pu{57,8 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta S_\\text{vap}(\\ce{CCl3COOH}) = \\pu{124 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1,2 kPa}$\n",
+                "$\\pu{2,4 kPa}$\n",
+                "$\\pu{3,6 kPa}$\n",
+                "$\\pu{4,8 kPa}$\n",
+                "$\\pu{6,0 kPa}$\n"
+              ]
+            },
+            {
+              "id_": "2D13",
+              "statement": "**Assinale** a alternativa que mais se aproxima da pressão de vapor do\nbenzeno a $\\pu{298 K}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{13,5 kPa}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Gf-benzeno(l)",
+                    "name": "Entalpia livre de formação do \\ce{benzeno} (l)",
+                    "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{benzeno, {l}} )",
+                    "value": "124",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": 0,
+                    "name": "Gf-benzeno(g)",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{10,5 kPa}$\n",
+                "$\\pu{13,5 kPa}$\n",
+                "$\\pu{16,5 kPa}$\n",
+                "$\\pu{19,5 kPa}$\n",
+                "$\\pu{21,5 kPa}$\n"
+              ]
+            }
+          ],
+          "id_": "2D1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2D14",
+              "statement": "Uma solução aquosa de sacarose possui fração molar $\\pu{0,1}$ a\n$\\pu{100 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão de vapor\ndessa solução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{684 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{624 mmHg}$\n",
+                "$\\pu{660 mmHg}$\n",
+                "$\\pu{684 mmHg}$\n",
+                "$\\pu{760 mmHg}$\n",
+                "$\\pu{784 mmHg}$\n"
+              ]
+            },
+            {
+              "id_": "2D15",
+              "statement": "Uma solução é preparada pela dissolução de $\\pu{109 g}$ de sacarose,\n$\\ce{C12H22O11}$, em $\\pu{100 g}$ de água a $\\pu{20 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5,3 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{293 K}}(\\ce{H2O}) = \\pu{17,5 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{7,5 mmHg}$\n",
+                "$\\pu{6,4 mmHg}$\n",
+                "$\\pu{5,3 mmHg}$\n",
+                "$\\pu{4,3 mmHg}$\n",
+                "$\\pu{3,1 mmHg}$\n"
+              ]
+            },
+            {
+              "id_": "2D16",
+              "statement": "Uma solução é preparada pela adição de um soluto não volátil a\n$\\pu{0,3 mol}$ de benzeno líquido a $\\pu{25 \\degree C}$. A pressão de\nvapor do benzeno nessa solução é $\\pu{75 mmHg}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{78 mmol}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{45 mmol}$\n",
+                "$\\pu{56 mmol}$\n",
+                "$\\pu{67 mmol}$\n",
+                "$\\pu{78 mmol}$\n",
+                "$\\pu{89 mmol}$\n"
+              ]
+            },
+            {
+              "id_": "2D17",
+              "statement": "Uma solução é preparada pela dissolução de $\\pu{8,05 g}$ de um composto\ndesconhecido em $\\pu{100 g}$ de benzeno líquido a $\\pu{25 \\degree C}$. A\npressão de vapor do benzeno nessa solução é $\\pu{94,8 mmHg}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do\ncomposto desconhecido.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{115 g.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{115 g.mol-1}$\n",
+                "$\\pu{145 g.mol-1}$\n",
+                "$\\pu{175 g.mol-1}$\n",
+                "$\\pu{205 g.mol-1}$\n",
+                "$\\pu{235 g.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2D18",
+              "statement": "Um reator contem $\\pu{1 bar}$ de uma mistura de etanol e metanol em\nequilíbrio com o líquido. A temperatura do sistema é levemente aumentada\nmantendo a pressão em $\\pu{1 bar}$.\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "A fração de metanol diminui na fase líquida e diminui na fase gasosa.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "A fração de metanol aumenta na fase líquida e diminui na fase gasosa.\n",
+                "A fração de metanol aumenta na fase líquida e aumenta na fase gasosa.\n",
+                "A fração de metanol não se altera em nenhuma das fases.\n",
+                "A fração de metanol diminui na fase líquida e diminui na fase gasosa.\n",
+                "A fração de metanol diminui na fase líquida e aumenta na fase gasosa.\n"
+              ]
+            },
+            {
+              "id_": "2D19",
+              "statement": "Uma solução é preparada pela mistura de $\\pu{1 mol}$ de benzeno e\n$\\pu{0,4 mol}$ de tolueno.\n\n**Assinale** a alternativa que mais se aproxima da pressão de vapor da\nmistura.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{76 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{58 mmHg}$\n",
+                "$\\pu{67 mmHg}$\n",
+                "$\\pu{76 mmHg}$\n",
+                "$\\pu{85 mmHg}$\n",
+                "$\\pu{94 mmHg}$\n"
+              ]
+            },
+            {
+              "id_": "2D20",
+              "statement": "Em uma solução de benzeno em tolueno a $\\pu{25 \\degree C}$, um terço das\nmoléculas do líquido é de benzeno.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\nbenzeno no vapor.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,62}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,35}$\n",
+                "$\\pu{0,44}$\n",
+                "$\\pu{0,53}$\n",
+                "$\\pu{0,62}$\n",
+                "$\\pu{0,71}$\n"
+              ]
+            },
+            {
+              "id_": "2D21",
+              "statement": "Uma solução é preparada pela mistura de pentano e hexano. As frações\nmolares de pentano e hexano são iguais no vapor.\n\n**Assinale** a alternativa que mais se aproxima da fração de pentano na\nfase líquida.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,23}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C5H12}) = \\pu{512 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H14}) = \\pu{151 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{0,23}$\n",
+                "$\\pu{0,34}$\n",
+                "$\\pu{0,50}$\n",
+                "$\\pu{0,56}$\n",
+                "$\\pu{0,77}$\n"
+              ]
+            },
+            {
+              "id_": "2D22",
+              "statement": "Uma solução é preparada pela mistura de $\\pu{15 g}$ de benzeno e\n$\\pu{64,3 g}$ de tolueno.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\nbenzeno no vapor.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,48}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C5H12}) = \\pu{512 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H14}) = \\pu{151 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{0,46}$\n",
+                "$\\pu{0,48}$\n",
+                "$\\pu{0,50}$\n",
+                "$\\pu{0,52}$\n",
+                "$\\pu{0,54}$\n"
+              ]
+            },
+            {
+              "id_": "2D23",
+              "statement": "Uma solução de 1,2-dibromoeteno e 2,3-dibromopropeno a\n$\\pu{85 \\degree C}$ possui fração molar de 1,2-dibromoeteno $\\pu{0,40}$.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\n2,3-dibromopropeno no vapor.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,52}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{360 K}}(\\text{1,2-dibromoeteno}) = \\pu{173 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{360 K}}(\\text{2,3-dibromopropeno}) = \\pu{127 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,40}$\n",
+                "$\\pu{0,42}$\n",
+                "$\\pu{0,48}$\n",
+                "$\\pu{0,52}$\n",
+                "$\\pu{0,60}$\n"
+              ]
+            },
+            {
+              "id_": "2D24",
+              "statement": "Uma solução de benzeno em tolueno apresenta 50 mmHg de pressão de vapor.\n\n**Assinale** a alternativa que mais se aproxima da fração de benzeno no\nvapor.\n",
+              "solution": "",
+              "answer": [
+                "$60\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$10\\%$\n",
+                "$35\\%$\n",
+                "$60\\%$\n",
+                "$85\\%$\n",
+                "$95\\%$\n"
+              ]
+            },
+            {
+              "id_": "2D27",
+              "statement": "Considere um dispositivo constituído por dois balões de vidro, **A** e\n**B**, cada um com capacidade de $\\pu{894 mL}$ conectados por uma\ntorneira. Dois ensaios independentes foram realizados a $\\pu{298 K}$.\n\n1.  Os balões foram inicialmente evacuados e, logo a seguir, com a\n    torneira fechada, foram introduzidos $\\pu{0,3 g}$ de benzeno e\n    $\\pu{20 g}$ de tolueno em A e B, respectivamente.\n\n2.  Os balões foram novamente evacuados e, na sequência, uma quantidade\n    de benzeno foi introduzida em **A** e outra quantidade de tolueno\n    foi introduzida em **B**. A torneira é aberta e o equilíbrio líquido\n    vapor é atingido. A pressão interna no dispositivo é\n    $\\pu{76,2 mmHg}$.\n\n3.  **Determine** a pressão em cada balão, no primeiro ensaio, após o\n    sistema ter atingido o equilíbrio;\n\n4.  **Determine** a fração molar de tolueno na fase líquida no\n    equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "A, $\\pu{80 mmHg}$ e B, $\\pu{29,1 mmHg}$\n",
+                "$\\pu{0,134}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 mmHg}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2D28",
+              "statement": "Considere um dispositivo constituído por dois balões de vidro, **A** e\n**B**, cada um com capacidade de $\\pu{1 L}$ conectados por uma torneira.\nA pressão de vapor do dietiléter é $\\pu{57 mmHg}$ em\n$\\pu{-45 \\degree C}$, $\\pu{185 mmHg}$ em $\\pu{0 \\degree C}$,\n$\\pu{534 mmHg}$ em $\\pu{25 \\degree C}$, e desprezível abaixo de\n$\\pu{-86 \\degree C}$.\n\n-   **Determine** a pressão no dispositivo se a torneira permanece\n    fechada e a temperatura é mantida em $\\pu{-45 \\degree C}$\n-   **Determine** a pressão no dispositivo se a torneira permanece\n    fechada e a temperatura é mantida em $\\pu{25 \\degree C}$\n-   **Determine** a pressão no dispositivo se a torneira é aberta e a\n    temperatura é mantida em $\\pu{-45 \\degree C}$\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{57 mmHg}$\n",
+                "$\\pu{380 mmHg}$\n",
+                "$\\pu{57 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2D29",
+              "statement": "Em uma indústria petroquímica deseja-se evaporar a água de uma corrente\nde $\\pu{10 m3}$ de petróleo contendo $15\\%$ de água em volume. Para isso\na corrente é alimentada em um tambor para a destilação flash. O tambor é\nequipado com um sistema de aquecimento, que mantém a temperatura\nconstante em $\\pu{300 K}$.\n\n-   **Determine** o volume mínimo do tambor para que toda a água\n    evapore.\n-   **Determine** o calor fornecido pelo sistema de aquecimento.\n",
+              "solution": "\n",
+              "answer": [
+                "$68,5 m3$\n",
+                "$3120 MJ$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2D30",
+              "statement": "Dois frascos abertos **A** e **B**, contendo mesmo volume de água\nlíquida e de uma solução aquosa concentrada em sacarose,\nrespectivamente, são colocados em um recipiente que, a seguir, é\ndevidamente fechado.\n\n**Assinale** a alternativa *correta*\n",
+              "solution": "",
+              "answer": [
+                "O volume do líquido no frasco **A** diminui, enquanto que o do frasco\n**B** aumenta.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "Os volumes dos líquidos nos frascos **A** e **B** não apresentam\nalterações visíveis.\n",
+                "O volume do líquido no frasco **A** aumenta, enquanto que o do frasco\n**B** diminui.\n",
+                "O volume do líquido no frasco **A** diminui, enquanto que o do frasco\n**B** aumenta.\n",
+                "O volume do líquido no frasco **A** permanece o mesmo, enquanto que o do\nfrasco **B** diminui.\n",
+                "O volume do líquido no frasco **A** diminui, enquanto que o do frasco\n**B** permanece o mesmo.\n"
+              ]
+            }
+          ],
+          "id_": "2D2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "2E",

@@ -45,22 +45,16 @@ class Data:
 
     def astex(self):
         # return data in sunitx format
-        if not self.id_:
+        if not self.value:
             return self.name
 
         return f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
 
     def tex_display(self):
-        if not self.id_:
+        if not self.value:
             return self.name
 
-        # return data in sunitx format
-        header = f'{self.name}'
-        eqtn = f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
-        return header + ' ' + eqtn
-
-
-RE_DATA_MOL = re.compile(r'(.*)\((.*)\)')
+        return f'{self.name}  {self.astex()}'
 
 
 @frozen
@@ -138,7 +132,7 @@ class DataSet:
         value = value.replace('.', ',')
         unit = dt.unit
 
-        mol_match = re.match(RE_DATA_MOL, datamol)
+        mol_match = re.match(r'(.*)\((.*)\)', datamol)
         if mol_match:
             mol, state = mol_match.group(1), mol_match.group(2)
             name = dt.name + ' ' + latex.cmd('ce', mol) + f'({state})'
