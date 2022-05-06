@@ -12401,7 +12401,413 @@
           "title": "Reações em Cadeia"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "3F01",
+              "statement": "O seguinte mecanismo foi proposto para a reação entre o óxido nítrico e\no bromo:\n\n$$\n\\begin{aligned}\n\\ce{ NO + Br2 &->[$k_1$] NOBr2 && lenta} \\\\\n\\ce{ NOBr2 + NO &->[$k_2$] NOBr + NOBr && rápida}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa com a lei de velocidade para essa reação.\n",
+              "solution": "",
+              "answer": [
+                "$v = k [\\ce{NO}][\\ce{Br2}]$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$v = k [\\ce{NO}]$\n",
+                "$v = k [\\ce{Br2}]$\n",
+                "$v = k [\\ce{NO}]^2$\n",
+                "$v = k [\\ce{NO}][\\ce{Br2}]$\n",
+                "$v = k [\\ce{NO}][\\ce{NOBr2}]$\n"
+              ]
+            },
+            {
+              "id_": "3F02",
+              "statement": "O seguinte mecanismo foi proposto.\n\n$$\n\\begin{aligned}\n\\ce{ \\textbf{A}^{4+} + \\textbf{B}^{2+} &-> \\textbf{A}^{3+} + \\textbf{B}^{3+} && {lenta}  } \\\\\n\\ce{ \\textbf{A}^{4+} + \\textbf{B}^{3+} &-> \\textbf{A}^{3+} + \\textbf{B}^{4+} && {rápida} } \\\\\n\\ce{ \\textbf{C}^{+}  + \\textbf{B}^{4+} &-> \\textbf{C}^{3+} + \\textbf{B}^{2+} && {rápida} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa correta.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "A reação global é representada pela equação\n$\\ce{ \\textbf{C}^+ + 2 \\textbf{A}^{4+} -> \\textbf{C}^{3+} + 2 \\textbf{A}^{3+} }$.\n",
+                "O cátion $\\ce{\\textbf{B}^{2+}}$ é catalisador da reação.\n",
+                "Os cátions $\\ce{\\textbf{B}^{3+}}$ e $\\ce{\\textbf{B}^{4+}}$ são\nintermediários da reação.\n",
+                "A lei de velocidade é\n$v = k[\\ce{\\textbf{C}^{+}}][\\ce{\\textbf{A}^{4+}}]$.\n",
+                "A reação possui cinética de segunda ordem.\n"
+              ]
+            },
+            {
+              "id_": "3F03",
+              "statement": "Considere as proposições.\n\n1.  No equilíbrio, as constantes de velocidade das reações direta e\n    inversa são iguais.\n2.  A constante de equilíbrio de uma reação é igual à constante de\n    velocidade da reação direta dividida pela constante de velocidade da\n    reação inversa.\n3.  Em uma reação que é uma série de etapas de equilíbrio, a constante\n    de equilíbrio total é igual ao produto de todas as constantes de\n    velocidade das reações diretas dividido pelo produto de todas as\n    constantes de velocidade das reações inversas.\n4.  O aumento da concentração de um produto aumenta a velocidade da\n    reação inversa e, por isso, a velocidade da reação direta também tem\n    de aumentar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "3F05",
+              "statement": "O seguinte mecanismo foi proposto para a reação entre o óxido nítrico e\no oxigênio:\n\n$$\n\\begin{aligned}\n\\ce{ 2 NO &<=>[$k_1$][$k_1^\\prime$] N2O2 && {rápida} } \\\\\n\\ce{ N2O2 + O2 &->[$k_2$] 2 NO2 && {lenta} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa com a lei de velocidade para essa reação.\n",
+              "solution": "",
+              "answer": [
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} [\\ce{O2}][\\ce{NO}]^2$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$v = k_1 [\\ce{NO}]$\n",
+                "$v = \\frac{k_1}{k_2} [\\ce{O2}]$\n",
+                "$v = k_1 [\\ce{NO}]^2$\n",
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} [\\ce{O2}][\\ce{NO}]$\n",
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} [\\ce{O2}][\\ce{NO}]^2$\n"
+              ]
+            },
+            {
+              "id_": "3F06",
+              "statement": "O seguinte mecanismo foi proposto para a reação de decomposição do\nozônio:\n\n$$\n\\begin{aligned}\n\\ce{ O3 &<=>[$k_1$][$k_1^\\prime$] O + O_2 && {rápida} } \\\\\n\\ce{ O + O_3 &->[$k_2$] 2 O2 && {lenta} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa com a lei de velocidade para essa reação.\n",
+              "solution": "",
+              "answer": [
+                "$v = \\dfrac{k_1 k_2}{k_1^\\prime} \\dfrac{[\\ce{O3}]^2}{[\\ce{O2}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$v = k_1 [\\ce{O3}]$\n",
+                "$v = \\dfrac{k_1}{k_2} [\\ce{O2}]$\n",
+                "$v = k_1 [\\ce{O3}]^2$\n",
+                "$v = \\dfrac{k_1 k_2}{k_1^\\prime} \\dfrac{[\\ce{O3}]}{[\\ce{O2}]}$\n",
+                "$v = \\dfrac{k_1 k_2}{k_1^\\prime} \\dfrac{[\\ce{O3}]^2}{[\\ce{O2}]}$\n"
+              ]
+            },
+            {
+              "id_": "3F07",
+              "statement": "O seguinte mecanismo foi proposto para a reação de decomposição do\nozônio:\n\n$$\n\\begin{aligned}\n\\ce{ ClO^- + H2O &<=>[$k_1$][$k_1^\\prime$] HClO + OH^- && {rápida} } \\\\\n\\ce{ I^- + HClO &->[$k_2$] HIO + Cl^- && {lenta} } \\\\\n\\ce{ HIO + OH^- &->[$k_3$] 2 O2 && {rápida} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa com a lei de velocidade de formação do\n$\\ce{HIO}$.\n",
+              "solution": "",
+              "answer": [
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} \\frac{[\\ce{I-}][\\ce{ClO-}][\\ce{H2O}]}{[\\ce{OH-}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$v = k_1 [\\ce{ClO^-}][\\ce{H2O}]$\n",
+                "$v = \\frac{k_1}{k_2} [\\ce{ClO^-}][\\ce{I-}]$\n",
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} [\\ce{ClO^-}][\\ce{I-}]$\n",
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} \\frac{[\\ce{I-}][\\ce{ClO-}]}{[\\ce{OH-}]}$\n",
+                "$v = \\frac{k_1 k_2}{k_1^\\prime} \\frac{[\\ce{I-}][\\ce{ClO-}][\\ce{H2O}]}{[\\ce{OH-}]}$\n"
+              ]
+            },
+            {
+              "id_": "3F08",
+              "statement": "O seguinte mecanismo foi proposto para a reação de decomposição do\nozônio:\n\n$$\n\\begin{aligned}\n\\ce{ Fe^{2+} + Pb^{4+} &<=>[$k_1$][$k_1^\\prime$] Fe^{3+} + Pb^{3+} } \\\\\n\\ce{ Fe^{2+} + Pb^{3+} &->[$k_2$] Fe^{3+} + Pb^{2+} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa com a lei de velocidade de formação do\n$\\ce{Fe^{3+}}$.\n",
+              "solution": "",
+              "answer": [
+                "$v = \\dfrac{2k_1 k_2 [\\ce{Fe^{2+}}]^2[\\ce{Pb^{4+}}]}{k_1^\\prime [\\ce{Fe^{3+}}] + k_2 [\\ce{Fe^{2+}}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$v = 2k_1 [\\ce{Fe^{2+}}]^2[\\ce{Pb^{4+}}]$\n",
+                "$v = \\dfrac{2k_1 k_2}{k_1^\\prime} \\dfrac{[\\ce{Fe^{2+}}]^2[\\ce{Pb^{4+}}]}{[\\ce{Fe^{3+}}]}$\n",
+                "$v = \\dfrac{2k_1 k_2 [\\ce{Fe^{2+}}]^2[\\ce{Pb^{4+}}]}{k_1^\\prime [\\ce{Fe^{3+}}] + k_2 [\\ce{Fe^{2+}}]}$\n",
+                "$v = \\dfrac{2k_1 k_2 [\\ce{Fe^{2+}}][\\ce{Pb^{4+}}]^2}{k_1^\\prime [\\ce{Fe^{3+}}] + k_2 [\\ce{Fe^{2+}}]}$\n",
+                "$v = \\dfrac{2k_1 k_2 [\\ce{Fe^{2+}}]^2[\\ce{Pb^{4+}}]}{k_2 [\\ce{Fe^{3+}}] + k_1^\\prime [\\ce{Fe^{2+}}]}$\n"
+              ]
+            },
+            {
+              "id_": "3F09",
+              "statement": "O seguinte mecanismo foi proposto para a reação de dicianometano com\nbromo molecular:\n\n$$\n\\begin{aligned}\n\\ce{ CH2(CN)2 &<=>[$k_1$][$k_1^\\prime$] CH(CN)2^- + H^+ } \\\\\n\\ce{ CH(CN)2^- + Br2 &->[$k_2$] CH(CN)2Br + Br^- }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa com a lei de velocidade da reação.\n",
+              "solution": "",
+              "answer": [
+                "$v = \\dfrac{k_1 k_2 [\\ce{CH2(CN)2}][\\ce{Br2}]}{k_2 [\\ce{Br2}] + k_1^\\prime [\\ce{H^+}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$v = k_1 [\\ce{CH2(CN)2}]$\n",
+                "$v = \\dfrac{k_1 k_2}{k_1^\\prime} \\dfrac{[\\ce{CH2(CN)2}][\\ce{Br2}]}{[\\ce{H^+}]}$\n",
+                "$v = \\dfrac{k_1 k_2 [\\ce{CH2(CN)2}][\\ce{Br2}]}{k_2 [\\ce{Br2}] + k_1^\\prime [\\ce{H^+}]}$\n",
+                "$v = \\dfrac{k_1 k_2 [\\ce{CH2(CN)2}]^2[\\ce{Br2}]}{k_2 [\\ce{Br2}] + k_1^\\prime [\\ce{H^+}]}$\n",
+                "$v = \\dfrac{k_1 k_2 [\\ce{CH2(CN)2}][\\ce{Br2}]}{k_1^\\prime [\\ce{Br2}] + k_2 [\\ce{H^+}]}$\n"
+              ]
+            },
+            {
+              "id_": "3F10",
+              "statement": "Considere a reação de decomposição da nitramida em solução aquosa:\n\n$$\n\\ce{ NH2NO2(aq) -> N2O(g) + H2O(l) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k \\dfrac{[\\ce{NH2NO2}]}{[\\ce{H3O+}]}\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1** $$\n        \\begin{aligned}\n            \\ce{ NH2NO2 + H2O &<=> NHNO2^- + H3O^+ && {rápida} } \\\\\n            \\ce{ NHNO2 &-> N2O + OH && {lenta} } \\\\\n            \\ce{ H3O+ + OH^- &-> 2 H2O && {rápida} }\n        \\end{aligned}\n        $$\n2.  Mecanismo **2** $$\n        \\ce{ NH2NO2 -> N2O + H2O }\n        $$\n3.  Mecanismo **3** $$\n        \\begin{aligned}\n            \\ce{ NH2NO2 + H3O^+ &<=> NH2NO2^+ + H2O && {rápida} } \\\\\n            \\ce{ NH2NO2^+ &-> N2O + H3O^+  && {lenta} }\n        \\end{aligned}\n        $$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
+              "solution": "",
+              "answer": [
+                "**1**, apenas.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "**1**, apenas.\n",
+                "**2**, apenas.\n",
+                "**3**, apenas.\n",
+                "**1** e **2**, apenas.\n",
+                "**1** e **3**, apenas.\n"
+              ]
+            },
+            {
+              "id_": "3F11",
+              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k [\\ce{NO}]^2[\\ce{O2}]\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1** $$\n        \\begin{aligned}\n            \\ce{ 2 NO &<=> N2O2      && {rápida} } \\\\\n            \\ce{ N2O2 + O2 &-> 2 NO2 && {lenta}  }\n        \\end{aligned}\n        $$\n2.  Mecanismo **2** $$\n        \\begin{aligned}\n            \\ce{ NO + O2 &<=> NO3   && {rápida} } \\\\\n            \\ce{ NO + NO3 &-> 2 NO2 && {lenta}  }\n        \\end{aligned}\n        $$\n3.  Mecanismo **3** $$\n        \\begin{aligned}\n            \\ce{ NO + 1/2 O2 &-> NO2   && {rápida} } \\\\\n            \\ce{ NO2 + 1/2 O2 &-> NO3  && {lenta}  } \\\\\n            \\ce{ NO + NO3 &<=> N2O4    && {rápida} } \\\\\n            \\ce{ N2O4 &-> 2 NO2        && {lenta}  }\n        \\end{aligned}\n        $$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
+              "solution": "",
+              "answer": [
+                "**1** e **2**, apenas.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**1**, apenas.\n",
+                "**2**, apenas.\n",
+                "**3**, apenas.\n",
+                "**1** e **2**, apenas.\n",
+                "**1** e **3**, apenas.\n"
+              ]
+            },
+            {
+              "id_": "3F14",
+              "statement": "Computadores químicos são sistemas desenvolvidos para resolver diversos\nproblemas de ciência e engenharia, por reações químicas. Um exemplo de\naplicação desses computadores é o desenvolvimento de circuitos de\ncontrole molecular e procedimentos terapêuticos inteligentes utilizando\num conjunto de velocidades de reações químicas como linguagem de\nprogramação para controlar a síntese de DNA.\n\n**Assinale** a alternativa com o conceito que melhor descreve o\nprincípio de funcionamento do computador químico exemplificado.\n",
+              "solution": "",
+              "answer": [
+                "Mecanismos reacionais\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "Primeira lei da termodinâmica\n",
+                "Mecanismos reacionais\n",
+                "Entalpia de formação\n",
+                "Princípio de Le Chatelier\n",
+                "Energia de ativação\n"
+              ]
+            }
+          ],
+          "id_": "3F1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "3F15",
+              "statement": "Uma amostra contendo inicialmente apenas a espécie $\\ce{\\textbf{A}}$\nsofre uma seqência de reações,\n\n$$\n\\ce{ \\textbf{A} ->[$k_1$] \\textbf{B} ->[$k_1$] \\textbf{C} }\n$$\n\nA reação é realizada sob temperatura constante em um reator de volume\nfixo.\n\n![concentração por tempo](3F1-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "A constante $k_1$ é menor que a constante $k_2$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "O tempo de meia-vida para o consuo de $\\ce{\\textbf{A}}$ é $\\pu{30 min}$.\n",
+                "A constante de velocidade para a transformação de $\\ce{\\textbf{A}}$ em\n$\\ce{\\textbf{B}}$ é $\\pu{0,023 min^-1}$.\n",
+                "A velocidade de formação de $\\ce{\\textbf{C}}$ é a mesma que a de\ndecomposição de $\\ce{\\textbf{B}}$.\n",
+                "A constante $k_1$ é menor que a constante $k_2$.\n",
+                "O valor máximo para a fração molar de $\\ce{\\textbf{B}}$ é atingido\nquando sua velocidade de formação é igual à velocidade de formação de\n$\\ce{\\textbf{C}}$.\n"
+              ]
+            },
+            {
+              "id_": "3F17",
+              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 H2(g) + 2 NO(g) -> N2(g) + 2 H2O(g) }\n$$\n\nOs resultados a seguir foram obtidos no estudo da cinética dessa reação:\n\n| #     | $P_{\\ce{H2}}$ $/\\pu{mmHg}$ | $P_{\\ce{NO}}$ $/\\pu{mmHg}$ | $v_{\\ce{N2}}$ $/(\\pu{mmHg.s-1})$ |\n|-------|---------------------------:|---------------------------:|---------------------------------:|\n| **1** |                      $280$ |                      $400$ |                      $\\pu{0,16}$ |\n| **2** |                      $147$ |                      $400$ |                      $\\pu{0,77}$ |\n| **3** |                      $400$ |                      $300$ |                      $\\pu{1,03}$ |\n| **4** |                      $400$ |                      $152$ |                      $\\pu{0,25}$ |\n\nDois mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1** $$\n        \\begin{aligned}\n            \\ce{ H2 + NO + NO &<=>[$k_1$] N2O + H2O } \\\\\n            \\ce{ H2 + N2O &->[$k_2$] N2 + H2O }\n        \\end{aligned}\n        $$\n\n2.  Mecanismo **2** $$\n        \\begin{aligned}\n            \\ce{ NO + NO &<=>[$k_1$][$k_1^\\prime$] N2O2 && {rápida} } \\\\\n            \\ce{ H2 + N2O2 &->[$k_2$] N2O + H2O && {lenta} } \\\\\n            \\ce{ H2 + N2O &->[$k_3$] N2 + H2O && {lenta} }\n        \\end{aligned}\n        $$\n\n3.  **Determine** a lei de velocidade experimental para a reação.\n\n4.  **Determine** qual dos mecanismos é mais plausível.\n",
+              "solution": "\n",
+              "answer": [
+                "$v = k[\\ce{H2}]^2[\\ce{NO}]$\n",
+                "Mecanismo 2.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3F19",
+              "statement": "O seguinte mecanismo foi proposto para a reação de substituição entre\n2-metilpropan-2-ol, $\\ce{ROH}$ e cloreto formando 2-cloro-2-metilpropano\n$\\ce{RCl}$.\n\n$$\n\\begin{aligned}\n\\ce{ ROH + H3O+ &<=>[$k_1$][$k_1^\\prime$] ROH2^+ + H2O } \\\\\n\\ce{ ROH^+ &<=>[$k_2$][$k_2^\\prime$] R^+ + H2O } \\\\\n\\ce{ R^+ + Cl^- &->[$k_3$] RCl } \n\\end{aligned}\n$$\n\n**Determine** a lei de velocidade para essa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$v = \\dfrac{k_a [\\ce{ROH}][\\ce{H3O+}][\\ce{I-}]}{k_b[\\ce{ROH}] + k_c[\\ce{I-}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3F20",
+              "statement": "O seguinte mecanismo foi proposto para a reação entre gás cloro e\nozônio.\n\n$$\n\\begin{aligned}\n\\ce{ {iniciação} &&     Cl2 &->[$k_1$] 2 Cl } \\\\\n\\ce{ {propagaçã} && Cl + O3 &->[$k_2$] ClO + O2 } \\\\\n\\ce{             && ClO + O3 &->[$k_3$] Cl + 2 O2 } \\\\\n\\ce{ {término}   && Cl + Cl &->[$k_5$] Cl2 } \n\\end{aligned}\n$$\n\n**Determine** a lei de velocidade para essa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$v = 2 k_2 [\\ce{O3}] \\sqrt{\\dfrac{k_1[\\ce{Cl2}]}{k_4}}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3F21",
+              "statement": "O seguinte mecanismo foi proposto para a reação entre gás hidrogênio e\nbromo.\n\n$$\n\\begin{aligned}\n\\ce{ {iniciação} &&     Br2 &->[$k_1$] 2 Br } \\\\\n\\ce{ {propagaçã} && Br + H2 &->[$k_2$] HBr + H } \\\\\n\\ce{             && H + Br2 &->[$k_3$] HBr + Br } \\\\\n\\ce{ {inibição}  && H + HBr &->[$k_4$] H2 + Br } \\\\\n\\ce{ {término}   && Br + Br &->[$k_5$] Br2 } \n\\end{aligned}\n$$\n\n**Determine** a lei de velocidade para essa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$v = \\dfrac{k_a[\\ce{H2}][\\ce{Br2}]^{3/2}}{[\\ce{Br2}]+k_b[\\ce{HBr}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3F22",
+              "statement": "O seguinte mecanismo foi proposto para a reação entre gás hidrogênio e\nbromo.\n\n$$\n\\begin{aligned}\n\\ce{ CH3CHO &->[$k_1$] CH3 + CHO } && E_{\\text{a},1} = \\pu{320 kJ.mol-1} \\\\\n\\ce{ CH3 + CH3O &->[$k_2$] CH4 + CH2CHO } && E_{\\text{a},2} = \\pu{40 kJ.mol-1} \\\\\n\\ce{ CH2CHO &->[$k_3$] CO + CH3 } && E_{\\text{a},3} = \\pu{45 kJ.mol-1} \\\\\n\\ce{ CH3 + CH3 &->[$k_4$] C2H6  } && E_{\\text{a},4} \\approx 0 \n\\end{aligned}\n$$\n\n**Determine** a lei de velocidade para essa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$v = \\dfrac{k_a[\\ce{H2}][\\ce{Br2}]^{3/2}}{[\\ce{Br2}]+k_b[\\ce{HBr}]}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3F26",
+              "statement": "Em fase gasosa uma reação ocorre conforme o seguinte mecanismo:\n\n$$\n\\ce{ \\textbf{A} ->[$k_1$] \\textbf{B} ->[$k_2$] \\textbf{C} ->[$k_3$] \\textbf{A} }\n$$\n\nA $\\pu{300 K}$, $k_1 = \\pu{3e-3 s-1}$, $k_2 = \\pu{1e-3 s-1}$ e\n$k_3 = \\pu{2,7e-3 s-1}$. Em um experimento, as pressões de\n$\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e $\\ce{\\textbf{C}}$ são\n$\\pu{50 kPa}$, $\\pu{80 kPa}$ e $\\pu{8 kPa}$, respectivamente. A energia\nde ativação para a formação de $\\ce{\\textbf{C}}$ é $\\pu{10 kJ.mol-1}$\nmaior que a energia de ativação para a formação de $\\ce{\\textbf{B}}$ e\nque a energia de ativação apra a formação de $\\ce{\\textbf{A}}$ é\n$\\pu{10 kJ.mol-1}$ menor que a energia de ativação para a formação de\n$\\ce{\\textbf{B}}$. Após o equilíbrio ser atingido o sistema é aquecido\naté $\\pu{400 K}$.\n\n-   **Determine** a composição do equilíbrio a $\\pu{300 K}$.\n-   **Determine** a composição do equilíbrio a $\\pu{400 K}$.\n",
+              "solution": "\n",
+              "answer": [
+                "$P_{\\ce{\\textbf{A}}} = \\pu{27 kPa}$,\n$P_{\\ce{\\textbf{B}}} = \\pu{81 kPa}$, $P_{\\ce{\\textbf{C}}} = \\pu{30 kPa}$\n",
+                "$P_{\\ce{\\textbf{A}}} = \\pu{36 kPa}$,\n$P_{\\ce{\\textbf{B}}} = \\pu{40 kPa}$,\n$P_{\\ce{\\textbf{C}}} = \\pu{108 kPa}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3F27",
+              "statement": "A reação de isomerização do cis-but-2-eno formando trans-but-2-eno, mais\nestável por $\\pu{4 kJ.mol-1}$, ocorre em fase gasosa em uma única etapa\ncom energia de ativação de $\\pu{264 kJ.mol-1}$. O mecanismo proposto\npara a reação catalisada é baseado em cinco etapas:\n\n1.  Dissociação do iodo molecular.\n2.  Um dos átomos de iodo é adicionado a um dos átomos de carbono com\n    ligação dupla. O sistema molecular formado encontra-se a\n    $\\pu{118 kJ.mol-1}$ acima dos reagentes.\n3.  Uma das extremidades da molécula sofre torção livre em relação à\n    outra extremidade. A energia do sistema molecular após a torção\n    continua a $\\pu{118 kJ.mol-1}$ acima dos reagentes.\n4.  O átomo de iodo ligado ao carbono dissocia-se do sistema molecular\n    intermediário e a ligação dupla é formada novamente no isômero\n    trans. Esse processo libera $\\pu{47 kJ.mol-1}$ de energia.\n5.  Formação do iodo molecular, liberando $\\pu{75 kJ.mol-1}$ de energia.\n\nBaseado nessas informações:\n\n-   **Apresente** as reações químicas que ocorrem em cada etapa da\n    reação catalisada para formar a reação global.\n-   **Esboce** os perfis de energia para a reação de isomerização com e\n    sem a presença de catalisador.\n-   **Apresente** a lei de velocidade para a reação catalisada.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "3F2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "3G",
