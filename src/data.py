@@ -20,7 +20,7 @@ class DataType:
     unit: str
 
 
-def state(state, sub='', sup='', delta=True, std=True):
+def state(state, sub='', sup='', delta=False, std=True):
     # Thermochemical state notation in latex format
     prefix = latex.cmd('Delta') if delta else ''
 
@@ -232,12 +232,12 @@ DATATYPES = {
     # ORGANIC/INORGANIC
     'Hf': DataType(
         'Entalpia de formação do',
-        state('H', sub='f'),
+        state('H', sub='f', delta=True),
         'kJ.mol-1'
     ),
     'Gf': DataType(
         'Entalpia livre de formação do',
-        state('G', sub='f'),
+        state('G', sub='f', delta=True),
         'kJ.mol-1'
     ),
     'CP': DataType(
@@ -247,18 +247,18 @@ DATATYPES = {
     ),
     'S':  DataType(
         'Entropia do ',
-        state('S', delta=False),
+        state('S'),
         'J.K-1.mol-1'
     ),
     'Hc': DataType(
         'Entalpia de combustão do',
-        state('H', sub='c'),
+        state('H', sub='c', delta=True),
         'kJ.mol-1'
     ),
     # BONDS
     'HL': DataType(
         'Entalpia da ligação',
-        state('H', sub='L'),
+        state('H', sub='L', delta=True),
         'kJ.mol-1'
     ),
     # SOLVENTS
@@ -269,33 +269,38 @@ DATATYPES = {
     ),
     'Hvap': DataType(
         'Entalpia de vaporização do',
-        state('H', sub='vap'),
+        state('H', sub='vap', delta=True),
         'kJ.mol-1'
     ),
     'Hfus': DataType(
         'Entalpia de fusão do',
-        state('H', sub='fus'),
+        state('H', sub='fus', delta=True),
         'kJ.mol-1'
     ),
     'Hsub': DataType(
         'Entalpia de sublimação do',
-        state('H', sub='sub'),
+        state('H', sub='sub', delta=True),
         'kJ.mol-1'
     ),
     'Tf': DataType(
         'Temperatura de fusão do',
-        state('T', delta=False, sub='fus', std=False),
+        state('T', sub='fus', std=False),
         'K'
     ),
     'Te': DataType(
         'Temperatura de ebulição do',
-        state('T', delta=False, sub='eb', std=False),
+        state('T', sub='eb', std=False),
         'K'
     ),
     'Pvap': DataType(
         'Pressão de vapor',
-        state('P', delta=False, sub='vap'),
+        state('P', sub='vap'),
         'mmHg'
+    ),
+    'kH': DataType(
+        'Constante de Henry',
+        state('k', sub='H'),
+        'mmol.L-1.atm-1'
     ),
     # ELEMENTS
     'Phi': DataType(

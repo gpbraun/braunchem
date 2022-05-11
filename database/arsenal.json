@@ -8320,7 +8320,950 @@
           "title": "Coloides"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "2E01",
+              "statement": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ndióxido de carbono em uma solução sob $\\pu{500 mmHg}$ desse gás a\n$\\pu{20 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{15 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kH-CO2",
+                    "name": "Constante de Henry \\ce{CO2} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{H} }(\\ce{CO2} )",
+                    "value": "23,0",
+                    "unit": "mmol.L-1.atm-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{5 mmol.L-1}$\n",
+                "$\\pu{10 mmol.L-1}$\n",
+                "$\\pu{15 mmol.L-1}$\n",
+                "$\\pu{20 mmol.L-1}$\n",
+                "$\\pu{25 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E02",
+              "statement": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ndióxido de carbono em uma solução sob $\\pu{500 mmHg}$ desse gás a\n$\\pu{20 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{360 mmHg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kH-O2",
+                    "name": "Constante de Henry \\ce{O2} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{H} }(\\ce{O2} )",
+                    "value": "1,30",
+                    "unit": "mmol.L-1.atm-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{160 mmHg}$\n",
+                "$\\pu{360 mmHg}$\n",
+                "$\\pu{560 mmHg}$\n",
+                "$\\pu{760 mmHg}$\n",
+                "$\\pu{960 mmHg}$\n"
+              ]
+            },
+            {
+              "id_": "2E03",
+              "statement": "Compressas frias contendo nitrato de amônio, podem ser utilizadas para\namenizar a dor. Essas compressas consistem em cristais de nitrato de\namônio e água, e esfriam à medida que o nitrato de amônio se dissolve na\nágua.\n\n**Assinale** a alternativa que explica porque dissolução do nitrato de\namônio em água é espontânea.\n",
+              "solution": "",
+              "answer": [
+                "As partículas de nitrato de amônio dissolvidas estão mais randomicamente\norganizadas que as do retículo cristalino, favorecendo a espontaneidade\ndo processo endotérmico.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "A variação de entalpia reticular é maior que a de solvatação dos íons.\n",
+                "A reação é exergônica, já que é exotérmica e possui variação positiva de\nentropia.\n",
+                "A reação é endotérmica, e isso faz com que o calor das vizinhanças seja\ndisperso nas compressas.\n",
+                "As partículas de nitrato de amônio dissolvidas estão mais randomicamente\norganizadas que as do retículo cristalino, favorecendo a espontaneidade\ndo processo endotérmico.\n",
+                "A reação é endotérmica e a solução mais fria apresenta menor energia, o\nque é favorável.\n"
+              ]
+            },
+            {
+              "id_": "2E04",
+              "statement": "Considere as proposições.\n\n1.  O valor absoluto da entalpia de hidratação do $\\ce{Na^{+}}$ é maior\n    que o do $\\ce{K^{+}}$.\n2.  O valor absoluto da entalpia de hidratação do $\\ce{Br^{-}}$ é maior\n    que o do $\\ce{Cl^{-}}$.\n3.  O valor absoluto da entalpia de hidratação do $\\ce{Ca^{2+}}$ é maior\n    que o do $\\ce{Al^{3+}}$.\n4.  O valor absoluto da entalpia de hidratação do $\\ce{Ga^{3+}}$ é maior\n    que o do $\\ce{Al^{3+}}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**1** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**1**",
+                "**4**",
+                "**1** e **4**",
+                "**1**, **2** e **4**",
+                "**1**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2E05",
+              "statement": "O gás dióxido de carbono dissolvido em uma amostra de água em um\nrecipiente parcialmente cheio e lacrado entrou em equilíbrio com sua\npressão parcial no ar que está acima da solução. Considere as operações.\n\n1.  A pressão parcial do gás $\\ce{CO2}$ dobra por adição de mais\n    $\\ce{CO2}$.\n2.  A pressão total do gás sobre o líquido dobra por adição de\n    nitrogênio.\n3.  A pressão parcial de $\\ce{CO2}$ é aumentada por compressão do gás\n    até um terço do volume original.\n4.  A temperatura é aumentada mantendo a pressão total constante.\n\nAssinale a alternativa que relaciona as operações que levam ao aumento\nda concentração de $\\ce{CO2}$ em solução.\n",
+              "solution": "",
+              "answer": [
+                "**1** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**1**",
+                "**3**",
+                "**1** e **3**",
+                "**1**, **2** e **3**",
+                "**1**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2E06",
+              "statement": "Considere as curvas de solubilidade de duas substâncias\n$\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$.\n\n![Curvas de solubilidade](2E06-1P.svg)\n\n**Assinale** a alternativa *correta*.\n",
+              "solution": "",
+              "answer": [
+                "A solubilidade da substância $\\ce{\\textbf{B}}$ segue o perfil esperado\npara a solubilidade de gases em água.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "No ponto $P$ as soluções apresentam a mesma temperatura mas as\nsolubilidades de $\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$ são diferentes.\n",
+                "A solução da substância $\\ce{\\textbf{A}}$ está supersaturada no ponto\n$Q$.\n",
+                "Soluções preparadas com $\\pu{40 g}$ de $\\ce{\\textbf{A}}$ ou\n$\\ce{\\textbf{B}}$ em $\\pu{100 g}$ de água são instáveis.\n",
+                "As curvas de solubilidade não indicam mudanças na estrutura dos solutos.\n",
+                "A solubilidade da substância $\\ce{\\textbf{B}}$ segue o perfil esperado\npara a solubilidade de gases em água.\n"
+              ]
+            },
+            {
+              "id_": "2E07",
+              "statement": "Considere as curvas de solubilidade de duas substâncias\n$\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$.\n\n![Curvas de solubilidade](2E07-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "A $\\pu{25 \\degree C}$, uma mistura de $\\pu{120 g}$ de $\\ce{NaNO3}$ com\n$\\ce{100 g}$ água é bifásica, sendo uma das fases o nitrato de amônio\nsólida e a outra a água líquida.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "A $\\pu{25 \\degree C}$, a solubilidade em água do $\\ce{NaNO3}$ é maior\nque a do $\\ce{Na2SO4.10H2O}$.\n",
+                "A $\\pu{25 \\degree C}$, uma mistura de $\\pu{120 g}$ de $\\ce{NaNO3}$ com\n$\\ce{100 g}$ água é bifásica, sendo uma das fases o nitrato de amônio\nsólida e a outra a água líquida.\n",
+                "A $\\pu{0 \\degree C}$, uma mistura de $\\pu{20 g}$ de $\\ce{NaCl}$ com\n$\\pu{100 g}$ de água é monofásica, sendo esta fase uma solução aquosa\nnão saturada em $\\ce{NaCl}$.\n",
+                "A $\\pu{25 \\degree C}$, a concentração de íons de sódio existentes na\nfase líquida de uma mistura preparada pela adição de $\\pu{6 g}$ de\n$\\ce{NaCl}$ à $\\pu{100 g}$ de água é $\\pu{1 mol.L-1}$.\n",
+                "A $\\pu{25 \\degree C}$, a quantidade de íons de sódio presentes em uma\nsolução preparada pela dissolução de $\\pu{1 g}$ de $\\ce{Na2SO4}$ em\n$\\ce{10 g}$ de água é maior do que a existente em outra solução\npreparada pela dissolução de $\\pu{1 g}$ de $\\ce{Na2SO4}$ em $\\pu{10 g}$\nde água é maior do que a existente em outra solução preparada pela\ndissolução de $\\pu{1 g}$ de $\\ce{Na2SO4.10H2O}$ na mesma quantidade de\nágua.\n"
+              ]
+            },
+            {
+              "id_": "2E08",
+              "statement": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E07-1P.svg)\n\nConsidere as proposições.\n\n1.  Ao dissolver $\\pu{130 g}$ de $\\ce{KNO3}$ em $\\pu{200 g}$ de água, a\n    $\\pu{40 \\degree C}$, a solução obtida é saturada e possui\n    $\\pu{70 g}$ de corpo de fundo.\n2.  Ao dissolver $\\pu{20 g}$ de $\\ce{Ce2(SO4)3}$ em $\\pu{300 g}$ de água\n    a $\\pu{10 \\degree C}$ e, posteriormente, aquecer a solução até\n    $\\pu{90 \\degree C}$ haverá gradativa precipitação da substância.\n3.  A menor quantidade de água necessária para dissolver completamente\n    $\\pu{140 g}$ de $\\ce{K2Cr2O7}$ a $\\pu{90 \\degree C}$ é cerca de\n    $\\pu{150 g}$.\n4.  O nitrato de sódio é a substância mais solúvel a\n    $\\pu{100 \\degree C}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**2**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "**1**",
+                "**2**",
+                "**1** e **2**",
+                "**2** e **3**",
+                "**2** e **4**"
+              ]
+            },
+            {
+              "id_": "2E11",
+              "statement": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E11-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada em\n$\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.\n",
+                "A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada em\n$\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.\n",
+                "Misturas correspondentes a pontos situados na região $\\text{\\textbf{I}}$\nda figura são bifásicas.\n",
+                "Misturas correspondentes a pontos situados na região\n$\\text{\\textbf{II}}$ da figura são monofásicas.\n",
+                "Misturas correspondentes a pontos situados sobre a curva são saturadas\nem $\\ce{KBr}$.\n"
+              ]
+            },
+            {
+              "id_": "2E12",
+              "statement": "A dissolução do sulfato de lítio ocorre com aumento de temperatura da\nsolução, já a dissolução do nitrato de amônio ocorre com o resfriamento\nda solução.\n\n1.  A entalpia de rede do sulfato de lítio é menor que sua entalpia de\n    hidratação.\n2.  A entalpia de rede do nitrato de amônio é maior que sua entalpia de\n    hidratação.\n3.  A dissolução do sulfato de lítio aumenta a entropia do sistema.\n4.  A dissolução do nitrato de amônio diminui a entropia do sistema.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**1**, **2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**1** e **2**",
+                "**1** e **3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2E13",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de solução\ndo cloreto de sódio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{3 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{NaCl}) = \\pu{787 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{NaCl}) = \\pu{784 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1 kJ.mol-1}$\n",
+                "$\\pu{2 kJ.mol-1}$\n",
+                "$\\pu{3 kJ.mol-1}$\n",
+                "$\\pu{4 kJ.mol-1}$\n",
+                "$\\pu{5 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E14",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-1928 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{Ca^{2+}}) = \\pu{-1579 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{Cl^-}) = \\pu{-336 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{sol}(\\ce{CaCl2}) = \\pu{-103 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{-983 kJ.mol-1}$\n",
+                "$\\pu{-1125 kJ.mol-1}$\n",
+                "$\\pu{-1928 kJ.mol-1}$\n",
+                "$\\pu{-2254 kJ.mol-1}$\n",
+                "$\\pu{-2414 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E15",
+              "statement": "Uma amostra de $\\pu{4 g}$ de $\\ce{MgBr2}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{35 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{MgBr2}) = \\pu{-2406 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{MgBr2}) = \\pu{-2591,6 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{15 \\degree C}$\n",
+                "$\\pu{25 \\degree C}$\n",
+                "$\\pu{35 \\degree C}$\n",
+                "$\\pu{45 \\degree C}$\n",
+                "$\\pu{55 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2E16",
+              "statement": "Uma amostra de $\\pu{10 g}$ de $\\ce{NH4NO3}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{23 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{NH4NO3}) = \\pu{-628 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{NH4^{+}}) = \\pu{-307 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{NO3^{-}}) = \\pu{-314 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{21 \\degree C}$\n",
+                "$\\pu{23 \\degree C}$\n",
+                "$\\pu{25 \\degree C}$\n",
+                "$\\pu{27 \\degree C}$\n",
+                "$\\pu{29 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2E14",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-1928 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{Ca^{2+}}) = \\pu{-1579 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{Cl^-}) = \\pu{-336 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{sol}(\\ce{CaCl2}) = \\pu{-103 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{-983 kJ.mol-1}$\n",
+                "$\\pu{-1125 kJ.mol-1}$\n",
+                "$\\pu{-1928 kJ.mol-1}$\n",
+                "$\\pu{-2254 kJ.mol-1}$\n",
+                "$\\pu{-2414 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E15",
+              "statement": "Uma amostra de $\\pu{4 g}$ de $\\ce{MgBr2}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{35 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{MgBr2}) = \\pu{-2406 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{MgBr2}) = \\pu{-2591,6 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{15 \\degree C}$\n",
+                "$\\pu{25 \\degree C}$\n",
+                "$\\pu{35 \\degree C}$\n",
+                "$\\pu{45 \\degree C}$\n",
+                "$\\pu{55 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2E16",
+              "statement": "Uma amostra de $\\pu{10 g}$ de $\\ce{NH4NO3}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{23 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{NH4NO3}) = \\pu{-628 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{NH4^{+}}) = \\pu{-307 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{hid}(\\ce{NO3^{-}}) = \\pu{-314 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "CP-H2O(l)",
+                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
+                    "symbol": "C_P(\\ce{H2O, {l}} )",
+                    "value": "75,3",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{21 \\degree C}$\n",
+                "$\\pu{23 \\degree C}$\n",
+                "$\\pu{25 \\degree C}$\n",
+                "$\\pu{27 \\degree C}$\n",
+                "$\\pu{29 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2E17",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo cloreto de potássio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-411 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$AE(\\ce{Cl}) = \\pu{-349 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$EI(\\ce{K}) = \\pu{419 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{KCl}) = \\pu{-690 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "HL-Cl2",
+                    "name": "Entalpia da ligação \\ce{Cl2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2} )",
+                    "value": "242",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{-238 kJ.mol-1}$\n",
+                "$\\pu{-347 kJ.mol-1}$\n",
+                "$\\pu{-411 kJ.mol-1}$\n",
+                "$\\pu{-513 kJ.mol-1}$\n",
+                "$\\pu{-673 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E18",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\ncloreto de cálcio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{-2260 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$AE(\\ce{Cl}) = \\pu{-349 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$EI_1(\\ce{Ca}) = \\pu{590 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$EI_2(\\ce{Ca}) = \\pu{1146 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{sub}(\\ce{Ca}) = \\pu{190 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "HL-Cl2",
+                    "name": "Entalpia da ligação \\ce{Cl2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2} )",
+                    "value": "242",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CaCl2(s)",
+                    "name": "Entalpia de formação do \\ce{CaCl2} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaCl2, {s}} )",
+                    "value": "-796",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{-790 kJ.mol-1}$\n",
+                "$\\pu{-1029 kJ.mol-1}$\n",
+                "$\\pu{-2070 kJ.mol-1}$\n",
+                "$\\pu{-2260 kJ.mol-1}$\n",
+                "$\\pu{-2609 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E19",
+              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do lítio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{161 kJ.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$AE_1(\\ce{I}) = \\pu{-295 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$EI(\\ce{Li}) = \\pu{520 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{LiI}) = \\pu{-753 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{f}(\\ce{LiI}) = \\pu{-292 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "HL-I2",
+                    "name": "Entalpia da ligação \\ce{I2} ",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{I2} )",
+                    "value": "151",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{80 kJ.mol-1}$\n",
+                "$\\pu{161 kJ.mol-1}$\n",
+                "$\\pu{242 kJ.mol-1}$\n",
+                "$\\pu{324 kJ.mol-1}$\n",
+                "$\\pu{405 kJ.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2E20",
+              "statement": "Assinale a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{6 eV}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$AE_1(\\ce{S}) = \\pu{2,1 eV}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$EI(\\ce{K}) = \\pu{4,4 eV}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{R}(\\ce{K2S}) = \\pu{2052 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{sub}(\\ce{S}) = \\pu{277 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Hf-K2S(s)",
+                    "name": "Entalpia de formação do \\ce{K2S} (s)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{K2S, {s}} )",
+                    "value": "-381",
+                    "unit": "kJ.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{2 eV}$\n",
+                "$\\pu{3 eV}$\n",
+                "$\\pu{4 eV}$\n",
+                "$\\pu{5 eV}$\n",
+                "$\\pu{6 eV}$\n"
+              ]
+            },
+            {
+              "id_": "2E21",
+              "statement": "Os mingaus contêm grandes moléculas de amido que fazem a mistura\nengrossar por um mecanismo semelhante ao da gelatina.\n\n**Assinale** a alternativa com a descrição para o mecanismo de\nendurecimento dos mingaus.\n",
+              "solution": "",
+              "answer": [
+                "As moléculas de amido formam ligações hidrogênio com as moléculas de\nágua e encapsulam a água em uma rede.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "As moléculas de amido dos mingaus são insolúveis em água e precipitam\nquando misturadas com água.\n",
+                "As moléculas de amido dos mingaus são solubilizadas em água, aumentando\na densidade da solução.\n",
+                "Os fios das moléculas de amido se ligam uns aos outros por ligações\ncovalentes.\n",
+                "As moléculas de amido formam ligações hidrogênio com as moléculas de\nágua e encapsulam a água em uma rede.\n",
+                "As moléculas de água hidratam as moléculas de amido do pudim, e o calor\nde hidratação decompõe as moléculas de amido.\n"
+              ]
+            }
+          ],
+          "id_": "2E1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2E22",
+              "statement": "Quando submersos em águas profundas, os mergulhadores necessitam voltar\nlentamente à superfície para evitar a formação de bolhas de gás no\nsangue.\n\n-   **Explique** o motivo da não formação de bolhas de gás no sangue\n    quando o mergulhador desloca-se de regiões próximas à superfície\n    para as regiões de águas profundas.\n-   **Explique** o motivo da não formação de bolhas de gás no sangue\n    quando o mergulhador desloca-se muito lentamente de regiões de águas\n    profundas para as regiões próximas da superfície.\n-   **Explique** o motivo da formação de bolhas de gás no sangue quando\n    o mergulhador desloca-se muito rapidamente de regiões de águas\n    profundas para as regiões próximas da superfície.\n",
+              "solution": "\n",
+              "answer": [
+                "O aumento da solubilidade do gás no sangue devido ao aumento da pressão\né o motivo de não haver a formação de bolhas de gás no sangue quando o\nmergulhador se desloca de regiões próximas à superfície para as regiões\nde águas profundas.\n",
+                "O motivo de não se formarem bolhas de gás no sangue quando o mergulhador\nse desloca muito lentamente de regiões de águas profundas para as\nregiões próximas da superfície é o fato da variação de pressão ocorrer\nlentamente e, portanto, a liberação de gás ser pequena.\n",
+                "A formação de bolhas de gás no sangue quando o mergulhador se desloca\nmuito rapidamente de regiões de águas profundas para águas superficiais\né a repentina variação de pressão, diminuindo a solubilidade do gás no\nsangue. Ocorre intensa liberação do gás, com formação de bolhas.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2E23",
+              "statement": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de\n$\\pu{6 L}$. As células sanguíneas compõem cerca de $55\\%$ do volume do\nsangue. Os restantes $45\\%$ formam a solução em água conhecida como\nplasma. A solubilidade do $\\ce{N2}$ no sangue a uma pressão parcial de 1\natm é $\\pu{5,8e-4 mol.L-1.atm-1}$.\n\nAssinale a alternativa que mais se aproxima do volume de nitrogênio,\nmedido sob $\\pu{1 atm}$ e $\\pu{37 \\degree C}$, eliminado por um\nmergulhador em profundidade de $\\pu{90 m}$ em seu retorno à superfície.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{400 mL}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{100 mL}$\n",
+                "$\\pu{200 mL}$\n",
+                "$\\pu{300 mL}$\n",
+                "$\\pu{400 mL}$\n",
+                "$\\pu{500 mL}$\n"
+              ]
+            },
+            {
+              "id_": "2E24",
+              "statement": "Um recipiente **A**, dotado de uma válvula na parte superior, está\ntotalmente preenchido por uma solução de $n$ mols de $\\ce{CO2}$ em\n$\\pu{1800 g}$ de água. O recipiente **A** foi, então, conectado ao\nrecipiente **B** previamente evacuado, fechado por válvula e com volume\nde $\\pu{1,64 L}$. Em um dado momento, as válvulas foram abertas deixando\no sistema nesta condição durante tempo suficiente para atingir o\nequilíbrio. Após o equilíbrio, as válvulas foram fechadas e os\nrecipientes foram desconectados. Todo o processo ocorreu à temperatura\nconstante de $\\pu{300 K}$. A constante de Henry para a solubilidade do\n$\\ce{CO2}$ na água, $k_\\text{H}=\\pu{33,3 atm-1}$.\n\n**Determine** o número de mols de $\\ce{CO2}$ que migraram para o\nrecipiente **B** em função de $n$.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\dfrac{102+n+\\sqrt{(102+n)^2 - 8n}}{2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2E28",
+              "statement": "Considere as propriedades dos sólidos iônicos.\n\n-   **Explique** porque o valor absoluto da entalpia de rede cresce na\n    ordem $\\ce{Na2Te} < \\ce{Na2Se} < \\ce{CaTe} < \\ce{CaSe}$.\n-   **Ordene** os compostos $\\ce{FeCl3}$, $\\ce{FeCl2}$ e $\\ce{Fe2O3}$ em\n    função do valor absoluto de entalpia de rede.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2E29",
+              "statement": "Considere as propriedades dos sólidos iônicos.\n\n-   **Explique** porque, mesmo sendo a primeira afinidade eletrônica do\n    oxigênio exotérmica e a segunda é endotérmica, na maioria dos\n    compostos iônicos o oxigênio está na forma de óxido.\n-   **Explique** porque o composto $\\ce{NaCl2}$ é improvável, supondo\n    que sua entalpia de rede seja igual à do $\\ce{MgCl2}$.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "2E2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "2F",
@@ -12611,7 +13554,7 @@
             },
             {
               "id_": "3F11",
-              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k [\\ce{NO}]^2[\\ce{O2}]\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ 2 NO &<=> N2O2      && {rápida} } \\\\\n        \\ce{ N2O2 + O2 &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + O2 &<=> NO3   && {rápida} } \\\\\n        \\ce{ NO + NO3 &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n3.  Mecanismo **3**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + 1/2 O2 &-> NO2   && {rápida} } \\\\\n        \\ce{ NO2 + 1/2 O2 &-> NO3  && {lenta}  } \\\\\n        \\ce{ NO + NO3 &<=> N2O4    && {rápida} } \\\\\n        \\ce{ N2O4 &-> 2 NO2        && {lenta}  }\n    \\end{aligned}\n    $$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
+              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k [\\ce{NO}]^2[\\ce{O2}]\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ 2 NO &<=> N2O2      && {rápida} } \\\\\n        \\ce{ N2O2 + O2 &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + O2 &<=> NO3   && {rápida} } \\\\\n        \\ce{ NO + NO3 &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n3.  Mecanismo **3**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + 1/2 O2  &-> NO2   && {rápida} } \\\\\n        \\ce{ NO2 + 1/2 O2 &-> NO3   && {lenta}  } \\\\\n        \\ce{ NO + NO3     &<=> N2O4 && {rápida} } \\\\\n        \\ce{ N2O4         &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
               "solution": "",
               "answer": [
                 "**1** e **2**, apenas.\n"
@@ -12686,11 +13629,11 @@
             },
             {
               "id_": "3F17",
-              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 H2(g) + 2 NO(g) -> N2(g) + 2 H2O(g) }\n$$\n\nOs resultados a seguir foram obtidos no estudo da cinética dessa reação:\n\n| #     | $P_{\\ce{H2}}$ $/\\pu{mmHg}$ | $P_{\\ce{NO}}$ $/\\pu{mmHg}$ | $v_{\\ce{N2}}$ $/(\\pu{mmHg.s-1})$ |\n|-------|---------------------------:|---------------------------:|---------------------------------:|\n| **1** |                      $280$ |                      $400$ |                      $\\pu{0,16}$ |\n| **2** |                      $147$ |                      $400$ |                      $\\pu{0,77}$ |\n| **3** |                      $400$ |                      $300$ |                      $\\pu{1,03}$ |\n| **4** |                      $400$ |                      $152$ |                      $\\pu{0,25}$ |\n\nDois mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ H2 + NO + NO &<=>[$k_1$] N2O + H2O } \\\\\n        \\ce{ H2 + N2O &->[$k_2$] N2 + H2O }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + NO &<=>[$k_1$][$k_1^\\prime$] N2O2 && {rápida} } \\\\\n        \\ce{ H2 + N2O2 &->[$k_2$] N2O + H2O && {lenta} } \\\\\n        \\ce{ H2 + N2O &->[$k_3$] N2 + H2O && {lenta} }\n    \\end{aligned}\n    $$\n\n-   **Determine** a lei de velocidade experimental para a reação.\n-   **Determine** qual dos mecanismos é mais plausível.\n",
+              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 H2(g) + 2 NO(g) -> N2(g) + 2 H2O(g) }\n$$\n\nOs resultados a seguir foram obtidos no estudo da cinética dessa reação:\n\n| #     | $P_{\\ce{H2}}$ $/\\pu{mmHg}$ | $P_{\\ce{NO}}$ $/\\pu{mmHg}$ | $v_{\\ce{N2}}$ $/(\\pu{mmHg.s-1})$ |\n|-------|---------------------------:|---------------------------:|---------------------------------:|\n| **1** |                      $289$ |                      $400$ |                      $\\pu{1,60}$ |\n| **2** |                      $147$ |                      $400$ |                      $\\pu{0,77}$ |\n| **3** |                      $400$ |                      $300$ |                      $\\pu{1,03}$ |\n| **4** |                      $400$ |                      $152$ |                      $\\pu{0,25}$ |\n\nDois mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ H2 + NO + NO &->[$k_1$] N2O + H2O } \\\\\n        \\ce{ H2 + N2O &->[$k_2$] N2 + H2O }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + NO &<=>[$k_1$][$k_1^\\prime$] N2O2 && {rápida} } \\\\\n        \\ce{ H2 + N2O2 &->[$k_2$] N2O + H2O && {lenta} } \\\\\n        \\ce{ H2 + N2O &->[$k_3$] N2 + H2O && {lenta} }\n    \\end{aligned}\n    $$\n\n-   **Determine** a lei de velocidade experimental para a reação.\n-   **Determine** qual dos mecanismos é mais plausível.\n",
               "solution": "\n",
               "answer": [
                 "$v = k[\\ce{H2}]^2[\\ce{NO}]$\n",
-                "Mecanismo 2.\n"
+                "Percebe-se com base na molecularidade das etapas elementares que o\nmecanismo 2 é mais plausível, visto que todas as etapas desse mecanismo\nsão bimoleculares. A primeira etapa do mecanismo 1 supõe uma colisão\ntermolecular, tornando essa proposta menos provável.\n"
               ],
               "constants": {
                 "data": []
