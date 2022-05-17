@@ -8433,7 +8433,7 @@
             },
             {
               "id_": "2E05",
-              "statement": "O gás dióxido de carbono dissolvido em uma amostra de água em um\nrecipiente parcialmente cheio e lacrado entrou em equilíbrio com sua\npressão parcial no ar que está acima da solução. Considere as operações.\n\n1.  A pressão parcial do gás $\\ce{CO2}$ dobra por adição de mais\n    $\\ce{CO2}$.\n2.  A pressão total do gás sobre o líquido dobra por adição de\n    nitrogênio.\n3.  A pressão parcial de $\\ce{CO2}$ é aumentada por compressão do gás\n    até um terço do volume original.\n4.  A temperatura é aumentada mantendo a pressão total constante.\n\nAssinale a alternativa que relaciona as operações que levam ao aumento\nda concentração de $\\ce{CO2}$ em solução.\n",
+              "statement": "O gás dióxido de carbono dissolvido em uma amostra de água em um\nrecipiente parcialmente cheio e lacrado entrou em equilíbrio com sua\npressão parcial no ar que está acima da solução. Considere as operações.\n\n1.  A pressão parcial do gás $\\ce{CO2}$ dobra por adição de mais\n    $\\ce{CO2}$.\n2.  A pressão total do gás sobre o líquido dobra por adição de\n    nitrogênio.\n3.  A pressão parcial de $\\ce{CO2}$ é aumentada por compressão do gás\n    até um terço do volume original.\n4.  A temperatura é aumentada mantendo a pressão total constante.\n\n**Assinale** a alternativa que relaciona as operações que levam ao\naumento da concentração de $\\ce{CO2}$ em solução.\n",
               "solution": "",
               "answer": [
                 "**1** e **3**"
@@ -8479,7 +8479,7 @@
             },
             {
               "id_": "2E07",
-              "statement": "Considere as curvas de solubilidade de duas substâncias\n$\\ce{\\textbf{A}}$ e $\\ce{\\textbf{B}}$.\n\n![Curvas de solubilidade](2E07-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+              "statement": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E07-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
               "solution": "",
               "answer": [
                 "A $\\pu{25 \\degree C}$, uma mistura de $\\pu{120 g}$ de $\\ce{NaNO3}$ com\n$\\ce{100 g}$ água é bifásica, sendo uma das fases o nitrato de amônio\nsólida e a outra a água líquida.\n"
@@ -8605,148 +8605,6 @@
                 "$\\pu{3 kJ.mol-1}$\n",
                 "$\\pu{4 kJ.mol-1}$\n",
                 "$\\pu{5 kJ.mol-1}$\n"
-              ]
-            },
-            {
-              "id_": "2E14",
-              "statement": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{-1928 kJ.mol-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": [
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{hid}(\\ce{Ca^{2+}}) = \\pu{-1579 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{hid}(\\ce{Cl^-}) = \\pu{-336 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{sol}(\\ce{CaCl2}) = \\pu{-103 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  }
-                ]
-              },
-              "elements": [],
-              "obj": 2,
-              "choices": [
-                "$\\pu{-983 kJ.mol-1}$\n",
-                "$\\pu{-1125 kJ.mol-1}$\n",
-                "$\\pu{-1928 kJ.mol-1}$\n",
-                "$\\pu{-2254 kJ.mol-1}$\n",
-                "$\\pu{-2414 kJ.mol-1}$\n"
-              ]
-            },
-            {
-              "id_": "2E15",
-              "statement": "Uma amostra de $\\pu{4 g}$ de $\\ce{MgBr2}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{35 \\degree C}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": [
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{R}(\\ce{MgBr2}) = \\pu{-2406 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{hid}(\\ce{MgBr2}) = \\pu{-2591,6 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": "CP-H2O(l)",
-                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                    "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,3",
-                    "unit": "J.K-1.mol-1"
-                  }
-                ]
-              },
-              "elements": [],
-              "obj": 2,
-              "choices": [
-                "$\\pu{15 \\degree C}$\n",
-                "$\\pu{25 \\degree C}$\n",
-                "$\\pu{35 \\degree C}$\n",
-                "$\\pu{45 \\degree C}$\n",
-                "$\\pu{55 \\degree C}$\n"
-              ]
-            },
-            {
-              "id_": "2E16",
-              "statement": "Uma amostra de $\\pu{10 g}$ de $\\ce{NH4NO3}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{23 \\degree C}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": [
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{R}(\\ce{NH4NO3}) = \\pu{-628 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{hid}(\\ce{NH4^{+}}) = \\pu{-307 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": 0,
-                    "name": "$\\Delta H_\\text{hid}(\\ce{NO3^{-}}) = \\pu{-314 kJ.mol-1}$",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
-                  },
-                  {
-                    "id_": "CP-H2O(l)",
-                    "name": "Capacidade calorífica do \\ce{H2O} (l)",
-                    "symbol": "C_P(\\ce{H2O, {l}} )",
-                    "value": "75,3",
-                    "unit": "J.K-1.mol-1"
-                  }
-                ]
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\pu{21 \\degree C}$\n",
-                "$\\pu{23 \\degree C}$\n",
-                "$\\pu{25 \\degree C}$\n",
-                "$\\pu{27 \\degree C}$\n",
-                "$\\pu{29 \\degree C}$\n"
               ]
             },
             {
@@ -9077,7 +8935,7 @@
             },
             {
               "id_": "2E20",
-              "statement": "Assinale a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
+              "statement": "**Assinale** a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
               "solution": "",
               "answer": [
                 "$\\pu{6 eV}$\n"
@@ -9191,7 +9049,7 @@
             },
             {
               "id_": "2E23",
-              "statement": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de\n$\\pu{6 L}$. As células sanguíneas compõem cerca de $55\\%$ do volume do\nsangue. Os restantes $45\\%$ formam a solução em água conhecida como\nplasma. A solubilidade do $\\ce{N2}$ no sangue a uma pressão parcial de 1\natm é $\\pu{5,8e-4 mol.L-1.atm-1}$.\n\nAssinale a alternativa que mais se aproxima do volume de nitrogênio,\nmedido sob $\\pu{1 atm}$ e $\\pu{37 \\degree C}$, eliminado por um\nmergulhador em profundidade de $\\pu{90 m}$ em seu retorno à superfície.\n",
+              "statement": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de\n$\\pu{6 L}$. As células sanguíneas compõem cerca de $55\\%$ do volume do\nsangue. Os restantes $45\\%$ formam a solução em água conhecida como\nplasma. A solubilidade do $\\ce{N2}$ no sangue a uma pressão parcial de 1\natm é $\\pu{5,8e-4 mol.L-1.atm-1}$.\n\n**Assinale** a alternativa que mais se aproxima do volume de nitrogênio,\nmedido sob $\\pu{1 atm}$ e $\\pu{37 \\degree C}$, eliminado por um\nmergulhador em profundidade de $\\pu{90 m}$ em seu retorno à superfície.\n",
               "solution": "",
               "answer": [
                 "$\\pu{400 mL}$\n"
@@ -13374,7 +13232,9 @@
               "id_": "3F02",
               "statement": "O seguinte mecanismo foi proposto.\n\n$$\n\\begin{aligned}\n\\ce{ \\textbf{A}^{4+} + \\textbf{B}^{2+} &-> \\textbf{A}^{3+} + \\textbf{B}^{3+} && {lenta}  } \\\\\n\\ce{ \\textbf{A}^{4+} + \\textbf{B}^{3+} &-> \\textbf{A}^{3+} + \\textbf{B}^{4+} && {rápida} } \\\\\n\\ce{ \\textbf{C}^{+}  + \\textbf{B}^{4+} &-> \\textbf{C}^{3+} + \\textbf{B}^{2+} && {rápida} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa *incorreta*.\n",
               "solution": "",
-              "answer": [],
+              "answer": [
+                "A lei de velocidade é\n$v = k[\\ce{\\textbf{C}^{+}}][\\ce{\\textbf{A}^{4+}}]$.\n"
+              ],
               "constants": {
                 "data": []
               },
@@ -13382,9 +13242,9 @@
                 "data": []
               },
               "elements": [],
-              "obj": 0,
+              "obj": 3,
               "choices": [
-                "A reação global é representada pela equação\n$\\ce{ \\textbf{C}^+ + 2 \\textbf{A}^{4+} -> \\textbf{C}^{3+} + 2 \\textbf{A}^{3+} }$.\n",
+                "A reação global é\n$\\ce{ \\textbf{C}^+ + 2 \\textbf{A}^{4+} -> \\textbf{C}^{3+} + 2 \\textbf{A}^{3+} }$.\n",
                 "O cátion $\\ce{\\textbf{B}^{2+}}$ é catalisador da reação.\n",
                 "Os cátions $\\ce{\\textbf{B}^{3+}}$ e $\\ce{\\textbf{B}^{4+}}$ são\nintermediários da reação.\n",
                 "A lei de velocidade é\n$v = k[\\ce{\\textbf{C}^{+}}][\\ce{\\textbf{A}^{4+}}]$.\n",
@@ -13531,7 +13391,7 @@
             },
             {
               "id_": "3F10",
-              "statement": "Considere a reação de decomposição da nitramida em solução aquosa:\n\n$$\n\\ce{ NH2NO2(aq) -> N2O(g) + H2O(l) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k \\dfrac{[\\ce{NH2NO2}]}{[\\ce{H3O+}]}\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NH2NO2 + H2O &<=> NHNO2^- + H3O^+ && {rápida} } \\\\\n        \\ce{ NHNO2 &-> N2O + OH && {lenta} } \\\\\n        \\ce{ H3O+ + OH^- &-> 2 H2O && {rápida} }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\ce{ NH2NO2 -> N2O + H2O }\n    $$\n\n3.  Mecanismo **3**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NH2NO2 + H3O^+ &<=> NH2NO2^+ + H2O && {rápida} } \\\\\n        \\ce{ NH2NO2^+ &-> N2O + H3O^+  && {lenta} }\n    \\end{aligned}\n    $$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
+              "statement": "Considere a reação de decomposição da nitramida em solução aquosa:\n\n$$\n\\ce{ NH2NO2(aq) -> N2O(g) + H2O(l) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k \\dfrac{[\\ce{NH2NO2}]}{[\\ce{H3O+}]}\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\nMecanismo **1**\n\n$$\n\\begin{aligned}\n    \\ce{ NH2NO2 + H2O &<=> NHNO2^- + H3O^+ && {rápida} } \\\\\n    \\ce{ NHNO2 &-> N2O + OH && {lenta} } \\\\\n    \\ce{ H3O+ + OH^- &-> 2 H2O && {rápida} }\n\\end{aligned}\n$$\n\nMecanismo **2**\n\n$$\n\\ce{ NH2NO2 -> N2O + H2O }\n$$\n\nMecanismo **3**\n\n$$\n\\begin{aligned}\n    \\ce{ NH2NO2 + H3O^+ &<=> NH2NO2^+ + H2O && {rápida} } \\\\\n    \\ce{ NH2NO2^+ &-> N2O + H3O^+  && {lenta} }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
               "solution": "",
               "answer": [
                 "**1**, apenas.\n"
@@ -13554,7 +13414,7 @@
             },
             {
               "id_": "3F11",
-              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k [\\ce{NO}]^2[\\ce{O2}]\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ 2 NO &<=> N2O2      && {rápida} } \\\\\n        \\ce{ N2O2 + O2 &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + O2 &<=> NO3   && {rápida} } \\\\\n        \\ce{ NO + NO3 &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n3.  Mecanismo **3**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + 1/2 O2  &-> NO2   && {rápida} } \\\\\n        \\ce{ NO2 + 1/2 O2 &-> NO3   && {lenta}  } \\\\\n        \\ce{ NO + NO3     &<=> N2O4 && {rápida} } \\\\\n        \\ce{ N2O4         &-> 2 NO2 && {lenta}  }\n    \\end{aligned}\n    $$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
+              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }\n$$\n\nEssa reação possui lei de velocidade:\n\n$$\nv = k [\\ce{NO}]^2[\\ce{O2}]\n$$\n\nTrês mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\nMecanismo **1**\n\n$$\n\\begin{aligned}\n    \\ce{ 2 NO &<=> N2O2      && {rápida} } \\\\\n    \\ce{ N2O2 + O2 &-> 2 NO2 && {lenta}  }\n\\end{aligned}\n$$\n\nMecanismo **2**\n\n$$\n\\begin{aligned}\n    \\ce{ NO + O2 &<=> NO3   && {rápida} } \\\\\n    \\ce{ NO + NO3 &-> 2 NO2 && {lenta}  }\n\\end{aligned}\n$$\n\nMecanismo **3**\n\n$$\n\\begin{aligned}\n    \\ce{ NO + 1/2 O2  &-> NO2   && {rápida} } \\\\\n    \\ce{ NO2 + 1/2 O2 &-> NO3   && {lenta}  } \\\\\n    \\ce{ NO + NO3     &<=> N2O4 && {rápida} } \\\\\n    \\ce{ N2O4         &-> 2 NO2 && {lenta}  }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que relaciona os mecanismos compatíveis com a\nlei de velocidade experimental.\n",
               "solution": "",
               "answer": [
                 "**1** e **2**, apenas.\n"
@@ -13629,7 +13489,7 @@
             },
             {
               "id_": "3F17",
-              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 H2(g) + 2 NO(g) -> N2(g) + 2 H2O(g) }\n$$\n\nOs resultados a seguir foram obtidos no estudo da cinética dessa reação:\n\n| #     | $P_{\\ce{H2}}$ $/\\pu{mmHg}$ | $P_{\\ce{NO}}$ $/\\pu{mmHg}$ | $v_{\\ce{N2}}$ $/(\\pu{mmHg.s-1})$ |\n|-------|---------------------------:|---------------------------:|---------------------------------:|\n| **1** |                      $289$ |                      $400$ |                      $\\pu{1,60}$ |\n| **2** |                      $147$ |                      $400$ |                      $\\pu{0,77}$ |\n| **3** |                      $400$ |                      $300$ |                      $\\pu{1,03}$ |\n| **4** |                      $400$ |                      $152$ |                      $\\pu{0,25}$ |\n\nDois mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\n1.  Mecanismo **1**\n\n    $$\n    \\begin{aligned}\n        \\ce{ H2 + NO + NO &->[$k_1$] N2O + H2O } \\\\\n        \\ce{ H2 + N2O &->[$k_2$] N2 + H2O }\n    \\end{aligned}\n    $$\n\n2.  Mecanismo **2**\n\n    $$\n    \\begin{aligned}\n        \\ce{ NO + NO &<=>[$k_1$][$k_1^\\prime$] N2O2 && {rápida} } \\\\\n        \\ce{ H2 + N2O2 &->[$k_2$] N2O + H2O && {lenta} } \\\\\n        \\ce{ H2 + N2O &->[$k_3$] N2 + H2O && {lenta} }\n    \\end{aligned}\n    $$\n\n-   **Determine** a lei de velocidade experimental para a reação.\n-   **Determine** qual dos mecanismos é mais plausível.\n",
+              "statement": "Considere a reação de oxidação do óxido nítrico:\n\n$$\n\\ce{ 2 H2(g) + 2 NO(g) -> N2(g) + 2 H2O(g) }\n$$\n\nOs resultados a seguir foram obtidos no estudo da cinética dessa reação:\n\n| #     | $P_{\\ce{H2}}$ $/\\pu{mmHg}$ | $P_{\\ce{NO}}$ $/\\pu{mmHg}$ | $v_{\\ce{N2}}$ $/(\\pu{mmHg.s-1})$ |\n|-------|---------------------------:|---------------------------:|---------------------------------:|\n| **1** |                      $289$ |                      $400$ |                      $\\pu{1,60}$ |\n| **2** |                      $147$ |                      $400$ |                      $\\pu{0,77}$ |\n| **3** |                      $400$ |                      $300$ |                      $\\pu{1,03}$ |\n| **4** |                      $400$ |                      $152$ |                      $\\pu{0,25}$ |\n\nDois mecanismos foram propostos para a reação de decomposição da\nnitramida em solução aquosa.\n\nMecanismo **1**\n\n$$\n\\begin{aligned}\n    \\ce{ H2 + NO + NO &->[$k_1$] N2O + H2O } \\\\\n    \\ce{ H2 + N2O &->[$k_2$] N2 + H2O }\n\\end{aligned}\n$$\n\nMecanismo **2**\n\n$$\n\\begin{aligned}\n    \\ce{ NO + NO &<=>[$k_1$][$k_1^\\prime$] N2O2 && {rápida} } \\\\\n    \\ce{ H2 + N2O2 &->[$k_2$] N2O + H2O && {lenta} } \\\\\n    \\ce{ H2 + N2O &->[$k_3$] N2 + H2O && {lenta} }\n\\end{aligned}\n$$\n\n-   **Determine** a lei de velocidade experimental para a reação.\n-   **Determine** qual dos mecanismos é mais plausível.\n",
               "solution": "\n",
               "answer": [
                 "$v = k[\\ce{H2}]^2[\\ce{NO}]$\n",
@@ -13698,10 +13558,11 @@
             },
             {
               "id_": "3F22",
-              "statement": "O seguinte mecanismo foi proposto para a reação entre gás hidrogênio e\nbromo.\n\n$$\n\\begin{aligned}\n\\ce{ CH3CHO &->[$k_1$] CH3 + CHO } && E_{\\text{a},1} = \\pu{320 kJ.mol-1} \\\\\n\\ce{ CH3 + CH3O &->[$k_2$] CH4 + CH2CHO } && E_{\\text{a},2} = \\pu{40 kJ.mol-1} \\\\\n\\ce{ CH2CHO &->[$k_3$] CO + CH3 } && E_{\\text{a},3} = \\pu{45 kJ.mol-1} \\\\\n\\ce{ CH3 + CH3 &->[$k_4$] C2H6  } && E_{\\text{a},4} \\approx 0 \n\\end{aligned}\n$$\n\n**Determine** a lei de velocidade para essa reação.\n",
+              "statement": "O mecanismo de Rice-Herzfeld para a decomposição térmica do acetaldeído\né:\n\n$$\n\\begin{aligned}\n\\ce{ CH3CHO &->[$k_1$] CH3 + CHO } && E_{\\text{a},1} = \\pu{320 kJ.mol-1} \\\\\n\\ce{ CH3 + CH3O &->[$k_2$] CH4 + CH2CHO } && E_{\\text{a},2} = \\pu{40 kJ.mol-1} \\\\\n\\ce{ CH2CHO &->[$k_3$] CO + CH3 } && E_{\\text{a},3} = \\pu{45 kJ.mol-1} \\\\\n\\ce{ CH3 + CH3 &->[$k_4$] C2H6  } && E_{\\text{a},4} \\approx 0 \n\\end{aligned}\n$$\n\n-   **Determine** a lei de velocidade para essa reação.\n-   **Determine** a energia de ativação efetiva dessa reação.\n",
               "solution": "\n",
               "answer": [
-                "$v = \\dfrac{k_a[\\ce{H2}][\\ce{Br2}]^{3/2}}{[\\ce{Br2}]+k_b[\\ce{HBr}]}$\n"
+                "$v = k_2 \\sqrt{\\dfrac{k_1}{k_4}} [\\ce{CH3CHO}]^{3/2}$\n",
+                "$\\pu{200 kJ.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -13715,7 +13576,7 @@
             },
             {
               "id_": "3F26",
-              "statement": "Em fase gasosa uma reação ocorre conforme o seguinte mecanismo:\n\n$$\n\\ce{ \\textbf{A} ->[$k_1$] \\textbf{B} ->[$k_2$] \\textbf{C} ->[$k_3$] \\textbf{A} }\n$$\n\nA $\\pu{300 K}$, $k_1 = \\pu{3e-3 s-1}$, $k_2 = \\pu{1e-3 s-1}$ e\n$k_3 = \\pu{2,7e-3 s-1}$. Em um experimento, as pressões de\n$\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e $\\ce{\\textbf{C}}$ são\n$\\pu{50 kPa}$, $\\pu{80 kPa}$ e $\\pu{8 kPa}$, respectivamente. A energia\nde ativação para a formação de $\\ce{\\textbf{C}}$ é $\\pu{10 kJ.mol-1}$\nmaior que a energia de ativação para a formação de $\\ce{\\textbf{B}}$ e\nque a energia de ativação apra a formação de $\\ce{\\textbf{A}}$ é\n$\\pu{10 kJ.mol-1}$ menor que a energia de ativação para a formação de\n$\\ce{\\textbf{B}}$. Após o equilíbrio ser atingido o sistema é aquecido\naté $\\pu{400 K}$.\n\n-   **Determine** a composição do equilíbrio a $\\pu{300 K}$.\n-   **Determine** a composição do equilíbrio a $\\pu{400 K}$.\n",
+              "statement": "Em fase gasosa uma reação ocorre conforme o seguinte mecanismo a\n$\\pu{300 K}$:\n\n$$\n\\begin{aligned}\n    \\ce{ \\textbf{A} &->[$k_1$] \\textbf{B} } && k_1 = \\pu{3,0 min-1}\\\\\n    \\ce{ \\textbf{B} &->[$k_2$] \\textbf{C} } && k_2 = \\pu{1,0 min-1}\\\\\n    \\ce{ \\textbf{C} &->[$k_3$] \\textbf{A} } && k_3 = \\pu{2,7 min-1}\\\\\n\\end{aligned}\n$$\n\nA energia de ativação para a formação de $\\ce{\\textbf{C}}$ é\n$\\pu{10 kJ.mol-1}$ maior que a energia de ativação para a formação de\n$\\ce{\\textbf{B}}$ e que a energia de ativação para a formação de\n$\\ce{\\textbf{A}}$ é $\\pu{10 kJ.mol-1}$ menor que a energia de ativação\npara a formação de $\\ce{\\textbf{B}}$. Em um experimento, as pressões de\n$\\ce{\\textbf{A}}$, $\\ce{\\textbf{B}}$ e $\\ce{\\textbf{C}}$ são\n$\\pu{50 kPa}$, $\\pu{80 kPa}$ e $\\pu{8 kPa}$, respectivamente. Após o\nequilíbrio ser atingido o sistema é aquecido até $\\pu{400 K}$.\n\n-   **Determine** a composição do equilíbrio a $\\pu{300 K}$.\n-   **Determine** a composição do equilíbrio a $\\pu{400 K}$.\n",
               "solution": "\n",
               "answer": [
                 "$P_{\\ce{\\textbf{A}}} = \\pu{27 kPa}$,\n$P_{\\ce{\\textbf{B}}} = \\pu{81 kPa}$, $P_{\\ce{\\textbf{C}}} = \\pu{30 kPa}$\n",
