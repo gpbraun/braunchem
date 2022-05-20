@@ -1103,7 +1103,7 @@
             },
             {
               "id_": "1A47",
-              "statement": "Em sistemas contendo um grande número de elétrons, não existe um único\nestado ocupado mais energético, já que vários estados possuem a mesma\nenergia. O nível de Fermi corresponde aos estados ocupados que possuem\nmaior energia. Considere uma folha quadrada, de lado L = 25 nm, de\ngrafeno. Os elétrons $\\pi$ desse sistema podem ser modelados como\npartículas em uma caixa bidimensional, cujos níveis de energia são dados\npor:\n\n$$\nE(n_1, n_2) = \\dfrac{h^{2}}{8m_{e}L^{2}}\\left(n_{1}^{2}+n_{2}^{2}\\right)\n$$\n\nEm que dois elétrons ocupam um mesmo nível de energia.\n\n-   **Determine** o número de elétrons $\\pi$ nesse sistema.\n-   **Determine** a energia do nível de Fermi desse sistema.\n-   **Correlacione** a condutividade e o tamanho da folha de grafeno.\n",
+              "statement": "Em sistemas contendo um grande número de elétrons, não existe um único\nestado ocupado mais energético, já que vários estados possuem a mesma\nenergia. O nível de Fermi corresponde aos estados ocupados que possuem\nmaior energia. Considere uma folha quadrada, de lado $L = 25 nm$, de\ngrafeno. Os elétrons $\\pi$ desse sistema podem ser modelados como\npartículas em uma caixa bidimensional, cujos níveis de energia são dados\npor:\n\n$$\nE(n_1, n_2) = \\dfrac{h^{2}}{8m_{e}L^{2}}\\left(n_{1}^{2}+n_{2}^{2}\\right)\n$$\n\nEm que dois elétrons ocupam um mesmo nível de energia.\n\n-   **Determine** o número de elétrons $\\pi$ nesse sistema.\n-   **Determine** a energia do nível de Fermi desse sistema.\n-   **Correlacione** a condutividade e o tamanho da folha de grafeno.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{24000}$\n",
@@ -2035,12 +2035,12 @@
             },
             {
               "id_": "1B35",
-              "statement": "Considere o elemento **X**, que possui dois isótopos estáveis. Um desses\nisótopos é isótono do nuclídeo $\\ce{\\relax_46\\mathbf{Q}^{108}}$ e\nisóbaro do nuclídeo $\\ce{\\relax_48\\mathbf{Z}^{109} }$.\n\n-   **Determine** o número atômico de **X**.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** a configuração eletrônica de **X** no estado\n    fundamental.\n-   **Determine** os números quânticos do elétron mais energético de\n    **X** no estado fundamental.\n",
+              "statement": "Considere o elemento **X**, que possui dois isótopos estáveis. Um desses\nisótopos é isótono do nuclídeo $\\ce{\\relax_46\\mathbf{Q}^{108}}$ e\nisóbaro do nuclídeo $\\ce{\\relax_48\\mathbf{Z}^{109} }$.\n\n-   **Determine** o número atômico de **X**.\n-   **Determine** o grupo da Tabela Periódica a que pertence esse\n    elemento.\n-   **Determine** a configuração eletrônica de **X** no estado\n    fundamental.\n-   **Determine** os números quânticos do elétron mais externo de **X**\n    no estado fundamental.\n",
               "solution": "\n",
               "answer": [
                 "$47$\n",
                 "Grupo $11$\n",
-                "$\\ce{_{47}X}: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10}$\n",
+                "$\\ce{_{47}X}: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^1 4d^{10}$\n",
                 "$5s^1$, $n=5$, $l=0$, $m=0$\n"
               ],
               "constants": {
@@ -6956,7 +6956,7 @@
             },
             {
               "id_": "2C27",
-              "statement": "Considere as proposições:\n\n1.  A energia livre de fusão da água é negativa a $\\pu{27 \\degree C}$ e\n    $\\pu{1 atm}$.\n2.  A transição de fase do enxofre ortorrômbico para monoclínico é\n    espontânea para temperaturas acima de $\\pu{95 \\degree C}$, assim, a\n    entalpia e a entropia do enxofre monoclínico são maiores que as do\n    enxofre ortorrômbico\n3.  A mistura de duas amostras de gás sempre apresenta variação de\n    energia livre negativa.\n4.  A complexação em fase aquosa do cátion níquel (II) com amônia\n    formando $\\ce{[Ni(NH3)6]^{2+}}$ é mais espontânea complexação que a\n    com $\\ce{NH2CH2CH2NH2}$ ($\\ce{en}$) formando $\\ce{[Ni(en)3]^{2+}}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "statement": "Considere as proposições:\n\n1.  A energia livre de congelamento da água é negativa a\n    $\\pu{27 \\degree C}$ e $\\pu{1 atm}$.\n2.  A transição de fase do enxofre ortorrômbico para monoclínico é\n    espontânea para temperaturas acima de $\\pu{95 \\degree C}$, assim, a\n    entalpia e a entropia do enxofre monoclínico são maiores que as do\n    enxofre ortorrômbico\n3.  A mistura de duas amostras de gás sempre apresenta variação de\n    energia livre negativa.\n4.  A complexação em fase aquosa do cátion níquel (II) com amônia\n    formando $\\ce{[Ni(NH3)6]^{2+}}$ é mais espontânea complexação que a\n    com $\\ce{NH2CH2CH2NH2}$ ($\\ce{en}$) formando $\\ce{[Ni(en)3]^{2+}}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**2** e **3**"
@@ -13627,7 +13627,440 @@
           "title": "Análise gravimétrica"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "3G01",
+              "statement": "O bromo possui dois isotopos estáveis, o bromo-79 e o bromo-81.\n\n**Assinale** a alternativa que mais se aproxima da razão entre as\nintensidades relativas dos picos dos isótopos do $\\ce{Br2}$ em ordem\ncrescente de massa atômica.\n",
+              "solution": "",
+              "answer": [
+                "$1:2:1$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$1:1:1$\n",
+                "$1:1:2$\n",
+                "$1:2:1$\n",
+                "$1:2:2$\n",
+                "$1:2:3$\n"
+              ]
+            },
+            {
+              "id_": "3G02",
+              "statement": "O cloro possui dois isotopos estáveis, o cloro-35 e o cloro-37.\n\n**Assinale** a alternativa que mais se aproxima da razão entre as\nintensidades relativas dos picos dos isótopos do $\\ce{Cl2}$ em ordem\ncrescente de massa atômica.\n",
+              "solution": "",
+              "answer": [
+                "$9:6:1$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$1:2:1$\n",
+                "$1:3:1$\n",
+                "$9:3:1$\n",
+                "$9:6:1$\n",
+                "$9:6:3$\n"
+              ]
+            },
+            {
+              "id_": "3G03",
+              "statement": "Vidro de janela pode ser produzido por uma mistura de óxido de silício,\nóxido de sódio e óxido de cálcio, com proporção $15:3:2$\nrespectivamente. Os óxidos de cálcio e de sódio são provenientes da\ndecomposição térmica de seus respectivos carbonatos.\n\n**Assinale** a alternativa que mais se aproxima da massa de mistura de\nóxido de silício, carbonato de sódio e carbonato de cálcio necessária\npara a síntese de $\\pu{1 kg}$ de vidro.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1185 kg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{1000 kg}$\n",
+                "$\\pu{1185 kg}$\n",
+                "$\\pu{1300 kg}$\n",
+                "$\\pu{1485 kg}$\n",
+                "$\\pu{1670 kg}$\n"
+              ]
+            },
+            {
+              "id_": "3G04",
+              "statement": "Uma amostra de nitrato de cobre foi calcinada até a massa da mistura\npermanecer constante, resultando em um sólido preto, conforme a reação\nquímica:\n\n$$\n\\ce{ 2Cu(NO3)2(s) -> 2CuO(s) + 4NO2(g) + O2(g) }\n$$\n\nA reação leva a formação de $\\pu{18,4 g}$ de dióxido de nitrogênio.\n\n**Assinale** a alternativa que mais se aproxima da massa inicial do\nnitrato de cobre.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{37,5 g}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{9,4 g}$\n",
+                "$\\pu{37,5 g}$\n",
+                "$\\pu{57,5 g}$\n",
+                "$\\pu{123 g}$\n",
+                "$\\pu{246 g}$\n"
+              ]
+            },
+            {
+              "id_": "3G06",
+              "statement": "Uma amostra de bicarbonato de cálcio foi calcinada até a massa da\nmistura permanecer constante, resultando em um sólido branco.\n\n**Assinale** a alternativa que mais se aproxima perda de massa da\namostra.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{650 mg}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{250 mg}$\n",
+                "$\\pu{400 mg}$\n",
+                "$\\pu{550 mg}$\n",
+                "$\\pu{650 mg}$\n",
+                "$\\pu{800 mg}$\n"
+              ]
+            },
+            {
+              "id_": "3G07",
+              "statement": "A dolomita é um mineral composto de carbonato de cálcio e de magnésio.\nUma amostra de $\\pu{10,4 g}$ de dolomita foi calcinada até a massa da\nmistura permanecer constante, resultando em $\\pu{5,12 g}$ de resíduo\nsólido.\n\n**Assinale** a alternativa que mais se aproxima da fração de carbonato\nde magnésio no mineral.\n",
+              "solution": "",
+              "answer": [
+                "$73\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$53\\%$\n",
+                "$63\\%$\n",
+                "$73\\%$\n",
+                "$83\\%$\n",
+                "$93\\%$\n"
+              ]
+            },
+            {
+              "id_": "3G08",
+              "statement": "Uma amostra de $\\pu{5,14 g}$ de uma mistura de carbonato de cálcio e de\nbário posta em um recipiente de $\\pu{1,5 L}$ a $\\pu{30 \\degree C}$\ncontendo $\\pu{230 mmHg}$ de $\\ce{CO2}$. A mistura foi calcinada até a\nmassa da mistura permanecer constante. O recipiente foi resfriado a\n$\\pu{30 \\degree C}$, sendo a pressão de $\\ce{CO2}$ $\\pu{750 mmHg}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de óxido de\nbário no resíduo de calcinação.\n",
+              "solution": "",
+              "answer": [
+                "$87\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$57\\%$\n",
+                "$67\\%$\n",
+                "$77\\%$\n",
+                "$87\\%$\n",
+                "$97\\%$\n"
+              ]
+            },
+            {
+              "id_": "3G09",
+              "statement": "Uma amostra de um sal de cálcio foi submetiva à análise\ntermogravimétrica.\n\n![TGA](3G09-1P.svg)\n\n**Assinale** a alternativa que representa a identidade do sal analisado.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{CaC2O4.2H2O}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\ce{CaC2O4.H2O}$\n",
+                "$\\ce{CaC2O4.2H2O}$\n",
+                "$\\ce{CaCO3.H2O}$\n",
+                "$\\ce{CaCO3}$\n",
+                "$\\ce{Ca(C2H3O2)2}$\n"
+              ]
+            },
+            {
+              "id_": "3G10",
+              "statement": "Uma amostra oxalato de cálcio monohidratado foi submetiva à análise\ntermogravimétrica.\n\n![TGA](3G10-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
+              "solution": "",
+              "answer": [
+                "Na decomposição do oxalato de cálcio, praticamente $40\\%$ da amostra é\nperdida na forma de gases.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "A decomposição térmica do oxalato de cálcio ocorre em três etapas.\n",
+                "A água de hidratação é eliminada da estrutura cristalina do oxalato de\ncálcio a temperatura maior que $\\pu{100 \\degree C}$.\n",
+                "A decomposição do oxalato de cálcio ocorre com formação de monóxido e de\ndióxido de carbono.\n",
+                "O evento térmico que ocorre a a $\\pu{800 \\degree C}$ leva à formação de\ncal virgem.\n",
+                "Na decomposição do oxalato de cálcio, praticamente $40\\%$ da amostra é\nperdida na forma de gases.\n"
+              ]
+            },
+            {
+              "id_": "3G11",
+              "statement": "A razão molar ar-combustível para a combustão completa de um alcano é\n$\\pu{59,5}$.\n\n**Assinale** a alternativa que corresponde à soma dos coeficientes\nestequiométricos para a reação de combustão de um mol de alcano.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{124,5}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{30,5}$\n",
+                "$\\pu{55,5}$\n",
+                "$\\pu{82,0}$\n",
+                "$\\pu{112,0}$\n",
+                "$\\pu{124,5}$\n"
+              ]
+            },
+            {
+              "id_": "3G12",
+              "statement": "Uma amostra de TNT, 2,4,6-trinitrotolueno, sofre combustão completa com\nquantidade estequiométrica de ar. Os produtos da reação foram coletados\ne transferidos para um cilindro $\\pu{820 L}$ a $\\pu{27 \\degree C}$. A\npressão registrada do cilindro foi de $\\pu{1,77 atm}$.\n\n**Determine** a massa da amostra de TNT.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{454}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{282}$\n",
+                "$\\pu{342}$\n",
+                "$\\pu{454}$\n",
+                "$\\pu{514}$\n",
+                "$\\pu{659}$\n"
+              ]
+            },
+            {
+              "id_": "3G13",
+              "statement": "Em um recipiente fechado queima-se propano com $80\\%$ da quantidade\nestequiométrica de ar. Após a combustão, que todos os produtos da reação\npermanecem em fase gasosa.\n\n**Determine** a fração de $\\ce{CO2}$ no recipiente após a combustão.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,35\\%}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{4,35\\%}$\n",
+                "$\\pu{4,76\\%}$\n",
+                "$\\pu{5,26\\%}$\n",
+                "$\\pu{8,70\\%}$\n",
+                "$\\pu{14,28\\%}$\n"
+              ]
+            }
+          ],
+          "id_": "3G1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "3G16",
+              "statement": "Uma amostra de $\\pu{59,6 g}$ de biodiesel passa por um processo de\ncombustão completa com $\\pu{264 g}$ de oxigênio. Os gases de combustão\npassam por um tubo contendo solução de hidróxido de sódio, a massa do\nprimeiro tubo aumenta em $\\pu{167,2 g}$. Em seguida, os gases passam por\num tubo contendo sílica, a massa desse tudo aumento em $\\pu{68,4 g}$. A\nmassa de gás restando é $\\pu{88 g}$.\n\n**Assinale** a alternativa com a fórmula molecular do biodiesel.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{C19H38O2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\ce{C20H36O2}$\n",
+                "$\\ce{C19H38O2}$\n",
+                "$\\ce{C16H28O}$\n",
+                "$\\ce{C19H28O4}$\n",
+                "$\\ce{C16H22O4}$\n"
+              ]
+            },
+            {
+              "id_": "3G17",
+              "statement": "Um mol de aspirina é sintetizado a partir da reação entre um mol de\nácido salicílico e um mol de anidrido acético formando aspirina e ácido\nacético como subproduto. A massa adicionada de anidrido acético é maior\nque a metade da massa adicionada de aspirina. Um comprimido de\n$\\pu{1 g}$ de aspirina foi queimada com excesso de oxigênio. A corrente\ngasosa resultante da combustão é passada por $\\ce{Mg(ClO4)2}$, perdendo\n$\\pu{0,4 g}$ de massa, e em seguida por $\\ce{NaOH}$, perdendo\n$\\pu{2,2 g}$ de massa.\n\n-   **Determine** a fórmula molecular da aspirina.\n-   **Determine** a fórmula molecular do ácido salicílico.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\ce{C9H8O4}$\n",
+                "$\\ce{C7H6O3}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3G18",
+              "statement": "A um balão com $\\pu{0,959 atm}$ de um hidrocarboneto a a $\\pu{298 K}$ é\nadicionada quantidade estequiométrica de oxigênio a mistura é ignitada.\nApós a combustão pressão no balão passa a $\\pu{1,51 atm}$ a\n$\\pu{375 K}$. A mistura possui densidade $\\pu{1,39 g.L-1}$ e ocupa um\nvolume quatro vezes maior que o do hidrocarboneto puro.\n\n**Determine** a fórmula molecular do hidrocarboneto.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\ce{C2H6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3G19",
+              "statement": "Uma câmara de combustão queima etano com ar atmosférico. Os gases de\nsaída da câmara são inicialmente resfriados a $\\ce{20 \\degree C}$. Após\no resfriamento, a corrente gasosa contém $84\\%$ de nitrogênio e $6\\%$ de\noxigênio, em volume. A corrente gasosa resfriada é passada por um leito\ncontendo excesso de uma solução de hidróxido de cálcio. Verifica-se que\na vazão volumétrica de saída de gás do leito de hidróxido de cálcio é\n$95\\%$ da vazão de entrada. A combustão não gera produtos sólidos a\n$\\ce{20 \\degree C}$.\n\n-   **Apresente** a equação balanceada de combustão do etano nas\n    condições do problema.\n-   **Determine** a razão entre a quantidade de ar adicionada e o mínimo\n    necessário para a combustão completa.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3G20",
+              "statement": "Um hidrocarboneto acíclico $\\ce{\\textbf{A}}$ possui densidade relativa\nao ar menor que $4$. Uma mistura de hexano contendo $\\pu{10,15}\\%$ em\nmassa de $\\ce{\\textbf{A}}$ foi queimada com oxigênio em um recipiente\nselado. Após o resfriamento dos produtos verificou-se que havia\n$\\ce{9,54 g}$ de água e $\\ce{5 L}$ de uma mistura composta de $20\\%$\n$\\ce{CO}$ e $80\\%$ de $\\ce{CO2}$, em volume, a $\\ce{300 K}$ e\n$\\ce{234 kPa}$.\n\n-   **Determine** a fórmula empírica do hidrocarboneto desconhecido.\n-   **Apresente** todas as fórmulas estruturais possíveis para\n    $\\ce{\\textbf{A}}$.\n-   **Determine** o volume de oxigênio utilizado no experimento.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3G21",
+              "statement": "Uma amostra de sulfato de cobre pentahidratado foi submetiva à análise\ntermogravimétrica.\n\n![TGA](3G21-1P.svg)\n\nO composto $\\ce{\\textbf{D}}$ é formado quando exatamente metade de\n$\\ce{\\textbf{C}}$ se decompõe para formar $\\ce{\\textbf{E}}$. O\naquecimento de $\\ce{\\textbf{E}}$ leva a uma reação de oxirredução\nformando $\\ce{\\textbf{F}}$.\n\n-   **Determine** a fórmula molecular dos compostos $\\ce{\\textbf{A}}$,\n    $\\ce{\\textbf{B}}$ e $\\ce{\\textbf{C}}$.\n-   **Apresente** a equação balanceada para esta reação de formação de\n    $\\ce{\\textbf{E}}$.\n-   **Apresente** a equação balanceada para esta reação de formação de\n    $\\ce{\\textbf{F}}$.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3G22",
+              "statement": "A análise de uma amostra de algas marinhas revelou, por cromatografia\ngasosa, a bioacumulação de um poluente $\\ce{\\textbf{A}}$. O espectro de\nmassa do composto orgânico $\\ce{\\textbf{A}}$ é representado abaixo. Os\npicos relativos aos isótopos contendo carbono-13 foram omitidos por\nsimplicidade.\n\n![MS](3G22-1P.svg)\n\nCinco fórmulas moleculares foram propostas para $\\ce{\\textbf{A}}$, com\nbase nos poluentes encontrados em um efluente industrial próximo.\nAssinale a alternativa que corresponde à única fórmula molecular\npossível, entre as apresentadas, para $\\ce{\\textbf{A}}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{C4Cl6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{C4Cl6}$\n",
+                "$\\ce{C6HClN4O6}$\n",
+                "$\\ce{C7H11Cl2O4P}$\n",
+                "$\\ce{C8H6Br2}$\n",
+                "$\\ce{C15H16O2S}$\n"
+              ]
+            },
+            {
+              "id_": "3G23",
+              "statement": "O Halomon é um agente antitumoral de origem natural e fórmula molecular\n$\\ce{C10H15Br2Cl3}$. Uma amostra do composto foi levada para análise em\num espectrômetro de massas de baixa resolução. O espectro evidenciou a\npresença de um produto da decomposição do halomon na amostra. Os picos\nreferentes ao produto de decomposição são apresentados a seguir.\n\n![MS](3G23-1P.svg)\n\nPor simplicidade, os picos com intensidade relativa inferior a 1 foram\nomitidos.\n\n-   **Determine** o número de átomos de halogênio na estrutura do\n    produto de decomposição.\n-   **Determine** a fórmula molecular do produto de decomposição.\n",
+              "solution": "\n",
+              "answer": [
+                "3 halogênios.\n",
+                "$\\ce{C4H5BrCl2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "3G2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "3H",
