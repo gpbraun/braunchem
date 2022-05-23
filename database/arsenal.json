@@ -8337,7 +8337,7 @@
                 "data": [
                   {
                     "id_": "kH-CO2",
-                    "name": "Constante de Henry \\ce{CO2} ",
+                    "name": "Constante de Henry do \\ce{CO2} ",
                     "symbol": "k^{\\circ }_{\\mathrm{H} }(\\ce{CO2} )",
                     "value": "23,0",
                     "unit": "mmol.L-1.atm-1"
@@ -8368,7 +8368,7 @@
                 "data": [
                   {
                     "id_": "kH-O2",
-                    "name": "Constante de Henry \\ce{O2} ",
+                    "name": "Constante de Henry do \\ce{O2} ",
                     "symbol": "k^{\\circ }_{\\mathrm{H} }(\\ce{O2} )",
                     "value": "1,30",
                     "unit": "mmol.L-1.atm-1"
@@ -9141,7 +9141,661 @@
           "title": "Osmose"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "2F01",
+              "statement": "Em uma amostra de água do mar dissolve-se um pouco de sacarose.\nConsidere as proposições.\n\n1.  A pressão de vapor da água diminui.\n2.  A pressão osmótica da solução aumenta.\n3.  A condutividade elétrica da solução permanece praticamente\n    inalterada.\n4.  A temperatura de congelamento diminui.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**1**, **2**, **3** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "**1**, **2** e **3**",
+                "**1**, **2** e **4**",
+                "**1**, **3** e **4**",
+                "**2**, **3** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2F02",
+              "statement": "Considere as seguintes afirmações sobre equilíbrio de fases e\npropriedades coligativas.\n\n1.  A adição de um soluto não volátil a um solvente puro, em uma dada\n    temperatura constante, sempre provoca uma diminuição na pressão de\n    vapor.\n2.  O valor absoluto do abaixamento no ponto de congelamento de uma\n    solução é menor se o soluto dimeriza parcialmente no solvente,\n    comparado ao sistema nas mesmas condições em que não há a\n    dimerização do soluto.\n3.  A pressão osmótica é a pressão exercida pelas moléculas de soluto\n    sob uma membrana semipermeável.\n4.  Uma mistura formada por duas substâncias nunca solidifica\n    inteiramente em uma única temperatura.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+              "solution": "",
+              "answer": [
+                "**1** e **2**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**1**",
+                "**2**",
+                "**1** e **2**",
+                "**1**, **2** e **3**",
+                "**1**, **2** e **4**"
+              ]
+            },
+            {
+              "id_": "2F03",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura de\nebulição de uma solução $\\pu{2 mol.kg-1}$ de sacarose, $\\ce{C11H22O11}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{101 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-CCl4",
+                    "name": "Constante crioscópica do \\ce{CCl4} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{CCl4} )",
+                    "value": "29,8",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{99 \\degree C}$\n",
+                "$\\pu{99 \\degree C}$\n",
+                "$\\pu{100 \\degree C}$\n",
+                "$\\pu{101 \\degree C}$\n",
+                "$\\pu{102 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2F04",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura de\ncongelamento de uma solução $\\pu{0,2 mol.kg-1}$ do analgésico codeína,\n$\\ce{C18H21NO3}$, em benzeno.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,5 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-benzeno",
+                    "name": "Constante crioscópica do \\ce{benzeno} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{benzeno} )",
+                    "value": "5,12",
+                    "unit": "K.kg.mol-1"
+                  },
+                  {
+                    "id_": "Pf-benzeno",
+                    "name": "Temperatura de fusão do \\ce{benzeno} ",
+                    "symbol": "T^{}_{\\mathrm{eb} }(\\ce{benzeno} )",
+                    "value": "5,50",
+                    "unit": "\\degree C"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{4,0 \\degree C}$\n",
+                "$\\pu{4,5 \\degree C}$\n",
+                "$\\pu{5,0 \\degree C}$\n",
+                "$\\pu{6,0 \\degree C}$\n",
+                "$\\pu{6,5 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2F05",
+              "statement": "A adição de $\\pu{0,24 g}$ de enxofre a $\\pu{100 g}$ de tetracloreto de\ncarbono abaixa o ponto de congelamento do solvente em\n$\\pu{0,28 \\degree C}$.\n\n**Assinale** a alternativa com a fórmula molecular das moléculas de\nenxofre.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{S8}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-CCl4",
+                    "name": "Constante crioscópica do \\ce{CCl4} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{CCl4} )",
+                    "value": "29,8",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{S2}$\n",
+                "$\\ce{S4}$\n",
+                "$\\ce{S6}$\n",
+                "$\\ce{S8}$\n",
+                "$\\ce{S12}$\n"
+              ]
+            },
+            {
+              "id_": "2F06",
+              "statement": "A adição de $\\pu{250 mg}$ de eugenol, o composto responsável pelo odor\ndo óleo de cravo-da-índia, a $\\pu{100 g}$ de cânfora, abaixa o ponto de\ncongelamento do solvente em $\\pu{0,62 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do\neugenol.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{180 g.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-C10H16O",
+                    "name": "Constante crioscópica do \\ce{C10H16O} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{C10H16O} )",
+                    "value": "39,7",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{120 g.mol-1}$\n",
+                "$\\pu{140 g.mol-1}$\n",
+                "$\\pu{160 g.mol-1}$\n",
+                "$\\pu{180 g.mol-1}$\n",
+                "$\\pu{200 g.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2F07",
+              "statement": "**Assinale** a alternativa que mais se aproxima da temperatura de\nebulição de uma solução $\\pu{2 mol.kg-1}$ de cloreto de cálcio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{106 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-CCl4",
+                    "name": "Constante crioscópica do \\ce{CCl4} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{CCl4} )",
+                    "value": "29,8",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{102 \\degree C}$\n",
+                "$\\pu{104 \\degree C}$\n",
+                "$\\pu{106 \\degree C}$\n",
+                "$\\pu{108 \\degree C}$\n",
+                "$\\pu{110 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2F08",
+              "statement": "Uma solução de sacarose foi dividida em duas amostras. A primeira\namostra foi imediatamente resfriada, sendo $\\pu{-1 \\degree C}$ a\ntemperatura de início de solidificação. Algumas gotas de ácido\nclorídrico foram adicionadas à segunda amostra e essa foi aquecida a\n$\\pu{90 \\degree C}$ por um período de 24 horas, hidrolisando\nintegralmente a sacarose em glicose e frutose. A segunda solução possui\ntemperatura de congelamento $\\pu{-2 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura de fusão\ndo solvente.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0 \\degree C}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{0 \\degree C}$\n",
+                "$\\pu{1 \\degree C}$\n",
+                "$\\pu{2 \\degree C}$\n",
+                "$\\pu{3 \\degree C}$\n",
+                "$\\pu{4 \\degree C}$\n"
+              ]
+            },
+            {
+              "id_": "2F09",
+              "statement": "Considere as soluções aquosas.\n\n1.  $\\pu{0,1 mol.L-1}$ de $\\ce{KCl}$\n2.  $\\pu{0,3 mol.L-1}$ de $\\ce{K2SO4}$\n3.  $\\pu{0,3 mol.L-1}$ de $\\ce{C11H12O11}$\n4.  $\\pu{0,6 mol.L-1}$ de $\\ce{CO(NH2)2}$\n\n**Assinale** a alternativa com a ordem de pressão osmótica a\n$\\pu{20 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\mathbf{1} < \\mathbf{3} < \\mathbf{4} < \\mathbf{2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\mathbf{1} < \\mathbf{3} < \\mathbf{4} < \\mathbf{2}$\n",
+                "$\\mathbf{3} < \\mathbf{1} < \\mathbf{4} < \\mathbf{2}$\n",
+                "$\\mathbf{1} < \\mathbf{4} < \\mathbf{3} < \\mathbf{2}$\n",
+                "$\\mathbf{1} < \\mathbf{3} < \\mathbf{2} < \\mathbf{4}$\n",
+                "$\\mathbf{1} < \\mathbf{2} \\approx \\mathbf{3} < \\mathbf{4}$\n"
+              ]
+            },
+            {
+              "id_": "2F10",
+              "statement": "A pressão osmótica devido a $\\pu{2,2 g}$ de polietileno (PE) dissolvido\nno benzeno necessário para produzir $\\pu{100 mL}$ de solução foi\n$\\pu{1,1 kPa}$ a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar média de\npolietileno.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{49 kg.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{29 kg.mol-1}$\n",
+                "$\\pu{39 kg.mol-1}$\n",
+                "$\\pu{49 kg.mol-1}$\n",
+                "$\\pu{59 kg.mol-1}$\n",
+                "$\\pu{69 kg.mol-1}$\n"
+              ]
+            },
+            {
+              "id_": "2F11",
+              "statement": "A catalase, uma enzima do fígado, é solúvel em água. A pressão osmótica\nde $\\pu{10 mL}$ de uma solução que contém $\\pu{166 mg}$ de catalase é\n$\\pu{1,2 mmHg}$ em $\\pu{20 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar da\ncatalase.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{2.5 kg.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{2,0 kg.mol-1}$\n",
+                "$\\pu{2.5 kg.mol-1}$\n",
+                "$\\pu{3,0 kg.mol-1}$\n",
+                "$\\pu{3,5 kg.mol-1}$\n",
+                "$\\pu{4,0 kg.mol-1}$\n"
+              ]
+            }
+          ],
+          "id_": "2F1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2F13",
+              "statement": "Considere as soluções aquosas.\n\n1.  $\\pu{10 mmol.L-1}$ de $\\ce{HF}$\n2.  $\\pu{10 mmol.L-1}$ de $\\ce{HCl}$\n3.  $\\pu{10 mmol.L-1}$ de $\\ce{HBr}$\n4.  $\\pu{10 mmol.L-1}$ de $\\ce{HI}$\n\nAssinale a alternativa com a ordem de pressão osmótica a\n$\\pu{20 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\mathbf{1} < \\mathbf{2} \\approx \\mathbf{3} \\approx \\mathbf{4}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\mathbf{1} < \\mathbf{2} < \\mathbf{3} < \\mathbf{4}$\n",
+                "$\\mathbf{1} < \\mathbf{2} < \\mathbf{3} \\approx \\mathbf{4}$\n",
+                "$\\mathbf{1} < \\mathbf{2} \\approx \\mathbf{3} \\approx \\mathbf{4}$\n",
+                "$\\mathbf{1} \\approx \\mathbf{2} \\approx \\mathbf{3} \\approx \\mathbf{4}$\n",
+                "$\\mathbf{4} < \\mathbf{3} < \\mathbf{2} < \\mathbf{1}$\n"
+              ]
+            },
+            {
+              "id_": "2F14",
+              "statement": "Em um experimento de determinação da massa molar usando o abaixamento do\nponto de congelamento, é possível cometer os seguintes erros.\n\n1.  Havia poeira na balança, o que fez a massa do soluto parecer maior\n    do que é de fato.\n2.  A água foi medida em volume, pressupondo que sua densidade fosse\n    $\\pu{1 g.cm-3}$, mas a água estava mais quente e menos densa do que\n    o considerado.\n3.  O termômetro não foi calibrado com precisão e, por essa razão, o\n    ponto de congelamento real é $\\pu{0,5 \\degree C}$ superior ao\n    registrado.\n4.  A solução não foi agitada o suficiente, e o soluto não dissolveu\n    totalmente.\n\n**Assinale** a alternativa que relaciona os erros que resultariam em uma\nmassa molar calculada *superior* ao valor real.\n",
+              "solution": "",
+              "answer": [
+                "**1** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**1**",
+                "**4**",
+                "**1** e **4**",
+                "**1**, **2** e **4**",
+                "**1**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2F15",
+              "statement": "Uma amostra de $\\pu{10 g}$ de um composto orgânico é dissolvida em\n$\\pu{80 g}$ de benzeno. O ponto de congelamento da solução é\n$\\pu{1,2 \\degree C}$. Em outro experimento, a queima do mesmo composto\norgânio com excesso de oxigênio formou $\\pu{528 mg}$ de dióxido de\ncarbono, $\\pu{36 mg}$ de água e $\\pu{146 mg}$ de ácido clorídrico.\n\n-   **Determine** a massa molar do composto.\n-   **Determine** a fórmula molecular do composto.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{148 g.mol-1}$\n",
+                "$\\ce{C6H4Cl2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-benzeno",
+                    "name": "Constante crioscópica do \\ce{benzeno} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{benzeno} )",
+                    "value": "5,12",
+                    "unit": "K.kg.mol-1"
+                  },
+                  {
+                    "id_": "Pf-benzeno",
+                    "name": "Temperatura de fusão do \\ce{benzeno} ",
+                    "symbol": "T^{}_{\\mathrm{eb} }(\\ce{benzeno} )",
+                    "value": "5,50",
+                    "unit": "\\degree C"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2F16",
+              "statement": "Uma amostra de $\\pu{20 g}$ de uma mistura de sacarose, $\\ce{C12H22O11}$,\ne cloreto de sódio é dissolvida em água até formar $\\pu{1 L}$ de\nsolução. O ponto de congelamento da solução é $\\pu{-0,0426 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nsacarose na amostra.\n",
+              "solution": "",
+              "answer": [
+                "$72,5\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-H2O",
+                    "name": "Constante crioscópica do \\ce{H2O} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{H2O} )",
+                    "value": "1,86",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$7,5\\%$\n",
+                "$27,5\\%$\n",
+                "$50,0\\%$\n",
+                "$72,5\\%$\n",
+                "$92,5\\%$\n"
+              ]
+            },
+            {
+              "id_": "2F17",
+              "statement": "Uma amostra de $\\pu{500 mg}$ de uma mistura de cloreto de sódio e\ncloreto de magnésio é dissolvida água até formar $\\pu{1 L}$ de solução.\nA pressão osmótica da solução a $\\pu{25 \\degree C}$ é $\\pu{0,395 atm}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\ncloreto de magnésio na amostra.\n",
+              "solution": "",
+              "answer": [
+                "$72\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$12\\%$\n",
+                "$32\\%$\n",
+                "$52\\%$\n",
+                "$72\\%$\n",
+                "$92\\%$\n"
+              ]
+            },
+            {
+              "id_": "2F18",
+              "statement": "A quitosana tem sido utilizada em cicatrização de ferimentos, remoção de\nproteínas alergênicas de alimentos e liberação controlada de fármacos.\nUm experimento de laboratório envolveu a síntese da quitosana através\ntratamento da quitina com excesso de hidróxido de sódio:\n\n$$\n\\ce{ (C8H13O5N)_n ->[NaOH] (C6H11O4N)_n }\n$$\n\nO produto da reação foi isolado e uma amostra de $\\pu{10,2 g}$ foi\nadicionada em $\\pu{100 mL}$ de água destilada. O ponto de congelamento\ndesta solução é $\\pu{-0,00038 \\degree C}$. A solução foi aquecida,\nmantendo o sistema sob agitação e em refluxo, por um longo tempo,\ngarantindo a quebra completa das unidades poliméricas formando os\nmonômeros. O ponto de congelamento da solução resultante é\n$\\pu{-1,14 \\degree C}$.\n\n-   **Determine** o número médio de unidades monoméricas na estrutura da\n    quitosana.\n-   **Determine** a eficiência da síntese da quitosana utilizando\n    hidróxido de sódio.\n",
+              "solution": "\n",
+              "answer": [
+                "$3000$\n",
+                "$79\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2F19",
+              "statement": "Uma solução $1\\%$ de sulfato de magnésio em massa tem ponto de\ncongelamento igual a $\\pu{-0,192 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de dissociação\ndo sal nessa solução.\n",
+              "solution": "",
+              "answer": [
+                "$23\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-H2O",
+                    "name": "Constante crioscópica do \\ce{H2O} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{H2O} )",
+                    "value": "1,86",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$13\\%$\n",
+                "$23\\%$\n",
+                "$33\\%$\n",
+                "$43\\%$\n",
+                "$53\\%$\n"
+              ]
+            },
+            {
+              "id_": "2F20",
+              "statement": "Uma solução $\\pu{0,124 mol.L-1}$ em ácido tricloroacético tem ponto de\ncongelamento igual a $\\pu{-0,423 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de ionização do\nácido nessa solução.\n",
+              "solution": "",
+              "answer": [
+                "$90\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-H2O",
+                    "name": "Constante crioscópica do \\ce{H2O} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{H2O} )",
+                    "value": "1,86",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$50\\%$\n",
+                "$60\\%$\n",
+                "$70\\%$\n",
+                "$80\\%$\n",
+                "$90\\%$\n"
+              ]
+            },
+            {
+              "id_": "2F21",
+              "statement": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. A mistura foi resfriada com\nnitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.\n\n![Temperatura por tempo](2F21-1P.svg)\n\n-   **Determine** o grau de dimerização do tetracloreto de vanádio.\n-   **Determine** a concentração de $\\ce{VCl4}$ e $\\ce{V2Cl8}$ no\n    equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "$85\\%$\n",
+                "$\\pu{84 mmol.L-1}$ e $\\pu{234 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2F22",
+              "statement": "O ácido acético comporta-se diferentemente em dois solventes distintos.\nO ponto de congelamento de uma solução $5\\%$, em massa, de ácido acético\nem água é $\\pu{21,72 \\degree C}$. Em benzeno, o abaixamento do ponto de\ncongelamento associado a uma solução $5\\%$, em massa, de ácido acético é\n$\\pu{2,47 \\degree C}$.\n\n-   **Explique** a diferença no comportamento do ácido acético em\n    solução.\n-   **Determine** o grau de reação do ácido acético em água.\n-   **Determine** o grau de reação do ácido acético em benzeno.\n",
+              "solution": "\n",
+              "answer": [
+                "O ácido acético sofre ionização em água e dimerização em ácido acético.\n",
+                "$5\\%$\n",
+                "$96,5\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-H2O",
+                    "name": "Constante crioscópica do \\ce{H2O} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{H2O} )",
+                    "value": "1,86",
+                    "unit": "K.kg.mol-1"
+                  },
+                  {
+                    "id_": "kf-benzeno",
+                    "name": "Constante crioscópica do \\ce{benzeno} ",
+                    "symbol": "k^{\\circ }_{\\mathrm{c} }(\\ce{benzeno} )",
+                    "value": "5,12",
+                    "unit": "K.kg.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2F23",
+              "statement": "Uma amostra de água do mar possui densidade $\\pu{1,05 g.mL-1}$, a\nconcentração média de espécies dissolvidas é $\\pu{0,8 mol.L-1}$ e a\ntemperatura média $\\pu{290 K}$. Com o objetivo de purificar a amostra de\nágua, uma das extremidades abertas de um longo tubo contendo a solução é\nenvolvido com uma membrana semipermeável, a qual será imersa na água do\nmar.\n\n**Assinale** a alternativq que mais se aproxima profundidade mínima que\no tubo deveria ser imerso.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{183 m}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{9 m}$\n",
+                "$\\pu{19 m}$\n",
+                "$\\pu{74 m}$\n",
+                "$\\pu{183 m}$\n",
+                "$\\pu{1930 m}$\n"
+              ]
+            },
+            {
+              "id_": "2F24",
+              "statement": "A pressão osmótica de uma solução de poliisobutileno sintético em\nbenzeno foi determinada a $\\pu{25 \\degree C}$. Uma amostra contendo\n$\\pu{0,2 g}$ de soluto por $\\pu{100 cm3}$ de solução subiu até uma\naltura de $\\pu{2,4 mm}$ quando foi atingido o equilíbrio osmótico. A\nmassa específica da solução no equilíbrio é $\\pu{0,88 g.mL-1}$.\n\n**Determine** a massa molecular do poliisobuteno.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{240 kg.mol-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2F26",
+              "statement": "Em uma região onde a água é muito dura, unidades de osmose reversa são\nutilizadas para purificação. Nessa região, a água apresenta\n$\\pu{560 \\mu g.mL-1}$ de carbonato de magnésio. Uma unidade pode exercer\numa pressão máxima de $\\pu{8 atm}$ operando a $\\pu{27 \\degree C}$.\n\n-   **Determine** o volume de água que deve entrar na unidade por minuto\n    para produzir $\\pu{45 L}$ de água purificada por dia.\n-   **Verifique** se a unidade de osmose reversa pode ser utilizada para\n    purificar água do mar, $\\pu{0,6 mol.L-1}$ em cloreto de sódio.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{46 L}$\n",
+                "Não pode ser utilizada.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2F27",
+              "statement": "A entalpia de fusão de certa substância é $\\pu{10,14 kJ.mol-1}$. Uma\namostra desta substância está contaminada com uma quantidade\ndesconhecida de impurezas. Quando esta amostra é aquecida a\n$\\pu{181,85 K}$, $28\\%$ da amostra passa para a fase líquida; a\n$\\pu{182,25 K}$, esta fração aumenta para $53\\%$.\n\n-   **Determine** a temperatura de fusão para a substância.\n-   **Determine** a temperatura de fusão para a amostra.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{182,7 K}$\n",
+                "$\\pu{182,2 K}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "2F2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "2G",
@@ -9886,7 +10540,7 @@
                 "data": [
                   {
                     "id_": "Pvap-H2O",
-                    "name": "Pressão de vapor \\ce{H2O} ",
+                    "name": "Pressão de vapor do \\ce{H2O} ",
                     "symbol": "P^{\\circ }_{\\mathrm{vap} }(\\ce{H2O} )",
                     "value": "23,8",
                     "unit": "mmHg"

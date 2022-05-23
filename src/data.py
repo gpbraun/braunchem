@@ -287,18 +287,38 @@ DATATYPES = {
         state('T', sub='fus', std=False),
         'K'
     ),
+    'Pf': DataType(
+        'Temperatura de fusão do',
+        state('T', sub='eb', std=False),
+        '\\degree C'
+    ),
     'Te': DataType(
         'Temperatura de ebulição do',
         state('T', sub='eb', std=False),
         'K'
     ),
+    'Pe': DataType(
+        'Temperatura de ebulição do',
+        state('T', sub='eb', std=False),
+        '\\degree C'
+    ),
+    'kf': DataType(
+        'Constante crioscópica do',
+        state('k', sub='c'),
+        'K.kg.mol-1'
+    ),
+    'kb': DataType(
+        'Constante ebulioscópica do',
+        state('k', sub='b'),
+        'K.kg.mol-1'
+    ),
     'Pvap': DataType(
-        'Pressão de vapor',
+        'Pressão de vapor do',
         state('P', sub='vap'),
         'mmHg'
     ),
     'kH': DataType(
-        'Constante de Henry',
+        'Constante de Henry do',
         state('k', sub='H'),
         'mmol.L-1.atm-1'
     ),

@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+    \begin{axis}[
+        grid=both,
+        xlabel={Tempo $t/\unit{min}$},
+        ylabel={Temperatura, $T/\unit{\degree C}$},
+        xmin=0, xmax=30,
+        ymin=-50, ymax=00,
+    ]
+    \addplot coordinates 
+        {
+            ( 0,   0)
+            ( 5, -30)
+            (25, -40)
+            (30, -50)
+
+        };
+    \end{axis}
+\end{tikzpicture}
