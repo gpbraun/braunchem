@@ -20,18 +20,6 @@ class DataType:
     unit: str
 
 
-def state(state, sub='', sup='', delta=False, std=True):
-    # Thermochemical state notation in latex format
-    prefix = latex.cmd('Delta') if delta else ''
-
-    superscript = latex.cmd("circ") if std else '' + sup
-    subscript = latex.cmd("mathrm", [sub]) if sub else ''
-
-    suffix = f'^{{{superscript}}}' + f'_{{{subscript}}}'
-
-    return prefix + state + suffix
-
-
 @frozen
 class Data:
     id_: str
@@ -228,16 +216,28 @@ CONSTANTS = DataSet([
 ])
 
 
+def state(state, sub='', sup='', delta=False, std=False):
+    # Thermochemical state notation in latex format
+    prefix = latex.cmd('Delta') if delta else ''
+
+    superscript = latex.cmd("circ") if std else '' + sup
+    subscript = latex.cmd("mathrm", [sub]) if sub else ''
+
+    suffix = f'^{{{superscript}}}' + f'_{{{subscript}}}'
+
+    return prefix + state + suffix
+
+
 DATATYPES = {
     # ORGANIC/INORGANIC
     'Hf': DataType(
         'Entalpia de formação do',
-        state('H', sub='f', delta=True),
+        state('H', sub='f', delta=True, std=True),
         'kJ.mol-1'
     ),
     'Gf': DataType(
         'Entalpia livre de formação do',
-        state('G', sub='f', delta=True),
+        state('G', sub='f', delta=True, std=True),
         'kJ.mol-1'
     ),
     'CP': DataType(
@@ -252,13 +252,13 @@ DATATYPES = {
     ),
     'Hc': DataType(
         'Entalpia de combustão do',
-        state('H', sub='c', delta=True),
+        state('H', sub='c', delta=True, std=True),
         'kJ.mol-1'
     ),
     # BONDS
     'HL': DataType(
         'Entalpia da ligação',
-        state('H', sub='L', delta=True),
+        state('H', sub='L', delta=True, std=True),
         'kJ.mol-1'
     ),
     # SOLVENTS
@@ -269,37 +269,37 @@ DATATYPES = {
     ),
     'Hvap': DataType(
         'Entalpia de vaporização do',
-        state('H', sub='vap', delta=True),
+        state('H', sub='vap', delta=True, std=True),
         'kJ.mol-1'
     ),
     'Hfus': DataType(
         'Entalpia de fusão do',
-        state('H', sub='fus', delta=True),
+        state('H', sub='fus', delta=True, std=True),
         'kJ.mol-1'
     ),
     'Hsub': DataType(
         'Entalpia de sublimação do',
-        state('H', sub='sub', delta=True),
+        state('H', sub='sub', delta=True, std=True),
         'kJ.mol-1'
     ),
     'Tf': DataType(
         'Temperatura de fusão do',
-        state('T', sub='fus', std=False),
+        state('T', sub='fus'),
         'K'
     ),
     'Pf': DataType(
         'Temperatura de fusão do',
-        state('T', sub='eb', std=False),
+        state('T', sub='eb'),
         '\\degree C'
     ),
     'Te': DataType(
         'Temperatura de ebulição do',
-        state('T', sub='eb', std=False),
+        state('T', sub='eb'),
         'K'
     ),
     'Pe': DataType(
         'Temperatura de ebulição do',
-        state('T', sub='eb', std=False),
+        state('T', sub='eb'),
         '\\degree C'
     ),
     'kf': DataType(
@@ -315,7 +315,7 @@ DATATYPES = {
     'Pvap': DataType(
         'Pressão de vapor do',
         state('P', sub='vap'),
-        'mmHg'
+        'torr'
     ),
     'kH': DataType(
         'Constante de Henry do',
