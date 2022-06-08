@@ -9243,7 +9243,7 @@
                   {
                     "id_": "Pf-benzeno",
                     "name": "Temperatura de fusão do \\ce{benzeno} ",
-                    "symbol": "T^{}_{\\mathrm{eb} }(\\ce{benzeno} )",
+                    "symbol": "T^{}_{\\mathrm{fus} }(\\ce{benzeno} )",
                     "value": "5,50",
                     "unit": "\\degree C"
                   }
@@ -9519,7 +9519,7 @@
                   {
                     "id_": "Pf-benzeno",
                     "name": "Temperatura de fusão do \\ce{benzeno} ",
-                    "symbol": "T^{}_{\\mathrm{eb} }(\\ce{benzeno} )",
+                    "symbol": "T^{}_{\\mathrm{fus} }(\\ce{benzeno} )",
                     "value": "5,50",
                     "unit": "\\degree C"
                   }
@@ -9692,11 +9692,11 @@
                     "unit": "K.kg.mol-1"
                   },
                   {
-                    "id_": 0,
-                    "name": "Tf-CCl4",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
+                    "id_": "Pf-CCl4",
+                    "name": "Temperatura de fusão do \\ce{CCl4} ",
+                    "symbol": "T^{}_{\\mathrm{fus} }(\\ce{CCl4} )",
+                    "value": "-23,0",
+                    "unit": "\\degree C"
                   }
                 ]
               },
@@ -10461,7 +10461,7 @@
             },
             {
               "id_": "2G25",
-              "statement": "A amônia é produzida em escala industrial pelo processo Haber-Bosch. A\nreação de formação exotérmica a partir de hidrogênio e nitrogênio é\nconduzida a $\\pu{450 \\degree C}$ sob $\\pu{200 atm}$.\n\n1.  O aumento da pressão no reator, mediante adição de um gás inerte,\n    aumenta o rendimento do processo.\n2.  O uso de um catalisador mais eficiente aumenta o rendimento do\n    processo.\n3.  Uma vez atingido o equilíbrio, não ocorrem mais colisões efetivas\n    entre moléculas de hidrogênio e nitrogênio.\n4.  A redução da temperatura no reator diminui a velocidade da reação,\n    mas favorece a formação de amônia.\n",
+              "statement": "A amônia é produzida em escala industrial pelo processo Haber-Bosch. A\nreação de formação exotérmica a partir de hidrogênio e nitrogênio é\nconduzida a $\\pu{450 \\degree C}$ sob $\\pu{200 atm}$. Considere as\nproposições:\n\n1.  O aumento da pressão no reator, mediante adição de um gás inerte,\n    aumenta o rendimento do processo.\n2.  O uso de um catalisador mais eficiente aumenta o rendimento do\n    processo.\n3.  Uma vez atingido o equilíbrio, não ocorrem mais colisões efetivas\n    entre moléculas de hidrogênio e nitrogênio.\n4.  A redução da temperatura no reator diminui a velocidade da reação,\n    mas favorece a formação de amônia.\n\n**Assinale** a alternativa que relaciona as proprosições *corretas*.\n",
               "solution": "",
               "answer": [
                 "**4**"
@@ -10905,11 +10905,11 @@
                     "unit": "K.kg.mol-1"
                   },
                   {
-                    "id_": 0,
-                    "name": "Tf-CCl4",
-                    "symbol": "",
-                    "value": 0.0,
-                    "unit": ""
+                    "id_": "Pf-CCl4",
+                    "name": "Temperatura de fusão do \\ce{CCl4} ",
+                    "symbol": "T^{}_{\\mathrm{fus} }(\\ce{CCl4} )",
+                    "value": "-23,0",
+                    "unit": "\\degree C"
                   }
                 ]
               },

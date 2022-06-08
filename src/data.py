@@ -289,7 +289,7 @@ DATATYPES = {
     ),
     'Pf': DataType(
         'Temperatura de fusão do',
-        state('T', sub='eb'),
+        state('T', sub='fus'),
         '\\degree C'
     ),
     'Te': DataType(

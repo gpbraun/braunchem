@@ -49,7 +49,7 @@ def latex_len(tex_str):
     for match in re.findall(TEX_LEN, tex_str):
         if match in ['=', '\\rightarrow']:
             count += 2
-        elif match in [',']:
+        elif match in [',', '\\pu']:
             count += 0
         elif match in ['\\frac', '_']:
             count -= 1
