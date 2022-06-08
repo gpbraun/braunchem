@@ -9673,7 +9673,7 @@
             },
             {
               "id_": "2F21",
-              "statement": "m solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. A mistura foi resfriada com\nnitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.\n\n![Temperatura por tempo](2F21-1P.svg)\n\n-   **Determine** o grau de dimerização do tetracloreto de vanádio.\n-   **Determine** a concentração de $\\ce{VCl4}$ e $\\ce{V2Cl8}$ no\n    equilíbrio.\n",
+              "statement": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. A mistura foi resfriada com\nnitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.\n\n![Temperatura por tempo](2F21-1P.svg)\n\n-   **Determine** o grau de dimerização do tetracloreto de vanádio.\n-   **Determine** a concentração de $\\ce{VCl4}$ e $\\ce{V2Cl8}$ no\n    equilíbrio.\n",
               "solution": "\n",
               "answer": [
                 "$85\\%$\n",
@@ -10279,7 +10279,9 @@
               "id_": "2G17",
               "statement": "As concentrações dos reagentes e produtos de uma reação foram\nmonitoradas ao longo do tempo.\n\n![Concentração por tempo](2G17-1P.svg)\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação balanceada com os menores coeficientes inteiros.\n",
               "solution": "",
-              "answer": [],
+              "answer": [
+                "$\\pu{1,64}$\n"
+              ],
               "constants": {
                 "data": []
               },
@@ -10287,7 +10289,7 @@
                 "data": []
               },
               "elements": [],
-              "obj": 0,
+              "obj": 1,
               "choices": [
                 "$\\pu{1,35}$\n",
                 "$\\pu{1,64}$\n",
@@ -10600,6 +10602,550 @@
               "elements": [],
               "obj": -1,
               "choices": []
+            },
+            {
+              "id_": "2G31",
+              "statement": "Um balão de $\\pu{10 L}$ é preenchido com $\\pu{4,5 mol}$ de $\\ce{N2}$ e\n$\\pu{0,8 mol}$ de $\\ce{O2}$. O sistema é mantido a $\\pu{1200 \\degree C}$\ne o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ N2(g) + O2(g) <=> 2 NO(g) } && K_\\text{c} = \\pu{1e-5}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da quantidade de\n$\\ce{NO}$ no equilíbrio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{6 mmol}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{2 mmol}$\n",
+                "$\\pu{4 mmol}$\n",
+                "$\\pu{6 mmol}$\n",
+                "$\\pu{8 mmol}$\n",
+                "$\\pu{10 mmol}$\n"
+              ]
+            },
+            {
+              "id_": "2G32",
+              "statement": "Um balão é preenchido com amônia. O sistema é mantido a\n$\\pu{25 \\degree C}$ e o equilíbrio é estabelecido quando $50\\%$ da\namônia sofreu decomposição:\n\n$$\n\\begin{aligned}\n\\ce{ N2(g) + 3 H2(g) <=> 2 NH3(g) } && K_\\text{c} = \\pu{5,3e-5}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da pressão inicial de\namônia.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{20 kPa}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{10 kPa}$\n",
+                "$\\pu{20 kPa}$\n",
+                "$\\pu{30 kPa}$\n",
+                "$\\pu{40 kPa}$\n",
+                "$\\pu{50 kPa}$\n"
+              ]
+            },
+            {
+              "id_": "2G33",
+              "statement": "Sob $\\pu{1 atm}$, $\\pu{0,5}\\%$ do pentóxido de nitrogênio em um cilindro\nestá decomposto devido a reação:\n\n$$\n\\ce{ 2 N2O5(g) <=> 4 NO2(g) + O2(g) }\n$$\n\nO volume do cilindro é aumentado em dez vezes.\n\n**Assinale** a alternativa que mais se aproxima da fração de $\\ce{N2O5}$\nque sofre decomposição devido ao aumento do volume.\n",
+              "solution": "",
+              "answer": [
+                "$2\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$2\\%$\n",
+                "$8\\%$\n",
+                "$14\\%$\n",
+                "$20\\%$\n",
+                "$26\\%$\n"
+              ]
+            },
+            {
+              "id_": "2G34",
+              "statement": "Um balão de $\\pu{1 L}$ é preenchido com $\\pu{2 mol}$ de $\\ce{NO}$ e\n$\\pu{1 mol}$ de $\\ce{Cl2}$. O sistema é mantido a $\\pu{35 \\degree C}$ e\no equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ 2 NOCl(g) <=> 2 NO(g) + Cl2(g) } && K_\\text{c} = \\pu{1,6e-5}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da quantidade de\n$\\ce{NO}$ no equilíbrio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{50 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{10 mmol.L-1}$\n",
+                "$\\pu{20 mmol.L-1}$\n",
+                "$\\pu{50 mmol.L-1}$\n",
+                "$\\pu{70 mmol.L-1}$\n",
+                "$\\pu{90 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2G35",
+              "statement": "Um balão é preenchido com $\\ce{PCl5}$. O sistema é mantido a\n$\\pu{556 K}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ PCl5(g) <=> PCl3(g) + Cl2(g) } && K = 5\n\\end{aligned}\n$$\n\nNo equilíbrio a pressão total é $\\pu{15 atm}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de decomposição\ndo $\\ce{PCl5}$ no equilíbrio.\n",
+              "solution": "",
+              "answer": [
+                "$50\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$10\\%$\n",
+                "$20\\%$\n",
+                "$30\\%$\n",
+                "$40\\%$\n",
+                "$50\\%$\n"
+              ]
+            },
+            {
+              "id_": "2G36",
+              "statement": "Um balão de $\\pu{1 L}$ é preenchido com $\\pu{0,64 bar}$ de fosfina. O\nsistema é mantido a $\\pu{25 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\ce{ 2 PH3(g) <=> 2 P(s) + 3 H2(g) }\n$$\n\nNo equilíbrio a pressão total é $\\pu{0,93 atm}$.\n\n-   **Determine** a massa de fósforo produzida no equilíbrio.\n-   **Determine** a constante de equilíbrio para essa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{720 mg}$\n",
+                "$\\pu{183}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G37",
+              "statement": "Um balão é preenchido com $\\pu{100 torr}$ de $\\ce{NO}$ e $\\pu{40 torr}$\nde $\\ce{Br2}$. O sistema é mantido a $\\pu{300 K}$ e o equilíbrio é\nestabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ 2 NO(g) + Br2(g) <=> 2 NOBr(g) }\n\\end{aligned}\n$$\n\nNo equilíbrio a pressão total é $\\pu{110 torr}$.\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio para essa reação.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{171}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,225}$\n",
+                "$\\pu{17,1}$\n",
+                "$\\pu{22,5}$\n",
+                "$\\pu{171}$\n",
+                "$\\pu{225}$\n"
+              ]
+            },
+            {
+              "id_": "2G38",
+              "statement": "Um balão é preenchido com $\\ce{P4}$. O sistema é mantido a $\\pu{1325 K}$\ne o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ P4(g) <=> 2 P2(g) } && K = \\pu{0,1}\n\\end{aligned}\n$$\n\nNo equilíbrio a pressão total é $\\pu{1 atm}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de dissociação\nde $\\ce{P4}$ no equilíbrio.\n",
+              "solution": "",
+              "answer": [
+                "$16\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$4\\%$\n",
+                "$8\\%$\n",
+                "$12\\%$\n",
+                "$16\\%$\n",
+                "$20\\%$\n"
+              ]
+            },
+            {
+              "id_": "2G39",
+              "statement": "A $\\pu{5000 K}$ e $\\pu{1 atm}$, $83\\%$ das moléculas de oxigênio em uma\namostra estão dissociadas em oxigênio atômico.\n\n**Assinale** a alternativa que mais se aproxima da pressão em que $95\\%$\ndas moléculas de oxigênio estarão dissociadas a $\\pu{5000 K}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,24 atm}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{0,24 atm}$\n",
+                "$\\pu{0,48 atm}$\n",
+                "$\\pu{0,72 atm}$\n",
+                "$\\pu{0,96 atm}$\n",
+                "$\\pu{1,20 atm}$\n"
+              ]
+            },
+            {
+              "id_": "2G40",
+              "statement": "Um balão é preenchido com tetracloreto de carbono. O sistema é mantido a\n$\\pu{700 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CCl4(g) <=> C(s) + 2 Cl2(g) } && K = \\pu{0,8}\n\\end{aligned}\n$$\n\nNo equilíbrio a pressão total é $\\pu{1,2 atm}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão inicial de\ntetracloreto de carbono.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,9 atm}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,1 atm}$\n",
+                "$\\pu{0,3 atm}$\n",
+                "$\\pu{0,6 atm}$\n",
+                "$\\pu{0,9 atm}$\n",
+                "$\\pu{1,2 atm}$\n"
+              ]
+            },
+            {
+              "id_": "2G41",
+              "statement": "Um balão de $\\pu{1 L}$ é preenchido com $\\pu{4,8 g}$ de metanol. O\nsistema é mantido a $\\pu{250 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CH3OH(g) <=> CO(g) + 2 H2(g) }\n\\end{aligned}\n$$\n\nApós o sistema atingir o equilíbrio, um frasco é preenchido por um\npequeno orifício na lateral do balão. A quantidade de hidrogênio que\nefunde para o frasco é $32$ vezes mais que a quantidade de metanol.\n\n-   **Determine** a razão entre a quantidade de hidrogênio e metanol na\n    mistura em equilíbrio.\n-   **Determine** a constante de equilíbrio para essa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$8$\n",
+                "$\\pu{0,23}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G42",
+              "statement": "Um reservatório de $\\pu{6 L}$ é preenchido com $\\pu{79,2 g}$ de gelo\nseco e $\\pu{30 g}$ de carvão mineral em pó. O sistema é mantido a\n$\\pu{1000 K}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CO2(g) + C(g) <=> 2 CO(g) }\n\\end{aligned}\n$$\n\nNo equilíbrio a densidade da fase gasosa é $\\pu{14 g.L-1}$. A\n$\\pu{1100 K}$ a constante de equilíbrio da reação é $22$.\n\n-   **Determine** a constante de equilíbrio da reação a $\\pu{1000 K}$\n-   **Classifique** a reação como endotérmica ou exotérmica.\n",
+              "solution": "\n",
+              "answer": [
+                "$8$\n",
+                "$\\pu{0,23}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G43",
+              "statement": "Um balão é preenchido com $\\pu{88 g}$ de $\\ce{SO3}$. O sistema é mantido\na $\\pu{600 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ SO3(g) <=> SO2(g) + 1/2 O2(g) }\n\\end{aligned}\n$$\n\nNo equilíbrio a densidade da fase gasosa é $\\pu{1,6 g.L-1}$ e a pressão\ntotal é $\\pu{1,8 atm}$.\n\n**Determine** a constante de equilíbrio dessa reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{0,63}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G44",
+              "statement": "Um reator equipado com um pistão que se move livremente é preenchido com\n$\\ce{NOBr}$. A densidade da gás é $\\pu{4,4 g.L-1}$. O sistema é mantido\na $\\pu{25 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\ce{ 2 NOBr(g) <=> 2 NO(g) + Br2(g) }\n$$\n\nNo equilíbrio a densidade da fase gasosa é $\\pu{4.0 g.L-1}$.\n\n-   **Determine** a constante de equilíbrio dessa reação.\n-   **Explique** o efeito da adição de argônio ao reator\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{2,33e-4}$\n",
+                "Não há efeito no equilíbrio.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G45",
+              "statement": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. O ponto de fusão da solução é\n$\\pu{-30 \\degree C}$\n\n-   **Determine** o grau de dimerização do tetracloreto de vanádio.\n-   **Determine** a constante de equilíbrio de dimerização do cloreto de\n    vanádio.\n",
+              "solution": "\n",
+              "answer": [
+                "$85\\%$\n",
+                "$\\pu{33}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "kf-CCl4",
+                    "name": "Constante crioscópica do \\ce{CCl4} ",
+                    "symbol": "k^{}_{\\mathrm{c} }(\\ce{CCl4} )",
+                    "value": "29,8",
+                    "unit": "K.kg.mol-1"
+                  },
+                  {
+                    "id_": 0,
+                    "name": "Tf-CCl4",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G46",
+              "statement": "Um reator para a produção de metanol é preenchido com uma mistrura de\n$\\ce{CO}$ e $\\ce{H2}$ na proporção $1:2$. O sistema é mantido a\n$\\pu{600 K}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CO(g) + 2 H2(g) <=> CH3OH(g) }\n\\end{aligned}\n$$\n\nNo equilíbrio a pressão total é $\\pu{50 atm}$.\n\n-   **Determine** a constante de equilíbrio para essa reação.\n-   **Determine** o grau de conversão para a formação de metanol.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{2,5e-4}$\n",
+                "$28\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Hf-CH3OH(g)",
+                    "name": "Entalpia de formação do \\ce{CH3OH} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CH3OH, {g}} )",
+                    "value": "-201",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "Hf-CO(g)",
+                    "name": "Entalpia de formação do \\ce{CO} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
+                    "value": "-111",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-CH3OH(g)",
+                    "name": "Entropia do  \\ce{CH3OH} (g)",
+                    "symbol": "S^{}_{}(\\ce{CH3OH, {g}} )",
+                    "value": "240",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-CO(g)",
+                    "name": "Entropia do  \\ce{CO} (g)",
+                    "symbol": "S^{}_{}(\\ce{CO, {g}} )",
+                    "value": "198",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-H2(g)",
+                    "name": "Entropia do  \\ce{H2} (g)",
+                    "symbol": "S^{}_{}(\\ce{H2, {g}} )",
+                    "value": "131",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G47",
+              "statement": "Um reator para a produção de cementita é equipado com um pistão que se\nmove livremente contra pressão de $\\pu{1 atm}$. O reator é preenchido\ncom ferro metálico e gás hidrogênio. O sistema é mantido a\n$\\pu{25 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CH4(g) + 3 Fe(S) <=> Fe3C(s) + 2 H2(g) }\n\\end{aligned}\n$$\n\n-   **Determine** a constante de equilíbrio para essa reação.\n-   **Determine** a fração molar de hidrogênio na fase gasosa no\n    equilíbrio.\n-   **Avalie** a viabilidade do processo para a produção de cementita.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{2,5e-4}$\n",
+                "$\\pu{0,6 ppm}$\n",
+                "$28\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$S^\\circ(\\ce{Fe3C, {s}}) = \\pu{105 J.K-1.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta H_\\text{f}^\\circ(\\ce{Fe3C, {s}}) = \\pu{25,1 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Hf-CH4(g)",
+                    "name": "Entalpia de formação do \\ce{CH4} (g)",
+                    "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CH4, {g}} )",
+                    "value": "-74,8",
+                    "unit": "kJ.mol-1"
+                  },
+                  {
+                    "id_": "S-CH4(g)",
+                    "name": "Entropia do  \\ce{CH4} (g)",
+                    "symbol": "S^{}_{}(\\ce{CH4, {g}} )",
+                    "value": "186",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-Fe(s)",
+                    "name": "Entropia do  \\ce{Fe} (s)",
+                    "symbol": "S^{}_{}(\\ce{Fe, {s}} )",
+                    "value": "27,3",
+                    "unit": "J.K-1.mol-1"
+                  },
+                  {
+                    "id_": "S-H2(g)",
+                    "name": "Entropia do  \\ce{H2} (g)",
+                    "symbol": "S^{}_{}(\\ce{H2, {g}} )",
+                    "value": "131",
+                    "unit": "J.K-1.mol-1"
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G48",
+              "statement": "A constante de equilíbrio, $K$, para uma reação é $\\pu{8,84}$ a\n$\\pu{25 \\degree C}$ e $\\pu{3,25e-2}$ a $\\pu{75 \\degree C}$.\n\n-   **Determine** a temperatura em que $K=1$.\n-   **Determine** a entropia de reação.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{310 K}$\n",
+                "$\\pu{310 J.mol-1.K-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G49",
+              "statement": "Um reator contém uma mistura dos gases metilpropeno, *cis*-but-2-eno e\n*trans*-but-2-eno em equilíbrio.\n\n**Determine** a fração de cada composto no equilíbrio.\n",
+              "solution": "\n",
+              "answer": [
+                "$87\\%$ metilpropeno, $3\\%$ cis-but-2-eno e $10\\%$ trans-but-2-eno.\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta G_\\text{f}^\\circ(\\text{\\textit{cis}-but-2-eno}) = \\pu{66 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta G_\\text{f}^\\circ(\\text{\\textit{trans}-but-2-eno}) = \\pu{63 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  },
+                  {
+                    "id_": 0,
+                    "name": "$\\Delta G_\\text{f}^\\circ(\\text{metilpropeno}) = \\pu{58 kJ.mol-1}$",
+                    "symbol": "",
+                    "value": 0.0,
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G50",
+              "statement": "Um reator de $\\pu{1 L}$ é preenchido com $\\pu{10 g}$ de bicarbonato de\nsódio. O sistema é mantido a $\\pu{125 \\degree C}$ e o equilíbrio é\nestabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ 2 NaHCO3(s) <=> Na2CO3(s) + CO2(g) + H2O(g) }\n\\end{aligned}\n$$\n\n-   **Determine** a pressão parcial de $\\ce{CO2}$ no equilíbrio.\n-   **Determine** a massa de bicarbonato de sódio no equilíbrio.\n-   **Determine** o volume mínimo necessário para a decomposição de todo\n    o bicarbonato.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{0,5 atm}$\n",
+                "$\\pu{7,5 g}$\n",
+                "$\\pu{3,9 L}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2G51",
+              "statement": "Quando o carbonato de prata hidratado é seco com uma corrente de ar\nquente, o ar deve ter uma concentração mínima de $\\ce{CO2}$ para evitar\na decomposição deste, conforme a reação:\n\n$$\n\\begin{aligned}\n\\ce{ Ag2CO3(s) -> Ag2O(s) + CO2(g) } && \\Delta H = \\pu{80 kJ.mol-1}\n\\end{aligned}\n$$\n\nA $\\pu{25 \\degree C}$, a pressão mínima de $\\ce{CO2}$ para não haver\ndecomposição é $\\pu{6,2e-3 torr}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão mínima de\n$\\ce{CO2}$ para não haver decomposição a $\\pu{110 \\degree C}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{7,5 torr}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{2,5 torr}$\n",
+                "$\\pu{5,0 torr}$\n",
+                "$\\pu{7,5 torr}$\n",
+                "$\\pu{10,0 torr}$\n",
+                "$\\pu{12,5 torr}$\n"
+              ]
             }
           ],
           "id_": "2G2",
