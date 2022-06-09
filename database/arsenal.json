@@ -10530,10 +10530,10 @@
             },
             {
               "id_": "2G28",
-              "statement": "Considere a reação de síntese da amônia:\n\n$$\n\\begin{aligned}\n\\ce{ N2(g) + 3 H2(g) <=> 2 NH3(g) } && K_{\\pu{298 K}} = \\pu{6,8e5}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio da reação a $\\pu{400 K}$.\n",
+              "statement": "Considere a reação de síntese da amônia a $\\pu{298 K}$:\n\n$$\n\\begin{aligned}\n\\ce{ N2(g) + 3 H2(g) <=> 2 NH3(g) } && K_{\\pu{298 K}} = \\pu{6,8e5}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio da reação a $\\pu{400 K}$.\n",
               "solution": "",
               "answer": [
-                "$\\pu{50 kJ.mol-1}$\n"
+                "$\\pu{5e4}$\n"
               ],
               "constants": {
                 "data": []
@@ -10552,11 +10552,11 @@
               "elements": [],
               "obj": 3,
               "choices": [
-                "$\\pu{-100 kJ.mol-1}$\n",
-                "$\\pu{-50 kJ.mol-1}$\n",
-                "$\\pu{25 kJ.mol-1}$\n",
-                "$\\pu{50 kJ.mol-1}$\n",
-                "$\\pu{100 kJ.mol-1}$\n"
+                "$\\pu{5e1}$\n",
+                "$\\pu{5e2}$\n",
+                "$\\pu{5e3}$\n",
+                "$\\pu{5e4}$\n",
+                "$\\pu{5e5}$\n"
               ]
             },
             {
