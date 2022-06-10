@@ -1254,6 +1254,10 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\cs_set:Nn \graphics_include:n
+    { \graphics_include:nn {} {#1} }
+
+
 \RequirePackage { svg }
 
 \keys_define:nn { braun/graphics }
