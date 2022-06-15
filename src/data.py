@@ -25,7 +25,7 @@ class Data:
     id_: str
     name: str
     symbol: str = ''
-    value: float = 0.0
+    value: str = ''
     unit: str = ''
 
     def __lt__(self, other):
@@ -104,7 +104,10 @@ class DataSet:
             for row in reader:
                 for prop in reader.fieldnames[1:]:
                     if row[prop]:
-                        value = round(row[prop], sigfigs=3)
+                        try:
+                            value = str(round(float(row[prop]), sigfigs=3))
+                        except ValueError:
+                            value = str(row[prop])
                         mol_names = row['id'].split(',')
                         for mol in mol_names:
                             datamol = mol.strip()
@@ -327,5 +330,56 @@ DATATYPES = {
         'Função trabalho do',
         latex.cmd('Phi'),
         'eV'
+    ),
+    # ACIDS AND BASES
+    'Ka': DataType(
+        'Constante de acidez',
+        'K_\\mathrm{a}',
+        ''
+    ),
+    'pKa': DataType(
+        'Constante de acidez',
+        '\\mathrm{p}K_\\mathrm{a}',
+        ''
+    ),
+    'Kb': DataType(
+        'Constante de basicidade',
+        'K_\\mathrm{b}',
+        ''
+    ),
+    'pKb': DataType(
+        'Constante de acidez',
+        '\\mathrm{p}K_\\mathrm{b}',
+        ''
+    ),
+    'Ka1': DataType(
+        'Constante de acidez 1',
+        'K_\\mathrm{a1}',
+        ''
+    ),
+    'Ka2': DataType(
+        'Constante de acidez 2',
+        'K_\\mathrm{a2}',
+        ''
+    ),
+    'Ka3': DataType(
+        'Constante de acidez 3',
+        'K_\\mathrm{a3}',
+        ''
+    ),
+    'pKa1': DataType(
+        'Constante de acidez 1',
+        '\\mathrm{p}K_\\mathrm{a1}',
+        ''
+    ),
+    'pKa2': DataType(
+        'Constante de acidez 2',
+        '\\mathrm{p}K_\\mathrm{a2}',
+        ''
+    ),
+    'pKa3': DataType(
+        'Constante de acidez 3',
+        '\\mathrm{p}K_\\mathrm{a3}',
+        ''
     ),
 }

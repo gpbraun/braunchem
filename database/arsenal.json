@@ -233,7 +233,7 @@
                     "id_": 0,
                     "name": "$T_\\text{fus}(\\ce{Fe}) = \\pu{1540 \\degree C}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -287,7 +287,7 @@
                     "id_": "Phi-K",
                     "name": "Função trabalho do \\ce{K} ",
                     "symbol": "\\Phi (\\ce{K} )",
-                    "value": "2,20",
+                    "value": "2,2",
                     "unit": "eV"
                   }
                 ]
@@ -318,7 +318,7 @@
                     "id_": "Phi-Zn",
                     "name": "Função trabalho do \\ce{Zn} ",
                     "symbol": "\\Phi (\\ce{Zn} )",
-                    "value": "4,30",
+                    "value": "4,3",
                     "unit": "eV"
                   }
                 ]
@@ -738,7 +738,7 @@
                     "id_": "Hc-glicose(s)",
                     "name": "Entalpia de combustão do \\ce{glicose} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}} )",
-                    "value": "-2810",
+                    "value": "-2810,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -764,14 +764,14 @@
                     "id_": "HL-Cl2",
                     "name": "Entalpia da ligação \\ce{Cl2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2} )",
-                    "value": "242",
+                    "value": "242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-AgCl(s)",
                     "name": "Entalpia de formação do \\ce{AgCl} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{AgCl, {s}} )",
-                    "value": "-127",
+                    "value": "-127,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -977,7 +977,7 @@
                     "id_": "HL-Cl2",
                     "name": "Entalpia da ligação \\ce{Cl2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2} )",
-                    "value": "242",
+                    "value": "242,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -2749,14 +2749,14 @@
                     "id_": 0,
                     "name": "$EI(\\ce{Na}) = \\pu{5,14 eV}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$EI(\\ce{Ne}) = \\pu{21,6 eV}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -3535,7 +3535,7 @@
                     "id_": 0,
                     "name": "$\\rho(\\ce{H2O, {s}}) = \\pu{0,92 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -3649,14 +3649,14 @@
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(s)",
                     "name": "Entalpia de formação do \\ce{H2O} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {s}} )",
-                    "value": "-292",
+                    "value": "-292,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -3856,28 +3856,28 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-glicina(s)",
                     "name": "Entalpia de formação do \\ce{glicina} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{glicina, {s}} )",
-                    "value": "-533",
+                    "value": "-533,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-ureia(s)",
                     "name": "Entalpia de formação do \\ce{ureia} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}} )",
-                    "value": "-334",
+                    "value": "-334,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -3931,21 +3931,21 @@
                     "id_": "Hc-CH4(g)",
                     "name": "Entalpia de combustão do \\ce{CH4} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}} )",
-                    "value": "-890",
+                    "value": "-890,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -3976,35 +3976,35 @@
                     "id_": "HL-C-C",
                     "name": "Entalpia da ligação \\ce{C-C} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C} )",
-                    "value": "348",
+                    "value": "348,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C-H",
                     "name": "Entalpia da ligação \\ce{C-H} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-H} )",
-                    "value": "412",
+                    "value": "412,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C=O",
                     "name": "Entalpia da ligação \\ce{C=O} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=O} )",
-                    "value": "743",
+                    "value": "743,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-H2",
                     "name": "Entalpia da ligação \\ce{H2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2} )",
-                    "value": "436",
+                    "value": "436,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-O2",
                     "name": "Entalpia da ligação \\ce{O2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O2} )",
-                    "value": "496",
+                    "value": "496,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4035,35 +4035,35 @@
                     "id_": 0,
                     "name": "$\\Delta H^\\circ_\\text{vap}(\\ce{CH3CHBrCH2Br}) = \\pu{35,61 kJ.mol^{-1}}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "HL-Br2",
                     "name": "Entalpia da ligação \\ce{Br2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Br2} )",
-                    "value": "193",
+                    "value": "193,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C-Br",
                     "name": "Entalpia da ligação \\ce{C-Br} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-Br} )",
-                    "value": "276",
+                    "value": "276,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C-C",
                     "name": "Entalpia da ligação \\ce{C-C} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C} )",
-                    "value": "348",
+                    "value": "348,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C=C",
                     "name": "Entalpia da ligação \\ce{C=C} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C} )",
-                    "value": "612",
+                    "value": "612,0",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -4101,21 +4101,21 @@
                     "id_": "Hc-CH4(g)",
                     "name": "Entalpia de combustão do \\ce{CH4} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{CH4, {g}} )",
-                    "value": "-890",
+                    "value": "-890,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4146,42 +4146,42 @@
                     "id_": "HL-C-H",
                     "name": "Entalpia da ligação \\ce{C-H} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-H} )",
-                    "value": "412",
+                    "value": "412,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C-O",
                     "name": "Entalpia da ligação \\ce{C-O} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-O} )",
-                    "value": "360",
+                    "value": "360,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-H2",
                     "name": "Entalpia da ligação \\ce{H2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2} )",
-                    "value": "436",
+                    "value": "436,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-O-H",
                     "name": "Entalpia da ligação \\ce{O-H} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O-H} )",
-                    "value": "463",
+                    "value": "463,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-O2",
                     "name": "Entalpia da ligação \\ce{O2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{O2} )",
-                    "value": "496",
+                    "value": "496,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hsub-grafite",
                     "name": "Entalpia de sublimação do \\ce{grafite} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }(\\ce{grafite} )",
-                    "value": "712",
+                    "value": "712,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4212,21 +4212,21 @@
                     "id_": "Hc-propano(g)",
                     "name": "Entalpia de combustão do \\ce{propano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{propano, {g}} )",
-                    "value": "-2220",
+                    "value": "-2220,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -4287,7 +4287,7 @@
                     "id_": "Hc-C6H5COOH(s)",
                     "name": "Entalpia de combustão do \\ce{C6H5COOH} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{C6H5COOH, {s}} )",
-                    "value": "-3230",
+                    "value": "-3230,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4371,14 +4371,14 @@
                     "id_": "d-H2O",
                     "name": "Densidade do \\ce{H2O} ",
                     "symbol": "\\rho (\\ce{H2O} )",
-                    "value": "1,00",
+                    "value": "1,0",
                     "unit": "g.cm-3"
                   },
                   {
                     "id_": "Hc-butano(g)",
                     "name": "Entalpia de combustão do \\ce{butano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
-                    "value": "-2880",
+                    "value": "-2880,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4542,14 +4542,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -4588,7 +4588,7 @@
                     "id_": "d-H2O",
                     "name": "Densidade do \\ce{H2O} ",
                     "symbol": "\\rho (\\ce{H2O} )",
-                    "value": "1,00",
+                    "value": "1,0",
                     "unit": "g.cm-3"
                   },
                   {
@@ -4621,21 +4621,21 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-octano(l)",
                     "name": "Entalpia de formação do \\ce{octano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}} )",
-                    "value": "-250",
+                    "value": "-250,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4734,21 +4734,21 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-242",
+                    "value": "-242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-octano(l)",
                     "name": "Entalpia de formação do \\ce{octano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}} )",
-                    "value": "-250",
+                    "value": "-250,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4779,14 +4779,14 @@
                     "id_": "Hc-butano(g)",
                     "name": "Entalpia de combustão do \\ce{butano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{butano, {g}} )",
-                    "value": "-2880",
+                    "value": "-2880,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-pentano(g)",
                     "name": "Entalpia de combustão do \\ce{pentano} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{pentano, {g}} )",
-                    "value": "-3540",
+                    "value": "-3540,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -4812,14 +4812,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-242",
+                    "value": "-242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -4852,28 +4852,28 @@
                     "id_": "HL-H2",
                     "name": "Entalpia da ligação \\ce{H2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{H2} )",
-                    "value": "436",
+                    "value": "436,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hsub-grafite",
                     "name": "Entalpia de sublimação do \\ce{grafite} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{sub} }(\\ce{grafite} )",
-                    "value": "712",
+                    "value": "712,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5000,28 +5000,28 @@
                     "id_": "Hc-benzeno(l)",
                     "name": "Entalpia de combustão do \\ce{benzeno} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{benzeno, {l}} )",
-                    "value": "-3270",
+                    "value": "-3270,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-cicloexano(l)",
                     "name": "Entalpia de combustão do \\ce{cicloexano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{cicloexano, {l}} )",
-                    "value": "-3920",
+                    "value": "-3920,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hc-cicloexeno(l)",
                     "name": "Entalpia de combustão do \\ce{cicloexeno} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{cicloexeno, {l}} )",
-                    "value": "-3750",
+                    "value": "-3750,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5065,42 +5065,42 @@
                     "id_": 0,
                     "name": "$\\Delta H_{\\mathrm{c}}(\\ce{C60}, \\mathrm{s}) = \\pu{-26 MJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_{\\mathrm{sub}}(\\ce{C60}) = \\pu{1 MJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "HL-C-C",
                     "name": "Entalpia da ligação \\ce{C-C} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C-C} )",
-                    "value": "348",
+                    "value": "348,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "HL-C=C",
                     "name": "Entalpia da ligação \\ce{C=C} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{C=C} )",
-                    "value": "612",
+                    "value": "612,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(l)",
                     "name": "Entalpia de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-286",
+                    "value": "-286,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5125,28 +5125,28 @@
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-111",
+                    "value": "-111,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-111",
+                    "value": "-111,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-242",
+                    "value": "-242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": 0,
                     "name": "Hf-FeO(s)",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -5171,7 +5171,7 @@
                     "id_": 0,
                     "name": "CP-ZnS(s)",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
@@ -5245,14 +5245,14 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-111",
+                    "value": "-111,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5308,28 +5308,28 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-111",
+                    "value": "-111,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-242",
+                    "value": "-242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-octano(l)",
                     "name": "Entalpia de formação do \\ce{octano} (l)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{octano, {l}} )",
-                    "value": "-250",
+                    "value": "-250,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -5462,14 +5462,14 @@
                     "id_": 0,
                     "name": "$T_\\text{fus}(\\ce{Hg}) = \\pu{249 \\degree C}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{fus}(\\ce{Hg}) = \\pu{2,3 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -5700,14 +5700,14 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{Hg}) = \\pu{60 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta S_\\text{vap}(\\ce{Hg}) = \\pu{90 J.K-1.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -5738,7 +5738,7 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{CH3OCH3}) = \\pu{21,5 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -5769,21 +5769,21 @@
                     "id_": "S-H2(g)",
                     "name": "Entropia do  \\ce{H2} (g)",
                     "symbol": "S^{}_{}(\\ce{H2, {g}} )",
-                    "value": "131",
+                    "value": "131,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-N2(g)",
                     "name": "Entropia do  \\ce{N2} (g)",
                     "symbol": "S^{}_{}(\\ce{N2, {g}} )",
-                    "value": "192",
+                    "value": "192,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-NH3(g)",
                     "name": "Entropia do  \\ce{NH3} (g)",
                     "symbol": "S^{}_{}(\\ce{NH3, {g}} )",
-                    "value": "192",
+                    "value": "192,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -5814,14 +5814,14 @@
                     "id_": "S-KClO3(s)",
                     "name": "Entropia do  \\ce{KClO3} (s)",
                     "symbol": "S^{}_{}(\\ce{KClO3, {s}} )",
-                    "value": "143",
+                    "value": "143,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-KClO4(s)",
                     "name": "Entropia do  \\ce{KClO4} (s)",
                     "symbol": "S^{}_{}(\\ce{KClO4, {s}} )",
-                    "value": "151",
+                    "value": "151,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -6026,7 +6026,7 @@
                     "id_": 0,
                     "name": "$\\Delta H_{\\text{fus}}(\\ce{H2O}) = \\pu{6 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -6174,7 +6174,7 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{H2O}) = \\pu{40,6 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
@@ -6215,21 +6215,21 @@
                     "id_": 0,
                     "name": "$C_P(\\text{acetona, l}) = \\pu{127 J.K-1.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$T_\\text{eb}(\\text{acetona}) = \\pu{329 K}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\text{acetona}) = \\pu{29,1 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -6255,21 +6255,21 @@
                     "id_": 0,
                     "name": "$T_\\text{eb}(\\ce{Cl2}) = \\pu{239 K}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{Cl2}) = \\pu{20,42 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\rho(\\ce{Cl2, {l}}) = \\pu{1,56 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
@@ -6337,21 +6337,21 @@
                     "id_": 0,
                     "name": "$a(\\text{grafite, s}) = \\pu{16,68 J.K-1.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$b(\\text{grafite, s}) = \\pu{4,77 mJ.K-2.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$c(\\text{grafite, s}) = \\pu{-854 kJ.K.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -6543,14 +6543,14 @@
                     "id_": 0,
                     "name": "$\\Delta H_{\\text{fus}}(\\ce{H2O}) = \\pu{6 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta S_{\\text{fus}}(\\ce{H2O}) = \\pu{22 J.K-1.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -6581,7 +6581,7 @@
                     "id_": "Gf-H2O(g)",
                     "name": "Entalpia livre de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-229",
+                    "value": "-229,0",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -6633,21 +6633,21 @@
                     "id_": "S-H2(g)",
                     "name": "Entropia do  \\ce{H2} (g)",
                     "symbol": "S^{}_{}(\\ce{H2, {g}} )",
-                    "value": "131",
+                    "value": "131,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-HI(g)",
                     "name": "Entropia do  \\ce{HI} (g)",
                     "symbol": "S^{}_{}(\\ce{HI, {g}} )",
-                    "value": "207",
+                    "value": "207,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-I2(s)",
                     "name": "Entropia do  \\ce{I2} (s)",
                     "symbol": "S^{}_{}(\\ce{I2, {s}} )",
-                    "value": "116",
+                    "value": "116,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -6678,21 +6678,21 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-Fe2O3(s)",
                     "name": "Entalpia de formação do \\ce{Fe2O3} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{Fe2O3, {s}} )",
-                    "value": "-824",
+                    "value": "-824,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "S-CO2(g)",
                     "name": "Entropia do  \\ce{CO2} (g)",
                     "symbol": "S^{}_{}(\\ce{CO2, {g}} )",
-                    "value": "214",
+                    "value": "214,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -6744,28 +6744,28 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CaCO3(s)",
                     "name": "Entalpia de formação do \\ce{CaCO3} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaCO3, {s}} )",
-                    "value": "-1210",
+                    "value": "-1210,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CaO(s)",
                     "name": "Entalpia de formação do \\ce{CaO} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaO, {s}} )",
-                    "value": "-635",
+                    "value": "-635,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "S-CO2(g)",
                     "name": "Entropia do  \\ce{CO2} (g)",
                     "symbol": "S^{}_{}(\\ce{CO2, {g}} )",
-                    "value": "214",
+                    "value": "214,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -6833,7 +6833,7 @@
                     "id_": "Gf-H2O(l)",
                     "name": "Entalpia livre de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-237",
+                    "value": "-237,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -6864,14 +6864,14 @@
                     "id_": "Hc-glicose(s)",
                     "name": "Entalpia de combustão do \\ce{glicose} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{c} }(\\ce{glicose, {s}} )",
-                    "value": "-2810",
+                    "value": "-2810,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "S-CO2(g)",
                     "name": "Entropia do  \\ce{CO2} (g)",
                     "symbol": "S^{}_{}(\\ce{CO2, {g}} )",
-                    "value": "214",
+                    "value": "214,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -6885,14 +6885,14 @@
                     "id_": "S-O2(g)",
                     "name": "Entropia do  \\ce{O2} (g)",
                     "symbol": "S^{}_{}(\\ce{O2, {g}} )",
-                    "value": "205",
+                    "value": "205,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-glicose(s)",
                     "name": "Entropia do  \\ce{glicose} (s)",
                     "symbol": "S^{}_{}(\\ce{glicose, {s}} )",
-                    "value": "212",
+                    "value": "212,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -7011,14 +7011,14 @@
                     "id_": "Hf-H2O(g)",
                     "name": "Entalpia de formação do \\ce{H2O} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {g}} )",
-                    "value": "-242",
+                    "value": "-242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "S-H2O(g)",
                     "name": "Entropia do  \\ce{H2O} (g)",
                     "symbol": "S^{}_{}(\\ce{H2O, {g}} )",
-                    "value": "189",
+                    "value": "189,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -7032,14 +7032,14 @@
                     "id_": "S-H2(g)",
                     "name": "Entropia do  \\ce{H2} (g)",
                     "symbol": "S^{}_{}(\\ce{H2, {g}} )",
-                    "value": "131",
+                    "value": "131,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-O2(g)",
                     "name": "Entropia do  \\ce{O2} (g)",
                     "symbol": "S^{}_{}(\\ce{O2, {g}} )",
-                    "value": "205",
+                    "value": "205,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -7064,14 +7064,14 @@
                     "id_": "Gf-CO2(g)",
                     "name": "Entalpia livre de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Gf-H2O(l)",
                     "name": "Entalpia livre de formação do \\ce{H2O} (l)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{H2O, {l}} )",
-                    "value": "-237",
+                    "value": "-237,0",
                     "unit": "kJ.mol-1"
                   },
                   {
@@ -7085,14 +7085,14 @@
                     "id_": "Gf-glicose(s)",
                     "name": "Entalpia livre de formação do \\ce{glicose} (s)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{glicose, {s}} )",
-                    "value": "-910",
+                    "value": "-910,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Gf-ureia(s)",
                     "name": "Entalpia livre de formação do \\ce{ureia} (s)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{ureia, {s}} )",
-                    "value": "-197",
+                    "value": "-197,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -7123,21 +7123,21 @@
                     "id_": 0,
                     "name": "$\\rho(\\ce{C, {diamante}}) = \\pu{4,0 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\rho(\\ce{C, {grafite}}) = \\pu{2,5 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "Hf-C(diamante)",
                     "name": "Entalpia de formação do \\ce{C} (diamante)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{C, {diamante}} )",
-                    "value": "1,90",
+                    "value": "1,9",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -7168,14 +7168,14 @@
                     "id_": 0,
                     "name": "$\\rho(\\ce{Sn, {branco}}) = \\pu{7,31 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\rho(\\ce{Sn, {cinza}}) = \\pu{5,75 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7282,28 +7282,28 @@
                     "id_": "Hf-CO2(g)",
                     "name": "Entalpia de formação do \\ce{CO2} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO2, {g}} )",
-                    "value": "-394",
+                    "value": "-394,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CaCO3(s)",
                     "name": "Entalpia de formação do \\ce{CaCO3} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaCO3, {s}} )",
-                    "value": "-1210",
+                    "value": "-1210,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CaO(s)",
                     "name": "Entalpia de formação do \\ce{CaO} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaO, {s}} )",
-                    "value": "-635",
+                    "value": "-635,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "S-CO2(g)",
                     "name": "Entropia do  \\ce{CO2} (g)",
                     "symbol": "S^{}_{}(\\ce{CO2, {g}} )",
-                    "value": "214",
+                    "value": "214,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -7342,21 +7342,21 @@
                     "id_": 0,
                     "name": "$\\rho(\\ce{C, {diamante}}) = \\pu{4,0 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\rho(\\ce{C, {grafite}}) = \\pu{2,5 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "Gf-C(diamante)",
                     "name": "Entalpia livre de formação do \\ce{C} (diamante)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{C, {diamante}} )",
-                    "value": "2,90",
+                    "value": "2,9",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -7387,28 +7387,28 @@
                     "id_": 0,
                     "name": "$T_\\text{fus}(\\ce{Hg}) = \\pu{234,3 K}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{fus}(\\ce{Hg}) = \\pu{2,29 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\rho(\\ce{Hg, {l}}) = \\pu{13,6 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\rho(\\ce{Hg, {s}}) = \\pu{14,2 g.cm-3}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7575,14 +7575,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{330 K}}(\\ce{CCl4}) = \\pu{405 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{CCl4}) = \\pu{33 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7682,14 +7682,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{308 K}}(\\ce{C2H5OH}) = \\pu{13,3 kPa}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{C2H5OH}) = \\pu{43,5 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7720,14 +7720,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{500 K}}(\\ce{BCl3}) = \\pu{17 kPa}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{BCl3}) = \\pu{23,8 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7758,14 +7758,14 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{vap}(\\ce{CCl3COOH}) = \\pu{57,8 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta S_\\text{vap}(\\ce{CCl3COOH}) = \\pu{124 J.K-1.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7796,14 +7796,14 @@
                     "id_": "Gf-benzeno(g)",
                     "name": "Entalpia livre de formação do \\ce{benzeno} (g)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{benzeno, {g}} )",
-                    "value": "130",
+                    "value": "130,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Gf-benzeno(l)",
                     "name": "Entalpia livre de formação do \\ce{benzeno} (l)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{benzeno, {l}} )",
-                    "value": "124",
+                    "value": "124,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -7863,7 +7863,7 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{293 K}}(\\ce{H2O}) = \\pu{17,5 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7894,7 +7894,7 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7925,7 +7925,7 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -7979,14 +7979,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8017,14 +8017,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8055,14 +8055,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C5H12}) = \\pu{512 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H14}) = \\pu{151 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8093,14 +8093,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C5H12}) = \\pu{512 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H14}) = \\pu{151 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8131,14 +8131,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{360 K}}(\\text{1,2-dibromoeteno}) = \\pu{173 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{360 K}}(\\text{2,3-dibromopropeno}) = \\pu{127 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8169,14 +8169,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8208,14 +8208,14 @@
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C6H6}) = \\pu{94,6 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$P_\\text{vap}^{\\pu{298 K}}(\\ce{C7H8}) = \\pu{29,1 torr}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8370,7 +8370,7 @@
                     "id_": "kH-O2",
                     "name": "Constante de Henry do \\ce{O2} ",
                     "symbol": "k^{}_{\\mathrm{H} }(\\ce{O2} )",
-                    "value": "1,30",
+                    "value": "1,3",
                     "unit": "mmol.L-1.atm-1"
                   }
                 ]
@@ -8585,14 +8585,14 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{R}(\\ce{NaCl}) = \\pu{787 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{hid}(\\ce{NaCl}) = \\pu{784 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8623,21 +8623,21 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{hid}(\\ce{Ca^{2+}}) = \\pu{-1579 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{hid}(\\ce{Cl^-}) = \\pu{-336 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{sol}(\\ce{CaCl2}) = \\pu{-103 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -8668,14 +8668,14 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{R}(\\ce{MgBr2}) = \\pu{-2406 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{hid}(\\ce{MgBr2}) = \\pu{-2591,6 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
@@ -8713,21 +8713,21 @@
                     "id_": 0,
                     "name": "$\\Delta H_\\text{R}(\\ce{NH4NO3}) = \\pu{-628 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{hid}(\\ce{NH4^{+}}) = \\pu{-307 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{hid}(\\ce{NO3^{-}}) = \\pu{-314 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
@@ -8765,35 +8765,35 @@
                     "id_": 0,
                     "name": "$AE(\\ce{Cl}) = \\pu{-349 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$EI(\\ce{K}) = \\pu{419 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{R}(\\ce{KCl}) = \\pu{-690 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "HL-Cl2",
                     "name": "Entalpia da ligação \\ce{Cl2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2} )",
-                    "value": "242",
+                    "value": "242,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -8824,42 +8824,42 @@
                     "id_": 0,
                     "name": "$AE(\\ce{Cl}) = \\pu{-349 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$EI_1(\\ce{Ca}) = \\pu{590 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$EI_2(\\ce{Ca}) = \\pu{1146 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{sub}(\\ce{Ca}) = \\pu{190 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "HL-Cl2",
                     "name": "Entalpia da ligação \\ce{Cl2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{Cl2} )",
-                    "value": "242",
+                    "value": "242,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CaCl2(s)",
                     "name": "Entalpia de formação do \\ce{CaCl2} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CaCl2, {s}} )",
-                    "value": "-796",
+                    "value": "-796,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -8890,35 +8890,35 @@
                     "id_": 0,
                     "name": "$AE_1(\\ce{I}) = \\pu{-295 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$EI(\\ce{Li}) = \\pu{520 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{R}(\\ce{LiI}) = \\pu{-753 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{f}(\\ce{LiI}) = \\pu{-292 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "HL-I2",
                     "name": "Entalpia da ligação \\ce{I2} ",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{L} }(\\ce{I2} )",
-                    "value": "151",
+                    "value": "151,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -8949,42 +8949,42 @@
                     "id_": 0,
                     "name": "$AE_1(\\ce{S}) = \\pu{2,1 eV}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$EI(\\ce{K}) = \\pu{4,4 eV}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{R}(\\ce{K2S}) = \\pu{2052 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{sub}(\\ce{S}) = \\pu{277 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": "Hf-K2S(s)",
                     "name": "Entalpia de formação do \\ce{K2S} (s)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{K2S, {s}} )",
-                    "value": "-381",
+                    "value": "-381,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -9206,7 +9206,7 @@
                     "id_": "kb-H2O",
                     "name": "Constante ebulioscópica do \\ce{H2O} ",
                     "symbol": "k^{}_{\\mathrm{b} }(\\ce{H2O} )",
-                    "value": "0,510",
+                    "value": "0,51",
                     "unit": "K.kg.mol-1"
                   }
                 ]
@@ -9244,7 +9244,7 @@
                     "id_": "Pf-benzeno",
                     "name": "Temperatura de fusão do \\ce{benzeno} ",
                     "symbol": "T^{}_{\\mathrm{fus} }(\\ce{benzeno} )",
-                    "value": "5,50",
+                    "value": "5,5",
                     "unit": "\\degree C"
                   }
                 ]
@@ -9337,7 +9337,7 @@
                     "id_": "kb-H2O",
                     "name": "Constante ebulioscópica do \\ce{H2O} ",
                     "symbol": "k^{}_{\\mathrm{b} }(\\ce{H2O} )",
-                    "value": "0,510",
+                    "value": "0,51",
                     "unit": "K.kg.mol-1"
                   }
                 ]
@@ -9520,7 +9520,7 @@
                     "id_": "Pf-benzeno",
                     "name": "Temperatura de fusão do \\ce{benzeno} ",
                     "symbol": "T^{}_{\\mathrm{fus} }(\\ce{benzeno} )",
-                    "value": "5,50",
+                    "value": "5,5",
                     "unit": "\\degree C"
                   }
                 ]
@@ -9911,28 +9911,28 @@
                     "id_": 0,
                     "name": "$S^\\circ(\\ce{CO, {g}}) = \\pu{251 J.K-1mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$S^\\circ(\\ce{CO2, {g}}) = \\pu{296 J.K-1mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$S^\\circ(\\ce{Ni, {s}}) = \\pu{30 J.K-1mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$S^\\circ(\\ce{NiO, {s}}) = \\pu{38 J.K-1mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -9963,7 +9963,7 @@
                     "id_": "Gf-HI(g)",
                     "name": "Entalpia livre de formação do \\ce{HI} (g)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{HI, {g}} )",
-                    "value": "1,70",
+                    "value": "1,7",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -10008,14 +10008,14 @@
                     "id_": "S-N2O4(g)",
                     "name": "Entropia do  \\ce{N2O4} (g)",
                     "symbol": "S^{}_{}(\\ce{N2O4, {g}} )",
-                    "value": "304",
+                    "value": "304,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-NO2(g)",
                     "name": "Entropia do  \\ce{NO2} (g)",
                     "symbol": "S^{}_{}(\\ce{NO2, {g}} )",
-                    "value": "240",
+                    "value": "240,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -10046,14 +10046,14 @@
                     "id_": "Gf-SO2(g)",
                     "name": "Entalpia livre de formação do \\ce{SO2} (g)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{SO2, {g}} )",
-                    "value": "-300",
+                    "value": "-300,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Gf-SO3(g)",
                     "name": "Entalpia livre de formação do \\ce{SO3} (g)",
                     "symbol": "\\Delta G^{\\circ }_{\\mathrm{f} }(\\ce{SO3, {g}} )",
-                    "value": "-371",
+                    "value": "-371,0",
                     "unit": "kJ.mol-1"
                   }
                 ]
@@ -10854,7 +10854,7 @@
               "statement": "Um balão é preenchido com $\\pu{88 g}$ de $\\ce{SO3}$. O sistema é mantido\na $\\pu{600 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ SO3(g) <=> SO2(g) + 1/2 O2(g) }\n\\end{aligned}\n$$\n\nNo equilíbrio a densidade da fase gasosa é $\\pu{1,6 g.L-1}$ e a pressão\ntotal é $\\pu{1,8 atm}$.\n\n**Determine** a constante de equilíbrio dessa reação.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{0,63}$\n"
+                "$\\pu{0,86}$\n"
               ],
               "constants": {
                 "data": []
@@ -10934,35 +10934,35 @@
                     "id_": "Hf-CH3OH(g)",
                     "name": "Entalpia de formação do \\ce{CH3OH} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CH3OH, {g}} )",
-                    "value": "-201",
+                    "value": "-201,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "Hf-CO(g)",
                     "name": "Entalpia de formação do \\ce{CO} (g)",
                     "symbol": "\\Delta H^{\\circ }_{\\mathrm{f} }(\\ce{CO, {g}} )",
-                    "value": "-111",
+                    "value": "-111,0",
                     "unit": "kJ.mol-1"
                   },
                   {
                     "id_": "S-CH3OH(g)",
                     "name": "Entropia do  \\ce{CH3OH} (g)",
                     "symbol": "S^{}_{}(\\ce{CH3OH, {g}} )",
-                    "value": "240",
+                    "value": "240,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-CO(g)",
                     "name": "Entropia do  \\ce{CO} (g)",
                     "symbol": "S^{}_{}(\\ce{CO, {g}} )",
-                    "value": "198",
+                    "value": "198,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
                     "id_": "S-H2(g)",
                     "name": "Entropia do  \\ce{H2} (g)",
                     "symbol": "S^{}_{}(\\ce{H2, {g}} )",
-                    "value": "131",
+                    "value": "131,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -10989,14 +10989,14 @@
                     "id_": 0,
                     "name": "$S^\\circ(\\ce{Fe3C, {s}}) = \\pu{105 J.K-1.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta H_\\text{f}^\\circ(\\ce{Fe3C, {s}}) = \\pu{25,1 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
@@ -11010,7 +11010,7 @@
                     "id_": "S-CH4(g)",
                     "name": "Entropia do  \\ce{CH4} (g)",
                     "symbol": "S^{}_{}(\\ce{CH4, {g}} )",
-                    "value": "186",
+                    "value": "186,0",
                     "unit": "J.K-1.mol-1"
                   },
                   {
@@ -11024,7 +11024,7 @@
                     "id_": "S-H2(g)",
                     "name": "Entropia do  \\ce{H2} (g)",
                     "symbol": "S^{}_{}(\\ce{H2, {g}} )",
-                    "value": "131",
+                    "value": "131,0",
                     "unit": "J.K-1.mol-1"
                   }
                 ]
@@ -11067,21 +11067,21 @@
                     "id_": 0,
                     "name": "$\\Delta G_\\text{f}^\\circ(\\text{\\textit{cis}-but-2-eno}) = \\pu{66 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta G_\\text{f}^\\circ(\\text{\\textit{trans}-but-2-eno}) = \\pu{63 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\Delta G_\\text{f}^\\circ(\\text{metilpropeno}) = \\pu{58 kJ.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -11164,7 +11164,977 @@
           "title": "Soluções Muito Diluídas"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "problems": [
+            {
+              "id_": "2H01",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,02 mol.L-1}$ em ácido clorídrico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,7}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{0,6}$\n",
+                "$\\pu{1,7}$\n",
+                "$\\pu{2,6}$\n",
+                "$\\pu{3,5}$\n",
+                "$\\pu{4,4}$\n"
+              ]
+            },
+            {
+              "id_": "2H02",
+              "statement": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,04 mol.L-1}$ em hidróxido de potássio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{12,6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{9,3}$\n",
+                "$\\pu{10,4}$\n",
+                "$\\pu{11,5}$\n",
+                "$\\pu{12,6}$\n",
+                "$\\pu{13,7}$\n"
+              ]
+            },
+            {
+              "id_": "2H03",
+              "statement": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{3,2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-CH3COOH",
+                    "name": "Constante de acidez \\ce{CH3COOH} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{CH3COOH} )",
+                    "value": "1,8e-05",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,8}$\n",
+                "$\\pu{1,6}$\n",
+                "$\\pu{2,4}$\n",
+                "$\\pu{3,2}$\n",
+                "$\\pu{4,0}$\n"
+              ]
+            },
+            {
+              "id_": "2H04",
+              "statement": "O $\\mathrm{pH}$ de uma solução de $\\pu{0,01 mol.L-1}$ um ácido\ncarboxílico é 4.\n\nAssinale a alternativa que mais se aproxima do pKa desse ácido\ncarboxílico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{3}$\n",
+                "$\\pu{4}$\n",
+                "$\\pu{5}$\n",
+                "$\\pu{6}$\n",
+                "$\\pu{7}$\n"
+              ]
+            },
+            {
+              "id_": "2H05",
+              "statement": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em metilamina.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{11,8}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Kb-CH3NH2",
+                    "name": "Constante de basicidade \\ce{CH3NH2} ",
+                    "symbol": "K_\\mathrm{b}(\\ce{CH3NH2} )",
+                    "value": "0,00036",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{9,7}$\n",
+                "$\\pu{10,6}$\n",
+                "$\\pu{11,8}$\n",
+                "$\\pu{12,4}$\n",
+                "$\\pu{13,3}$\n"
+              ]
+            },
+            {
+              "id_": "2H06",
+              "statement": "A fração de nicotina protonada em uma solução $\\pu{0,01 mol.L-1}$ é\n$1\\%$.\n\n**Assinale** a alternativa que mais se aproxima da constante de\nionização do ácido conjugado da nicotina.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1e-8}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1e-10}$\n",
+                "$\\pu{1e-9}$\n",
+                "$\\pu{1e-8}$\n",
+                "$\\pu{1e-7}$\n",
+                "$\\pu{1e-6}$\n"
+              ]
+            },
+            {
+              "id_": "2H07",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em ácido tricloroacético.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-CCl3COOH",
+                    "name": "Constante de acidez \\ce{CCl3COOH} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{CCl3COOH} )",
+                    "value": "0,3",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{0,8}$\n",
+                "$\\pu{0,9}$\n",
+                "$\\pu{1,0}$\n",
+                "$\\pu{1,1}$\n",
+                "$\\pu{1,2}$\n"
+              ]
+            },
+            {
+              "id_": "2H08",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração de\nhidróxido de uma solução $\\pu{0,02 mol.L-1}$ em trietilamina.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,0 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Kb-(C2H5)3N",
+                    "name": "Constante de basicidade \\ce (C2H5)",
+                    "symbol": "K_\\mathrm{b}(\\ce{, {C2H5}} )",
+                    "value": "0,001",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{3,5 mmol.L-1}$\n",
+                "$\\pu{4,0 mmol.L-1}$\n",
+                "$\\pu{4,5 mmol.L-1}$\n",
+                "$\\pu{5,0 mmol.L-1}$\n",
+                "$\\pu{5,5 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2H09",
+              "statement": "Considere soluções aquosas dos sais:\n\n1.  $\\ce{Ba(NO2)2}$\n2.  $\\ce{CrCl3}$\n3.  $\\ce{NH4NO3}$\n4.  $\\ce{KNO3}$\n\n**Assinale** a alternativa que relaciona as soluções ácidas.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2H10",
+              "statement": "Considere soluções aquosas dos sais:\n\n**Assinale** a alternativa que relaciona as soluções ácidas.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{NaH2PO4}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\ce{CH3NH3Cl}$\n",
+                "$\\ce{K3PO4}$\n",
+                "$\\ce{FeCl3}$\n",
+                "$\\ce{NaH2PO4}$\n"
+              ]
+            },
+            {
+              "id_": "2H11",
+              "statement": "Considere soluções aquosas dos sais:\n\n1.  $\\ce{NH4Br}$\n2.  $\\ce{NaHCO3}$\n3.  $\\ce{KF}$\n4.  $\\ce{KBr}$\n\nAssinale a alternativa que relaciona as soluções básicas.\n",
+              "solution": "",
+              "answer": [
+                "**2** e **3**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "**2**",
+                "**3**",
+                "**2** e **3**",
+                "**1**, **2** e **3**",
+                "**2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2H12",
+              "statement": "Considere soluções aquosas dos sais:\n\n1.  $\\ce{Na2S}$\n2.  $\\ce{NaCH3CO2}$\n3.  $\\ce{NaHSO4}$\n4.  $\\ce{NaHPO4}$\n\nAssinale a alternativa que relaciona as soluções básicas.\n",
+              "solution": "",
+              "answer": [
+                "**1**, **3** e **4**"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "**1** e **3**",
+                "**1** e **4**",
+                "**3** e **4**",
+                "**1**, **3** e **4**",
+                "**1**, **2**, **3** e **4**"
+              ]
+            },
+            {
+              "id_": "2H13",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,2 mol.L-1}$ em nitrato de cobre (II).\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-Cu^2+",
+                    "name": "Constante de acidez \\ce{Cu^2+} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{Cu^2+} )",
+                    "value": "3,2e-08",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{2,3}$\n",
+                "$\\pu{3,2}$\n",
+                "$\\pu{4,1}$\n",
+                "$\\pu{5,2}$\n",
+                "$\\pu{6,3}$\n"
+              ]
+            },
+            {
+              "id_": "2H14",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração de\nhidrônio em uma solução $\\pu{0,07 mol.L-1}$ em cloreto de ferro (III).\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{14 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-Fe^3+",
+                    "name": "Constante de acidez \\ce{Fe^3+} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{Fe^3+} )",
+                    "value": "0,0035",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{12 mmol.L-1}$\n",
+                "$\\pu{14 mmol.L-1}$\n",
+                "$\\pu{16 mmol.L-1}$\n",
+                "$\\pu{18 mmol.L-1}$\n",
+                "$\\pu{20 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2H15",
+              "statement": "**Assinale** a alternativa que mais se aproxima de uma solução\n$\\pu{0,18 mol.L-1}$ em cloreto de amônio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Kb-NH3",
+                    "name": "Constante de basicidade \\ce{NH3} ",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3} )",
+                    "value": "1,8e-05",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{2}$\n",
+                "$\\pu{3}$\n",
+                "$\\pu{4}$\n",
+                "$\\pu{5}$\n",
+                "$\\pu{6}$\n"
+              ]
+            },
+            {
+              "id_": "2H16",
+              "statement": "**Assinale** a alternativa que mais se aproxima do grau de desprotonação\nde uma solução $\\pu{0,01 mol.L-1}$ em cloreto de anilínio.\n",
+              "solution": "",
+              "answer": [
+                "$0,02\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Kb-C6H5NH2",
+                    "name": "Constante de basicidade \\ce{C6H5NH2} ",
+                    "symbol": "K_\\mathrm{b}(\\ce{C6H5NH2} )",
+                    "value": "4,3e-10",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$0,01\\%$\n",
+                "$0,02\\%$\n",
+                "$0,03\\%$\n",
+                "$0,04\\%$\n",
+                "$0,05\\%$\n"
+              ]
+            },
+            {
+              "id_": "2H17",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,09 mol.L-1}$ em acetato de cálcio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{10}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-CH3COOH",
+                    "name": "Constante de acidez \\ce{CH3COOH} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{CH3COOH} )",
+                    "value": "1,8e-05",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{8}$\n",
+                "$\\pu{9}$\n",
+                "$\\pu{10}$\n",
+                "$\\pu{11}$\n",
+                "$\\pu{12}$\n"
+              ]
+            },
+            {
+              "id_": "2H18",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração de ácido\nfluorídrico em uma solução $\\pu{0,07 mol.L-1}$ em fluoreto de potássio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,4e-6 mol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-HF",
+                    "name": "Constante de acidez \\ce{HF} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{HF} )",
+                    "value": "0,00035",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1,4e-8 mol.L-1}$\n",
+                "$\\pu{1,4e-7 mol.L-1}$\n",
+                "$\\pu{1,4e-6 mol.L-1}$\n",
+                "$\\pu{1,4e-5 mol.L-1}$\n",
+                "$\\pu{1,4e-4 mol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2H19",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,5 mol.L-1}$ em cianeto de amônio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{9,2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-HCN",
+                    "name": "Constante de acidez \\ce{HCN} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{HCN} )",
+                    "value": "4,9e-10",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Kb-NH3",
+                    "name": "Constante de basicidade \\ce{NH3} ",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3} )",
+                    "value": "1,8e-05",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{2,3}$\n",
+                "$\\pu{5,0}$\n",
+                "$\\pu{7,0}$\n",
+                "$\\pu{9,2}$\n",
+                "$\\pu{10}$\n"
+              ]
+            },
+            {
+              "id_": "2H20",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em acetato de piridínio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5,0}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka-CH3COOH",
+                    "name": "Constante de acidez \\ce{CH3COOH} ",
+                    "symbol": "K_\\mathrm{a}(\\ce{CH3COOH} )",
+                    "value": "1,8e-05",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Kb-C5H5N",
+                    "name": "Constante de basicidade \\ce{C5H5N} ",
+                    "symbol": "K_\\mathrm{b}(\\ce{C5H5N} )",
+                    "value": "1,8e-09",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{2,3}$\n",
+                "$\\pu{5,0}$\n",
+                "$\\pu{7,0}$\n",
+                "$\\pu{9,2}$\n",
+                "$\\pu{10}$\n"
+              ]
+            },
+            {
+              "id_": "2H21",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,023 mol.L-1}$ em ácido carbônico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka1-H2CO3",
+                    "name": "Constante de acidez 1 \\ce{H2CO3} ",
+                    "symbol": "K_\\mathrm{a1}(\\ce{H2CO3} )",
+                    "value": "4,3e-07",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Ka2-H2CO3",
+                    "name": "Constante de acidez 2 \\ce{H2CO3} ",
+                    "symbol": "K_\\mathrm{a2}(\\ce{H2CO3} )",
+                    "value": "5,6e-11",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{1}$\n",
+                "$\\pu{2}$\n",
+                "$\\pu{3}$\n",
+                "$\\pu{4}$\n",
+                "$\\pu{5}$\n"
+              ]
+            },
+            {
+              "id_": "2H22",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração de íon\nhidrônio em uma solução $\\pu{0,2 mol.L-1}$ em ácido sulfídrico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,16 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka1-H2S",
+                    "name": "Constante de acidez 1 \\ce{H2S} ",
+                    "symbol": "K_\\mathrm{a1}(\\ce{H2S} )",
+                    "value": "1,3e-07",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Ka2-H2S",
+                    "name": "Constante de acidez 2 \\ce{H2S} ",
+                    "symbol": "K_\\mathrm{a2}(\\ce{H2S} )",
+                    "value": "7,1e-15",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{0,08 mmol.L-1}$\n",
+                "$\\pu{0,16 mmol.L-1}$\n",
+                "$\\pu{0,24 mmol.L-1}$\n",
+                "$\\pu{0,32 mmol.L-1}$\n",
+                "$\\pu{0,40 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2H23",
+              "statement": "Assinale a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,05 mol.L-1}$ em ácido sulfúrico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,23}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka2-H2SO4",
+                    "name": "Constante de acidez 2 \\ce{H2SO4} ",
+                    "symbol": "K_\\mathrm{a2}(\\ce{H2SO4} )",
+                    "value": "0,012",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1,00}$\n",
+                "$\\pu{1,12}$\n",
+                "$\\pu{1,23}$\n",
+                "$\\pu{1,30}$\n",
+                "$\\pu{1,45}$\n"
+              ]
+            },
+            {
+              "id_": "2H24",
+              "statement": "Como o ácido sulfúrico, o ácido selênico é forte na primeira\ndesprotonação e fraco na segunda. Uma solução $\\pu{0,01 mol.L-1}$ em\nácido selênico apresenta $\\mathrm{pH}$ igual a $\\pu{1,82}$.\n\n**Assinale** a alternativa que mais se aproxima da constante da segunda\nionização do ácido selênico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,2e-2}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{1,2e-5}$\n",
+                "$\\pu{1,2e-4}$\n",
+                "$\\pu{1,2e-3}$\n",
+                "$\\pu{1,2e-2}$\n",
+                "$\\pu{1,2e-1}$\n"
+              ]
+            },
+            {
+              "id_": "2H25",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em bicarbonato de sódio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{8,31}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "pKa1-H2CO3",
+                    "name": "Constante de acidez 1 \\ce{H2CO3} ",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2CO3} )",
+                    "value": "6,37",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "pKa2-H2CO3",
+                    "name": "Constante de acidez 2 \\ce{H2CO3} ",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2CO3} )",
+                    "value": "10,3",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{5,35}$\n",
+                "$\\pu{6,37}$\n",
+                "$\\pu{7,66}$\n",
+                "$\\pu{8,31}$\n",
+                "$\\pu{10,3}$\n"
+              ]
+            },
+            {
+              "id_": "2H26",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{0,2 mol.L-1}$ em dihidrogenofosfato de sódio,\n$\\ce{NaH2PO4}$.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,66}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "pKa1-H3PO4",
+                    "name": "Constante de acidez 1 \\ce{H3PO4} ",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H3PO4} )",
+                    "value": "2,12",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "pKa2-H3PO4",
+                    "name": "Constante de acidez 2 \\ce{H3PO4} ",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4} )",
+                    "value": "7,21",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "pKa3-H3PO4",
+                    "name": "Constante de acidez 3 \\ce{H3PO4} ",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4} )",
+                    "value": "12,7",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{2,12}$\n",
+                "$\\pu{3,52}$\n",
+                "$\\pu{4,66}$\n",
+                "$\\pu{6,87}$\n",
+                "$\\pu{7,21}$\n"
+              ]
+            },
+            {
+              "id_": "2H27",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{SO3^{2-}}$ em uma solução $\\pu{0,2 mol.L-1}$ em ácido sufuroso.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1,2e-7 mmol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka1-H2SO3",
+                    "name": "Constante de acidez 1 \\ce{H2SO3} ",
+                    "symbol": "K_\\mathrm{a1}(\\ce{H2SO3} )",
+                    "value": "0,015",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Ka2-H2SO3",
+                    "name": "Constante de acidez 2 \\ce{H2SO3} ",
+                    "symbol": "K_\\mathrm{a2}(\\ce{H2SO3} )",
+                    "value": "1,2e-07",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\pu{1,2e-7 mmol.L-1}$\n",
+                "$\\pu{1,2e-6 mmol.L-1}$\n",
+                "$\\pu{1,2e-5 mmol.L-1}$\n",
+                "$\\pu{1,2e-4 mmol.L-1}$\n",
+                "$\\pu{1,2e-3 mmol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "2H28",
+              "statement": "**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{PO4^{3-}}$ em uma solução $\\pu{0,1 mol.L-1}$ em ácido fosfórico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{5,4e-19}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": [
+                  {
+                    "id_": "Ka1-H3PO4",
+                    "name": "Constante de acidez 1 \\ce{H3PO4} ",
+                    "symbol": "K_\\mathrm{a1}(\\ce{H3PO4} )",
+                    "value": "0,0076",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Ka2-H3PO4",
+                    "name": "Constante de acidez 2 \\ce{H3PO4} ",
+                    "symbol": "K_\\mathrm{a2}(\\ce{H3PO4} )",
+                    "value": "6,2e-08",
+                    "unit": ""
+                  },
+                  {
+                    "id_": "Ka3-H3PO4",
+                    "name": "Constante de acidez 3 \\ce{H3PO4} ",
+                    "symbol": "K_\\mathrm{a3}(\\ce{H3PO4} )",
+                    "value": "2,1e-13",
+                    "unit": ""
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{5,4e-21}$\n",
+                "$\\pu{5,4e-19}$\n",
+                "$\\pu{5,4e-17}$\n",
+                "$\\pu{5,4e-15}$\n",
+                "$\\pu{5,4e-13}$\n"
+              ]
+            },
+            {
+              "id_": "2H29",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{8e-8 mol.L-1}$ em ácido clorídrico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{6,8}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{6,6}$\n",
+                "$\\pu{6,8}$\n",
+                "$\\pu{7,0}$\n",
+                "$\\pu{7,1}$\n",
+                "$\\pu{7,2}$\n"
+              ]
+            },
+            {
+              "id_": "2H30",
+              "statement": "**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ de uma\nsolução $\\pu{1,5e-7 mol.L-1}$ em hidróxido de sódio.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{7,6}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{6,8}$\n",
+                "$\\pu{7,0}$\n",
+                "$\\pu{7,2}$\n",
+                "$\\pu{7,4}$\n",
+                "$\\pu{7,6}$\n"
+              ]
+            }
+          ],
+          "id_": "2H1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
+            {
+              "id_": "2H31",
+              "statement": "Uma alíquota de $\\pu{25 mL}$ de uma solução $\\pu{0,018 mol.L-1}$ em\nhidróxido de potássio é deixada em um ambiente aquecido por dois dias.\nComo resultado do aquecimento, o volume da solução se reduz a\n$\\pu{18 mL}$.\n\n**Assinale** a alternativa que mais se aproxima do $\\mathrm{pH}$ da\nsolução após a evaporação.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{12,4}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 3,
+              "choices": [
+                "$\\pu{9,7}$\n",
+                "$\\pu{10,6}$\n",
+                "$\\pu{11,5}$\n",
+                "$\\pu{12,4}$\n",
+                "$\\pu{13,3}$\n"
+              ]
+            },
+            {
+              "id_": "2H32",
+              "statement": "A concentração de uma solução de ácido clorídrico foi diluída a $10\\%$\nde seu valor inicial por diluição.\n\nAssinale a alternativa que mais se aproxima da variação de $\\mathrm{pH}$\nda solução.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$\\pu{0}$\n",
+                "$\\pu{1}$\n",
+                "$\\pu{2}$\n",
+                "$\\pu{3}$\n",
+                "$\\pu{4}$\n"
+              ]
+            }
+          ],
+          "id_": "2H2",
+          "title": "Nível II"
+        }
+      ]
     },
     {
       "id_": "2I",
@@ -12370,21 +13340,21 @@
                     "id_": 0,
                     "name": "$T_\\text{corpo} = \\pu{37 \\degree C}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$V_\\text{pulmão} = \\pu{500 mL}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$f_\\text{respiratória} = \\pu{12 min-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -12593,14 +13563,14 @@
                     "id_": 0,
                     "name": "$a=\\pu{1,382 bar.L-2.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$b = \\pu{3,19e-2 L.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -12631,14 +13601,14 @@
                     "id_": 0,
                     "name": "$a_\\text{refrigerante} =\\pu{16,4 bar.L-2.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$b_\\text{refrigerante} = \\pu{8,4e-2 L.mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -12692,7 +13662,7 @@
                     "id_": 0,
                     "name": "$b(\\ce{He}) = \\pu{2,38e-2 L/mol}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
@@ -13656,14 +14626,14 @@
                     "id_": 0,
                     "name": "$\\lambda_{\\ce{\\mathbf{M}+}} = \\pu{60 S-1 cm2 mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   },
                   {
                     "id_": 0,
                     "name": "$\\lambda_{\\ce{\\mathbf{X}-}} = \\pu{40 S-1 cm2 mol-1}$",
                     "symbol": "",
-                    "value": 0.0,
+                    "value": "",
                     "unit": ""
                   }
                 ]
