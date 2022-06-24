@@ -1,13 +1,13 @@
 import latex
-from attr import frozen
+from dataclasses import dataclass
 
 
-@frozen
+@dataclass(frozen=True)
 class PhysicalQuantity:
     id_: str
     name: str
     symbol: str = ''
-    value: float = 0.0
+    value: str = ''  # value must be string to accept scientific notation
     unit: str = ''
 
     def __lt__(self, other):
@@ -23,7 +23,8 @@ class PhysicalQuantity:
 
 
 def main():
-    print(0)
+    pq = PhysicalQuantity('a', 'Constante a', 'a', '0', 'm')
+    print(pq.latex())
 
 
 if __name__ == "__main__":

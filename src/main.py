@@ -1,5 +1,5 @@
 #
-# DOME - Gabriel Braun, 2021
+# Gabriel Braun, 2021
 #
 
 from topic import load_arsenal
@@ -13,12 +13,12 @@ def main():
 
     copy_r(
         'database/arsenal.json',
-        '/home/braun/Documents/Developer/BraunChem/database/arsenal.json'
+        '/home/braun/Documents/Developer/braunchem-web/database/arsenal.json'
     )
 
     copytree(
         'database/images/',
-        '/home/braun/Documents/Developer/BraunChem/public/',
+        '/home/braun/Documents/Developer/braunchem-web/public/',
         dirs_exist_ok=True
     )
 
