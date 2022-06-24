@@ -17521,11 +17521,34 @@
         {
           "problems": [
             {
-              "id_": "3H01",
-              "statement": "Considere os compostos iônicos.\n\n1.  Fosfato de potássio, $\\ce{K3PO4}$.\n2.  Cloreto de chumbo (II), $\\ce{PbCl2}$.\n3.  Sulfeto de cádmio, $\\ce{CdS}$.\n4.  Sulfato de bário, $\\ce{BaSO4}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis em água.\n",
+              "id_": "3I01",
+              "statement": "Uma amostra de $\\pu{15 mL}$ de uma solução de hidróxido de bário foi\ntitulada com $\\pu{5 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ em ácido\nfosfórico.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de hidróxido de bário.\n",
               "solution": "",
               "answer": [
-                "**2**, **3** e **4**"
+                "$\\pu{0,05 mol.L-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 4,
+              "choices": [
+                "$\\pu{0,01 mol.L-1}$\n",
+                "$\\pu{0,02 mol.L-1}$\n",
+                "$\\pu{0,03 mol.L-1}$\n",
+                "$\\pu{0,04 mol.L-1}$\n",
+                "$\\pu{0,05 mol.L-1}$\n"
+              ]
+            },
+            {
+              "id_": "3I02",
+              "statement": "Uma amostra de $\\pu{10 mL}$ de uma solução de ácido sulfúrico foi\ntitulada com $\\pu{40 mL}$ de uma solução $\\pu{2 mol.L-1}$ em hidróxido\nde sódio.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de ácido sulfúrico.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4 mol.L-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -17536,19 +17559,19 @@
               "elements": [],
               "obj": 3,
               "choices": [
-                "**2** e **3**",
-                "**2** e **4**",
-                "**3** e **4**",
-                "**2**, **3** e **4**",
-                "**1**, **2**, **3** e **4**"
+                "$\\pu{1 mol.L-1}$\n",
+                "$\\pu{2 mol.L-1}$\n",
+                "$\\pu{3 mol.L-1}$\n",
+                "$\\pu{4 mol.L-1}$\n",
+                "$\\pu{5 mol.L-1}$\n"
               ]
             },
             {
-              "id_": "3H02",
-              "statement": "Considere os compostos iônicos.\n\n1.  Nitrato de cádmio, $\\ce{Cd(NO3)2}$.\n2.  Acetato de cobre (II), $\\ce{Cu(CH3CO2)2}$.\n3.  Hidróxido de cobalto (III), $\\ce{Co(OH)3}$.\n4.  Brometo de prata, $\\ce{AgBr}$.\n\nAssinale a alternativa que relaciona os compostos solúveis em água.\n",
+              "id_": "3I03",
+              "statement": "Uma amostra de $\\pu{50 mL}$ de um vinho de mesa branco foi titulada com\n$\\pu{20 mL}$ de uma solução de $\\pu{0,04 mol.L-1}$ em hidróxido de sódio\npara alcançar o ponto final com fenolftaleína. Considere que toda a\nacidez do vinho é devido ao ácido tartárico.\n\n**Assinale** a alternativa que mais se aproxima da massa de ácido\ntartárico em $\\pu{100 mL}$ de vinho.\n",
               "solution": "",
               "answer": [
-                "**3** e **4**"
+                "$\\pu{240 mg}$\n"
               ],
               "constants": {
                 "data": []
@@ -17559,224 +17582,18 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "**3**",
-                "**4**",
-                "**3** e **4**",
-                "**1**, **3** e **4**",
-                "**2**, **3** e **4**"
+                "$\\pu{120 mg}$\n",
+                "$\\pu{180 mg}$\n",
+                "$\\pu{240 mg}$\n",
+                "$\\pu{300 mg}$\n",
+                "$\\pu{360 mg}$\n"
               ]
             },
             {
-              "id_": "3H03",
-              "statement": "**Apresente** a reação iônica que ocorre em cada um dos procedimentos a\nseguir.\n\n-   $\\ce{FeCl2(aq)}$ é misturado com $\\ce{Na2S(aq)}$.\n-   $\\ce{Pb(NO3)2(aq)}$ é misturado com $\\ce{KI(aq)}$.\n-   $\\ce{Ca(NO3)2(aq)}$ é misturado com $\\ce{K2SO4(aq)}$.\n-   $\\ce{Na2CrO4(aq)}$, é misturado com $\\ce{Pb(NO3)2(aq)}$.\n-   $\\ce{Hg2(NO3)2(aq)}$ é misturado com $\\ce{K2SO4(aq)}$.\n",
+              "id_": "3I04",
+              "statement": "Uma amostra de $\\pu{700 mg}$ de tetraborato de sódio $\\ce{Na2B4O7}$\nimpuro foi titulada $\\pu{30 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em\nácido clorídrico, formando $\\ce{H3BO3}$.\n\n**Assinale** a alternativa que mais se aproxima da pureza da amostra de\ntetraborato de sódio.\n",
               "solution": "",
               "answer": [],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": -1,
-              "choices": []
-            },
-            {
-              "id_": "3H04",
-              "statement": "**Apresente** a reação iônica que ocorre em cada um dos procedimentos a\nseguir.\n\n-   $\\ce{K2SO4(aq)}$ é misturado com $\\ce{AgNO3(aq)}$.\n-   $\\ce{H3PO4(aq)}$ é misturado com $\\ce{SrBr2(aq)}$.\n-   $\\ce{Na2S(aq)}$ é misturado com $\\ce{NH4NO3(aq)}$.\n-   $\\ce{CdSO4(aq)}$, é misturado com $\\ce{(NH4)2CO3(aq)}$.\n-   $\\ce{H2SO4(aq)}$ é misturado com $\\ce{Hg2Cl2(aq)}$.\n",
-              "solution": "",
-              "answer": [],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": -1,
-              "choices": []
-            },
-            {
-              "id_": "3H05",
-              "statement": "**Apresente** a reação iônica que ocorre em cada um dos procedimentos a\nseguir.\n\n-   $\\ce{(NH4)2CrO4(aq)}$ é misturado com $\\ce{BaCl2(aq)}$.\n-   $\\ce{CuSO4(aq)}$ é misturado com $\\ce{Na2S(aq)}$.\n-   $\\ce{FeCl2(aq)}$ é misturado com $\\ce{(NH4)3PO4(aq)}$.\n-   Oxalato de potássio, $\\ce{K2C2O4(aq)}$, é misturado com\n    $\\ce{Ca(NO3)2(aq)}$.\n-   $\\ce{NiSO4(aq)}$ é misturado com $\\ce{Ba(NO3)2(aq)}$.\n",
-              "solution": "",
-              "answer": [],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": -1,
-              "choices": []
-            },
-            {
-              "id_": "3H06",
-              "statement": "**Apresente** a reação iônica que ocorre em cada um dos procedimentos a\nseguir.\n\n-   $\\ce{AgNO3(aq)}$ é misturado com $\\ce{Na3PO4(aq)}$.\n-   $\\ce{Hg2(NO3)2(aq)}$ é misturado com $\\ce{NH4I(aq)}$.\n-   $\\ce{BaCl2(aq)}$ é misturado com $\\ce{Na2SO4(aq)}$.\n-   $\\ce{K2S(aq)}$, é misturado com $\\ce{Bi(NO3)3(aq)}$.\n-   Acetato de bário, $\\ce{Ba(CH3CO2)2(aq)}$ é misturado com\n    $\\ce{LiCO3(aq)}$.\n",
-              "solution": "",
-              "answer": [],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": -1,
-              "choices": []
-            },
-            {
-              "id_": "3H07",
-              "statement": "Uma amostra de $\\pu{40 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em\n$\\ce{NaOH}$ foi adicionada a $\\pu{10 mL}$ de uma solução\n$\\pu{0,2 mol.L-1}$ em $\\ce{Cu(NO3)2}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de precipitado\nformado.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{100 mg}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\pu{50 mg}$\n",
-                "$\\pu{100 mg}$\n",
-                "$\\pu{150 mg}$\n",
-                "$\\pu{200 mg}$\n",
-                "$\\pu{250 mg}$\n"
-              ]
-            }
-          ],
-          "id_": "3I1",
-          "title": "Nível I"
-        },
-        {
-          "problems": [
-            {
-              "id_": "3H08",
-              "statement": "Uma amostra de $\\pu{2,5 g}$ de $\\ce{(NH4)3PO4}$ foi adicionada a\n$\\pu{50 mL}$ de uma solução $\\pu{0,125 mol.L-1}$ em $\\ce{CaCl2}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de precipitado\nformado.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{650 mg}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 2,
-              "choices": [
-                "$\\pu{450 mg}$\n",
-                "$\\pu{550 mg}$\n",
-                "$\\pu{650 mg}$\n",
-                "$\\pu{750 mg}$\n",
-                "$\\pu{850 mg}$\n"
-              ]
-            },
-            {
-              "id_": "3H09",
-              "statement": "Uma alíquota de $\\pu{10 mL}$ de uma solução de cloreto de sódio foi\ntratada com excesso de nitrato de prata, formando $\\pu{0,43 g}$ de um\nprecipitado.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de cloreto de sódio.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{0,3 mol.L-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 2,
-              "choices": [
-                "$\\pu{0,1 mol.L-1}$\n",
-                "$\\pu{0,2 mol.L-1}$\n",
-                "$\\pu{0,3 mol.L-1}$\n",
-                "$\\pu{0,4 mol.L-1}$\n",
-                "$\\pu{0,5 mol.L-1}$\n"
-              ]
-            },
-            {
-              "id_": "3H10",
-              "statement": "No seu doutorado, Marie Curie estimou a massa molar do rádio, elemento\nque ela descobriu. Pela análise de suas propriedades químicas, ela sabia\nque o rádio era da família do bário. Quando $\\pu{90 mg}$ de cloreto de\nrádio foi tratado com excesso de nitrato de prata são formados\n$\\pu{86 mg}$ de um precipitado.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do rádio.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{230 g.mol-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\pu{200 g.mol-1}$\n",
-                "$\\pu{230 g.mol-1}$\n",
-                "$\\pu{260 g.mol-1}$\n",
-                "$\\pu{290 g.mol-1}$\n",
-                "$\\pu{310 g.mol-1}$\n"
-              ]
-            },
-            {
-              "id_": "3H11",
-              "statement": "Uma alíquota de $\\pu{50 mL}$ de uma solução de nitrato de prata foi\ntitulada com $\\pu{10 mL}$ de uma solução $\\pu{1 mol.L-1}$ em cromato de\npotássio, formando um precipitado vermelho brilhante.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de nitrato de prata.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{0,4 mol.L-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 3,
-              "choices": [
-                "$\\pu{0,1 mol.L-1}$\n",
-                "$\\pu{0,2 mol.L-1}$\n",
-                "$\\pu{0,3 mol.L-1}$\n",
-                "$\\pu{0,4 mol.L-1}$\n",
-                "$\\pu{0,5 mol.L-1}$\n"
-              ]
-            },
-            {
-              "id_": "3H12",
-              "statement": "Uma amostra de $\\pu{15 g}$ do mineral eulitita, $\\ce{2Bi2O3.3SiO2}$, foi\ndissolvida em ácido até completar $\\pu{500 mL}$ de solução. O\n$\\ce{SiO2}$, pouco solúvel, foi removido por filtração. Uma alíquota de\n$\\pu{100 mL}$ dessa solução foi titulada com $\\pu{20 mL}$ de uma solução\n$\\pu{0,08 mol.L-1}$ em fosfato de sódio.\n\n**Assinale** a alternativa que mais se aproxima da pureza da eulitita.\n",
-              "solution": "",
-              "answer": [
-                "$75\\%$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 3,
-              "choices": [
-                "$30\\%$\n",
-                "$45\\%$\n",
-                "$60\\%$\n",
-                "$75\\%$\n",
-                "$90\\%$\n"
-              ]
-            },
-            {
-              "id_": "3H13",
-              "statement": "Uma alíquota de $\\pu{100 mL}$ de uma solução de sulfato de sódio foi\ntitulada com $\\pu{20 mL}$ de uma solução de cloreto de bário. Em outro\nexperimento, $\\pu{15 mL}$ da mesma solução de cloreto de bário foi\ntitulada com $\\pu{5 mL}$ de uma solução $\\pu{1 mol.L-1}$ em fosfato de\namônio.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de sulfato de sódio.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{0,1 mol.L-1}$\n"
-              ],
               "constants": {
                 "data": []
               },
@@ -17786,19 +17603,19 @@
               "elements": [],
               "obj": 0,
               "choices": [
-                "$\\pu{0,1 mol.L-1}$\n",
-                "$\\pu{0,2 mol.L-1}$\n",
-                "$\\pu{0,3 mol.L-1}$\n",
-                "$\\pu{0,4 mol.L-1}$\n",
-                "$\\pu{0,5 mol.L-1}$\n"
+                "$51\\%$\n",
+                "$61\\%$\n",
+                "$71\\%$\n",
+                "$81\\%$\n",
+                "$91\\%$\n"
               ]
             },
             {
-              "id_": "3H14",
-              "statement": "Uma amostra de $\\pu{1 g}$ de um pesticida contendo DDT, $\\ce{C14H9Cl5}$,\nfoi decomposta com sódio metálico em álcool e os íons cloreto liberados\nforam titulados com $\\pu{10 mL}$ nitrato de prata. Em outro experimento,\n$\\pu{30 mL}$ da mesma solução de nitrato de prata foram titulados com\n$\\pu{10 mL}$ de uma solução $\\pu{3 mol.L-1}$ em cloreto de sódio.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de DDT\nna amostra.\n",
+              "id_": "3I05",
+              "statement": "Uma amostra de $\\pu{6,5 g}$ de um ácido diprótico foi tiutulada com\n$\\pu{100 mL}$ de uma solução $\\pu{1 mol.L-1}$ em hidróxido de sódio.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do do\nácido.\n",
               "solution": "",
               "answer": [
-                "$70\\%$\n"
+                "$\\pu{130 g.mol-1}$\n"
               ],
               "constants": {
                 "data": []
@@ -17809,65 +17626,19 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "$50\\%$\n",
-                "$60\\%$\n",
-                "$70\\%$\n",
-                "$80\\%$\n",
-                "$90\\%$\n"
+                "$\\pu{110 g.mol-1}$\n",
+                "$\\pu{120 g.mol-1}$\n",
+                "$\\pu{130 g.mol-1}$\n",
+                "$\\pu{140 g.mol-1}$\n",
+                "$\\pu{150 g.mol-1}$\n"
               ]
             },
             {
-              "id_": "3H15",
-              "statement": "Uma amostra com $\\pu{1,5 g}$ de sulfato de sódio de pureza $94,6\\%$ foi\ndissolvida em água até completar $\\pu{1 L}$ de solução. Uma alíquota de\n$pu{100 mL}$ dessa solução foi titulada com $\\pu{45 mL}$ de uma solução\nde cloreto de bário. Em outro experimento, foram necessários $\\pu{9 mL}$\nda mesma solução de cloreto de bário para titular $\\pu{100 mL}$ de uma\nsolução de acetato de chumbo (II).\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de acetato de chumbo (II).\n",
+              "id_": "3I06",
+              "statement": "Uma amostra de $\\pu{0,192 g}$ de ácido cítrico, $\\ce{C6H8O7}$, foi\ndissolvida em $\\pu{25 mL}$ de água destilada. A solução foi tiutulada\ncom $\\pu{30 mL}$ de uma solução $\\pu{1 mol.L-1}$ em hidróxido de sódio.\n\n**Assinale** a alternativa com o número de hidrogênios ionizáveis no\nácido cítrico.\n",
               "solution": "",
               "answer": [
-                "$\\pu{0,2 mol.L-1}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\pu{0,1 mol.L-1}$\n",
-                "$\\pu{0,2 mol.L-1}$\n",
-                "$\\pu{0,3 mol.L-1}$\n",
-                "$\\pu{0,4 mol.L-1}$\n",
-                "$\\pu{0,5 mol.L-1}$\n"
-              ]
-            },
-            {
-              "id_": "3H16",
-              "statement": "Uma amostra de $\\pu{100 mL}$ de água salobra contendo ácido sulfídrico\nfoi alcalinizada com amoníaco e tratada com $\\pu{30 mL}$ de uma solução\n$\\pu{0,02 mol.L-1}$ em nitrato de prata. O excesso de nitrato de prata\nfoi retrotitulado com $\\pu{6 mL}$ de uma solução $\\pu{0,04 mol.L-1}$ de\ntiocianato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração ácido\nsulfídrico na água.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{6 ppm}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 3,
-              "choices": [
-                "$\\pu{3 ppm}$\n",
-                "$\\pu{4 ppm}$\n",
-                "$\\pu{5 ppm}$\n",
-                "$\\pu{6 ppm}$\n",
-                "$\\pu{7 ppm}$\n"
-              ]
-            },
-            {
-              "id_": "3H17",
-              "statement": "O fósforo em $\\pu{4 g}$ de um alimento vegetal foi convertido a fosfato\ne tratado com $\\pu{50 mL}$ de uma solução $\\pu{0,08 mol.L-1}$ em nitrato\nde prata. O excesso de nitrato de prata foi retrotitulado com\n$\\pu{5 mL}$ de tiocianato de potássio $\\pu{0,06 mol.L-1}$.\n\nAssinale a alternativa que mais se aproxima da fração mássica de fósforo\nno alimento vegetal.\n",
-              "solution": "",
-              "answer": [
-                "$3\\%$\n"
+                "3\n"
               ],
               "constants": {
                 "data": []
@@ -17878,20 +17649,18 @@
               "elements": [],
               "obj": 2,
               "choices": [
-                "$1\\%$\n",
-                "$2\\%$\n",
-                "$3\\%$\n",
-                "$4\\%$\n",
-                "$5\\%$\n"
+                "1\n",
+                "2\n",
+                "3\n",
+                "4\n",
+                "5\n"
               ]
             },
             {
-              "id_": "3H18",
-              "statement": "Uma amostra com $\\pu{17 g}$ de nitrato de prata foi dissolvida em\n$\\pu{500 mL}$ de água destilada. Uma alíquota de $\\pu{50 mL}$ dessa\nsolução foi titulada com $\\pu{20 mL}$ de uma solução de tiocianato de\npotássio. Uma amostra de $\\pu{2 g}$ de cloreto de bário dihidratado foi\ndissolvida em água destilada e tratada com $\\pu{100 mL}$ da solução de\nnitrato de prata. A solução resultante foi titulada com $\\pu{25 mL}$ da\nsolução de tiocianato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da pureza da amostra de\ncloreto de bário.\n",
+              "id_": "3I07",
+              "statement": "Uma amostra de $\\pu{0,177 g}$ de um composto orgânico contento carbono,\nhidrogênio, nitrogênio e oxigênio sofreu combustão completa formando\n$\\pu{0,264 g}$ de $\\ce{CO2}$ e $\\pu{0,135 g}$ de água. Em outro\nexperimento, todo o nitrogênio em uma amostra de mesma massa foi\nintegralmente convertido em amônia. A solução de amônia resultante foi\ntitulada com $\\pu{3 mL}$ de uma solução $\\pu{0,5 mol.L-1}$ de ácido\nsulfúrico.\n\n**Determine** a fórmula mínima do composto orgânico.\n",
               "solution": "",
-              "answer": [
-                "$92\\%$\n"
-              ],
+              "answer": [],
               "constants": {
                 "data": []
               },
@@ -17899,45 +17668,230 @@
                 "data": []
               },
               "elements": [],
-              "obj": 3,
-              "choices": [
-                "$74\\%$\n",
-                "$80\\%$\n",
-                "$86\\%$\n",
-                "$92\\%$\n",
-                "$98\\%$\n"
-              ]
-            },
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "3I1",
+          "title": "Nível I"
+        },
+        {
+          "problems": [
             {
-              "id_": "3H19",
-              "statement": "O ácido cloroacético, utilizado como conservante em 100 mL de uma bebida\ncarbonatada, foi extraído em éter dietílico e então retornado à solução\naquosa pela extração com NaOH $\\pu{1 mol.L-1}$. O cloroacetato reage com\no hidróxido de sódio liberando íons cloreto. Esse extrato aquoso foi\nacidificado e tratado com $\\pu{50 mL}$ de nitrato de prata\n$\\pu{0,05 mol.L-1}$. Após a filtração do precipitado, a titulação do\nfiltrado requereu $\\pu{10 mL}$ de uma solução de tiocianato de amônio.\nEm outro experimento, uma alíquota de $\\pu{20 mL}$ da mesma solução de\ntiocianato de amônio foi titulada com $\\pu{50 mL}$ da solução de nitrato\nde prata $\\pu{0,05 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de ácido\nmonocloroacético na solução.\n",
-              "solution": "",
-              "answer": [
-                "$\\pu{118 mg}$\n"
-              ],
-              "constants": {
-                "data": []
-              },
-              "data": {
-                "data": []
-              },
-              "elements": [],
-              "obj": 1,
-              "choices": [
-                "$\\pu{100 mg}$\n",
-                "$\\pu{118 mg}$\n",
-                "$\\pu{136 mg}$\n",
-                "$\\pu{154 mg}$\n",
-                "$\\pu{172 mg}$\n"
-              ]
-            },
-            {
-              "id_": "3H20",
-              "statement": "Uma amostra de $\\pu{0,24 g}$ contendo apenas $\\ce{NaCl}$ e $\\ce{BaCl2}$\nfoi tratada com excesso de nitrato de prata, formando $\\pu{0,46 g}$ de\num precipitado.\n\n**Determine** a fração de $\\ce{NaCl}$ na amostra.\n",
+              "id_": "3I08",
+              "statement": "Uma amostra de $\\pu{50 g}$ de uma solução $4\\%$ em hidróxido de sódio é\nmisturada com $\\pu{50 g}$ de uma solução $1,82\\%$ em ácido clorídrico em\num calorímetro adiabático a $\\pu{20 \\degree C}$. A temperatura da\nsolução aumenta para $\\pu{23,4 \\degree C}$. Em seguida, $\\pu{70 g}$ de\numa solução $3,5\\%$ em ácido sulfúrico são adicionados à solução.\n\n**Determine** a temperatura da solução após a adição do ácido sulfúrico.\n",
               "solution": "\n",
               "answer": [
-                "$55\\%$\n"
+                "$\\pu{24 \\degree C}$\n"
               ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I09",
+              "statement": "Duas buretas, **A** e **B**, são drenadas simultaneamente em um béquer\ncontendo $\\pu{275 mL}$ de uma solução $\\pu{0,3 mol L−1}$ em ácido\nclorídrico. A bureta **A** contem hidróxido de sódio $\\pu{0,15 mol L−1}$\ne a bureta B contem hidróxido de potássio $\\pu{0,25 mol L−1}$. O ponto\nestequiométrico é atingido $\\pu{60,25 min}$ após o início da drenagem.\nNeste instante, o volume do béquer é de $\\pu{655 mL}$\n\n**Assinale** a alternativa que mais se aproxima da vazão volumétrica da\nbureta **B**.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{4,2 mL.min-1}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{1,2 mL.min-1}$\n",
+                "$\\pu{2,6 mL.min-1}$\n",
+                "$\\pu{4,2 mL.min-1}$\n",
+                "$\\pu{6,1 mL.min-1}$\n",
+                "$\\pu{8,4 mL.min-1}$\n"
+              ]
+            },
+            {
+              "id_": "3I10",
+              "statement": "Uma amostra com $\\pu{0,3 g}$ de carbonato de sódio foi tratada com\n$\\pu{40 mL}$ de ácido perclórico diluído. A solução foi fervida para\nremover o $\\ce{CO2}$. O excesso de $\\ce{HClO4}$ foi retrotitulado com\n$\\ce{10 mL}$ de uma solução de hidróxido de sódio. Em um experimento\nseparado, $\\pu{30 mL}$ do da solução de ácido perclórico foram titulados\ncom $\\pu{25 mL}$ da solução de hidróxido de sódio.\n\n-   **Determine** a concentração da solução de ácido perclórico.\n-   **Determine** a concentração da solução de hidróxido de sódio.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I11",
+              "statement": "Uma massa de $\\pu{0,14 g}$ de uma amostra de carbonato purificado foi\ndissolvida em $\\pu{50 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em ácido\nclorídrico e aquecida para eliminar o $\\ce{CO2}$. O excesso de ácido\nclorídrico foi retrotitulado com $\\pu{24 mL}$ de hidróxido de sódio\n$\\pu{0,1 mol.L-1}$.\n\n**Identifique** o carbonato.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\ce{CrCO3}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I12",
+              "statement": "Uma amostra de $\\pu{500 mL}$ de uma solução de ácido sulfúrico foi\ntratada com $\\pu{50 mL}$ de uma solução $\\pu{0,2 mol.L-1}$ em hidróxido\nde sódio. O excesso de $\\ce{NaOH}$ foi retrotitulado com $\\pu{13 mL}$ de\numa solução $\\pu{0,1 mol.L-1}$ de ácido clorídrico.\n\n**Determine** a concentração da solução de ácido sulfúrico.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I13",
+              "statement": "Uma amostra de $\\pu{700 mg}$ de farinha de trigo foi analisada pelo\nmétodo Kjeldahl. Neste método, a amostra é decomposta em meio de ácido\nsulfúrico concentrado a quente para converter o nitrogênio das proteínas\nem íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com $\\pu{H2SO4}$ foi destilada em $\\pu{25 mL}$ de uma\nsolução $\\pu{0,05 mol dm−3}$ em $\\ce{HCl}$. O excesso de $\\ce{HCl}$ foi\nretrotitulado com $\\ce{5 mL}$ de uma solução $\\ce{0,05 mol.L-1}$ em\nhidróxido de sódio. Considere que o nitrogênio representa $20\\%$ da\nmassa da proteína.\n\n**Determine** fração de proteína na farinha.\n",
+              "solution": "\n",
+              "answer": [
+                "$10\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I14",
+              "statement": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\ce{100 mL}$ de uma solução ${0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I15",
+              "statement": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n$\\ce{C10H20N2S4}$. O enxofre em $\\pu{600 mg}$ de uma amostra para\npreparação de Antabuse foi oxidado a $\\ce{SO2}$, o qual foi absorvido em\n$\\ce{H2O2}$ para gerar $\\ce{H2SO4}$. O ácido foi titulado com\n$\\pu{20 mL}$ de hidróxido de sódio $\\pu{0,04 mol L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica do\nprincípio ativo na preparação.\n",
+              "solution": "",
+              "answer": [
+                "$10\\%$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 1,
+              "choices": [
+                "$5\\%$\n",
+                "$10\\%$\n",
+                "$15\\%$\n",
+                "$20\\%$\n",
+                "$25\\%$\n"
+              ]
+            },
+            {
+              "id_": "3I16",
+              "statement": "Foi borbulhado ar em CNTP a $\\pu{30,0 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol L-1}$ em hidróxido de sódio\n\n-   **Determine** a concentração de $\\ce{SO2}$ no ar em partes por\n    milhão.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I17",
+              "statement": "Uma amostra de $\\pu{0,8 g}$ de dimetilftalato foi colocada em refluxo\ncomn $\\pu{50 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em hidróxido de\nsódio, hidrolisando os grupos éster. O excesso de hidróxido de sódio foi\nretrotilulado com $\\pu{30 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em\nácido clorídrico.\n\n**Determine** a pureza da amostra de dimetilftalato.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I18",
+              "statement": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. A dissolução completa de $\\pu{2 g}$ dessa mistura requer\n$\\pu{60 mL}$ de uma solução aquosa $\\pu{0,5 mol.L-1}$ de ácido\nclorídrico.\n\n**Assinale** a alternativa que mais se aproxima da massa de carbonato de\nsódio na amostra.\n",
+              "solution": "",
+              "answer": [
+                "$\\pu{0,9 g}$\n"
+              ],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\pu{0,4 g}$\n",
+                "$\\pu{0,7 g}$\n",
+                "$\\pu{0,9 g}$\n",
+                "$\\pu{1,1 g}$\n",
+                "$\\pu{1,3 g}$\n"
+              ]
+            },
+            {
+              "id_": "3I19",
+              "statement": "Uma amostra com $\\pu{1,22 g}$ de hidróxido de potássio comercial\ncontaminado com $\\ce{K2CO3}$ foi dissolvida em água e a solução\nresultante foi diluída a $\\pu{500 mL}$. Uma alíquota de $\\pu{50 mL}$\ndessa solução foi tratada com $\\pu{40 mL}$ de uma solução\n$\\ce{0,05 mol.L-1}$ em ácido clorídrico e aquecida para remover o\n$\\ce{CO2}$. O excesso de ácido foi retrotitulado com $\\ce{5 mL}$ de uma\nsolução $\\pu{0,05 mol.L-1}$ em hidróxido de sódio até o ponto final, com\no indicador fenolftaleína. Em outro experimento, um excesso de cloreto\nde bário foi adicionado em outra alíquota de $\\pu{50 mL}$ da solução,\nformando um precipitado. A solução resultante foi então titulada com\n$\\pu{30 mL}$ de ácido até o ponto final, com o indicador fenolftaleína.\n\n-   **Determine** a fração de hidróxido de potássio na amostra.\n-   **Determine** a fração de carbonato de potássio na amostra.\n",
+              "solution": "",
+              "answer": [],
+              "constants": {
+                "data": []
+              },
+              "data": {
+                "data": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "3I20",
+              "statement": "Uma amostra de $\\pu{3 L}$ de ar em CNTP de um ambiente urbano foi\nborbulhada em $\\pu{50 mL}$ uma solução $\\pu{0,0116 mol.L-1}$ em\nhidróxido de bário, formando um precipitado. O excesso de base foi\nretrotitulado até o ponto final da fenolftaleína com $\\pu{24 mL}$ de\nácido clorídrico $\\pu{0,01 mol.L-1}$.\n\n-   **Determine** a concentração de $\\ce{CO2}$ no ar em partes por\n    milhão.\n",
+              "solution": "",
+              "answer": [],
               "constants": {
                 "data": []
               },
