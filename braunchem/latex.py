@@ -9,10 +9,10 @@ def key(args):
     return ','.join([f'{k}={{{v}}}' for k, v in args.items()])
 
 
-def cmd(name, args='', end=' '):
+def cmd(name, args='', end=''):
     # latex command
     if not args:
-        return f'\\{name}' + end
+        return f'\\{name} ' + end
 
     if isinstance(args, list):
         tex_args = ''.join(f'{{{arg}}}' for arg in args)
