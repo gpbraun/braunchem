@@ -4,15 +4,6 @@ from decimal import Decimal, Context
 
 
 @dataclass(frozen=True)
-class ChemFormula:
-    id_: str
-    name: str
-    charge: str
-    state: str
-    elements: list[str]
-
-
-@dataclass(frozen=True)
 class PhysicalQuantity:
     id_: str
     name: str
@@ -32,9 +23,10 @@ class PhysicalQuantity:
         return f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
 
 
-def parse_pq(data_type, data_id, value, prec=3):
+def parse_pq(data_type: str, data_id: str, value: str, prec=3):
     """Creates physical quantity
     """
+
     name = 'Teste'
     symbol = 'Teste'
 
@@ -47,8 +39,9 @@ def parse_pq(data_type, data_id, value, prec=3):
 
 
 def main():
-    pq = parse_pq('Hf', 'CO3-2(aq)', '1.0e-7')
+    pq = parse_pq('Hf', 'CO3-2!aq@298K', '1.0e-7')
 
+    print(pq)
     print(pq.latex())
 
 

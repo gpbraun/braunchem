@@ -53,10 +53,17 @@ EXTENSIONS = ''.join([
 
 def md2tex(content):
     # convert html string to tex using pandoc
-    return convert_text(
+    tex = convert_text(
         content, 'tex',
-        format=f'markdown_strict+tex_math_dollars+raw_tex{EXTENSIONS}',
-    ).replace('\\tightlist', '')
+        format=f'markdown_strict+tex_math_dollars+raw_tex{EXTENSIONS}'
+        )
+
+    tex = tex.replace('\\tightlist', '')
+    tex = tex.replace('\\toprule()', '\\toprule')
+    tex = tex.replace('\\midrule()', '\\midrule')
+    tex = tex.replace('\\bottomrule()', '\\bottomrule')
+
+    return tex
 
 
 def copy_r(loc, dest):
@@ -80,7 +87,7 @@ def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive',
     temp.mkdir(parents=True, exist_ok=True)
 
     # copy latex template files to temp folder
-    copy_all('src/latex', temp)
+    copy_all('braunchem/latex', temp)
 
     os.chdir(temp)
 
@@ -96,6 +103,7 @@ def tex2pdf(tex_contents, filename, tmp_path='temp', out_path='archive',
          f'{filename}.tex'],
         stdout=DEVNULL,
     )
+    print(f'Complilando o arquivo {filename}.tex')
 
     if not os.path.exists(f'{filename}.pdf'):
         exit(f"Falha na compilação do arquivo '{filename}.tex'!")

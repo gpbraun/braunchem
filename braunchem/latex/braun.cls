@@ -208,13 +208,15 @@
 
 \RequirePackage { float, booktabs, array }
 
+%% PANDOC compatibility
+
 \cs_set_eq:NN \endhead \relax
 \cs_set_eq:NN \tightlist \relax
 
 \NewDocumentEnvironment { longtable } { O{} m }
 	{
 		\begin{center}
-		\begin{tabular} [] {#2} 
+		\begin{tabular} [#1] {#2} 
 		
 	}
 	{
@@ -232,7 +234,7 @@
 \mathtoolsset { showonlyrefs }
 
 \cs_set_eq:NN \degree \textdegree
-\cs_set_eq:NN \hbar   \hslash
+\cs_set_eq:NN \hslash   \hslash
 
 %============================================================%
 %   SI UNITS
@@ -1762,23 +1764,24 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% PDF METADATA
+\RequirePackage { hyperref }
+\exp_args:Nx \hypersetup
+    {
+        pdftitle    = { [Gabriel Braun]~ Química },
+        pdfauthor   = Gabriel~ Braun,
+        pdfsubject  = Engenharia,
+        pdfkeywords = {Ciência,~ Engenharia},
+        pdfproducer = {Gabriel~ Braun},
+        pdfcreator  = {Gabriel~ Braun},
+        hidelinks,
+        breaklinks  = true,
+        urlcolor    = color-1,
+    }
+
+% KOMA SCRIPT
 \AtBeginDocument
     {
-        % PDF METADATA
-		\RequirePackage { hyperref }
-        \exp_args:Nx \hypersetup
-            {
-                pdftitle    = \text_purify:n { [\PrintAuthor]~\PrintTitle },
-                pdfauthor   = \text_purify:n { \PrintAuthor   },
-                pdfsubject  = \text_purify:n { \PrintSubtitle },
-                pdfkeywords = Science,
-                pdfproducer = Gabriel~Braun,
-                pdfcreator  = Gabriel~Braun,
-				hidelinks,
-				breaklinks  = true,
-				urlcolor    = color-1,
-            }
-        % KOMA SCRIPT
         \recalctypearea
     }
 

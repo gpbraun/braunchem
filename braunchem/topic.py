@@ -275,6 +275,7 @@ def load_arsenal(path):
     if not os.path.exists(path):
         exit(f"O diretório '{path}' não existe!")
 
+    print('Carregando diretórios...')
     problem_files, topic_files = get_file_paths(path)
 
     print('Carregando base de dados com problemas...')
