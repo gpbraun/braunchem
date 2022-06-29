@@ -1,6 +1,9 @@
-#
-# DOME - Gabriel Braun, 2021
-#
+"""
+Funções em LaTeX, Gabriel Braun, 2022
+
+Todo:
+    * Implementar a classe LaTeXDoc
+"""
 
 import re
 
