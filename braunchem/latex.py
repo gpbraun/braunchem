@@ -5,6 +5,7 @@ Todo:
     * Implementar a classe LaTeXDoc
 """
 
+from dataclasses import dataclass
 import re
 
 
@@ -83,6 +84,11 @@ PU_CMD = re.compile(
 UNIT_EXP = re.compile(r'[\+\-]?\d+')
 
 
+def ce(arg):
+    # mhchem
+    return cmd('ce', arg)
+
+
 def qty(num, unit):
     # siunitx
     if not unit:  # number only
@@ -100,3 +106,30 @@ def qty(num, unit):
 def pu2qty(content):
     # converts all \pu commands to \unit, \num or \qty
     return re.sub(PU_CMD, lambda x: qty(x.group(1), x.group(2)), content)
+
+
+@dataclass(slots=True)
+class List:
+    """Lista
+    """
+    env: str
+    items: list[str]
+
+    def __iter__(self):
+        return iter(self.items)
+
+    def display(self):
+        if not self.items:
+            return
+
+        x = '\n'.join(map(lambda x: f'\t\\item {x}', self.items))
+        return env(self.env, x)
+
+
+def main():
+    la = List('itemize', ['a', 'b', 'c'])
+    print(la.display())
+
+
+if __name__ == "__main__":
+    main()

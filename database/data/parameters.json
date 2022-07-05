@@ -1,0 +1,42 @@
+{
+    "Hf": {
+        "__classname__": "Parameter",
+        "id_": "Hf",
+        "name": "entalpia de formação",
+        "symbol": "\\Delta H_\\mathrm{f}^{\\circ}",
+        "unit": "kJ.mol-1",
+        "prec": 3
+    },
+    "Gf": {
+        "__classname__": "Parameter",
+        "id_": "Gf",
+        "name": "energia livre de formação",
+        "symbol": "\\Delta G_\\mathrm{f}^{\\circ}",
+        "unit": "kJ.mol-1",
+        "prec": 3
+    },
+    "S": {
+        "__classname__": "Parameter",
+        "id_": "S",
+        "name": "entropia",
+        "symbol": "\\Delta S^{\\circ}",
+        "unit": "J.K-1.mol-1",
+        "prec": 3
+    },
+    "CP": {
+        "__classname__": "Parameter",
+        "id_": "CP",
+        "name": "capacidade calorífica a pressão constante",
+        "symbol": "C_P",
+        "unit": "J.K-1.mol-1",
+        "prec": 3
+    },
+    "HL": {
+        "__classname__": "Parameter",
+        "id_": "HL",
+        "name": "entalpia de ligação",
+        "symbol": "\\Delta H_\\mathrm{L}",
+        "unit": "kJ.mol-1",
+        "prec": 3
+    }
+}

@@ -2,16 +2,14 @@
 
 Esse módulo implementa uma API para propriedades termodinâmicas.
 """
-
 import latex
-from dataclasses import dataclass
-from decimal import Decimal, Context
-
 import csv
 import json
+from dataclasses import dataclass, asdict
+from decimal import Decimal, Context
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True, slots=True)
 class Parameter:
     """Parâmetro termodinâmico.
 
@@ -29,112 +27,32 @@ class Parameter:
     prec: int = 3
 
     def __repr__(self):
-        return f"Parameter('{self.id_}')"
+        return f'Parameter({self.id_})'
 
-    def latex(self, formula: str, state: str = ""):
-        """Retorna o dado termodinâmico como uma equação em LaTeX.
-
-        Atributos:
-            formula (int): Fórmula molecular da substância.
-            state (str, optional): Estado físico.
-
-        Retorna:
-            str: Equação em LaTeX.
+    def create_qty(self, substance, value: str):
+        """Fabrica `Quantity` a partir do `Parameter`, `Substance` e valor.
 
         Exemplo:
-            >>> dt = Parameter('H', 'entalpia', '\\Delta H', 'kJ')
-            >>> dt.latex('H2O', 's')
-            '\\Delta H(\\ce{H2O, {l}})'
+            >>> p = Parameter('H', 'entalpia', 'H', 'J')
+            >>> s = Substance('C', 'carbono', 'C')
+            >>> p.create_qty(s, '100')
+            Quantity(H(C))
         """
-        chemformula = f'{formula}, {{{state}}}' if state else formula
+        return Quantity(
+            id_=f'{self.id_}({substance.id_})',
+            name=preposition_join(self.name, substance.name),
+            symbol=f'{self.symbol}({substance.symbol})',
+            value=Context(prec=self.prec).create_decimal(value),
+            unit=self.unit,
+            prec=self.prec
+        )
 
-        return self.symbol + f'({latex.cmd("ce", chemformula)})'
-
-
-def ParameterDecoder(obj):
-    """Decoder para converter um `json` em um `dict` de `Parameter`."""
-    if '__type__' in obj and obj.pop('__type__') == 'Parameter':
-        return Parameter(**obj)
-    return obj
-
-
-with open('database/data/datatypes.json', 'r') as json_file:
-    PARAMETERS = json.load(json_file, object_hook=ParameterDecoder)
-    """dict: `Parameters` para cada tipo de dado termodinâmico."""
-
-
-@dataclass(frozen=True)
-class Substance:
-    """Substância.
-
-    Atributos:
-        id_ (str): Identificador para acessar a substância.
-        name (str): Nome.
-        formula (str, optional): Fórmula molecular.
-        state (str, optional): Estado físico.
-    """
-    id_: str
-    name: str
-    formula: str
-    state: str
-
-    def __repr__(self):
-        return f"Substance('{self.id_}')"
-
-
-@dataclass(frozen=True)
-class Quantity:
-    """Dado termodinâmico.
-
-    Atributos:
-        id_ (str): Identificador único para acessar o dado termodinâmico.
-        name (str): Nome.
-        symbol (str, optional): Símbolo.
-        value (Decimal, optional): Valor.
-        unit (str, optional): Unidade.
-            Exemplos: `kJ`, `mm2`, `J.s`, `kJ.mol-1`.
-    """
-    id_: str
-    name: str
-    symbol: str = ''
-    value: Decimal = 0.0
-    unit: str = ''
-
-    def __repr__(self):
-        return f"Quantity('{self.id_}')"
-
-    def __float__(self):
-        return float(self.value)
-
-    def __lt__(self, other):
-        """Comparação em ordem alfabética."""
-        return self.name < other.name
-
-    def equation(self):
-        """Retorna o dado termodinâmico como uma equação em LaTeX.
-
-        Exemplo:
-            >>> pq = Quantity('1', 'Exemplo', 'e', Decimal(10), 'm')
-            >>> pq.latex()
-            'e = \\qty{10}{m}'
-        """
-        if not self.value:
-            return self.name
-
-        return f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
-
-    def display(self):
-        """Retorna o nome do dado termodinâmico, seguido da equação em LaTeX.
-
-        Exemplo:
-            >>> q = Quantity('1', 'Exemplo', 'e', Decimal(10), 'm')
-            >>> q.latex()
-            'Exemplo, e = \\qty{10}{m}'
-        """
-        if not self.value:
-            return self.name
-
-        return f'${self.symbol} = {latex.qty(self.value, self.unit)}$'
+    @staticmethod
+    def decoder(obj):
+        clsname = obj.pop('__classname__', None)
+        if clsname == 'Parameter':
+            return Parameter(**obj)
+        return obj
 
 
 def preposition_join(parameter_name: str, substance_name: str):
@@ -143,7 +61,7 @@ def preposition_join(parameter_name: str, substance_name: str):
     Olha o último caratere da primeira palavra no nome e
     retorna o nome com a preposição do gênero correto.
 
-    Atributos:
+    Args:
         parameter_name (str): Nome do parâmetro termodinâmico.
         substance_name (str): Nome da substância.
 
@@ -164,44 +82,253 @@ def preposition_join(parameter_name: str, substance_name: str):
     return f'{parameter_name} do {substance_name}'
 
 
-def parse_pq(parameter: Parameter, substance: Substance, value: str):
-    """Cria um `Quantity` a partir de um `Parameter` e um `Substance`.
+@dataclass(frozen=True, slots=True)
+class Substance:
+    """Substância.
 
-    Exemplo:
-        >>> p = Parameter('H', 'entalpia', 'H', 'J')
-        >>> s = Substance('C', 'carbono', 'C')
-        >>> parse_pq(p, s, Decimal(100))
-        Quantity('H-C', 'entalpia do carbono', 'H(\\ce{C})', Decimal(100), 'J')
+    Atributos:
+        id_ (str): Identificador para acessar a substância.
+        name (str): Nome.
+        formula (str, optional): Fórmula molecular.
+        state (str, optional): Estado físico.
     """
+    id_: str
+    name: str
+    formula: str
+    state: str = None
 
-    return Quantity(
-        id_=f'{parameter.id_}-{substance.id_}',
-        name=preposition_join(parameter.name, substance.name),
-        symbol=parameter.latex(substance.formula, substance.state),
-        value=Context(prec=parameter.prec).create_decimal(value),
-        unit=parameter.unit
-    )
+    def __repr__(self):
+        return f'Substance({self.id_})'
+
+    @property
+    def symbol(self):
+        """Retorna símbolo LaTeX da substância.
+
+        Exemplo:
+            >>> s = Substance('1', 'água', 'H2O', state='l')
+            >>> s.symbol
+            '\\ce{H2O,\\,\\text{l}}'
+            >>> t = Substance('2', 'carbono', 'C')
+            >>> t.symbol
+            '\\ce{C}'
+        """
+        if not self.state:
+            return latex.ce(self.formula)
+
+        return latex.ce(f'{self.formula},\\,\\text{{{self.state}}}')
 
 
-@dataclass(frozen=True)
-class DataTable:
-    entries: dict
+@dataclass(frozen=True, slots=True)
+class Quantity:
+    """Dado termodinâmico.
+
+    Atributos:
+        id_ (str): Identificador único para acessar o dado termodinâmico.
+        name (str): Nome.
+        symbol (str, optional): Símbolo.
+        value (Decimal, optional): Valor.
+        unit (str, optional): Unidade.
+            Exemplos: `kJ`, `mm2`, `J.s`, `kJ.mol-1`.
+    """
+    id_: str
+    name: str
+    symbol: str = ''
+    value: Decimal = None
+    unit: str = ''
+    prec: int = 3
+
+    def __repr__(self):
+        return f'Quantity({self.id_})'
+
+    def __float__(self):
+        return float(self.value)
+
+    def __lt__(self, other):
+        """Comparação em ordem alfabética."""
+        return self.name < other.name
+
+    def to_sci_string(self):
+        """Retorna o valor em notação científica."""
+        return to_sci_string(self.value)
+
+    def to_eng_string(self):
+        """Retorna o valor em notação de engenharia."""
+        return self.value.to_eng_string()
+
+    @property
+    def equation(self):
+        """Retorna o dado termodinâmico como uma equação em LaTeX.
+
+        Exemplo:
+            >>> q = Quantity('1', 'Exemplo', 'e', Decimal(10), 'm')
+            >>> q.equation
+            'e = \\qty{10}{m}'
+        """
+        if self.value is None:
+            return self.name
+
+        value = self.to_sci_string()
+        return f'${self.symbol} = {latex.qty(value, self.unit)}$'
+
+    @property
+    def display(self):
+        """Retorna o nome do dado termodinâmico, seguido da equação em LaTeX.
+
+        Exemplo:
+            >>> q = Quantity('1', 'Exemplo', 'e', Decimal('10'), 'm')
+            >>> q.display
+            'Exemplo, e = \\qty{10}{m}'
+        """
+        if self.value is None:
+            return self.name
+
+        return ', '.join([self.name, self.equation])
+
+
+def to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
+    """Retorna o valor em notação científica.
+
+    Args:
+        lower_bound (float): Limite inferior para notação científica.
+        upper_bound (float): Limite superior para notação científica.
+    """
+    if not value:
+        return '0'
+
+    if abs(value) < lower_bound or abs(value) > upper_bound:
+        return f'{value:e}'.replace('+', '')
+
+    return f'{value:f}'
+
+
+def csv2quantities(file, parameters):
+    """Gerador para os dados termodinâmicos contidos em um `csv`.
+
+    Gera:
+        Quantity: o próximo dado termodinâmico no `csv`.
+    """
+    with open(file) as csvfile:
+        reader = csv.DictReader(csvfile)
+
+        for row in reader:
+            substance_attrs = {attr: row.pop(attr, None)
+                               for attr in ['id_', 'name', 'formula', 'state']}
+            substance = Substance(**substance_attrs)
+
+            for parameter_id, value in row.items():
+                if not value:
+                    continue
+                parameter = parameters[parameter_id]
+                yield parameter.create_qty(substance, value)
+
+
+@dataclass(slots=True)
+class Table:
+    """Container para `Quantity`.
+
+    Atributos:
+        quantities (list): Lista de dados termodinâmicos.
+    """
+    quantities: list[Quantity]
+
+    def __repr__(self):
+        qty_ids = ', '.join(qty.id_ for qty in self.quantities)
+        return f'Table({qty_ids})'
+
+    def __iter__(self):
+        return iter(self.quantities)
+
+    def append(self, qty: Quantity):
+        self.quantities.append(qty)
+
+    def filter(self, qty_ids: list):
+        """Cria um subconjunto da lista de dados termodinâmicos.
+
+        Retorna:
+            Table: Subconjunto de dados com os `id_` selecionados.
+        """
+        filtered = [qty for qty in self.quantities if qty.id_ in qty_ids]
+        return Table(filtered)
+
+    def equation_list(self):
+        return latex.List('itemize', map(lambda x: x.equation, self)).display()
+
+    def display_list(self):
+        return latex.List('itemize', map(lambda x: x.display, self)).display()
+
+    def to_json(self, file):
+        with open(file, 'w') as json_file:
+            json.dump(self, json_file, cls=QuantityEncoder,
+                      indent=4, ensure_ascii=False)
+
+    def append_csv(self, file: str, parameters: dict):
+        """Adiciona os dados em um `csv`.
+
+        Olha o último caratere da primeira palavra no nome e
+        retorna o nome com a preposição do gênero correto.
+
+        Args:
+            file (str): Arquivo `csv`
+            parameters (dict): `dict` com os parâmetros termodinâmicos.
+        """
+        for qty in csv2quantities(file, parameters):
+            self.append(qty)
+
+    @classmethod
+    def from_csv(cls, file, parameters):
+        return cls(list(csv2quantities(file, parameters)))
+
+    @classmethod
+    def from_json(cls, file):
+        with open(file, 'r') as json_file:
+            quantities = json.load(json_file, object_hook=Table.decoder)
+            return cls(quantities)
+
+    @staticmethod
+    def decoder(obj):
+        clsname = obj.pop('__classname__', None)
+        if clsname == 'Quantity':
+            value = obj.pop('value')
+            prec = obj['prec']
+            return Quantity(**obj, value=Context(prec).create_decimal(value))
+        return obj
+
+
+class QuantityEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return to_sci_string(obj)
+
+        if isinstance(obj, Table):
+            return obj.quantities
+
+        if isinstance(obj, Quantity):
+            d = {'__classname__': type(obj).__name__}
+            d.update(asdict(obj))
+            return d
+
+        return super(QuantityEncoder, self).default(obj)
+
+
+DATA = Table.from_json('database/data/data.json')
+
+
+def get_data(qty_id):
+    return DATA.filter([qty_id]).quantities[0]
 
 
 def main():
+    dt = Table.from_json('database/data/tables/constants.json')
 
-    with open('database/data/tables/inorganic.csv') as csvfile:
-        reader = csv.DictReader(csvfile)
-        x = [row for row in reader][100]
+    with open('database/data/parameters.json', 'r') as json_file:
+        parameters = json.load(json_file, object_hook=Parameter.decoder)
 
-        parameter = PARAMETERS['Hf']
+    for table in ['inorganic', 'bonds']:
+        dt.append_csv(f'database/data/tables/{table}.csv', parameters)
 
-        substance = Substance(x['id_'], x['name'], x['formula'], x['state'])
+    dt.to_json('database/data/data.json')
 
-        pq = parse_pq(
-            parameter, substance, x['Hf']
-        )
-        print(pq)
+    print(get_data('Hf(Sn,cinza)').to_sci_string)
 
 
 if __name__ == "__main__":
