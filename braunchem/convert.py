@@ -55,7 +55,7 @@ def md2tex(content):
     # convert html string to tex using pandoc
     tex = convert_text(
         content, 'tex',
-        format=f'markdown_strict+tex_math_dollars+raw_tex{EXTENSIONS}'
+        format=f'markdown_strict+tex_math_dollars+raw_tex{EXTENSIONS}',
         )
 
     tex = tex.replace('\\tightlist', '')

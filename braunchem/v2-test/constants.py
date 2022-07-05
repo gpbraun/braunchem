@@ -52,6 +52,7 @@ class Parameter:
         clsname = obj.pop('__classname__', None)
         if clsname == 'Parameter':
             return Parameter(**obj)
+
         return obj
 
 
@@ -149,7 +150,7 @@ class Quantity:
 
     def to_sci_string(self):
         """Retorna o valor em notação científica."""
-        return to_sci_string(self.value)
+        return decimal_to_sci_string(self.value)
 
     def to_eng_string(self):
         """Retorna o valor em notação de engenharia."""
@@ -185,7 +186,7 @@ class Quantity:
         return ', '.join([self.name, self.equation])
 
 
-def to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
+def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
     """Retorna o valor em notação científica.
 
     Args:
@@ -232,11 +233,19 @@ class Table:
     quantities: list[Quantity]
 
     def __repr__(self):
-        qty_ids = ', '.join(qty.id_ for qty in self.quantities)
-        return f'Table({qty_ids})'
+        if len(self.quantities) == 1:
+            return 'Table(1 item)'
+
+        return f'Table({len(self.quantities)} items)'
+
+    def __contains__(self, item):
+        return item in self.quantities
 
     def __iter__(self):
         return iter(self.quantities)
+
+    def __getitem__(self, key):
+        return DATA.filter([key]).quantities[0]
 
     def append(self, qty: Quantity):
         self.quantities.append(qty)
@@ -247,14 +256,16 @@ class Table:
         Retorna:
             Table: Subconjunto de dados com os `id_` selecionados.
         """
-        filtered = [qty for qty in self.quantities if qty.id_ in qty_ids]
+        filtered = [qty for qty in self if qty.id_ in qty_ids]
         return Table(filtered)
 
-    def equation_list(self):
-        return latex.List('itemize', map(lambda x: x.equation, self)).display()
+    def equation_list(self, sort=True):
+        latex_list = latex.List('itemize', [x.equation for x in sorted(self)])
+        return latex_list.display()
 
-    def display_list(self):
-        return latex.List('itemize', map(lambda x: x.display, self)).display()
+    def display_list(self, sort=True):
+        latex_list = latex.List('itemize', [x.display for x in sorted(self)])
+        return latex_list.display()
 
     def to_json(self, file):
         with open(file, 'w') as json_file:
@@ -264,19 +275,12 @@ class Table:
     def append_csv(self, file: str, parameters: dict):
         """Adiciona os dados em um `csv`.
 
-        Olha o último caratere da primeira palavra no nome e
-        retorna o nome com a preposição do gênero correto.
-
         Args:
             file (str): Arquivo `csv`
-            parameters (dict): `dict` com os parâmetros termodinâmicos.
+            parameters (dict): `dict` com os parâmetros no header do `csv`.
         """
         for qty in csv2quantities(file, parameters):
             self.append(qty)
-
-    @classmethod
-    def from_csv(cls, file, parameters):
-        return cls(list(csv2quantities(file, parameters)))
 
     @classmethod
     def from_json(cls, file):
@@ -287,17 +291,20 @@ class Table:
     @staticmethod
     def decoder(obj):
         clsname = obj.pop('__classname__', None)
+
         if clsname == 'Quantity':
             value = obj.pop('value')
             prec = obj['prec']
             return Quantity(**obj, value=Context(prec).create_decimal(value))
+
         return obj
 
 
 class QuantityEncoder(json.JSONEncoder):
+    """Encoder para converter um `Table` em `json`."""
     def default(self, obj):
         if isinstance(obj, Decimal):
-            return to_sci_string(obj)
+            return decimal_to_sci_string(obj)
 
         if isinstance(obj, Table):
             return obj.quantities
@@ -313,10 +320,6 @@ class QuantityEncoder(json.JSONEncoder):
 DATA = Table.from_json('database/data/data.json')
 
 
-def get_data(qty_id):
-    return DATA.filter([qty_id]).quantities[0]
-
-
 def main():
     dt = Table.from_json('database/data/tables/constants.json')
 
@@ -328,7 +331,7 @@ def main():
 
     dt.to_json('database/data/data.json')
 
-    print(get_data('Hf(Sn,cinza)').to_sci_string)
+    print(DATA['Hf(Ca+2,aq)'].value)
 
 
 if __name__ == "__main__":
