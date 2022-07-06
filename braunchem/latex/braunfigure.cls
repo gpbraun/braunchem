@@ -410,15 +410,6 @@
         \group_begin:
         \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
         \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
-        %% Painel Pensi fix
-        \str_case:Vn \l_tmpa_tl
-            {
-                { /uploads }
-                {
-                    \braun_include_graphics:Nn \l_tmpa_coffin {../images/ \l_tmpb_tl \l_tmpc_tl}
-                }
-            }
-
         \str_case:VnF \l_tmpc_tl
             {
                 { .svg }

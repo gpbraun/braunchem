@@ -1110,7 +1110,47 @@
 
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
-		pensi   = \file_input:n { pensi-logo.tex },
+		pensi = 
+            {
+                \draw_begin:  
+                    \color_set:nnn {color-pensi}{HTML}{FFD166}
+                    \fp_set:Nn \l_tmpa_fp { 60 } % Angle
+                    \draw_path_moveto:n 
+                        { 0em , 0em }
+                    \draw_path_lineto:n 
+                        { 0em , 1cm }
+                    \draw_path_lineto:n 
+                        { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) , 1cm }
+                    \draw_path_arc:nnn { 90 } { - \l_tmpa_fp }
+                        { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) }
+                    \draw_path_close:   
+                    \color_fill:n { white }
+                    \draw_path_use:n { fill }
+                    \draw_transform_shift:n 
+                        {  
+                            \draw_point_polar:nn 
+                                { 0.7 * 1cm  } { 90 - \l_tmpa_fp / 2 }
+                        }
+                    \draw_path_moveto:n 
+                        {
+                            \draw_point_polar:nn 
+                                {  1cm / ( 3 * sqrt(3) ) } { 0 }
+                        }
+                    \draw_path_lineto:n 
+                        {
+                            \draw_point_polar:nn
+                                {  1cm / ( 3 * sqrt(3) ) } { 120 }
+                        }
+                    \draw_path_lineto:n 
+                        {
+                            \draw_point_polar:nn
+                                {  1cm / ( 3 * sqrt(3) ) } { -120 }
+                        }
+                    \draw_path_close:
+                    \color_fill:n { color-pensi }
+                    \draw_path_use:n { fill }
+                \draw_end:
+            },
 		ime     = \graphics_include:n { ime-logo.pdf },
 		ita     = \graphics_include:n { ita-logo.pdf },
         ita-alt = \graphics_include:n { ita-logo-alt.pdf },
@@ -1326,15 +1366,6 @@
         \group_begin:
         \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
         \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
-        %% Painel Pensi fix
-        \str_case:Vn \l_tmpa_tl
-            {
-                { /uploads }
-                {
-                    \braun_include_graphics:Nn \l_tmpa_coffin {../images/ \l_tmpb_tl \l_tmpc_tl}
-                }
-            }
-
         \str_case:VnF \l_tmpc_tl
             {
                 { .svg }
