@@ -318,7 +318,7 @@ DATATYPES = {
     'Pvap': DataType(
         'Pressão de vapor do',
         state('P', sub='vap'),
-        'torr'
+        'Torr'
     ),
     'kH': DataType(
         'Constante de Henry do',

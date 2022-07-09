@@ -11,12 +11,9 @@ from pathlib import Path
 
 import convert
 import latex
-from data import read_datasets, DataSet, CONSTANTS
+from quantities import Table, QUANTITIES
 
 from multiprocessing import Pool
-
-
-DATA = read_datasets('database/data')
 
 
 @frozen
@@ -26,8 +23,8 @@ class Problem:
     statement: str
     solution: str = ''
     answer: list = Factory(list)
-    constants: DataSet = Factory(DataSet)
-    data: DataSet = Factory(DataSet)
+    constants: Table = Factory(Table)
+    data: Table = Factory(Table)
     elements: list = Factory(list)
     obj: int = -1
     choices: list = Factory(list)
@@ -46,11 +43,11 @@ class Problem:
 
     def tex_data(self, print_data=True):
         # return data as tex list with header
-        if not self.data or not print_data:
+        if not self.data.quantities or not print_data:
             return ''
 
         header = latex.section('Dados', level=2, numbered=False)
-        data = self.data.astex() if print_data else ''
+        data = self.data.equation_list() if print_data else ''
 
         return header + latex.cmd('small') + data
 
@@ -119,16 +116,12 @@ def problem_contents(id_, path, pfile):
         soup.h1.decompose()
 
     # get problem constants
-    if 'constants' in pfile:
-        kwargs['constants'] = CONSTANTS.filter('id_', pfile['constants'], )
-    elif 'constantes' in pfile:
-        kwargs['constants'] = CONSTANTS.filter('id_', pfile['constantes'])
+    if 'constantes' in pfile:
+        kwargs['constants'] = QUANTITIES.filter(pfile['constantes'])
 
     # get problem data
-    if 'data' in pfile:
-        kwargs['data'] = DATA.filter('id_', pfile['data'])
-    elif 'dados' in pfile:
-        kwargs['data'] = DATA.filter('id_', pfile['dados'])
+    if 'dados' in pfile:
+        kwargs['data'] = QUANTITIES.filter(pfile['dados'])
 
     # get problem elements
     if 'elements' in pfile:

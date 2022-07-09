@@ -3,13 +3,14 @@
 Esse módulo implementa uma API para propriedades termodinâmicas.
 """
 import latex
+import re
 import csv
 import json
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from decimal import Decimal, Context
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True)
 class Parameter:
     """Parâmetro termodinâmico.
 
@@ -56,6 +57,10 @@ class Parameter:
         return obj
 
 
+with open('database/data/parameters.json', 'r') as json_file:
+    PARAMETERS = json.load(json_file, object_hook=Parameter.decoder)
+
+
 def preposition_join(parameter_name: str, substance_name: str):
     """Retorna os nomes unidos pela preposição do gênero correto.
 
@@ -83,7 +88,7 @@ def preposition_join(parameter_name: str, substance_name: str):
     return f'{parameter_name} do {substance_name}'
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True)
 class Substance:
     """Substância.
 
@@ -119,7 +124,7 @@ class Substance:
         return latex.ce(f'{self.formula},\\,\\text{{{self.state}}}')
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True)
 class Quantity:
     """Dado termodinâmico.
 
@@ -166,7 +171,7 @@ class Quantity:
             'e = \\qty{10}{m}'
         """
         if self.value is None:
-            return self.name
+            return latex.pu2qty(self.name)
 
         value = self.to_sci_string()
         return f'${self.symbol} = {latex.qty(value, self.unit)}$'
@@ -185,6 +190,27 @@ class Quantity:
 
         return ', '.join([self.name, self.equation])
 
+    @classmethod
+    def from_string(cls, string: str):
+        match = re.match(QTY_STR_RE, string)
+
+        if match:
+            p_id = match.group(1)
+            s_name = match.group(2)
+            s_state = match.group(3)
+            value = match.group(4)
+
+            if p_id in PARAMETERS:
+                p = PARAMETERS[p_id]
+                s = Substance(s_name, f'\\ce{{{s_name}}}', s_name, s_state)
+
+                return p.create_qty(s, value)
+
+        return cls(string, string)
+
+
+QTY_STR_RE = re.compile(r'([\w\d]*)\(([\w\d]*),?(.*)\)\=([\d\.Ee\+\-]*)')
+
 
 def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
     """Retorna o valor em notação científica.
@@ -202,7 +228,7 @@ def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
     return f'{value:f}'
 
 
-def csv2quantities(file, parameters):
+def csv2quantities(file):
     """Gerador para os dados termodinâmicos contidos em um `csv`.
 
     Gera:
@@ -219,7 +245,7 @@ def csv2quantities(file, parameters):
             for parameter_id, value in row.items():
                 if not value:
                     continue
-                parameter = parameters[parameter_id]
+                parameter = PARAMETERS[parameter_id]
                 yield parameter.create_qty(substance, value)
 
 
@@ -230,7 +256,7 @@ class Table:
     Atributos:
         quantities (list): Lista de dados termodinâmicos.
     """
-    quantities: list[Quantity]
+    quantities: list[Quantity] = field(default_factory=list)
 
     def __repr__(self):
         if len(self.quantities) == 1:
@@ -245,41 +271,61 @@ class Table:
         return iter(self.quantities)
 
     def __getitem__(self, key):
-        return DATA.filter([key]).quantities[0]
+        try:
+            return [qty for qty in self if qty.id_ == key][0]
+        except IndexError:
+            raise KeyError
 
     def append(self, qty: Quantity):
         self.quantities.append(qty)
 
-    def filter(self, qty_ids: list):
+    def sorted(self):
+        self.quantities = sorted(self.quantities)
+        return self
+
+    def filter(self, ids: list):
         """Cria um subconjunto da lista de dados termodinâmicos.
+
+        Args:
+            ids (list): Lista com os `id_` desejados.
 
         Retorna:
             Table: Subconjunto de dados com os `id_` selecionados.
         """
-        filtered = [qty for qty in self if qty.id_ in qty_ids]
-        return Table(filtered)
+        tbl = Table()
+        for id_ in ids:
+            try:
+                tbl.append(self[id_])
+            except KeyError:
+                qty = Quantity.from_string(id_)
+                tbl.append(qty)
+        return tbl.sorted()
 
-    def equation_list(self, sort=True):
-        latex_list = latex.List('itemize', [x.equation for x in sorted(self)])
-        return latex_list.display()
+    def equation_list(self):
+        if self.quantities:
+            latex_list = latex.List('datalist', [x.equation for x in self])
+            return latex_list.display()
+        return
 
-    def display_list(self, sort=True):
-        latex_list = latex.List('itemize', [x.display for x in sorted(self)])
-        return latex_list.display()
+    def display_list(self):
+        if self.quantities:
+            latex_list = latex.List('datalist', [x.display for x in self])
+            return latex_list.display()
+        return
 
     def to_json(self, file):
         with open(file, 'w') as json_file:
             json.dump(self, json_file, cls=QuantityEncoder,
                       indent=4, ensure_ascii=False)
 
-    def append_csv(self, file: str, parameters: dict):
+    def append_csv(self, file: str):
         """Adiciona os dados em um `csv`.
 
         Args:
             file (str): Arquivo `csv`
             parameters (dict): `dict` com os parâmetros no header do `csv`.
         """
-        for qty in csv2quantities(file, parameters):
+        for qty in csv2quantities(file):
             self.append(qty)
 
     @classmethod
@@ -293,9 +339,9 @@ class Table:
         clsname = obj.pop('__classname__', None)
 
         if clsname == 'Quantity':
-            value = obj.pop('value')
             prec = obj['prec']
-            return Quantity(**obj, value=Context(prec).create_decimal(value))
+            value = Context(prec).create_decimal(obj.pop('value'))
+            return Quantity(**Table.decoder(obj), value=value)
 
         return obj
 
@@ -317,21 +363,20 @@ class QuantityEncoder(json.JSONEncoder):
         return super(QuantityEncoder, self).default(obj)
 
 
-DATA = Table.from_json('database/data/data.json')
+QUANTITIES = Table.from_json('database/data/quantities.json')
 
 
 def main():
     dt = Table.from_json('database/data/tables/constants.json')
 
-    with open('database/data/parameters.json', 'r') as json_file:
-        parameters = json.load(json_file, object_hook=Parameter.decoder)
+    tables = [
+        'acids', 'bases', 'bonds', 'colligative', 'critical', 'henry',
+        'inorganic', 'lattice', 'organic', 'physical', 'polyacids'
+    ]
+    for table in tables:
+        dt.append_csv(f'database/data/tables/{table}.csv')
 
-    for table in ['inorganic', 'bonds']:
-        dt.append_csv(f'database/data/tables/{table}.csv', parameters)
-
-    dt.to_json('database/data/data.json')
-
-    print(DATA['Hf(Ca+2,aq)'].value)
+    dt.to_json('database/data/quantities.json')
 
 
 if __name__ == "__main__":

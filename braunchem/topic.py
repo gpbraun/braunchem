@@ -4,11 +4,15 @@
 
 import os
 
+import dataclasses
+
+from decimal import Decimal
+from quantities import Table, Quantity, decimal_to_sci_string
 from attr import frozen, Factory, asdict, filters, fields
 
-from json import dump as json_dump
+import json
 
-from sys import exit
+import sys
 from pathlib import Path
 
 from problem import Problem, ProblemSet, files2problemset
@@ -219,8 +223,9 @@ class Arsenal:
         json_file = os.path.join(path, 'arsenal.json')
 
         with open(json_file, 'w') as f:
-            json_dump(
-                asdict(self, filter=flter), f, indent=2, ensure_ascii=False
+            json.dump(
+                asdict(self, filter=flter), f, indent=2,
+                ensure_ascii=False, cls=TopicEncoder
             )
 
     def generate_pdfs(self):
@@ -270,10 +275,27 @@ def get_file_paths(db_path):
     return problem_files, topic_files
 
 
+class TopicEncoder(json.JSONEncoder):
+    """Encoder para converter um `Table` em `json`."""
+    def default(self, obj):
+        if isinstance(obj, Decimal):
+            return decimal_to_sci_string(obj)
+
+        if isinstance(obj, Table):
+            return obj.quantities
+
+        if isinstance(obj, Quantity):
+            d = {'__classname__': type(obj).__name__}
+            d.update(dataclasses.asdict(obj))
+            return d
+
+        return super(TopicEncoder, self).default(obj)
+
+
 def load_arsenal(path):
     # generate arsenal by walking on directory
     if not os.path.exists(path):
-        exit(f"O diretório '{path}' não existe!")
+        sys.exit(f"O diretório '{path}' não existe!")
 
     print('Carregando diretórios...')
     problem_files, topic_files = get_file_paths(path)

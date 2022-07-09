@@ -34,6 +34,14 @@ def html2md(content):
     )
 
 
+def md2html(content):
+    """Convert markdown to html using pandoc and parse as soup."""
+    return convert_text(
+        content, 'html',
+        format='markdown-tex_math_dollars-raw_tex'
+    )
+
+
 def soup_split(soup, tag):
     split_tag = soup.find(tag)
     if not split_tag:

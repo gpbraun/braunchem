@@ -112,7 +112,7 @@ def pu2qty(content):
 class List:
     """Lista
     """
-    env: str
+    envname: str
     items: list[str]
 
     def __iter__(self):
@@ -122,8 +122,18 @@ class List:
         if not self.items:
             return
 
-        x = '\n'.join(map(lambda x: f'\t\\item {x}', self.items))
-        return env(self.env, x)
+        x = '\n'.join(f'\t\\item {item}' for item in self)
+        return env(self.envname, x)
+
+
+def tabular(cols: str, rows: list):
+    """Tabela
+    """
+    top_row = ' & '.join(rows.pop(0))
+    header = f'\t\\toprule\n\t{top_row} \\\\ \\midrule\n\t'
+
+    body = ' \\\\\n\t'.join(' & '.join(col) for col in rows)
+    return env('tabular', f'{{{cols}}}{header}{body} \\\\ \\bottomrule')
 
 
 def main():
