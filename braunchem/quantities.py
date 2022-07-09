@@ -271,9 +271,9 @@ class Table:
         return iter(self.quantities)
 
     def __getitem__(self, key):
-        try:
+        if key in self:
             return [qty for qty in self if qty.id_ == key][0]
-        except IndexError:
+        else:
             raise KeyError
 
     def append(self, qty: Quantity):
@@ -348,6 +348,7 @@ class Table:
 
 class QuantityEncoder(json.JSONEncoder):
     """Encoder para converter um `Table` em `json`."""
+
     def default(self, obj):
         if isinstance(obj, Decimal):
             return decimal_to_sci_string(obj)
@@ -370,8 +371,18 @@ def main():
     dt = Table.from_json('database/data/tables/constants.json')
 
     tables = [
-        'acids', 'bases', 'bonds', 'colligative', 'critical', 'henry',
-        'inorganic', 'lattice', 'organic', 'physical', 'polyacids'
+        'acids',
+        'bases',
+        'bonds',
+        'colligative',
+        'critical',
+        'henry',
+        'inorganic',
+        'lattice',
+        'organic',
+        'physical',
+        'polyacids',
+        'solubility'
     ]
     for table in tables:
         dt.append_csv(f'database/data/tables/{table}.csv')

@@ -33,7 +33,7 @@
     },
     "Hc": {
         "__classname__": "Parameter",
-        "id_": "Hf",
+        "id_": "Hc",
         "name": "entalpia de combustão",
         "symbol": "\\Delta H_\\mathrm{c}^{\\circ}",
         "unit": "kJ.mol-1",
@@ -246,6 +246,14 @@
         "symbol": "\\mathrm{p}K_\\mathrm{a}",
         "unit": "",
         "prec": 3
+    },
+    "Kps": {
+        "__classname__": "Parameter",
+        "id_": "Kps",
+        "name": "produto de solubilidade",
+        "symbol": "K_\\mathrm{ps}",
+        "unit": "",
+        "prec": 2
     },
     "Phi": {
         "__classname__": "Parameter",

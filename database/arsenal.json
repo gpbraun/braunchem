@@ -626,10 +626,10 @@
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(glicose,s)",
-                  "name": "Hc(glicose,s)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do glicose",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C6H12O6,\\,\\text{s}})",
+                  "value": "-2810",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 }
               ],
@@ -3301,18 +3301,18 @@
                 {
                   "__classname__": "Quantity",
                   "id_": "Hf(glicina,s)",
-                  "name": "entalpia de combustão da glicina",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{NH2CH2COOH,\\,\\text{s}})",
-                  "value": "-969",
+                  "name": "entalpia de formação da glicina",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{NH2CH2COOH,\\,\\text{s}})",
+                  "value": "-533",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
                   "__classname__": "Quantity",
                   "id_": "Hf(ureia,s)",
-                  "name": "entalpia de combustão da ureia",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CO,\\,\\text{s}})",
-                  "value": "-632",
+                  "name": "entalpia de formação da ureia",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO,\\,\\text{s}})",
+                  "value": "-334",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
@@ -3375,11 +3375,11 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hc(CH4,g)",
-                  "name": "Hc(CH4,g)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "id_": "Hc(metano,g)",
+                  "name": "entalpia de combustão do metano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
+                  "value": "-890",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
@@ -3422,19 +3422,19 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "HL(C-)",
-                  "name": "HL(C-)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
                   "id_": "HL(C-C)",
                   "name": "entalpia de ligação do \\ce{C-C}",
                   "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-C})",
                   "value": "348",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "HL(C-H)",
+                  "name": "entalpia de ligação do \\ce{C-H}",
+                  "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-H})",
+                  "value": "412",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
@@ -3487,15 +3487,6 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hvap(Br2)",
-                  "name": "Hvap(Br2)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
                   "id_": "HL(Br2)",
                   "name": "entalpia de ligação do \\ce{Br2}",
                   "symbol": "\\Delta H_\\mathrm{L}(\\ce{Br2})",
@@ -3532,6 +3523,15 @@
                 },
                 {
                   "__classname__": "Quantity",
+                  "id_": "Hvap(Br2)",
+                  "name": "entalpia de vaporização do \\ce{Br2}",
+                  "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{Br2})",
+                  "value": "15.4",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
                   "id_": "Hvap(CH3CHBrCH2Br)",
                   "name": "entalpia de vaporização do \\ce{CH3CHBrCH2Br}",
                   "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{CH3CHBrCH2Br})",
@@ -3561,11 +3561,11 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hc(CH4,g)",
-                  "name": "Hc(CH4,g)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "id_": "Hc(metano,g)",
+                  "name": "entalpia de combustão do metano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
+                  "value": "-890",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
@@ -3606,15 +3606,6 @@
               ],
               "constants": [],
               "data": [
-                {
-                  "__classname__": "Quantity",
-                  "id_": "Hsub(grafita)",
-                  "name": "Hsub(grafita)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
-                  "prec": 3
-                },
                 {
                   "__classname__": "Quantity",
                   "id_": "HL(C-H)",
@@ -3659,6 +3650,15 @@
                   "value": "496",
                   "unit": "kJ.mol-1",
                   "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hvap(grafita)",
+                  "name": "entalpia de sublimação do \\ce{grafita}",
+                  "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{grafita})",
+                  "value": "716",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
                 }
               ],
               "elements": [],
@@ -3683,18 +3683,9 @@
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(propano,g)",
-                  "name": "Hc(propano,g)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
-                  "id_": "Hf(propeno,g)",
-                  "name": "entalpia de combustão do propeno",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C3H6,\\,\\text{g}})",
-                  "value": "-2060",
+                  "name": "entalpia de combustão do propano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C3H8,\\,\\text{g}})",
+                  "value": "-2220",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
@@ -3713,6 +3704,15 @@
                   "name": "entalpia de formação do dióxido de carbono",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
                   "value": "-394",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hf(propeno,g)",
+                  "name": "entalpia de formação do propeno",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C3H6,\\,\\text{g}})",
+                  "value": "20.4",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 }
@@ -3824,20 +3824,20 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hc(butano,g)",
-                  "name": "Hc(butano,g)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
                   "id_": "CP(H2O,l)",
                   "name": "capacidade calorífica a pressão constante da água",
                   "symbol": "C_P(\\ce{H2O,\\,\\text{l}})",
                   "value": "75.3",
                   "unit": "J.K-1.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hc(butano,g)",
+                  "name": "entalpia de combustão do butano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C4H10,\\,\\text{g}})",
+                  "value": "-2880",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 }
               ],
@@ -3979,24 +3979,6 @@
                 },
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(eteno,g)",
-                  "name": "entalpia de combustão do eteno",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C2H4,\\,\\text{g}})",
-                  "value": "-1410",
-                  "unit": "kJ.mol-1",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
-                  "id_": "Hf(metano,g)",
-                  "name": "entalpia de combustão do metano",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
-                  "value": "-890",
-                  "unit": "kJ.mol-1",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
                   "id_": "Hf(H2O,l)",
                   "name": "entalpia de formação da água",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
@@ -4010,6 +3992,24 @@
                   "name": "entalpia de formação do dióxido de carbono",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
                   "value": "-394",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hf(eteno,g)",
+                  "name": "entalpia de formação do eteno",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C2H4,\\,\\text{g}})",
+                  "value": "52.3",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hf(metano,g)",
+                  "name": "entalpia de formação do metano",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
+                  "value": "-74.8",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 }
@@ -4053,15 +4053,6 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(octano,l)",
-                  "name": "entalpia de combustão do octano",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
-                  "value": "-5470",
-                  "unit": "kJ.mol-1",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
                   "id_": "Hf(H2O,l)",
                   "name": "entalpia de formação da água",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
@@ -4075,6 +4066,15 @@
                   "name": "entalpia de formação do dióxido de carbono",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
                   "value": "-394",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hf(octano,l)",
+                  "name": "entalpia de formação do octano",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
+                  "value": "-250",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 }
@@ -4168,19 +4168,19 @@
                 },
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(octano,l)",
-                  "name": "entalpia de combustão do octano",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
-                  "value": "-5470",
+                  "id_": "Hf(CO2,g)",
+                  "name": "entalpia de formação do dióxido de carbono",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+                  "value": "-394",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(CO2,g)",
-                  "name": "entalpia de formação do dióxido de carbono",
-                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
-                  "value": "-394",
+                  "id_": "Hf(octano,l)",
+                  "name": "entalpia de formação do octano",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
+                  "value": "-250",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
@@ -4216,19 +4216,19 @@
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(butano,g)",
-                  "name": "Hc(butano,g)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do butano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C4H10,\\,\\text{g}})",
+                  "value": "-2880",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(pentano,g)",
-                  "name": "Hc(pentano,g)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do pentano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C5H12,\\,\\text{g}})",
+                  "value": "-3540",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 }
               ],
@@ -4248,19 +4248,19 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(metano,g)",
-                  "name": "entalpia de combustão do metano",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
-                  "value": "-890",
+                  "id_": "Hf(CO2,g)",
+                  "name": "entalpia de formação do dióxido de carbono",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+                  "value": "-394",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(CO2,g)",
-                  "name": "entalpia de formação do dióxido de carbono",
-                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
-                  "value": "-394",
+                  "id_": "Hf(metano,g)",
+                  "name": "entalpia de formação do metano",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
+                  "value": "-74.8",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
@@ -4439,28 +4439,28 @@
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(benzeno,l)",
-                  "name": "Hc(benzeno,l)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do benzeno",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C6H6,\\,\\text{l}})",
+                  "value": "-3270",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(cicloexano,l)",
-                  "name": "Hc(cicloexano,l)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do cicloexano",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C6H12,\\,\\text{l}})",
+                  "value": "-3920",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(cicloexeno,l)",
-                  "name": "Hc(cicloexeno,l)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do cicloexeno",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C6H10,\\,\\text{l}})",
+                  "value": "-3750",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
@@ -4503,7 +4503,7 @@
               "data": [
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(C60)",
+                  "id_": "Hc(C60)",
                   "name": "entalpia de combustão do \\ce{C60}",
                   "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C60})",
                   "value": "-2.60e4",
@@ -4778,15 +4778,6 @@
                 },
                 {
                   "__classname__": "Quantity",
-                  "id_": "Hf(octano,l)",
-                  "name": "entalpia de combustão do octano",
-                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
-                  "value": "-5470",
-                  "unit": "kJ.mol-1",
-                  "prec": 3
-                },
-                {
-                  "__classname__": "Quantity",
                   "id_": "Hf(CO2,g)",
                   "name": "entalpia de formação do dióxido de carbono",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
@@ -4800,6 +4791,15 @@
                   "name": "entalpia de formação do monóxido de carbono",
                   "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO,\\,\\text{g}})",
                   "value": "-111",
+                  "unit": "kJ.mol-1",
+                  "prec": 3
+                },
+                {
+                  "__classname__": "Quantity",
+                  "id_": "Hf(octano,l)",
+                  "name": "entalpia de formação do octano",
+                  "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
+                  "value": "-250",
                   "unit": "kJ.mol-1",
                   "prec": 3
                 },
@@ -6245,10 +6245,10 @@
                 {
                   "__classname__": "Quantity",
                   "id_": "Hc(glicose,s)",
-                  "name": "Hc(glicose,s)",
-                  "symbol": "",
-                  "value": null,
-                  "unit": "",
+                  "name": "entalpia de combustão do glicose",
+                  "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C6H12O6,\\,\\text{s}})",
+                  "value": "-2810",
+                  "unit": "kJ.mol-1",
                   "prec": 3
                 },
                 {
