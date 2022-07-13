@@ -13,7 +13,7 @@ from attr import frozen, Factory, asdict, filters, fields
 import json
 
 import sys
-from pathlib import Path
+from pathlib import Path, PosixPath
 
 from problem import Problem, ProblemSet, files2problemset
 from multiprocessing import Pool
@@ -216,7 +216,6 @@ class Arsenal:
     def dump(self, path):
         # dump contents to json
         flter = filters.exclude(
-            fields(Problem).path,
             fields(Arsenal).problems
         )
 
@@ -285,6 +284,19 @@ class TopicEncoder(json.JSONEncoder):
             return obj.quantities
 
         if isinstance(obj, Quantity):
+            d = {'__classname__': type(obj).__name__}
+            d.update(dataclasses.asdict(obj))
+            return d
+
+        if isinstance(obj, PosixPath):
+            return str(obj)
+
+        if isinstance(obj, Problem):
+            d = {'__classname__': type(obj).__name__}
+            d.update(dataclasses.asdict(obj))
+            return d
+
+        if isinstance(obj, ProblemSet):
             d = {'__classname__': type(obj).__name__}
             d.update(dataclasses.asdict(obj))
             return d

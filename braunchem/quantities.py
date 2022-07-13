@@ -271,9 +271,9 @@ class Table:
         return iter(self.quantities)
 
     def __getitem__(self, key):
-        if key in self:
+        try:
             return [qty for qty in self if qty.id_ == key][0]
-        else:
+        except IndexError:
             raise KeyError
 
     def append(self, qty: Quantity):

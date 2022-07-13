@@ -5,29 +5,27 @@
 # TODO:
 # - Gerar o "elements"
 
-from attr import frozen, Factory
+from dataclasses import dataclass, field
 from frontmatter import load
 from pathlib import Path
-
 import convert
 import latex
 from quantities import Table, QUANTITIES
-
 from multiprocessing import Pool
 
 
-@frozen
+@dataclass(slots=True)
 class Problem:
     id_: str
     path: Path
     statement: str
     solution: str = ''
-    answer: list = Factory(list)
-    constants: Table = Factory(Table)
-    data: Table = Factory(Table)
-    elements: list = Factory(list)
+    answer: list = field(default_factory=list)
+    constants: Table = field(default_factory=Table)
+    data: Table = field(default_factory=Table)
+    elements: list = field(default_factory=list)
     obj: int = -1
-    choices: list = Factory(list)
+    choices: list = field(default_factory=list)
 
     def is_obj(self):
         if self.obj == -1:
@@ -97,99 +95,96 @@ class Problem:
 
         return latex.env('problem', args)
 
+    @classmethod
+    def from_file(cls, path):
+        # get YAML data and contents
+        pfile = load(path)
 
-def file2problem(path):
-    # get YAML data and contents
-    pfile = load(path)
-    return problem_contents(path.stem, path.resolve(), pfile)
+        kwargs = {}
+        kwargs['id_'] = path.stem
+        kwargs['path'] = path.resolve()
 
+        soup = convert.md2soup(pfile.content)
 
-def problem_contents(id_, path, pfile):
-    kwargs = {}
-    kwargs['id_'] = id_
-    kwargs['path'] = path
+        # remove problem title
+        if soup.h1:
+            soup.h1.decompose()
 
-    soup = convert.md2soup(pfile.content)
+        # get problem constants
+        if 'constantes' in pfile:
+            kwargs['constants'] = QUANTITIES.filter(pfile['constantes'])
 
-    # remove problem title
-    if soup.h1:
-        soup.h1.decompose()
+        # get problem data
+        if 'dados' in pfile:
+            kwargs['data'] = QUANTITIES.filter(pfile['dados'])
 
-    # get problem constants
-    if 'constantes' in pfile:
-        kwargs['constants'] = QUANTITIES.filter(pfile['constantes'])
+        # get problem elements
+        if 'elements' in pfile:
+            kwargs['elements'] = pfile['elements']
+        elif 'elementos' in pfile:
+            kwargs['elements'] = pfile['elementos']
 
-    # get problem data
-    if 'dados' in pfile:
-        kwargs['data'] = QUANTITIES.filter(pfile['dados'])
+        soup, solution = convert.soup_split(soup, 'hr')
 
-    # get problem elements
-    if 'elements' in pfile:
-        kwargs['elements'] = pfile['elements']
-    elif 'elementos' in pfile:
-        kwargs['elements'] = pfile['elementos']
+        # problema objetivo: normal
+        choice_list = soup.find('ul', class_='task-list')
+        if choice_list:
+            # get problem choices, obj and answer
+            choices = []
+            # Problem.is_obj() returns trus even if there is no correct choice
+            kwargs['obj'] = 0
+            for index, item in enumerate(choice_list.find_all('li')):
+                choice = convert.html2md(item)
+                choices.append(choice)
+                check_box = item.find('input').extract()
+                if check_box.has_attr('checked'):
+                    kwargs['obj'] = index
+                    kwargs['answer'] = [choice]
+            kwargs['choices'] = choices
+            choice_list.decompose()
 
-    soup, solution = convert.soup_split(soup, 'hr')
+            if solution:
+                kwargs['solution'] = convert.html2md(solution.extract())
 
-    # problema objetivo: normal
-    choice_list = soup.find('ul', class_='task-list')
-    if choice_list:
-        # get problem choices, obj and answer
-        choices = []
-        # Problem.is_obj() returns trus even if there is no correct choice
-        kwargs['obj'] = 0
-        for index, item in enumerate(choice_list.find_all('li')):
-            choice = convert.html2md(item)
-            choices.append(choice)
-            check_box = item.find('input').extract()
-            if check_box.has_attr('checked'):
-                kwargs['obj'] = index
-                kwargs['answer'] = [choice]
-        kwargs['choices'] = choices
-        choice_list.decompose()
+            kwargs['statement'] = convert.html2md(soup)
 
+            return cls(**kwargs)
+
+        # problema objetivo: V ou F
+        prop_list = soup.find('ol', class_='task-list')
+        if prop_list:
+            true_props = []
+            for index, item in enumerate(prop_list.find_all('li')):
+                check_box = item.find('input').extract()
+                if check_box.has_attr('checked'):
+                    true_props.append(index)
+            kwargs['choices'], kwargs['answer'], kwargs['obj'] = \
+                autoprops(true_props)
+
+            if solution:
+                kwargs['solution'] = convert.html2md(solution.extract())
+
+            kwargs['statement'] = convert.html2md(soup)
+
+            return cls(**kwargs)
+
+        # problema discursivo
         if solution:
+            alist = solution.find('ul')
+            if alist:
+                answer = [convert.html2md(i) for i in alist.find_all('li')]
+                kwargs['answer'] = answer
+                alist.decompose()
             kwargs['solution'] = convert.html2md(solution.extract())
 
         kwargs['statement'] = convert.html2md(soup)
 
-        return Problem(**kwargs)
-
-    # problema objetivo: V ou F
-    prop_list = soup.find('ol', class_='task-list')
-    if prop_list:
-        true_props = []
-        for index, item in enumerate(prop_list.find_all('li')):
-            check_box = item.find('input').extract()
-            if check_box.has_attr('checked'):
-                true_props.append(index)
-        kwargs['choices'], kwargs['answer'], kwargs['obj'] = \
-            autoprops(true_props)
-
-        if solution:
-            kwargs['solution'] = convert.html2md(solution.extract())
-
-        kwargs['statement'] = convert.html2md(soup)
-
-        return Problem(**kwargs)
-
-    # problema discursivo
-    if solution:
-        alist = solution.find('ul')
-        if alist:
-            answer = [convert.html2md(i) for i in alist.find_all('li')]
-            kwargs['answer'] = answer
-            alist.decompose()
-        kwargs['solution'] = convert.html2md(solution.extract())
-
-    kwargs['statement'] = convert.html2md(soup)
-
-    return Problem(**kwargs)
+        return cls(**kwargs)
 
 
-@frozen
+@dataclass(slots=True)
 class ProblemSet:
-    problems: list[Problem] = Factory(list)
+    problems: list[Problem] = field(default_factory=list)
     id_: str = 'P'
     title: str = 'Problemas'
 
@@ -244,10 +239,10 @@ class ProblemSet:
         return header + latex.enum('answers', answers)
 
 
-def files2problemset(path):
-    # get problemset from list of paths
+def files2problemset(paths: list):
+    """Get problemset from list of paths"""
     pool = Pool()
-    return ProblemSet(pool.map(file2problem, path))
+    return ProblemSet(pool.map(Problem.from_file, paths))
 
 
 def autoprops(true_props):
