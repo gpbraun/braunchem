@@ -12628,7 +12628,7 @@
                   {
                     "id_": "pKa3(H3PO4)",
                     "name": "constante de acidez 3 do ácido fosfórico",
-                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{H3PO4})",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4})",
                     "value": "12.7",
                     "unit": "",
                     "prec": 3
@@ -13017,7 +13017,7 @@
                 "$\\ce{CH3COOH/CH3CO2^-}$\n",
                 "$\\ce{HNO2/NO2^-}$\n",
                 "$\\ce{HClO2/ClO2^-}$\n",
-                "$\\ce{NH4^+/NH3^-}$\n",
+                "$\\ce{NH4^+/NH3}$\n",
                 "$\\ce{H2PO4^-/HPO4^{2-}}$\n"
               ]
             },
@@ -13027,7 +13027,7 @@
               "statement": "**Assinale** a alternativa com o sistema tamponante mais adequado para\npreparar um tampão com $\\mathrm{pH}$ próximo de $10$.\n",
               "solution": "",
               "answer": [
-                "$\\ce{NH4^+/NH3^-}$\n"
+                "$\\ce{(CH3)3NH^+/(CH3)3NH}$\n"
               ],
               "constants": {
                 "quantities": []
@@ -13035,10 +13035,10 @@
               "data": {
                 "quantities": [
                   {
-                    "id_": "pKa2(H3PO4)",
-                    "name": "constante de acidez 2 do ácido fosfórico",
-                    "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
-                    "value": "7.21",
+                    "id_": "pKa3(H3PO4)",
+                    "name": "constante de acidez 3 do ácido fosfórico",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4})",
+                    "value": "12.7",
                     "unit": "",
                     "prec": 3
                   },
@@ -13051,18 +13051,18 @@
                     "prec": 3
                   },
                   {
-                    "id_": "pKa(HNO2)",
-                    "name": "constante de acidez do ácido nitroso",
-                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HNO2})",
-                    "value": "3.37",
-                    "unit": "",
-                    "prec": 3
-                  },
-                  {
                     "id_": "pKb(NH3)",
                     "name": "constante de basicidade da amônia",
                     "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH3})",
                     "value": "4.75",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKb(piridina)",
+                    "name": "constante de basicidade da piridina",
+                    "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C5H5N})",
+                    "value": "8.75",
                     "unit": "",
                     "prec": 3
                   },
@@ -13080,10 +13080,10 @@
               "obj": 2,
               "choices": [
                 "$\\ce{CH3COOH/CH3CO2^-}$\n",
-                "$\\ce{HNO2/NO2^-}$\n",
-                "$\\ce{NH4^+/NH3^-}$\n",
-                "$\\ce{HClO2/ClO2^-}$\n",
-                "$\\ce{H2PO4^-/HPO4^{2-}}$\n"
+                "$\\ce{NH4^+/NH3}$\n",
+                "$\\ce{(CH3)3NH^+/(CH3)3NH}$\n",
+                "$\\ce{C5H5NH^+/C5H5N}$\n",
+                "$\\ce{HPO4^-/PO4^{3-}}$\n"
               ]
             },
             {
