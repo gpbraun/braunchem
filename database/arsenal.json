@@ -12022,11 +12022,11 @@
                 "quantities": [
                   {
                     "id_": "Kb(trietilamina)",
-                    "name": "Kb(trietilamina)",
-                    "symbol": "",
-                    "value": null,
+                    "name": "constante de basicidade da trietilamina",
+                    "symbol": "K_\\mathrm{b}(\\ce{(C2H5)3N})",
+                    "value": "1.0e-3",
                     "unit": "",
-                    "prec": 3
+                    "prec": 2
                   }
                 ]
               },
@@ -12217,11 +12217,11 @@
                 "quantities": [
                   {
                     "id_": "Kb(NH3)",
-                    "name": "Kb(NH3)",
-                    "symbol": "",
-                    "value": null,
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "1.8e-5",
                     "unit": "",
-                    "prec": 3
+                    "prec": 2
                   }
                 ]
               },
@@ -12250,11 +12250,11 @@
                 "quantities": [
                   {
                     "id_": "Kb(anilina)",
-                    "name": "Kb(anilina)",
-                    "symbol": "",
-                    "value": null,
+                    "name": "constante de basicidade da anilina",
+                    "symbol": "K_\\mathrm{b}(\\ce{C6H5NH2})",
+                    "value": "4.3e-10",
                     "unit": "",
-                    "prec": 3
+                    "prec": 2
                   }
                 ]
               },
@@ -12348,18 +12348,18 @@
               "data": {
                 "quantities": [
                   {
-                    "id_": "Kb(NH3)",
-                    "name": "Kb(NH3)",
-                    "symbol": "",
-                    "value": null,
-                    "unit": "",
-                    "prec": 3
-                  },
-                  {
                     "id_": "Ka(HCN)",
                     "name": "constante de acidez do ácido cianídrico",
                     "symbol": "K_\\mathrm{a}(\\ce{HCN})",
                     "value": "4.9e-10",
+                    "unit": "",
+                    "prec": 2
+                  },
+                  {
+                    "id_": "Kb(NH3)",
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "1.8e-5",
                     "unit": "",
                     "prec": 2
                   }
@@ -12389,18 +12389,18 @@
               "data": {
                 "quantities": [
                   {
-                    "id_": "Kb(piridina)",
-                    "name": "Kb(piridina)",
-                    "symbol": "",
-                    "value": null,
-                    "unit": "",
-                    "prec": 3
-                  },
-                  {
                     "id_": "Ka(CH3COOH)",
                     "name": "constante de acidez do ácido acético",
                     "symbol": "K_\\mathrm{a}(\\ce{CH3COOH})",
                     "value": "1.8e-5",
+                    "unit": "",
+                    "prec": 2
+                  },
+                  {
+                    "id_": "Kb(piridina)",
+                    "name": "constante de basicidade da piridina",
+                    "symbol": "K_\\mathrm{b}(\\ce{C5H5N})",
+                    "value": "1.8e-9",
                     "unit": "",
                     "prec": 2
                   }
@@ -12862,7 +12862,433 @@
           "title": "Titulações ácido-base"
         }
       ],
-      "problems": []
+      "problems": [
+        {
+          "__classname__": "ProblemSet",
+          "problems": [
+            {
+              "id_": "2I01",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I01.md",
+              "statement": "Uma solução tampão é $\\pu{0,15 mol.L-1}$ em $\\ce{HNO2(aq)}$ e\n$\\pu{0,2 mol.L-1}$ em $\\ce{NaNO2(aq)}$\n\n**Determine** o $\\mathrm{pH}$ da solução.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{3,49}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I02",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I02.md",
+              "statement": "Uma solução tampão é $\\pu{0,04 mol.L-1}$ em $\\ce{NH4Cl(aq)}$ e\n$\\pu{0,03 mol.L-1}$ em $\\ce{NH3(aq)}$\n\n**Determine** o $\\mathrm{pH}$ da solução.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{9,13}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I03",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I03.md",
+              "statement": "Foram dissolvidos $\\pu{0,02 mol}$ de $\\ce{NaOH(s)}$ em $\\pu{300 mL}$ de\numa solução tampão que é $\\pu{0,04 mol.L-1}$ em acetato de sódio e\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n\n**Determine** a variação de $\\mathrm{pH}$ da solução.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{1,21}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "Ka(CH3COOH)",
+                    "name": "constante de acidez do ácido acético",
+                    "symbol": "K_\\mathrm{a}(\\ce{CH3COOH})",
+                    "value": "1.8e-5",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I04",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I04.md",
+              "statement": "Foram dissolvidos $\\pu{0,01 mol}$ de $\\ce{HCl(g)}$ em $\\pu{500 mL}$ de\numa solução tampão que é $\\pu{0,04 mol.L-1}$ em acetato de sódio e\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n\n**Determine** a variação de $\\mathrm{pH}$ da solução.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{-0,4}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "Ka(CH3COOH)",
+                    "name": "constante de acidez do ácido acético",
+                    "symbol": "K_\\mathrm{a}(\\ce{CH3COOH})",
+                    "value": "1.8e-5",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I05",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I05.md",
+              "statement": "**Assinale** a alternativa com o sistema tamponante mais adequado para\npreparar um tampão com $\\mathrm{pH}$ próximo de $5$.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{CH3COOH/CH3CO2^-}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "pKa2(H3PO4)",
+                    "name": "constante de acidez 2 do ácido fosfórico",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
+                    "value": "7.21",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKa(CH3COOH)",
+                    "name": "constante de acidez do ácido acético",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH3COOH})",
+                    "value": "4.75",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKa(HClO2)",
+                    "name": "constante de acidez do ácido cloroso",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HClO2})",
+                    "value": "2",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKa(HNO2)",
+                    "name": "constante de acidez do ácido nitroso",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HNO2})",
+                    "value": "3.37",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKb(NH3)",
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "4.75",
+                    "unit": "",
+                    "prec": 3
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 0,
+              "choices": [
+                "$\\ce{CH3COOH/CH3CO2^-}$\n",
+                "$\\ce{HNO2/NO2^-}$\n",
+                "$\\ce{HClO2/ClO2^-}$\n",
+                "$\\ce{NH4^+/NH3^-}$\n",
+                "$\\ce{H2PO4^-/HPO4^{2-}}$\n"
+              ]
+            },
+            {
+              "id_": "2I06",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I06.md",
+              "statement": "**Assinale** a alternativa com o sistema tamponante mais adequado para\npreparar um tampão com $\\mathrm{pH}$ próximo de $10$.\n",
+              "solution": "",
+              "answer": [
+                "$\\ce{NH4^+/NH3^-}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "pKa2(H3PO4)",
+                    "name": "constante de acidez 2 do ácido fosfórico",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
+                    "value": "7.21",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKa(CH3COOH)",
+                    "name": "constante de acidez do ácido acético",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH3COOH})",
+                    "value": "4.75",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKa(HNO2)",
+                    "name": "constante de acidez do ácido nitroso",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HNO2})",
+                    "value": "3.37",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKb(NH3)",
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "4.75",
+                    "unit": "",
+                    "prec": 3
+                  },
+                  {
+                    "id_": "pKb(trimetilamina)",
+                    "name": "constante de basicidade da trimetilamina",
+                    "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{(CH3)3N})",
+                    "value": "4.19",
+                    "unit": "",
+                    "prec": 3
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": 2,
+              "choices": [
+                "$\\ce{CH3COOH/CH3CO2^-}$\n",
+                "$\\ce{HNO2/NO2^-}$\n",
+                "$\\ce{NH4^+/NH3^-}$\n",
+                "$\\ce{HClO2/ClO2^-}$\n",
+                "$\\ce{H2PO4^-/HPO4^{2-}}$\n"
+              ]
+            },
+            {
+              "id_": "2I07",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I07.md",
+              "statement": "**Determine** a razão entre as concentrações molares de íons acetato e\nde ácido acético necessária para tamponar uma solução em\n$\\mathrm{pH} = 5,3$.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{3,16}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "pKa(CH3COOH)",
+                    "name": "constante de acidez do ácido acético",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH3COOH})",
+                    "value": "4.75",
+                    "unit": "",
+                    "prec": 3
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I08",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I08.md",
+              "statement": "**Determine** a razão entre as concentrações molares de íons benzoato e\nde ácido benzóico necessária para tamponar uma solução em\n$\\mathrm{pH} = 3,5$.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{0,2}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "pKa(C6H5COOH)",
+                    "name": "constante de acidez do ácido benzóico",
+                    "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{C6H5COOH})",
+                    "value": "4.19",
+                    "unit": "",
+                    "prec": 3
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I09",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I09.md",
+              "statement": "Foram adicionados $\\pu{20 mL}$ de uma solução $\\pu{0,15 mol.L-1}$ de\n$\\ce{HCl(aq)}$ a $\\pu{25 mL}$ de uma solução $\\pu{0,11}$ m de\n$\\ce{NaOH(aq)}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{2,25}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I10",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I10.md",
+              "statement": "Foram adicionados $\\pu{30 mL}$ de uma solução $\\pu{0,12 mol.L-1}$ de\n$\\ce{HCl(aq)}$ a $\\pu{15 mL}$ de uma solução $\\pu{0,31}$ m de\n$\\ce{KOH(aq)}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{12,4}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": []
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I11",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I11.md",
+              "statement": "Considere a titulação de $\\pu{25 mL}$ de uma solução $\\pu{0,01 mol.L-1}$\nde $\\ce{HClO(aq)}$ com uma solução $\\pu{0,02 mol.L-1}$ de\n$\\ce{KOH(aq)}$.\n\n**Determine** o $\\mathrm{pH}$ no ponto estequiométrico.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{9,67}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "Ka(HClO)",
+                    "name": "constante de acidez do ácido hipocloroso",
+                    "symbol": "K_\\mathrm{a}(\\ce{HClO})",
+                    "value": "3.0e-8",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I12",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I12.md",
+              "statement": "Considere a titulação de $\\pu{25 mL}$ de uma solução $\\pu{0,02 mol.L-1}$\nde $\\ce{NH3(aq)}$ com uma solução $\\pu{0,015 mol.L-1}$ de\n$\\ce{HCl(aq)}$.\n\n**Determine** o $\\mathrm{pH}$ no ponto estequiométrico.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{5,66}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "Kb(NH3)",
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "1.8e-5",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I13",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I13.md",
+              "statement": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,05 mol.L-1}$ de ácido fórmico com $\\pu{5 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\pu{0,15 mol.L-1}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{3,39}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "Ka(HCOOH)",
+                    "name": "constante de acidez do ácido fórmico",
+                    "symbol": "K_\\mathrm{a}(\\ce{HCOOH})",
+                    "value": "1.8e-4",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            },
+            {
+              "id_": "2I14",
+              "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I14.md",
+              "statement": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,05 mol.L-1}$ de ácido fórmico com $\\pu{10 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\pu{0,15 mol.L-1}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
+              "solution": "\n",
+              "answer": [
+                "$\\pu{4,71}$\n"
+              ],
+              "constants": {
+                "quantities": []
+              },
+              "data": {
+                "quantities": [
+                  {
+                    "id_": "Ka(HCOOH)",
+                    "name": "constante de acidez do ácido fórmico",
+                    "symbol": "K_\\mathrm{a}(\\ce{HCOOH})",
+                    "value": "1.8e-4",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
+              },
+              "elements": [],
+              "obj": -1,
+              "choices": []
+            }
+          ],
+          "id_": "2I1",
+          "title": "Nível I"
+        }
+      ]
     },
     {
       "id_": "2J",
@@ -14949,7 +15375,7 @@
       "author": "Gabriel Braun",
       "affiliation": "Colégio e Curso Pensi, Coordenação de Química",
       "template": "braun, twocolumn",
-      "contents": "# As equações químicas\nO crescimento de uma criança, a produção de polímeros a partir do petróleo e a digestão da comida são o resultado de **reações químicas**, processos nos quais uma ou mais substâncias se convertem em outras substâncias. Este tipo de processo é uma mudança química. Os materiais iniciais são chamados de **reagentes**. As substâncias formadas são chamadas de **produtos**. Os produtos químicos disponíveis no laboratório também são chamados de reagentes. \n\n## A representação das reações químicas\nUma reação química é simbolizada por uma seta:\n$$\n    \\ce{ reagentes -> produtos }\n$$\nO sódio, por exemplo, é um metal mole e brilhante, que reage vigorosamente com água. Quando uma pequena quantidade do metal sódio é colocada em um recipiente com água, ocorre uma reação violenta, com formação rápida de gás hidrogênio e hidróxido de sódio que permanece em solução. Esta reação pode ser descrita como:\n$$\n    \\ce{ Na + H2O -> NaOH + H2 }\n$$\nEsse tipo de expressão é chamado de **equação simplificada**, porque mostra o essencial da reação (as identidades dos reagentes e dos produtos) em termos de fórmulas químicas. Uma equação simplificada é um resumo *qualitativo* de uma reação química.\n\nPara resumir as reações quantitativamente, é preciso reconhecer que os átomos não são criados nem destruídos em uma reação química: eles simplesmente mudam de parceiros. A principal evidência para essa conclusão é que não há mudança na massa total quando uma reação ocorre em um recipiente selado. A observação de que a massa total é constante durante uma reação química é chamada de **lei de conservação das massas**. Uma vez que átomos não podem ser criados ou destruídos, as fórmulas químicas de uma equação simplificada precisam ser multiplicadas por fatores que igualem os números de determinado átomo em cada lado da seta. Diz-se que a expressão resultante está balanceada e é chamada de **equação química**. Então, a equação balanceada é\n$$\n    \\ce{ 2 Na + 2 H2O -> 2 NaOH + H2 }\n$$\nAgora, existem quatro átomos de $\\ce{H}$, dois átomos de $\\ce{H}$ e dois átomos de $\\ce{O}$ em cada lado da equação, de acordo, portanto, com a lei de conservação das massas. Os números que multiplicam todas as fórmulas químicas de uma equação química (por exemplo, o $2$ que multiplica $\\ce{H2O}$) são denominados **coeficientes estequiométricos** da substância. Um coeficiente $1$ (como no caso de $\\ce{H2}$) não é escrito explicitamente.\n\n:::warning\n#### Atenção\nAtenção para não confundir coeficientes com subscritos. Os subscritos em uma fórmula dizem quantos átomos daquele elemento estão presentes em uma molécula. Os coeficientes mostram quantas fórmulas unitárias ou moléculas estão presentes.\n:::\n\nUma equação química normalmente indica também o estado físico de cada reagente e produto, usando um símbolo associado aos **estados da matéria**: sólido (s), líquido (l), gás (g) e solução em água (aq). Para a reação entre o sódio e a água líquida, por exemplo, a equação química completa e balanceada é, portanto,\n$$\n    \\ce{ 2 Na(s) + 2 H2O(l) -> 2 NaOH(aq) + H2(g) }\n$$\nQuando é importante enfatizar que uma reação requer temperatura elevada, a letra grega $\\Delta$ (delta) é escrita sobre a seta. Assim, por exemplo, a conversão de calcário em cal ocorre em cerca de $\\pu{800 \\degree C}$ e podemos escrever\n$$\n    \\ce{ CaCO3(s) ->[$\\Delta$] CaO(s) + CO2(g) }\n$$\nAlgumas vezes, um **catalisador**, uma substância que acelera uma reação mas não é consumida, é adicionado. Assim, o pentóxido de vanádio, $\\ce{V2O5}$, é um catalisador usado em uma etapa do processo industrial de produção de ácido sulfúrico. A presença de um catalisador é indicada escrevendo-se a fórmula do catalisador sobre a seta da reação:\n$$\n    \\ce{ 2 SO2(g) + O2(g) ->[V2O5] 2 SO3(g) }\n$$\n\n:::focus\nUma equação química balanceada simboliza as mudanças qualitativas e quantitativas que ocorrem em uma reação química. Os coeficientes estequiométricos resumem as quantidades relativas (números de mols) dos reagentes e produtos que participam da reação.\n:::\n\n## As equações químicas balanceadas\nUma boa estratégia para equações mais complexas consiste em balancear um elemento por vez, começando com aquele que aparece no menor número de fórmulas, e balanceando os elementos não combinados no final. Por exemplo, suponha que você precise balancear a equação da combustão do metano. A combustão se refere à queima no ar, mais especificamente, à reação com oxigênio molecular. Neste caso, os produtos são o dióxido de carbono e a água. Primeiro, escreva a equação simplificada:\n$$\n    \\ce{ CH4 + O2 -> CO2 + H2O }\n$$\nÉ mais fácil balancear inicialmente o carbono e o hidrogênio, deixando o oxigênio para o final. Depois de balancear a equação, especifique os estados da matéria. Se água for produzida nas condições do experimento, a equação é escrita como:\n$$\n    \\ce{ CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g) }\n$$\n\n:::example\n### Balanceamento de uma equação química\n**Balanceie** a equação química da combustão de hexano líquido, $\\ce{C6H14}$, em dióxido de carbono gasoso e água gasosa.\n\n#### Escreva a equação simplificada.\n$$\n    \\ce{ C6H14 + O2 -> CO2 + H2O }\n$$\n\n#### Balanceie o carbono e o hidrogênio\n$$\n    \\ce{ C6H14 + O2 -> 6 CO2 + 7 H2O }\n$$\n\n#### Balanceie agora o oxigênio. Neste caso, um coeficiente estequiométrico fracionário será necessário.\n$$\n    \\ce{ C6H14 + 19/2 O2 -> 6 CO2 + 7 H2O }\n$$\n\n#### A equação está balanceada. Multiplique por 2 para eliminar a fração e obter os menores coeficientes inteiros possíveis.\n$$\n    \\ce{ 2 C6H14 + 19 O2 -> 12 CO2 + 14 H2O }\n$$\n\n#### Informe os estados da matéria.\n$$\n    \\ce{ 2 C6H14(g) + 19 O2(g) -> 12 CO2(g) + 14 H2O(g) }\n$$\n:::\n\n:::focus\nUma equação química expressa uma reação química em termos das fórmulas químicas. Os coeficientes estequiométricos são escolhidos de modo a mostrar que os átomos não são criados nem destruídos na reação.\n:::\n\n# As estequiometria das reações\nAlgumas vezes precisamos saber que quantidade de produto esperar em uma reação ou quanto reagente precisamos utilizar para fabricar a quantidade desejada de produto. Para fazer este tipo de cálculo, você vai usar o aspecto quantitativo das reações químicas, denominado estequiometria das reações, na qual os coeficientes estequiométricos em uma reação química balanceada são interpretados com base nas quantidades relativas que reagem ou são produzidas. Logo, os coeficientes estequiométricos na reação\n$$\n    \\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\n$$\nindicam que, quando $\\pu{1 mol}$ de $\\ce{N2}$ reage, $\\pu{3 mols}$ de $\\ce{H2}$ são consumidos e produzem-se $\\pu{2 mol}$ de $\\ce{NH3}$. As quantidades relativas de reagentes e produtos envolvidos em uma reação química são resumidas como **relações estequiométricas**.\n$$\n    \\dfrac{ n(\\ce{N2}) }{1} = \\dfrac{ n(\\ce{H2}) }{3} = \\dfrac{ n(\\ce{NH3}) }{2} \n$$\n\n## As predições mol a mol\nA estequiometria tem aplicações importantes, como a estimativa da quantidade de produto\nque se forma em uma reação. Por exemplo, em algumas células a combustível usadas para gerar eletricidade, o oxigênio reage com o hidrogênio para produzir água. Vejamos como calcular a quantidade de água formada quando $\\pu{0,25 mol}$ de $\\ce{O2}$ reage com o gás hidrogênio. A equação química da reação é\n$$\n    \\ce{ 2 H2(g) + O2(g) -> 2 H2O(l) }\n$$\nA informação de que $\\pu{1 mol}$ de $\\ce{O2}$ reage para formar $\\pu{2 mol}$ de $\\ce{H2O}$ é resumida, escrevendo a relação estequiométrica entre o oxigênio e a água:\n$$\n    \\dfrac{ n(\\ce{O2}) }{1} = \\dfrac{ n(\\ce{H2O}) }{2}\n$$\nEssa relação permite relacionar a quantidade de moléculas de $\\ce{O2}$ à quantidade de moléculas de $\\ce{H2O}$ produzidas.\n$$\n    n(\\ce{H2O}) = \\pu{0,25 mol} \\times \\dfrac{2}{1} = \\pu{0,5 mol}\n$$\n\n:::example\n### Cálculo da quantidade de produto que pode ser obtida de uma dada quantidade de reagente\n**Calcule** a quantidade de amônia, $\\ce{NH3}$, que é produzida a partir de $\\pu{6 mol}$ de gás hidrogênio na reação com gás nitrogênio.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\n$$\n\n#### Use a relação estequiométrica para converter a quantidade de $\\ce{H2}$ na quantidade de $\\ce{NH3}$.\n$$\nn(\\ce{NH3}) \n    = \\pu{6 mol} \\times \\dfrac{2}{3}\n    = \\boxed{ \\pu{4 mol} }\n$$\n:::\n\n:::focus\nA equação química balanceada de uma reação serve para estabelecer a relação estequiométrica, o fator usado para converter a quantidade de uma substância na quantidade de outra.\n:::\n\n## As predições massa a massa\nPara determinar a massa de produto que pode ser formada a partir da massa conhecida de um reagente, a massa do reagente é convertida em quantidade em mols utilizando sua massa molar. Após, a relação estequiométrica da equação balanceada é utilizada para estimar a quantidade de produto em mols. Por fim, esta quantidade de produto é convertida em massa utilizando sua massa molar.\n\n:::example\n### Cálculo da massa de produto que pode ser obtida de uma dada massa de reagente\nEm uma siderúrgica, o óxido de ferro(III), $\\ce{Fe2O3}$, presente no minério de ferro é reduzido por monóxido de carbono ao metal ferro e ao gás dióxido de carbono em um alto-forno.\n\n**Calcule** a massa de óxido de ferro necessária para produzir $\\pu{10 kg}$ de ferro.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ Fe2O3(s) + 3 CO(g) -> 2 Fe(s) + 3 CO2(g) }\n$$\n\n#### Converta a massa de ferro em quantidade utilizando sua massa molar ($n = m/M$). A massa molar do $\\ce{Fe}$ é $\\pu{56 g.mol-1}$.\n$$\n    n(\\ce{Fe}) \n        = \\dfrac{ \\pu{7 kg} }{ \\pu{56 g.mol-1} } = \\pu{125 mol}\n$$\n\n#### Use a relação estequiométrica para converter a quantidade de $\\ce{Fe}$ na quantidade de $\\ce{Fe2O3}$.\n$$\nn(\\ce{Fe2O3}) \n    = \\pu{125 mol} \\times \\dfrac{1}{2}\n    = \\pu{62,5 mol}\n$$\n\n#### Converta a quantidade de $\\ce{Fe2O3}$ em massa utilizando sua massa molar ($m = nM$). A massa molar do $\\ce{Fe2O3}$ é $\\pu{160 g.mol-1}$.\n$$\n    m(\\ce{Fe2O3}) \n        = \\pu{62,5 mol} \\times \\pu{160 g.mol-1}\n        = \\boxed{ \\pu{10 kg} }\n$$\n:::\n\n:::focus\nEm um cálculo massa a massa, converta a massa fornecida em quantidade de mols, aplique relação estequiométrica para obter a quantidade desejada e, por fim, converta a quantidade de mols em massa da substância desconhecida.\n:::\n\n# Os limites da reação\nOs cálculos estequiométricos da quantidade de massa de produto formado em uma reação baseiam-se em uma visão ideal do mundo. Eles supõem, por exemplo, que as substâncias reagem exatamente como está escrito em uma equação química. Na prática, isso nem sempre acontece. Uma parte dos reagentes pode ser consumida em reações competitivas, isto é, reações que têm a mesma duração da que você está estudando e usam alguns dos mesmos reagentes. Outra possibilidade é que a reação não esteja completa quando as medidas são feitas. Uma terceira possibilidade é que muitas reações não se completam. Aparentemente, elas se interrompem quando certa parte dos reagentes foi consumida. Portanto, a quantidade real do produto pode ser inferior à que foi calculada a partir da estequiometria da reação.\n\n## O rendimento da reação\nO **rendimento teórico** de uma reação é a quantidade *máxima* (mols, massa ou volume) de produto que pode ser obtida a partir de uma determinada quantidade de reagente. O **rendimento percentual**, $\\eta$, é a fração do rendimento teórico de fato produzida, expressa como percentagem:\n$$\n    \\eta \n        = \\dfrac{ \\text{rendimento real} }{ \\text{rendimento teórico} }\n$$\n\n:::example\n### Cálculo do rendimento percentual de um produto\nA combustão incompleta do combustível em um motor mal calibrado pode produzir monóxido de carbono, tóxico, junto com o dióxido de carbono e a água normalmente obtidos. No teste de um motor, $\\pu{684 g}$ de octano foram incinerados sob certas condições, obtendo-se $\\pu{1,9 kg}$ de dióxido de carbono. \n\n**Calcule** o rendimento percentual da formação de dióxido de carbono.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ 2 C8H18(l) + 25 O2(g) -> 16 CO2(g) + 18 H2O(l) }\n$$\n\n#### Converta a massa de octano dada em gramas em quantidade utilizando sua massa molar ($n = m/M$). A massa molar do $\\ce{C8H18}$ é $\\pu{114 g.mol-1}$.\n$$\n    n(\\ce{C8H18}) \n        = \\dfrac{ \\pu{684 g} }{ \\pu{114 g.mol-1} }\n        = \\pu{6 mol}\n$$\n\n#### Use a relação estequiométrica para converter a quantidade de $\\ce{C8H18}$ na quantidade de $\\ce{CO2}$.\n$$\n    n(\\ce{CO2}) \n        = \\pu{6 mol} \\times \\dfrac{ 16 }{ 2 }\n        = \\pu{48 mol}\n$$\n\n#### Converta a quantidade de $\\ce{CO2}$ em massa usando a massa molar ($m = nM$). A massa molar do $\\ce{CO2}$ é $\\pu{44 g.mol-1}$.\n$$\n    m(\\ce{CO2}) \n        = \\pu{48 mol} \\times \\pu{44 g.mol-1}\n        = \\pu{2,11 kg}\n$$\n\n#### Calcule o rendimento percentual de dióxido de carbono, sabendo que somente $\\pu{1,9 kg}$ foi produzido, não $\\pu{2,11 kg}$.\n$$\n    \\eta(\\ce{CO2}) \n        = \\dfrac{ \\pu{1,9 kg} }{ \\pu{2,11 kg} }\n        = \\pu{0,9}\n        = \\boxed{ \\pu{90}\\% }\n$$\n:::\n\n## Os reagentes limitantes\nO **reagente limitante** de uma reação é o reagente que determina o rendimento máximo do produto. Um reagente limitante é como uma peça com pouco estoque em uma fábrica de motocicletas. Imagine que só existam oito rodas e sete chassis de motos. Como cada chassi requer duas rodas, só existem rodas suficientes para quatro motos. Em outras palavras, as rodas fazem o papel de reagente limitante. Quando todas as rodas forem usadas, três chassis permanecerão sem uso porque há chassis em excesso.\n\nEm alguns casos, o reagente limitante não é tão óbvio e precisa ser encontrado por cálculos. Por exemplo, para identificar o reagente limitante na reação\n$$\n    \\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\n$$\né preciso comparar o número de mols de cada elemento fornecido com coeficientes estequiométricos. Assim, vamos supor que você tenha disponíveis $\\pu{1 mol}$ de $\\ce{N2}$, mas somente $\\pu{2 mol}$ de $\\ce{H2}$. Como a quantidade de hidrogênio é menor do que o necessário, segundo a relação estequiométrica, o hidrogênio é o reagente limitante, mesmo estando presente em quantidade maior. Uma vez identificado o reagente limitante, é possível calcular a quantidade de produto que pode se formar. Você também pode calcular a quantidade de reagente em excesso no final da reação.\n\n:::example\n### Identificação do reagente limitante\nO carbeto de cálcio, $\\ce{CaC2}$, reage com água para formar hidróxido de cálcio e o gás inflamável etino, $\\ce{C2H2}$. Em um experimento, $\\pu{100 g}$ de água reagem com $\\pu{100 g}$ de carbeto de cálcio.\n\n- **Calcule** massa de etino pode ser obtida.\n- **Calcule** massa do reagente em excesso que permanece após o término da reação.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ CaC2(s) + 2 H2O(l) -> Ca(OH)2(aq) + C2H2(g) }\n$$\n\n#### Converta as massas em quantidade usando a massa molar ($n = m/M$). As massas molares do $\\ce{CaC2}$ e da $\\ce{H2O}$ são $\\pu{64 g.mol-1}$ e $\\pu{18 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{CaC2}) \n        &= \\dfrac{ \\pu{100 g} }{ \\pu{64 g.mol-1} } = \\pu{1,56 mol} \\\\\n    n(\\ce{H2O}) \n        &= \\dfrac{ \\pu{100 g} }{ \\pu{18 g.mol-1} } = \\pu{5,55 mol}\n\\end{aligned}\n$$\n\n#### Para cada reagente, calcule quantos mols de produto ($\\ce{C2H2}$) ele forma.\nPara o $\\ce{CaC2}$:\n$$\n    n(\\ce{C2H2}) \n        = \\pu{1,56 mol} \\times \\dfrac{1}{1}\n        = \\pu{1,56 mol}\n$$\nPara a $\\ce{H2O}$:\n$$\n    n(\\ce{C2H2}) \n        = \\pu{5,55 mol} \\times \\dfrac{1}{2}\n        = \\pu{2,78 mol}\n$$\nO $\\ce{CaC2}$ só pode produzir $\\pu{1,56 mol}$ de $\\ce{C2H2}$. Portanto, ele é o reagente limitante.\n\n#### Converta a quantidade de $\\ce{C2H2}$ em massa usando a massa molar ($m = nM$). A massa molar do $\\ce{C2H2}$ é $\\pu{26 g.mol-1}$.\n$$\n    m(\\ce{C2H2}) \n        = \\pu{1,56 mol} \\times \\pu{26 g.mol-1} \n        = \\boxed{ \\pu{40,6 g} }\n$$\n\n#### O reagente em excesso é a $\\ce{H2O}$. Como $\\ce{5,55 mol}\\;\\ce{H2O}$ foram fornecidos e $\\ce{3,12 mol}\\;\\ce{H2O}$ foram consumidos, a quantidade de água que sobrou é $\\pu{5,55 mol} - \\pu{3,12 mol} = \\pu{2,43 mol}$. Portanto, a massa do reagente em excesso ao final da reação é\n$$\n    m_\\text{final}(\\ce{H2O}) \n        = \\pu{2,43 mol} \\times \\pu{18 g.mol-1}\n        = \\boxed{ \\pu{43,8 g} }\n$$\n:::\n\n:::example\n### Cálculo do rendimento percentual de um reagente limitante\nO processo Ostwald é usado para a produção de ácido nítrico a partir da amônia. Na última etapa do processo, $\\pu{267 kg}$ de dióxido de nitrogênio reagiram com $\\pu{72 kg}$ de água para produzir óxido nítrico, $\\ce{NO}$, e $\\pu{245 kg}$ de ácido nítrico, $\\ce{HNO3}$.\n\n**Calcule** o rendimento percentual da formação de ácido nítrico.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ 3 NO2(g) + H2O(l) -> 2 HNO3(aq) + NO(g) }\n$$\n\n#### Converta as massas em quantidade usando a massa molar ($n = m/M$). As massas molares do $\\ce{NO2}$ e da $\\ce{H2O}$ são $\\pu{46 g.mol-1}$ e $\\pu{18 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{NO2}) \n        &= \\dfrac{ \\pu{267 kg} }{ \\pu{46 g.mol-1} } = \\pu{6 kmol} \\\\\n    n(\\ce{H2O}) \n        &= \\dfrac{ \\pu{72 kg} }{ \\pu{18 g.mol-1} } = \\pu{4 kmol}\n\\end{aligned}\n$$\n\n#### Para cada reagente, calcule quantos mols de produto ($\\ce{HNO3}$) ele forma.\nPara o $\\ce{NO2}$:\n$$\n    n(\\ce{HNO3}) \n        = \\pu{6 kmol} \\times \\dfrac{2}{3}\n        = \\pu{4 kmol}\n$$\nPara a $\\ce{H2O}$:\n$$\n    n(\\ce{HNO3}) \n        = \\pu{4 kmol} \\times \\dfrac{2}{1}\n        = \\pu{8 kmol}\n$$\nO $\\ce{NO2}$ só pode produzir $\\pu{4 kmol}$ de $\\ce{HNO3}$. Portanto, ele é o reagente limitante.\n\n#### Converta a quantidade de $\\ce{HNO3}$ em massa usando a massa molar ($n = m/M$). A massa molar do $\\ce{HNO3}$ é $\\pu{77 g.mol-1}$.\n$$\nm(\\ce{HNO3}) \n    = \\pu{4 kmol} \\times \\pu{77 g.mol-1}\n    = \\pu{308 kg}\n$$\n\n#### Calcule o rendimento percentual de dióxido de carbono, sabendo que somente $\\pu{245 kg}$ foram produzidos, não $\\pu{308 kg}$.\n$$\n    \\eta(\\ce{HNO3}) \n        = \\dfrac{ \\pu{245 kg} }{ \\pu{308 kg} }\n        = \\pu{0,8}\n        = \\boxed{ \\pu{80}\\% }\n$$\n:::\n\n:::focus\nO reagente limitante de uma reação é o reagente que está em quantidade menor do que o necessário, segundo a relação estequiométrica entre os reagentes.\n:::\n\n# A análise gravimétrica\n\n## A análise por combustão\nUma técnica usada nos laboratórios químicos modernos é a determinação das fórmulas empíricas pela análise por combustão. Queima-se a amostra em um tubo por onde passa um fluxo abundante de oxigênio. O excesso de oxigênio assegura que o reagente limitante é a amostra. Todo o hidrogênio do composto converte-se em água, todo o carbono converte-se em dióxido de carbono e todo o nitrogênio converte-se em gás nitrogênio. Na versão moderna da técnica, os gases produzidos são separados por cromatografia e suas quantidades relativas são determinadas pela medida da condutividade térmica dos gases que saem do aparelho.\n\nSob excesso de oxigênio, cada átomo de carbono do composto transforma-se em uma molécula de dióxido de carbono. Portanto,\n$$\n    n(\\ce{C})_\\text{amostra} = n(\\ce{CO2})_\\text{produto}\n$$\nPor isso, ao medir a massa de dióxido de carbono produzida e converter em mols, obtém-se o número de mols de átomos $\\ce{C}$ da amostra original.\n\nDe maneira semelhante, cada átomo de hidrogênio do composto contribui, sob excesso de oxigênio, para a formação de uma molécula de água durante a combustão.\n$$\n    n(\\ce{H})_\\text{amostra} = 2 \\times n(\\ce{H2O})_\\text{produto}\n$$\nPor isso, conhecendo-se a massa de água produzida quando o composto queima sob excesso de oxigênio, obtém-se a quantidade de $\\ce{H}$ da amostra original.\n\nMuitos compostos orgânicos também contêm oxigênio. Se o composto só contém carbono, hidrogênio e oxigênio, é possível calcular a massa de oxigênio inicialmente presente ao subtrair as massas de carbono e hidrogênio da massa original da amostra. A massa de oxigênio pode ser convertida em quantidade de $\\ce{O}$ usando a massa molar dos átomos de oxigênio.\n\n:::example\n### Determinação de uma fórmula empírica pela análise por combustão\nUma amostra de $\\pu{1,61 g}$ de um composto recém-sintetizado, do qual se sabia que continha somente $\\ce{C}$, $\\ce{H}$ e $\\ce{O}$ foi analisado por combustão. As massas de água e dióxido de carbono produzidas foram $\\pu{1,9 g}$ e $\\pu{3,1 g}$, respectivamente. \n\n**Determine** a fórmula empírica do composto.\n\n#### Converta a quantidade de $\\ce{CO2}$ produzida em quantidade e massa de $\\ce{C}$ na amostra. As massas molares do $\\ce{C}$ e da $\\ce{CO2}$ são $\\pu{12 g.mol-1}$ e $\\pu{44 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{C}) \n        &= n(\\ce{CO2}) \n        = \\dfrac{ \\pu{3,1 g} }{ \\pu{44 g.mol-1} } \n        = \\pu{0,7 mol} \\\\\n    m(\\ce{C}) \n        &= \\pu{0,7 mol} \\times \\pu{12 g.mol-1} = \\pu{8,4 g}\n\\end{aligned}\n$$\n\n#### Converta a quantidade de $\\ce{H2O}$ produzida em quantidade e massa de $\\ce{H}$ na amostra. As massas molares do $\\ce{H}$ e da $\\ce{H2O}$ são $\\pu{1 g.mol-1}$ e $\\pu{18 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{H}) \n        &= 2 \\times n(\\ce{H2O}) \n        = 2 \\times \\dfrac{ \\pu{1,9 g} }{ \\pu{19 g.mol-1} } \n        = \\pu{0,21 mol} \\\\\n    m(\\ce{H}) \n        &= \\pu{0,21 mol} \\times \\pu{1 g.mol-1} = \\pu{0,21 g}\n\\end{aligned}\n$$\n\n#### Calcule a massa de oxigênio da amostra a partir da diferença entre a massa da amostra e a massa total de $\\ce{C}$ e $\\ce{H}$. Converta a massa de $\\ce{O}$ na amostra em quantidade usando a massa molar. A massa molar do $\\ce{O}$ é $\\pu{16 g.mol-1}$.\n$$\n\\begin{aligned}\n    m(\\ce{O}) \n        &= \\pu{1,61 g} - \\pu{0,84 g} - \\pu{0,21 g} = \\pu{0,56 g} \\\\\n    n(\\ce{O}) \n        &= \\dfrac{ \\pu{0,56 g} }{ \\pu{16 g.mol-1} } = \\pu{0,035 mol}\n\\end{aligned}\n$$\n\n#### Divida a quantidade de $\\ce{C}$, $\\ce{H}$ e $\\ce{O}$ pela menor quantidade ($\\pu{0,035 mol}$).\n$$\n\\begin{aligned}\n    n(\\ce{C}) &: \\dfrac{\\pu{0,7 mol}}{\\pu{0,035 mol}} = 2 \\\\\n    n(\\ce{H}) &: \\dfrac{\\pu{0,21 mol}}{\\pu{0,035 mol}} = 6 \\\\\n    n(\\ce{O}) &: \\dfrac{\\pu{0,035 mol}}{\\pu{0,035 mol}} = 1\n\\end{aligned}\n$$\nPor fim, a fórmula empírica é: $\\boxed{ \\ce{ C2H6O } }$\n:::\n\n:::focus\nEm uma análise por combustão, as quantidades de átomos de $\\ce{C}$, $\\ce{H}$ e $\\ce{O}$ na amostra de um composto e, portanto, sua fórmula empírica, são determinadas a partir das massas de dióxido de carbono e água produzidas quando o composto queima sob excesso de oxigênio.\n:::\n\n## A análise térmica",
+      "contents": "# As equações químicas\nO crescimento de uma criança, a produção de polímeros a partir do petróleo e a digestão da comida são o resultado de **reações químicas**, processos nos quais uma ou mais substâncias se convertem em outras substâncias. Este tipo de processo é uma mudança química. Os materiais iniciais são chamados de **reagentes**. As substâncias formadas são chamadas de **produtos**. Os produtos químicos disponíveis no laboratório também são chamados de reagentes. \n\n## A representação das reações químicas\nUma reação química é simbolizada por uma seta:\n$$\n    \\ce{ reagentes -> produtos }\n$$\nO sódio, por exemplo, é um metal mole e brilhante, que reage vigorosamente com água. Quando uma pequena quantidade do metal sódio é colocada em um recipiente com água, ocorre uma reação violenta, com formação rápida de gás hidrogênio e hidróxido de sódio que permanece em solução. Esta reação pode ser descrita como:\n$$\n    \\ce{ Na + H2O -> NaOH + H2 }\n$$\nEsse tipo de expressão é chamado de **equação simplificada**, porque mostra o essencial da reação (as identidades dos reagentes e dos produtos) em termos de fórmulas químicas. Uma equação simplificada é um resumo *qualitativo* de uma reação química.\n\nPara resumir as reações quantitativamente, é preciso reconhecer que os átomos não são criados nem destruídos em uma reação química: eles simplesmente mudam de parceiros. A principal evidência para essa conclusão é que não há mudança na massa total quando uma reação ocorre em um recipiente selado. A observação de que a massa total é constante durante uma reação química é chamada de **lei de conservação das massas**. Uma vez que átomos não podem ser criados ou destruídos, as fórmulas químicas de uma equação simplificada precisam ser multiplicadas por fatores que igualem os números de determinado átomo em cada lado da seta. Diz-se que a expressão resultante está balanceada e é chamada de **equação química**. Então, a equação balanceada é\n$$\n    \\ce{ 2 Na + 2 H2O -> 2 NaOH + H2 }\n$$\nAgora, existem quatro átomos de $\\ce{H}$, dois átomos de $\\ce{H}$ e dois átomos de $\\ce{O}$ em cada lado da equação, de acordo, portanto, com a lei de conservação das massas. Os números que multiplicam todas as fórmulas químicas de uma equação química (por exemplo, o $2$ que multiplica $\\ce{H2O}$) são denominados **coeficientes estequiométricos** da substância. Um coeficiente $1$ (como no caso de $\\ce{H2}$) não é escrito explicitamente.\n\n:::warning\n#### Atenção\nAtenção para não confundir coeficientes com subscritos. Os subscritos em uma fórmula dizem quantos átomos daquele elemento estão presentes em uma molécula. Os coeficientes mostram quantas fórmulas unitárias ou moléculas estão presentes.\n:::\n\nUma equação química normalmente indica também o estado físico de cada reagente e produto, usando um símbolo associado aos **estados da matéria**: sólido (s), líquido (l), gás (g) e solução em água (aq). Para a reação entre o sódio e a água líquida, por exemplo, a equação química completa e balanceada é, portanto,\n$$\n    \\ce{ 2 Na(s) + 2 H2O(l) -> 2 NaOH(aq) + H2(g) }\n$$\nQuando é importante enfatizar que uma reação requer temperatura elevada, a letra grega $\\Delta$ (delta) é escrita sobre a seta. Assim, por exemplo, a conversão de calcário em cal ocorre em cerca de $\\pu{800 \\degree C}$ e podemos escrever\n$$\n    \\ce{ CaCO3(s) ->[$\\Delta$] CaO(s) + CO2(g) }\n$$\nAlgumas vezes, um **catalisador**, uma substância que acelera uma reação mas não é consumida, é adicionado. Assim, o pentóxido de vanádio, $\\ce{V2O5}$, é um catalisador usado em uma etapa do processo industrial de produção de ácido sulfúrico. A presença de um catalisador é indicada escrevendo-se a fórmula do catalisador sobre a seta da reação:\n$$\n    \\ce{ 2 SO2(g) + O2(g) ->[V2O5] 2 SO3(g) }\n$$\n\n:::focus\nUma equação química balanceada simboliza as mudanças qualitativas e quantitativas que ocorrem em uma reação química. Os coeficientes estequiométricos resumem as quantidades relativas (números de mols) dos reagentes e produtos que participam da reação.\n:::\n\n## As equações químicas balanceadas\nUma boa estratégia para equações mais complexas consiste em balancear um elemento por vez, começando com aquele que aparece no menor número de fórmulas, e balanceando os elementos não combinados no final. Por exemplo, suponha que você precise balancear a equação da combustão do metano. A combustão se refere à queima no ar, mais especificamente, à reação com oxigênio molecular. Neste caso, os produtos são o dióxido de carbono e a água. Primeiro, escreva a equação simplificada:\n$$\n    \\ce{ CH4 + O2 -> CO2 + H2O }\n$$\nÉ mais fácil balancear inicialmente o carbono e o hidrogênio, deixando o oxigênio para o final. Depois de balancear a equação, especifique os estados da matéria. Se água for produzida nas condições do experimento, a equação é escrita como:\n$$\n    \\ce{ CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g) }\n$$\n\n:::example\n### Balanceamento de uma equação química\n**Balanceie** a equação química da combustão de hexano líquido, $\\ce{C6H14}$, em dióxido de carbono gasoso e água gasosa.\n\n#### Escreva a equação simplificada.\n$$\n    \\ce{ C6H14 + O2 -> CO2 + H2O }\n$$\n\n#### Balanceie o carbono e o hidrogênio\n$$\n    \\ce{ C6H14 + O2 -> 6 CO2 + 7 H2O }\n$$\n\n#### Balanceie agora o oxigênio. Neste caso, um coeficiente estequiométrico fracionário será necessário.\n$$\n    \\ce{ C6H14 + 19/2 O2 -> 6 CO2 + 7 H2O }\n$$\n\n#### A equação está balanceada. Multiplique por 2 para eliminar a fração e obter os menores coeficientes inteiros possíveis.\n$$\n    \\ce{ 2 C6H14 + 19 O2 -> 12 CO2 + 14 H2O }\n$$\n\n#### Informe os estados da matéria.\n$$\n    \\ce{ 2 C6H14(g) + 19 O2(g) -> 12 CO2(g) + 14 H2O(g) }\n$$\n:::\n\n:::focus\nUma equação química expressa uma reação química em termos das fórmulas químicas. Os coeficientes estequiométricos são escolhidos de modo a mostrar que os átomos não são criados nem destruídos na reação.\n:::\n\n# As estequiometria das reações\nAlgumas vezes precisamos saber que quantidade de produto esperar em uma reação ou quanto reagente precisamos utilizar para fabricar a quantidade desejada de produto. Para fazer este tipo de cálculo, você vai usar o aspecto quantitativo das reações químicas, denominado estequiometria das reações, na qual os coeficientes estequiométricos em uma reação química balanceada são interpretados com base nas quantidades relativas que reagem ou são produzidas. Logo, os coeficientes estequiométricos na reação\n$$\n    \\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\n$$\nindicam que, quando $\\pu{1 mol}$ de $\\ce{N2}$ reage, $\\pu{3 mols}$ de $\\ce{H2}$ são consumidos e produzem-se $\\pu{2 mol}$ de $\\ce{NH3}$. As quantidades relativas de reagentes e produtos envolvidos em uma reação química são resumidas como **relações estequiométricas**.\n$$\n    \\dfrac{ n(\\ce{N2}) }{1} = \\dfrac{ n(\\ce{H2}) }{3} = \\dfrac{ n(\\ce{NH3}) }{2} \n$$\n\n## As predições mol a mol\nA estequiometria tem aplicações importantes, como a estimativa da quantidade de produto\nque se forma em uma reação. Por exemplo, em algumas células a combustível usadas para gerar eletricidade, o oxigênio reage com o hidrogênio para produzir água. Vejamos como calcular a quantidade de água formada quando $\\pu{0,25 mol}$ de $\\ce{O2}$ reage com o gás hidrogênio. A equação química da reação é\n$$\n    \\ce{ 2 H2(g) + O2(g) -> 2 H2O(l) }\n$$\nA informação de que $\\pu{1 mol}$ de $\\ce{O2}$ reage para formar $\\pu{2 mol}$ de $\\ce{H2O}$ é resumida, escrevendo a relação estequiométrica entre o oxigênio e a água:\n$$\n    \\dfrac{ n(\\ce{O2}) }{1} = \\dfrac{ n(\\ce{H2O}) }{2}\n$$\nEssa relação permite relacionar a quantidade de moléculas de $\\ce{O2}$ à quantidade de moléculas de $\\ce{H2O}$ produzidas.\n$$\n    n(\\ce{H2O}) = \\pu{0,25 mol} \\times \\dfrac{2}{1} = \\pu{0,5 mol}\n$$\n\n:::example\n### Cálculo da quantidade de produto que pode ser obtida de uma dada quantidade de reagente\n**Calcule** a quantidade de amônia, $\\ce{NH3}$, que é produzida a partir de $\\pu{6 mol}$ de gás hidrogênio na reação com gás nitrogênio.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\n$$\n\n#### Use a relação estequiométrica para converter a quantidade de $\\ce{H2}$ na quantidade de $\\ce{NH3}$.\n$$\n    n(\\ce{NH3}) \n        = \\pu{6 mol} \\times \\dfrac{2}{3}\n        = \\boxed{ \\pu{4 mol} }\n$$\n:::\n\n:::focus\nA equação química balanceada de uma reação serve para estabelecer a relação estequiométrica, o fator usado para converter a quantidade de uma substância na quantidade de outra.\n:::\n\n## As predições massa a massa\nPara determinar a massa de produto que pode ser formada a partir da massa conhecida de um reagente, a massa do reagente é convertida em quantidade em mols utilizando sua massa molar. Após, a relação estequiométrica da equação balanceada é utilizada para estimar a quantidade de produto em mols. Por fim, esta quantidade de produto é convertida em massa utilizando sua massa molar.\n\n:::example\n### Cálculo da massa de produto que pode ser obtida de uma dada massa de reagente\nEm uma siderúrgica, o óxido de ferro(III), $\\ce{Fe2O3}$, presente no minério de ferro é reduzido por monóxido de carbono ao metal ferro e ao gás dióxido de carbono em um alto-forno.\n\n**Calcule** a massa de óxido de ferro necessária para produzir $\\pu{7 kg}$ de ferro.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ Fe2O3(s) + 3 CO(g) -> 2 Fe(s) + 3 CO2(g) }\n$$\n\n#### Converta a massa de ferro em quantidade utilizando sua massa molar ($n = m/M$). A massa molar do $\\ce{Fe}$ é $\\pu{56 g.mol-1}$.\n$$\n    n(\\ce{Fe}) \n        = \\dfrac{ \\pu{7 kg} }{ \\pu{56 g.mol-1} } = \\pu{125 mol}\n$$\n\n#### Use a relação estequiométrica para converter a quantidade de $\\ce{Fe}$ na quantidade de $\\ce{Fe2O3}$.\n$$\nn(\\ce{Fe2O3}) \n    = \\pu{125 mol} \\times \\dfrac{1}{2}\n    = \\pu{62,5 mol}\n$$\n\n#### Converta a quantidade de $\\ce{Fe2O3}$ em massa utilizando sua massa molar ($m = nM$). A massa molar do $\\ce{Fe2O3}$ é $\\pu{160 g.mol-1}$.\n$$\n    m(\\ce{Fe2O3}) \n        = \\pu{62,5 mol} \\times \\pu{160 g.mol-1}\n        = \\boxed{ \\pu{10 kg} }\n$$\n:::\n\n:::focus\nEm um cálculo massa a massa, converta a massa fornecida em quantidade de mols, aplique relação estequiométrica para obter a quantidade desejada e, por fim, converta a quantidade de mols em massa da substância desconhecida.\n:::\n\n# Os limites da reação\nOs cálculos estequiométricos da quantidade de massa de produto formado em uma reação baseiam-se em uma visão ideal do mundo. Eles supõem, por exemplo, que as substâncias reagem exatamente como está escrito em uma equação química. Na prática, isso nem sempre acontece. Uma parte dos reagentes pode ser consumida em reações competitivas, isto é, reações que têm a mesma duração da que você está estudando e usam alguns dos mesmos reagentes. Outra possibilidade é que a reação não esteja completa quando as medidas são feitas. Uma terceira possibilidade é que muitas reações não se completam. Aparentemente, elas se interrompem quando certa parte dos reagentes foi consumida. Portanto, a quantidade real do produto pode ser inferior à que foi calculada a partir da estequiometria da reação.\n\n## O rendimento da reação\nO **rendimento teórico** de uma reação é a quantidade *máxima* (mols, massa ou volume) de produto que pode ser obtida a partir de uma determinada quantidade de reagente. O **rendimento percentual**, $\\eta$, é a fração do rendimento teórico de fato produzida, expressa como percentagem:\n$$\n    \\eta \n        = \\dfrac{ \\text{rendimento real} }{ \\text{rendimento teórico} }\n$$\n\n:::example\n### Cálculo do rendimento percentual de um produto\nA combustão incompleta do combustível em um motor mal calibrado pode produzir monóxido de carbono, tóxico, junto com o dióxido de carbono e a água normalmente obtidos. No teste de um motor, $\\pu{684 g}$ de octano foram incinerados sob certas condições, obtendo-se $\\pu{1,9 kg}$ de dióxido de carbono. \n\n**Calcule** o rendimento percentual da formação de dióxido de carbono.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ 2 C8H18(l) + 25 O2(g) -> 16 CO2(g) + 18 H2O(l) }\n$$\n\n#### Converta a massa de octano dada em gramas em quantidade utilizando sua massa molar ($n = m/M$). A massa molar do $\\ce{C8H18}$ é $\\pu{114 g.mol-1}$.\n$$\n    n(\\ce{C8H18}) \n        = \\dfrac{ \\pu{684 g} }{ \\pu{114 g.mol-1} }\n        = \\pu{6 mol}\n$$\n\n#### Use a relação estequiométrica para converter a quantidade de $\\ce{C8H18}$ na quantidade de $\\ce{CO2}$.\n$$\n    n(\\ce{CO2}) \n        = \\pu{6 mol} \\times \\dfrac{ 16 }{ 2 }\n        = \\pu{48 mol}\n$$\n\n#### Converta a quantidade de $\\ce{CO2}$ em massa usando a massa molar ($m = nM$). A massa molar do $\\ce{CO2}$ é $\\pu{44 g.mol-1}$.\n$$\n    m(\\ce{CO2}) \n        = \\pu{48 mol} \\times \\pu{44 g.mol-1}\n        = \\pu{2,11 kg}\n$$\n\n#### Calcule o rendimento percentual de dióxido de carbono, sabendo que somente $\\pu{1,9 kg}$ foi produzido, não $\\pu{2,11 kg}$.\n$$\n    \\eta(\\ce{CO2}) \n        = \\dfrac{ \\pu{1,9 kg} }{ \\pu{2,11 kg} }\n        = \\pu{0,9}\n        = \\boxed{ \\pu{90}\\% }\n$$\n:::\n\n## Os reagentes limitantes\nO **reagente limitante** de uma reação é o reagente que determina o rendimento máximo do produto. Um reagente limitante é como uma peça com pouco estoque em uma fábrica de motocicletas. Imagine que só existam oito rodas e sete chassis de motos. Como cada chassi requer duas rodas, só existem rodas suficientes para quatro motos. Em outras palavras, as rodas fazem o papel de reagente limitante. Quando todas as rodas forem usadas, três chassis permanecerão sem uso porque há chassis em excesso.\n\nEm alguns casos, o reagente limitante não é tão óbvio e precisa ser encontrado por cálculos. Por exemplo, para identificar o reagente limitante na reação\n$$\n    \\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\n$$\né preciso comparar o número de mols de cada elemento fornecido com coeficientes estequiométricos. Assim, vamos supor que você tenha disponíveis $\\pu{1 mol}$ de $\\ce{N2}$, mas somente $\\pu{2 mol}$ de $\\ce{H2}$. Como a quantidade de hidrogênio é menor do que o necessário, segundo a relação estequiométrica, o hidrogênio é o reagente limitante, mesmo estando presente em quantidade maior. Uma vez identificado o reagente limitante, é possível calcular a quantidade de produto que pode se formar. Você também pode calcular a quantidade de reagente em excesso no final da reação.\n\n:::example\n### Identificação do reagente limitante\nO carbeto de cálcio, $\\ce{CaC2}$, reage com água para formar hidróxido de cálcio e o gás inflamável etino, $\\ce{C2H2}$. Em um experimento, $\\pu{100 g}$ de água reagem com $\\pu{100 g}$ de carbeto de cálcio.\n\n- **Calcule** massa de etino pode ser obtida.\n- **Calcule** massa do reagente em excesso que permanece após o término da reação.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ CaC2(s) + 2 H2O(l) -> Ca(OH)2(aq) + C2H2(g) }\n$$\n\n#### Converta as massas em quantidade usando a massa molar ($n = m/M$). As massas molares do $\\ce{CaC2}$ e da $\\ce{H2O}$ são $\\pu{64 g.mol-1}$ e $\\pu{18 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{CaC2}) \n        &= \\dfrac{ \\pu{100 g} }{ \\pu{64 g.mol-1} } = \\pu{1,56 mol} \\\\\n    n(\\ce{H2O}) \n        &= \\dfrac{ \\pu{100 g} }{ \\pu{18 g.mol-1} } = \\pu{5,55 mol}\n\\end{aligned}\n$$\n\n#### Para cada reagente, calcule quantos mols de produto ($\\ce{C2H2}$) ele forma.\nPara o $\\ce{CaC2}$:\n$$\n    n(\\ce{C2H2}) \n        = \\pu{1,56 mol} \\times \\dfrac{1}{1}\n        = \\pu{1,56 mol}\n$$\nPara a $\\ce{H2O}$:\n$$\n    n(\\ce{C2H2}) \n        = \\pu{5,55 mol} \\times \\dfrac{1}{2}\n        = \\pu{2,78 mol}\n$$\nO $\\ce{CaC2}$ só pode produzir $\\pu{1,56 mol}$ de $\\ce{C2H2}$. Portanto, ele é o reagente limitante.\n\n#### Converta a quantidade de $\\ce{C2H2}$ em massa usando a massa molar ($m = nM$). A massa molar do $\\ce{C2H2}$ é $\\pu{26 g.mol-1}$.\n$$\n    m(\\ce{C2H2}) \n        = \\pu{1,56 mol} \\times \\pu{26 g.mol-1} \n        = \\boxed{ \\pu{40,6 g} }\n$$\n\n#### O reagente em excesso é a $\\ce{H2O}$. Como $\\ce{5,55 mol}\\;\\ce{H2O}$ foram fornecidos e $\\ce{3,12 mol}\\;\\ce{H2O}$ foram consumidos, a quantidade de água que sobrou é $\\pu{5,55 mol} - \\pu{3,12 mol} = \\pu{2,43 mol}$. Portanto, a massa do reagente em excesso ao final da reação é\n$$\n    m_\\text{final}(\\ce{H2O}) \n        = \\pu{2,43 mol} \\times \\pu{18 g.mol-1}\n        = \\boxed{ \\pu{43,8 g} }\n$$\n:::\n\n:::example\n### Cálculo do rendimento percentual de um reagente limitante\nO processo Ostwald é usado para a produção de ácido nítrico a partir da amônia. Na última etapa do processo, $\\pu{267 kg}$ de dióxido de nitrogênio reagiram com $\\pu{72 kg}$ de água para produzir óxido nítrico, $\\ce{NO}$, e $\\pu{245 kg}$ de ácido nítrico, $\\ce{HNO3}$.\n\n**Calcule** o rendimento percentual da formação de ácido nítrico.\n\n#### Balanceie a equação química.\n$$\n    \\ce{ 3 NO2(g) + H2O(l) -> 2 HNO3(aq) + NO(g) }\n$$\n\n#### Converta as massas em quantidade usando a massa molar ($n = m/M$). As massas molares do $\\ce{NO2}$ e da $\\ce{H2O}$ são $\\pu{46 g.mol-1}$ e $\\pu{18 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{NO2}) \n        &= \\dfrac{ \\pu{267 kg} }{ \\pu{46 g.mol-1} } = \\pu{6 kmol} \\\\\n    n(\\ce{H2O}) \n        &= \\dfrac{ \\pu{72 kg} }{ \\pu{18 g.mol-1} } = \\pu{4 kmol}\n\\end{aligned}\n$$\n\n#### Para cada reagente, calcule quantos mols de produto ($\\ce{HNO3}$) ele forma.\nPara o $\\ce{NO2}$:\n$$\n    n(\\ce{HNO3}) \n        = \\pu{6 kmol} \\times \\dfrac{2}{3}\n        = \\pu{4 kmol}\n$$\nPara a $\\ce{H2O}$:\n$$\n    n(\\ce{HNO3}) \n        = \\pu{4 kmol} \\times \\dfrac{2}{1}\n        = \\pu{8 kmol}\n$$\nO $\\ce{NO2}$ só pode produzir $\\pu{4 kmol}$ de $\\ce{HNO3}$. Portanto, ele é o reagente limitante.\n\n#### Converta a quantidade de $\\ce{HNO3}$ em massa usando a massa molar ($m = nM$). A massa molar do $\\ce{HNO3}$ é $\\pu{77 g.mol-1}$.\n$$\nm(\\ce{HNO3}) \n    = \\pu{4 kmol} \\times \\pu{77 g.mol-1}\n    = \\pu{308 kg}\n$$\n\n#### Calcule o rendimento percentual de dióxido de carbono, sabendo que somente $\\pu{245 kg}$ foram produzidos, não $\\pu{308 kg}$.\n$$\n    \\eta(\\ce{HNO3}) \n        = \\dfrac{ \\pu{245 kg} }{ \\pu{308 kg} }\n        = \\pu{0,8}\n        = \\boxed{ \\pu{80}\\% }\n$$\n:::\n\n:::focus\nO reagente limitante de uma reação é o reagente que está em quantidade menor do que o necessário, segundo a relação estequiométrica entre os reagentes.\n:::\n\n# A análise gravimétrica\n\n## A análise por combustão\nUma técnica usada nos laboratórios químicos modernos é a determinação das fórmulas empíricas pela análise por combustão. Queima-se a amostra em um tubo por onde passa um fluxo abundante de oxigênio. O excesso de oxigênio assegura que o reagente limitante é a amostra. Todo o hidrogênio do composto converte-se em água, todo o carbono converte-se em dióxido de carbono e todo o nitrogênio converte-se em gás nitrogênio. \n\nNa versão clássica da técnica os produtos da combustão são passados por um tubo contendo pentóxido de fósforo, $\\ce{P4O10}$, que absorve toda a água e em seguinda por um tudo contendo hidróxido de sódio, $\\ce{NaOH}$, que absorve todo o dióxido de carbono conforma a reação\n$$\n    \\ce{ CO2(g) + NaOH(s) -> NaHCO3(s) }\n$$\nOs aumentos de massa no primeiro e no segundo tubos indicam as massas de água e de dióxido de carbono, respectivamente, formadas na combustão.\n\n:::info\nNa versão moderna da técnica, os gases produzidos são separados por cromatografia e suas quantidades relativas são determinadas pela medida da condutividade térmica dos gases que saem do aparelho. Esses intrumentos permitem analisar compostos contendo enxofre e halogênios. Todo enxofre é convertido a dióxido de enxofre e todos os halogênios, $\\ce{X}$, são convertidos aos respectivos haletos de hidrogênio, $\\ce{HX}$.\n:::\n\nSob excesso de oxigênio, cada átomo de carbono do composto transforma-se em uma molécula de dióxido de carbono. Portanto,\n$$\n    n(\\ce{C})_\\text{amostra} = n(\\ce{CO2})_\\text{produto}\n$$\nPor isso, ao medir a massa de dióxido de carbono produzida e converter em mols, obtém-se o número de mols de átomos $\\ce{C}$ da amostra original.\n\nDe maneira semelhante, cada átomo de hidrogênio do composto contribui, sob excesso de oxigênio, para a formação de uma molécula de água durante a combustão.\n$$\n    n(\\ce{H})_\\text{amostra} = 2 \\times n(\\ce{H2O})_\\text{produto}\n$$\nPor isso, conhecendo-se a massa de água produzida quando o composto queima sob excesso de oxigênio, obtém-se a quantidade de $\\ce{H}$ da amostra original.\n\nMuitos compostos orgânicos também contêm oxigênio. Se o composto só contém carbono, hidrogênio e oxigênio, é possível calcular a massa de oxigênio inicialmente presente ao subtrair as massas de carbono e hidrogênio da massa original da amostra. A massa de oxigênio pode ser convertida em quantidade de $\\ce{O}$ usando a massa molar dos átomos de oxigênio.\n\n:::example\n### Determinação de uma fórmula empírica pela análise por combustão\nUma amostra de $\\pu{1,61 g}$ de um composto recém-sintetizado, do qual se sabia que continha somente $\\ce{C}$, $\\ce{H}$ e $\\ce{O}$ foi analisado por combustão. As massas de água e dióxido de carbono produzidas foram $\\pu{1,9 g}$ e $\\pu{3,1 g}$, respectivamente. \n\n**Determine** a fórmula empírica do composto.\n\n#### Converta a quantidade de $\\ce{CO2}$ produzida em quantidade e massa de $\\ce{C}$ na amostra. As massas molares do $\\ce{C}$ e da $\\ce{CO2}$ são $\\pu{12 g.mol-1}$ e $\\pu{44 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{C}) \n        &= n(\\ce{CO2}) \n        = \\dfrac{ \\pu{3,1 g} }{ \\pu{44 g.mol-1} } \n        = \\pu{0,7 mol} \\\\\n    m(\\ce{C}) \n        &= \\pu{0,7 mol} \\times \\pu{12 g.mol-1} = \\pu{8,4 g}\n\\end{aligned}\n$$\n\n#### Converta a quantidade de $\\ce{H2O}$ produzida em quantidade e massa de $\\ce{H}$ na amostra. As massas molares do $\\ce{H}$ e da $\\ce{H2O}$ são $\\pu{1 g.mol-1}$ e $\\pu{18 g.mol-1}$, respectivamente.\n$$\n\\begin{aligned}\n    n(\\ce{H}) \n        &= 2 \\times n(\\ce{H2O}) \n        = 2 \\times \\dfrac{ \\pu{1,9 g} }{ \\pu{19 g.mol-1} } \n        = \\pu{0,21 mol} \\\\\n    m(\\ce{H}) \n        &= \\pu{0,21 mol} \\times \\pu{1 g.mol-1} = \\pu{0,21 g}\n\\end{aligned}\n$$\n\n#### Calcule a massa de oxigênio da amostra a partir da diferença entre a massa da amostra e a massa total de $\\ce{C}$ e $\\ce{H}$. Converta a massa de $\\ce{O}$ na amostra em quantidade usando a massa molar. A massa molar do $\\ce{O}$ é $\\pu{16 g.mol-1}$.\n$$\n\\begin{aligned}\n    m(\\ce{O}) \n        &= \\pu{1,61 g} - \\pu{0,84 g} - \\pu{0,21 g} = \\pu{0,56 g} \\\\\n    n(\\ce{O}) \n        &= \\dfrac{ \\pu{0,56 g} }{ \\pu{16 g.mol-1} } = \\pu{0,035 mol}\n\\end{aligned}\n$$\n\n#### Divida a quantidade de $\\ce{C}$, $\\ce{H}$ e $\\ce{O}$ pela menor quantidade ($\\pu{0,035 mol}$).\n$$\n\\begin{aligned}\n    n(\\ce{C}) &: \\dfrac{\\pu{0,7 mol}}{\\pu{0,035 mol}} = 2 \\\\\n    n(\\ce{H}) &: \\dfrac{\\pu{0,21 mol}}{\\pu{0,035 mol}} = 6 \\\\\n    n(\\ce{O}) &: \\dfrac{\\pu{0,035 mol}}{\\pu{0,035 mol}} = 1\n\\end{aligned}\n$$\nPor fim, a fórmula empírica é: $\\boxed{ \\ce{ C2H6O } }$\n:::\n\n:::focus\nEm uma análise por combustão, as quantidades de átomos de $\\ce{C}$, $\\ce{H}$ e $\\ce{O}$ na amostra de um composto e, portanto, sua fórmula empírica, são determinadas a partir das massas de dióxido de carbono e água produzidas quando o composto queima sob excesso de oxigênio.\n:::\n\n## A análise térmica\nNa **análise termogravimétrica** (TGA) a amostra a ser analisada é aquecidade e sua massa é medida em função da temperatura.",
       "subtopics": [
         {
           "id_": "3B.1",

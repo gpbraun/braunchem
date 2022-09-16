@@ -9,7 +9,7 @@ from shutil import copytree
 
 def main():
     arsenal = load_arsenal("database")
-    # arsenal.generate_pdfs()
+    arsenal.generate_pdfs()
 
     copy_r(
         "database/arsenal.json",
@@ -22,7 +22,7 @@ def main():
         dirs_exist_ok=True,
     )
 
-    # copytree("out/", "/home/braun/Documents/Drive/Material/Listas", dirs_exist_ok=True)
+    copytree("out/", "/home/braun/Documents/Drive/Material/Listas", dirs_exist_ok=True)
 
 
 if __name__ == "__main__":

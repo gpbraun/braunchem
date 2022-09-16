@@ -197,7 +197,8 @@
 %   KOMASCRIPT FEATURES
 %============================================================%
 
-\RequirePackage { typearea, scrextend }
+\RequirePackage { typearea }
+\RequirePackage { scrextend }
 
 \keys_define:nn { braun }
     { unknown .code:n  = \exp_args:NV \KOMAoption \l_keys_key_tl {#1} }
