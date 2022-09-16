@@ -150,4 +150,4 @@ def tikz2svg(tikz_path, tmp_path='temp/images', out_path='database/images'):
     tex_contents = latex.cmd('documentclass', 'braunfigure') + \
         latex.env('document', latex.cmd('input', input_path))
 
-    tex2pdf(tex_contents, filename, tmp_path, out_path, True)
+    tex2pdf(tex_contents, filename, tmp_path, out_path, svg=True)

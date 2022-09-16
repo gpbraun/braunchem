@@ -226,7 +226,7 @@ def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
         return "0"
 
     if abs(value) < lower_bound or abs(value) > upper_bound:
-        return f"{value:e}".replace("+", "")
+        return f"{value:e}".replace("+", "").replace("e", "E")
 
     return f"{value:f}"
 
