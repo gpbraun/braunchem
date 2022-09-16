@@ -12878,7 +12878,16 @@
                 "quantities": []
               },
               "data": {
-                "quantities": []
+                "quantities": [
+                  {
+                    "id_": "Ka(HNO2)",
+                    "name": "constante de acidez do ácido nitroso",
+                    "symbol": "K_\\mathrm{a}(\\ce{HNO2})",
+                    "value": "4.3E-4",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
               },
               "elements": [],
               "obj": -1,
@@ -12896,7 +12905,16 @@
                 "quantities": []
               },
               "data": {
-                "quantities": []
+                "quantities": [
+                  {
+                    "id_": "Kb(NH3)",
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "1.8E-5",
+                    "unit": "",
+                    "prec": 2
+                  }
+                ]
               },
               "elements": [],
               "obj": -1,
