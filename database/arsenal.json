@@ -13233,7 +13233,7 @@
             {
               "id_": "2I13",
               "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I13.md",
-              "statement": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,05 mol.L-1}$ de ácido fórmico com $\\pu{5 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\pu{0,15 mol.L-1}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
+              "statement": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,1 mol.L-1}$ de ácido fórmico com $\\pu{5 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\ce{NaOH}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
               "solution": "\n",
               "answer": [
                 "$\\pu{3,39}$\n"
@@ -13260,10 +13260,10 @@
             {
               "id_": "2I14",
               "path": "/home/braun/Documents/Developer/braunchem/database/problems/Q2/2I/2I14.md",
-              "statement": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,05 mol.L-1}$ de ácido fórmico com $\\pu{10 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\pu{0,15 mol.L-1}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
+              "statement": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,1 mol.L-1}$ de amônia com $\\pu{10 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\pu{HCl}$.\n\n**Determine** o $\\mathrm{pH}$ da solução resultante.\n",
               "solution": "\n",
               "answer": [
-                "$\\pu{4,71}$\n"
+                "$\\pu{9,1}$\n"
               ],
               "constants": {
                 "quantities": []
@@ -13271,10 +13271,10 @@
               "data": {
                 "quantities": [
                   {
-                    "id_": "Ka(HCOOH)",
-                    "name": "constante de acidez do ácido fórmico",
-                    "symbol": "K_\\mathrm{a}(\\ce{HCOOH})",
-                    "value": "1.8e-4",
+                    "id_": "Kb(NH3)",
+                    "name": "constante de basicidade da amônia",
+                    "symbol": "K_\\mathrm{b}(\\ce{NH3})",
+                    "value": "1.8e-5",
                     "unit": "",
                     "prec": 2
                   }
