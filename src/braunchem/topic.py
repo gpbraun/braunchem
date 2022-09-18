@@ -2,26 +2,26 @@
 # TODO: trocar a estrutura do json para AREA -> TOPIC -> SUBTOPIC
 #
 
+import braunchem.convert as convert
+import braunchem.latex as latex
+from braunchem.quantities import Table, Quantity, decimal_to_sci_string
+from braunchem.problem import Problem, ProblemSet, files2problemset
+
 import os
 
 import dataclasses
 
 from decimal import Decimal
-from braunchem.quantities import Table, Quantity, decimal_to_sci_string
-from attr import define, Factory, asdict, filters, fields
+from attrs import define, Factory, asdict, filters, fields
 
 import json
 
 import sys
 from pathlib import Path, PosixPath
 
-from braunchem.problem import Problem, ProblemSet, files2problemset
 from multiprocessing import Pool
 
 from frontmatter import load
-
-import braunchem.convert as convert
-import braunchem.latex as latex
 
 
 @define

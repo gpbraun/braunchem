@@ -13,7 +13,7 @@ def main():
 
     copy_r(
         "data/arsenal.json",
-        "/home/braun/Documents/Developer/braunchem-web/data/arsenal.json",
+        "/home/braun/Documents/Developer/braunchem-web/database/arsenal.json",
     )
 
     copytree(

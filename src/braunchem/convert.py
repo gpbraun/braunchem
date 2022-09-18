@@ -1,6 +1,7 @@
 #
 # CONVERSION
 #
+import braunchem.latex as latex
 
 import os
 
@@ -13,9 +14,6 @@ from pypandoc import convert_text
 from markdown import Markdown
 
 from pathlib import Path
-
-import braunchem.latex as latex
-
 
 MD = Markdown(extensions=["pymdownx.tasklist", "markdown.extensions.tables"])
 
@@ -95,7 +93,7 @@ def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive", svg=Fal
     temp.mkdir(parents=True, exist_ok=True)
 
     # copy latex template files to temp folder
-    copy_all("braunchem/latex", temp)
+    copy_all("src/braunchem/latex", temp)
 
     os.chdir(temp)
 
