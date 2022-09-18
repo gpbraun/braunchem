@@ -2,7 +2,7 @@
 
 Esse módulo implementa uma API para propriedades termodinâmicas.
 """
-import latex
+import braunchem.latex as latex
 import re
 import csv
 import json

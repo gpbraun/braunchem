@@ -14,7 +14,7 @@ from markdown import Markdown
 
 from pathlib import Path
 
-import latex
+import braunchem.latex as latex
 
 
 MD = Markdown(extensions=["pymdownx.tasklist", "markdown.extensions.tables"])
