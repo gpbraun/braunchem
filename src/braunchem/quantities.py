@@ -58,7 +58,7 @@ class Parameter:
         return obj
 
 
-with open("database/data/parameters.json", "r") as json_file:
+with open("data/quantities/parameters.json", "r") as json_file:
     PARAMETERS = json.load(json_file, object_hook=Parameter.decoder)
 
 
@@ -371,11 +371,11 @@ class QuantityEncoder(json.JSONEncoder):
         return super(QuantityEncoder, self).default(obj)
 
 
-QUANTITIES = Table.from_json("database/data/quantities.json")
+QUANTITIES = Table.from_json("data/quantities/quantities.json")
 
 
 def main():
-    dt = Table.from_json("database/data/tables/constants.json")
+    dt = Table.from_json("data/quantities/tables/constants.json")
 
     tables = [
         "acids",
@@ -392,9 +392,9 @@ def main():
         "solubility",
     ]
     for table in tables:
-        dt.append_csv(f"database/data/tables/{table}.csv")
+        dt.append_csv(f"data/quantities/tables/{table}.csv")
 
-    dt.to_json("database/data/quantities.json")
+    dt.to_json("data/quantities/quantities.json")
 
 
 if __name__ == "__main__":

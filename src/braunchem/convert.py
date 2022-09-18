@@ -143,7 +143,7 @@ def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive", svg=Fal
         )
 
 
-def tikz2svg(tikz_path, tmp_path="temp/images", out_path="database/images"):
+def tikz2svg(tikz_path, tmp_path="temp/images", out_path="data/images"):
     # convert tikz image file to svg for web
     tikz = Path(tikz_path)
     filename = tikz.stem

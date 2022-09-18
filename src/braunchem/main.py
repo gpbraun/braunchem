@@ -2,22 +2,22 @@
 # Gabriel Braun, 2021
 #
 
-from topic import load_arsenal
-from convert import copy_r
+from braunchem.topic import load_arsenal
+from braunchem.convert import copy_r
 from shutil import copytree
 
 
 def main():
-    arsenal = load_arsenal("database")
+    arsenal = load_arsenal("data")
     arsenal.generate_pdfs()
 
     copy_r(
-        "database/arsenal.json",
-        "/home/braun/Documents/Developer/braunchem-web/database/arsenal.json",
+        "data/arsenal.json",
+        "/home/braun/Documents/Developer/braunchem-web/data/arsenal.json",
     )
 
     copytree(
-        "database/images/",
+        "data/images/",
         "/home/braun/Documents/Developer/braunchem-web/public/",
         dirs_exist_ok=True,
     )

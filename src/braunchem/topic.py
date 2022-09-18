@@ -228,7 +228,7 @@ def get_file_paths(db_path):
 
             elif path.suffix in [".svg", ".png"]:
                 # figure
-                convert.copy_r(path, f"database/images/{dir_}/{path.name}")
+                convert.copy_r(path, f"data/images/{dir_}/{path.name}")
 
             elif path.suffix == ".tex":
                 # tikz figures
@@ -236,10 +236,10 @@ def get_file_paths(db_path):
                 convert.tikz2svg(
                     path,
                     tmp_path=f"temp/images/{dir_}/{path.stem}",
-                    out_path=f"database/images/{dir_}",
+                    out_path=f"data/images/{dir_}",
                 )
                 convert.copy_r(
-                    f"database/images/{dir_}/{path.stem}.svg",
+                    f"data/images/{dir_}/{path.stem}.svg",
                     f"{path.parent}/{path.stem}.svg",
                 )
 
