@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" src="quimica-pensi.svg">
+  <img width="200" src="docs/quimica-pensi.svg">
 </p>
 
 # Banco de Questões

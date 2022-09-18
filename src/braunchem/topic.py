@@ -239,7 +239,8 @@ def get_file_paths(db_path):
                     out_path=f"database/images/{dir_}",
                 )
                 convert.copy_r(
-                    f"database/images/{dir_}/{path.stem}.svg", f"{path.parent}/{path.stem}.svg"
+                    f"database/images/{dir_}/{path.stem}.svg",
+                    f"{path.parent}/{path.stem}.svg",
                 )
 
     for root, _, files in os.walk(topic_path):
