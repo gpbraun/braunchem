@@ -1,182 +1,164 @@
-[
-    {
-        "__classname__": "Quantity",
-        "id_": "G",
-        "name": "constante gravitacional universal",
-        "symbol": "G",
-        "value": "6.67430e-11",
-        "unit": "m3.kg-1.s-2",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "c",
-        "name": "velocidade da luz no vácuo",
-        "symbol": "c",
-        "value": "299792458",
-        "unit": "m.s-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "h",
-        "name": "constante de Planck",
-        "symbol": "h",
-        "value": "6.62607015e-34",
-        "unit": "J.s",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "kB",
-        "name": "constante de Boltzmann",
-        "symbol": "k_\\mathrm{B}",
-        "value": "1.380649e-23",
-        "unit": "J.K-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "sigma",
-        "name": "constante de Stefan-Boltzmann",
-        "symbol": "\\sigma",
-        "value": "5.670374419e-8",
-        "unit": "W.m-2.K-4",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "wien",
-        "name": "constante de Wien",
-        "symbol": "b",
-        "value": "2.897771955",
-        "unit": "mm.K",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "e0",
-        "name": "permissividade elétrica do vácuo",
-        "symbol": "\\varepsilon_0",
-        "value": "8.8541878128e-12",
-        "unit": "F.m-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "e",
-        "name": "carga fundamental",
-        "symbol": "e",
-        "value": "1.602176634e-19",
-        "unit": "C",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "NA",
-        "name": "constante de Avogadro",
-        "symbol": "N_\\mathrm{A}",
-        "value": "6.02214076e23",
-        "unit": "mol-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "R",
-        "name": "constante dos gases",
-        "symbol": "R",
-        "value": "8.31446261815324",
-        "unit": "J.K-1.mol-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "F",
-        "name": "constate dos Faraday",
-        "symbol": "F",
-        "value": "96485.3321233100184",
-        "unit": "C.mol-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "mu",
-        "name": "constante da massa atômica",
-        "symbol": "m_\\mathrm{u}",
-        "value": "1.66054e-27",
-        "unit": "kg",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "me",
-        "name": "massa do elétron",
-        "symbol": "m_\\mathrm{e}",
-        "value": "9.1093837015e-31",
-        "unit": "kg",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "mp",
-        "name": "massa do próton",
-        "symbol": "m_\\mathrm{p}",
-        "value": "1.67262192369e-27",
-        "unit": "kg",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "mn",
-        "name": "massa do nêutron",
-        "symbol": "m_\\mathrm{n}",
-        "value": "1.67492749804e-27",
-        "unit": "kg",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "muB",
-        "name": "magneton de Bohr",
-        "symbol": "\\mu_\\mathrm{B}",
-        "value": "9.2740100783e-24",
-        "unit": "J.T-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "rB",
-        "name": "raio de Bohr",
-        "symbol": "a_0",
-        "value": "5.29177210903e-11",
-        "unit": "m",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "Rydberg",
-        "name": "constante de Rydberg",
-        "symbol": "\\mathcal{R}_\\infty",
-        "value": "10973731.568160",
-        "unit": "m-1",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "atm",
-        "name": "atmosfera padrão",
-        "symbol": "1\\,\\mathrm{atm}",
-        "value": "101325",
-        "unit": "Pa",
-        "prec": 3
-    },
-    {
-        "__classname__": "Quantity",
-        "id_": "g",
-        "name": "aceleração da gravidade padrão",
-        "symbol": "g",
-        "value": "9.80665",
-        "unit": "m.s-2",
-        "prec": 3
-    }
-]
+{
+    "quantities": [
+        {
+            "id_": "G",
+            "name": "constante gravitacional universal",
+            "symbol": "G",
+            "value": "6.67430e-11",
+            "unit": "m3.kg-1.s-2",
+            "prec": 3
+        },
+        {
+            "id_": "c",
+            "name": "velocidade da luz no vácuo",
+            "symbol": "c",
+            "value": "299792458",
+            "unit": "m.s-1",
+            "prec": 3
+        },
+        {
+            "id_": "h",
+            "name": "constante de Planck",
+            "symbol": "h",
+            "value": "6.62607015e-34",
+            "unit": "J.s",
+            "prec": 3
+        },
+        {
+            "id_": "kB",
+            "name": "constante de Boltzmann",
+            "symbol": "k_\\mathrm{B}",
+            "value": "1.380649e-23",
+            "unit": "J.K-1",
+            "prec": 3
+        },
+        {
+            "id_": "sigma",
+            "name": "constante de Stefan-Boltzmann",
+            "symbol": "\\sigma",
+            "value": "5.670374419e-8",
+            "unit": "W.m-2.K-4",
+            "prec": 3
+        },
+        {
+            "id_": "wien",
+            "name": "constante de Wien",
+            "symbol": "b",
+            "value": "2.897771955",
+            "unit": "mm.K",
+            "prec": 3
+        },
+        {
+            "id_": "e0",
+            "name": "permissividade elétrica do vácuo",
+            "symbol": "\\varepsilon_0",
+            "value": "8.8541878128e-12",
+            "unit": "F.m-1",
+            "prec": 3
+        },
+        {
+            "id_": "e",
+            "name": "carga fundamental",
+            "symbol": "e",
+            "value": "1.602176634e-19",
+            "unit": "C",
+            "prec": 3
+        },
+        {
+            "id_": "NA",
+            "name": "constante de Avogadro",
+            "symbol": "N_\\mathrm{A}",
+            "value": "6.02214076e23",
+            "unit": "mol-1",
+            "prec": 3
+        },
+        {
+            "id_": "R",
+            "name": "constante dos gases",
+            "symbol": "R",
+            "value": "8.31446261815324",
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+        },
+        {
+            "id_": "F",
+            "name": "constate dos Faraday",
+            "symbol": "F",
+            "value": "96485.3321233100184",
+            "unit": "C.mol-1",
+            "prec": 3
+        },
+        {
+            "id_": "mu",
+            "name": "constante da massa atômica",
+            "symbol": "m_\\mathrm{u}",
+            "value": "1.66054e-27",
+            "unit": "kg",
+            "prec": 3
+        },
+        {
+            "id_": "me",
+            "name": "massa do elétron",
+            "symbol": "m_\\mathrm{e}",
+            "value": "9.1093837015e-31",
+            "unit": "kg",
+            "prec": 3
+        },
+        {
+            "id_": "mp",
+            "name": "massa do próton",
+            "symbol": "m_\\mathrm{p}",
+            "value": "1.67262192369e-27",
+            "unit": "kg",
+            "prec": 3
+        },
+        {
+            "id_": "mn",
+            "name": "massa do nêutron",
+            "symbol": "m_\\mathrm{n}",
+            "value": "1.67492749804e-27",
+            "unit": "kg",
+            "prec": 3
+        },
+        {
+            "id_": "muB",
+            "name": "magneton de Bohr",
+            "symbol": "\\mu_\\mathrm{B}",
+            "value": "9.2740100783e-24",
+            "unit": "J.T-1",
+            "prec": 3
+        },
+        {
+            "id_": "rB",
+            "name": "raio de Bohr",
+            "symbol": "a_0",
+            "value": "5.29177210903e-11",
+            "unit": "m",
+            "prec": 3
+        },
+        {
+            "id_": "Rydberg",
+            "name": "constante de Rydberg",
+            "symbol": "\\mathcal{R}_\\infty",
+            "value": "10973731.568160",
+            "unit": "m-1",
+            "prec": 3
+        },
+        {
+            "id_": "atm",
+            "name": "atmosfera padrão",
+            "symbol": "1\\,\\mathrm{atm}",
+            "value": "101325",
+            "unit": "Pa",
+            "prec": 3
+        },
+        {
+            "id_": "g",
+            "name": "aceleração da gravidade padrão",
+            "symbol": "g",
+            "value": "9.80665",
+            "unit": "m.s-2",
+            "prec": 3
+        }
+    ]
+}

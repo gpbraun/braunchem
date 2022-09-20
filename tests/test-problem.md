@@ -1,8 +1,20 @@
 A dependência da pressão de vapor do cloreto-difluoreto de fosforila, $\ce{OPClF2}$ foi medida em função da temperatura.
 
-| $T/\pu{K}$               | $\pu{190}$ | $\pu{228}$ | $\pu{250}$ | $\pu{273}$ |
-| :----------------------- | ---------: | ---------: | ---------: | ---------: |
-| $P_\text{vap}/\pu{Torr}$ | $\pu{3,2}$ |  $\pu{68}$ | $\pu{240}$ | $\pu{672}$ |
+| coluna 1 |   coluna 2 |
+| :------- | ---------: |
+| teste    | $\pu{3,2}$ |
+
+Agora vem uma equação em linha:
+$$
+\begin{aligned}
+    E &= \dfrac{n^2a^2}{h_am_{bc}} \\
+    E &= \dfrac{n^2a^2}{h_am_{bc}}
+\end{aligned}
+$$
+Um composto em linha, $\ce{NaOH}$ e um reação química:
+$$
+    \ce{ HCl + NaOH -> NaCl + H2O }
+$$
 
 **Assinale** a alternativa que mais se aproxima da entalpia de vaporização.
 

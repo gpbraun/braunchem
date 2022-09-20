@@ -8,7 +8,7 @@ Todo:
 import re
 
 
-def cmd(cmd_name: str, args: str="", end: str=""):
+def cmd(cmd_name: str, args: str = "", end: str = ""):
     # latex command
     if not args:
         return f"\\{cmd_name} " + end

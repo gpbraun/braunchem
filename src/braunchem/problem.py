@@ -6,6 +6,7 @@ import braunchem.convert as convert
 import braunchem.latex as latex
 from braunchem.quantities import Table, QUANTITIES
 
+
 from dataclasses import dataclass, field
 from frontmatter import load
 from pathlib import Path
