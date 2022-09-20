@@ -7,7 +7,7 @@ import braunchem.utils.latex2 as latex
 import os
 import sys
 import subprocess
-from shutil import copy, SameFileError
+import shutil
 from pathlib import Path
 
 import pypandoc
@@ -27,11 +27,11 @@ PANDOC_MARKDOWN_FORMAT = (
 )
 """Formato markdown para o pandoc."""
 
-PANDOC_LATEX_FORMAT = "latex"
-"""Formato LaTeX para o pandoc."""
-
 PANDOC_HTML_FORMAT = "html+tex_math_dollars"
 """Formato HTML para o pandoc."""
+
+PANDOC_LATEX_FORMAT = "latex"
+"""Formato LaTeX para o pandoc."""
 
 
 def html2md(html_str: str) -> str:
@@ -98,8 +98,8 @@ def soup_split(soup: bs4.BeautifulSoup, tag: str) -> list[bs4.BeautifulSoup]:
 
 def copy_r(loc, dest):
     try:
-        copy(loc, dest)
-    except SameFileError:
+        shutil.copy(loc, dest)
+    except shutil.SameFileError:
         pass
 
 

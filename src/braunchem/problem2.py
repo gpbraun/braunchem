@@ -4,7 +4,7 @@ Esse módulo implementa uma classe para os problemas.
 """
 import braunchem.utils.convert2 as convert
 import braunchem.utils.latex2 as latex
-from braunchem.quantities import Table, QUANTITIES
+from braunchem.quantities import Table, qtys
 
 import os
 import logging
@@ -139,7 +139,7 @@ class Problem(BaseModel):
 
         # dados termodinâmicos
         if "dados" in pfile:
-            p["data"] = QUANTITIES.filter(pfile["dados"])
+            p["data"] = qtys(pfile["dados"])
 
         # solução
         soup, solution = convert.soup_split(soup, "hr")

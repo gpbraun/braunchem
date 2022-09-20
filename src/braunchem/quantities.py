@@ -142,17 +142,19 @@ class Quantity(BaseModel):
         return f"Quantity({self.id_})"
 
     def __float__(self):
-        return float(self.value)
+        return float(self.sci_string)
 
     def __lt__(self, other):
         """Comparação em ordem alfabética."""
         return self.name < other.name
 
-    def to_sci_string(self):
+    @property
+    def sci_string(self):
         """Retorna o valor em notação científica."""
         return decimal_to_sci_string(self.value)
 
-    def to_eng_string(self):
+    @property
+    def eng_string(self):
         """Retorna o valor em notação de engenharia."""
         return self.value.to_eng_string()
 
@@ -168,7 +170,7 @@ class Quantity(BaseModel):
         if self.value is None:
             return latex.pu2qty(self.name)
 
-        value = self.to_sci_string()
+        value = self.sci_string
         return f"${self.symbol} = {latex.qty(value, self.unit)}$"
 
     @property
@@ -187,6 +189,11 @@ class Quantity(BaseModel):
 
     @classmethod
     def parse_string(cls, string: str):
+        """Retorna o `Quantity` referente a string.
+
+        Exemplo:
+            >>> q = parse_string("Ka(NH4+)=5e-10")
+        """
         match = re.match(QTY_STR_RE, string)
 
         if match:
@@ -200,13 +207,13 @@ class Quantity(BaseModel):
                 s = Substance(
                     id_=s_name, name=f"\\ce{{{s_name}}}", formula=s_name, state=s_state
                 )
-
                 return p.create_qty(s, value)
 
         return cls(id_=string, name=string)
 
 
 QTY_STR_RE = re.compile(r"([\w\d]*)\(([\w\d]*),?(.*)\)\=([\d\.Ee\+\-]*)")
+"""Expressão em REGEX para converter uma string em um `Quantity`"""
 
 
 def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
@@ -220,7 +227,7 @@ def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
         return "0"
 
     if abs(value) < lower_bound or abs(value) > upper_bound:
-        return f"{value:e}".replace("+", "").replace("e", "E")
+        return f"{value:E}".replace("+", "")
 
     return f"{value:f}"
 
@@ -327,6 +334,16 @@ class Table(BaseModel):
 
 QUANTITIES = Table.parse_file("data/quantities/quantities.json")
 """Base de dados termodinâmicos."""
+
+
+def qty(qty_id: str) -> Quantity:
+    """Retorna um dado termodiâmico da base de dados."""
+    return QUANTITIES[qty_id]
+
+
+def qtys(qty_ids: list[str]) -> list[Quantity]:
+    """Retorna um conjunto de dados termodiâmicos da base de dados."""
+    return QUANTITIES.filter(qty_ids)
 
 
 def main():
