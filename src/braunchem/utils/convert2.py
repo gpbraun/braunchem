@@ -108,7 +108,7 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def latexmk(tex_file: str):
+def latexmk(tex_file_name: str):
     subprocess.run(
         [
             "latexmk",
@@ -116,13 +116,13 @@ def latexmk(tex_file: str):
             "-interaction=nonstopmode",
             "-file-line-error",
             "-pdf",
-            f"{tex_file}",
+            f"{tex_file_name}",
         ],
         stdout=subprocess.DEVNULL,
     )
 
 
-def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive", svg=False):
+def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive"):
     # convert tex string to pdf
     cwd = Path.cwd()
 
@@ -153,29 +153,22 @@ def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive", svg=Fal
     if not os.path.exists(f"{filename}.pdf"):
         sys.exit(f"Falha na compilação do arquivo '{filename}.tex'!")
 
-    if svg:
-        subprocess.run(
-            [
-                "pdf2svg",
-                f"{filename}.pdf",
-                f"{filename}.svg",
-            ],
-            stdout=subprocess.DEVNULL,
-        )
-
     os.chdir(cwd)
 
     out = Path(out_path)
     out.mkdir(parents=True, exist_ok=True)
 
-    if svg:
-        copy_r(
-            os.path.join(temp, f"{filename}.svg"), os.path.join(out, f"{filename}.svg")
-        )
-    else:
-        copy_r(
-            os.path.join(temp, f"{filename}.pdf"), os.path.join(out, f"{filename}.pdf")
-        )
+
+def pdf2svg(tex_file_name: str):
+    subprocess.run(
+        [
+            "pdf2svg",
+            f"{tex_file_name}.pdf",
+            f"{tex_file_name}.svg",
+        ],
+        stdout=subprocess.DEVNULL,
+    )
+    return
 
 
 def tikz2svg(tikz_path, tmp_path="temp/images", out_path="data/images"):

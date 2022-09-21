@@ -4,11 +4,19 @@ Esse módulo implementa uma API para propriedades termodinâmicas.
 """
 import braunchem.latex as latex
 
+import os
 import re
 import csv
-import json
-from pydantic import BaseModel
+import logging
+import importlib.resources
+from pathlib import Path
 from decimal import Decimal, Context
+
+from pydantic import BaseModel
+
+
+DB_PATH = importlib.resources.files("braunchem.data")
+"""Diretório da base de dados."""
 
 
 class Parameter(BaseModel):
@@ -26,7 +34,7 @@ class Parameter(BaseModel):
     name: str
     symbol: str
     unit: str | None = None
-    prec: int | None = 3
+    prec: int = 3
 
     def __repr__(self):
         return f"Parameter({self.id_})"
@@ -50,10 +58,29 @@ class Parameter(BaseModel):
         )
 
 
-with open("data/quantities/parameters.json", "r") as json_file:
-    parameters = json.load(json_file)
-    PARAMETERS = {p["id_"]: Parameter.parse_obj(p) for p in parameters}
-    """Parâmetros termodiâmicos."""
+class ParameterSet(BaseModel):
+    """Conjunto de parâmetros termodinâmicos."""
+
+    parameters: list[Parameter]
+
+    def __contains__(self, item):
+        return item in self.parameters
+
+    def __iter__(self):
+        return iter(self.parameters)
+
+    def __getitem__(self, key: str) -> Parameter:
+        try:
+            return [par for par in self if par.id_ == key][0]
+        except IndexError:
+            raise KeyError
+
+
+PARAMETERS_DB_PATH = DB_PATH.joinpath("parameters.json")
+"""Endereço da base de dados de parâmetros."""
+
+PARAMETERS = ParameterSet.parse_file(PARAMETERS_DB_PATH)
+"""Base de dados de parâmetros."""
 
 
 def preposition_join(parameter_name: str, substance_name: str):
@@ -96,7 +123,7 @@ class Substance(BaseModel):
     id_: str
     name: str
     formula: str
-    state: str = None
+    state: str | None = None
 
     def __repr__(self):
         return f"Substance({self.id_})"
@@ -136,7 +163,7 @@ class Quantity(BaseModel):
     symbol: str | None = None
     value: Decimal | None = None
     unit: str | None = None
-    prec: int | None = 3
+    prec: int = 3
 
     def __repr__(self):
         return f"Quantity({self.id_})"
@@ -216,7 +243,7 @@ QTY_STR_RE = re.compile(r"([\w\d]*)\(([\w\d]*),?(.*)\)\=([\d\.Ee\+\-]*)")
 """Expressão em REGEX para converter uma string em um `Quantity`"""
 
 
-def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4):
+def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4) -> str:
     """Retorna o valor em notação científica.
 
     Args:
@@ -265,7 +292,8 @@ class Table(BaseModel):
     quantities: list[Quantity]
 
     def __repr__(self):
-        return f"Table({len(self.quantities)} items)"
+        qtys = ", ".join(q for q in self)
+        return f"Table({qtys})"
 
     def __len__(self):
         return len(self.quantities)
@@ -321,18 +349,45 @@ class Table(BaseModel):
         latex_list = latex.List("datalist", [x.display for x in self])
         return latex_list.display()
 
-    def append_csv(self, file: str):
-        """Adiciona os dados em um `csv`.
+    def append_csv(self, csv_file: str | Path):
+        """Adiciona os dados de um `csv`.
 
         Args:
-            file (str): Arquivo `csv`
-            parameters (dict): `dict` com os parâmetros no header do `csv`.
+            csv_file (str | Path): Arquivo `csv`
         """
-        for qty in csv2quantities(file):
+        for qty in csv2quantities(csv_file):
             self.append(qty)
 
+    def append_csvs(self, csv_files: list[str] | list[Path]):
+        """Adiciona os dados de uma lista de `csv`.
 
-QUANTITIES = Table.parse_file("data/quantities/quantities.json")
+        Args:
+            csv_files (list[str] | list[Path]): Arquivo `csv`
+        """
+        for csv in csv_files:
+            self.append_csv(csv)
+
+
+def get_table_paths(table_db_path: str | Path):
+    """Retorna a lista com todas as tabelas em `.csv` no diretório."""
+    table_files = []
+
+    for root, _, files in os.walk(table_db_path):
+        for f in files:
+            path = Path(os.path.join(root, f))
+
+            # problems
+            if path.suffix == ".csv":
+                # problem = Problem.parse_file(path)
+                table_files.append(path)
+
+    return table_files
+
+
+QUANTITIES_DB_PATH = DB_PATH.joinpath("quantities.json")
+"""Endereço da base de dados de problemas."""
+
+QUANTITIES = Table.parse_file(QUANTITIES_DB_PATH)
 """Base de dados termodinâmicos."""
 
 
@@ -347,26 +402,16 @@ def qtys(qty_ids: list[str]) -> list[Quantity]:
 
 
 def main():
-    dt = Table.parse_file("data/quantities/tables/constants.json")
+    logging.basicConfig(level=logging.DEBUG)
 
-    tables = [
-        "acids",
-        "bases",
-        "bonds",
-        "colligative",
-        "critical",
-        "henry",
-        "inorganic",
-        "lattice",
-        "organic",
-        "physical",
-        "polyacids",
-        "solubility",
-    ]
-    for table in tables:
-        dt.append_csv(f"data/quantities/tables/{table}.csv")
+    constants_path = DB_PATH.joinpath("constants.json")
+    dt = Table.parse_file(constants_path)
 
-    with open("data/quantities/quantities.json", "w") as json_file:
+    paths = get_table_paths("data/quantities")
+
+    dt.append_csvs(paths)
+
+    with open(QUANTITIES_DB_PATH, "w") as json_file:
         json_file.write(dt.json(indent=2, ensure_ascii=False))
 
 

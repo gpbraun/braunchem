@@ -11,10 +11,15 @@ import logging
 from datetime import datetime
 from pathlib import Path, PosixPath
 from multiprocessing import Pool
+import importlib.resources
 
 from tqdm import tqdm
 from pydantic import BaseModel
 from frontmatter import load
+
+
+DB_PATH = importlib.resources.files("braunchem.data")
+"""Diretório da base de dados."""
 
 
 class Text(BaseModel):
@@ -36,10 +41,11 @@ class Text(BaseModel):
 
     @classmethod
     def parse_html(cls, html_str: str):
-        """Cria um `Text` a partir de uma string em latex."""
+        """Cria um `Text` a partir de uma string em LaTeX."""
         md_str = convert.html2md(html_str)
         tex_str = convert.html2tex(html_str)
-        # Não sei o que é melhor, coverter de markdown ou de html para latex. Acho que tanto faz. Obs: converter de HTML para latex adiciona uns "{" e "}" a mais que podem ser úteis
+        # Não sei o que é melhor, coverter de markdown ou de HTML para LaTeX. Acho que tanto faz.
+        # Obs: converter de HTML para latex adiciona uns "{" e "}" a mais que podem ser úteis
         return cls(md=md_str, tex=tex_str)
 
 
@@ -187,41 +193,6 @@ class Problem(BaseModel):
         return cls.parse_obj(p)
 
 
-def get_problem_paths(problem_db_path: str):
-    # get the path of all problems and topics
-
-    problem_files = []
-
-    for root, _, files in os.walk(problem_db_path):
-        for f in files:
-            path = Path(os.path.join(root, f))
-            dir_ = Path(root).relative_to(problem_db_path).parent
-
-            # problems
-            if path.suffix == ".md":
-                # problem = Problem.parse_file(path)
-                problem_files.append(path)
-
-            elif path.suffix in [".svg", ".png"]:
-                # figure
-                convert.copy_r(path, f"data/images/{dir_}/{path.name}")
-
-            # elif path.suffix == ".tex":
-            #     # tikz figures
-            #     dir_ = Path(root).relative_to(problem_path).parent
-            #     convert.tikz2svg(
-            #         path,
-            #         tmp_path=f"temp/images/{dir_}/{path.stem}",
-            #         out_path=f"data/images/{dir_}",
-            #     )
-            #     convert.copy_r(
-            #         f"data/images/{dir_}/{path.stem}.svg",
-            #         f"{path.parent}/{path.stem}.svg",
-            #     )
-
-    return problem_files
-
-
 class ProblemSet(BaseModel):
     """Container para os problemas.
 
@@ -275,8 +246,56 @@ class ProblemSet(BaseModel):
         return cls(date=datetime.now(), problems=problems)
 
 
-PROBLEMS = ProblemSet.parse_file("data/problems/problems.json")
+def get_problem_paths(problem_db_path: str):
+    # get the path of all problems and topics
+
+    problem_files = []
+
+    for root, _, files in os.walk(problem_db_path):
+        for f in files:
+            path = Path(os.path.join(root, f))
+            dir_ = Path(root).relative_to(problem_db_path).parent
+
+            # problems
+            if path.suffix == ".md":
+                # problem = Problem.parse_file(path)
+                problem_files.append(path)
+
+            elif path.suffix in [".svg", ".png"]:
+                # figure
+                convert.copy_r(path, f"data/images/{dir_}/{path.name}")
+
+            # elif path.suffix == ".tex":
+            #     # tikz figures
+            #     dir_ = Path(root).relative_to(problem_path).parent
+            #     convert.tikz2svg(
+            #         path,
+            #         tmp_path=f"temp/images/{dir_}/{path.stem}",
+            #         out_path=f"data/images/{dir_}",
+            #     )
+            #     convert.copy_r(
+            #         f"data/images/{dir_}/{path.stem}.svg",
+            #         f"{path.parent}/{path.stem}.svg",
+            #     )
+
+    return problem_files
+
+
+PROBLEMS_DB_PATH = DB_PATH.joinpath("problems.json")
+"""Endereço da base de dados de problemas."""
+
+PROBLEMS = ProblemSet.parse_file(PROBLEMS_DB_PATH)
 """Base de dados de problemas."""
+
+
+def problem(problem_id: str) -> Problem:
+    """Retorna um problema da base de dados."""
+    return PROBLEMS[problem_id]
+
+
+def problems(problem_ids: list[str]) -> list[Problem]:
+    """Retorna um conjunto de dados termodiâmicos da base de dados."""
+    return PROBLEMS.filter(problem_ids)
 
 
 def main():
@@ -287,7 +306,7 @@ def main():
     PROBLEMS.update_problems(paths)
     # PROBLEMS = ProblemSet.parse_paths(paths)
 
-    with open("data/problems/problems.json", "w") as json_file:
+    with open(PROBLEMS_DB_PATH, "w") as json_file:
         json_file.write(PROBLEMS.json(indent=2, ensure_ascii=False))
 
 
