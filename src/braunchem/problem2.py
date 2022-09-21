@@ -13,9 +13,9 @@ from pathlib import Path, PosixPath
 from multiprocessing import Pool
 import importlib.resources
 
+import frontmatter
 from tqdm import tqdm
 from pydantic import BaseModel
-from frontmatter import load
 
 
 DB_PATH = importlib.resources.files("braunchem.data")
@@ -133,7 +133,7 @@ class Problem(BaseModel):
         """Cria um `Problem` a partir de um arquivo `.md`."""
         path = Path(problem_path)
 
-        pfile = load(path)
+        pfile = frontmatter.load(path)
 
         p = {
             "id_": path.stem,
@@ -306,7 +306,7 @@ def main():
     PROBLEMS.update_problems(paths)
     # PROBLEMS = ProblemSet.parse_paths(paths)
 
-    with open(PROBLEMS_DB_PATH, "w") as json_file:
+    with open(PROBLEMS_DB_PATH, "w", encoding='utf-8') as json_file:
         json_file.write(PROBLEMS.json(indent=2, ensure_ascii=False))
 
 
@@ -318,7 +318,8 @@ def autoprops(true_props):
     """Cria as alternativas para problemas de V ou F."""
     if not true_props:
         choices = [
-            "**N**" "**1**",
+            "**N**",
+            "**1**",
             "**2**",
             "**3**",
             "**4**",

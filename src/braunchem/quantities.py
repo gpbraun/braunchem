@@ -411,7 +411,7 @@ def main():
 
     dt.append_csvs(paths)
 
-    with open(QUANTITIES_DB_PATH, "w") as json_file:
+    with open(QUANTITIES_DB_PATH, "w", encoding='utf-8') as json_file:
         json_file.write(dt.json(indent=2, ensure_ascii=False))
 
 

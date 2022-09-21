@@ -1,6 +1,6 @@
 """Base de dados para problemas de química, Gabriel Braun, 2022
 
-Esse módulo implementa funções para converter entre diferentes formadts.
+Esse módulo implementa funções para conversão entre diferentes formatos.
 """
 import braunchem.utils.latex2 as latex
 
