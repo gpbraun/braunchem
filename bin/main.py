@@ -26,7 +26,7 @@ def main():
     topic_db_path = Path("data/topics/topics.json")
     try:
         topic_db = TopicSet.parse_file(topic_db_path)
-        topic_db.update_problems(topic_paths, problem_db=problem_db)
+        topic_db.update_topics(topic_paths, problem_db=problem_db)
     except FileNotFoundError:
         topic_db = TopicSet.parse_paths(topic_paths, problem_db=problem_db)
 
