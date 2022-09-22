@@ -1,5 +1,7 @@
 {
-  "date": "2022-09-19T22:50:15.724730",
+  "id_": "main",
+  "title": "Main",
+  "date": "2022-09-22T00:36:15.938466",
   "problems": [
     {
       "id_": "1A43",
@@ -392,7 +394,7 @@
     {
       "id_": "1A41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A41/1A41.md",
-      "date": "2022-07-09T20:10:17.712724",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Um recipiente de $\\pu{10 L}$ contendo gás cloro e gás hidrogênio é\nirradiado durante $\\pu{2,5 s}$ com luz UV ($\\lambda = \\pu{250 nm}$)\nproveniente de uma lâmpada de mercúrio com potência de $\\pu{10 W}$. A\nmistura gasosa absorve 2% da energia fornecida, levando à formação de\n$\\pu{65 mmol}$ de ácido clorídrico.\n\n-   **Determine** os possíveis valores de comprimento de onda da luz em\n    que se espera que ocorra a dissociação do cloro molecular.\n-   **Determine** o rendimento quântico para a formação de ácido\n    clorídrico.\n-   **Explique**, qualitativamente, o valor obtido para o rendimento\n    quântico.\n",
         "tex": "Um recipiente de {\\(\\qty{10}{L}\\)} contendo gás cloro e gás hidrogênio é\nirradiado durante {\\(\\qty{2,5}{s}\\)} com luz UV\n({\\(\\lambda = \\qty{250}{nm}\\)}) proveniente de uma lâmpada de mercúrio com\npotência de {\\(\\qty{10}{W}\\)}. A mistura gasosa absorve {2\\%} da energia\nfornecida, levando à formação de {\\(\\qty{65}{mmol}\\)} de ácido clorídrico.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} os possíveis valores de comprimento de onda da luz\n  em que se espera que ocorra a dissociação do cloro molecular.\n\\item\n  \\textbf{Determine} o rendimento quântico para a formação de ácido\n  clorídrico.\n\\item\n  \\textbf{Explique}, qualitativamente, o valor obtido para o rendimento\n  quântico.\n\\end{itemize}\n"
@@ -433,7 +435,7 @@
     {
       "id_": "1A11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A11/1A11.md",
-      "date": "2022-07-09T20:09:20.465192",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n$\\pu{668 km.s-1}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação incidente.\n",
         "tex": "A superfície de uma amostra de potássio é irradiada, emitindo elétrons a\n{\\(\\qty{668}{km.s^{-1}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de\nonda da radiação incidente.\n"
@@ -448,12 +450,12 @@
       "data": {
         "quantities": [
           {
-            "id_": "Phi(K)",
-            "name": "função trabalho do \\ce{K}",
-            "symbol": "\\Phi(\\ce{K})",
-            "value": 2.3,
-            "unit": "eV",
-            "prec": 2
+            "id_": "Phi(K)=2.3",
+            "name": "Phi(K)=2.3",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
           }
         ]
       },
@@ -778,7 +780,7 @@
     {
       "id_": "1A12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A12/1A12.md",
-      "date": "2022-07-09T20:09:50.012949",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n$\\pu{140}$ nm atinge a superfície do zinco.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia cinética\nmáxima para os elétrons emitidos quando luz de comprimento de onda\n{\\(\\num{140}\\)} nm atinge a superfície do zinco.\n"
@@ -793,12 +795,12 @@
       "data": {
         "quantities": [
           {
-            "id_": "Phi(Zn)",
-            "name": "função trabalho do \\ce{Zn}",
-            "symbol": "\\Phi(\\ce{Zn})",
-            "value": 4.3,
-            "unit": "eV",
-            "prec": 2
+            "id_": "Phi(Zn)=4.3",
+            "name": "Phi(Zn)=4.3",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
           }
         ]
       },
@@ -829,7 +831,7 @@
     {
       "id_": "1A29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A29/1A29.md",
-      "date": "2022-07-09T20:10:00.976860",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Radiação de comprimento de onda $\\pu{427 nm}$ é utilizada no processo de\nfotossíntese para a produção de glicose ($\\ce{C6H12O6}$) a partir do\n$\\ce{CO2}$.\n\n-   **Determine** a entalpia da reação de fotossíntese.\n-   **Determine** o número de fótons necessários para produzir uma\n    molécula de glicose.\n",
         "tex": "Radiação de comprimento de onda {\\(\\qty{427}{nm}\\)} é utilizada no\nprocesso de fotossíntese para a produção de glicose ({\\(\\ce{C6H12O6}\\)})\na partir do {\\(\\ce{CO2}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a entalpia da reação de fotossíntese.\n\\item\n  \\textbf{Determine} o número de fótons necessários para produzir uma\n  molécula de glicose.\n\\end{itemize}\n"
@@ -888,7 +890,7 @@
     {
       "id_": "1A28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A28/1A28.md",
-      "date": "2022-07-09T20:09:55.604903",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma amostra com $\\pu{586 g}$ de água, inicialmente a\n$\\pu{25 \\degree C}$, é colocada em um forno de micro-ondas que emite\nradiação eletromagnética com frequência de $\\pu{2,45 GHz}$ e aquecida\naté $\\pu{91 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do número de fótons\nabsorvidos pela água.\n",
         "tex": "Uma amostra com {\\(\\qty{586}{g}\\)} de água, inicialmente a\n{\\(\\qty{25}{\\degree C}\\)}, é colocada em um forno de micro-ondas que emite\nradiação eletromagnética com frequência de {\\(\\qty{2,45}{GHz}\\)} e\naquecida até {\\(\\qty{91}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de fótons\nabsorvidos pela água.\n"
@@ -1433,7 +1435,7 @@
     {
       "id_": "1A30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A30/1A30.md",
-      "date": "2022-07-09T20:10:09.496790",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz ocorre a reação:\n\n$$\n\\ce{AgCl -> Ag + Cl}\n$$\n\n-   **Determine** a entalpia de decomposição do cloreto de prata.\n-   **Determine** o comprimento de onda máximo para esse processo.\n",
         "tex": "Cristais de cloreto de prata podem ser incorporados em lentes. Quando\nexpostos à luz ocorre a reação:\n\n{\\[\n\\ce{AgCl -> Ag + Cl}\n\\]}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a entalpia de decomposição do cloreto de prata.\n\\item\n  \\textbf{Determine} o comprimento de onda máximo para esse processo.\n\\end{itemize}\n"
@@ -1722,7 +1724,7 @@
     {
       "id_": "1A07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A07/1A07.md",
-      "date": "2022-07-09T20:08:09.389790",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do comprimento de onda\ncorrespondente à emissão de maior intensidade de uma amostra de ferro em\nfusão.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de\nonda correspondente à emissão de maior intensidade de uma amostra de\nferro em fusão.\n"
@@ -1737,11 +1739,11 @@
       "data": {
         "quantities": [
           {
-            "id_": "Tfus(Fe)",
-            "name": "temperatura de fusão do \\ce{Fe}",
-            "symbol": "T_\\mathrm{fus}(\\ce{Fe})",
-            "value": 1540,
-            "unit": "\\degree C",
+            "id_": "Tfus(Fe)=1540",
+            "name": "Tfus(Fe)=1540",
+            "symbol": null,
+            "value": null,
+            "unit": null,
             "prec": 3
           }
         ]
@@ -4501,7 +4503,7 @@
     {
       "id_": "1C17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C17/1C17.md",
-      "date": "2022-06-20T22:26:09.799214",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere um aparelho de ionização, que pode ser útil para medir baixas\npressões. Nesse dispositivo, elétrons partem de um filamento aquecido,\natravessam uma rede cuja tensão fixa a energia do elétron, e atingem uma\nregião do tubo sonda ligada ao sistema de alto vácuo cuja pressão se\ndeseja medir. Esses elétrons ionizam espécies neutras presentes no tubo\ne formam íons positivos atraídos por uma placa coletora negativa. Além\ndisso, produzem uma corrente que pode ser medida e correlacionada com a\npressão do sistema de vácuo. Portanto, quanto mais baixa a pressão,\nmenor o número de moléculas neutras e, consequentemente, menor o número\nde íons positivos formados no tubo. Um aparelho de ionização cuja\nenergia eletrônica é $\\pu{15 eV}$ foi calibrado medindo-se a pressão de\num sistema que continha vapor de sódio.\n\n**Assinale** a alternativa com a leitura do instrumento se o vapor de\nsódio fosse substituído por neônio à mesma pressão.\n",
         "tex": "Considere um aparelho de ionização, que pode ser útil para medir baixas\npressões. Nesse dispositivo, elétrons partem de um filamento aquecido,\natravessam uma rede cuja tensão fixa a energia do elétron, e atingem uma\nregião do tubo sonda ligada ao sistema de alto vácuo cuja pressão se\ndeseja medir. Esses elétrons ionizam espécies neutras presentes no tubo\ne formam íons positivos atraídos por uma placa coletora negativa. Além\ndisso, produzem uma corrente que pode ser medida e correlacionada com a\npressão do sistema de vácuo. Portanto, quanto mais baixa a pressão,\nmenor o número de moléculas neutras e, consequentemente, menor o número\nde íons positivos formados no tubo. Um aparelho de ionização cuja\nenergia eletrônica é {\\(\\qty{15}{eV}\\)} foi calibrado medindo-se a pressão\nde um sistema que continha vapor de sódio.\n\n\\textbf{Assinale} a alternativa com a leitura do instrumento se o vapor\nde sódio fosse substituído por neônio à mesma pressão.\n"
@@ -4884,7 +4886,7 @@
     {
       "id_": "2I06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I06/2I06.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa com o sistema tamponante mais adequado para\npreparar um tampão com pH próximo de 10.\n",
         "tex": "\\textbf{Assinale} a alternativa com o sistema tamponante mais adequado\npara preparar um tampão com {pH} próximo de {10}.\n"
@@ -4967,7 +4969,7 @@
     {
       "id_": "2I04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I04/2I04.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Foram dissolvidos $\\pu{0,01 mol}$ de $\\ce{HCl(g)}$ em $\\pu{500 mL}$ de\numa solução tampão que é $\\pu{0,04 mol.L-1}$ em acetato de sódio e\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n\n**Determine** a variação de pH da solução.\n",
         "tex": "Foram dissolvidos {\\(\\qty{0,01}{mol}\\)} de {\\(\\ce{HCl(g)}\\)} em\n{\\(\\qty{500}{mL}\\)} de uma solução tampão que é {\\(\\qty{0,04}{mol.L^{-1}}\\)} em\nacetato de sódio e {\\(\\qty{0,08}{mol.L^{-1}}\\)} em ácido acético.\n\n\\textbf{Determine} a variação de {pH} da solução.\n"
@@ -5014,7 +5016,7 @@
     {
       "id_": "2I01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I01/2I01.md",
-      "date": "2022-09-16T21:23:37.449485",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução tampão é $\\pu{0,15 mol.L-1}$ em $\\ce{HNO2(aq)}$ e\n$\\pu{0,2 mol.L-1}$ em $\\ce{NaNO2(aq)}$\n\n**Determine** o pH da solução.\n",
         "tex": "Uma solução tampão é {\\(\\qty{0,15}{mol.L^{-1}}\\)} em {\\(\\ce{HNO2(aq)}\\)} e\n{\\(\\qty{0,2}{mol.L^{-1}}\\)} em {\\(\\ce{NaNO2(aq)}\\)}\n\n\\textbf{Determine} o {pH} da solução.\n"
@@ -5047,7 +5049,7 @@
     {
       "id_": "2I42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I42/2I42.md",
-      "date": "2022-09-16T13:37:05.316211",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a titulação de $\\pu{5 mL}$ de uma solução $\\pu{0,01 mol.L-1}$\nde $\\ce{H3AsO4(aq)}$ com uma solução $\\ce{0,01 mol.L-1}$ de\n$\\ce{KOH(aq)}$.\n\n-   **Esboce** a curva da titulação.\n-   **Identifique** os pontos inicial e final, os pontos\n    estequiométricos e cada um dos pontos médios.\n",
         "tex": "Considere a titulação de {\\(\\qty{5}{mL}\\)} de uma solução\n{\\(\\qty{0,01}{mol.L^{-1}}\\)} de {\\(\\ce{H3AsO4(aq)}\\)} com uma solução\n{\\(\\ce{0,01 mol.L-1}\\)} de {\\(\\ce{KOH(aq)}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Esboce} a curva da titulação.\n\\item\n  \\textbf{Identifique} os pontos inicial e final, os pontos\n  estequiométricos e cada um dos pontos médios.\n\\end{itemize}\n"
@@ -5120,7 +5122,7 @@
     {
       "id_": "2I03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I03/2I03.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Foram dissolvidos $\\pu{0,02 mol}$ de $\\ce{NaOH(s)}$ em $\\pu{300 mL}$ de\numa solução tampão que é $\\pu{0,04 mol.L-1}$ em acetato de sódio e\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n\n**Determine** a variação de pH da solução.\n",
         "tex": "Foram dissolvidos {\\(\\qty{0,02}{mol}\\)} de {\\(\\ce{NaOH(s)}\\)} em\n{\\(\\qty{300}{mL}\\)} de uma solução tampão que é {\\(\\qty{0,04}{mol.L^{-1}}\\)} em\nacetato de sódio e {\\(\\qty{0,08}{mol.L^{-1}}\\)} em ácido acético.\n\n\\textbf{Determine} a variação de {pH} da solução.\n"
@@ -5209,7 +5211,7 @@
     {
       "id_": "2I14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I14/2I14.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,1 mol.L-1}$ de amônia com $\\pu{10 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\pu{HCl}$.\n\n**Determine** o pH da solução resultante.\n",
         "tex": "Uma solução foi preparada pela mistura de {\\(\\qty{25}{mL}\\)} de uma\nsolução {\\(\\qty{0,1}{mol.L^{-1}}\\)} de amônia com {\\(\\qty{10}{mL}\\)} de uma\nsolução {\\(\\qty{0,15}{mol.L^{-1}}\\)} de {\\(\\unit{HCl}\\)}.\n\n\\textbf{Determine} o {pH} da solução resultante.\n"
@@ -5264,7 +5266,7 @@
     {
       "id_": "2I21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I21/2I21.md",
-      "date": "2022-09-16T13:26:03.366932",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "O hipoclorito de sódio, $\\ce{NaClO}$, é o ingrediente ativo de muitos\nalvejantes. O pH de uma solução de alvejante foi ajustado para\n$\\pu{6,5}$ com um ácido forte ou uma base forte.\n\n**Determine** a razão das concentrações de $\\ce{ClO-}$ e $\\ce{HClO}$ na\nsolução.\n",
         "tex": "O hipoclorito de sódio, {\\(\\ce{NaClO}\\)}, é o ingrediente ativo de\nmuitos alvejantes. O {pH} de uma solução de alvejante foi ajustado para\n{\\(\\num{6,5}\\)} com um ácido forte ou uma base forte.\n\n\\textbf{Determine} a razão das concentrações de {\\(\\ce{ClO-}\\)} e\n{\\(\\ce{HClO}\\)} na solução.\n"
@@ -5289,7 +5291,7 @@
     {
       "id_": "2I11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I11/2I11.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a titulação de $\\pu{25 mL}$ de uma solução $\\pu{0,01 mol.L-1}$\nde $\\ce{HClO(aq)}$ com uma solução $\\pu{0,02 mol.L-1}$ de\n$\\ce{KOH(aq)}$.\n\n**Determine** o pH no ponto estequiométrico.\n",
         "tex": "Considere a titulação de {\\(\\qty{25}{mL}\\)} de uma solução\n{\\(\\qty{0,01}{mol.L^{-1}}\\)} de {\\(\\ce{HClO(aq)}\\)} com uma solução\n{\\(\\qty{0,02}{mol.L^{-1}}\\)} de {\\(\\ce{KOH(aq)}\\)}.\n\n\\textbf{Determine} o {pH} no ponto estequiométrico.\n"
@@ -5364,7 +5366,7 @@
     {
       "id_": "2I05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I05/2I05.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa com o sistema tamponante mais adequado para\npreparar um tampão com pH próximo de 5.\n",
         "tex": "\\textbf{Assinale} a alternativa com o sistema tamponante mais adequado\npara preparar um tampão com {pH} próximo de {5}.\n"
@@ -5447,7 +5449,7 @@
     {
       "id_": "2I08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I08/2I08.md",
-      "date": "2022-09-16T13:00:01.775082",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Determine** a razão entre as concentrações molares de íons benzoato e\nde ácido benzóico necessária para tamponar uma solução em\n$\\mathrm{pH} = \\pu{3,5}$.\n",
         "tex": "\\textbf{Determine} a razão entre as concentrações molares de íons\nbenzoato e de ácido benzóico necessária para tamponar uma solução em\n{\\(\\mathrm{pH} = \\num{3,5}\\)}.\n"
@@ -5480,7 +5482,7 @@
     {
       "id_": "2I46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I46/2I46.md",
-      "date": "2022-09-16T13:29:04.828565",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma alíquota de $\\pu{75 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ de\n$\\ce{Na2CO3(aq)}$ foi titulada com uma solução $\\pu{0,13 mol.L-1}$ de\n$\\ce{HNO3(aq)}$.\n\n-   **Determine** o pH inicial.\n-   **Determine** o pH após a adição de $\\pu{25 mL}$ de $\\ce{HNO3(aq)}$.\n-   **Determine** o pH após a adição de $\\pu{65 mL}$ de $\\ce{HNO3(aq)}$.\n",
         "tex": "Uma alíquota de {\\(\\qty{75}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)}\nde {\\(\\ce{Na2CO3(aq)}\\)} foi titulada com uma solução\n{\\(\\qty{0,13}{mol.L^{-1}}\\)} de {\\(\\ce{HNO3(aq)}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o {pH} inicial.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{25}{mL}\\)} de\n  {\\(\\ce{HNO3(aq)}\\)}.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{65}{mL}\\)} de\n  {\\(\\ce{HNO3(aq)}\\)}.\n\\end{itemize}\n"
@@ -5513,7 +5515,7 @@
     {
       "id_": "2I22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I22/2I22.md",
-      "date": "2022-09-16T13:26:19.670313",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A aspirina, ácido acetil-salicílico, é um produto da reação do ácido\nsalicílico com anidrido acético. O pH de uma solução de aspirina foi\najustado para $\\pu{4}$ com um ácido forte ou uma base forte.\n\n**Determine** a razão das concentrações entre o íon acetilsalicilato e o\nácido acetilsalicílico na solução.\n",
         "tex": "A aspirina, ácido acetil-salicílico, é um produto da reação do ácido\nsalicílico com anidrido acético. O {pH} de uma solução de aspirina foi\najustado para {\\(\\num{4}\\)} com um ácido forte ou uma base forte.\n\n\\textbf{Determine} a razão das concentrações entre o íon\nacetilsalicilato e o ácido acetilsalicílico na solução.\n"
@@ -5546,7 +5548,7 @@
     {
       "id_": "2I41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I41/2I41.md",
-      "date": "2022-09-16T13:37:55.562631",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a titulação de $\\pu{5 mL}$ de uma solução $\\pu{0,01 mol.L-1}$\nde $\\ce{H2S2O3(aq)}$ com uma solução $\\ce{0,01 mol.L-1}$ de\n$\\ce{KOH(aq)}$.\n\n-   **Esboce** a curva da titulação.\n-   **Identifique** os pontos inicial e final, os pontos\n    estequiométricos e cada um dos pontos médios.\n",
         "tex": "Considere a titulação de {\\(\\qty{5}{mL}\\)} de uma solução\n{\\(\\qty{0,01}{mol.L^{-1}}\\)} de {\\(\\ce{H2S2O3(aq)}\\)} com uma solução\n{\\(\\ce{0,01 mol.L-1}\\)} de {\\(\\ce{KOH(aq)}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Esboce} a curva da titulação.\n\\item\n  \\textbf{Identifique} os pontos inicial e final, os pontos\n  estequiométricos e cada um dos pontos médios.\n\\end{itemize}\n"
@@ -5579,7 +5581,7 @@
     {
       "id_": "2I43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I43/2I43.md",
-      "date": "2022-09-16T13:35:09.664226",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma amostra de $\\pu{0,102 g}$ ácido fosforoso, $\\ce{H3PO3}$, foi\ndissolvida em água até completar $\\pu{50 mL}$. A solução foi titulada\ncom uma solução $\\pu{0,175 mol.L-1}$ de $\\ce{NaOH(aq)}$.\n\n-   **Determine** o pH inicial.\n-   **Determine** o pH após a adição de $\\pu{5 mL}$ de $\\ce{NaOH(aq)}$.\n-   **Determine** o pH após a adição de $\\pu{10 mL}$ de $\\ce{NaOH(aq)}$.\n",
         "tex": "Uma amostra de {\\(\\qty{0,102}{g}\\)} ácido fosforoso, {\\(\\ce{H3PO3}\\)}, foi\ndissolvida em água até completar {\\(\\qty{50}{mL}\\)}. A solução foi\ntitulada com uma solução {\\(\\qty{0,175}{mol.L^{-1}}\\)} de\n{\\(\\ce{NaOH(aq)}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o {pH} inicial.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{5}{mL}\\)} de\n  {\\(\\ce{NaOH(aq)}\\)}.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{10}{mL}\\)} de\n  {\\(\\ce{NaOH(aq)}\\)}.\n\\end{itemize}\n"
@@ -5708,7 +5710,7 @@
     {
       "id_": "2I07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I07/2I07.md",
-      "date": "2022-09-16T12:59:56.085902",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Determine** a razão entre as concentrações molares de íons acetato e\nde ácido acético necessária para tamponar uma solução em\n$\\mathrm{pH} = \\pu{5,3}$.\n",
         "tex": "\\textbf{Determine} a razão entre as concentrações molares de íons\nacetato e de ácido acético necessária para tamponar uma solução em\n{\\(\\mathrm{pH} = \\num{5,3}\\)}.\n"
@@ -5741,7 +5743,7 @@
     {
       "id_": "2I18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I18/2I18.md",
-      "date": "2022-09-16T13:25:52.088593",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução foi preparada pela mistura de $\\pu{100 mL}$ de uma solução\n$\\pu{0,05 mol.L-1}$ de $\\ce{(CH3)2NH(aq)}$ com $\\pu{280 mL}$ de uma\nsolução $\\pu{0,04 mol.L-1}$ de $\\ce{(CH3)2NH2Cl(aq).}$\n\n**Determine** o pH da solução resultante.\n",
         "tex": "Uma solução foi preparada pela mistura de {\\(\\qty{100}{mL}\\)} de uma\nsolução {\\(\\qty{0,05}{mol.L^{-1}}\\)} de {\\(\\ce{(CH3)2NH(aq)}\\)} com\n{\\(\\qty{280}{mL}\\)} de uma solução {\\(\\qty{0,04}{mol.L^{-1}}\\)} de\n{\\(\\ce{(CH3)2NH2Cl(aq).}\\)}\n\n\\textbf{Determine} o {pH} da solução resultante.\n"
@@ -5794,7 +5796,7 @@
     {
       "id_": "2I13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I13/2I13.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução foi preparada pela mistura de $\\pu{25 mL}$ de uma solução\n$\\pu{0,1 mol.L-1}$ de ácido fórmico com $\\pu{5 mL}$ de uma solução\n$\\pu{0,15 mol.L-1}$ de $\\ce{NaOH}$.\n\n**Determine** o pH da solução resultante.\n",
         "tex": "Uma solução foi preparada pela mistura de {\\(\\qty{25}{mL}\\)} de uma\nsolução {\\(\\qty{0,1}{mol.L^{-1}}\\)} de ácido fórmico com {\\(\\qty{5}{mL}\\)} de\numa solução {\\(\\qty{0,15}{mol.L^{-1}}\\)} de {\\(\\ce{NaOH}\\)}.\n\n\\textbf{Determine} o {pH} da solução resultante.\n"
@@ -5855,7 +5857,7 @@
     {
       "id_": "2I17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I17/2I17.md",
-      "date": "2022-09-16T13:25:49.340023",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução foi preparada pela mistura de $\\pu{30 mL}$ de uma solução\n$\\pu{0,05 mol.L-1}$ de $\\ce{HCN(aq)}$ com $\\pu{70 mL}$ de uma solução\n$\\pu{0,03 mol.L-1}$ de $\\ce{NaCN(aq)}$.\n\n**Determine** o pH da solução resultante.\n",
         "tex": "Uma solução foi preparada pela mistura de {\\(\\qty{30}{mL}\\)} de uma\nsolução {\\(\\qty{0,05}{mol.L^{-1}}\\)} de {\\(\\ce{HCN(aq)}\\)} com\n{\\(\\qty{70}{mL}\\)} de uma solução {\\(\\qty{0,03}{mol.L^{-1}}\\)} de\n{\\(\\ce{NaCN(aq)}\\)}.\n\n\\textbf{Determine} o {pH} da solução resultante.\n"
@@ -5894,7 +5896,7 @@
     {
       "id_": "2I45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I45/2I45.md",
-      "date": "2022-09-16T13:29:00.355637",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma alíquota de $\\pu{50 mL}$ de uma solução $\\pu{0,3 mol.L-1}$ de\n$\\ce{Na2HPO4(aq)}$ foi titulada com uma solução $\\pu{0,3 mol.L-1}$ de\n$\\ce{HCl(aq)}$.\n\n-   **Determine** o pH inicial.\n-   **Determine** o pH após a adição de $\\pu{50 mL}$ de $\\ce{HCl(aq)}$.\n-   **Determine** o pH após a adição de $\\pu{75 mL}$ de $\\ce{HCl(aq)}$.\n-   **Determine** o pH após a adição de $\\pu{25 mL}$ de $\\ce{HCl(aq)}$\n",
         "tex": "Uma alíquota de {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,3}{mol.L^{-1}}\\)}\nde {\\(\\ce{Na2HPO4(aq)}\\)} foi titulada com uma solução\n{\\(\\qty{0,3}{mol.L^{-1}}\\)} de {\\(\\ce{HCl(aq)}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o {pH} inicial.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{50}{mL}\\)} de\n  {\\(\\ce{HCl(aq)}\\)}.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{75}{mL}\\)} de\n  {\\(\\ce{HCl(aq)}\\)}.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{25}{mL}\\)} de\n  {\\(\\ce{HCl(aq)}\\)}\n\\end{itemize}\n"
@@ -5935,7 +5937,7 @@
     {
       "id_": "2I12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I12/2I12.md",
-      "date": "2022-09-16T12:57:10.103480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a titulação de $\\pu{25 mL}$ de uma solução $\\pu{0,02 mol.L-1}$\nde $\\ce{NH3(aq)}$ com uma solução $\\pu{0,015 mol.L-1}$ de\n$\\ce{HCl(aq)}$.\n\n**Determine** o pH no ponto estequiométrico.\n",
         "tex": "Considere a titulação de {\\(\\qty{25}{mL}\\)} de uma solução\n{\\(\\qty{0,02}{mol.L^{-1}}\\)} de {\\(\\ce{NH3(aq)}\\)} com uma solução\n{\\(\\qty{0,015}{mol.L^{-1}}\\)} de {\\(\\ce{HCl(aq)}\\)}.\n\n\\textbf{Determine} o {pH} no ponto estequiométrico.\n"
@@ -6032,7 +6034,7 @@
     {
       "id_": "2I44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I44/2I44.md",
-      "date": "2022-09-16T13:32:02.733459",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma amostra de $\\pu{0,27 g}$ de ácido oxálico, $\\ce{(COOH)2}$, foi\ndissolvida em água até completar $\\pu{50 mL}$. A solução foi titulada\ncom uma solução $\\pu{0,15 mol.L-1}$ de $\\ce{NaOH(aq)}$.\n\n-   **Determine** o pH inicial.\n-   **Determine** o pH após a adição de $\\pu{5 mL}$ de $\\ce{NaOH(aq)}$.\n-   **Determine** o pH após a adição de $\\pu{5 mL}$ de $\\ce{NaOH(aq)}$.\n",
         "tex": "Uma amostra de {\\(\\qty{0,27}{g}\\)} de ácido oxálico, {\\(\\ce{(COOH)2}\\)},\nfoi dissolvida em água até completar {\\(\\qty{50}{mL}\\)}. A solução foi\ntitulada com uma solução {\\(\\qty{0,15}{mol.L^{-1}}\\)} de {\\(\\ce{NaOH(aq)}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o {pH} inicial.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{5}{mL}\\)} de\n  {\\(\\ce{NaOH(aq)}\\)}.\n\\item\n  \\textbf{Determine} o {pH} após a adição de {\\(\\qty{5}{mL}\\)} de\n  {\\(\\ce{NaOH(aq)}\\)}.\n\\end{itemize}\n"
@@ -6065,7 +6067,7 @@
     {
       "id_": "2I02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2I/2I02/2I02.md",
-      "date": "2022-09-16T21:23:47.339201",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução tampão é $\\pu{0,04 mol.L-1}$ em $\\ce{NH4Cl(aq)}$ e\n$\\pu{0,03 mol.L-1}$ em $\\ce{NH3(aq)}$\n\n**Determine** o pH da solução.\n",
         "tex": "Uma solução tampão é {\\(\\qty{0,04}{mol.L^{-1}}\\)} em {\\(\\ce{NH4Cl(aq)}\\)} e\n{\\(\\qty{0,03}{mol.L^{-1}}\\)} em {\\(\\ce{NH3(aq)}\\)}\n\n\\textbf{Determine} o {pH} da solução.\n"
@@ -6098,7 +6100,7 @@
     {
       "id_": "2H20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H20/2H20.md",
-      "date": "2022-07-09T20:38:17.357226",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em acetato de piridínio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em acetato de piridínio.\n"
@@ -6197,7 +6199,7 @@
     {
       "id_": "2H18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H18/2H18.md",
-      "date": "2022-07-09T20:38:00.925327",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da concentração de ácido\nfluorídrico em uma solução $\\pu{0,07 mol.L-1}$ em fluoreto de potássio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de\nácido fluorídrico em uma solução {\\(\\qty{0,07}{mol.L^{-1}}\\)} em fluoreto de\npotássio.\n"
@@ -6248,7 +6250,7 @@
     {
       "id_": "2H03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H03/2H03.md",
-      "date": "2022-07-09T20:37:00.477695",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,08}{mol.L^{-1}}\\)} em ácido acético.\n"
@@ -6327,7 +6329,7 @@
     {
       "id_": "2H14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H14/2H14.md",
-      "date": "2022-07-09T20:37:38.045466",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da concentração de\nhidrônio em uma solução $\\pu{0,07 mol.L-1}$ em cloreto de ferro (III).\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de\nhidrônio em uma solução {\\(\\qty{0,07}{mol.L^{-1}}\\)} em cloreto de ferro\n(III).\n"
@@ -6378,7 +6380,7 @@
     {
       "id_": "2H19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H19/2H19.md",
-      "date": "2022-07-09T20:38:09.145276",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,5 mol.L-1}$ em cianeto de amônio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,5}{mol.L^{-1}}\\)} em cianeto de amônio.\n"
@@ -6517,7 +6519,7 @@
     {
       "id_": "2H28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H28/2H28.md",
-      "date": "2022-07-09T20:39:18.116852",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{PO4^{3-}}$ em uma solução $\\pu{0,1 mol.L-1}$ em ácido fosfórico.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de\n{\\(\\ce{PO4^{3-}}\\)} em uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em ácido\nfosfórico.\n"
@@ -6584,7 +6586,7 @@
     {
       "id_": "2H08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H08/2H08.md",
-      "date": "2022-07-09T20:37:22.601561",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da concentração de\nhidróxido de uma solução $\\pu{0,02 mol.L-1}$ em trietilamina.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de\nhidróxido de uma solução {\\(\\qty{0,02}{mol.L^{-1}}\\)} em trietilamina.\n"
@@ -6635,7 +6637,7 @@
     {
       "id_": "2H27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H27/2H27.md",
-      "date": "2022-07-09T20:39:08.212914",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{SO3^{2-}}$ em uma solução $\\pu{0,2 mol.L-1}$ em ácido sufuroso.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de\n{\\(\\ce{SO3^{2-}}\\)} em uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em ácido\nsufuroso.\n"
@@ -6694,7 +6696,7 @@
     {
       "id_": "2H16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H16/2H16.md",
-      "date": "2022-07-09T20:37:50.573390",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do grau de desprotonação\nde uma solução $\\pu{0,01 mol.L-1}$ em cloreto de anilínio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do grau de\ndesprotonação de uma solução {\\(\\qty{0,01}{mol.L^{-1}}\\)} em cloreto de\nanilínio.\n"
@@ -6745,7 +6747,7 @@
     {
       "id_": "2H15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H15/2H15.md",
-      "date": "2022-07-09T20:37:44.517427",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima de uma solução\n$\\pu{0,18 mol.L-1}$ em cloreto de amônio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima de uma solução\n{\\(\\qty{0,18}{mol.L^{-1}}\\)} em cloreto de amônio.\n"
@@ -6796,7 +6798,7 @@
     {
       "id_": "2H22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H22/2H22.md",
-      "date": "2022-07-09T20:38:34.977118",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da concentração de íon\nhidrônio em uma solução $\\pu{0,2 mol.L-1}$ em ácido sulfídrico.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de\níon hidrônio em uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em ácido sulfídrico.\n"
@@ -6855,7 +6857,7 @@
     {
       "id_": "2H26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H26/2H26.md",
-      "date": "2022-07-09T20:39:00.276962",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,2 mol.L-1}$ em dihidrogenofosfato de sódio, $\\ce{NaH2PO4}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em dihidrogenofosfato de sódio,\n{\\(\\ce{NaH2PO4}\\)}.\n"
@@ -6962,7 +6964,7 @@
     {
       "id_": "2H13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H13/2H13.md",
-      "date": "2022-07-09T20:37:30.077515",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,2 mol.L-1}$ em nitrato de cobre (II).\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em nitrato de cobre (II).\n"
@@ -7173,7 +7175,7 @@
     {
       "id_": "2H05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H05/2H05.md",
-      "date": "2022-07-09T20:37:09.229642",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em metilamina.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma\nsolução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em metilamina.\n"
@@ -7224,7 +7226,7 @@
     {
       "id_": "2H17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H17/2H17.md",
-      "date": "2022-07-09T20:37:56.321355",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,09 mol.L-1}$ em acetato de cálcio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,09}{mol.L^{-1}}\\)} em acetato de cálcio.\n"
@@ -7289,7 +7291,7 @@
     {
       "id_": "2H21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H21/2H21.md",
-      "date": "2022-07-09T20:38:24.981179",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,023 mol.L-1}$ em ácido carbônico.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,023}{mol.L^{-1}}\\)} em ácido carbônico.\n"
@@ -7362,7 +7364,7 @@
     {
       "id_": "2H07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H07/2H07.md",
-      "date": "2022-07-09T20:37:15.289605",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em ácido tricloroacético.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em ácido tricloroacético.\n"
@@ -7453,7 +7455,7 @@
     {
       "id_": "2H23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H23/2H23.md",
-      "date": "2022-07-09T20:40:21.972457",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Assinale a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,05 mol.L-1}$ em ácido sulfúrico.\n",
         "tex": "Assinale a alternativa que mais se aproxima do {pH} de uma solução\n{\\(\\qty{0,05}{mol.L^{-1}}\\)} em ácido sulfúrico.\n"
@@ -7504,7 +7506,7 @@
     {
       "id_": "2H25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H25/2H25.md",
-      "date": "2022-07-09T20:38:49.945026",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em bicarbonato de sódio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {pH} de uma\nsolução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em bicarbonato de sódio.\n"
@@ -7741,7 +7743,7 @@
     {
       "id_": "2G07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G07/2G07.md",
-      "date": "2022-07-09T20:35:49.398125",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a reação a $\\pu{25 \\degree C}$.\n\n$$\n\\begin{aligned}\n\\ce{ N2O4(g) &<=> 2 NO2(g) }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n",
         "tex": "Considere a reação a {\\(\\qty{25}{\\degree C}\\)}.\n\n{\\[\n\\begin{aligned}\n\\ce{ N2O4(g) &<=> 2 NO2(g) }\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n"
@@ -8016,7 +8018,7 @@
     {
       "id_": "2G04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G04/2G04.md",
-      "date": "2022-07-09T20:35:28.302252",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Em um cilindro são adicionados $\\pu{100 bar}$ de $\\ce{SO2}$, $\\ce{O2}$ e\n$\\ce{SO3}$, respectivamente. O sistema é mantido a $\\pu{25 \\degree C}$ e\nocorre a reação:\n\n$$\n\\begin{aligned}\n\\ce{ 2 SO2(g) + O2(g) <=> SO3(g) }\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da energia livre da\nreação.\n",
         "tex": "Em um cilindro são adicionados {\\(\\qty{100}{bar}\\)} de {\\(\\ce{SO2}\\)},\n{\\(\\ce{O2}\\)} e {\\(\\ce{SO3}\\)}, respectivamente. O sistema é mantido a\n{\\(\\qty{25}{\\degree C}\\)} e ocorre a reação:\n\n{\\[\n\\begin{aligned}\n\\ce{ 2 SO2(g) + O2(g) <=> SO3(g) }\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da energia livre da\nreação.\n"
@@ -8249,7 +8251,7 @@
     {
       "id_": "2G06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G06/2G06.md",
-      "date": "2022-06-20T22:26:09.811214",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A reação a seguir é conduzida sob $\\pu{1 atm}$.\n\n$$\n\\begin{aligned}\n\\ce{ NiO(s) + CO(s) <=> Ni(s) + CO2(g) } && K = 500\n\\end{aligned}\n$$\n\nPara a manutenção da temperatura constante até a situação de equilíbrio,\ndevem ser retirados do meio reacional $\\pu{16,10 kJ}$ de energia por mol\nde óxido de níquel reagido, na forma de calor.\n\n**Assinale** a alternativa que mais se aproxima da temperatura em que a\nreação é conduzida.\n",
         "tex": "A reação a seguir é conduzida sob {\\(\\qty{1}{atm}\\)}.\n\n{\\[\n\\begin{aligned}\n\\ce{ NiO(s) + CO(s) <=> Ni(s) + CO2(g) } && K = 500\n\\end{aligned}\n\\]}\n\nPara a manutenção da temperatura constante até a situação de equilíbrio,\ndevem ser retirados do meio reacional {\\(\\qty{16,10}{kJ}\\)} de energia por\nmol de óxido de níquel reagido, na forma de calor.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura em\nque a reação é conduzida.\n"
@@ -8566,7 +8568,7 @@
     {
       "id_": "2G08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G08/2G08.md",
-      "date": "2022-07-09T20:35:54.550094",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a reação a $\\pu{25 \\degree C}$.\n\n$$\n\\ce{ 1/2 H2(g) + 1/2 I2(g) <=> HI(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n",
         "tex": "Considere a reação a {\\(\\qty{25}{\\degree C}\\)}.\n\n{\\[\n\\ce{ 1/2 H2(g) + 1/2 I2(g) <=> HI(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n"
@@ -8657,7 +8659,7 @@
     {
       "id_": "2G49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G49/2G49.md",
-      "date": "2022-06-20T22:26:09.811214",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Um reator contém uma mistura dos gases metilpropeno, *cis*-but-2-eno e\n*trans*-but-2-eno em equilíbrio.\n\n**Determine** a fração de cada composto no equilíbrio.\n",
         "tex": "Um reator contém uma mistura dos gases metilpropeno,\n\\emph{cis}-but-2-eno e \\emph{trans}-but-2-eno em equilíbrio.\n\n\\textbf{Determine} a fração de cada composto no equilíbrio.\n"
@@ -8840,7 +8842,7 @@
     {
       "id_": "2G46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G46/2G46.md",
-      "date": "2022-07-09T20:36:39.725821",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Um reator para a produção de metanol é preenchido com uma mistrura de\n$\\ce{CO}$ e $\\ce{H2}$ na proporção 1 : 2. O sistema é mantido a\n$\\pu{600 K}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CO(g) + 2 H2(g) <=> CH3OH(g) }\n\\end{aligned}\n$$\n\nNo equilíbrio a pressão total é $\\pu{50 atm}$.\n\n-   **Determine** a constante de equilíbrio para essa reação.\n-   **Determine** o grau de conversão para a formação de metanol.\n",
         "tex": "Um reator para a produção de metanol é preenchido com uma mistrura de\n{\\(\\ce{CO}\\)} e {\\(\\ce{H2}\\)} na proporção {1 : 2}. O sistema é mantido\na {\\(\\qty{600}{K}\\)} e o equilíbrio é estabelecido:\n\n{\\[\n\\begin{aligned}\n\\ce{ CO(g) + 2 H2(g) <=> CH3OH(g) }\n\\end{aligned}\n\\]}\n\nNo equilíbrio a pressão total é {\\(\\qty{50}{atm}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a constante de equilíbrio para essa reação.\n\\item\n  \\textbf{Determine} o grau de conversão para a formação de metanol.\n\\end{itemize}\n"
@@ -8963,7 +8965,7 @@
     {
       "id_": "2G45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G45/2G45.md",
-      "date": "2022-07-09T20:36:11.345993",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. O ponto de fusão da solução é\n$\\pu{-30 \\degree C}$\n\n-   **Determine** o grau de dimerização do tetracloreto de vanádio.\n-   **Determine** a constante de equilíbrio de dimerização do cloreto de\n    vanádio.\n",
         "tex": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando {\\(\\ce{V2Cl8}\\)}. Em um experimento,\n{\\(\\qty{6,76}{g}\\)} de {\\(\\ce{VCl4}\\)} foram dissolvidos em\n{\\(\\qty{100}{g}\\)} de tetracloreto de carbono a {\\(\\qty{0}{\\degree C}\\)}.\nApós certo tempo a mistura alcançou o equilíbrio, sendo a densidade\n{\\(\\qty{1,78}{g.cm^{-3}}\\)}. O ponto de fusão da solução é\n{\\(\\qty{-30}{\\degree C}\\)}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o grau de dimerização do tetracloreto de vanádio.\n\\item\n  \\textbf{Determine} a constante de equilíbrio de dimerização do cloreto\n  de vanádio.\n\\end{itemize}\n"
@@ -9486,7 +9488,7 @@
     {
       "id_": "2G28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G28/2G28.md",
-      "date": "2022-07-09T20:35:59.198066",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Considere a reação de síntese da amônia a $\\pu{298 K}$:\n\n$$\n\\begin{aligned}\n\\ce{ N2(g) + 3 H2(g) <=> 2 NH3(g) } && K_{\\pu{298 K}} =\n\\pu{6,8e5}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio da reação a $\\pu{400 K}$.\n",
         "tex": "Considere a reação de síntese da amônia a {\\(\\qty{298}{K}\\)}:\n\n{\\[\n\\begin{aligned}\n\\ce{ N2(g) + 3 H2(g) <=> 2 NH3(g) } && K_{\\qty{298}{K}} =\n\\num{6,8e5}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da constante de\nequilíbrio da reação a {\\(\\qty{400}{K}\\)}.\n"
@@ -9537,7 +9539,7 @@
     {
       "id_": "2G47",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G47/2G47.md",
-      "date": "2022-07-09T20:36:53.189739",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Um reator para a produção de cementita é equipado com um pistão que se\nmove livremente contra pressão de $\\pu{1 atm}$. O reator é preenchido\ncom ferro metálico e gás hidrogênio. O sistema é mantido a\n$\\pu{25 \\degree C}$ e o equilíbrio é estabelecido:\n\n$$\n\\begin{aligned}\n\\ce{ CH4(g) + 3 Fe(S) <=> Fe3C(s) + 2 H2(g) }\n\\end{aligned}\n$$\n\n-   **Determine** a constante de equilíbrio para essa reação.\n-   **Determine** a fração molar de hidrogênio na fase gasosa no\n    equilíbrio.\n-   **Avalie** a viabilidade do processo para a produção de cementita.\n",
         "tex": "Um reator para a produção de cementita é equipado com um pistão que se\nmove livremente contra pressão de {\\(\\qty{1}{atm}\\)}. O reator é\npreenchido com ferro metálico e gás hidrogênio. O sistema é mantido a\n{\\(\\qty{25}{\\degree C}\\)} e o equilíbrio é estabelecido:\n\n{\\[\n\\begin{aligned}\n\\ce{ CH4(g) + 3 Fe(S) <=> Fe3C(s) + 2 H2(g) }\n\\end{aligned}\n\\]}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a constante de equilíbrio para essa reação.\n\\item\n  \\textbf{Determine} a fração molar de hidrogênio na fase gasosa no\n  equilíbrio.\n\\item\n  \\textbf{Avalie} a viabilidade do processo para a produção de\n  cementita.\n\\end{itemize}\n"
@@ -9698,7 +9700,7 @@
     {
       "id_": "2A47",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A47/2A47.md",
-      "date": "2022-07-09T20:18:02.757206",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma massa de óxido ferroso é aquecida a $\\pu{1273 K}$ e, em seguida,\nexposta a uma mistura gasosa de monóxido de carbono e hidrogênio. O\nóxido é reduzido a metal sem qualquer fornecimento adicional de energia.\nO sistema perde $\\pu{4,2 kJ}$ de calor para a vizinhança por mol de\nóxido reduzido.\n\n**Determine** a razão mínima entre as pressões parciais de monóxido de\ncarbono e de hidrogênio na mistura gasosa inicial, para que o processo\nseja autossustentável.\n",
         "tex": "Uma massa de óxido ferroso é aquecida a {\\(\\qty{1273}{K}\\)} e, em seguida,\nexposta a uma mistura gasosa de monóxido de carbono e hidrogênio. O\nóxido é reduzido a metal sem qualquer fornecimento adicional de energia.\nO sistema perde {\\(\\qty{4,2}{kJ}\\)} de calor para a vizinhança por mol de\nóxido reduzido.\n\n\\textbf{Determine} a razão mínima entre as pressões parciais de monóxido\nde carbono e de hidrogênio na mistura gasosa inicial, para que o\nprocesso seja autossustentável.\n"
@@ -9795,7 +9797,7 @@
     {
       "id_": "2A16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A16/2A16.md",
-      "date": "2022-07-09T20:11:25.572181",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A oxidação de aminoácidos no organismo leva a formação de ureia\n($\\ce{H2NCONH2}$), dióxido de carbono e água.\n\n**Assinale** a alternativa do valor mais próximo da entalpia de oxidação\nda glicina ($\\ce{NH2CH2COOH}$).\n",
         "tex": "A oxidação de aminoácidos no organismo leva a formação de ureia\n({\\(\\ce{H2NCONH2}\\)}), dióxido de carbono e água.\n\n\\textbf{Assinale} a alternativa do valor mais próximo da entalpia de\noxidação da glicina ({\\(\\ce{NH2CH2COOH}\\)}).\n"
@@ -9870,7 +9872,7 @@
     {
       "id_": "2A02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A02/2A02.md",
-      "date": "2022-07-09T20:10:50.104463",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado no congelamento de $\\pu{100 g}$ de água a\n$\\pu{0 \\degree C}$ e $\\pu{1000 atm}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do valor absoluto\ndo trabalho realizado no congelamento de {\\(\\qty{100}{g}\\)} de água a\n{\\(\\qty{0}{\\degree C}\\)} e {\\(\\qty{1000}{atm}\\)}.\n"
@@ -9929,7 +9931,7 @@
     {
       "id_": "2A37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A37/2A37.md",
-      "date": "2022-07-09T21:27:05.611113",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Determine** a entalpia de combustão do octano.\n",
         "tex": "\\textbf{Determine} a entalpia de combustão do octano.\n"
@@ -9970,7 +9972,7 @@
     {
       "id_": "2A28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A28/2A28.md",
-      "date": "2022-07-09T20:14:17.298859",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "O poder calorífico superior (PCS) e o poder calorífico inferior (PCI)\nsão definidos como a energia liberada na combustão completa de uma\nsubstância formando água líquida e gasosa, respectivamente.\n\n**Assinale** a alternativa que mais se aproxima do PCI do etanol\n($\\text{PCS} = \\pu{30 MJ.kg-1}$).\n",
         "tex": "O poder calorífico superior (PCS) e o poder calorífico inferior (PCI)\nsão definidos como a energia liberada na combustão completa de uma\nsubstância formando água líquida e gasosa, respectivamente.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do PCI do etanol\n({\\(\\text{PCS} = \\qty{30}{MJ.kg^{-1}}\\)}).\n"
@@ -9986,8 +9988,8 @@
         "quantities": [
           {
             "id_": "Hvap(H2O)",
-            "name": "entalpia de sublimação da água",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{H2O})",
+            "name": "entalpia de vaporização da água",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
             "value": 40.7,
             "unit": "kJ.mol-1",
             "prec": 3
@@ -10021,7 +10023,7 @@
     {
       "id_": "2A21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A21/2A21.md",
-      "date": "2022-07-09T21:23:18.397192",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A hidrogenação do monóxido de carbono libera $\\pu{131 kJ}$ por mol de\ngrafita formado.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reforma\nde $\\pu{1 mol}$ de metano com vapor, método industrial para produção de\nhidrogênio.\n",
         "tex": "A hidrogenação do monóxido de carbono libera {\\(\\qty{131}{kJ}\\)} por mol\nde grafita formado.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nreforma de {\\(\\qty{1}{mol}\\)} de metano com vapor, método industrial para\nprodução de hidrogênio.\n"
@@ -10168,7 +10170,7 @@
     {
       "id_": "2A19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A19/2A19.md",
-      "date": "2022-07-09T21:18:29.516072",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de bromação\nde um mol de $\\ce{propeno}$ ($\\ce{CH3CHCH2}$), formando\n1,2-dibromopropano ($\\ce{CH3CHBrCH2Br}$).\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nbromação de um mol de {\\(\\ce{propeno}\\)} ({\\(\\ce{CH3CHCH2}\\)}), formando\n1,2-dibromopropano ({\\(\\ce{CH3CHBrCH2Br}\\)}).\n"
@@ -10182,6 +10184,22 @@
       ],
       "data": {
         "quantities": [
+          {
+            "id_": "Hvap(Br2)=15.44",
+            "name": "Hvap(Br2)=15.44",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "Hvap(CH3CHBrCH2Br)=35.61",
+            "name": "Hvap(CH3CHBrCH2Br)=35.61",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
           {
             "id_": "HL(Br2)",
             "name": "entalpia de ligação do \\ce{Br2}",
@@ -10211,22 +10229,6 @@
             "name": "entalpia de ligação do \\ce{C=C}",
             "symbol": "\\Delta H_\\mathrm{L}(\\ce{C=C})",
             "value": 612,
-            "unit": "kJ.mol-1",
-            "prec": 3
-          },
-          {
-            "id_": "Hvap(Br2)",
-            "name": "entalpia de sublimação do \\ce{Br2}",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{Br2})",
-            "value": 15.4,
-            "unit": "kJ.mol-1",
-            "prec": 3
-          },
-          {
-            "id_": "Hvap(CH3CHBrCH2Br)",
-            "name": "entalpia de sublimação do \\ce{CH3CHBrCH2Br}",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{CH3CHBrCH2Br})",
-            "value": 35.6,
             "unit": "kJ.mol-1",
             "prec": 3
           }
@@ -10285,7 +10287,7 @@
     {
       "id_": "2A06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A06/2A06.md",
-      "date": "2022-07-09T20:11:05.588340",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Em um calorímetro adiabático foram adicionados $\\pu{300 g}$ de gelo a\n$\\pu{0 \\degree C}$ e $\\pu{400 g}$ de água a $\\pu{55 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final do\nsistema.\n",
         "tex": "Em um calorímetro adiabático foram adicionados {\\(\\qty{300}{g}\\)} de gelo\na {\\(\\qty{0}{\\degree C}\\)} e {\\(\\qty{400}{g}\\)} de água a\n{\\(\\qty{55}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura\nfinal do sistema.\n"
@@ -10520,7 +10522,7 @@
     {
       "id_": "2A45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A45/2A45.md",
-      "date": "2022-07-09T20:16:50.773726",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Dados termodinâmicos podem ser utilizados para quantificar a\nestabilidade de compostos aromáticos.\n\n-   **Determine** a entalpia de hidrogenação do cicloexeno.\n-   **Determine** a entalpia de hidrogenação do benzeno.\n-   **Determine** a entalpia de ressonância do benzeno.\n",
         "tex": "Dados termodinâmicos podem ser utilizados para quantificar a\nestabilidade de compostos aromáticos.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a entalpia de hidrogenação do cicloexeno.\n\\item\n  \\textbf{Determine} a entalpia de hidrogenação do benzeno.\n\\item\n  \\textbf{Determine} a entalpia de ressonância do benzeno.\n\\end{itemize}\n"
@@ -10655,7 +10657,7 @@
     {
       "id_": "2A38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A38/2A38.md",
-      "date": "2022-07-09T20:15:41.170235",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Amostras de $\\pu{5 g}$ de etano e propano foram queimadas\nindependentemente em um calorímetro a $\\pu{298 K}$ e $\\pu{1 atm}$,\nliberando $\\pu{260 kJ}$ e $\\pu{250 kJ}$ de energia, respectivamente.\n\n-   **Determine** a energia da ligação $\\ce{C-C}$.\n-   **Determine** a energia da ligação $\\ce{C-H}$.\n",
         "tex": "Amostras de {\\(\\qty{5}{g}\\)} de etano e propano foram queimadas\nindependentemente em um calorímetro a {\\(\\qty{298}{K}\\)} e\n{\\(\\qty{1}{atm}\\)}, liberando {\\(\\qty{260}{kJ}\\)} e {\\(\\qty{250}{kJ}\\)} de\nenergia, respectivamente.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a energia da ligação {\\(\\ce{C-C}\\)}.\n\\item\n  \\textbf{Determine} a energia da ligação {\\(\\ce{C-H}\\)}.\n\\end{itemize}\n"
@@ -10756,7 +10758,7 @@
     {
       "id_": "2A48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A48/2A48.md",
-      "date": "2022-07-09T20:20:52.552004",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "A ustulação da blenda de zinco é conduzida a $\\pu{1300 K}$ em um reator\ndo tipo leito fluidizado. Sulfeto de zinco misturado com sílica e ar são\nadicionados em fluxo contínuo a $\\pu{300 K}$. A reação libera\n$\\pu{460 kJ}$ de calor por mol de sulfeto a $\\pu{1300 K}$, formando\nóxido de zinco e dióxido de enxofre.\n\n**Determine** a fração molar máxima da sílica na mistura com sulfeto de\nzinco para que o processo seja autossustentável a $\\pu{1300 K}$.\n",
         "tex": "A ustulação da blenda de zinco é conduzida a {\\(\\qty{1300}{K}\\)} em um\nreator do tipo leito fluidizado. Sulfeto de zinco misturado com sílica e\nar são adicionados em fluxo contínuo a {\\(\\qty{300}{K}\\)}. A reação libera\n{\\(\\qty{460}{kJ}\\)} de calor por mol de sulfeto a {\\(\\qty{1300}{K}\\)},\nformando óxido de zinco e dióxido de enxofre.\n\n\\textbf{Determine} a fração molar máxima da sílica na mistura com\nsulfeto de zinco para que o processo seja autossustentável a\n{\\(\\qty{1300}{K}\\)}.\n"
@@ -10774,11 +10776,11 @@
       "data": {
         "quantities": [
           {
-            "id_": "CP(ZnS)",
-            "name": "capacidade calorífica a pressão constante do \\ce{ZnS}",
-            "symbol": "C_P(\\ce{ZnS,\\,\\text{s}})",
-            "value": 45,
-            "unit": "J.K-1.mol-1",
+            "id_": "CP(ZnS,s)=45,7",
+            "name": "CP(ZnS,s)=45,7",
+            "symbol": null,
+            "value": null,
+            "unit": null,
             "prec": 3
           },
           {
@@ -10893,7 +10895,7 @@
     {
       "id_": "2A40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
-      "date": "2022-07-09T20:16:21.849936",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Uma mistura (1 : 15) de metano e ar atmosférico, a $\\pu{298 K}$ e\n$\\pu{1 atm}$, entra em combustão em um reservatório adiabático,\nconsumindo completamente o metano. O processo ocorre sob pressão\nconstante e os produtos formados permanecem em fase gasosa.\n\n![Tabela.](2A40-1P.svg)\n\n-   **Determine** a temperatura final do sistema.\n-   **Determine** a concentração final de vapor.\n",
         "tex": "Uma mistura ({1 : 15}) de metano e ar atmosférico, a {\\(\\qty{298}{K}\\)} e\n{\\(\\qty{1}{atm}\\)}, entra em combustão em um reservatório adiabático,\nconsumindo completamente o metano. O processo ocorre sob pressão\nconstante e os produtos formados permanecem em fase gasosa.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2A40-1P.svg}\n\\caption{Tabela.}\n\\end{figure}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a temperatura final do sistema.\n\\item\n  \\textbf{Determine} a concentração final de vapor.\n\\end{itemize}\n"
@@ -10946,7 +10948,7 @@
     {
       "id_": "2A33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
-      "date": "2022-07-09T20:14:41.258679",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Determine** a energia liberada durante a precipitação pluviométrica de\n$\\pu{20 mm}$ de chuva sobre uma área de $\\pu{100 km2}$.\n",
         "tex": "\\textbf{Determine} a energia liberada durante a precipitação\npluviométrica de {\\(\\qty{20}{mm}\\)} de chuva sobre uma área de\n{\\(\\qty{100}{km^{2}}\\)}.\n"
@@ -10965,8 +10967,8 @@
         "quantities": [
           {
             "id_": "Hvap(H2O)",
-            "name": "entalpia de sublimação da água",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{H2O})",
+            "name": "entalpia de vaporização da água",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
             "value": 40.7,
             "unit": "kJ.mol-1",
             "prec": 3
@@ -11019,7 +11021,7 @@
     {
       "id_": "2A49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A49/2A49.md",
-      "date": "2022-07-09T20:21:14.215852",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Monóxido de carbono a $\\pu{473 K}$ é queimado com 90% de excesso de ar\nseco, a $\\pu{773 K}$ e $\\pu{1 atm}$. Os produtos da combustão abandonam\na câmara de reação a $\\pu{1273 K}$.\n\n**Determine** o calor liberado por mol de monóxido de carbono formado.\n",
         "tex": "Monóxido de carbono a {\\(\\qty{473}{K}\\)} é queimado com {90\\%} de excesso\nde ar seco, a {\\(\\qty{773}{K}\\)} e {\\(\\qty{1}{atm}\\)}. Os produtos da\ncombustão abandonam a câmara de reação a {\\(\\qty{1273}{K}\\)}.\n\n\\textbf{Determine} o calor liberado por mol de monóxido de carbono\nformado.\n"
@@ -11092,7 +11094,7 @@
     {
       "id_": "2A17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A17/2A17.md",
-      "date": "2022-07-09T21:19:05.039699",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metano.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nformação do metano.\n"
@@ -11159,7 +11161,7 @@
     {
       "id_": "2A32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A32/2A32.md",
-      "date": "2022-07-09T20:14:33.246739",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Uma mistura de metano e eteno foi queimada em um reator de $\\pu{3,0 L}$\na $\\pu{25 \\degree C}$, em presença de excesso de oxigênio. O reator é\nequipado com uma jaqueta externa, preenchida com $\\pu{1 L}$ de água, que\nmantém a temperatura constante em seu interior. A combustão foi\nrealizada a $\\pu{25 \\degree C}$, liberando $\\pu{242,7 kcal}$, e\nreduzindo a pressão em $\\pu{16,3 atm}$.\n\n-   **Determine** a energia interna de combustão do metano.\n-   **Determine** a energia interna de combustão do eteno.\n-   **Determine** a massa de metano na mistura inicial.\n",
         "tex": "Uma mistura de metano e eteno foi queimada em um reator de\n{\\(\\qty{3,0}{L}\\)} a {\\(\\qty{25}{\\degree C}\\)}, em presença de excesso de\noxigênio. O reator é equipado com uma jaqueta externa, preenchida com\n{\\(\\qty{1}{L}\\)} de água, que mantém a temperatura constante em seu\ninterior. A combustão foi realizada a {\\(\\qty{25}{\\degree C}\\)}, liberando\n{\\(\\qty{242,7}{kcal}\\)}, e reduzindo a pressão em {\\(\\qty{16,3}{atm}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a energia interna de combustão do metano.\n\\item\n  \\textbf{Determine} a energia interna de combustão do eteno.\n\\item\n  \\textbf{Determine} a massa de metano na mistura inicial.\n\\end{itemize}\n"
@@ -11232,7 +11234,7 @@
     {
       "id_": "2A18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A18/2A18.md",
-      "date": "2022-07-09T21:17:46.812530",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da razão entre a energia\nliberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da razão entre a\nenergia liberada por átomo de hidrogênio na combustão completa do octano\ngasoso e na célula de combustível de hidrogênio e oxigênio.\n"
@@ -11395,7 +11397,7 @@
     {
       "id_": "2A20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A20/2A20.md",
-      "date": "2022-07-09T21:19:03.159719",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nformação do metanol.\n"
@@ -11486,7 +11488,7 @@
     {
       "id_": "2A39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A39/2A39.md",
-      "date": "2022-07-09T20:16:06.090051",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da temperatura\nadiabática de chama para a combustão octano líquido com $\\pu{300\\%}$ de\nexcesso de ar atmosférico.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da temperatura\nadiabática de chama para a combustão octano líquido com {\\(\\qty{300}{\\%}\\)}\nde excesso de ar atmosférico.\n"
@@ -11585,7 +11587,7 @@
     {
       "id_": "2A42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A42/2A42.md",
-      "date": "2022-07-09T20:16:37.441822",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\nda amônia a $\\pu{450 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nformação da amônia a {\\(\\qty{450}{\\degree C}\\)}.\n"
@@ -11660,7 +11662,7 @@
     {
       "id_": "2A12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A12/2A12.md",
-      "date": "2022-07-09T20:11:11.928289",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da variação de entalpia\nquando $\\pu{500 J}$ de energia são transferidos em volume constante a\numa amostra contendo $\\pu{0,9 mol}$ de oxigênio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de\nentalpia quando {\\(\\qty{500}{J}\\)} de energia são transferidos em volume\nconstante a uma amostra contendo {\\(\\qty{0,9}{mol}\\)} de oxigênio.\n"
@@ -11711,7 +11713,7 @@
     {
       "id_": "2A24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A24/2A24.md",
-      "date": "2022-07-09T21:31:56.088595",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Um calorímetro foi calibrado pela queima de $\\pu{0,825 g}$ de ácido\nbenzoico com excesso de oxigênio. A elevação de temperatura registrada\nfoi de $\\pu{8,60 \\degree C}$. Quando uma amostra com $\\pu{0,725 g}$ de\nribose ($\\ce{C5H10O5}$) é queimada no mesmo calorímetro, a temperatura\naumenta de $\\pu{21,81 \\degree C}$ para $\\pu{22,72 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da energia de combustão\nda ribose.\n",
         "tex": "Um calorímetro foi calibrado pela queima de {\\(\\qty{0,825}{g}\\)} de ácido\nbenzoico com excesso de oxigênio. A elevação de temperatura registrada\nfoi de {\\(\\qty{8,60}{\\degree C}\\)}. Quando uma amostra com\n{\\(\\qty{0,725}{g}\\)} de ribose ({\\(\\ce{C5H10O5}\\)}) é queimada no mesmo\ncalorímetro, a temperatura aumenta de {\\(\\qty{21,81}{\\degree C}\\)} para\n{\\(\\qty{22,72}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da energia de\ncombustão da ribose.\n"
@@ -11762,7 +11764,7 @@
     {
       "id_": "2A50",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A50/2A50.md",
-      "date": "2022-07-09T20:21:34.131714",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Um carro comum possui quatro cilindros, que totalizam um volume de\n$\\pu{1,6 L}$ e um consumo de combustível de $\\pu{9,5 L}$ por\n$\\pu{100 km}$ quando viaja a $\\pu{80 km.h-1}$. Cada cilindro sofre 20\nciclos de queima por segundo. O combustível, octano, e ar são\nintroduzidos a $\\pu{390 K}$ no cilindro quando seu volume é máximo, até\nque a pressão seja $\\pu{1 atm}$. Na combustão, 10% do carbono é\nconvertido em monóxido e o restante em dióxido. Ao final do ciclo, o\ncilindro se expande novamente até o volume máximo, sob pressão final de\n$\\pu{20 atm}$.\n\n-   **Determine** a vazão de entrada de ar no motor.\n-   **Determine** a composição da mistura gasosa de saída.\n-   **Determine** a temperatura dos gases imediatamente após a\n    combustão.\n-   **Determine** a temperatura de saída dos gases.\n",
         "tex": "Um carro comum possui quatro cilindros, que totalizam um volume de\n{\\(\\qty{1,6}{L}\\)} e um consumo de combustível de {\\(\\qty{9,5}{L}\\)} por\n{\\(\\qty{100}{km}\\)} quando viaja a {\\(\\qty{80}{km.h^{-1}}\\)}. Cada cilindro\nsofre {20} ciclos de queima por segundo. O combustível, octano, e ar são\nintroduzidos a {\\(\\qty{390}{K}\\)} no cilindro quando seu volume é máximo,\naté que a pressão seja {\\(\\qty{1}{atm}\\)}. Na combustão, {10\\%} do carbono\né convertido em monóxido e o restante em dióxido. Ao final do ciclo, o\ncilindro se expande novamente até o volume máximo, sob pressão final de\n{\\(\\qty{20}{atm}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a vazão de entrada de ar no motor.\n\\item\n  \\textbf{Determine} a composição da mistura gasosa de saída.\n\\item\n  \\textbf{Determine} a temperatura dos gases imediatamente após a\n  combustão.\n\\item\n  \\textbf{Determine} a temperatura de saída dos gases.\n\\end{itemize}\n"
@@ -11903,7 +11905,7 @@
     {
       "id_": "2A46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A46/2A46.md",
-      "date": "2022-07-09T20:17:49.489301",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a estrutura do fulereno, $\\ce{C60}$.\n\n![Fulereno](2A46-1.png)\n\n-   **Determine** a entalpia de formação do fulereno.\n-   **Determine** a entalpia de ressonância do fulereno.\n",
         "tex": "Considere a estrutura do fulereno, {\\(\\ce{C60}\\)}.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2A46-1.png}\n\\caption{Fulereno}\n\\end{figure}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a entalpia de formação do fulereno.\n\\item\n  \\textbf{Determine} a entalpia de ressonância do fulereno.\n\\end{itemize}\n"
@@ -11925,19 +11927,19 @@
       "data": {
         "quantities": [
           {
-            "id_": "Hsub(C60)=1000",
-            "name": "Hsub(C60)=1000",
+            "id_": "Hc(C60)=-26000",
+            "name": "Hc(C60)=-26000",
             "symbol": null,
             "value": null,
             "unit": null,
             "prec": 3
           },
           {
-            "id_": "Hc(C60)",
-            "name": "entalpia de combustão do \\ce{C60}",
-            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C60})",
-            "value": -26000,
-            "unit": "kJ.mol-1",
+            "id_": "Hsub(C60)=1000",
+            "name": "Hsub(C60)=1000",
+            "symbol": null,
+            "value": null,
+            "unit": null,
             "prec": 3
           },
           {
@@ -12034,7 +12036,7 @@
     {
       "id_": "2A22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A22/2A22.md",
-      "date": "2022-07-09T20:13:48.715075",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\ndesidrogenação de $\\pu{1 mol}$ de propano, formando propeno.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\ndesidrogenação de {\\(\\qty{1}{mol}\\)} de propano, formando propeno.\n"
@@ -12109,7 +12111,7 @@
     {
       "id_": "2A34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A34/2A34.md",
-      "date": "2022-07-09T20:14:52.786593",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "O consumo global anual de energia é cerca de $\\pu{100 terawatts}$, sendo\n$\\pu{30\\%}$ desse valor proveniente da queima de combustíveis fósseis.\nConsidere que os combustíveis fósseis são compostos majoritariamente por\noctano, contendo $\\pu{10 ppm}$ de enxofre. Apenas $\\pu{80\\%}$ da energia\nliberada na combustão completa pode ser aproveitada.\n\n-   **Apresente** a reação de combustão completa do octano com ar\n    atmosférico.\n-   **Determine** a massa de dióxido de enxofre formada por hora devido\n    à queima de combustíveis fósseis.\n",
         "tex": "O consumo global anual de energia é cerca de {\\(\\qty{100}{terawatts}\\)},\nsendo {\\(\\qty{30}{\\%}\\)} desse valor proveniente da queima de combustíveis\nfósseis. Considere que os combustíveis fósseis são compostos\nmajoritariamente por octano, contendo {\\(\\qty{10}{ppm}\\)} de enxofre.\nApenas {\\(\\qty{80}{\\%}\\)} da energia liberada na combustão completa pode\nser aproveitada.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Apresente} a reação de combustão completa do octano com ar\n  atmosférico.\n\\item\n  \\textbf{Determine} a massa de dióxido de enxofre formada por hora\n  devido à queima de combustíveis fósseis.\n\\end{itemize}\n"
@@ -12216,7 +12218,7 @@
     {
       "id_": "2A27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A27/2A27.md",
-      "date": "2022-07-09T20:14:11.854900",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da massa de butano\nnecessária para aquecer $\\pu{1 L}$ de água de $\\pu{17 \\degree C}$ a\n$\\pu{100 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de butano\nnecessária para aquecer {\\(\\qty{1}{L}\\)} de água de\n{\\(\\qty{17}{\\degree C}\\)} a {\\(\\qty{100}{\\degree C}\\)}.\n"
@@ -12329,7 +12331,7 @@
     {
       "id_": "2F20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F20/2F20.md",
-      "date": "2022-07-09T20:35:03.902398",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução $\\pu{0,124 mol.L-1}$ em ácido tricloroacético tem ponto de\ncongelamento igual a $\\pu{-0,423 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de ionização do\nácido nessa solução.\n",
         "tex": "Uma solução {\\(\\qty{0,124}{mol.L^{-1}}\\)} em ácido tricloroacético tem ponto\nde congelamento igual a {\\(\\qty{-0,423}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de\nionização do ácido nessa solução.\n"
@@ -12380,7 +12382,7 @@
     {
       "id_": "2F19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F19/2F19.md",
-      "date": "2022-07-09T20:34:59.730423",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma solução 1% de sulfato de magnésio em massa tem ponto de congelamento\nigual a $\\pu{-0,192 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de dissociação\ndo sal nessa solução.\n",
         "tex": "Uma solução {1\\%} de sulfato de magnésio em massa tem ponto de\ncongelamento igual a {\\(\\qty{-0,192}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de\ndissociação do sal nessa solução.\n"
@@ -12431,7 +12433,7 @@
     {
       "id_": "2F05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F05/2F05.md",
-      "date": "2022-07-09T20:34:13.158700",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A adição de $\\pu{0,24 g}$ de enxofre a $\\pu{100 g}$ de tetracloreto de\ncarbono abaixa o ponto de congelamento do solvente em\n$\\pu{0,28 \\degree C}$.\n\n**Assinale** a alternativa com a fórmula molecular das moléculas de\nenxofre.\n",
         "tex": "A adição de {\\(\\qty{0,24}{g}\\)} de enxofre a {\\(\\qty{100}{g}\\)} de\ntetracloreto de carbono abaixa o ponto de congelamento do solvente em\n{\\(\\qty{0,28}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula molecular das moléculas de\nenxofre.\n"
@@ -12482,7 +12484,7 @@
     {
       "id_": "2F15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F15/2F15.md",
-      "date": "2022-07-09T20:34:44.242515",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma amostra de $\\pu{10 g}$ de um composto orgânico é dissolvida em\n$\\pu{80 g}$ de benzeno. O ponto de congelamento da solução é\n$\\pu{1,2 \\degree C}$. Em outro experimento, a queima do mesmo composto\norgânio com excesso de oxigênio formou $\\pu{528 mg}$ de dióxido de\ncarbono, $\\pu{36 mg}$ de água e $\\pu{146 mg}$ de ácido clorídrico.\n\n-   **Determine** a massa molar do composto.\n-   **Determine** a fórmula molecular do composto.\n",
         "tex": "Uma amostra de {\\(\\qty{10}{g}\\)} de um composto orgânico é dissolvida em\n{\\(\\qty{80}{g}\\)} de benzeno. O ponto de congelamento da solução é\n{\\(\\qty{1,2}{\\degree C}\\)}. Em outro experimento, a queima do mesmo\ncomposto orgânio com excesso de oxigênio formou {\\(\\qty{528}{mg}\\)} de\ndióxido de carbono, {\\(\\qty{36}{mg}\\)} de água e {\\(\\qty{146}{mg}\\)} de\nácido clorídrico.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa molar do composto.\n\\item\n  \\textbf{Determine} a fórmula molecular do composto.\n\\end{itemize}\n"
@@ -12697,7 +12699,7 @@
     {
       "id_": "2F16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F16/2F16.md",
-      "date": "2022-07-09T20:34:50.226480",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma amostra de $\\pu{20 g}$ de uma mistura de sacarose, $\\ce{C12H22O11}$,\ne cloreto de sódio é dissolvida em água até formar $\\pu{1 L}$ de\nsolução. O ponto de congelamento da solução é $\\pu{-0,0426 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nsacarose na amostra.\n",
         "tex": "Uma amostra de {\\(\\qty{20}{g}\\)} de uma mistura de sacarose,\n{\\(\\ce{C12H22O11}\\)}, e cloreto de sódio é dissolvida em água até formar\n{\\(\\qty{1}{L}\\)} de solução. O ponto de congelamento da solução é\n{\\(\\qty{-0,0426}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica\nde sacarose na amostra.\n"
@@ -12748,7 +12750,7 @@
     {
       "id_": "2F04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F04/2F04.md",
-      "date": "2022-07-09T20:34:08.578727",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da temperatura de\ncongelamento de uma solução $\\pu{0,2 mol.kg-1}$ do analgésico codeína,\n$\\ce{C18H21NO3}$, em benzeno.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da temperatura de\ncongelamento de uma solução {\\(\\qty{0,2}{mol.kg^{-1}}\\)} do analgésico\ncodeína, {\\(\\ce{C18H21NO3}\\)}, em benzeno.\n"
@@ -12807,7 +12809,7 @@
     {
       "id_": "2F06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F06/2F06.md",
-      "date": "2022-07-09T20:34:19.714661",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A adição de $\\pu{250 mg}$ de eugenol, o composto responsável pelo odor\ndo óleo de cravo-da-índia, a $\\pu{100 g}$ de cânfora, abaixa o ponto de\ncongelamento do solvente em $\\pu{0,62 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do\neugenol.\n",
         "tex": "A adição de {\\(\\qty{250}{mg}\\)} de eugenol, o composto responsável pelo\nodor do óleo de cravo-da-índia, a {\\(\\qty{100}{g}\\)} de cânfora, abaixa o\nponto de congelamento do solvente em {\\(\\qty{0,62}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar do\neugenol.\n"
@@ -12938,7 +12940,7 @@
     {
       "id_": "2F07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F07/2F07.md",
-      "date": "2022-07-09T20:34:31.678590",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da temperatura de\nebulição de uma solução $\\pu{2 mol.kg-1}$ de cloreto de cálcio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da temperatura de\nebulição de uma solução {\\(\\qty{2}{mol.kg^{-1}}\\)} de cloreto de cálcio.\n"
@@ -13029,7 +13031,7 @@
     {
       "id_": "2F22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F22/2F22.md",
-      "date": "2022-07-09T20:35:19.826303",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "O ácido acético comporta-se diferentemente em dois solventes distintos.\nO ponto de congelamento de uma solução 5%, em massa, de ácido acético em\nágua é $\\pu{21,72 \\degree C}$. Em benzeno, o abaixamento do ponto de\ncongelamento associado a uma solução 5%, em massa, de ácido acético é\n$\\pu{2,47 \\degree C}$.\n\n-   **Explique** a diferença no comportamento do ácido acético em\n    solução.\n-   **Determine** o grau de reação do ácido acético em água.\n-   **Determine** o grau de reação do ácido acético em benzeno.\n",
         "tex": "O ácido acético comporta-se diferentemente em dois solventes distintos.\nO ponto de congelamento de uma solução {5\\%}, em massa, de ácido acético\nem água é {\\(\\qty{21,72}{\\degree C}\\)}. Em benzeno, o abaixamento do ponto\nde congelamento associado a uma solução {5\\%}, em massa, de ácido\nacético é {\\(\\qty{2,47}{\\degree C}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Explique} a diferença no comportamento do ácido acético em\n  solução.\n\\item\n  \\textbf{Determine} o grau de reação do ácido acético em água.\n\\item\n  \\textbf{Determine} o grau de reação do ácido acético em benzeno.\n\\end{itemize}\n"
@@ -13118,7 +13120,7 @@
     {
       "id_": "2F21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F21/2F21.md",
-      "date": "2022-07-09T20:35:11.578352",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. A mistura foi resfriada com\nnitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.\n\n![Temperatura por tempo](2F21-1P.svg)\n\n-   **Determine** o grau de dimerização do tetracloreto de vanádio.\n-   **Determine** a concentração de $\\ce{VCl4}$ e $\\ce{V2Cl8}$ no\n    equilíbrio.\n",
         "tex": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando {\\(\\ce{V2Cl8}\\)}. Em um experimento,\n{\\(\\qty{6,76}{g}\\)} de {\\(\\ce{VCl4}\\)} foram dissolvidos em\n{\\(\\qty{100}{g}\\)} de tetracloreto de carbono a {\\(\\qty{0}{\\degree C}\\)}.\nApós certo tempo a mistura alcançou o equilíbrio, sendo a densidade\n{\\(\\qty{1,78}{g.cm^{-3}}\\)}. A mistura foi resfriada com nitrogênio líquido,\nsendo registrada a variação da temperatura com o tempo.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2F21-1P.svg}\n\\caption{Temperatura por tempo}\n\\end{figure}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o grau de dimerização do tetracloreto de vanádio.\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{VCl4}\\)} e\n  {\\(\\ce{V2Cl8}\\)} no equilíbrio.\n\\end{itemize}\n"
@@ -13243,7 +13245,7 @@
     {
       "id_": "2F03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F03/2F03.md",
-      "date": "2022-07-09T20:33:55.358805",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da temperatura de\nebulição de uma solução $\\pu{2 mol.kg-1}$ de sacarose, $\\ce{C11H22O11}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da temperatura de\nebulição de uma solução {\\(\\qty{2}{mol.kg^{-1}}\\)} de sacarose,\n{\\(\\ce{C11H22O11}\\)}.\n"
@@ -13294,7 +13296,7 @@
     {
       "id_": "2F18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F18/2F18.md",
-      "date": "2022-07-09T20:34:55.074451",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "A quitosana tem sido utilizada em cicatrização de ferimentos, remoção de\nproteínas alergênicas de alimentos e liberação controlada de fármacos.\nUm experimento de laboratório envolveu a síntese da quitosana através\ntratamento da quitina com excesso de hidróxido de sódio:\n\n$$\n\\ce{ (C8H13O5N)_n ->[NaOH] (C6H11O4N)_n }\n$$\n\nO produto da reação foi isolado e uma amostra de $\\pu{10,2 g}$ foi\nadicionada em $\\pu{100 mL}$ de água destilada. O ponto de congelamento\ndesta solução é $\\pu{-0,00038 \\degree C}$. A solução foi aquecida,\nmantendo o sistema sob agitação e em refluxo, por um longo tempo,\ngarantindo a quebra completa das unidades poliméricas formando os\nmonômeros. O ponto de congelamento da solução resultante é\n$\\pu{-1,14 \\degree C}$.\n\n-   **Determine** o número médio de unidades monoméricas na estrutura da\n    quitosana.\n-   **Determine** a eficiência da síntese da quitosana utilizando\n    hidróxido de sódio.\n",
         "tex": "A quitosana tem sido utilizada em cicatrização de ferimentos, remoção de\nproteínas alergênicas de alimentos e liberação controlada de fármacos.\nUm experimento de laboratório envolveu a síntese da quitosana através\ntratamento da quitina com excesso de hidróxido de sódio:\n\n{\\[\n\\ce{ (C8H13O5N)_n ->[NaOH] (C6H11O4N)_n }\n\\]}\n\nO produto da reação foi isolado e uma amostra de {\\(\\qty{10,2}{g}\\)} foi\nadicionada em {\\(\\qty{100}{mL}\\)} de água destilada. O ponto de\ncongelamento desta solução é {\\(\\qty{-0,00038}{\\degree C}\\)}. A solução\nfoi aquecida, mantendo o sistema sob agitação e em refluxo, por um longo\ntempo, garantindo a quebra completa das unidades poliméricas formando os\nmonômeros. O ponto de congelamento da solução resultante é\n{\\(\\qty{-1,14}{\\degree C}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} o número médio de unidades monoméricas na estrutura\n  da quitosana.\n\\item\n  \\textbf{Determine} a eficiência da síntese da quitosana utilizando\n  hidróxido de sódio.\n\\end{itemize}\n"
@@ -13345,7 +13347,7 @@
     {
       "id_": "2B14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B14/2B14.md",
-      "date": "2022-07-09T20:24:57.138315",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A *Regra de Trouton* estabelece que a entropia molar de vaporização de\nlíquidos em sua temperatura de ebulição é\n\n$$\n\\Delta S_\\text{vap} \\approx \\pu{10,5}\\, R = \\pu{87,2 J.K-1.mol-1}\n$$\n\n**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\néter metílico.\n",
         "tex": "A \\emph{Regra de Trouton} estabelece que a entropia molar de vaporização\nde líquidos em sua temperatura de ebulição é\n\n{\\[\n\\Delta S_\\text{vap} \\approx \\num{10,5}\\, R = \\qty{87,2}{J.K^{-1}.mol^{-1}}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima do ponto de\nebulição do éter metílico.\n"
@@ -13360,11 +13362,11 @@
       "data": {
         "quantities": [
           {
-            "id_": "Hvap(CH3OCH3)",
-            "name": "entalpia de sublimação do \\ce{CH3OCH3}",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{CH3OCH3})",
-            "value": 21,
-            "unit": "kJ.mol-1",
+            "id_": "Hvap(CH3OCH3)=21,5",
+            "name": "Hvap(CH3OCH3)=21,5",
+            "symbol": null,
+            "value": null,
+            "unit": null,
             "prec": 3
           }
         ]
@@ -13450,7 +13452,7 @@
     {
       "id_": "2B35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B35/2B35.md",
-      "date": "2022-07-09T20:27:35.865238",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A capacidade calorífica de certas substâncias pode ser calculada como:\n$$\nC_P = a +  b T + \\dfrac{c}{T^2}\n$$\n\n**Determine** a variação de entropia quando o grafite é aquecido de\n$\\pu{298 K}$ a $\\pu{400 K}$.\n",
         "tex": "A capacidade calorífica de certas substâncias pode ser calculada como:\n{\\[\nC_P = a +  b T + \\dfrac{c}{T^2}\n\\]}\n\n\\textbf{Determine} a variação de entropia quando o grafite é aquecido de\n{\\(\\qty{298}{K}\\)} a {\\(\\qty{400}{K}\\)}.\n"
@@ -13513,7 +13515,7 @@
     {
       "id_": "2B17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B17/2B17.md",
-      "date": "2022-07-09T20:25:09.826229",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\npara a formação da amônia.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de\nentropia para a formação da amônia.\n"
@@ -13580,7 +13582,7 @@
     {
       "id_": "2B30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B30/2B30.md",
-      "date": "2022-07-09T20:25:54.093927",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a vaporização de $\\pu{1 mol}$ de água a $\\pu{85 \\degree C}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
         "tex": "Considere a vaporização de {\\(\\qty{1}{mol}\\)} de água a\n{\\(\\qty{85}{\\degree C}\\)} e {\\(\\qty{1}{bar}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a variação de entropia do sistema.\n\\item\n  \\textbf{Determine} a variação de entropia da vizinhança.\n\\item\n  \\textbf{Determine} a variação entropia do universo.\n\\end{itemize}\n"
@@ -13623,8 +13625,8 @@
           },
           {
             "id_": "Hvap(H2O)",
-            "name": "entalpia de sublimação da água",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{H2O})",
+            "name": "entalpia de vaporização da água",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
             "value": 40.7,
             "unit": "kJ.mol-1",
             "prec": 3
@@ -13637,7 +13639,7 @@
     {
       "id_": "2B27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B27/2B27.md",
-      "date": "2022-07-09T20:25:34.818058",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Um bloco de gelo a $\\pu{0 \\degree C}$ é colocado em contato com um\nrecipiente fechado que contém vapor de água a $\\pu{100 \\degree C}$ e\n$\\pu{1 atm}$. Após algum tempo, separa-se o bloco de gelo do recipiente\nfechado. Nesse instante $\\pu{25 g}$ de gelo foram convertidos em água\nlíquida a $\\pu{0 \\degree C}$ e que no recipiente fechado existe água\nlíquida e vapor em equilíbrio.\n\n**Determine** a variação de entropia do bloco de gelo.\n",
         "tex": "Um bloco de gelo a {\\(\\qty{0}{\\degree C}\\)} é colocado em contato com um\nrecipiente fechado que contém vapor de água a {\\(\\qty{100}{\\degree C}\\)} e\n{\\(\\qty{1}{atm}\\)}. Após algum tempo, separa-se o bloco de gelo do\nrecipiente fechado. Nesse instante {\\(\\qty{25}{g}\\)} de gelo foram\nconvertidos em água líquida a {\\(\\qty{0}{\\degree C}\\)} e que no recipiente\nfechado existe água líquida e vapor em equilíbrio.\n\n\\textbf{Determine} a variação de entropia do bloco de gelo.\n"
@@ -13750,7 +13752,7 @@
     {
       "id_": "2B04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B04/2B04.md",
-      "date": "2022-07-09T20:22:57.315137",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entropia de\ncongelamento do mercúrio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia de\ncongelamento do mercúrio.\n"
@@ -13891,7 +13893,7 @@
     {
       "id_": "2B08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B08/2B08.md",
-      "date": "2022-07-09T20:23:07.711066",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando um mol de oxigênio é rapidamente comprimido de $\\pu{5 L}$\na $\\pu{1 L}$ por um pistão e, no processo, sua temperatura aumentou de\n$\\pu{20 \\degree C}$ para $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de\nentropia do gás quando um mol de oxigênio é rapidamente comprimido de\n{\\(\\qty{5}{L}\\)} a {\\(\\qty{1}{L}\\)} por um pistão e, no processo, sua\ntemperatura aumentou de {\\(\\qty{20}{\\degree C}\\)} para\n{\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -14018,7 +14020,7 @@
     {
       "id_": "2B32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B32/2B32.md",
-      "date": "2022-07-09T20:27:19.265350",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Uma amostra de $\\pu{71 g}$ de cloro, inicialmente a $\\pu{300 K}$ e\n$\\pu{100 atm}$ se expande contra uma pressão constante de $\\pu{1 atm}$\naté o estado de equilíbrio. Como resultado da expansão, 10% da massa de\ngás é condensada.\n\n-   **Determine** a variação de energia interna do sistema.\n-   **Determine** a variação de entropia do sistema.\n",
         "tex": "Uma amostra de {\\(\\qty{71}{g}\\)} de cloro, inicialmente a {\\(\\qty{300}{K}\\)}\ne {\\(\\qty{100}{atm}\\)} se expande contra uma pressão constante de\n{\\(\\qty{1}{atm}\\)} até o estado de equilíbrio. Como resultado da expansão,\n{10\\%} da massa de gás é condensada.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a variação de energia interna do sistema.\n\\item\n  \\textbf{Determine} a variação de entropia do sistema.\n\\end{itemize}\n"
@@ -14048,27 +14050,27 @@
             "prec": 3
           },
           {
+            "id_": "Hvap(Cl2)=20,42",
+            "name": "Hvap(Cl2)=20,42",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "Teb(Cl2)=-34",
+            "name": "Teb(Cl2)=-34",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
             "id_": "CP(Cl2,g)",
             "name": "capacidade calorífica a pressão constante do cloro",
             "symbol": "C_P(\\ce{Cl2,\\,\\text{g}})",
             "value": 33.9,
             "unit": "J.K-1.mol-1",
-            "prec": 3
-          },
-          {
-            "id_": "Hvap(Cl2)",
-            "name": "entalpia de sublimação do \\ce{Cl2}",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{Cl2})",
-            "value": 20,
-            "unit": "kJ.mol-1",
-            "prec": 3
-          },
-          {
-            "id_": "Teb(Cl2)",
-            "name": "temperatura de ebulição do \\ce{Cl2}",
-            "symbol": "T_\\mathrm{eb}(\\ce{Cl2})",
-            "value": -34,
-            "unit": "\\degree C",
             "prec": 3
           }
         ]
@@ -14293,7 +14295,7 @@
     {
       "id_": "2B31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B31/2B31.md",
-      "date": "2022-07-09T20:26:20.577748",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "Considere a vaporização de $\\pu{1 mol}$ de acetona a $\\pu{296 K}$ e\n$\\pu{1 bar}$.\n\n-   **Determine** a variação de entropia do sistema.\n-   **Determine** a variação de entropia da vizinhança.\n-   **Determine** a variação entropia do universo.\n",
         "tex": "Considere a vaporização de {\\(\\qty{1}{mol}\\)} de acetona a\n{\\(\\qty{296}{K}\\)} e {\\(\\qty{1}{bar}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a variação de entropia do sistema.\n\\item\n  \\textbf{Determine} a variação de entropia da vizinhança.\n\\item\n  \\textbf{Determine} a variação entropia do universo.\n\\end{itemize}\n"
@@ -14328,8 +14330,8 @@
           },
           {
             "id_": "Hvap(acetona)",
-            "name": "entalpia de sublimação da acetona",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{CH3OCH3})",
+            "name": "entalpia de vaporização da acetona",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{CH3OCH3})",
             "value": 29.1,
             "unit": "kJ.mol-1",
             "prec": 3
@@ -14416,7 +14418,7 @@
     {
       "id_": "2B06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B06/2B06.md",
-      "date": "2022-07-09T20:23:02.547101",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás quando um cilindro de $\\pu{20 L}$ de gás nitrogênio sob\n$\\pu{5,00 kPa}$ é aquecido reversivelmente de $\\pu{20 \\degree C}$ a\n$\\pu{400 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de\nentropia do gás quando um cilindro de {\\(\\qty{20}{L}\\)} de gás nitrogênio\nsob {\\(\\qty{5,00}{kPa}\\)} é aquecido reversivelmente de\n{\\(\\qty{20}{\\degree C}\\)} a {\\(\\qty{400}{\\degree C}\\)}.\n"
@@ -14481,7 +14483,7 @@
     {
       "id_": "2B13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B13/2B13.md",
-      "date": "2022-07-09T20:23:35.098877",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\nmercúrio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do ponto de\nebulição do mercúrio.\n"
@@ -14497,8 +14499,8 @@
         "quantities": [
           {
             "id_": "Hvap(Hg)",
-            "name": "entalpia de sublimação do mercúrio",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{Hg})",
+            "name": "entalpia de vaporização do mercúrio",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{Hg})",
             "value": 59.3,
             "unit": "kJ.mol-1",
             "prec": 3
@@ -14620,7 +14622,7 @@
     {
       "id_": "2B18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B18/2B18.md",
-      "date": "2022-07-09T20:25:24.626128",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\npara a decomposição do clorato de potássio formando perclorato e cloreto\nde potássio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de\nentropia para a decomposição do clorato de potássio formando perclorato\ne cloreto de potássio.\n"
@@ -14713,7 +14715,7 @@
     {
       "id_": "2C10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C10/2C10.md",
-      "date": "2022-07-09T20:28:00.925069",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere a reação de síntese do óxido nítrico:\n\n$$\n\\ce{NH3(g) + O2(g) -> NO(g) + H2O(g)}\n$$\n\n**Assinale** a alternativa que mais se aproxima da energia livre de\nsíntese de $\\pu{120 g}$ de óxido nítrico a $\\pu{25 \\degree C}$ e\n$\\pu{1 atm}$.\n",
         "tex": "Considere a reação de síntese do óxido nítrico:\n\n{\\[\n\\ce{NH3(g) + O2(g) -> NO(g) + H2O(g)}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de\nsíntese de {\\(\\qty{120}{g}\\)} de óxido nítrico a {\\(\\qty{25}{\\degree C}\\)} e\n{\\(\\qty{1}{atm}\\)}.\n"
@@ -14808,7 +14810,7 @@
     {
       "id_": "2C18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C18/2C18.md",
-      "date": "2022-07-09T20:29:28.792478",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa *correta*.\n",
         "tex": "\\textbf{Assinale} a alternativa \\emph{correta}.\n"
@@ -15021,7 +15023,7 @@
     {
       "id_": "2C22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C22/2C22.md",
-      "date": "2022-07-09T20:30:21.984121",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma amostra de $\\pu{1 kg}$ de carbonato de cálcio a $\\pu{298 K}$ é\nintroduzido em um forno que opera a $\\pu{101 kPa}$. O forno é então\naquecido até a temperatura *T* em que ocorrerá a calcinação do carbonato\nde cálcio. O valor absoluto da variação da energia livre da reação de\ncalcinação à temperatura *T* é $\\pu{10,7 kJ.mol-1}$. Considere a\nvariação da entalpia e entropia com a temperatura.\n\n-   **Determine** a temperatura de calcinação *T*.\n-   **Determine** a quantidade de calor necessária para a calcinação\n    completa do carbonato.\n",
         "tex": "Uma amostra de {\\(\\qty{1}{kg}\\)} de carbonato de cálcio a {\\(\\qty{298}{K}\\)}\né introduzido em um forno que opera a {\\(\\qty{101}{kPa}\\)}. O forno é\nentão aquecido até a temperatura {\\emph{T}} em que ocorrerá a calcinação\ndo carbonato de cálcio. O valor absoluto da variação da energia livre da\nreação de calcinação à temperatura {\\emph{T}} é\n{\\(\\qty{10,7}{kJ.mol^{-1}}\\)}. Considere a variação da entalpia e entropia\ncom a temperatura.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a temperatura de calcinação {\\emph{T}}.\n\\item\n  \\textbf{Determine} a quantidade de calor necessária para a calcinação\n  completa do carbonato.\n\\end{itemize}\n"
@@ -15122,7 +15124,7 @@
     {
       "id_": "2C25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C25/2C25.md",
-      "date": "2022-07-09T20:31:00.651863",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Assinale a alternativa que mais se aproxima da quantidade de glicose que\num pássaro de $\\pu{30 g}$ deve consumir para voar a uma altura de\n$\\pu{10 m}$.\n",
         "tex": "Assinale a alternativa que mais se aproxima da quantidade de glicose que\num pássaro de {\\(\\qty{30}{g}\\)} deve consumir para voar a uma altura de\n{\\(\\qty{10}{m}\\)}.\n"
@@ -15325,7 +15327,7 @@
     {
       "id_": "2C24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C24/2C24.md",
-      "date": "2022-07-09T20:30:42.079987",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Uma pequena célula eletroquímica blindada, formada por eletrodos de\nalumínio e de níquel, deve operar a temperatura constante de\n$\\pu{298 K}$. Para tanto, recebe uma camisa de refrigeração, isolada do\nmeio externo, contendo $\\pu{100 g}$ de água. A célula apresenta variação\nde potencial na razão de $\\pu{1,5e-4 V.K-1}$.\n\n**Determine** a elevação da temperatura que ocorrerá na água dentro da\ncamisa de refrigeração quando a célula transfere ao exterior, de maneira\nreversível, uma carga de $\\pu{1 F}$.\n",
         "tex": "Uma pequena célula eletroquímica blindada, formada por eletrodos de\nalumínio e de níquel, deve operar a temperatura constante de\n{\\(\\qty{298}{K}\\)}. Para tanto, recebe uma camisa de refrigeração, isolada\ndo meio externo, contendo {\\(\\qty{100}{g}\\)} de água. A célula apresenta\nvariação de potencial na razão de {\\(\\qty{1,5e-4}{V.K^{-1}}\\)}.\n\n\\textbf{Determine} a elevação da temperatura que ocorrerá na água dentro\nda camisa de refrigeração quando a célula transfere ao exterior, de\nmaneira reversível, uma carga de {\\(\\qty{1}{F}\\)}.\n"
@@ -15358,7 +15360,7 @@
     {
       "id_": "2C19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C19/2C19.md",
-      "date": "2022-06-20T22:26:09.803214",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do trabalho realizado\npara a conversão de $\\pu{1 mol}$ de estanho cinza em estanho branco a\n$\\pu{298 K}$ e $\\pu{10 bar}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do trabalho\nrealizado para a conversão de {\\(\\qty{1}{mol}\\)} de estanho cinza em\nestanho branco a {\\(\\qty{298}{K}\\)} e {\\(\\qty{10}{bar}\\)}.\n"
@@ -15417,7 +15419,7 @@
     {
       "id_": "2C13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C13/2C13.md",
-      "date": "2022-07-09T20:28:59.936672",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da temperatura na qual a\nformação do óxido de cálcio pela decomposição do carbonato de cálcio é\nespontânea.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da temperatura na\nqual a formação do óxido de cálcio pela decomposição do carbonato de\ncálcio é espontânea.\n"
@@ -15548,7 +15550,7 @@
     {
       "id_": "2C11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C11/2C11.md",
-      "date": "2022-07-09T20:28:12.620990",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nformação do $\\ce{HI}$ a $\\pu{25 \\degree C}$ e $\\pu{1 atm}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de\nformação do {\\(\\ce{HI}\\)} a {\\(\\qty{25}{\\degree C}\\)} e {\\(\\qty{1}{atm}\\)}.\n"
@@ -15623,7 +15625,7 @@
     {
       "id_": "2C12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C12/2C12.md",
-      "date": "2022-07-09T20:28:37.392823",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da temperatura na qual a\nredução do óxido de ferro com carbono formando ferro metálico e\n$\\ce{CO2}$ é espontânea.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da temperatura na\nqual a redução do óxido de ferro com carbono formando ferro metálico e\n{\\(\\ce{CO2}\\)} é espontânea.\n"
@@ -15714,7 +15716,7 @@
     {
       "id_": "2C21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C21/2C21.md",
-      "date": "2022-07-09T20:29:58.504278",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da pressão necessária\npara a conversão de grafite em diamante a $\\pu{300 K}$. A variação da\nenergia interna com a pressão é desprezível.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da pressão\nnecessária para a conversão de grafite em diamante a {\\(\\qty{300}{K}\\)}. A\nvariação da energia interna com a pressão é desprezível.\n"
@@ -15781,7 +15783,7 @@
     {
       "id_": "2C14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C14/2C14.md",
-      "date": "2022-07-09T20:29:15.764565",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "O oxigênio e o hidrogênio combinam-se, em células de combustível,\nproduzindo água líquida e gerando corrente elétrica. O trabalho elétrico\nmáximo que essas células podem produzir é $\\pu{237 kJ}$ por mol de\nhidrogênio.\n\n**Determine** o ponto de ebulição da água.\n",
         "tex": "O oxigênio e o hidrogênio combinam-se, em células de combustível,\nproduzindo água líquida e gerando corrente elétrica. O trabalho elétrico\nmáximo que essas células podem produzir é {\\(\\qty{237}{kJ}\\)} por mol de\nhidrogênio.\n\n\\textbf{Determine} o ponto de ebulição da água.\n"
@@ -15846,7 +15848,7 @@
     {
       "id_": "2C26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C26/2C26.md",
-      "date": "2022-07-09T20:31:15.551763",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Em uma célula de um organismo, a energia necessária para a síntese da\nureia a partir de amônia e dióxido de carbono é obtida por oxidação da\nglicose.\n\nAssinale a alternativa que mais se aproxima da quantidade de ureia\nformada pela oxidação de $\\pu{60 nmol.L-1.min-1}$ de glicose.\n",
         "tex": "Em uma célula de um organismo, a energia necessária para a síntese da\nureia a partir de amônia e dióxido de carbono é obtida por oxidação da\nglicose.\n\nAssinale a alternativa que mais se aproxima da quantidade de ureia\nformada pela oxidação de {\\(\\qty{60}{nmol.L^{-1}.min^{-1}}\\)} de glicose.\n"
@@ -15969,7 +15971,7 @@
     {
       "id_": "2C09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C09/2C09.md",
-      "date": "2022-06-20T22:26:09.803214",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Assinale a alternativa que mais se aproxima da energia livre de fusão da\nágua a $\\pu{10 \\degree C}$ e $\\pu{1 atm}$.\n",
         "tex": "Assinale a alternativa que mais se aproxima da energia livre de fusão da\nágua a {\\(\\qty{10}{\\degree C}\\)} e {\\(\\qty{1}{atm}\\)}.\n"
@@ -16028,7 +16030,7 @@
     {
       "id_": "2C20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C20/2C20.md",
-      "date": "2022-07-09T20:29:49.516339",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Determine** a temperatura em que o fundo de uma coluna $\\pu{100 m}$ de\nmercúrio líquido começa a congelar. A variação da energia interna com a\npressão é desprezível.\n",
         "tex": "\\textbf{Determine} a temperatura em que o fundo de uma coluna\n{\\(\\qty{100}{m}\\)} de mercúrio líquido começa a congelar. A variação da\nenergia interna com a pressão é desprezível.\n"
@@ -16085,7 +16087,7 @@
     {
       "id_": "2C17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C17/2C17.md",
-      "date": "2022-07-09T20:29:22.180522",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Um carro elétrico com motor de $\\pu{310 kW}$ possui 95% de eficiência e\nutiliza aproximadamente 15% de sua potência máxima. A eficiência da\ncélula de hidrogênio que produz energia elétrica é de 75%\n\nAssinale a alternativa que mais se aproxima da massa necessária de\nhidrogênio para viajar do Rio de Janeiro a São José dos Campos\n($\\pu{330 km}$) a $\\pu{100 km.h-1}$.\n",
         "tex": "Um carro elétrico com motor de {\\(\\qty{310}{kW}\\)} possui {95\\%} de\neficiência e utiliza aproximadamente {15\\%} de sua potência máxima. A\neficiência da célula de hidrogênio que produz energia elétrica é de\n{75\\%}\n\nAssinale a alternativa que mais se aproxima da massa necessária de\nhidrogênio para viajar do Rio de Janeiro a São José dos Campos\n({\\(\\qty{330}{km}\\)}) a {\\(\\qty{100}{km.h^{-1}}\\)}.\n"
@@ -16176,7 +16178,7 @@
     {
       "id_": "2D19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D19/2D19.md",
-      "date": "2022-07-09T19:18:47.338393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução é preparada pela mistura de $\\pu{1 mol}$ de benzeno e\n$\\pu{0,4 mol}$ de tolueno.\n\n**Assinale** a alternativa que mais se aproxima da pressão de vapor da\nmistura.\n",
         "tex": "Uma solução é preparada pela mistura de {\\(\\qty{1}{mol}\\)} de benzeno e\n{\\(\\qty{0,4}{mol}\\)} de tolueno.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão de vapor\nda mistura.\n"
@@ -16275,7 +16277,7 @@
     {
       "id_": "2D13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D13/2D13.md",
-      "date": "2022-07-09T20:32:22.475349",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da pressão de vapor do\nbenzeno a $\\pu{298 K}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da pressão de vapor\ndo benzeno a {\\(\\qty{298}{K}\\)}.\n"
@@ -16348,7 +16350,7 @@
     {
       "id_": "2D21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D21/2D21.md",
-      "date": "2022-07-09T19:18:47.338393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução é preparada pela mistura de pentano e hexano. As frações\nmolares de pentano e hexano são iguais no vapor.\n\n**Assinale** a alternativa que mais se aproxima da fração de pentano na\nfase líquida.\n",
         "tex": "Uma solução é preparada pela mistura de pentano e hexano. As frações\nmolares de pentano e hexano são iguais no vapor.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de\npentano na fase líquida.\n"
@@ -16447,7 +16449,7 @@
     {
       "id_": "2D27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D27/2D27.md",
-      "date": "2022-07-09T19:18:47.338393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Considere um dispositivo constituído por dois balões de vidro, **A** e\n**B**, cada um com capacidade de $\\pu{894 mL}$ conectados por uma\ntorneira. Dois ensaios independentes foram realizados a $\\pu{298 K}$.\n\n1.  Os balões foram inicialmente evacuados e, logo a seguir, com a\n    torneira fechada, foram introduzidos $\\pu{0,3 g}$ de benzeno e\n    $\\pu{20 g}$ de tolueno em A e B, respectivamente.\n2.  Os balões foram novamente evacuados e, na sequência, uma quantidade\n    de benzeno foi introduzida em **A** e outra quantidade de tolueno\n    foi introduzida em **B**. A torneira é aberta e o equilíbrio líquido\n    vapor é atingido. A pressão interna no dispositivo é\n    $\\pu{76,2 Torr}$.\n\n-   **Determine** a pressão em cada balão, no primeiro ensaio, após o\n    sistema ter atingido o equilíbrio;\n-   **Determine** a fração molar de tolueno na fase líquida no\n    equilíbrio.\n",
         "tex": "Considere um dispositivo constituído por dois balões de vidro,\n\\textbf{A} e \\textbf{B}, cada um com capacidade de {\\(\\qty{894}{mL}\\)}\nconectados por uma torneira. Dois ensaios independentes foram realizados\na {\\(\\qty{298}{K}\\)}.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Os balões foram inicialmente evacuados e, logo a seguir, com a\n  torneira fechada, foram introduzidos {\\(\\qty{0,3}{g}\\)} de benzeno e\n  {\\(\\qty{20}{g}\\)} de tolueno em A e B, respectivamente.\n\\item\n  Os balões foram novamente evacuados e, na sequência, uma quantidade de\n  benzeno foi introduzida em \\textbf{A} e outra quantidade de tolueno\n  foi introduzida em \\textbf{B}. A torneira é aberta e o equilíbrio\n  líquido vapor é atingido. A pressão interna no dispositivo é\n  {\\(\\qty{76,2}{Torr}\\)}.\n\\end{enumerate}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a pressão em cada balão, no primeiro ensaio, após o\n  sistema ter atingido o equilíbrio;\n\\item\n  \\textbf{Determine} a fração molar de tolueno na fase líquida no\n  equilíbrio.\n\\end{itemize}\n"
@@ -16506,7 +16508,7 @@
     {
       "id_": "2D11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D11/2D11.md",
-      "date": "2022-06-20T22:26:09.807214",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\n$\\ce{BCl3}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do ponto de\nebulição do {\\(\\ce{BCl3}\\)}.\n"
@@ -16715,7 +16717,7 @@
     {
       "id_": "2D24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D24/2D24.md",
-      "date": "2022-07-09T19:18:47.338393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução de benzeno em tolueno apresenta 50 Torr de pressão de vapor.\n\n**Assinale** a alternativa que mais se aproxima da fração de benzeno no\nvapor.\n",
         "tex": "Uma solução de benzeno em tolueno apresenta 50 Torr de pressão de vapor.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de\nbenzeno no vapor.\n"
@@ -16774,7 +16776,7 @@
     {
       "id_": "2D15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D15/2D15.md",
-      "date": "2022-07-09T19:18:47.330393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução é preparada pela dissolução de $\\pu{10 g}$ de sacarose,\n$\\ce{C12H22O11}$, em $\\pu{100 g}$ de água a $\\pu{20 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão de vapor\ndessa solução.\n",
         "tex": "Uma solução é preparada pela dissolução de {\\(\\qty{10}{g}\\)} de sacarose,\n{\\(\\ce{C12H22O11}\\)}, em {\\(\\qty{100}{g}\\)} de água a\n{\\(\\qty{20}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão de vapor\ndessa solução.\n"
@@ -16825,7 +16827,7 @@
     {
       "id_": "2D16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D16/2D16.md",
-      "date": "2022-07-09T19:18:47.338393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução é preparada pela adição de um soluto não volátil a\n$\\pu{0,3 mol}$ de benzeno líquido a $\\pu{25 \\degree C}$. A pressão de\nvapor do benzeno nessa solução é $\\pu{75 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da quantidade de soluto\nnessa solução.\n",
         "tex": "Uma solução é preparada pela adição de um soluto não volátil a\n{\\(\\qty{0,3}{mol}\\)} de benzeno líquido a {\\(\\qty{25}{\\degree C}\\)}. A\npressão de vapor do benzeno nessa solução é {\\(\\qty{75}{Torr}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da quantidade de\nsoluto nessa solução.\n"
@@ -16996,7 +16998,7 @@
     {
       "id_": "2D23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D23/2D23.md",
-      "date": "2022-07-09T19:18:47.334393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução de 1,2-dibromoeteno e 2,3-dibromopropeno a\n$\\pu{85 \\degree C}$ possui fração molar de 1,2-dibromoeteno $\\pu{0,40}$.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\n2,3-dibromopropeno no vapor.\n",
         "tex": "Uma solução de 1,2-dibromoeteno e 2,3-dibromopropeno a\n{\\(\\qty{85}{\\degree C}\\)} possui fração molar de 1,2-dibromoeteno\n{\\(\\num{0,40}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração molar de\n2,3-dibromopropeno no vapor.\n"
@@ -17083,7 +17085,7 @@
     {
       "id_": "2D17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D17/2D17.md",
-      "date": "2022-07-09T19:18:47.334393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução é preparada pela dissolução de $\\pu{8,05 g}$ de um composto\ndesconhecido em $\\pu{100 g}$ de benzeno líquido a $\\pu{25 \\degree C}$. A\npressão de vapor do benzeno nessa solução é $\\pu{75 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do\ncomposto desconhecido.\n",
         "tex": "Uma solução é preparada pela dissolução de {\\(\\qty{8,05}{g}\\)} de um\ncomposto desconhecido em {\\(\\qty{100}{g}\\)} de benzeno líquido a\n{\\(\\qty{25}{\\degree C}\\)}. A pressão de vapor do benzeno nessa solução é\n{\\(\\qty{75}{Torr}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar do\ncomposto desconhecido.\n"
@@ -17134,7 +17136,7 @@
     {
       "id_": "2D12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D12/2D12.md",
-      "date": "2022-06-20T22:26:09.807214",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da pressão necessária\npara destilar o ácido tricloroacético a $\\pu{100 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da pressão\nnecessária para destilar o ácido tricloroacético a\n{\\(\\qty{100}{\\degree C}\\)}.\n"
@@ -17207,7 +17209,7 @@
     {
       "id_": "2D25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D25/2D25.md",
-      "date": "2022-07-09T19:18:47.334393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da massa de\n1,1-dicloroetano que deve ser misturada com $\\pu{100 g}$ de\n1,1-diclorotetrafluoroetano para que a pressão de vapor da solução seja\n$\\pu{157 Torr}$ a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de\n1,1-dicloroetano que deve ser misturada com {\\(\\qty{100}{g}\\)} de\n1,1-diclorotetrafluoroetano para que a pressão de vapor da solução seja\n{\\(\\qty{157}{Torr}\\)} a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -17280,7 +17282,7 @@
     {
       "id_": "2D22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D22/2D22.md",
-      "date": "2022-07-09T19:18:47.334393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma solução é preparada pela mistura de $\\pu{15 g}$ de benzeno e\n$\\pu{64,3 g}$ de tolueno.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\nbenzeno no vapor.\n",
         "tex": "Uma solução é preparada pela mistura de {\\(\\qty{15}{g}\\)} de benzeno e\n{\\(\\qty{64,3}{g}\\)} de tolueno.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração molar de\nbenzeno no vapor.\n"
@@ -17367,7 +17369,7 @@
     {
       "id_": "2D10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D10/2D10.md",
-      "date": "2022-07-09T20:32:04.699452",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do ponto de ebulição do\netanol sob $\\pu{2 atm}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do ponto de\nebulição do etanol sob {\\(\\qty{2}{atm}\\)}.\n"
@@ -17390,11 +17392,11 @@
             "prec": 3
           },
           {
-            "id_": "Hvap(C2H5OH)",
-            "name": "entalpia de sublimação do \\ce{C2H5OH}",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{C2H5OH})",
-            "value": 43,
-            "unit": "kJ.mol-1",
+            "id_": "Hvap(C2H5OH)=43,5",
+            "name": "Hvap(C2H5OH)=43,5",
+            "symbol": null,
+            "value": null,
+            "unit": null,
             "prec": 3
           }
         ]
@@ -17440,7 +17442,7 @@
     {
       "id_": "2D06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D06/2D06.md",
-      "date": "2022-07-09T20:31:39.143605",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da pressão de vapor do\n$\\ce{CCl4}$ a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da pressão de vapor\ndo {\\(\\ce{CCl4}\\)} a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -17463,11 +17465,11 @@
             "prec": 3
           },
           {
-            "id_": "Hvap(CCl4)",
-            "name": "entalpia de sublimação do \\ce{CCl4}",
-            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{CCl4})",
-            "value": 33,
-            "unit": "kJ.mol-1",
+            "id_": "Hvap(CCl4)=33",
+            "name": "Hvap(CCl4)=33",
+            "symbol": null,
+            "value": null,
+            "unit": null,
             "prec": 3
           }
         ]
@@ -17703,7 +17705,7 @@
     {
       "id_": "2D20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D20/2D20.md",
-      "date": "2022-07-09T19:18:47.330393",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Em uma solução de benzeno em tolueno a $\\pu{25 \\degree C}$, um terço das\nmoléculas do líquido é de benzeno.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\nbenzeno no vapor.\n",
         "tex": "Em uma solução de benzeno em tolueno a {\\(\\qty{25}{\\degree C}\\)}, um terço\ndas moléculas do líquido é de benzeno.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração molar de\nbenzeno no vapor.\n"
@@ -17816,7 +17818,7 @@
     {
       "id_": "2J15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J15.md",
-      "date": "2022-07-13T00:27:33.440173",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução $\\pu{0,06 mol.L-1}$ em cátions níquel\n(II).\n",
         "tex": "\\textbf{Assinale} a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução {\\(\\qty{0,06}{mol.L^{-1}}\\)} em cátions\nníquel (II).\n"
@@ -17907,7 +17909,7 @@
     {
       "id_": "2J10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J10.md",
-      "date": "2022-07-12T23:31:25.235624",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de cobre (I) em uma solução $\\pu{1,5 mmol.L-1}$ em cloreto de\npotássio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de cobre (I) em uma solução {\\(\\qty{1,5}{mmol.L^{-1}}\\)} em cloreto\nde potássio.\n"
@@ -17958,7 +17960,7 @@
     {
       "id_": "2J09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J09.md",
-      "date": "2022-07-12T23:31:29.407623",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncarbonato de magnésio em uma solução $\\pu{3 mmol.L-1}$ em nitrato de\nmagnésio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncarbonato de magnésio em uma solução {\\(\\qty{3}{mmol.L^{-1}}\\)} em nitrato de\nmagnésio.\n"
@@ -18009,7 +18011,7 @@
     {
       "id_": "2J11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J11.md",
-      "date": "2022-07-12T23:52:41.279038",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Quando um amônia é adicionada à uma solução que contém íons prata,\nocorre a formação do omplexo de coordenação:\n\n$$\n\\begin{aligned}\n    \\ce{ Ag+(aq) + 2 NH3(aq) <=> Ag(NH3)2+(aq) } &&\nK_\\mathrm{f} = \\pu{1,6e7}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução $\\pu{0,1 mol.L-1}$ em amônia.\n",
         "tex": "Quando um amônia é adicionada à uma solução que contém íons prata,\nocorre a formação do omplexo de coordenação:\n\n{\\[\n\\begin{aligned}\n    \\ce{ Ag+(aq) + 2 NH3(aq) <=> Ag(NH3)2+(aq) } &&\nK_\\mathrm{f} = \\num{1,6e7}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em amônia.\n"
@@ -18060,7 +18062,7 @@
     {
       "id_": "2J19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J19.md",
-      "date": "2022-07-13T00:35:22.420915",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de ferro (III) a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de ferro (III) a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18111,7 +18113,7 @@
     {
       "id_": "2J14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J14.md",
-      "date": "2022-07-13T00:53:20.469297",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da massa de iodeto de\npotássio que precisa ser adicionada a $\\pu{25 mL}$ de uma solução\n$\\pu{1e-5 mol.L-1}$ de cloreto de sódio para o início da precipitação.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de iodeto\nde potássio que precisa ser adicionada a {\\(\\qty{25}{mL}\\)} de uma solução\n{\\(\\qty{1e-5}{mol.L^{-1}}\\)} de cloreto de sódio para o início da\nprecipitação.\n"
@@ -18162,7 +18164,7 @@
     {
       "id_": "2J13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J13.md",
-      "date": "2022-07-13T00:43:51.039022",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da massa de nitrato de\nprata que precisa ser adicionada a $\\pu{100 mL}$ de uma solução\n$\\pu{1e-5 mol.L-1}$ de cloreto de sódio para o início da precipitação.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de nitrato\nde prata que precisa ser adicionada a {\\(\\qty{100}{mL}\\)} de uma solução\n{\\(\\qty{1e-5}{mol.L^{-1}}\\)} de cloreto de sódio para o início da\nprecipitação.\n"
@@ -18213,7 +18215,7 @@
     {
       "id_": "2J18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J18.md",
-      "date": "2022-07-13T00:33:25.910486",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Sulfato de sódio é adicionado progressivamente a uma amostra contendo\n$\\pu{0,01 mol.L-1}$ em cátions bário e $\\pu{0,01 mol.L-1}$ em cátions\nchumbo (II).\n\n**Assinale** a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n",
         "tex": "Sulfato de sódio é adicionado progressivamente a uma amostra contendo\n{\\(\\qty{0,01}{mol.L^{-1}}\\)} em cátions bário e {\\(\\qty{0,01}{mol.L^{-1}}\\)} em\ncátions chumbo (II).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n"
@@ -18272,7 +18274,7 @@
     {
       "id_": "2J20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J20.md",
-      "date": "2022-07-13T00:36:21.716157",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18323,7 +18325,7 @@
     {
       "id_": "2J04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J04.md",
-      "date": "2022-07-12T23:15:14.376001",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nsulfato de prata a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nsulfato de prata a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18374,7 +18376,7 @@
     {
       "id_": "2J21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J21.md",
-      "date": "2022-07-13T00:38:04.294899",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nfluoreto de cálcio em pH = 3.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nfluoreto de cálcio em {pH = 3}.\n"
@@ -18433,7 +18435,7 @@
     {
       "id_": "2J06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J06.md",
-      "date": "2022-07-12T23:22:32.219630",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncarbonato de cálcio em uma solução $\\pu{0,2 mol.L-1}$ em cloreto de\ncálcio a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncarbonato de cálcio em uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em cloreto de\ncálcio a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18484,7 +18486,7 @@
     {
       "id_": "2J22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J22.md",
-      "date": "2022-07-13T00:39:52.617635",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma amostra de $\\pu{500 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ em\nnitrato de prata é misturada com $\\pu{500 mL}$ de outra solução contendo\n$\\pu{0,005 mol}$ de cloreto de sódio e $\\pu{0,005 mol}$ de brometo de\nsódio.\n\n**Determine** a concentração de todas as espécies em solução no\nequilíbrio.\n",
         "tex": "Uma amostra de {\\(\\qty{500}{mL}\\)} de uma solução {\\(\\qty{0,01}{mol.L^{-1}}\\)}\nem nitrato de prata é misturada com {\\(\\qty{500}{mL}\\)} de outra solução\ncontendo {\\(\\qty{0,005}{mol}\\)} de cloreto de sódio e {\\(\\qty{0,005}{mol}\\)}\nde brometo de sódio.\n\n\\textbf{Determine} a concentração de todas as espécies em solução no\nequilíbrio.\n"
@@ -18517,7 +18519,7 @@
     {
       "id_": "2J16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J16.md",
-      "date": "2022-07-13T00:28:03.823610",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução $\\pu{1 mmol.L-1}$ em cátions ferro\n(III).\n",
         "tex": "\\textbf{Assinale} a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução {\\(\\qty{1}{mmol.L^{-1}}\\)} em cátions\nferro (III).\n"
@@ -18568,7 +18570,7 @@
     {
       "id_": "2J12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J12.md",
-      "date": "2022-07-13T00:45:02.330713",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Quando um amônia é adicionada à uma solução que contém íons cobre,\nocorre a formação do complexo de coordenação:\n\n$$\n\\begin{aligned}\n    \\ce{ Cu^{2+}(aq) + 4 NH3(aq) <=> Cu(NH3)4^{2+}(aq) }\n&& K_\\mathrm{f} = \\pu{1,2e13}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\nsulfeto de cobre (II) em uma solução $\\pu{1,2 mol.L-1}$ em amônia.\n",
         "tex": "Quando um amônia é adicionada à uma solução que contém íons cobre,\nocorre a formação do complexo de coordenação:\n\n{\\[\n\\begin{aligned}\n    \\ce{ Cu^{2+}(aq) + 4 NH3(aq) <=> Cu(NH3)4^{2+}(aq) }\n&& K_\\mathrm{f} = \\num{1,2e13}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nsulfeto de cobre (II) em uma solução {\\(\\qty{1,2}{mol.L^{-1}}\\)} em amônia.\n"
@@ -18619,7 +18621,7 @@
     {
       "id_": "2J08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J08.md",
-      "date": "2022-07-12T23:31:32.487623",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio em $\\mathrm{pH} = \\pu{4,5}$ a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio em {\\(\\mathrm{pH} = \\num{4,5}\\)} a\n{\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18670,7 +18672,7 @@
     {
       "id_": "2J05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J05.md",
-      "date": "2022-07-12T23:21:35.889021",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução $\\pu{1e-4 mol.L-1}$ em cloreto de sódio\na $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução {\\(\\qty{1e-4}{mol.L^{-1}}\\)} em cloreto de\nsódio a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18721,7 +18723,7 @@
     {
       "id_": "2J07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J07.md",
-      "date": "2022-07-12T23:31:39.739622",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de zinco em pH = 6 a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de zinco em {pH = 6} a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18772,7 +18774,7 @@
     {
       "id_": "2J17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J17.md",
-      "date": "2022-07-13T00:31:32.272143",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Hidróxido de sódio é adicionado progressivamente a uma amostra contendo\n$\\pu{0,05 mol.L-1}$ em cátions magnésio e $\\pu{0,01 mol.L-1}$ em cátions\ncálcio.\n\n**Assinale** a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n",
         "tex": "Hidróxido de sódio é adicionado progressivamente a uma amostra contendo\n{\\(\\qty{0,05}{mol.L^{-1}}\\)} em cátions magnésio e {\\(\\qty{0,01}{mol.L^{-1}}\\)} em\ncátions cálcio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n"
@@ -18831,7 +18833,7 @@
     {
       "id_": "2J03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J03.md",
-      "date": "2022-07-12T23:14:24.416083",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\niodato de cromo (III) a $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\niodato de cromo (III) a {\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -18922,7 +18924,7 @@
     {
       "id_": "2J23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J23.md",
-      "date": "2022-07-13T00:41:17.480681",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma amostra contendo $\\pu{0,1 mol}$ de nitrato de cálcio, $\\pu{0,1 mol}$\nde nitrato de bário e $\\pu{0,15 mol}$ de sulfato de sódio foram\nadicionados em $\\pu{600 mL}$ de água destilada.\n\n**Determine** a concentração de todas as espécies em solução no\nequilíbrio.\n",
         "tex": "Uma amostra contendo {\\(\\qty{0,1}{mol}\\)} de nitrato de cálcio,\n{\\(\\qty{0,1}{mol}\\)} de nitrato de bário e {\\(\\qty{0,15}{mol}\\)} de sulfato\nde sódio foram adicionados em {\\(\\qty{600}{mL}\\)} de água destilada.\n\n\\textbf{Determine} a concentração de todas as espécies em solução no\nequilíbrio.\n"
@@ -18995,7 +18997,7 @@
     {
       "id_": "2E16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E16/2E16.md",
-      "date": "2022-07-09T20:33:17.627028",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma amostra de $\\pu{10 g}$ de $\\ce{NH4NO3}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
         "tex": "Uma amostra de {\\(\\qty{10}{g}\\)} de {\\(\\ce{NH4NO3}\\)} é dissolvida em\n{\\(\\qty{100}{g}\\)} de água a {\\(\\qty{25}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura\nfinal da solução.\n"
@@ -19070,7 +19072,7 @@
     {
       "id_": "2E15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E15/2E15.md",
-      "date": "2022-07-09T20:33:12.599057",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Uma amostra de $\\pu{4 g}$ de $\\ce{MgBr2}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
         "tex": "Uma amostra de {\\(\\qty{4}{g}\\)} de {\\(\\ce{MgBr2}\\)} é dissolvida em\n{\\(\\qty{100}{g}\\)} de água a {\\(\\qty{25}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura\nfinal da solução.\n"
@@ -19165,7 +19167,7 @@
     {
       "id_": "2E13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E13/2E13.md",
-      "date": "2022-07-09T20:33:00.291129",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de solução\ndo cloreto de sódio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nsolução do cloreto de sódio.\n"
@@ -19358,7 +19360,7 @@
     {
       "id_": "2E18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E18/2E18.md",
-      "date": "2022-07-09T20:33:38.238906",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\ncloreto de cálcio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede\ndo cloreto de cálcio.\n"
@@ -19491,7 +19493,7 @@
     {
       "id_": "2E20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E20/2E20.md",
-      "date": "2022-07-09T20:33:48.814844",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da segunda\nafinidade eletrônica do enxofre.\n"
@@ -19582,7 +19584,7 @@
     {
       "id_": "2E17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E17/2E17.md",
-      "date": "2022-07-09T20:33:24.738986",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo cloreto de potássio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nformação do cloreto de potássio.\n"
@@ -19665,7 +19667,7 @@
     {
       "id_": "2E02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E02/2E02.md",
-      "date": "2022-07-09T20:32:46.991207",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "A concentração mínima em massa de oxigênio necessária para a vida dos\npeixes é $\\pu{4 ppm}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão atmosférica\nmínima que forneceria a concentração mínima em massa de oxigênio na água\npara permitir a vida dos peixes a $\\pu{20 \\degree C}$.\n",
         "tex": "A concentração mínima em massa de oxigênio necessária para a vida dos\npeixes é {\\(\\qty{4}{ppm}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão\natmosférica mínima que forneceria a concentração mínima em massa de\noxigênio na água para permitir a vida dos peixes a\n{\\(\\qty{20}{\\degree C}\\)}.\n"
@@ -19800,7 +19802,7 @@
     {
       "id_": "2E01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E01/2E01.md",
-      "date": "2022-07-09T20:32:41.211240",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ndióxido de carbono em uma solução sob $\\pu{500 Torr}$ desse gás a\n$\\pu{20 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ndióxido de carbono em uma solução sob {\\(\\qty{500}{Torr}\\)} desse gás a\n{\\(\\qty{20}{\\degree C}\\)}.\n"
@@ -19879,7 +19881,7 @@
     {
       "id_": "2E14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E14/2E14.md",
-      "date": "2022-06-20T22:26:09.807214",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede\ndo brometo de cálcio.\n"
@@ -19996,7 +19998,7 @@
     {
       "id_": "2E19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E19/2E19.md",
-      "date": "2022-07-09T20:33:43.114877",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do lítio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de\nsublimação do lítio.\n"
@@ -20417,7 +20419,7 @@
     {
       "id_": "3B10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B10/3B10.md",
-      "date": "2022-06-20T22:26:09.815215",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima do raio de Van der Waals\ndo átomo de hélio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do raio de Van der\nWaals do átomo de hélio.\n"
@@ -20494,7 +20496,7 @@
     {
       "id_": "3B03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B03/3B03.md",
-      "date": "2022-06-20T22:26:09.815215",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da pressão exercida por\n$\\pu{25 mol}$ de oxigênio em um cilindro de $\\pu{10 L}$ em\n$\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da pressão exercida\npor {\\(\\qty{25}{mol}\\)} de oxigênio em um cilindro de {\\(\\qty{10}{L}\\)} em\n{\\(\\qty{25}{\\degree C}\\)}.\n"
@@ -20553,7 +20555,7 @@
     {
       "id_": "3B02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B02/3B02.md",
-      "date": "2022-06-20T22:26:09.815215",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da pressão exercida por\n$\\pu{1,50 mol}$ de um gás refrigerante em um cilindro de $\\pu{5 L}$ a\n$\\pu{0 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da pressão exercida\npor {\\(\\qty{1,50}{mol}\\)} de um gás refrigerante em um cilindro de\n{\\(\\qty{5}{L}\\)} a {\\(\\qty{0}{\\degree C}\\)}.\n"
@@ -22318,7 +22320,7 @@
     {
       "id_": "3C34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C34/3C34.md",
-      "date": "2022-06-20T22:26:09.819215",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere uma solução saturada do sal **MX** que é pouco solúvel em água\ndestilada a $\\pu{25 \\degree C}$. A condutância dessa solução é\n$\\pu{2e-7 S cm-1}$ acima da condutância da água destilada.\n\n**Assinale** a alternativa que mais se aproxima solubilidade de **MX**.\n",
         "tex": "Considere uma solução saturada do sal \\textbf{MX} que é pouco solúvel em\nágua destilada a {\\(\\qty{25}{\\degree C}\\)}. A condutância dessa solução é\n{\\(\\qty{2e-7}{S cm^{-1}}\\)} acima da condutância da água destilada.\n\n\\textbf{Assinale} a alternativa que mais se aproxima solubilidade de\n\\textbf{MX}.\n"
@@ -22657,7 +22659,7 @@
     {
       "id_": "3C29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C29/3C29.md",
-      "date": "2022-07-09T20:40:13.160512",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "Considere um recipiente adiabático contendo $\\pu{1 kg}$ de uma solução\naquosa de $\\ce{NaOH}$, a 30% em massa, e a uma temperatura inicial\n$\\pu{25 \\degree C}$ são diluídos a 20% em massa, com água à mesma\ntemperatura.\n\nOs dados termodinâmicos para o sistema $\\ce{NaOH}$-água a\n$\\pu{25 \\degree C}$ são apresentados a seguir. O estado de referência\npara a entalpia é água líquida a $\\pu{0 \\degree C}$,\n\n| $x_{\\ce{NaOH}}/\\%$ | $H/\\pu{J.g-1}$ | $C_P/\\pu{J.g-1.K-1}$ |\n|-------------------:|---------------:|---------------------:|\n|                 20 |      $\\pu{76}$ |          $\\pu{3,54}$ |\n|                 30 |     $\\pu{104}$ |          $\\pu{3,63}$ |\n\n**Determine** a temperatura final da solução após a diluição.\n",
         "tex": "Considere um recipiente adiabático contendo {\\(\\qty{1}{kg}\\)} de uma\nsolução aquosa de {\\(\\ce{NaOH}\\)}, a {30\\%} em massa, e a uma\ntemperatura inicial {\\(\\qty{25}{\\degree C}\\)} são diluídos a {20\\%} em\nmassa, com água à mesma temperatura.\n\nOs dados termodinâmicos para o sistema {\\(\\ce{NaOH}\\)}-água a\n{\\(\\qty{25}{\\degree C}\\)} são apresentados a seguir. O estado de\nreferência para a entalpia é água líquida a {\\(\\qty{0}{\\degree C}\\)},\n\n\\begin{longtable}[]{@{}rrr@{}}\n\\toprule()\n{\\(x_{\\ce{NaOH}}/\\%\\)} & {\\(H/\\unit{J.g^{-1}}\\)} &\n{\\(C_P/\\unit{J.g^{-1}.K^{-1}}\\)} \\\\\n\\midrule()\n\\endhead\n{20} & {\\(\\num{76}\\)} & {\\(\\num{3,54}\\)} \\\\\n{30} & {\\(\\num{104}\\)} & {\\(\\num{3,63}\\)} \\\\\n\\bottomrule()\n\\end{longtable}\n\n\\textbf{Determine} a temperatura final da solução após a diluição.\n"
@@ -24802,10 +24804,10 @@
     {
       "id_": "3E21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E21/3E21.md",
-      "date": "2022-06-20T22:26:09.819215",
+      "date": "2022-09-21T22:48:23.518923",
       "statement": {
-        "md": "O estudo da cinética da reação\n\n$$\n\\ce{SO2(g) + O3(g) -> SO3(g) + O2(g)}\n$$\n\nforneceu os dados:\n\n| \\#    | *T* $/\\pu{K}$ | $[\\ce{SO2}]$ $/\\pu{mM}$ | $[\\ce{O3}]$ $/\\pu{mM}$ | *v* $/(\\pu{mM.s-1})$ |\n|---------------|--------------:|--------------:|--------------:|--------------:|\n| **1** |           250 |                     250 |                    400 |                  118 |\n| **2** |           250 |                     250 |                    200 |                  118 |\n| **3** |           250 |                     750 |                    200 |                 1062 |\n| **4** |           400 |                     500 |                    300 |                 1425 |\n\n-   **Determine** a lei de velocidade da reação.\n-   **Determine** a energia de ativação dessa reação.\n",
-        "tex": "O estudo da cinética da reação\n\n{\\[\n\\ce{SO2(g) + O3(g) -> SO3(g) + O2(g)}\n\\]}\n\nforneceu os dados:\n\n\\begin{longtable}[]{@{}\n  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2000}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2000}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2000}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2000}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2000}}@{}}\n\\toprule()\n\\begin{minipage}[b]{\\linewidth}\\raggedright\n\\#\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\emph{T}} {\\(/\\unit{K}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\([\\ce{SO2}]\\)} {\\(/\\unit{mM}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\([\\ce{O3}]\\)} {\\(/\\unit{mM}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\emph{v}} {\\(/(\\unit{mM.s^{-1}})\\)}\n\\end{minipage} \\\\\n\\midrule()\n\\endhead\n\\textbf{1} & {250} & {250} & {400} & {118} \\\\\n\\textbf{2} & {250} & {250} & {200} & {118} \\\\\n\\textbf{3} & {250} & {750} & {200} & {1062} \\\\\n\\textbf{4} & {400} & {500} & {300} & {1425} \\\\\n\\bottomrule()\n\\end{longtable}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a lei de velocidade da reação.\n\\item\n  \\textbf{Determine} a energia de ativação dessa reação.\n\\end{itemize}\n"
+        "md": "O estudo da cinética da reação\n\n$$\n\\ce{SO2(g) + O3(g) -> SO3(g) + O2(g)}\n$$\n\nforneceu os dados:\n\n| \\#    | *T* $/\\pu{K}$ | $[\\ce{SO2}]$ $/\\pu{mM}$ | $[\\ce{O3}]$ $/\\pu{mM}$ | *v* $/(\\pu{mM.s-1})$ |\n|-----|----------:|------------------:|------------------:|----------------:|\n| **1** |           250 |                     250 |                    400 |                  118 |\n| **2** |           250 |                     250 |                    200 |                  118 |\n| **3** |           250 |                     750 |                    200 |                 1062 |\n| **4** |           400 |                     500 |                    300 |                 1425 |\n\n-   **Determine** a lei de velocidade da reação.\n-   **Determine** a energia de ativação dessa reação.\n",
+        "tex": "O estudo da cinética da reação\n\n{\\[\n\\ce{SO2(g) + O3(g) -> SO3(g) + O2(g)}\n\\]}\n\nforneceu os dados:\n\n\\begin{longtable}[]{@{}\n  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.0600}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.1500}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2700}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2600}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.2400}}@{}}\n\\toprule()\n\\begin{minipage}[b]{\\linewidth}\\raggedright\n\\#\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\emph{T}} {\\(/\\unit{K}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\([\\ce{SO2}]\\)} {\\(/\\unit{mM}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\([\\ce{O3}]\\)} {\\(/\\unit{mM}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\emph{v}} {\\(/(\\unit{mM.s^{-1}})\\)}\n\\end{minipage} \\\\\n\\midrule()\n\\endhead\n\\textbf{1} & {250} & {250} & {400} & {118} \\\\\n\\textbf{2} & {250} & {250} & {200} & {118} \\\\\n\\textbf{3} & {250} & {750} & {200} & {1062} \\\\\n\\textbf{4} & {400} & {500} & {300} & {1425} \\\\\n\\bottomrule()\n\\end{longtable}\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a lei de velocidade da reação.\n\\item\n  \\textbf{Determine} a energia de ativação dessa reação.\n\\end{itemize}\n"
       },
       "solution": {
         "md": "\n",
@@ -26404,7 +26406,7 @@
     {
       "id_": "3A11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A11/3A11.md",
-      "date": "2022-07-09T20:39:55.228623",
+      "date": "2022-09-21T22:47:38.574803",
       "statement": {
         "md": "A altura de uma coluna de mercúrio a $\\pu{15 \\degree C}$ é\n$\\pu{760 mm}$.\n\n**Assinale** a alternativa mais próxima da pressão atmosférica em\nPascal.\n",
         "tex": "A altura de uma coluna de mercúrio a {\\(\\qty{15}{\\degree C}\\)} é\n{\\(\\qty{760}{mm}\\)}.\n\n\\textbf{Assinale} a alternativa mais próxima da pressão atmosférica em\nPascal.\n"
@@ -27111,7 +27113,7 @@
     {
       "id_": "3A48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A48/3A48.md",
-      "date": "2022-06-20T22:26:09.815215",
+      "date": "2022-09-21T22:47:38.570803",
       "statement": {
         "md": "**Verifique** a veracidade da frase: toda inspiração contém moléculas de\nar que já estiveram nos pulmões de Wolfgang Amadeus Mozart (1756-1791).\n",
         "tex": "\\textbf{Verifique} a veracidade da frase: toda inspiração contém\nmoléculas de ar que já estiveram nos pulmões de Wolfgang Amadeus Mozart\n(1756-1791).\n"
@@ -27820,7 +27822,7 @@
     {
       "id_": "3A25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A25/3A25.md",
-      "date": "2022-07-09T20:40:00.948588",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa com a pressão parcial do oxigênio em uma\namostra coletada sobre água a $\\pu{25 \\degree C}$ e $\\pu{745 Torr}$.\n",
         "tex": "\\textbf{Assinale} a alternativa com a pressão parcial do oxigênio em uma\namostra coletada sobre água a {\\(\\qty{25}{\\degree C}\\)} e\n{\\(\\qty{745}{Torr}\\)}.\n"

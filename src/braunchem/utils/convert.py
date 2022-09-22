@@ -2,7 +2,7 @@
 
 Esse módulo implementa funções para conversão entre diferentes formatos.
 """
-import braunchem.utils.latex2 as latex
+import braunchem.utils.latex as latex
 
 import os
 import sys
@@ -19,15 +19,16 @@ MARKDOWN_EXTENSIONS = [
     "table_captions",
     "pipe_tables",
     "implicit_figures",
+    "fenced_divs",
 ]
 """Extensões de markdown utilizadas"""
 
 PANDOC_MARKDOWN_FORMAT = (
-    f"markdown_strict-raw_html+tex_math_dollars+{'+'.join(MARKDOWN_EXTENSIONS)}"
+    f"markdown_strict-raw_html+tex_math_dollars+raw_tex+{'+'.join(MARKDOWN_EXTENSIONS)}"
 )
 """Formato markdown para o pandoc."""
 
-PANDOC_HTML_FORMAT = "html+tex_math_dollars"
+PANDOC_HTML_FORMAT = "html+tex_math_dollars+raw_tex"
 """Formato HTML para o pandoc."""
 
 PANDOC_LATEX_FORMAT = "latex"

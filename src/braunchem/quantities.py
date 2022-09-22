@@ -2,7 +2,7 @@
 
 Esse módulo implementa uma API para propriedades termodinâmicas.
 """
-import braunchem.latex as latex
+import braunchem.utils.latex as latex
 
 import os
 import re
@@ -292,7 +292,7 @@ class Table(BaseModel):
     quantities: list[Quantity]
 
     def __repr__(self):
-        qtys = ", ".join(q for q in self)
+        qtys = ", ".join(q.id_ for q in self)
         return f"Table({qtys})"
 
     def __len__(self):
@@ -317,7 +317,7 @@ class Table(BaseModel):
         self.quantities = sorted(self.quantities)
         return self
 
-    def filter(self, ids: list):
+    def filter(self, qty_ids: list):
         """Cria um subconjunto da lista de dados termodinâmicos.
 
         Args:
@@ -327,12 +327,13 @@ class Table(BaseModel):
             Table: Subconjunto de dados com os `id_` selecionados.
         """
         qtys = []
-        for id_ in ids:
+        for qty_id_ in qty_ids:
             try:
-                qtys.append(self[id_])
+                qtys.append(self[qty_id_])
             except KeyError:
-                qty = Quantity.parse_string(id_)
+                qty = Quantity.parse_string(qty_id_)
                 qtys.append(qty)
+
         return Table(quantities=qtys).sorted()
 
     def equation_list(self):
@@ -411,7 +412,7 @@ def main():
 
     dt.append_csvs(paths)
 
-    with open(QUANTITIES_DB_PATH, "w", encoding='utf-8') as json_file:
+    with open(QUANTITIES_DB_PATH, "w", encoding="utf-8") as json_file:
         json_file.write(dt.json(indent=2, ensure_ascii=False))
 
 

@@ -1,7 +1,7 @@
 #
 # CONVERSION
 #
-import braunchem.latex as latex
+import braunchem.utils.latex as latex
 
 import os
 

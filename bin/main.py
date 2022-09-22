@@ -1,28 +1,37 @@
-#
-# Gabriel Braun, 2021
-#
+from braunchem.problem import get_problem_paths, ProblemSet
+from braunchem.topic import get_topic_paths, TopicSet
 
-from braunchem.topic import load_arsenal
-from braunchem.convert import copy_r
-from shutil import copytree
+import logging
+from pathlib import Path
 
 
 def main():
-    arsenal = load_arsenal("data")
-    arsenal.generate_pdfs()
+    logging.basicConfig(level=logging.DEBUG)
 
-    copy_r(
-        "data/arsenal.json",
-        "/home/braun/Documents/Developer/braunchem-web/database/arsenal.json",
-    )
+    problem_paths = get_problem_paths("data/problems")
+    topic_paths = get_topic_paths("data/topics")
 
-    copytree(
-        "data/images/",
-        "/home/braun/Documents/Developer/braunchem-web/public/",
-        dirs_exist_ok=True,
-    )
+    # problemas
+    problem_db_path = Path("data/problems/problems.json")
+    try:
+        problem_db = ProblemSet.parse_file(problem_db_path)
+        problem_db.update_problems(problem_paths)
+    except FileNotFoundError:
+        problem_db = ProblemSet.parse_paths(problem_paths)
 
-    copytree("out/", "/home/braun/Documents/Drive/Material/Listas", dirs_exist_ok=True)
+    with open(problem_db_path, "w", encoding="utf-8") as problem_json:
+        problem_json.write(problem_db.json(indent=2, ensure_ascii=False))
+
+    # tópicos
+    topic_db_path = Path("data/topics/topics.json")
+    try:
+        topic_db = TopicSet.parse_file(topic_db_path)
+        topic_db.update_problems(topic_paths, problem_db=problem_db)
+    except FileNotFoundError:
+        topic_db = TopicSet.parse_paths(topic_paths, problem_db=problem_db)
+
+    with open(topic_db_path, "w", encoding="utf-8") as topic_json:
+        topic_json.write(topic_db.json(indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":

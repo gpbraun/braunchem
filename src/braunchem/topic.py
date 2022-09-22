@@ -1,313 +1,180 @@
-#
-# TODO: trocar a estrutura do json para AREA -> TOPIC -> SUBTOPIC
-#
+"""Base de dados para problemas de química, Gabriel Braun, 2022
 
-import braunchem.convert as convert
-import braunchem.latex as latex
-from braunchem.quantities import Table, Quantity, decimal_to_sci_string
-from braunchem.problem import Problem, ProblemSet, files2problemset
+Esse módulo implementa uma classe para os tópicos.
+"""
+import braunchem.utils.convert as convert
+from braunchem.problem import Text, ProblemSet, PROBLEMS
 
 import os
-
-import dataclasses
-
-from decimal import Decimal
-from attrs import define, Factory, asdict, filters, fields
-
-import json
-
-import sys
-from pathlib import Path, PosixPath
-
+import logging
+import importlib.resources
+from datetime import datetime
+from pathlib import Path
+from pydantic import BaseModel
 from multiprocessing import Pool
 
-from frontmatter import load
+import frontmatter
+from tqdm import tqdm
 
 
-@define
-class Subtopic:
+DB_PATH = importlib.resources.files("braunchem.data")
+"""Diretório da base de dados."""
+
+
+class Topic(BaseModel):
+    """Tópico.
+
+    Atributos:
+        id_ (str): Identificador único.
+        title (str): Título do tópico.
+        author (str): Autor da teoria.
+        content (str): Conteúdo teórico.
+        sections (list[str]): Títulos das seções.
+        problem_sets (list[ProblemSet]): Conjuntos de problemas.
+    """
+
     id_: str
+    path: Path
+    date: datetime
     title: str
-    # items: list[str]
-    # abilities: list[str]
-
-
-@define
-class Topic:
-    id_: str
-    area: str = ""
-    title: str = "Química"
     author: str = "Gabriel Braun"
-    affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
-    template: str = "braun, twocolumn"
-    contents: str = ""
-    subtopics: list = Factory(list)
-    problems: list = Factory(list)
+    content: Text
+    sections: list[str]
+    problem_sets: list[ProblemSet] | None = None
 
     def __lt__(self, other):
         return self.id_ < other.id_
 
-    def tex_data(self):
-        constants = sum([p.tex_constants() for p in self.problems])
-        elements = []
-        for p in self.problems:
-            if p.elements():
-                elements += p.elements()
+    @classmethod
+    def parse_mdfile(cls, topic_path: str | Path, problem_db: ProblemSet):
+        """Cria um `Topic` a partir de um arquivo `.md`."""
+        if isinstance(topic_path, str):
+            path = Path(topic_path)
+        else:
+            path = topic_path
 
-        if not constants.data and not elements:
-            return ""
+        # parse `.md`. with YAML metadata
+        tfile = frontmatter.load(path)
 
-        header = latex.section("Dados", level=0)
+        # basic info
+        topic = {
+            "id_": path.stem,
+            "path": path.resolve(),
+            "date": datetime.utcfromtimestamp(path.stat().st_mtime),
+        }
 
-        el_header = latex.section("Elementos", level=1, numbered=False)
-        elements_table = (
-            el_header + latex.cmd("MolTable", ",".join(elements)) if elements else ""
-        )
+        # extrair os metadados do arquivo `.md`
+        for attr in ["title", "author", "affiliation", "template"]:
+            if attr in tfile:
+                topic[attr] = tfile[attr]
 
-        const_header = latex.section("Constantes", level=1, numbered=False)
-        constants_list = const_header + constants.tex_display() if constants else ""
+        # extrair a lista de problemas
+        if "problems" in tfile:
+            problem_sets = []
+            for i, (title, p_ids) in enumerate(tfile["problems"].items()):
+                set_id = f"{topic['id_']}{i+1}"
+                problem_sets.append(
+                    problem_db.filter(id_=set_id, title=title, p_ids=p_ids)
+                )
+            topic["problem_sets"] = problem_sets
 
-        return header + constants_list + elements_table + latex.cmd("bigskip")
+        # extrair o título das seções
+        soup = convert.md2soup(tfile.content)
+        topic["sections"] = [s.text for s in soup.find_all("h1")]
 
-    def tex_statements(self, print_solutions):
-        # return statements in latex format
-        if not self.problems:
-            return ""
+        # conteúdo
+        topic["content"] = Text.parse_md(tfile.content)
 
-        if len(self.problems) == 1:
-            # se há apenas um problemset, não coloca título
-            pset = self.problems[0]
-            problem_num = len(pset)
-            if not problem_num:
-                return ""
-
-            points = 10 / problem_num
-            return pset.tex_statements(points=points, print_solutions=print_solutions)
-
-        problem_num = sum([len(pset) for pset in self.problems])
-        if not problem_num:
-            return ""
-
-        points = 10 / problem_num
-        statements = ""
-        newpage = False
-        for pset in self.problems:
-            statements += pset.tex_statements(
-                pset.title, problem_num, print_solutions, newpage=newpage
-            )
-            newpage = True
-
-        return latex.pu2qty(statements)
-
-    def tex_answers(self):
-        # return statements in latex format
-        header = latex.section("Gabarito", level=0, newpage=True)
-        if len(self.problems) == 1:
-            # se há apenas um problemset, não coloca título
-            pset = self.problems[0]
-            return header + pset.tex_answers()
-
-        answers = "".join([pset.tex_answers(pset.title) for pset in self.problems])
-        return header + latex.cmd("small") + answers
-
-    def latex(self, print_level=1):
-        # return tex file for compiling problem sheet as pdf
-        preamble = latex.cmd(f"documentclass[{self.template}]", ["braun"])
-
-        for prop in ["title", "affiliation", "author"]:
-            preamble += "\n" + latex.cmd(prop, [getattr(self, prop)])
-
-        if not print_level:
-            # print_level = 0: sem respostas e sem soluções
-            data = self.tex_data()
-            statements = self.tex_statements(print_solutions=False)
-            return latex.document(preamble, latex.pu2qty(data + statements))
-
-        answers = self.tex_answers()
-
-        if print_level == 2:
-            # print_level = 2: respostas e soluções
-            statements = self.tex_statements(print_solutions=True)
-            return latex.document(preamble, latex.pu2qty(answers + statements))
-
-        # print_level = 1: apenas respostas ao final
-        statements = self.tex_statements(print_solutions=False)
-        return latex.document(preamble, latex.pu2qty(statements + answers))
-
-    def generate_pdf(self, file_name="", print_level=1):
-        if not file_name:
-            file_name = self.id_
-
-        convert.tex2pdf(
-            self.latex(print_level),
-            file_name,
-            tmp_path=f"temp/{self.area}/{self.id_}",
-            out_path=f"out/{self.area}",
-        )
+        return cls.parse_obj(topic)
 
 
-def topic2pdf(topic):
-    topic.generate_pdf()
+class TopicSet(BaseModel):
+    """Tópico.
+
+    Atributos:
+        date (datetime): Data.
+        topics (list[str]): Conjuntos de tópicos.
+    """
+
+    date: datetime
+    topics: list[Topic]
+
+    def __len__(self):
+        return len(self.topics)
+
+    def __iter__(self):
+        return iter(self.topics)
+
+    def __getitem__(self, key: str):
+        try:
+            return [topic for topic in self if topic.id_ == key][0]
+        except IndexError:
+            raise KeyError
+
+    def update_topics(self, paths: list[str] | list[Path], problem_db: ProblemSet):
+        """Atualiza os problemas do `ProblemSet`."""
+        updated_topics = []
+
+        for path in paths:
+            t_id_ = path.stem
+            path_date = datetime.utcfromtimestamp(path.stat().st_mtime)
+
+            try:
+                if self[t_id_].date < path_date:
+                    logging.warning(f"Tópico {t_id_} atualizado.")
+                    updated_topics.append(
+                        Topic.parse_mdfile(path, problem_db=problem_db)
+                    )
+                else:
+                    updated_topics.append(self[t_id_])
+            except KeyError:
+                updated_topics.append(Topic.parse_mdfile(path, problem_db=problem_db))
+
+        self.topics = updated_topics
+
+    @classmethod
+    def parse_paths(cls, paths: list[str] | list[Path], problem_db: ProblemSet):
+        """Cria um `TopicSet` com os endereços problemas fornecidos."""
+        topics = []
+
+        for path in paths:
+            topics.append(Topic.parse_mdfile(topic_path=path, problem_db=problem_db))
+
+        return cls(date=datetime.now(), topics=sorted(topics))
 
 
-def file2topic(args):
-    path, problemset = args
-    # get YAML data and contents
-    topic = Topic(path.stem)
-    topic.area = path.parent.stem
-
-    tfile = load(path)
-
-    for arg in ["title", "author", "affiliation", "template"]:
-        if arg in tfile:
-            setattr(topic, arg, tfile[arg])
-
-    topic.contents = tfile.content
-
-    soup = convert.md2soup(tfile.content)
-
-    subtopics = []
-    for index, subtopic in enumerate(soup.find_all("h1")):
-        subtopic_id = f"{topic.id_}.{index+1}"
-        subtopic_title = subtopic.text
-
-        subtopics.append(Subtopic(subtopic_id, subtopic_title))
-
-    topic.subtopics = subtopics
-
-    if "problems" in tfile:
-        topic.problems = [
-            problemset.filter("id_", ids, title=t, id_=f"{topic.id_}{i+1}")
-            for i, (t, ids) in enumerate(tfile["problems"].items())
-        ]
-
-    return topic
-
-
-@define
-class Arsenal:
-    problems: ProblemSet
-    topics: list[Topic] = Factory(list)
-
-    def dump(self, path):
-        # dump contents to json
-        flter = filters.exclude(fields(Arsenal).problems)
-
-        json_file = os.path.join(path, "arsenal.json")
-
-        with open(json_file, "w") as f:
-            json.dump(
-                asdict(self, filter=flter),
-                f,
-                indent=2,
-                ensure_ascii=False,
-                cls=TopicEncoder,
-            )
-
-    def generate_pdfs(self):
-        pool = Pool()
-        pool.map(topic2pdf, self.topics)
-
-
-def get_file_paths(db_path):
-    # get the path of all problems and topics
-    problem_path = Path(os.path.join(db_path, "problems"))
-    topic_path = Path(os.path.join(db_path, "topics"))
-
-    problem_files = []
+def get_topic_paths(topic_db_path):
+    """Retorna os endereço dos arquivos `.md` de tópicoss."""
     topic_files = []
 
-    for root, _, files in os.walk(problem_path):
+    for root, _, files in os.walk(topic_db_path):
         for f in files:
             path = Path(os.path.join(root, f))
-            dir_ = Path(root).relative_to(problem_path).parent
 
-            # problems
-            if path.suffix == ".md":
-                problem_files.append(path)
-
-            elif path.suffix in [".svg", ".png"]:
-                # figure
-                convert.copy_r(path, f"data/images/{dir_}/{path.name}")
-
-            elif path.suffix == ".tex":
-                # tikz figures
-                dir_ = Path(root).relative_to(problem_path).parent
-                convert.tikz2svg(
-                    path,
-                    tmp_path=f"temp/images/{dir_}/{path.stem}",
-                    out_path=f"data/images/{dir_}",
-                )
-                convert.copy_r(
-                    f"data/images/{dir_}/{path.stem}.svg",
-                    f"{path.parent}/{path.stem}.svg",
-                )
-
-    for root, _, files in os.walk(topic_path):
-        for f in files:
-            path = Path(os.path.join(root, f))
+            # topicos
             if path.suffix == ".md":
                 topic_files.append(path)
 
-    return problem_files, topic_files
+    return topic_files
 
 
-class TopicEncoder(json.JSONEncoder):
-    """Encoder para converter um `Table` em `json`."""
+TOPICS_DB_PATH = DB_PATH.joinpath("topics.json")
+"""Endereço da base de dados de problemas."""
 
-    def default(self, obj):
-        if isinstance(obj, Decimal):
-            return decimal_to_sci_string(obj)
-
-        if isinstance(obj, Table):
-            return obj.quantities
-
-        if isinstance(obj, Quantity):
-            d = {"__classname__": type(obj).__name__}
-            d.update(dataclasses.asdict(obj))
-            return d
-
-        if isinstance(obj, PosixPath):
-            return str(obj)
-
-        if isinstance(obj, Problem):
-            d = {"__classname__": type(obj).__name__}
-            d.update(dataclasses.asdict(obj))
-            return d
-
-        if isinstance(obj, ProblemSet):
-            d = {"__classname__": type(obj).__name__}
-            d.update(dataclasses.asdict(obj))
-            return d
-
-        return super(TopicEncoder, self).default(obj)
-
-
-def load_arsenal(path):
-    # generate arsenal by walking on directory
-    if not os.path.exists(path):
-        sys.exit(f"O diretório '{path}' não existe!")
-
-    print("Carregando diretórios...")
-    problem_files, topic_files = get_file_paths(path)
-
-    print("Carregando base de dados com problemas...")
-    problem_set = files2problemset(problem_files)
-
-    print("Gerando tópicos...")
-    pool = Pool()
-    topics = pool.map(file2topic, [(t, problem_set) for t in topic_files])
-
-    ars = Arsenal(problem_set, sorted(topics))
-
-    ars.dump(path)
-
-    return ars
+TOPICS = TopicSet.parse_file(TOPICS_DB_PATH)
+"""Base de dados de problemas."""
 
 
 def main():
-    topic = Topic("teste")
-    print(topic)
+    logging.basicConfig(level=logging.DEBUG)
+
+    paths = get_topic_paths("data/topics")
+
+    # TOPICS = TopicSet.parse_paths(paths, problem_db=PROBLEMS)
+    TOPICS.update_topics(paths, problem_db=PROBLEMS)
+
+    with open(TOPICS_DB_PATH, "w", encoding="utf-8") as json_file:
+        json_file.write(TOPICS.json(indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
