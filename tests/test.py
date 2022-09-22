@@ -1,12 +1,12 @@
-from braunchem.problem2 import Problem
+from braunchem.problem import Problem
 
 import time
+import logging
 
 
 def main():
-    p = Problem.parse_file("tests/test-problem.md")
-    print(p.statement.tex)
-    # print(p.statement.md)
+    logging.basicConfig(level=logging.DEBUG, filename='tests/test.log', filemode='w')
+    p = Problem.parse_mdfile("tests/test-problem.md")
 
 
 if __name__ == "__main__":

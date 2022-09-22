@@ -8,6 +8,8 @@ import os
 import sys
 import subprocess
 import shutil
+import logging
+import importlib.resources
 from pathlib import Path
 
 import pypandoc
@@ -24,60 +26,68 @@ MARKDOWN_EXTENSIONS = [
 """Extensões de markdown utilizadas"""
 
 PANDOC_MARKDOWN_FORMAT = (
-    f"markdown_strict-raw_html+tex_math_dollars+raw_tex+{'+'.join(MARKDOWN_EXTENSIONS)}"
+    f"markdown_strict-raw_html+tex_math_dollars+{'+'.join(MARKDOWN_EXTENSIONS)}"
 )
 """Formato markdown para o pandoc."""
 
-PANDOC_HTML_FORMAT = "html+tex_math_dollars+raw_tex"
-"""Formato HTML para o pandoc."""
-
-PANDOC_LATEX_FORMAT = "latex"
-"""Formato LaTeX para o pandoc."""
-
-
-def html2md(html_str: str) -> str:
-    """Converte HTML em markdown usando pandoc."""
-    md_str = pypandoc.convert_text(
-        source=html_str,
-        to=PANDOC_MARKDOWN_FORMAT,
-        format=PANDOC_HTML_FORMAT,
-        extra_args=["--quiet"],
-    )
-    return md_str
+FILTER_PATH = importlib.resources.files("braunchem.filters")
+"""Diretório contendo os filtros"""
 
 
 def md2html(md_str: str) -> str:
     """Converte markdown em HTML usando pandoc."""
+    logging.debug(f"Convertendo a string em markdown:\n{md_str}")
     html_str = pypandoc.convert_text(
         source=md_str,
-        to=PANDOC_HTML_FORMAT,
+        to="html",
         format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet"],
+        extra_args=["--quiet", "--mathjax"],
+        filters=[str(FILTER_PATH.joinpath("test.py"))]
     )
+    logging.debug(f"String convertida para HTML:\n{html_str}")
     return html_str
+
+
+def html2md(html_str: str) -> str:
+    """Converte HTML em markdown usando pandoc."""
+    logging.debug(f"Convertendo a string em HTML:\n{html_str}")
+    md_str = pypandoc.convert_text(
+        source=html_str,
+        to=PANDOC_MARKDOWN_FORMAT,
+        format="html+tex_math_dollars+tex_math_single_backslash",
+        extra_args=["--quiet"],
+        filters=[str(FILTER_PATH.joinpath("test.py"))]
+    )
+    logging.debug(f"String convertida para markdown:\n{md_str}")
+    return md_str
 
 
 def html2tex(html_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
+    logging.debug(f"Convertendo a string em HTML:\n{html_str}")
     tex_str = pypandoc.convert_text(
         source=html_str,
-        to=PANDOC_LATEX_FORMAT,
-        format=PANDOC_HTML_FORMAT,
+        to="latex",
+        format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
+        filters=[str(FILTER_PATH.joinpath("test.py"))]
     )
     tex_str = latex.pu2qty(tex_str)
+    logging.debug(f"String convertida para LaTeX:\n{tex_str}")
     return tex_str
 
 
-def md2tex(md_string: str) -> str:
+def md2tex(md_str: str) -> str:
     """Converte markdown em LaTeX usando pandoc."""
+    logging.debug(f"Convertendo a string em markdown:\n{md_str}")
     tex_str = pypandoc.convert_text(
-        source=md_string,
-        to=PANDOC_LATEX_FORMAT,
+        source=md_str,
+        to="latex",
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=["--quiet"],
     )
     tex_str = latex.pu2qty(tex_str)
+    logging.debug(f"String convertida para LaTeX:\n{tex_str}")
     return tex_str
 
 
