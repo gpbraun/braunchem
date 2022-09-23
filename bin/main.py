@@ -13,11 +13,11 @@ def main():
 
     # problemas
     problem_db_path = Path("data/problems/problems.json")
-    # try:
-    #     problem_db = ProblemSet.parse_file(problem_db_path)
-    #     problem_db.update_problems(problem_paths)
-    # except FileNotFoundError:
-    problem_db = ProblemSet.parse_paths(problem_paths)
+    try:
+        problem_db = ProblemSet.parse_file(problem_db_path)
+        problem_db.update_problems(problem_paths)
+    except FileNotFoundError:
+        problem_db = ProblemSet.parse_paths(problem_paths)
 
     with open(problem_db_path, "w", encoding="utf-8") as problem_json:
         problem_json.write(problem_db.json(indent=2, ensure_ascii=False))

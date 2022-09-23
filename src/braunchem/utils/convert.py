@@ -36,50 +36,43 @@ FILTER_PATH = importlib.resources.files("braunchem.filters")
 
 def md2html(md_str: str) -> str:
     """Converte markdown em HTML usando pandoc."""
-    logging.debug(f"Convertendo a string em markdown:\n{md_str}")
     html_str = pypandoc.convert_text(
         source=md_str,
         to="html",
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=["--quiet", "--mathjax"],
-        filters=[str(FILTER_PATH.joinpath("test.py"))]
+        # filters=[str(FILTER_PATH.joinpath("test.py"))],
     )
-    logging.debug(f"String convertida para HTML:\n{html_str}")
     return html_str
 
 
 def html2md(html_str: str) -> str:
     """Converte HTML em markdown usando pandoc."""
-    logging.debug(f"Convertendo a string em HTML:\n{html_str}")
     md_str = pypandoc.convert_text(
         source=html_str,
         to=PANDOC_MARKDOWN_FORMAT,
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
-        filters=[str(FILTER_PATH.joinpath("test.py"))]
+        # filters=[str(FILTER_PATH.joinpath("test.py"))],
     )
-    logging.debug(f"String convertida para markdown:\n{md_str}")
     return md_str
 
 
 def html2tex(html_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
-    logging.debug(f"Convertendo a string em HTML:\n{html_str}")
     tex_str = pypandoc.convert_text(
         source=html_str,
         to="latex",
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
-        filters=[str(FILTER_PATH.joinpath("test.py"))]
+        # filters=[str(FILTER_PATH.joinpath("test.py"))],
     )
     tex_str = latex.pu2qty(tex_str)
-    logging.debug(f"String convertida para LaTeX:\n{tex_str}")
     return tex_str
 
 
 def md2tex(md_str: str) -> str:
     """Converte markdown em LaTeX usando pandoc."""
-    logging.debug(f"Convertendo a string em markdown:\n{md_str}")
     tex_str = pypandoc.convert_text(
         source=md_str,
         to="latex",
@@ -87,7 +80,6 @@ def md2tex(md_str: str) -> str:
         extra_args=["--quiet"],
     )
     tex_str = latex.pu2qty(tex_str)
-    logging.debug(f"String convertida para LaTeX:\n{tex_str}")
     return tex_str
 
 

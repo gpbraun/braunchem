@@ -3,7 +3,7 @@
 Esse módulo implementa uma classe para os tópicos.
 """
 import braunchem.utils.convert as convert
-from braunchem.problem import Text, ProblemSet, PROBLEMS
+from braunchem.problem import Text, ProblemSet
 
 import os
 import logging
@@ -11,10 +11,8 @@ import importlib.resources
 from datetime import datetime
 from pathlib import Path
 from pydantic import BaseModel
-from multiprocessing import Pool
 
 import frontmatter
-from tqdm import tqdm
 
 
 DB_PATH = importlib.resources.files("braunchem.data")
@@ -156,26 +154,3 @@ def get_topic_paths(topic_db_path):
                 topic_files.append(path)
 
     return topic_files
-
-
-TOPICS_DB_PATH = DB_PATH.joinpath("topics.json")
-"""Endereço da base de dados de problemas."""
-
-TOPICS = TopicSet.parse_file(TOPICS_DB_PATH)
-"""Base de dados de problemas."""
-
-
-def main():
-    logging.basicConfig(level=logging.DEBUG)
-
-    paths = get_topic_paths("data/topics")
-
-    # TOPICS = TopicSet.parse_paths(paths, problem_db=PROBLEMS)
-    TOPICS.update_topics(paths, problem_db=PROBLEMS)
-
-    with open(TOPICS_DB_PATH, "w", encoding="utf-8") as json_file:
-        json_file.write(TOPICS.json(indent=2, ensure_ascii=False))
-
-
-if __name__ == "__main__":
-    main()

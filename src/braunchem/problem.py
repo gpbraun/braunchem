@@ -8,7 +8,6 @@ from braunchem.quantities import Table, qtys
 
 import os
 import logging
-import importlib.resources
 from datetime import datetime
 from pathlib import Path
 from multiprocessing import Pool
@@ -16,10 +15,6 @@ from multiprocessing import Pool
 import frontmatter
 from tqdm import tqdm
 from pydantic import BaseModel
-
-
-DB_PATH = importlib.resources.files("braunchem.data")
-"""Diretório da base de dados."""
 
 
 class Text(BaseModel):
@@ -44,8 +39,6 @@ class Text(BaseModel):
         """Cria um `Text` a partir de uma string em LaTeX."""
         md_str = convert.html2md(html_str)
         tex_str = convert.html2tex(html_str)
-        # Não sei o que é melhor, coverter de markdown ou de HTML para LaTeX. Acho que tanto faz.
-        # Obs: converter de HTML para latex adiciona uns "{" e "}" a mais que podem ser úteis
         return cls(md=md_str, tex=tex_str)
 
 
@@ -77,14 +70,12 @@ class Problem(BaseModel):
     @property
     def is_objective(self):
         """Verifica se o problema é objetivo."""
-        if not self.choices:
-            return False
-        return True
+        return True if self.choices else False
 
     def tex_data(self):
         """Retorna os dados do problema formatados em latex."""
         if not self.data:
-            return
+            return ""
 
         header = latex.section("Dados", level=2, numbered=False)
         data = self.data.equation_list()
@@ -94,7 +85,7 @@ class Problem(BaseModel):
     def tex_choices(self):
         """Retorna as alternativas do problema formatadas em latex."""
         if not self.is_objective:
-            return
+            return ""
 
         tex_choices = [
             latex.cmd("everymath", latex.cmd("displaystyle", end="")) + c.tex
@@ -118,7 +109,7 @@ class Problem(BaseModel):
         return latex.enum("answers", self.answer)
 
     def tex(self):
-        """Retorna o enunciado completo do problema formatado em latex."""
+        """Retorna o enunciado completo do problema em LaTeX."""
         contents = self.statement.tex + self.tex_choices() + self.tex_data()
 
         parameters = {
@@ -131,6 +122,8 @@ class Problem(BaseModel):
     @classmethod
     def parse_mdfile(cls, problem_path: str | Path):
         """Cria um `Problem` a partir de um arquivo `.md`."""
+        logging.info(f"Parsing {problem_path}")
+
         if isinstance(problem_path, str):
             path = Path(problem_path)
         else:
@@ -226,6 +219,34 @@ class ProblemSet(BaseModel):
         except IndexError:
             raise KeyError
 
+    @property
+    def is_objective(self):
+        """Verifica se todos os problemas são objetivos."""
+        return True if all(p.is_objective for p in self) else False
+
+    def tex_statements(self):
+        """Retorna o conjunto de problemas em LaTeX."""
+        if not self.problems:
+            return ""
+
+        header = latex.section(self.title, level=0, numbered=False)
+        statements = "\n".join(p.tex() for p in self)
+
+        return header + statements
+
+    def tex_answers(self):
+        """Retorna o gabarito dos problemas em LaTeX."""
+        if not self.problems:
+            return ""
+
+        header = latex.section(self.title, level=1, numbered=False)
+        answers = [p.tex_answer() for p in self.problems]
+
+        if self.is_objective:
+            return header + latex.enum("checks", answers, cols=5)
+
+        return header + latex.enum("answers", answers)
+
     def filter(self, id_: str, title: str, p_ids: list):
         """Cria um subconjunto da lista problemas.
 
@@ -248,35 +269,31 @@ class ProblemSet(BaseModel):
 
         return ProblemSet(id_=id_, title=title, date=date, problems=problems)
 
+    def get_updated_problem(self, problem_path: str | Path):
+        p_id_ = problem_path.stem
+        path_date = datetime.utcfromtimestamp(problem_path.stat().st_mtime)
+
+        try:
+            if self[p_id_].date < path_date:
+                logging.warning(f"Problema {p_id_} atualizado.")
+                problem = Problem.parse_mdfile(problem_path)
+            else:
+                problem = self[p_id_]
+                problem.path = problem_path.resolve()
+        except KeyError:
+            problem = Problem.parse_mdfile(problem_path)
+
+        return problem
+
     def update_problems(self, problem_paths: list[str] | list[Path]):
         """Atualiza os problemas do `ProblemSet`."""
-        updated_problems = []
-
-        for path in problem_paths:
-            p_id_ = path.stem
-            path_date = datetime.utcfromtimestamp(path.stat().st_mtime)
-
-            try:
-                if self[p_id_].date < path_date:
-                    logging.warning(f"Problema {p_id_} atualizado.")
-                    updated_problems.append(Problem.parse_mdfile(path))
-                else:
-                    updated_problems.append(self[p_id_])
-            except KeyError:
-                updated_problems.append(Problem.parse_mdfile(path))
-
-        self.problems = updated_problems
+        self.problems = list(map(self.get_updated_problem, problem_paths))
 
     @classmethod
-    def parse_paths(cls, problem_paths: str):
+    def parse_paths(cls, problem_paths: list[str] | list[Path]):
         """Cria um `ProblemSet` com os problemas fornecidos."""
         with Pool() as pool:
-            problems = list(
-                tqdm(
-                    pool.imap(Problem.parse_mdfile, problem_paths, 5),
-                    total=len(problem_paths),
-                )
-            )
+            problems = list(pool.map(Problem.parse_mdfile, problem_paths))
 
         return cls(id_="main", title="Main", date=datetime.now(), problems=problems)
 
@@ -312,39 +329,6 @@ def get_problem_paths(problem_db_path: str):
             #     )
 
     return problem_files
-
-
-PROBLEMS_DB_PATH = DB_PATH.joinpath("problems.json")
-"""Endereço da base de dados de problemas."""
-
-PROBLEMS = ProblemSet.parse_file(PROBLEMS_DB_PATH)
-"""Base de dados de problemas."""
-
-
-def problem(p_id: str) -> Problem:
-    """Retorna um problema da base de dados."""
-    return PROBLEMS[p_id]
-
-
-def pset(id_: str, title: str, p_ids: list[str]) -> ProblemSet:
-    """Retorna um conjunto de dados termodiâmicos da base de dados."""
-    return PROBLEMS.filter(id_=id_, title=title, p_ids=p_ids)
-
-
-def main():
-    logging.basicConfig(level=logging.DEBUG)
-
-    paths = get_problem_paths("data/problems")
-
-    PROBLEMS.update_problems(paths)
-    # PROBLEMS = ProblemSet.parse_paths(paths)
-
-    with open(PROBLEMS_DB_PATH, "w", encoding="utf-8") as json_file:
-        json_file.write(PROBLEMS.json(indent=2, ensure_ascii=False))
-
-
-if __name__ == "__main__":
-    main()
 
 
 def autoprops(true_props):
