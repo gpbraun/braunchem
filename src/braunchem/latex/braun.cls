@@ -964,16 +964,16 @@
       	\cs_new:cpn { Print \char_uppercase:N #2 }
             {
 				\bool_if:NTF \l_braun_if_maketitle_bool
-				{ % inside \maketitle
-					\use:c { braun_maketitle_print_#2 }
-				}
-				{ % outside \maketitle
-					\seq_if_empty:cF { l_braun_title_#2_value_seq }
-						{
-							\braun_select_sep:cn 
-								{ l_braun_title_#2_value_seq } { normal } 
-						}
-				}
+                    { % inside \maketitle
+                        \use:c { braun_maketitle_print_#2 }
+                    }
+                    { % outside \maketitle
+                        \seq_if_empty:cF { l_braun_title_#2_value_seq }
+                            {
+                                \braun_select_sep:cn 
+                                    { l_braun_title_#2_value_seq } { normal } 
+                            }
+                    }
             }
 		% Print title element value inside \maketitle
 		\cs_new:cpn { braun_maketitle_print_#2 }

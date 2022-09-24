@@ -8,13 +8,16 @@ import os
 import sys
 import subprocess
 import shutil
-import logging
 import importlib.resources
 from pathlib import Path
 
 import pypandoc
 import bs4
+from pydantic import BaseModel
 
+# ---------------------------------------------------------------------------
+#   Texto e conversão
+# ---------------------------------------------------------------------------
 
 MARKDOWN_EXTENSIONS = [
     "task_lists",
@@ -99,9 +102,34 @@ def soup_split(soup: bs4.BeautifulSoup, tag: str) -> list[bs4.BeautifulSoup]:
     return map(lambda s: bs4.BeautifulSoup(s, "html.parser"), splited)
 
 
-def copy_r(loc, dest):
+class Text(BaseModel):
+    """Texto para diagramação.
+
+    Atributos:
+        md (str): Texto em markdown.
+        tex (str): Texto em latex.
+    """
+
+    md: str
+    tex: str
+
+    @classmethod
+    def parse_md(cls, md_str: str):
+        """Cria um `Text` a partir de uma string em markdown."""
+        tex_str = md2tex(md_str)
+        return cls(md=md_str, tex=tex_str)
+
+    @classmethod
+    def parse_html(cls, html_str: str):
+        """Cria um `Text` a partir de uma string em LaTeX."""
+        md_str = html2md(html_str)
+        tex_str = html2tex(html_str)
+        return cls(md=md_str, tex=tex_str)
+
+
+def copy_r(src, dest):
     try:
-        shutil.copy(loc, dest)
+        shutil.copy(src, dest)
     except shutil.SameFileError:
         pass
 
@@ -111,7 +139,7 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def latexmk(tex_file_name: str):
+def run_latexmk(tex_file_name: str):
     subprocess.run(
         [
             "latexmk",

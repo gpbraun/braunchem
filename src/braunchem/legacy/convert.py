@@ -74,9 +74,9 @@ def md2tex(content):
     return tex
 
 
-def copy_r(loc, dest):
+def copy_r(src: str | Path, dest: str | Path):
     try:
-        copy(loc, dest)
+        copy(src, dest)
     except SameFileError:
         pass
 

@@ -4,9 +4,13 @@ Esse módulo implementa uma classe para os problemas.
 """
 import braunchem.utils.convert as convert
 import braunchem.utils.latex as latex
+from braunchem.utils.convert import Text
+from braunchem.utils.config import CONFIG
 from braunchem.quantities import Table, qtys
+from braunchem.utils.autoprops import autoprops
 
 import os
+import shutil
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -15,31 +19,6 @@ from multiprocessing import Pool
 import frontmatter
 from tqdm import tqdm
 from pydantic import BaseModel
-
-
-class Text(BaseModel):
-    """Texto para diagramação.
-
-    Atributos:
-        md (str): Texto em markdown.
-        tex (str): Texto em latex.
-    """
-
-    md: str
-    tex: str
-
-    @classmethod
-    def parse_md(cls, md_str: str):
-        """Cria um `Text` a partir de uma string em markdown."""
-        tex_str = convert.md2tex(md_str)
-        return cls(md=md_str, tex=tex_str)
-
-    @classmethod
-    def parse_html(cls, html_str: str):
-        """Cria um `Text` a partir de uma string em LaTeX."""
-        md_str = convert.html2md(html_str)
-        tex_str = convert.html2tex(html_str)
-        return cls(md=md_str, tex=tex_str)
 
 
 class Problem(BaseModel):
@@ -122,25 +101,21 @@ class Problem(BaseModel):
     @classmethod
     def parse_mdfile(cls, problem_path: str | Path):
         """Cria um `Problem` a partir de um arquivo `.md`."""
-        logging.info(f"Parsing {problem_path}")
-
-        if isinstance(problem_path, str):
-            path = Path(problem_path)
-        else:
-            path = problem_path
+        if not isinstance(problem_path, Path):
+            problem_path = Path(problem_path)
 
         # parse `.md`. with YAML metadata
-        pfile = frontmatter.load(path)
+        pfile = frontmatter.load(problem_path)
 
-        attrs = {
-            "id_": path.stem,
-            "path": path.resolve(),
-            "date": datetime.utcfromtimestamp(path.stat().st_mtime),
+        problem = {
+            "id_": problem_path.stem,
+            "path": problem_path.resolve(),
+            "date": datetime.utcfromtimestamp(problem_path.stat().st_mtime),
         }
 
         # dados termodinâmicos
         if "data" in pfile:
-            attrs["data"] = qtys(pfile["data"])
+            problem["data"] = qtys(pfile["data"])
 
         # conteúdo
         soup = convert.md2soup(pfile.content)
@@ -157,41 +132,48 @@ class Problem(BaseModel):
                 choices.append(choice)
                 check_box = item.find("input").extract()
                 if check_box.has_attr("checked"):
-                    attrs["correct_choice"] = index
-                    attrs["answer"] = [choice]
-            attrs["choices"] = choices
+                    problem["correct_choice"] = index
+                    problem["answer"] = [choice]
+            problem["choices"] = choices
             choice_list.decompose()
             if solution:
-                attrs["solution"] = Text.parse_html(solution.extract())
-            attrs["statement"] = Text.parse_html(soup)
+                problem["solution"] = Text.parse_html(solution.extract())
+            problem["statement"] = Text.parse_html(soup)
 
-            return cls.parse_obj(attrs)
+            return cls.parse_obj(problem)
 
         # problema objetivo: V ou F
-        prop_list = soup.find("ol", class_="task-list")
-        if prop_list:
+        proposition_list = soup.find("ol", class_="task-list")
+        if proposition_list:
             true_props = []
-            for index, item in enumerate(prop_list.find_all("li")):
+            for index, item in enumerate(proposition_list.find_all("li")):
                 check_box = item.find("input").extract()
                 if check_box.has_attr("checked"):
                     true_props.append(index)
+            choices, answer, correct_choice = autoprops(true_props)
+            problem["choices"] = choices
+            problem["answer"] = answer
+            problem["correct_choice"] = correct_choice
             if solution:
-                attrs["solution"] = Text.parse_html(solution.extract())
-            attrs["statement"] = Text.parse_html(soup)
+                problem["solution"] = Text.parse_html(solution.extract())
+            problem["statement"] = Text.parse_html(soup)
 
-            return cls.parse_obj(attrs)
+            return cls.parse_obj(problem)
 
         # problema discursivo
         if solution:
             answer_list = solution.find("ul")
             if answer_list:
-                answer = [Text.parse_html(i) for i in answer_list.find_all("li")]
-                attrs["answer"] = answer
+                answer = [
+                    Text.parse_html(list_item)
+                    for list_item in answer_list.find_all("li")
+                ]
+                problem["answer"] = answer
                 answer_list.decompose()
-            attrs["solution"] = Text.parse_html(solution.extract())
-        attrs["statement"] = Text.parse_html(soup)
+            problem["solution"] = Text.parse_html(solution.extract())
+        problem["statement"] = Text.parse_html(soup)
 
-        return cls.parse_obj(attrs)
+        return cls.parse_obj(problem)
 
 
 class ProblemSet(BaseModel):
@@ -213,18 +195,18 @@ class ProblemSet(BaseModel):
     def __iter__(self):
         return iter(self.problems)
 
-    def __getitem__(self, key: str):
+    def __getitem__(self, key: str) -> Problem:
         try:
             return [problem for problem in self if problem.id_ == key][0]
         except IndexError:
             raise KeyError
 
     @property
-    def is_objective(self):
+    def is_objective(self) -> bool:
         """Verifica se todos os problemas são objetivos."""
         return True if all(p.is_objective for p in self) else False
 
-    def tex_statements(self):
+    def tex_statements(self) -> str:
         """Retorna o conjunto de problemas em LaTeX."""
         if not self.problems:
             return ""
@@ -234,7 +216,7 @@ class ProblemSet(BaseModel):
 
         return header + statements
 
-    def tex_answers(self):
+    def tex_answers(self) -> str:
         """Retorna o gabarito dos problemas em LaTeX."""
         if not self.problems:
             return ""
@@ -247,38 +229,52 @@ class ProblemSet(BaseModel):
 
         return header + latex.enum("answers", answers)
 
-    def filter(self, id_: str, title: str, p_ids: list):
+    def filter(self, problem_set_id: str, title: str, problem_ids: list[str]):
         """Cria um subconjunto da lista problemas.
 
         Args:
-            id_ (str): Identificador da lista de problemas.
+            problem_set_id (str): Identificador da lista de problemas.
             title (str): Título da lista de problemas.
-            p_ids (list[str]): Lista com os `id_` desejados.
+            problem_ids (list[str]): Lista com os `id_` desejados.
 
         Retorna:
             ProblemSet: Subconjunto de dados com os `id_` selecionados.
         """
         problems = []
-        for p_id_ in p_ids:
+        for problem_id in problem_ids:
             try:
-                problems.append(self[p_id_])
+                problems.append(self[problem_id])
             except KeyError:
-                logging.warning(f"O problema com ID {p_id_} não existe.")
+                logging.warning(f"O problema com ID {problem_id} não existe.")
 
-        date = max(p.date for p in self)
+        date = max(problem.date for problem in self)
 
-        return ProblemSet(id_=id_, title=title, date=date, problems=problems)
+        return ProblemSet(id_=problem_set_id, title=title, date=date, problems=problems)
 
-    def get_updated_problem(self, problem_path: str | Path):
-        p_id_ = problem_path.stem
+    def get_updated_problem(self, problem_path: str | Path) -> Problem:
+        """Retorna a versão mais recente de um problema no `ProblemSet`.
+
+        Se a versão em `self` é mais recente, retorna essa versão.
+        Em caso contrário, retorna a versão parseada em `problem_path`.
+
+        Args:
+            problems_path (str | Path): Endereço do problema.
+
+        Retorna:
+            Problem: Problema atualizado.
+        """
+        if not isinstance(problem_path, Path):
+            problem_path = Path(problem_path)
+
+        problem_id = problem_path.stem
         path_date = datetime.utcfromtimestamp(problem_path.stat().st_mtime)
 
         try:
-            if self[p_id_].date < path_date:
-                logging.warning(f"Problema {p_id_} atualizado.")
+            if self[problem_id].date < path_date:
+                logging.warning(f"Problema {problem_id} atualizado.")
                 problem = Problem.parse_mdfile(problem_path)
             else:
-                problem = self[p_id_]
+                problem = self[problem_id]
                 problem.path = problem_path.resolve()
         except KeyError:
             problem = Problem.parse_mdfile(problem_path)
@@ -293,30 +289,47 @@ class ProblemSet(BaseModel):
     def parse_paths(cls, problem_paths: list[str] | list[Path]):
         """Cria um `ProblemSet` com os problemas fornecidos."""
         with Pool() as pool:
-            problems = list(pool.map(Problem.parse_mdfile, problem_paths))
+            problems = list(pool.imap(Problem.parse_mdfile, problem_paths))
 
-        return cls(id_="main", title="Main", date=datetime.now(), problems=problems)
+        return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
 
 
-def get_problem_paths(problem_db_path: str):
-    """Retorna os endereço dos arquivos `.md` de problemas."""
+def get_problem_paths(problems_dir: str | Path) -> list[Path]:
+    """Retorna os endereço dos arquivos `.md` dos problemas no diretório.
+
+    Args:
+        problems_dir (str | Path): Diretório com os problemas.
+
+    Retorna:
+        list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
+    """
+    if not isinstance(problems_dir, Path):
+        problems_dir = Path(problems_dir)
+
     problem_files = []
 
-    for root, _, files in os.walk(problem_db_path):
-        for f in files:
-            path = Path(os.path.join(root, f))
-            dir_ = Path(root).relative_to(problem_db_path).parent
+    for root, _, files in os.walk(problems_dir):
+        for file in files:
+            file_path = Path(root).joinpath(file)
+            dir_ = Path(root).relative_to(problems_dir).parent
 
             # problemas
-            if path.suffix == ".md":
-                problem_files.append(path)
+            if file_path.suffix == ".md":
+                problem_files.append(file_path)
 
             # figuras
-            elif path.suffix in [".svg", ".png"]:
-                convert.copy_r(path, f"data/images/{dir_}/{path.name}")
+            elif file_path.suffix in [".svg", ".png"]:
+                image_path = (
+                    Path(CONFIG["Paths"]["images_dir"])
+                    .joinpath(dir_)
+                    .joinpath(file_path.name)
+                )
+                os.makedirs(image_path.parent, exist_ok=True)
+                print(image_path)
+                shutil.copy(src=file_path, dst=image_path)
 
-            # elif path.suffix == ".tex":os.walk(topic_path)
-            #     # tikz figures
+            # elif path.suffix == ".tex":
+            #     # figures
             #     dir_ = Path(root).relative_to(problem_path).parent
             #     convert.tikz2svg(
             #         path,
@@ -329,139 +342,3 @@ def get_problem_paths(problem_db_path: str):
             #     )
 
     return problem_files
-
-
-def autoprops(true_props):
-    """Cria as alternativas para problemas de V ou F."""
-    if not true_props:
-        choices = [
-            "**N**",
-            "**1**",
-            "**2**",
-            "**3**",
-            "**4**",
-        ]
-        correct_choice = 0
-    # Uma correta
-    if true_props == [0]:
-        choices = [
-            "**1**",
-            "**2**",
-            "**1** e **2**",
-            "**1** e **3**",
-            "**1** e **4**",
-        ]
-        correct_choice = 0
-    if true_props == [1]:
-        choices = ["**1**", "**2**", "**1** e **2**", "**2** e **3**", "**2** e **4**"]
-        correct_choice = 1
-    if true_props == [2]:
-        choices = ["**2**", "**3**", "**1** e **3**", "**2** e **3**", "**3** e **4**"]
-        correct_choice = 1
-    if true_props == [3]:
-        choices = ["**3**", "**4**", "**1** e **4**", "**2** e **4**", "**3** e **4**"]
-        correct_choice = 1
-    # Duas corretas
-    if true_props == [0, 1]:
-        choices = [
-            "**1**",
-            "**2**",
-            "**1** e **2**",
-            "**1**, **2** e **3**",
-            "**1**, **2** e **4**",
-        ]
-        correct_choice = 2
-    if true_props == [0, 2]:
-        choices = [
-            "**1**",
-            "**3**",
-            "**1** e **3**",
-            "**1**, **2** e **3**",
-            "**1**, **3** e **4**",
-        ]
-        correct_choice = 2
-    if true_props == [0, 3]:
-        choices = [
-            "**1**",
-            "**4**",
-            "**1** e **4**",
-            "**1**, **2** e **4**",
-            "**1**, **3** e **4**",
-        ]
-        correct_choice = 2
-    if true_props == [1, 2]:
-        choices = [
-            "**2**",
-            "**3**",
-            "**2** e **3**",
-            "**1**, **2** e **3**",
-            "**2**, **3** e **4**",
-        ]
-        correct_choice = 2
-    if true_props == [1, 3]:
-        choices = [
-            "**2**",
-            "**4**",
-            "**2** e **4**",
-            "**1**, **2** e **4**",
-            "**2**, **3** e **4**",
-        ]
-        correct_choice = 2
-    if true_props == [2, 3]:
-        choices = [
-            "**3**",
-            "**4**",
-            "**3** e **4**",
-            "**1**, **3** e **4**",
-            "**2**, **3** e **4**",
-        ]
-        correct_choice = 2
-    # Três corretas
-    if true_props == [0, 1, 2]:
-        choices = [
-            "**1** e **2**",
-            "**1** e **3**",
-            "**2** e **3**",
-            "**1**, **2** e **3**",
-            "**1**, **2**, **3** e **4**",
-        ]
-        correct_choice = 3
-    if true_props == [0, 1, 3]:
-        choices = [
-            "**1** e **2**",
-            "**1** e **4**",
-            "**2** e **4**",
-            "**1**, **2** e **4**",
-            "**1**, **2**, **3** e **4**",
-        ]
-        correct_choice = 3
-    if true_props == [0, 2, 3]:
-        choices = [
-            "**1** e **3**",
-            "**1** e **4**",
-            "**3** e **4**",
-            "**1**, **3** e **4**",
-            "**1**, **2**, **3** e **4**",
-        ]
-        correct_choice = 3
-    if true_props == [1, 2, 3]:
-        choices = [
-            "**2** e **3**",
-            "**2** e **4**",
-            "**3** e **4**",
-            "**2**, **3** e **4**",
-            "**1**, **2**, **3** e **4**",
-        ]
-        correct_choice = 3
-    # Todas corretas
-    if true_props == [0, 1, 2, 3]:
-        choices = [
-            "**1**, **2** e **3**",
-            "**1**, **2** e **4**",
-            "**1**, **3** e **4**",
-            "**2**, **3** e **4**",
-            "**1**, **2**, **3** e **4**",
-        ]
-        correct_choice = 4
-    answer = [choices[correct_choice]]
-    return choices, answer, correct_choice

@@ -313,10 +313,6 @@ class Table(BaseModel):
     def append(self, qty: Quantity):
         self.quantities.append(qty)
 
-    def sorted(self):
-        self.quantities = sorted(self.quantities)
-        return self
-
     def filter(self, qty_ids: list):
         """Cria um subconjunto da lista de dados termodinâmicos.
 
@@ -334,7 +330,7 @@ class Table(BaseModel):
                 qty = Quantity.parse_string(qty_id_)
                 qtys.append(qty)
 
-        return Table(quantities=qtys).sorted()
+        return Table(quantities=sorted(qtys))
 
     def equation_list(self):
         if not self.quantities:

@@ -1,15 +1,18 @@
 from braunchem.problem import get_problem_paths, ProblemSet
 from braunchem.topic import get_topic_paths, TopicSet
+from braunchem.utils.config import load_config, CONFIG
 
 import logging
 from pathlib import Path
 
 
 def main():
-    logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.WARNING)
 
-    problem_paths = get_problem_paths("data/problems")
-    topic_paths = get_topic_paths("data/topics")
+    load_config("bin/config.ini")
+
+    problem_paths = get_problem_paths(CONFIG["Paths"]["problems_dir"])
+    topic_paths = get_topic_paths(CONFIG["Paths"]["topics_dir"])
 
     # problemas
     problem_db_path = Path("data/problems/problems.json")
