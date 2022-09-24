@@ -3,12 +3,14 @@
 Esse módulo implementa funções para conversão entre diferentes formatos.
 """
 import braunchem.utils.latex as latex
+import braunchem.utils.config as config
 
 import os
 import sys
 import subprocess
 import shutil
 import importlib.resources
+import logging
 from pathlib import Path
 
 import pypandoc
@@ -136,7 +138,9 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def run_latexmk(tex_path: str | Path):
+def run_latexmk(tex_path: str | Path, tmp_dir: str | Path):
+    """Executa o comando `latexmk`."""
+    logging.info(f"Compilando o arquivo {tex_path}.")
     subprocess.run(
         [
             "latexmk",
@@ -144,13 +148,17 @@ def run_latexmk(tex_path: str | Path):
             "-interaction=nonstopmode",
             "-file-line-error",
             "-pdf",
+            f"-output-directory={tmp_dir}",
             f"{tex_path}",
         ],
         stdout=subprocess.DEVNULL,
     )
+    logging.info(f"Arquivo {tex_path} compilado.")
 
 
-def run_pdf2svg(tex_path: str | Path, svg_path: str | Path):
+def run_pdf2svg(tex_path: str | Path, svg_path: str | Path | None = None):
+    """Executa o comando `pdf2svg`."""
+    logging.info(f"Convertendo o arquivo {tex_path} em {svg_path}.")
     subprocess.run(
         [
             "pdf2svg",
@@ -161,42 +169,133 @@ def run_pdf2svg(tex_path: str | Path, svg_path: str | Path):
     )
 
 
-def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive"):
-    # convert tex string to pdf
-    cwd = Path.cwd()
+class LaTeXDocument:
+    name: str
+    doc_class: str
+    contents: str
 
-    temp = Path(tmp_path)
-    temp.mkdir(parents=True, exist_ok=True)
+    def __init__(self, name: str, doc_class: str, contents: str):
+        self.name = name
+        self.doc_class = doc_class
+        self.contents = contents
 
-    # copy latex template files to temp folder
-    copy_all("src/braunchem/latex", temp)
+    def document(self):
+        return "\n".join(
+            [
+                latex.cmd("documentclass", self.doc_class),
+                latex.env("document", self.contents),
+            ]
+        )
 
-    os.chdir(temp)
+    def pdf(self, tmp_dir: str | Path, out_dir: str | Path | None = None) -> Path:
+        """Gera o `pdf` e copia para um diretório de saída.
 
-    with open(f"{filename}.tex", "w") as f:
-        f.write(tex_contents)
+        Args:
+            tmp_dir (str | Path): Diretório para arquivos temporários.
+            out_dir (str | Path): Diretório de saída.
+        """
+        if not isinstance(tmp_dir, Path):
+            tmp_dir = Path(tmp_dir)
 
-    run_latexmk(f"{filename}.tex")
+        tmp_dir.mkdir(parents=True, exist_ok=True)
+        copy_all("src/braunchem/latex", tmp_dir)
 
-    print(f"Complilando o arquivo {filename}.tex")
+        tex_path = tmp_dir.joinpath(self.name).with_suffix(".tex")
+        tex_path.write_text(self.document())
+        run_latexmk(tex_path, tmp_dir)
+        pdf_path = tex_path.with_suffix(".pdf")
 
-    if not os.path.exists(f"{filename}.pdf"):
-        sys.exit(f"Falha na compilação do arquivo '{filename}.tex'!")
+        if out_dir:
+            shutil.copy(src=tex_path.with_suffix(".pdf"), dst=out_dir)
 
-    os.chdir(cwd)
+        return pdf_path
 
-    out = Path(out_path)
-    out.mkdir(parents=True, exist_ok=True)
+    def svg(self, tmp_dir: str | Path, out_dir: str | Path | None = None) -> Path:
+        """Gera o `svg` e copia para um diretório de saída.
+
+        Args:
+            tmp_dir (str | Path): Diretório para arquivos temporários.
+            out_dir (str | Path): Diretório de saída.
+        """
+        if not isinstance(tmp_dir, Path):
+            tmp_dir = Path(tmp_dir)
+
+        pdf_path = self.pdf(tmp_dir)
+
+        if not out_dir:
+            out_dir = tmp_dir
+
+        svg_path = out_dir.joinpath(self.name).with_suffix(".svg")
+        run_pdf2svg(pdf_path, svg_path)
+
+        return svg_path
 
 
-def tikz2svg(tikz_path, tmp_path="temp/images", out_path="data/images"):
-    # convert tikz image file to svg for web
-    tikz = Path(tikz_path)
-    filename = tikz.stem
-    input_path = os.path.relpath(tikz, tmp_path)
+def get_database_paths(database_dir: str | Path) -> list[Path]:
+    """Retorna os endereço dos arquivos `.md` dos problemas no diretório.
 
-    tex_contents = latex.cmd("documentclass", "braunfigure") + latex.env(
-        "document", latex.cmd("input", input_path)
-    )
+    Args:
+        database_dir (str | Path): Diretório com os problemas.
 
-    tex2pdf(tex_contents, filename, tmp_path, out_path, svg=True)
+    Retorna:
+        list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
+    """
+    logging.info(f"Procurando arquivos no diretório: {database_dir}.")
+    if not isinstance(database_dir, Path):
+        database_dir = Path(database_dir)
+
+    md_files = []
+
+    for root, _, files in os.walk(database_dir):
+        for file in files:
+            file_path = Path(root).joinpath(file)
+            name = file_path.name
+            dir_ = Path(root).relative_to(database_dir)
+
+            # problemas
+            if file_path.suffix == ".md":
+                md_files.append(file_path)
+                logging.debug(f"Problema {file_path} adicionado à lista de problemas.")
+
+                continue
+
+            img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent).joinpath(name)
+
+            # figuras
+            if file_path.suffix in [".svg", ".png"]:
+                if img_dst_path.exists():
+                    if file_path.stat().st_mtime < img_dst_path.stat().st_mtime:
+                        continue
+
+                img_dst_path.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(src=file_path, dst=img_dst_path)
+                logging.info(f"Arquivo {file_path} copiado para: {img_dst_path}.")
+                continue
+
+            # figuras em LaTeX
+            if file_path.suffix == ".tex":
+                tex_img_dst_path = img_dst_path.with_suffix(".svg")
+                if tex_img_dst_path.exists():
+                    if file_path.stat().st_mtime < tex_img_dst_path.stat().st_mtime:
+                        continue
+
+                tex_img_dst_dir = tex_img_dst_path.parent
+                tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_)
+                tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
+
+                tex_doc = LaTeXDocument(
+                    name=name,
+                    doc_class="braunfigure",
+                    contents=latex.cmd("input", file_path.resolve()),
+                )
+                tex_doc.svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
+
+    return md_files
+
+
+def get_img():
+    return
+
+
+def get_tex_img():
+    return

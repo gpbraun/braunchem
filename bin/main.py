@@ -1,5 +1,6 @@
-from braunchem.problem import get_problem_paths, ProblemSet
-from braunchem.topic import get_topic_paths, TopicSet
+from braunchem.problem import ProblemSet
+from braunchem.topic import TopicSet
+from braunchem.utils.convert import get_database_paths
 from braunchem.utils.config import load_config, CONFIG
 
 import logging
@@ -7,12 +8,12 @@ from pathlib import Path
 
 
 def main():
-    logging.basicConfig(level=logging.WARNING)
+    logging.basicConfig(level=logging.DEBUG, filename="bin/main.log", filemode="w")
 
     load_config("bin/config.cfg")
 
-    problem_paths = get_problem_paths(CONFIG["paths"]["problems"])
-    topic_paths = get_topic_paths(CONFIG["paths"]["topics"])
+    problem_paths = get_database_paths(CONFIG["paths"]["problems"])
+    topic_paths = get_database_paths(CONFIG["paths"]["topics"])
 
     # problemas
     problem_db_path = Path("data/problems/problems.json")

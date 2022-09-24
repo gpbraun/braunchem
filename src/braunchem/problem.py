@@ -5,7 +5,6 @@ Esse módulo implementa uma classe para os problemas.
 import braunchem.utils.convert as convert
 import braunchem.utils.latex as latex
 from braunchem.utils.convert import Text
-import braunchem.utils.config as config
 from braunchem.quantities import Table, qtys
 from braunchem.utils.autoprops import autoprops
 
@@ -291,75 +290,3 @@ class ProblemSet(BaseModel):
             problems = list(pool.imap(Problem.parse_mdfile, problem_paths))
 
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
-
-
-def get_problem_paths(problems_dir: str | Path) -> list[Path]:
-    """Retorna os endereço dos arquivos `.md` dos problemas no diretório.
-
-    Args:
-        problems_dir (str | Path): Diretório com os problemas.
-
-    Retorna:
-        list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
-    """
-    if not isinstance(problems_dir, Path):
-        problems_dir = Path(problems_dir)
-
-    problem_files = []
-
-    for root, _, files in os.walk(problems_dir):
-        for file in files:
-            file_path = Path(root).joinpath(file)
-            dir_ = Path(root).relative_to(problems_dir)
-
-            # problemas
-            if file_path.suffix == ".md":
-                problem_files.append(file_path)
-                continue
-
-            image_dst_path = config.IMAGES_DIR.joinpath(dir_.parent).joinpath(
-                file_path.name
-            )
-
-            # figuras
-            if file_path.suffix in [".svg", ".png"]:
-                # arquivo não existe na base de dados de imagens
-                if not image_dst_path.exists():
-                    os.makedirs(image_dst_path.parent, exist_ok=True)
-                    shutil.copy(src=file_path, dst=image_dst_path)
-                    logging.info(f"Arquivo {file_path} copiado para: {image_dst_path}")
-                    pass
-                # arquivo existente na base de dados
-                elif file_path.stat().st_mtime > image_dst_path.stat().st_mtime:
-                    shutil.copy(src=file_path, dst=image_dst_path)
-                    logging.info(f"Arquivo {file_path} copiado para: {image_dst_path}")
-                continue
-
-            # figuras em LaTeX
-            if file_path.suffix == ".tex":
-                tex_image_dst_path = image_dst_path.with_suffix(".svg")
-                tex_image_tmp_path = config.TMP_IMAGES_DIR.joinpath(dir_).joinpath(
-                    file_path.name
-                )
-
-                print(tex_image_tmp_path)
-
-                if not tex_image_dst_path.exists():
-                    pass
-                elif file_path.stat().st_mtime > tex_image_dst_path.stat().st_mtime:
-                    print(image_dst_path)
-                continue
-
-            # elif path.suffix == ".tex":
-            #     # figures
-            #     convert.tikz2svg(
-            #         path,
-            #         tmp_path=f"temp/images/{dir_}/{path.stem}",
-            #         out_path=f"data/images/{dir_}",
-            #     )
-            #     convert.copy_r(
-            #         f"data/images/{dir_}/{path.stem}.svg",
-            #         f"{path.parent}/{path.stem}.svg",
-            #     )
-
-    return problem_files
