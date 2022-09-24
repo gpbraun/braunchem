@@ -15,9 +15,6 @@ import pypandoc
 import bs4
 from pydantic import BaseModel
 
-# ---------------------------------------------------------------------------
-#   Texto e conversão
-# ---------------------------------------------------------------------------
 
 MARKDOWN_EXTENSIONS = [
     "task_lists",
@@ -139,7 +136,7 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def run_latexmk(tex_file_name: str):
+def run_latexmk(tex_path: str | Path):
     subprocess.run(
         [
             "latexmk",
@@ -147,7 +144,18 @@ def run_latexmk(tex_file_name: str):
             "-interaction=nonstopmode",
             "-file-line-error",
             "-pdf",
-            f"{tex_file_name}",
+            f"{tex_path}",
+        ],
+        stdout=subprocess.DEVNULL,
+    )
+
+
+def run_pdf2svg(tex_path: str | Path, svg_path: str | Path):
+    subprocess.run(
+        [
+            "pdf2svg",
+            f"{tex_path}",
+            f"{svg_path}",
         ],
         stdout=subprocess.DEVNULL,
     )
@@ -168,17 +176,8 @@ def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive"):
     with open(f"{filename}.tex", "w") as f:
         f.write(tex_contents)
 
-    subprocess.run(
-        [
-            "latexmk",
-            "-shell-escape",
-            "-interaction=nonstopmode",
-            "-file-line-error",
-            "-pdf",
-            f"{filename}.tex",
-        ],
-        stdout=subprocess.DEVNULL,
-    )
+    run_latexmk(f"{filename}.tex")
+
     print(f"Complilando o arquivo {filename}.tex")
 
     if not os.path.exists(f"{filename}.pdf"):
@@ -188,18 +187,6 @@ def tex2pdf(tex_contents, filename, tmp_path="temp", out_path="archive"):
 
     out = Path(out_path)
     out.mkdir(parents=True, exist_ok=True)
-
-
-def pdf2svg(tex_file_name: str):
-    subprocess.run(
-        [
-            "pdf2svg",
-            f"{tex_file_name}.pdf",
-            f"{tex_file_name}.svg",
-        ],
-        stdout=subprocess.DEVNULL,
-    )
-    return
 
 
 def tikz2svg(tikz_path, tmp_path="temp/images", out_path="data/images"):

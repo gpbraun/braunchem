@@ -17816,27 +17816,78 @@
       "correct_choice": 0
     },
     {
-      "id_": "2J15",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J15.md",
+      "id_": "2J03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J03/2J03.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "**Assinale** a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução $\\pu{0,06 mol.L-1}$ em cátions níquel\n(II).\n",
-        "tex": "\\textbf{Assinale} a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução {\\(\\qty{0,06}{mol.L^{-1}}\\)} em cátions\nníquel (II).\n"
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\niodato de cromo (III) a $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\niodato de cromo (III) a {\\(\\qty{25}{\\degree C}\\)}.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "Não ocorre para $\\mathrm{pH} < 6$.\n",
-          "tex": "Não ocorre para {\\(\\mathrm{pH} < 6\\)}.\n"
+          "md": "$\\pu{21 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{21}{mmol.L^{-1}}\\)}\n"
         }
       ],
       "data": {
         "quantities": [
           {
-            "id_": "Kps(Ni(OH)2)",
-            "name": "produto de solubilidade do hidróxido de níquel (II)",
-            "symbol": "K_\\mathrm{ps}(\\ce{Ni(OH)2})",
-            "value": 6.5e-18,
+            "id_": "Kps(Cr(IO3)3)",
+            "name": "produto de solubilidade do iodato de cromo (III)",
+            "symbol": "K_\\mathrm{ps}(\\ce{Cr(IO3)3})",
+            "value": 5e-06,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{11 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{11}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{21 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{21}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{31 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{31}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{41 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{41}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{51 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{51}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2J16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J16/2J16.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução $\\pu{1 mmol.L-1}$ em cátions ferro\n(III).\n",
+        "tex": "\\textbf{Assinale} a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução {\\(\\qty{1}{mmol.L^{-1}}\\)} em cátions\nferro (III).\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "Não ocorre para $\\mathrm{pH} < 3$.\n",
+          "tex": "Não ocorre para {\\(\\mathrm{pH} < 3\\)}.\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(Fe(OH)3)",
+            "name": "produto de solubilidade do hiróxido de ferro (III)",
+            "symbol": "K_\\mathrm{ps}(\\ce{Fe(OH)3})",
+            "value": 2e-39,
             "unit": "",
             "prec": 2
           }
@@ -17856,8 +17907,8 @@
           "tex": "Ocorre somente na faixa de {\\(\\mathrm{pH}\\)} ácido.\\\\\n"
         },
         {
-          "md": "Não ocorre para $\\mathrm{pH} < 6$.\n",
-          "tex": "Não ocorre para {\\(\\mathrm{pH} < 6\\)}.\n"
+          "md": "Não ocorre para $\\mathrm{pH} < 3$.\n",
+          "tex": "Não ocorre para {\\(\\mathrm{pH} < 3\\)}.\n"
         },
         {
           "md": "Ocorre somente para $\\mathrm{pH} > 12$.\n",
@@ -17867,160 +17918,18 @@
       "correct_choice": 3
     },
     {
-      "id_": "2J01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J01.md",
-      "date": "2022-07-12T23:12:35.661304",
-      "statement": {
-        "md": "A solubilidade molar do cromato de prata é $\\pu{65 \\mu mol.L-1}$ a\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do $K_\\mathrm{ps}$ do\ncromato de prata.\n",
-        "tex": "A solubilidade molar do cromato de prata é {\\(\\qty{65}{\\micro mol.L^{-1}}\\)} a\n{\\(\\qty{25}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do\n{\\(K_\\mathrm{ps}\\)} do cromato de prata.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{1,1e-12}$\n",
-          "tex": "{\\(\\num{1,1e-12}\\)}\n"
-        }
-      ],
-      "data": null,
-      "choices": [
-        {
-          "md": "$\\pu{1,1e-14}$\n",
-          "tex": "{\\(\\num{1,1e-14}\\)}\n"
-        },
-        {
-          "md": "$\\pu{1,1e-13}$\n",
-          "tex": "{\\(\\num{1,1e-13}\\)}\n"
-        },
-        {
-          "md": "$\\pu{1,1e-12}$\n",
-          "tex": "{\\(\\num{1,1e-12}\\)}\n"
-        },
-        {
-          "md": "$\\pu{1,1e-11}$\n",
-          "tex": "{\\(\\num{1,1e-11}\\)}\n"
-        },
-        {
-          "md": "$\\pu{1,1e-10}$\n",
-          "tex": "{\\(\\num{1,1e-10}\\)}\n"
-        }
-      ],
-      "correct_choice": 2
-    },
-    {
-      "id_": "2J10",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J10.md",
+      "id_": "2J05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J05/2J05.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de cobre (I) em uma solução $\\pu{1,5 mmol.L-1}$ em cloreto de\npotássio.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de cobre (I) em uma solução {\\(\\qty{1,5}{mmol.L^{-1}}\\)} em cloreto\nde potássio.\n"
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução $\\pu{1e-4 mol.L-1}$ em cloreto de sódio\na $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução {\\(\\qty{1e-4}{mol.L^{-1}}\\)} em cloreto de\nsódio a {\\(\\qty{25}{\\degree C}\\)}.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{0,33 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,33}{mmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(CuCl)",
-            "name": "produto de solubilidade do cloreto de cobre (I)",
-            "symbol": "K_\\mathrm{ps}(\\ce{CuCl})",
-            "value": 1e-06,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{0,25 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,25}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{0,33 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,33}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{0,50 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,50}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{0,67 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,67}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{0,80 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,80}{mmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J09",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J09.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncarbonato de magnésio em uma solução $\\pu{3 mmol.L-1}$ em nitrato de\nmagnésio.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncarbonato de magnésio em uma solução {\\(\\qty{3}{mmol.L^{-1}}\\)} em nitrato de\nmagnésio.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{2,0 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{2,0}{mmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(MgCO3)",
-            "name": "produto de solubilidade do carbonato de magnésio",
-            "symbol": "K_\\mathrm{ps}(\\ce{MgCO3})",
-            "value": 1e-05,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{1,5 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{1,5}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,0 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{2,0}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,5 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{2,5}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{3,0 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{3,0}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{3,5 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{3,5}{mmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J11",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J11.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "Quando um amônia é adicionada à uma solução que contém íons prata,\nocorre a formação do omplexo de coordenação:\n\n$$\n\\begin{aligned}\n    \\ce{ Ag+(aq) + 2 NH3(aq) <=> Ag(NH3)2+(aq) } &&\nK_\\mathrm{f} = \\pu{1,6e7}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução $\\pu{0,1 mol.L-1}$ em amônia.\n",
-        "tex": "Quando um amônia é adicionada à uma solução que contém íons prata,\nocorre a formação do omplexo de coordenação:\n\n{\\[\n\\begin{aligned}\n    \\ce{ Ag+(aq) + 2 NH3(aq) <=> Ag(NH3)2+(aq) } &&\nK_\\mathrm{f} = \\num{1,6e7}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em amônia.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{4,6 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{4,6}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{1,6 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{1,6}{\\micro mol.L^{-1}}\\)}\n"
         }
       ],
       "data": {
@@ -18037,345 +17946,31 @@
       },
       "choices": [
         {
-          "md": "$\\pu{2,6 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{2,6}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,4 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,4}{\\micro mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{4,6 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{4,6}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,8 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,8}{\\micro mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{6,6 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{6,6}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{1,2 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{1,2}{\\micro mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{8,6 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{8,6}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{1,6 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{1,6}{\\micro mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{9,6 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{9,6}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{2,0 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{2,0}{\\micro mol.L^{-1}}\\)}\n"
         }
       ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J19",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J19.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de ferro (III) a $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de ferro (III) a {\\(\\qty{25}{\\degree C}\\)}.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{2,0e-18}$\n",
-          "tex": "{\\(\\num{2,0e-18}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(Fe(OH)3)",
-            "name": "produto de solubilidade do hiróxido de ferro (III)",
-            "symbol": "K_\\mathrm{ps}(\\ce{Fe(OH)3})",
-            "value": 2e-39,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{1,2e-18}$\n",
-          "tex": "{\\(\\num{1,2e-18}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,0e-18}$\n",
-          "tex": "{\\(\\num{2,0e-18}\\)}\n"
-        },
-        {
-          "md": "$\\pu{3,5e-14}$\n",
-          "tex": "{\\(\\num{3,5e-14}\\)}\n"
-        },
-        {
-          "md": "$\\pu{1,2e-10}$\n",
-          "tex": "{\\(\\num{1,2e-10}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,0e-10}$\n",
-          "tex": "{\\(\\num{2,0e-10}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J14",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J14.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da massa de iodeto de\npotássio que precisa ser adicionada a $\\pu{25 mL}$ de uma solução\n$\\pu{1e-5 mol.L-1}$ de cloreto de sódio para o início da precipitação.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de iodeto\nde potássio que precisa ser adicionada a {\\(\\qty{25}{mL}\\)} de uma solução\n{\\(\\qty{1e-5}{mol.L^{-1}}\\)} de cloreto de sódio para o início da\nprecipitação.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{332 g}$\n",
-          "tex": "{\\(\\qty{332}{g}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(PbI2)",
-            "name": "produto de solubilidade do iodeto de chumbo (II)",
-            "symbol": "K_\\mathrm{ps}(\\ce{PbI2})",
-            "value": 1.4e-08,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{221 g}$\n",
-          "tex": "{\\(\\qty{221}{g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{332 g}$\n",
-          "tex": "{\\(\\qty{332}{g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{443 g}$\n",
-          "tex": "{\\(\\qty{443}{g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{554 g}$\n",
-          "tex": "{\\(\\qty{554}{g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{665 g}$\n",
-          "tex": "{\\(\\qty{665}{g}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J13",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J13.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da massa de nitrato de\nprata que precisa ser adicionada a $\\pu{100 mL}$ de uma solução\n$\\pu{1e-5 mol.L-1}$ de cloreto de sódio para o início da precipitação.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de nitrato\nde prata que precisa ser adicionada a {\\(\\qty{100}{mL}\\)} de uma solução\n{\\(\\qty{1e-5}{mol.L^{-1}}\\)} de cloreto de sódio para o início da\nprecipitação.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{270 \\mu g}$\n",
-          "tex": "{\\(\\qty{270}{\\micro g}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(AgCl)",
-            "name": "produto de solubilidade do cloreto de prata",
-            "symbol": "K_\\mathrm{ps}(\\ce{AgCl})",
-            "value": 1.6e-10,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{180 \\mu g}$\n",
-          "tex": "{\\(\\qty{180}{\\micro g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{270 \\mu g}$\n",
-          "tex": "{\\(\\qty{270}{\\micro g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{360 \\mu g}$\n",
-          "tex": "{\\(\\qty{360}{\\micro g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{540 \\mu g}$\n",
-          "tex": "{\\(\\qty{540}{\\micro g}\\)}\n"
-        },
-        {
-          "md": "$\\pu{630 \\mu g}$\n",
-          "tex": "{\\(\\qty{630}{\\micro g}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J18",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J18.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "Sulfato de sódio é adicionado progressivamente a uma amostra contendo\n$\\pu{0,01 mol.L-1}$ em cátions bário e $\\pu{0,01 mol.L-1}$ em cátions\nchumbo (II).\n\n**Assinale** a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n",
-        "tex": "Sulfato de sódio é adicionado progressivamente a uma amostra contendo\n{\\(\\qty{0,01}{mol.L^{-1}}\\)} em cátions bário e {\\(\\qty{0,01}{mol.L^{-1}}\\)} em\ncátions chumbo (II).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{69 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{69}{\\micro mol.L^{-1}}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(BaSO4)",
-            "name": "produto de solubilidade do sulfato de bário",
-            "symbol": "K_\\mathrm{ps}(\\ce{BaSO4})",
-            "value": 1.1e-10,
-            "unit": "",
-            "prec": 2
-          },
-          {
-            "id_": "Kps(PbSO4)",
-            "name": "produto de solubilidade do sulfato de chumbo (II)",
-            "symbol": "K_\\mathrm{ps}(\\ce{PbSO4})",
-            "value": 1.6e-08,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{13 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{13}{\\micro mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{23 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{23}{\\micro mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{39 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{39}{\\micro mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{52 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{52}{\\micro mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{69 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{69}{\\micro mol.L^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 4
-    },
-    {
-      "id_": "2J20",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J20.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio a $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio a {\\(\\qty{25}{\\degree C}\\)}.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{3,3e-12}$\n",
-          "tex": "{\\(\\num{3,3e-12}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(Al(OH)3)",
-            "name": "produto de solubilidade do hidróxido de alumínio",
-            "symbol": "K_\\mathrm{ps}(\\ce{Al(OH)3})",
-            "value": 1e-33,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{1,0e-12}$\n",
-          "tex": "{\\(\\num{1,0e-12}\\)}\n"
-        },
-        {
-          "md": "$\\pu{3,3e-12}$\n",
-          "tex": "{\\(\\num{3,3e-12}\\)}\n"
-        },
-        {
-          "md": "$\\pu{6,8e-10}$\n",
-          "tex": "{\\(\\num{6,8e-10}\\)}\n"
-        },
-        {
-          "md": "$\\pu{1,0e-9}$\n",
-          "tex": "{\\(\\num{1,0e-9}\\)}\n"
-        },
-        {
-          "md": "$\\pu{3,3e-9}$\n",
-          "tex": "{\\(\\num{3,3e-9}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J04",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J04.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nsulfato de prata a $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nsulfato de prata a {\\(\\qty{25}{\\degree C}\\)}.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{15 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{15}{mmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(Ag2SO4)",
-            "name": "produto de solubilidade do sulfato de prata",
-            "symbol": "K_\\mathrm{ps}(\\ce{Ag2SO4})",
-            "value": 1.4e-05,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{15 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{15}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{30 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{30}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{45 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{45}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{60 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{60}{mmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{75 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{75}{mmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 0
+      "correct_choice": 3
     },
     {
       "id_": "2J21",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J21.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J21/2J21.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nfluoreto de cálcio em $\\mathrm{pH} = 3$.\n",
@@ -18433,111 +18028,27 @@
       "correct_choice": 2
     },
     {
-      "id_": "2J06",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J06.md",
+      "id_": "2J15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J15/2J15.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncarbonato de cálcio em uma solução $\\pu{0,2 mol.L-1}$ em cloreto de\ncálcio a $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncarbonato de cálcio em uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em cloreto de\ncálcio a {\\(\\qty{25}{\\degree C}\\)}.\n"
+        "md": "**Assinale** a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução $\\pu{0,06 mol.L-1}$ em cátions níquel\n(II).\n",
+        "tex": "\\textbf{Assinale} a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução {\\(\\qty{0,06}{mol.L^{-1}}\\)} em cátions\nníquel (II).\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{44 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{44}{nmol.L^{-1}}\\)}\n"
+          "md": "Não ocorre para $\\mathrm{pH} < 6$.\n",
+          "tex": "Não ocorre para {\\(\\mathrm{pH} < 6\\)}.\n"
         }
       ],
       "data": {
         "quantities": [
           {
-            "id_": "Kps(CaCO3)",
-            "name": "produto de solubilidade do carbonato de cálcio",
-            "symbol": "K_\\mathrm{ps}(\\ce{CaCO3})",
-            "value": 8.7e-09,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "md": "$\\pu{11 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{11}{nmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{22 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{22}{nmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{33 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{33}{nmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{44 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{44}{nmol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{55 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{55}{nmol.L^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
-      "id_": "2J22",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J22.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "Uma amostra de $\\pu{500 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ em\nnitrato de prata é misturada com $\\pu{500 mL}$ de outra solução contendo\n$\\pu{0,005 mol}$ de cloreto de sódio e $\\pu{0,005 mol}$ de brometo de\nsódio.\n\n**Determine** a concentração de todas as espécies em solução no\nequilíbrio.\n",
-        "tex": "Uma amostra de {\\(\\qty{500}{mL}\\)} de uma solução {\\(\\qty{0,01}{mol.L^{-1}}\\)}\nem nitrato de prata é misturada com {\\(\\qty{500}{mL}\\)} de outra solução\ncontendo {\\(\\qty{0,005}{mol}\\)} de cloreto de sódio e {\\(\\qty{0,005}{mol}\\)}\nde brometo de sódio.\n\n\\textbf{Determine} a concentração de todas as espécies em solução no\nequilíbrio.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(AgBr)",
-            "name": "produto de solubilidade do brometo de prata",
-            "symbol": "K_\\mathrm{ps}(\\ce{AgBr})",
-            "value": 7.7e-13,
-            "unit": "",
-            "prec": 2
-          },
-          {
-            "id_": "Kps(AgCl)",
-            "name": "produto de solubilidade do cloreto de prata",
-            "symbol": "K_\\mathrm{ps}(\\ce{AgCl})",
-            "value": 1.6e-10,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2J16",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J16.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "**Assinale** a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução $\\pu{1 mmol.L-1}$ em cátions ferro\n(III).\n",
-        "tex": "\\textbf{Assinale} a alternativa correta a respeito da precipitação de\nhidróxido de níquel em uma solução {\\(\\qty{1}{mmol.L^{-1}}\\)} em cátions\nferro (III).\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "Não ocorre para $\\mathrm{pH} < 3$.\n",
-          "tex": "Não ocorre para {\\(\\mathrm{pH} < 3\\)}.\n"
-        }
-      ],
-      "data": {
-        "quantities": [
-          {
-            "id_": "Kps(Fe(OH)3)",
-            "name": "produto de solubilidade do hiróxido de ferro (III)",
-            "symbol": "K_\\mathrm{ps}(\\ce{Fe(OH)3})",
-            "value": 2e-39,
+            "id_": "Kps(Ni(OH)2)",
+            "name": "produto de solubilidade do hidróxido de níquel (II)",
+            "symbol": "K_\\mathrm{ps}(\\ce{Ni(OH)2})",
+            "value": 6.5e-18,
             "unit": "",
             "prec": 2
           }
@@ -18557,8 +18068,8 @@
           "tex": "Ocorre somente na faixa de {\\(\\mathrm{pH}\\)} ácido.\\\\\n"
         },
         {
-          "md": "Não ocorre para $\\mathrm{pH} < 3$.\n",
-          "tex": "Não ocorre para {\\(\\mathrm{pH} < 3\\)}.\n"
+          "md": "Não ocorre para $\\mathrm{pH} < 6$.\n",
+          "tex": "Não ocorre para {\\(\\mathrm{pH} < 6\\)}.\n"
         },
         {
           "md": "Ocorre somente para $\\mathrm{pH} > 12$.\n",
@@ -18568,27 +18079,27 @@
       "correct_choice": 3
     },
     {
-      "id_": "2J12",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J12.md",
+      "id_": "2J09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J09/2J09.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "Quando um amônia é adicionada à uma solução que contém íons cobre,\nocorre a formação do complexo de coordenação:\n\n$$\n\\begin{aligned}\n    \\ce{ Cu^{2+}(aq) + 4 NH3(aq) <=> Cu(NH3)4^{2+}(aq) }\n&& K_\\mathrm{f} = \\pu{1,2e13}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\nsulfeto de cobre (II) em uma solução $\\pu{1,2 mol.L-1}$ em amônia.\n",
-        "tex": "Quando um amônia é adicionada à uma solução que contém íons cobre,\nocorre a formação do complexo de coordenação:\n\n{\\[\n\\begin{aligned}\n    \\ce{ Cu^{2+}(aq) + 4 NH3(aq) <=> Cu(NH3)4^{2+}(aq) }\n&& K_\\mathrm{f} = \\num{1,2e13}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nsulfeto de cobre (II) em uma solução {\\(\\qty{1,2}{mol.L^{-1}}\\)} em amônia.\n"
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncarbonato de magnésio em uma solução $\\pu{3 mmol.L-1}$ em nitrato de\nmagnésio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncarbonato de magnésio em uma solução {\\(\\qty{3}{mmol.L^{-1}}\\)} em nitrato de\nmagnésio.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{3,8e-12 mol.L-1}$\n",
-          "tex": "{\\(\\qty{3,8e-12}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{2,0 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{2,0}{mmol.L^{-1}}\\)}\n"
         }
       ],
       "data": {
         "quantities": [
           {
-            "id_": "Kps(CuS)",
-            "name": "produto de solubilidade do sulfeto de cobre (II)",
-            "symbol": "K_\\mathrm{ps}(\\ce{CuS})",
-            "value": 1.3e-36,
+            "id_": "Kps(MgCO3)",
+            "name": "produto de solubilidade do carbonato de magnésio",
+            "symbol": "K_\\mathrm{ps}(\\ce{MgCO3})",
+            "value": 1e-05,
             "unit": "",
             "prec": 2
           }
@@ -18596,31 +18107,356 @@
       },
       "choices": [
         {
-          "md": "$\\pu{1,8e-12 mol.L-1}$\n",
-          "tex": "{\\(\\qty{1,8e-12}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{1,5 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{1,5}{mmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{3,8e-12 mol.L-1}$\n",
-          "tex": "{\\(\\qty{3,8e-12}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{2,0 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{2,0}{mmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{5,8e-12 mol.L-1}$\n",
-          "tex": "{\\(\\qty{5,8e-12}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{2,5 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{2,5}{mmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{7,8e-12 mol.L-1}$\n",
-          "tex": "{\\(\\qty{7,8e-12}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{3,0 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{3,0}{mmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{9,8e-12 mol.L-1}$\n",
-          "tex": "{\\(\\qty{9,8e-12}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{3,5 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{3,5}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2J18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J18/2J18.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "Sulfato de sódio é adicionado progressivamente a uma amostra contendo\n$\\pu{0,01 mol.L-1}$ em cátions bário e $\\pu{0,01 mol.L-1}$ em cátions\nchumbo (II).\n\n**Assinale** a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n",
+        "tex": "Sulfato de sódio é adicionado progressivamente a uma amostra contendo\n{\\(\\qty{0,01}{mol.L^{-1}}\\)} em cátions bário e {\\(\\qty{0,01}{mol.L^{-1}}\\)} em\ncátions chumbo (II).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{69 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{69}{\\micro mol.L^{-1}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(BaSO4)",
+            "name": "produto de solubilidade do sulfato de bário",
+            "symbol": "K_\\mathrm{ps}(\\ce{BaSO4})",
+            "value": 1.1e-10,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Kps(PbSO4)",
+            "name": "produto de solubilidade do sulfato de chumbo (II)",
+            "symbol": "K_\\mathrm{ps}(\\ce{PbSO4})",
+            "value": 1.6e-08,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{13 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{13}{\\micro mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{23 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{23}{\\micro mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{39 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{39}{\\micro mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{52 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{52}{\\micro mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{69 \\mu mol.L-1}$\n",
+          "tex": "{\\(\\qty{69}{\\micro mol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2J02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J02/2J02.md",
+      "date": "2022-07-12T23:12:52.272985",
+      "statement": {
+        "md": "A solubilidade molar do iodato de chumbo (II) é $\\pu{40 \\mu mol.L-1}$ a\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do $K_\\mathrm{ps}$ do\ncromato de prata.\n",
+        "tex": "A solubilidade molar do iodato de chumbo (II) é\n{\\(\\qty{40}{\\micro mol.L^{-1}}\\)} a {\\(\\qty{25}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do\n{\\(K_\\mathrm{ps}\\)} do cromato de prata.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{2,6e-13}$\n",
+          "tex": "{\\(\\num{2,6e-13}\\)}\n"
+        }
+      ],
+      "data": null,
+      "choices": [
+        {
+          "md": "$\\pu{2,6e-14}$\n",
+          "tex": "{\\(\\num{2,6e-14}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2,6e-13}$\n",
+          "tex": "{\\(\\num{2,6e-13}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2,6e-12}$\n",
+          "tex": "{\\(\\num{2,6e-12}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2,6e-11}$\n",
+          "tex": "{\\(\\num{2,6e-11}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2,6e-10}$\n",
+          "tex": "{\\(\\num{2,6e-10}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2J01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J01/2J01.md",
+      "date": "2022-07-12T23:12:35.661304",
+      "statement": {
+        "md": "A solubilidade molar do cromato de prata é $\\pu{65 \\mu mol.L-1}$ a\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do $K_\\mathrm{ps}$ do\ncromato de prata.\n",
+        "tex": "A solubilidade molar do cromato de prata é {\\(\\qty{65}{\\micro mol.L^{-1}}\\)} a\n{\\(\\qty{25}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do\n{\\(K_\\mathrm{ps}\\)} do cromato de prata.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{1,1e-12}$\n",
+          "tex": "{\\(\\num{1,1e-12}\\)}\n"
+        }
+      ],
+      "data": null,
+      "choices": [
+        {
+          "md": "$\\pu{1,1e-14}$\n",
+          "tex": "{\\(\\num{1,1e-14}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,1e-13}$\n",
+          "tex": "{\\(\\num{1,1e-13}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,1e-12}$\n",
+          "tex": "{\\(\\num{1,1e-12}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,1e-11}$\n",
+          "tex": "{\\(\\num{1,1e-11}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,1e-10}$\n",
+          "tex": "{\\(\\num{1,1e-10}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2J14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J14/2J14.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa que mais se aproxima da massa de iodeto de\npotássio que precisa ser adicionada a $\\pu{25 mL}$ de uma solução\n$\\pu{1e-5 mol.L-1}$ de cloreto de sódio para o início da precipitação.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de iodeto\nde potássio que precisa ser adicionada a {\\(\\qty{25}{mL}\\)} de uma solução\n{\\(\\qty{1e-5}{mol.L^{-1}}\\)} de cloreto de sódio para o início da\nprecipitação.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{332 g}$\n",
+          "tex": "{\\(\\qty{332}{g}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(PbI2)",
+            "name": "produto de solubilidade do iodeto de chumbo (II)",
+            "symbol": "K_\\mathrm{ps}(\\ce{PbI2})",
+            "value": 1.4e-08,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{221 g}$\n",
+          "tex": "{\\(\\qty{221}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{332 g}$\n",
+          "tex": "{\\(\\qty{332}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{443 g}$\n",
+          "tex": "{\\(\\qty{443}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{554 g}$\n",
+          "tex": "{\\(\\qty{554}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{665 g}$\n",
+          "tex": "{\\(\\qty{665}{g}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2J23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J23/2J23.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "Uma amostra contendo $\\pu{0,1 mol}$ de nitrato de cálcio, $\\pu{0,1 mol}$\nde nitrato de bário e $\\pu{0,15 mol}$ de sulfato de sódio foram\nadicionados em $\\pu{600 mL}$ de água destilada.\n\n**Determine** a concentração de todas as espécies em solução no\nequilíbrio.\n",
+        "tex": "Uma amostra contendo {\\(\\qty{0,1}{mol}\\)} de nitrato de cálcio,\n{\\(\\qty{0,1}{mol}\\)} de nitrato de bário e {\\(\\qty{0,15}{mol}\\)} de sulfato\nde sódio foram adicionados em {\\(\\qty{600}{mL}\\)} de água destilada.\n\n\\textbf{Determine} a concentração de todas as espécies em solução no\nequilíbrio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(BaSO4)",
+            "name": "produto de solubilidade do sulfato de bário",
+            "symbol": "K_\\mathrm{ps}(\\ce{BaSO4})",
+            "value": 1.1e-10,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Kps(CaSO4)",
+            "name": "produto de solubilidade do sulfato de cálcio",
+            "symbol": "K_\\mathrm{ps}(\\ce{CaSO4})",
+            "value": 2.4e-05,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2J10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J10/2J10.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de cobre (I) em uma solução $\\pu{1,5 mmol.L-1}$ em cloreto de\npotássio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de cobre (I) em uma solução {\\(\\qty{1,5}{mmol.L^{-1}}\\)} em cloreto\nde potássio.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{0,33 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,33}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(CuCl)",
+            "name": "produto de solubilidade do cloreto de cobre (I)",
+            "symbol": "K_\\mathrm{ps}(\\ce{CuCl})",
+            "value": 1e-06,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{0,25 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,25}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{0,33 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,33}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{0,50 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,50}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{0,67 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,67}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{0,80 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,80}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2J19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J19/2J19.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de ferro (III) a $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de ferro (III) a {\\(\\qty{25}{\\degree C}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{2,0e-18}$\n",
+          "tex": "{\\(\\num{2,0e-18}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(Fe(OH)3)",
+            "name": "produto de solubilidade do hiróxido de ferro (III)",
+            "symbol": "K_\\mathrm{ps}(\\ce{Fe(OH)3})",
+            "value": 2e-39,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{1,2e-18}$\n",
+          "tex": "{\\(\\num{1,2e-18}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2,0e-18}$\n",
+          "tex": "{\\(\\num{2,0e-18}\\)}\n"
+        },
+        {
+          "md": "$\\pu{3,5e-14}$\n",
+          "tex": "{\\(\\num{3,5e-14}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,2e-10}$\n",
+          "tex": "{\\(\\num{1,2e-10}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2,0e-10}$\n",
+          "tex": "{\\(\\num{2,0e-10}\\)}\n"
         }
       ],
       "correct_choice": 1
     },
     {
       "id_": "2J08",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J08.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J08/2J08.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio em $\\mathrm{pH} = \\pu{4,5}$ a $\\pu{25 \\degree C}$.\n",
@@ -18670,18 +18506,18 @@
       "correct_choice": 1
     },
     {
-      "id_": "2J05",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J05.md",
+      "id_": "2J13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J13/2J13.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução $\\pu{1e-4 mol.L-1}$ em cloreto de sódio\na $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução {\\(\\qty{1e-4}{mol.L^{-1}}\\)} em cloreto de\nsódio a {\\(\\qty{25}{\\degree C}\\)}.\n"
+        "md": "**Assinale** a alternativa que mais se aproxima da massa de nitrato de\nprata que precisa ser adicionada a $\\pu{100 mL}$ de uma solução\n$\\pu{1e-5 mol.L-1}$ de cloreto de sódio para o início da precipitação.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de nitrato\nde prata que precisa ser adicionada a {\\(\\qty{100}{mL}\\)} de uma solução\n{\\(\\qty{1e-5}{mol.L^{-1}}\\)} de cloreto de sódio para o início da\nprecipitação.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{1,6 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{1,6}{\\micro mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{270 \\mu g}$\n",
+          "tex": "{\\(\\qty{270}{\\micro g}\\)}\n"
         }
       ],
       "data": {
@@ -18698,50 +18534,83 @@
       },
       "choices": [
         {
-          "md": "$\\pu{0,4 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,4}{\\micro mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{180 \\mu g}$\n",
+          "tex": "{\\(\\qty{180}{\\micro g}\\)}\n"
         },
         {
-          "md": "$\\pu{0,8 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,8}{\\micro mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{270 \\mu g}$\n",
+          "tex": "{\\(\\qty{270}{\\micro g}\\)}\n"
         },
         {
-          "md": "$\\pu{1,2 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{1,2}{\\micro mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{360 \\mu g}$\n",
+          "tex": "{\\(\\qty{360}{\\micro g}\\)}\n"
         },
         {
-          "md": "$\\pu{1,6 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{1,6}{\\micro mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{540 \\mu g}$\n",
+          "tex": "{\\(\\qty{540}{\\micro g}\\)}\n"
         },
         {
-          "md": "$\\pu{2,0 \\mu mol.L-1}$\n",
-          "tex": "{\\(\\qty{2,0}{\\micro mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{630 \\mu g}$\n",
+          "tex": "{\\(\\qty{630}{\\micro g}\\)}\n"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 1
     },
     {
-      "id_": "2J07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J07.md",
+      "id_": "2J22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J22/2J22.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de zinco em $\\mathrm{pH} = 6$ a $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de zinco em {\\(\\mathrm{pH} = 6\\)} a {\\(\\qty{25}{\\degree C}\\)}.\n"
+        "md": "Uma amostra de $\\pu{500 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ em\nnitrato de prata é misturada com $\\pu{500 mL}$ de outra solução contendo\n$\\pu{0,005 mol}$ de cloreto de sódio e $\\pu{0,005 mol}$ de brometo de\nsódio.\n\n**Determine** a concentração de todas as espécies em solução no\nequilíbrio.\n",
+        "tex": "Uma amostra de {\\(\\qty{500}{mL}\\)} de uma solução {\\(\\qty{0,01}{mol.L^{-1}}\\)}\nem nitrato de prata é misturada com {\\(\\qty{500}{mL}\\)} de outra solução\ncontendo {\\(\\qty{0,005}{mol}\\)} de cloreto de sódio e {\\(\\qty{0,005}{mol}\\)}\nde brometo de sódio.\n\n\\textbf{Determine} a concentração de todas as espécies em solução no\nequilíbrio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(AgBr)",
+            "name": "produto de solubilidade do brometo de prata",
+            "symbol": "K_\\mathrm{ps}(\\ce{AgBr})",
+            "value": 7.7e-13,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Kps(AgCl)",
+            "name": "produto de solubilidade do cloreto de prata",
+            "symbol": "K_\\mathrm{ps}(\\ce{AgCl})",
+            "value": 1.6e-10,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2J06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J06/2J06.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\ncarbonato de cálcio em uma solução $\\pu{0,2 mol.L-1}$ em cloreto de\ncálcio a $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncarbonato de cálcio em uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em cloreto de\ncálcio a {\\(\\qty{25}{\\degree C}\\)}.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{0,2 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,2}{nmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{44 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{44}{nmol.L^{-1}}\\)}\n"
         }
       ],
       "data": {
         "quantities": [
           {
-            "id_": "Kps(Zn(OH)2)",
-            "name": "produto de solubilidade do hidróxido de zinco",
-            "symbol": "K_\\mathrm{ps}(\\ce{Zn(OH)2})",
-            "value": 2e-17,
+            "id_": "Kps(CaCO3)",
+            "name": "produto de solubilidade do carbonato de cálcio",
+            "symbol": "K_\\mathrm{ps}(\\ce{CaCO3})",
+            "value": 8.7e-09,
             "unit": "",
             "prec": 2
           }
@@ -18749,31 +18618,184 @@
       },
       "choices": [
         {
-          "md": "$\\pu{0,1 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,1}{nmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{11 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{11}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,2 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,2}{nmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{22 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{22}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,3 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,3}{nmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{33 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{33}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,4 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,4}{nmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{44 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{44}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,5 nmol.L-1}$\n",
-          "tex": "{\\(\\qty{0,5}{nmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{55 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{55}{nmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2J04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J04/2J04.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nsulfato de prata a $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nsulfato de prata a {\\(\\qty{25}{\\degree C}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{15 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{15}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(Ag2SO4)",
+            "name": "produto de solubilidade do sulfato de prata",
+            "symbol": "K_\\mathrm{ps}(\\ce{Ag2SO4})",
+            "value": 1.4e-05,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{15 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{15}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{30 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{30}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{45 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{45}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{60 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{60}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{75 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{75}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2J12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J12/2J12.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "Quando um amônia é adicionada à uma solução que contém íons cobre,\nocorre a formação do complexo de coordenação:\n\n$$\n\\begin{aligned}\n    \\ce{ Cu^{2+}(aq) + 4 NH3(aq) <=> Cu(NH3)4^{2+}(aq) }\n&& K_\\mathrm{f} = \\pu{1,2e13}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\nsulfeto de cobre (II) em uma solução $\\pu{1,2 mol.L-1}$ em amônia.\n",
+        "tex": "Quando um amônia é adicionada à uma solução que contém íons cobre,\nocorre a formação do complexo de coordenação:\n\n{\\[\n\\begin{aligned}\n    \\ce{ Cu^{2+}(aq) + 4 NH3(aq) <=> Cu(NH3)4^{2+}(aq) }\n&& K_\\mathrm{f} = \\num{1,2e13}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nsulfeto de cobre (II) em uma solução {\\(\\qty{1,2}{mol.L^{-1}}\\)} em amônia.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{3,8e-12 mol.L-1}$\n",
+          "tex": "{\\(\\qty{3,8e-12}{mol.L^{-1}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(CuS)",
+            "name": "produto de solubilidade do sulfeto de cobre (II)",
+            "symbol": "K_\\mathrm{ps}(\\ce{CuS})",
+            "value": 1.3e-36,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{1,8e-12 mol.L-1}$\n",
+          "tex": "{\\(\\qty{1,8e-12}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{3,8e-12 mol.L-1}$\n",
+          "tex": "{\\(\\qty{3,8e-12}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{5,8e-12 mol.L-1}$\n",
+          "tex": "{\\(\\qty{5,8e-12}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{7,8e-12 mol.L-1}$\n",
+          "tex": "{\\(\\qty{7,8e-12}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{9,8e-12 mol.L-1}$\n",
+          "tex": "{\\(\\qty{9,8e-12}{mol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2J20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J20/2J20.md",
+      "date": "2022-09-21T22:47:38.566803",
+      "statement": {
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio a $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de alumínio a {\\(\\qty{25}{\\degree C}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{3,3e-12}$\n",
+          "tex": "{\\(\\num{3,3e-12}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Kps(Al(OH)3)",
+            "name": "produto de solubilidade do hidróxido de alumínio",
+            "symbol": "K_\\mathrm{ps}(\\ce{Al(OH)3})",
+            "value": 1e-33,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "md": "$\\pu{1,0e-12}$\n",
+          "tex": "{\\(\\num{1,0e-12}\\)}\n"
+        },
+        {
+          "md": "$\\pu{3,3e-12}$\n",
+          "tex": "{\\(\\num{3,3e-12}\\)}\n"
+        },
+        {
+          "md": "$\\pu{6,8e-10}$\n",
+          "tex": "{\\(\\num{6,8e-10}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,0e-9}$\n",
+          "tex": "{\\(\\num{1,0e-9}\\)}\n"
+        },
+        {
+          "md": "$\\pu{3,3e-9}$\n",
+          "tex": "{\\(\\num{3,3e-9}\\)}\n"
         }
       ],
       "correct_choice": 1
     },
     {
       "id_": "2J17",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J17.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J17/2J17.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
         "md": "Hidróxido de sódio é adicionado progressivamente a uma amostra contendo\n$\\pu{0,05 mol.L-1}$ em cátions magnésio e $\\pu{0,01 mol.L-1}$ em cátions\ncálcio.\n\n**Assinale** a alternativa que mais se aproxima da concentração do\nprimeiro íon a precipitar que permanece em solução quando o segundo\nprecipita.\n",
@@ -18831,27 +18853,27 @@
       "correct_choice": 1
     },
     {
-      "id_": "2J03",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J03.md",
+      "id_": "2J07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J07/2J07.md",
       "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\niodato de cromo (III) a $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\niodato de cromo (III) a {\\(\\qty{25}{\\degree C}\\)}.\n"
+        "md": "**Assinale** a alternativa que mais se aproxima da solubilidade do\nhidróxido de zinco em $\\mathrm{pH} = 6$ a $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\nhidróxido de zinco em {\\(\\mathrm{pH} = 6\\)} a {\\(\\qty{25}{\\degree C}\\)}.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{21 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{21}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,2 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,2}{nmol.L^{-1}}\\)}\n"
         }
       ],
       "data": {
         "quantities": [
           {
-            "id_": "Kps(Cr(IO3)3)",
-            "name": "produto de solubilidade do iodato de cromo (III)",
-            "symbol": "K_\\mathrm{ps}(\\ce{Cr(IO3)3})",
-            "value": 5e-06,
+            "id_": "Kps(Zn(OH)2)",
+            "name": "produto de solubilidade do hidróxido de zinco",
+            "symbol": "K_\\mathrm{ps}(\\ce{Zn(OH)2})",
+            "value": 2e-17,
             "unit": "",
             "prec": 2
           }
@@ -18859,100 +18881,78 @@
       },
       "choices": [
         {
-          "md": "$\\pu{11 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{11}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,1 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,1}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{21 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{21}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,2 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,2}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{31 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{31}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,3 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,3}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{41 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{41}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,4 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,4}{nmol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{51 mmol.L-1}$\n",
-          "tex": "{\\(\\qty{51}{mmol.L^{-1}}\\)}\n"
+          "md": "$\\pu{0,5 nmol.L-1}$\n",
+          "tex": "{\\(\\qty{0,5}{nmol.L^{-1}}\\)}\n"
         }
       ],
       "correct_choice": 1
     },
     {
-      "id_": "2J02",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J02.md",
-      "date": "2022-07-12T23:12:52.272985",
+      "id_": "2J11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J11/2J11.md",
+      "date": "2022-09-21T22:47:38.566803",
       "statement": {
-        "md": "A solubilidade molar do iodato de chumbo (II) é $\\pu{40 \\mu mol.L-1}$ a\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do $K_\\mathrm{ps}$ do\ncromato de prata.\n",
-        "tex": "A solubilidade molar do iodato de chumbo (II) é\n{\\(\\qty{40}{\\micro mol.L^{-1}}\\)} a {\\(\\qty{25}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do\n{\\(K_\\mathrm{ps}\\)} do cromato de prata.\n"
+        "md": "Quando um amônia é adicionada à uma solução que contém íons prata,\nocorre a formação do omplexo de coordenação:\n\n$$\n\\begin{aligned}\n    \\ce{ Ag+(aq) + 2 NH3(aq) <=> Ag(NH3)2+(aq) } &&\nK_\\mathrm{f} = \\pu{1,6e7}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução $\\pu{0,1 mol.L-1}$ em amônia.\n",
+        "tex": "Quando um amônia é adicionada à uma solução que contém íons prata,\nocorre a formação do omplexo de coordenação:\n\n{\\[\n\\begin{aligned}\n    \\ce{ Ag+(aq) + 2 NH3(aq) <=> Ag(NH3)2+(aq) } &&\nK_\\mathrm{f} = \\num{1,6e7}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em amônia.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{2,6e-13}$\n",
-          "tex": "{\\(\\num{2,6e-13}\\)}\n"
+          "md": "$\\pu{4,6 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{4,6}{mmol.L^{-1}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": [
-        {
-          "md": "$\\pu{2,6e-14}$\n",
-          "tex": "{\\(\\num{2,6e-14}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,6e-13}$\n",
-          "tex": "{\\(\\num{2,6e-13}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,6e-12}$\n",
-          "tex": "{\\(\\num{2,6e-12}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,6e-11}$\n",
-          "tex": "{\\(\\num{2,6e-11}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2,6e-10}$\n",
-          "tex": "{\\(\\num{2,6e-10}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
-      "id_": "2J23",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2J/2J23.md",
-      "date": "2022-09-21T22:47:38.566803",
-      "statement": {
-        "md": "Uma amostra contendo $\\pu{0,1 mol}$ de nitrato de cálcio, $\\pu{0,1 mol}$\nde nitrato de bário e $\\pu{0,15 mol}$ de sulfato de sódio foram\nadicionados em $\\pu{600 mL}$ de água destilada.\n\n**Determine** a concentração de todas as espécies em solução no\nequilíbrio.\n",
-        "tex": "Uma amostra contendo {\\(\\qty{0,1}{mol}\\)} de nitrato de cálcio,\n{\\(\\qty{0,1}{mol}\\)} de nitrato de bário e {\\(\\qty{0,15}{mol}\\)} de sulfato\nde sódio foram adicionados em {\\(\\qty{600}{mL}\\)} de água destilada.\n\n\\textbf{Determine} a concentração de todas as espécies em solução no\nequilíbrio.\n"
-      },
-      "solution": null,
-      "answer": null,
       "data": {
         "quantities": [
           {
-            "id_": "Kps(BaSO4)",
-            "name": "produto de solubilidade do sulfato de bário",
-            "symbol": "K_\\mathrm{ps}(\\ce{BaSO4})",
-            "value": 1.1e-10,
-            "unit": "",
-            "prec": 2
-          },
-          {
-            "id_": "Kps(CaSO4)",
-            "name": "produto de solubilidade do sulfato de cálcio",
-            "symbol": "K_\\mathrm{ps}(\\ce{CaSO4})",
-            "value": 2.4e-05,
+            "id_": "Kps(AgCl)",
+            "name": "produto de solubilidade do cloreto de prata",
+            "symbol": "K_\\mathrm{ps}(\\ce{AgCl})",
+            "value": 1.6e-10,
             "unit": "",
             "prec": 2
           }
         ]
       },
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "$\\pu{2,6 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{2,6}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{4,6 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{4,6}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{6,6 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{6,6}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{8,6 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{8,6}{mmol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{9,6 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{9,6}{mmol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2E06",
@@ -25093,62 +25093,48 @@
       "correct_choice": null
     },
     {
-      "id_": "3I14",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I14.md",
-      "date": "2022-06-24T05:19:43.185325",
+      "id_": "3I15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I15/3I15.md",
+      "date": "2022-06-24T05:11:31.416582",
       "statement": {
-        "md": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\ce{100 mL}$ de uma solução ${0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
-        "tex": "O \\emph{Index Merck} indica que {\\(\\qty{10}{mg}\\)} de guanidina,\n{\\(\\ce{CH5N3}\\)}, pode ser administrada para cada quilograma de peso\ncorporal no tratamento da miastenia grave. O nitrogênio em uma amostra\nde quatro tabletes, que pesou um total de {\\(\\qty{7,5}{g}\\)}, foi\nconvertido em amônia, seguida por destilação em {\\(\\ce{100 mL}\\)} de uma\nsolução {\\({0,175 mol L-1}\\)} em {\\(\\ce{HCl}\\)}. O excesso de ácido foi\nretrotitulado com {\\(\\qty{12}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)}\nem hidróxido de sódio.\n\n\\textbf{Determine} o número de tabletes que representam uma dose\napropriada para um paciente de {\\(\\qty{70}{kg}\\)}.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3I18",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I18.md",
-      "date": "2022-06-24T05:04:26.087598",
-      "statement": {
-        "md": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. A dissolução completa de $\\pu{2 g}$ dessa mistura requer\n$\\pu{60 mL}$ de uma solução aquosa $\\pu{0,5 mol.L-1}$ de ácido\nclorídrico.\n\n**Assinale** a alternativa que mais se aproxima da massa de carbonato de\nsódio na amostra.\n",
-        "tex": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. A dissolução completa de {\\(\\qty{2}{g}\\)} dessa mistura requer\n{\\(\\qty{60}{mL}\\)} de uma solução aquosa {\\(\\qty{0,5}{mol.L^{-1}}\\)} de ácido\nclorídrico.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de\ncarbonato de sódio na amostra.\n"
+        "md": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n$\\ce{C10H20N2S4}$. O enxofre em $\\pu{600 mg}$ de uma amostra para\npreparação de Antabuse foi oxidado a $\\ce{SO2}$, o qual foi absorvido em\n$\\ce{H2O2}$ para gerar $\\ce{H2SO4}$. O ácido foi titulado com\n$\\pu{20 mL}$ de hidróxido de sódio $\\pu{0,04 mol L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica do\nprincípio ativo na preparação.\n",
+        "tex": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n{\\(\\ce{C10H20N2S4}\\)}. O enxofre em {\\(\\qty{600}{mg}\\)} de uma amostra\npara preparação de Antabuse foi oxidado a {\\(\\ce{SO2}\\)}, o qual foi\nabsorvido em {\\(\\ce{H2O2}\\)} para gerar {\\(\\ce{H2SO4}\\)}. O ácido foi\ntitulado com {\\(\\qty{20}{mL}\\)} de hidróxido de sódio\n{\\(\\qty{0,04}{mol L^{-1}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica\ndo princípio ativo na preparação.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{0,9 g}$\n",
-          "tex": "{\\(\\qty{0,9}{g}\\)}\n"
+          "md": "$10\\%$\n",
+          "tex": "{\\(10\\%\\)}\n"
         }
       ],
       "data": null,
       "choices": [
         {
-          "md": "$\\pu{0,4 g}$\n",
-          "tex": "{\\(\\qty{0,4}{g}\\)}\n"
+          "md": "$5\\%$\n",
+          "tex": "{\\(5\\%\\)}\n"
         },
         {
-          "md": "$\\pu{0,7 g}$\n",
-          "tex": "{\\(\\qty{0,7}{g}\\)}\n"
+          "md": "$10\\%$\n",
+          "tex": "{\\(10\\%\\)}\n"
         },
         {
-          "md": "$\\pu{0,9 g}$\n",
-          "tex": "{\\(\\qty{0,9}{g}\\)}\n"
+          "md": "$15\\%$\n",
+          "tex": "{\\(15\\%\\)}\n"
         },
         {
-          "md": "$\\pu{1,1 g}$\n",
-          "tex": "{\\(\\qty{1,1}{g}\\)}\n"
+          "md": "$20\\%$\n",
+          "tex": "{\\(20\\%\\)}\n"
         },
         {
-          "md": "$\\pu{1,3 g}$\n",
-          "tex": "{\\(\\qty{1,3}{g}\\)}\n"
+          "md": "$25\\%$\n",
+          "tex": "{\\(25\\%\\)}\n"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 1
     },
     {
       "id_": "3I06",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I06.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I06/3I06.md",
       "date": "2022-06-24T04:07:49.999799",
       "statement": {
         "md": "Uma amostra de $\\pu{0,192 g}$ de ácido cítrico, $\\ce{C6H8O7}$, foi\ndissolvida em $\\pu{25 mL}$ de água destilada. A solução foi tiutulada\ncom $\\pu{30 mL}$ de uma solução $\\pu{1 mol.L-1}$ em hidróxido de sódio.\n\n**Assinale** a alternativa com o número de hidrogênios ionizáveis no\nácido cítrico.\n",
@@ -25187,8 +25173,116 @@
       "correct_choice": 2
     },
     {
+      "id_": "3I02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I02/3I02.md",
+      "date": "2022-06-24T03:56:03.300550",
+      "statement": {
+        "md": "Uma amostra de $\\pu{10 mL}$ de uma solução de ácido sulfúrico foi\ntitulada com $\\pu{40 mL}$ de uma solução $\\pu{2 mol.L-1}$ em hidróxido\nde sódio.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de ácido sulfúrico.\n",
+        "tex": "Uma amostra de {\\(\\qty{10}{mL}\\)} de uma solução de ácido sulfúrico foi\ntitulada com {\\(\\qty{40}{mL}\\)} de uma solução {\\(\\qty{2}{mol.L^{-1}}\\)} em\nhidróxido de sódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da\nsolução de ácido sulfúrico.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{4 mol.L-1}$\n",
+          "tex": "{\\(\\qty{4}{mol.L^{-1}}\\)}\n"
+        }
+      ],
+      "data": null,
+      "choices": [
+        {
+          "md": "$\\pu{1 mol.L-1}$\n",
+          "tex": "{\\(\\qty{1}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{2 mol.L-1}$\n",
+          "tex": "{\\(\\qty{2}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{3 mol.L-1}$\n",
+          "tex": "{\\(\\qty{3}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{4 mol.L-1}$\n",
+          "tex": "{\\(\\qty{4}{mol.L^{-1}}\\)}\n"
+        },
+        {
+          "md": "$\\pu{5 mol.L-1}$\n",
+          "tex": "{\\(\\qty{5}{mol.L^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3I14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I14/3I14.md",
+      "date": "2022-06-24T05:19:43.185325",
+      "statement": {
+        "md": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\ce{100 mL}$ de uma solução ${0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
+        "tex": "O \\emph{Index Merck} indica que {\\(\\qty{10}{mg}\\)} de guanidina,\n{\\(\\ce{CH5N3}\\)}, pode ser administrada para cada quilograma de peso\ncorporal no tratamento da miastenia grave. O nitrogênio em uma amostra\nde quatro tabletes, que pesou um total de {\\(\\qty{7,5}{g}\\)}, foi\nconvertido em amônia, seguida por destilação em {\\(\\ce{100 mL}\\)} de uma\nsolução {\\({0,175 mol L-1}\\)} em {\\(\\ce{HCl}\\)}. O excesso de ácido foi\nretrotitulado com {\\(\\qty{12}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)}\nem hidróxido de sódio.\n\n\\textbf{Determine} o número de tabletes que representam uma dose\napropriada para um paciente de {\\(\\qty{70}{kg}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3I20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I20/3I20.md",
+      "date": "2022-06-24T04:54:41.230551",
+      "statement": {
+        "md": "Uma amostra de $\\pu{3 L}$ de ar em CNTP de um ambiente urbano foi\nborbulhada em $\\pu{50 mL}$ uma solução $\\pu{0,0116 mol.L-1}$ em\nhidróxido de bário, formando um precipitado. O excesso de base foi\nretrotitulado até o ponto final da fenolftaleína com $\\pu{24 mL}$ de\nácido clorídrico $\\pu{0,01 mol.L-1}$.\n\n-   **Determine** a concentração de $\\ce{CO2}$ no ar em partes por\n    milhão.\n",
+        "tex": "Uma amostra de {\\(\\qty{3}{L}\\)} de ar em CNTP de um ambiente urbano foi\nborbulhada em {\\(\\qty{50}{mL}\\)} uma solução {\\(\\qty{0,0116}{mol.L^{-1}}\\)} em\nhidróxido de bário, formando um precipitado. O excesso de base foi\nretrotitulado até o ponto final da fenolftaleína com {\\(\\qty{24}{mL}\\)} de\nácido clorídrico {\\(\\qty{0,01}{mol.L^{-1}}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{CO2}\\)} no ar em partes\n  por milhão.\n\\end{itemize}\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3I18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I18/3I18.md",
+      "date": "2022-06-24T05:04:26.087598",
+      "statement": {
+        "md": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. A dissolução completa de $\\pu{2 g}$ dessa mistura requer\n$\\pu{60 mL}$ de uma solução aquosa $\\pu{0,5 mol.L-1}$ de ácido\nclorídrico.\n\n**Assinale** a alternativa que mais se aproxima da massa de carbonato de\nsódio na amostra.\n",
+        "tex": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. A dissolução completa de {\\(\\qty{2}{g}\\)} dessa mistura requer\n{\\(\\qty{60}{mL}\\)} de uma solução aquosa {\\(\\qty{0,5}{mol.L^{-1}}\\)} de ácido\nclorídrico.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de\ncarbonato de sódio na amostra.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "md": "$\\pu{0,9 g}$\n",
+          "tex": "{\\(\\qty{0,9}{g}\\)}\n"
+        }
+      ],
+      "data": null,
+      "choices": [
+        {
+          "md": "$\\pu{0,4 g}$\n",
+          "tex": "{\\(\\qty{0,4}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{0,7 g}$\n",
+          "tex": "{\\(\\qty{0,7}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{0,9 g}$\n",
+          "tex": "{\\(\\qty{0,9}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,1 g}$\n",
+          "tex": "{\\(\\qty{1,1}{g}\\)}\n"
+        },
+        {
+          "md": "$\\pu{1,3 g}$\n",
+          "tex": "{\\(\\qty{1,3}{g}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
       "id_": "3I04",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I04.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I04/3I04.md",
       "date": "2022-06-24T03:56:56.804828",
       "statement": {
         "md": "Uma amostra de $\\pu{700 mg}$ de tetraborato de sódio $\\ce{Na2B4O7}$\nimpuro foi titulada $\\pu{30 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em\nácido clorídrico, formando $\\ce{H3BO3}$.\n\n**Assinale** a alternativa que mais se aproxima da pureza da amostra de\ntetraborato de sódio.\n",
@@ -25222,30 +25316,48 @@
       "correct_choice": null
     },
     {
-      "id_": "3I11",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I11.md",
-      "date": "2022-06-24T05:03:12.278771",
+      "id_": "3I03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I03/3I03.md",
+      "date": "2022-06-24T03:56:31.332715",
       "statement": {
-        "md": "Uma massa de $\\pu{0,14 g}$ de uma amostra de carbonato purificado foi\ndissolvida em $\\pu{50 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em ácido\nclorídrico e aquecida para eliminar o $\\ce{CO2}$. O excesso de ácido\nclorídrico foi retrotitulado com $\\pu{24 mL}$ de hidróxido de sódio\n$\\pu{0,1 mol.L-1}$.\n\n**Identifique** o carbonato.\n",
-        "tex": "Uma massa de {\\(\\qty{0,14}{g}\\)} de uma amostra de carbonato purificado\nfoi dissolvida em {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)}\nem ácido clorídrico e aquecida para eliminar o {\\(\\ce{CO2}\\)}. O excesso\nde ácido clorídrico foi retrotitulado com {\\(\\qty{24}{mL}\\)} de hidróxido\nde sódio {\\(\\qty{0,1}{mol.L^{-1}}\\)}.\n\n\\textbf{Identifique} o carbonato.\n"
+        "md": "Uma amostra de $\\pu{50 mL}$ de um vinho de mesa branco foi titulada com\n$\\pu{20 mL}$ de uma solução de $\\pu{0,04 mol.L-1}$ em hidróxido de sódio\npara alcançar o ponto final com fenolftaleína. Considere que toda a\nacidez do vinho é devido ao ácido tartárico.\n\n**Assinale** a alternativa que mais se aproxima da massa de ácido\ntartárico em $\\pu{100 mL}$ de vinho.\n",
+        "tex": "Uma amostra de {\\(\\qty{50}{mL}\\)} de um vinho de mesa branco foi titulada\ncom {\\(\\qty{20}{mL}\\)} de uma solução de {\\(\\qty{0,04}{mol.L^{-1}}\\)} em\nhidróxido de sódio para alcançar o ponto final com fenolftaleína.\nConsidere que toda a acidez do vinho é devido ao ácido tartárico.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de ácido\ntartárico em {\\(\\qty{100}{mL}\\)} de vinho.\n"
       },
-      "solution": {
-        "md": "\n",
-        "tex": "\n"
-      },
+      "solution": null,
       "answer": [
         {
-          "md": "$\\ce{CrCO3}$\n",
-          "tex": "{\\(\\ce{CrCO3}\\)}\n"
+          "md": "$\\pu{240 mg}$\n",
+          "tex": "{\\(\\qty{240}{mg}\\)}\n"
         }
       ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "$\\pu{120 mg}$\n",
+          "tex": "{\\(\\qty{120}{mg}\\)}\n"
+        },
+        {
+          "md": "$\\pu{180 mg}$\n",
+          "tex": "{\\(\\qty{180}{mg}\\)}\n"
+        },
+        {
+          "md": "$\\pu{240 mg}$\n",
+          "tex": "{\\(\\qty{240}{mg}\\)}\n"
+        },
+        {
+          "md": "$\\pu{300 mg}$\n",
+          "tex": "{\\(\\qty{300}{mg}\\)}\n"
+        },
+        {
+          "md": "$\\pu{360 mg}$\n",
+          "tex": "{\\(\\qty{360}{mg}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3I08",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I08.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I08/3I08.md",
       "date": "2022-06-24T04:16:10.386848",
       "statement": {
         "md": "Uma amostra de $\\pu{50 g}$ de uma solução $4\\%$ em hidróxido de sódio é\nmisturada com $\\pu{50 g}$ de uma solução $1,82\\%$ em ácido clorídrico em\num calorímetro adiabático a $\\pu{20 \\degree C}$. A temperatura da\nsolução aumenta para $\\pu{23,4 \\degree C}$. Em seguida, $\\pu{70 g}$ de\numa solução $3,5\\%$ em ácido sulfúrico são adicionados à solução.\n\n**Determine** a temperatura da solução após a adição do ácido sulfúrico.\n",
@@ -25266,12 +25378,12 @@
       "correct_choice": null
     },
     {
-      "id_": "3I12",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I12.md",
-      "date": "2022-06-24T05:16:41.558852",
+      "id_": "3I17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I17/3I17.md",
+      "date": "2022-06-24T05:07:20.352658",
       "statement": {
-        "md": "Uma amostra de $\\pu{500 mL}$ de uma solução de ácido sulfúrico foi\ntratada com $\\pu{50 mL}$ de uma solução $\\pu{0,2 mol.L-1}$ em hidróxido\nde sódio. O excesso de $\\ce{NaOH}$ foi retrotitulado com $\\pu{13 mL}$ de\numa solução $\\pu{0,1 mol.L-1}$ de ácido clorídrico.\n\n**Determine** a concentração da solução de ácido sulfúrico.\n",
-        "tex": "Uma amostra de {\\(\\qty{500}{mL}\\)} de uma solução de ácido sulfúrico foi\ntratada com {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em\nhidróxido de sódio. O excesso de {\\(\\ce{NaOH}\\)} foi retrotitulado com\n{\\(\\qty{13}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} de ácido\nclorídrico.\n\n\\textbf{Determine} a concentração da solução de ácido sulfúrico.\n"
+        "md": "Uma amostra de $\\pu{0,8 g}$ de dimetilftalato foi colocada em refluxo\ncomn $\\pu{50 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em hidróxido de\nsódio, hidrolisando os grupos éster. O excesso de hidróxido de sódio foi\nretrotilulado com $\\pu{30 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em\nácido clorídrico.\n\n**Determine** a pureza da amostra de dimetilftalato.\n",
+        "tex": "Uma amostra de {\\(\\qty{0,8}{g}\\)} de dimetilftalato foi colocada em\nrefluxo comn {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em\nhidróxido de sódio, hidrolisando os grupos éster. O excesso de hidróxido\nde sódio foi retrotilulado com {\\(\\qty{30}{mL}\\)} de uma solução\n{\\(\\qty{0,1}{mol.L^{-1}}\\)} em ácido clorídrico.\n\n\\textbf{Determine} a pureza da amostra de dimetilftalato.\n"
       },
       "solution": null,
       "answer": null,
@@ -25280,12 +25392,12 @@
       "correct_choice": null
     },
     {
-      "id_": "3I20",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I20.md",
-      "date": "2022-06-24T04:54:41.230551",
+      "id_": "3I19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I19/3I19.md",
+      "date": "2022-06-24T05:03:09.462734",
       "statement": {
-        "md": "Uma amostra de $\\pu{3 L}$ de ar em CNTP de um ambiente urbano foi\nborbulhada em $\\pu{50 mL}$ uma solução $\\pu{0,0116 mol.L-1}$ em\nhidróxido de bário, formando um precipitado. O excesso de base foi\nretrotitulado até o ponto final da fenolftaleína com $\\pu{24 mL}$ de\nácido clorídrico $\\pu{0,01 mol.L-1}$.\n\n-   **Determine** a concentração de $\\ce{CO2}$ no ar em partes por\n    milhão.\n",
-        "tex": "Uma amostra de {\\(\\qty{3}{L}\\)} de ar em CNTP de um ambiente urbano foi\nborbulhada em {\\(\\qty{50}{mL}\\)} uma solução {\\(\\qty{0,0116}{mol.L^{-1}}\\)} em\nhidróxido de bário, formando um precipitado. O excesso de base foi\nretrotitulado até o ponto final da fenolftaleína com {\\(\\qty{24}{mL}\\)} de\nácido clorídrico {\\(\\qty{0,01}{mol.L^{-1}}\\)}.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{CO2}\\)} no ar em partes\n  por milhão.\n\\end{itemize}\n"
+        "md": "Uma amostra com $\\pu{1,22 g}$ de hidróxido de potássio comercial\ncontaminado com $\\ce{K2CO3}$ foi dissolvida em água e a solução\nresultante foi diluída a $\\pu{500 mL}$. Uma alíquota de $\\pu{50 mL}$\ndessa solução foi tratada com $\\pu{40 mL}$ de uma solução\n$\\ce{0,05 mol.L-1}$ em ácido clorídrico e aquecida para remover o\n$\\ce{CO2}$. O excesso de ácido foi retrotitulado com $\\ce{5 mL}$ de uma\nsolução $\\pu{0,05 mol.L-1}$ em hidróxido de sódio até o ponto final, com\no indicador fenolftaleína. Em outro experimento, um excesso de cloreto\nde bário foi adicionado em outra alíquota de $\\pu{50 mL}$ da solução,\nformando um precipitado. A solução resultante foi então titulada com\n$\\pu{30 mL}$ de ácido até o ponto final, com o indicador fenolftaleína.\n\n-   **Determine** a fração de hidróxido de potássio na amostra.\n-   **Determine** a fração de carbonato de potássio na amostra.\n",
+        "tex": "Uma amostra com {\\(\\qty{1,22}{g}\\)} de hidróxido de potássio comercial\ncontaminado com {\\(\\ce{K2CO3}\\)} foi dissolvida em água e a solução\nresultante foi diluída a {\\(\\qty{500}{mL}\\)}. Uma alíquota de\n{\\(\\qty{50}{mL}\\)} dessa solução foi tratada com {\\(\\qty{40}{mL}\\)} de uma\nsolução {\\(\\ce{0,05 mol.L-1}\\)} em ácido clorídrico e aquecida para\nremover o {\\(\\ce{CO2}\\)}. O excesso de ácido foi retrotitulado com\n{\\(\\ce{5 mL}\\)} de uma solução {\\(\\qty{0,05}{mol.L^{-1}}\\)} em hidróxido de\nsódio até o ponto final, com o indicador fenolftaleína. Em outro\nexperimento, um excesso de cloreto de bário foi adicionado em outra\nalíquota de {\\(\\qty{50}{mL}\\)} da solução, formando um precipitado. A\nsolução resultante foi então titulada com {\\(\\qty{30}{mL}\\)} de ácido até\no ponto final, com o indicador fenolftaleína.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a fração de hidróxido de potássio na amostra.\n\\item\n  \\textbf{Determine} a fração de carbonato de potássio na amostra.\n\\end{itemize}\n"
       },
       "solution": null,
       "answer": null,
@@ -25294,84 +25406,48 @@
       "correct_choice": null
     },
     {
-      "id_": "3I16",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I16.md",
-      "date": "2022-06-24T05:10:40.556716",
+      "id_": "3I05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I05/3I05.md",
+      "date": "2022-06-24T04:03:48.830980",
       "statement": {
-        "md": "Foi borbulhado ar em CNTP a $\\pu{30,0 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol L-1}$ em hidróxido de sódio\n\n-   **Determine** a concentração de $\\ce{SO2}$ no ar em partes por\n    milhão.\n",
-        "tex": "Foi borbulhado ar em CNTP a {\\(\\qty{30,0}{L.min^{-1}}\\)} por uma solução com\n{\\(\\qty{75}{mL}\\)} de uma solução a {\\(1\\%\\)} de peróxido de hidrogênio. O\n{\\(\\ce{H2O2}\\)} converte o {\\(\\ce{SO2}\\)} do ar em ácido sulfúrico. Após\ndez minutos o {\\(\\ce{H2SO4}\\)} foi titulado com {\\(\\ce{10 mL}\\)} de uma\nsolução {\\(\\qty{0,002}{mol L^{-1}}\\)} em hidróxido de sódio\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{SO2}\\)} no ar em partes\n  por milhão.\n\\end{itemize}\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3I01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I01.md",
-      "date": "2022-06-24T03:55:40.740385",
-      "statement": {
-        "md": "Uma amostra de $\\pu{15 mL}$ de uma solução de hidróxido de bário foi\ntitulada com $\\pu{5 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ em ácido\nfosfórico.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de hidróxido de bário.\n",
-        "tex": "Uma amostra de {\\(\\qty{15}{mL}\\)} de uma solução de hidróxido de bário foi\ntitulada com {\\(\\qty{5}{mL}\\)} de uma solução {\\(\\qty{0,01}{mol.L^{-1}}\\)} em\nácido fosfórico.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da\nsolução de hidróxido de bário.\n"
+        "md": "Uma amostra de $\\pu{6,5 g}$ de um ácido diprótico foi tiutulada com\n$\\pu{100 mL}$ de uma solução $\\pu{1 mol.L-1}$ em hidróxido de sódio.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do do\nácido.\n",
+        "tex": "Uma amostra de {\\(\\qty{6,5}{g}\\)} de um ácido diprótico foi tiutulada com\n{\\(\\qty{100}{mL}\\)} de uma solução {\\(\\qty{1}{mol.L^{-1}}\\)} em hidróxido de\nsódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar do\ndo ácido.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{0,05 mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,05}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{130 g.mol-1}$\n",
+          "tex": "{\\(\\qty{130}{g.mol^{-1}}\\)}\n"
         }
       ],
       "data": null,
       "choices": [
         {
-          "md": "$\\pu{0,01 mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,01}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{110 g.mol-1}$\n",
+          "tex": "{\\(\\qty{110}{g.mol^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,02 mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,02}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{120 g.mol-1}$\n",
+          "tex": "{\\(\\qty{120}{g.mol^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,03 mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,03}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{130 g.mol-1}$\n",
+          "tex": "{\\(\\qty{130}{g.mol^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,04 mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,04}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{140 g.mol-1}$\n",
+          "tex": "{\\(\\qty{140}{g.mol^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{0,05 mol.L-1}$\n",
-          "tex": "{\\(\\qty{0,05}{mol.L^{-1}}\\)}\n"
+          "md": "$\\pu{150 g.mol-1}$\n",
+          "tex": "{\\(\\qty{150}{g.mol^{-1}}\\)}\n"
         }
       ],
-      "correct_choice": 4
-    },
-    {
-      "id_": "3I13",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I13.md",
-      "date": "2022-06-24T05:14:28.931756",
-      "statement": {
-        "md": "Uma amostra de $\\pu{700 mg}$ de farinha de trigo foi analisada pelo\nmétodo Kjeldahl. Neste método, a amostra é decomposta em meio de ácido\nsulfúrico concentrado a quente para converter o nitrogênio das proteínas\nem íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com $\\pu{H2SO4}$ foi destilada em $\\pu{25 mL}$ de uma\nsolução $\\pu{0,05 mol dm−3}$ em $\\ce{HCl}$. O excesso de $\\ce{HCl}$ foi\nretrotitulado com $\\ce{5 mL}$ de uma solução $\\ce{0,05 mol.L-1}$ em\nhidróxido de sódio. Considere que o nitrogênio representa $20\\%$ da\nmassa da proteína.\n\n**Determine** fração de proteína na farinha.\n",
-        "tex": "Uma amostra de {\\(\\qty{700}{mg}\\)} de farinha de trigo foi analisada pelo\nmétodo Kjeldahl. Neste método, a amostra é decomposta em meio de ácido\nsulfúrico concentrado a quente para converter o nitrogênio das proteínas\nem íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com {\\(\\unit{H^{2}SO^{4}}\\)} foi destilada em {\\(\\qty{25}{mL}\\)}\nde uma solução {\\(\\pu{0,05 mol dm−3}\\)} em {\\(\\ce{HCl}\\)}. O excesso de\n{\\(\\ce{HCl}\\)} foi retrotitulado com {\\(\\ce{5 mL}\\)} de uma solução\n{\\(\\ce{0,05 mol.L-1}\\)} em hidróxido de sódio. Considere que o\nnitrogênio representa {\\(20\\%\\)} da massa da proteína.\n\n\\textbf{Determine} fração de proteína na farinha.\n"
-      },
-      "solution": {
-        "md": "\n",
-        "tex": "\n"
-      },
-      "answer": [
-        {
-          "md": "$10\\%$\n",
-          "tex": "{\\(10\\%\\)}\n"
-        }
-      ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 2
     },
     {
       "id_": "3I09",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I09.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I09/3I09.md",
       "date": "2022-06-24T04:21:10.536699",
       "statement": {
         "md": "Duas buretas, **A** e **B**, são drenadas simultaneamente em um béquer\ncontendo $\\pu{275 mL}$ de uma solução $\\pu{0,3 mol L−1}$ em ácido\nclorídrico. A bureta **A** contem hidróxido de sódio $\\pu{0,15 mol L−1}$\ne a bureta B contem hidróxido de potássio $\\pu{0,25 mol L−1}$. O ponto\nestequiométrico é atingido $\\pu{60,25 min}$ após o início da drenagem.\nNeste instante, o volume do béquer é de $\\pu{655 mL}$\n\n**Assinale** a alternativa que mais se aproxima da vazão volumétrica da\nbureta **B**.\n",
@@ -25411,7 +25487,7 @@
     },
     {
       "id_": "3I07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I07.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I07/3I07.md",
       "date": "2022-06-24T04:12:37.178931",
       "statement": {
         "md": "Uma amostra de $\\pu{0,177 g}$ de um composto orgânico contento carbono,\nhidrogênio, nitrogênio e oxigênio sofreu combustão completa formando\n$\\pu{0,264 g}$ de $\\ce{CO2}$ e $\\pu{0,135 g}$ de água. Em outro\nexperimento, todo o nitrogênio em uma amostra de mesma massa foi\nintegralmente convertido em amônia. A solução de amônia resultante foi\ntitulada com $\\pu{3 mL}$ de uma solução $\\pu{0,5 mol.L-1}$ de ácido\nsulfúrico.\n\n**Determine** a fórmula mínima do composto orgânico.\n",
@@ -25424,52 +25500,74 @@
       "correct_choice": null
     },
     {
-      "id_": "3I03",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I03.md",
-      "date": "2022-06-24T03:56:31.332715",
+      "id_": "3I01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I01/3I01.md",
+      "date": "2022-06-24T03:55:40.740385",
       "statement": {
-        "md": "Uma amostra de $\\pu{50 mL}$ de um vinho de mesa branco foi titulada com\n$\\pu{20 mL}$ de uma solução de $\\pu{0,04 mol.L-1}$ em hidróxido de sódio\npara alcançar o ponto final com fenolftaleína. Considere que toda a\nacidez do vinho é devido ao ácido tartárico.\n\n**Assinale** a alternativa que mais se aproxima da massa de ácido\ntartárico em $\\pu{100 mL}$ de vinho.\n",
-        "tex": "Uma amostra de {\\(\\qty{50}{mL}\\)} de um vinho de mesa branco foi titulada\ncom {\\(\\qty{20}{mL}\\)} de uma solução de {\\(\\qty{0,04}{mol.L^{-1}}\\)} em\nhidróxido de sódio para alcançar o ponto final com fenolftaleína.\nConsidere que toda a acidez do vinho é devido ao ácido tartárico.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de ácido\ntartárico em {\\(\\qty{100}{mL}\\)} de vinho.\n"
+        "md": "Uma amostra de $\\pu{15 mL}$ de uma solução de hidróxido de bário foi\ntitulada com $\\pu{5 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ em ácido\nfosfórico.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de hidróxido de bário.\n",
+        "tex": "Uma amostra de {\\(\\qty{15}{mL}\\)} de uma solução de hidróxido de bário foi\ntitulada com {\\(\\qty{5}{mL}\\)} de uma solução {\\(\\qty{0,01}{mol.L^{-1}}\\)} em\nácido fosfórico.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da\nsolução de hidróxido de bário.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{240 mg}$\n",
-          "tex": "{\\(\\qty{240}{mg}\\)}\n"
+          "md": "$\\pu{0,05 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,05}{mol.L^{-1}}\\)}\n"
         }
       ],
       "data": null,
       "choices": [
         {
-          "md": "$\\pu{120 mg}$\n",
-          "tex": "{\\(\\qty{120}{mg}\\)}\n"
+          "md": "$\\pu{0,01 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,01}{mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{180 mg}$\n",
-          "tex": "{\\(\\qty{180}{mg}\\)}\n"
+          "md": "$\\pu{0,02 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,02}{mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{240 mg}$\n",
-          "tex": "{\\(\\qty{240}{mg}\\)}\n"
+          "md": "$\\pu{0,03 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,03}{mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{300 mg}$\n",
-          "tex": "{\\(\\qty{300}{mg}\\)}\n"
+          "md": "$\\pu{0,04 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,04}{mol.L^{-1}}\\)}\n"
         },
         {
-          "md": "$\\pu{360 mg}$\n",
-          "tex": "{\\(\\qty{360}{mg}\\)}\n"
+          "md": "$\\pu{0,05 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,05}{mol.L^{-1}}\\)}\n"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 4
     },
     {
-      "id_": "3I17",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I17.md",
-      "date": "2022-06-24T05:07:20.352658",
+      "id_": "3I11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I11/3I11.md",
+      "date": "2022-06-24T05:03:12.278771",
       "statement": {
-        "md": "Uma amostra de $\\pu{0,8 g}$ de dimetilftalato foi colocada em refluxo\ncomn $\\pu{50 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em hidróxido de\nsódio, hidrolisando os grupos éster. O excesso de hidróxido de sódio foi\nretrotilulado com $\\pu{30 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em\nácido clorídrico.\n\n**Determine** a pureza da amostra de dimetilftalato.\n",
-        "tex": "Uma amostra de {\\(\\qty{0,8}{g}\\)} de dimetilftalato foi colocada em\nrefluxo comn {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} em\nhidróxido de sódio, hidrolisando os grupos éster. O excesso de hidróxido\nde sódio foi retrotilulado com {\\(\\qty{30}{mL}\\)} de uma solução\n{\\(\\qty{0,1}{mol.L^{-1}}\\)} em ácido clorídrico.\n\n\\textbf{Determine} a pureza da amostra de dimetilftalato.\n"
+        "md": "Uma massa de $\\pu{0,14 g}$ de uma amostra de carbonato purificado foi\ndissolvida em $\\pu{50 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ em ácido\nclorídrico e aquecida para eliminar o $\\ce{CO2}$. O excesso de ácido\nclorídrico foi retrotitulado com $\\pu{24 mL}$ de hidróxido de sódio\n$\\pu{0,1 mol.L-1}$.\n\n**Identifique** o carbonato.\n",
+        "tex": "Uma massa de {\\(\\qty{0,14}{g}\\)} de uma amostra de carbonato purificado\nfoi dissolvida em {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)}\nem ácido clorídrico e aquecida para eliminar o {\\(\\ce{CO2}\\)}. O excesso\nde ácido clorídrico foi retrotitulado com {\\(\\qty{24}{mL}\\)} de hidróxido\nde sódio {\\(\\qty{0,1}{mol.L^{-1}}\\)}.\n\n\\textbf{Identifique} o carbonato.\n"
+      },
+      "solution": {
+        "md": "\n",
+        "tex": "\n"
+      },
+      "answer": [
+        {
+          "md": "$\\ce{CrCO3}$\n",
+          "tex": "{\\(\\ce{CrCO3}\\)}\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3I12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I12/3I12.md",
+      "date": "2022-06-24T05:16:41.558852",
+      "statement": {
+        "md": "Uma amostra de $\\pu{500 mL}$ de uma solução de ácido sulfúrico foi\ntratada com $\\pu{50 mL}$ de uma solução $\\pu{0,2 mol.L-1}$ em hidróxido\nde sódio. O excesso de $\\ce{NaOH}$ foi retrotitulado com $\\pu{13 mL}$ de\numa solução $\\pu{0,1 mol.L-1}$ de ácido clorídrico.\n\n**Determine** a concentração da solução de ácido sulfúrico.\n",
+        "tex": "Uma amostra de {\\(\\qty{500}{mL}\\)} de uma solução de ácido sulfúrico foi\ntratada com {\\(\\qty{50}{mL}\\)} de uma solução {\\(\\qty{0,2}{mol.L^{-1}}\\)} em\nhidróxido de sódio. O excesso de {\\(\\ce{NaOH}\\)} foi retrotitulado com\n{\\(\\qty{13}{mL}\\)} de uma solução {\\(\\qty{0,1}{mol.L^{-1}}\\)} de ácido\nclorídrico.\n\n\\textbf{Determine} a concentração da solução de ácido sulfúrico.\n"
       },
       "solution": null,
       "answer": null,
@@ -25478,48 +25576,22 @@
       "correct_choice": null
     },
     {
-      "id_": "3I15",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I15.md",
-      "date": "2022-06-24T05:11:31.416582",
+      "id_": "3I16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I16/3I16.md",
+      "date": "2022-06-24T05:10:40.556716",
       "statement": {
-        "md": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n$\\ce{C10H20N2S4}$. O enxofre em $\\pu{600 mg}$ de uma amostra para\npreparação de Antabuse foi oxidado a $\\ce{SO2}$, o qual foi absorvido em\n$\\ce{H2O2}$ para gerar $\\ce{H2SO4}$. O ácido foi titulado com\n$\\pu{20 mL}$ de hidróxido de sódio $\\pu{0,04 mol L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica do\nprincípio ativo na preparação.\n",
-        "tex": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n{\\(\\ce{C10H20N2S4}\\)}. O enxofre em {\\(\\qty{600}{mg}\\)} de uma amostra\npara preparação de Antabuse foi oxidado a {\\(\\ce{SO2}\\)}, o qual foi\nabsorvido em {\\(\\ce{H2O2}\\)} para gerar {\\(\\ce{H2SO4}\\)}. O ácido foi\ntitulado com {\\(\\qty{20}{mL}\\)} de hidróxido de sódio\n{\\(\\qty{0,04}{mol L^{-1}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica\ndo princípio ativo na preparação.\n"
+        "md": "Foi borbulhado ar em CNTP a $\\pu{30,0 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol L-1}$ em hidróxido de sódio\n\n-   **Determine** a concentração de $\\ce{SO2}$ no ar em partes por\n    milhão.\n",
+        "tex": "Foi borbulhado ar em CNTP a {\\(\\qty{30,0}{L.min^{-1}}\\)} por uma solução com\n{\\(\\qty{75}{mL}\\)} de uma solução a {\\(1\\%\\)} de peróxido de hidrogênio. O\n{\\(\\ce{H2O2}\\)} converte o {\\(\\ce{SO2}\\)} do ar em ácido sulfúrico. Após\ndez minutos o {\\(\\ce{H2SO4}\\)} foi titulado com {\\(\\ce{10 mL}\\)} de uma\nsolução {\\(\\qty{0,002}{mol L^{-1}}\\)} em hidróxido de sódio\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{SO2}\\)} no ar em partes\n  por milhão.\n\\end{itemize}\n"
       },
       "solution": null,
-      "answer": [
-        {
-          "md": "$10\\%$\n",
-          "tex": "{\\(10\\%\\)}\n"
-        }
-      ],
+      "answer": null,
       "data": null,
-      "choices": [
-        {
-          "md": "$5\\%$\n",
-          "tex": "{\\(5\\%\\)}\n"
-        },
-        {
-          "md": "$10\\%$\n",
-          "tex": "{\\(10\\%\\)}\n"
-        },
-        {
-          "md": "$15\\%$\n",
-          "tex": "{\\(15\\%\\)}\n"
-        },
-        {
-          "md": "$20\\%$\n",
-          "tex": "{\\(20\\%\\)}\n"
-        },
-        {
-          "md": "$25\\%$\n",
-          "tex": "{\\(25\\%\\)}\n"
-        }
-      ],
-      "correct_choice": 1
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "3I10",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I10.md",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I10/3I10.md",
       "date": "2022-06-24T04:43:23.055751",
       "statement": {
         "md": "Uma amostra com $\\pu{0,3 g}$ de carbonato de sódio foi tratada com\n$\\pu{40 mL}$ de ácido perclórico diluído. A solução foi fervida para\nremover o $\\ce{CO2}$. O excesso de $\\ce{HClO4}$ foi retrotitulado com\n$\\ce{10 mL}$ de uma solução de hidróxido de sódio. Em um experimento\nseparado, $\\pu{30 mL}$ do da solução de ácido perclórico foram titulados\ncom $\\pu{25 mL}$ da solução de hidróxido de sódio.\n\n-   **Determine** a concentração da solução de ácido perclórico.\n-   **Determine** a concentração da solução de hidróxido de sódio.\n",
@@ -25532,98 +25604,26 @@
       "correct_choice": null
     },
     {
-      "id_": "3I02",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I02.md",
-      "date": "2022-06-24T03:56:03.300550",
+      "id_": "3I13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I13/3I13.md",
+      "date": "2022-06-24T05:14:28.931756",
       "statement": {
-        "md": "Uma amostra de $\\pu{10 mL}$ de uma solução de ácido sulfúrico foi\ntitulada com $\\pu{40 mL}$ de uma solução $\\pu{2 mol.L-1}$ em hidróxido\nde sódio.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de ácido sulfúrico.\n",
-        "tex": "Uma amostra de {\\(\\qty{10}{mL}\\)} de uma solução de ácido sulfúrico foi\ntitulada com {\\(\\qty{40}{mL}\\)} de uma solução {\\(\\qty{2}{mol.L^{-1}}\\)} em\nhidróxido de sódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da\nsolução de ácido sulfúrico.\n"
+        "md": "Uma amostra de $\\pu{700 mg}$ de farinha de trigo foi analisada pelo\nmétodo Kjeldahl. Neste método, a amostra é decomposta em meio de ácido\nsulfúrico concentrado a quente para converter o nitrogênio das proteínas\nem íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com $\\pu{H2SO4}$ foi destilada em $\\pu{25 mL}$ de uma\nsolução $\\pu{0,05 mol dm−3}$ em $\\ce{HCl}$. O excesso de $\\ce{HCl}$ foi\nretrotitulado com $\\ce{5 mL}$ de uma solução $\\ce{0,05 mol.L-1}$ em\nhidróxido de sódio. Considere que o nitrogênio representa $20\\%$ da\nmassa da proteína.\n\n**Determine** fração de proteína na farinha.\n",
+        "tex": "Uma amostra de {\\(\\qty{700}{mg}\\)} de farinha de trigo foi analisada pelo\nmétodo Kjeldahl. Neste método, a amostra é decomposta em meio de ácido\nsulfúrico concentrado a quente para converter o nitrogênio das proteínas\nem íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com {\\(\\unit{H^{2}SO^{4}}\\)} foi destilada em {\\(\\qty{25}{mL}\\)}\nde uma solução {\\(\\pu{0,05 mol dm−3}\\)} em {\\(\\ce{HCl}\\)}. O excesso de\n{\\(\\ce{HCl}\\)} foi retrotitulado com {\\(\\ce{5 mL}\\)} de uma solução\n{\\(\\ce{0,05 mol.L-1}\\)} em hidróxido de sódio. Considere que o\nnitrogênio representa {\\(20\\%\\)} da massa da proteína.\n\n\\textbf{Determine} fração de proteína na farinha.\n"
       },
-      "solution": null,
+      "solution": {
+        "md": "\n",
+        "tex": "\n"
+      },
       "answer": [
         {
-          "md": "$\\pu{4 mol.L-1}$\n",
-          "tex": "{\\(\\qty{4}{mol.L^{-1}}\\)}\n"
+          "md": "$10\\%$\n",
+          "tex": "{\\(10\\%\\)}\n"
         }
       ],
-      "data": null,
-      "choices": [
-        {
-          "md": "$\\pu{1 mol.L-1}$\n",
-          "tex": "{\\(\\qty{1}{mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{2 mol.L-1}$\n",
-          "tex": "{\\(\\qty{2}{mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{3 mol.L-1}$\n",
-          "tex": "{\\(\\qty{3}{mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{4 mol.L-1}$\n",
-          "tex": "{\\(\\qty{4}{mol.L^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{5 mol.L-1}$\n",
-          "tex": "{\\(\\qty{5}{mol.L^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
-      "id_": "3I19",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I19.md",
-      "date": "2022-06-24T05:03:09.462734",
-      "statement": {
-        "md": "Uma amostra com $\\pu{1,22 g}$ de hidróxido de potássio comercial\ncontaminado com $\\ce{K2CO3}$ foi dissolvida em água e a solução\nresultante foi diluída a $\\pu{500 mL}$. Uma alíquota de $\\pu{50 mL}$\ndessa solução foi tratada com $\\pu{40 mL}$ de uma solução\n$\\ce{0,05 mol.L-1}$ em ácido clorídrico e aquecida para remover o\n$\\ce{CO2}$. O excesso de ácido foi retrotitulado com $\\ce{5 mL}$ de uma\nsolução $\\pu{0,05 mol.L-1}$ em hidróxido de sódio até o ponto final, com\no indicador fenolftaleína. Em outro experimento, um excesso de cloreto\nde bário foi adicionado em outra alíquota de $\\pu{50 mL}$ da solução,\nformando um precipitado. A solução resultante foi então titulada com\n$\\pu{30 mL}$ de ácido até o ponto final, com o indicador fenolftaleína.\n\n-   **Determine** a fração de hidróxido de potássio na amostra.\n-   **Determine** a fração de carbonato de potássio na amostra.\n",
-        "tex": "Uma amostra com {\\(\\qty{1,22}{g}\\)} de hidróxido de potássio comercial\ncontaminado com {\\(\\ce{K2CO3}\\)} foi dissolvida em água e a solução\nresultante foi diluída a {\\(\\qty{500}{mL}\\)}. Uma alíquota de\n{\\(\\qty{50}{mL}\\)} dessa solução foi tratada com {\\(\\qty{40}{mL}\\)} de uma\nsolução {\\(\\ce{0,05 mol.L-1}\\)} em ácido clorídrico e aquecida para\nremover o {\\(\\ce{CO2}\\)}. O excesso de ácido foi retrotitulado com\n{\\(\\ce{5 mL}\\)} de uma solução {\\(\\qty{0,05}{mol.L^{-1}}\\)} em hidróxido de\nsódio até o ponto final, com o indicador fenolftaleína. Em outro\nexperimento, um excesso de cloreto de bário foi adicionado em outra\nalíquota de {\\(\\qty{50}{mL}\\)} da solução, formando um precipitado. A\nsolução resultante foi então titulada com {\\(\\qty{30}{mL}\\)} de ácido até\no ponto final, com o indicador fenolftaleína.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a fração de hidróxido de potássio na amostra.\n\\item\n  \\textbf{Determine} a fração de carbonato de potássio na amostra.\n\\end{itemize}\n"
-      },
-      "solution": null,
-      "answer": null,
       "data": null,
       "choices": null,
       "correct_choice": null
-    },
-    {
-      "id_": "3I05",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3I/3I05.md",
-      "date": "2022-06-24T04:03:48.830980",
-      "statement": {
-        "md": "Uma amostra de $\\pu{6,5 g}$ de um ácido diprótico foi tiutulada com\n$\\pu{100 mL}$ de uma solução $\\pu{1 mol.L-1}$ em hidróxido de sódio.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do do\nácido.\n",
-        "tex": "Uma amostra de {\\(\\qty{6,5}{g}\\)} de um ácido diprótico foi tiutulada com\n{\\(\\qty{100}{mL}\\)} de uma solução {\\(\\qty{1}{mol.L^{-1}}\\)} em hidróxido de\nsódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar do\ndo ácido.\n"
-      },
-      "solution": null,
-      "answer": [
-        {
-          "md": "$\\pu{130 g.mol-1}$\n",
-          "tex": "{\\(\\qty{130}{g.mol^{-1}}\\)}\n"
-        }
-      ],
-      "data": null,
-      "choices": [
-        {
-          "md": "$\\pu{110 g.mol-1}$\n",
-          "tex": "{\\(\\qty{110}{g.mol^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{120 g.mol-1}$\n",
-          "tex": "{\\(\\qty{120}{g.mol^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{130 g.mol-1}$\n",
-          "tex": "{\\(\\qty{130}{g.mol^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{140 g.mol-1}$\n",
-          "tex": "{\\(\\qty{140}{g.mol^{-1}}\\)}\n"
-        },
-        {
-          "md": "$\\pu{150 g.mol-1}$\n",
-          "tex": "{\\(\\qty{150}{g.mol^{-1}}\\)}\n"
-        }
-      ],
-      "correct_choice": 2
     },
     {
       "id_": "3F14",
