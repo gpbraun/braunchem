@@ -38,5 +38,5 @@ def load_config(config_path):
 
     TMP_DIR = Path(CONFIG["paths"]["tmp"])
     TMP_PROBLEMS_DIR = TMP_DIR.joinpath("problems")
-    TMP_TOPICS_DIR = TMP_DIR.joinpath("problems")
+    TMP_TOPICS_DIR = TMP_DIR.joinpath("topics")
     TMP_IMAGES_DIR = TMP_DIR.joinpath("images")

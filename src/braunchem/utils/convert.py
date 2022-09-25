@@ -12,6 +12,7 @@ import shutil
 import importlib.resources
 import logging
 from pathlib import Path
+from dataclasses import dataclass
 
 import pypandoc
 import bs4
@@ -148,6 +149,7 @@ def run_latexmk(tex_path: str | Path, tmp_dir: str | Path):
             "-interaction=nonstopmode",
             "-file-line-error",
             "-pdf",
+            "-cd",
             f"-output-directory={tmp_dir}",
             f"{tex_path}",
         ],
@@ -169,21 +171,46 @@ def run_pdf2svg(tex_path: str | Path, svg_path: str | Path | None = None):
     )
 
 
+@dataclass
 class LaTeXDocument:
-    name: str
-    doc_class: str
-    contents: str
+    id_: str
+    title: str | None = None
+    author: str | None = None
+    affiliation: str | None = None
+    template: str | None = None
+    contents: str | None = None
+    standalone: bool = False
 
-    def __init__(self, name: str, doc_class: str, contents: str):
-        self.name = name
-        self.doc_class = doc_class
-        self.contents = contents
+    def preamble(self):
+        if self.standalone:
+            return ""
+
+        return "\n".join(
+            [
+                latex.cmd("title", self.title) if self.title else "",
+                latex.cmd("author", self.author) if self.author else "",
+                latex.cmd("affiliation", self.affiliation) if self.affiliation else "",
+            ]
+        )
+
+    def documentclass(self):
+        if self.standalone:
+            return latex.cmd("documentclass", "braunfigure")
+
+        return f"\\documentclass[{self.template}]{{braun}}\n"
+
+    def body(self):
+        if self.standalone:
+            return latex.env("document", self.contents)
+
+        return latex.env("document", f"\\maketitle\n\n{self.contents}")
 
     def document(self):
         return "\n".join(
             [
-                latex.cmd("documentclass", self.doc_class),
-                latex.env("document", self.contents),
+                self.documentclass(),
+                self.preamble(),
+                self.body(),
             ]
         )
 
@@ -200,12 +227,13 @@ class LaTeXDocument:
         tmp_dir.mkdir(parents=True, exist_ok=True)
         copy_all("src/braunchem/latex", tmp_dir)
 
-        tex_path = tmp_dir.joinpath(self.name).with_suffix(".tex")
+        tex_path = tmp_dir.joinpath(self.id_).with_suffix(".tex")
         tex_path.write_text(self.document())
         run_latexmk(tex_path, tmp_dir)
         pdf_path = tex_path.with_suffix(".pdf")
 
         if out_dir:
+            out_dir.mkdir(parents=True, exist_ok=True)
             shutil.copy(src=tex_path.with_suffix(".pdf"), dst=out_dir)
 
         return pdf_path
@@ -225,7 +253,7 @@ class LaTeXDocument:
         if not out_dir:
             out_dir = tmp_dir
 
-        svg_path = out_dir.joinpath(self.name).with_suffix(".svg")
+        svg_path = out_dir.joinpath(self.id_).with_suffix(".svg")
         run_pdf2svg(pdf_path, svg_path)
 
         return svg_path
@@ -259,7 +287,7 @@ def get_database_paths(database_dir: str | Path) -> list[Path]:
 
                 continue
 
-            img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent).joinpath(name)
+            img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent, name)
 
             # figuras
             if file_path.suffix in [".svg", ".png"]:
@@ -285,8 +313,8 @@ def get_database_paths(database_dir: str | Path) -> list[Path]:
 
                 tex_doc = LaTeXDocument(
                     name=name,
-                    doc_class="braunfigure",
                     contents=latex.cmd("input", file_path.resolve()),
+                    standalone=True,
                 )
                 tex_doc.svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
 

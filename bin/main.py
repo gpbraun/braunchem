@@ -1,7 +1,7 @@
+import braunchem.utils.config as config
 from braunchem.problem import ProblemSet
 from braunchem.topic import TopicSet
 from braunchem.utils.convert import get_database_paths
-from braunchem.utils.config import load_config, CONFIG
 
 import logging
 from pathlib import Path
@@ -10,10 +10,10 @@ from pathlib import Path
 def main():
     logging.basicConfig(level=logging.DEBUG, filename="bin/main.log", filemode="w")
 
-    load_config("bin/config.cfg")
+    config.load_config("bin/config.cfg")
 
-    problem_paths = get_database_paths(CONFIG["paths"]["problems"])
-    topic_paths = get_database_paths(CONFIG["paths"]["topics"])
+    problem_paths = get_database_paths(config.PROBLEMS_DIR)
+    topic_paths = get_database_paths(config.TOPICS_DIR)
 
     # problemas
     problem_db_path = Path("data/problems/problems.json")
@@ -26,6 +26,8 @@ def main():
     with open(problem_db_path, "w", encoding="utf-8") as problem_json:
         problem_json.write(problem_db.json(indent=2, ensure_ascii=False))
 
+    print("Problemas carregados")
+
     # tópicos
     topic_db_path = Path("data/topics/topics.json")
     try:
@@ -36,6 +38,8 @@ def main():
 
     with open(topic_db_path, "w", encoding="utf-8") as topic_json:
         topic_json.write(topic_db.json(indent=2, ensure_ascii=False))
+
+    # topic_db.pdf()
 
 
 if __name__ == "__main__":

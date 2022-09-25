@@ -1,6 +1,13 @@
 {
     "parameters": [
         {
+            "id_": "d",
+            "name": "densidade",
+            "symbol": "\\rho",
+            "unit": "g.cm-3",
+            "prec": 2
+        },
+        {
             "id_": "Hf",
             "name": "entalpia de formação",
             "symbol": "\\Delta H_\\mathrm{f}^{\\circ}",

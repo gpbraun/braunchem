@@ -8,8 +8,6 @@ from braunchem.utils.convert import Text
 from braunchem.quantities import Table, qtys
 from braunchem.utils.autoprops import autoprops
 
-import os
-import shutil
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -78,12 +76,12 @@ class Problem(BaseModel):
             return "-"
 
         if self.is_objective:
-            return latex.cmd("MiniBox", chr(65 + self.obj))
+            return latex.cmd("MiniBox", chr(65 + self.correct_choice))
 
         if len(self.answer) == 1:
-            return self.answer[0]
+            return self.answer[0].tex
 
-        return latex.enum("answers", self.answer)
+        return latex.enum("answers", [answer.tex for answer in self.answer])
 
     def tex(self):
         """Retorna o enunciado completo do problema em LaTeX."""
@@ -103,8 +101,9 @@ class Problem(BaseModel):
             problem_path = Path(problem_path)
 
         # parse `.md`. with YAML metadata
-        pfile = frontmatter.load(problem_path)
+        problem_file = frontmatter.load(problem_path)
 
+        # informações básicas
         problem = {
             "id_": problem_path.stem,
             "path": problem_path.resolve(),
@@ -112,11 +111,11 @@ class Problem(BaseModel):
         }
 
         # dados termodinâmicos
-        if "data" in pfile:
-            problem["data"] = qtys(pfile["data"])
+        if "data" in problem_file:
+            problem["data"] = qtys(problem_file["data"])
 
         # conteúdo
-        soup = convert.md2soup(pfile.content)
+        soup = convert.md2soup(problem_file.content)
 
         # resolução
         soup, solution = convert.soup_split(soup, "hr")
@@ -125,10 +124,10 @@ class Problem(BaseModel):
         choice_list = soup.find("ul", class_="task-list")
         if choice_list:
             choices = []
-            for index, item in enumerate(choice_list.find_all("li")):
-                choice = Text.parse_html(item)
+            for index, li in enumerate(choice_list.find_all("li")):
+                choice = Text.parse_html(li)
                 choices.append(choice)
-                check_box = item.find("input").extract()
+                check_box = li.find("input").extract()
                 if check_box.has_attr("checked"):
                     problem["correct_choice"] = index
                     problem["answer"] = [choice]
@@ -144,8 +143,8 @@ class Problem(BaseModel):
         proposition_list = soup.find("ol", class_="task-list")
         if proposition_list:
             true_props = []
-            for index, item in enumerate(proposition_list.find_all("li")):
-                check_box = item.find("input").extract()
+            for index, li in enumerate(proposition_list.find_all("li")):
+                check_box = li.find("input").extract()
                 if check_box.has_attr("checked"):
                     true_props.append(index)
             choices, answer, correct_choice = autoprops(true_props)
@@ -162,10 +161,7 @@ class Problem(BaseModel):
         if solution:
             answer_list = solution.find("ul")
             if answer_list:
-                answer = [
-                    Text.parse_html(list_item)
-                    for list_item in answer_list.find_all("li")
-                ]
+                answer = [Text.parse_html(li) for li in answer_list.find_all("li")]
                 problem["answer"] = answer
                 answer_list.decompose()
             problem["solution"] = Text.parse_html(solution.extract())
@@ -175,7 +171,7 @@ class Problem(BaseModel):
 
 
 class ProblemSet(BaseModel):
-    """Container para os problemas.
+    """Conjunto de Problemas.
 
     Atributos:
         date (datetime): Data da última modificação do problema.
@@ -204,12 +200,12 @@ class ProblemSet(BaseModel):
         """Verifica se todos os problemas são objetivos."""
         return True if all(p.is_objective for p in self) else False
 
-    def tex_statements(self) -> str:
+    def tex_statements(self, use_header: bool = True) -> str:
         """Retorna o conjunto de problemas em LaTeX."""
         if not self.problems:
             return ""
 
-        header = latex.section(self.title, level=0, numbered=False)
+        header = latex.section(self.title, level=0) if use_header else ""
         statements = "\n".join(p.tex() for p in self)
 
         return header + statements
@@ -245,7 +241,7 @@ class ProblemSet(BaseModel):
             except KeyError:
                 logging.warning(f"O problema com ID {problem_id} não existe.")
 
-        date = max(problem.date for problem in self)
+        date = min(problem.date for problem in self)
 
         return ProblemSet(id_=problem_set_id, title=title, date=date, problems=problems)
 

@@ -209,11 +209,6 @@
 
 \RequirePackage { float, booktabs, array }
 
-%% PANDOC compatibility
-
-\cs_set_eq:NN \endhead \relax
-\cs_set_eq:NN \tightlist \relax
-
 \NewDocumentEnvironment { longtable } { O{} m }
 	{
 		\begin{center}
@@ -815,46 +810,6 @@
         \group_end:
 	}
 
-% \cs_set:Nn \braun_firstsection:n
-% 	{
-% 		\str_case:Vn \l_braun_page_section_type_tl
-% 			{
-% 				{ latex }
-% 				{
-% 					\Large \textbf {#2}
-% 				}
-% 				{ IME }
-% 				{
-% 					\skip_vertical:n {-1em}
-% 					\IMEaltHeader 
-% 						{ 
-% 							\bfseries \normalsize  \text_uppercase:n {#2} 
-% 						} 
-% 				}
-% 			}
-		
-% 	}
-
-% \cs_set:Nn \braun_midsection:n
-% 	{
-% 		\str_case:Vn \l_braun_page_section_type_tl
-% 			{
-% 				{ latex }
-% 				{
-% 					\Large \textbf {#2}
-% 				}
-% 				{ IME }
-% 				{
-% 					\skip_vertical:n {-1em}
-% 					\IMEaltHeader 
-% 						{ 
-% 							\bfseries \normalsize  \text_uppercase:n {#2} 
-% 						} 
-% 				}
-% 			}
-		
-% 	}
-
 %============================================================%
 %   PAGE STYLE TEMPLATES
 %============================================================%
@@ -1316,7 +1271,6 @@
 
         path .tl_set:N = \g_braun_graphics_path_tl,
         path .initial:n = ,
-
 	}
 
 % #1 -> coffin
@@ -1616,6 +1570,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \cs_set_eq:NN \tightlist \relax
+\cs_set_eq:NN \endhead \relax
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1705,45 +1660,12 @@
     }
 
 %============================================================%
-%   IME
-%============================================================%
-
-\DeclareBraunTemplate { diagnostico }
-    {
-        DIV = 16,
-        font = helvetica,
-        fontsize = 11pt,
-        familydefault = sf,
-        linewidth = 1.5pt,
-        emph = \bfseries,
-        page / IME,
-        maketitle / align = c,
-        maketitle / print = { title, subtitle, date },
-        maketitle / toprule = false,
-        maketitle / botrule = false,
-        maketitle / title / case = upper,
-        maketitle / title / font = \Large\bfseries,
-        maketitle / subtitle /value = Turma~ IME-ITA,
-        maketitle / subtitle / case = upper,
-        maketitle / subtitle / font = \large\bfseries,
-        maketitle / date / value = \int_use:N \c_sys_year_int,
-        maketitle / date / font = \large\bfseries,
-        maketitle / logo / value = ime,
-        maketitle / logo / value = pensi,
-        problems / name = Questão,
-        problems / template = IME,
-        graphics / width = \linewidth,
-        graphics / height = 5cm,
-        lists / itemize = {label = {\alph*)}},
-    }
-
-%============================================================%
 %   BRAUN
 %============================================================%
 
 \DeclareBraunTemplate { braun }
     {
-        DIV = 23,
+        DIV = calc,
         font = paratype,
         fontsize = 9pt,
         emph = \itshape,
@@ -1764,7 +1686,7 @@
         maketitle / align = l,
         maketitle / print = { title, subtitle, author, affiliation },
         maketitle / toprule = true,
-        maketitle / botrule = false,
+        maketitle / botrule = true,
         maketitle / title / font = \Huge\bfseries ,
         maketitle / subtitle / font = \Large\bfseries ,
         maketitle / author / font = \large\bfseries\sffamily ,

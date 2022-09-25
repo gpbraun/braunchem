@@ -48,7 +48,7 @@ def document(preamble, body):
     return preamble + env("document", cmd("maketitle") + body)
 
 
-def section(content, level=0, newpage=False, numbered=True):
+def section(content, level=0, newpage=False, numbered=False):
     # latex section
     if not content:
         return ""
