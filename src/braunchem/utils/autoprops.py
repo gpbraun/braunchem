@@ -2,6 +2,7 @@
 
 Esse módulo implementa funções para geração automática de alternativas.
 """
+from braunchem.utils.convert import Text
 
 
 def autoprops(true_props):
@@ -136,5 +137,7 @@ def autoprops(true_props):
             "**1**, **2**, **3** e **4**",
         ]
         correct_choice = 4
+
+    choices = [Text.parse_md(choice) for choice in choices]
     answer = [choices[correct_choice]]
     return choices, answer, correct_choice

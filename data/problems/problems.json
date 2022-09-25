@@ -1,7 +1,7 @@
 {
   "id_": "root",
   "title": "ROOT",
-  "date": "2022-09-25T00:10:46.183951",
+  "date": "2022-09-25T01:14:21.370866",
   "problems": [
     {
       "id_": "1A43",
@@ -652,10 +652,36 @@
         "tex": "A superfície de um metal é irradiada com luz proveniente de uma amostra\nde gás de hidrogênio cujos átomos sofrem transições do estado {\\(n\\)}\npara o estado fundamental. A função trabalho do metal é metade da\nenergia de ionização do átomo de hidrogênio.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A energia cinética máxima dos elétrons emitidos pelo metal é\n  {\\(E_K = \\dfrac{E_1}{n^{2}} - \\dfrac{E_1}{2}\\)}\n\\item\n  A função trabalho do metal é {\\(\\Phi = \\dfrac{E_1}{2}\\)}\n\\item\n  A energia cinética máxima dos elétrons emitidos aumenta com o aumento\n  da frequência da luz incidente no metal a partir da frequência mínima\n  de emissão.\n\\item\n  A energia cinética máxima dos elétrons emitidos aumenta com o aumento\n  da pressão da amostra de hidrogênio.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "1A10",
@@ -1981,10 +2007,36 @@
         "tex": "\\begin{enumerate}\n\\tightlist\n\\item\n  A carga nuclear efetiva independe do número de elétrons presentes em\n  um átomo.\n\\item\n  Os elétrons de um orbital {\\(s\\)} blindam mais efetivamente da carga\n  do núcleo que os elétrons de outros orbitais devido à maior\n  penetrabilidade dos orbitais {\\(s\\)}.\n\\item\n  Elétrons com {\\(l=2\\)} blindam mais efetivamente que elétrons com\n  {\\(l=1\\)}.\n\\item\n  A carga nuclear efetiva de um elétron em um orbital {\\(p\\)} é menor\n  que a de um elétron em um orbital {\\(s\\)} da mesma camada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "1B21",
@@ -2463,10 +2515,36 @@
         "tex": "\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(|E_{2s}| = |E_{2p}|\\)} para átomo de hidrogênio.\n\\item\n  {\\(|E_{2s}| = |E_{2p}|\\)} para o íon de hélio carregado com uma carga\n  positiva.\n\\item\n  {\\(|E_{2s}| > |E_{2p}|\\)} para o átomo de hélio.\n\\item\n  {\\(|E_{2s}| > |E_{2p}|\\)} para o ânion de hélio.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "1B04",
@@ -2877,10 +2955,36 @@
         "tex": "\\begin{enumerate}\n\\tightlist\n\\item\n  A {\\(Z_\\text{eff}\\)} de um elétron em um orbital {\\(1\\)}s é igual à\n  {\\(Z_\\text{eff}\\)} de um elétron em um orbital {\\(2s\\)}.\n\\item\n  A {\\(Z_\\text{eff}\\)} de um elétron em um orbital {\\(2s\\)} é igual à\n  {\\(Z_\\text{eff}\\)} de um elétron em um orbital {\\(2p\\)}.\n\\item\n  Um elétron em um orbital {\\(2s\\)} tem a mesma energia que um elétron\n  no orbital {\\(2p\\)}.\n\\item\n  Elétrons em orbitais {\\(2p\\)} não podem possuir o mesmo valor de\n  \\emph{spin}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{incorretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "1B32",
@@ -3147,10 +3251,36 @@
         "tex": "Considere as seguintes configurações eletrônicas de espécies no estado\ngasoso:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(1s^2 2s^2 2p^1\\)}\n\\item\n  {\\(1s^2 2s^2 2p^3\\)}\n\\item\n  {\\(1s^2 2s^2 2p^4\\)}\n\\item\n  {\\(1s^2 2s^2 2p^5\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem\nrepresentar estados excitados de átomos neutros.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "1B42",
@@ -3307,10 +3437,36 @@
         "tex": "Considere as seguintes afirmações:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  O nível de energia de um átomo, cujo número quântico principal é igual\n  a {\\(4\\)}, pode ter, no máximo, {\\(32\\)} elétrons.\n\\item\n  A configuração eletrônica {\\(1s^2 2s^2 2p^2_x 2p^2_y\\)} representa um\n  estado excitado do átomo de oxigênio.\n\\item\n  O estado fundamental do átomo de fósforo contém três elétrons\n  desemparelhados.\n\\item\n  A energia necessária para excitar um elétron do estado fundamental do\n  átomo de hidrogênio para o orbital {\\(3s\\)} é igual àquela necessária\n  para excitar este mesmo elétron para o orbital {\\(3d\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "1B41",
@@ -3741,10 +3897,36 @@
         "tex": "Considere as ordenações de raio atômico.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{Cl} > \\ce{Br} > \\ce{I}\\)}\n\\item\n  {\\(\\ce{Ga} > \\ce{As} > \\ce{Se}\\)}\n\\item\n  {\\(\\ce{K} > \\ce{Ca} > \\ce{Zn}\\)}\n\\item\n  {\\(\\ce{Ba} > \\ce{Sr} > \\ce{Ca}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as ordenações\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "1C27",
@@ -4035,10 +4217,36 @@
         "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  O índio é um mau condutor de eletricidade.\n\\item\n  O raio atômico do índio é maior que o do estanho.\n\\item\n  A densidade do índio é menor que a do paládio.\n\\item\n  O ponto de fusão do índio é maior que o do gálio.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "1C01",
@@ -4049,10 +4257,36 @@
         "tex": "Considere as ordenações de raio atômico.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{Si} > \\ce{S} > \\ce{Cl}\\)}\n\\item\n  {\\(\\ce{Ti} > \\ce{Cr} > \\ce{Co}\\)}\n\\item\n  {\\(\\ce{Hg} > \\ce{Cd} > \\ce{Zn}\\)}\n\\item\n  {\\(\\ce{Bi} > \\ce{Sb} > \\ce{P}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as ordenações\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "1C35",
@@ -4648,10 +4882,36 @@
         "tex": "Considere as afirmações a seguir, todas relacionadas a átomos e íons no\nestado gasoso:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A energia do íon {\\(\\ce{Be^2+}\\)}, no seu estado fundamental, é igual\n  à energia do átomo de {\\(\\ce{He}\\)} neutro no seu estado fundamental.\n\\item\n  A segunda energia de ionização do átomo de {\\(\\ce{He}\\)} neutro, é\n  igual à afinidade eletrônica do íon {\\(\\ce{He^2+}\\)}.\n\\item\n  O primeiro estado excitado do átomo de {\\(\\ce{He}\\)} neutro tem a\n  mesma configuração eletrônica do primeiro estado excitado do íon\n  {\\(\\ce{Be^2+}\\)}.\n\\item\n  A primeira energia de ionização de íon {\\(\\ce{H-}\\)} é menor do que a\n  primeira energia de ionização do átomo de {\\(\\ce{H}\\)} neutro.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "1C36",
@@ -6307,10 +6567,36 @@
         "tex": "Considere soluções aquosas dos sais:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{NH4Br}\\)}\n\\item\n  {\\(\\ce{NaHCO3}\\)}\n\\item\n  {\\(\\ce{KF}\\)}\n\\item\n  {\\(\\ce{KBr}\\)}\n\\end{enumerate}\n\nAssinale a alternativa que relaciona as soluções básicas.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2H10",
@@ -6321,10 +6607,36 @@
         "tex": "Considere soluções aquosas dos sais:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{CH3NH3Cl}\\)}\n\\item\n  {\\(\\ce{K3PO4}\\)}\n\\item\n  {\\(\\ce{FeCl3}\\)}\n\\item\n  {\\(\\ce{NaH2PO4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as soluções ácidas.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2H14",
@@ -7283,10 +7595,36 @@
         "tex": "Considere soluções aquosas dos sais:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{Na2S}\\)}\n\\item\n  {\\(\\ce{NaCH3CO2}\\)}\n\\item\n  {\\(\\ce{NaHSO4}\\)}\n\\item\n  {\\(\\ce{NaHPO4}\\)}\n\\end{enumerate}\n\nAssinale a alternativa que relaciona as soluções básicas.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2H21",
@@ -7356,10 +7694,36 @@
         "tex": "Considere soluções aquosas dos sais:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{Ba(NO2)2}\\)}\n\\item\n  {\\(\\ce{CrCl3}\\)}\n\\item\n  {\\(\\ce{NH4NO3}\\)}\n\\item\n  {\\(\\ce{KNO3}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as soluções ácidas.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2H07",
@@ -8412,10 +8776,36 @@
         "tex": "Considere as proposições a respeito de uma reação reversível.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Em uma reação de equilíbrio, a reação inversa só ocorre quando todos\n  os reagentes tiverem sido convertidos em produtos.\n\\item\n  As concentrações de equilíbrio serão as mesmas se começarmos uma\n  reação com os reagentes puros ou com os produtos puros.\n\\item\n  As velocidades das reações direta e inversa são iguais no equilíbrio.\n\\item\n  Se a energia livre de Gibbs é maior do que a energia livre padrão de\n  reação, a reação avança até o equilíbrio.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G05",
@@ -8506,10 +8896,36 @@
         "tex": "Considere as proposições a respeito de uma reação reversível.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Uma reação para quando atinge o equilíbrio.\n\\item\n  Uma reação em equilíbrio não é afetada pelo aumento da concentração de\n  produtos.\n\\item\n  Se a reação começa com maior pressão dos reagentes, a constante de\n  equilíbrio será maior.\n\\item\n  Se a reação começa com concentrações maiores de reagentes, as\n  concentrações de equilíbrio dos produtos serão maiores.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2G18",
@@ -8794,10 +9210,36 @@
         "tex": "Considere reação exotérmica em fase gasosa, inicialmente conduzida a\n{\\(\\qty{400}{\\degree C}\\)} sob {\\(\\qty{200}{atm}\\)}.\n\n{\\[\n\\ce{ 2 \\textbf{A}(g) + \\textbf{B}(g) <=> \\textbf{C}(g) +\n\\textbf{D}(g) }\n\\]}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Conduzir a reação a {\\(\\qty{600}{\\degree C}\\)} gera uma fração maior de\n  {\\(\\ce{\\textbf{C}}\\)} e {\\(\\ce{\\textbf{D}}\\)}.\n\\item\n  Conduzir a reação a {\\(\\qty{600}{\\degree C}\\)} faz com que o equilíbrio\n  seja alcançado em menos de 60 min.\n\\item\n  Conduzir a reação a uma pressão de {\\(\\qty{100}{atm}\\)} gera uma fração\n  menor de {\\(\\ce{\\textbf{C}}\\)} e {\\(\\ce{\\textbf{D}}\\)}.\n\\item\n  Remover {\\(\\ce{\\textbf{C}}\\)} e {\\(\\ce{\\textbf{D}}\\)} do meio\n  reacional após o equilíbrio e então retomar a reação permitem obter\n  uma fração total maior de {\\(\\ce{\\textbf{C}}\\)} e\n  {\\(\\ce{\\textbf{D}}\\)}.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G23",
@@ -9298,10 +9740,36 @@
         "tex": "A amônia é produzida em escala industrial pelo processo Haber-Bosch. A\nreação de formação exotérmica a partir de hidrogênio e nitrogênio é\nconduzida a {\\(\\qty{450}{\\degree C}\\)} sob {\\(\\qty{200}{atm}\\)}. Considere\nas proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  O aumento da pressão no reator, mediante adição de um gás inerte,\n  aumenta o rendimento do processo.\n\\item\n  O uso de um catalisador mais eficiente aumenta o rendimento do\n  processo.\n\\item\n  Uma vez atingido o equilíbrio, não ocorrem mais colisões efetivas\n  entre moléculas de hidrogênio e nitrogênio.\n\\item\n  A redução da temperatura no reator diminui a velocidade da reação, mas\n  favorece a formação de amônia.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proprosições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2G59",
@@ -11389,10 +11857,36 @@
         "tex": "Considere os processos químicos realizados em temperatura constante.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Dissolução do nitrato de potássio.\n\\item\n  Ebulição da água.\n\\item\n  Conversão da grafita em diamante.\n\\item\n  Oxidação do sódio metálico.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com os processos que apresentam variação\nde energia interna não nula.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2A20",
@@ -12028,10 +12522,36 @@
         "tex": "Considere a curva de aquecimento para uma substância sólida com apenas\numa fase cristalina.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2A13-1P.svg}\n\\caption{Temperatura por tempo.}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Na região entre {\\(P\\)} e {\\(Q\\)} ocorre aumento da energia cinética.\n\\item\n  Na região entre {\\(Q\\)} e {\\(R\\)} ocorre aumento da energia potencial.\n\\item\n  O calor de fusão da substância é menor que o seu calor de vaporização.\n\\item\n  O calor específico do sólido é maior que o calor específico do\n  líquido.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{incorretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2A22",
@@ -12210,10 +12730,36 @@
         "tex": "Em um cilindro, provido de um pistão móvel sem atrito, é realizada a\ncombustão completa de carbono. A temperatura no interior do cilindro é\nmantida constante desde a introdução dos reagentes até o final da\nreação.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A variação da energia interna do sistema é igual a zero.\n\\item\n  O sistema não realiza trabalho.\n\\item\n  A quantidade de calor trocada entre o sistema e a vizinhança é igual a\n  zero.\n\\item\n  A variação da entalpia do sistema é igual à variação da energia\n  interna.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2A27",
@@ -12323,10 +12869,36 @@
         "tex": "Em uma amostra de água do mar dissolve-se um pouco de sacarose.\nConsidere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A pressão de vapor da água diminui.\n\\item\n  A pressão osmótica da solução aumenta.\n\\item\n  A condutividade elétrica da solução permanece praticamente inalterada.\n\\item\n  A temperatura de congelamento diminui.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2F20",
@@ -12691,10 +13263,36 @@
         "tex": "Considere as seguintes afirmações sobre equilíbrio de fases e\npropriedades coligativas.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A adição de um soluto não volátil a um solvente puro, em uma dada\n  temperatura constante, sempre provoca uma diminuição na pressão de\n  vapor.\n\\item\n  O valor absoluto do abaixamento no ponto de congelamento de uma\n  solução é menor se o soluto dimeriza parcialmente no solvente,\n  comparado ao sistema nas mesmas condições em que não há a dimerização\n  do soluto.\n\\item\n  A pressão osmótica é a pressão exercida pelas moléculas de soluto sob\n  uma membrana semipermeável.\n\\item\n  Uma mistura formada por duas substâncias nunca solidifica inteiramente\n  em uma única temperatura.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2F16",
@@ -12997,10 +13595,36 @@
         "tex": "Em um experimento de determinação da massa molar usando o abaixamento do\nponto de congelamento, é possível cometer os seguintes erros.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Havia poeira na balança, o que fez a massa do soluto parecer maior do\n  que é de fato.\n\\item\n  A água foi medida em volume, pressupondo que sua densidade fosse\n  {\\(\\qty{1}{g.cm^{-3}}\\)}, mas a água estava mais quente e menos densa do\n  que o considerado.\n\\item\n  O termômetro não foi calibrado com precisão e, por essa razão, o ponto\n  de congelamento real é {\\(\\qty{0,5}{\\degree C}\\)} superior ao\n  registrado.\n\\item\n  A solução não foi agitada o suficiente, e o soluto não dissolveu\n  totalmente.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os erros que resultariam\nem uma massa molar calculada \\emph{superior} ao valor real.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2F26",
@@ -13339,10 +13963,36 @@
         "tex": "Considere dois recipientes perfeitamente isolados em pressão de\n{\\(\\qty{1}{atm}\\)}. O recipiente \\textbf{A} contém um cubo de gelo a\n{\\(\\qty{0}{\\degree C}\\)} e água a {\\(\\qty{0}{\\degree C}\\)}. O recipiente\n\\textbf{B} inicialmente contém um cubo de gelo a {\\(\\qty{0}{\\degree C}\\)}\ne uma solução de água do mar a {\\(\\qty{0}{\\degree C}\\)}. Considere as\nseguintes proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A variação de entropia da vizinhança é nula para o processo que ocorre\n  no recipiente \\textbf{A}.\n\\item\n  A variação de entropia da vizinhança é nula para o processo que ocorre\n  no recipiente \\textbf{B}.\n\\item\n  A variação de entropia do sistema é negativa para o processo que\n  ocorre no recipiente \\textbf{A}.\n\\item\n  A variação de entropia do sistema é positiva para o processo que\n  ocorre no recipiente \\textbf{B}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2B14",
@@ -13404,10 +14054,36 @@
         "tex": "Considere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A entropia do {\\(\\ce{HBr}\\)} é maior que a do {\\(\\ce{HF}\\)} a\n  {\\(\\qty{298}{K}\\)}.\n\\item\n  A entropia da amônia é maior que a do neônio a {\\(\\qty{298}{K}\\)}.\n\\item\n  A entropia do ciclopentano é maior que a do pent-1-eno a\n  {\\(\\qty{298}{K}\\)}.\n\\item\n  A entropia do ciclobutano é maior que a do cicloexano a\n  {\\(\\qty{298}{K}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2B11",
@@ -13507,10 +14183,36 @@
         "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{CO2}\\)}\n\\item\n  {\\(\\ce{NO}\\)}\n\\item\n  {\\(\\ce{N2O}\\)}\n\\item\n  {\\(\\ce{Cl2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas com entropia\nresidual não nula.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2B17",
@@ -13817,10 +14519,36 @@
         "tex": "Considere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A variação da entropia independe da quantidade de gás presente no\n  sistema.\\\\\n\\item\n  Se a transformação é isotérmica, a variação da entropia é dada por:\n  {\\(\\Delta S = nR\\ln\\left(\\frac{P_2}{P_1}\\right)\\)}\n\\item\n  Se a transformação é isobárica, a variação de entropia é dada por:\n  {\\(\\Delta S = nC_P\\ln\\left(\\frac{T_2}{T_1}\\right)\\)}\\\\\n\\item\n  Se o sistema realiza um processo cíclico, a variação de entropia é\n  positiva.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2B19",
@@ -13831,10 +14559,36 @@
         "tex": "Considere os processos:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Cristalização de um sal.\n\\item\n  Sublimação da naftalina.\n\\item\n  Mistura de água e álcool.\n\\item\n  Fusão do ferro.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os processos que ocorrem\ncom aumento de entropia do sistema.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2B26",
@@ -13885,10 +14639,36 @@
         "tex": "Considere as reações:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\ce{Cl2(g) + H2O(l) -> HCl(aq) + HClO(aq)}\\)}\n\\item\n  {\\(\\ce{Cu3(PO4)2(s) -> 3 Cu^2+ (aq) + 2 PO4^{3-}(aq)}\\)}\n\\item\n  {\\(\\ce{SO2(g) + Br2(g) + 2 H2O(l) -> H2SO4(aq) + 2 HBr(aq)}\\)}\n\\item\n  {\\(\\ce{4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g)}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações com variação\npositiva de entropia.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2B08",
@@ -13972,10 +14752,36 @@
         "tex": "Moléculas diatômicas idênticas, na forma de um sólido cristalino, podem\nser modeladas como um conjunto de osciladores.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2B29-1P.svg}\n\\caption{Figura}\n\\end{figure}\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  À temperatura de {\\(\\qty{0}{K}\\)} a maioria dos osciladores estará no\n  estado vibracional fundamental, cujo número quântico vibracional é\n  zero.\n\\item\n  À temperatura de {\\(\\qty{0}{K}\\)} todos os osciladores estarão no estado\n  vibracional fundamental, cujo número quântico vibracional é zero.\n\\item\n  O movimento vibracional cessa a {\\(\\qty{0}{K}\\)}.\n\\item\n  O princípio da incerteza de Heisenberg será violado se o movimento\n  vibracional cessar.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2B15",
@@ -14127,10 +14933,36 @@
         "tex": "Considere os processos:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Conversão de grafite e diamante\n\\item\n  Supersaturação de uma solução saturada.\n\\item\n  Cristalização de um sólido amorfo.\n\\item\n  Adsorção do nitrogênio em sílica.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os processos que ocorrem\ncom diminuição de entropia do sistema.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2B09",
@@ -14475,10 +15307,36 @@
         "tex": "Um recipiente de paredes adiabáticas contém duas amostras de água pura\nseparadas por uma parede também adiabática e de volume desprezível. Uma\ndas amostras consiste em {\\(\\qty{54}{g}\\)} de água a\n{\\(\\qty{25}{\\degree C}\\)} e, a outra, em {\\(\\qty{126}{g}\\)} a\n{\\(\\qty{75}{\\degree C}\\)}. A parede que separa as amostras é retirada e\nque as amostras de água se misturam até atingir o equilíbrio.\n\nConsidere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A temperatura da mistura no equilíbrio é de {\\(\\qty{323}{K}\\)}.\n\\item\n  A variação de entalpia no processo é nula.\n\\item\n  A variação de energia interna no processo é nula.\n\\item\n  A variação de entropia no processo é nula.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2B13",
@@ -14788,10 +15646,36 @@
         "tex": "Considere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A energia livre de congelamento da água é negativa a\n  {\\(\\qty{27}{\\degree C}\\)} e {\\(\\qty{1}{atm}\\)}.\n\\item\n  A transição de fase do enxofre orTorrômbico para monoclínico é\n  espontânea para temperaturas acima de {\\(\\qty{95}{\\degree C}\\)}, assim,\n  a entalpia e a entropia do enxofre monoclínico são maiores que as do\n  enxofre orTorrômbico\n\\item\n  A mistura de duas amostras de gás sempre apresenta variação de energia\n  livre negativa.\n\\item\n  A complexação em fase aquosa do cátion níquel (II) com amônia formando\n  {\\(\\ce{[Ni(NH3)6]^{2+}}\\)} é mais espontânea complexação que a com\n  {\\(\\ce{NH2CH2CH2NH2}\\)} ({\\(\\ce{en}\\)}) formando\n  {\\(\\ce{[Ni(en)3]^{2+}}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2C01",
@@ -14802,10 +15686,36 @@
         "tex": "Considere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Uma reação química a temperatura e pressão constantes será espontânea\n  se a variação de entropia do sistema for positiva.\n\\item\n  Uma reação química a temperatura e pressão constantes será espontânea\n  se a variação da energia livre de for negativa.\n\\item\n  Em um sistema reacional em que a única forma de trabalho observável é\n  o trabalho de expansão, a variação da entalpia é igual à quantidade de\n  calor liberada ou absorvida pela reação, a pressão constante.\n\\item\n  Para uma substância simples que admite mais de uma forma alotrópica,\n  não há variação de entalpia na conversão de uma forma em outra.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2C18",
@@ -15279,10 +16189,36 @@
         "tex": "Considere a variação da energia livre molar de uma substância pura com a\ntemperatura em seus estados sólido, líquido e gasoso.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2C04-1P.svg}\n\\caption{Energia livre e estado físico.}\n\\end{figure}\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  As três retas são decrescentes, pois a expressão {\\(G = H - TS\\)} é\n  representada por uma reta com inclinação {\\(-S\\)}.\n\\item\n  As retas \\textbf{1}, \\textbf{2} e \\textbf{3} representam as fases\n  sólida, líquida e gasosa, respectivamente.\n\\item\n  A temperatura {\\(T_a\\)} indica o ponto de fusão da substância.\n\\item\n  Em temperaturas mais altas do que {\\(T_b\\)}, a fase \\textbf{1} é a\n  mais estável.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2C07",
@@ -19159,10 +20095,36 @@
         "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  O valor absoluto da entalpia de hidratação do {\\(\\ce{Na^{+}}\\)} é\n  maior que o do {\\(\\ce{K^{+}}\\)}.\n\\item\n  O valor absoluto da entalpia de hidratação do {\\(\\ce{Br^{-}}\\)} é\n  maior que o do {\\(\\ce{Cl^{-}}\\)}.\n\\item\n  O valor absoluto da entalpia de hidratação do {\\(\\ce{Ca^{2+}}\\)} é\n  maior que o do {\\(\\ce{Al^{3+}}\\)}.\n\\item\n  O valor absoluto da entalpia de hidratação do {\\(\\ce{Ga^{3+}}\\)} é\n  maior que o do {\\(\\ce{Al^{3+}}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2E13",
@@ -19457,10 +20419,36 @@
         "tex": "O gás dióxido de carbono dissolvido em uma amostra de água em um\nrecipiente parcialmente cheio e lacrado entrou em equilíbrio com sua\npressão parcial no ar que está acima da solução. Considere as operações.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A pressão parcial do gás {\\(\\ce{CO2}\\)} dobra por adição de mais\n  {\\(\\ce{CO2}\\)}.\n\\item\n  A pressão total do gás sobre o líquido dobra por adição de nitrogênio.\n\\item\n  A pressão parcial de {\\(\\ce{CO2}\\)} é aumentada por compressão do gás\n  até um terço do volume original.\n\\item\n  A temperatura é aumentada mantendo a pressão total constante.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as operações que levam ao\naumento da concentração de {\\(\\ce{CO2}\\)} em solução.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2E26",
@@ -19485,10 +20473,36 @@
         "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E08-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Ao dissolver {\\(\\qty{130}{g}\\)} de {\\(\\ce{KNO3}\\)} em {\\(\\qty{200}{g}\\)}\n  de água, a {\\(\\qty{40}{\\degree C}\\)}, a solução obtida é saturada e\n  possui {\\(\\qty{70}{g}\\)} de corpo de fundo.\n\\item\n  Ao dissolver {\\(\\qty{20}{g}\\)} de {\\(\\ce{Ce2(SO4)3}\\)} em\n  {\\(\\qty{300}{g}\\)} de água a {\\(\\qty{10}{\\degree C}\\)} e, posteriormente,\n  aquecer a solução até {\\(\\qty{90}{\\degree C}\\)} haverá gradativa\n  precipitação da substância.\n\\item\n  A menor quantidade de água necessária para dissolver completamente\n  {\\(\\qty{140}{g}\\)} de {\\(\\ce{K2Cr2O7}\\)} a {\\(\\qty{90}{\\degree C}\\)} é\n  cerca de {\\(\\qty{150}{g}\\)}.\n\\item\n  O nitrato de sódio é a substância mais solúvel a\n  {\\(\\qty{100}{\\degree C}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2E20",
@@ -19954,10 +20968,36 @@
         "tex": "A dissolução do sulfato de lítio ocorre com aumento de temperatura da\nsolução, já a dissolução do nitrato de amônio ocorre com o resfriamento\nda solução.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A entalpia de rede do sulfato de lítio é menor que sua entalpia de\n  hidratação.\n\\item\n  A entalpia de rede do nitrato de amônio é maior que sua entalpia de\n  hidratação.\n\\item\n  A dissolução do sulfato de lítio aumenta a entropia do sistema.\n\\item\n  A dissolução do nitrato de amônio diminui a entropia do sistema.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2E24",
@@ -20141,10 +21181,36 @@
         "tex": "Considere um gás modelado pela equação de Van der Waals.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Ao dobrar a quantidade de gás em um recipiente, mantendo volume e\n  temperatura constantes, a frequência de choque das partículas com as\n  paredes do recipiente também dobrará, portanto, a pressão de gás\n  dobrará.\n\\item\n  Considerando as interações intermoleculares na fase gasosa, de\n  natureza atrativa, há uma redução na frequência de choque das\n  partículas com as paredes do recipiente, resultando em uma pressão\n  menor do que a prevista pela Lei dos Gases Ideais.\n\\item\n  Considerando o volume intrínseco do sistema, parte do volume do\n  recipiente não está disponível para as moléculas de gás, resultando em\n  um volume menor do que o previsto pela Lei dos Gases Ideais.\n\\item\n  A equação de Van der Waals se aproxima à Lei dos Gases Ideais sob\n  baixas pressões e altas temperaturas.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3B04",
@@ -21018,10 +22084,36 @@
         "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Nitrato de cádmio, {\\(\\ce{Cd(NO3)2}\\)}.\n\\item\n  Acetato de cobre (II), {\\(\\ce{Cu(CH3CO2)2}\\)}.\n\\item\n  Hidróxido de cobalto (III), {\\(\\ce{Co(OH)3}\\)}.\n\\item\n  Brometo de prata, {\\(\\ce{AgBr}\\)}.\n\\end{enumerate}\n\nAssinale a alternativa que relaciona os compostos solúveis em água.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3H11",
@@ -21152,10 +22244,36 @@
         "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Fosfato de potássio, {\\(\\ce{K3PO4}\\)}.\n\\item\n  Cloreto de chumbo (II), {\\(\\ce{PbCl2}\\)}.\n\\item\n  Sulfeto de cádmio, {\\(\\ce{CdS}\\)}.\n\\item\n  Sulfato de bário, {\\(\\ce{BaSO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis em\nágua.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3H06",
@@ -21524,10 +22642,36 @@
         "tex": "Considere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A condutividade elétrica de uma solução {\\(\\qty{0,1}{mol/L}\\)} de ácido\n  acético é menor que a do ácido acético puro.\n\\item\n  A condutividade elétrica de uma solução de cloreto de amônio é igual a\n  de uma solução de hidróxido de amônio de mesma concentração.\n\\item\n  A condutividade elétrica de uma solução de cloreto de sódio é maior\n  que a de uma solução de cloreto de rubídio de mesma concentração.\n\\item\n  A condutividade elétrica de uma solução saturada em iodeto de chumbo é\n  maior que a do sal fundido.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{incorretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3C25",
@@ -23488,10 +24632,36 @@
         "tex": "Considere a reação química:\n\n{\\[\n\\ce{\\textbf{A}(g) -> \\textbf{B}(g)}\n\\]}\n\nConsidere as proposições:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Se {\\([\\ce{\\textbf{A}}]\\)} variar linearmente com o tempo, a lei de\n  velocidade da reação dependerá somente da constante de velocidade.\n\\item\n  Se {\\(1/[\\ce{\\textbf{A}}]\\)} variar linearmente com o tempo, a reação\n  será de segunda ordem.\n\\item\n  Se a velocidade da reação variar linearmente com\n  {\\([\\ce{\\textbf{A}}]\\)}, a reação será de primeira ordem.\n\\item\n  Se a velocidade da reação variar linearmente com\n  {\\([\\ce{\\textbf{A}}]^2\\)}, a reação será de segunda ordem.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3D16",
@@ -24434,10 +25604,36 @@
         "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Uma reação química realizada com a adição de um catalisador é\n  denominada heterogênea se existir uma superfície de contato visível\n  entre os reagentes e o catalisador.\n\\item\n  A ordem de qualquer reação química em relação à concentração do\n  catalisador é zero.\n\\item\n  A energia livre de uma reação química realizada com a adição de um\n  catalisador é menor que a da reação não catalisada.\n\\item\n  Um dos produtos de uma reação química pode ser o catalisador dessa\n  mesma reação.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E25",
@@ -24540,10 +25736,36 @@
         "tex": "Considere a distribuição de velocidades para os reagentes de uma reação\nem duas temperaturas.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3E19-1P.svg}\n\\caption{fração por energia}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A constante de equilíbrio da reação é igual em {\\(T_1\\)} e em\n  {\\(T_2\\)}.\n\\item\n  A velocidade da reação é menor em {\\(T_1\\)} do que em {\\(T2\\)}.\n\\item\n  A constante de velocidade da reação é igual em {\\(T_1\\)} e em\n  {\\(T_2\\)}.\n\\item\n  Em {\\(T_1\\)}, há menos moléculas com energia suficiente para a reação\n  do que em {\\(T_2\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E14",
@@ -24906,10 +26128,36 @@
         "tex": "A constante de velocidade de uma reação foi medida em várias\ntemperaturas, com os seguintes resultados:\n\n\\begin{figure}\n\\centering\n\\includegraphics{3E16-1P.svg}\n\\caption{ln(k) por temperatura}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  O trecho {\\(P\\)}-{\\(Q\\)} é referente a reação direta, enquanto o\n  trecho {\\(Q\\)}-{\\(R\\)} se refere à reação inversa.\n\\item\n  Para temperaturas menores que {\\(T_\\text{a}\\)}, o mecanismo\n  controlador da reação em questão difere daquele para temperaturas\n  maiores que {\\(T_\\text{a}\\)}.\n\\item\n  A energia de ativação da reação no trecho {\\(P\\)}-{\\(Q\\)} é menor que\n  a no trecho {\\(Q\\)}-{\\(R\\)}.\n\\item\n  A energia de ativação da reação direta é menor que a da reação\n  inversa.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E10",
@@ -24986,10 +26234,36 @@
         "tex": "Considere as proposições a respeito da cinética de reações\nbimoleculares.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  A constante cinética é proporcional à frequência de colisões entre as\n  moléculas dos reagentes.\n\\item\n  A constante cinética é proporcional à velocidade média das moléculas.\n\\item\n  A constante cinética é proporcional à seção transversal de colisão, a\n  área que uma molécula mostra como alvo durante a colisão.\n\\item\n  A constante cinética é proporcional ao número de moléculas cuja\n  energia cinética relativa é maior ou igual à energia de ativação da\n  reação.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3E08",
@@ -25000,10 +26274,36 @@
         "tex": "Considere as ações em um reator onde é conduzida a dimerização do\n{\\(\\ce{NO2}\\)} em fase gasosa.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Condução da reação em um solvente orgânico.\n\\item\n  Redução do volume do recipiente.\n\\item\n  Aumento da temperatura.\n\\item\n  Adição de catalisador.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as ações que resultariam\nna mudança da constante cinética da reação.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3E23",
@@ -26344,10 +27644,36 @@
         "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  No equilíbrio, as constantes de velocidade das reações direta e\n  inversa são iguais.\n\\item\n  A constante de equilíbrio de uma reação é igual à constante de\n  velocidade da reação direta dividida pela constante de velocidade da\n  reação inversa.\n\\item\n  Em uma reação que é uma série de etapas de equilíbrio, a constante de\n  equilíbrio total é igual ao produto de todas as constantes de\n  velocidade das reações diretas dividido pelo produto de todas as\n  constantes de velocidade das reações inversas.\n\\item\n  O aumento da concentração de um produto aumenta a velocidade da reação\n  inversa e, por isso, a velocidade da reação direta também tem de\n  aumentar.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições\n\\emph{corretas}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**2**",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3F24",
@@ -27105,10 +28431,36 @@
         "tex": "Considere os processos químicos a seguir.\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  Formação da água gasosa a partir de {\\(\\ce{H2}\\)} e {\\(\\ce{O2}\\)}.\n\\item\n  Formação da amônia a partir de {\\(\\ce{H2}\\)} e {\\(\\ce{N2}\\)}.\n\\item\n  Desidrogenaçao do etano forando eteno e {\\(\\ce{H2}\\)}.\n\\item\n  Combustão do metano.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os processos cujo valor\nabsoluto da entalpia de reação aumenta com a temperatura.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "md": "**3**",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "md": "**4**",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3A48",

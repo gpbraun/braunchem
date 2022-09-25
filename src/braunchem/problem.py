@@ -121,7 +121,7 @@ class Problem(BaseModel):
         soup, solution = convert.soup_split(soup, "hr")
 
         # problema objetivo: normal
-        choice_list = soup.find("ul", class_="task-list")
+        choice_list = soup.find("ul", {"class": "task-list"})
         if choice_list:
             choices = []
             for index, li in enumerate(choice_list.find_all("li")):
@@ -140,8 +140,9 @@ class Problem(BaseModel):
             return cls.parse_obj(problem)
 
         # problema objetivo: V ou F
-        proposition_list = soup.find("ol", class_="task-list")
-        if proposition_list:
+        proposition_input = soup.find("input", {"type": "checkbox"})
+        if proposition_input:
+            proposition_list = proposition_input.parent.parent
             true_props = []
             for index, li in enumerate(proposition_list.find_all("li")):
                 check_box = li.find("input").extract()

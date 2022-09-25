@@ -6,7 +6,6 @@ import braunchem.utils.latex as latex
 import braunchem.utils.config as config
 
 import os
-import sys
 import subprocess
 import shutil
 import importlib.resources
@@ -141,7 +140,7 @@ def copy_all(loc, dest):
 
 def run_latexmk(tex_path: str | Path, tmp_dir: str | Path):
     """Executa o comando `latexmk`."""
-    logging.info(f"Compilando o arquivo {tex_path}.")
+    logging.info(f"Compilando o arquivo {tex_path}...")
     subprocess.run(
         [
             "latexmk",
@@ -150,17 +149,15 @@ def run_latexmk(tex_path: str | Path, tmp_dir: str | Path):
             "-file-line-error",
             "-pdf",
             "-cd",
-            f"-output-directory={tmp_dir}",
-            f"{tex_path}",
+            tex_path,
         ],
         stdout=subprocess.DEVNULL,
     )
-    logging.info(f"Arquivo {tex_path} compilado.")
+    logging.info(f"Arquivo {tex_path} compilado!")
 
 
 def run_pdf2svg(tex_path: str | Path, svg_path: str | Path | None = None):
     """Executa o comando `pdf2svg`."""
-    logging.info(f"Convertendo o arquivo {tex_path} em {svg_path}.")
     subprocess.run(
         [
             "pdf2svg",
@@ -169,6 +166,7 @@ def run_pdf2svg(tex_path: str | Path, svg_path: str | Path | None = None):
         ],
         stdout=subprocess.DEVNULL,
     )
+    logging.info(f"Arquivo {tex_path} convertido em {svg_path}.")
 
 
 @dataclass
@@ -312,18 +310,10 @@ def get_database_paths(database_dir: str | Path) -> list[Path]:
                 tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
 
                 tex_doc = LaTeXDocument(
-                    name=name,
+                    id_=name,
                     contents=latex.cmd("input", file_path.resolve()),
                     standalone=True,
                 )
                 tex_doc.svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
 
     return md_files
-
-
-def get_img():
-    return
-
-
-def get_tex_img():
-    return

@@ -23,10 +23,9 @@ def main():
     except FileNotFoundError:
         problem_db = ProblemSet.parse_paths(problem_paths)
 
-    with open(problem_db_path, "w", encoding="utf-8") as problem_json:
-        problem_json.write(problem_db.json(indent=2, ensure_ascii=False))
-
-    print("Problemas carregados")
+    problem_db_path.write_text(
+        problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
     # tópicos
     topic_db_path = Path("data/topics/topics.json")
@@ -36,10 +35,11 @@ def main():
     except FileNotFoundError:
         topic_db = TopicSet.parse_paths(topic_paths, problem_db=problem_db)
 
-    with open(topic_db_path, "w", encoding="utf-8") as topic_json:
-        topic_json.write(topic_db.json(indent=2, ensure_ascii=False))
+    topic_db_path.write_text(
+        topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
-    # topic_db.pdf()
+    topic_db.pdf()
 
 
 if __name__ == "__main__":
