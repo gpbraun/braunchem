@@ -223,7 +223,7 @@ class LaTeXDocument:
             tmp_dir = Path(tmp_dir)
 
         tmp_dir.mkdir(parents=True, exist_ok=True)
-        copy_all("src/braunchem/latex", tmp_dir)
+        copy_all("src/braunchem/latex/templates", tmp_dir)
 
         tex_path = tmp_dir.joinpath(self.id_).with_suffix(".tex")
         tex_path.write_text(self.document())

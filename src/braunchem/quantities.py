@@ -171,10 +171,6 @@ class Quantity(BaseModel):
     def __float__(self):
         return float(self.sci_string)
 
-    def __lt__(self, other):
-        """Comparação em ordem alfabética."""
-        return self.name < other.name
-
     @property
     def sci_string(self):
         """Retorna o valor em notação científica."""
@@ -330,7 +326,7 @@ class Table(BaseModel):
                 qty = Quantity.parse_string(qty_id_)
                 qtys.append(qty)
 
-        return Table(quantities=sorted(qtys))
+        return Table(quantities=sorted(qtys), key=lambda qty: qty.name)
 
     def equation_list(self):
         if not self.quantities:

@@ -44,9 +44,6 @@ class Topic(BaseModel):
     sections: list[str]
     problem_sets: list[ProblemSet] | None = None
 
-    def __lt__(self, other):
-        return self.id_ < other.id_
-
     def tex_answers(self):
         """ "Retorna o gabarito dos problemas do tópico em LaTeX."""
         if not self.problem_sets:
@@ -191,4 +188,4 @@ class TopicSet(BaseModel):
         for topic_path in topic_paths:
             topics.append(Topic.parse_mdfile(topic_path, problem_db))
 
-        return cls(date=datetime.now(), topics=sorted(topics))
+        return cls(date=datetime.now(), topics=sorted(topics, key=lambda topic: topic.id_))

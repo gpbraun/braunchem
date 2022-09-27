@@ -40,7 +40,7 @@ def env(env_name: str, content: str, keys=None):
 
     end = cmd("end", env_name)
 
-    return f"\n{begin}\n\n{content}\n{end}\n"
+    return f"\n{begin}\n{content}\n{end}\n"
 
 
 def document(preamble, body):
@@ -91,8 +91,8 @@ def enum(name, items, cols=0, auto_cols=False, sep_cmd="item"):
     return env(name, f"{cols}{content}")
 
 
-PU_CMD = re.compile(r"\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}")
-UNIT_EXP = re.compile(r"[\+\-]?\d+")
+PU_CMD_REGEX = re.compile(r"\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}")
+UNIT_EXP_REGEX = re.compile(r"[\+\-]?\d+")
 
 
 def ce(arg):
@@ -105,7 +105,7 @@ def qty(num, unit):
     if not unit:  # number only
         return cmd("num", [num])
 
-    formated_unit = re.sub(UNIT_EXP, lambda x: f"^{{{x.group(0)}}}", unit)
+    formated_unit = re.sub(UNIT_EXP_REGEX, lambda x: f"^{{{x.group(0)}}}", unit)
     formated_unit = formated_unit.replace("\\mu", "\\micro")
 
     if not num:  # unit ony
@@ -116,7 +116,7 @@ def qty(num, unit):
 
 def pu2qty(content):
     # converts all \pu commands to \unit, \num or \qty
-    return re.sub(PU_CMD, lambda x: qty(x.group(1), x.group(2)), content)
+    return re.sub(PU_CMD_REGEX, lambda x: qty(x.group(1), x.group(2)), content)
 
 
 class List:

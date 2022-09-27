@@ -4,6 +4,7 @@ Esse módulo implementa uma classe para os problemas.
 """
 import braunchem.utils.convert as convert
 import braunchem.utils.latex as latex
+import braunchem.utils.config as config
 from braunchem.utils.convert import Text
 from braunchem.quantities import Table, qtys
 from braunchem.utils.autoprops import autoprops
@@ -93,6 +94,19 @@ class Problem(BaseModel):
         }
 
         return latex.env("problem", contents, keys=parameters)
+
+    def write_texfile(self):
+        """Cria o arquivo em LaTeX do problema."""
+        tex_path = config.TMP_PROBLEMS_DIR.joinpath(self.id_, self.id_).with_suffix(
+            ".tex"
+        )
+        if tex_path.exists():
+            if self.date.timestamp() > tex_path.stat().st_mtime:
+                tex_path.parent.mkdir(parents=True, exist_ok=True)
+                tex_path.write_text(self.tex(), encoding="utf-8")
+        else:
+            tex_path.parent.mkdir(parents=True, exist_ok=True)
+            tex_path.write_text(self.tex(), encoding="utf-8")
 
     @classmethod
     def parse_mdfile(cls, problem_path: str | Path):
@@ -279,6 +293,11 @@ class ProblemSet(BaseModel):
     def update_problems(self, problem_paths: list[str] | list[Path]):
         """Atualiza os problemas do `ProblemSet`."""
         self.problems = list(map(self.get_updated_problem, problem_paths))
+
+    def write_texfiles(self):
+        """Cria os arquivos em LaTeX de todos os problemas."""
+        for problem in self:
+            problem.write_texfile()
 
     @classmethod
     def parse_paths(cls, problem_paths: list[str] | list[Path]):

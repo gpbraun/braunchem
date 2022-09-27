@@ -27,6 +27,8 @@ def main():
         problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
+    problem_db.write_texfiles()
+
     # tópicos
     topic_db_path = Path("data/topics/topics.json")
     try:
