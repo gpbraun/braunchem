@@ -36,13 +36,12 @@ class Topic(BaseModel):
     id_: str
     path: Path
     date: datetime
-    area: str
     title: str
     author: str = "Gabriel Braun"
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     content: Text
     sections: list[str]
-    problem_sets: list[ProblemSet] | None = None
+    problem_sets: list[str] | None = None
 
     def tex_answers(self):
         """ "Retorna o gabarito dos problemas do tópico em LaTeX."""
@@ -104,7 +103,6 @@ class Topic(BaseModel):
             "id_": topic_path.stem,
             "path": topic_path.resolve(),
             "date": datetime.utcfromtimestamp(topic_path.stat().st_mtime),
-            "area": topic_path.parents[1].stem,
         }
 
         # extrair os metadados do arquivo `.md`
@@ -113,9 +111,9 @@ class Topic(BaseModel):
                 topic[attr] = topic_file[attr]
 
         # extrair a lista de problemas
-        if "problems" in topic_file:
+        if "problem_sets" in topic_file:
             problem_sets = []
-            for i, (title, problem_ids) in enumerate(topic_file["problems"].items()):
+            for i, (title, problem_ids) in enumerate(topic_file["problem_sets"].items()):
                 problem_set_id = f"{topic['id_']}{i+1}"
                 problem_sets.append(
                     problem_db.filter(problem_set_id, title, problem_ids)
