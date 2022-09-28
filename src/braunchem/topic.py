@@ -149,11 +149,8 @@ class TopicSet(BaseModel):
     def __iter__(self):
         return iter(self.topics)
 
-    def __getitem__(self, key: str):
-        try:
-            return [topic for topic in self if topic.id_ == key][0]
-        except IndexError:
-            raise KeyError
+    def __getitem__(self, key: str) -> Topic:
+        return next(filter(lambda topic: topic.id_ == key, self), None)
 
     def update_topics(self, topic_paths: list[str | Path], problem_db: ProblemSet):
         """Atualiza os problemas do `ProblemSet`."""
@@ -161,16 +158,18 @@ class TopicSet(BaseModel):
 
         for topic_path in topic_paths:
             topic_id = topic_path.stem
-            path_date = datetime.utcfromtimestamp(topic_path.stat().st_mtime)
 
-            try:
-                if self[topic_id].date < path_date:
-                    logging.warning(f"Tópico {topic_id} atualizado.")
-                    updated_topics.append(Topic.parse_mdfile(topic_path, problem_db))
-                else:
-                    updated_topics.append(self[topic_id])
-            except KeyError:
-                updated_topics.append(Topic.parse_mdfile(topic_path, problem_db))
+            topic = self[topic_id]
+
+            if not topic:
+                topic = Topic.parse_mdfile(topic_path, problem_db)
+                logging.warning(f"Tópico {topic_id} atualizado.")
+
+            elif topic.date.timestamp() < topic_path.stat().st_mtime:
+                topic = Topic.parse_mdfile(topic_path, problem_db)
+                logging.warning(f"Tópico {topic_id} atualizado.")
+
+            updated_topics.append(topic)
 
         self.topics = updated_topics
 

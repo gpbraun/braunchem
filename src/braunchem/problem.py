@@ -205,10 +205,7 @@ class ProblemSet(BaseModel):
         return iter(self.problems)
 
     def __getitem__(self, key: str) -> Problem:
-        try:
-            return [problem for problem in self if problem.id_ == key][0]
-        except IndexError:
-            raise KeyError
+        return next(filter(lambda problem: problem.id_ == key, self), None)
 
     @property
     def is_objective(self) -> bool:
