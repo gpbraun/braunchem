@@ -44,7 +44,7 @@ class Topic(BaseModel):
     problem_sets: list[str] | None = None
 
     def tex_answers(self):
-        """ "Retorna o gabarito dos problemas do tópico em LaTeX."""
+        """Retorna o gabarito dos problemas do tópico em LaTeX."""
         if not self.problem_sets:
             return ""
 
