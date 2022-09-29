@@ -27,15 +27,13 @@ def main():
         problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
     )
 
-    problem_db.write_texfiles()
-
     # tópicos
     topic_db_path = config.TOPICS_DIR.joinpath("topic.json")
-    try:
-        topic_db = TopicSet.parse_file(topic_db_path)
-        topic_db.update_topics(topic_paths, problem_db=problem_db)
-    except FileNotFoundError:
-        topic_db = TopicSet.parse_paths(topic_paths, problem_db=problem_db)
+    # try:
+    #     topic_db = TopicSet.parse_file(topic_db_path)
+    #     topic_db.update_topics(topic_paths, problem_db=problem_db)
+    # except FileNotFoundError:
+    topic_db = TopicSet.parse_paths(topic_paths, problem_db=problem_db)
 
     topic_db_path.write_text(
         topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
