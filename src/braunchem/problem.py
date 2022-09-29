@@ -286,3 +286,29 @@ class ProblemSet(BaseModel):
             problems = list(pool.imap(Problem.parse_mdfile, problem_paths))
 
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
+
+    @classmethod
+    def get_database(
+        cls,
+        problems_dir: str | Path,
+        problem_db_path: str | Path,
+        force_update: bool = False,
+    ):
+        """Atualiza a base de dados"""
+        problem_paths = convert.get_database_paths(problems_dir)
+
+        if not problem_db_path.exists() or force_update:
+            problem_db = cls.parse_paths(problem_paths)
+            problem_db_path.write_text(
+                problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            return problem_db
+
+        problem_db = cls.parse_file(problem_db_path)
+        problem_db.update_problems(problem_paths)
+
+        problem_db_path.write_text(
+            problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+
+        return problem_db

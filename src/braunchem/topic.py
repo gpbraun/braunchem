@@ -7,6 +7,7 @@ import braunchem.utils.config as config
 import braunchem.utils.latex as latex
 from braunchem.problem import Text, ProblemSet
 
+
 import logging
 import importlib.resources
 from datetime import datetime
@@ -187,3 +188,30 @@ class TopicSet(BaseModel):
         return cls(
             date=datetime.now(), topics=sorted(topics, key=lambda topic: topic.id_)
         )
+
+    @classmethod
+    def get_database(
+        cls,
+        topics_dir: str | Path,
+        topic_db_path: str | Path,
+        problem_db: ProblemSet,
+        force_update: bool = False,
+    ):
+        """Atualiza a base de dados"""
+        topic_paths = convert.get_database_paths(topics_dir)
+
+        if not topic_db_path.exists() or force_update:
+            topic_db = cls.parse_paths(topic_paths, problem_db=problem_db)
+            topic_db_path.write_text(
+                topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            return topic_db
+
+        topic_db = cls.parse_file(topic_db_path)
+        topic_db.update_topics(topic_paths, problem_db=problem_db)
+
+        topic_db_path.write_text(
+            topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+
+        return topic_db
