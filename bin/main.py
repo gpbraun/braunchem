@@ -2,9 +2,7 @@ import braunchem.utils.config as config
 from braunchem.problem import ProblemSet
 from braunchem.topic import TopicSet
 
-
 import logging
-from pathlib import Path
 
 
 def main():

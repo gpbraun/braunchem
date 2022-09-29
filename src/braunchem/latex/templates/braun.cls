@@ -772,58 +772,7 @@
 		name .initial:n = latex,
 	}
 
-\cs_set_eq:NN \legacysection \section
-
 \cs_set:Nn \braun_ghost_section: { \subsection*{} \skip_vertical:n {-3em} }
-
-\counterwithout * { subsection } { section }
-\counterwithout * { subsubsection } { subsection }
-
-\RenewDocumentCommand \section { s m }
-	{
-        \IfBooleanF {#1} { \refstepcounter { section } }
-        \group_begin:
-		\braun_ghost_section: 
-
-        \str_case:Vn \l_braun_page_section_type_tl
-			{
-				{ latex }
-				{
-					\Large \textbf {#2}
-				}
-				{ IME }
-				{
-					\skip_vertical:n {-1em}
-					\IMEaltHeader 
-						{ 
-							\bfseries \normalsize  \text_uppercase:n {#2} 
-						} 
-				}
-				{ ITA }
-				{
-					\begin{center}
-						\bfseries \normalsize \text_uppercase:n {#2} 
-						\BraunHRule
-					\end{center}
-				}
-			}
-        \group_end:
-	}
-
-%============================================================%
-%   PAGE STYLE TEMPLATES
-%============================================================%
-
-\keys_define:nn { braun/page }
-    {
-        IME .meta:n = 
-            {
-                header/plain,
-                footer/plain,
-                boxed = true,
-                section/name = IME,
-            }
-    }
 
 \pagestyle { scrheadings }
 
