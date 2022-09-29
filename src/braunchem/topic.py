@@ -30,7 +30,7 @@ class Topic(BaseModel):
         author (str): Autor da teoria.
         content (str): Conteúdo teórico.
         sections (list[str]): Títulos das seções.
-        problem_sets (list[ProblemSet]): Conjuntos de problemas.
+        problem_sets (list[ProblemSet]): Listas de problemas.
     """
 
     id_: str
@@ -41,7 +41,7 @@ class Topic(BaseModel):
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     content: Text
     sections: list[str]
-    problem_sets: list[str] | None = None
+    problem_sets: list[ProblemSet] | None = None
 
     def tex_answers(self):
         """Retorna o gabarito dos problemas do tópico em LaTeX."""
@@ -70,8 +70,8 @@ class Topic(BaseModel):
     @classmethod
     def pdf(cls, topic):
         """Cria o arquivo `pdf` do tópico."""
-        tmp_dir = config.TMP_TOPICS_DIR.joinpath(topic.area, topic.id_)
-        out_dir = config.OUT_DIR.joinpath(topic.area, topic.id_)
+        tmp_dir = config.TMP_TOPICS_DIR.joinpath(topic.id_)
+        out_dir = config.OUT_DIR
         out_path = out_dir.with_name(topic.id_).with_suffix(".pdf")
 
         if out_path.exists():
@@ -96,7 +96,7 @@ class Topic(BaseModel):
             topic_path = Path(topic_path)
 
         # parse `.md`. with YAML metadata
-        topic_file = frontmatter.load(topic_path)
+        metadata, content = frontmatter.parse(topic_path.read_text())
 
         # informações básicas
         topic = {
@@ -105,27 +105,26 @@ class Topic(BaseModel):
             "date": datetime.utcfromtimestamp(topic_path.stat().st_mtime),
         }
 
-        # extrair os metadados do arquivo `.md`
-        for attr in ["title", "author", "affiliation", "template"]:
-            if attr in topic_file:
-                topic[attr] = topic_file[attr]
-
         # extrair a lista de problemas
-        if "problem_sets" in topic_file:
+        problem_set_list = metadata.pop("problems", None)
+        if problem_set_list:
             problem_sets = []
-            for i, (title, problem_ids) in enumerate(topic_file["problem_sets"].items()):
-                problem_set_id = f"{topic['id_']}{i+1}"
+            for i, (title, problem_ids) in enumerate(problem_set_list.items()):
+                problem_set_id = topic["id_"] + str(i + 1)
                 problem_sets.append(
                     problem_db.filter(problem_set_id, title, problem_ids)
                 )
             topic["problem_sets"] = problem_sets
 
+        # extrair os metadados do arquivo `.md`
+        topic.update(metadata)
+
         # extrair o título das seções
-        soup = convert.md2soup(topic_file.content)
+        soup = convert.md2soup(content)
         topic["sections"] = [h1.text for h1 in soup.find_all("h1")]
 
         # conteúdo
-        topic["content"] = Text.parse_md(topic_file.content)
+        topic["content"] = Text.parse_md(content)
 
         return cls.parse_obj(topic)
 
@@ -185,4 +184,6 @@ class TopicSet(BaseModel):
         for topic_path in topic_paths:
             topics.append(Topic.parse_mdfile(topic_path, problem_db))
 
-        return cls(date=datetime.now(), topics=sorted(topics, key=lambda topic: topic.id_))
+        return cls(
+            date=datetime.now(), topics=sorted(topics, key=lambda topic: topic.id_)
+        )

@@ -16,7 +16,7 @@ def main():
     topic_paths = get_database_paths(config.TOPICS_DIR)
 
     # problemas
-    problem_db_path = Path("data/problems/problems.json")
+    problem_db_path = config.PROBLEMS_DIR.joinpath("problems.json")
     try:
         problem_db = ProblemSet.parse_file(problem_db_path)
         problem_db.update_problems(problem_paths)
@@ -30,7 +30,7 @@ def main():
     problem_db.write_texfiles()
 
     # tópicos
-    topic_db_path = Path("data/topics/topics.json")
+    topic_db_path = config.TOPICS_DIR.joinpath("topic.json")
     try:
         topic_db = TopicSet.parse_file(topic_db_path)
         topic_db.update_topics(topic_paths, problem_db=problem_db)
