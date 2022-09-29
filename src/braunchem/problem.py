@@ -95,19 +95,6 @@ class Problem(BaseModel):
 
         return latex.env("problem", contents, keys=parameters)
 
-    def write_texfile(self):
-        """Cria o arquivo em LaTeX do problema."""
-        tex_path = config.TMP_PROBLEMS_DIR.joinpath(self.id_, self.id_).with_suffix(
-            ".tex"
-        )
-        if tex_path.exists():
-            if self.date.timestamp() > tex_path.stat().st_mtime:
-                tex_path.parent.mkdir(parents=True, exist_ok=True)
-                tex_path.write_text(self.tex(), encoding="utf-8")
-        else:
-            tex_path.parent.mkdir(parents=True, exist_ok=True)
-            tex_path.write_text(self.tex(), encoding="utf-8")
-
     @classmethod
     def parse_mdfile(cls, problem_path: str | Path):
         """Cria um `Problem` a partir de um arquivo `.md`."""
@@ -115,7 +102,7 @@ class Problem(BaseModel):
             problem_path = Path(problem_path)
 
         # parse `.md`. with YAML metadata
-        problem_file = frontmatter.load(problem_path)
+        metadata, content = frontmatter.parse(problem_path.read_text())
 
         # informações básicas
         problem = {
@@ -125,11 +112,12 @@ class Problem(BaseModel):
         }
 
         # dados termodinâmicos
-        if "data" in problem_file:
-            problem["data"] = qtys(problem_file["data"])
+        data = metadata.pop("data", None)
+        if data:
+            problem["data"] = qtys(data)
 
         # conteúdo
-        soup = convert.md2soup(problem_file.content)
+        soup = convert.md2soup(content)
 
         # resolução
         soup, solution = convert.soup_split(soup, "hr")
@@ -291,11 +279,6 @@ class ProblemSet(BaseModel):
         """Atualiza os problemas do `ProblemSet`."""
         self.problems = list(map(self.get_updated_problem, problem_paths))
 
-    def write_texfiles(self):
-        """Cria os arquivos em LaTeX de todos os problemas."""
-        for problem in self:
-            problem.write_texfile()
-
     @classmethod
     def parse_paths(cls, problem_paths: list[str] | list[Path]):
         """Cria um `ProblemSet` com os problemas fornecidos."""
@@ -303,3 +286,29 @@ class ProblemSet(BaseModel):
             problems = list(pool.imap(Problem.parse_mdfile, problem_paths))
 
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
+
+    @classmethod
+    def get_database(
+        cls,
+        problems_dir: str | Path,
+        problem_db_path: str | Path,
+        force_update: bool = False,
+    ):
+        """Atualiza a base de dados"""
+        problem_paths = convert.get_database_paths(problems_dir)
+
+        if not problem_db_path.exists() or force_update:
+            problem_db = cls.parse_paths(problem_paths)
+            problem_db_path.write_text(
+                problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            return problem_db
+
+        problem_db = cls.parse_file(problem_db_path)
+        problem_db.update_problems(problem_paths)
+
+        problem_db_path.write_text(
+            problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+
+        return problem_db

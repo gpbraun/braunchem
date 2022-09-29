@@ -224,7 +224,7 @@
 %   MATH
 %============================================================%
 
-\RequirePackage { mathtools, amssymb, textcomp }
+\RequirePackage { mathtools, amssymb, textcomp, cancel }
 
 \numberwithin { equation     } { section }
 \mathtoolsset { showonlyrefs }
