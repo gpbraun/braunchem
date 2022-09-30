@@ -6,7 +6,7 @@ import logging
 
 
 def main():
-    logging.basicConfig(level=logging.DEBUG, filename="bin/main.log", filemode="w")
+    logging.basicConfig(level=logging.INFO, filename="bin/main.log", filemode="w")
 
     config.load_config("bin/config.cfg")
 

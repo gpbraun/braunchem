@@ -63,13 +63,6 @@ class Topic(pydantic.BaseModel):
 
     def write_pdf(self, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `pdf` do tópico."""
-        out_path = out_dir.with_name(self.id_).with_suffix(".pdf")
-
-        if out_path.exists():
-            self.update_date()
-            if self.date < datetime.utcfromtimestamp(out_path.stat().st_mtime):
-                return
-
         tex_doc = convert.Document(
             id_=self.id_,
             title=self.title,
