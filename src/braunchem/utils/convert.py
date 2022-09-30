@@ -115,15 +115,19 @@ class Text(BaseModel):
     @classmethod
     def parse_md(cls, md_str: str):
         """Cria um `Text` a partir de uma string em markdown."""
+        md_str = str(md_str).strip()
+
         tex_str = md2tex(md_str)
-        return cls(md=md_str.strip(), tex=tex_str.strip())
+        return cls(md=md_str, tex=tex_str)
 
     @classmethod
     def parse_html(cls, html_str: str):
         """Cria um `Text` a partir de uma string em LaTeX."""
+        html_str = str(html_str).strip()
+
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
-        return cls(md=md_str.strip(), tex=tex_str.strip())
+        return cls(md=md_str, tex=tex_str)
 
 
 def copy_r(src, dest):
@@ -140,7 +144,7 @@ def copy_all(loc, dest):
 
 def run_latexmk(tex_path: Path, tmp_dir: Path):
     """Executa o comando `latexmk`."""
-    logging.info(f"Compilando o arquivo {tex_path}...")
+    logging.info(f"Compilando o arquivo {tex_path}.")
     subprocess.run(
         [
             "latexmk",

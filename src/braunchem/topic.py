@@ -66,8 +66,9 @@ class Topic(pydantic.BaseModel):
         out_path = out_dir.with_name(self.id_).with_suffix(".pdf")
 
         if out_path.exists():
-            if self.date < out_path.stat().st_mtime:
-                return out_path
+            self.update_date()
+            if self.date < datetime.utcfromtimestamp(out_path.stat().st_mtime):
+                return
 
         tex_doc = convert.Document(
             id_=self.id_,
@@ -87,6 +88,14 @@ class Topic(pydantic.BaseModel):
 
         for problem_set in self.problem_sets:
             problem_set.update(problem_db)
+
+    def update_date(self):
+        """Atualiza os problemas em um tópico."""
+        if not self.problem_sets:
+            return
+
+        problem_set_date = min(problem_set.date for problem_set in self.problem_sets)
+        self.date = min(problem_set_date, self.date)
 
     @classmethod
     def parse_mdfile(cls, topic_path: Path, problem_db: ProblemSet):
@@ -170,9 +179,14 @@ class TopicSet(pydantic.BaseModel):
 
         self.topics = updated_topics
 
+    def update_date(self):
+        for topic in self.topics:
+            topic.update_date()
+
     def write_pdfs(self, out_dir: Path, tmp_dir: Path):
         """Cria o arquivo `pdf` para todos os tópicos."""
-        map(lambda topic: topic.write_pdf(tmp_dir, out_dir), self.topics)
+        for topic in self.topics:
+            topic.write_pdf(tmp_dir, out_dir)
 
     @classmethod
     def parse_paths(cls, topic_paths: list[Path], problem_db: ProblemSet):

@@ -4392,10 +4392,10 @@
             {
               "id_": "2A01",
               "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A01/2A01.md",
-              "date": "2022-09-30T01:35:32.981690",
+              "date": "2022-09-30T01:50:56.893339",
               "statement": {
-                "md": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado por um gás que se expande em $\\pu{500 mL}$ contra uma\npressão de $\\pu{1,2 atm}$.",
-                "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do valor absoluto\ndo trabalho realizado por um gás que se expande em {\\(\\qty{500}{mL}\\)}\ncontra uma pressão de {\\(\\qty{1,2}{atm}\\)}."
+                "md": "**Assinale** a alternativa que mais se aproxima do valor absoluto do\ntrabalho realizado por um gás que se expande em $\\pu{500 mL}$ contra uma\npressão de $\\pu{2,1 atm}$.",
+                "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do valor absoluto\ndo trabalho realizado por um gás que se expande em {\\(\\qty{500}{mL}\\)}\ncontra uma pressão de {\\(\\qty{2,1}{atm}\\)}."
               },
               "solution": null,
               "answer": [
@@ -4611,16 +4611,16 @@
             {
               "id_": "2A06",
               "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A06/2A06.md",
-              "date": "2022-09-21T22:47:38.574803",
+              "date": "2022-09-30T02:16:29.511682",
               "statement": {
-                "md": "Em um calorímetro adiabático foram adicionados $\\pu{300 g}$ de gelo a\n$\\pu{0 \\degree C}$ e $\\pu{400 g}$ de água a $\\pu{55 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final do\nsistema.",
-                "tex": "Em um calorímetro adiabático foram adicionados {\\(\\qty{300}{g}\\)} de gelo\na {\\(\\qty{0}{\\degree C}\\)} e {\\(\\qty{400}{g}\\)} de água a\n{\\(\\qty{55}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura\nfinal do sistema."
+                "md": "Em um calorímetro adiabático foram adicionados $\\pu{300 g}$ de gelo a\n$\\pu{0 \\degree C}$ e $\\pu{400 g}$ de água a $\\pu{55 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final do\nsistema.\n",
+                "tex": "Em um calorímetro adiabático foram adicionados {\\(\\qty{300}{g}\\)} de gelo\na {\\(\\qty{0}{\\degree C}\\)} e {\\(\\qty{400}{g}\\)} de água a\n{\\(\\qty{55}{\\degree C}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura\nfinal do sistema.\n"
               },
               "solution": null,
               "answer": [
                 {
-                  "md": "$\\pu{0 \\degree C}$",
-                  "tex": "{\\(\\qty{0}{\\degree C}\\)}\\\\"
+                  "md": "$\\pu{0 \\degree C}$\n",
+                  "tex": "{\\(\\qty{0}{\\degree C}\\)}\n"
                 }
               ],
               "data": {
@@ -4661,24 +4661,24 @@
               },
               "choices": [
                 {
-                  "md": "$\\pu{-4 \\degree C}$",
-                  "tex": "{\\(\\qty{-4}{\\degree C}\\)}\\\\"
+                  "md": "$\\pu{-4 \\degree C}$\n",
+                  "tex": "{\\(\\qty{-4}{\\degree C}\\)}\n"
                 },
                 {
-                  "md": "$\\pu{-3 \\degree C}$",
-                  "tex": "{\\(\\qty{-3}{\\degree C}\\)}\\\\"
+                  "md": "$\\pu{-3 \\degree C}$\n",
+                  "tex": "{\\(\\qty{-3}{\\degree C}\\)}\n"
                 },
                 {
-                  "md": "$\\pu{0 \\degree C}$",
-                  "tex": "{\\(\\qty{0}{\\degree C}\\)}\\\\"
+                  "md": "$\\pu{0 \\degree C}$\n",
+                  "tex": "{\\(\\qty{0}{\\degree C}\\)}\n"
                 },
                 {
-                  "md": "$\\pu{3 \\degree C}$",
-                  "tex": "{\\(\\qty{3}{\\degree C}\\)}\\\\"
+                  "md": "$\\pu{3 \\degree C}$\n",
+                  "tex": "{\\(\\qty{3}{\\degree C}\\)}\n"
                 },
                 {
-                  "md": "$\\pu{4 \\degree C}$",
-                  "tex": "{\\(\\qty{4}{\\degree C}\\)}"
+                  "md": "$\\pu{4 \\degree C}$\n",
+                  "tex": "{\\(\\qty{4}{\\degree C}\\)}\n"
                 }
               ],
               "correct_choice": 2
