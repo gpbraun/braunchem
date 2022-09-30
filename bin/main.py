@@ -10,18 +10,10 @@ def main():
 
     config.load_config("bin/config.cfg")
 
-    problem_db = ProblemSet.get_database(
-        config.PROBLEMS_DIR, config.PROBLEMS_DIR.joinpath("problems.json")
-    )
+    problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR, force_update=True)
+    topic_db = TopicSet.parse_database(config.TOPICS_DIR, problem_db, force_update=True)
 
-    topic_db = TopicSet.get_database(
-        config.TOPICS_DIR,
-        config.TOPICS_DIR.joinpath("topics.json"),
-        problem_db,
-        # force_update=True,
-    )
-
-    topic_db.pdf()
+    topic_db.write_pdfs(tmp_dir=config.TMP_DIR, out_dir=config.OUT_DIR)
 
 
 if __name__ == "__main__":

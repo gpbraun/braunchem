@@ -116,14 +116,14 @@ class Text(BaseModel):
     def parse_md(cls, md_str: str):
         """Cria um `Text` a partir de uma string em markdown."""
         tex_str = md2tex(md_str)
-        return cls(md=md_str, tex=tex_str)
+        return cls(md=md_str.strip(), tex=tex_str.strip())
 
     @classmethod
     def parse_html(cls, html_str: str):
         """Cria um `Text` a partir de uma string em LaTeX."""
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
-        return cls(md=md_str, tex=tex_str)
+        return cls(md=md_str.strip(), tex=tex_str.strip())
 
 
 def copy_r(src, dest):
@@ -138,7 +138,7 @@ def copy_all(loc, dest):
         copy_r(os.path.join(loc, f), dest)
 
 
-def run_latexmk(tex_path: str | Path, tmp_dir: str | Path):
+def run_latexmk(tex_path: Path, tmp_dir: Path):
     """Executa o comando `latexmk`."""
     logging.info(f"Compilando o arquivo {tex_path}...")
     subprocess.run(
@@ -156,7 +156,7 @@ def run_latexmk(tex_path: str | Path, tmp_dir: str | Path):
     logging.info(f"Arquivo {tex_path} compilado!")
 
 
-def run_pdf2svg(tex_path: str | Path, svg_path: str | Path | None = None):
+def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
     """Executa o comando `pdf2svg`."""
     subprocess.run(
         [
@@ -170,7 +170,7 @@ def run_pdf2svg(tex_path: str | Path, svg_path: str | Path | None = None):
 
 
 @dataclass
-class LaTeXDocument:
+class Document:
     id_: str
     title: str | None = None
     author: str | None = None
@@ -212,16 +212,13 @@ class LaTeXDocument:
             ]
         )
 
-    def pdf(self, tmp_dir: str | Path, out_dir: str | Path | None = None) -> Path:
+    def pdf(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
         """Gera o `pdf` e copia para um diretório de saída.
 
         Args:
-            tmp_dir (str | Path): Diretório para arquivos temporários.
-            out_dir (str | Path): Diretório de saída.
+            tmp_dir (Path): Diretório para arquivos temporários.
+            out_dir (Path): Diretório de saída.
         """
-        if not isinstance(tmp_dir, Path):
-            tmp_dir = Path(tmp_dir)
-
         tmp_dir.mkdir(parents=True, exist_ok=True)
         copy_all("src/braunchem/latex/templates", tmp_dir)
 
@@ -236,16 +233,13 @@ class LaTeXDocument:
 
         return pdf_path
 
-    def svg(self, tmp_dir: str | Path, out_dir: str | Path | None = None) -> Path:
+    def svg(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
         """Gera o `svg` e copia para um diretório de saída.
 
         Args:
-            tmp_dir (str | Path): Diretório para arquivos temporários.
-            out_dir (str | Path): Diretório de saída.
+            tmp_dir (Path): Diretório para arquivos temporários.
+            out_dir (Path): Diretório de saída.
         """
-        if not isinstance(tmp_dir, Path):
-            tmp_dir = Path(tmp_dir)
-
         pdf_path = self.pdf(tmp_dir)
 
         if not out_dir:
@@ -257,18 +251,16 @@ class LaTeXDocument:
         return svg_path
 
 
-def get_database_paths(database_dir: str | Path) -> list[Path]:
+def get_database_paths(database_dir: Path) -> list[Path]:
     """Retorna os endereço dos arquivos `.md` dos problemas no diretório.
 
     Args:
-        database_dir (str | Path): Diretório com os problemas.
+        database_dir (Path): Diretório com os problemas.
 
     Retorna:
         list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
     """
     logging.info(f"Procurando arquivos no diretório: {database_dir}.")
-    if not isinstance(database_dir, Path):
-        database_dir = Path(database_dir)
 
     md_files = []
 
@@ -281,7 +273,7 @@ def get_database_paths(database_dir: str | Path) -> list[Path]:
             # problemas
             if file_path.suffix == ".md":
                 md_files.append(file_path)
-                logging.debug(f"Problema {file_path} adicionado à lista de problemas.")
+                logging.debug(f"Arquivo {file_path} adicionado à lista.")
 
                 continue
 
@@ -309,7 +301,7 @@ def get_database_paths(database_dir: str | Path) -> list[Path]:
                 tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_)
                 tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
 
-                tex_doc = LaTeXDocument(
+                tex_doc = Document(
                     id_=name,
                     contents=latex.cmd("input", file_path.resolve()),
                     standalone=True,

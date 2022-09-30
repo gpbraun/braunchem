@@ -2,9 +2,9 @@
 
 Esse módulo implementa uma classe para os problemas.
 """
+from turtle import update
 import braunchem.utils.convert as convert
 import braunchem.utils.latex as latex
-import braunchem.utils.config as config
 from braunchem.utils.convert import Text
 from braunchem.quantities import Table, qtys
 from braunchem.utils.autoprops import autoprops
@@ -15,10 +15,10 @@ from pathlib import Path
 from multiprocessing import Pool
 
 import frontmatter
-from pydantic import BaseModel
+import pydantic
 
 
-class Problem(BaseModel):
+class Problem(pydantic.BaseModel):
     """Problema.
 
     Atributos:
@@ -96,12 +96,10 @@ class Problem(BaseModel):
         return latex.env("problem", contents, keys=parameters)
 
     @classmethod
-    def parse_mdfile(cls, problem_path: str | Path):
+    def parse_mdfile(cls, problem_path: Path):
         """Cria um `Problem` a partir de um arquivo `.md`."""
-        if not isinstance(problem_path, Path):
-            problem_path = Path(problem_path)
+        logging.info(f"Problema {problem_path} atualizado.")
 
-        # parse `.md`. with YAML metadata
         metadata, content = frontmatter.parse(problem_path.read_text())
 
         # informações básicas
@@ -173,7 +171,7 @@ class Problem(BaseModel):
         return cls.parse_obj(problem)
 
 
-class ProblemSet(BaseModel):
+class ProblemSet(pydantic.BaseModel):
     """Conjunto de Problemas.
 
     Atributos:
@@ -245,42 +243,49 @@ class ProblemSet(BaseModel):
 
         return ProblemSet(id_=problem_set_id, title=title, date=date, problems=problems)
 
-    def get_updated_problem(self, problem_path: str | Path) -> Problem:
+    def get_updated_problem(self, problem_path: Path) -> Problem:
         """Retorna a versão mais recente de um problema no `ProblemSet`.
 
         Se a versão em `self` é mais recente, retorna essa versão.
         Em caso contrário, retorna a versão parseada em `problem_path`.
 
         Args:
-            problems_path (str | Path): Endereço do problema.
+            problems_path (Path): Endereço do problema.
 
         Retorna:
             Problem: Problema atualizado.
         """
-        if not isinstance(problem_path, Path):
-            problem_path = Path(problem_path)
-
         problem_id = problem_path.stem
-        path_date = datetime.utcfromtimestamp(problem_path.stat().st_mtime)
+        problem_date = datetime.utcfromtimestamp(problem_path.stat().st_mtime)
 
-        try:
-            if self[problem_id].date < path_date:
-                logging.warning(f"Problema {problem_id} atualizado.")
-                problem = Problem.parse_mdfile(problem_path)
-            else:
-                problem = self[problem_id]
-                problem.path = problem_path.resolve()
-        except KeyError:
-            problem = Problem.parse_mdfile(problem_path)
+        problem = self[problem_id]
 
+        if not problem:
+            return Problem.parse_mdfile(problem_path)
+
+        if problem.date < problem_date:
+            return Problem.parse_mdfile(problem_path)
+
+        logging.debug(f"Problema {problem_id} mantido.")
+        problem.path = problem_path.resolve()
         return problem
 
-    def update_problems(self, problem_paths: list[str] | list[Path]):
+    def update_problems(self, problem_paths: list[Path]):
         """Atualiza os problemas do `ProblemSet`."""
         self.problems = list(map(self.get_updated_problem, problem_paths))
 
+    def update(self, other):
+        """Atualiza os problemas do `ProblemSet` com os problemas de outro `ProblemSet`"""
+        updated_problems = []
+        for problem in self.problems:
+            updated_problem = other[problem.id_]
+            if updated_problem:
+                updated_problems.append(other[problem.id_])
+
+        self.problems = updated_problems
+
     @classmethod
-    def parse_paths(cls, problem_paths: list[str] | list[Path]):
+    def parse_paths(cls, problem_paths: list[Path]):
         """Cria um `ProblemSet` com os problemas fornecidos."""
         with Pool() as pool:
             problems = list(pool.imap(Problem.parse_mdfile, problem_paths))
@@ -288,26 +293,26 @@ class ProblemSet(BaseModel):
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
 
     @classmethod
-    def get_database(
+    def parse_database(
         cls,
-        problems_dir: str | Path,
-        problem_db_path: str | Path,
+        problems_dir: Path,
         force_update: bool = False,
     ):
         """Atualiza a base de dados"""
+        problem_json_path = problems_dir.joinpath("problems.json")
         problem_paths = convert.get_database_paths(problems_dir)
 
-        if not problem_db_path.exists() or force_update:
+        if not problem_json_path.exists() or force_update:
             problem_db = cls.parse_paths(problem_paths)
-            problem_db_path.write_text(
+            problem_json_path.write_text(
                 problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
             )
             return problem_db
 
-        problem_db = cls.parse_file(problem_db_path)
+        problem_db = cls.parse_file(problem_json_path)
         problem_db.update_problems(problem_paths)
 
-        problem_db_path.write_text(
+        problem_json_path.write_text(
             problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
         )
 

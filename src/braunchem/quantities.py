@@ -342,11 +342,11 @@ class Table(BaseModel):
         latex_list = latex.List("datalist", [x.display for x in self])
         return latex_list.display()
 
-    def append_csv(self, csv_file: str | Path):
+    def append_csv(self, csv_file: Path):
         """Adiciona os dados de um `csv`.
 
         Args:
-            csv_file (str | Path): Arquivo `csv`
+            csv_file (Path): Arquivo `csv`
         """
         for qty in csv2quantities(csv_file):
             self.append(qty)
@@ -361,7 +361,7 @@ class Table(BaseModel):
             self.append_csv(csv)
 
 
-def get_table_paths(table_db_path: str | Path):
+def get_table_paths(table_db_path: Path):
     """Retorna a lista com todas as tabelas em `.csv` no diretório."""
     table_files = []
 

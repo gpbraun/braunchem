@@ -3,26 +3,19 @@
 Esse módulo implementa uma classe para os tópicos.
 """
 import braunchem.utils.convert as convert
-import braunchem.utils.config as config
 import braunchem.utils.latex as latex
-from braunchem.problem import Text, ProblemSet
-
+from braunchem.utils.convert import Text
+from braunchem.problem import ProblemSet
 
 import logging
-import importlib.resources
 from datetime import datetime
 from pathlib import Path
-from pydantic import BaseModel
-from multiprocessing import Pool
 
 import frontmatter
+import pydantic
 
 
-DB_PATH = importlib.resources.files("braunchem.data")
-"""Diretório da base de dados."""
-
-
-class Topic(BaseModel):
+class Topic(pydantic.BaseModel):
     """Tópico.
 
     Atributos:
@@ -68,35 +61,38 @@ class Topic(BaseModel):
         """Retorna o conteúdo do tópico em LaTeX."""
         return self.content.tex + self.tex_statements() + self.tex_answers()
 
-    @classmethod
-    def pdf(cls, topic):
+    def write_pdf(self, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `pdf` do tópico."""
-        tmp_dir = config.TMP_TOPICS_DIR.joinpath(topic.id_)
-        out_dir = config.OUT_DIR
-        out_path = out_dir.with_name(topic.id_).with_suffix(".pdf")
+        out_path = out_dir.with_name(self.id_).with_suffix(".pdf")
 
         if out_path.exists():
-            if topic.date < out_path.stat().st_mtime:
+            if self.date < out_path.stat().st_mtime:
                 return out_path
 
-        tex_doc = convert.LaTeXDocument(
-            id_=topic.id_,
-            title=topic.title,
-            author=topic.author,
-            affiliation=topic.affiliation,
+        tex_doc = convert.Document(
+            id_=self.id_,
+            title=self.title,
+            author=self.author,
+            affiliation=self.affiliation,
             template="braun, twocolumn",
-            contents=topic.tex(),
+            contents=self.tex(),
         )
 
-        return tex_doc.pdf(tmp_dir, out_dir)
+        tex_doc.pdf(tmp_dir, out_dir)
+
+    def update_problems(self, problem_db: ProblemSet):
+        """Atualiza os problemas em um tópico."""
+        if not self.problem_sets:
+            return
+
+        for problem_set in self.problem_sets:
+            problem_set.update(problem_db)
 
     @classmethod
-    def parse_mdfile(cls, topic_path: str | Path, problem_db: ProblemSet):
+    def parse_mdfile(cls, topic_path: Path, problem_db: ProblemSet):
         """Cria um `Topic` a partir de um arquivo `.md`."""
-        if not isinstance(topic_path, Path):
-            topic_path = Path(topic_path)
+        logging.info(f"Tópico {topic_path} atualizado.")
 
-        # parse `.md`. with YAML metadata
         metadata, content = frontmatter.parse(topic_path.read_text())
 
         # informações básicas
@@ -130,15 +126,17 @@ class Topic(BaseModel):
         return cls.parse_obj(topic)
 
 
-class TopicSet(BaseModel):
+class TopicSet(pydantic.BaseModel):
     """Conjunto de tópicos.
 
     Atributos:
         date (datetime): Data.
-        topics (list[str]): Conjuntos de tópicos.
+        topics (list[Topic]): Conjuntos de tópicos.
     """
 
+    id_: str
     date: datetime
+    title: str
     topics: list[Topic]
 
     def __len__(self):
@@ -150,67 +148,59 @@ class TopicSet(BaseModel):
     def __getitem__(self, key: str) -> Topic:
         return next(filter(lambda topic: topic.id_ == key, self), None)
 
-    def update_topics(self, topic_paths: list[str | Path], problem_db: ProblemSet):
+    def update_topics(self, topic_paths: list[Path], problem_db: ProblemSet):
         """Atualiza os problemas do `ProblemSet`."""
         updated_topics = []
 
         for topic_path in topic_paths:
             topic_id = topic_path.stem
+            topic_date = datetime.utcfromtimestamp(topic_path.stat().st_mtime)
 
             topic = self[topic_id]
 
             if not topic:
                 topic = Topic.parse_mdfile(topic_path, problem_db)
-                logging.warning(f"Tópico {topic_id} atualizado.")
 
-            elif topic.date.timestamp() < topic_path.stat().st_mtime:
+            elif topic.date < topic_date:
                 topic = Topic.parse_mdfile(topic_path, problem_db)
-                logging.warning(f"Tópico {topic_id} atualizado.")
 
+            logging.debug(f"Tópico {topic_id} mantido.")
+            topic.update_problems(problem_db)
             updated_topics.append(topic)
 
         self.topics = updated_topics
 
-    def pdf(self):
+    def write_pdfs(self, out_dir: Path, tmp_dir: Path):
         """Cria o arquivo `pdf` para todos os tópicos."""
-        with Pool() as pool:
-            pdfs = list(pool.imap(Topic.pdf, self.topics))
-        return pdfs
+        map(lambda topic: topic.write_pdf(tmp_dir, out_dir), self.topics)
 
     @classmethod
-    def parse_paths(cls, topic_paths: list[str | Path], problem_db: ProblemSet):
+    def parse_paths(cls, topic_paths: list[Path], problem_db: ProblemSet):
         """Cria um `TopicSet` com os endereços problemas fornecidos."""
-        topics = []
+        path_parser = lambda topic_path: Topic.parse_mdfile(topic_path, problem_db)
+        topics = list(map(path_parser, topic_paths))
 
-        for topic_path in topic_paths:
-            topics.append(Topic.parse_mdfile(topic_path, problem_db))
-
-        return cls(
-            date=datetime.now(), topics=sorted(topics, key=lambda topic: topic.id_)
-        )
+        return cls(id_="root", title="ROOT", date=datetime.now(), topics=topics)
 
     @classmethod
-    def get_database(
-        cls,
-        topics_dir: str | Path,
-        topic_db_path: str | Path,
-        problem_db: ProblemSet,
-        force_update: bool = False,
+    def parse_database(
+        cls, topics_dir: Path, problem_db: ProblemSet, force_update: bool = False
     ):
         """Atualiza a base de dados"""
+        topic_json_path = topics_dir.joinpath("topics.json")
         topic_paths = convert.get_database_paths(topics_dir)
 
-        if not topic_db_path.exists() or force_update:
+        if not topic_json_path.exists() or force_update:
             topic_db = cls.parse_paths(topic_paths, problem_db=problem_db)
-            topic_db_path.write_text(
+            topic_json_path.write_text(
                 topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
             )
             return topic_db
 
-        topic_db = cls.parse_file(topic_db_path)
+        topic_db = cls.parse_file(topic_json_path)
         topic_db.update_topics(topic_paths, problem_db=problem_db)
 
-        topic_db_path.write_text(
+        topic_json_path.write_text(
             topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
         )
 
