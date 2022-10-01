@@ -2,11 +2,11 @@
 
 Esse módulo implementa funções para conversão entre diferentes formatos.
 """
+from braunchem.latex.document import Document
 import braunchem.utils.latex as latex
 import braunchem.utils.config as config
 
 import os
-import subprocess
 import shutil
 import importlib.resources
 import logging
@@ -115,6 +115,9 @@ class Text(BaseModel):
     @classmethod
     def parse_md(cls, md_str: str):
         """Cria um `Text` a partir de uma string em markdown."""
+        if not md_str:
+            return
+
         md_str = str(md_str).strip()
 
         tex_str = md2tex(md_str)
@@ -123,136 +126,14 @@ class Text(BaseModel):
     @classmethod
     def parse_html(cls, html_str: str):
         """Cria um `Text` a partir de uma string em LaTeX."""
+        if not html_str:
+            return
+
         html_str = str(html_str).strip()
 
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
         return cls(md=md_str, tex=tex_str)
-
-
-def copy_r(src, dest):
-    try:
-        shutil.copy(src, dest)
-    except shutil.SameFileError:
-        pass
-
-
-def copy_all(loc, dest):
-    for f in os.listdir(loc):
-        copy_r(os.path.join(loc, f), dest)
-
-
-def run_latexmk(tex_path: Path, tmp_dir: Path):
-    """Executa o comando `latexmk`."""
-    logging.info(f"Compilando o arquivo {tex_path}.")
-    subprocess.run(
-        [
-            "latexmk",
-            "-shell-escape",
-            "-interaction=nonstopmode",
-            "-file-line-error",
-            "-pdf",
-            "-cd",
-            tex_path,
-        ],
-        stdout=subprocess.DEVNULL,
-    )
-    logging.info(f"Arquivo {tex_path} compilado!")
-
-
-def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
-    """Executa o comando `pdf2svg`."""
-    subprocess.run(
-        [
-            "pdf2svg",
-            f"{tex_path}",
-            f"{svg_path}",
-        ],
-        stdout=subprocess.DEVNULL,
-    )
-    logging.info(f"Arquivo {tex_path} convertido em {svg_path}.")
-
-
-@dataclass
-class Document:
-    id_: str
-    title: str | None = None
-    author: str | None = None
-    affiliation: str | None = None
-    template: str | None = None
-    contents: str | None = None
-    standalone: bool = False
-
-    def preamble(self):
-        if self.standalone:
-            return ""
-
-        return "\n".join(
-            [
-                latex.cmd("title", self.title) if self.title else "",
-                latex.cmd("author", self.author) if self.author else "",
-                latex.cmd("affiliation", self.affiliation) if self.affiliation else "",
-            ]
-        )
-
-    def documentclass(self):
-        if self.standalone:
-            return latex.cmd("documentclass", "braunfigure")
-
-        return f"\\documentclass[{self.template}]{{braun}}\n"
-
-    def body(self):
-        if self.standalone:
-            return latex.env("document", self.contents)
-
-        return latex.env("document", f"\\maketitle\n\n{self.contents}")
-
-    def document(self):
-        return "\n".join(
-            [
-                self.documentclass(),
-                self.preamble(),
-                self.body(),
-            ]
-        )
-
-    def pdf(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
-        """Gera o `pdf` e copia para um diretório de saída.
-
-        Args:
-            tmp_dir (Path): Diretório para arquivos temporários.
-            out_dir (Path): Diretório de saída.
-        """
-        tmp_dir.mkdir(parents=True, exist_ok=True)
-        copy_all("src/braunchem/latex/templates", tmp_dir)
-
-        tex_path = tmp_dir.joinpath(self.id_).with_suffix(".tex")
-        tex_path.write_text(self.document())
-        run_latexmk(tex_path, tmp_dir)
-        pdf_path = tex_path.with_suffix(".pdf")
-
-        if out_dir:
-            out_dir.mkdir(parents=True, exist_ok=True)
-            shutil.copy(src=tex_path.with_suffix(".pdf"), dst=out_dir)
-
-        return pdf_path
-
-    def svg(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
-        """Gera o `svg` e copia para um diretório de saída.
-
-        Args:
-            tmp_dir (Path): Diretório para arquivos temporários.
-            out_dir (Path): Diretório de saída.
-        """
-        pdf_path = self.pdf(tmp_dir)
-
-        if not out_dir:
-            out_dir = tmp_dir
-
-        svg_path = out_dir.joinpath(self.id_).with_suffix(".svg")
-        run_pdf2svg(pdf_path, svg_path)
-
-        return svg_path
 
 
 def get_database_paths(database_dir: Path) -> list[Path]:
@@ -264,8 +145,6 @@ def get_database_paths(database_dir: Path) -> list[Path]:
     Retorna:
         list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
     """
-    logging.info(f"Procurando arquivos no diretório: {database_dir}.")
-
     md_files = []
 
     for root, _, files in os.walk(database_dir):

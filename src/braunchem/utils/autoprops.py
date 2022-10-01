@@ -2,7 +2,7 @@
 
 Esse módulo implementa funções para geração automática de alternativas.
 """
-from braunchem.utils.convert import Text
+from braunchem.utils.text import Text
 
 
 def autoprops(true_props):

@@ -2,10 +2,11 @@
 
 Esse módulo implementa uma classe para os tópicos.
 """
-import braunchem.utils.convert as convert
+import braunchem.utils.text as text
 import braunchem.utils.latex as latex
-from braunchem.utils.convert import Text
+from braunchem.utils.text import Text
 from braunchem.problem import ProblemSet
+from braunchem.latex.document import Document
 
 import logging
 from datetime import datetime
@@ -14,12 +15,14 @@ from pathlib import Path
 import frontmatter
 import pydantic
 
+logger = logging.getLogger(__name__)
+
 
 class Topic(pydantic.BaseModel):
     """Tópico.
 
     Atributos:
-        id_ (str): Identificador único.
+        id_ (str): Identificador único.ProblemSet
         title (str): Título do tópico.
         author (str): Autor da teoria.
         content (str): Conteúdo teórico.
@@ -33,8 +36,8 @@ class Topic(pydantic.BaseModel):
     title: str
     author: str = "Gabriel Braun"
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
-    content: Text
     sections: list[str]
+    content: Text
     problem_sets: list[ProblemSet] | None = None
 
     def tex_answers(self):
@@ -63,7 +66,7 @@ class Topic(pydantic.BaseModel):
 
     def write_pdf(self, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `pdf` do tópico."""
-        tex_doc = convert.Document(
+        tex_doc = Document(
             id_=self.id_,
             title=self.title,
             author=self.author,
@@ -72,7 +75,7 @@ class Topic(pydantic.BaseModel):
             contents=self.tex(),
         )
 
-        tex_doc.pdf(tmp_dir, out_dir)
+        tex_doc.pdf(tmp_dir.joinpath(self.id_), out_dir)
 
     def update_problems(self, problem_db: ProblemSet):
         """Atualiza os problemas em um tópico."""
@@ -93,7 +96,7 @@ class Topic(pydantic.BaseModel):
     @classmethod
     def parse_mdfile(cls, topic_path: Path, problem_db: ProblemSet):
         """Cria um `Topic` a partir de um arquivo `.md`."""
-        logging.info(f"Tópico {topic_path} atualizado.")
+        logger.info(f"Atualizando tópico em {topic_path}.")
 
         metadata, content = frontmatter.parse(topic_path.read_text())
 
@@ -119,7 +122,7 @@ class Topic(pydantic.BaseModel):
         topic.update(metadata)
 
         # extrair o título das seções
-        soup = convert.md2soup(content)
+        soup = text.md2soup(content)
         topic["sections"] = [h1.text for h1 in soup.find_all("h1")]
 
         # conteúdo
@@ -150,6 +153,31 @@ class TopicSet(pydantic.BaseModel):
     def __getitem__(self, key: str) -> Topic:
         return next(filter(lambda topic: topic.id_ == key, self), None)
 
+    def filter(self, topic_set_id: str, title: str, topic_ids: list[str]):
+        """Cria um subconjunto da lista problemas.
+
+        Args:
+            topic_set_id (str): Identificador da lista de tópicos.
+            title (str): Título da lista de problemas.
+            problem_ids (list[str]): Lista com os `id_` desejados.
+
+        Retorna:
+            ProblemSet: Subconjunto de dados com os `id_` selecionados.
+        """
+        if not topic_ids:
+            return None
+
+        topics = []
+        for topic_id in topic_ids:
+            try:
+                topics.append(self[topic_id])
+            except KeyError:
+                logger.warning(f"O tópico com ID {topic_id} não existe.")
+
+        date = min(topic.date for topic in self)
+
+        return TopicSet(id_=topic_set_id, title=title, date=date, topics=topics)
+
     def update_topics(self, topic_paths: list[Path], problem_db: ProblemSet):
         """Atualiza os problemas do `ProblemSet`."""
         updated_topics = []
@@ -166,7 +194,7 @@ class TopicSet(pydantic.BaseModel):
             elif topic.date < topic_date:
                 topic = Topic.parse_mdfile(topic_path, problem_db)
 
-            logging.debug(f"Tópico {topic_id} mantido.")
+            logger.debug(f"Tópico {topic_id} mantido.")
             topic.update_problems(problem_db)
             updated_topics.append(topic)
 
@@ -176,7 +204,7 @@ class TopicSet(pydantic.BaseModel):
         for topic in self.topics:
             topic.update_date()
 
-    def write_pdfs(self, out_dir: Path, tmp_dir: Path):
+    def write_pdfs(self, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `pdf` para todos os tópicos."""
         for topic in self.topics:
             topic.write_pdf(tmp_dir, out_dir)
@@ -195,7 +223,8 @@ class TopicSet(pydantic.BaseModel):
     ):
         """Atualiza a base de dados"""
         topic_json_path = topics_dir.joinpath("topics.json")
-        topic_paths = convert.get_database_paths(topics_dir)
+        logger.info(f"Procurando tópicos no diretório: {topics_dir}.")
+        topic_paths = text.get_database_paths(topics_dir)
 
         if not topic_json_path.exists() or force_update:
             topic_db = cls.parse_paths(topic_paths, problem_db=problem_db)

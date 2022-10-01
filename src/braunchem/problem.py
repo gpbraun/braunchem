@@ -3,9 +3,9 @@
 Esse módulo implementa uma classe para os problemas.
 """
 from turtle import update
-import braunchem.utils.convert as convert
+import braunchem.utils.text as text
 import braunchem.utils.latex as latex
-from braunchem.utils.convert import Text
+from braunchem.utils.text import Text
 from braunchem.quantities import Table, qtys
 from braunchem.utils.autoprops import autoprops
 
@@ -16,6 +16,8 @@ from multiprocessing import Pool
 
 import frontmatter
 import pydantic
+
+logger = logging.getLogger(__name__)
 
 
 class Problem(pydantic.BaseModel):
@@ -98,7 +100,7 @@ class Problem(pydantic.BaseModel):
     @classmethod
     def parse_mdfile(cls, problem_path: Path):
         """Cria um `Problem` a partir de um arquivo `.md`."""
-        logging.info(f"Problema {problem_path} atualizado.")
+        logger.info(f"Atualizando problema em {problem_path}.")
 
         metadata, content = frontmatter.parse(problem_path.read_text())
 
@@ -115,10 +117,10 @@ class Problem(pydantic.BaseModel):
             problem["data"] = qtys(data)
 
         # conteúdo
-        soup = convert.md2soup(content)
+        soup = text.md2soup(content)
 
         # resolução
-        soup, solution = convert.soup_split(soup, "hr")
+        soup, solution = text.soup_split(soup, "hr")
 
         # problema objetivo: normal
         choice_list = soup.find("ul", {"class": "task-list"})
@@ -193,6 +195,31 @@ class ProblemSet(pydantic.BaseModel):
     def __getitem__(self, key: str) -> Problem:
         return next(filter(lambda problem: problem.id_ == key, self), None)
 
+    def filter(self, problem_set_id: str, title: str, problem_ids: list[str]):
+        """Cria um subconjunto da lista problemas.
+
+        Args:
+            problem_set_id (str): Identificador da lista de problemas.
+            title (str): Título da lista de problemas.
+            problem_ids (list[str]): Lista com os `id_` desejados.
+
+        Retorna:
+            ProblemSet: Subconjunto de dados com os `id_` selecionados.
+        """
+        if not problem_ids:
+            return None
+
+        problems = []
+        for problem_id in problem_ids:
+            try:
+                problems.append(self[problem_id])
+            except KeyError:
+                logger.warning(f"O problema com ID {problem_id} não existe.")
+
+        date = min(problem.date for problem in self)
+
+        return ProblemSet(id_=problem_set_id, title=title, date=date, problems=problems)
+
     @property
     def is_objective(self) -> bool:
         """Verifica se todos os problemas são objetivos."""
@@ -221,28 +248,6 @@ class ProblemSet(pydantic.BaseModel):
 
         return header + latex.enum("answers", answers)
 
-    def filter(self, problem_set_id: str, title: str, problem_ids: list[str]):
-        """Cria um subconjunto da lista problemas.
-
-        Args:
-            problem_set_id (str): Identificador da lista de problemas.
-            title (str): Título da lista de problemas.
-            problem_ids (list[str]): Lista com os `id_` desejados.
-
-        Retorna:
-            ProblemSet: Subconjunto de dados com os `id_` selecionados.
-        """
-        problems = []
-        for problem_id in problem_ids:
-            try:
-                problems.append(self[problem_id])
-            except KeyError:
-                logging.warning(f"O problema com ID {problem_id} não existe.")
-
-        date = min(problem.date for problem in self)
-
-        return ProblemSet(id_=problem_set_id, title=title, date=date, problems=problems)
-
     def get_updated_problem(self, problem_path: Path) -> Problem:
         """Retorna a versão mais recente de um problema no `ProblemSet`.
 
@@ -266,7 +271,7 @@ class ProblemSet(pydantic.BaseModel):
         if problem.date < problem_date:
             return Problem.parse_mdfile(problem_path)
 
-        logging.debug(f"Problema {problem_id} mantido.")
+        logger.debug(f"Problema {problem_id} mantido.")
         problem.path = problem_path.resolve()
         return problem
 
@@ -288,7 +293,7 @@ class ProblemSet(pydantic.BaseModel):
     def parse_paths(cls, problem_paths: list[Path]):
         """Cria um `ProblemSet` com os problemas fornecidos."""
         with Pool() as pool:
-            problems = list(pool.imap(Problem.parse_mdfile, problem_paths))
+            problems = list(pool.imap_unordered(Problem.parse_mdfile, problem_paths))
 
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
 
@@ -300,7 +305,8 @@ class ProblemSet(pydantic.BaseModel):
     ):
         """Atualiza a base de dados"""
         problem_json_path = problems_dir.joinpath("problems.json")
-        problem_paths = convert.get_database_paths(problems_dir)
+        logger.info(f"Procurando problemas no diretório: {problems_dir}.")
+        problem_paths = text.get_database_paths(problems_dir)
 
         if not problem_json_path.exists() or force_update:
             problem_db = cls.parse_paths(problem_paths)
