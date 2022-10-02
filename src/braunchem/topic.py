@@ -38,7 +38,7 @@ class Topic(pydantic.BaseModel):
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     sections: list[str]
     content: Text
-    problem_sets: list[ProblemSet] | None = None
+    problem_sets: list[ProblemSet] = []
 
     def tex_answers(self):
         """Retorna o gabarito dos problemas do tópico em LaTeX."""

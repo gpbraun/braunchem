@@ -3,7 +3,7 @@
 Esse módulo implementa uma classe para as áreas da química,
 """
 import braunchem.utils.text as text
-from braunchem.topic import TopicSet
+from braunchem.topic import TopicSet, Topic
 from braunchem.utils.text import Text
 
 import logging
@@ -24,7 +24,7 @@ class Focus(pydantic.BaseModel):
     date: datetime
     title: str
     content: str
-    topic_sets: list[TopicSet] | None = None
+    topics: list[Topic] = []
 
     @classmethod
     def parse_mdfile(cls, focus_path: Path, topic_db: TopicSet):
@@ -41,13 +41,10 @@ class Focus(pydantic.BaseModel):
         }
 
         # extrair a lista de tópicos
-        topic_set_list = metadata.pop("topics", None)
-        if topic_set_list:
-            topic_sets = []
-            for i, (title, topic_ids) in enumerate(topic_set_list.items()):
-                topic_set_id = focus["id_"] + str(i + 1)
-                topic_sets.append(topic_db.filter(topic_set_id, title, topic_ids))
-            focus["topic_sets"] = topic_sets
+        topic_ids = metadata.pop("topics", None)
+        if topic_ids:
+            topic_set = topic_db.filter(focus["id_"], focus["id_"], topic_ids)
+            focus["topics"] = topic_set.topics
 
         # extrair os metadados do arquivo markdown
         focus.update(metadata)
