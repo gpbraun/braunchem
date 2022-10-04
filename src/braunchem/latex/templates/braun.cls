@@ -191,7 +191,7 @@
 %============================================================%
 
 \RequirePackage [T1] { fontenc }
-%\RequirePackage { microtype }
+\RequirePackage { microtype }
 
 %============================================================%
 %   KOMASCRIPT FEATURES
@@ -208,17 +208,6 @@
 %============================================================%
 
 \RequirePackage { float, booktabs, array }
-
-\NewDocumentEnvironment { longtable } { O{} m }
-	{
-		\begin{center}
-		\begin{tabular} [#1] {#2} 
-		
-	}
-	{
-		\end{tabular}
-		\end{center}
-	}
 
 %============================================================%
 %   MATH
@@ -286,147 +275,44 @@
 
 % #1 -> name
 % #2 -> code
-\NewDocumentCommand \DeclareBraunHeader { m o m o }
-	{
-		\exp_args:Nc \NewDocumentCommand { \char_uppercase:N #1 Header } { o m }
-			{
-				\BraunNoWarning
-				\skip_vertical:n { 1ex } 
-				\group_begin:
-					\dim_zero:N \parindent
-					\draw_begin:
-						\draw_linewidth:V \g_braun_linewidth_dim
-						\hcoffin_set:Nn   \l__braun_txta_coffin {##2}
-						\hcoffin_set:Nn   \l__braun_txtb_coffin {##1}
-						#3
-					\draw_end:
-				\group_end:
-				\skip_vertical:n { 1ex } 
-			}
-	}
 
-%% BRAUN
-
-\DeclareBraunHeader { braun }
+\NewDocumentCommand \BraunHeader { o m }
     {
-        \draw_path_moveto:n 
-            { \linewidth , 0em }
-        \draw_path_lineto:n 
-            { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0cm }
-        \draw_path_corner_arc:nn { 2ex }{ 2ex }
-        \draw_path_lineto:n 
-            { \coffin_wd:N \l__braun_txta_coffin + 4ex , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
-        \draw_path_corner_arc:nn { 0cm }{ 0cm }
-        \draw_path_lineto:n 
-            { 0cm , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
-        \draw_path_corner_arc:nn { 2ex }{ 2ex }
-        \draw_path_lineto:n 
-            { 0cm , 0em }
-        \draw_path_lineto:n 
-            { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
-        \color_fill:n { gray-1!60 }
-        \draw_path_use_clear:n { fill, stroke }
-        \draw_transform_shift:n 
-            { \linewidth - 1em , 1.25ex }
-        \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
-        \draw_transform_shift:n 
-            { ( \coffin_wd:N \l__braun_txta_coffin + 4ex ) / 2 - \linewidth + 1em , 0cm }
-        \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
+        \BraunNoWarning
+        \skip_vertical:n { 1ex } 
+        \group_begin:
+            \dim_zero:N \parindent
+            \draw_begin:
+                \draw_linewidth:V \g_braun_linewidth_dim
+                \hcoffin_set:Nn   \l__braun_txta_coffin {#2}
+                \hcoffin_set:Nn   \l__braun_txtb_coffin {#1}
+                \draw_path_moveto:n 
+                    { \linewidth , 0em }
+                \draw_path_lineto:n 
+                    { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0cm }
+                \draw_path_corner_arc:nn { 2ex }{ 2ex }
+                \draw_path_lineto:n 
+                    { \coffin_wd:N \l__braun_txta_coffin + 4ex , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
+                \draw_path_corner_arc:nn { 0cm }{ 0cm }
+                \draw_path_lineto:n 
+                    { 0cm , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
+                \draw_path_corner_arc:nn { 2ex }{ 2ex }
+                \draw_path_lineto:n 
+                    { 0cm , 0em }
+                \draw_path_lineto:n 
+                    { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
+                \color_fill:n { gray-1!60 }
+                \draw_path_use_clear:n { fill, stroke }
+                \draw_transform_shift:n 
+                    { \linewidth - 1em , 1.25ex }
+                \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
+                \draw_transform_shift:n 
+                    { ( \coffin_wd:N \l__braun_txta_coffin + 4ex ) / 2 - \linewidth + 1em , 0cm }
+                \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
+            \draw_end:
+        \group_end:
+        \skip_vertical:n { 1ex } 
     }
-    
-%% IME HEADER 1 (PROBLEMS)
-
-\DeclareBraunHeader { IME }
-    {
-        \skip_horizontal:n { -\marginparsep }
-        \draw_path_rectangle:nn 
-            { 0cm , 0cm }
-            { \linewidth + 2 \marginparsep , \coffin_ht:N \l__braun_txtb_coffin + 1em }
-        \color_fill:n { white }
-        \draw_path_use_clear:n { stroke, fill }
-        \draw_transform_shift:n 
-            { \linewidth - \coffin_wd:N \l__braun_txtb_coffin , 0.0cm }
-        \draw_path_moveto:n 
-            { 0cm , 0cm }
-        \draw_path_lineto:n 
-            { 0cm , \coffin_ht:N \l__braun_txtb_coffin + 1em }
-        \draw_path_use_clear:n { stroke }
-        \draw_transform_shift:n 
-            { \coffin_wd:N \l__braun_txtb_coffin + \marginparsep , 0.5em }
-        \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
-        \draw_transform_shift:n 
-            { -\linewidth , 0cm }
-        \draw_coffin_use:Nnn \l__braun_txta_coffin {l} {H}
-    }
-
-%% IME HEADER 2 (SECTIONS)
-
-\DeclareBraunHeader { IMEalt }
-    {
-        \skip_horizontal:n { -\marginparsep }
-        \draw_path_rectangle:nn 
-            { 0cm  , 0cm }
-            { \linewidth + 2 \marginparsep ,  \coffin_ht:N \l__braun_txtb_coffin + 1em }
-        \color_fill:n { white }
-        \draw_path_use_clear:n { stroke, fill }
-        \draw_transform_shift:n 
-            { \linewidth / 2 + \marginparsep ,  0.5em }
-        \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
-    }
-
-%============================================================%
-%   BOXES
-%============================================================%
-
-% #1 -> name
-% #2 -> code
-\NewDocumentCommand \DeclareBraunBox { m o m }
-	{
-		\exp_args:Nc \NewDocumentCommand { \char_uppercase:N #1 Box } { o m }
-			{
-				\BraunNoWarning
-				\group_begin:
-					\dim_zero:N \parindent
-					\IfValueT {##1} { \keys_set:nn { braun/box } {##1} }
-					\vcoffin_set:NVn \l__braun_txta_coffin \l_braun_box_width_dim
-						{ 	
-							\color { black }
-							\centering
-							##2 
-						}
-					\hcoffin_set:Nn \l_tmpa_coffin
-						{
-							\draw_begin:
-								\draw_linewidth:V \g_braun_linewidth_dim
-								\color_stroke:V   \l_braun_box_stroke_tl
-								\color_fill:V     \l_braun_box_fill_tl
-								#3
-							\draw_end:
-						}
-					\coffin_typeset:NnVnV \l_tmpa_coffin {l} \l_braun_box_align_tl {0pt} \l_braun_box_yshift_dim
-				\group_end:
-			}
-	}
-
-%% ROUND BOX
-
-\DeclareBraunBox { round }
-	{
-		\draw_path_circle:nn { 0cm, 0cm } { \l_braun_box_width_dim/2 }
-		\draw_path_use_clear:n { fill, stroke }
-		\draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {vc}
-	}
-
-%% SQUARE BOX
-
-\DeclareBraunBox { square }
-	{
-		\draw_path_rectangle_corners:nn 
-			{ -\l_braun_box_width_dim/2 , -\l_braun_box_width_dim/2 }
-			{  \l_braun_box_width_dim/2 ,  \l_braun_box_width_dim/2 }
-		\draw_path_use_clear:n { fill, stroke }
-		\draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {vc}
-	}
 
 %============================================================%
 %   MINIBOXES
@@ -1142,7 +1028,7 @@
         \group_begin:
 			\bool_set_true:N \l_braun_if_maketitle_bool
 			\BraunNoWarning
-			\dim_zero:N  \parindent
+			% \dim_zero:N  \parindent
 			\dim_gzero:N \@topnum % Prevents figures from going at top of page.
 			% Set keys
 			\IfNoValueF {#1} { \keys_set:nn { braun/maketitle } {#1} }
@@ -1413,9 +1299,6 @@
 
         path .tl_set:N = \g_braun_graphics_path_tl,
         path .initial:n = ,
-
-        points .fp_set:N = \g_braun_graphics_points_fp,
-        points .initial:n = 1.00,
     }
 
 \box_new:N \l__braun_problem_box
@@ -1455,62 +1338,32 @@
 % #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
     {
-		\needspace{10\baselineskip}
         \refstepcounter{problem_counter}
 		\refstepcounter{problem_counter_absolute}
 
         \keys_set:nn { braun/problems } {path = , id = , #1}
 
-        \BraunNoWarning
+        \bigskip
+        % \BraunNoWarning
         \dim_zero:N \parindent
-        \braun_begin_problem_box:
+        % \braun_begin_problem_box:
         %% HEADER
-        \str_case:VnF \l_braun_problem_template_tl
-            {
-                { braun }
-                { 
-                    \BraunHeader
-                        [ \texttt{ \color{color-2} \l_braun_problem_id_tl } ]
-                        { 
-                            \small\sffamily\bfseries
-                            \text_uppercase:n { \l_braun_problem_name_tl } ~
-                            \arabic { section } . \arabic { problem_counter }
-                        }
-                }
-                { IME }
-                {
-                    \skip_vertical:n {-1em}
-                    \IMEHeader
-                        [
-                            \sffamily\bfseries
-                            \skip_horizontal:n {2em}
-                            Valor: ~  
-                            \num 
-                                [ 
-                                    detect-all, 
-                                    drop-zero-decimal=false, 
-                                    round-mode=places, 
-                                    round-precision=2,
-                                ] 
-                                { \fp_eval:n { \g_braun_graphics_points_fp } }
-                            \skip_horizontal:n {2em}
-                        ]
-                        {
-                            \sffamily\bfseries
-                            \arabic { problem_counter }
-                            \textsuperscript { a } ~
-                            \text_uppercase:n { \l_braun_problem_name_tl }
-                        }
-                }       
-            }
-            {
-                \paragraph{ \l_braun_problem_name_tl \; \arabic { problem_counter_absolute } }   
+        \BraunHeader
+            [ \texttt{ \color{color-2} \l_braun_problem_id_tl } ]
+            { 
+                \footnotesize\sffamily\bfseries
+                \text_uppercase:n { \l_braun_problem_name_tl } ~
+                \arabic { section } . \arabic { problem_counter }
             }
     } 
     {
-        \braun_end_problem_box:
+        % \braun_end_problem_box:
         \bool_if:NT \l_braun_problem_single_page_bool { \newpage }
     }
+
+%============================================================%
+%   EXAMPLE ENVIRONMENT
+%============================================================%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1520,6 +1373,18 @@
 
 \cs_set_eq:NN \tightlist \relax
 \cs_set_eq:NN \endhead \relax
+\cs_set_eq:NN \textbackslash \relax
+
+\NewDocumentEnvironment { longtable } { O{} m }
+	{
+		\begin{center}
+		\begin{tabular} [#1] {#2} 
+		
+	}
+	{
+		\end{tabular}
+		\end{center}
+	}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1529,84 +1394,6 @@
 
 \cs_set:Npn \DeclareBraunTemplate #1 #2
     { \keys_define:nn { braun } { #1 .meta:n = { #2 } } }
-
-%============================================================%
-%   ITA
-%============================================================%
-
-\DeclareBraunTemplate { ITA }
-    {
-        DIV = 20,
-        font = lmodern,
-        fontsize = 11pt,
-        emph = \bfseries,
-		page / section / name = ITA,
-        maketitle / print = { title, subtitle, date },
-        maketitle / title / case = upper,
-        maketitle / title / font = \Large\bfseries,
-		maketitle / subtitle /value = Turma~ IME-ITA,
-        maketitle / subtitle / case = upper,
-		maketitle / subtitle / font = \large\bfseries,
-        maketitle / date / value = \int_use:N \c_sys_year_int,
-        maketitle / date / font = \large\bfseries,
-		maketitle / logo / value = ita-alt,
-        maketitle / logo / value = pensi,
-        problems / name = Questão,
-        problems / template = ITA,
-        graphics / width = \linewidth,
-        graphics / height = 5cm,
-    }
-
-
-\DeclareBraunTemplate { ITAobj }
-    {
-        ITA,
-		problems / breakable = true,
-		problems / vfill = false,
-    }
-
-
-\DeclareBraunTemplate { ITAdis }
-    {
-        ITA,
-		problems / breakable = false,
-		problems / vfill = true,
-    }
-
-%============================================================%
-%   IME
-%============================================================%
-
-\DeclareBraunTemplate { IME }
-    {
-        DIV = 16,
-        font = helvetica,
-        fontsize = 11pt,
-        familydefault = sf,
-        linewidth = 1.5pt,
-        emph = \bfseries,
-        page / IME,
-        maketitle / align = c,
-        maketitle / print = { title, subtitle, date },
-        maketitle / toprule = false,
-        maketitle / botrule = false,
-        maketitle / title / case = upper,
-        maketitle / title / font = \Large\bfseries,
-        maketitle / subtitle /value = Turma~ IME-ITA,
-        maketitle / subtitle / case = upper,
-        maketitle / subtitle / font = \large\bfseries,
-        maketitle / date / value = \int_use:N \c_sys_year_int,
-        maketitle / date / font = \large\bfseries,
-        maketitle / logo / value = ime,
-        maketitle / logo / value = ita-alt,
-        problems / name = Questão,
-        problems / template = IME,
-        graphics / width = \linewidth,
-        graphics / height = 5cm,
-        lists / itemize = {label = {\alph*)}},
-		problems / breakable = true,
-		problems / vfill = false,
-    }
 
 %============================================================%
 %   BRAUN
@@ -1642,7 +1429,7 @@
         maketitle / affiliation / font = \sffamily\slshape ,
         maketitle / date / value = \int_use:N \c_sys_year_int ,
         maketitle / date / font  = \Large\bfseries ,
-        maketitle / logo / value = pensi,
+        % maketitle / logo / value = pensi,
         problems / name = Problema,
         problems / template = braun,
     }
@@ -1664,10 +1451,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage { csquotes, babel }
-
-\AtBeginEnvironment{quote}{\small}
-
-\cs_set_eq:NN \textbackslash \relax
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              

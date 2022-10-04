@@ -19,7 +19,7 @@ def main():
 
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR, topic_db)
 
-    print(topic_db["3A"].content.tex)
+    print(topic_db["3A"].tex())
 
     shutil.copy(
         config.FOCUSES_DIR.joinpath("focuses.json"),

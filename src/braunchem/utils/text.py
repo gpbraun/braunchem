@@ -43,7 +43,6 @@ def md2html(md_str: str) -> str:
         to="html",
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=["--quiet", "--mathjax"],
-        # filters=[str(PANDOC_FILTER_PATH.joinpath("test.py"))],
     )
     return html_str
 
@@ -55,7 +54,6 @@ def html2md(html_str: str) -> str:
         to=PANDOC_MARKDOWN_FORMAT,
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
-        # filters=[str(PANDOC_FILTER_PATH.joinpath("test.py"))],
     )
     return md_str
 
@@ -67,7 +65,6 @@ def html2tex(html_str: str) -> str:
         to="latex",
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
-        # filters=[str(PANDOC_FILTER_PATH.joinpath("containers.py"))],
     )
     tex_str = latex.pu2qty(tex_str)
     return tex_str
