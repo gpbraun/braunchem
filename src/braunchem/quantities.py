@@ -146,6 +146,22 @@ class Substance(BaseModel):
         return latex.ce(f"{self.formula},\\,\\text{{{self.state}}}")
 
 
+def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4) -> str:
+    """Retorna o valor em notação científica.
+
+    Args:
+        lower_bound (float): Limite inferior para notação científica.
+        upper_bound (float): Limite superior para notação científica.
+    """
+    if not value:
+        return "0"
+
+    if abs(value) < lower_bound or abs(value) > upper_bound:
+        return f"{value:E}".replace("+", "")
+
+    return f"{value:f}"
+
+
 class Quantity(BaseModel):
     """Dado termodinâmico.
 
@@ -239,22 +255,6 @@ QTY_STR_RE = re.compile(r"([\w\d]*)\(([\w\d]*),?(.*)\)\=([\d\.Ee\+\-]*)")
 """Expressão em REGEX para converter uma string em um `Quantity`"""
 
 
-def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4) -> str:
-    """Retorna o valor em notação científica.
-
-    Args:
-        lower_bound (float): Limite inferior para notação científica.
-        upper_bound (float): Limite superior para notação científica.
-    """
-    if not value:
-        return "0"
-
-    if abs(value) < lower_bound or abs(value) > upper_bound:
-        return f"{value:E}".replace("+", "")
-
-    return f"{value:f}"
-
-
 def csv2quantities(file):
     """Gerador para os dados termodinâmicos contidos em um `csv`.
 
@@ -286,6 +286,9 @@ class Table(BaseModel):
     """
 
     quantities: list[Quantity]
+
+    class Config:
+        json_encoders = {Decimal: decimal_to_sci_string}
 
     def __repr__(self):
         qtys = ", ".join(q.id_ for q in self)
@@ -404,8 +407,9 @@ def main():
 
     dt.append_csvs(paths)
 
-    with open(QUANTITIES_DB_PATH, "w", encoding="utf-8") as json_file:
-        json_file.write(dt.json(indent=2, ensure_ascii=False))
+    QUANTITIES_DB_PATH.write_text(
+        dt.json(indent=2, ensure_ascii=False), encoding="utf-8"
+    )
 
 
 if __name__ == "__main__":
