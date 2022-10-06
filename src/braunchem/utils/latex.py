@@ -91,32 +91,9 @@ def enum(name, items, cols=0, auto_cols=False, sep_cmd="item"):
     return env(name, f"{cols}{content}")
 
 
-PU_CMD_REGEX = re.compile(r"\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}")
-UNIT_EXP_REGEX = re.compile(r"[\+\-]?\d+")
-
-
 def ce(arg):
     # mhchem
     return cmd("ce", arg)
-
-
-def qty(num, unit):
-    # siunitx
-    if not unit:  # number only
-        return cmd("num", [num])
-
-    formated_unit = re.sub(UNIT_EXP_REGEX, lambda x: f"^{{{x.group(0)}}}", unit)
-    formated_unit = formated_unit.replace("\\mu", "\\micro")
-
-    if not num:  # unit ony
-        return cmd("unit", [formated_unit])
-
-    return cmd("qty", [num, formated_unit])
-
-
-def pu2qty(content):
-    # converts all \pu commands to \unit, \num or \qty
-    return re.sub(PU_CMD_REGEX, lambda x: qty(x.group(1), x.group(2)), content)
 
 
 class List:

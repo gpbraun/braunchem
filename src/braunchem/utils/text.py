@@ -20,7 +20,6 @@ import pydantic
 
 MARKDOWN_EXTENSIONS = [
     "task_lists",
-    "table_captions",
     "pipe_tables",
     "implicit_figures",
     "fenced_divs",
@@ -32,55 +31,61 @@ PANDOC_MARKDOWN_FORMAT = (
 )
 """Formato markdown para o pandoc."""
 
-PANDOC_FILTER_PATH = importlib.resources.files("braunchem.filters")
+PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 """Diretório contendo os filtros"""
+
+PANDOC_FILTERS = [
+    "containers.py",
+    "pu2qty.py",
+]
+"""Filtros para o pandoc."""
+
+PANDOC_FILTER_PATHS = [
+    str(PANDOC_FILTER_PATH.joinpath(pandoc_filter)) for pandoc_filter in PANDOC_FILTERS
+]
+"""Lista de endereços para os filtros do pandoc."""
 
 
 def md2html(md_str: str) -> str:
     """Converte markdown em HTML usando pandoc."""
-    html_str = pypandoc.convert_text(
+    return pypandoc.convert_text(
         source=md_str,
         to="html",
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=["--quiet", "--mathjax"],
     )
-    return html_str
 
 
 def html2md(html_str: str) -> str:
     """Converte HTML em markdown usando pandoc."""
-    md_str = pypandoc.convert_text(
+    return pypandoc.convert_text(
         source=html_str,
         to=PANDOC_MARKDOWN_FORMAT,
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
     )
-    return md_str
 
 
 def html2tex(html_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
-    tex_str = pypandoc.convert_text(
+    return pypandoc.convert_text(
         source=html_str,
         to="latex",
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
+        filters=PANDOC_FILTER_PATHS,
     )
-    tex_str = latex.pu2qty(tex_str)
-    return tex_str
 
 
 def md2tex(md_str: str) -> str:
     """Converte markdown em LaTeX usando pandoc."""
-    tex_str = pypandoc.convert_text(
+    return pypandoc.convert_text(
         source=md_str,
         to="latex",
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=["--quiet"],
-        filters=[str(PANDOC_FILTER_PATH.joinpath("containers.py"))],
+        filters=PANDOC_FILTER_PATHS,
     )
-    tex_str = latex.pu2qty(tex_str)
-    return tex_str
 
 
 def md2soup(md_str: str) -> bs4.BeautifulSoup:
@@ -155,7 +160,6 @@ def get_database_paths(database_dir: Path) -> list[Path]:
             if file_path.suffix == ".md":
                 md_files.append(file_path)
                 logging.debug(f"Arquivo {file_path} adicionado à lista.")
-
                 continue
 
             img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent, name)
