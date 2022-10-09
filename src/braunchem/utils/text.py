@@ -68,24 +68,32 @@ def html2md(html_str: str) -> str:
 
 def html2tex(html_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
-    return pypandoc.convert_text(
+    tex_str = pypandoc.convert_text(
         source=html_str,
         to="latex",
         format="html+tex_math_dollars+tex_math_single_backslash",
         extra_args=["--quiet"],
         filters=PANDOC_FILTER_PATHS,
     )
+    tex_str = tex_str.replace("\\toprule()", "\\toprule")
+    tex_str = tex_str.replace("\\midrule()", "\\midrule")
+    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
+    return tex_str
 
 
 def md2tex(md_str: str) -> str:
     """Converte markdown em LaTeX usando pandoc."""
-    return pypandoc.convert_text(
+    tex_str = pypandoc.convert_text(
         source=md_str,
         to="latex",
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=["--quiet"],
         filters=PANDOC_FILTER_PATHS,
     )
+    tex_str = tex_str.replace("\\toprule()", "\\toprule")
+    tex_str = tex_str.replace("\\midrule()", "\\midrule")
+    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
+    return tex_str
 
 
 def md2soup(md_str: str) -> bs4.BeautifulSoup:

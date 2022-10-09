@@ -126,6 +126,31 @@ def tabular(cols: str, rows: list):
     return env("tabular", f"{{{cols}}}{header}{body} \\\\ \\bottomrule")
 
 
+PU_CMD_REGEX = re.compile(r"\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}")
+UNIT_EXP_REGEX = re.compile(r"[\+\-]?\d+")
+
+
+def qty(num_str: str, unit_str: str) -> str:
+    """Retorna o comando no formato `siunitx` referente a um valor numérico e uma unidade."""
+    # valor numérico sem unidades
+    if not unit_str:
+        return f"\\num{{{num_str}}}"
+
+    formated_unit_str = re.sub(UNIT_EXP_REGEX, lambda x: f"^{{{x.group(0)}}}", unit_str)
+    formated_unit_str = formated_unit_str.replace("\\mu", "\\micro")
+
+    # unidades sem valor numérico
+    if not num_str:
+        return f"\\unit{{{formated_unit_str}}}"
+
+    return f"\\qty{{{num_str}}}{{{formated_unit_str}}}"
+
+
+def pu2qty(tex_str: str):
+    """Converte todos os comandos `\pu` do mhchem aos equivalentes no formato `siunitx`."""
+    return re.sub(PU_CMD_REGEX, lambda x: qty(x.group(1), x.group(2)), tex_str)
+
+
 def main():
     la = List("itemize", ["a", "b", "c"])
     print(la.display())
