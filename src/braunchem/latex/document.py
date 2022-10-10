@@ -49,14 +49,16 @@ class Document:
     def __init__(
         self,
         id_: str | None,
+        path: str | None = None,
         title: str | None = None,
         author: str | None = None,
         affiliation: str | None = None,
         template: str | None = None,
         contents: str | None = None,
         standalone: str | None = None,
-    ) -> None:
+    ):
         self.id_ = id_
+        self.path = path
         self.title = title
         self.author = author
         self.affiliation = affiliation
@@ -72,6 +74,7 @@ class Document:
 
         return "\n".join(
             [
+                latex.cmd("path", self.path) if self.path else "",
                 latex.cmd("title", self.title) if self.title else "",
                 latex.cmd("author", self.author) if self.author else "",
                 latex.cmd("affiliation", self.affiliation) if self.affiliation else "",

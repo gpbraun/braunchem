@@ -68,6 +68,7 @@ class Topic(pydantic.BaseModel):
         """Cria o arquivo `pdf` do tópico."""
         tex_doc = Document(
             id_=self.id_,
+            path=self.path.parent,
             title=self.title,
             author=self.author,
             affiliation=self.affiliation,

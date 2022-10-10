@@ -1073,11 +1073,9 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\cs_set:Nn \graphics_include:n
-    { \graphics_include:nn {} {#1} }
-
-
 \RequirePackage { svg }
+
+\cs_set:Nn \graphics_include:n { \graphics_include:nn {} {#1} }
 
 \keys_define:nn { braun/graphics }
 	{
@@ -1093,6 +1091,8 @@
         path .tl_set:N = \g_braun_graphics_path_tl,
         path .initial:n = ,
 	}
+
+\cs_set:Npn \path #1 { \tl_set:Nn \g_braun_graphics_path_tl {#1} }
 
 % #1 -> coffin
 % #2 -> content
@@ -1692,25 +1692,41 @@
 		\group_end:
 	}
 
-\NewDocumentEnvironment { fancytable } { O{} m +b }
+\newcounter { table_counter_absolute }
+
+\NewDocumentEnvironment { fancylongtable } { O{} m +b }
     {
         \group_begin:
+
+        \refstepcounter{table_counter_absolute}
+
         \begin{center}
         \tcbox
             [
-                left=0mm,
-                right=0mm,
-                top=2pt,
-                bottom=-1.2em,
-                boxsep=0mm,
-                toptitle=5pt,
-                bottomtitle=5pt,
-                title={ \quad \sffamily{\bfseries TABELA~ 1} },
-                colback = orange!10,
+                left = 0mm,
+                right = 0mm,
+                boxsep = 0mm,
+                top = 2pt,
+                bottom = -1.2em,
+                toptitle = 5pt,
+                bottomtitle = 5pt,
+                title =
+                    {
+                        \begin{tabular} { @{\quad} lr @{\quad} } 
+                            \sffamily
+                            \bfseries
+                            TABELA~ \arabic{table_counter_absolute}
+                            &
+                            \sffamily
+                            \bfseries
+                            \color{blue!70!black}
+                            \l_tmpa_tl
+                        \end{tabular}
+                    },
                 colframe = orange,
                 colback = white,
-                colbacktitle = orange!10,
-                coltitle=red,
+                colbacktitle = yellow!7.5,
+                coltitle = red,
             ]
             {
                 \cs_set_eq:NN \toprule \relax
@@ -1730,6 +1746,20 @@
         \end{center}
         \group_end:
     }
+
+\NewDocumentEnvironment { fancytable } {}
+	{
+        \group_begin:
+
+        \cs_set:Npn \paragraph ##1
+            { \tl_set:Nn \l_tmpa_tl {##1} }
+
+        \cs_set_eq:NN \longtable \fancylongtable
+        \cs_set_eq:NN \endlongtable \endfancylongtable
+	}
+	{
+        \group_end:
+	}
 
 %============================================================%
 %   DERIVATION
@@ -1805,7 +1835,6 @@
         fontsize = 9pt,
         emph = \itshape,
         page / headfoot-font = \sffamily,
-
         % Cabeçalhos
         page / header / sepline = true,
         page / header / inner = { \textbf{\PrintTitle} \; | \; \PrintAuthor ,~ \PrintDate },
@@ -1814,9 +1843,13 @@
         page / footer / inner = {},
         page / footer / center = {},
         page / footer / outer = {},
-
         % Cabeçalhos da página de título
         page / footer / title-center = {},
+        % page / footer / title-sepline = true,
+        % page / footer / title-inner = { \textbf{\PrintTitle} \; | \; \PrintAuthor ,~ \PrintDate } ,
+        % page / footer / title-center = {},
+        % page / footer / title-outer = \textbf{\thepage},
+        headheight = 1cm,
 
         page / mcrule / fancy,
         page / caption / labelfont = bf,
@@ -1866,7 +1899,7 @@
 \RequirePackage { hyperref }
 \exp_args:Nx \hypersetup
     {
-        pdftitle    = { [Braun]~ Química },
+        pdftitle    = { Braun },
         pdfauthor   = Gabriel~ Braun,
         pdfsubject  = Engenharia,
         pdfkeywords = {Ciência,~ Engenharia},

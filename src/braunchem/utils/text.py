@@ -200,5 +200,9 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                     standalone=True,
                 )
                 tex_doc.svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
+                shutil.copy(
+                    src=tex_img_dst_dir.joinpath(name).with_suffix(".svg"),
+                    dst=file_path.with_suffix(".svg"),
+                )
 
     return md_files

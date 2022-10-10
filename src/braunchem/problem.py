@@ -65,13 +65,9 @@ class Problem(pydantic.BaseModel):
         if not self.is_objective:
             return ""
 
-        tex_choices = [
-            latex.cmd("everymath", latex.cmd("displaystyle", end="")) + c.tex
-            for c in self.choices
-        ]
+        tex_choices = [c.tex for c in self.choices]
 
-        # return latex.List("choices", tex_choices).display()
-        return latex.enum("choices", tex_choices, auto_cols=True, sep_cmd="task")
+        return latex.enum("choices", tex_choices, sep_cmd="item")
 
     def tex_answer(self):
         """Retorna as respostas do problema formatados em latex."""
