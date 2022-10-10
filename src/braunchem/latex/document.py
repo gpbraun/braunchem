@@ -86,6 +86,9 @@ class Document:
     @property
     def documentclass(self) -> str:
         """Comando que especifica a classe do documento."""
+        if not self.template:
+            return f"\\documentclass{{{self.cls}}}\n"
+
         return f"\\documentclass[{self.template}]{{{self.cls}}}\n"
 
     @property

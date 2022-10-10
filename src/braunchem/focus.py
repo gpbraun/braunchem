@@ -4,7 +4,6 @@ Esse módulo implementa uma classe para as áreas da química,
 """
 import braunchem.utils.text as text
 from braunchem.topic import TopicSet, Topic
-from braunchem.utils.text import Text
 
 import logging
 from datetime import datetime

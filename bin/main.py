@@ -15,12 +15,12 @@ def main():
     problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR)
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, problem_db)
 
-    topic_db.write_pdfs(tmp_dir=config.TMP_TOPICS_DIR, out_dir=config.OUT_DIR)
+    # topic_db.write_pdfs(tmp_dir=config.TMP_TOPICS_DIR, out_dir=config.OUT_DIR)
 
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR, topic_db)
 
     with open("../latex-test/content.tex", "w") as main_file:
-        main_file.write(topic_db["3H"].tex())
+        main_file.write(topic_db["3L"].tex())
 
     shutil.copy(
         config.FOCUSES_DIR.joinpath("focuses.json"),
