@@ -72,7 +72,8 @@ class Topic(pydantic.BaseModel):
             title=self.title,
             author=self.author,
             affiliation=self.affiliation,
-            template="braun, twocolumn",
+            template="braun, twocolumn=true",
+            toc=True,
             contents=self.tex(),
         )
 

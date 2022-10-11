@@ -55,7 +55,8 @@ class Document:
         affiliation: str | None = None,
         template: str | None = None,
         contents: str | None = None,
-        standalone: str | None = None,
+        toc: bool = False,
+        standalone: bool = False,
     ):
         self.id_ = id_
         self.path = path
@@ -65,6 +66,7 @@ class Document:
         self.template = template
         self.contents = contents
         self.standalone = standalone
+        self.toc = toc
 
     @property
     def preamble(self) -> str:
@@ -99,8 +101,12 @@ class Document:
         """Corpo do documento em LaTeX."""
         if self.standalone:
             return latex.env("document", self.contents)
+        if not self.toc:
+            return latex.env("document", f"\\maketitle\n\n{self.contents}")
 
-        return latex.env("document", f"\\maketitle\n\n{self.contents}")
+        return latex.env(
+            "document", f"\\maketitle\n\n\\tableofcontents\n\n{self.contents}"
+        )
 
     def document(self) -> str:
         return "\n".join(

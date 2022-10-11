@@ -107,7 +107,7 @@
 %   BASE CLASS
 %============================================================%
 
-\tl_const:Nn \c_brauntex_base_class_tl { article }
+\tl_const:Nn \c_brauntex_base_class_tl { scrartcl }
 \exp_args:NV \LoadClass \c_brauntex_base_class_tl
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -197,9 +197,6 @@
 %   KOMASCRIPT FEATURES
 %============================================================%
 
-\RequirePackage { typearea }
-\RequirePackage { scrextend }
-
 \keys_define:nn { braun }
     { unknown .code:n  = \exp_args:NV \KOMAoption \l_keys_key_tl {#1} }
 
@@ -243,7 +240,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
-%   BOXES
+%   BOXES -> isso aqui vai morrer
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -315,12 +312,12 @@
     }
 
 %============================================================%
-%   MINIBOXES
+%   ChoiceBox
 %============================================================%
 
 % #1 -> content
 % #2 -> size
-\cs_set:Nn \braun_mini_box:nn
+\cs_set:Nn \braun_choice_box:nn
 	{
 		\group_begin:
 
@@ -349,8 +346,8 @@
 
 %% FRONT-END
 
-\NewDocumentCommand \MiniBox { m }
-	{ \braun_mini_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
+\cs_set:Npn \choicebox #1 
+    { \braun_choice_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -361,16 +358,6 @@
 \PassOptionsToPackage { table } { xcolor }
 
 \RequirePackage{ tikz }
-
-\cs_gset_eq:NN \legacydefinecolor \definecolor
-\cs_gset_eq:NN \legacycolor       \color
-
-% redefines \definecolor to use l3color
-\DeclareDocumentCommand \definecolor { m m m }
-    { 
-        \legacydefinecolor {#1} {#2} {#3} 
-        \color_set:nnn     {#1} {#2} {#3} 
-    }
 
 %============================================================%
 %   PLOTTING
@@ -402,9 +389,10 @@
 \tikzstyle{every~pin}=[draw=black]
 
 %============================================================%
-%   COLOR PALLETS
+%   PALETA DE CORES (BOOTSTRAP)
 %============================================================%
 
+% CORES BÁSICAS
 \definecolor { blue   } { HTML } { 0d6efd }
 \definecolor { indigo } { HTML } { 6610f2 }
 \definecolor { purple } { HTML } { 6f42c1 }
@@ -416,7 +404,7 @@
 \definecolor { teal   } { HTML } { 20c997 } 
 \definecolor { cyan   } { HTML } { 0dcaf0 } 
 
-% GRAYSCALE
+% TONS DE CINZA
 \definecolor { gray-100 } { HTML } { f8f9fa }
 \definecolor { gray-200 } { HTML } { e9ecef }
 \definecolor { gray-300 } { HTML } { dee2e6 }
@@ -427,6 +415,7 @@
 \definecolor { gray-800 } { HTML } { 343a40 } 
 \definecolor { gray-900 } { HTML } { 212529 } 
  
+% CORES EM GRÁFICOS
 \pgfplotscreateplotcyclelist { braun-pallet }
     {
         { blue },
@@ -440,16 +429,13 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
-%   PAGE LAYOUT
+%   CONFIGURAÇÕES DE PÁGINA
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage { scrlayer-scrpage, multicolrule, caption }
+\RequirePackage { scrlayer-scrpage, multicolrule }
 
 \pagestyle { scrheadings }
-
-% \dim_set:Nn \headheight {1.25cm}
-% \dim_set:Nn \footheight {0cm}
 
 \cs_set:Nn \braun_page_box:
     {
@@ -482,16 +468,8 @@
         boxed .default:n  = true,
 
         columnsep .dim_set:N = \columnsep,
-        columnsep .initial:n = 3em,
+        columnsep .initial:n = 2em,
     }
-
-%============================================================%
-%   CAPTIONS
-%============================================================%
-
-\keys_define:nn { braun/page/caption }
-
-    { unknown .code:n = \exp_args:Ne \captionsetup { \l_keys_key_tl = #1 } }
 
 %============================================================%
 %   COLUMN SEPARATOR
@@ -512,6 +490,7 @@
 %============================================================%
 %   HEADER
 %============================================================%
+
 
 \keys_define:nn { braun/page/header }
     {
@@ -646,18 +625,16 @@
 		name .initial:n = latex,
 	}
 
-\cs_set:Nn \braun_ghost_section: { \subsection*{} \skip_vertical:n {-3em} }
-
 \pagestyle { scrheadings }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
-%   TITLE
+%   TÍTULO
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %============================================================%
-%   TITLE ELEMENTS
+%   ELEMENTOS DO TÍTULO
 %============================================================%
 
 % #1 -> sequence variable
@@ -788,7 +765,7 @@
 			}
     }
 
-%% DEFAULT TITLE ELEMENTS
+%% ELEMENTOS PADRÃO
 
 \NewTitleElement 
 	[ font = \LARGE\bfseries ] 
@@ -885,14 +862,14 @@
         \group_end:
     }
 
-%% PREDEFINED LOGOS
+%% LOGOS PREDEFINIDOS
 
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
 		pensi = 
             {
                 \draw_begin:  
-                    % \color_set:nnn {color-pensi}{HTML}{FFD166}
+                    \color_set:nnn {pensi}{HTML}{ffc107}
                     \fp_set:Nn \l_tmpa_fp { 60 } % Angle
                     \draw_path_moveto:n 
                         { 0em , 0em }
@@ -926,7 +903,7 @@
                                 {  1cm / ( 3 * sqrt(3) ) } { -120 }
                         }
                     \draw_path_close:
-                    \color_fill:n { yellow }
+                    \color_fill:n { pensi!80 }
                     \draw_path_use:n { fill }
                 \draw_end:
             },
@@ -1049,7 +1026,7 @@
 			% Print title
 			\BraunSingleColumn
 				{
-                    \skip_vertical:n { 0.5cm - \headheight }
+                    \skip_vertical:n { -\headheight }
 					\tl_use:N        \l_braun_title_pre_text_tl
 					\bool_if:NT      \l_braun_title_toprule_bool { \BraunHRule }
 					\skip_vertical:V \l_braun_title_before_skip
@@ -1069,155 +1046,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
-%   FIGURES
-%                                              
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\RequirePackage { svg }
-
-\cs_set:Nn \graphics_include:n { \graphics_include:nn {} {#1} }
-
-\keys_define:nn { braun/graphics }
-	{
-        fps .code:n = { \cs_set_protected:Npn \fps@figure {#1} },
-        fps .initial:n = H,
-
-        width .dim_set:N = \l_braun_graphics_width_dim,
-		width .initial:n = 5cm,
-
-		height .dim_set:N = \l_braun_graphics_height_dim,
-		height .initial:n = 4cm,
-
-        path .tl_set:N = \g_braun_graphics_path_tl,
-        path .initial:n = ,
-	}
-
-\cs_set:Npn \path #1 { \tl_set:Nn \g_braun_graphics_path_tl {#1} }
-
-% #1 -> coffin
-% #2 -> content
-\cs_set:Nn \braun_graphics_box:Nn
-{ 
-    \hcoffin_set:Nn #1
-        {
-            \group_begin:
-                \hbox_set:Nn \l_tmpa_box {#2}
-                \box_autosize_to_wd_and_ht:NVV \l_tmpa_box 
-                    \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
-                \box_use_drop:N \l_tmpa_box
-            \group_end:
-        }   
-}
-
-% #1 -> coffin
-% #2 -> figure path
-\cs_set:Nn \braun_include_graphics:Nn
-    { 
-        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
-            { 
-                \braun_graphics_box:Nn #1 
-                    { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
-            }
-    }
-
-% #1 -> coffin
-% #2 -> svg path
-\cs_set:Nn \braun_include_svg:Nn
-    { 
-        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
-            { 
-                \braun_graphics_box:Nn #1 
-                    { \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 } } 
-            }
-    }
-
-\cs_set_eq:NN \legacyincludegraphics \includegraphics
-
-\tl_new:N \l_tmpc_tl
-
-% #1 -> keys: braun/graphics
-% #2 -> figure path
-\DeclareDocumentCommand \includegraphics { o m }
-    { 
-        \group_begin:
-        \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
-        \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
-        \str_case:VnF \l_tmpc_tl
-            {
-                { .svg }
-                { 
-                    \file_if_exist_input:nF 
-                        { \g_braun_graphics_path_tl / \l_tmpa_tl / \l_tmpb_tl .tex }
-                        { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
-                }      
-            }
-            {
-                \braun_include_graphics:Nn \l_tmpa_coffin {#2}
-            }
-
-        \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {vc} {0pt} {0pt}
-        \group_end:
-    }
-
-\RenewDocumentEnvironment { figure } {} 
-    { 
-        \group_begin:
-        \cs_set:Npn \caption ##1 { \relax }
-        \begin{center} 
-        
-    } 
-    { 
-        \end{center} 
-        \group_end:
-    }
-
-\RenewDocumentEnvironment { table  } {} 
-    { 
-        \group_begin:
-        \cs_set:Npn \caption ##1 { \relax }
-        \begin{center} 
-    } 
-    { 
-        \end{center} 
-        \group_end:
-    }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                              
 %   PROBLEMS
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\keys_define:nn { braun/problems }
-    {
-        name .tl_set:N = \l_braun_problem_name_tl,
-        name .initial:n = Problema,
-
-        template .tl_set:N = \l_braun_problem_template_tl,
-        template .initial:n = braun,
-
-        skip-after .dim_set:N = \l_braun_problem_after_skip,
-        skip-after .initial:n = 5pt,
-
-        breakable .bool_set:N = \l_braun_problem_breakable_bool,
-        breakable .initial:n  = false,
-        breakable .default:n  = true,
-
-        single-page .bool_set:N = \l_braun_problem_single_page_bool,
-        single-page .initial:n  = false,
-        single-page .default:n  = true,
-
-		vfill .bool_set:N = \l_braun_problem_fill_bool,
-        vfill .initial:n  = true,
-        vfill .default:n  = true,
-    }
-
-
-\cs_set:Npn \path #1 { \seq_put_right:Nn \l_file_search_path_seq {#1} }
-
-%============================================================%
-%   CUSTOM LISTS FOR PROBLEMS
-%============================================================%
 
 \RequirePackage { tasks, enumitem, needspace }
 
@@ -1236,20 +1067,20 @@
         itemize .initial:n = {label = \sffamily{\alph*.}, leftmargin=*},
     }
 
-%%% DATALIST
+%% LISTA DE DADOS
 
 \NewTasksEnvironment[
 	label = {$\bullet$},
 	label-align = right,
 ]{datalist}[\item]
 
-%%% ANSWERS
+%% RESPOSTAS
 
 \newlist{answers}{enumerate}{2}
 \setlist[answers,1]{label = \sffamily{\bfseries \arabic*.}}
 \setlist[answers,2]{label = \sffamily{\alph*.}, leftmargin=*}
 
-%%% OBJECTIVE ANSWERS
+%% RESPOSTAS DE PROBLEMAS OBJETIVOS
 
 \NewTasksEnvironment[
 	label = \sffamily{\small\textbf{\arabic*.}},
@@ -1260,12 +1091,10 @@
     before-skip = 1em,
 ]{checks}[\item]
 
-%============================================================%
-%   CHOICES COMMAND
-%============================================================%
+%% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
 
 \NewTasksEnvironment[
-    label  = {\MiniBox{\Alph*}},
+    label  = {\choicebox{\Alph*}},
 	%label  = {\textbf{\Alph*}\,(\;\;)},
     item-indent = 3em,
 	%item-indent = 4em,
@@ -1275,6 +1104,12 @@
 	label-align = right,
     label-offset = 0.7em,
 ]{choices}[\item]
+
+%============================================================%
+%   ALTERNATIVAS
+%============================================================%
+
+% Determinacão automática do número de colunas
 
 \box_new:N \l_braun_choices_a_box
 \box_new:N \l_braun_choices_b_box
@@ -1347,6 +1182,153 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
+%   FIGURAS E TABELAS
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
+%   INLCUSÃO DE IMAGENS
+%============================================================%
+
+\RequirePackage { svg }
+
+\cs_set:Nn \graphics_include:n { \graphics_include:nn {} {#1} }
+
+\keys_define:nn { braun/graphics }
+	{
+        % fps .code:n = { \cs_set_protected:Npn \fps@figure {#1} },
+        % fps .initial:n = H,
+
+        width .dim_set:N = \l_braun_graphics_width_dim,
+		width .initial:n = 5cm,
+
+		height .dim_set:N = \l_braun_graphics_height_dim,
+		height .initial:n = 4cm,
+
+        path .tl_set:N = \g_braun_graphics_path_tl,
+        path .initial:n = {},
+	}
+
+% #1 -> coffin
+% #2 -> content
+\cs_set:Nn \braun_graphics_box:Nn
+{ 
+    \hcoffin_set:Nn #1
+        {
+            \group_begin:
+                \hbox_set:Nn \l_tmpa_box {#2}
+                \box_autosize_to_wd_and_ht:NVV \l_tmpa_box 
+                    \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
+                \box_use_drop:N \l_tmpa_box
+            \group_end:
+        }   
+}
+
+% #1 -> coffin
+% #2 -> figure path
+\cs_set:Nn \braun_include_graphics:Nn
+    { 
+        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
+            { 
+                \braun_graphics_box:Nn #1 
+                    { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
+            }
+    }
+
+% #1 -> coffin
+% #2 -> svg path
+\cs_set:Nn \braun_include_svg:Nn
+    { 
+        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
+            { 
+                \braun_graphics_box:Nn #1 
+                    { \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 } } 
+            }
+    }
+
+\tl_new:N \l_tmpc_tl
+
+\cs_set_eq:NN \legacyincludegraphics \includegraphics
+
+% #1 -> keys: braun/graphics
+% #2 -> figure path
+\DeclareDocumentCommand \includegraphics { o m }
+    { 
+        \group_begin:
+        \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
+        \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
+        \str_case:VnF \l_tmpc_tl
+            {
+                { .svg }
+                { 
+                    \file_if_exist_input:nF 
+                        { \g_braun_graphics_path_tl / \l_tmpa_tl / \l_tmpb_tl .tex }
+                        { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
+                }      
+            }
+            {
+                \braun_include_graphics:Nn \l_tmpa_coffin {#2}
+            }
+
+        \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {vc} {0pt} {0pt}
+        \group_end:
+    }
+
+%============================================================%
+%   INCLUSÃO DE CONTEÚDO TABELADO
+%============================================================%
+
+% Compatibilidade com o PANDOC
+\cs_set_eq:NN \tightlist    \relax
+\cs_set_eq:NN \endhead      \relax
+\cs_set_eq:NN \endfirsthead \relax
+
+\tl_set:Nn \arraystretch {1.25}
+
+\arrayrulecolor { gray-600 }
+
+\NewDocumentEnvironment { longtable } { O{} m }
+	{
+        \group_begin:
+        \begin{center}    
+		\begin{tabular} [#1] {#2} 
+		
+	}
+	{
+		\end{tabular}
+        \end{center}
+		\group_end:
+	}
+
+%============================================================%
+%   LEGENDAS
+%============================================================%
+
+\RequirePackage [ hypcap = false ] { caption }
+
+\keys_define:nn { braun/caption }
+    {
+        font .code:n = \captionsetup { font = { #1 } },
+        font .initial:n = {sf},
+
+        labelformat .code:n = \captionsetup { labelformat = { #1 } },
+
+        labelfont .code:n = \captionsetup { labelfont = { #1 } },
+        labelfont .initial:n = {bf},
+
+        labelsep .tl_set:N = \captionformat,
+        labelsep .initial:n = \quad,
+
+        unknown .code:n  = \exp_args:NV \captionsetup \l_keys_key_tl {#1}
+    }
+
+\DeclareCaptionLabelFormat { caps }
+    {
+        \text_uppercase:n {#1} ~ #2
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
 %   CAIXAS
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1358,8 +1340,423 @@
 \tcbset { enhanced~ jigsaw }
 
 %============================================================%
+%   TABELA BONITINHA
+%============================================================%
+
+\keys_define:nn { braun/colortable }
+    {
+        caption-color .code:n = 
+            \colorlet { colortable_caption_color } { #1 },
+        caption-color .initial:n = blue!70!black,
+
+        caption-label-color .code:n = 
+            \colorlet { colortable_label_color } { #1 },
+        caption-label-color .initial:n = red!80!black,
+
+        frame-color .code:n = 
+            \colorlet { colortable_frame_color } { #1 },
+        frame-color .initial:n = orange,
+
+        background-color .code:n = 
+            \colorlet { colortable_background_color } { #1 },
+        background-color .initial:n = yellow!7.5,
+    }
+
+\NewDocumentEnvironment { colortable } { O{} m +b }
+    {
+        \group_begin:
+
+        \captionsetup
+            {
+                font = { sf, bf },
+                labelformat = caps,
+                labelfont = { color = colortable_label_color },
+                textfont  = { color = colortable_caption_color },
+            }
+
+        \begin{table}
+        \centering
+        \tcbox
+            [
+                left = 0pt,
+                right = 0pt,
+                boxsep = 0pt,
+                top = 2pt,
+                bottom = -1.2em,
+                toptitle = -0.8ex,
+                bottomtitle = 1ex,
+                lefttitle = 1ex,
+                righttitle = 1ex,
+                title =
+                    { 
+                        \captionof { table } { \boldmath \l_tmpa_tl } 
+                    },
+                colframe = orange,
+                colback = white,
+                colbacktitle = colortable_background_color,
+                sharp~ corners = downhill,
+                grow~ to~ left~ by = 1ex,
+                arc = 1ex,
+            ]
+            {
+                \cs_set_eq:NN \toprule    \relax
+                \cs_set_eq:NN \bottomrule \relax
+                \cs_set_eq:NN \caption    \relax
+
+                \arrayrulecolor {orange}
+
+                \dim_set:Nn \lightrulewidth {1pt}
+
+                \begin{tabular} [#1] { @{\hspace{1ex}} #2 @{\hspace{1ex}} } 
+                    #3
+                \end{tabular}
+            }
+    } 
+    {
+        \end{table}
+        \group_end:
+    }
+
+\NewDocumentEnvironment { displaytable } {}
+	{
+        \group_begin:
+
+        \cs_set:Npn \paragraph ##1
+            { \tl_set:Nn \l_tmpa_tl {##1} }
+
+        \cs_set_eq:NN \longtable \colortable
+        \cs_set_eq:NN \endlongtable \endcolortable
+	}
+	{
+        \group_end:
+	}
+
+%============================================================%
+%   EXEMPLOS
+%============================================================%
+
+\keys_define:nn { braun/examples }
+    {
+        color .code:n = 
+            \colorlet { example_color } { #1 },
+        color .initial:n = purple!60!black,
+
+        background-color .code:n = 
+            \colorlet { example_background_color } { #1 },
+        background-color .initial:n = cyan!7.5,
+    }
+
+\newfloat  { floatexample } { thp } { loe }
+\captionsetup [ floatexample ] { name = Exemplo }
+
+\cs_set:Npn \ExampleHeader #1
+    {
+        \group_begin:
+
+        \captionsetup
+            {
+                labelformat = caps,
+                font = { color = example_color, sf },
+                labelfont = bf,
+            }
+
+        \captionof{floatexample}{#1}  
+        \skip_vertical:n {-1em}
+ 
+        \group_end:  
+    }
+
+\newcounter { step } [ floatexample ]
+
+\cs_set:Npn \ExampleSubHeader #1
+    {
+        \refstepcounter { step }
+
+        \tcbsubtitle
+            [
+                enhanced, 
+                frame~ hidden,
+            ]
+            {    
+                {
+                    \strut 
+                    \bfseries
+                    \color { example_color } 
+                    \small
+                    \sffamily 
+                    Etapa~ \arabic{ step }. 
+                }
+                \; #1
+            }
+    }
+
+\NewDocumentEnvironment { example } { }
+    {
+        \group_begin:
+
+        \cs_set_eq:NN \subsubsection \ExampleHeader
+        \cs_set_eq:NN \paragraph \ExampleSubHeader
+
+        \skip_vertical:n { 1em } 
+
+        \begin{tcolorbox}
+            [
+                breakable,
+                parbox = false,
+                colback = white,
+                coltitle = black,
+                colbacktitle = example_background_color,
+                colframe = example_color,
+                left = 1ex,
+                right = 1ex,
+                top = 1ex,
+                bottom = 1ex,
+                sharp~ corners = downhill,
+                arc = 1ex,
+            ]
+
+        \dim_zero:N \parindent
+        \dim_set_eq:NN \parskip \medskipamount
+    } 
+    {
+        \end{tcolorbox}
+
+        \skip_vertical:n { 1em }
+
+        \group_end:
+    }
+
+%============================================================%
+%   PONTO PARA PENSAR
+%============================================================%
+
+\cs_set:Npn \ThinkHeader #1
+    {
+        \tcbsubtitle
+            { 
+                \usekomafont { disposition }
+                \text_uppercase:n {#1}
+            }
+    }
+
+\NewDocumentEnvironment { think } { }
+    {
+        \cs_set_eq:NN \subsubsection \ThinkHeader
+
+        \skip_vertical:n { 1em } 
+
+        \begin{addmargin}{\parindent}
+        \begin{tcolorbox}
+            [
+                hbox~ boxed~ title,
+                frame~ hidden,
+                sharp~ corners,
+                top = -1pt,
+                colback = white,
+                coltitle = black,
+                colbacktitle = white,
+                fonttitle = \sffamily\bfseries,
+                left = 0pt,
+                right = 0pt,
+                toptitle = 2pt,
+                bottomtitle = 2pt,
+                colframe = gray-500,
+            ]
+    } 
+    {
+        \end{tcolorbox}
+        \end{addmargin}
+
+        \skip_vertical:n { 1em } 
+    }
+
+%============================================================%
+%   INFO E ATENÇÃO
+%============================================================%
+
+\cs_set:Npn \InfoHeader #1
+    {
+        \tcbsubtitle
+            [
+                enhanced,
+                frame~ hidden,
+                coltext = black,
+                colback = cyan!7.5,
+            ]
+            {
+
+                \usekomafont { disposition }
+                \text_uppercase:n {#1}
+            }
+    }
+
+
+\NewDocumentEnvironment { info } { }
+    {
+        \group_begin:
+
+        \cs_set_eq:NN \subsubsection \InfoHeader
+
+        \skip_vertical:n { 1em } 
+
+        \begin{tcolorbox}
+            [
+                sharp~ corners,
+                frame~ hidden,
+                colback = cyan!7.5,
+                left = 1ex,
+                right = 1ex,
+                borderline~ vertical = {1.5pt}{0pt}{cyan!7.5},
+                borderline~ horizontal = {1.5pt}{0pt}{cyan},
+            ]
+    } 
+    {
+        \end{tcolorbox}
+
+        \skip_vertical:n { 1em }
+
+        \group_end:
+    }
+
+\cs_set:Npn \WarningHeader #1
+    {
+        \tcbsubtitle
+            [
+                enhanced,
+                frame~ hidden,
+                coltext = black,
+                colback = yellow!7.5,
+            ]
+            {
+
+                \usekomafont { disposition }
+                \text_uppercase:n {#1}
+            }
+    }
+
+\NewDocumentEnvironment { warning } { }
+    {
+        \group_begin:
+
+        \cs_set_eq:NN \subsubsection \WarningHeader
+
+        \skip_vertical:n { 1em } 
+
+        \begin{tcolorbox}
+            [
+                sharp~ corners,
+                frame~ hidden,
+                colback = yellow!7.5,
+                left = 1ex,
+                right = 1ex,
+                borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
+                borderline~ horizontal = {1.5pt}{0pt}{yellow},
+            ]
+    } 
+    {
+        \end{tcolorbox}
+
+        \skip_vertical:n { 1em }
+
+        \group_end:
+    }
+
+%============================================================%
+%   PROVA (COMO ISSO É FEITO?)
+%============================================================%
+
+\cs_set:Npn \DerivationHeader #1
+    {
+        \tcbsubtitle
+            [
+                enhanced,
+                frame~ hidden,
+                coltext = black,
+                colback = yellow!7.5,
+            ]
+            {
+
+                \usekomafont { disposition }
+                \text_uppercase:n {#1}
+            }
+    }
+
+
+\NewDocumentEnvironment { derivation } { }
+    {
+        \group_begin:
+
+        \cs_set_eq:NN \subsubsection \DerivationHeader
+
+        \skip_vertical:n { 1em } 
+
+        \begin{tcolorbox}
+            [
+                breakable,
+                sharp~ corners,
+                frame~ hidden,
+                colback = yellow!7.5,
+                left = 1ex,
+                right = 1ex,
+                borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
+                borderline~ horizontal = {1.5pt}{0pt}{orange},
+            ]
+    } 
+    {
+        \end{tcolorbox}
+
+        \skip_vertical:n { 1em }
+
+        \group_end:
+    }
+
+%============================================================%
+%   RESUMO NO FINAL DA SEÇÃO
+%============================================================%
+
+\AtBeginEnvironment { quote }
+    { 
+        \bfseries\itshape 
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PROBLEMAS
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%============================================================%
 %   PROBLEMAS
 %============================================================%
+
+\keys_define:nn { braun/problems }
+    {
+        name .tl_set:N = \l_braun_problem_name_tl,
+        name .initial:n = Problema,
+
+        template .tl_set:N = \l_braun_problem_template_tl,
+        template .initial:n = braun,
+
+        skip-after .dim_set:N = \l_braun_problem_after_skip,
+        skip-after .initial:n = 5pt,
+
+        breakable .bool_set:N = \l_braun_problem_breakable_bool,
+        breakable .initial:n  = false,
+        breakable .default:n  = true,
+
+        single-page .bool_set:N = \l_braun_problem_single_page_bool,
+        single-page .initial:n  = false,
+        single-page .default:n  = true,
+
+		vfill .bool_set:N = \l_braun_problem_fill_bool,
+        vfill .initial:n  = true,
+        vfill .default:n  = true,
+    }
+
+
+\cs_set:Npn \path #1 { \seq_put_right:Nn \l_file_search_path_seq {#1} }
+
+\cs_set:Nn \braun_ghost_section: { \subsection*{} \skip_vertical:n {-3em} }
 
 \keys_define:nn { braun/problems }
     {
@@ -1400,15 +1797,12 @@
 			}
     }
 
-\newcounter { problem_counter } [ section ]
-\newcounter { problem_counter_absolute }
-
+\newcounter { problem } [ section ]
 
 % #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
     {
-        \refstepcounter{problem_counter}
-		\refstepcounter{problem_counter_absolute}
+        \refstepcounter{problem}
 
         \keys_set:nn { braun/problems } {path = , id = , #1}
 
@@ -1419,7 +1813,7 @@
             { 
                 \footnotesize\sffamily\bfseries
                 \text_uppercase:n { \l_braun_problem_name_tl } ~
-                \arabic { section } . \arabic { problem_counter }
+                \arabic { section } . \arabic { problem }
             }
 
         \dim_zero:N \parindent
@@ -1431,389 +1825,6 @@
         % \braun_end_problem_box:
         \bool_if:NT \l_braun_problem_single_page_bool { \newpage }
     }
-
-%============================================================%
-%   EXEMPLOS
-%============================================================%
-
-\keys_define:nn { braun/examples }
-    {
-        name .tl_set:N = \l_braun_example_name_tl,
-        name .initial:n = Exemplo,
-    }
-
-\newcounter { example_counter_absolute }
-\newcounter { step_counter } [ example_counter_absolute ]
-
-\cs_set:Npn \ExampleHeader #1
-    {
-        {
-            \color{purple}
-            \sffamily
-            {
-                \begin{tabular}{@{}lp{20em}@{}}
-                    \textbf
-                        {
-                            EXEMPLO~ \arabic{example_counter_absolute}
-                        } 
-                    & #1
-                \end{tabular}       
-            }
-            % \quad #1
-        }
-    }
-
-\cs_set:Npn \ExampleSubHeader #1
-    {
-        \refstepcounter{ step_counter }
-        \tcbsubtitle
-            [
-                enhanced, 
-                frame~ hidden,
-            ]
-            {    
-                {
-                    \strut 
-                    \bfseries
-                    \color{purple} 
-                    \small
-                    \sffamily 
-                    Etapa~ \arabic{step_counter}. 
-                }
-                \; #1
-            }
-    }
-
-\NewDocumentEnvironment { example } { }
-    {
-        \group_begin:
-
-        \refstepcounter{example_counter_absolute}
-
-        \cs_set_eq:NN \subsubsection \ExampleHeader
-        \cs_set_eq:NN \paragraph \ExampleSubHeader
-
-        \skip_vertical:n { 1ex } 
-
-        \begin{tcolorbox}
-            [
-                breakable,
-                parbox = false,
-                sharp~corners = downhill,
-                colback = white,
-                coltitle = black,
-                colbacktitle = cyan!7.5,
-                colframe = purple,
-                left = 1ex,
-                right = 1ex,
-                top = 0ex,
-                grow~ to~ right~ by = 1.5ex,
-                grow~ to~ left~ by = 1.5ex,
-                arc = 1ex,
-            ]
-
-        \dim_zero:N \parindent
-        \dim_set_eq:NN \parskip \medskipamount
-    } 
-    {
-        \end{tcolorbox}
-
-        \skip_vertical:n { 1ex }
-
-        \group_end:
-    }
-
-%============================================================%
-%   RESUMO NO FINAL DA SEÇÃO
-%============================================================%
-
-\AtBeginEnvironment { quote }
-    { 
-        \bfseries\itshape 
-    }
-
-%============================================================%
-%   PONTO PARA PENSAR
-%============================================================%
-
-\cs_set:Npn \ThinkHeader #1
-    {
-        \tcbsubtitle
-            [
-                enhanced, 
-                enhanced~ jigsaw,
-                
-            ]
-            { 
-                \small 
-                \text_uppercase:n {#1}
-            }
-    }
-
-
-\NewDocumentEnvironment { think } { }
-    {
-        \cs_set_eq:NN \subsubsection \ThinkHeader
-
-        \begin{tcolorbox}
-            [
-                hbox~ boxed~ title,
-                frame~ hidden,
-                sharp~ corners,
-                top = -1pt,
-                colback = white,
-                coltitle = black,
-                colbacktitle = white,
-                fonttitle = \sffamily\bfseries,
-                left = 0pt,
-                right = 0pt,
-                grow~ to~ left~ by = -\parindent,
-                grow~ to~ right~ by = -\parindent,
-                toptitle = 2pt,
-                bottomtitle = 2pt,
-                colframe = gray-500,
-            ]
-    } 
-    {
-        \end{tcolorbox}
-    }
-
-%============================================================%
-%   INFO, WARNING AND DANGER
-%============================================================%
-
-\cs_set:Npn \InfoHeader #1
-    {
-        {
-            \bfseries
-            \sffamily
-            #1
-        }
-        \medskip
-    }
-
-
-\NewDocumentEnvironment { info } { }
-    {
-        \group_begin:
-
-        \cs_set_eq:NN \subsubsection \InfoHeader
-
-        \skip_vertical:n { 1ex } 
-
-        \begin{tcolorbox}
-            [
-                sharp~ corners,
-                frame~ hidden,
-                colback = cyan!7.5,
-                left = 1ex,
-                right = 1ex,
-                grow~ to~ right~ by = 1ex,
-                grow~ to~ left~ by = 1ex,
-                borderline~ vertical = {1.5pt}{0pt}{cyan!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{cyan},
-            ]
-    } 
-    {
-        \end{tcolorbox}
-
-        \skip_vertical:n { 1ex }
-
-        \group_end:
-    }
-
-\cs_set:Npn \WarningHeader #1
-    {
-        {
-            \bfseries
-            \sffamily
-            #1
-        }
-        \medskip
-    }
-
-\NewDocumentEnvironment { warning } { }
-    {
-        \group_begin:
-
-        \cs_set_eq:NN \subsubsection \WarningHeader
-
-        \skip_vertical:n { 1ex } 
-
-        \begin{tcolorbox}
-            [
-                sharp~ corners,
-                frame~ hidden,
-                colback = yellow!7.5,
-                left = 1ex,
-                right = 1ex,
-                grow~ to~ right~ by = 1ex,
-                grow~ to~ left~ by = 1ex,
-                borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{yellow},
-            ]
-    } 
-    {
-        \end{tcolorbox}
-
-        \skip_vertical:n { 1ex }
-
-        \group_end:
-    }
-
-%============================================================%
-%   TABLES
-%============================================================%
-
-\cs_set_eq:NN \endhead      \relax
-\cs_set_eq:NN \endfirsthead \relax
-
-\tl_set:Nn \arraystretch {1.25}
-
-\arrayrulecolor{gray-600}
-
-\NewDocumentEnvironment { longtable } { O{} m }
-	{
-        \group_begin:
-
-        % \cs_set_eq:NN \toprule \relax
-        % \cs_set_eq:NN \bottomrule \relax
-
-        \begin{center}    
-
-		\begin{tabular} [#1] {#2} 
-		
-	}
-	{
-		\end{tabular}
-
-    \end{center}
-
-		\group_end:
-	}
-
-\newcounter { table_counter_absolute }
-
-\NewDocumentEnvironment { fancylongtable } { O{} m +b }
-    {
-        \group_begin:
-
-        \refstepcounter{table_counter_absolute}
-
-        \begin{center}
-        \tcbox
-            [
-                left = 0mm,
-                right = 0mm,
-                boxsep = 0mm,
-                top = 2pt,
-                bottom = -1.2em,
-                toptitle = 5pt,
-                bottomtitle = 5pt,
-                title =
-                    {
-                        \begin{tabular} { @{\quad} lr @{\quad} } 
-                            \sffamily
-                            \bfseries
-                            TABELA~ \arabic{table_counter_absolute}
-                            &
-                            \sffamily
-                            \bfseries
-                            \color{blue!70!black}
-                            \l_tmpa_tl
-                        \end{tabular}
-                    },
-                colframe = orange,
-                colback = white,
-                colbacktitle = yellow!7.5,
-                coltitle = red,
-            ]
-            {
-                \cs_set_eq:NN \toprule \relax
-                \cs_set_eq:NN \bottomrule \relax
-                \cs_set_eq:NN \caption \relax
-
-                \arrayrulecolor{orange}
-                \setlength\lightrulewidth{1pt}
-
-                \begin{tabular} [#1] { @{\quad} #2 @{\quad} } 
-                    #3
-                \end{tabular}
-            }
-        % 
-    } 
-    {
-        \end{center}
-        \group_end:
-    }
-
-\NewDocumentEnvironment { fancytable } {}
-	{
-        \group_begin:
-
-        \cs_set:Npn \paragraph ##1
-            { \tl_set:Nn \l_tmpa_tl {##1} }
-
-        \cs_set_eq:NN \longtable \fancylongtable
-        \cs_set_eq:NN \endlongtable \endfancylongtable
-	}
-	{
-        \group_end:
-	}
-
-%============================================================%
-%   DERIVATION
-%============================================================%
-
-\cs_set:Npn \DerivationHeader #1
-    {
-        {
-            \large
-            \bfseries
-            \sffamily
-            #1
-        }
-        \medskip
-    }
-
-
-\NewDocumentEnvironment { derivation } { }
-    {
-        \group_begin:
-
-        \cs_set_eq:NN \subsubsection \DerivationHeader
-
-        \skip_vertical:n { 1ex } 
-
-        \begin{tcolorbox}
-            [
-                breakable,
-                sharp~ corners,
-                frame~ hidden,
-                colback = yellow!7.5,
-                left = 1ex,
-                right = 1ex,
-                grow~ to~ right~ by = 1.5ex,
-                grow~ to~ left~ by = 1.5ex,
-                borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{orange},
-            ]
-    } 
-    {
-        \end{tcolorbox}
-
-        \skip_vertical:n { 1ex }
-
-        \group_end:
-    }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                              
-%   PANDOC COMPATIBILITY
-%                                              
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\cs_set_eq:NN \tightlist \relax
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1831,30 +1842,32 @@
 \DeclareBraunTemplate { braun }
     {
         DIV = 27,
+
         font = paratype,
         fontsize = 9pt,
         emph = \itshape,
-        page / headfoot-font = \sffamily,
+
         % Cabeçalhos
+        headinclude = true,
+        page / headfoot-font = \sffamily,
         page / header / sepline = true,
         page / header / inner = { \textbf{\PrintTitle} \; | \; \PrintAuthor ,~ \PrintDate },
         page / header / center = {},
         page / header / outer = \textbf{\thepage},
+
+        % Rodapé
+        footinclude = false,
         page / footer / inner = {},
         page / footer / center = {},
         page / footer / outer = {},
-        % Cabeçalhos da página de título
-        page / footer / title-center = {},
-        % page / footer / title-sepline = true,
-        % page / footer / title-inner = { \textbf{\PrintTitle} \; | \; \PrintAuthor ,~ \PrintDate } ,
-        % page / footer / title-center = {},
-        % page / footer / title-outer = \textbf{\thepage},
-        headheight = 1cm,
 
+        % Rodapé da página de título
+        page / footer / title-center = {},
+
+        % Divisão das colunas (twocolumn)
         page / mcrule / fancy,
-        page / caption / labelfont = bf,
-        page / caption / labelsep  = quad,
-        page / caption / font      = sf,
+
+        % Título
         maketitle / pre-text = \thispagestyle { plain.scrheadings },
         maketitle / align = l,
         maketitle / print = { title, subtitle, author, affiliation },
@@ -1867,8 +1880,14 @@
         maketitle / date / value = \int_use:N \c_sys_year_int ,
         maketitle / date / font  = \Large\bfseries ,
         maketitle / logo / value = pensi,
+
+        % Legendas
+        captions = nooneline,
+        caption / labelfont = { color = blue!70!black, bf },
+        caption / labelformat = caps,
+
+        % Problemas
         problems / name = Problema,
-        problems / template = braun,
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1909,7 +1928,7 @@
         breaklinks  = true,
     }
 
-\dim_set:Nn \headheight {1.5cm}
+\AtBeginDocument { \recalctypearea }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
