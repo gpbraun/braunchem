@@ -1391,7 +1391,7 @@
                     { 
                         \captionof { table } { \boldmath \l_tmpa_tl } 
                     },
-                colframe = orange,
+                colframe = colortable_frame_color,
                 colback = white,
                 colbacktitle = colortable_background_color,
                 sharp~ corners = downhill,
@@ -1403,7 +1403,7 @@
                 \cs_set_eq:NN \bottomrule \relax
                 \cs_set_eq:NN \caption    \relax
 
-                \arrayrulecolor {orange}
+                \arrayrulecolor { colortable_frame_color }
 
                 \dim_set:Nn \lightrulewidth {1pt}
 
@@ -1497,7 +1497,7 @@
         \cs_set_eq:NN \subsubsection \ExampleHeader
         \cs_set_eq:NN \paragraph \ExampleSubHeader
 
-        \skip_vertical:n { 1em } 
+        \bigskip
 
         \begin{tcolorbox}
             [
@@ -1521,7 +1521,7 @@
     {
         \end{tcolorbox}
 
-        \skip_vertical:n { 1em }
+        \bigskip
 
         \group_end:
     }
@@ -1543,7 +1543,7 @@
     {
         \cs_set_eq:NN \subsubsection \ThinkHeader
 
-        \skip_vertical:n { 1em } 
+        \medskip
 
         \begin{addmargin}{\parindent}
         \begin{tcolorbox}
@@ -1567,7 +1567,7 @@
         \end{tcolorbox}
         \end{addmargin}
 
-        \skip_vertical:n { 1em } 
+        \medskip
     }
 
 %============================================================%
@@ -1597,7 +1597,7 @@
 
         \cs_set_eq:NN \subsubsection \InfoHeader
 
-        \skip_vertical:n { 1em } 
+        \bigskip
 
         \begin{tcolorbox}
             [
@@ -1613,7 +1613,7 @@
     {
         \end{tcolorbox}
 
-        \skip_vertical:n { 1em }
+        \bigskip
 
         \group_end:
     }
@@ -1640,7 +1640,7 @@
 
         \cs_set_eq:NN \subsubsection \WarningHeader
 
-        \skip_vertical:n { 1em } 
+        \bigskip
 
         \begin{tcolorbox}
             [
@@ -1656,7 +1656,7 @@
     {
         \end{tcolorbox}
 
-        \skip_vertical:n { 1em }
+        \bigskip
 
         \group_end:
     }
@@ -1688,7 +1688,7 @@
 
         \cs_set_eq:NN \subsubsection \DerivationHeader
 
-        \skip_vertical:n { 1em } 
+        \bigskip
 
         \begin{tcolorbox}
             [
@@ -1705,7 +1705,7 @@
     {
         \end{tcolorbox}
 
-        \skip_vertical:n { 1em }
+        \bigskip
 
         \group_end:
     }
