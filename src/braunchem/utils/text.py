@@ -131,7 +131,7 @@ class Text(pydantic.BaseModel):
         if not md_str:
             return
 
-        md_str = str(md_str).strip("\n")
+        md_str = str(md_str).strip()
 
         tex_str = md2tex(md_str)
         return cls(md=md_str, tex=tex_str)
@@ -142,7 +142,7 @@ class Text(pydantic.BaseModel):
         if not html_str:
             return
 
-        html_str = str(html_str).strip("\n")
+        html_str = str(html_str).strip()
 
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
