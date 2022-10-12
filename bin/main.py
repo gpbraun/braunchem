@@ -14,15 +14,15 @@ def main():
 
     problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR)
 
-    topic_db = TopicSet.parse_database(config.TOPICS_DIR)
+    topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=True)
 
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
-    # topic_db.write_pdfs(
-    #     problem_db,
-    #     tmp_dir=config.TMP_TOPICS_DIR,
-    #     out_dir=config.OUT_DIR,
-    # )
+    topic_db.write_pdfs(
+        problem_db,
+        tmp_dir=config.TMP_TOPICS_DIR,
+        out_dir=config.OUT_DIR,
+    )
 
     # shutil.copy(
     #     config.FOCUSES_DIR.joinpath("focuses.json"),

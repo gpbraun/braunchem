@@ -71,9 +71,9 @@ class Topic(BaseModel):
         """Retorna o conteúdo do tópico em LaTeX."""
         return self.content.tex + self.tex_problems(problem_db)
 
-    def write_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
+    def tex_document(self, problem_db: ProblemSet):
         """Cria o arquivo `pdf` do tópico."""
-        tex_doc = Document(
+        return Document(
             id_=self.id_,
             path=self.path.parent,
             title=self.title,
@@ -84,7 +84,9 @@ class Topic(BaseModel):
             contents=self.tex(problem_db),
         )
 
-        tex_doc.pdf(tmp_dir.joinpath(self.id_), out_dir)
+    def write_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
+        """Cria o arquivo `pdf` do tópico."""
+        self.tex_document(problem_db).pdf(tmp_dir.joinpath(self.id_), out_dir)
 
     @classmethod
     def parse_mdfile(cls, topic_path: Path):
@@ -181,10 +183,13 @@ class TopicSet(BaseModel):
 
         self.topics = updated_topics
 
-    def write_pdfs(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
+    def tex_documents(self, problem_db: ProblemSet):
+        return map(lambda topic: topic.tex_document(problem_db), self.topics)
+
+    def write_pdfs(self, problem_db: ProblemSet, tmp_dir, out_dir):
         """Cria o arquivo `pdf` para todos os tópicos."""
-        for topic in self.topics:
-            topic.write_pdf(problem_db, tmp_dir, out_dir)
+        for tex_document in self.tex_documents(problem_db):
+            tex_document.pdf(tmp_dir, out_dir)
 
     @classmethod
     def parse_paths(cls, topic_paths: list[Path]):
