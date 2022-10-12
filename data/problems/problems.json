@@ -22837,39 +22837,39 @@
     {
       "id_": "3A20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A20/3A20.md",
-      "date": "2022-07-09T19:18:47.330393",
+      "date": "2022-10-12T17:42:44.643536",
       "statement": {
-        "md": "Considere um recipiente de $\\pu{320 L}$, ao qual são adicionados:\n\n1.  $\\pu{30.000 cm3}$ de hélio a $\\pu{760 Torr}$ e $\\pu{27 \\degree C}$\n2.  $\\pu{250 L}$ de monóxido de carbono a $\\pu{1140 Torr}$ e\n    $\\pu{-23 \\degree C}$\n3.  $\\pu{2 m3}$ de monóxido de nitrogênio a $\\pu{0,273 atm}$ e\n    $\\pu{0 \\degree C}$\n\n**Assinale** a opção que apresenta a pressão parcial do hélio na mistura\ngasosa cuja pressão total é de $\\pu{4,5 atm}$.",
-        "tex": "Considere um recipiente de {\\(\\qty{320}{L}\\)}, ao qual são adicionados:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\qty{30.000}{cm^{3}}\\)} de hélio a {\\(\\qty{760}{Torr}\\)} e\n  {\\(\\qty{27}{\\degree C}\\)}\n\\item\n  {\\(\\qty{250}{L}\\)} de monóxido de carbono a {\\(\\qty{1140}{Torr}\\)} e\n  {\\(\\qty{-23}{\\degree C}\\)}\n\\item\n  {\\(\\qty{2}{m^{3}}\\)} de monóxido de nitrogênio a {\\(\\qty{0,273}{atm}\\)} e\n  {\\(\\qty{0}{\\degree C}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a opção que apresenta a pressão parcial do hélio na\nmistura gasosa cuja pressão total é de {\\(\\qty{4,5}{atm}\\)}."
+        "md": "Considere um recipiente de $\\pu{320 L}$, ao qual são adicionados:\n\n1.  $\\pu{30.000 cm3}$ de hélio a $\\pu{760 Torr}$ e $\\pu{27 \\degree C}$\n2.  $\\pu{250 L}$ de monóxido de carbono a $\\pu{1140 Torr}$ e\n    $\\pu{-23 \\degree C}$\n3.  $\\pu{2 m3}$ de monóxido de nitrogênio a $\\pu{0,273 atm}$ e\n    $\\pu{0 \\degree C}$\n\n**Assinale** a opção que apresenta a pressão parcial do hélio na mistura\ngasosa cuja pressão total é de $\\pu{4,5 atm}$.\n",
+        "tex": "Considere um recipiente de {\\(\\qty{320}{L}\\)}, ao qual são adicionados:\n\n\\begin{enumerate}\n\\tightlist\n\\item\n  {\\(\\qty{30.000}{cm^{3}}\\)} de hélio a {\\(\\qty{760}{Torr}\\)} e\n  {\\(\\qty{27}{\\degree C}\\)}\n\\item\n  {\\(\\qty{250}{L}\\)} de monóxido de carbono a {\\(\\qty{1140}{Torr}\\)} e\n  {\\(\\qty{-23}{\\degree C}\\)}\n\\item\n  {\\(\\qty{2}{m^{3}}\\)} de monóxido de nitrogênio a\n  {\\(\\qty{0,273}{atm}\\)} e {\\(\\qty{0}{\\degree C}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a opção que apresenta a pressão parcial do hélio na\nmistura gasosa cuja pressão total é de {\\(\\qty{4,5}{atm}\\)}.\n"
       },
       "solution": null,
       "answer": [
         {
-          "md": "$\\pu{1 atm}$",
-          "tex": "{\\(\\qty{1}{atm}\\)}\\\\"
+          "md": "$\\pu{1 atm}$\n",
+          "tex": "{\\(\\qty{1}{atm}\\)}\n"
         }
       ],
       "data": null,
       "choices": [
         {
-          "md": "$\\pu{0,1 atm}$",
-          "tex": "{\\(\\qty{0,1}{atm}\\)}\\\\"
+          "md": "$\\pu{0,1 atm}$\n",
+          "tex": "{\\(\\qty{0,1}{atm}\\)}\n"
         },
         {
-          "md": "$\\pu{0,2 atm}$",
-          "tex": "{\\(\\qty{0,2}{atm}\\)}\\\\"
+          "md": "$\\pu{0,2 atm}$\n",
+          "tex": "{\\(\\qty{0,2}{atm}\\)}\n"
         },
         {
-          "md": "$\\pu{0,5 atm}$",
-          "tex": "{\\(\\qty{0,5}{atm}\\)}\\\\"
+          "md": "$\\pu{0,5 atm}$\n",
+          "tex": "{\\(\\qty{0,5}{atm}\\)}\n"
         },
         {
-          "md": "$\\pu{1 atm}$",
-          "tex": "{\\(\\qty{1}{atm}\\)}\\\\"
+          "md": "$\\pu{1 atm}$\n",
+          "tex": "{\\(\\qty{1}{atm}\\)}\n"
         },
         {
-          "md": "$\\pu{2 atm}$",
-          "tex": "{\\(\\qty{2}{atm}\\)}"
+          "md": "$\\pu{2 atm}$\n",
+          "tex": "{\\(\\qty{2}{atm}\\)}\n"
         }
       ],
       "correct_choice": 3

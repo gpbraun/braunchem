@@ -238,7 +238,7 @@ class ProblemSet(pydantic.BaseModel):
         if not self.problems:
             return ""
 
-        header = latex.section(self.title, level=0) if use_header else ""
+        header = latex.section(self.title, level=1) if use_header else ""
         statements = "\n".join(p.tex() for p in self)
 
         return header + statements
