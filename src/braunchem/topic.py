@@ -39,7 +39,7 @@ class Topic(BaseModel):
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     sections: list[str]
     content: Text
-    problem_sets: dict = Field(None, alias="problems")
+    problem_sets: dict = {}
 
     def problem_collections(self, problem_db: ProblemSet):
         """Retorna uma lista de `ProblemSets` a partir dos ids dos problemas."""
