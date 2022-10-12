@@ -2,7 +2,6 @@
 
 Esse módulo implementa uma classe para os problemas.
 """
-from turtle import update
 import braunchem.utils.text as text
 import braunchem.utils.latex as latex
 from braunchem.utils.text import Text
@@ -15,12 +14,12 @@ from pathlib import Path
 from multiprocessing import Pool
 
 import frontmatter
-import pydantic
+from pydantic import BaseModel
 
 logger = logging.getLogger(__name__)
 
 
-class Problem(pydantic.BaseModel):
+class Problem(BaseModel):
     """Problema.
 
     Atributos:
@@ -39,11 +38,11 @@ class Problem(pydantic.BaseModel):
     path: Path
     date: datetime
     statement: Text
-    solution: Text | None = None
-    answer: list[Text] | None = None
-    data: Table | None = None
-    choices: list[Text] | None = None
-    correct_choice: int | None = None
+    solution: Text = None
+    answer: list[Text] = None
+    data: Table = None
+    choices: list[Text] = None
+    correct_choice: int = None
 
     @property
     def is_objective(self):
@@ -181,7 +180,7 @@ class Problem(pydantic.BaseModel):
         return cls.parse_obj(problem)
 
 
-class ProblemSet(pydantic.BaseModel):
+class ProblemSet(BaseModel):
     """Conjunto de Problemas.
 
     Atributos:
@@ -192,7 +191,7 @@ class ProblemSet(pydantic.BaseModel):
     id_: str
     title: str
     date: datetime
-    problems: list[Problem] | None = None
+    problems: list[Problem] = None
 
     def __len__(self):
         return len(self.problems)
@@ -281,6 +280,7 @@ class ProblemSet(pydantic.BaseModel):
 
         logger.debug(f"Problema {problem_id} mantido.")
         problem.path = problem_path.resolve()
+
         return problem
 
     def update_problems(self, problem_paths: list[Path]):
@@ -314,14 +314,10 @@ class ProblemSet(pydantic.BaseModel):
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
 
     @classmethod
-    def parse_database(
-        cls,
-        problems_dir: Path,
-        force_update: bool = False,
-    ):
+    def parse_database(cls, problems_dir: Path, force_update: bool = False):
         """Atualiza a base de dados"""
         problem_json_path = problems_dir.joinpath("problems.json")
-        logger.info(f"Procurando problemas no diretório: {problems_dir}.")
+
         problem_paths = text.get_database_paths(problems_dir)
 
         if not problem_json_path.exists() or force_update:
@@ -330,6 +326,8 @@ class ProblemSet(pydantic.BaseModel):
                 problem_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
             )
             return problem_db
+
+        logger.info(f"Lendo base de dados no arquivo: {problem_json_path}.")
 
         problem_db = cls.parse_file(problem_json_path)
         problem_db.update_problems(problem_paths)

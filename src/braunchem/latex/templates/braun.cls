@@ -297,7 +297,7 @@
                     { 0cm , 0em }
                 \draw_path_lineto:n 
                     { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
-                \color_fill:n { gray-500 }
+                \color_fill:n { black!50 }
                 \draw_path_use_clear:n { fill, stroke }
                 \draw_transform_shift:n 
                     { \linewidth - 1em , 1.25ex }
@@ -332,7 +332,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { gray-500 }
+					\color_fill:n { black!50 }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -1535,6 +1535,7 @@
         \tcbsubtitle
             { 
                 \usekomafont { disposition }
+                \small
                 \text_uppercase:n {#1}
             }
     }

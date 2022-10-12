@@ -17,6 +17,8 @@ import pypandoc
 import bs4
 import pydantic
 
+logger = logging.getLogger(__name__)
+
 
 MARKDOWN_EXTENSIONS = [
     "task_lists",
@@ -156,6 +158,8 @@ def get_database_paths(database_dir: Path) -> list[Path]:
     Retorna:
         list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
     """
+    logger.info(f"Procurando arquivos no diretório: {database_dir}.")
+
     md_files = []
 
     for root, _, files in os.walk(database_dir):

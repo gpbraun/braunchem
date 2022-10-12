@@ -11,14 +11,15 @@ from braunchem.latex.document import Document
 import logging
 from datetime import datetime
 from pathlib import Path
+from multiprocessing import Pool
 
 import frontmatter
-import pydantic
+from pydantic import BaseModel, Field
 
 logger = logging.getLogger(__name__)
 
 
-class Topic(pydantic.BaseModel):
+class Topic(BaseModel):
     """Tópico.
 
     Atributos:
@@ -38,7 +39,7 @@ class Topic(pydantic.BaseModel):
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     sections: list[str]
     content: Text
-    problem_sets: dict = {}
+    problem_sets: dict = Field(None, alias="problems")
 
     def problem_collections(self, problem_db: ProblemSet):
         """Retorna uma lista de `ProblemSets` a partir dos ids dos problemas."""
@@ -112,7 +113,7 @@ class Topic(pydantic.BaseModel):
         return cls.parse_obj(topic)
 
 
-class TopicSet(pydantic.BaseModel):
+class TopicSet(BaseModel):
     """Conjunto de tópicos.
 
     Atributos:
@@ -187,9 +188,9 @@ class TopicSet(pydantic.BaseModel):
 
     @classmethod
     def parse_paths(cls, topic_paths: list[Path]):
-        """Cria um `TopicSet` com os endereços problemas fornecidos."""
-        path_parser = lambda topic_path: Topic.parse_mdfile(topic_path)
-        topics = list(map(path_parser, topic_paths))
+        """Cria um `TopicSet` com os endereços de tópicos fornecidos."""
+        with Pool() as pool:
+            topics = list(pool.imap_unordered(Topic.parse_mdfile, topic_paths))
 
         return cls(id_="root", title="ROOT", date=datetime.now(), topics=topics)
 
@@ -197,7 +198,7 @@ class TopicSet(pydantic.BaseModel):
     def parse_database(cls, topics_dir: Path, force_update: bool = False):
         """Atualiza a base de dados"""
         topic_json_path = topics_dir.joinpath("topics.json")
-        logger.info(f"Procurando tópicos no diretório: {topics_dir}.")
+
         topic_paths = text.get_database_paths(topics_dir)
 
         if not topic_json_path.exists() or force_update:
@@ -206,6 +207,8 @@ class TopicSet(pydantic.BaseModel):
                 topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
             )
             return topic_db
+
+        logger.info(f"Lendo base de dados no arquivo: {topic_json_path}.")
 
         topic_db = cls.parse_file(topic_json_path)
         topic_db.update_topics(topic_paths)
