@@ -27,13 +27,31 @@ def autoprops(true_props):
         ]
         correct_choice = 0
     if true_props == [1]:
-        choices = ["**1**", "**2**", "**1** e **2**", "**2** e **3**", "**2** e **4**"]
+        choices = [
+            "**1**",
+            "**2**",
+            "**1** e **2**",
+            "**2** e **3**",
+            "**2** e **4**",
+        ]
         correct_choice = 1
     if true_props == [2]:
-        choices = ["**2**", "**3**", "**1** e **3**", "**2** e **3**", "**3** e **4**"]
+        choices = [
+            "**2**",
+            "**3**",
+            "**1** e **3**",
+            "**2** e **3**",
+            "**3** e **4**",
+        ]
         correct_choice = 1
     if true_props == [3]:
-        choices = ["**3**", "**4**", "**1** e **4**", "**2** e **4**", "**3** e **4**"]
+        choices = [
+            "**3**",
+            "**4**",
+            "**1** e **4**",
+            "**2** e **4**",
+            "**3** e **4**",
+        ]
         correct_choice = 1
     # Duas corretas
     if true_props == [0, 1]:
