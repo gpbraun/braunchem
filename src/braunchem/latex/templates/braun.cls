@@ -297,7 +297,7 @@
                     { 0cm , 0em }
                 \draw_path_lineto:n 
                     { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
-                \color_fill:n { black!50 }
+                \color_fill:n { gray-500 }
                 \draw_path_use_clear:n { fill, stroke }
                 \draw_transform_shift:n 
                     { \linewidth - 1em , 1.25ex }
@@ -332,7 +332,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { black!50 }
+					\color_fill:n { gray-500 }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -1608,7 +1608,7 @@
                 left = 1ex,
                 right = 1ex,
                 borderline~ vertical = {1.5pt}{0pt}{cyan!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{cyan},
+                borderline~ horizontal = {1.5pt}{0pt}{cyan!70!black},
             ]
     } 
     {
