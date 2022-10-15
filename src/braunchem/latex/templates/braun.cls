@@ -1694,16 +1694,10 @@
 %   RESUMO NO FINAL DA SEÇÃO
 %============================================================%
 
-\RenewDocumentEnvironment { quote } { }
+\AtBeginEnvironment { quote }
     {
-        \group_begin:
-        \begin{addmargin}{\parindent}
         \bfseries
         \itshape
-    }
-    {
-        \end{addmargin}
-        \group_end:
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
