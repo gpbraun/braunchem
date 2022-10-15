@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            xlabel = {Inverso da temperatura, $\qty{1000}{K}/T$},
+            ylabel = {Logarítimo da constante cinética, $\ln k$},
+            xmin = 3, xmax = 3.5,
+            domain = 3:3.5,
+        ]
+    \addplot
+        { -10*x + 25 };
+
+    \end{axis}
+\end{tikzpicture}

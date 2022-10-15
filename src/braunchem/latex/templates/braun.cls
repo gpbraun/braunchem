@@ -212,9 +212,6 @@
 
 \RequirePackage { mathtools, amssymb, textcomp, cancel }
 
-\numberwithin { equation     } { section }
-\mathtoolsset { showonlyrefs }
-
 \cs_set_eq:NN \degree \textdegree
 
 %============================================================%
@@ -236,7 +233,7 @@
 %   CHEMISTRY
 %============================================================%
 
-\RequirePackage [version=4] { mhchem }
+\RequirePackage [ version = 4 ] { mhchem }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1024,6 +1021,9 @@
 			\coffin_join:NnnNnnnn \l_braun_title_coffin {vc} {l}	
 				\l_braun_title_logo_l_coffin {vc} {l} {0pt} {0pt}
 			% Print title
+
+            \thispagestyle { plain.scrheadings }
+
 			\BraunSingleColumn
 				{
                     \skip_vertical:n { -\headheight }
@@ -1050,60 +1050,33 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage { tasks, enumitem, needspace }
-
-\renewlist{itemize}{enumerate}{2}
-
-\keys_define:nn { braun/lists }
-    {
-        enumerate .code:n = {
-            \setlist [enumerate, 1] {#1}
-        },
-        enumerate .initial:n = {label = \textbf{\arabic*.}},
-
-        itemize .code:n = {
-            \setlist [itemize, 1] {#1}
-        },
-        itemize .initial:n = {label = \sffamily{\alph*.}, leftmargin=*},
-    }
-
-%% LISTA DE DADOS
-
-\NewTasksEnvironment[
-	label = {$\bullet$},
-	label-align = right,
-]{datalist}[\item]
-
-%% RESPOSTAS
-
-\newlist{answers}{enumerate}{2}
-\setlist[answers,1]{label = \sffamily{\bfseries \arabic*.}}
-\setlist[answers,2]{label = \sffamily{\alph*.}, leftmargin=*}
+\RequirePackage { tasks, enumitem }
 
 %% RESPOSTAS DE PROBLEMAS OBJETIVOS
 
-\NewTasksEnvironment[
-	label = \sffamily{\small\textbf{\arabic*.}},
-	label-align = right,
-    item-indent = 3em,
-    label-width = 1.5em,
-    label-offset = 0.7em,
-    before-skip = 1em,
-]{checks}[\item]
+\NewTasksEnvironment
+    [
+        label = \sffamily{\small\textbf{\arabic*.}},
+        label-align = right,
+        item-indent = 3em,
+        label-width = 1.5em,
+        label-offset = 0.7em,
+        before-skip = 1em,
+    ]
+    { checks } [ \item ]
 
 %% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
 
-\NewTasksEnvironment[
-    label  = {\choicebox{\Alph*}},
-	%label  = {\textbf{\Alph*}\,(\;\;)},
-    item-indent = 3em,
-	%item-indent = 4em,
-    after-item-skip = 2\itemsep,
-    label-width = 1.5em,
-	%label-width = 2.5em,
-	label-align = right,
-    label-offset = 0.7em,
-]{choices}[\item]
+\NewTasksEnvironment
+    [
+        label  = {\choicebox{\Alph*}},
+        item-indent = 3em,
+        after-item-skip = 2\itemsep,
+        label-width = 1.5em,
+        label-align = right,
+        label-offset = 0.7em,
+    ] 
+    { choices } [\item ]
 
 %============================================================%
 %   ALTERNATIVAS
@@ -1209,6 +1182,12 @@
         path .initial:n = {},
 	}
 
+\cs_set:Npn \path #1 
+    { 
+        \seq_put_right:Nn \l_file_search_path_seq {#1} 
+        \tl_set:Nn \g_braun_graphics_path_tl {#1}
+    }
+
 % #1 -> coffin
 % #2 -> content
 \cs_set:Nn \braun_graphics_box:Nn
@@ -1262,7 +1241,7 @@
                 { .svg }
                 { 
                     \file_if_exist_input:nF 
-                        { \g_braun_graphics_path_tl / \l_tmpa_tl / \l_tmpb_tl .tex }
+                        { \g_braun_graphics_path_tl \l_tmpa_tl / \l_tmpb_tl .tex }
                         { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
                 }      
             }
@@ -1715,9 +1694,16 @@
 %   RESUMO NO FINAL DA SEÇÃO
 %============================================================%
 
-\AtBeginEnvironment { quote }
-    { 
-        \bfseries\itshape 
+\RenewDocumentEnvironment { quote } { }
+    {
+        \group_begin:
+        \begin{addmargin}{\parindent}
+        \bfseries
+        \itshape
+    }
+    {
+        \end{addmargin}
+        \group_end:
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1753,9 +1739,6 @@
         vfill .initial:n  = true,
         vfill .default:n  = true,
     }
-
-
-\cs_set:Npn \path #1 { \seq_put_right:Nn \l_file_search_path_seq {#1} }
 
 \cs_set:Nn \braun_ghost_section: { \subsection*{} \skip_vertical:n {-3em} }
 
@@ -1869,7 +1852,6 @@
         page / mcrule / fancy,
 
         % Título
-        maketitle / pre-text = \thispagestyle { plain.scrheadings },
         maketitle / align = l,
         maketitle / print = { title, subtitle, author, affiliation },
         maketitle / toprule = true,
@@ -1911,13 +1893,13 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
-%   BEGIN DOCUMENT HOOK
+%   PDF METADATA
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% PDF METADATA
 \RequirePackage { hyperref }
-\exp_args:Nx \hypersetup
+
+\hypersetup
     {
         pdftitle    = { Braun },
         pdfauthor   = Gabriel~ Braun,
@@ -1929,12 +1911,12 @@
         breaklinks  = true,
     }
 
-\AtBeginDocument { \recalctypearea }
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   THE END!!!
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\recalctypearea
 
 \ExplSyntaxOff

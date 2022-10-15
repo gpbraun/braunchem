@@ -14,7 +14,7 @@ from pathlib import Path
 from multiprocessing import Pool
 
 import frontmatter
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 logger = logging.getLogger(__name__)
 
@@ -85,7 +85,7 @@ class Topic(BaseModel):
         )
 
     def write_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
-        """Cria o arquivo `pdf` do tópico."""
+        """Cria o arquivo `.pdf` do tópico."""
         self.tex_document(problem_db).pdf(tmp_dir.joinpath(self.id_), out_dir)
 
     @classmethod

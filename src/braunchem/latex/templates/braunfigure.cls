@@ -234,16 +234,6 @@
 
 \RequirePackage{ tikz }
 
-\cs_gset_eq:NN \legacydefinecolor \definecolor
-\cs_gset_eq:NN \legacycolor       \color
-
-% redefines \definecolor to use l3color
-\DeclareDocumentCommand \definecolor { m m m }
-    { 
-        \legacydefinecolor {#1} {#2} {#3} 
-        \color_set:nnn     {#1} {#2} {#3} 
-    }
-
 %============================================================%
 %   PLOTTING
 %============================================================%

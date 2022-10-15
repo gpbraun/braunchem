@@ -165,7 +165,8 @@ def get_database_paths(database_dir: Path) -> list[Path]:
     for root, _, files in os.walk(database_dir):
         for file in files:
             file_path = Path(root).joinpath(file)
-            name = file_path.name
+            file_name = file_path.name
+            name = file_path.stem
             dir_ = Path(root).relative_to(database_dir)
 
             # problemas
@@ -174,7 +175,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                 logging.debug(f"Arquivo {file_path} adicionado à lista.")
                 continue
 
-            img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent, name)
+            img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent, file_name)
 
             # figuras
             if file_path.suffix in [".svg", ".png"]:
@@ -195,7 +196,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                         continue
 
                 tex_img_dst_dir = tex_img_dst_path.parent
-                tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_)
+                tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_).joinpath(name)
                 tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
 
                 tex_doc = Document(

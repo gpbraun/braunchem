@@ -35,8 +35,8 @@ def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
     subprocess.run(
         [
             "pdf2svg",
-            f"{tex_path}",
-            f"{svg_path}",
+            tex_path,
+            svg_path,
         ],
         stdout=subprocess.DEVNULL,
     )
@@ -154,6 +154,8 @@ class Document:
 
         if not out_dir:
             out_dir = tmp_dir
+        else:
+            out_dir.mkdir(parents=True, exist_ok=True)
 
         svg_path = out_dir.joinpath(self.id_).with_suffix(".svg")
         run_pdf2svg(pdf_path, svg_path)
