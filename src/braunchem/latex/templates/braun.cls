@@ -201,12 +201,6 @@
     { unknown .code:n  = \exp_args:NV \KOMAoption \l_keys_key_tl {#1} }
 
 %============================================================%
-%   FIGURES AND TABLES 
-%============================================================%
-
-\RequirePackage { float, booktabs, array }
-
-%============================================================%
 %   MATH
 %============================================================%
 
@@ -451,7 +445,7 @@
                         \draw_end:
                     }
             }
-        \skip_vertical:n { - \headsep - \headheight - 2.1ex }
+        \skip_vertical:n { - \headsep - \headheight - 2em }
     }
 
 
@@ -1163,7 +1157,7 @@
 %   INLCUSÃO DE IMAGENS
 %============================================================%
 
-\RequirePackage { svg }
+\RequirePackage { float, svg }
 
 \cs_set:Nn \graphics_include:n { \graphics_include:nn {} {#1} }
 
@@ -1254,8 +1248,25 @@
     }
 
 %============================================================%
+%   FIGURAS
+%============================================================%
+
+\NewDocumentEnvironment { simplefigure } {}
+    {
+        \group_begin:
+        \cs_set:Npn \caption ##1 {\relax}
+        \begin{center}
+    }
+    {
+        \end{center}
+        \group_end:
+    }
+
+%============================================================%
 %   INCLUSÃO DE CONTEÚDO TABELADO
 %============================================================%
+
+\RequirePackage { booktabs, array }
 
 % Compatibilidade com o PANDOC
 \cs_set_eq:NN \tightlist    \relax
@@ -1380,7 +1391,6 @@
             {
                 \cs_set_eq:NN \toprule    \relax
                 \cs_set_eq:NN \bottomrule \relax
-                \cs_set_eq:NN \caption    \relax
 
                 \arrayrulecolor { colortable_frame_color }
 
@@ -1475,6 +1485,11 @@
 
         \cs_set_eq:NN \subsubsection \ExampleHeader
         \cs_set_eq:NN \paragraph \ExampleSubHeader
+
+        \cs_set_eq:NN \figure \simplefigure
+        \cs_set_eq:NN \endfigure \endsimplefigure
+
+        \pgfplotsset { scale = 0.9 }
 
         \bigskip
 

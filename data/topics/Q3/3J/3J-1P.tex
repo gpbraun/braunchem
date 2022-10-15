@@ -15,6 +15,10 @@
                 },
             xtick style = { draw=none },
         ]
+    \addplot+ [ orange ]
+        { 4.75 - x };
+    \addplot+ [ orange ] 
+        { 4.75 - 0.5*x };
     \addplot 
         [
             mesh,
@@ -22,34 +26,10 @@
                 color(0cm)=(red);
                 color(1cm)=(blue);
             },
-            line width = 1.2ex,
+            line width = 1.5ex,
             point meta = x
         ]
         { 0 };
-    \addplot 
-        [
-            green
-            % mesh,
-            % colormap={}{
-            %     color(0cm)=(red);
-            %     color(1cm)=(blue);
-            % },
-            % ultra thick,
-            % point meta = x
-        ]
-        { 4.75 - x };
-    \addplot 
-        [
-            green
-            % mesh,
-            % colormap={}{
-            %     color(0cm)=(red);
-            %     color(1cm)=(blue);
-            % },
-            % ultra thick,
-            % point meta = x
-        ]
-        { 4.75 - 0.5*x };
     \node[coordinate, pin=above right:{Baixa $E_\mathrm{a}$}] 
         at (axis cs:2,3.75)   {};
     \node[coordinate, pin=below left:{Alta $E_\mathrm{a}$}] 
