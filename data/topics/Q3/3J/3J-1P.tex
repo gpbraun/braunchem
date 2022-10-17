@@ -15,24 +15,31 @@
                 },
             xtick style = { draw=none },
         ]
+
     \addplot+ [ orange ]
-        { 4.75 - x };
+        { 4.75 - 1.2*x };
+
     \addplot+ [ orange ] 
-        { 4.75 - 0.5*x };
+        { 4.75 - 0.3*x };
+
     \addplot 
         [
+            samples = 20,
             mesh,
             colormap={}{
                 color(0cm)=(red);
                 color(1cm)=(blue);
             },
-            line width = 1.5ex,
+            line width = 2ex,
             point meta = x
         ]
         { 0 };
-    \node[coordinate, pin=above right:{Baixa $E_\mathrm{a}$}] 
-        at (axis cs:2,3.75)   {};
+
     \node[coordinate, pin=below left:{Alta $E_\mathrm{a}$}] 
-        at (axis cs:3,1.75)   {};
+        at (axis cs:2,2.35)   {};
+
+    \node[coordinate, pin=below left:{Baixa $E_\mathrm{a}$}] 
+        at (axis cs:4,3.55)   {};
+
     \end{axis}
 \end{tikzpicture}

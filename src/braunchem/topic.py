@@ -86,7 +86,7 @@ class Topic(BaseModel):
 
     def write_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `.pdf` do tópico."""
-        self.tex_document(problem_db).pdf(tmp_dir.joinpath(self.id_), out_dir)
+        self.tex_document(problem_db).write_pdf(tmp_dir.joinpath(self.id_), out_dir)
 
     @classmethod
     def parse_mdfile(cls, topic_path: Path):
@@ -188,8 +188,8 @@ class TopicSet(BaseModel):
 
     def write_pdfs(self, problem_db: ProblemSet, tmp_dir, out_dir):
         """Cria o arquivo `pdf` para todos os tópicos."""
-        for tex_document in self.tex_documents(problem_db):
-            tex_document.pdf(tmp_dir, out_dir)
+        for topic in self.topics:
+            topic.write_pdf(problem_db, tmp_dir, out_dir)
 
     @classmethod
     def parse_paths(cls, topic_paths: list[Path]):

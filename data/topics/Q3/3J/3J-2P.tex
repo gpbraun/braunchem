@@ -14,6 +14,13 @@
             ymin=0,
             xmin=0, xmax = 3500,
         ]
+
+    \node[coordinate, pin={[fill=white] right:{Baixa temperatura}}] 
+        at (axis cs:1200,7.35e-4)   {};
+
+    \node[coordinate, pin={[fill=white] above right:{Alta temperatura}}] 
+        at (axis cs:1750,4.85e-4)   {};
+
     \pgfplotsinvokeforeach { 300, 700 }
         {
             \addplot+ [name path = #1]
@@ -21,10 +28,14 @@
                     sqrt(2/pi)*(4/(\R*#1))^(3/2)*x^2*exp(-4/(\R*#1)*x^2/2)
                 };
         }
+
     \addplot+[draw=none,name path=xaxis] {0};
 
-    \addplot+[red!10] fill between [of=700 and xaxis,soft clip={domain=2000:3500}];
+    \addplot+[red!10] fill between 
+        [of=700 and xaxis,soft clip={domain=2000:3500}];
 
-    \addplot+[blue!10] fill between [of=300 and xaxis,soft clip={domain=2000:3500}];
+    \addplot+[blue!10] fill between 
+        [of=300 and xaxis,soft clip={domain=2000:3500}];
+    
     \end{axis}
 \end{tikzpicture}

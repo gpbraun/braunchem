@@ -119,7 +119,7 @@ class Document:
 
     # TODO: Da pra fazer uma função que cria o diretório temporário e uma função que roda os pdf, assim a paralelização pode ser feita nesse módulo em vez de no módulo de tópicos.
 
-    def pdf(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
+    def write_pdf(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
         """Gera o `pdf` e copia para um diretório de saída.
 
         Args:
@@ -143,14 +143,14 @@ class Document:
 
         return pdf_path
 
-    def svg(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
+    def write_svg(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
         """Gera o `svg` e copia para um diretório de saída.
 
         Args:
             tmp_dir (Path): Diretório para arquivos temporários.
             out_dir (Path): Diretório de saída.
         """
-        pdf_path = self.pdf(tmp_dir)
+        pdf_path = self.write_pdf(tmp_dir)
 
         if not out_dir:
             out_dir = tmp_dir

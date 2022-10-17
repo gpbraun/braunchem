@@ -63,7 +63,6 @@
 \WarningFilter{ latex }            { Font~shape }
 \WarningFilter{ latex }            { Unused~global~option(s) }
 \WarningFilter{ latex }            { \KOMAScriptVersion }
-\WarningFilter{ scrlayer-scrpage } { \headheight }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -288,7 +287,7 @@
                     { 0cm , 0em }
                 \draw_path_lineto:n 
                     { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
-                \color_fill:n { gray-500 }
+                \color_fill:n { black!20 }
                 \draw_path_use_clear:n { fill, stroke }
                 \draw_transform_shift:n 
                     { \linewidth - 1em , 1.25ex }
@@ -323,7 +322,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { gray-500 }
+					\color_fill:n { black!20 }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -445,7 +444,7 @@
                         \draw_end:
                     }
             }
-        \skip_vertical:n { - \headsep - \headheight - 2em }
+        \skip_vertical:n { - \headsep - \headheight - 10em }
     }
 
 
@@ -1163,8 +1162,8 @@
 
 \keys_define:nn { braun/graphics }
 	{
-        % fps .code:n = { \cs_set_protected:Npn \fps@figure {#1} },
-        % fps .initial:n = H,
+        float-position .code:n = { \def \fps@figure {#1} },
+        float-position .initial:n = {tbh},
 
         width .dim_set:N = \l_braun_graphics_width_dim,
 		width .initial:n = 5cm,
@@ -1273,13 +1272,14 @@
 \cs_set_eq:NN \endhead      \relax
 \cs_set_eq:NN \endfirsthead \relax
 
-\tl_set:Nn \arraystretch {1.25}
-
 \arrayrulecolor { gray-600 }
 
 \NewDocumentEnvironment { longtable } { O{} m }
 	{
         \group_begin:
+
+        \tl_set:Nn \arraystretch {1.25}
+
         \begin{center}    
 		\begin{tabular} [#1] {#2} 
 		
@@ -1355,6 +1355,8 @@
 \NewDocumentEnvironment { colortable } { O{} m +b }
     {
         \group_begin:
+
+        \tl_set:Nn \arraystretch {1.25}
 
         \captionsetup
             {
