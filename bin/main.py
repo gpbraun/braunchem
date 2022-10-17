@@ -18,7 +18,7 @@ def main():
 
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
-    topic_db["3J"].write_pdf(
+    topic_db["3H"].write_pdf(
         problem_db,
         tmp_dir=config.TMP_TOPICS_DIR,
         out_dir=config.OUT_DIR,

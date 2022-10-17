@@ -1045,7 +1045,9 @@
 
 \RequirePackage { tasks, enumitem }
 
-%% RESPOSTAS DE PROBLEMAS OBJETIVOS
+\setlist{leftmargin=*}
+
+%% RESPOSTAS
 
 \NewTasksEnvironment
     [
@@ -1381,7 +1383,11 @@
                 righttitle = 1ex,
                 title =
                     { 
-                        \captionof { table } { \boldmath \l_tmpa_tl } 
+                        \captionof { table } 
+                            { 
+                                \raggedright
+                                \l_tmpa_tl 
+                            } 
                     },
                 colframe = colortable_frame_color,
                 colback = white,
@@ -1451,7 +1457,12 @@
                 labelfont = bf,
             }
 
-        \captionof{floatexample}{#1}  
+        \captionof { floatexample } 
+            {
+                \raggedright
+                #1
+            }  
+
         \skip_vertical:n {-1em}
  
         \group_end:  
@@ -1571,91 +1582,78 @@
 %   INFO E ATENÇÃO
 %============================================================%
 
-\cs_set:Npn \InfoHeader #1
+\keys_define:nn { braun/boxes/indentedsection }
     {
-        \tcbsubtitle
-            [
-                enhanced,
-                frame~ hidden,
-                coltext = black,
-                colback = cyan!7.5,
-            ]
-            {
+        title .tl_set:N = \l_braun_boxes_indentedsection_title_tl,
+        title .initial:n = Atenção,
 
-                \usekomafont { disposition }
-                \text_uppercase:n {#1}
-            }
+        color .tl_set:N = \l_braun_boxes_indentedsection_color_tl,
+        color .initial:n = gray-400,
     }
 
+\cs_set:Npn \gobblepars
+    { % evita um novo parágrafo logo após o título.
+        \@ifnextchar \par
+            {
+                \expandafter\gobblepars\@gobble
+            }{}
+    }
 
-\NewDocumentEnvironment { info } { }
+% #1 -> color
+\NewDocumentEnvironment { indentedsection } { o }
     {
         \group_begin:
 
-        \cs_set_eq:NN \subsubsection \InfoHeader
+        \IfValueT {#1} 
+            { \keys_set:nn { braun/boxes/indentedsection } {#1} }
 
-        \bigskip
+        \cs_set:Npn \subsubsection ##1
+            {
+                \group_begin:
+                \skip_horizontal:n { -\parindent }
+                \color { \l_braun_boxes_indentedsection_color_tl }
+                \sffamily
+                \bfseries
+                \text_uppercase:n {##1}
+                \skip_horizontal:N \labelsep
+                \group_end:
+                \gobblepars
+            }
+        
+        \cs_set_eq:NN \paragraph \relax % paragrafo gera erro dentro do addmargin
 
-        \begin{tcolorbox}
-            [
-                sharp~ corners,
-                frame~ hidden,
-                colback = cyan!7.5,
-                left = 1ex,
-                right = 1ex,
-                borderline~ vertical = {1.5pt}{0pt}{cyan!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{cyan!70!black},
-            ]
+        \medskip
+        \begin{addmargin} [ \parindent ] { \c_zero_dim }
     } 
     {
-        \end{tcolorbox}
-
-        \bigskip
+        \end{addmargin}
+        \medskip
 
         \group_end:
     }
 
-\cs_set:Npn \WarningHeader #1
+\cs_set:Npn \gobblepars
     {
-        \tcbsubtitle
-            [
-                enhanced,
-                frame~ hidden,
-                coltext = black,
-                colback = yellow!7.5,
-            ]
+        \@ifnextchar \par
             {
-
-                \usekomafont { disposition }
-                \text_uppercase:n {#1}
-            }
+                \expandafter\gobblepars\@gobble
+            }{}
     }
 
-\NewDocumentEnvironment { warning } { }
+\NewDocumentEnvironment { info } {}
     {
-        \group_begin:
-
-        \cs_set_eq:NN \subsubsection \WarningHeader
-
-        \bigskip
-
-        \begin{tcolorbox}
-            [
-                sharp~ corners,
-                frame~ hidden,
-                colback = yellow!7.5,
-                left = 1ex,
-                right = 1ex,
-                borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{yellow},
-            ]
+        \begin{indentedsection}[ color = cyan!60!black ]
     } 
     {
-        \end{tcolorbox}
+        \end{indentedsection}
+    }
 
-        \bigskip
-
-        \group_end:
+\NewDocumentEnvironment { warning } {}
+    {
+        \begin{indentedsection}[ color = red ]
+    } 
+    {
+        \end{indentedsection}
     }
 
 %============================================================%
