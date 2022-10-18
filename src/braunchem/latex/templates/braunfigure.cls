@@ -260,6 +260,11 @@
 
 \tikzstyle{every~pin}=[draw=black]
 
+\AtBeginDocument 
+    {
+        \usepgfplotslibrary{groupplots}
+    }
+
 %============================================================%
 %   COLOR PALLETS
 %============================================================%

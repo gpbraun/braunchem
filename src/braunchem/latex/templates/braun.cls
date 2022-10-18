@@ -378,6 +378,11 @@
 
 \tikzstyle{every~pin}=[draw=black]
 
+\AtBeginDocument 
+    {
+        \usepgfplotslibrary{groupplots}
+    }
+
 %============================================================%
 %   PALETA DE CORES (BOOTSTRAP)
 %============================================================%

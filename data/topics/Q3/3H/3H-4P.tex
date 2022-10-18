@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+    \begin{groupplot}[
+        group style={
+            group size = 1 by 2,
+            vertical sep = 5pt,
+            xticklabels at = edge bottom,
+        },
+        width = 240pt,
+        height = 130pt,
+        grid = major,
+        xmin=0, xmax=10,
+        xtick = {5},
+        xticklabels = {$t = [\ce{A}]/k$},
+        ytick = \empty,
+        domain = 0:10,
+    ]
+
+    \nextgroupplot 
+        [
+            ymin=0, ymax=5,
+            ylabel = { Velocidade, $v$ },
+        ]
+        
+        \addplot+ [ blue, domain = 0:5 ] { 4 };
+        
+        \addplot+ [ blue, domain = 5:10 ] { 0 };
+        
+        \draw [ draw=blue, very thick, dotted ]
+            (axis cs: 5, 0) -- 
+            (axis cs: 5, 4);
+    
+    \nextgroupplot
+        [
+            ymin=0, 
+            xlabel = { Tempo, $t$ },
+            ylabel = { Concentração, $[\ce{A}]$ },
+        ]
+
+        \addplot+ [ blue, domain = 0:5 ] { 10-2*x };
+        
+        \addplot+ [ blue, domain = 5:10 ] { 0 };
+
+    \end{groupplot}
+\end{tikzpicture}
