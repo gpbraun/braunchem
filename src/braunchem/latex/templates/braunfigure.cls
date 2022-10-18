@@ -211,9 +211,6 @@
         range-phrase = { ~a~ }, 
         list-final-separator = { ~e~ }, 
         locale = FR,
-        round-mode = figures,
-        round-precision = 3,
-        drop-zero-decimal,
     }
 
 \cs_set_eq:NN \pu \mathrm
