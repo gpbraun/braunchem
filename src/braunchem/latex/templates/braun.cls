@@ -1019,7 +1019,7 @@
 
 			\BraunSingleColumn
 				{
-                    \skip_vertical:n { -\headheight }
+                    \skip_vertical:n { -\headheight - 1em }
 					\tl_use:N        \l_braun_title_pre_text_tl
 					\bool_if:NT      \l_braun_title_toprule_bool { \BraunHRule }
 					\skip_vertical:V \l_braun_title_before_skip
@@ -1504,7 +1504,7 @@
 
         \pgfplotsset { scale = 0.9 }
 
-        \bigskip
+        \medskip
 
         \begin{tcolorbox}
             [
@@ -1528,7 +1528,7 @@
     {
         \end{tcolorbox}
 
-        \bigskip
+        \medskip
 
         \group_end:
     }
@@ -1551,8 +1551,7 @@
     {
         \cs_set_eq:NN \subsubsection \ThinkHeader
 
-        \medskip
-
+        \smallskip
         \begin{addmargin}{\parindent}
         \begin{tcolorbox}
             [
@@ -1574,8 +1573,7 @@
     {
         \end{tcolorbox}
         \end{addmargin}
-
-        \medskip
+        \smallskip
     }
 
 %============================================================%
