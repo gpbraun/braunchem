@@ -6,18 +6,19 @@
             xticklabels at = edge bottom,
         },
         width = 240pt,
-        height = 130pt,
-        grid = major,
-        xmin=0, xmax=10,
+        height = 120pt,
+        xmajorgrids,
+        xmin=0, xmax=6,
         xtick = {5},
-        xticklabels = {$t = [\ce{A}]/k$},
-        ytick = \empty,
-        domain = 0:10,
+        xticklabels = {$[\ce{A}]_0/k$},
+        domain = 0:5,
     ]
 
     \nextgroupplot 
         [
             ymin=0, ymax=5,
+            ytick = {0, 4},
+            yticklabels = {0, $k$},
             ylabel = { Velocidade, $v$ },
         ]
         
@@ -32,6 +33,8 @@
     \nextgroupplot
         [
             ymin=0, 
+            ytick = {0, 10},
+            yticklabels = {0, $[\ce{A}]_0$},
             xlabel = { Tempo, $t$ },
             ylabel = { Concentração, $[\ce{A}]$ },
         ]
