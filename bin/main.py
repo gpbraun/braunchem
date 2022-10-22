@@ -24,10 +24,16 @@ def main():
         out_dir=config.OUT_DIR,
     )
 
-    # shutil.copy(
-    #     config.FOCUSES_DIR.joinpath("focuses.json"),
-    #     "../braunchem-web/database/database.json",
-    # )
+    # SEND FILES TO BRAUNCHEM-WEB
+    for db_file in [
+        config.PROBLEMS_DIR.joinpath("problems.json"),
+        config.TOPICS_DIR.joinpath("topics.json"),
+        config.FOCUSES_DIR.joinpath("focuses.json"),
+    ]:
+        shutil.copy(
+            db_file,
+            f"../braunchem-web/database/{db_file.name}",
+        )
 
 
 if __name__ == "__main__":
