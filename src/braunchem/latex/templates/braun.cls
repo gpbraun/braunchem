@@ -1303,6 +1303,8 @@
 
 \RequirePackage [ hypcap = false ] { caption }
 
+\captionsetup [ figure ] { font = {small, sf} }
+
 \keys_define:nn { braun/caption }
     {
         font .code:n = \captionsetup { font = { #1 } },
