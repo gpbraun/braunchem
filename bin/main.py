@@ -5,6 +5,9 @@ from braunchem.focus import FocusSet
 
 import logging
 import shutil
+from pathlib import Path
+
+WEB_PATH = Path("/home/braun/Documents/Developer/braunchem-web")
 
 
 def main():
@@ -13,9 +16,7 @@ def main():
     config.load_config("bin/config.cfg")
 
     problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR)
-
     topic_db = TopicSet.parse_database(config.TOPICS_DIR)
-
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
     topic_db["3H"].write_pdf(
@@ -24,16 +25,15 @@ def main():
         out_dir=config.OUT_DIR,
     )
 
-    # SEND FILES TO BRAUNCHEM-WEB
+    # COPIA A BASE DE DADOS PARA O SITE
     for db_file in [
         config.PROBLEMS_DIR.joinpath("problems.json"),
         config.TOPICS_DIR.joinpath("topics.json"),
         config.FOCUSES_DIR.joinpath("focuses.json"),
     ]:
-        shutil.copy(
-            db_file,
-            f"../braunchem-web/database/{db_file.name}",
-        )
+        shutil.copy(db_file, WEB_PATH.joinpath("database", db_file.name))
+    # COPIA AS IMAGENS PARA O SITE
+    shutil.copytree(config.IMAGES_DIR, WEB_PATH.joinpath("public"), dirs_exist_ok=True)
 
 
 if __name__ == "__main__":

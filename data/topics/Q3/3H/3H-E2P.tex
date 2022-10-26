@@ -2,42 +2,31 @@
     \begin{axis}
         [
             xlabel = {Tempo, $t/\unit{min}$},
-            ylabel = {Concentração do reagente, $[\ce{J}]/\unit{mM}$},
-            ymin = 0, ymax = 10,
-            xmin = 0, xmax = 7,
-            domain = 0:7,
+            ylabel = {Concentração do reagente, $[\ce{A}]/\unit{mM}$},
+            ymin = 0, ymax = 100,
+            xmin = 0, xmax = 5,
+            domain = 0:5,
             grid = major,
             samples = 300,
-            ytick = {0, 2.5, 5, 10},
+            ytick = {0, 25, 50, 75, 100},
         ]
 
     \addplot+ [ blue ]
         {
-            10*2^(-x/3)
+            1/(1/100 + x/100)
         };
 
-    \addplot+ [ red ]
-        {
-            1/(1/10 + x/10)
-        };
-        
     \addplot [ mark=*, color=blue, only marks ] coordinates
         { 
-            (3, 5) 
-            (6, 2.5) 
-        };
-
-    \addplot [ mark=*, color=red, only marks ] coordinates
-        { 
-            (1, 5) 
-            (3, 2.5) 
+            (1, 50) 
+            (3, 25) 
         };
     
-    \node [anchor = south] at (axis cs:5.5, 3) 
-        { \ce{A} };
-        
-    \node [anchor = north] at (axis cs:5.5, 1.4) 
-        { \ce{B} };
+    \node [anchor = south west] at (axis cs:1,50) 
+        {$A$};
+
+    \node [anchor = south west] at (axis cs:3,25) 
+        {$B$};
 
     \end{axis}
 \end{tikzpicture}

@@ -119,10 +119,12 @@ class Text(pydantic.BaseModel):
     """Texto para diagramação.
 
     Atributos:
+        html (str): Texto em HTML.
         md (str): Texto em markdown.
         tex (str): Texto em latex.
     """
 
+    html: str
     md: str
     tex: str
 
@@ -133,9 +135,10 @@ class Text(pydantic.BaseModel):
             return
 
         md_str = str(md_str).strip()
+        html_str = md2html(md_str)
 
         tex_str = md2tex(md_str)
-        return cls(md=md_str, tex=tex_str)
+        return cls(html=html_str, md=md_str, tex=tex_str)
 
     @classmethod
     def parse_html(cls, html_str: str):
@@ -147,7 +150,7 @@ class Text(pydantic.BaseModel):
 
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
-        return cls(md=md_str, tex=tex_str)
+        return cls(html=html_str, md=md_str, tex=tex_str)
 
 
 def get_database_paths(database_dir: Path) -> list[Path]:
