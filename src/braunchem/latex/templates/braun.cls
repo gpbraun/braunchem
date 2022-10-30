@@ -215,6 +215,7 @@
 
 \sisetup 
     { 
+        retain-explicit-plus,
         range-phrase = { ~a~ }, 
         list-final-separator = { ~e~ }, 
         locale = FR,
@@ -1271,6 +1272,13 @@
 %============================================================%
 %   INCLUSÃO DE CONTEÚDO TABELADO
 %============================================================%
+
+\keys_define:nn { braun/tables }
+	{
+        float-position .code:n = { \def \fps@table {#1} },
+        float-position .initial:n = {tb},
+	}
+
 
 \RequirePackage { booktabs, array }
 
