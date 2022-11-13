@@ -1,0 +1,56 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            ylabel = {Energia livre, $G$},
+            xlabel = {Temperatura, $T$},
+            domain = 0.2:2.8,
+            xmin = 0, xmax = 3,
+            ymin = -15, ymax = 15,
+            xtick= {1, 2}, 
+            xticklabels={$T_\mathrm{f}$, $T_\mathrm{b}$},
+            ytick=\empty,
+        ]
+        \addplot [ blue ]
+            { 0 };
+ 
+         \addplot [ green ]
+            { 5-5*x };
+ 
+        \addplot [ red, domain=0:2.25 ]
+            { 25-15*x };
+ 
+         \addplot [ mark=*, color=blue, only marks ] coordinates
+             { (1, 0) };
+ 
+         \addplot [ mark=*, color=red, only marks ] coordinates
+             { (2, -5) };
+ 
+         \addplot [ blue, line width = 2ex, domain = 0:1 ]
+             { -15 };
+ 
+         \addplot [ green, line width = 2ex, domain = 1:2 ]
+             { -15 };
+     
+         \addplot [red, line width = 2ex, domain = 2:3]
+             { -15 };
+ 
+         \node [anchor = south, align=center] at (axis cs:0.5, -14) 
+             { Sólido\\estável };
+ 
+         \node [anchor = south, align=center] at (axis cs:1.5, -14) 
+             { Líquido\\estável };
+ 
+         \node [anchor = south, align=center] at (axis cs:2.5, -14) 
+             { Vapor\\estável };
+ 
+         \node [anchor = north] at (axis cs:0.5, -1) 
+             { Sólido };
+ 
+         \node [anchor = south] at (axis cs:0.5, 4) 
+             { Líquido };
+ 
+         \node [anchor = south] at (axis cs:1.5, 6) 
+             { Vapor };
+ \end{axis}
+ \end{tikzpicture}
