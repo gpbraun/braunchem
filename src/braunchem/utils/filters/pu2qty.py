@@ -1,10 +1,18 @@
-"""Converte todos os comandos `\pu` do mhchem aos equivalentes no formato `siunitx`."""
+"""Converte todos os comandos `\\pu` do `mhchem` aos equivalentes no formato `siunitx`."""
 import re
 
 import panflute as pf
 
 PU_CMD_REGEX = re.compile(r"\\pu\{\s*([\deE\,\.\+\-]*)\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}")
 UNIT_EXP_REGEX = re.compile(r"[\+\-]?\d+")
+
+
+def parse_fractions(unit_str: str):
+    try:
+        numerator, denominator = unit_str.split("//", 1)
+        return f"\\tfrac{{{numerator}}}{{{parse_fractions(denominator)}}}"
+    except ValueError:
+        return unit_str
 
 
 def qty(num_str: str, unit_str: str) -> str:
@@ -15,6 +23,7 @@ def qty(num_str: str, unit_str: str) -> str:
 
     formated_unit_str = re.sub(UNIT_EXP_REGEX, lambda x: f"^{{{x.group(0)}}}", unit_str)
     formated_unit_str = formated_unit_str.replace("\\mu", "\\micro")
+    formated_unit_str = parse_fractions(formated_unit_str)
 
     # unidades sem valor numérico
     if not num_str:
@@ -24,7 +33,7 @@ def qty(num_str: str, unit_str: str) -> str:
 
 
 def pu2qty(elem, doc, debug=False):
-    """Converte todos os comandos `\pu` do mhchem aos equivalentes no formato `siunitx`."""
+    """Converte todos os comandos `\\pu` do mhchem aos equivalentes no formato `siunitx`."""
     if isinstance(elem, pf.Math) and doc.format == "latex":
         elem.text = re.sub(
             PU_CMD_REGEX, lambda x: qty(x.group(1), x.group(2)), elem.text

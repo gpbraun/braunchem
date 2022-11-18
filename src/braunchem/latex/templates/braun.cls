@@ -216,6 +216,7 @@
 \sisetup 
     { 
         retain-explicit-plus,
+        parse-units=false,
         range-phrase = { ~a~ }, 
         list-final-separator = { ~e~ }, 
         locale = FR,
@@ -1156,6 +1157,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
+%   LISTAS
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
 %   FIGURAS E TABELAS
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1287,15 +1294,16 @@
 \cs_set_eq:NN \endhead      \relax
 \cs_set_eq:NN \endfirsthead \relax
 
-\arrayrulecolor { gray-600 }
-
 \NewDocumentEnvironment { longtable } { O{} m }
 	{
         \group_begin:
 
         \tl_set:Nn \arraystretch {1.25}
 
+        \arrayrulecolor { gray-500 }
+
         \begin{center}    
+        \skip_vertical:n {-1em}
 		\begin{tabular} [#1] {#2} 
 		
 	}

@@ -48,6 +48,9 @@ PANDOC_FILTER_PATHS = [
 ]
 """Lista de endereços para os filtros do pandoc."""
 
+PANDOC_COLUMN_NUM = 200
+"""Número de colunas consideradas pelo pandoc"""
+
 
 def md2html(md_str: str) -> str:
     """Converte markdown em HTML usando pandoc."""
@@ -75,7 +78,7 @@ def html2tex(html_str: str) -> str:
         source=html_str,
         to="latex",
         format="html+tex_math_dollars+tex_math_single_backslash",
-        extra_args=["--quiet"],
+        extra_args=["--quiet", f"--columns={PANDOC_COLUMN_NUM}"],
         filters=PANDOC_FILTER_PATHS,
     )
     tex_str = tex_str.replace("\\toprule()", "\\toprule")
@@ -90,7 +93,7 @@ def md2tex(md_str: str) -> str:
         source=md_str,
         to="latex",
         format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet"],
+        extra_args=["--quiet", f"--columns={PANDOC_COLUMN_NUM}"],
         filters=PANDOC_FILTER_PATHS,
     )
     tex_str = tex_str.replace("\\toprule()", "\\toprule")
@@ -105,7 +108,7 @@ def md2soup(md_str: str) -> bs4.BeautifulSoup:
     return bs4.BeautifulSoup(html_str, "html.parser")
 
 
-def soup_split(soup: bs4.BeautifulSoup, tag: str) -> list[bs4.BeautifulSoup]:
+def soup_split(soup: bs4.BeautifulSoup, tag: str):
     """Divide um `BeaultifulSoup` por tag."""
     split_tag = soup.find(tag)
     if not split_tag:
@@ -205,7 +208,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
 
                 tex_doc = Document(
                     id_=name,
-                    contents=latex.cmd("input", file_path.resolve()),
+                    contents=latex.cmd("input", str(file_path.resolve())),
                     standalone=True,
                 )
                 tex_doc.write_svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
