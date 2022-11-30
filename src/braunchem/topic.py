@@ -2,31 +2,46 @@
 
 Esse módulo implementa uma classe para os tópicos.
 """
-import braunchem.utils.text as text
-import braunchem.utils.latex as latex
-from braunchem.utils.text import Text
-from braunchem.problem import ProblemSet
-from braunchem.latex.document import Document
-
 import logging
 from datetime import datetime
-from pathlib import Path
 from multiprocessing import Pool
+from pathlib import Path
 
 import frontmatter
 from pydantic import BaseModel
 
+import braunchem.utils.latex as latex
+import braunchem.utils.text as text
+from braunchem.latex.document import Document
+from braunchem.problem import ProblemSet
+from braunchem.utils.text import Text
+
 logger = logging.getLogger(__name__)
+
+
+class Section(BaseModel):
+    """Seção.
+
+    Atributos:
+        id_ (str): Identificador único.
+        title (str): Título do tópico.
+        content (Text): Conteúdo teórico.
+    """
+
+    id_: str
+    title: str
+    content: Text
 
 
 class Topic(BaseModel):
     """Tópico.
 
     Atributos:
-        id_ (str): Identificador único.ProblemSet
+        id_ (str): Identificador único.
+        path (Path): Endereço do arquivo `.md` do tópico
         title (str): Título do tópico.
         author (str): Autor da teoria.
-        content (str): Conteúdo teórico.
+        content (Text): Conteúdo teórico.
         sections (list[str]): Títulos das seções.
         problem_sets (list[ProblemSet]): Listas de problemas.
     """
@@ -37,7 +52,7 @@ class Topic(BaseModel):
     title: str
     author: str = "Gabriel Braun"
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
-    sections: list[str]
+    sections: list[Section]
     content: Text
     problem_sets: dict = {}
 
@@ -105,9 +120,19 @@ class Topic(BaseModel):
         # extrair os metadados do arquivo `.md`
         topic.update(metadata)
 
-        # extrair o título das seções
+        # extrai as seções
         soup = text.md2soup(content)
-        topic["sections"] = [h1.text for h1 in soup.find_all("h1")]
+
+        topic["sections"] = [
+            Section.parse_obj(
+                {
+                    "id_": f"{topic_path.stem}.{index}",
+                    "title": title,
+                    "content": content,
+                }
+            )
+            for index, (title, content) in enumerate(text.soup_split_header(soup))
+        ]
 
         # conteúdo
         topic["content"] = Text.parse_md(content)

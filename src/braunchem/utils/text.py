@@ -144,7 +144,7 @@ class Text(pydantic.BaseModel):
         return cls(html=html_str, md=md_str, tex=tex_str)
 
     @classmethod
-    def parse_html(cls, html_str: str):
+    def parse_html(cls, html_str: str | bs4.BeautifulSoup):
         """Cria um `Text` a partir de uma string em LaTeX."""
         if not html_str:
             return
@@ -182,7 +182,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                 logging.debug(f"Arquivo {file_path} adicionado à lista.")
                 continue
 
-            img_dst_path = config.IMAGES_DIR.joinpath(dir_.parent, file_name)
+            img_dst_path = config.IMAGES_DIR.joinpath(file_name)
 
             # figuras
             if file_path.suffix in [".svg", ".png"]:
@@ -190,7 +190,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                     if file_path.stat().st_mtime < img_dst_path.stat().st_mtime:
                         continue
 
-                img_dst_path.parent.mkdir(parents=True, exist_ok=True)
+                # img_dst_path.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(src=file_path, dst=img_dst_path)
                 logging.info(f"Arquivo {file_path} copiado para: {img_dst_path}.")
                 continue
@@ -218,3 +218,26 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                 )
 
     return md_files
+
+
+def soup_split_header(soup: bs4.BeautifulSoup, tag="h1"):
+    """Divide um `BeaultifulSoup` por tag."""
+    headers = soup.find_all(tag)
+    if not headers:
+        raise StopIteration
+
+    for header in headers:
+        next_node = header
+        content = ""
+        while True:
+            next_node = next_node.nextSibling
+            if next_node is None:
+                break
+            if isinstance(next_node, bs4.NavigableString):
+                content = "\n".join([content, str(next_node)])
+            if isinstance(next_node, bs4.Tag):
+                if next_node.name == tag:
+                    break
+                content = "\n".join([content, str(next_node)])
+
+        yield header.text, Text.parse_html(content)

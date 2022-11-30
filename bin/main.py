@@ -1,11 +1,11 @@
-import braunchem.utils.config as config
-from braunchem.problem import ProblemSet
-from braunchem.topic import TopicSet
-from braunchem.focus import FocusSet
-
 import logging
 import shutil
 from pathlib import Path
+
+import braunchem.utils.config as config
+from braunchem.focus import FocusSet
+from braunchem.problem import ProblemSet
+from braunchem.topic import TopicSet
 
 WEB_PATH = Path("/home/braun/Documents/Developer/braunchem-web")
 
@@ -33,7 +33,9 @@ def main():
     ]:
         shutil.copy(db_file, WEB_PATH.joinpath("database", db_file.name))
     # COPIA AS IMAGENS PARA O SITE
-    shutil.copytree(config.IMAGES_DIR, WEB_PATH.joinpath("public"), dirs_exist_ok=True)
+    shutil.copytree(
+        config.IMAGES_DIR, WEB_PATH.joinpath("public", "images"), dirs_exist_ok=True
+    )
 
 
 if __name__ == "__main__":
