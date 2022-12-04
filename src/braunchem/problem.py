@@ -122,9 +122,9 @@ class Problem(BaseModel):
         if choice_list:
             choices = []
             for index, li in enumerate(choice_list.find_all("li")):
-                choice = Text.parse_html(li)
-                choices.append(choice)
                 check_box = li.find("input").extract()
+                choice = Text.parse_html("".join(str(x) for x in li.contents))
+                choices.append(choice)
                 if check_box.has_attr("checked"):
                     problem["correct_choice"] = index
                     problem["answer"] = [choice]
