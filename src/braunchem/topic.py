@@ -126,12 +126,14 @@ class Topic(BaseModel):
         topic["sections"] = [
             Section.parse_obj(
                 {
-                    "id_": f"{topic_path.stem}.{index}",
+                    "id_": f"{topic_path.stem}{index:02d}",
                     "title": title,
                     "content": content,
                 }
             )
-            for index, (title, content) in enumerate(text.soup_split_header(soup))
+            for index, (title, content) in enumerate(
+                text.soup_split_header(soup), start=1
+            )
         ]
 
         # conteúdo
