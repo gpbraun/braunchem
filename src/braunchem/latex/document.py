@@ -14,7 +14,7 @@ TEX_TEMPLATES_PATH = importlib.resources.files("braunchem.latex.templates")
 
 def run_latexmk(tex_path: Path):
     """Executa o comando `latexmk`."""
-    logger.info(f"Compilando o arquivo {tex_path}.")
+    logger.info(f"Compilando o arquivo {tex_path} com latexmk.")
     subprocess.run(
         [
             "latexmk",
@@ -27,7 +27,22 @@ def run_latexmk(tex_path: Path):
         ],
         stdout=subprocess.DEVNULL,
     )
-    logger.info(f"Arquivo {tex_path} compilado!")
+    logger.info(f"Arquivo {tex_path} compilado com latexmk!")
+
+
+def run_tectonic(tex_path: Path):
+    """Executa o comando `latexmk`."""
+    logger.info(f"Compilando o arquivo {tex_path} com tectonic.")
+    subprocess.run(
+        [
+            "tectonic",
+            "-X",
+            "compile",
+            tex_path,
+        ],
+        stdout=subprocess.DEVNULL,
+    )
+    logger.info(f"Arquivo {tex_path} compilado com tectonic!")
 
 
 def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
@@ -119,7 +134,9 @@ class Document:
 
     # TODO: Da pra fazer uma função que cria o diretório temporário e uma função que roda os pdf, assim a paralelização pode ser feita nesse módulo em vez de no módulo de tópicos.
 
-    def write_pdf(self, tmp_dir: Path, out_dir: Path | None = None) -> Path:
+    def write_pdf(
+        self, tmp_dir: Path, out_dir: Path | None = None, tectonic=True
+    ) -> Path:
         """Gera o `pdf` e copia para um diretório de saída.
 
         Args:
@@ -134,7 +151,12 @@ class Document:
 
         tex_path = tmp_dir.joinpath(self.id_).with_suffix(".tex")
         tex_path.write_text(self.document())
-        run_latexmk(tex_path)
+
+        if tectonic:
+            run_tectonic(tex_path)
+        else:
+            run_latexmk(tex_path)
+
         pdf_path = tex_path.with_suffix(".pdf")
 
         if out_dir:
