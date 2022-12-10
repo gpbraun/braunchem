@@ -1,4 +1,12 @@
 {
+    "latex-workshop.latex.autoBuild.run": "never",
     "python.formatting.provider": "black",
-    "python.analysis.typeCheckingMode": "off"
+    "python.analysis.typeCheckingMode": "off",
+    "code-runner.runInTerminal": false,
+    "[latex]": {
+        "editor.formatOnSave": false
+    },
+    "[latex-expl3]": {
+        "editor.formatOnSave": false
+    },
 }

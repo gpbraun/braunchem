@@ -19,7 +19,6 @@ class Focus(BaseModel):
 
     id_: str
     path: Path
-    date: datetime
     title: str
     content: str
     topics: list[str] = []
@@ -51,7 +50,6 @@ class FocusSet(BaseModel):
     """Conjunto de areas"""
 
     id_: str
-    date: datetime
     title: str
     focuses: list[Focus]
 
@@ -60,7 +58,7 @@ class FocusSet(BaseModel):
         """Cria um `FocusSet` com os endereços dos fócos fornecidos."""
         focuses = list(map(Focus.parse_mdfile, focus_paths))
 
-        return cls(id_="root", title="ROOT", date=datetime.now(), focuses=focuses)
+        return cls(id_="root", title="ROOT", focuses=focuses)
 
     @classmethod
     def parse_database(cls, focus_dir: Path):
