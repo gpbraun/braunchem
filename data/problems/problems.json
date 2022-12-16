@@ -4,6 +4,53 @@
   "date": "2022-12-10T13:43:24.777019",
   "problems": [
     {
+      "id_": "3H01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3H/3H01/3H01.md",
+      "date": "2022-12-11T04:48:01.150920",
+      "statement": {
+        "html": "<p>Quando a reação <span class=\"math display\">\\[\n    \\ce{ H2(g) + I2(g) -&gt; 2 HI(g) }\n\\]</span> foi conduzida em temperatura elevada, a concentração de <span class=\"math inline\">\\(\\ce{HI}\\)</span> aumentou de <span class=\"math inline\">\\(\\pu{4,2 mM}\\)</span> para <span class=\"math inline\">\\(\\pu{6 mM}\\)</span> em <span class=\"math inline\">\\(\\pu{200 s}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvelocidade média de formação de <span class=\"math inline\">\\(\\ce{HI}\\)</span>.</p>",
+        "md": "Quando a reação $$\n    \\ce{ H2(g) + I2(g) -> 2 HI(g) }\n$$ foi conduzida em temperatura elevada, a concentração de $\\ce{HI}$\naumentou de $\\pu{4,2 mM}$ para $\\pu{6 mM}$ em $\\pu{200 s}$.\n\n**Assinale** a alternativa que mais se aproxima da velocidade média de\nformação de $\\ce{HI}$.\n",
+        "tex": "Quando a reação {\\[\n    \\ce{ H2(g) + I2(g) -> 2 HI(g) }\n\\]} foi conduzida em temperatura elevada, a concentração de {\\(\\ce{HI}\\)} aumentou de {\\(\\qty{4,2}{mM}\\)} para {\\(\\qty{6}{mM}\\)} em {\\(\\qty{200}{s}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da velocidade média de formação de {\\(\\ce{HI}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{9 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{9}{\\micro mol.L^{-1}.s^{-1}}\\)}\n"
+        }
+      ],
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{1 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{1}{\\micro mol.L^{-1}.s^{-1}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{3 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{3}{\\micro mol.L^{-1}.s^{-1}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{6 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{6}{\\micro mol.L^{-1}.s^{-1}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{9 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{9}{\\micro mol.L^{-1}.s^{-1}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{12 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{12}{\\micro mol.L^{-1}.s^{-1}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
       "id_": "3L01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3L/3L01/3L01.md",
       "date": "2022-12-10T15:31:45.045239",
