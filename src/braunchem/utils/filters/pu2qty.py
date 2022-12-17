@@ -8,11 +8,11 @@ UNIT_EXP_REGEX = re.compile(r"[\+\-]?\d+")
 
 
 def parse_fractions(unit_str: str):
-    try:
-        numerator, denominator = unit_str.split("//", 1)
-        return f"\\tfrac{{{numerator}}}{{{parse_fractions(denominator)}}}"
-    except ValueError:
-        return unit_str
+    if not "//" in unit_str:
+        return f"\\unit{{{unit_str}}}"
+
+    numerator, denominator = unit_str.split("//", 1)
+    return f"\\tfrac{{{numerator}}}{{{parse_fractions(denominator)}}}"
 
 
 def qty(num_str: str, unit_str: str) -> str:
@@ -27,7 +27,7 @@ def qty(num_str: str, unit_str: str) -> str:
 
     # unidades sem valor numérico
     if not num_str:
-        return f"\\unit{{{formated_unit_str}}}"
+        return formated_unit_str
 
     return f"\\qty{{{num_str}}}{{{formated_unit_str}}}"
 
