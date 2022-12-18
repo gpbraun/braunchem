@@ -382,7 +382,7 @@
 
 \AtBeginDocument 
     {
-        \usepgfplotslibrary{groupplots}
+        \usepgfplotslibrary{groupplots, fillbetween}
     }
 
 %============================================================%
@@ -1703,6 +1703,11 @@
         \group_begin:
 
         \cs_set_eq:NN \subsubsection \DerivationHeader
+
+        \cs_set_eq:NN \figure \simplefigure
+        \cs_set_eq:NN \endfigure \endsimplefigure
+
+        \pgfplotsset { scale = 0.9 }
 
         \bigskip
 

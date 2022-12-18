@@ -1,0 +1,54 @@
+\begin{tikzpicture}
+    \begin{axis}
+           [
+               grid = major,
+               ylabel = {Pressão, $P/\unit{atm}$},
+               xlabel = {Temperatura, $T/\unit{\degree C}$},
+               xmin=0, xmax=1150,
+               xtick = {200, 900},
+               xticklabels = {\num{6}, \num{289}},
+               ymin=0, ymax=1150,
+               ytick = {200, 900},
+               yticklabels = {\num{0,05}, \num{48,30}}
+           ]       
+            \draw [draw=blue, very thick]
+                (axis cs: 0, 150) parabola 
+                (axis cs: 200, 200);
+            \draw [draw=blue, very thick]
+                (axis cs: 200, 200) parabola
+                (axis cs: 900, 900);
+            \draw [draw=blue, very thick]
+                (axis cs: 200, 200) --
+                (axis cs: 400, 2000);
+    
+            \addplot [ mark=*, color=blue, only marks ] coordinates
+                { 
+                    (200, 200) 
+                    (900, 900)
+                    (100, 1000)
+                    (1000, 1000)
+                    (1000, 500)
+                    (100, 500)
+                    (100, 50)
+                };
+    
+            \node [anchor = south west] at (axis cs:  100, 1000) { $A$ };
+            \node [anchor = south west] at (axis cs: 1000, 1000) { $B$ };
+            \node [anchor = north west] at (axis cs: 1000,  500) { $C$ };
+            \node [anchor = south west] at (axis cs:  100,  500) { $D$ };
+            \node [anchor = south west] at (axis cs:  100,   50) { $E$ };
+    
+            \draw [thick, -stealth, dashed, black!70]
+                (axis cs: 100, 1000) -- 
+                (axis cs: 985, 1000);
+            \draw [thick, -stealth, dashed, black!70]
+                (axis cs: 1000, 1000) -- 
+                (axis cs: 1000, 515);
+            \draw [thick, -stealth, dashed, black!70]
+                (axis cs: 1000, 500) -- 
+                (axis cs: 115, 500);
+            \draw [thick, -stealth, dashed, black!70]
+                (axis cs: 100, 500) -- 
+                (axis cs: 100, 65);
+    \end{axis}
+    \end{tikzpicture}

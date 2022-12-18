@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+           grid = major,
+           xmin = 0.5, xmax = 3.5,
+           ymin = 0, ymax = 1.2,
+           xtick = { 1, 3 },
+           ytick = { 0.33, 1 },
+           xticklabels = { $T_1$, $T_2$ },
+           yticklabels = { $\dfrac{C}{T_1}$, $\dfrac{C}{T_2}$ },
+           ylabel = {$C/T$},
+           xlabel = {Temperatura, $T$},
+        ]       
+        \addplot [blue, domain=0:10, name path=curve]
+            { 1/x };
+        \addplot [draw=none, name path=xlabel] {0};
+        
+        \addplot [blue, fill opacity=0.2] fill between[of=xlabel and curve, soft clip={domain=1:3}];
+    
+        \node [anchor = south] at (axis cs:2, 0.04) 
+            {$\text{Área} = nC\ln\left(\dfrac{T_2}{T_1}\right)$};
+    \end{axis}
+    \end{tikzpicture}

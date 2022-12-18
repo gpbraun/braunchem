@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            xmin = 0.5, xmax = 3.5,
+            ymin = 0, ymax = 1.2,
+            xtick = { 1, 3 },
+            ytick = { 0.33, 1 },
+            xticklabels = { $V_1$, $V_2$ },
+            yticklabels = { $P_1$, $P_2$ },
+            ylabel = {Pressão, $P$},
+            xlabel = {Volume, $V$},
+        ]       
+        \addplot [blue, domain=0:10, name path=curve]
+            { 1/x };
+        \addplot [draw=none, name path=xlabel] {0};
+        \addplot [blue, fill opacity=0.2] fill between[of=xlabel and curve, soft clip={domain=1:3}];
+
+        \node[coordinate, pin={[fill=white] above right:{$P = nRT\times \dfrac{1}{V}$}}] 
+                at (axis cs:1.25,0.8)   {};
+
+        \node [anchor = south] at (axis cs:2, 0.04) 
+            {$\text{Área} = nR\ln\left(\dfrac{V_2}{V_1}\right)$};
+    \end{axis}
+\end{tikzpicture}

@@ -262,7 +262,7 @@
 
 \AtBeginDocument 
     {
-        \usepgfplotslibrary{groupplots}
+        \usepgfplotslibrary{groupplots, fillbetween}
     }
 
 %============================================================%
