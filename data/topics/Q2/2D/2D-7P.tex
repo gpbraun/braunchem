@@ -1,0 +1,41 @@
+\begin{tikzpicture}
+\begin{axis}
+    [
+        grid = minor,
+        xlabel = {Fração molar de benzeno, $x_\mathrm{benzeno}$},
+        ylabel = {Temperatura, $T/\unit{\degree C}$},
+        xmin = 0, xmax = 1,
+        ymin = 75, ymax = 115,
+    ]    
+            
+    \draw [draw=red, very thick]
+        (axis cs: 0, 110) parabola bend  (axis cs: 0, 110)
+        (axis cs: 1, 80);
+
+    \draw [draw=blue, very thick]
+        (axis cs: 0, 110) parabola bend  (axis cs: 1, 80)
+        (axis cs: 1, 80);
+
+    \addplot [ mark=*, color=black, only marks ] coordinates
+        { 
+            (0.29, 95)
+            (0.71, 95)
+        };
+
+    \draw [draw=black, thick, -stealth]
+        (0.29, 95) -- (0.70, 95);
+
+    \node [anchor = south, align = center] at (axis cs:0.44, 95) 
+        { Linha de \\amarração };
+
+    \node [anchor = north east] at (axis cs:0.29, 95) {$A$};
+    \node [anchor = south west] at (axis cs:0.71, 95) {$B$};
+
+    \node[coordinate, pin={[fill=white, align=left] below left:{Ponto de\\ebulição}}] 
+        at (axis cs:0.52, 87) {};
+
+    \node[coordinate, pin={[fill=white, align=left] above right:{Fração molar do\\ vapor, $y_\mathrm{benzeno}$}}] 
+        at (axis cs:0.48, 103) {};
+        
+\end{axis}
+\end{tikzpicture}

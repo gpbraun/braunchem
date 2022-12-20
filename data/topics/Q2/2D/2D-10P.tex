@@ -1,0 +1,30 @@
+\begin{tikzpicture}
+\begin{axis}
+    [
+        grid = minor,
+        xlabel = {Fração molar da acetona, $x_\mathrm{acetona}$},
+        ylabel = {Temperatura, $T/\unit{\degree C}$},
+        xmin = 0, xmax = 1,
+        ymin = 62, ymax = 82,
+    ]    
+            
+    \draw [draw=blue, very thick]
+        (axis cs: 0, 76) parabola bend (axis cs: 0.55, 67)
+        (axis cs: 1, 80);
+
+    \draw [draw=red, very thick]
+        (axis cs: 0, 76) parabola (axis cs: 0.55, 67);
+
+    \draw [draw=red, very thick]
+        (axis cs: 1, 80) parabola (axis cs: 0.55, 67);
+
+    \addplot [ mark=*, color=black, only marks ] coordinates
+        {
+            (0.55, 67)
+        };
+
+    \node[coordinate, pin={[fill=white, align=left] below:{Azeótropo de P.E. mínimo}}] 
+        at (axis cs:0.55, 67) {};
+        
+\end{axis}
+\end{tikzpicture}

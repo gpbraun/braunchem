@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+\begin{axis}
+    [
+        grid = minor,
+        xlabel = {Fração molar de \ce{A}, $x_{\ce{A}}$},
+        ylabel = {Pressão de vapor, $P$},
+        xmin = 0, xmax = 1,
+        ymin = 0, ymax = 60,
+        ytick = \empty,
+        extra y ticks = {50},
+        extra y tick labels = {$P_{\ce{A}}^\star$},
+        extra y tick style = { grid = major },
+    ]     
+    \addplot+ [domain = 0:1]
+        { 
+            50*x
+        };
+\end{axis}
+\end{tikzpicture}
