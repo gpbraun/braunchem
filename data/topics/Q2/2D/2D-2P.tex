@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+    \begin{axis}
+           [
+                grid = major,
+                xlabel = {Pressão, $P/\unit{bar}$},
+                ylabel = {Energia livre molar, $G_\mathrm{m}$},
+                xmin = 0, xmax = 2,
+                ymin = 0, ymax = 4,
+                xtick = {0, 1},
+                ytick = {0, 2.36},
+                yticklabels = {0, $G_\mathrm{m}^\circ$}
+           ]     
+            \addplot+ [domain = 0.001:10]
+                { 
+                    2*ln(x + 0.2) + 2
+                };
+    \end{axis}
+\end{tikzpicture}
