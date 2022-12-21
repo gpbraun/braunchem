@@ -48,7 +48,7 @@ PANDOC_FILTER_PATHS = [
 ]
 """Lista de endereços para os filtros do pandoc."""
 
-PANDOC_COLUMN_NUM = 200
+PANDOC_COLUMN_NUM = 150
 """Número de colunas consideradas pelo pandoc"""
 
 
