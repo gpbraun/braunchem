@@ -1300,7 +1300,7 @@
 
         \tl_set:Nn \arraystretch {1.25}
 
-        \arrayrulecolor { blue }
+        \arrayrulecolor { black }
 
         \begin{center}    
 		\begin{tabular} [#1] {#2} 
