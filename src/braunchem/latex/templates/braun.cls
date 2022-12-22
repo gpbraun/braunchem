@@ -1300,16 +1300,16 @@
 
         \tl_set:Nn \arraystretch {1.25}
 
-        \arrayrulecolor { gray-500 }
+        \arrayrulecolor { blue }
 
         \begin{center}    
-        \skip_vertical:n {-1em}
 		\begin{tabular} [#1] {#2} 
 		
 	}
 	{
 		\end{tabular}
         \end{center}
+
 		\group_end:
 	}
 
@@ -1381,7 +1381,7 @@
     {
         \group_begin:
 
-        \tl_set:Nn \arraystretch {1.25}
+        \tl_set:Nn \arraystretch {1.5}
 
         \captionsetup
             {
@@ -1435,6 +1435,8 @@
     {
         \end{table}
         \group_end:
+
+        \arrayrulecolor { black }
     }
 
 \NewDocumentEnvironment { displaytable } {}
@@ -1737,6 +1739,7 @@
 
 \AtBeginEnvironment { quote }
     {
+        \small
         \bfseries
         \itshape
     }

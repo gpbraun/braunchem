@@ -21,6 +21,7 @@ logger = logging.getLogger(__name__)
 
 
 MARKDOWN_EXTENSIONS = [
+    "smart",
     "fancy_lists",
     "task_lists",
     "pipe_tables",
