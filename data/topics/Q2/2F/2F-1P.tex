@@ -1,0 +1,76 @@
+\begin{tikzpicture}
+\begin{groupplot}
+    [
+        group style = {
+            group size = 1 by 2,
+            vertical sep = 5pt,
+            xticklabels at = edge bottom,
+        },
+        width = 240pt,
+        height = 150pt,
+        grid = major,
+        xmin = 0, xmax = 4,
+        ymin = 0, ymax = 3,
+        xticklabels = \empty,
+        yticklabels = \empty,
+        domain = 0:4,
+    ] 
+\nextgroupplot 
+    [
+        ymin = 0,
+        ylabel = { Concentração molar, $c$ },
+    ]
+    
+    \addplot+ [blue]
+        { 
+            3*exp(-x) + (1-exp(-x))*0.6
+        };
+    \addplot+ [green]
+        { 
+            exp(-x) + (1-exp(-x))*0.2
+        };
+    \addplot+ [red]
+        { 
+            2*(1-exp(-x)) - (1-exp(-x))*0.4
+        };
+
+    \node [anchor = north] at (axis cs:0.5,2.7) 
+        { \ce{H2} };
+
+    \node [anchor = south] at (axis cs:0.5,1) 
+        { \ce{N2} };
+
+    \node [anchor = south] at (axis cs:3.5,1.6) 
+        { \ce{NH3} };
+
+\nextgroupplot
+    [
+        ymin = 0, 
+        xlabel = {Tempo, $t$},
+        ylabel = { Concentração molar, $c$ },
+    ]
+
+    \addplot+ [blue]
+        { 
+            3*(1-exp(-x)) - (1-exp(-x))*0.6
+        };
+    \addplot+ [green]
+        { 
+            1-exp(-x) - (1-exp(-x))*0.2
+        };
+    \addplot+ [red]
+        { 
+            2*exp(-x) + (1-exp(-x))*0.4
+        };
+    
+    \node [anchor = north] at (axis cs:3.5,2.8) 
+        { \ce{H2} };
+    
+    \node [anchor = south] at (axis cs:3.5,1) 
+        { \ce{N2} };
+    
+    \node [anchor = south] at (axis cs:0.5,2) 
+        { \ce{NH3} };
+
+\end{groupplot}
+\end{tikzpicture}

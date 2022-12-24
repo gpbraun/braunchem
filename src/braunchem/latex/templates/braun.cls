@@ -1299,6 +1299,7 @@
         \group_begin:
 
         \tl_set:Nn \arraystretch {1.25}
+        % \cs_set_eq:NN \toprule \relax
 
         \arrayrulecolor { black }
 
@@ -1399,7 +1400,7 @@
                 right = 0pt,
                 boxsep = 0pt,
                 top = 2pt,
-                bottom = -1.2em,
+                bottom = -3ex,
                 toptitle = -0.8ex,
                 bottomtitle = 1ex,
                 lefttitle = 1ex,
@@ -1465,7 +1466,7 @@
 
         background-color .code:n = 
             \colorlet { example_background_color } { #1 },
-        background-color .initial:n = cyan!7.5,
+        background-color .initial:n = blue!7.5,
     }
 
 \newfloat  { floatexample } { thp } { loe }
@@ -1501,6 +1502,8 @@
 
         \tcbsubtitle
             [
+                top = 0.5ex,
+                bottom = 0.5ex,
                 enhanced, 
                 frame~ hidden,
             ]
@@ -1737,11 +1740,17 @@
 %   RESUMO NO FINAL DA SEÇÃO
 %============================================================%
 
-\AtBeginEnvironment { quote }
+\RenewDocumentEnvironment { quote } {}
     {
+        \medskip
+        \begin{addmargin} [ \parindent ] { \parindent }
         \small
         \bfseries
         \itshape
+    } 
+    {
+        \end{addmargin}
+        \medskip
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
