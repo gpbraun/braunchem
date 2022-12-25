@@ -17,19 +17,22 @@ def run_latexmk(tex_path: Path):
     logger.info(f"Compilando o arquivo {tex_path} com latexmk.")
     latexmk = subprocess.run(
         [
-            "latexmk",
+            shutil.which("latexmk"),
             "-shell-escape",
             "-interaction=nonstopmode",
             "-file-line-error",
             "-pdf",
             "-cd",
-            tex_path,
+            str(tex_path),
         ],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
-    logger.info(latexmk.stdout)
-    logger.warning(latexmk.stderr)
+    logger.debug(f"Comando executado: {' '.join(latexmk.args)}")
+    if latexmk.stdout:
+        logger.info(latexmk.stdout.decode())
+    if latexmk.stderr:
+        logger.warning(latexmk.stderr.decode())
     logger.info(f"Arquivo {tex_path} compilado com latexmk!")
 
 
@@ -38,17 +41,19 @@ def run_tectonic(tex_path: Path):
     logger.info(f"Compilando o arquivo {tex_path} com tectonic.")
     tectonic = subprocess.run(
         [
-            "tectonic",
+            shutil.which("tectonic"),
             "-X",
             "compile",
             "--keep-intermediates",
-            tex_path,
+            str(tex_path),
         ],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
-    logger.info(tectonic.stdout)
-    logger.warning(tectonic.stderr)
+    if tectonic.stdout:
+        logger.info(tectonic.stdout)
+    if tectonic.stderr:
+        logger.warning(tectonic.stderr)
     logger.info(f"Arquivo {tex_path} compilado com tectonic!")
 
 
@@ -142,7 +147,7 @@ class Document:
     # TODO: Da pra fazer uma função que cria o diretório temporário e uma função que roda os pdf, assim a paralelização pode ser feita nesse módulo em vez de no módulo de tópicos.
 
     def write_pdf(
-        self, tmp_dir: Path, out_dir: Path | None = None, tectonic: bool = True
+        self, tmp_dir: Path, out_dir: Path | None = None, tectonic: bool = False
     ) -> Path:
         """Gera o `pdf` e copia para um diretório de saída.
 
@@ -155,6 +160,10 @@ class Document:
         # copia os arquivos do template para o diretório temporário
         cls_path = TEX_TEMPLATES_PATH.joinpath(self.cls).with_suffix(".cls")
         shutil.copy(cls_path, tmp_dir)
+
+        # copia o braunchem.sty (melhorar isso)
+        braun_chem_path = TEX_TEMPLATES_PATH.joinpath("braunchem.sty")
+        shutil.copy(braun_chem_path, tmp_dir)
 
         tex_path = tmp_dir.joinpath(self.id_).with_suffix(".tex")
         tex_path.write_text(self.document())

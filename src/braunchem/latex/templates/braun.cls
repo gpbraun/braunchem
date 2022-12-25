@@ -230,6 +230,8 @@
 
 \RequirePackage [ version = 4 ] { mhchem }
 
+\RequirePackage { braunchem }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   BOXES -> isso aqui vai morrer

@@ -221,6 +221,8 @@
 
 \RequirePackage [version=4] { mhchem }
 
+\RequirePackage { braunchem }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   DRAWING

@@ -1,0 +1,16 @@
+\begin{chemscheme}
+\schemestart
+    \chemfig[fixed length=true]{H-[1]@{a3}O-[-1]@{a2}{\color{red}H}}
+    \arrow{0}[,0]\+
+    \chemfig[fixed length=true]{@{a1}\charge{45:2pt=$\scriptstyle2 -$}{O}}
+    \arrow{->}
+    \chemfig[fixed length=true]{H-\charge{45:1pt=$\scriptstyle -$}{O}}
+    \+
+    \chemfig[fixed length=true]{{\color{red}H}-\charge{45:1pt=$\scriptstyle -$}{O}}
+\schemestop
+\chemmove[shorten <=2pt, shorten >=2pt]
+    {
+        \draw[blue, semithick] (a1) ..controls+ (120:6mm) and+ (60:8mm).. (a2);
+        \draw[blue, semithick] (a2) ..controls+ (-120:6mm) and+ (-90:6mm).. (a3);
+    }
+\end{chemscheme}

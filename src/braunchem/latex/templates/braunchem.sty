@@ -1,0 +1,427 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  ______                       _____ _                      %
+%  | ___ \                     /  __ \ |                     %
+%  | |_/ /_ __ __ _ _   _ _ __ | /  \/ |__   ___ _ __ ___    %
+%  | ___ \ '__/ _` | | | | '_ \| |   | '_ \ / _ \ '_ ` _ \   %
+%  | |_/ / | | (_| | |_| | | | | \__/\ | | |  __/ | | | | |  %
+%  \____/|_|  \__,_|\__,_|_| |_|\____/_| |_|\___|_| |_| |_|  %
+%                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  The BRAUNCHEM Package
+%
+%          --  Beautiful Reaction Schemes  -- 
+%
+%============================================================%
+%
+%  GABRIEL P. BRAUN, 2019-2021
+%
+%============================================================%
+%
+%  CONTACT: braun.pineschi@gmail.com
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE REQUIREMENTS AND SETUP                   
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\RequirePackage
+{ 
+    expl3, 
+    xparse, 
+    l3draw,
+    l3graphics,
+    chemmacros,
+}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE IDENTIFICATION                        
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\ProvidesExplPackage{braunchem}{2021/06/06}{2.0}%
+{ Beautiful Reaction Schemes }
+ 
+%============================================================%
+%   VARIANTS OF KERNEL FUNCTIONS
+%============================================================%
+ 
+\cs_generate_variant:Nn \coffin_rotate:Nn {NV}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   PACKAGE KEYS     
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\keys_define:nn { braun/chem }
+    {
+        %% LOAD CHEMFIG
+        chemfig .bool_set:N = \g_bchem_chemfig_bool ,
+        chemfig .initial:n  = false,
+        chemfig .default:n  = true,
+ 
+        %% FORMULA FORMAT
+        % formula-format .code:n = \chemsetup { chemformula/format = #1 },
+        % formula-format .initial:n = \sffamily,
+    }
+ 
+\ProcessKeysOptions { braun/chem }
+ 
+\DeclareSIUnit \currie {\text{Ci}}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MACROS           
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\cs_set:Npn \BraunNoWarning % Avoid badness errors
+    { 
+        \dim_set_eq:NN \vfuzz    \c_max_dim
+        \dim_set_eq:NN \hfuzz    \c_max_dim
+        \int_set_eq:NN \hbadness \c_max_int
+        \int_set_eq:NN \vbadness \c_max_int
+    }
+ 
+% #1 -> key options
+\cs_new:Npn \BChemSet #1 { \keys_set:nn { braun/chem } {#1} }
+ 
+% #1 -> Bold formula
+\cs_new:Npn \chb #1 { \ch { \bfseries #1 } }
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   MODULES
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\RequirePackage { chemfig }
+ 
+\usetikzlibrary{ backgrounds, calc, decorations }
+ 
+%\chemsetup[newman]{ring = { chemline }, scale=0.8}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   STRUCTURE STYLE                      
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%============================================================%
+%   STYLE PARAMETERS
+%============================================================%
+ 
+\sffamily % Get em values from sans serif font
+ 
+\keys_define:nn { bchem/chemfig }
+{
+    %% FIXED LENGTH
+    fixed-length.dim_set:N = \g_bchem_fixed_lenght_dim,
+    fixed-length.initial:n = 1.44 em,
+ 
+    %% BOLD WIDTH
+    bold-width.dim_set:N = \g_bchem_bold_width_dim,
+    bold-width.initial:n = 0.30 em,
+ 
+    %% LINE WIDTH
+    line-width.dim_set:N = \g_bchem_line_width_dim,
+    line-width.initial:n = 0.06 em,
+ 
+    %% MARGIN WIDTH
+    margin-width.dim_set:N = \g_bchem_margin_width_dim,
+    margin-width.initial:n = 0.16 em,
+ 
+    %% HASH SPACING
+    hash-spacing.dim_set:N = \g_bchem_hash_spacing_dim,
+    hash-spacing.initial:n = 0.25 em,
+ 
+    %% BOND SPACING
+    bond-spacing.dim_set:N = \g_bchem_bond_spacing_dim,
+    bond-spacing.initial:n = 0.25 em,
+}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMFIG CONFIGURATIONS            
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%============================================================%
+%   PRINT CHEMFIG ATOMS WITH CHEMFORMULA (\ch)
+%============================================================%
+ 
+% \tex_def:D \CF_nodecontent
+% {
+%     \expandafter\expandafter\expandafter
+%     \printatom
+%     \expandafter\expandafter\expandafter
+%     {
+%         \csname atom_\number\CF_cntatom \endcsname \CF_nodestrut
+%     }
+% }
+ 
+% \cs_set_eq:NN \printatom \ch
+
+\renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   CHEMFIG SETUP                       
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\setchemfig
+{
+    chemfig~style    =  { chemline },
+    bond~style       =  { cap = round },
+    atom~sep         =  \dim_use:N \g_bchem_fixed_lenght_dim,
+    double~bond~sep  =  \dim_use:N \g_bchem_bond_spacing_dim,
+    bond~offset      =  \dim_use:N \g_bchem_margin_width_dim,
+    angle~increment  =  30,
+    cram~width       =  \dim_use:N \g_bchem_bold_width_dim,
+    cram~dash~width  =  \dim_use:N \g_bchem_line_width_dim,
+    cram~dash~sep    =  \dim_use:N \g_bchem_hash_spacing_dim,
+}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   TIKZ STYLES            
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%============================================================%
+%   MACROS
+%============================================================%
+ 
+% Drawing circles in aromatic rings. 
+\cs_set:Npn \mcfcringle #1
+    { 
+        \tikz
+        \draw[chemline](0,0) 
+            circle( \dim_use:N \g_bchem_fixed_lenght_dim * #1 * 0.5 );
+    }
+ 
+% Rendering  double and triple bonds parallel bond strokes
+\pgfdeclaredecoration { mcfsecondstroke } { initial }
+    {
+        \state{initial}[ width = \pgfdecoratedpathlength-1sp ]
+        {
+            \pgfmoveto{ \pgfpointorigin }
+        }
+        \state{final}
+        {
+            \pgflineto{ \pgfpointorigin }
+        }
+    }
+ 
+%============================================================%
+%   SET STYLES
+%============================================================%
+ 
+\tikzset
+    { 
+ 
+        chemline  /. style = { line~width = \dim_use:N \g_bchem_line_width_dim },
+        %% BOND STYLES
+        bold~bond /. style = { line~width = \dim_use:N \g_bchem_bond_spacing_dim },
+        dash~bond /. style =
+        {
+            dash~pattern = on \dim_use:N \g_bchem_hash_spacing_dim off \dim_use:N \g_bchem_hash_spacing_dim,
+            cap          = butt,
+        },
+        hash~bond /. style =
+        {
+            dash~pattern = on \dim_use:N \g_bchem_line_width_dim off \dim_use:N \g_bchem_hash_spacing_dim,
+            line~width   = \dim_use:N \g_bchem_bold_width_dim,
+            cap          = butt,
+        },
+        fix       /. style = { shorten~<= - 0.15 ex },
+        fixout    /. style = { shorten~>= - 0.15 ex },
+        dbfix     /. style = { shorten~<= - #1 ex },
+        dbfixout  /. style = { shorten~>= - #1 ex },
+        %% MOL2CHEMFIG COMPATIBILITY
+        mcfwavy   /. style =
+            {
+                decorate,
+                decoration = 
+                    {
+                        snake,
+                        post~length = 0pt,
+                        amplitude   = {\dim_use:N \g_bchem_fixed_lenght_dim / 8},
+                    }
+            },
+        
+        mcfbond    /. style = { cap = round }, 
+        mcfbgcolor /. style = {white},
+        mcfx       /. style~2~args =
+            {
+                preaction=
+                    {
+                        draw,
+                        mcfbgcolor,
+                        line~width = \dim_use:N \g_bchem_bond_spacing_dim,
+                        shorten~<= { #1 * \dim_use:N \g_bchem_bond_spacing_dim / 100 },
+                        shorten~>= { #2 * \dim_use:N \g_bchem_bond_spacing_dim / 100 }
+                    },
+                mcfbond,
+            },
+        mcfcrossbond /. style = { mcfx = { 100 }{ 100 } },
+        secondbond   /. style~2~args =
+            {
+                shorten~<= { #1 * \dim_use:N \g_bchem_bond_spacing_dim / 100 }, 
+                shorten~>= { #2 * \dim_use:N \g_bchem_bond_spacing_dim / 100 }, 
+                mcfbond,
+            },  
+        secondfgbond  /.style~2~args =
+            {
+                preaction = 
+                    { 
+                        draw, 
+                        -,
+                        mcfbgcolor,
+                        line width=\dim_use:N \g_bchem_bond_spacing_dim,
+                    },
+                secondbond = { #1 }{ #2 }    
+            },
+        secondleft    /.style~2~args =
+            {
+                secondbond   = { #1 }{ #2 },
+                decoration   = { mcfsecondstroke, raise = \dim_use:N \g_bchem_bond_spacing_dim },
+                decorate,
+            },   
+        secondright   /.style~2~args =
+            {
+                secondbond   = { #1 }{ #2 },
+                decoration   = { mcfsecondstroke, raise = - \dim_use:N \g_bchem_bond_spacing_dim },
+                decorate,
+            },
+        secondfgleft  /.style~2~args =
+            {
+                secondfgbond = { #1 }{ #2 },
+                decoration   = { mcfsecondstroke, raise = \dim_use:N \g_bchem_bond_spacing_dim },
+                decorate,
+            },
+        secondfgright /. style~2~args = 
+            {
+                secondfgbond = { #1 }{ #2 },
+                decoration   = { mcfsecondstroke, raise = - \dim_use:N \g_bchem_bond_spacing_dim },
+                decorate,
+            },
+        dbl   /. style~2~args =
+            {
+                preaction = { draw, secondleft = { #1 }{ #2 } },
+            }, 
+        dbr   /. style~2~args =
+            {
+                preaction = { draw, secondright = { #1 }{ #2 } },
+            },
+        trpl  /. style~2~args =
+            {
+                preaction = { draw, secondleft  = { #1 }{ #2 } },
+                preaction = { draw, secondright = { #1 }{ #2 } },
+            },
+        dblx  /. style~n~args = {4}
+            {
+                preaction = { draw, secondfgleft = { #1 }{ #2 } },
+                mcfx      = { #3 }{ #4 },
+            },  
+        dbrx  /. style~n~args = {4}
+            {
+                preaction = { draw, secondfgright = { #1 }{ #2 } },
+                mcfx      = { #3 }{ #4 },
+            },
+        trplx /. style~n~args = {4}
+            {
+                preaction = { draw, secondfgleft  = { #1 }{ #2 } },
+                preaction = { draw, secondfgright = { #1 }{ #2 } },
+                mcfx      = { #3 }{ #4 },
+            },
+        drh  /.style = { dbr = { 58 }{ 58 } },
+        dlh  /.style = { dbl = { 58 }{ 58 } },
+        drhs /.style = { dbr = { 58 }{  0 } },
+        dlhs /.style = { dbl = { 58 }{  0 } },
+        drhe /.style = { dbr = {  0 }{ 58 } },
+        dlhe /.style = { dbl = {  0 }{ 58 } },
+        drn  /.style = { dbr = {  0 }{  0 } },
+        dln  /.style = { dbl = {  0 }{  0 } }
+    }
+ 
+%============================================================%
+%   STACKING ATOMS HORIZONTALY AND VERTICALY
+%============================================================%
+ 
+\cs_new:Nn \bchem_atom_stack:nnn
+    {
+        \group_begin:
+        
+        \hcoffin_set:Nn \l_tmpa_coffin { #2 }
+        \hcoffin_set:Nn \l_tmpb_coffin { #3 }
+ 
+        \str_case:nnT {#1}
+            {
+                { below }
+                { 
+                    \coffin_attach:NnnNnnnn \l_tmpa_coffin {l} {b} \l_tmpb_coffin {l} {t} {0pt} { - \g_bchem_margin_width_dim }
+                }   
+                { above }    
+                {
+                    \coffin_attach:NnnNnnnn \l_tmpa_coffin {l} {t} \l_tmpb_coffin {l} {b} {0pt} { + \g_bchem_margin_width_dim }
+                }
+                { left }    
+                {
+                    \coffin_attach:NnnNnnnn \l_tmpa_coffin {l} {H} \l_tmpb_coffin {r} {H} {0pt} {0pt}
+                }  
+                { right }    
+                {
+                    \coffin_attach:NnnNnnnn \l_tmpa_coffin {r} {H}\l_tmpb_coffin {l} {H} {0pt} {0pt}
+                }   
+            }
+            {
+                \coffin_typeset:Nnnnn \l_tmpa_coffin {\l_tmpa_coffin-l} {\l_tmpa_coffin-H} {0pt} {0pt}
+            }
+ 
+        \group_end:
+    }
+ 
+\cs_set:Npn \mcfabove      #1 #2 { \bchem_atom_stack:nnn {above}{#1}{#2} }
+\cs_set:Npn \mcfbelow      #1 #2 { \bchem_atom_stack:nnn {below}{#1}{#2} }
+\cs_set:Npn \mcfright      #1 #2 { \bchem_atom_stack:nnn {right}{#1}{#2} }
+\cs_set:Npn \mcfleft       #1 #2 { \bchem_atom_stack:nnn {left}{#1}{#2}  }
+\cs_set:Npn \mcfaboveright #1 #2 { \bchem_atom_stack:nnn {above}{#1}{#2} }
+\cs_set:Npn \mcfbelowright #1 #2 { \bchem_atom_stack:nnn {below}{#1}{#2} }
+ 
+%============================================================%
+%   CHARGES
+%============================================================%
+ 
+\cs_set:Npn \mcfplus  {+}
+\cs_set:Npn \mcfminus {-}
+
+%============================================================%
+%   DOIDERA
+%============================================================%
+ 
+% Existe um bug que faz o chemmove não funcionar corretamente com XeLaTeX
+% https://tex.stackexchange.com/questions/530107/arrows-problems-in-complex-mechanism-in-chemfig
+
+
+\NewDocumentEnvironment { chemscheme } {}
+    {
+        \group_begin:
+        \begin{center}
+    }
+    {
+        \end{center}
+        \group_end:
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
+%   THE END!!!
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
