@@ -166,7 +166,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
     Retorna:
         list[Path]: Lista com o endereço dos arquivos `.md` de problemas.
     """
-    logger.info(f"Procurando arquivos no diretório: {database_dir}.")
+    logger.info(f"Procurando arquivos no diretório: '{database_dir}'.")
 
     md_files = []
 
@@ -180,7 +180,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
             # problemas
             if file_path.suffix == ".md":
                 md_files.append(file_path)
-                logging.debug(f"Arquivo {file_path} adicionado à lista.")
+                logging.debug(f"Arquivo '{file_path}' adicionado à lista.")
                 continue
 
             img_dst_path = config.IMAGES_DIR.joinpath(file_name)
@@ -193,7 +193,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
 
                 # img_dst_path.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(src=file_path, dst=img_dst_path)
-                logging.info(f"Arquivo {file_path} copiado para: {img_dst_path}.")
+                logging.info(f"Arquivo '{file_path}' copiado para: '{img_dst_path}'.")
                 continue
 
             # figuras em LaTeX
@@ -201,6 +201,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                 tex_img_dst_path = img_dst_path.with_suffix(".svg")
                 if tex_img_dst_path.exists():
                     if file_path.stat().st_mtime < tex_img_dst_path.stat().st_mtime:
+                        logging.debug(f"Figura '{file_path}' mantida.")
                         continue
 
                 tex_img_dst_dir = tex_img_dst_path.parent

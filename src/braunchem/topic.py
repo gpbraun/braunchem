@@ -205,7 +205,7 @@ class TopicSet(BaseModel):
             elif topic.date < topic_date:
                 topic = Topic.parse_mdfile(topic_path)
 
-            logger.debug(f"Tópico {topic_id} mantido.")
+            logger.debug(f"Tópico '{topic_id}' mantido.")
             updated_topics.append(topic)
 
         self.topics = updated_topics

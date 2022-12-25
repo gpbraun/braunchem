@@ -268,7 +268,7 @@ class ProblemSet(BaseModel):
         if problem.date < problem_date:
             return Problem.parse_mdfile(problem_path)
 
-        logger.debug(f"Problema {problem_id} mantido.")
+        logger.debug(f"Problema '{problem_id}' mantido.")
         problem.path = problem_path.resolve()
 
         return problem

@@ -28,7 +28,7 @@ def run_latexmk(tex_path: Path):
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
-    logger.debug(f"Comando executado: {' '.join(latexmk.args)}")
+    logger.debug(f"Comando executado: '{' '.join(latexmk.args)}'")
     if latexmk.stdout:
         logger.info(latexmk.stdout.decode())
     if latexmk.stderr:
@@ -50,11 +50,12 @@ def run_tectonic(tex_path: Path):
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
     )
+    logger.debug(f"Comando executado: '{' '.join(tectonic.args)}'")
     if tectonic.stdout:
-        logger.info(tectonic.stdout)
+        logger.info(tectonic.stdout.decode())
     if tectonic.stderr:
-        logger.warning(tectonic.stderr)
-    logger.info(f"Arquivo {tex_path} compilado com tectonic!")
+        logger.warning(tectonic.stderr.decode())
+    logger.info(f"Arquivo '{tex_path}' compilado com tectonic!")
 
 
 def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
@@ -62,12 +63,31 @@ def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
     subprocess.run(
         [
             "pdf2svg",
-            tex_path,
-            svg_path,
+            str(tex_path),
+            str(svg_path),
         ],
         stdout=subprocess.DEVNULL,
     )
-    logger.info(f"Arquivo {tex_path} convertido em {svg_path}.")
+    logger.info(f"Arquivo '{tex_path}' convertido em '{svg_path}'.")
+
+
+def run_pdfcrop(pdf_path: Path):
+    """Executa o comando `latexmk`."""
+    pdfcrop = subprocess.run(
+        [
+            shutil.which("pdfcrop"),
+            str(pdf_path),
+            str(pdf_path),
+        ],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    logger.debug(f"Comando executado: '{' '.join(pdfcrop.args)}'")
+    if pdfcrop.stdout:
+        logger.info(pdfcrop.stdout.decode())
+    if pdfcrop.stderr:
+        logger.warning(pdfcrop.stderr.decode())
+    logger.info(f"Bordas removidas no arquivo '{pdf_path}'!")
 
 
 class Document:
@@ -174,6 +194,9 @@ class Document:
             run_latexmk(tex_path)
 
         pdf_path = tex_path.with_suffix(".pdf")
+
+        if self.standalone:
+            run_pdfcrop(pdf_path)
 
         if out_dir:
             out_dir.mkdir(parents=True, exist_ok=True)
