@@ -58,16 +58,39 @@ def run_tectonic(tex_path: Path):
     logger.info(f"Arquivo '{tex_path}' compilado com tectonic!")
 
 
-def run_pdf2svg(tex_path: Path, svg_path: Path | None = None):
+def run_pdf2svg(tex_path: Path, svg_path: Path | None = None, run_scour=True):
     """Executa o comando `pdf2svg`."""
-    subprocess.run(
+    pdf2svg = subprocess.run(
         [
             "pdf2svg",
             str(tex_path),
             str(svg_path),
         ],
-        stdout=subprocess.DEVNULL,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
     )
+    if pdf2svg.stdout:
+        logger.info(pdf2svg.stdout.decode())
+    if pdf2svg.stderr:
+        logger.warning(pdf2svg.stderr.decode())
+
+    if run_scour:
+        scour = subprocess.run(
+            [
+                "scour",
+                str(svg_path),
+                "--enable-viewboxing",
+                "--enable-id-stripping",
+                "--shorten-ids",
+                "--indent=none",
+            ],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        svg_path.write_bytes(scour.stdout)
+        if scour.stderr:
+            logger.info(scour.stderr.decode())
+
     logger.info(f"Arquivo '{tex_path}' convertido em '{svg_path}'.")
 
 
