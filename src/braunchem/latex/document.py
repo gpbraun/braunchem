@@ -14,7 +14,7 @@ TEX_TEMPLATES_PATH = importlib.resources.files("braunchem.latex.templates")
 
 def run_latexmk(tex_path: Path):
     """Executa o comando `latexmk`."""
-    logger.info(f"Compilando o arquivo {tex_path} com latexmk.")
+    logger.info(f"Compilando o arquivo '{tex_path}' com latexmk.")
     latexmk = subprocess.run(
         [
             shutil.which("latexmk"),
@@ -38,7 +38,7 @@ def run_latexmk(tex_path: Path):
 
 def run_tectonic(tex_path: Path):
     """Executa o comando `latexmk`."""
-    logger.info(f"Compilando o arquivo {tex_path} com tectonic.")
+    logger.info(f"Compilando o arquivo '{tex_path}' com tectonic.")
     tectonic = subprocess.run(
         [
             shutil.which("tectonic"),

@@ -1,16 +1,31 @@
 \begin{chemscheme}
+\setchemfig{+ sep left=1.2em, + sep right=1.2em}
 \schemestart
-    \chemfig[fixed length=true]{H-[1]@{a3}O-[-1]@{a2}{\color{red}H}}
-    \arrow{0}[,0]\+
-    \chemfig[fixed length=true]{@{a1}\charge{45:2pt=$\scriptstyle2 -$}{O}}
+    \chemfig[fixed length=true]
+        {
+            H-[1]@{H1}\charge{45=\:, 135=\:}{O}-[-1]@{O1}{\color{red}H}
+        }
+    \arrow{0}[,0]\+\arrow{0}[,0]
+    \chemfig[fixed length=true]
+        {
+            @{O2}\charge{0:1.5pt=\:, 90:1.5pt=\:, 180:1.5pt=\:, 270:1.5pt=\:, 40:6pt=$\scriptstyle2 -$}{O}
+        }
     \arrow{->}
-    \chemfig[fixed length=true]{H-\charge{45:1pt=$\scriptstyle -$}{O}}
-    \+
-    \chemfig[fixed length=true]{{\color{red}H}-\charge{45:1pt=$\scriptstyle -$}{O}}
+    \chemfig[fixed length=true]
+        {
+            H-\charge{270:1.5pt=\:, 90:1.5pt=\:, 0:1.5pt=\:, 40:4pt=$\scriptstyle -$}{O}
+        }
+    \arrow{0}[,0.1]\+\arrow{0}[,0]
+    \chemfig[fixed length=true]
+        {
+            {\color{red}H}-\charge{270:1.5pt=\:, 90:1.5pt=\:, 0:1.5pt=\:, 40:4pt=$\scriptstyle -$}{O}
+        }
 \schemestop
-\chemmove[shorten <=2pt, shorten >=2pt]
+\chemmove[shorten <=3pt, shorten >=3pt]
     {
-        \draw[green, semithick] (a1) ..controls+ (120:6mm) and+ (60:8mm).. (a2);
-        \draw[green, semithick] (a2) ..controls+ (-120:6mm) and+ (-90:6mm).. (a3);
-    }
+        \draw[green, semithick, shorten <=5pt] (O2) ..controls+ (135:8mm) and+ (60:8mm).. (O1);
+        \draw[green, semithick] (O1) ..controls+ (-120:6mm) and+ (-90:6mm).. (H1);
+    } 
 \end{chemscheme}
+
+    
