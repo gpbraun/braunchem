@@ -1426,7 +1426,7 @@
                 \cs_set_eq:NN \toprule    \relax
                 \cs_set_eq:NN \bottomrule \relax
 
-                \arrayrulecolor { colortable_frame_color }
+                % \arrayrulecolor { colortable_frame_color }
 
                 \dim_set:Nn \lightrulewidth {1pt}
 
