@@ -187,24 +187,28 @@ def get_database_paths(database_dir: Path) -> list[Path]:
 
             # figuras
             if file_path.suffix in [".svg", ".png"]:
+                # se o svg veio de um .tex, continuar
+                if file_path.with_suffix(".tex").exists():
+                    continue
+
                 if img_dst_path.exists():
                     if file_path.stat().st_mtime < img_dst_path.stat().st_mtime:
                         continue
 
-                # img_dst_path.parent.mkdir(parents=True, exist_ok=True)
+                img_dst_path.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(src=file_path, dst=img_dst_path)
                 logging.info(f"Arquivo '{file_path}' copiado para: '{img_dst_path}'.")
                 continue
 
             # figuras em LaTeX
             if file_path.suffix == ".tex":
-                tex_img_dst_path = img_dst_path.with_suffix(".svg")
-                if tex_img_dst_path.exists():
-                    if file_path.stat().st_mtime < tex_img_dst_path.stat().st_mtime:
+                tex_svg_img_dst_path = img_dst_path.with_suffix(".svg")
+                if tex_svg_img_dst_path.exists():
+                    if file_path.stat().st_mtime < tex_svg_img_dst_path.stat().st_mtime:
                         logging.debug(f"Figura '{file_path}' mantida.")
                         continue
 
-                tex_img_dst_dir = tex_img_dst_path.parent
+                tex_img_dst_dir = tex_svg_img_dst_path.parent
                 tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_).joinpath(name)
                 tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
 
@@ -215,7 +219,7 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                 )
                 tex_doc.write_svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
                 shutil.copy(
-                    src=tex_img_dst_dir.joinpath(name).with_suffix(".svg"),
+                    src=tex_svg_img_dst_path,
                     dst=file_path.with_suffix(".svg"),
                 )
 
