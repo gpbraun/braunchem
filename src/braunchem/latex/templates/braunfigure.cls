@@ -195,7 +195,7 @@
 %   MATH
 %============================================================%
 
-\RequirePackage { mathtools, amssymb, textcomp }
+\RequirePackage { mathtools, amssymb, textcomp, marvosym }
 
 \numberwithin { equation     } { section }
 \mathtoolsset { showonlyrefs }
@@ -267,6 +267,7 @@
 \AtBeginDocument 
     {
         \usepgfplotslibrary{groupplots, fillbetween}
+        \usetikzlibrary{shapes.geometric, calc}
     }
 
 %============================================================%
@@ -283,6 +284,7 @@
 \definecolor { green  } { HTML } { 198754 } 
 \definecolor { teal   } { HTML } { 20c997 } 
 \definecolor { cyan   } { HTML } { 0dcaf0 } 
+\definecolor { lime   } { HTML } { 84cc16 }
 
 % GRAYSCALE
 \definecolor { gray-100 } { HTML } { f8f9fa }

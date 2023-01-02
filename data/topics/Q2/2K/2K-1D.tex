@@ -1,0 +1,141 @@
+\begin{tikzpicture}
+    \def\cellWidth{6.7}
+    \tikzset
+        {
+            electrode/.style=
+                {
+                    cylinder, 
+                    thick,
+                    outer sep = -2pt,
+                    minimum height = 4cm,
+                    minimum width = 0.7cm,
+                    aspect = 0.3,
+                    draw = #1!75!black,
+                    top color = #1!60, 
+                    bottom color = #1!60, 
+                    middle color = #1!40,
+                    shading angle = 90,
+                    shape border rotate = 90,
+                },
+            cell/.style=
+                {
+                    draw = #1,
+                    top color = #1!20, 
+                    bottom color = #1!20, 
+                    middle color = white,
+                    shading angle = 90,
+                },
+            solution/.style=
+                {
+                    opacity = 0.25,
+                    top color = #1!60, 
+                    bottom color = #1, 
+                    shading angle = 10,
+                },
+            membrane/.style=
+                {
+                    thick,
+                    draw=yellow!75!black, 
+                    fill opacity = 0.7,
+                    top color = yellow!40, 
+                    bottom color = yellow, 
+                    shading angle = 0,
+                },
+        }
+    
+    % CÉLULA
+    \begin{scope}
+        \node [rectangle, minimum width=\cellWidth cm, minimum height=4cm] 
+            (cell) at (0, 0) {};
+
+        \draw [thick, cell=gray, line cap=round] 
+            (cell.south west) -- 
+            (cell.north west) arc(180:0:\cellWidth/2 and 0.4) -- 
+            (cell.south east) -- 
+            (cell.south west);
+
+        \draw [thick, dashed, draw=gray] 
+            (cell.south east) arc(0:180:\cellWidth/2 and 0.4);
+
+        \path[solution=orange] 
+            (cell.south west) -- 
+            ($(cell.north west) - (0,1)$) -- 
+            ($(cell.north) - (0,1)$) -- 
+            (cell.south) -- 
+            (cell.south west);
+        \path[solution=orange] 
+            ($(cell.north west) - (0,1)$) arc(180:90:\cellWidth/2 and 0.4) -- ($(cell.north) - (0,1)$) -- cycle;
+
+        \path[solution=blue] 
+            (cell.south) -- 
+            ($(cell.north) - (0,1)$) -- 
+            ($(cell.north east) - (0,1)$) -- 
+            (cell.south east) -- 
+            (cell.south);
+        \path[solution=blue] 
+            ($(cell.north east) - (0,1)$) arc(0:90:\cellWidth/2 and 0.4) -- ($(cell.north) - (0,1)$) -- cycle;
+
+        \node [anchor=after bottom, electrode=gray, shift={(0.5, 0.75)}] 
+            (anode) at (cell.south west) { \rotatebox{90}{anodo} };
+
+        \node [anchor=before bottom, electrode=orange, shift={(-0.5, 0.75)}] 
+            (catode) at (cell.south east) { \rotatebox{90}{catodo} };
+
+        \node [anchor=south] at (anode.bottom) { \ce{Zn} };
+        \node [anchor=south west] at (anode.before bottom) { \ce{-> Zn^{2+}} };
+
+        \node [anchor=south] at (catode.bottom) { \ce{Cu} };
+        \node [anchor=south east] at (catode.after bottom) { \ce{Cu^{2+} -> } };
+    \end{scope}
+
+    % MEMBRANA
+    \foreach \i in {1,...,100}
+        \fill[black] ($(rnd*0.4, rnd*3.3) + (cell.south) + (-0.2, 0.05)$) circle (0.7pt);
+        
+    \node [rectangle, anchor=south, minimum width=0.5cm, minimum height=3cm, membrane] 
+        (membrane) at (cell.south) {};
+    \node [rectangle, anchor=south, minimum width=0.5cm, minimum height=0.4cm, shift={(0, -1pt)}, membrane, , label={[yshift=5pt] Membrana}] 
+        (uppermembrane) at (membrane.north) {};
+
+    \node [anchor=north, shift={(0, -5pt)}] 
+        at ($(cell.south west)!0.5!(membrane.south east)$) { Oxidação };
+    \node [anchor=north, shift={(0, -5pt)}] 
+        at ($(cell.south east)!0.5!(membrane.south west)$) { Redução };
+
+    % VOLTÍMETRO
+    \node [rectangle, draw=gray!75!black, thick, fill=gray!20, minimum size=1.2cm, rounded corners=0.1cm, label={[yshift=5pt] Voltímetro}, shift={(0,1.5)}] 
+        (voltmeter) at ($(catode.north)!0.5!(anode.north)$) {};
+
+    \node [anchor=south] at (voltmeter.south) { \texttt{1,1 V} };
+
+    \path [circle, draw=gray!75!black, thick, minimum size=1cm, fill=white] 
+        ($(voltmeter.center) - (0.5, 0)$) arc(180:0:0.5) -- cycle;
+
+    \begin{scope}[blue, shift={(voltmeter.center)}]
+        \foreach \a in{30,60,...,150}
+            {
+                \draw (\a:0.32) -- (\a:0.42);
+            }
+        \fill (0,0) circle (1.5pt);
+        \draw[thick, -latex] (0,0) -- (60:0.4);
+    \end{scope}
+
+    \begin{scope}[red]
+        \node [anchor=south east] at (voltmeter.west) {$\boldsymbol{-}$};
+        \node [anchor=south west] at (voltmeter.east) {$\boldsymbol{+}$};
+    \end{scope}
+
+    % % FIO
+    \begin{scope}[very thick, red!75!black, rounded corners=0.5 cm]
+        \draw (voltmeter.west) -| (anode.north);
+        \draw (voltmeter.east) -| (catode.north);
+    \end{scope}
+    
+    % % ELÉTRONS
+    \begin{scope}[red]
+        \draw[thick, rounded corners=0.3 cm, ->, line cap=round] 
+            ($(anode.north) + (0.3, 0.6)$) |- ($(voltmeter.west) - (0.6, 0.3)$);
+        \node[shift={(-1.1, -0.6)}] at (voltmeter.west) { \ce{e^-} };
+    \end{scope}
+
+\end{tikzpicture}

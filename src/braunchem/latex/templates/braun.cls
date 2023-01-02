@@ -203,7 +203,7 @@
 %   MATH
 %============================================================%
 
-\RequirePackage { mathtools, amssymb, textcomp, cancel }
+\RequirePackage { mathtools, amssymb, textcomp, cancel, marvosym }
 
 \cs_set_eq:NN \degree \textdegree
 
@@ -385,6 +385,7 @@
 \AtBeginDocument 
     {
         \usepgfplotslibrary{groupplots, fillbetween}
+        \usetikzlibrary{shapes.geometric, calc}
     }
 
 %============================================================%
@@ -402,6 +403,7 @@
 \definecolor { green  } { HTML } { 198754 } 
 \definecolor { teal   } { HTML } { 20c997 } 
 \definecolor { cyan   } { HTML } { 0dcaf0 } 
+\definecolor { lime   } { HTML } { 84cc16 }
 
 % TONS DE CINZA
 \definecolor { gray-100 } { HTML } { f8f9fa }

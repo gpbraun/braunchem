@@ -1,0 +1,171 @@
+\begin{tikzpicture}
+    \def\cellWidth{3}
+    \tikzset
+        {
+            electrode/.style=
+                {
+                    cylinder, 
+                    thick,
+                    outer sep = -2pt,
+                    minimum height = 4cm,
+                    minimum width = 0.7cm,
+                    aspect = 0.3,
+                    draw = #1!75!black,
+                    top color = #1!60, 
+                    bottom color = #1!60, 
+                    middle color = #1!40,
+                    shading angle = 90,
+                    shape border rotate = 90,
+                },
+            cell/.style=
+                {
+                    draw = #1,
+                    top color = #1!20, 
+                    bottom color = #1!20, 
+                    middle color = white,
+                    shading angle = 90,
+                },
+            solution/.style=
+                {
+                    opacity = 0.25,
+                    top color = #1!60, 
+                    bottom color = #1, 
+                    shading angle = 10,
+                },
+            bridge/.style=
+                {
+                    thick, 
+                    draw=blue!75!black, 
+                    fill opacity = 0.5,
+                    top color = cyan!30, 
+                    bottom color = cyan, 
+                    shading angle = 0,
+                    rounded corners=0.3cm,
+                },
+        }
+    
+    % CÉLULA DA ESQUERDA
+    \begin{scope}
+        \node [rectangle, minimum width=\cellWidth cm, minimum height=4cm, label={[yshift=-5pt]below:Oxidação}] 
+            (leftcell) {};
+
+        \draw [thick, cell=gray, line cap=round] 
+            (leftcell.south west) -- 
+            (leftcell.north west) arc(180:0:\cellWidth/2 and 0.4) -- 
+            (leftcell.south east) -- 
+            (leftcell.south west);
+
+        \draw [thick, dashed, draw=gray] 
+            (leftcell.south east) arc(0:180:\cellWidth/2 and 0.4);
+
+        \path[solution=orange] 
+            (leftcell.south west) -- 
+            ($(leftcell.north west) - (0,1)$) -- 
+            ($(leftcell.north east) - (0,1)$) -- 
+            (leftcell.south east) -- 
+            (leftcell.south west);
+        \path[solution=orange] 
+            ($(leftcell.north west) - (0,1)$) arc(180:0:\cellWidth/2 and 0.4) -- cycle;
+
+        \node [anchor=after bottom, electrode=gray, shift={(0.5, 0.75)}] 
+            (anode) at (leftcell.south west) { \rotatebox{90}{anodo} };
+
+        \node (Zn) [anchor=south] at (anode.bottom) { \ce{Zn} };
+        \node [anchor=south west] at (anode.before bottom) { \ce{-> Zn^{2+}} };
+    \end{scope}
+
+    % CÉLULA DA DIREITA
+    \begin{scope}
+        \node [rectangle, shift={(0.7,0)}, anchor=west, minimum width=\cellWidth cm, minimum height=4cm, label={[yshift=-5pt]below:Redução}]
+            (rightcell) at (leftcell.east) {};
+
+        \draw [thick, cell=gray, line cap=round] 
+            (rightcell.south west) --
+            (rightcell.north west) arc(180:0:\cellWidth/2 and 0.4) --
+            (rightcell.south east) -- 
+            (rightcell.south west);
+
+        \draw [thick, dashed, draw=gray] 
+            (rightcell.south east) arc(0:180:\cellWidth/2 and 0.4);
+
+        \path[solution=blue] 
+            (rightcell.south west) -- 
+            ($(rightcell.north west) - (0,1)$) -- 
+            ($(rightcell.north east) - (0,1)$) -- 
+            (rightcell.south east) -- 
+            (rightcell.south west);
+
+        \path[solution=blue] 
+            ($(rightcell.north west) - (0,1)$) arc(180:0:\cellWidth/2 and 0.4) -- cycle;
+
+        \node [anchor=before bottom, electrode=orange, shift={(-0.5, 0.75)}] 
+            (catode) at (rightcell.south east) { \rotatebox{90}{catodo} };
+
+        \node [anchor=south] at (catode.bottom) { \ce{Cu} };
+        \node [anchor=south east] at (catode.after bottom) { \ce{Cu^{2+} -> } };
+    \end{scope}
+
+    % PONTE SALINA
+    \begin{scope}
+        \node [rectangle, anchor=north, minimum width=2.8cm, minimum height=2.5cm, shift={(0,1)}, label={[yshift=5pt] Ponte salina}] 
+            (bridge) at ($(leftcell.north east)!0.5!(rightcell.north west)$) {};
+        \node [rectangle, anchor=north, minimum width=1.8cm, minimum height=2.05cm, shift={(0,0.55)}] 
+            (innerbridge) at ($(leftcell.north east)!0.5!(rightcell.north west)$) {};
+
+        \draw [thick, blue, <->, rounded corners=0.3em] 
+            ($(bridge.south west)!0.5!(innerbridge.south west)$) |- 
+            ($(bridge.north)!0.5!(innerbridge.north)$) -|
+            ($(bridge.south east)!0.5!(innerbridge.south east)$);
+
+        \node [anchor=south, shift={(2pt, -2em)}] 
+            at ($(bridge.south west)!0.5!(innerbridge.south west)$) { \ce{Cl^-} };
+        \node [anchor=south, shift={(3pt, -2em)}] 
+            at ($(bridge.south east)!0.5!(innerbridge.south east)$) { \ce{K^+} };
+
+        \draw [bridge] 
+            (bridge.south west) (bridge.south west) arc(0:180:-0.25cm and -0.1cm) 
+            (innerbridge.south west) -- 
+            (innerbridge.north west) -- 
+            (innerbridge.north east) -- 
+            (innerbridge.south east) (innerbridge.south east) arc(0:180:-0.25cm and -0.1cm) 
+            (bridge.south east) -- 
+            (bridge.north east) -- (bridge.north west) -- (bridge.south west);
+    \end{scope}
+
+    % VOLTÍMETRO
+    \node [rectangle, draw=gray!75!black, thick, fill=gray!20, minimum size=1.2cm, rounded corners=0.1cm, label={[yshift=5pt] Voltímetro}, shift={(0,2)}] 
+        (voltmeter) at ($(catode.north)!0.5!(anode.north)$) {};
+
+    \node [anchor=south] at (voltmeter.south) { \texttt{1,1 V} };
+
+    \path [circle, draw=gray!75!black, thick, minimum size=1cm, fill=white] 
+        ($(voltmeter.center) - (0.5, 0)$) arc(180:0:0.5) -- cycle;
+
+    \begin{scope}[blue, shift={(voltmeter.center)}]
+        \foreach \a in{30,60,...,150}
+            {
+                \draw (\a:0.32) -- (\a:0.42);
+            }
+        \fill (0,0) circle (1.5pt);
+        \draw[thick, -latex] (0,0) -- (60:0.4);
+    \end{scope}
+
+    \begin{scope}[red]
+        \node [anchor=south east] at (voltmeter.west) {$\boldsymbol{-}$};
+        \node [anchor=south west] at (voltmeter.east) {$\boldsymbol{+}$};
+    \end{scope}
+
+    % FIO
+    \begin{scope}[very thick, red!75!black, rounded corners=0.5 cm]
+        \draw (voltmeter.west) -| (anode.north);
+        \draw (voltmeter.east) -| (catode.north);
+    \end{scope}
+    
+    % ELÉTRONS
+    \begin{scope}[red]
+        \draw[thick, rounded corners=0.3 cm, ->, line cap=round] 
+            ($(anode.north) + (0.3, 0.6)$) |- ($(voltmeter.west) - (0.6, 0.3)$);
+        \node[shift={(-1.1, -0.6)}] at (voltmeter.west) { \ce{e^-} };
+    \end{scope}
+
+\end{tikzpicture}
