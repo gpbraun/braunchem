@@ -63,8 +63,11 @@ class ParameterSet(BaseModel):
 
     parameters: list[Parameter]
 
+    def parameter_ids(self):
+        return [parameter.id_ for parameter in self.parameters]
+
     def __contains__(self, item):
-        return item in self.parameters
+        return item in self.parameter_ids()
 
     def __iter__(self):
         return iter(self.parameters)

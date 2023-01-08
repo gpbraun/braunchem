@@ -66,7 +66,7 @@ class Problem(BaseModel):
 
         tex_choices = [c.tex for c in self.choices]
 
-        return latex.enum("choices", tex_choices, sep_cmd="item")
+        return latex.cmd("autochoices", tex_choices)
 
     def tex_answer(self):
         """Retorna as respostas do problema formatados em latex."""

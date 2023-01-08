@@ -1076,13 +1076,21 @@
 \NewTasksEnvironment
     [
         label  = {\choicebox{\Alph*}},
-        item-indent = 3em,
+        item-indent = 2.5em,
         after-item-skip = 2\itemsep,
         label-width = 1.5em,
         label-align = right,
         label-offset = 0.7em,
     ] 
     { choices } [\item ]
+
+%% DADOS ADICIONAIS NO FINAL DO ENUNCIADO
+
+\NewTasksEnvironment
+    [
+        label  = \textbullet,
+    ] 
+    { datalist } [\item ]
 
 %============================================================%
 %   ALTERNATIVAS
@@ -1146,6 +1154,11 @@
         \int_set:Nn \l_tmpa_int 
             { % número de colunas
                 \fp_to_int:n { min( 5, floor(\l_tmpb_fp  / \l_tmpa_fp) ) } 
+            }
+
+        \int_compare:nNnT { \l_tmpa_int } = {4}
+            { % 4 colunas não faz sentido: reduzir para 3.
+                \int_set:Nn \l_tmpa_int {3}
             }
 
         \begin{choices}(\l_tmpa_int)
