@@ -11,7 +11,6 @@ import shutil
 import importlib.resources
 import logging
 from pathlib import Path
-from dataclasses import dataclass
 
 import pypandoc
 import bs4

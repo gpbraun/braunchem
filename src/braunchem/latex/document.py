@@ -30,9 +30,15 @@ def run_latexmk(tex_path: Path):
     )
     logger.debug(f"Comando executado: '{' '.join(latexmk.args)}'")
     if latexmk.stdout:
-        logger.info(latexmk.stdout.decode())
+        try:
+            logger.info(latexmk.stdout.decode())
+        except UnicodeDecodeError:
+            pass
     if latexmk.stderr:
-        logger.warning(latexmk.stderr.decode())
+        try:
+            logger.warning(latexmk.stderr.decode())
+        except UnicodeDecodeError:
+            pass
     logger.info(f"Arquivo {tex_path} compilado com latexmk!")
 
 
