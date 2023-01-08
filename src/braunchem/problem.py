@@ -54,7 +54,7 @@ class Problem(BaseModel):
         if not self.data:
             return ""
 
-        header = latex.section("Dados", level=2, numbered=False)
+        header = latex.cmd("paragraph", "Dados")
         data = self.data.equation_list()
 
         return header + latex.cmd("small") + data
@@ -237,11 +237,11 @@ class ProblemSet(BaseModel):
         if not self.problems:
             return ""
 
-        header = latex.section(self.title, level=1, numbered=False)
+        header = latex.section(self.title, level=1, numbered=False) + latex.cmd("small")
         answers = [p.tex_answer() for p in self.problems]
 
         if self.is_objective:
-            return header + latex.enum("checks", answers, cols=5)
+            return header + latex.enum("answers", answers, cols=5)
 
         return header + latex.enum("answers", answers)
 

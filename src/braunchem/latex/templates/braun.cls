@@ -326,7 +326,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { black!20 }
+					\color_fill:n { blue!20 }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -1062,21 +1062,21 @@
 
 \NewTasksEnvironment
     [
-        label = \sffamily{\small\textbf{\arabic*.}},
+        label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
         label-align = right,
-        item-indent = 3em,
+        item-indent = 2em,
         label-width = 1.5em,
         label-offset = 0.7em,
         before-skip = 1em,
     ]
-    { checks } [ \item ]
+    { answers } [ \item ]
 
 %% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
 
 \NewTasksEnvironment
     [
-        label  = {\choicebox{\Alph*}},
-        item-indent = 2.5em,
+        label  = { \choicebox { \Alph* } },
+        item-indent = 3em,
         after-item-skip = 2\itemsep,
         label-width = 1.5em,
         label-align = right,
@@ -1148,12 +1148,12 @@
             }
         \fp_set:Nn \l_tmpb_fp 
             { % tamanho útil
-                0.8 * \dim_to_decimal:n {\columnwidth}
+                0.5 * \dim_to_decimal:n {\columnwidth}
             }
 
         \int_set:Nn \l_tmpa_int 
             { % número de colunas
-                \fp_to_int:n { min( 5, floor(\l_tmpb_fp  / \l_tmpa_fp) ) } 
+                \fp_to_int:n { max(1, min( 5, floor(\l_tmpb_fp  / \l_tmpa_fp) )) } 
             }
 
         \int_compare:nNnT { \l_tmpa_int } = {4}
@@ -1161,12 +1161,13 @@
                 \int_set:Nn \l_tmpa_int {3}
             }
 
+        \smallskip
         \begin{choices}(\l_tmpa_int)
-            \item #1
-            \item #2
-            \item #3
-            \item #4
-            \item #5
+            \item \box_use_drop:N \l_braun_choices_a_box
+            \item \box_use_drop:N \l_braun_choices_b_box
+            \item \box_use_drop:N \l_braun_choices_c_box
+            \item \box_use_drop:N \l_braun_choices_d_box
+            \item \box_use_drop:N \l_braun_choices_e_box
         \end{choices}
 
         \group_end:
@@ -1776,102 +1777,55 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%============================================================%
-%   PROBLEMAS
-%============================================================%
-
-\keys_define:nn { braun/problems }
-    {
-        name .tl_set:N = \l_braun_problem_name_tl,
-        name .initial:n = Problema,
-
-        template .tl_set:N = \l_braun_problem_template_tl,
-        template .initial:n = braun,
-
-        skip-after .dim_set:N = \l_braun_problem_after_skip,
-        skip-after .initial:n = 5pt,
-
-        breakable .bool_set:N = \l_braun_problem_breakable_bool,
-        breakable .initial:n  = false,
-        breakable .default:n  = true,
-
-        single-page .bool_set:N = \l_braun_problem_single_page_bool,
-        single-page .initial:n  = false,
-        single-page .default:n  = true,
-
-		vfill .bool_set:N = \l_braun_problem_fill_bool,
-        vfill .initial:n  = true,
-        vfill .default:n  = true,
-    }
-
-\cs_set:Nn \braun_ghost_section: { \subsection*{} \skip_vertical:n {-3em} }
-
 \keys_define:nn { braun/problems }
     {
         id .tl_set:N = \l_braun_problem_id_tl,
         id .initial:n = ,
 
+        name .tl_set:N = \l_braun_problem_name_tl,
+        name .initial:n = Problema,
+
         path .tl_set:N = \g_braun_graphics_path_tl,
         path .initial:n = ,
     }
 
-\box_new:N \l__braun_problem_box
-\tl_new:N \l__braun_solution_tl
-
-\cs_set:Nn \braun_begin_problem_box:
-    { 
-        \bool_if:NF \l_braun_problem_breakable_bool 
-            { 
-                \braun_ghost_section:
-                \vbox_set:Nw \l__braun_problem_box 
-            }
-    }
-
-\cs_set:Nn \braun_end_problem_box:
-    { 
-        \bool_if:NTF \l_braun_problem_breakable_bool 
-            {
-                \skip_vertical:N \l_braun_problem_after_skip
-            }
-            { 
-                \vbox_set_end:
-                \box_use_drop:N  \l__braun_problem_box
-                \skip_vertical:N \l_braun_problem_after_skip
-            }
-		\bool_if:NT \l_braun_problem_fill_bool 
-			{
-				\skip_vertical:n {-2em} 
-				\BraunVFill 
-			}
-    }
-
 \newcounter { problem } [ section ]
+
+%============================================================%
+%   AMBIENTE DOS PROBLEMAS
+%============================================================%
 
 % #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
     {
-        \refstepcounter{problem}
+        \refstepcounter { problem }
 
-        \keys_set:nn { braun/problems } {path = , id = , #1}
+        \group_begin:
 
-        \bigskip
-        %% HEADER
-        \BraunHeader
-            [ \texttt{ \color{pink} \l_braun_problem_id_tl } ]
-            { 
-                \footnotesize\sffamily\bfseries
-                \text_uppercase:n { \l_braun_problem_name_tl } ~
-                \arabic { section } . \arabic { problem }
-            }
+        \keys_set:nn { braun/problems } { path = , id = , #1 }
+
+        \subsubsection*{}\skip_vertical:n {-2em}
+
+        % %% HEADER
+        % \BraunHeader
+        %     [ \texttt{ \color{pink} \l_braun_problem_id_tl } ]
+        %     { 
+        %         \footnotesize\sffamily\bfseries
+        %         \text_uppercase:n { \l_braun_problem_name_tl } ~
+        %         \arabic { section } . \arabic { problem }
+        %     }
+        {
+            \usekomafont{ disposition }
+            \text_uppercase:n { \l_braun_problem_name_tl } ~
+            \arabic { section } . \arabic { problem }
+        }
+        \\[1ex]
 
         \dim_zero:N \parindent
-        \dim_set_eq:NN \parskip \medskipamount
-
-        \skip_vertical:n { -1em } 
+        \dim_set_eq:NN \parskip \medskipamount        
     } 
     {
-        % \braun_end_problem_box:
-        \bool_if:NT \l_braun_problem_single_page_bool { \newpage }
+        \group_end:
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
