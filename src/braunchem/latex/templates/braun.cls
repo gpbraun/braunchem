@@ -1789,7 +1789,7 @@
         path .initial:n = ,
     }
 
-\newcounter { problem } [ section ]
+\newcounter { problem } [ subsection ]
 
 %============================================================%
 %   AMBIENTE DOS PROBLEMAS
@@ -1817,7 +1817,7 @@
         {
             \usekomafont{ disposition }
             \text_uppercase:n { \l_braun_problem_name_tl } ~
-            \arabic { section } . \arabic { problem }
+            \arabic { subsection } . \arabic { problem }
         }
         \\[1ex]
 
