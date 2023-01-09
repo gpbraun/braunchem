@@ -326,7 +326,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { blue!20 }
+					\color_fill:n { purple }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -341,7 +341,7 @@
 %% FRONT-END
 
 \cs_set:Npn \choicebox #1 
-    { \braun_choice_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
+    { \braun_choice_box:nn  { \bfseries\sffamily\small\color{white} #1 }{0.65em} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -386,6 +386,14 @@
     {
         \usepgfplotslibrary{groupplots, fillbetween}
         \usetikzlibrary{shapes.geometric, calc}
+    }
+
+\cs_set_eq:NN \legacydefinecolor \definecolor
+
+\cs_set:Npn \definecolor #1#2#3
+    {
+        \legacydefinecolor {#1}{#2}{#3}
+        \color_set:nnn     {#1}{#2}{#3}
     }
 
 %============================================================%

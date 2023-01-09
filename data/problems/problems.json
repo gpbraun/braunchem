@@ -194,17 +194,60 @@
     {
       "id_": "2A25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A25/2A25.md",
-      "date": "2023-01-08T16:11:36.165696",
+      "date": "2023-01-08T23:35:21.994895",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia interna de combustão do cicloexano em <span class=\"math inline\">\\(\\pu{25 \\degree}C\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da energia interna de\ncombustão do cicloexano em $\\pu{25 \\degree}C$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia interna de combustão do cicloexano em {\\(\\qty{25}{\\unit{\\degree}}C\\)}.\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3910 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3910 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3910}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hc(cicloexano,l)",
+            "name": "entalpia de combustão do cicloexano",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C6H12,\\,\\text{l}})",
+            "value": -3920,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3940 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3940 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3940}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3930 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3930 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3930}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3920 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3920 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3920}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3910 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3910 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3910}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3900 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3900 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3900}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2A01",
@@ -491,17 +534,49 @@
     {
       "id_": "2A28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A28/2A28.md",
-      "date": "2023-01-08T16:11:36.173694",
+      "date": "2023-01-09T00:18:36.473997",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere a reação de hidrogenação da hidrazina, formando amônia:\n<span class=\"math display\">\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -&gt; CH3OH(l) }\n\\]</span> e as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &amp;-&gt; N2(g) + 2 H2O(g) } &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-543 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &amp;-&gt; 2 H2O(g) }         &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &amp;-&gt; 2 NH3(g) }         &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de hidrogenação da hidrazina.</p>",
+        "md": "Considere a reação de hidrogenação da hidrazina, formando amônia: $$\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n$$ e as reações: $$\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &-> N2(g) + 2 H2O(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-543 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nhidrogenação da hidrazina.\n",
+        "tex": "Considere a reação de hidrogenação da hidrazina, formando amônia: {\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n\\]} e as reações: {\\[\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &-> N2(g) + 2 H2O(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-543}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-484}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-92}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de hidrogenação da hidrazina.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-151 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-151 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-151}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1120 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1120 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1120}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-953 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-953 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-953}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-151 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-151 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-151}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-243 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-243 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-243}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-59 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-59 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-59}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2A34",
@@ -536,17 +611,76 @@
     {
       "id_": "2A31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A31/2A31.md",
-      "date": "2023-01-08T16:11:36.173694",
+      "date": "2023-01-09T00:50:27.427369",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de hidrogenação do etino, <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>, a etano, <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\nhidrogenação do etino, $\\ce{C2H2}$, a etano, $\\ce{C2H4}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de hidrogenação do etino, {\\(\\ce{C2H2}\\)}, a etano, {\\(\\ce{C2H4}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-310 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-310 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-310}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hc(etano,g)",
+            "name": "entalpia de combustão do etano",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C2H6,\\,\\text{g}})",
+            "value": -1560,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "Hc(etino,g)",
+            "name": "entalpia de combustão do etino",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C2H2,\\,\\text{g}})",
+            "value": -1300,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(H2O,g)",
+            "name": "entalpia de formação do vapor d'água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{g}})",
+            "value": -242,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-310 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-310 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-310}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-910 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-910 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-910}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1210 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1210 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1210}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1510 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1510 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1510}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1810 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1810 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1810}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "2A02",
@@ -598,17 +732,49 @@
     {
       "id_": "2A24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A24/2A24.md",
-      "date": "2023-01-08T16:11:36.165696",
+      "date": "2023-01-08T23:32:03.131034",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>A energia interna de combustão do ácido benzoico é conhecida, <span class=\"math inline\">\\(\\pu{-3,2 MJ.mol-1}\\)</span>. Quando um calorímetro\nde bomba foi calibrado pela queima de <span class=\"math inline\">\\(\\pu{0,85 g}\\)</span> de ácido benzoico em oxigênio\na temperatura aumentou <span class=\"math inline\">\\(\\pu{2 \\degree\nC}\\)</span>.</p>\n<p>Uma amostra do açúcar D-ribose, <span class=\"math inline\">\\(\\ce{C5H10O5}\\)</span>, pesando <span class=\"math inline\">\\(\\pu{0,7 g}\\)</span> foi, então, queimada no mesmo\ncalorímetro com excesso de oxigênio. A temperatura do calorímetro subiu\nde <span class=\"math inline\">\\(\\pu{22 \\degree C}\\)</span> para <span class=\"math inline\">\\(\\pu{23 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão da glicose.</p>",
+        "md": "A energia interna de combustão do ácido benzoico é conhecida,\n$\\pu{-3,2 MJ.mol-1}$. Quando um calorímetro de bomba foi calibrado pela\nqueima de $\\pu{0,85 g}$ de ácido benzoico em oxigênio a temperatura\naumentou $\\pu{2 \\degree C}$.\n\nUma amostra do açúcar D-ribose, $\\ce{C5H10O5}$, pesando $\\pu{0,7 g}$\nfoi, então, queimada no mesmo calorímetro com excesso de oxigênio. A\ntemperatura do calorímetro subiu de $\\pu{22 \\degree C}$ para\n$\\pu{23 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
+        "tex": "A energia interna de combustão do ácido benzoico é conhecida, {\\(\\qty{-3,2}{\\unit{MJ.mol^{-1}}}\\)}. Quando um calorímetro de bomba foi calibrado pela\nqueima de {\\(\\qty{0,85}{\\unit{g}}\\)} de ácido benzoico em oxigênio a temperatura aumentou {\\(\\qty{2}{\\unit{\\degree C}}\\)}.\n\nUma amostra do açúcar D-ribose, {\\(\\ce{C5H10O5}\\)}, pesando {\\(\\qty{0,7}{\\unit{g}}\\)} foi, então, queimada no mesmo calorímetro com excesso de\noxigênio. A temperatura do calorímetro subiu de {\\(\\qty{22}{\\unit{\\degree C}}\\)} para {\\(\\qty{23}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão da glicose.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{2 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{2}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{1 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{1}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{2 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{2}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{3 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{3}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{4 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{4}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{5}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2A07",
@@ -707,47 +873,143 @@
     {
       "id_": "2A23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A23/2A23.md",
-      "date": "2023-01-08T16:11:36.165696",
+      "date": "2023-01-08T23:25:42.645288",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere a reação de monóxido de carbono com vapor d’água para\nproduzir os gases dióxido de carbono e hidrogênio: <span class=\"math display\">\\[\n    \\ce{ CO(g) + H2O(g) -&gt; CO2(g) + H2(g) }\n\\]</span> Em um experimento <span class=\"math inline\">\\(\\pu{1,4\ng}\\)</span> de monóxido de carbono reagem com excesso de vapor d’água em\num calorímetro de bomba eleva a temperatura do calorímetro de <span class=\"math inline\">\\(\\pu{22,0 \\degree C}\\)</span> a <span class=\"math inline\">\\(\\pu{22,7 \\degree C}\\)</span>. A capacidade\ncalorífica total do calorímetro é <span class=\"math inline\">\\(\\pu{3\nkJ.K-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia interna de reação.</p>",
+        "md": "Considere a reação de monóxido de carbono com vapor d'água para produzir\nos gases dióxido de carbono e hidrogênio: $$\n    \\ce{ CO(g) + H2O(g) -> CO2(g) + H2(g) }\n$$ Em um experimento $\\pu{1,4 g}$ de monóxido de carbono reagem com\nexcesso de vapor d'água em um calorímetro de bomba eleva a temperatura\ndo calorímetro de $\\pu{22,0 \\degree C}$ a $\\pu{22,7 \\degree C}$. A\ncapacidade calorífica total do calorímetro é $\\pu{3 kJ.K-1}$.\n\n**Assinale** a alternativa que mais se aproxima da energia interna de\nreação.\n",
+        "tex": "Considere a reação de monóxido de carbono com vapor d'água para produzir os gases dióxido de carbono e hidrogênio: {\\[\n    \\ce{ CO(g) + H2O(g) -> CO2(g) + H2(g) }\n\\]} Em um experimento {\\(\\qty{1,4}{\\unit{g}}\\)} de monóxido de carbono reagem com excesso de vapor d'água em um calorímetro de bomba eleva a\ntemperatura do calorímetro de {\\(\\qty{22,0}{\\unit{\\degree C}}\\)} a {\\(\\qty{22,7}{\\unit{\\degree C}}\\)}. A capacidade calorífica total do calorímetro é\n{\\(\\qty{3}{\\unit{kJ.K^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da energia interna de reação.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-42 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-42 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-42}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-84 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-84 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-84}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-42 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-42 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-42}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-21 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-21 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-21}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+21 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+21 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+21}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+42 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+42 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+42}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2A21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A21/2A21.md",
-      "date": "2023-01-08T16:11:36.161698",
+      "date": "2023-01-09T00:55:27.022775",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O dissulfeto de carbono pode ser preparado a partir do coque (uma\nforma impura do carbono) e do enxofre elementar: <span class=\"math display\">\\[\n    \\ce{ 4 C(s) + S8(s) -&gt; 4 CS2(l) } \\quad \\Delta H_\\mathrm{r}^\\circ\n= \\pu{+360 kJ}\n\\]</span> Em um experimento, o calor absorvido na reação foi <span class=\"math inline\">\\(\\pu{415 kJ}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde <span class=\"math inline\">\\(\\ce{CS2}\\)</span> formada na reação.</p>",
+        "md": "O dissulfeto de carbono pode ser preparado a partir do coque (uma forma\nimpura do carbono) e do enxofre elementar: $$\n    \\ce{ 4 C(s) + S8(s) -> 4 CS2(l) } \\quad \\Delta H_\\mathrm{r}^\\circ\n= \\pu{+360 kJ}\n$$ Em um experimento, o calor absorvido na reação foi $\\pu{415 kJ}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de $\\ce{CS2}$\nformada na reação.\n",
+        "tex": "O dissulfeto de carbono pode ser preparado a partir do coque (uma forma impura do carbono) e do enxofre elementar: {\\[\n    \\ce{ 4 C(s) + S8(s) -> 4 CS2(l) } \\quad \\Delta H_\\mathrm{r}^\\circ\n= \\qty{+360}{\\unit{kJ}}\n\\]} Em um experimento, o calor absorvido na reação foi {\\(\\qty{415}{\\unit{kJ}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de {\\(\\ce{CS2}\\)} formada na reação.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{350 g}\\)</span>",
+          "md": "$\\pu{350 g}$\n",
+          "tex": "{\\(\\qty{350}{\\unit{g}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{150 g}\\)</span>",
+          "md": "$\\pu{150 g}$\n",
+          "tex": "{\\(\\qty{150}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{200 g}\\)</span>",
+          "md": "$\\pu{200 g}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{250 g}\\)</span>",
+          "md": "$\\pu{250 g}$\n",
+          "tex": "{\\(\\qty{250}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{300 g}\\)</span>",
+          "md": "$\\pu{300 g}$\n",
+          "tex": "{\\(\\qty{300}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{350 g}\\)</span>",
+          "md": "$\\pu{350 g}$\n",
+          "tex": "{\\(\\qty{350}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2A22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A22/2A22.md",
-      "date": "2023-01-08T16:11:36.161698",
+      "date": "2023-01-08T23:19:11.420284",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere a reação de combustão do dióxido de enxofre: <span class=\"math display\">\\[\n    \\ce{ 2 SO2(g) + O2(g) -&gt; 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\pu{-200 kJ//mol}\n\\]</span> Em um experimento, excesso de dióxido de enxofre reagiu com\n<span class=\"math inline\">\\(\\pu{12 g}\\)</span> de oxigênio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do calor\nliberado na reação.</p>",
+        "md": "Considere a reação de combustão do dióxido de enxofre: $$\n    \\ce{ 2 SO2(g) + O2(g) -> 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\pu{-200 kJ//mol}\n$$ Em um experimento, excesso de dióxido de enxofre reagiu com\n$\\pu{12 g}$ de oxigênio.\n\n**Assinale** a alternativa que mais se aproxima do calor liberado na\nreação.\n",
+        "tex": "Considere a reação de combustão do dióxido de enxofre: {\\[\n    \\ce{ 2 SO2(g) + O2(g) -> 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\qty{-200}{\\tfrac{kJ}{\\unit{mol}}}\n\\]} Em um experimento, excesso de dióxido de enxofre reagiu com {\\(\\qty{12}{\\unit{g}}\\)} de oxigênio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do calor liberado na reação.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{75 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{75 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{75}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{25 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{25}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{50 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{50 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{50}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{75 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{75 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{75}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{100 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{100 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{100}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{125 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{125 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{125}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2A05",
@@ -846,17 +1108,49 @@
     {
       "id_": "2A30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A30/2A30.md",
-      "date": "2023-01-08T16:11:36.173694",
+      "date": "2023-01-09T00:34:32.353645",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &amp;-&gt; 2 AlBr3(aq) + 3 H2(g) }\n&amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-1060 kJ//mol} \\\\\n    \\ce{ HBr(g) &amp;-&gt; HBr(aq)\n}                            &amp;&amp; \\Delta H^\\circ_\\mathrm{r} =\n\\pu{-81 kJ//mol} \\\\\n    \\ce{ H2(g) + Br2(l) &amp;-&gt; 2 HBr(g)\n}                   &amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-73\nkJ//mol} \\\\\n    \\ce{ AlBr3(s) &amp;-&gt; AlBr3(aq)\n}                        &amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-368\nkJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do brometo de alumínio anidro, <span class=\"math inline\">\\(\\ce{AlBr3}\\)</span>.</p>",
+        "md": "Considere as reações: $$\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &-> 2 AlBr3(aq) + 3 H2(g) }\n&& \\Delta H^\\circ_\\mathrm{r} = \\pu{-1060 kJ//mol} \\\\\n    \\ce{ HBr(g) &-> HBr(aq)\n}                            && \\Delta H^\\circ_\\mathrm{r} =\n\\pu{-81 kJ//mol} \\\\\n    \\ce{ H2(g) + Br2(l) &-> 2 HBr(g)\n}                   && \\Delta H^\\circ_\\mathrm{r} = \\pu{-73\nkJ//mol} \\\\\n    \\ce{ AlBr3(s) &-> AlBr3(aq)\n}                        && \\Delta H^\\circ_\\mathrm{r} = \\pu{-368\nkJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo brometo de alumínio anidro, $\\ce{AlBr3}$.\n",
+        "tex": "Considere as reações: {\\[\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &-> 2 AlBr3(aq) + 3 H2(g) }\n&& \\Delta H^\\circ_\\mathrm{r} = \\qty{-1060}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ HBr(g) &-> HBr(aq)\n}                            && \\Delta H^\\circ_\\mathrm{r} =\n\\qty{-81}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ H2(g) + Br2(l) &-> 2 HBr(g)\n}                   && \\Delta H^\\circ_\\mathrm{r} = \\qty{-73}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ AlBr3(s) &-> AlBr3(aq)\n}                        && \\Delta H^\\circ_\\mathrm{r} = \\qty{-368}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do brometo de alumínio anidro, {\\(\\ce{AlBr3}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3,0 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3,0 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2,5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,0 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2,0 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1,0 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{+1,0 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+1,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2A06",
@@ -908,17 +1202,49 @@
     {
       "id_": "2A26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A26/2A26.md",
-      "date": "2023-01-08T16:11:36.169695",
+      "date": "2023-01-08T23:39:06.441670",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>A reação de combustão do alumínio foi estudada como parte de uma\npesquisa para usar alumínio em pó como combustível de foguetes. <span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -&gt; 2 Al2O3(s) }\n\\]</span> A combustão de <span class=\"math inline\">\\(\\pu{27 g}\\)</span>\nde alumínio produziu <span class=\"math inline\">\\(\\pu{3870 kJ}\\)</span>\nde calor sob condições de volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão do alumínio em <span class=\"math inline\">\\(\\pu{25\n\\degree}C\\)</span>.</p>",
+        "md": "A reação de combustão do alumínio foi estudada como parte de uma\npesquisa para usar alumínio em pó como combustível de foguetes. $$\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n$$ A combustão de $\\pu{27 g}$ de alumínio produziu $\\pu{3870 kJ}$ de\ncalor sob condições de volume constante.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo alumínio em $\\pu{25 \\degree}C$.\n",
+        "tex": "A reação de combustão do alumínio foi estudada como parte de uma pesquisa para usar alumínio em pó como combustível de foguetes. {\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n\\]} A combustão de {\\(\\qty{27}{\\unit{g}}\\)} de alumínio produziu {\\(\\qty{3870}{\\unit{kJ}}\\)} de calor sob condições de volume constante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão do alumínio em {\\(\\qty{25}{\\unit{\\degree}}C\\)}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3870 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3870 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3870}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3890 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3890 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3890}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3880 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3880 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3880}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3870 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3870 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3870}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3860 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3860 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3860}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3850 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3850 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3850}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2A03",
@@ -985,17 +1311,68 @@
     {
       "id_": "2A32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A32/2A32.md",
-      "date": "2023-01-08T16:11:36.177693",
+      "date": "2023-01-09T00:54:46.887347",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão parcial do metano, <span class=\"math inline\">\\(\\ce{CH4}\\)</span>, a monóxido de carbono, <span class=\"math inline\">\\(\\ce{CO}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nparcial do metano, $\\ce{CH4}$, a monóxido de carbono, $\\ce{CO}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão parcial do metano, {\\(\\ce{CH4}\\)}, a monóxido de carbono, {\\(\\ce{CO}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1210 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1210 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1210}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hc(CO)",
+            "name": "entalpia de combustão do \\ce{CO}",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CO,\\,\\text{g}})",
+            "value": -283,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "Hc(metano,g)",
+            "name": "entalpia de combustão do metano",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CH4,\\,\\text{g}})",
+            "value": -890,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-310 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-310 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-310}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-910 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-910 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-910}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1210 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1210 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1210}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1510 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1510 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1510}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1810 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1810 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1810}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2A39",
@@ -1015,17 +1392,49 @@
     {
       "id_": "2A29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A29/2A29.md",
-      "date": "2023-01-08T16:11:36.173694",
+      "date": "2023-01-09T00:27:49.062057",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ NH3(g) + HBr(g) &amp;-&gt; NH4Br(s) }            &amp;&amp;\n\\Delta H^\\circ_\\mathrm{r} = \\pu{-188 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &amp;-&gt; 2 NH3(g) }            &amp;&amp;\n\\Delta H^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol} \\\\\n    \\ce{ N2(g) + 4 H2(g) + Br2(l) &amp;-&gt; 2 NH4Br(s) } &amp;&amp;\n\\Delta H^\\circ_\\mathrm{r} = \\pu{-542 kJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do brometo de hidrogênio, <span class=\"math inline\">\\(\\ce{HBr}\\)</span>.</p>",
+        "md": "Considere as reações: $$\n\\begin{aligned}\n    \\ce{ NH3(g) + HBr(g) &-> NH4Br(s) }            &&\n\\Delta H^\\circ_\\mathrm{r} = \\pu{-188 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }            &&\n\\Delta H^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol} \\\\\n    \\ce{ N2(g) + 4 H2(g) + Br2(l) &-> 2 NH4Br(s) } &&\n\\Delta H^\\circ_\\mathrm{r} = \\pu{-542 kJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo brometo de hidrogênio, $\\ce{HBr}$.\n",
+        "tex": "Considere as reações: {\\[\n\\begin{aligned}\n    \\ce{ NH3(g) + HBr(g) &-> NH4Br(s) }            &&\n\\Delta H^\\circ_\\mathrm{r} = \\qty{-188}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }            &&\n\\Delta H^\\circ_\\mathrm{r} = \\qty{-92}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ N2(g) + 4 H2(g) + Br2(l) &-> 2 NH4Br(s) } &&\n\\Delta H^\\circ_\\mathrm{r} = \\qty{-542}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do brometo de hidrogênio, {\\(\\ce{HBr}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-74 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-74 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-74}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-828 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-828 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-828}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-446 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-446 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-446}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-258 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-258 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-258}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-74 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-74 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-74}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+258 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+258 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+258}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2A40",
@@ -1169,17 +1578,49 @@
     {
       "id_": "2A27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A27/2A27.md",
-      "date": "2023-01-08T16:11:36.169695",
+      "date": "2023-01-09T00:58:03.716639",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O metanol é um combustível líquido de queima limpa, que está sendo\nconsiderado como um substituto da gasolina. O metanol pode ser produzido\npela reação controlada do oxigênio do ar com metano: <span class=\"math display\">\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -&gt; CH3OH(l) }\n\\]</span> Considere as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ CH4(g) + H2O(g) &amp;-&gt; CO(g) + 3 H2(g) } &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{+206 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + CO(g) &amp;-&gt; CH3OH(l) }        &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-128 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &amp;-&gt; 2 H2O(g) }        &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação do metano e oxigênio formando etanol.</p>",
+        "md": "O metanol é um combustível líquido de queima limpa, que está sendo\nconsiderado como um substituto da gasolina. O metanol pode ser produzido\npela reação controlada do oxigênio do ar com metano: $$\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n$$ Considere as reações: $$\n\\begin{aligned}\n    \\ce{ CH4(g) + H2O(g) &-> CO(g) + 3 H2(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{+206 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + CO(g) &-> CH3OH(l) }        && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-128 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }        && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação do\nmetano e oxigênio formando etanol.\n",
+        "tex": "O metanol é um combustível líquido de queima limpa, que está sendo considerado como um substituto da gasolina. O metanol pode ser produzido pela\nreação controlada do oxigênio do ar com metano: {\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n\\]} Considere as reações: {\\[\n\\begin{aligned}\n    \\ce{ CH4(g) + H2O(g) &-> CO(g) + 3 H2(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{+206}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ 2 H2(g) + CO(g) &-> CH3OH(l) }        && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-128}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }        && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-484}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação do metano e oxigênio formando etanol.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-164 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-164 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-164}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-406 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-406 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-406}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-164 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-164 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-164}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+92 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+92 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+92}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+164 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+164 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+164}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+406 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+406 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+406}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2A11",

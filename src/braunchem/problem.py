@@ -246,7 +246,7 @@ class ProblemSet(BaseModel):
         answers = [p.tex_answer() for p in self.problems]
 
         if self.is_objective:
-            return header + latex.enum("answers", answers, cols=5)
+            return header + latex.enum("answers", answers, cols=6)
 
         return header + latex.enum("answers", answers)
 
