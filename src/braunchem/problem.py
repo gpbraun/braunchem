@@ -220,7 +220,7 @@ class ProblemSet(BaseModel):
     @property
     def is_objective(self) -> bool:
         """Verifica se todos os problemas são objetivos."""
-        return True if all(p.is_objective for p in self) else False
+        return all(p.is_objective for p in self)
 
     def tex_statements(self, use_header: bool = True) -> str:
         """Retorna o conjunto de problemas em LaTeX."""

@@ -326,7 +326,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { purple }
+					\color_fill:n { purple!60!black!20 }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -341,7 +341,7 @@
 %% FRONT-END
 
 \cs_set:Npn \choicebox #1 
-    { \braun_choice_box:nn  { \bfseries\sffamily\small\color{white} #1 }{0.65em} }
+    { \braun_choice_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -388,6 +388,10 @@
         \usetikzlibrary{shapes.geometric, calc}
     }
 
+%============================================================%
+%   PALETA DE CORES (BOOTSTRAP)
+%============================================================%
+
 \cs_set_eq:NN \legacydefinecolor \definecolor
 
 \cs_set:Npn \definecolor #1#2#3
@@ -395,10 +399,6 @@
         \legacydefinecolor {#1}{#2}{#3}
         \color_set:nnn     {#1}{#2}{#3}
     }
-
-%============================================================%
-%   PALETA DE CORES (BOOTSTRAP)
-%============================================================%
 
 % CORES BÁSICAS
 \definecolor { blue   } { HTML } { 0d6efd }
@@ -446,35 +446,10 @@
 
 \pagestyle { scrheadings }
 
-\cs_set:Nn \braun_page_box:
-    {
-        \vbox_to_zero:n % zero height
-            {
-                \hbox_to_zero:n % zero width
-                    {
-                        \draw_begin:
-                            \draw_linewidth:V \g_braun_linewidth_dim
-                            \skip_horizontal:n 
-                                { - \linewidth / 2 - \marginparsep }
-                            \draw_path_rectangle:nn 
-                                { 0cm , 0cm }
-                                { \linewidth + 2 \marginparsep , \textheight + \footskip - 1.5ex }
-                            \draw_path_use_clear:n { stroke }
-                        \draw_end:
-                    }
-            }
-        \skip_vertical:n { - \headsep - \headheight - 10em }
-    }
-
-
 \keys_define:nn { braun/page }
     {
         headfoot-font .code:n    = \setkomafont { pageheadfoot } {#1},
         headfoot-font .initial:n =  ,
-
-        boxed .bool_set:N = \l_braun_boxed_page_bool ,
-        boxed .initial:n  = false,
-        boxed .default:n  = true,
 
         columnsep .dim_set:N = \columnsep,
         columnsep .initial:n = 2em,
@@ -547,19 +522,13 @@
 
 \ihead 
     [ \tl_use:N \l_braun_page_title_ihead_tl ] 
-    { \tl_use:N \l_braun_page_ihead_tl }
+    { \tl_use:N \l_braun_page_ihead_tl       }
 \chead
-    [   
-        \bool_if:NT \l_braun_boxed_page_bool { \braun_page_box: } 
-        \tl_use:N \l_braun_page_title_chead_tl
-    ]
-    {
-        \bool_if:NT \l_braun_boxed_page_bool { \braun_page_box: }   
-        \tl_use:N   \l_braun_page_chead_tl
-    }
+    [ \tl_use:N \l_braun_page_title_chead_tl ]
+    { \tl_use:N   \l_braun_page_chead_tl     }
 \ohead 
     [ \tl_use:N \l_braun_page_title_ohead_tl ] 
-    { \tl_use:N \l_braun_page_ohead_tl }
+    { \tl_use:N \l_braun_page_ohead_tl       }
 
 %============================================================%
 %   FOOTER
@@ -625,14 +594,8 @@
 \ModifyLayer [ addvoffset = -0.7ex ] { plain.scrheadings.foot.above.line }
 
 %============================================================%
-%   SECTIONS
+%   PAGE STYLE
 %============================================================%
-
-\keys_define:nn { braun/page/section }
-	{
-		name .tl_set:N = \l_braun_page_section_type_tl,
-		name .initial:n = latex,
-	}
 
 \pagestyle { scrheadings }
 
@@ -912,7 +875,7 @@
                                 {  1cm / ( 3 * sqrt(3) ) } { -120 }
                         }
                     \draw_path_close:
-                    \color_fill:n { pensi!80 }
+                    \color_fill:n { yellow!80 }
                     \draw_path_use:n { fill }
                 \draw_end:
             },
@@ -947,14 +910,6 @@
 		after-skip  .skip_set:N = \l_braun_title_after_skip,
 		after-skip  .initial:n  = 0.5em,
 	}
-
-\cs_set:Npn \BraunNoWarning
-    { % avoid badness errors
-        \dim_set_eq:NN \vfuzz    \c_max_dim
-        \dim_set_eq:NN \hfuzz    \c_max_dim
-        \int_set_eq:NN \hbadness \c_max_int
-        \int_set_eq:NN \vbadness \c_max_int
-    }
 
 % #1 -> footnote text
 \cs_set:Npn \BraunThanks #1
@@ -1072,7 +1027,7 @@
     [
         label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
         label-align = right,
-        item-indent = 2em,
+        item-indent = 3em,
         label-width = 1.5em,
         label-offset = 0.7em,
         before-skip = 1em,
