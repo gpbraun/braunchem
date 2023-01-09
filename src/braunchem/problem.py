@@ -50,7 +50,7 @@ class Problem(BaseModel):
         return True if self.choices else False
 
     def tex_data(self):
-        """Retorna os dados do problema formatados em latex."""
+        """Retorna os dados do problema formatados em LaTeX."""
         if not self.data:
             return ""
 
@@ -60,7 +60,7 @@ class Problem(BaseModel):
         return header + latex.cmd("small") + data
 
     def tex_choices(self):
-        """Retorna as alternativas do problema formatadas em latex."""
+        """Retorna as alternativas do problema formatadas em LaTeX."""
         if not self.is_objective:
             return ""
 
@@ -69,12 +69,12 @@ class Problem(BaseModel):
         return latex.cmd("autochoices", tex_choices)
 
     def tex_answer(self):
-        """Retorna as respostas do problema formatados em latex."""
+        """Retorna as respostas do problema formatados em LaTeX."""
+        if self.is_objective:
+            return latex.cmd("choicebox", chr(ord("A") + self.correct_choice))
+
         if not self.answer:
             return "-"
-
-        if self.is_objective:
-            return latex.cmd("choicebox", chr(65 + self.correct_choice))
 
         if len(self.answer) == 1:
             return self.answer[0].tex
@@ -128,9 +128,12 @@ class Problem(BaseModel):
                 li = choice_list_items[0]
                 check_box = li.find("input").extract()
                 equation = li.find("span").extract()
-                choices, correct_choice = numerical_choices(equation.contents[0])
+                choices, correct_choice = numerical_choices(
+                    equation.contents[0], seed=problem["id_"]
+                )
                 problem["choices"] = choices
                 problem["correct_choice"] = correct_choice
+                choice_list.decompose()
 
             elif len(choice_list_items) == 5:
                 for index, li in enumerate(choice_list_items):

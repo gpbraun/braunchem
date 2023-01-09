@@ -326,7 +326,7 @@
 					\draw_path_lineto:n { -#2 +0.2ex, #2 }
 					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
 					\draw_path_close:
-					\color_fill:n { purple!60!black!20 }
+					\color_fill:n { blue!60!black!20 }
 					\draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -1781,7 +1781,10 @@
             \usekomafont{ disposition }
             \text_uppercase:n { \l_braun_problem_name_tl } ~
             \arabic { subsection } . \arabic { problem }
+            
         }
+        % \\[-1ex]
+        % {\color{black!50} \rule{\linewidth}{0.4pt}}
         \\[1ex]
 
         \dim_zero:N \parindent
@@ -1789,6 +1792,7 @@
     } 
     {
         \group_end:
+        \smallskip
     }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

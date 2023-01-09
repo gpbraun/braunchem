@@ -205,7 +205,7 @@ class PhyisicalUnit:
         return f"\\pu{{{self.value_string()} {self.unit}}}"
 
     def to_text(self):
-        return Text.parse_math(self.to_pu())
+        return Text.parse_html(f'<span class="math inline">\\({self.to_pu()}\\)</span>')
 
     def value_string(self):
         sign = self.sign if self.sign else ""
@@ -245,7 +245,7 @@ def numerical_choices(answer: str, seed: int | str = None):
 
     if seed:
         random.seed(seed)
-    correct_choice = random.randint(0, 5)
+    correct_choice = random.randint(0, 4)
 
     scale = 1 + (abs(pu.value.log10()) + 1) / 5
 
