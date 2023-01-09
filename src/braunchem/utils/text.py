@@ -155,6 +155,15 @@ class Text(pydantic.BaseModel):
         tex_str = html2tex(html_str)
         return cls(html=html_str, md=md_str, tex=tex_str)
 
+    @classmethod
+    def parse_math(cls, math_str: str):
+        """Cria um `Text` a partir de uma equação em LaTeX."""
+        return Text(
+            html=f'<span class="math inline">\\({math_str}\\)</span>',
+            md=f"${math_str}$",
+            tex=f"{{\\({math_str}\\)}}",
+        )
+
 
 def get_database_paths(database_dir: Path) -> list[Path]:
     """Retorna os endereço dos arquivos `.md` dos problemas no diretório.

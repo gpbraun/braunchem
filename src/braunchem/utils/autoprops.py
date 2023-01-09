@@ -1,7 +1,11 @@
 """Gabriel Braun, 2022
 
-Esse módulo implementa funções para geração automática de alternativas.
+Este módulo implementa funções para geração automática de distratores para problemas de múltipla escolha.
 """
+import re
+import random
+from decimal import Decimal, Context
+
 from braunchem.utils.text import Text
 
 
@@ -159,3 +163,97 @@ def autoprops(true_props):
     choices = [Text.parse_html(choice) for choice in choices]
     answer = [choices[correct_choice]]
     return choices, answer, correct_choice
+
+
+PU_CMD_REGEX = re.compile(
+    r"\\pu\{\s*([\+\-])?([\d\,\.]*)([eE][+-]\d+)?\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}"
+)
+
+
+def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4) -> str:
+    """Retorna o valor em notação científica.
+
+    Args:
+        lower_bound (float): Limite inferior para notação científica.
+        upper_bound (float): Limite superior para notação científica.
+    """
+    if not value:
+        return "0"
+
+    if abs(value) < lower_bound or abs(value) > upper_bound:
+        return f"{value:E}".replace("+", "")
+
+    return f"{value:f}"
+
+
+class PhyisicalUnit:
+    """Valor com unidade."""
+
+    def __init__(
+        self,
+        value: Decimal | None = None,
+        unit: str | None = None,
+        sign: str | None = None,
+        sci: bool = False,
+    ):
+        self.value = value
+        self.unit = unit
+        self.sign = sign
+        self.sci = sci
+
+    def to_pu(self):
+        return f"\\pu{{{self.value_string()} {self.unit}}}"
+
+    def to_text(self):
+        return Text.parse_math(self.value_string())
+
+    def value_string(self):
+        if self.sci:
+            return f"{self.sign if self.sign else ''}{self.value:E}".replace("+", "")
+        return f"{self.sign if self.sign else ''}{self.value:f}"
+
+    def scale(self, scale: Decimal):
+        """Retorna um novo `Physical Unit` com o valor multiplicado pela escala."""
+        new_value = Context(prec=2).create_decimal(self.value * scale)
+        return PhyisicalUnit(new_value, self.unit, self.sign, self.sci)
+
+    @classmethod
+    def parse_string(cls, string):
+        match = re.match(PU_CMD_REGEX, string)
+
+        if not match:
+            return
+
+        sign = match.group(1)
+        num = match.group(2)
+        exp = match.group(3)
+        unit = match.group(4)
+
+        value = Context(prec=3).create_decimal(num + exp if exp else num)
+
+        return cls(value, unit, sign, bool(exp))
+
+
+def numerical_choices(answer: PhyisicalUnit, seed: int | str = None):
+    """Gera múltilplas escolas para problemas com resposta numérica."""
+    if seed:
+        random.seed(seed)
+
+    correct_choice = random.randint(0, 5)
+
+    scale = 1 + (abs(answer.value.log10()) + 1) / 5
+
+    choices = [
+        answer.scale(scale ** (index - correct_choice)).to_pu() for index in range(5)
+    ]
+
+    return choices, correct_choice
+
+
+def main():
+    pu = PhyisicalUnit.parse_string("\\pu{2.0 J}")
+    print(numerical_choices(pu, seed=123456))
+
+
+if __name__ == "__main__":
+    main()
