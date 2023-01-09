@@ -162,7 +162,7 @@ def autoprops(true_props):
 
     choices = [Text.parse_html(choice) for choice in choices]
     answer = [choices[correct_choice]]
-    return choices, answer, correct_choice
+    return choices, correct_choice
 
 
 PU_CMD_REGEX = re.compile(
@@ -193,7 +193,7 @@ class PhyisicalUnit:
         self,
         value: Decimal | None = None,
         unit: str | None = None,
-        sign: str | None = None,
+        sign: str = None,
         sci: bool = False,
     ):
         self.value = value
@@ -205,12 +205,17 @@ class PhyisicalUnit:
         return f"\\pu{{{self.value_string()} {self.unit}}}"
 
     def to_text(self):
-        return Text.parse_math(self.value_string())
+        return Text.parse_math(self.to_pu())
 
     def value_string(self):
+        sign = self.sign if self.sign else ""
+
         if self.sci:
-            return f"{self.sign if self.sign else ''}{self.value:E}".replace("+", "")
-        return f"{self.sign if self.sign else ''}{self.value:f}"
+            value = f"{self.value:E}".replace("+", "").replace(".", ",")
+        else:
+            value = f"{self.value:f}".replace(".", ",")
+
+        return sign + value
 
     def scale(self, scale: Decimal):
         """Retorna um novo `Physical Unit` com o valor multiplicado pela escala."""
@@ -219,13 +224,13 @@ class PhyisicalUnit:
 
     @classmethod
     def parse_string(cls, string):
-        match = re.match(PU_CMD_REGEX, string)
+        match = re.search(PU_CMD_REGEX, string)
 
         if not match:
             return
 
         sign = match.group(1)
-        num = match.group(2)
+        num = match.group(2).replace(",", ".")
         exp = match.group(3)
         unit = match.group(4)
 
@@ -234,25 +239,25 @@ class PhyisicalUnit:
         return cls(value, unit, sign, bool(exp))
 
 
-def numerical_choices(answer: PhyisicalUnit, seed: int | str = None):
+def numerical_choices(answer: str, seed: int | str = None):
     """Gera múltilplas escolas para problemas com resposta numérica."""
+    pu = PhyisicalUnit.parse_string(answer)
+
     if seed:
         random.seed(seed)
-
     correct_choice = random.randint(0, 5)
 
-    scale = 1 + (abs(answer.value.log10()) + 1) / 5
+    scale = 1 + (abs(pu.value.log10()) + 1) / 5
 
     choices = [
-        answer.scale(scale ** (index - correct_choice)).to_pu() for index in range(5)
+        pu.scale(scale ** (index - correct_choice)).to_text() for index in range(5)
     ]
 
     return choices, correct_choice
 
 
 def main():
-    pu = PhyisicalUnit.parse_string("\\pu{2.0 J}")
-    print(numerical_choices(pu, seed=123456))
+    print(numerical_choices("\(\pu{2 kJ}\)", seed=123456))
 
 
 if __name__ == "__main__":

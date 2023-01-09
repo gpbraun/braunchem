@@ -6,7 +6,7 @@ import braunchem.utils.text as text
 import braunchem.utils.latex as latex
 from braunchem.utils.text import Text
 from braunchem.quantities import Table, qtys
-from braunchem.utils.autoprops import autoprops
+from braunchem.utils.autoprops import autoprops, numerical_choices
 
 import logging
 from datetime import datetime
@@ -121,17 +121,30 @@ class Problem(BaseModel):
         choice_list = soup.find("ul", {"class": "task-list"})
         if choice_list:
             choices = []
-            for index, li in enumerate(choice_list.find_all("li")):
+            choice_list_items = choice_list.find_all("li")
+
+            if len(choice_list_items) == 1:
+                # geração automática de distratores
+                li = choice_list_items[0]
                 check_box = li.find("input").extract()
-                choice = Text.parse_html("".join(str(x) for x in li.contents))
-                choices.append(choice)
-                if check_box.has_attr("checked"):
-                    problem["correct_choice"] = index
-                    problem["answer"] = [choice]
-            problem["choices"] = choices
-            choice_list.decompose()
+                equation = li.find("span").extract()
+                choices, correct_choice = numerical_choices(equation.contents[0])
+                problem["choices"] = choices
+                problem["correct_choice"] = correct_choice
+
+            elif len(choice_list_items) == 5:
+                for index, li in enumerate(choice_list_items):
+                    check_box = li.find("input").extract()
+                    choice = Text.parse_html("".join(str(x) for x in li.contents))
+                    choices.append(choice)
+                    if check_box.has_attr("checked"):
+                        problem["correct_choice"] = index
+                problem["choices"] = choices
+                choice_list.decompose()
+
             if solution:
                 problem["solution"] = Text.parse_html(solution.extract())
+
             problem["statement"] = Text.parse_html(soup)
 
             return cls.parse_obj(problem)
@@ -145,9 +158,9 @@ class Problem(BaseModel):
                 check_box = li.find("input").extract()
                 if check_box.has_attr("checked"):
                     true_props.append(index)
-            choices, answer, correct_choice = autoprops(true_props)
+            # geração automática de distratores
+            choices, correct_choice = autoprops(true_props)
             problem["choices"] = choices
-            problem["answer"] = answer
             problem["correct_choice"] = correct_choice
             if solution:
                 problem["solution"] = Text.parse_html(solution.extract())

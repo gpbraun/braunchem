@@ -19,11 +19,11 @@ def main():
     topic_db = TopicSet.parse_database(config.TOPICS_DIR)
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
-    topic_db["2A"].write_pdf(
-        problem_db,
-        tmp_dir=config.TMP_TOPICS_DIR,
-        out_dir=config.OUT_DIR,
-    )
+    # topic_db["2A"].write_pdf(
+    #     problem_db,
+    #     tmp_dir=config.TMP_TOPICS_DIR,
+    #     out_dir=config.OUT_DIR,
+    # )
 
     # COPIA A BASE DE DADOS PARA O SITE
     for db_file in [
