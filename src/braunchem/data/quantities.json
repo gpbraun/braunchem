@@ -1354,7 +1354,7 @@
     },
     {
       "id_": "CP(metano,g)",
-      "name": "capacidade calorífica a pressão constante do metano",
+      "name": "capacidade calorífica em pressão constante do metano",
       "symbol": "C_P(\\ce{CH4,\\,\\text{g}})",
       "value": "36",
       "unit": "J.K-1.mol-1",
@@ -1363,7 +1363,7 @@
     {
       "id_": "S(metano,g)",
       "name": "entropia do metano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH4,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{CH4,\\,\\text{g}})",
       "value": "186",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1394,7 +1394,7 @@
     },
     {
       "id_": "CP(etino,g)",
-      "name": "capacidade calorífica a pressão constante do etino",
+      "name": "capacidade calorífica em pressão constante do etino",
       "symbol": "C_P(\\ce{C2H2,\\,\\text{g}})",
       "value": "44",
       "unit": "J.K-1.mol-1",
@@ -1403,7 +1403,7 @@
     {
       "id_": "S(etino,g)",
       "name": "entropia do etino",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C2H2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C2H2,\\,\\text{g}})",
       "value": "201",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1434,7 +1434,7 @@
     },
     {
       "id_": "CP(eteno,g)",
-      "name": "capacidade calorífica a pressão constante do eteno",
+      "name": "capacidade calorífica em pressão constante do eteno",
       "symbol": "C_P(\\ce{C2H4,\\,\\text{g}})",
       "value": "44",
       "unit": "J.K-1.mol-1",
@@ -1443,7 +1443,7 @@
     {
       "id_": "S(eteno,g)",
       "name": "entropia do eteno",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C2H4,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C2H4,\\,\\text{g}})",
       "value": "220",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1474,7 +1474,7 @@
     },
     {
       "id_": "CP(etano,g)",
-      "name": "capacidade calorífica a pressão constante do etano",
+      "name": "capacidade calorífica em pressão constante do etano",
       "symbol": "C_P(\\ce{C2H6,\\,\\text{g}})",
       "value": "53",
       "unit": "J.K-1.mol-1",
@@ -1483,7 +1483,7 @@
     {
       "id_": "S(etano,g)",
       "name": "entropia do etano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C2H6,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C2H6,\\,\\text{g}})",
       "value": "230",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1514,7 +1514,7 @@
     },
     {
       "id_": "CP(propeno,g)",
-      "name": "capacidade calorífica a pressão constante do propeno",
+      "name": "capacidade calorífica em pressão constante do propeno",
       "symbol": "C_P(\\ce{C3H6,\\,\\text{g}})",
       "value": "64",
       "unit": "J.K-1.mol-1",
@@ -1523,7 +1523,7 @@
     {
       "id_": "S(propeno,g)",
       "name": "entropia do propeno",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C3H6,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C3H6,\\,\\text{g}})",
       "value": "267",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1554,7 +1554,7 @@
     },
     {
       "id_": "CP(ciclopropano,g)",
-      "name": "capacidade calorífica a pressão constante do ciclopropano",
+      "name": "capacidade calorífica em pressão constante do ciclopropano",
       "symbol": "C_P(\\ce{C3H6,\\,\\text{g}})",
       "value": "56",
       "unit": "J.K-1.mol-1",
@@ -1563,7 +1563,7 @@
     {
       "id_": "S(ciclopropano,g)",
       "name": "entropia do ciclopropano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C3H6,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C3H6,\\,\\text{g}})",
       "value": "237",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1594,7 +1594,7 @@
     },
     {
       "id_": "CP(propano,g)",
-      "name": "capacidade calorífica a pressão constante do propano",
+      "name": "capacidade calorífica em pressão constante do propano",
       "symbol": "C_P(\\ce{C3H8,\\,\\text{g}})",
       "value": "74",
       "unit": "J.K-1.mol-1",
@@ -1603,7 +1603,7 @@
     {
       "id_": "S(propano,g)",
       "name": "entropia do propano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C3H8,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C3H8,\\,\\text{g}})",
       "value": "270",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1634,7 +1634,7 @@
     },
     {
       "id_": "CP(butano,g)",
-      "name": "capacidade calorífica a pressão constante do butano",
+      "name": "capacidade calorífica em pressão constante do butano",
       "symbol": "C_P(\\ce{C4H10,\\,\\text{g}})",
       "value": "97",
       "unit": "J.K-1.mol-1",
@@ -1643,7 +1643,7 @@
     {
       "id_": "S(butano,g)",
       "name": "entropia do butano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C4H10,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C4H10,\\,\\text{g}})",
       "value": "310",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1674,7 +1674,7 @@
     },
     {
       "id_": "CP(pentano,g)",
-      "name": "capacidade calorífica a pressão constante do pentano",
+      "name": "capacidade calorífica em pressão constante do pentano",
       "symbol": "C_P(\\ce{C5H12,\\,\\text{g}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
@@ -1683,7 +1683,7 @@
     {
       "id_": "S(pentano,g)",
       "name": "entropia do pentano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C5H12,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C5H12,\\,\\text{g}})",
       "value": "349",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1714,7 +1714,7 @@
     },
     {
       "id_": "CP(benzeno,l)",
-      "name": "capacidade calorífica a pressão constante do benzeno",
+      "name": "capacidade calorífica em pressão constante do benzeno",
       "symbol": "C_P(\\ce{C6H6,\\,\\text{l}})",
       "value": "140",
       "unit": "J.K-1.mol-1",
@@ -1723,7 +1723,7 @@
     {
       "id_": "S(benzeno,l)",
       "name": "entropia do benzeno",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H6,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{C6H6,\\,\\text{l}})",
       "value": "173",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1754,7 +1754,7 @@
     },
     {
       "id_": "CP(benzeno,g)",
-      "name": "capacidade calorífica a pressão constante do benzeno",
+      "name": "capacidade calorífica em pressão constante do benzeno",
       "symbol": "C_P(\\ce{C6H6,\\,\\text{g}})",
       "value": "82",
       "unit": "J.K-1.mol-1",
@@ -1763,7 +1763,7 @@
     {
       "id_": "S(benzeno,g)",
       "name": "entropia do benzeno",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H6,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C6H6,\\,\\text{g}})",
       "value": "269",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1794,7 +1794,7 @@
     },
     {
       "id_": "CP(cicloexano,l)",
-      "name": "capacidade calorífica a pressão constante do cicloexano",
+      "name": "capacidade calorífica em pressão constante do cicloexano",
       "symbol": "C_P(\\ce{C6H12,\\,\\text{l}})",
       "value": "160",
       "unit": "J.K-1.mol-1",
@@ -1803,7 +1803,7 @@
     {
       "id_": "S(cicloexano,l)",
       "name": "entropia do cicloexano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H12,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{C6H12,\\,\\text{l}})",
       "value": "204",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1826,7 +1826,7 @@
     },
     {
       "id_": "CP(cicloexeno,l)",
-      "name": "capacidade calorífica a pressão constante do cicloexeno",
+      "name": "capacidade calorífica em pressão constante do cicloexeno",
       "symbol": "C_P(\\ce{C6H10,\\,\\text{l}})",
       "value": "150",
       "unit": "J.K-1.mol-1",
@@ -1866,7 +1866,7 @@
     },
     {
       "id_": "CP(tolueno,l)",
-      "name": "capacidade calorífica a pressão constante do tolueno",
+      "name": "capacidade calorífica em pressão constante do tolueno",
       "symbol": "C_P(\\ce{C7H8,\\,\\text{l}})",
       "value": "160",
       "unit": "J.K-1.mol-1",
@@ -1875,7 +1875,7 @@
     {
       "id_": "S(tolueno,l)",
       "name": "entropia do tolueno",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C7H8,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{C7H8,\\,\\text{l}})",
       "value": "221",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1906,7 +1906,7 @@
     },
     {
       "id_": "CP(tolueno,g)",
-      "name": "capacidade calorífica a pressão constante do tolueno",
+      "name": "capacidade calorífica em pressão constante do tolueno",
       "symbol": "C_P(\\ce{C7H8,\\,\\text{g}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -1915,7 +1915,7 @@
     {
       "id_": "S(tolueno,g)",
       "name": "entropia do tolueno",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C7H8,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C7H8,\\,\\text{g}})",
       "value": "321",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1947,7 +1947,7 @@
     {
       "id_": "S(octano,l)",
       "name": "entropia do octano",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
       "value": "358",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -1978,7 +1978,7 @@
     },
     {
       "id_": "CP(metanol,l)",
-      "name": "capacidade calorífica a pressão constante do metanol",
+      "name": "capacidade calorífica em pressão constante do metanol",
       "symbol": "C_P(\\ce{CH3OH,\\,\\text{l}})",
       "value": "82",
       "unit": "J.K-1.mol-1",
@@ -1987,7 +1987,7 @@
     {
       "id_": "S(metanol,l)",
       "name": "entropia do metanol",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3OH,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{CH3OH,\\,\\text{l}})",
       "value": "127",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2018,7 +2018,7 @@
     },
     {
       "id_": "CP(metanol,g)",
-      "name": "capacidade calorífica a pressão constante do metanol",
+      "name": "capacidade calorífica em pressão constante do metanol",
       "symbol": "C_P(\\ce{CH3OH,\\,\\text{g}})",
       "value": "44",
       "unit": "J.K-1.mol-1",
@@ -2027,7 +2027,7 @@
     {
       "id_": "S(metanol,g)",
       "name": "entropia do metanol",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3OH,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{CH3OH,\\,\\text{g}})",
       "value": "240",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2058,7 +2058,7 @@
     },
     {
       "id_": "CP(etanol,l)",
-      "name": "capacidade calorífica a pressão constante do etanol",
+      "name": "capacidade calorífica em pressão constante do etanol",
       "symbol": "C_P(\\ce{C2H5OH,\\,\\text{l}})",
       "value": "110",
       "unit": "J.K-1.mol-1",
@@ -2067,7 +2067,7 @@
     {
       "id_": "S(etanol,l)",
       "name": "entropia do etanol",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C2H5OH,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{C2H5OH,\\,\\text{l}})",
       "value": "161",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2098,7 +2098,7 @@
     },
     {
       "id_": "CP(etanol,g)",
-      "name": "capacidade calorífica a pressão constante do etanol",
+      "name": "capacidade calorífica em pressão constante do etanol",
       "symbol": "C_P(\\ce{C2H5OH,\\,\\text{g}})",
       "value": "65",
       "unit": "J.K-1.mol-1",
@@ -2107,7 +2107,7 @@
     {
       "id_": "S(etanol,g)",
       "name": "entropia do etanol",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C2H5OH,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C2H5OH,\\,\\text{g}})",
       "value": "283",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2139,7 +2139,7 @@
     {
       "id_": "S(fenol,s)",
       "name": "entropia do fenol",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H5OH,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{C6H5OH,\\,\\text{s}})",
       "value": "144",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2170,7 +2170,7 @@
     },
     {
       "id_": "CP(acido formico,l)",
-      "name": "capacidade calorífica a pressão constante do ácido fórmico",
+      "name": "capacidade calorífica em pressão constante do ácido fórmico",
       "symbol": "C_P(\\ce{HCOOH,\\,\\text{l}})",
       "value": "99",
       "unit": "J.K-1.mol-1",
@@ -2179,7 +2179,7 @@
     {
       "id_": "S(acido formico,l)",
       "name": "entropia do ácido fórmico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCOOH,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{HCOOH,\\,\\text{l}})",
       "value": "129",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2210,7 +2210,7 @@
     },
     {
       "id_": "CP(acido acetico,l)",
-      "name": "capacidade calorífica a pressão constante do ácido acético",
+      "name": "capacidade calorífica em pressão constante do ácido acético",
       "symbol": "C_P(\\ce{CH3COOH,\\,\\text{l}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
@@ -2219,7 +2219,7 @@
     {
       "id_": "S(acido acetico,l)",
       "name": "entropia do ácido acético",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3COOH,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{CH3COOH,\\,\\text{l}})",
       "value": "160",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2243,7 +2243,7 @@
     {
       "id_": "S(acido acetico,aq)",
       "name": "entropia do ácido acético",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3COOH,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CH3COOH,\\,\\text{aq}})",
       "value": "179",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2267,7 +2267,7 @@
     {
       "id_": "S(acetato,aq)",
       "name": "entropia do acetato",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3CO2^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CH3CO2^-,\\,\\text{aq}})",
       "value": "187",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2298,7 +2298,7 @@
     },
     {
       "id_": "CP(acido oxalico,s)",
-      "name": "capacidade calorífica a pressão constante do ácido oxálico",
+      "name": "capacidade calorífica em pressão constante do ácido oxálico",
       "symbol": "C_P(\\ce{H2C2O4,\\,\\text{s}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
@@ -2307,7 +2307,7 @@
     {
       "id_": "S(acido oxalico,s)",
       "name": "entropia do ácido oxálico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2C2O4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{H2C2O4,\\,\\text{s}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2338,7 +2338,7 @@
     },
     {
       "id_": "CP(acido benzoico,s)",
-      "name": "capacidade calorífica a pressão constante do ácido benzóico",
+      "name": "capacidade calorífica em pressão constante do ácido benzóico",
       "symbol": "C_P(\\ce{C6H5COOH,\\,\\text{s}})",
       "value": "150",
       "unit": "J.K-1.mol-1",
@@ -2347,7 +2347,7 @@
     {
       "id_": "S(acido benzoico,s)",
       "name": "entropia do ácido benzóico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H5COOH,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{C6H5COOH,\\,\\text{s}})",
       "value": "168",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2378,7 +2378,7 @@
     },
     {
       "id_": "CP(metanal,g)",
-      "name": "capacidade calorífica a pressão constante do metanal",
+      "name": "capacidade calorífica em pressão constante do metanal",
       "symbol": "C_P(\\ce{HCHO,\\,\\text{g}})",
       "value": "35",
       "unit": "J.K-1.mol-1",
@@ -2387,7 +2387,7 @@
     {
       "id_": "S(metanal,g)",
       "name": "entropia do metanal",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCHO,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HCHO,\\,\\text{g}})",
       "value": "219",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2419,7 +2419,7 @@
     {
       "id_": "S(propanal,l)",
       "name": "entropia do propanal",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3CHO,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{CH3CHO,\\,\\text{l}})",
       "value": "160",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2450,7 +2450,7 @@
     },
     {
       "id_": "CP(propanal,g)",
-      "name": "capacidade calorífica a pressão constante do propanal",
+      "name": "capacidade calorífica em pressão constante do propanal",
       "symbol": "C_P(\\ce{CH3CHO,\\,\\text{g}})",
       "value": "57",
       "unit": "J.K-1.mol-1",
@@ -2459,7 +2459,7 @@
     {
       "id_": "S(propanal,g)",
       "name": "entropia do propanal",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3CHO,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{CH3CHO,\\,\\text{g}})",
       "value": "250",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2490,7 +2490,7 @@
     },
     {
       "id_": "CP(acetona,l)",
-      "name": "capacidade calorífica a pressão constante da acetona",
+      "name": "capacidade calorífica em pressão constante da acetona",
       "symbol": "C_P(\\ce{CH3COCH3,\\,\\text{l}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
@@ -2499,7 +2499,7 @@
     {
       "id_": "S(acetona,l)",
       "name": "entropia da acetona",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3COCH3,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{CH3COCH3,\\,\\text{l}})",
       "value": "200",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2531,7 +2531,7 @@
     {
       "id_": "S(glicose,s)",
       "name": "entropia do glicose",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H12O6,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{C6H12O6,\\,\\text{s}})",
       "value": "212",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2587,7 +2587,7 @@
     {
       "id_": "S(sacarose,s)",
       "name": "entropia do sacarose",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C12H22O11,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{C12H22O11,\\,\\text{s}})",
       "value": "360",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2618,7 +2618,7 @@
     },
     {
       "id_": "CP(metilamina,g)",
-      "name": "capacidade calorífica a pressão constante da metilamina",
+      "name": "capacidade calorífica em pressão constante da metilamina",
       "symbol": "C_P(\\ce{CH3NH2,\\,\\text{g}})",
       "value": "53",
       "unit": "J.K-1.mol-1",
@@ -2627,7 +2627,7 @@
     {
       "id_": "S(metilamina,g)",
       "name": "entropia da metilamina",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CH3NH2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{CH3NH2,\\,\\text{g}})",
       "value": "243",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2658,7 +2658,7 @@
     },
     {
       "id_": "CP(ureia,s)",
-      "name": "capacidade calorífica a pressão constante da ureia",
+      "name": "capacidade calorífica em pressão constante da ureia",
       "symbol": "C_P(\\ce{CO,\\,\\text{s}})",
       "value": "93",
       "unit": "J.K-1.mol-1",
@@ -2667,7 +2667,7 @@
     {
       "id_": "S(ureia,s)",
       "name": "entropia da ureia",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CO,\\,\\text{s}})",
       "value": "105",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2698,7 +2698,7 @@
     },
     {
       "id_": "CP(glicina,s)",
-      "name": "capacidade calorífica a pressão constante da glicina",
+      "name": "capacidade calorífica em pressão constante da glicina",
       "symbol": "C_P(\\ce{NH2CH2COOH,\\,\\text{s}})",
       "value": "99",
       "unit": "J.K-1.mol-1",
@@ -2707,7 +2707,7 @@
     {
       "id_": "S(glicina,s)",
       "name": "entropia da glicina",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH2CH2COOH,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NH2CH2COOH,\\,\\text{s}})",
       "value": "104",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -2739,7 +2739,7 @@
     {
       "id_": "S(anilina,l)",
       "name": "entropia da anilina",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C6H5NH2,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{C6H5NH2,\\,\\text{l}})",
       "value": "191",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3114,7 +3114,7 @@
     },
     {
       "id_": "CP(Al,s)",
-      "name": "capacidade calorífica a pressão constante do alumínio",
+      "name": "capacidade calorífica em pressão constante do alumínio",
       "symbol": "C_P(\\ce{Al,\\,\\text{s}})",
       "value": "24",
       "unit": "J.K-1.mol-1",
@@ -3123,7 +3123,7 @@
     {
       "id_": "S(Al,s)",
       "name": "entropia do alumínio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Al,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Al,\\,\\text{s}})",
       "value": "28.3",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3147,7 +3147,7 @@
     {
       "id_": "S(Al+3,aq)",
       "name": "entropia do cátion alumínio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Al^3+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Al^3+,\\,\\text{aq}})",
       "value": "-322",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3170,7 +3170,7 @@
     },
     {
       "id_": "CP(Al2O3,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de alumínio",
+      "name": "capacidade calorífica em pressão constante do óxido de alumínio",
       "symbol": "C_P(\\ce{Al2O3,\\,\\text{s}})",
       "value": "79",
       "unit": "J.K-1.mol-1",
@@ -3179,7 +3179,7 @@
     {
       "id_": "S(Al2O3,s)",
       "name": "entropia do óxido de alumínio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Al2O3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Al2O3,\\,\\text{s}})",
       "value": "50.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3210,7 +3210,7 @@
     },
     {
       "id_": "CP(AlCl3,s)",
-      "name": "capacidade calorífica a pressão constante do cloreto de alumínio",
+      "name": "capacidade calorífica em pressão constante do cloreto de alumínio",
       "symbol": "C_P(\\ce{AlCl3,\\,\\text{s}})",
       "value": "92",
       "unit": "J.K-1.mol-1",
@@ -3219,7 +3219,7 @@
     {
       "id_": "S(AlCl3,s)",
       "name": "entropia do cloreto de alumínio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AlCl3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{AlCl3,\\,\\text{s}})",
       "value": "111",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3242,7 +3242,7 @@
     },
     {
       "id_": "CP(Sb,s)",
-      "name": "capacidade calorífica a pressão constante do antimônio",
+      "name": "capacidade calorífica em pressão constante do antimônio",
       "symbol": "C_P(\\ce{Sb,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -3251,7 +3251,7 @@
     {
       "id_": "S(Sb,s)",
       "name": "entropia do antimônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Sb,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Sb,\\,\\text{s}})",
       "value": "45.7",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3274,7 +3274,7 @@
     },
     {
       "id_": "CP(SbH3,g)",
-      "name": "capacidade calorífica a pressão constante do hidreto de antimônio",
+      "name": "capacidade calorífica em pressão constante do hidreto de antimônio",
       "symbol": "C_P(\\ce{SbH3,\\,\\text{g}})",
       "value": "41",
       "unit": "J.K-1.mol-1",
@@ -3283,7 +3283,7 @@
     {
       "id_": "S(SbH3,g)",
       "name": "entropia do hidreto de antimônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SbH3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{SbH3,\\,\\text{g}})",
       "value": "233",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3306,7 +3306,7 @@
     },
     {
       "id_": "CP(SbCl3,g)",
-      "name": "capacidade calorífica a pressão constante do tricloreto de antimônio",
+      "name": "capacidade calorífica em pressão constante do tricloreto de antimônio",
       "symbol": "C_P(\\ce{SbCl3,\\,\\text{g}})",
       "value": "77",
       "unit": "J.K-1.mol-1",
@@ -3315,7 +3315,7 @@
     {
       "id_": "S(SbCl3,g)",
       "name": "entropia do tricloreto de antimônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SbCl3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{SbCl3,\\,\\text{g}})",
       "value": "338",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3338,7 +3338,7 @@
     },
     {
       "id_": "CP(SbCl5,g)",
-      "name": "capacidade calorífica a pressão constante do pentacloreto de antimônio",
+      "name": "capacidade calorífica em pressão constante do pentacloreto de antimônio",
       "symbol": "C_P(\\ce{SbCl5,\\,\\text{g}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
@@ -3347,7 +3347,7 @@
     {
       "id_": "S(SbCl5,g)",
       "name": "entropia do pentacloreto de antimônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SbCl5,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{SbCl5,\\,\\text{g}})",
       "value": "402",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3370,7 +3370,7 @@
     },
     {
       "id_": "CP(As,s)",
-      "name": "capacidade calorífica a pressão constante do arsênio",
+      "name": "capacidade calorífica em pressão constante do arsênio",
       "symbol": "C_P(\\ce{As,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -3379,7 +3379,7 @@
     {
       "id_": "S(As,s)",
       "name": "entropia do arsênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{As,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{As,\\,\\text{s}})",
       "value": "35.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3402,7 +3402,7 @@
     },
     {
       "id_": "CP(As2S3,s)",
-      "name": "capacidade calorífica a pressão constante do sulfeto de arsênio",
+      "name": "capacidade calorífica em pressão constante do sulfeto de arsênio",
       "symbol": "C_P(\\ce{As2S3,\\,\\text{s}})",
       "value": "120",
       "unit": "J.K-1.mol-1",
@@ -3411,7 +3411,7 @@
     {
       "id_": "S(As2S3,s)",
       "name": "entropia do sulfeto de arsênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{As2S3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{As2S3,\\,\\text{s}})",
       "value": "164",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3435,7 +3435,7 @@
     {
       "id_": "S(AsO4-3,aq)",
       "name": "entropia do arsenato",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AsO4^3-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{AsO4^3-,\\,\\text{aq}})",
       "value": "-163",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3458,7 +3458,7 @@
     },
     {
       "id_": "CP(Ba,s)",
-      "name": "capacidade calorífica a pressão constante do bário",
+      "name": "capacidade calorífica em pressão constante do bário",
       "symbol": "C_P(\\ce{Ba,\\,\\text{s}})",
       "value": "28",
       "unit": "J.K-1.mol-1",
@@ -3467,7 +3467,7 @@
     {
       "id_": "S(Ba,s)",
       "name": "entropia do bário",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ba,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Ba,\\,\\text{s}})",
       "value": "62.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3491,7 +3491,7 @@
     {
       "id_": "S(Ba+2,aq)",
       "name": "entropia do cátion bário",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ba^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Ba^2+,\\,\\text{aq}})",
       "value": "9.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3514,7 +3514,7 @@
     },
     {
       "id_": "CP(BaO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de bário",
+      "name": "capacidade calorífica em pressão constante do óxido de bário",
       "symbol": "C_P(\\ce{BaO,\\,\\text{s}})",
       "value": "48",
       "unit": "J.K-1.mol-1",
@@ -3523,7 +3523,7 @@
     {
       "id_": "S(BaO,s)",
       "name": "entropia do óxido de bário",
-      "symbol": "\\Delta S^{\\circ}(\\ce{BaO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{BaO,\\,\\text{s}})",
       "value": "70.4",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3546,7 +3546,7 @@
     },
     {
       "id_": "CP(BaCO3,s)",
-      "name": "capacidade calorífica a pressão constante do carbonato de bário",
+      "name": "capacidade calorífica em pressão constante do carbonato de bário",
       "symbol": "C_P(\\ce{BaCO3,\\,\\text{s}})",
       "value": "85",
       "unit": "J.K-1.mol-1",
@@ -3555,7 +3555,7 @@
     {
       "id_": "S(BaCO3,s)",
       "name": "entropia do carbonato de bário",
-      "symbol": "\\Delta S^{\\circ}(\\ce{BaCO3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{BaCO3,\\,\\text{s}})",
       "value": "112",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3579,7 +3579,7 @@
     {
       "id_": "S(BaCO3,aq)",
       "name": "entropia do carbonato de bário",
-      "symbol": "\\Delta S^{\\circ}(\\ce{BaCO3,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{BaCO3,\\,\\text{aq}})",
       "value": "-47.3",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3602,7 +3602,7 @@
     },
     {
       "id_": "CP(B,s)",
-      "name": "capacidade calorífica a pressão constante do boro",
+      "name": "capacidade calorífica em pressão constante do boro",
       "symbol": "C_P(\\ce{B,\\,\\text{s}})",
       "value": "11",
       "unit": "J.K-1.mol-1",
@@ -3611,7 +3611,7 @@
     {
       "id_": "S(B,s)",
       "name": "entropia do boro",
-      "symbol": "\\Delta S^{\\circ}(\\ce{B,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{B,\\,\\text{s}})",
       "value": "5.86",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3634,7 +3634,7 @@
     },
     {
       "id_": "CP(B2O3,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de boro",
+      "name": "capacidade calorífica em pressão constante do óxido de boro",
       "symbol": "C_P(\\ce{B2O3,\\,\\text{s}})",
       "value": "63",
       "unit": "J.K-1.mol-1",
@@ -3643,7 +3643,7 @@
     {
       "id_": "S(B2O3,s)",
       "name": "entropia do óxido de boro",
-      "symbol": "\\Delta S^{\\circ}(\\ce{B2O3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{B2O3,\\,\\text{s}})",
       "value": "54.0",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3666,7 +3666,7 @@
     },
     {
       "id_": "CP(BF3,g)",
-      "name": "capacidade calorífica a pressão constante do trifluoreto de boro",
+      "name": "capacidade calorífica em pressão constante do trifluoreto de boro",
       "symbol": "C_P(\\ce{BF3,\\,\\text{g}})",
       "value": "50",
       "unit": "J.K-1.mol-1",
@@ -3675,7 +3675,7 @@
     {
       "id_": "S(BF3,g)",
       "name": "entropia do trifluoreto de boro",
-      "symbol": "\\Delta S^{\\circ}(\\ce{BF3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{BF3,\\,\\text{g}})",
       "value": "254",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3698,7 +3698,7 @@
     },
     {
       "id_": "CP(Br2,l)",
-      "name": "capacidade calorífica a pressão constante do bromo",
+      "name": "capacidade calorífica em pressão constante do bromo",
       "symbol": "C_P(\\ce{Br2,\\,\\text{l}})",
       "value": "76",
       "unit": "J.K-1.mol-1",
@@ -3707,7 +3707,7 @@
     {
       "id_": "S(Br2,l)",
       "name": "entropia do bromo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Br2,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{Br2,\\,\\text{l}})",
       "value": "152",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3730,7 +3730,7 @@
     },
     {
       "id_": "CP(Br2,g)",
-      "name": "capacidade calorífica a pressão constante do bromo",
+      "name": "capacidade calorífica em pressão constante do bromo",
       "symbol": "C_P(\\ce{Br2,\\,\\text{g}})",
       "value": "36",
       "unit": "J.K-1.mol-1",
@@ -3739,7 +3739,7 @@
     {
       "id_": "S(Br2,g)",
       "name": "entropia do bromo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Br2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Br2,\\,\\text{g}})",
       "value": "245",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3762,7 +3762,7 @@
     },
     {
       "id_": "CP(Br,g)",
-      "name": "capacidade calorífica a pressão constante do bromo atômico",
+      "name": "capacidade calorífica em pressão constante do bromo atômico",
       "symbol": "C_P(\\ce{Br,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -3771,7 +3771,7 @@
     {
       "id_": "S(Br,g)",
       "name": "entropia do bromo atômico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Br,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Br,\\,\\text{g}})",
       "value": "175",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3795,7 +3795,7 @@
     {
       "id_": "S(Br-,aq)",
       "name": "entropia do brometo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Br^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Br^-,\\,\\text{aq}})",
       "value": "82.4",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3818,7 +3818,7 @@
     },
     {
       "id_": "CP(HBr,g)",
-      "name": "capacidade calorífica a pressão constante do ácido bromídrico",
+      "name": "capacidade calorífica em pressão constante do ácido bromídrico",
       "symbol": "C_P(\\ce{HBr,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -3827,7 +3827,7 @@
     {
       "id_": "S(HBr,g)",
       "name": "entropia do ácido bromídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HBr,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HBr,\\,\\text{g}})",
       "value": "199",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3850,7 +3850,7 @@
     },
     {
       "id_": "CP(Ca,s)",
-      "name": "capacidade calorífica a pressão constante do cálcio",
+      "name": "capacidade calorífica em pressão constante do cálcio",
       "symbol": "C_P(\\ce{Ca,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -3859,7 +3859,7 @@
     {
       "id_": "S(Ca,s)",
       "name": "entropia do cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ca,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Ca,\\,\\text{s}})",
       "value": "41.4",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3882,7 +3882,7 @@
     },
     {
       "id_": "CP(Ca,g)",
-      "name": "capacidade calorífica a pressão constante do cálcio",
+      "name": "capacidade calorífica em pressão constante do cálcio",
       "symbol": "C_P(\\ce{Ca,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -3891,7 +3891,7 @@
     {
       "id_": "S(Ca,g)",
       "name": "entropia do cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ca,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Ca,\\,\\text{g}})",
       "value": "155",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3915,7 +3915,7 @@
     {
       "id_": "S(Ca+2,aq)",
       "name": "entropia do cátion cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ca^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Ca^2+,\\,\\text{aq}})",
       "value": "-53.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3938,7 +3938,7 @@
     },
     {
       "id_": "CP(CaO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de cálcio",
+      "name": "capacidade calorífica em pressão constante do óxido de cálcio",
       "symbol": "C_P(\\ce{CaO,\\,\\text{s}})",
       "value": "43",
       "unit": "J.K-1.mol-1",
@@ -3947,7 +3947,7 @@
     {
       "id_": "S(CaO,s)",
       "name": "entropia do óxido de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaO,\\,\\text{s}})",
       "value": "39.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -3970,7 +3970,7 @@
     },
     {
       "id_": "CP(Ca(OH)2,s)",
-      "name": "capacidade calorífica a pressão constante do hidróxido de cálcio",
+      "name": "capacidade calorífica em pressão constante do hidróxido de cálcio",
       "symbol": "C_P(\\ce{Ca(OH)2,\\,\\text{s}})",
       "value": "87",
       "unit": "J.K-1.mol-1",
@@ -3979,7 +3979,7 @@
     {
       "id_": "S(Ca(OH)2,s)",
       "name": "entropia do hidróxido de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ca(OH)2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Ca(OH)2,\\,\\text{s}})",
       "value": "83.4",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4003,7 +4003,7 @@
     {
       "id_": "S(Ca(OH)2,aq)",
       "name": "entropia do hidróxido de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ca(OH)2,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Ca(OH)2,\\,\\text{aq}})",
       "value": "-74.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4026,7 +4026,7 @@
     },
     {
       "id_": "CP(CaCO3,s)",
-      "name": "capacidade calorífica a pressão constante do carbonato de cálcio",
+      "name": "capacidade calorífica em pressão constante do carbonato de cálcio",
       "symbol": "C_P(\\ce{CaCO3,\\,\\text{s}})",
       "value": "82",
       "unit": "J.K-1.mol-1",
@@ -4035,7 +4035,7 @@
     {
       "id_": "S(CaCO3,s)",
       "name": "entropia do carbonato de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaCO3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaCO3,\\,\\text{s}})",
       "value": "92.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4058,7 +4058,7 @@
     },
     {
       "id_": "CP(aragonita)",
-      "name": "capacidade calorífica a pressão constante da aragonita",
+      "name": "capacidade calorífica em pressão constante da aragonita",
       "symbol": "C_P(\\ce{CaCO3,\\,\\text{aragonita}})",
       "value": "81",
       "unit": "J.K-1.mol-1",
@@ -4067,7 +4067,7 @@
     {
       "id_": "S(aragonita)",
       "name": "entropia da aragonita",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaCO3,\\,\\text{aragonita}})",
+      "symbol": "S^{\\circ}(\\ce{CaCO3,\\,\\text{aragonita}})",
       "value": "88.7",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4091,7 +4091,7 @@
     {
       "id_": "S(CaCO3,aq)",
       "name": "entropia do carbonato de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaCO3,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CaCO3,\\,\\text{aq}})",
       "value": "-110",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4114,7 +4114,7 @@
     },
     {
       "id_": "CP(CaF2,s)",
-      "name": "capacidade calorífica a pressão constante do flureto de cálcio",
+      "name": "capacidade calorífica em pressão constante do flureto de cálcio",
       "symbol": "C_P(\\ce{CaF2,\\,\\text{s}})",
       "value": "67",
       "unit": "J.K-1.mol-1",
@@ -4123,7 +4123,7 @@
     {
       "id_": "S(CaF2,s)",
       "name": "entropia do flureto de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaF2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaF2,\\,\\text{s}})",
       "value": "68.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4147,7 +4147,7 @@
     {
       "id_": "S(CaF2,aq)",
       "name": "entropia do fluoreto de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaF2,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CaF2,\\,\\text{aq}})",
       "value": "-80.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4170,7 +4170,7 @@
     },
     {
       "id_": "CP(CaCl2,s)",
-      "name": "capacidade calorífica a pressão constante do cloreto de cálcio",
+      "name": "capacidade calorífica em pressão constante do cloreto de cálcio",
       "symbol": "C_P(\\ce{CaCl2,\\,\\text{s}})",
       "value": "73",
       "unit": "J.K-1.mol-1",
@@ -4179,7 +4179,7 @@
     {
       "id_": "S(CaCl2,s)",
       "name": "entropia do cloreto de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaCl2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaCl2,\\,\\text{s}})",
       "value": "105",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4203,7 +4203,7 @@
     {
       "id_": "S(CaCl2,aq)",
       "name": "entropia do cloreto de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaCl2,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CaCl2,\\,\\text{aq}})",
       "value": "59.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4226,7 +4226,7 @@
     },
     {
       "id_": "CP(CaBr2,s)",
-      "name": "capacidade calorífica a pressão constante do brometo de cálcio",
+      "name": "capacidade calorífica em pressão constante do brometo de cálcio",
       "symbol": "C_P(\\ce{CaBr2,\\,\\text{s}})",
       "value": "73",
       "unit": "J.K-1.mol-1",
@@ -4235,7 +4235,7 @@
     {
       "id_": "S(CaBr2,s)",
       "name": "entropia do brometo de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaBr2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaBr2,\\,\\text{s}})",
       "value": "130",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4258,7 +4258,7 @@
     },
     {
       "id_": "CP(CaC2,s)",
-      "name": "capacidade calorífica a pressão constante do carbeto de cálcio",
+      "name": "capacidade calorífica em pressão constante do carbeto de cálcio",
       "symbol": "C_P(\\ce{CaC2,\\,\\text{s}})",
       "value": "63",
       "unit": "J.K-1.mol-1",
@@ -4267,7 +4267,7 @@
     {
       "id_": "S(CaC2,s)",
       "name": "entropia do carbeto de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaC2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaC2,\\,\\text{s}})",
       "value": "70.0",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4290,7 +4290,7 @@
     },
     {
       "id_": "CP(CaSO4,s)",
-      "name": "capacidade calorífica a pressão constante do sulfato de cálcio",
+      "name": "capacidade calorífica em pressão constante do sulfato de cálcio",
       "symbol": "C_P(\\ce{CaSO4,\\,\\text{s}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -4299,7 +4299,7 @@
     {
       "id_": "S(CaSO4,s)",
       "name": "entropia do sulfato de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaSO4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CaSO4,\\,\\text{s}})",
       "value": "107",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4323,7 +4323,7 @@
     {
       "id_": "S(CaSO4,aq)",
       "name": "entropia do sulfato de cálcio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CaSO4,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CaSO4,\\,\\text{aq}})",
       "value": "-33.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4346,7 +4346,7 @@
     },
     {
       "id_": "CP(grafita)",
-      "name": "capacidade calorífica a pressão constante da grafita",
+      "name": "capacidade calorífica em pressão constante da grafita",
       "symbol": "C_P(\\ce{C,\\,\\text{grafita}})",
       "value": "8.5",
       "unit": "J.K-1.mol-1",
@@ -4355,7 +4355,7 @@
     {
       "id_": "S(grafita)",
       "name": "entropia da grafita",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C,\\,\\text{grafita}})",
+      "symbol": "S^{\\circ}(\\ce{C,\\,\\text{grafita}})",
       "value": "5.74",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4378,7 +4378,7 @@
     },
     {
       "id_": "CP(diamante)",
-      "name": "capacidade calorífica a pressão constante do diamante",
+      "name": "capacidade calorífica em pressão constante do diamante",
       "symbol": "C_P(\\ce{C,\\,\\text{diamante}})",
       "value": "6.1",
       "unit": "J.K-1.mol-1",
@@ -4387,7 +4387,7 @@
     {
       "id_": "S(diamante)",
       "name": "entropia do diamante",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C,\\,\\text{diamante}})",
+      "symbol": "S^{\\circ}(\\ce{C,\\,\\text{diamante}})",
       "value": "2.38",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4410,7 +4410,7 @@
     },
     {
       "id_": "CP(C,g)",
-      "name": "capacidade calorífica a pressão constante do carbono",
+      "name": "capacidade calorífica em pressão constante do carbono",
       "symbol": "C_P(\\ce{C,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -4419,7 +4419,7 @@
     {
       "id_": "S(C,g)",
       "name": "entropia do carbono",
-      "symbol": "\\Delta S^{\\circ}(\\ce{C,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{C,\\,\\text{g}})",
       "value": "158",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4442,7 +4442,7 @@
     },
     {
       "id_": "CP(CO,g)",
-      "name": "capacidade calorífica a pressão constante do monóxido de carbono",
+      "name": "capacidade calorífica em pressão constante do monóxido de carbono",
       "symbol": "C_P(\\ce{CO,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -4451,7 +4451,7 @@
     {
       "id_": "S(CO,g)",
       "name": "entropia do monóxido de carbono",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CO,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{CO,\\,\\text{g}})",
       "value": "198",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4474,7 +4474,7 @@
     },
     {
       "id_": "CP(CO2,g)",
-      "name": "capacidade calorífica a pressão constante do dióxido de carbono",
+      "name": "capacidade calorífica em pressão constante do dióxido de carbono",
       "symbol": "C_P(\\ce{CO2,\\,\\text{g}})",
       "value": "37",
       "unit": "J.K-1.mol-1",
@@ -4483,7 +4483,7 @@
     {
       "id_": "S(CO2,g)",
       "name": "entropia do dióxido de carbono",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{CO2,\\,\\text{g}})",
       "value": "214",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4507,7 +4507,7 @@
     {
       "id_": "S(CO3-2,aq)",
       "name": "entropia do carbonato",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CO3^2-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{CO3^2-,\\,\\text{aq}})",
       "value": "56.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4530,7 +4530,7 @@
     },
     {
       "id_": "CP(CCl4,l)",
-      "name": "capacidade calorífica a pressão constante do tetracloreto de carbono",
+      "name": "capacidade calorífica em pressão constante do tetracloreto de carbono",
       "symbol": "C_P(\\ce{CCl4,\\,\\text{l}})",
       "value": "130",
       "unit": "J.K-1.mol-1",
@@ -4539,7 +4539,7 @@
     {
       "id_": "S(CCl4,l)",
       "name": "entropia do tetracloreto de carbono",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CCl4,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{CCl4,\\,\\text{l}})",
       "value": "216",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4562,7 +4562,7 @@
     },
     {
       "id_": "CP(CS2,l)",
-      "name": "capacidade calorífica a pressão constante do sulfeto de carbono",
+      "name": "capacidade calorífica em pressão constante do sulfeto de carbono",
       "symbol": "C_P(\\ce{CS2,\\,\\text{l}})",
       "value": "76",
       "unit": "J.K-1.mol-1",
@@ -4571,7 +4571,7 @@
     {
       "id_": "S(CS2,l)",
       "name": "entropia do sulfeto de carbono",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CS2,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{CS2,\\,\\text{l}})",
       "value": "151",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4594,7 +4594,7 @@
     },
     {
       "id_": "CP(HCN,g)",
-      "name": "capacidade calorífica a pressão constante do ácido cianídrico",
+      "name": "capacidade calorífica em pressão constante do ácido cianídrico",
       "symbol": "C_P(\\ce{HCN,\\,\\text{g}})",
       "value": "36",
       "unit": "J.K-1.mol-1",
@@ -4603,7 +4603,7 @@
     {
       "id_": "S(HCN,g)",
       "name": "entropia do ácido cianídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCN,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HCN,\\,\\text{g}})",
       "value": "202",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4626,7 +4626,7 @@
     },
     {
       "id_": "CP(HCN,l)",
-      "name": "capacidade calorífica a pressão constante do ácido cianídrico",
+      "name": "capacidade calorífica em pressão constante do ácido cianídrico",
       "symbol": "C_P(\\ce{HCN,\\,\\text{l}})",
       "value": "71",
       "unit": "J.K-1.mol-1",
@@ -4635,7 +4635,7 @@
     {
       "id_": "S(HCN,l)",
       "name": "entropia do ácido cianídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCN,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{HCN,\\,\\text{l}})",
       "value": "113",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4659,7 +4659,7 @@
     {
       "id_": "S(HCN,aq)",
       "name": "entropia do ácido cianídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCN,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{HCN,\\,\\text{aq}})",
       "value": "125",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4682,7 +4682,7 @@
     },
     {
       "id_": "CP(Ce,s)",
-      "name": "capacidade calorífica a pressão constante do cério",
+      "name": "capacidade calorífica em pressão constante do cério",
       "symbol": "C_P(\\ce{Ce,\\,\\text{s}})",
       "value": "27",
       "unit": "J.K-1.mol-1",
@@ -4691,7 +4691,7 @@
     {
       "id_": "S(Ce,s)",
       "name": "entropia do cério",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ce,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Ce,\\,\\text{s}})",
       "value": "72",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4715,7 +4715,7 @@
     {
       "id_": "S(Ce+3,aq)",
       "name": "entropia do cátion cério (III)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ce^3+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Ce^3+,\\,\\text{aq}})",
       "value": "-205",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4739,7 +4739,7 @@
     {
       "id_": "S(Ce+4,aq)",
       "name": "entropia do cátion cério (IV)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ce^4+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Ce^4+,\\,\\text{aq}})",
       "value": "-301",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4762,7 +4762,7 @@
     },
     {
       "id_": "CP(Cl2,g)",
-      "name": "capacidade calorífica a pressão constante do cloro",
+      "name": "capacidade calorífica em pressão constante do cloro",
       "symbol": "C_P(\\ce{Cl2,\\,\\text{g}})",
       "value": "34",
       "unit": "J.K-1.mol-1",
@@ -4771,7 +4771,7 @@
     {
       "id_": "S(Cl2,g)",
       "name": "entropia do cloro",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cl2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Cl2,\\,\\text{g}})",
       "value": "223",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4794,7 +4794,7 @@
     },
     {
       "id_": "CP(Cl,g)",
-      "name": "capacidade calorífica a pressão constante do cloro atômico",
+      "name": "capacidade calorífica em pressão constante do cloro atômico",
       "symbol": "C_P(\\ce{Cl,\\,\\text{g}})",
       "value": "22",
       "unit": "J.K-1.mol-1",
@@ -4803,7 +4803,7 @@
     {
       "id_": "S(Cl,g)",
       "name": "entropia do cloro atômico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cl,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Cl,\\,\\text{g}})",
       "value": "165",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4827,7 +4827,7 @@
     {
       "id_": "S(Cl-,aq)",
       "name": "entropia do cloreto",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cl^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Cl^-,\\,\\text{aq}})",
       "value": "56.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4850,7 +4850,7 @@
     },
     {
       "id_": "CP(HCl,g)",
-      "name": "capacidade calorífica a pressão constante do ácido clorídrico",
+      "name": "capacidade calorífica em pressão constante do ácido clorídrico",
       "symbol": "C_P(\\ce{HCl,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -4859,7 +4859,7 @@
     {
       "id_": "S(HCl,g)",
       "name": "entropia do ácido clorídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCl,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HCl,\\,\\text{g}})",
       "value": "187",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4883,7 +4883,7 @@
     {
       "id_": "S(HCl,aq)",
       "name": "entropia do ácido clorídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HCl,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{HCl,\\,\\text{aq}})",
       "value": "56.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4906,7 +4906,7 @@
     },
     {
       "id_": "CP(Cu,s)",
-      "name": "capacidade calorífica a pressão constante do cobre",
+      "name": "capacidade calorífica em pressão constante do cobre",
       "symbol": "C_P(\\ce{Cu,\\,\\text{s}})",
       "value": "24",
       "unit": "J.K-1.mol-1",
@@ -4915,7 +4915,7 @@
     {
       "id_": "S(Cu,s)",
       "name": "entropia do cobre",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cu,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Cu,\\,\\text{s}})",
       "value": "33.2",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4939,7 +4939,7 @@
     {
       "id_": "S(Cu+,aq)",
       "name": "entropia do cátion cobre (I)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cu+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Cu+,\\,\\text{aq}})",
       "value": "40.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4963,7 +4963,7 @@
     {
       "id_": "S(Cu+2,aq)",
       "name": "entropia do cátion cobre (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cu^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Cu^2+,\\,\\text{aq}})",
       "value": "-99.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -4986,7 +4986,7 @@
     },
     {
       "id_": "CP(Cu2O,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de cobre (I)",
+      "name": "capacidade calorífica em pressão constante do óxido de cobre (I)",
       "symbol": "C_P(\\ce{Cu2O,\\,\\text{s}})",
       "value": "64",
       "unit": "J.K-1.mol-1",
@@ -4995,7 +4995,7 @@
     {
       "id_": "S(Cu2O,s)",
       "name": "entropia do óxido de cobre (I)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Cu2O,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Cu2O,\\,\\text{s}})",
       "value": "93.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5018,7 +5018,7 @@
     },
     {
       "id_": "CP(CuO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de cobre (II)",
+      "name": "capacidade calorífica em pressão constante do óxido de cobre (II)",
       "symbol": "C_P(\\ce{CuO,\\,\\text{s}})",
       "value": "42",
       "unit": "J.K-1.mol-1",
@@ -5027,7 +5027,7 @@
     {
       "id_": "S(CuO,s)",
       "name": "entropia do óxido de cobre (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CuO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CuO,\\,\\text{s}})",
       "value": "42.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5050,7 +5050,7 @@
     },
     {
       "id_": "CP(CuSO4,s)",
-      "name": "capacidade calorífica a pressão constante do sulfato de cobre (II)",
+      "name": "capacidade calorífica em pressão constante do sulfato de cobre (II)",
       "symbol": "C_P(\\ce{CuSO4,\\,\\text{s}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -5059,7 +5059,7 @@
     {
       "id_": "S(CuSO4,s)",
       "name": "entropia do sulfato de cobre (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CuSO4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CuSO4,\\,\\text{s}})",
       "value": "109",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5082,7 +5082,7 @@
     },
     {
       "id_": "CP(CuSO4.5H2O,s)",
-      "name": "capacidade calorífica a pressão constante do sulfato de cobre (II) pentahidratado",
+      "name": "capacidade calorífica em pressão constante do sulfato de cobre (II) pentahidratado",
       "symbol": "C_P(\\ce{CuSO4.5H2O,\\,\\text{s}})",
       "value": "280",
       "unit": "J.K-1.mol-1",
@@ -5091,7 +5091,7 @@
     {
       "id_": "S(CuSO4.5H2O,s)",
       "name": "entropia do sulfato de cobre (II) pentahidratado",
-      "symbol": "\\Delta S^{\\circ}(\\ce{CuSO4.5H2O,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{CuSO4.5H2O,\\,\\text{s}})",
       "value": "300",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5114,7 +5114,7 @@
     },
     {
       "id_": "CP(D2,g)",
-      "name": "capacidade calorífica a pressão constante do deutério",
+      "name": "capacidade calorífica em pressão constante do deutério",
       "symbol": "C_P(\\ce{D2,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -5123,7 +5123,7 @@
     {
       "id_": "S(D2,g)",
       "name": "entropia do deutério",
-      "symbol": "\\Delta S^{\\circ}(\\ce{D2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{D2,\\,\\text{g}})",
       "value": "145",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5146,7 +5146,7 @@
     },
     {
       "id_": "CP(D2O,g)",
-      "name": "capacidade calorífica a pressão constante da água pesada",
+      "name": "capacidade calorífica em pressão constante da água pesada",
       "symbol": "C_P(\\ce{D2O,\\,\\text{g}})",
       "value": "34",
       "unit": "J.K-1.mol-1",
@@ -5155,7 +5155,7 @@
     {
       "id_": "S(D2O,g)",
       "name": "entropia da água pesada",
-      "symbol": "\\Delta S^{\\circ}(\\ce{D2O,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{D2O,\\,\\text{g}})",
       "value": "198",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5178,7 +5178,7 @@
     },
     {
       "id_": "CP(D2O,l)",
-      "name": "capacidade calorífica a pressão constante da água pesada",
+      "name": "capacidade calorífica em pressão constante da água pesada",
       "symbol": "C_P(\\ce{D2O,\\,\\text{l}})",
       "value": "34",
       "unit": "J.K-1.mol-1",
@@ -5187,7 +5187,7 @@
     {
       "id_": "S(D2O,l)",
       "name": "entropia da água pesada",
-      "symbol": "\\Delta S^{\\circ}(\\ce{D2O,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{D2O,\\,\\text{l}})",
       "value": "75.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5210,7 +5210,7 @@
     },
     {
       "id_": "CP(F2,g)",
-      "name": "capacidade calorífica a pressão constante do flúor",
+      "name": "capacidade calorífica em pressão constante do flúor",
       "symbol": "C_P(\\ce{F2,\\,\\text{g}})",
       "value": "31",
       "unit": "J.K-1.mol-1",
@@ -5219,7 +5219,7 @@
     {
       "id_": "S(F2,g)",
       "name": "entropia do flúor",
-      "symbol": "\\Delta S^{\\circ}(\\ce{F2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{F2,\\,\\text{g}})",
       "value": "203",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5243,7 +5243,7 @@
     {
       "id_": "S(F-,aq)",
       "name": "entropia do fluoreto",
-      "symbol": "\\Delta S^{\\circ}(\\ce{F^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{F^-,\\,\\text{aq}})",
       "value": "-13.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5266,7 +5266,7 @@
     },
     {
       "id_": "CP(HF,g)",
-      "name": "capacidade calorífica a pressão constante do ácido fluorídrico",
+      "name": "capacidade calorífica em pressão constante do ácido fluorídrico",
       "symbol": "C_P(\\ce{HF,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -5275,7 +5275,7 @@
     {
       "id_": "S(HF,g)",
       "name": "entropia do ácido fluorídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HF,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HF,\\,\\text{g}})",
       "value": "174",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5299,7 +5299,7 @@
     {
       "id_": "S(HF,aq)",
       "name": "entropia do ácido fluorídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HF,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{HF,\\,\\text{aq}})",
       "value": "88.7",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5322,7 +5322,7 @@
     },
     {
       "id_": "CP(H2,g)",
-      "name": "capacidade calorífica a pressão constante do hidrogênio",
+      "name": "capacidade calorífica em pressão constante do hidrogênio",
       "symbol": "C_P(\\ce{H2,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -5331,7 +5331,7 @@
     {
       "id_": "S(H2,g)",
       "name": "entropia do hidrogênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{H2,\\,\\text{g}})",
       "value": "131",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5354,7 +5354,7 @@
     },
     {
       "id_": "CP(H,g)",
-      "name": "capacidade calorífica a pressão constante do hidrogênio atômico",
+      "name": "capacidade calorífica em pressão constante do hidrogênio atômico",
       "symbol": "C_P(\\ce{H,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -5363,7 +5363,7 @@
     {
       "id_": "S(H,g)",
       "name": "entropia do hidrogênio atômico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{H,\\,\\text{g}})",
       "value": "115",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5386,7 +5386,7 @@
     },
     {
       "id_": "CP(H+,aq)",
-      "name": "capacidade calorífica a pressão constante do próton aquoso",
+      "name": "capacidade calorífica em pressão constante do próton aquoso",
       "symbol": "C_P(\\ce{H^+,\\,\\text{aq}})",
       "value": "0",
       "unit": "J.K-1.mol-1",
@@ -5395,7 +5395,7 @@
     {
       "id_": "S(H+,aq)",
       "name": "entropia do próton aquoso",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H^+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{H^+,\\,\\text{aq}})",
       "value": "0",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5410,7 +5410,7 @@
     },
     {
       "id_": "CP(H2O,s)",
-      "name": "capacidade calorífica a pressão constante do gelo",
+      "name": "capacidade calorífica em pressão constante do gelo",
       "symbol": "C_P(\\ce{H2O,\\,\\text{s}})",
       "value": "38",
       "unit": "J.K-1.mol-1",
@@ -5419,7 +5419,7 @@
     {
       "id_": "S(H2O,s)",
       "name": "entropia do gelo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2O,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{H2O,\\,\\text{s}})",
       "value": "41",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5442,7 +5442,7 @@
     },
     {
       "id_": "CP(H2O,l)",
-      "name": "capacidade calorífica a pressão constante da água",
+      "name": "capacidade calorífica em pressão constante da água",
       "symbol": "C_P(\\ce{H2O,\\,\\text{l}})",
       "value": "75",
       "unit": "J.K-1.mol-1",
@@ -5451,7 +5451,7 @@
     {
       "id_": "S(H2O,l)",
       "name": "entropia da água",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{H2O,\\,\\text{l}})",
       "value": "69.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5474,7 +5474,7 @@
     },
     {
       "id_": "CP(H2O,g)",
-      "name": "capacidade calorífica a pressão constante do vapor d'água",
+      "name": "capacidade calorífica em pressão constante do vapor d'água",
       "symbol": "C_P(\\ce{H2O,\\,\\text{g}})",
       "value": "34",
       "unit": "J.K-1.mol-1",
@@ -5483,7 +5483,7 @@
     {
       "id_": "S(H2O,g)",
       "name": "entropia do vapor d'água",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2O,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{H2O,\\,\\text{g}})",
       "value": "189",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5506,7 +5506,7 @@
     },
     {
       "id_": "CP(H2O2,l)",
-      "name": "capacidade calorífica a pressão constante do peróxido de hidrogênio",
+      "name": "capacidade calorífica em pressão constante do peróxido de hidrogênio",
       "symbol": "C_P(\\ce{H2O2,\\,\\text{l}})",
       "value": "89",
       "unit": "J.K-1.mol-1",
@@ -5515,7 +5515,7 @@
     {
       "id_": "S(H2O2,l)",
       "name": "entropia do peróxido de hidrogênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2O2,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{H2O2,\\,\\text{l}})",
       "value": "110",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5539,7 +5539,7 @@
     {
       "id_": "S(H2O2,aq)",
       "name": "entropia do peróxido de hidrogênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2O2,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{H2O2,\\,\\text{aq}})",
       "value": "144",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5562,7 +5562,7 @@
     },
     {
       "id_": "CP(H3O+,aq)",
-      "name": "capacidade calorífica a pressão constante do hidrônio",
+      "name": "capacidade calorífica em pressão constante do hidrônio",
       "symbol": "C_P(\\ce{H3O^+,\\,\\text{aq}})",
       "value": "75",
       "unit": "J.K-1.mol-1",
@@ -5571,7 +5571,7 @@
     {
       "id_": "S(H3O+,aq)",
       "name": "entropia do hidrônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H3O^+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{H3O^+,\\,\\text{aq}})",
       "value": "69.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5594,7 +5594,7 @@
     },
     {
       "id_": "CP(I2,s)",
-      "name": "capacidade calorífica a pressão constante do iodo",
+      "name": "capacidade calorífica em pressão constante do iodo",
       "symbol": "C_P(\\ce{I2,\\,\\text{s}})",
       "value": "54",
       "unit": "J.K-1.mol-1",
@@ -5603,7 +5603,7 @@
     {
       "id_": "S(I2,s)",
       "name": "entropia do iodo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{I2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{I2,\\,\\text{s}})",
       "value": "116",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5626,7 +5626,7 @@
     },
     {
       "id_": "CP(I2,g)",
-      "name": "capacidade calorífica a pressão constante do iodo",
+      "name": "capacidade calorífica em pressão constante do iodo",
       "symbol": "C_P(\\ce{I2,\\,\\text{g}})",
       "value": "37",
       "unit": "J.K-1.mol-1",
@@ -5635,7 +5635,7 @@
     {
       "id_": "S(I2,g)",
       "name": "entropia do iodo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{I2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{I2,\\,\\text{g}})",
       "value": "261",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5659,7 +5659,7 @@
     {
       "id_": "S(I,aq)",
       "name": "entropia do iodo atômico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{I,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{I,\\,\\text{aq}})",
       "value": "111",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5682,7 +5682,7 @@
     },
     {
       "id_": "CP(HI,g)",
-      "name": "capacidade calorífica a pressão constante do ácido iodídrico",
+      "name": "capacidade calorífica em pressão constante do ácido iodídrico",
       "symbol": "C_P(\\ce{HI,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -5691,7 +5691,7 @@
     {
       "id_": "S(HI,g)",
       "name": "entropia do ácido iodídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HI,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HI,\\,\\text{g}})",
       "value": "207",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5714,7 +5714,7 @@
     },
     {
       "id_": "CP(Fe,s)",
-      "name": "capacidade calorífica a pressão constante do ferro",
+      "name": "capacidade calorífica em pressão constante do ferro",
       "symbol": "C_P(\\ce{Fe,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -5723,7 +5723,7 @@
     {
       "id_": "S(Fe,s)",
       "name": "entropia do ferro",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Fe,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Fe,\\,\\text{s}})",
       "value": "27.3",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5747,7 +5747,7 @@
     {
       "id_": "S(Fe+2,aq)",
       "name": "entropia do cátion ferro (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Fe^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Fe^2+,\\,\\text{aq}})",
       "value": "-138",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5771,7 +5771,7 @@
     {
       "id_": "S(Fe+3,aq)",
       "name": "entropia do cátion ferro (III)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Fe^3+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Fe^3+,\\,\\text{aq}})",
       "value": "-316",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5794,7 +5794,7 @@
     },
     {
       "id_": "CP(Fe3O4,s)",
-      "name": "capacidade calorífica a pressão constante da magnetita",
+      "name": "capacidade calorífica em pressão constante da magnetita",
       "symbol": "C_P(\\ce{Fe3O4,\\,\\text{s}})",
       "value": "140",
       "unit": "J.K-1.mol-1",
@@ -5803,7 +5803,7 @@
     {
       "id_": "S(Fe3O4,s)",
       "name": "entropia da magnetita",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Fe3O4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Fe3O4,\\,\\text{s}})",
       "value": "146",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5826,7 +5826,7 @@
     },
     {
       "id_": "CP(Fe2O3,s)",
-      "name": "capacidade calorífica a pressão constante da hematita",
+      "name": "capacidade calorífica em pressão constante da hematita",
       "symbol": "C_P(\\ce{Fe2O3,\\,\\text{s}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -5835,7 +5835,7 @@
     {
       "id_": "S(Fe2O3,s)",
       "name": "entropia da hematita",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Fe2O3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Fe2O3,\\,\\text{s}})",
       "value": "87.4",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5858,7 +5858,7 @@
     },
     {
       "id_": "CP(FeS,s)",
-      "name": "capacidade calorífica a pressão constante do sulfeto de ferro (II)",
+      "name": "capacidade calorífica em pressão constante do sulfeto de ferro (II)",
       "symbol": "C_P(\\ce{FeS,\\,\\text{s}})",
       "value": "51",
       "unit": "J.K-1.mol-1",
@@ -5867,7 +5867,7 @@
     {
       "id_": "S(FeS,s)",
       "name": "entropia do sulfeto de ferro (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{FeS,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{FeS,\\,\\text{s}})",
       "value": "60.3",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5898,7 +5898,7 @@
     },
     {
       "id_": "CP(FeS2,s)",
-      "name": "capacidade calorífica a pressão constante da pirita",
+      "name": "capacidade calorífica em pressão constante da pirita",
       "symbol": "C_P(\\ce{FeS2,\\,\\text{s}})",
       "value": "62",
       "unit": "J.K-1.mol-1",
@@ -5907,7 +5907,7 @@
     {
       "id_": "S(FeS2,s)",
       "name": "entropia da pirita",
-      "symbol": "\\Delta S^{\\circ}(\\ce{FeS2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{FeS2,\\,\\text{s}})",
       "value": "52.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5930,7 +5930,7 @@
     },
     {
       "id_": "CP(Pb,s)",
-      "name": "capacidade calorífica a pressão constante do chumbo",
+      "name": "capacidade calorífica em pressão constante do chumbo",
       "symbol": "C_P(\\ce{Pb,\\,\\text{s}})",
       "value": "26",
       "unit": "J.K-1.mol-1",
@@ -5939,7 +5939,7 @@
     {
       "id_": "S(Pb,s)",
       "name": "entropia do chumbo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Pb,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Pb,\\,\\text{s}})",
       "value": "64.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5963,7 +5963,7 @@
     {
       "id_": "S(Pb+2,aq)",
       "name": "entropia do cátion chumbo (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Pb^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Pb^2+,\\,\\text{aq}})",
       "value": "10.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -5986,7 +5986,7 @@
     },
     {
       "id_": "CP(PbO2,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de chumbo (IV)",
+      "name": "capacidade calorífica em pressão constante do óxido de chumbo (IV)",
       "symbol": "C_P(\\ce{PbO2,\\,\\text{s}})",
       "value": "65",
       "unit": "J.K-1.mol-1",
@@ -5995,7 +5995,7 @@
     {
       "id_": "S(PbO2,s)",
       "name": "entropia do óxido de chumbo (IV)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PbO2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{PbO2,\\,\\text{s}})",
       "value": "68.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6018,7 +6018,7 @@
     },
     {
       "id_": "CP(PbSO4,s)",
-      "name": "capacidade calorífica a pressão constante do sulfato de chumbo (II)",
+      "name": "capacidade calorífica em pressão constante do sulfato de chumbo (II)",
       "symbol": "C_P(\\ce{PbSO4,\\,\\text{s}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -6027,7 +6027,7 @@
     {
       "id_": "S(PbSO4,s)",
       "name": "entropia do sulfato de chumbo (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PbSO4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{PbSO4,\\,\\text{s}})",
       "value": "149",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6050,7 +6050,7 @@
     },
     {
       "id_": "CP(PbBr2,s)",
-      "name": "capacidade calorífica a pressão constante do brometo de chumbo (II)",
+      "name": "capacidade calorífica em pressão constante do brometo de chumbo (II)",
       "symbol": "C_P(\\ce{PbBr2,\\,\\text{s}})",
       "value": "80",
       "unit": "J.K-1.mol-1",
@@ -6059,7 +6059,7 @@
     {
       "id_": "S(PbBr2,s)",
       "name": "entropia do brometo de chumbo (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PbBr2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{PbBr2,\\,\\text{s}})",
       "value": "162",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6083,7 +6083,7 @@
     {
       "id_": "S(PbBr2,aq)",
       "name": "entropia do brometo de chumbo (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PbBr2,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{PbBr2,\\,\\text{aq}})",
       "value": "175",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6106,7 +6106,7 @@
     },
     {
       "id_": "CP(Mg,s)",
-      "name": "capacidade calorífica a pressão constante do magnésio",
+      "name": "capacidade calorífica em pressão constante do magnésio",
       "symbol": "C_P(\\ce{Mg,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -6115,7 +6115,7 @@
     {
       "id_": "S(Mg,s)",
       "name": "entropia do magnésio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Mg,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Mg,\\,\\text{s}})",
       "value": "32.7",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6138,7 +6138,7 @@
     },
     {
       "id_": "CP(Mg,g)",
-      "name": "capacidade calorífica a pressão constante do magnésio",
+      "name": "capacidade calorífica em pressão constante do magnésio",
       "symbol": "C_P(\\ce{Mg,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -6147,7 +6147,7 @@
     {
       "id_": "S(Mg,g)",
       "name": "entropia do magnésio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Mg,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Mg,\\,\\text{g}})",
       "value": "149",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6171,7 +6171,7 @@
     {
       "id_": "S(Mg+2,aq)",
       "name": "entropia do cátion magnésio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Mg^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Mg^2+,\\,\\text{aq}})",
       "value": "-138",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6194,7 +6194,7 @@
     },
     {
       "id_": "CP(MgO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de magnésio",
+      "name": "capacidade calorífica em pressão constante do óxido de magnésio",
       "symbol": "C_P(\\ce{MgO,\\,\\text{s}})",
       "value": "37",
       "unit": "J.K-1.mol-1",
@@ -6203,7 +6203,7 @@
     {
       "id_": "S(MgO,s)",
       "name": "entropia do óxido de magnésio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{MgO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{MgO,\\,\\text{s}})",
       "value": "26.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6226,7 +6226,7 @@
     },
     {
       "id_": "CP(MgCO3,s)",
-      "name": "capacidade calorífica a pressão constante do carbonato de magnésio",
+      "name": "capacidade calorífica em pressão constante do carbonato de magnésio",
       "symbol": "C_P(\\ce{MgCO3,\\,\\text{s}})",
       "value": "76",
       "unit": "J.K-1.mol-1",
@@ -6235,7 +6235,7 @@
     {
       "id_": "S(MgCO3,s)",
       "name": "entropia do carbonato de magnésio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{MgCO3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{MgCO3,\\,\\text{s}})",
       "value": "65.7",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6259,7 +6259,7 @@
     {
       "id_": "S(MgBr2,s)",
       "name": "entropia do brometo de magnésio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{MgBr2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{MgBr2,\\,\\text{s}})",
       "value": "117",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6282,7 +6282,7 @@
     },
     {
       "id_": "CP(Hg,l)",
-      "name": "capacidade calorífica a pressão constante do mercúrio",
+      "name": "capacidade calorífica em pressão constante do mercúrio",
       "symbol": "C_P(\\ce{Hg,\\,\\text{l}})",
       "value": "28",
       "unit": "J.K-1.mol-1",
@@ -6291,7 +6291,7 @@
     {
       "id_": "S(Hg,l)",
       "name": "entropia do mercúrio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Hg,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{Hg,\\,\\text{l}})",
       "value": "76.0",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6314,7 +6314,7 @@
     },
     {
       "id_": "CP(Hg,g)",
-      "name": "capacidade calorífica a pressão constante do mercúrio",
+      "name": "capacidade calorífica em pressão constante do mercúrio",
       "symbol": "C_P(\\ce{Hg,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -6323,7 +6323,7 @@
     {
       "id_": "S(Hg,g)",
       "name": "entropia do mercúrio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Hg,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Hg,\\,\\text{g}})",
       "value": "175",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6346,7 +6346,7 @@
     },
     {
       "id_": "CP(HgO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de mercúrio (II)",
+      "name": "capacidade calorífica em pressão constante do óxido de mercúrio (II)",
       "symbol": "C_P(\\ce{HgO,\\,\\text{s}})",
       "value": "44",
       "unit": "J.K-1.mol-1",
@@ -6355,7 +6355,7 @@
     {
       "id_": "S(HgO,s)",
       "name": "entropia do óxido de mercúrio (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HgO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{HgO,\\,\\text{s}})",
       "value": "70.3",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6378,7 +6378,7 @@
     },
     {
       "id_": "CP(Hg2Cl2,s)",
-      "name": "capacidade calorífica a pressão constante do cloreto de mercúrio (I)",
+      "name": "capacidade calorífica em pressão constante do cloreto de mercúrio (I)",
       "symbol": "C_P(\\ce{Hg2Cl2,\\,\\text{s}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -6387,7 +6387,7 @@
     {
       "id_": "S(Hg2Cl2,s)",
       "name": "entropia do cloreto de mercúrio (I)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Hg2Cl2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Hg2Cl2,\\,\\text{s}})",
       "value": "192",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6410,7 +6410,7 @@
     },
     {
       "id_": "CP(N2,g)",
-      "name": "capacidade calorífica a pressão constante do nitrogênio",
+      "name": "capacidade calorífica em pressão constante do nitrogênio",
       "symbol": "C_P(\\ce{N2,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -6419,7 +6419,7 @@
     {
       "id_": "S(N2,g)",
       "name": "entropia do nitrogênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{N2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{N2,\\,\\text{g}})",
       "value": "192",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6442,7 +6442,7 @@
     },
     {
       "id_": "CP(NO,g)",
-      "name": "capacidade calorífica a pressão constante do óxido nítrico",
+      "name": "capacidade calorífica em pressão constante do óxido nítrico",
       "symbol": "C_P(\\ce{NO,\\,\\text{g}})",
       "value": "30",
       "unit": "J.K-1.mol-1",
@@ -6451,7 +6451,7 @@
     {
       "id_": "S(NO,g)",
       "name": "entropia do óxido nítrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NO,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{NO,\\,\\text{g}})",
       "value": "211",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6474,7 +6474,7 @@
     },
     {
       "id_": "CP(N2O,g)",
-      "name": "capacidade calorífica a pressão constante do óxido nitroso",
+      "name": "capacidade calorífica em pressão constante do óxido nitroso",
       "symbol": "C_P(\\ce{N2O,\\,\\text{g}})",
       "value": "38",
       "unit": "J.K-1.mol-1",
@@ -6483,7 +6483,7 @@
     {
       "id_": "S(N2O,g)",
       "name": "entropia do óxido nitroso",
-      "symbol": "\\Delta S^{\\circ}(\\ce{N2O,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{N2O,\\,\\text{g}})",
       "value": "220",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6506,7 +6506,7 @@
     },
     {
       "id_": "CP(NO2,g)",
-      "name": "capacidade calorífica a pressão constante do dióxido de nitrogênio",
+      "name": "capacidade calorífica em pressão constante do dióxido de nitrogênio",
       "symbol": "C_P(\\ce{NO2,\\,\\text{g}})",
       "value": "37",
       "unit": "J.K-1.mol-1",
@@ -6515,7 +6515,7 @@
     {
       "id_": "S(NO2,g)",
       "name": "entropia do dióxido de nitrogênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NO2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{NO2,\\,\\text{g}})",
       "value": "240",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6538,7 +6538,7 @@
     },
     {
       "id_": "CP(N2O4,g)",
-      "name": "capacidade calorífica a pressão constante do tetróxido de dinitrogênio",
+      "name": "capacidade calorífica em pressão constante do tetróxido de dinitrogênio",
       "symbol": "C_P(\\ce{N2O4,\\,\\text{g}})",
       "value": "77",
       "unit": "J.K-1.mol-1",
@@ -6547,7 +6547,7 @@
     {
       "id_": "S(N2O4,g)",
       "name": "entropia do tetróxido de dinitrogênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{N2O4,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{N2O4,\\,\\text{g}})",
       "value": "304",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6570,7 +6570,7 @@
     },
     {
       "id_": "CP(HNO3,l)",
-      "name": "capacidade calorífica a pressão constante do ácido nítrico",
+      "name": "capacidade calorífica em pressão constante do ácido nítrico",
       "symbol": "C_P(\\ce{HNO3,\\,\\text{l}})",
       "value": "110",
       "unit": "J.K-1.mol-1",
@@ -6579,7 +6579,7 @@
     {
       "id_": "S(HNO3,l)",
       "name": "entropia do ácido nítrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HNO3,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{HNO3,\\,\\text{l}})",
       "value": "156",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6603,7 +6603,7 @@
     {
       "id_": "S(HNO3,aq)",
       "name": "entropia do ácido nítrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HNO3,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{HNO3,\\,\\text{aq}})",
       "value": "146",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6627,7 +6627,7 @@
     {
       "id_": "S(NO3-,aq)",
       "name": "entropia do nitrato",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NO3^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{NO3^-,\\,\\text{aq}})",
       "value": "146",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6650,7 +6650,7 @@
     },
     {
       "id_": "CP(NH3,g)",
-      "name": "capacidade calorífica a pressão constante da amônia",
+      "name": "capacidade calorífica em pressão constante da amônia",
       "symbol": "C_P(\\ce{NH3,\\,\\text{g}})",
       "value": "35",
       "unit": "J.K-1.mol-1",
@@ -6659,7 +6659,7 @@
     {
       "id_": "S(NH3,g)",
       "name": "entropia da amônia",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{NH3,\\,\\text{g}})",
       "value": "192",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6683,7 +6683,7 @@
     {
       "id_": "S(NH3,aq)",
       "name": "entropia da amônia",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH3,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{NH3,\\,\\text{aq}})",
       "value": "111",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6707,7 +6707,7 @@
     {
       "id_": "S(NH4+,aq)",
       "name": "entropia do amônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH4+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{NH4+,\\,\\text{aq}})",
       "value": "113",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6738,7 +6738,7 @@
     },
     {
       "id_": "CP(HN3,g)",
-      "name": "capacidade calorífica a pressão constante do ácido hidrazóico",
+      "name": "capacidade calorífica em pressão constante do ácido hidrazóico",
       "symbol": "C_P(\\ce{HN3,\\,\\text{g}})",
       "value": "99",
       "unit": "J.K-1.mol-1",
@@ -6747,7 +6747,7 @@
     {
       "id_": "S(HN3,g)",
       "name": "entropia do ácido hidrazóico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HN3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{HN3,\\,\\text{g}})",
       "value": "239",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6770,7 +6770,7 @@
     },
     {
       "id_": "CP(N2H4,l)",
-      "name": "capacidade calorífica a pressão constante da hidrazina",
+      "name": "capacidade calorífica em pressão constante da hidrazina",
       "symbol": "C_P(\\ce{N2H4,\\,\\text{l}})",
       "value": "140",
       "unit": "J.K-1.mol-1",
@@ -6779,7 +6779,7 @@
     {
       "id_": "S(N2H4,l)",
       "name": "entropia da hidrazina",
-      "symbol": "\\Delta S^{\\circ}(\\ce{N2H4,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{N2H4,\\,\\text{l}})",
       "value": "121",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6802,7 +6802,7 @@
     },
     {
       "id_": "CP(NH4NO3,s)",
-      "name": "capacidade calorífica a pressão constante do nitrato de amônio",
+      "name": "capacidade calorífica em pressão constante do nitrato de amônio",
       "symbol": "C_P(\\ce{NH4NO3,\\,\\text{s}})",
       "value": "84",
       "unit": "J.K-1.mol-1",
@@ -6811,7 +6811,7 @@
     {
       "id_": "S(NH4NO3,s)",
       "name": "entropia do nitrato de amônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH4NO3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NH4NO3,\\,\\text{s}})",
       "value": "151",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6835,7 +6835,7 @@
     {
       "id_": "S(NH4Cl,s)",
       "name": "entropia do cloreto de amônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH4Cl,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NH4Cl,\\,\\text{s}})",
       "value": "94.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6859,7 +6859,7 @@
     {
       "id_": "S(NH4ClO4,s)",
       "name": "entropia do perclorato de amônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NH4ClO4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NH4ClO4,\\,\\text{s}})",
       "value": "186",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6882,7 +6882,7 @@
     },
     {
       "id_": "CP(O2,g)",
-      "name": "capacidade calorífica a pressão constante do oxigênio",
+      "name": "capacidade calorífica em pressão constante do oxigênio",
       "symbol": "C_P(\\ce{O2,\\,\\text{g}})",
       "value": "29",
       "unit": "J.K-1.mol-1",
@@ -6891,7 +6891,7 @@
     {
       "id_": "S(O2,g)",
       "name": "entropia do oxigênio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{O2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{O2,\\,\\text{g}})",
       "value": "205",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6914,7 +6914,7 @@
     },
     {
       "id_": "CP(O3,g)",
-      "name": "capacidade calorífica a pressão constante do ozônio",
+      "name": "capacidade calorífica em pressão constante do ozônio",
       "symbol": "C_P(\\ce{O3,\\,\\text{g}})",
       "value": "39",
       "unit": "J.K-1.mol-1",
@@ -6923,7 +6923,7 @@
     {
       "id_": "S(O3,g)",
       "name": "entropia do ozônio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{O3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{O3,\\,\\text{g}})",
       "value": "239",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6947,7 +6947,7 @@
     {
       "id_": "S(OH-,aq)",
       "name": "entropia do hidróxido",
-      "symbol": "\\Delta S^{\\circ}(\\ce{OH^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{OH^-,\\,\\text{aq}})",
       "value": "-10.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -6970,7 +6970,7 @@
     },
     {
       "id_": "CP(P,branco)",
-      "name": "capacidade calorífica a pressão constante do fósforo branco",
+      "name": "capacidade calorífica em pressão constante do fósforo branco",
       "symbol": "C_P(\\ce{P,\\,\\text{branco}})",
       "value": "24",
       "unit": "J.K-1.mol-1",
@@ -6979,7 +6979,7 @@
     {
       "id_": "S(P,branco)",
       "name": "entropia do fósforo branco",
-      "symbol": "\\Delta S^{\\circ}(\\ce{P,\\,\\text{branco}})",
+      "symbol": "S^{\\circ}(\\ce{P,\\,\\text{branco}})",
       "value": "41.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7003,7 +7003,7 @@
     {
       "id_": "S(P,vermelho)",
       "name": "entropia do fósforo vermelho",
-      "symbol": "\\Delta S^{\\circ}(\\ce{P,\\,\\text{vermelho}})",
+      "symbol": "S^{\\circ}(\\ce{P,\\,\\text{vermelho}})",
       "value": "22.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7026,7 +7026,7 @@
     },
     {
       "id_": "CP(P4,g)",
-      "name": "capacidade calorífica a pressão constante do fósforo",
+      "name": "capacidade calorífica em pressão constante do fósforo",
       "symbol": "C_P(\\ce{P4,\\,\\text{g}})",
       "value": "67",
       "unit": "J.K-1.mol-1",
@@ -7035,7 +7035,7 @@
     {
       "id_": "S(P4,g)",
       "name": "entropia do fósforo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{P4,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{P4,\\,\\text{g}})",
       "value": "280",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7058,7 +7058,7 @@
     },
     {
       "id_": "CP(PH3,g)",
-      "name": "capacidade calorífica a pressão constante da fosfina",
+      "name": "capacidade calorífica em pressão constante da fosfina",
       "symbol": "C_P(\\ce{PH3,\\,\\text{g}})",
       "value": "37",
       "unit": "J.K-1.mol-1",
@@ -7067,7 +7067,7 @@
     {
       "id_": "S(PH3,g)",
       "name": "entropia da fosfina",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PH3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{PH3,\\,\\text{g}})",
       "value": "210",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7107,7 +7107,7 @@
     {
       "id_": "S(P4O10,s)",
       "name": "entropia do pentóxido de fósforo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{P4O10,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{P4O10,\\,\\text{s}})",
       "value": "229",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7147,7 +7147,7 @@
     {
       "id_": "S(H3PO4,aq)",
       "name": "entropia do ácido fosfórico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H3PO4,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{H3PO4,\\,\\text{aq}})",
       "value": "158",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7171,7 +7171,7 @@
     {
       "id_": "S(PCl3,l)",
       "name": "entropia do tricloreto de fósforo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PCl3,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{PCl3,\\,\\text{l}})",
       "value": "217",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7194,7 +7194,7 @@
     },
     {
       "id_": "CP(PCl3,g)",
-      "name": "capacidade calorífica a pressão constante do tricloreto de fósforo",
+      "name": "capacidade calorífica em pressão constante do tricloreto de fósforo",
       "symbol": "C_P(\\ce{PCl3,\\,\\text{g}})",
       "value": "72",
       "unit": "J.K-1.mol-1",
@@ -7203,7 +7203,7 @@
     {
       "id_": "S(PCl3,g)",
       "name": "entropia do tricloreto de fósforo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PCl3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{PCl3,\\,\\text{g}})",
       "value": "312",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7226,7 +7226,7 @@
     },
     {
       "id_": "CP(PCl5,g)",
-      "name": "capacidade calorífica a pressão constante do pentacloreto de fósforo",
+      "name": "capacidade calorífica em pressão constante do pentacloreto de fósforo",
       "symbol": "C_P(\\ce{PCl5,\\,\\text{g}})",
       "value": "110",
       "unit": "J.K-1.mol-1",
@@ -7235,7 +7235,7 @@
     {
       "id_": "S(PCl5,g)",
       "name": "entropia do pentacloreto de fósforo",
-      "symbol": "\\Delta S^{\\circ}(\\ce{PCl5,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{PCl5,\\,\\text{g}})",
       "value": "365",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7266,7 +7266,7 @@
     },
     {
       "id_": "CP(K,s)",
-      "name": "capacidade calorífica a pressão constante do potássio",
+      "name": "capacidade calorífica em pressão constante do potássio",
       "symbol": "C_P(\\ce{K,\\,\\text{s}})",
       "value": "30",
       "unit": "J.K-1.mol-1",
@@ -7275,7 +7275,7 @@
     {
       "id_": "S(K,s)",
       "name": "entropia do potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{K,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{K,\\,\\text{s}})",
       "value": "64.2",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7298,7 +7298,7 @@
     },
     {
       "id_": "CP(K,g)",
-      "name": "capacidade calorífica a pressão constante do potássio",
+      "name": "capacidade calorífica em pressão constante do potássio",
       "symbol": "C_P(\\ce{K,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -7307,7 +7307,7 @@
     {
       "id_": "S(K,g)",
       "name": "entropia do potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{K,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{K,\\,\\text{g}})",
       "value": "160",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7331,7 +7331,7 @@
     {
       "id_": "S(K+,aq)",
       "name": "entropia do cátion potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{K^+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{K^+,\\,\\text{aq}})",
       "value": "102",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7354,7 +7354,7 @@
     },
     {
       "id_": "CP(KOH,s)",
-      "name": "capacidade calorífica a pressão constante do hidróxido de potássio",
+      "name": "capacidade calorífica em pressão constante do hidróxido de potássio",
       "symbol": "C_P(\\ce{KOH,\\,\\text{s}})",
       "value": "65",
       "unit": "J.K-1.mol-1",
@@ -7363,7 +7363,7 @@
     {
       "id_": "S(KOH,s)",
       "name": "entropia do hidróxido de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KOH,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KOH,\\,\\text{s}})",
       "value": "78.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7387,7 +7387,7 @@
     {
       "id_": "S(KOH,aq)",
       "name": "entropia do hidróxido de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KOH,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{KOH,\\,\\text{aq}})",
       "value": "91.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7410,7 +7410,7 @@
     },
     {
       "id_": "CP(KF,s)",
-      "name": "capacidade calorífica a pressão constante do fluoreto de potássio",
+      "name": "capacidade calorífica em pressão constante do fluoreto de potássio",
       "symbol": "C_P(\\ce{KF,\\,\\text{s}})",
       "value": "49",
       "unit": "J.K-1.mol-1",
@@ -7419,7 +7419,7 @@
     {
       "id_": "S(KF,s)",
       "name": "entropia do fluoreto de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KF,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KF,\\,\\text{s}})",
       "value": "66.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7442,7 +7442,7 @@
     },
     {
       "id_": "CP(KCl,s)",
-      "name": "capacidade calorífica a pressão constante do cloreto de potássio",
+      "name": "capacidade calorífica em pressão constante do cloreto de potássio",
       "symbol": "C_P(\\ce{KCl,\\,\\text{s}})",
       "value": "51",
       "unit": "J.K-1.mol-1",
@@ -7451,7 +7451,7 @@
     {
       "id_": "S(KCl,s)",
       "name": "entropia do cloreto de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KCl,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KCl,\\,\\text{s}})",
       "value": "82.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7474,7 +7474,7 @@
     },
     {
       "id_": "CP(KBr,s)",
-      "name": "capacidade calorífica a pressão constante do brometo de potássio",
+      "name": "capacidade calorífica em pressão constante do brometo de potássio",
       "symbol": "C_P(\\ce{KBr,\\,\\text{s}})",
       "value": "52",
       "unit": "J.K-1.mol-1",
@@ -7483,7 +7483,7 @@
     {
       "id_": "S(KBr,s)",
       "name": "entropia do brometo de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KBr,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KBr,\\,\\text{s}})",
       "value": "95.9",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7506,7 +7506,7 @@
     },
     {
       "id_": "CP(KI,s)",
-      "name": "capacidade calorífica a pressão constante do iodeto de potássio",
+      "name": "capacidade calorífica em pressão constante do iodeto de potássio",
       "symbol": "C_P(\\ce{KI,\\,\\text{s}})",
       "value": "53",
       "unit": "J.K-1.mol-1",
@@ -7515,7 +7515,7 @@
     {
       "id_": "S(KI,s)",
       "name": "entropia do iodeto de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KI,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KI,\\,\\text{s}})",
       "value": "106",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7538,7 +7538,7 @@
     },
     {
       "id_": "CP(KClO3,s)",
-      "name": "capacidade calorífica a pressão constante do clorato de potássio",
+      "name": "capacidade calorífica em pressão constante do clorato de potássio",
       "symbol": "C_P(\\ce{KClO3,\\,\\text{s}})",
       "value": "100",
       "unit": "J.K-1.mol-1",
@@ -7547,7 +7547,7 @@
     {
       "id_": "S(KClO3,s)",
       "name": "entropia do clorato de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KClO3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KClO3,\\,\\text{s}})",
       "value": "143",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7570,7 +7570,7 @@
     },
     {
       "id_": "CP(KClO4,s)",
-      "name": "capacidade calorífica a pressão constante do perclorato de potássio",
+      "name": "capacidade calorífica em pressão constante do perclorato de potássio",
       "symbol": "C_P(\\ce{KClO4,\\,\\text{s}})",
       "value": "110",
       "unit": "J.K-1.mol-1",
@@ -7579,7 +7579,7 @@
     {
       "id_": "S(KClO4,s)",
       "name": "entropia do perclorato de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{KClO4,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{KClO4,\\,\\text{s}})",
       "value": "151",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7603,7 +7603,7 @@
     {
       "id_": "S(K2S,s)",
       "name": "entropia do sulfeto de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{K2S,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{K2S,\\,\\text{s}})",
       "value": "105",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7627,7 +7627,7 @@
     {
       "id_": "S(K2S,aq)",
       "name": "entropia do sulfeto de potássio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{K2S,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{K2S,\\,\\text{aq}})",
       "value": "190",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7650,7 +7650,7 @@
     },
     {
       "id_": "CP(Si,s)",
-      "name": "capacidade calorífica a pressão constante do silício",
+      "name": "capacidade calorífica em pressão constante do silício",
       "symbol": "C_P(\\ce{Si,\\,\\text{s}})",
       "value": "20",
       "unit": "J.K-1.mol-1",
@@ -7659,7 +7659,7 @@
     {
       "id_": "S(Si,s)",
       "name": "entropia do silício",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Si,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Si,\\,\\text{s}})",
       "value": "18.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7682,7 +7682,7 @@
     },
     {
       "id_": "CP(SiO2,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de silício",
+      "name": "capacidade calorífica em pressão constante do óxido de silício",
       "symbol": "C_P(\\ce{SiO2,\\,\\text{s}})",
       "value": "44",
       "unit": "J.K-1.mol-1",
@@ -7691,7 +7691,7 @@
     {
       "id_": "S(SiO2,s)",
       "name": "entropia do óxido de silício",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SiO2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{SiO2,\\,\\text{s}})",
       "value": "41.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7714,7 +7714,7 @@
     },
     {
       "id_": "CP(Ag,s)",
-      "name": "capacidade calorífica a pressão constante da prata",
+      "name": "capacidade calorífica em pressão constante da prata",
       "symbol": "C_P(\\ce{Ag,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -7723,7 +7723,7 @@
     {
       "id_": "S(Ag,s)",
       "name": "entropia da prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ag,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Ag,\\,\\text{s}})",
       "value": "42.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7747,7 +7747,7 @@
     {
       "id_": "S(Ag+,aq)",
       "name": "entropia do cátion prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ag^+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Ag^+,\\,\\text{aq}})",
       "value": "72.7",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7770,7 +7770,7 @@
     },
     {
       "id_": "CP(Ag2O,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de prata",
+      "name": "capacidade calorífica em pressão constante do óxido de prata",
       "symbol": "C_P(\\ce{Ag2O,\\,\\text{s}})",
       "value": "66",
       "unit": "J.K-1.mol-1",
@@ -7779,7 +7779,7 @@
     {
       "id_": "S(Ag2O,s)",
       "name": "entropia do óxido de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Ag2O,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Ag2O,\\,\\text{s}})",
       "value": "121",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7802,7 +7802,7 @@
     },
     {
       "id_": "CP(AgBr,s)",
-      "name": "capacidade calorífica a pressão constante do brometo de prata",
+      "name": "capacidade calorífica em pressão constante do brometo de prata",
       "symbol": "C_P(\\ce{AgBr,\\,\\text{s}})",
       "value": "52",
       "unit": "J.K-1.mol-1",
@@ -7811,7 +7811,7 @@
     {
       "id_": "S(AgBr,s)",
       "name": "entropia do brometo de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgBr,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{AgBr,\\,\\text{s}})",
       "value": "107",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7835,7 +7835,7 @@
     {
       "id_": "S(AgBr,aq)",
       "name": "entropia do brometo de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgBr,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{AgBr,\\,\\text{aq}})",
       "value": "155",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7858,7 +7858,7 @@
     },
     {
       "id_": "CP(AgCl,s)",
-      "name": "capacidade calorífica a pressão constante do cloreto de prata",
+      "name": "capacidade calorífica em pressão constante do cloreto de prata",
       "symbol": "C_P(\\ce{AgCl,\\,\\text{s}})",
       "value": "51",
       "unit": "J.K-1.mol-1",
@@ -7867,7 +7867,7 @@
     {
       "id_": "S(AgCl,s)",
       "name": "entropia do cloreto de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgCl,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{AgCl,\\,\\text{s}})",
       "value": "96.2",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7891,7 +7891,7 @@
     {
       "id_": "S(AgCl,aq)",
       "name": "entropia do cloreto de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgCl,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{AgCl,\\,\\text{aq}})",
       "value": "129",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7914,7 +7914,7 @@
     },
     {
       "id_": "CP(AgI,s)",
-      "name": "capacidade calorífica a pressão constante do iodeto de prata",
+      "name": "capacidade calorífica em pressão constante do iodeto de prata",
       "symbol": "C_P(\\ce{AgI,\\,\\text{s}})",
       "value": "57",
       "unit": "J.K-1.mol-1",
@@ -7923,7 +7923,7 @@
     {
       "id_": "S(AgI,s)",
       "name": "entropia do iodeto de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgI,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{AgI,\\,\\text{s}})",
       "value": "116",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7947,7 +7947,7 @@
     {
       "id_": "S(AgI,aq)",
       "name": "entropia do iodeto de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgI,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{AgI,\\,\\text{aq}})",
       "value": "184",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -7970,7 +7970,7 @@
     },
     {
       "id_": "CP(AgNO3,s)",
-      "name": "capacidade calorífica a pressão constante do nitrato de prata",
+      "name": "capacidade calorífica em pressão constante do nitrato de prata",
       "symbol": "C_P(\\ce{AgNO3,\\,\\text{s}})",
       "value": "93",
       "unit": "J.K-1.mol-1",
@@ -7979,7 +7979,7 @@
     {
       "id_": "S(AgNO3,s)",
       "name": "entropia do nitrato de prata",
-      "symbol": "\\Delta S^{\\circ}(\\ce{AgNO3,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{AgNO3,\\,\\text{s}})",
       "value": "141",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8002,7 +8002,7 @@
     },
     {
       "id_": "CP(Na,s)",
-      "name": "capacidade calorífica a pressão constante do sódio",
+      "name": "capacidade calorífica em pressão constante do sódio",
       "symbol": "C_P(\\ce{Na,\\,\\text{s}})",
       "value": "28",
       "unit": "J.K-1.mol-1",
@@ -8011,7 +8011,7 @@
     {
       "id_": "S(Na,s)",
       "name": "entropia do sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Na,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Na,\\,\\text{s}})",
       "value": "51.2",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8034,7 +8034,7 @@
     },
     {
       "id_": "CP(Na,g)",
-      "name": "capacidade calorífica a pressão constante do sódio",
+      "name": "capacidade calorífica em pressão constante do sódio",
       "symbol": "C_P(\\ce{Na,\\,\\text{g}})",
       "value": "21",
       "unit": "J.K-1.mol-1",
@@ -8043,7 +8043,7 @@
     {
       "id_": "S(Na,g)",
       "name": "entropia do sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Na,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{Na,\\,\\text{g}})",
       "value": "154",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8067,7 +8067,7 @@
     {
       "id_": "S(Na+,aq)",
       "name": "entropia do cátion sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Na^+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Na^+,\\,\\text{aq}})",
       "value": "59",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8090,7 +8090,7 @@
     },
     {
       "id_": "CP(NaOH,s)",
-      "name": "capacidade calorífica a pressão constante do hidróxido de sódio",
+      "name": "capacidade calorífica em pressão constante do hidróxido de sódio",
       "symbol": "C_P(\\ce{NaOH,\\,\\text{s}})",
       "value": "60",
       "unit": "J.K-1.mol-1",
@@ -8099,7 +8099,7 @@
     {
       "id_": "S(NaOH,s)",
       "name": "entropia do hidróxido de sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NaOH,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NaOH,\\,\\text{s}})",
       "value": "64.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8123,7 +8123,7 @@
     {
       "id_": "S(NaOH,aq)",
       "name": "entropia do hidróxido de sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NaOH,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{NaOH,\\,\\text{aq}})",
       "value": "48.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8146,7 +8146,7 @@
     },
     {
       "id_": "CP(NaCl,s)",
-      "name": "capacidade calorífica a pressão constante do cloreto de sódio",
+      "name": "capacidade calorífica em pressão constante do cloreto de sódio",
       "symbol": "C_P(\\ce{NaCl,\\,\\text{s}})",
       "value": "50",
       "unit": "J.K-1.mol-1",
@@ -8155,7 +8155,7 @@
     {
       "id_": "S(NaCl,s)",
       "name": "entropia do cloreto de sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NaCl,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NaCl,\\,\\text{s}})",
       "value": "72.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8178,7 +8178,7 @@
     },
     {
       "id_": "CP(NaBr,s)",
-      "name": "capacidade calorífica a pressão constante do brometo de sódio",
+      "name": "capacidade calorífica em pressão constante do brometo de sódio",
       "symbol": "C_P(\\ce{NaBr,\\,\\text{s}})",
       "value": "51",
       "unit": "J.K-1.mol-1",
@@ -8187,7 +8187,7 @@
     {
       "id_": "S(NaBr,s)",
       "name": "entropia do brometo de sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NaBr,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NaBr,\\,\\text{s}})",
       "value": "86.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8210,7 +8210,7 @@
     },
     {
       "id_": "CP(NaI,s)",
-      "name": "capacidade calorífica a pressão constante do iodeto de sódio",
+      "name": "capacidade calorífica em pressão constante do iodeto de sódio",
       "symbol": "C_P(\\ce{NaI,\\,\\text{s}})",
       "value": "52",
       "unit": "J.K-1.mol-1",
@@ -8219,7 +8219,7 @@
     {
       "id_": "S(NaI,s)",
       "name": "entropia do iodeto de sódio",
-      "symbol": "\\Delta S^{\\circ}(\\ce{NaI,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{NaI,\\,\\text{s}})",
       "value": "98.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8242,7 +8242,7 @@
     },
     {
       "id_": "CP(S,rombico)",
-      "name": "capacidade calorífica a pressão constante do enxofre rômbico",
+      "name": "capacidade calorífica em pressão constante do enxofre rômbico",
       "symbol": "C_P(\\ce{S,\\,\\text{rômbico}})",
       "value": "23",
       "unit": "J.K-1.mol-1",
@@ -8251,7 +8251,7 @@
     {
       "id_": "S(S,rombico)",
       "name": "entropia do enxofre rômbico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{S,\\,\\text{rômbico}})",
+      "symbol": "S^{\\circ}(\\ce{S,\\,\\text{rômbico}})",
       "value": "31.8",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8274,7 +8274,7 @@
     },
     {
       "id_": "CP(S,monoclinico)",
-      "name": "capacidade calorífica a pressão constante do enxofre monoclínico",
+      "name": "capacidade calorífica em pressão constante do enxofre monoclínico",
       "symbol": "C_P(\\ce{S,\\,\\text{monoclínico}})",
       "value": "24",
       "unit": "J.K-1.mol-1",
@@ -8283,7 +8283,7 @@
     {
       "id_": "S(S,monoclinico)",
       "name": "entropia do enxofre monoclínico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{S,\\,\\text{monoclínico}})",
+      "symbol": "S^{\\circ}(\\ce{S,\\,\\text{monoclínico}})",
       "value": "32.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8307,7 +8307,7 @@
     {
       "id_": "S(S-2,aq)",
       "name": "entropia do sulfeto",
-      "symbol": "\\Delta S^{\\circ}(\\ce{S^2-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{S^2-,\\,\\text{aq}})",
       "value": "-14.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8330,7 +8330,7 @@
     },
     {
       "id_": "CP(SO2,g)",
-      "name": "capacidade calorífica a pressão constante do dióxido de enxofre",
+      "name": "capacidade calorífica em pressão constante do dióxido de enxofre",
       "symbol": "C_P(\\ce{SO2,\\,\\text{g}})",
       "value": "40",
       "unit": "J.K-1.mol-1",
@@ -8339,7 +8339,7 @@
     {
       "id_": "S(SO2,g)",
       "name": "entropia do dióxido de enxofre",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SO2,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{SO2,\\,\\text{g}})",
       "value": "248",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8362,7 +8362,7 @@
     },
     {
       "id_": "CP(SO3,g)",
-      "name": "capacidade calorífica a pressão constante do trióxido de enxofre",
+      "name": "capacidade calorífica em pressão constante do trióxido de enxofre",
       "symbol": "C_P(\\ce{SO3,\\,\\text{g}})",
       "value": "51",
       "unit": "J.K-1.mol-1",
@@ -8371,7 +8371,7 @@
     {
       "id_": "S(SO3,g)",
       "name": "entropia do trióxido de enxofre",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SO3,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{SO3,\\,\\text{g}})",
       "value": "257",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8394,7 +8394,7 @@
     },
     {
       "id_": "CP(H2SO4,l)",
-      "name": "capacidade calorífica a pressão constante do ácido sulfúrico",
+      "name": "capacidade calorífica em pressão constante do ácido sulfúrico",
       "symbol": "C_P(\\ce{H2SO4,\\,\\text{l}})",
       "value": "140",
       "unit": "J.K-1.mol-1",
@@ -8403,7 +8403,7 @@
     {
       "id_": "S(H2SO4,l)",
       "name": "entropia do ácido sulfúrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2SO4,\\,\\text{l}})",
+      "symbol": "S^{\\circ}(\\ce{H2SO4,\\,\\text{l}})",
       "value": "157",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8427,7 +8427,7 @@
     {
       "id_": "S(SO4-2,aq)",
       "name": "entropia do sulfato",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SO4^2-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{SO4^2-,\\,\\text{aq}})",
       "value": "20.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8451,7 +8451,7 @@
     {
       "id_": "S(HSO4-,aq)",
       "name": "entropia do hidrogenossulfato",
-      "symbol": "\\Delta S^{\\circ}(\\ce{HSO4^-,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{HSO4^-,\\,\\text{aq}})",
       "value": "132",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8474,7 +8474,7 @@
     },
     {
       "id_": "CP(H2S,g)",
-      "name": "capacidade calorífica a pressão constante do ácido sulfídrico",
+      "name": "capacidade calorífica em pressão constante do ácido sulfídrico",
       "symbol": "C_P(\\ce{H2S,\\,\\text{g}})",
       "value": "34",
       "unit": "J.K-1.mol-1",
@@ -8483,7 +8483,7 @@
     {
       "id_": "S(H2S,g)",
       "name": "entropia do ácido sulfídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2S,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{H2S,\\,\\text{g}})",
       "value": "206",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8507,7 +8507,7 @@
     {
       "id_": "S(H2S,aq)",
       "name": "entropia do ácido sulfídrico",
-      "symbol": "\\Delta S^{\\circ}(\\ce{H2S,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{H2S,\\,\\text{aq}})",
       "value": "121",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8530,7 +8530,7 @@
     },
     {
       "id_": "CP(SF6,g)",
-      "name": "capacidade calorífica a pressão constante do hexafluoreto de enxofre",
+      "name": "capacidade calorífica em pressão constante do hexafluoreto de enxofre",
       "symbol": "C_P(\\ce{SF6,\\,\\text{g}})",
       "value": "97",
       "unit": "J.K-1.mol-1",
@@ -8539,7 +8539,7 @@
     {
       "id_": "S(SF6,g)",
       "name": "entropia do hexafluoreto de enxofre",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SF6,\\,\\text{g}})",
+      "symbol": "S^{\\circ}(\\ce{SF6,\\,\\text{g}})",
       "value": "292",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8562,7 +8562,7 @@
     },
     {
       "id_": "CP(Sn,branco)",
-      "name": "capacidade calorífica a pressão constante do estanho branco",
+      "name": "capacidade calorífica em pressão constante do estanho branco",
       "symbol": "C_P(\\ce{Sn,\\,\\text{branco}})",
       "value": "27",
       "unit": "J.K-1.mol-1",
@@ -8571,7 +8571,7 @@
     {
       "id_": "S(Sn,branco)",
       "name": "entropia do estanho branco",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Sn,\\,\\text{branco}})",
+      "symbol": "S^{\\circ}(\\ce{Sn,\\,\\text{branco}})",
       "value": "51.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8594,7 +8594,7 @@
     },
     {
       "id_": "CP(Sn,cinza)",
-      "name": "capacidade calorífica a pressão constante do estanho cinza",
+      "name": "capacidade calorífica em pressão constante do estanho cinza",
       "symbol": "C_P(\\ce{Sn,\\,\\text{cinza}})",
       "value": "26",
       "unit": "J.K-1.mol-1",
@@ -8603,7 +8603,7 @@
     {
       "id_": "S(Sn,cinza)",
       "name": "entropia do estanho cinza",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Sn,\\,\\text{cinza}})",
+      "symbol": "S^{\\circ}(\\ce{Sn,\\,\\text{cinza}})",
       "value": "44.1",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8626,7 +8626,7 @@
     },
     {
       "id_": "CP(SnO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de estanho (II)",
+      "name": "capacidade calorífica em pressão constante do óxido de estanho (II)",
       "symbol": "C_P(\\ce{SnO,\\,\\text{s}})",
       "value": "44",
       "unit": "J.K-1.mol-1",
@@ -8635,7 +8635,7 @@
     {
       "id_": "S(SnO,s)",
       "name": "entropia do óxido de estanho (II)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SnO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{SnO,\\,\\text{s}})",
       "value": "56.5",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8658,7 +8658,7 @@
     },
     {
       "id_": "CP(SnO2,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de estanho (IV)",
+      "name": "capacidade calorífica em pressão constante do óxido de estanho (IV)",
       "symbol": "C_P(\\ce{SnO2,\\,\\text{s}})",
       "value": "53",
       "unit": "J.K-1.mol-1",
@@ -8667,7 +8667,7 @@
     {
       "id_": "S(SnO2,s)",
       "name": "entropia do óxido de estanho (IV)",
-      "symbol": "\\Delta S^{\\circ}(\\ce{SnO2,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{SnO2,\\,\\text{s}})",
       "value": "52.3",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8690,7 +8690,7 @@
     },
     {
       "id_": "CP(Zn,s)",
-      "name": "capacidade calorífica a pressão constante do zinco",
+      "name": "capacidade calorífica em pressão constante do zinco",
       "symbol": "C_P(\\ce{Zn,\\,\\text{s}})",
       "value": "25",
       "unit": "J.K-1.mol-1",
@@ -8699,7 +8699,7 @@
     {
       "id_": "S(Zn,s)",
       "name": "entropia do zinco",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Zn,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{Zn,\\,\\text{s}})",
       "value": "41.6",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8723,7 +8723,7 @@
     {
       "id_": "S(Zn+2,aq)",
       "name": "entropia do cátion zinco",
-      "symbol": "\\Delta S^{\\circ}(\\ce{Zn^2+,\\,\\text{aq}})",
+      "symbol": "S^{\\circ}(\\ce{Zn^2+,\\,\\text{aq}})",
       "value": "-112",
       "unit": "J.K-1.mol-1",
       "prec": 3
@@ -8746,7 +8746,7 @@
     },
     {
       "id_": "CP(ZnO,s)",
-      "name": "capacidade calorífica a pressão constante do óxido de zinco",
+      "name": "capacidade calorífica em pressão constante do óxido de zinco",
       "symbol": "C_P(\\ce{ZnO,\\,\\text{s}})",
       "value": "40",
       "unit": "J.K-1.mol-1",
@@ -8755,7 +8755,7 @@
     {
       "id_": "S(ZnO,s)",
       "name": "entropia do óxido de zinco",
-      "symbol": "\\Delta S^{\\circ}(\\ce{ZnO,\\,\\text{s}})",
+      "symbol": "S^{\\circ}(\\ce{ZnO,\\,\\text{s}})",
       "value": "43.6",
       "unit": "J.K-1.mol-1",
       "prec": 3

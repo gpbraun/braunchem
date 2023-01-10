@@ -1,48 +1,359 @@
 {
   "id_": "root",
   "title": "ROOT",
-  "date": "2023-01-09T15:37:55.102458",
+  "date": "2023-01-09T22:04:22.122438",
   "problems": [
     {
-      "id_": "2A20",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A20/2A20.md",
-      "date": "2023-01-09T18:05:49.257674",
+      "id_": "2B17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B17/2B17.md",
+      "date": "2023-01-09T23:32:05.664432",
       "statement": {
-        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,36 g}\\)</span> de pentano,\n<span class=\"math inline\">\\(\\ce{C5H12}\\)</span>, queimam em excesso de\noxigênio em um calorímetro com capacidade calorífica <span class=\"math inline\">\\(\\pu{220 J.K-1}\\)</span>, a temperatura aumenta em\n<span class=\"math inline\">\\(\\pu{80 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão do pentano.</p>",
-        "md": "Quando $\\pu{0,36 g}$ de pentano, $\\ce{C5H12}$, queimam em excesso de\noxigênio em um calorímetro com capacidade calorífica $\\pu{220 J.K-1}$, a\ntemperatura aumenta em $\\pu{80 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo pentano.\n",
-        "tex": "Quando {\\(\\qty{0,36}{\\unit{g}}\\)} de pentano, {\\(\\ce{C5H12}\\)}, queimam em excesso de oxigênio em um calorímetro com capacidade calorífica\n{\\(\\qty{220}{\\unit{J.K^{-1}}}\\)}, a temperatura aumenta em {\\(\\qty{80}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão do pentano.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de fusão do mercúrio no ponto de ebulição.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nfusão do mercúrio no ponto de ebulição.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de fusão do mercúrio no ponto de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hfus(Hg)",
+            "name": "entalpia de fusão do mercúrio",
+            "symbol": "\\Delta H_\\mathrm{fus}^{\\circ}(\\ce{Hg})",
+            "value": 2.29,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "Tfus(Hg)",
+            "name": "temperatura de fusão do mercúrio",
+            "symbol": "T_\\mathrm{fus}(\\ce{Hg})",
+            "value": -38.8,
+            "unit": "\\degree C",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,0 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{7,0 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{7,0}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,8 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{9,8 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{9,8}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{14 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{14}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{19 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{19}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{27 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{27 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{27}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2B14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B14/2B14.md",
+      "date": "2023-01-09T23:30:48.600124",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de vaporização do argônio no ponto de ebulição.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nvaporização do argônio no ponto de ebulição.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de vaporização do argônio no ponto de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hvap(H2O)",
+            "name": "entalpia de vaporização da água",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
+            "value": 40.7,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{16 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{16 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{16}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{26 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{26}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{42 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{42 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{42}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{68 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{68 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{68}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{110 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{110 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{110}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2B01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B01/2B01.md",
+      "date": "2023-01-09T22:40:50.349957",
+      "statement": {
+        "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{2 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{He}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{30 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{4 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
+        "md": "Um cilindro de volume $\\pu{2 L}$ contém $\\pu{1 mol}$ de gás $\\ce{He}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{30 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{4 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
+        "tex": "Um cilindro de volume {\\(\\qty{2}{\\unit{L}}\\)} contém {\\(\\qty{1}{\\unit{mol}}\\)} de gás {\\(\\ce{He}\\)} e está imerso em um banho de água na temperatura\nconstante de {\\(\\qty{30}{\\unit{\\degree C}}\\)}. O sistema sofre uma expansão isotérmica reversível até {\\(\\qty{4}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo gás.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,0 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{2,0 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{2,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,96 kJ}\\)</span>",
+          "md": "$\\pu{0,96 kJ}$\n",
+          "tex": "{\\(\\qty{0,96}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,7 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{2,7 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{2,7}{\\unit{MJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,2 kJ}\\)</span>",
+          "md": "$\\pu{1,2 kJ}$\n",
+          "tex": "{\\(\\qty{1,2}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{3,5 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{3,5 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{3,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,5 kJ}\\)</span>",
+          "md": "$\\pu{1,5 kJ}$\n",
+          "tex": "{\\(\\qty{1,5}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{4,6 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{4,6 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{4,6}{\\unit{MJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,9 kJ}\\)</span>",
+          "md": "$\\pu{1,9 kJ}$\n",
+          "tex": "{\\(\\qty{1,9}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{6,0 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{6,0 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{6,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{2,4 kJ}\\)</span>",
+          "md": "$\\pu{2,4 kJ}$\n",
+          "tex": "{\\(\\qty{2,4}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B24/2B24.md",
+      "date": "2023-01-09T23:50:11.901998",
+      "statement": {
+        "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ H2(g) + I2(s) -&gt; 2 HI(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 Ag(s) + Br2(l) -&gt; 2 AgBr(s)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ O2(g) -&gt; O2(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 NO2(g) -&gt; N2O4(g) }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações com\nentropia padrão negativa.</p>",
+        "md": "Considere as reações.\n\n1.  $\\ce{ H2(g) + I2(s) -> 2 HI(g) }$\n2.  $\\ce{ 2 Ag(s) + Br2(l) -> 2 AgBr(s) }$\n3.  $\\ce{ O2(g) -> O2(aq) }$\n4.  $\\ce{ 2 NO2(g) -> N2O4(g) }$\n\n**Assinale** a alternativa que relaciona as reações com entropia padrão\nnegativa.\n",
+        "tex": "Considere as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ H2(g) + I2(s) -> 2 HI(g) }\\)}\n\\item\n  {\\(\\ce{ 2 Ag(s) + Br2(l) -> 2 AgBr(s) }\\)}\n\\item\n  {\\(\\ce{ O2(g) -> O2(aq) }\\)}\n\\item\n  {\\(\\ce{ 2 NO2(g) -> N2O4(g) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações com entropia padrão negativa.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2B31",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B31/2B31.md",
+      "date": "2023-01-10T00:59:03.150878",
+      "statement": {
+        "html": "<p>Um sistema <span class=\"math inline\">\\(A\\)</span> transfere,\nnaturalmente, uma determinada quantidade de energia, na forma de calor,\npara um sistema <span class=\"math inline\">\\(B\\)</span>, que envolve\ntotalmente <span class=\"math inline\">\\(A\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa correta.</p>",
+        "md": "Um sistema $A$ transfere, naturalmente, uma determinada quantidade de\nenergia, na forma de calor, para um sistema $B$, que envolve totalmente\n$A$.\n\n**Assinale** a alternativa correta.\n",
+        "tex": "Um sistema {\\(A\\)} transfere, naturalmente, uma determinada quantidade de energia, na forma de calor, para um sistema {\\(B\\)}, que envolve totalmente\n{\\(A\\)}.\n\n\\textbf{Assinale} a alternativa correta.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "A entropia do Universo\ndecrescerá.",
+          "md": "A entropia do Universo decrescerá.\n",
+          "tex": "A entropia do Universo decrescerá.\n"
+        },
+        {
+          "html": "A entropia do sistema <span class=\"math inline\">\\(A\\)</span> crescerá.",
+          "md": "A entropia do sistema $A$ crescerá.\n",
+          "tex": "A entropia do sistema {\\(A\\)} crescerá.\n"
+        },
+        {
+          "html": "O aumento da\nentropia do sistema <span class=\"math inline\">\\(B\\)</span> será maior\nque o decréscimo da entropia do sistema <span class=\"math inline\">\\(A\\)</span>.",
+          "md": "O aumento da entropia do sistema $B$ será maior que o decréscimo da\nentropia do sistema $A$.\n",
+          "tex": "O aumento da entropia do sistema {\\(B\\)} será maior que o decréscimo da entropia do sistema {\\(A\\)}.\n"
+        },
+        {
+          "html": "O aumento da entropia do\nsistema <span class=\"math inline\">\\(B\\)</span> será menor que o\ndecréscimo da entropia do sistema <span class=\"math inline\">\\(A\\)</span>.",
+          "md": "O aumento da entropia do sistema $B$ será menor que o decréscimo da\nentropia do sistema $A$.\n",
+          "tex": "O aumento da entropia do sistema {\\(B\\)} será menor que o decréscimo da entropia do sistema {\\(A\\)}.\n"
+        },
+        {
+          "html": "O aumento da entropia do\nsistema B será necessariamente igual ao decréscimo da entropia do\nsistema <span class=\"math inline\">\\(A\\)</span>.",
+          "md": "O aumento da entropia do sistema B será necessariamente igual ao\ndecréscimo da entropia do sistema $A$.\n",
+          "tex": "O aumento da entropia do sistema B será necessariamente igual ao decréscimo da entropia do sistema {\\(A\\)}.\n"
         }
       ],
       "correct_choice": 2
+    },
+    {
+      "id_": "2B35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B35/2B35.md",
+      "date": "2023-01-10T00:13:19.410549",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do universo devido à formação de fluoreto de\nhidrogênio em <span class=\"math inline\">\\(\\pu{25 \\degree\nC}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo universo devido à formação de fluoreto de hidrogênio em\n$\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do universo devido à formação de fluoreto de hidrogênio em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(HF,g)",
+            "name": "entalpia de formação do ácido fluorídrico",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{HF,\\,\\text{g}})",
+            "value": -271,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(F2,g)",
+            "name": "entropia do flúor",
+            "symbol": "S^{\\circ}(\\ce{F2,\\,\\text{g}})",
+            "value": 203,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(H2,g)",
+            "name": "entropia do hidrogênio",
+            "symbol": "S^{\\circ}(\\ce{H2,\\,\\text{g}})",
+            "value": 131,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(HF,g)",
+            "name": "entropia do ácido fluorídrico",
+            "symbol": "S^{\\circ}(\\ce{HF,\\,\\text{g}})",
+            "value": 174,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{970 J.K-1}\\)</span>",
+          "md": "$\\pu{970 J.K-1}$\n",
+          "tex": "{\\(\\qty{970}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1800 J.K-1}\\)</span>",
+          "md": "$\\pu{1800 J.K-1}$\n",
+          "tex": "{\\(\\qty{1800}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3300 J.K-1}\\)</span>",
+          "md": "$\\pu{3300 J.K-1}$\n",
+          "tex": "{\\(\\qty{3300}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6200 J.K-1}\\)</span>",
+          "md": "$\\pu{6200 J.K-1}$\n",
+          "tex": "{\\(\\qty{6200}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11000 J.K-1}\\)</span>",
+          "md": "$\\pu{11000 J.K-1}$\n",
+          "tex": "{\\(\\qty{11000}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3H01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3H/3H01/3H01.md",
+      "date": "2022-12-11T04:48:01.150920",
+      "statement": {
+        "html": "<p>Quando a reação <span class=\"math display\">\\[\n    \\ce{ H2(g) + I2(g) -&gt; 2 HI(g) }\n\\]</span> foi conduzida em temperatura elevada, a concentração de <span class=\"math inline\">\\(\\ce{HI}\\)</span> aumentou de <span class=\"math inline\">\\(\\pu{4,2 mM}\\)</span> para <span class=\"math inline\">\\(\\pu{6 mM}\\)</span> em <span class=\"math inline\">\\(\\pu{200 s}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvelocidade média de formação de <span class=\"math inline\">\\(\\ce{HI}\\)</span>.</p>",
+        "md": "Quando a reação $$\n    \\ce{ H2(g) + I2(g) -> 2 HI(g) }\n$$ foi conduzida em temperatura elevada, a concentração de $\\ce{HI}$\naumentou de $\\pu{4,2 mM}$ para $\\pu{6 mM}$ em $\\pu{200 s}$.\n\n**Assinale** a alternativa que mais se aproxima da velocidade média de\nformação de $\\ce{HI}$.\n",
+        "tex": "Quando a reação {\\[\n    \\ce{ H2(g) + I2(g) -> 2 HI(g) }\n\\]} foi conduzida em temperatura elevada, a concentração de {\\(\\ce{HI}\\)} aumentou de {\\(\\qty{4,2}{\\unit{mM}}\\)} para {\\(\\qty{6}{\\unit{mM}}\\)} em\n{\\(\\qty{200}{\\unit{s}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da velocidade média de formação de {\\(\\ce{HI}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{1 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{1}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{3 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{3}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{6 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{6}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{9 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{9}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 \\mu mol.L-1.s-1}\\)</span>",
+          "md": "$\\pu{12 \\mu mol.L-1.s-1}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3L01",
@@ -86,45 +397,1644 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A01/2A01.md",
-      "date": "2023-01-09T16:51:49.186742",
+      "id_": "2B11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B11/2B11.md",
+      "date": "2023-01-09T23:05:20.094642",
       "statement": {
-        "html": "<p>Considere os sistemas.</p>\n<ol type=\"1\">\n<li>Café em uma garrafa térmica de ótima qualidade.</li>\n<li>Líquido refrigerante na serpentina de uma geladeira.</li>\n<li>Um calorímetro de bomba no qual benzeno é queimado.</li>\n<li>Gasolina queimando no motor de um automóvel.</li>\n<li>Uma planta viva.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\ndos sistemas, respectivamente.</p>",
-        "md": "Considere os sistemas.\n\n1.  Café em uma garrafa térmica de ótima qualidade.\n2.  Líquido refrigerante na serpentina de uma geladeira.\n3.  Um calorímetro de bomba no qual benzeno é queimado.\n4.  Gasolina queimando no motor de um automóvel.\n5.  Uma planta viva.\n\n**Assinale** a alternativa com a classificação correta dos sistemas,\nrespectivamente.\n",
-        "tex": "Considere os sistemas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Café em uma garrafa térmica de ótima qualidade.\n\\item\n  Líquido refrigerante na serpentina de uma geladeira.\n\\item\n  Um calorímetro de bomba no qual benzeno é queimado.\n\\item\n  Gasolina queimando no motor de um automóvel.\n\\item\n  Uma planta viva.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a classificação correta dos sistemas, respectivamente.\n"
+        "html": "<p>Um cilindro contendo <span class=\"math inline\">\\(\\pu{2 mol}\\)</span>\nde gás argônio é comprimido de <span class=\"math inline\">\\(\\pu{10\nL}\\)</span> para <span class=\"math inline\">\\(\\pu{5 L}\\)</span> enquanto\na temperatura cai de <span class=\"math inline\">\\(\\pu{300 K}\\)</span> até\n<span class=\"math inline\">\\(\\pu{100 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "Um cilindro contendo $\\pu{2 mol}$ de gás argônio é comprimido de\n$\\pu{10 L}$ para $\\pu{5 L}$ enquanto a temperatura cai de $\\pu{300 K}$\naté $\\pu{100 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "Um cilindro contendo {\\(\\qty{2}{\\unit{mol}}\\)} de gás argônio é comprimido de {\\(\\qty{10}{\\unit{L}}\\)} para {\\(\\qty{5}{\\unit{L}}\\)} enquanto a\ntemperatura cai de {\\(\\qty{300}{\\unit{K}}\\)} até {\\(\\qty{100}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "CV(Ar)",
+            "name": "capacidade calorífica em volume constante do \\ce{Ar}",
+            "symbol": "C_V(\\ce{Ar,\\,\\text{g}})",
+            "value": 12,
+            "unit": "J.K-1.mol-1",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-17 J.K-1}\\)</span>",
+          "md": "$\\pu{-17 J.K-1}$\n",
+          "tex": "{\\(\\qty{-17}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-26 J.K-1}\\)</span>",
+          "md": "$\\pu{-26 J.K-1}$\n",
+          "tex": "{\\(\\qty{-26}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-39 J.K-1}\\)</span>",
+          "md": "$\\pu{-39 J.K-1}$\n",
+          "tex": "{\\(\\qty{-39}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-59 J.K-1}\\)</span>",
+          "md": "$\\pu{-59 J.K-1}$\n",
+          "tex": "{\\(\\qty{-59}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-90 J.K-1}\\)</span>",
+          "md": "$\\pu{-90 J.K-1}$\n",
+          "tex": "{\\(\\qty{-90}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2B07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B07/2B07.md",
+      "date": "2023-01-09T22:51:59.232882",
+      "statement": {
+        "html": "<p>A pressão de cilindro contendo <span class=\"math inline\">\\(\\pu{1,5\nmol}\\)</span> de neônio diminui isotermicamente de <span class=\"math inline\">\\(\\pu{20 bar}\\)</span> até <span class=\"math inline\">\\(\\pu{5 bar}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A pressão de cilindro contendo $\\pu{1,5 mol}$ de neônio diminui\nisotermicamente de $\\pu{20 bar}$ até $\\pu{5 bar}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A pressão de cilindro contendo {\\(\\qty{1,5}{\\unit{mol}}\\)} de neônio diminui isotermicamente de {\\(\\qty{20}{\\unit{bar}}\\)} até\n{\\(\\qty{5}{\\unit{bar}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "Fechado; fechado; aberto;\nfechado; aberto.",
-          "md": "Fechado; fechado; aberto; fechado; aberto.\n",
-          "tex": "Fechado; fechado; aberto; fechado; aberto.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+12 J.K-1}\\)</span>",
+          "md": "$\\pu{+12 J.K-1}$\n",
+          "tex": "{\\(\\qty{+12}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "Isolado; isolado; isolado;\naberto; fechado.",
-          "md": "Isolado; isolado; isolado; aberto; fechado.\n",
-          "tex": "Isolado; isolado; isolado; aberto; fechado.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+17 J.K-1}\\)</span>",
+          "md": "$\\pu{+17 J.K-1}$\n",
+          "tex": "{\\(\\qty{+17}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "Isolado; fechado;\nisolado; aberto; aberto.",
-          "md": "Isolado; fechado; isolado; aberto; aberto.\n",
-          "tex": "Isolado; fechado; isolado; aberto; aberto.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+25 J.K-1}\\)</span>",
+          "md": "$\\pu{+25 J.K-1}$\n",
+          "tex": "{\\(\\qty{+25}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "Fechado; fechado; fechado;\naberto; fechado.",
-          "md": "Fechado; fechado; fechado; aberto; fechado.\n",
-          "tex": "Fechado; fechado; fechado; aberto; fechado.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+36 J.K-1}\\)</span>",
+          "md": "$\\pu{+36 J.K-1}$\n",
+          "tex": "{\\(\\qty{+36}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "Isolado; isolado; fechado;\nisolado; aberto.",
-          "md": "Isolado; isolado; fechado; isolado; aberto.\n",
-          "tex": "Isolado; isolado; fechado; isolado; aberto.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+51 J.K-1}\\)</span>",
+          "md": "$\\pu{+51 J.K-1}$\n",
+          "tex": "{\\(\\qty{+51}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2B28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B28/2B28.md",
+      "date": "2023-01-10T00:02:13.279890",
+      "statement": {
+        "html": "<p>Considere a reação de preparação do óxido nítrico: <span class=\"math display\">\\[\n    \\ce{ 4 NH3(g) + 5 O2(g) -&gt; 4 NO(g) + 6 H2O(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão dessa reação em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
+        "md": "Considere a reação de preparação do óxido nítrico: $$\n    \\ce{ 4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entropia padrão dessa\nreação em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere a reação de preparação do óxido nítrico: {\\[\n    \\ce{ 4 NH3(g) + 5 O2(g) -> 4 NO(g) + 6 H2O(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão dessa reação em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "S(NH3,g)",
+            "name": "entropia da amônia",
+            "symbol": "S^{\\circ}(\\ce{NH3,\\,\\text{g}})",
+            "value": 192,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(O2,g)",
+            "name": "entropia do oxigênio",
+            "symbol": "S^{\\circ}(\\ce{O2,\\,\\text{g}})",
+            "value": 205,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(H2O,g)",
+            "name": "entropia do vapor d'água",
+            "symbol": "S^{\\circ}(\\ce{H2O,\\,\\text{g}})",
+            "value": 189,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(NO,g)",
+            "name": "entropia do óxido nítrico",
+            "symbol": "S^{\\circ}(\\ce{NO,\\,\\text{g}})",
+            "value": 211,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+180 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+180 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+180}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+300 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+300 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+300}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+490 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+490 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+490}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+810 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+810 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+810}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1300 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+1300 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+1300}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B27",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B27/2B27.md",
+      "date": "2023-01-10T00:56:54.206149",
+      "statement": {
+        "html": "<p>Considere a reação de purificação do silício: <span class=\"math display\">\\[\n    \\ce{ SiO2(s) + 2 C(s) -&gt; Si(s) + 2 CO2(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão dessa reação em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
+        "md": "Considere a reação de purificação do silício: $$\n    \\ce{ SiO2(s) + 2 C(s) -> Si(s) + 2 CO2(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entropia padrão dessa\nreação em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere a reação de purificação do silício: {\\[\n    \\ce{ SiO2(s) + 2 C(s) -> Si(s) + 2 CO2(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão dessa reação em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "S(grafita)",
+            "name": "entropia da grafita",
+            "symbol": "S^{\\circ}(\\ce{C,\\,\\text{grafita}})",
+            "value": 5.74,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(CO2,g)",
+            "name": "entropia do dióxido de carbono",
+            "symbol": "S^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": 214,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(Si,s)",
+            "name": "entropia do silício",
+            "symbol": "S^{\\circ}(\\ce{Si,\\,\\text{s}})",
+            "value": 18.8,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(SiO2,s)",
+            "name": "entropia do óxido de silício",
+            "symbol": "S^{\\circ}(\\ce{SiO2,\\,\\text{s}})",
+            "value": 41.8,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+210 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+210 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+210}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+360 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+360 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+360}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+620 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+620 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+620}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1100 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+1100 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+1100}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1800 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{+1800 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{+1800}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2B18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B18/2B18.md",
+      "date": "2023-01-09T23:32:32.400513",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de fusão do benzeno no ponto de ebulição.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nfusão do benzeno no ponto de ebulição.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de fusão do benzeno no ponto de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hfus(benzeno)",
+            "name": "entalpia de fusão do benzeno",
+            "symbol": "\\Delta H_\\mathrm{fus}^{\\circ}(\\ce{C6H6})",
+            "value": 10.6,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "Tfus(benzeno)",
+            "name": "temperatura de fusão do benzeno",
+            "symbol": "T_\\mathrm{fus}(\\ce{C6H6})",
+            "value": 5.5,
+            "unit": "\\degree C",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{38 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{38 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{38}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{58 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{58 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{58}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{87 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{87 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{87}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{130 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{200 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{200 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B32",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B32/2B32.md",
+      "date": "2023-01-10T00:03:27.108570",
+      "statement": {
+        "html": "<p>O termo <em>seta do tempo</em> é usado para distinguir uma direção no\ntempo nos fenômenos naturais, ou seja, que o estado <span class=\"math inline\">\\(2\\)</span> de um sistema macroscópico ocorre após\no estado <span class=\"math inline\">\\(1\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa <em>correta</em> a respeito\nde um processo que ocorre em sistema fechado.</p>",
+        "md": "O termo *seta do tempo* é usado para distinguir uma direção no tempo nos\nfenômenos naturais, ou seja, que o estado $2$ de um sistema macroscópico\nocorre após o estado $1$.\n\n**Assinale** a alternativa *correta* a respeito de um processo que\nocorre em sistema fechado.\n",
+        "tex": "O termo \\emph{seta do tempo} é usado para distinguir uma direção no tempo nos fenômenos naturais, ou seja, que o estado {\\(2\\)} de um sistema\nmacroscópico ocorre após o estado {\\(1\\)}.\n\n\\textbf{Assinale} a alternativa \\emph{correta} a respeito de um processo que ocorre em sistema fechado.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> é igual a <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ é igual a $S_1$.\n",
+          "tex": "{\\(S_2\\)} é igual a {\\(S_1\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> é maior que <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ é maior que $S_1$.\n",
+          "tex": "{\\(S_2\\)} é maior que {\\(S_1\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> é menor que <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ é menor que $S_1$.\n",
+          "tex": "{\\(S_2\\)} é menor que {\\(S_1\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> independe de <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ independe de $S_1$.\n",
+          "tex": "{\\(S_2\\)} independe de {\\(S_1\\)}.\n"
+        },
+        {
+          "html": "A relação entre <span class=\"math inline\">\\(S_2\\)</span> e <span class=\"math inline\">\\(S_1\\)</span> depende do caminho percorrido entre\nos estados.",
+          "md": "A relação entre $S_2$ e $S_1$ depende do caminho percorrido entre os\nestados.\n",
+          "tex": "A relação entre {\\(S_2\\)} e {\\(S_1\\)} depende do caminho percorrido entre os estados.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B23/2B23.md",
+      "date": "2023-01-09T23:46:39.583005",
+      "statement": {
+        "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 H2(l) + O2(l) -&gt; 2 H2O(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ N2(g) + 3 H2(g) -&gt; 2 NH3(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaCl2.2H2O(s) -&gt; BaCl2(s) + 2 H2O(g)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações com\nentropia padrão positiva.</p>",
+        "md": "Considere as reações.\n\n1.  $\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }$\n2.  $\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }$\n3.  $\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }$\n4.  $\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }$\n\n**Assinale** a alternativa que relaciona as reações com entropia padrão\npositiva.\n",
+        "tex": "Considere as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\\)}\n\\item\n  {\\(\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }\\)}\n\\item\n  {\\(\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\\)}\n\\item\n  {\\(\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações com entropia padrão positiva.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B36",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B36/2B36.md",
+      "date": "2023-01-10T00:48:13.233165",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do universo devido à formação de benzeno em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo universo devido à formação de benzeno em $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do universo devido à formação de benzeno em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(benzeno,l)",
+            "name": "entalpia de formação do benzeno",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C6H6,\\,\\text{l}})",
+            "value": 49,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(grafita)",
+            "name": "entropia da grafita",
+            "symbol": "S^{\\circ}(\\ce{C,\\,\\text{grafita}})",
+            "value": 5.74,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(benzeno,l)",
+            "name": "entropia do benzeno",
+            "symbol": "S^{\\circ}(\\ce{C6H6,\\,\\text{l}})",
+            "value": 173,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(H2,g)",
+            "name": "entropia do hidrogênio",
+            "symbol": "S^{\\circ}(\\ce{H2,\\,\\text{g}})",
+            "value": 131,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{530 J.K-1}\\)</span>",
+          "md": "$\\pu{530 J.K-1}$\n",
+          "tex": "{\\(\\qty{530}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{970 J.K-1}\\)</span>",
+          "md": "$\\pu{970 J.K-1}$\n",
+          "tex": "{\\(\\qty{970}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1800 J.K-1}\\)</span>",
+          "md": "$\\pu{1800 J.K-1}$\n",
+          "tex": "{\\(\\qty{1800}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3300 J.K-1}\\)</span>",
+          "md": "$\\pu{3300 J.K-1}$\n",
+          "tex": "{\\(\\qty{3300}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6200 J.K-1}\\)</span>",
+          "md": "$\\pu{6200 J.K-1}$\n",
+          "tex": "{\\(\\qty{6200}{\\unit{J.K^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 2
+    },
+    {
+      "id_": "2B39",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B39/2B39.md",
+      "date": "2023-01-09T22:19:52.605086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2B40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B40/2B40.md",
+      "date": "2023-01-09T22:19:52.605086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2B03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B03/2B03.md",
+      "date": "2023-01-09T22:46:51.079456",
+      "statement": {
+        "html": "<p>Um grande bloco de gelo perde <span class=\"math inline\">\\(\\pu{50\nJ}\\)</span> de energia na forma de calor reversivelmente em uma\ngeladeira a <span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do bloco de gelo.</p>",
+        "md": "Um grande bloco de gelo perde $\\pu{50 J}$ de energia na forma de calor\nreversivelmente em uma geladeira a $\\pu{0 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo bloco de gelo.\n",
+        "tex": "Um grande bloco de gelo perde {\\(\\qty{50}{\\unit{J}}\\)} de energia na forma de calor reversivelmente em uma geladeira a\n{\\(\\qty{0}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do bloco de gelo.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,18 J.K-1}\\)</span>",
+          "md": "$\\pu{-0,18 J.K-1}$\n",
+          "tex": "{\\(\\qty{-0,18}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,24 J.K-1}\\)</span>",
+          "md": "$\\pu{-0,24 J.K-1}$\n",
+          "tex": "{\\(\\qty{-0,24}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,33 J.K-1}\\)</span>",
+          "md": "$\\pu{-0,33 J.K-1}$\n",
+          "tex": "{\\(\\qty{-0,33}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,44 J.K-1}\\)</span>",
+          "md": "$\\pu{-0,44 J.K-1}$\n",
+          "tex": "{\\(\\qty{-0,44}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,60 J.K-1}\\)</span>",
+          "md": "$\\pu{-0,60 J.K-1}$\n",
+          "tex": "{\\(\\qty{-0,60}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B04/2B04.md",
+      "date": "2023-01-09T22:47:33.651561",
+      "statement": {
+        "html": "<p>Uma amostra de cobre fundido perde <span class=\"math inline\">\\(\\pu{5\nkJ}\\)</span> de energia na forma de calor reversivelmente em recipiente\na <span class=\"math inline\">\\(\\pu{1100 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia da amostra de cobre.</p>",
+        "md": "Uma amostra de cobre fundido perde $\\pu{5 kJ}$ de energia na forma de\ncalor reversivelmente em recipiente a $\\pu{1100 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\nda amostra de cobre.\n",
+        "tex": "Uma amostra de cobre fundido perde {\\(\\qty{5}{\\unit{kJ}}\\)} de energia na forma de calor reversivelmente em recipiente a\n{\\(\\qty{1100}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia da amostra de cobre.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,6 J.K-1}\\)</span>",
+          "md": "$\\pu{-1,6 J.K-1}$\n",
+          "tex": "{\\(\\qty{-1,6}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,1 J.K-1}\\)</span>",
+          "md": "$\\pu{-2,1 J.K-1}$\n",
+          "tex": "{\\(\\qty{-2,1}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,7 J.K-1}\\)</span>",
+          "md": "$\\pu{-2,7 J.K-1}$\n",
+          "tex": "{\\(\\qty{-2,7}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3,6 J.K-1}\\)</span>",
+          "md": "$\\pu{-3,6 J.K-1}$\n",
+          "tex": "{\\(\\qty{-3,6}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-4,7 J.K-1}\\)</span>",
+          "md": "$\\pu{-4,7 J.K-1}$\n",
+          "tex": "{\\(\\qty{-4,7}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B34/2B34.md",
+      "date": "2023-01-10T00:11:11.201542",
+      "statement": {
+        "html": "<p>Em um processo <span class=\"math inline\">\\(\\pu{25 kJ}\\)</span> de\nenergia são transferidos como calor de um reservatório grande em <span class=\"math inline\">\\(\\pu{700 K}\\)</span> para um em <span class=\"math inline\">\\(\\pu{320 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia total do processo.</p>",
+        "md": "Em um processo $\\pu{25 kJ}$ de energia são transferidos como calor de um\nreservatório grande em $\\pu{700 K}$ para um em $\\pu{320 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ntotal do processo.\n",
+        "tex": "Em um processo {\\(\\qty{25}{\\unit{kJ}}\\)} de energia são transferidos como calor de um reservatório grande em {\\(\\qty{700}{\\unit{K}}\\)} para um em\n{\\(\\qty{320}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia total do processo.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+42 J.K-1}\\)</span>",
+          "md": "$\\pu{+42 J.K-1}$\n",
+          "tex": "{\\(\\qty{+42}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+64 J.K-1}\\)</span>",
+          "md": "$\\pu{+64 J.K-1}$\n",
+          "tex": "{\\(\\qty{+64}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+98 J.K-1}\\)</span>",
+          "md": "$\\pu{+98 J.K-1}$\n",
+          "tex": "{\\(\\qty{+98}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+150 J.K-1}\\)</span>",
+          "md": "$\\pu{+150 J.K-1}$\n",
+          "tex": "{\\(\\qty{+150}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+230 J.K-1}\\)</span>",
+          "md": "$\\pu{+230 J.K-1}$\n",
+          "tex": "{\\(\\qty{+230}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B02/2B02.md",
+      "date": "2023-01-09T22:41:16.550113",
+      "statement": {
+        "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{3 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{2 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{Ne}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{10 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{9 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
+        "md": "Um cilindro de volume $\\pu{3 L}$ contém $\\pu{2 mol}$ de gás $\\ce{Ne}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{10 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{9 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
+        "tex": "Um cilindro de volume {\\(\\qty{3}{\\unit{L}}\\)} contém {\\(\\qty{2}{\\unit{mol}}\\)} de gás {\\(\\ce{Ne}\\)} e está imerso em um banho de água na temperatura\nconstante de {\\(\\qty{10}{\\unit{\\degree C}}\\)}. O sistema sofre uma expansão isotérmica reversível até {\\(\\qty{9}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,1 kJ}\\)</span>",
+          "md": "$\\pu{4,1 kJ}$\n",
+          "tex": "{\\(\\qty{4,1}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,6 kJ}\\)</span>",
+          "md": "$\\pu{5,6 kJ}$\n",
+          "tex": "{\\(\\qty{5,6}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,6 kJ}\\)</span>",
+          "md": "$\\pu{7,6 kJ}$\n",
+          "tex": "{\\(\\qty{7,6}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{10 kJ}\\)</span>",
+          "md": "$\\pu{10 kJ}$\n",
+          "tex": "{\\(\\qty{10}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 kJ}\\)</span>",
+          "md": "$\\pu{14 kJ}$\n",
+          "tex": "{\\(\\qty{14}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "2B26",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B26/2B26.md",
+      "date": "2023-01-10T00:00:50.720045",
+      "statement": {
+        "html": "<p>Considere uma das reações usada na propulsão de foguetes: <span class=\"math display\">\\[\n    \\ce{ 7 H2O2(l) + 2 N2H4(l) -&gt; 2 HNO3(aq) + 8 H2O(l) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão dessa reação em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
+        "md": "Considere uma das reações usada na propulsão de foguetes: $$\n    \\ce{ 7 H2O2(l) + 2 N2H4(l) -> 2 HNO3(aq) + 8 H2O(l) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entropia padrão dessa\nreação em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere uma das reações usada na propulsão de foguetes: {\\[\n    \\ce{ 7 H2O2(l) + 2 N2H4(l) -> 2 HNO3(aq) + 8 H2O(l) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão dessa reação em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "S(N2H4,l)",
+            "name": "entropia da hidrazina",
+            "symbol": "S^{\\circ}(\\ce{N2H4,\\,\\text{l}})",
+            "value": 121,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(H2O,l)",
+            "name": "entropia da água",
+            "symbol": "S^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": 69.9,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(H2O2,l)",
+            "name": "entropia do peróxido de hidrogênio",
+            "symbol": "S^{\\circ}(\\ce{H2O2,\\,\\text{l}})",
+            "value": 110,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(HNO3,aq)",
+            "name": "entropia do ácido nítrico",
+            "symbol": "S^{\\circ}(\\ce{HNO3,\\,\\text{aq}})",
+            "value": 146,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-110 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-110 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-110}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-200 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-200 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-200}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-350 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-350 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-350}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-620 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-620 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-620}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1100 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-1100 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-1100}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B22/2B22.md",
+      "date": "2023-01-10T00:44:08.120782",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclopentano líquido e\n<span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de pent-1-eno\nlíquido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 g}\\)</span> de eteno e <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de polietileno.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclobutano e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de cicloexano.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
+        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{I2}$ gasoso e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de ciclopentano líquido e $\\pu{1 mol}$ de pent-1-eno\n    líquido.\n3.  $\\pu{1 g}$ de eteno e $\\pu{1 g}$ de polietileno.\n4.  $\\pu{1 mol}$ de ciclobutano e $\\pu{1 mol}$ de cicloexano.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
+        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de ciclopentano líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de pent-1-eno líquido.\n\\item\n  {\\(\\qty{1}{\\unit{g}}\\)} de eteno e {\\(\\qty{1}{\\unit{g}}\\)} de polietileno.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de ciclobutano e {\\(\\qty{1}{\\unit{mol}}\\)} de cicloexano.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2B15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B15/2B15.md",
+      "date": "2023-01-09T23:29:52.499821",
+      "statement": {
+        "html": "<p>Considere válida a regra de Trouton, <span class=\"math inline\">\\(\\Delta S_\\mathrm{vap} \\approx \\pu{85\nJ.K-1.mol-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de vaporização do bromo líquido, que ferve a <span class=\"math inline\">\\(\\pu{59 \\degree C}\\)</span>.</p>",
+        "md": "Considere válida a regra de Trouton,\n$\\Delta S_\\mathrm{vap} \\approx \\pu{85 J.K-1.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização do bromo líquido, que ferve a $\\pu{59 \\degree C}$.\n",
+        "tex": "Considere válida a regra de Trouton, {\\(\\Delta S_\\mathrm{vap} \\approx \\qty{85}{\\unit{J.K^{-1}.mol^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de vaporização do bromo líquido, que ferve a {\\(\\qty{59}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,5 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{8,5 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{8,5}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{13 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{13}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{19 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{19}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{28 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{28 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{28}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{42 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{42 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{42}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B09/2B09.md",
+      "date": "2023-01-09T22:56:42.543994",
+      "statement": {
+        "html": "<p>A temperatura de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de\ngás hélio aumenta de <span class=\"math inline\">\\(\\pu{25 \\degree\nC}\\)</span> até <span class=\"math inline\">\\(\\pu{300 \\degree C}\\)</span>\nem volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A temperatura de $\\pu{1 mol}$ de gás hélio aumenta de\n$\\pu{25 \\degree C}$ até $\\pu{300 \\degree C}$ em volume constante.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A temperatura de {\\(\\qty{1}{\\unit{mol}}\\)} de gás hélio aumenta de {\\(\\qty{25}{\\unit{\\degree C}}\\)} até {\\(\\qty{300}{\\unit{\\degree C}}\\)} em volume\nconstante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "CV(He)",
+            "name": "capacidade calorífica em volume constante do \\ce{He}",
+            "symbol": "C_V(\\ce{He,\\,\\text{g}})",
+            "value": 12,
+            "unit": "J.K-1.mol-1",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+2,3 J.K-1}\\)</span>",
+          "md": "$\\pu{+2,3 J.K-1}$\n",
+          "tex": "{\\(\\qty{+2,3}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+3,2 J.K-1}\\)</span>",
+          "md": "$\\pu{+3,2 J.K-1}$\n",
+          "tex": "{\\(\\qty{+3,2}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+4,4 J.K-1}\\)</span>",
+          "md": "$\\pu{+4,4 J.K-1}$\n",
+          "tex": "{\\(\\qty{+4,4}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+6,1 J.K-1}\\)</span>",
+          "md": "$\\pu{+6,1 J.K-1}$\n",
+          "tex": "{\\(\\qty{+6,1}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+8,5 J.K-1}\\)</span>",
+          "md": "$\\pu{+8,5 J.K-1}$\n",
+          "tex": "{\\(\\qty{+8,5}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2B37",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B37/2B37.md",
+      "date": "2023-01-09T22:19:52.601086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2B38",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B38/2B38.md",
+      "date": "2023-01-09T22:19:52.601086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2B20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B20/2B20.md",
+      "date": "2023-01-10T00:41:26.712636",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> líquido e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> líquido e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CaI2}\\)</span> aquoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CaI2}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de grafite e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de diamante.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
+        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{Br2}$ líquido e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{I2}$ líquido e $\\pu{1 mol}$ de $\\ce{I2}$\n    sólido.\n3.  $\\pu{1 mol}$ de $\\ce{CaI2}$ aquoso e $\\pu{1 mol}$ de $\\ce{CaI2}$\n    sólido.\n4.  $\\pu{1 mol}$ de grafite e $\\pu{1 mol}$ de diamante.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
+        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} sólido.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CaI2}\\)} aquoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CaI2}\\)} sólido.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de grafite e {\\(\\qty{1}{\\unit{mol}}\\)} de diamante.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B19/2B19.md",
+      "date": "2023-01-10T00:32:08.224021",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias a seguir.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1 bar}\\)</span>, e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{3 bar}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{He}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{He}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span> no mesmo\nrecipiente.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ar}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>, e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ar}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{2 atm}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{278 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>, e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso em <span class=\"math inline\">\\(\\pu{278 K}\\)</span> e <span class=\"math inline\">\\(\\pu{2 atm}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
+        "md": "Considere os pares de substâncias a seguir.\n\n1.  $\\pu{1 mol}$ de $\\ce{CO2}$ gasoso em $\\pu{25 \\degree C}$ e\n    $\\pu{1 bar}$, e $\\pu{1 mol}$ de $\\ce{CO2}$ gasoso em\n    $\\pu{25 \\degree C}$ e $\\pu{3 bar}$.\n2.  $\\pu{1 mol}$ de $\\ce{He}$ gasoso em $\\pu{25 \\degree C}$, e\n    $\\pu{1 mol}$ de $\\ce{He}$ gasoso em $\\pu{100 \\degree C}$ no mesmo\n    recipiente.\n3.  $\\pu{1 mol}$ de $\\ce{Ar}$ gasoso em $\\pu{25 \\degree C}$ e\n    $\\pu{1 atm}$, e $\\pu{1 mol}$ de $\\ce{Ar}$ gasoso em\n    $\\pu{25 \\degree C}$ e $\\pu{2 atm}$.\n4.  $\\pu{1 mol}$ de $\\ce{O2}$ gasoso em $\\pu{278 K}$ e $\\pu{1 atm}$, e\n    $\\pu{1 mol}$ de $\\ce{O2}$ gasoso em $\\pu{278 K}$ e $\\pu{2 atm}$.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
+        "tex": "Considere os pares de substâncias a seguir.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CO2}\\)} gasoso em {\\(\\qty{25}{\\unit{\\degree C}}\\)} e {\\(\\qty{1}{\\unit{bar}}\\)}, e {\\(\\qty{1}{\\unit{mol}}\\)} de\n  {\\(\\ce{CO2}\\)} gasoso em {\\(\\qty{25}{\\unit{\\degree C}}\\)} e {\\(\\qty{3}{\\unit{bar}}\\)}.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{He}\\)} gasoso em {\\(\\qty{25}{\\unit{\\degree C}}\\)}, e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{He}\\)} gasoso em\n  {\\(\\qty{100}{\\unit{\\degree C}}\\)} no mesmo recipiente.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Ar}\\)} gasoso em {\\(\\qty{25}{\\unit{\\degree C}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}, e {\\(\\qty{1}{\\unit{mol}}\\)} de\n  {\\(\\ce{Ar}\\)} gasoso em {\\(\\qty{25}{\\unit{\\degree C}}\\)} e {\\(\\qty{2}{\\unit{atm}}\\)}.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O2}\\)} gasoso em {\\(\\qty{278}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}, e {\\(\\qty{1}{\\unit{mol}}\\)} de\n  {\\(\\ce{O2}\\)} gasoso em {\\(\\qty{278}{\\unit{K}}\\)} e {\\(\\qty{2}{\\unit{atm}}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B33/2B33.md",
+      "date": "2023-01-10T00:10:11.471065",
+      "statement": {
+        "html": "<p>Em um processo <span class=\"math inline\">\\(\\pu{40 kJ}\\)</span> de\nenergia são transferidos como calor de um reservatório grande em <span class=\"math inline\">\\(\\pu{800 K}\\)</span> para um em <span class=\"math inline\">\\(\\pu{200 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia total do processo.</p>",
+        "md": "Em um processo $\\pu{40 kJ}$ de energia são transferidos como calor de um\nreservatório grande em $\\pu{800 K}$ para um em $\\pu{200 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ntotal do processo.\n",
+        "tex": "Em um processo {\\(\\qty{40}{\\unit{kJ}}\\)} de energia são transferidos como calor de um reservatório grande em {\\(\\qty{800}{\\unit{K}}\\)} para um em\n{\\(\\qty{200}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia total do processo.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+34 J.K-1}\\)</span>",
+          "md": "$\\pu{+34 J.K-1}$\n",
+          "tex": "{\\(\\qty{+34}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+56 J.K-1}\\)</span>",
+          "md": "$\\pu{+56 J.K-1}$\n",
+          "tex": "{\\(\\qty{+56}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+92 J.K-1}\\)</span>",
+          "md": "$\\pu{+92 J.K-1}$\n",
+          "tex": "{\\(\\qty{+92}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+150 J.K-1}\\)</span>",
+          "md": "$\\pu{+150 J.K-1}$\n",
+          "tex": "{\\(\\qty{+150}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+250 J.K-1}\\)</span>",
+          "md": "$\\pu{+250 J.K-1}$\n",
+          "tex": "{\\(\\qty{+250}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B06/2B06.md",
+      "date": "2023-01-09T22:50:44.634807",
+      "statement": {
+        "html": "<p>Um cilindro contendo <span class=\"math inline\">\\(\\pu{2 mol}\\)</span>\nde dióxido de carbono se expande isotermicamente até dez vezes o seu\nvolume inicial.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "Um cilindro contendo $\\pu{2 mol}$ de dióxido de carbono se expande\nisotermicamente até dez vezes o seu volume inicial.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "Um cilindro contendo {\\(\\qty{2}{\\unit{mol}}\\)} de dióxido de carbono se expande isotermicamente até dez vezes o seu volume inicial.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+17 J.K-1}\\)</span>",
+          "md": "$\\pu{+17 J.K-1}$\n",
+          "tex": "{\\(\\qty{+17}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+25 J.K-1}\\)</span>",
+          "md": "$\\pu{+25 J.K-1}$\n",
+          "tex": "{\\(\\qty{+25}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+38 J.K-1}\\)</span>",
+          "md": "$\\pu{+38 J.K-1}$\n",
+          "tex": "{\\(\\qty{+38}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+58 J.K-1}\\)</span>",
+          "md": "$\\pu{+58 J.K-1}$\n",
+          "tex": "{\\(\\qty{+58}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+87 J.K-1}\\)</span>",
+          "md": "$\\pu{+87 J.K-1}$\n",
+          "tex": "{\\(\\qty{+87}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2B30",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B30/2B30.md",
+      "date": "2023-01-10T00:09:31.436137",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{2 mol}\\)</span> de\namônia é formada a partir dos elementos <span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia da vizinhança devido à reação.</p>",
+        "md": "Uma amostra de $\\pu{2 mol}$ de amônia é formada a partir dos elementos\n$\\pu{298 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\nda vizinhança devido à reação.\n",
+        "tex": "Uma amostra de {\\(\\qty{2}{\\unit{mol}}\\)} de amônia é formada a partir dos elementos {\\(\\qty{298}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia da vizinhança devido à reação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(NH3,g)",
+            "name": "entalpia de formação da amônia",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{NH3,\\,\\text{g}})",
+            "value": -46.1,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-110 J.K-1}\\)</span>",
+          "md": "$\\pu{-110 J.K-1}$\n",
+          "tex": "{\\(\\qty{-110}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-180 J.K-1}\\)</span>",
+          "md": "$\\pu{-180 J.K-1}$\n",
+          "tex": "{\\(\\qty{-180}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-280 J.K-1}\\)</span>",
+          "md": "$\\pu{-280 J.K-1}$\n",
+          "tex": "{\\(\\qty{-280}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-460 J.K-1}\\)</span>",
+          "md": "$\\pu{-460 J.K-1}$\n",
+          "tex": "{\\(\\qty{-460}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-740 J.K-1}\\)</span>",
+          "md": "$\\pu{-740 J.K-1}$\n",
+          "tex": "{\\(\\qty{-740}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B05/2B05.md",
+      "date": "2023-01-09T23:23:56.757026",
+      "statement": {
+        "html": "<p>Um cilindro contendo <span class=\"math inline\">\\(\\pu{1 mol}\\)</span>\nde hélio é comprimido isotermicamente até um terço de seu volume\ninicial.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "Um cilindro contendo $\\pu{1 mol}$ de hélio é comprimido isotermicamente\naté um terço de seu volume inicial.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "Um cilindro contendo {\\(\\qty{1}{\\unit{mol}}\\)} de hélio é comprimido isotermicamente até um terço de seu volume inicial.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3,3 J.K-1}\\)</span>",
+          "md": "$\\pu{-3,3 J.K-1}$\n",
+          "tex": "{\\(\\qty{-3,3}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-4,7 J.K-1}\\)</span>",
+          "md": "$\\pu{-4,7 J.K-1}$\n",
+          "tex": "{\\(\\qty{-4,7}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-6,5 J.K-1}\\)</span>",
+          "md": "$\\pu{-6,5 J.K-1}$\n",
+          "tex": "{\\(\\qty{-6,5}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-9,0 J.K-1}\\)</span>",
+          "md": "$\\pu{-9,0 J.K-1}$\n",
+          "tex": "{\\(\\qty{-9,0}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-13 J.K-1}\\)</span>",
+          "md": "$\\pu{-13 J.K-1}$\n",
+          "tex": "{\\(\\qty{-13}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B21/2B21.md",
+      "date": "2023-01-10T00:41:25.184590",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O3}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH2Br2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH4}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HBr}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HF}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ne}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
+        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{O2}$ gasoso e $\\pu{1 mol}$ de $\\ce{O3}$ gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{CH2Br2}$ gasoso e $\\pu{1 mol}$ de $\\ce{CH4}$\n    gasoso.\n3.  $\\pu{1 mol}$ de $\\ce{HBr}$ gasoso e $\\pu{1 mol}$ de $\\ce{HF}$\n    gasoso.\n4.  $\\pu{1 mol}$ de $\\ce{NH3}$ gasoso e $\\pu{1 mol}$ de $\\ce{Ne}$\n    gasoso.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
+        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O3}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH2Br2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH4}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HBr}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HF}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{NH3}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Ne}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2B12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B12/2B12.md",
+      "date": "2023-01-09T23:18:37.424994",
+      "statement": {
+        "html": "<p>A pressão de um cilindro contendo <span class=\"math inline\">\\(\\pu{23,5 mol}\\)</span> de gás oxigênio aumenta de\n<span class=\"math inline\">\\(\\pu{2 kPa}\\)</span> até <span class=\"math inline\">\\(\\pu{8 kPa}\\)</span> enquanto a temperatura sobre\nde <span class=\"math inline\">\\(\\pu{240 K}\\)</span> até <span class=\"math inline\">\\(\\pu{360 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A pressão de um cilindro contendo $\\pu{23,5 mol}$ de gás oxigênio\naumenta de $\\pu{2 kPa}$ até $\\pu{8 kPa}$ enquanto a temperatura sobre de\n$\\pu{240 K}$ até $\\pu{360 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A pressão de um cilindro contendo {\\(\\qty{23,5}{\\unit{mol}}\\)} de gás oxigênio aumenta de {\\(\\qty{2}{\\unit{kPa}}\\)} até {\\(\\qty{8}{\\unit{kPa}}\\)}\nenquanto a temperatura sobre de {\\(\\qty{240}{\\unit{K}}\\)} até {\\(\\qty{360}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "CV(O2)",
+            "name": "capacidade calorífica em volume constante do \\ce{O2}",
+            "symbol": "C_V(\\ce{O2,\\,\\text{g}})",
+            "value": 21,
+            "unit": "J.K-1.mol-1",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,3 J.K-1}\\)</span>",
+          "md": "$\\pu{-2,3 J.K-1}$\n",
+          "tex": "{\\(\\qty{-2,3}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,9 J.K-1}\\)</span>",
+          "md": "$\\pu{-2,9 J.K-1}$\n",
+          "tex": "{\\(\\qty{-2,9}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-3,7 J.K-1}\\)</span>",
+          "md": "$\\pu{-3,7 J.K-1}$\n",
+          "tex": "{\\(\\qty{-3,7}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-4,7 J.K-1}\\)</span>",
+          "md": "$\\pu{-4,7 J.K-1}$\n",
+          "tex": "{\\(\\qty{-4,7}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-6,0 J.K-1}\\)</span>",
+          "md": "$\\pu{-6,0 J.K-1}$\n",
+          "tex": "{\\(\\qty{-6,0}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B13/2B13.md",
+      "date": "2023-01-09T23:30:56.840163",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de vaporização do argônio no ponto de ebulição.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nvaporização do argônio no ponto de ebulição.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de vaporização do argônio no ponto de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hvap(Ar)",
+            "name": "entalpia de vaporização do argônio",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{Ar})",
+            "value": 6.5,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "Teb(Ar)",
+            "name": "temperatura de ebulição do argônio",
+            "symbol": "T_\\mathrm{eb}(\\ce{Ar})",
+            "value": -186,
+            "unit": "\\degree C",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{74 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{74 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{74}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{120 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{120}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{180 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{180}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{290 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{290 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{290}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{450 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{450 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{450}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2B08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B08/2B08.md",
+      "date": "2023-01-09T22:56:35.644321",
+      "statement": {
+        "html": "<p>A pressão de cilindro contendo <span class=\"math inline\">\\(\\pu{71\ng}\\)</span> de gás cloro aumenta isotermicamente de <span class=\"math inline\">\\(\\pu{3 kPa}\\)</span> até <span class=\"math inline\">\\(\\pu{24 kPa}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A pressão de cilindro contendo $\\pu{71 g}$ de gás cloro aumenta\nisotermicamente de $\\pu{3 kPa}$ até $\\pu{24 kPa}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A pressão de cilindro contendo {\\(\\qty{71}{\\unit{g}}\\)} de gás cloro aumenta isotermicamente de {\\(\\qty{3}{\\unit{kPa}}\\)} até\n{\\(\\qty{24}{\\unit{kPa}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-5,6 J.K-1}\\)</span>",
+          "md": "$\\pu{-5,6 J.K-1}$\n",
+          "tex": "{\\(\\qty{-5,6}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-8,1 J.K-1}\\)</span>",
+          "md": "$\\pu{-8,1 J.K-1}$\n",
+          "tex": "{\\(\\qty{-8,1}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-12 J.K-1}\\)</span>",
+          "md": "$\\pu{-12 J.K-1}$\n",
+          "tex": "{\\(\\qty{-12}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-17 J.K-1}\\)</span>",
+          "md": "$\\pu{-17 J.K-1}$\n",
+          "tex": "{\\(\\qty{-17}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-25 J.K-1}\\)</span>",
+          "md": "$\\pu{-25 J.K-1}$\n",
+          "tex": "{\\(\\qty{-25}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B25",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B25/2B25.md",
+      "date": "2023-01-10T00:47:20.140370",
+      "statement": {
+        "html": "<p>Considere a reação de preparação do manganês metálico na termita:\n<span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 MnO2(s) -&gt; 3 Mn(s) + 2 Al2O3(s) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão dessa reação em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
+        "md": "Considere a reação de preparação do manganês metálico na termita: $$\n    \\ce{ 4 Al(s) + 3 MnO2(s) -> 3 Mn(s) + 2 Al2O3(s) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entropia padrão dessa\nreação em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere a reação de preparação do manganês metálico na termita: {\\[\n    \\ce{ 4 Al(s) + 3 MnO2(s) -> 3 Mn(s) + 2 Al2O3(s) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão dessa reação em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "S(MnO2)",
+            "name": "entropia do \\ce{MnO2}",
+            "symbol": "S^{\\circ}(\\ce{MnO2,\\,\\text{s}})",
+            "value": 53.0,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(Mn)",
+            "name": "entropia do \\ce{Mn}",
+            "symbol": "S^{\\circ}(\\ce{Mn,\\,\\text{s}})",
+            "value": 32.0,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(Al,s)",
+            "name": "entropia do alumínio",
+            "symbol": "S^{\\circ}(\\ce{Al,\\,\\text{s}})",
+            "value": 28.3,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          },
+          {
+            "id_": "S(Al2O3,s)",
+            "name": "entropia do óxido de alumínio",
+            "symbol": "S^{\\circ}(\\ce{Al2O3,\\,\\text{s}})",
+            "value": 50.9,
+            "unit": "J.K-1.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-30 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-30 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-30}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-48 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-48 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-48}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-75 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-75 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-75}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-120 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-120 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-120}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-190 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-190 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-190}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2B29",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B29/2B29.md",
+      "date": "2023-01-10T00:09:36.551998",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de\nágua líquida vaporiza em <span class=\"math inline\">\\(\\pu{90 \\degree\nC}\\)</span> e <span class=\"math inline\">\\(\\pu{1 bar}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia da vizinhança devido à reação.</p>",
+        "md": "Uma amostra de $\\pu{1 mol}$ de água líquida vaporiza em\n$\\pu{90 \\degree C}$ e $\\pu{1 bar}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\nda vizinhança devido à reação.\n",
+        "tex": "Uma amostra de {\\(\\qty{1}{\\unit{mol}}\\)} de água líquida vaporiza em {\\(\\qty{90}{\\unit{\\degree C}}\\)} e {\\(\\qty{1}{\\unit{bar}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia da vizinhança devido à reação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hvap(H2O)",
+            "name": "entalpia de vaporização da água",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
+            "value": 40.7,
+            "unit": "kJ.mol-1",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-16 J.K-1}\\)</span>",
+          "md": "$\\pu{-16 J.K-1}$\n",
+          "tex": "{\\(\\qty{-16}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-26 J.K-1}\\)</span>",
+          "md": "$\\pu{-26 J.K-1}$\n",
+          "tex": "{\\(\\qty{-26}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-43 J.K-1}\\)</span>",
+          "md": "$\\pu{-43 J.K-1}$\n",
+          "tex": "{\\(\\qty{-43}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-68 J.K-1}\\)</span>",
+          "md": "$\\pu{-68 J.K-1}$\n",
+          "tex": "{\\(\\qty{-68}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-110 J.K-1}\\)</span>",
+          "md": "$\\pu{-110 J.K-1}$\n",
+          "tex": "{\\(\\qty{-110}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2B10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B10/2B10.md",
+      "date": "2023-01-09T23:22:44.505890",
+      "statement": {
+        "html": "<p>A temperatura de <span class=\"math inline\">\\(\\pu{5,5 g}\\)</span> de\naço inoxidável aumenta de <span class=\"math inline\">\\(\\pu{20 \\degree\nC}\\)</span> até <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span>.\nO calor específico do aço inoxidável é <span class=\"math inline\">\\(\\pu{0,51 J.K-1.g-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do aço inoxidável.</p>",
+        "md": "A temperatura de $\\pu{5,5 g}$ de aço inoxidável aumenta de\n$\\pu{20 \\degree C}$ até $\\pu{100 \\degree C}$. O calor específico do aço\ninoxidável é $\\pu{0,51 J.K-1.g-1}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo aço inoxidável.\n",
+        "tex": "A temperatura de {\\(\\qty{5,5}{\\unit{g}}\\)} de aço inoxidável aumenta de {\\(\\qty{20}{\\unit{\\degree C}}\\)} até {\\(\\qty{100}{\\unit{\\degree C}}\\)}. O\ncalor específico do aço inoxidável é {\\(\\qty{0,51}{\\unit{J.K^{-1}.g^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do aço inoxidável.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+0,45 J.K-1}\\)</span>",
+          "md": "$\\pu{+0,45 J.K-1}$\n",
+          "tex": "{\\(\\qty{+0,45}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+0,55 J.K-1}\\)</span>",
+          "md": "$\\pu{+0,55 J.K-1}$\n",
+          "tex": "{\\(\\qty{+0,55}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+0,68 J.K-1}\\)</span>",
+          "md": "$\\pu{+0,68 J.K-1}$\n",
+          "tex": "{\\(\\qty{+0,68}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+0,84 J.K-1}\\)</span>",
+          "md": "$\\pu{+0,84 J.K-1}$\n",
+          "tex": "{\\(\\qty{+0,84}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1,0 J.K-1}\\)</span>",
+          "md": "$\\pu{+1,0 J.K-1}$\n",
+          "tex": "{\\(\\qty{+1,0}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2B16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B16/2B16.md",
+      "date": "2023-01-09T23:30:37.068068",
+      "statement": {
+        "html": "<p>Considere válida a regra de Trouton, <span class=\"math inline\">\\(\\Delta S_\\mathrm{vap} \\approx \\pu{85\nJ.K-1.mol-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de vaporização do dietil-éter, <span class=\"math inline\">\\(\\ce{C4H10O}\\)</span>, que ferve a <span class=\"math inline\">\\(\\pu{35 \\degree C}\\)</span>.</p>",
+        "md": "Considere válida a regra de Trouton,\n$\\Delta S_\\mathrm{vap} \\approx \\pu{85 J.K-1.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização do dietil-éter, $\\ce{C4H10O}$, que ferve a\n$\\pu{35 \\degree C}$.\n",
+        "tex": "Considere válida a regra de Trouton, {\\(\\Delta S_\\mathrm{vap} \\approx \\qty{85}{\\unit{J.K^{-1}.mol^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de vaporização do dietil-éter, {\\(\\ce{C4H10O}\\)}, que ferve a\n{\\(\\qty{35}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{26 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{26}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{39 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{39 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{39}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{57 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{57 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{57}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{85 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{85 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{85}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{130 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2A20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A20/2A20.md",
+      "date": "2023-01-09T18:05:49.257674",
+      "statement": {
+        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,36 g}\\)</span> de pentano,\n<span class=\"math inline\">\\(\\ce{C5H12}\\)</span>, queimam em excesso de\noxigênio em um calorímetro com capacidade calorífica <span class=\"math inline\">\\(\\pu{220 J.K-1}\\)</span>, a temperatura aumenta em\n<span class=\"math inline\">\\(\\pu{80 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão do pentano.</p>",
+        "md": "Quando $\\pu{0,36 g}$ de pentano, $\\ce{C5H12}$, queimam em excesso de\noxigênio em um calorímetro com capacidade calorífica $\\pu{220 J.K-1}$, a\ntemperatura aumenta em $\\pu{80 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo pentano.\n",
+        "tex": "Quando {\\(\\qty{0,36}{\\unit{g}}\\)} de pentano, {\\(\\ce{C5H12}\\)}, queimam em excesso de oxigênio em um calorímetro com capacidade calorífica\n{\\(\\qty{220}{\\unit{J.K^{-1}}}\\)}, a temperatura aumenta em {\\(\\qty{80}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão do pentano.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{2,0 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{2,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,7 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{2,7 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{2,7}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{3,5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{3,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,6 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{4,6 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{4,6}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{6,0 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{6,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2A19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A19/2A19.md",
+      "date": "2023-01-09T18:05:41.865752",
+      "statement": {
+        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,2 g}\\)</span> de fósforo\nreage com cloro para formar tricloreto de fósforo, <span class=\"math inline\">\\(\\ce{PCl3}\\)</span>, <span class=\"math display\">\\[\n    \\ce{ 2 P(s) + 3 Cl2(g) -&gt; 2 PCl3(l) }\n\\]</span> em um calorímetro de capacidade calorífica <span class=\"math inline\">\\(\\pu{220 J.K-1}\\)</span>, sob pressão constante, a\ntemperatura do calorímetro sobre <span class=\"math inline\">\\(\\pu{11\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
+        "md": "Quando $\\pu{0,2 g}$ de fósforo reage com cloro para formar tricloreto de\nfósforo, $\\ce{PCl3}$, $$\n    \\ce{ 2 P(s) + 3 Cl2(g) -> 2 PCl3(l) }\n$$ em um calorímetro de capacidade calorífica $\\pu{220 J.K-1}$, sob\npressão constante, a temperatura do calorímetro sobre\n$\\pu{11 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
+        "tex": "Quando {\\(\\qty{0,2}{\\unit{g}}\\)} de fósforo reage com cloro para formar tricloreto de fósforo, {\\(\\ce{PCl3}\\)}, {\\[\n    \\ce{ 2 P(s) + 3 Cl2(g) -> 2 PCl3(l) }\n\\]} em um calorímetro de capacidade calorífica {\\(\\qty{220}{\\unit{J.K^{-1}}}\\)}, sob pressão constante, a temperatura do calorímetro sobre\n{\\(\\qty{11}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+130 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+130 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+130}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+240 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+240 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+240}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+420 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+420 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+420}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+750 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+750 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+750}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1300 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+1300 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+1300}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2A25",
@@ -179,6 +2089,47 @@
       "correct_choice": 3
     },
     {
+      "id_": "2A01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A01/2A01.md",
+      "date": "2023-01-09T16:51:49.186742",
+      "statement": {
+        "html": "<p>Considere os sistemas.</p>\n<ol type=\"1\">\n<li>Café em uma garrafa térmica de ótima qualidade.</li>\n<li>Líquido refrigerante na serpentina de uma geladeira.</li>\n<li>Um calorímetro de bomba no qual benzeno é queimado.</li>\n<li>Gasolina queimando no motor de um automóvel.</li>\n<li>Uma planta viva.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\ndos sistemas, respectivamente.</p>",
+        "md": "Considere os sistemas.\n\n1.  Café em uma garrafa térmica de ótima qualidade.\n2.  Líquido refrigerante na serpentina de uma geladeira.\n3.  Um calorímetro de bomba no qual benzeno é queimado.\n4.  Gasolina queimando no motor de um automóvel.\n5.  Uma planta viva.\n\n**Assinale** a alternativa com a classificação correta dos sistemas,\nrespectivamente.\n",
+        "tex": "Considere os sistemas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Café em uma garrafa térmica de ótima qualidade.\n\\item\n  Líquido refrigerante na serpentina de uma geladeira.\n\\item\n  Um calorímetro de bomba no qual benzeno é queimado.\n\\item\n  Gasolina queimando no motor de um automóvel.\n\\item\n  Uma planta viva.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a classificação correta dos sistemas, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Fechado; fechado; aberto;\nfechado; aberto.",
+          "md": "Fechado; fechado; aberto; fechado; aberto.\n",
+          "tex": "Fechado; fechado; aberto; fechado; aberto.\n"
+        },
+        {
+          "html": "Isolado; isolado; isolado;\naberto; fechado.",
+          "md": "Isolado; isolado; isolado; aberto; fechado.\n",
+          "tex": "Isolado; isolado; isolado; aberto; fechado.\n"
+        },
+        {
+          "html": "Isolado; fechado;\nisolado; aberto; aberto.",
+          "md": "Isolado; fechado; isolado; aberto; aberto.\n",
+          "tex": "Isolado; fechado; isolado; aberto; aberto.\n"
+        },
+        {
+          "html": "Fechado; fechado; fechado;\naberto; fechado.",
+          "md": "Fechado; fechado; fechado; aberto; fechado.\n",
+          "tex": "Fechado; fechado; fechado; aberto; fechado.\n"
+        },
+        {
+          "html": "Isolado; isolado; fechado;\nisolado; aberto.",
+          "md": "Isolado; isolado; fechado; isolado; aberto.\n",
+          "tex": "Isolado; isolado; fechado; isolado; aberto.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
       "id_": "2A08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A08/2A08.md",
       "date": "2023-01-09T18:03:00.463220",
@@ -218,88 +2169,6 @@
         }
       ],
       "correct_choice": 0
-    },
-    {
-      "id_": "3H01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3H/3H01/3H01.md",
-      "date": "2022-12-11T04:48:01.150920",
-      "statement": {
-        "html": "<p>Quando a reação <span class=\"math display\">\\[\n    \\ce{ H2(g) + I2(g) -&gt; 2 HI(g) }\n\\]</span> foi conduzida em temperatura elevada, a concentração de <span class=\"math inline\">\\(\\ce{HI}\\)</span> aumentou de <span class=\"math inline\">\\(\\pu{4,2 mM}\\)</span> para <span class=\"math inline\">\\(\\pu{6 mM}\\)</span> em <span class=\"math inline\">\\(\\pu{200 s}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvelocidade média de formação de <span class=\"math inline\">\\(\\ce{HI}\\)</span>.</p>",
-        "md": "Quando a reação $$\n    \\ce{ H2(g) + I2(g) -> 2 HI(g) }\n$$ foi conduzida em temperatura elevada, a concentração de $\\ce{HI}$\naumentou de $\\pu{4,2 mM}$ para $\\pu{6 mM}$ em $\\pu{200 s}$.\n\n**Assinale** a alternativa que mais se aproxima da velocidade média de\nformação de $\\ce{HI}$.\n",
-        "tex": "Quando a reação {\\[\n    \\ce{ H2(g) + I2(g) -> 2 HI(g) }\n\\]} foi conduzida em temperatura elevada, a concentração de {\\(\\ce{HI}\\)} aumentou de {\\(\\qty{4,2}{\\unit{mM}}\\)} para {\\(\\qty{6}{\\unit{mM}}\\)} em\n{\\(\\qty{200}{\\unit{s}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da velocidade média de formação de {\\(\\ce{HI}\\)}.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{1 \\mu mol.L-1.s-1}\\)</span>",
-          "md": "$\\pu{1 \\mu mol.L-1.s-1}$\n",
-          "tex": "{\\(\\qty{1}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{3 \\mu mol.L-1.s-1}\\)</span>",
-          "md": "$\\pu{3 \\mu mol.L-1.s-1}$\n",
-          "tex": "{\\(\\qty{3}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{6 \\mu mol.L-1.s-1}\\)</span>",
-          "md": "$\\pu{6 \\mu mol.L-1.s-1}$\n",
-          "tex": "{\\(\\qty{6}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{9 \\mu mol.L-1.s-1}\\)</span>",
-          "md": "$\\pu{9 \\mu mol.L-1.s-1}$\n",
-          "tex": "{\\(\\qty{9}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{12 \\mu mol.L-1.s-1}\\)</span>",
-          "md": "$\\pu{12 \\mu mol.L-1.s-1}$\n",
-          "tex": "{\\(\\qty{12}{\\unit{\\micro mol.L^{-1}.s^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
-      "id_": "2A19",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A19/2A19.md",
-      "date": "2023-01-09T18:05:41.865752",
-      "statement": {
-        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,2 g}\\)</span> de fósforo\nreage com cloro para formar tricloreto de fósforo, <span class=\"math inline\">\\(\\ce{PCl3}\\)</span>, <span class=\"math display\">\\[\n    \\ce{ 2 P(s) + 3 Cl2(g) -&gt; 2 PCl3(l) }\n\\]</span> em um calorímetro de capacidade calorífica <span class=\"math inline\">\\(\\pu{220 J.K-1}\\)</span>, sob pressão constante, a\ntemperatura do calorímetro sobre <span class=\"math inline\">\\(\\pu{11\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
-        "md": "Quando $\\pu{0,2 g}$ de fósforo reage com cloro para formar tricloreto de\nfósforo, $\\ce{PCl3}$, $$\n    \\ce{ 2 P(s) + 3 Cl2(g) -> 2 PCl3(l) }\n$$ em um calorímetro de capacidade calorífica $\\pu{220 J.K-1}$, sob\npressão constante, a temperatura do calorímetro sobre\n$\\pu{11 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
-        "tex": "Quando {\\(\\qty{0,2}{\\unit{g}}\\)} de fósforo reage com cloro para formar tricloreto de fósforo, {\\(\\ce{PCl3}\\)}, {\\[\n    \\ce{ 2 P(s) + 3 Cl2(g) -> 2 PCl3(l) }\n\\]} em um calorímetro de capacidade calorífica {\\(\\qty{220}{\\unit{J.K^{-1}}}\\)}, sob pressão constante, a temperatura do calorímetro sobre\n{\\(\\qty{11}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+130 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+130 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+130}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+240 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+240 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+240}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+420 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+420 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+420}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+750 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+750 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+750}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+1300 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+1300 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+1300}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
     },
     {
       "id_": "2A10",
@@ -343,21 +2212,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A33",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
-      "date": "2023-01-08T16:11:36.177693",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A34/2A34.md",
       "date": "2023-01-08T16:11:36.181691",
@@ -371,58 +2225,6 @@
       "data": null,
       "choices": null,
       "correct_choice": null
-    },
-    {
-      "id_": "2A14",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A14/2A14.md",
-      "date": "2023-01-09T18:04:52.862250",
-      "statement": {
-        "html": "<p>A uma amostra de <span class=\"math inline\">\\(\\pu{1,0 mol}\\)</span> de\n<span class=\"math inline\">\\(\\ce{H2}\\)</span> em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> são transferidos <span class=\"math inline\">\\(\\pu{1,2 kJ}\\)</span> de energia na forma de calor\nsob volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de temperatura da amostra.</p>",
-        "md": "A uma amostra de $\\pu{1,0 mol}$ de $\\ce{H2}$ em $\\pu{298 K}$ e\n$\\pu{1 atm}$ são transferidos $\\pu{1,2 kJ}$ de energia na forma de calor\nsob volume constante.\n\n**Assinale** a alternativa que mais se aproxima da variação de\ntemperatura da amostra.\n",
-        "tex": "A uma amostra de {\\(\\qty{1,0}{\\unit{mol}}\\)} de {\\(\\ce{H2}\\)} em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)} são transferidos\n{\\(\\qty{1,2}{\\unit{kJ}}\\)} de energia na forma de calor sob volume constante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de temperatura da amostra.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": {
-        "quantities": [
-          {
-            "id_": "CP(H2,g)",
-            "name": "capacidade calorífica a pressão constante do hidrogênio",
-            "symbol": "C_P(\\ce{H2,\\,\\text{g}})",
-            "value": 29,
-            "unit": "J.K-1.mol-1",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{57 K}\\)</span>",
-          "md": "$\\pu{57 K}$\n",
-          "tex": "{\\(\\qty{57}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{88 K}\\)</span>",
-          "md": "$\\pu{88 K}$\n",
-          "tex": "{\\(\\qty{88}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{140 K}\\)</span>",
-          "md": "$\\pu{140 K}$\n",
-          "tex": "{\\(\\qty{140}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{210 K}\\)</span>",
-          "md": "$\\pu{210 K}$\n",
-          "tex": "{\\(\\qty{210}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{330 K}\\)</span>",
-          "md": "$\\pu{330 K}$\n",
-          "tex": "{\\(\\qty{330}{\\unit{K}}\\)}\n"
-        }
-      ],
-      "correct_choice": 0
     },
     {
       "id_": "2A17",
@@ -466,47 +2268,6 @@
       "correct_choice": 1
     },
     {
-      "id_": "2A28",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A28/2A28.md",
-      "date": "2023-01-09T18:07:00.208876",
-      "statement": {
-        "html": "<p>Considere a reação de hidrogenação da hidrazina, formando amônia:\n<span class=\"math display\">\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -&gt; CH3OH(l) }\n\\]</span> e as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &amp;-&gt; N2(g) + 2 H2O(g) } &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-543 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &amp;-&gt; 2 H2O(g) }         &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &amp;-&gt; 2 NH3(g) }         &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de hidrogenação da hidrazina.</p>",
-        "md": "Considere a reação de hidrogenação da hidrazina, formando amônia: $$\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n$$ e as reações: $$\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &-> N2(g) + 2 H2O(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-543 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nhidrogenação da hidrazina.\n",
-        "tex": "Considere a reação de hidrogenação da hidrazina, formando amônia: {\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n\\]} e as reações: {\\[\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &-> N2(g) + 2 H2O(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-543}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-484}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-92}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de hidrogenação da hidrazina.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-150 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-150 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-150}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-250 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-250 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-250}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-400 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-400 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-400}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-660 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-660 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-660}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-1100 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1100 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1100}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 0
-    },
-    {
       "id_": "2A16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A16/2A16.md",
       "date": "2023-01-09T18:05:07.786103",
@@ -546,6 +2307,114 @@
         }
       ],
       "correct_choice": 1
+    },
+    {
+      "id_": "2A33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
+      "date": "2023-01-08T16:11:36.177693",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A14/2A14.md",
+      "date": "2023-01-09T18:04:52.862250",
+      "statement": {
+        "html": "<p>A uma amostra de <span class=\"math inline\">\\(\\pu{1,0 mol}\\)</span> de\n<span class=\"math inline\">\\(\\ce{H2}\\)</span> em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> são transferidos <span class=\"math inline\">\\(\\pu{1,2 kJ}\\)</span> de energia na forma de calor\nsob volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de temperatura da amostra.</p>",
+        "md": "A uma amostra de $\\pu{1,0 mol}$ de $\\ce{H2}$ em $\\pu{298 K}$ e\n$\\pu{1 atm}$ são transferidos $\\pu{1,2 kJ}$ de energia na forma de calor\nsob volume constante.\n\n**Assinale** a alternativa que mais se aproxima da variação de\ntemperatura da amostra.\n",
+        "tex": "A uma amostra de {\\(\\qty{1,0}{\\unit{mol}}\\)} de {\\(\\ce{H2}\\)} em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)} são transferidos\n{\\(\\qty{1,2}{\\unit{kJ}}\\)} de energia na forma de calor sob volume constante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de temperatura da amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "CP(H2,g)",
+            "name": "capacidade calorífica em pressão constante do hidrogênio",
+            "symbol": "C_P(\\ce{H2,\\,\\text{g}})",
+            "value": 29,
+            "unit": "J.K-1.mol-1",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{57 K}\\)</span>",
+          "md": "$\\pu{57 K}$\n",
+          "tex": "{\\(\\qty{57}{\\unit{K}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{88 K}\\)</span>",
+          "md": "$\\pu{88 K}$\n",
+          "tex": "{\\(\\qty{88}{\\unit{K}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 K}\\)</span>",
+          "md": "$\\pu{140 K}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{K}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{210 K}\\)</span>",
+          "md": "$\\pu{210 K}$\n",
+          "tex": "{\\(\\qty{210}{\\unit{K}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{330 K}\\)</span>",
+          "md": "$\\pu{330 K}$\n",
+          "tex": "{\\(\\qty{330}{\\unit{K}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2A28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A28/2A28.md",
+      "date": "2023-01-09T18:07:00.208876",
+      "statement": {
+        "html": "<p>Considere a reação de hidrogenação da hidrazina, formando amônia:\n<span class=\"math display\">\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -&gt; CH3OH(l) }\n\\]</span> e as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &amp;-&gt; N2(g) + 2 H2O(g) } &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-543 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &amp;-&gt; 2 H2O(g) }         &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &amp;-&gt; 2 NH3(g) }         &amp;&amp; \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de hidrogenação da hidrazina.</p>",
+        "md": "Considere a reação de hidrogenação da hidrazina, formando amônia: $$\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n$$ e as reações: $$\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &-> N2(g) + 2 H2O(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-543 kJ//mol} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-484 kJ//mol} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\pu{-92 kJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nhidrogenação da hidrazina.\n",
+        "tex": "Considere a reação de hidrogenação da hidrazina, formando amônia: {\\[\n    \\ce{ CH4(g) + 1/2 O2(g) -> CH3OH(l) }\n\\]} e as reações: {\\[\n\\begin{aligned}\n    \\ce{ N2H4(l) + O2(g) &-> N2(g) + 2 H2O(g) } && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-543}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ 2 H2(g) + O2(g) &-> 2 H2O(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-484}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ N2(g) + 3 H2(g) &-> 2 NH3(g) }         && \\Delta\nH^\\circ_\\mathrm{r} = \\qty{-92}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de hidrogenação da hidrazina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-150 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-150 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-150}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-250 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-250 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-250}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-400 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-400 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-400}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-660 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-660 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-660}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1100 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1100 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1100}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "2A31",
@@ -616,47 +2485,6 @@
       "correct_choice": 2
     },
     {
-      "id_": "2A02",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A02/2A02.md",
-      "date": "2023-01-08T16:21:08.208210",
-      "statement": {
-        "html": "<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A energia interna de\num sistema aberto pode ser aumentada adicionando massa ao sistema,\nrealizado trabalho sobre o sistema e transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema fechado pode ser aumentada realizado trabalho sobre o sistema\nou transferindo calor ao sistema.</li>\n<li>A energia interna de um sistema\nfechado pode ser aumentada apenas transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema isolado não pode ser alterada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\ncorretas.</p>",
-        "md": "Considere as proposições.\n\n1.  A energia interna de um sistema aberto pode ser aumentada\n    adicionando massa ao sistema, realizado trabalho sobre o sistema e\n    transferindo calor ao sistema.\n2.  A energia interna de um sistema fechado pode ser aumentada realizado\n    trabalho sobre o sistema ou transferindo calor ao sistema.\n3.  A energia interna de um sistema fechado pode ser aumentada apenas\n    transferindo calor ao sistema.\n4.  A energia interna de um sistema isolado não pode ser alterada.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
-        "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia interna de um sistema aberto pode ser aumentada adicionando massa ao sistema, realizado trabalho sobre o sistema e transferindo calor ao\n  sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada realizado trabalho sobre o sistema ou transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada apenas transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema isolado não pode ser alterada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>1</strong> e <strong>2</strong>",
-          "md": "**1** e **2**\n",
-          "tex": "\\textbf{1} e \\textbf{2}\n"
-        },
-        {
-          "html": "<strong>1</strong> e <strong>4</strong>",
-          "md": "**1** e **4**\n",
-          "tex": "\\textbf{1} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong> e <strong>4</strong>",
-          "md": "**2** e **4**\n",
-          "tex": "\\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-          "md": "**1**, **2** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
       "id_": "2A24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A24/2A24.md",
       "date": "2023-01-09T18:06:12.885417",
@@ -698,42 +2526,42 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A07/2A07.md",
-      "date": "2023-01-09T18:01:53.539666",
+      "id_": "2A02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A02/2A02.md",
+      "date": "2023-01-08T16:21:08.208210",
       "statement": {
-        "html": "<p>Um calorímetro de volume constante foi calibrado com uma reação que\nlibera <span class=\"math inline\">\\(\\pu{3,5 kJ}\\)</span> de calor em\n<span class=\"math inline\">\\(\\pu{0,2 L}\\)</span> de uma solução colocada\nno calorímetro, resultando em um aumento de temperatura de <span class=\"math inline\">\\(\\pu{7 \\degree C}\\)</span>. Em um experimento\nposterior, <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span> foram misturados no mesmo\ncalorímetro e a temperatura subiu <span class=\"math inline\">\\(\\pu{2\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima a\nvariação de energia interna da mistura devido à reação de\nneutralização.</p>",
-        "md": "Um calorímetro de volume constante foi calibrado com uma reação que\nlibera $\\pu{3,5 kJ}$ de calor em $\\pu{0,2 L}$ de uma solução colocada no\ncalorímetro, resultando em um aumento de temperatura de\n$\\pu{7 \\degree C}$. Em um experimento posterior, $\\pu{100 mL}$ de uma\nsolução $\\pu{0,2 M}$ de $\\ce{KOH}$ foram misturados no mesmo calorímetro\ne a temperatura subiu $\\pu{2 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima a variação de energia\ninterna da mistura devido à reação de neutralização.\n",
-        "tex": "Um calorímetro de volume constante foi calibrado com uma reação que libera {\\(\\qty{3,5}{\\unit{kJ}}\\)} de calor em {\\(\\qty{0,2}{\\unit{L}}\\)} de uma\nsolução colocada no calorímetro, resultando em um aumento de temperatura de {\\(\\qty{7}{\\unit{\\degree C}}\\)}. Em um experimento posterior,\n{\\(\\qty{100}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{M}}\\)} de {\\(\\ce{KOH}\\)} foram misturados no mesmo calorímetro e a temperatura subiu\n{\\(\\qty{2}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima a variação de energia interna da mistura devido à reação de neutralização.\n"
+        "html": "<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A energia interna de\num sistema aberto pode ser aumentada adicionando massa ao sistema,\nrealizado trabalho sobre o sistema e transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema fechado pode ser aumentada realizado trabalho sobre o sistema\nou transferindo calor ao sistema.</li>\n<li>A energia interna de um sistema\nfechado pode ser aumentada apenas transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema isolado não pode ser alterada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\ncorretas.</p>",
+        "md": "Considere as proposições.\n\n1.  A energia interna de um sistema aberto pode ser aumentada\n    adicionando massa ao sistema, realizado trabalho sobre o sistema e\n    transferindo calor ao sistema.\n2.  A energia interna de um sistema fechado pode ser aumentada realizado\n    trabalho sobre o sistema ou transferindo calor ao sistema.\n3.  A energia interna de um sistema fechado pode ser aumentada apenas\n    transferindo calor ao sistema.\n4.  A energia interna de um sistema isolado não pode ser alterada.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
+        "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia interna de um sistema aberto pode ser aumentada adicionando massa ao sistema, realizado trabalho sobre o sistema e transferindo calor ao\n  sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada realizado trabalho sobre o sistema ou transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada apenas transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema isolado não pode ser alterada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-0,58 kJ}\\)</span>",
-          "md": "$\\pu{-0,58 kJ}$\n",
-          "tex": "{\\(\\qty{-0,58}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-0,69 kJ}\\)</span>",
-          "md": "$\\pu{-0,69 kJ}$\n",
-          "tex": "{\\(\\qty{-0,69}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-0,83 kJ}\\)</span>",
-          "md": "$\\pu{-0,83 kJ}$\n",
-          "tex": "{\\(\\qty{-0,83}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1 kJ}\\)</span>",
-          "md": "$\\pu{-1 kJ}$\n",
-          "tex": "{\\(\\qty{-1}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1,2 kJ}\\)</span>",
-          "md": "$\\pu{-1,2 kJ}$\n",
-          "tex": "{\\(\\qty{-1,2}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
       "correct_choice": 3
@@ -780,6 +2608,47 @@
       "correct_choice": 1
     },
     {
+      "id_": "2A07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A07/2A07.md",
+      "date": "2023-01-09T18:01:53.539666",
+      "statement": {
+        "html": "<p>Um calorímetro de volume constante foi calibrado com uma reação que\nlibera <span class=\"math inline\">\\(\\pu{3,5 kJ}\\)</span> de calor em\n<span class=\"math inline\">\\(\\pu{0,2 L}\\)</span> de uma solução colocada\nno calorímetro, resultando em um aumento de temperatura de <span class=\"math inline\">\\(\\pu{7 \\degree C}\\)</span>. Em um experimento\nposterior, <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span> foram misturados no mesmo\ncalorímetro e a temperatura subiu <span class=\"math inline\">\\(\\pu{2\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima a\nvariação de energia interna da mistura devido à reação de\nneutralização.</p>",
+        "md": "Um calorímetro de volume constante foi calibrado com uma reação que\nlibera $\\pu{3,5 kJ}$ de calor em $\\pu{0,2 L}$ de uma solução colocada no\ncalorímetro, resultando em um aumento de temperatura de\n$\\pu{7 \\degree C}$. Em um experimento posterior, $\\pu{100 mL}$ de uma\nsolução $\\pu{0,2 M}$ de $\\ce{KOH}$ foram misturados no mesmo calorímetro\ne a temperatura subiu $\\pu{2 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima a variação de energia\ninterna da mistura devido à reação de neutralização.\n",
+        "tex": "Um calorímetro de volume constante foi calibrado com uma reação que libera {\\(\\qty{3,5}{\\unit{kJ}}\\)} de calor em {\\(\\qty{0,2}{\\unit{L}}\\)} de uma\nsolução colocada no calorímetro, resultando em um aumento de temperatura de {\\(\\qty{7}{\\unit{\\degree C}}\\)}. Em um experimento posterior,\n{\\(\\qty{100}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{M}}\\)} de {\\(\\ce{KOH}\\)} foram misturados no mesmo calorímetro e a temperatura subiu\n{\\(\\qty{2}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima a variação de energia interna da mistura devido à reação de neutralização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,58 kJ}\\)</span>",
+          "md": "$\\pu{-0,58 kJ}$\n",
+          "tex": "{\\(\\qty{-0,58}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,69 kJ}\\)</span>",
+          "md": "$\\pu{-0,69 kJ}$\n",
+          "tex": "{\\(\\qty{-0,69}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,83 kJ}\\)</span>",
+          "md": "$\\pu{-0,83 kJ}$\n",
+          "tex": "{\\(\\qty{-0,83}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1 kJ}\\)</span>",
+          "md": "$\\pu{-1 kJ}$\n",
+          "tex": "{\\(\\qty{-1}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,2 kJ}\\)</span>",
+          "md": "$\\pu{-1,2 kJ}$\n",
+          "tex": "{\\(\\qty{-1,2}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
       "id_": "2A15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A15/2A15.md",
       "date": "2023-01-09T18:05:01.210168",
@@ -816,47 +2685,6 @@
           "html": "<span class=\"math inline\">\\(\\pu{45 kJ.mol-1}\\)</span>",
           "md": "$\\pu{45 kJ.mol-1}$\n",
           "tex": "{\\(\\qty{45}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
-      "id_": "2A22",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A22/2A22.md",
-      "date": "2023-01-09T18:05:59.165567",
-      "statement": {
-        "html": "<p>Considere a reação de combustão do dióxido de enxofre: <span class=\"math display\">\\[\n    \\ce{ 2 SO2(g) + O2(g) -&gt; 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\pu{-200 kJ//mol}\n\\]</span> Em um experimento, excesso de dióxido de enxofre reagiu com\n<span class=\"math inline\">\\(\\pu{12 g}\\)</span> de oxigênio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do calor\nliberado na reação.</p>",
-        "md": "Considere a reação de combustão do dióxido de enxofre: $$\n    \\ce{ 2 SO2(g) + O2(g) -> 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\pu{-200 kJ//mol}\n$$ Em um experimento, excesso de dióxido de enxofre reagiu com\n$\\pu{12 g}$ de oxigênio.\n\n**Assinale** a alternativa que mais se aproxima do calor liberado na\nreação.\n",
-        "tex": "Considere a reação de combustão do dióxido de enxofre: {\\[\n    \\ce{ 2 SO2(g) + O2(g) -> 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\qty{-200}{\\tfrac{kJ}{\\unit{mol}}}\n\\]} Em um experimento, excesso de dióxido de enxofre reagiu com {\\(\\qty{12}{\\unit{g}}\\)} de oxigênio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do calor liberado na reação.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{19 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{19 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{19}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{30 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{30 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{30}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{48 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{48 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{48}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{75 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{75 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{75}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{120 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{120 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{120}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -901,6 +2729,77 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "2A22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A22/2A22.md",
+      "date": "2023-01-09T18:05:59.165567",
+      "statement": {
+        "html": "<p>Considere a reação de combustão do dióxido de enxofre: <span class=\"math display\">\\[\n    \\ce{ 2 SO2(g) + O2(g) -&gt; 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\pu{-200 kJ//mol}\n\\]</span> Em um experimento, excesso de dióxido de enxofre reagiu com\n<span class=\"math inline\">\\(\\pu{12 g}\\)</span> de oxigênio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do calor\nliberado na reação.</p>",
+        "md": "Considere a reação de combustão do dióxido de enxofre: $$\n    \\ce{ 2 SO2(g) + O2(g) -> 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\pu{-200 kJ//mol}\n$$ Em um experimento, excesso de dióxido de enxofre reagiu com\n$\\pu{12 g}$ de oxigênio.\n\n**Assinale** a alternativa que mais se aproxima do calor liberado na\nreação.\n",
+        "tex": "Considere a reação de combustão do dióxido de enxofre: {\\[\n    \\ce{ 2 SO2(g) + O2(g) -> 2 SO3(g) } \\quad \\Delta\nH_\\mathrm{r}^\\circ = \\qty{-200}{\\tfrac{kJ}{\\unit{mol}}}\n\\]} Em um experimento, excesso de dióxido de enxofre reagiu com {\\(\\qty{12}{\\unit{g}}\\)} de oxigênio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do calor liberado na reação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{19 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{19}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{30 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{30 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{30}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{48 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{48 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{48}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{75 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{75 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{75}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{120 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{120}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2A35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A35/2A35.md",
+      "date": "2023-01-08T16:11:36.181691",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A39",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A39/2A39.md",
+      "date": "2023-01-08T16:11:36.185690",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A05",
@@ -958,7 +2857,7 @@
         "quantities": [
           {
             "id_": "CP(N2,g)",
-            "name": "capacidade calorífica a pressão constante do nitrogênio",
+            "name": "capacidade calorífica em pressão constante do nitrogênio",
             "symbol": "C_P(\\ce{N2,\\,\\text{g}})",
             "value": 29,
             "unit": "J.K-1.mol-1",
@@ -994,77 +2893,6 @@
         }
       ],
       "correct_choice": 2
-    },
-    {
-      "id_": "2A35",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A35/2A35.md",
-      "date": "2023-01-08T16:11:36.181691",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A39",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A39/2A39.md",
-      "date": "2023-01-08T16:11:36.185690",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A30",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A30/2A30.md",
-      "date": "2023-01-09T18:07:21.028629",
-      "statement": {
-        "html": "<p>Considere as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &amp;-&gt; 2 AlBr3(aq) + 3 H2(g) }\n&amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-1060 kJ//mol} \\\\\n    \\ce{ HBr(g) &amp;-&gt; HBr(aq)\n}                            &amp;&amp; \\Delta H^\\circ_\\mathrm{r} =\n\\pu{-81 kJ//mol} \\\\\n    \\ce{ H2(g) + Br2(l) &amp;-&gt; 2 HBr(g)\n}                   &amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-73\nkJ//mol} \\\\\n    \\ce{ AlBr3(s) &amp;-&gt; AlBr3(aq)\n}                        &amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-368\nkJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do brometo de alumínio anidro, <span class=\"math inline\">\\(\\ce{AlBr3}\\)</span>.</p>",
-        "md": "Considere as reações: $$\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &-> 2 AlBr3(aq) + 3 H2(g) }\n&& \\Delta H^\\circ_\\mathrm{r} = \\pu{-1060 kJ//mol} \\\\\n    \\ce{ HBr(g) &-> HBr(aq)\n}                            && \\Delta H^\\circ_\\mathrm{r} =\n\\pu{-81 kJ//mol} \\\\\n    \\ce{ H2(g) + Br2(l) &-> 2 HBr(g)\n}                   && \\Delta H^\\circ_\\mathrm{r} = \\pu{-73\nkJ//mol} \\\\\n    \\ce{ AlBr3(s) &-> AlBr3(aq)\n}                        && \\Delta H^\\circ_\\mathrm{r} = \\pu{-368\nkJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo brometo de alumínio anidro, $\\ce{AlBr3}$.\n",
-        "tex": "Considere as reações: {\\[\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &-> 2 AlBr3(aq) + 3 H2(g) }\n&& \\Delta H^\\circ_\\mathrm{r} = \\qty{-1060}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ HBr(g) &-> HBr(aq)\n}                            && \\Delta H^\\circ_\\mathrm{r} =\n\\qty{-81}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ H2(g) + Br2(l) &-> 2 HBr(g)\n}                   && \\Delta H^\\circ_\\mathrm{r} = \\qty{-73}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ AlBr3(s) &-> AlBr3(aq)\n}                        && \\Delta H^\\circ_\\mathrm{r} = \\qty{-368}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do brometo de alumínio anidro, {\\(\\ce{AlBr3}\\)}.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-1,5 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1,5 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-1,9 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1,9 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1,9}{\\unit{MJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-2,3 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{-2,3 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-2,3}{\\unit{MJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-2,8 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{-2,8 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-2,8}{\\unit{MJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{-3,5 MJ.mol-1}\\)</span>",
-          "md": "$\\pu{-3,5 MJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-3,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 0
     },
     {
       "id_": "2A06",
@@ -1108,90 +2936,45 @@
       "correct_choice": 3
     },
     {
-      "id_": "2A40",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
-      "date": "2023-01-08T16:11:36.189689",
+      "id_": "2A30",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A30/2A30.md",
+      "date": "2023-01-09T18:07:21.028629",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A38",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A38/2A38.md",
-      "date": "2023-01-08T16:11:36.185690",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A37",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A37/2A37.md",
-      "date": "2023-01-08T16:11:36.185690",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A03",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A03/2A03.md",
-      "date": "2023-01-09T17:55:36.599628",
-      "statement": {
-        "html": "<p>Os gases se expandem, nos quatro cilindros de um motor de automóvel,\nde <span class=\"math inline\">\\(\\pu{0,2 L}\\)</span> a <span class=\"math inline\">\\(\\pu{2,2 L}\\)</span> durante um ciclo de ignição. O\nvirabrequim exerce uma força constante equivalente à pressão de <span class=\"math inline\">\\(\\pu{10 atm}\\)</span> sobre os gases.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo motor em um ciclo.</p>",
-        "md": "Os gases se expandem, nos quatro cilindros de um motor de automóvel, de\n$\\pu{0,2 L}$ a $\\pu{2,2 L}$ durante um ciclo de ignição. O virabrequim\nexerce uma força constante equivalente à pressão de $\\pu{10 atm}$ sobre\nos gases.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo motor em um ciclo.\n",
-        "tex": "Os gases se expandem, nos quatro cilindros de um motor de automóvel, de {\\(\\qty{0,2}{\\unit{L}}\\)} a {\\(\\qty{2,2}{\\unit{L}}\\)} durante um ciclo de\nignição. O virabrequim exerce uma força constante equivalente à pressão de {\\(\\qty{10}{\\unit{atm}}\\)} sobre os gases.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo motor em um ciclo.\n"
+        "html": "<p>Considere as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &amp;-&gt; 2 AlBr3(aq) + 3 H2(g) }\n&amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-1060 kJ//mol} \\\\\n    \\ce{ HBr(g) &amp;-&gt; HBr(aq)\n}                            &amp;&amp; \\Delta H^\\circ_\\mathrm{r} =\n\\pu{-81 kJ//mol} \\\\\n    \\ce{ H2(g) + Br2(l) &amp;-&gt; 2 HBr(g)\n}                   &amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-73\nkJ//mol} \\\\\n    \\ce{ AlBr3(s) &amp;-&gt; AlBr3(aq)\n}                        &amp;&amp; \\Delta H^\\circ_\\mathrm{r} = \\pu{-368\nkJ//mol}\n\\end{aligned}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do brometo de alumínio anidro, <span class=\"math inline\">\\(\\ce{AlBr3}\\)</span>.</p>",
+        "md": "Considere as reações: $$\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &-> 2 AlBr3(aq) + 3 H2(g) }\n&& \\Delta H^\\circ_\\mathrm{r} = \\pu{-1060 kJ//mol} \\\\\n    \\ce{ HBr(g) &-> HBr(aq)\n}                            && \\Delta H^\\circ_\\mathrm{r} =\n\\pu{-81 kJ//mol} \\\\\n    \\ce{ H2(g) + Br2(l) &-> 2 HBr(g)\n}                   && \\Delta H^\\circ_\\mathrm{r} = \\pu{-73\nkJ//mol} \\\\\n    \\ce{ AlBr3(s) &-> AlBr3(aq)\n}                        && \\Delta H^\\circ_\\mathrm{r} = \\pu{-368\nkJ//mol}\n\\end{aligned}\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo brometo de alumínio anidro, $\\ce{AlBr3}$.\n",
+        "tex": "Considere as reações: {\\[\n\\begin{aligned}\n    \\ce{ 2 Al(s) + 6 HBr(aq) &-> 2 AlBr3(aq) + 3 H2(g) }\n&& \\Delta H^\\circ_\\mathrm{r} = \\qty{-1060}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ HBr(g) &-> HBr(aq)\n}                            && \\Delta H^\\circ_\\mathrm{r} =\n\\qty{-81}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ H2(g) + Br2(l) &-> 2 HBr(g)\n}                   && \\Delta H^\\circ_\\mathrm{r} = \\qty{-73}{\\tfrac{kJ}{\\unit{mol}}} \\\\\n    \\ce{ AlBr3(s) &-> AlBr3(aq)\n}                        && \\Delta H^\\circ_\\mathrm{r} = \\qty{-368}{\\tfrac{kJ}{\\unit{mol}}}\n\\end{aligned}\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do brometo de alumínio anidro, {\\(\\ce{AlBr3}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6 kJ}\\)</span>",
-          "md": "$\\pu{1,6 kJ}$\n",
-          "tex": "{\\(\\qty{1,6}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-1,5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,0 kJ}\\)</span>",
-          "md": "$\\pu{2,0 kJ}$\n",
-          "tex": "{\\(\\qty{2,0}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-1,9 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,9 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,9}{\\unit{MJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,5 kJ}\\)</span>",
-          "md": "$\\pu{2,5 kJ}$\n",
-          "tex": "{\\(\\qty{2,5}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-2,3 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2,3 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2,3}{\\unit{MJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{3,2 kJ}\\)</span>",
-          "md": "$\\pu{3,2 kJ}$\n",
-          "tex": "{\\(\\qty{3,2}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-2,8 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2,8 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2,8}{\\unit{MJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{4,0 kJ}\\)</span>",
-          "md": "$\\pu{4,0 kJ}$\n",
-          "tex": "{\\(\\qty{4,0}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-3,5 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-3,5 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-3,5}{\\unit{MJ.mol^{-1}}}\\)}\n"
         }
       ],
-      "correct_choice": 1
+      "correct_choice": 0
     },
     {
       "id_": "2A26",
@@ -1233,6 +3016,47 @@
         }
       ],
       "correct_choice": 2
+    },
+    {
+      "id_": "2A03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A03/2A03.md",
+      "date": "2023-01-09T17:55:36.599628",
+      "statement": {
+        "html": "<p>Os gases se expandem, nos quatro cilindros de um motor de automóvel,\nde <span class=\"math inline\">\\(\\pu{0,2 L}\\)</span> a <span class=\"math inline\">\\(\\pu{2,2 L}\\)</span> durante um ciclo de ignição. O\nvirabrequim exerce uma força constante equivalente à pressão de <span class=\"math inline\">\\(\\pu{10 atm}\\)</span> sobre os gases.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo motor em um ciclo.</p>",
+        "md": "Os gases se expandem, nos quatro cilindros de um motor de automóvel, de\n$\\pu{0,2 L}$ a $\\pu{2,2 L}$ durante um ciclo de ignição. O virabrequim\nexerce uma força constante equivalente à pressão de $\\pu{10 atm}$ sobre\nos gases.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo motor em um ciclo.\n",
+        "tex": "Os gases se expandem, nos quatro cilindros de um motor de automóvel, de {\\(\\qty{0,2}{\\unit{L}}\\)} a {\\(\\qty{2,2}{\\unit{L}}\\)} durante um ciclo de\nignição. O virabrequim exerce uma força constante equivalente à pressão de {\\(\\qty{10}{\\unit{atm}}\\)} sobre os gases.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo motor em um ciclo.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,6 kJ}\\)</span>",
+          "md": "$\\pu{1,6 kJ}$\n",
+          "tex": "{\\(\\qty{1,6}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0 kJ}\\)</span>",
+          "md": "$\\pu{2,0 kJ}$\n",
+          "tex": "{\\(\\qty{2,0}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5 kJ}\\)</span>",
+          "md": "$\\pu{2,5 kJ}$\n",
+          "tex": "{\\(\\qty{2,5}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,2 kJ}\\)</span>",
+          "md": "$\\pu{3,2 kJ}$\n",
+          "tex": "{\\(\\qty{3,2}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,0 kJ}\\)</span>",
+          "md": "$\\pu{4,0 kJ}$\n",
+          "tex": "{\\(\\qty{4,0}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2A32",
@@ -1295,6 +3119,66 @@
       "correct_choice": 0
     },
     {
+      "id_": "2A40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
+      "date": "2023-01-08T16:11:36.189689",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A38",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A38/2A38.md",
+      "date": "2023-01-08T16:11:36.185690",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A37",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A37/2A37.md",
+      "date": "2023-01-08T16:11:36.185690",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A36",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A36/2A36.md",
+      "date": "2023-01-08T16:11:36.181691",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A29/2A29.md",
       "date": "2023-01-09T18:07:15.524695",
@@ -1334,21 +3218,6 @@
         }
       ],
       "correct_choice": 4
-    },
-    {
-      "id_": "2A36",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A36/2A36.md",
-      "date": "2023-01-08T16:11:36.181691",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "2A09",
@@ -1515,47 +3384,6 @@
       "correct_choice": 2
     },
     {
-      "id_": "2A18",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A18/2A18.md",
-      "date": "2023-01-09T18:05:32.317853",
-      "statement": {
-        "html": "<p>A entalpia de vaporização do metanol é <span class=\"math inline\">\\(\\pu{38 kJ.mol-1}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e a entalpia de fusão é\n<span class=\"math inline\">\\(\\pu{3 kJ.mol-1}\\)</span> na mesma\ntemperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de sublimação do metanol em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
-        "md": "A entalpia de vaporização do metanol é $\\pu{38 kJ.mol-1}$ em\n$\\pu{25 \\degree C}$ e a entalpia de fusão é $\\pu{3 kJ.mol-1}$ na mesma\ntemperatura.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do metanol em $\\pu{25 \\degree C}$.\n",
-        "tex": "A entalpia de vaporização do metanol é {\\(\\qty{38}{\\unit{kJ.mol^{-1}}}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)} e a entalpia de fusão é\n{\\(\\qty{3}{\\unit{kJ.mol^{-1}}}\\)} na mesma temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de sublimação do metanol em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+11 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+11 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+11}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+17 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+17 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+17}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+25 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+25 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+25}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+38 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+38 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+38}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{+58 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{+58 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{+58}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
       "id_": "2A04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A04/2A04.md",
       "date": "2023-01-09T18:01:27.995807",
@@ -1611,6 +3439,47 @@
           "html": "<span class=\"math inline\">\\(\\pu{1600 J}\\)</span>",
           "md": "$\\pu{1600 J}$\n",
           "tex": "{\\(\\qty{1600}{\\unit{J}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2A18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A18/2A18.md",
+      "date": "2023-01-09T18:05:32.317853",
+      "statement": {
+        "html": "<p>A entalpia de vaporização do metanol é <span class=\"math inline\">\\(\\pu{38 kJ.mol-1}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e a entalpia de fusão é\n<span class=\"math inline\">\\(\\pu{3 kJ.mol-1}\\)</span> na mesma\ntemperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de sublimação do metanol em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
+        "md": "A entalpia de vaporização do metanol é $\\pu{38 kJ.mol-1}$ em\n$\\pu{25 \\degree C}$ e a entalpia de fusão é $\\pu{3 kJ.mol-1}$ na mesma\ntemperatura.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do metanol em $\\pu{25 \\degree C}$.\n",
+        "tex": "A entalpia de vaporização do metanol é {\\(\\qty{38}{\\unit{kJ.mol^{-1}}}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)} e a entalpia de fusão é\n{\\(\\qty{3}{\\unit{kJ.mol^{-1}}}\\)} na mesma temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de sublimação do metanol em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+11 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+11 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+11}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+17 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+17 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+17}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+25 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+25 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+25}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+38 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+38 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+38}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+58 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+58 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+58}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 3

@@ -9,4 +9,11 @@
     "[latex-expl3]": {
         "editor.formatOnSave": false
     },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+    }
 }

@@ -24,14 +24,28 @@
         {
             "id_": "S",
             "name": "entropia",
-            "symbol": "\\Delta S^{\\circ}",
+            "symbol": "S^{\\circ}",
             "unit": "J.K-1.mol-1",
             "prec": 3
         },
         {
+            "id_": "c",
+            "name": "capacidade calorífica específica",
+            "symbol": "c",
+            "unit": "J.K-1.g-1",
+            "prec": 2
+        },
+        {
             "id_": "CP",
-            "name": "capacidade calorífica a pressão constante",
+            "name": "capacidade calorífica em pressão constante",
             "symbol": "C_P",
+            "unit": "J.K-1.mol-1",
+            "prec": 2
+        },
+        {
+            "id_": "CV",
+            "name": "capacidade calorífica em volume constante",
+            "symbol": "C_V",
             "unit": "J.K-1.mol-1",
             "prec": 2
         },

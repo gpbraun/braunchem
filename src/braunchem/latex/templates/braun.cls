@@ -1019,7 +1019,7 @@
 
 \RequirePackage { tasks, enumitem }
 
-\setlist{leftmargin=*}
+\setlist{ leftmargin = 2em }
 
 %% RESPOSTAS
 
@@ -1027,7 +1027,7 @@
     [
         label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
         label-align = right,
-        item-indent = 3em,
+        item-indent = 2.5em,
         label-width = 1.5em,
         label-offset = 0.7em,
         before-skip = 1em,
@@ -1111,26 +1111,26 @@
             }
         \fp_set:Nn \l_tmpb_fp 
             { % tamanho útil
-                0.5 * \dim_to_decimal:n {\columnwidth}
+                0.7 * \dim_to_decimal:n {\columnwidth}
             }
 
         \int_set:Nn \l_tmpa_int 
             { % número de colunas
-                \fp_to_int:n { max(1, min( 5, floor(\l_tmpb_fp  / \l_tmpa_fp) )) } 
+                \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
             }
 
-        \int_compare:nNnT { \l_tmpa_int } = {4}
-            { % 4 colunas não faz sentido: reduzir para 3.
-                \int_set:Nn \l_tmpa_int {3}
-            }
+        % \int_compare:nNnT { \l_tmpa_int } = {4}
+        %     { % 4 colunas não faz sentido: reduzir para 3.
+        %         \int_set:Nn \l_tmpa_int {3}
+        %     }
 
         \smallskip
         \begin{choices}(\l_tmpa_int)
-            \item \box_use_drop:N \l_braun_choices_a_box
-            \item \box_use_drop:N \l_braun_choices_b_box
-            \item \box_use_drop:N \l_braun_choices_c_box
-            \item \box_use_drop:N \l_braun_choices_d_box
-            \item \box_use_drop:N \l_braun_choices_e_box
+            \item #1
+            \item #2
+            \item #3
+            \item #4
+            \item #5
         \end{choices}
 
         \group_end:
