@@ -1031,7 +1031,7 @@
         label-offset = 0.7em,
         before-skip = 1em,
     ]
-    { answers } [ \item ]
+    { answers } [ \answer ]
 
 %% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
 
@@ -1787,6 +1787,14 @@
             \text_uppercase:n { \l_braun_problem_name_tl } ~
             \arabic { subsection } . \arabic { problem }
             
+            
+            
+        }
+        \hfill
+        {
+            \small
+            \texttt{ \color{purple} \tl_use:N \l_braun_problem_id_tl  }
+            \skip_horizontal:n {1ex}
         }
         % \\[-1ex]
         % {\color{black!50} \rule{\linewidth}{0.4pt}}

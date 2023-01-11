@@ -79,7 +79,7 @@ class Problem(BaseModel):
         if len(self.answer) == 1:
             return self.answer[0].tex
 
-        return latex.enum("answers", [answer.tex for answer in self.answer])
+        return latex.enum("enumerate", [answer.tex for answer in self.answer])
 
     def tex(self):
         """Retorna o enunciado completo do problema em LaTeX."""
@@ -108,10 +108,18 @@ class Problem(BaseModel):
             "date": datetime.utcfromtimestamp(problem_path.stat().st_mtime),
         }
 
-        # dados termodinâmicos
+        # dados termodinâmicos!
         data = metadata.pop("data", None)
         if data:
             problem["data"] = qtys(data)
+
+        # respostas de problemas discursivos!
+        answer = metadata.pop("answer", None)
+        if isinstance(answer, list):
+            problem["answer"] = [Text.parse_md(item) for item in answer]
+
+        elif isinstance(answer, str):
+            problem["answer"] = [Text.parse_md(answer)]
 
         # conteúdo
         soup = text.md2soup(content)
@@ -273,9 +281,9 @@ class ProblemSet(BaseModel):
         answers = [p.tex_answer() for p in self.problems]
 
         if self.is_objective:
-            return header + latex.enum("answers", answers, cols=6)
+            return header + latex.enum("answers", answers, sep_cmd="answer", cols=6)
 
-        return header + latex.enum("answers", answers)
+        return header + latex.enum("answers", answers, sep_cmd="answer")
 
     def get_updated_problem(self, problem_path: Path) -> Problem:
         """Retorna a versão mais recente de um problema no `ProblemSet`.

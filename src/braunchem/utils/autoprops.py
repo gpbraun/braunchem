@@ -166,7 +166,7 @@ def autoprops(true_props):
 
 
 PU_CMD_REGEX = re.compile(
-    r"\\pu\{\s*([\+\-])?([\d\,\.]*)([eE][+-]\d+)?\s*([\/\\\s\w\d\.\+\-\%]*)\s*\}"
+    r"\\pu\{\s*([\+\-]{1})?([\d\,\.]*)([eE]{1}(?:[+-])?\d+)?\s*([\/\\\s\w\d\.\+\-\%]+)?\s*\}"
 )
 
 
@@ -202,6 +202,8 @@ class PhyisicalUnit:
         self.sci = sci
 
     def to_pu(self):
+        if not self.unit:
+            return f"\\pu{{{self.value_string()}}}"
         return f"\\pu{{{self.value_string()} {self.unit}}}"
 
     def to_text(self):
@@ -241,19 +243,22 @@ class PhyisicalUnit:
 
 def numerical_choices(answer: str, seed: int | str = None):
     """Gera múltilplas escolas para problemas com resposta numérica."""
-    pu = PhyisicalUnit.parse_string(answer)
-
     if seed:
         random.seed(seed)
-    correct_choice = random.randint(0, 4)
+    try:
+        pu = PhyisicalUnit.parse_string(answer)
 
-    scale = 1 + (abs(pu.value.log10()) + 1) / 5
+        correct_choice = random.randint(0, 4)
 
-    choices = [
-        pu.scale(scale ** (index - correct_choice)).to_text() for index in range(5)
-    ]
+        scale = 1 + (abs(pu.value.log10()) + 1) / 5
 
-    return choices, correct_choice
+        choices = [
+            pu.scale(scale ** (index - correct_choice)).to_text() for index in range(5)
+        ]
+
+        return choices, correct_choice
+    except AttributeError:
+        raise AttributeError(f"Erro com seed {seed}")
 
 
 def main():

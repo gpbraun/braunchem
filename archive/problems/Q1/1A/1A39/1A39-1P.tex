@@ -1,5 +1,4 @@
 \begin{tikzpicture}
-    \def\R{1000*8.314}% boltzmann constant
     \begin{axis}
         [
             domain = 0:2700,
@@ -7,9 +6,9 @@
             xtick = {142.5}, 
             ytick=\empty,
         ]
-    \pgfplotsinvokeforeach{4,5,6,7,8,9,10,11,12,13,14}
+    \pgfplotsinvokeforeach { 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 }
         {
-            \addplot[black] coordinates
+            \addplot coordinates
             {
                 ((1240/13.6)/(1-9/#1^2), 0)
                 ((1240/13.6)/(1-9/#1^2), 1)
