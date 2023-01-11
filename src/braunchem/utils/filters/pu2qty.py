@@ -32,18 +32,21 @@ def qty(num_str: str, unit_str: str) -> str:
     return f"\\qty{{{num_str}}}{{{formated_unit_str}}}"
 
 
-def pu2qty(elem, doc, debug=False):
+def pu2qty(text_str) -> str:
     """Converte todos os comandos `\\pu` do mhchem aos equivalentes no formato `siunitx`."""
+    return re.sub(PU_CMD_REGEX, lambda x: qty(x.group(1), x.group(2)), text_str)
+
+
+def filter_pu2qty(elem, doc, debug=False):
+    """Converte todos os comandos `\\pu` do mhchem aos equivalentes no formato `siunitx` em um documento em PANDOC."""
     if isinstance(elem, pf.Math) and doc.format == "latex":
-        elem.text = re.sub(
-            PU_CMD_REGEX, lambda x: qty(x.group(1), x.group(2)), elem.text
-        )
+        elem.text = pu2qty(elem.text)
 
         return elem
 
 
 def main(doc=None):
-    return pf.run_filter(pu2qty, doc=doc)
+    return pf.run_filter(filter_pu2qty, doc=doc)
 
 
 if __name__ == "__main__":

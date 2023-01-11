@@ -75,17 +75,8 @@ def latex_len(tex_str):
     return count
 
 
-def enum(name, items, cols=0, auto_cols=False, sep_cmd="item"):
+def enum(name: str, items: list, cols=0, sep_cmd="item"):
     # latex enumerate
-    if auto_cols:
-        max_length = max([latex_len(i) for i in items])
-        if max_length < 4:
-            cols = 5
-        elif max_length < 7:
-            cols = 3
-        elif max_length < 20:
-            cols = 2
-
     cols = f"({cols})" if cols else ""
     content = "\n".join([cmd(sep_cmd) + i for i in items])
     return env(name, f"{cols}{content}")
@@ -109,9 +100,9 @@ class List:
     def __iter__(self):
         return iter(self.items)
 
-    def display(self):
+    def display(self, cols=1) -> str:
         if not self.items:
-            return
+            return ""
 
         x = "\n".join(f"\t\\item {item}" for item in self)
         return env(self.envname, x)

@@ -230,8 +230,6 @@
 
 \RequirePackage [ version = 4 ] { mhchem }
 
-\RequirePackage { braunchem }
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   BOXES -> isso aqui vai morrer
@@ -349,9 +347,10 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\PassOptionsToPackage { table } { xcolor }
+\RequirePackage [ table ] { xcolor }
+\RequirePackage { tikz }
 
-\RequirePackage{ tikz }
+\RequirePackage { braunchem }
 
 %============================================================%
 %   PLOTTING
@@ -1039,9 +1038,9 @@
 \NewTasksEnvironment
     [
         label  = { \choicebox { \Alph* } },
-        item-indent = 3em,
+        item-indent = 2.5em,
         after-item-skip = 2\itemsep,
-        label-width = 1.5em,
+        label-width = 1em,
         label-align = right,
         label-offset = 0.7em,
     ] 
@@ -1052,6 +1051,9 @@
 \NewTasksEnvironment
     [
         label  = \textbullet,
+        item-indent = 1em,
+        label-width = 0.9ex,
+        % label-offset = 0.5ex,
     ] 
     { datalist } [\item ]
 
@@ -1119,10 +1121,10 @@
                 \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
             }
 
-        % \int_compare:nNnT { \l_tmpa_int } = {4}
-        %     { % 4 colunas não faz sentido: reduzir para 3.
-        %         \int_set:Nn \l_tmpa_int {3}
-        %     }
+        \int_compare:nNnT { \l_tmpa_int } = {4}
+            {
+                \int_set:Nn \l_tmpa_int {3}
+            }
 
         \smallskip
         \begin{choices}(\l_tmpa_int)
@@ -1280,9 +1282,9 @@
         \group_begin:
 
         \tl_set:Nn \arraystretch {1.25}
-        % \cs_set_eq:NN \toprule \relax
+        \cs_set_eq:NN \toprule \relax
 
-        \arrayrulecolor { black }
+        \arrayrulecolor { black!50 }
 
         \begin{center}    
 		\begin{tabular} [#1] {#2} 
@@ -1764,6 +1766,9 @@
         \refstepcounter { problem }
 
         \group_begin:
+
+        \cs_set_eq:NN \figure \simplefigure
+        \cs_set_eq:NN \endfigure \endsimplefigure
 
         \keys_set:nn { braun/problems } { path = , id = , #1 }
 

@@ -4,63 +4,56 @@
             "id_": "d",
             "name": "densidade",
             "symbol": "\\rho",
-            "unit": "g.cm-3",
+            "unit": "g//cm3",
             "prec": 2
         },
         {
             "id_": "Hf",
-            "name": "entalpia de formação",
+            "name": "entalpia padrão de formação",
             "symbol": "\\Delta H_\\mathrm{f}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "Gf",
-            "name": "energia livre de formação",
+            "name": "energia livre de Gibbs padrão de formação",
             "symbol": "\\Delta G_\\mathrm{f}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "S",
-            "name": "entropia",
-            "symbol": "S^{\\circ}",
-            "unit": "J.K-1.mol-1",
+            "name": "entropia padrão molar",
+            "symbol": "S_\\mathrm{m}^{\\circ}",
+            "unit": "J//K.mol",
             "prec": 3
         },
         {
-            "id_": "c",
-            "name": "capacidade calorífica específica",
-            "symbol": "c",
-            "unit": "J.K-1.g-1",
-            "prec": 2
-        },
-        {
             "id_": "CP",
-            "name": "capacidade calorífica em pressão constante",
-            "symbol": "C_P",
-            "unit": "J.K-1.mol-1",
+            "name": "capacidade calorífica molar em pressão constante",
+            "symbol": "C_{P, \\mathrm{m}}",
+            "unit": "J//K.mol",
             "prec": 2
         },
         {
             "id_": "CV",
-            "name": "capacidade calorífica em volume constante",
-            "symbol": "C_V",
-            "unit": "J.K-1.mol-1",
+            "name": "capacidade calorífica molar em volume constante",
+            "symbol": "C_{V, \\mathrm{m}}",
+            "unit": "J//K.mol",
             "prec": 2
         },
         {
             "id_": "Hc",
-            "name": "entalpia de combustão",
+            "name": "entalpia padrão de combustão",
             "symbol": "\\Delta H_\\mathrm{c}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "HL",
             "name": "entalpia de ligação",
             "symbol": "\\Delta H_\\mathrm{L}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
@@ -74,7 +67,7 @@
             "id_": "Hfus",
             "name": "entalpia de fusão",
             "symbol": "\\Delta H_\\mathrm{fus}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
@@ -86,16 +79,16 @@
         },
         {
             "id_": "Hvap",
-            "name": "entalpia de vaporização",
+            "name": "entalpia padrão de vaporização",
             "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "Svap",
-            "name": "entropia de vaporização",
+            "name": "entropia padrão de vaporização",
             "symbol": "\\Delta S_\\mathrm{vap}^{\\circ}",
-            "unit": "J.K-1.mol-1",
+            "unit": "J//K.mol",
             "prec": 3
         },
         {
@@ -107,16 +100,16 @@
         },
         {
             "id_": "Hvap",
-            "name": "entalpia de sublimação",
+            "name": "entalpia padrão de sublimação",
             "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "Hrede",
             "name": "entalpia de rede",
             "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
@@ -137,35 +130,35 @@
             "id_": "kH",
             "name": "constante de Henry",
             "symbol": "k_\\mathrm{H}",
-            "unit": "mol.L-1.atm-1",
+            "unit": "mol//L.atm",
             "prec": 2
         },
         {
             "id_": "Hsol",
-            "name": "entalpia de solução limite",
+            "name": "entalpia padrão de solução limite",
             "symbol": "\\Delta H_\\mathrm{sol}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "Hsol",
-            "name": "entalpia de hidratação",
+            "name": "entalpia padrão de hidratação",
             "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}",
-            "unit": "kJ.mol-1",
+            "unit": "kJ//mol",
             "prec": 3
         },
         {
             "id_": "kf",
             "name": "constante crioscópica",
             "symbol": "k_\\mathrm{b}",
-            "unit": "K.kg.mol-1",
+            "unit": "K.kg//mol",
             "prec": 3
         },
         {
             "id_": "kb",
             "name": "constante ebulioscópica",
             "symbol": "k_\\mathrm{b}",
-            "unit": "K.kg.mol-1",
+            "unit": "K.kg//mol",
             "prec": 3
         },
         {

@@ -3,6 +3,7 @@
 Esse módulo implementa uma API para propriedades termodinâmicas.
 """
 import braunchem.utils.latex as latex
+from braunchem.utils.filters import pu2qty
 
 import os
 import re
@@ -210,10 +211,10 @@ class Quantity(BaseModel):
             'e = \\qty{10}{m}'
         """
         if self.value is None:
-            return latex.pu2qty(self.name)
+            return pu2qty.pu2qty(self.name)
 
         value = self.sci_string
-        return f"${self.symbol} = {latex.qty(value, self.unit)}$"
+        return f"${self.symbol} = {pu2qty.qty(value, self.unit)}$"
 
     @property
     def display(self):
@@ -334,19 +335,17 @@ class Table(BaseModel):
 
         return Table(quantities=sorted(qtys, key=lambda qty: qty.name))
 
-    def equation_list(self):
+    def equation_list(self, cols=2):
         if not self.quantities:
             return
 
-        latex_list = latex.List("datalist", [x.equation for x in self])
-        return latex_list.display()
+        return latex.enum("datalist", [x.equation for x in self], cols=cols)
 
-    def display_list(self):
+    def display_list(self, cols=2):
         if not self.quantities:
             return
 
-        latex_list = latex.List("datalist", [x.display for x in self])
-        return latex_list.display()
+        return latex.enum("datalist", [x.display for x in self], cols=cols)
 
     def append_csv(self, csv_file: Path):
         """Adiciona os dados de um `csv`.
