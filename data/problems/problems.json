@@ -1,8 +1,1073 @@
 {
   "id_": "root",
   "title": "ROOT",
-  "date": "2023-01-10T19:42:52.641060",
+  "date": "2023-01-11T17:50:05.201657",
   "problems": [
+    {
+      "id_": "1A16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A16/1A16.md",
+      "date": "2023-01-11T20:17:09.723626",
+      "statement": {
+        "html": "<p>Uma estação de rádio transmite em <span class=\"math inline\">\\(\\pu{98,4 MHz}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ncomprimento de onda da luz emitida pelo sinal.</p>",
+        "md": "Uma estação de rádio transmite em $\\pu{98,4 MHz}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda luz emitida pelo sinal.\n",
+        "tex": "Uma estação de rádio transmite em {\\(\\qty{98,4}{\\unit{MHz}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de onda da luz emitida pelo sinal.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8 m}\\)</span>",
+          "md": "$\\pu{1,8 m}$\n",
+          "tex": "{\\(\\qty{1,8}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,3 m}\\)</span>",
+          "md": "$\\pu{2,3 m}$\n",
+          "tex": "{\\(\\qty{2,3}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,0 m}\\)</span>",
+          "md": "$\\pu{3,0 m}$\n",
+          "tex": "{\\(\\qty{3,0}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,9 m}\\)</span>",
+          "md": "$\\pu{3,9 m}$\n",
+          "tex": "{\\(\\qty{3,9}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,0 m}\\)</span>",
+          "md": "$\\pu{5,0 m}$\n",
+          "tex": "{\\(\\qty{5,0}{\\unit{m}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A08/1A08.md",
+      "date": "2023-01-11T20:49:06.140830",
+      "statement": {
+        "html": "<p>Considere os átomos de manganês-55, ferro-56 e níquel-58.</p>\n<p><strong>Assinale</strong> a alternativa com a relação nuclear desses\nátomos.</p>",
+        "md": "Considere os átomos de manganês-55, ferro-56 e níquel-58.\n\n**Assinale** a alternativa com a relação nuclear desses átomos.\n",
+        "tex": "Considere os átomos de manganês-55, ferro-56 e níquel-58.\n\n\\textbf{Assinale} a alternativa com a relação nuclear desses átomos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Isotopos.",
+          "md": "Isotopos.\n",
+          "tex": "Isotopos.\n"
+        },
+        {
+          "html": "Isótonos.",
+          "md": "Isótonos.\n",
+          "tex": "Isótonos.\n"
+        },
+        {
+          "html": "Isóbaros.",
+          "md": "Isóbaros.\n",
+          "tex": "Isóbaros.\n"
+        },
+        {
+          "html": "Isômeros.",
+          "md": "Isômeros.\n",
+          "tex": "Isômeros.\n"
+        },
+        {
+          "html": "Isodiáferos.",
+          "md": "Isodiáferos.\n",
+          "tex": "Isodiáferos.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1A14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A14/1A14.md",
+      "date": "2023-01-11T20:12:00.809639",
+      "statement": {
+        "html": "<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>Os raios X viajam a uma\nvelocidade maior do que a da radiação infravermelha porque têm energia\nmaior.</li>\n<li>O comprimento de\nonda da luz visível aumenta a medida que sua cor passa de azul a\nverde.</li>\n<li>A frequência da radiação\ninfravermelha, cujo comprimento de onda é <span class=\"math inline\">\\(\\pu{1e3 nm}\\)</span>, é mil vezes menor que a\nfrequência das ondas de rádio, que têm comprimento de onda igual a <span class=\"math inline\">\\(\\pu{1e6 nm}\\)</span>.</li>\n<li>A frequência da\nradiação infravermelha, cujo comprimento de onda é <span class=\"math inline\">\\(\\pu{1e3 nm}\\)</span>, é mil vezes maior que a\nfrequência das ondas de rádio, que têm comprimento de onda igual a <span class=\"math inline\">\\(\\pu{1e6 nm}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as proposições.\n\n1.  Os raios X viajam a uma velocidade maior do que a da radiação\n    infravermelha porque têm energia maior.\n2.  O comprimento de onda da luz visível aumenta a medida que sua cor\n    passa de azul a verde.\n3.  A frequência da radiação infravermelha, cujo comprimento de onda é\n    $\\pu{1e3 nm}$, é mil vezes menor que a frequência das ondas de\n    rádio, que têm comprimento de onda igual a $\\pu{1e6 nm}$.\n4.  A frequência da radiação infravermelha, cujo comprimento de onda é\n    $\\pu{1e3 nm}$, é mil vezes maior que a frequência das ondas de\n    rádio, que têm comprimento de onda igual a $\\pu{1e6 nm}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Os raios X viajam a uma velocidade maior do que a da radiação infravermelha porque têm energia maior.\n\\item\n  O comprimento de onda da luz visível aumenta a medida que sua cor passa de azul a verde.\n\\item\n  A frequência da radiação infravermelha, cujo comprimento de onda é {\\(\\qty{1e3}{\\unit{nm}}\\)}, é mil vezes menor que a frequência das ondas de\n  rádio, que têm comprimento de onda igual a {\\(\\qty{1e6}{\\unit{nm}}\\)}.\n\\item\n  A frequência da radiação infravermelha, cujo comprimento de onda é {\\(\\qty{1e3}{\\unit{nm}}\\)}, é mil vezes maior que a frequência das ondas de\n  rádio, que têm comprimento de onda igual a {\\(\\qty{1e6}{\\unit{nm}}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A24/1A24.md",
+      "date": "2023-01-11T20:33:31.718594",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa com o decaimento para o átomo\nde hidrogênio que leva à emissão de um fóton com maior comprimento de\nonda.</p>",
+        "md": "**Assinale** a alternativa com o decaimento para o átomo de hidrogênio\nque leva à emissão de um fóton com maior comprimento de onda.\n",
+        "tex": "\\textbf{Assinale} a alternativa com o decaimento para o átomo de hidrogênio que leva à emissão de um fóton com maior comprimento de onda.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(n_1\n= 1\\)</span> e <span class=\"math inline\">\\(n_2 = 2\\)</span>",
+          "md": "$n_1 = 1$ e $n_2 = 2$\n",
+          "tex": "{\\(n_1 = 1\\)} e {\\(n_2 = 2\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(n_1\n= 2\\)</span> e <span class=\"math inline\">\\(n_2 = 3\\)</span>",
+          "md": "$n_1 = 2$ e $n_2 = 3$\n",
+          "tex": "{\\(n_1 = 2\\)} e {\\(n_2 = 3\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(n_1\n= 3\\)</span> e <span class=\"math inline\">\\(n_2 = 4\\)</span>",
+          "md": "$n_1 = 3$ e $n_2 = 4$\n",
+          "tex": "{\\(n_1 = 3\\)} e {\\(n_2 = 4\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(n_1\n= 4\\)</span> e <span class=\"math inline\">\\(n_2 = 5\\)</span>",
+          "md": "$n_1 = 4$ e $n_2 = 5$\n",
+          "tex": "{\\(n_1 = 4\\)} e {\\(n_2 = 5\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(n_1 = 5\\)</span> e <span class=\"math inline\">\\(n_2\n= 6\\)</span>",
+          "md": "$n_1 = 5$ e $n_2 = 6$\n",
+          "tex": "{\\(n_1 = 5\\)} e {\\(n_2 = 6\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1A18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A18/1A18.md",
+      "date": "2023-01-11T20:21:12.730240",
+      "statement": {
+        "html": "<p>Quando um feixe de elétrons choca-se com um bloco de cobre, são\nemitidos raios X com frequência <span class=\"math inline\">\\(\\pu{1,2e17\nHz}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia dos fótons emitidos.</p>",
+        "md": "Quando um feixe de elétrons choca-se com um bloco de cobre, são emitidos\nraios X com frequência $\\pu{1,2e17 Hz}$.\n\n**Assinale** a alternativa que mais se aproxima da energia dos fótons\nemitidos.\n",
+        "tex": "Quando um feixe de elétrons choca-se com um bloco de cobre, são emitidos raios X com frequência {\\(\\qty{1,2e17}{\\unit{Hz}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da energia dos fótons emitidos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8E-17 J}\\)</span>",
+          "md": "$\\pu{8E-17 J}$\n",
+          "tex": "{\\(\\qty{8E-17}{\\unit{J}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5E-16 J}\\)</span>",
+          "md": "$\\pu{3,5E-16 J}$\n",
+          "tex": "{\\(\\qty{3,5E-16}{\\unit{J}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,6E-15 J}\\)</span>",
+          "md": "$\\pu{1,6E-15 J}$\n",
+          "tex": "{\\(\\qty{1,6E-15}{\\unit{J}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,9E-15 J}\\)</span>",
+          "md": "$\\pu{6,9E-15 J}$\n",
+          "tex": "{\\(\\qty{6,9E-15}{\\unit{J}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,1E-14 J}\\)</span>",
+          "md": "$\\pu{3,1E-14 J}$\n",
+          "tex": "{\\(\\qty{3,1E-14}{\\unit{J}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A07/1A07.md",
+      "date": "2023-01-11T20:49:28.988242",
+      "statement": {
+        "html": "<p>Considere os átomos de argônio-40, potássio-40 e cálcio-40.</p>\n<p><strong>Assinale</strong> a alternativa com a relação nuclear desses\nátomos.</p>",
+        "md": "Considere os átomos de argônio-40, potássio-40 e cálcio-40.\n\n**Assinale** a alternativa com a relação nuclear desses átomos.\n",
+        "tex": "Considere os átomos de argônio-40, potássio-40 e cálcio-40.\n\n\\textbf{Assinale} a alternativa com a relação nuclear desses átomos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Isotopos.",
+          "md": "Isotopos.\n",
+          "tex": "Isotopos.\n"
+        },
+        {
+          "html": "Isótonos.",
+          "md": "Isótonos.\n",
+          "tex": "Isótonos.\n"
+        },
+        {
+          "html": "Isóbaros.",
+          "md": "Isóbaros.\n",
+          "tex": "Isóbaros.\n"
+        },
+        {
+          "html": "Isômeros.",
+          "md": "Isômeros.\n",
+          "tex": "Isômeros.\n"
+        },
+        {
+          "html": "Isodiáferos.",
+          "md": "Isodiáferos.\n",
+          "tex": "Isodiáferos.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A06/1A06.md",
+      "date": "2023-01-11T20:48:18.082100",
+      "statement": {
+        "html": "<p>Considere os átomos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{^{40}K}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{^{58}Co}\\)</span></li>\n<li>Tântalo-180</li>\n<li><span class=\"math inline\">\\(\\ce{^{210}At}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com o número de nêutrons dos\nátomos, respectivamente.</p>",
+        "md": "Considere os átomos.\n\n1.  $\\ce{^{40}K}$\n2.  $\\ce{^{58}Co}$\n3.  Tântalo-180\n4.  $\\ce{^{210}At}$\n\n**Assinale** a alternativa com o número de nêutrons dos átomos,\nrespectivamente.\n",
+        "tex": "Considere os átomos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{^{40}K}\\)}\n\\item\n  {\\(\\ce{^{58}Co}\\)}\n\\item\n  Tântalo-180\n\\item\n  {\\(\\ce{^{210}At}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com o número de nêutrons dos átomos, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(19,\n31, 107, 125\\)</span>",
+          "md": "$19, 31, 107, 125$\n",
+          "tex": "{\\(19, 31, 107, 125\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(21,\n27, 107, 125\\)</span>",
+          "md": "$21, 27, 107, 125$\n",
+          "tex": "{\\(21, 27, 107, 125\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(21, 31, 107, 125\\)</span>",
+          "md": "$21, 31, 107, 125$\n",
+          "tex": "{\\(21, 31, 107, 125\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(21,\n31, 73, 125\\)</span>",
+          "md": "$21, 31, 73, 125$\n",
+          "tex": "{\\(21, 31, 73, 125\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(21,\n31, 107, 85\\)</span>",
+          "md": "$21, 31, 107, 85$\n",
+          "tex": "{\\(21, 31, 107, 85\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A02/1A02.md",
+      "date": "2023-01-11T19:32:56.645778",
+      "statement": {
+        "html": "<p>Um garimpeiro que procurava ouro em um riacho do Alasca coletou <span class=\"math inline\">\\(\\pu{12 g}\\)</span> de peças finas de ouro\nconhecidas como <em>pó de ouro</em>. A massa de um átomo de ouro é <span class=\"math inline\">\\(\\pu{3,3e-25 kg}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nnúmero de átomos de ouro coletados.</p>",
+        "md": "Um garimpeiro que procurava ouro em um riacho do Alasca coletou\n$\\pu{12 g}$ de peças finas de ouro conhecidas como *pó de ouro*. A massa\nde um átomo de ouro é $\\pu{3,3e-25 kg}$.\n\n**Assinale** a alternativa que mais se aproxima do número de átomos de\nouro coletados.\n",
+        "tex": "Um garimpeiro que procurava ouro em um riacho do Alasca coletou {\\(\\qty{12}{\\unit{g}}\\)} de peças finas de ouro conhecidas como \\emph{pó de ouro}. A\nmassa de um átomo de ouro é {\\(\\qty{3,3e-25}{\\unit{kg}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomos de ouro coletados.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,3 e22}\\)</span>",
+          "md": "$\\pu{1,3 e22}$\n",
+          "tex": "{\\(\\qty{1,3}{\\unit{e^{22}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,7 e22}\\)</span>",
+          "md": "$\\pu{1,7 e22}$\n",
+          "tex": "{\\(\\qty{1,7}{\\unit{e^{22}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,2 e22}\\)</span>",
+          "md": "$\\pu{2,2 e22}$\n",
+          "tex": "{\\(\\qty{2,2}{\\unit{e^{22}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,9 e22}\\)</span>",
+          "md": "$\\pu{2,9 e22}$\n",
+          "tex": "{\\(\\qty{2,9}{\\unit{e^{22}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,8 e22}\\)</span>",
+          "md": "$\\pu{3,8 e22}$\n",
+          "tex": "{\\(\\qty{3,8}{\\unit{e^{22}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1A04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A04/1A04.md",
+      "date": "2023-01-11T20:40:12.230798",
+      "statement": {
+        "html": "<p>J.J. Thompson inicialmente chamou os raios produzidos em sua\naparelhagem de <em>raios canais</em>. Os raios canais sofrem desvios ao\npassar entre os polos de um ímã e depois atingem a tela de fósforo. A\nrazão carga-massa das partículas que compõe os raios canais é <span class=\"math display\">\\[\n    \\dfrac{q}{m} = \\pu{2,4e7 C.kg-1}\n\\]</span> O catodo e o anodo do aparelho são feitos de lítio, e o tubo\ncontém hélio.</p>\n<p><strong>Assinale</strong> a alternativa com a partícula que forma os\nraios canais.</p>",
+        "md": "J.J. Thompson inicialmente chamou os raios produzidos em sua aparelhagem\nde *raios canais*. Os raios canais sofrem desvios ao passar entre os\npolos de um ímã e depois atingem a tela de fósforo. A razão carga-massa\ndas partículas que compõe os raios canais é $$\n    \\dfrac{q}{m} = \\pu{2,4e7 C.kg-1}\n$$ O catodo e o anodo do aparelho são feitos de lítio, e o tubo contém\nhélio.\n\n**Assinale** a alternativa com a partícula que forma os raios canais.\n",
+        "tex": "J.J. Thompson inicialmente chamou os raios produzidos em sua aparelhagem de \\emph{raios canais}. Os raios canais sofrem desvios ao passar entre os\npolos de um ímã e depois atingem a tela de fósforo. A razão carga-massa das partículas que compõe os raios canais é {\\[\n    \\dfrac{q}{m} = \\qty{2,4e7}{\\unit{C.kg^{-1}}}\n\\]} O catodo e o anodo do aparelho são feitos de lítio, e o tubo contém hélio.\n\n\\textbf{Assinale} a alternativa com a partícula que forma os raios canais.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "me",
+            "name": "massa do elétron",
+            "symbol": "m_\\mathrm{e}",
+            "value": 9.1e-31,
+            "unit": "kg",
+            "prec": 3
+          },
+          {
+            "id_": "mn",
+            "name": "massa do nêutron",
+            "symbol": "m_\\mathrm{n}",
+            "value": 1.67e-27,
+            "unit": "kg",
+            "prec": 3
+          },
+          {
+            "id_": "mp",
+            "name": "massa do próton",
+            "symbol": "m_\\mathrm{p}",
+            "value": 1.67e-27,
+            "unit": "kg",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{e^-}\\)</span>",
+          "md": "$\\ce{e^-}$\n",
+          "tex": "{\\(\\ce{e^-}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{He^-}\\)</span>",
+          "md": "$\\ce{He^-}$\n",
+          "tex": "{\\(\\ce{He^-}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{He^+}\\)</span>",
+          "md": "$\\ce{He^+}$\n",
+          "tex": "{\\(\\ce{He^+}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{He^{2+}}\\)</span>",
+          "md": "$\\ce{He^{2+}}$\n",
+          "tex": "{\\(\\ce{He^{2+}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Li^+}\\)</span>",
+          "md": "$\\ce{Li^+}$\n",
+          "tex": "{\\(\\ce{Li^+}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A22/1A22.md",
+      "date": "2023-01-11T20:31:54.742841",
+      "statement": {
+        "html": "<p>Um átomo de hidrogênio emite radiação com <span class=\"math inline\">\\(n_1 = 2\\)</span> e <span class=\"math inline\">\\(n_2\n= 5\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ncomprimento de onda da radiação emitida.</p>",
+        "md": "Um átomo de hidrogênio emite radiação com $n_1 = 2$ e $n_2 = 5$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida.\n",
+        "tex": "Um átomo de hidrogênio emite radiação com {\\(n_1 = 2\\)} e {\\(n_2 = 5\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de onda da radiação emitida.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{430 nm}\\)</span>",
+          "md": "$\\pu{430 nm}$\n",
+          "tex": "{\\(\\qty{430}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{740 nm}\\)</span>",
+          "md": "$\\pu{740 nm}$\n",
+          "tex": "{\\(\\qty{740}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1300 nm}\\)</span>",
+          "md": "$\\pu{1300 nm}$\n",
+          "tex": "{\\(\\qty{1300}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2200 nm}\\)</span>",
+          "md": "$\\pu{2200 nm}$\n",
+          "tex": "{\\(\\qty{2200}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3800 nm}\\)</span>",
+          "md": "$\\pu{3800 nm}$\n",
+          "tex": "{\\(\\qty{3800}{\\unit{nm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A15/1A15.md",
+      "date": "2023-01-11T20:16:12.255975",
+      "statement": {
+        "html": "<p>Um sinal de trânsito emite luz vermelha com frequência <span class=\"math inline\">\\(\\pu{5,15e14 Hz}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ncomprimento de onda da luz emitida pelo sinal.</p>",
+        "md": "Um sinal de trânsito emite luz vermelha com frequência\n$\\pu{5,15e14 Hz}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda luz emitida pelo sinal.\n",
+        "tex": "Um sinal de trânsito emite luz vermelha com frequência {\\(\\qty{5,15e14}{\\unit{Hz}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de onda da luz emitida pelo sinal.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{700 nm}\\)</span>",
+          "md": "$\\pu{700 nm}$\n",
+          "tex": "{\\(\\qty{700}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1200 nm}\\)</span>",
+          "md": "$\\pu{1200 nm}$\n",
+          "tex": "{\\(\\qty{1200}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2200 nm}\\)</span>",
+          "md": "$\\pu{2200 nm}$\n",
+          "tex": "{\\(\\qty{2200}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3900 nm}\\)</span>",
+          "md": "$\\pu{3900 nm}$\n",
+          "tex": "{\\(\\qty{3900}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6900 nm}\\)</span>",
+          "md": "$\\pu{6900 nm}$\n",
+          "tex": "{\\(\\qty{6900}{\\unit{nm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A01/1A01.md",
+      "date": "2023-01-11T19:31:38.701496",
+      "statement": {
+        "html": "<p>Um imã de ferro possui <span class=\"math inline\">\\(\\pu{25 g}\\)</span>\nde massa. A massa de um átomo de ferro é <span class=\"math inline\">\\(\\pu{9,3e-26 kg}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nnúmero de átomos de ferro no imã.</p>",
+        "md": "Um imã de ferro possui $\\pu{25 g}$ de massa. A massa de um átomo de\nferro é $\\pu{9,3e-26 kg}$.\n\n**Assinale** a alternativa que mais se aproxima do número de átomos de\nferro no imã.\n",
+        "tex": "Um imã de ferro possui {\\(\\qty{25}{\\unit{g}}\\)} de massa. A massa de um átomo de ferro é {\\(\\qty{9,3e-26}{\\unit{kg}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomos de ferro no imã.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,3 e23}\\)</span>",
+          "md": "$\\pu{1,3 e23}$\n",
+          "tex": "{\\(\\qty{1,3}{\\unit{e^{23}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,6 e23}\\)</span>",
+          "md": "$\\pu{1,6 e23}$\n",
+          "tex": "{\\(\\qty{1,6}{\\unit{e^{23}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,1 e23}\\)</span>",
+          "md": "$\\pu{2,1 e23}$\n",
+          "tex": "{\\(\\qty{2,1}{\\unit{e^{23}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,7 e23}\\)</span>",
+          "md": "$\\pu{2,7 e23}$\n",
+          "tex": "{\\(\\qty{2,7}{\\unit{e^{23}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5 e23}\\)</span>",
+          "md": "$\\pu{3,5 e23}$\n",
+          "tex": "{\\(\\qty{3,5}{\\unit{e^{23}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1A20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A20/1A20.md",
+      "date": "2023-01-11T20:29:24.899707",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que relaciona os tipos de\nradiação em ordem crescente de energia.</p>",
+        "md": "**Assinale** a alternativa que relaciona os tipos de radiação em ordem\ncrescente de energia.\n",
+        "tex": "\\textbf{Assinale} a alternativa que relaciona os tipos de radiação em ordem crescente de energia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Ondas de rádio, micro-ondas,\nradiação infravermelho, radiação ultravioleta, luz visível.",
+          "md": "Ondas de rádio, micro-ondas, radiação infravermelho, radiação\nultravioleta, luz visível.\n",
+          "tex": "Ondas de rádio, micro-ondas, radiação infravermelho, radiação ultravioleta, luz visível.\n"
+        },
+        {
+          "html": "Ondas de rádio, micro-ondas,\nluz visível, radiação infravermelho, radiação ultravioleta.",
+          "md": "Ondas de rádio, micro-ondas, luz visível, radiação infravermelho,\nradiação ultravioleta.\n",
+          "tex": "Ondas de rádio, micro-ondas, luz visível, radiação infravermelho, radiação ultravioleta.\n"
+        },
+        {
+          "html": "Ondas de rádio, radiação\ninfravermelho, micro-ondas, luz visível, radiação ultravioleta.",
+          "md": "Ondas de rádio, radiação infravermelho, micro-ondas, luz visível,\nradiação ultravioleta.\n",
+          "tex": "Ondas de rádio, radiação infravermelho, micro-ondas, luz visível, radiação ultravioleta.\n"
+        },
+        {
+          "html": "Micro-ondas, ondas de rádio,\nradiação infravermelho, luz visível, radiação ultravioleta.",
+          "md": "Micro-ondas, ondas de rádio, radiação infravermelho, luz visível,\nradiação ultravioleta.\n",
+          "tex": "Micro-ondas, ondas de rádio, radiação infravermelho, luz visível, radiação ultravioleta.\n"
+        },
+        {
+          "html": "Ondas de rádio,\nmicro-ondas, radiação infravermelho, luz visível, radiação\nultravioleta.",
+          "md": "Ondas de rádio, micro-ondas, radiação infravermelho, luz visível,\nradiação ultravioleta.\n",
+          "tex": "Ondas de rádio, micro-ondas, radiação infravermelho, luz visível, radiação ultravioleta.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1A19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A19/1A19.md",
+      "date": "2023-01-11T20:45:04.187788",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que relaciona os tipos de\nradiação em ordem crescente de energia.</p>",
+        "md": "**Assinale** a alternativa que relaciona os tipos de radiação em ordem\ncrescente de energia.\n",
+        "tex": "\\textbf{Assinale} a alternativa que relaciona os tipos de radiação em ordem crescente de energia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Radiação\ninfravermelho, luz visível, radiação ultravioleta, raios X, raios <span class=\"math inline\">\\(\\gamma\\)</span>.",
+          "md": "Radiação infravermelho, luz visível, radiação ultravioleta, raios X,\nraios $\\gamma$.\n",
+          "tex": "Radiação infravermelho, luz visível, radiação ultravioleta, raios X, raios {\\(\\gamma\\)}.\n"
+        },
+        {
+          "html": "Luz visível, radiação\ninfravermelho, radiação ultravioleta, raios X, raios <span class=\"math inline\">\\(\\gamma\\)</span>.",
+          "md": "Luz visível, radiação infravermelho, radiação ultravioleta, raios X,\nraios $\\gamma$.\n",
+          "tex": "Luz visível, radiação infravermelho, radiação ultravioleta, raios X, raios {\\(\\gamma\\)}.\n"
+        },
+        {
+          "html": "Radiação infravermelho,\nradiação ultravioleta, luz visível, raios X, raios <span class=\"math inline\">\\(\\gamma\\)</span>.",
+          "md": "Radiação infravermelho, radiação ultravioleta, luz visível, raios X,\nraios $\\gamma$.\n",
+          "tex": "Radiação infravermelho, radiação ultravioleta, luz visível, raios X, raios {\\(\\gamma\\)}.\n"
+        },
+        {
+          "html": "Radiação infravermelho, luz\nvisível, raios X, radiação ultravioleta, raios <span class=\"math inline\">\\(\\gamma\\)</span>.",
+          "md": "Radiação infravermelho, luz visível, raios X, radiação ultravioleta,\nraios $\\gamma$.\n",
+          "tex": "Radiação infravermelho, luz visível, raios X, radiação ultravioleta, raios {\\(\\gamma\\)}.\n"
+        },
+        {
+          "html": "Radiação infravermelho, luz\nvisível, radiação ultravioleta, raios <span class=\"math inline\">\\(\\gamma\\)</span>, raios X.",
+          "md": "Radiação infravermelho, luz visível, radiação ultravioleta, raios\n$\\gamma$, raios X.\n",
+          "tex": "Radiação infravermelho, luz visível, radiação ultravioleta, raios {\\(\\gamma\\)}, raios X.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A03/1A03.md",
+      "date": "2023-01-11T19:37:33.230291",
+      "statement": {
+        "html": "<p>Quando J.J. Thompson fez seus experimentos com raios catódicos, a\nnatureza do elétron foi colocada em cheque. Alguns o imaginavam como uma\nforma de radiação, como a luz; outros acreditavam que o elétron era uma\npartícula. Algumas das observações feiras com raios catódicos eram\nusadas para apoiar uma ou outra visão.</p>\n<ol type=\"1\">\n<li>Eles passam através de folhas\nde metal.</li>\n<li>Eles viajam em\nvelocidades inferiores às da luz.</li>\n<li>Se um objeto é colocado em sua\ntrajetória, observa-se uma sombra.</li>\n<li>Sua trajetória muda\nquando eles passam entre placas com carga elétrica.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as propriedades\nque podem servir de suporte para o modelo de partícula do elétron.</p>",
+        "md": "Quando J.J. Thompson fez seus experimentos com raios catódicos, a\nnatureza do elétron foi colocada em cheque. Alguns o imaginavam como uma\nforma de radiação, como a luz; outros acreditavam que o elétron era uma\npartícula. Algumas das observações feiras com raios catódicos eram\nusadas para apoiar uma ou outra visão.\n\n1.  Eles passam através de folhas de metal.\n2.  Eles viajam em velocidades inferiores às da luz.\n3.  Se um objeto é colocado em sua trajetória, observa-se uma sombra.\n4.  Sua trajetória muda quando eles passam entre placas com carga\n    elétrica.\n\n**Assinale** a alternativa que relaciona as propriedades que podem\nservir de suporte para o modelo de partícula do elétron.\n",
+        "tex": "Quando J.J. Thompson fez seus experimentos com raios catódicos, a natureza do elétron foi colocada em cheque. Alguns o imaginavam como uma forma de\nradiação, como a luz; outros acreditavam que o elétron era uma partícula. Algumas das observações feiras com raios catódicos eram usadas para apoiar\numa ou outra visão.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Eles passam através de folhas de metal.\n\\item\n  Eles viajam em velocidades inferiores às da luz.\n\\item\n  Se um objeto é colocado em sua trajetória, observa-se uma sombra.\n\\item\n  Sua trajetória muda quando eles passam entre placas com carga elétrica.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as propriedades que podem servir de suporte para o modelo de partícula do elétron.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A17/1A17.md",
+      "date": "2023-01-11T20:19:22.786851",
+      "statement": {
+        "html": "<p>Os fótons de raios <span class=\"math inline\">\\(\\gamma\\)</span>\nemitidos durante decaimento nuclear de um átomo de tecnécio-99 usado em\nprodutos radiofarmacêuticos têm energia igual a <span class=\"math inline\">\\(\\pu{140 keV}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ncomprimento de onda desses raios <span class=\"math inline\">\\(\\gamma\\)</span>.</p>",
+        "md": "Os fótons de raios $\\gamma$ emitidos durante decaimento nuclear de um\nátomo de tecnécio-99 usado em produtos radiofarmacêuticos têm energia\nigual a $\\pu{140 keV}$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\ndesses raios $\\gamma$.\n",
+        "tex": "Os fótons de raios {\\(\\gamma\\)} emitidos durante decaimento nuclear de um átomo de tecnécio-99 usado em produtos radiofarmacêuticos têm energia igual\na {\\(\\qty{140}{\\unit{keV}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de onda desses raios {\\(\\gamma\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,6 pm}\\)</span>",
+          "md": "$\\pu{4,6 pm}$\n",
+          "tex": "{\\(\\qty{4,6}{\\unit{pm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,3 pm}\\)</span>",
+          "md": "$\\pu{6,3 pm}$\n",
+          "tex": "{\\(\\qty{6,3}{\\unit{pm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,8 pm}\\)</span>",
+          "md": "$\\pu{8,8 pm}$\n",
+          "tex": "{\\(\\qty{8,8}{\\unit{pm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 pm}\\)</span>",
+          "md": "$\\pu{12 pm}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{pm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 pm}\\)</span>",
+          "md": "$\\pu{17 pm}$\n",
+          "tex": "{\\(\\qty{17}{\\unit{pm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A05/1A05.md",
+      "date": "2023-01-11T20:48:12.554249",
+      "statement": {
+        "html": "<p>Considere os átomos.</p>\n<ol type=\"1\">\n<li>Boro-11</li>\n<li><span class=\"math inline\">\\(\\ce{^{10}B}\\)</span></li>\n<li>Fósforo-31</li>\n<li><span class=\"math inline\">\\(\\ce{^{238}B}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons dos\nátomos, respectivamente.</p>",
+        "md": "Considere os átomos.\n\n1.  Boro-11\n2.  $\\ce{^{10}B}$\n3.  Fósforo-31\n4.  $\\ce{^{238}B}$\n\n**Assinale** a alternativa com o número de elétrons dos átomos,\nrespectivamente.\n",
+        "tex": "Considere os átomos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Boro-11\n\\item\n  {\\(\\ce{^{10}B}\\)}\n\\item\n  Fósforo-31\n\\item\n  {\\(\\ce{^{238}B}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com o número de elétrons dos átomos, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(6,\n5, 15, 92\\)</span>",
+          "md": "$6, 5, 15, 92$\n",
+          "tex": "{\\(6, 5, 15, 92\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(5, 5, 15, 92\\)</span>",
+          "md": "$5, 5, 15, 92$\n",
+          "tex": "{\\(5, 5, 15, 92\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(5,\n5, 16, 92\\)</span>",
+          "md": "$5, 5, 16, 92$\n",
+          "tex": "{\\(5, 5, 16, 92\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(5,\n5, 15, 146\\)</span>",
+          "md": "$5, 5, 15, 146$\n",
+          "tex": "{\\(5, 5, 15, 146\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(6,\n5, 16, 92\\)</span>",
+          "md": "$6, 5, 16, 92$\n",
+          "tex": "{\\(6, 5, 16, 92\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1A13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A13/1A13.md",
+      "date": "2023-01-11T20:05:53.040710",
+      "statement": {
+        "html": "<p>Considere os fenômenos.</p>\n<ol type=\"1\">\n<li>Diminuição na velocidade da\nradiação.</li>\n<li>Diminuição no\ncomprimento de onda da radiação.</li>\n<li>Diminuição na medida\nda variação no campo elétrico em determinado ponto.</li>\n<li>Aumento da energia da\nradiação.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os fenômenos\nque acontecem quando a frequência da radiação eletromagnética\ndiminui.</p>",
+        "md": "Considere os fenômenos.\n\n1.  Diminuição na velocidade da radiação.\n2.  Diminuição no comprimento de onda da radiação.\n3.  Diminuição na medida da variação no campo elétrico em determinado\n    ponto.\n4.  Aumento da energia da radiação.\n\n**Assinale** a alternativa que relaciona os fenômenos que acontecem\nquando a frequência da radiação eletromagnética diminui.\n",
+        "tex": "Considere os fenômenos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Diminuição na velocidade da radiação.\n\\item\n  Diminuição no comprimento de onda da radiação.\n\\item\n  Diminuição na medida da variação no campo elétrico em determinado ponto.\n\\item\n  Aumento da energia da radiação.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os fenômenos que acontecem quando a frequência da radiação eletromagnética diminui.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A23/1A23.md",
+      "date": "2023-01-11T20:32:37.191074",
+      "statement": {
+        "html": "<p>Um átomo de hidrogênio emite radiação ao decair do segundo para o\nprimeiro estado excitado.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ncomprimento de onda da radiação emitida.</p>",
+        "md": "Um átomo de hidrogênio emite radiação ao decair do segundo para o\nprimeiro estado excitado.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida.\n",
+        "tex": "Um átomo de hidrogênio emite radiação ao decair do segundo para o primeiro estado excitado.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de onda da radiação emitida.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{660 nm}\\)</span>",
+          "md": "$\\pu{660 nm}$\n",
+          "tex": "{\\(\\qty{660}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1200 nm}\\)</span>",
+          "md": "$\\pu{1200 nm}$\n",
+          "tex": "{\\(\\qty{1200}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2100 nm}\\)</span>",
+          "md": "$\\pu{2100 nm}$\n",
+          "tex": "{\\(\\qty{2100}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3600 nm}\\)</span>",
+          "md": "$\\pu{3600 nm}$\n",
+          "tex": "{\\(\\qty{3600}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6400 nm}\\)</span>",
+          "md": "$\\pu{6400 nm}$\n",
+          "tex": "{\\(\\qty{6400}{\\unit{nm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A10/1A10.md",
+      "date": "2023-01-11T20:49:14.176622",
+      "statement": {
+        "html": "<p>Considere os átomos de urânio-238, tório-234 e rádio-236.</p>\n<p><strong>Assinale</strong> a alternativa com a relação nuclear desses\nátomos.</p>",
+        "md": "Considere os átomos de urânio-238, tório-234 e rádio-236.\n\n**Assinale** a alternativa com a relação nuclear desses átomos.\n",
+        "tex": "Considere os átomos de urânio-238, tório-234 e rádio-236.\n\n\\textbf{Assinale} a alternativa com a relação nuclear desses átomos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Isotopos.",
+          "md": "Isotopos.\n",
+          "tex": "Isotopos.\n"
+        },
+        {
+          "html": "Isótonos.",
+          "md": "Isótonos.\n",
+          "tex": "Isótonos.\n"
+        },
+        {
+          "html": "Isóbaros.",
+          "md": "Isóbaros.\n",
+          "tex": "Isóbaros.\n"
+        },
+        {
+          "html": "Isômeros.",
+          "md": "Isômeros.\n",
+          "tex": "Isômeros.\n"
+        },
+        {
+          "html": "Isodiáferos.",
+          "md": "Isodiáferos.\n",
+          "tex": "Isodiáferos.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1A12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A12/1A12.md",
+      "date": "2023-01-11T20:01:56.187387",
+      "statement": {
+        "html": "<p>Suponha que a massa total de um automóvel de uma tonelada seja devido\nao ferro-56.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde nêutrons no automóvel.</p>",
+        "md": "Suponha que a massa total de um automóvel de uma tonelada seja devido ao\nferro-56.\n\n**Assinale** a alternativa que mais se aproxima da massa de nêutrons no\nautomóvel.\n",
+        "tex": "Suponha que a massa total de um automóvel de uma tonelada seja devido ao ferro-56.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de nêutrons no automóvel.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "me",
+            "name": "massa do elétron",
+            "symbol": "m_\\mathrm{e}",
+            "value": 9.1e-31,
+            "unit": "kg",
+            "prec": 3
+          },
+          {
+            "id_": "mn",
+            "name": "massa do nêutron",
+            "symbol": "m_\\mathrm{n}",
+            "value": 1.67e-27,
+            "unit": "kg",
+            "prec": 3
+          },
+          {
+            "id_": "mp",
+            "name": "massa do próton",
+            "symbol": "m_\\mathrm{p}",
+            "value": 1.67e-27,
+            "unit": "kg",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{540 kg}\\)</span>",
+          "md": "$\\pu{540 kg}$\n",
+          "tex": "{\\(\\qty{540}{\\unit{kg}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{940 kg}\\)</span>",
+          "md": "$\\pu{940 kg}$\n",
+          "tex": "{\\(\\qty{940}{\\unit{kg}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1600 kg}\\)</span>",
+          "md": "$\\pu{1600 kg}$\n",
+          "tex": "{\\(\\qty{1600}{\\unit{kg}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2900 kg}\\)</span>",
+          "md": "$\\pu{2900 kg}$\n",
+          "tex": "{\\(\\qty{2900}{\\unit{kg}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5000 kg}\\)</span>",
+          "md": "$\\pu{5000 kg}$\n",
+          "tex": "{\\(\\qty{5000}{\\unit{kg}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A09/1A09.md",
+      "date": "2023-01-11T20:49:11.496691",
+      "statement": {
+        "html": "<p>Considere os átomos de carbono-12, carbono-13 e carbono-14.</p>\n<p><strong>Assinale</strong> a alternativa com a relação nuclear desses\nátomos.</p>",
+        "md": "Considere os átomos de carbono-12, carbono-13 e carbono-14.\n\n**Assinale** a alternativa com a relação nuclear desses átomos.\n",
+        "tex": "Considere os átomos de carbono-12, carbono-13 e carbono-14.\n\n\\textbf{Assinale} a alternativa com a relação nuclear desses átomos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Isotopos.",
+          "md": "Isotopos.\n",
+          "tex": "Isotopos.\n"
+        },
+        {
+          "html": "Isótonos.",
+          "md": "Isótonos.\n",
+          "tex": "Isótonos.\n"
+        },
+        {
+          "html": "Isóbaros.",
+          "md": "Isóbaros.\n",
+          "tex": "Isóbaros.\n"
+        },
+        {
+          "html": "Isômeros.",
+          "md": "Isômeros.\n",
+          "tex": "Isômeros.\n"
+        },
+        {
+          "html": "Isodiáferos.",
+          "md": "Isodiáferos.\n",
+          "tex": "Isodiáferos.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1A11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A11/1A11.md",
+      "date": "2023-01-11T20:49:16.236569",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração da massa total de um átomo de carbono-12 que é decorrente dos\nelétrons.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da fração da massa total\nde um átomo de carbono-12 que é decorrente dos elétrons.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da fração da massa total de um átomo de carbono-12 que é decorrente dos elétrons.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "me",
+            "name": "massa do elétron",
+            "symbol": "m_\\mathrm{e}",
+            "value": 9.1e-31,
+            "unit": "kg",
+            "prec": 3
+          },
+          {
+            "id_": "mn",
+            "name": "massa do nêutron",
+            "symbol": "m_\\mathrm{n}",
+            "value": 1.67e-27,
+            "unit": "kg",
+            "prec": 3
+          },
+          {
+            "id_": "mp",
+            "name": "massa do próton",
+            "symbol": "m_\\mathrm{p}",
+            "value": 1.67e-27,
+            "unit": "kg",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,4E-5 }\\)</span>",
+          "md": "$\\pu{7,4E-5 }$\n",
+          "tex": "{\\(\\num{7,4E-5}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4E-4 }\\)</span>",
+          "md": "$\\pu{1,4E-4 }$\n",
+          "tex": "{\\(\\num{1,4E-4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,7E-4 }\\)</span>",
+          "md": "$\\pu{2,7E-4 }$\n",
+          "tex": "{\\(\\num{2,7E-4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,2E-4 }\\)</span>",
+          "md": "$\\pu{5,2E-4 }$\n",
+          "tex": "{\\(\\num{5,2E-4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,9E-4 }\\)</span>",
+          "md": "$\\pu{9,9E-4 }$\n",
+          "tex": "{\\(\\num{9,9E-4}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1A21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1A/1A21/1A21.md",
+      "date": "2023-01-11T20:31:38.380363",
+      "statement": {
+        "html": "<p>Um átomo de hidrogênio emite radiação com <span class=\"math inline\">\\(n_1 = 1\\)</span> e <span class=\"math inline\">\\(n_2\n= 3\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ncomprimento de onda da radiação emitida.</p>",
+        "md": "Um átomo de hidrogênio emite radiação com $n_1 = 1$ e $n_2 = 3$.\n\n**Assinale** a alternativa que mais se aproxima do comprimento de onda\nda radiação emitida.\n",
+        "tex": "Um átomo de hidrogênio emite radiação com {\\(n_1 = 1\\)} e {\\(n_2 = 3\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do comprimento de onda da radiação emitida.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{490 nm}\\)</span>",
+          "md": "$\\pu{490 nm}$\n",
+          "tex": "{\\(\\qty{490}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{850 nm}\\)</span>",
+          "md": "$\\pu{850 nm}$\n",
+          "tex": "{\\(\\qty{850}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1500 nm}\\)</span>",
+          "md": "$\\pu{1500 nm}$\n",
+          "tex": "{\\(\\qty{1500}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2600 nm}\\)</span>",
+          "md": "$\\pu{2600 nm}$\n",
+          "tex": "{\\(\\qty{2600}{\\unit{nm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4500 nm}\\)</span>",
+          "md": "$\\pu{4500 nm}$\n",
+          "tex": "{\\(\\qty{4500}{\\unit{nm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
     {
       "id_": "3H01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3H/3H01/3H01.md",
@@ -244,6 +1309,47 @@
       "correct_choice": 4
     },
     {
+      "id_": "2B01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B01/2B01.md",
+      "date": "2023-01-09T22:40:50.349957",
+      "statement": {
+        "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{2 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{He}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{30 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{4 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
+        "md": "Um cilindro de volume $\\pu{2 L}$ contém $\\pu{1 mol}$ de gás $\\ce{He}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{30 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{4 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
+        "tex": "Um cilindro de volume {\\(\\qty{2}{\\unit{L}}\\)} contém {\\(\\qty{1}{\\unit{mol}}\\)} de gás {\\(\\ce{He}\\)} e está imerso em um banho de água na temperatura\nconstante de {\\(\\qty{30}{\\unit{\\degree C}}\\)}. O sistema sofre uma expansão isotérmica reversível até {\\(\\qty{4}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,96 kJ}\\)</span>",
+          "md": "$\\pu{0,96 kJ}$\n",
+          "tex": "{\\(\\qty{0,96}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2 kJ}\\)</span>",
+          "md": "$\\pu{1,2 kJ}$\n",
+          "tex": "{\\(\\qty{1,2}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5 kJ}\\)</span>",
+          "md": "$\\pu{1,5 kJ}$\n",
+          "tex": "{\\(\\qty{1,5}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,9 kJ}\\)</span>",
+          "md": "$\\pu{1,9 kJ}$\n",
+          "tex": "{\\(\\qty{1,9}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,4 kJ}\\)</span>",
+          "md": "$\\pu{2,4 kJ}$\n",
+          "tex": "{\\(\\qty{2,4}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
       "id_": "2B14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B14/2B14.md",
       "date": "2023-01-09T23:30:48.600124",
@@ -294,47 +1400,6 @@
         }
       ],
       "correct_choice": 4
-    },
-    {
-      "id_": "2B01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B01/2B01.md",
-      "date": "2023-01-09T22:40:50.349957",
-      "statement": {
-        "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{2 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{He}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{30 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{4 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
-        "md": "Um cilindro de volume $\\pu{2 L}$ contém $\\pu{1 mol}$ de gás $\\ce{He}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{30 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{4 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
-        "tex": "Um cilindro de volume {\\(\\qty{2}{\\unit{L}}\\)} contém {\\(\\qty{1}{\\unit{mol}}\\)} de gás {\\(\\ce{He}\\)} e está imerso em um banho de água na temperatura\nconstante de {\\(\\qty{30}{\\unit{\\degree C}}\\)}. O sistema sofre uma expansão isotérmica reversível até {\\(\\qty{4}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo gás.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{0,96 kJ}\\)</span>",
-          "md": "$\\pu{0,96 kJ}$\n",
-          "tex": "{\\(\\qty{0,96}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{1,2 kJ}\\)</span>",
-          "md": "$\\pu{1,2 kJ}$\n",
-          "tex": "{\\(\\qty{1,2}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{1,5 kJ}\\)</span>",
-          "md": "$\\pu{1,5 kJ}$\n",
-          "tex": "{\\(\\qty{1,5}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{1,9 kJ}\\)</span>",
-          "md": "$\\pu{1,9 kJ}$\n",
-          "tex": "{\\(\\qty{1,9}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{2,4 kJ}\\)</span>",
-          "md": "$\\pu{2,4 kJ}$\n",
-          "tex": "{\\(\\qty{2,4}{\\unit{kJ}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
     },
     {
       "id_": "2B17",
@@ -397,6 +1462,47 @@
       "correct_choice": 1
     },
     {
+      "id_": "2B07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B07/2B07.md",
+      "date": "2023-01-09T22:51:59.232882",
+      "statement": {
+        "html": "<p>A pressão de cilindro contendo <span class=\"math inline\">\\(\\pu{1,5\nmol}\\)</span> de neônio diminui isotermicamente de <span class=\"math inline\">\\(\\pu{20 bar}\\)</span> até <span class=\"math inline\">\\(\\pu{5 bar}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A pressão de cilindro contendo $\\pu{1,5 mol}$ de neônio diminui\nisotermicamente de $\\pu{20 bar}$ até $\\pu{5 bar}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A pressão de cilindro contendo {\\(\\qty{1,5}{\\unit{mol}}\\)} de neônio diminui isotermicamente de {\\(\\qty{20}{\\unit{bar}}\\)} até\n{\\(\\qty{5}{\\unit{bar}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+12 J.K-1}\\)</span>",
+          "md": "$\\pu{+12 J.K-1}$\n",
+          "tex": "{\\(\\qty{+12}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+17 J.K-1}\\)</span>",
+          "md": "$\\pu{+17 J.K-1}$\n",
+          "tex": "{\\(\\qty{+17}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+25 J.K-1}\\)</span>",
+          "md": "$\\pu{+25 J.K-1}$\n",
+          "tex": "{\\(\\qty{+25}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+36 J.K-1}\\)</span>",
+          "md": "$\\pu{+36 J.K-1}$\n",
+          "tex": "{\\(\\qty{+36}{\\unit{J.K^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+51 J.K-1}\\)</span>",
+          "md": "$\\pu{+51 J.K-1}$\n",
+          "tex": "{\\(\\qty{+51}{\\unit{J.K^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
       "id_": "2B11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B11/2B11.md",
       "date": "2023-01-09T23:05:20.094642",
@@ -449,45 +1555,45 @@
       "correct_choice": 2
     },
     {
-      "id_": "2B07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B07/2B07.md",
-      "date": "2023-01-09T22:51:59.232882",
+      "id_": "2B32",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B32/2B32.md",
+      "date": "2023-01-10T00:03:27.108570",
       "statement": {
-        "html": "<p>A pressão de cilindro contendo <span class=\"math inline\">\\(\\pu{1,5\nmol}\\)</span> de neônio diminui isotermicamente de <span class=\"math inline\">\\(\\pu{20 bar}\\)</span> até <span class=\"math inline\">\\(\\pu{5 bar}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
-        "md": "A pressão de cilindro contendo $\\pu{1,5 mol}$ de neônio diminui\nisotermicamente de $\\pu{20 bar}$ até $\\pu{5 bar}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
-        "tex": "A pressão de cilindro contendo {\\(\\qty{1,5}{\\unit{mol}}\\)} de neônio diminui isotermicamente de {\\(\\qty{20}{\\unit{bar}}\\)} até\n{\\(\\qty{5}{\\unit{bar}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+        "html": "<p>O termo <em>seta do tempo</em> é usado para distinguir uma direção no\ntempo nos fenômenos naturais, ou seja, que o estado <span class=\"math inline\">\\(2\\)</span> de um sistema macroscópico ocorre após\no estado <span class=\"math inline\">\\(1\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa <em>correta</em> a respeito\nde um processo que ocorre em sistema fechado.</p>",
+        "md": "O termo *seta do tempo* é usado para distinguir uma direção no tempo nos\nfenômenos naturais, ou seja, que o estado $2$ de um sistema macroscópico\nocorre após o estado $1$.\n\n**Assinale** a alternativa *correta* a respeito de um processo que\nocorre em sistema fechado.\n",
+        "tex": "O termo \\emph{seta do tempo} é usado para distinguir uma direção no tempo nos fenômenos naturais, ou seja, que o estado {\\(2\\)} de um sistema\nmacroscópico ocorre após o estado {\\(1\\)}.\n\n\\textbf{Assinale} a alternativa \\emph{correta} a respeito de um processo que ocorre em sistema fechado.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+12 J.K-1}\\)</span>",
-          "md": "$\\pu{+12 J.K-1}$\n",
-          "tex": "{\\(\\qty{+12}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> é igual a <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ é igual a $S_1$.\n",
+          "tex": "{\\(S_2\\)} é igual a {\\(S_1\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+17 J.K-1}\\)</span>",
-          "md": "$\\pu{+17 J.K-1}$\n",
-          "tex": "{\\(\\qty{+17}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> é maior que <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ é maior que $S_1$.\n",
+          "tex": "{\\(S_2\\)} é maior que {\\(S_1\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+25 J.K-1}\\)</span>",
-          "md": "$\\pu{+25 J.K-1}$\n",
-          "tex": "{\\(\\qty{+25}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> é menor que <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ é menor que $S_1$.\n",
+          "tex": "{\\(S_2\\)} é menor que {\\(S_1\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+36 J.K-1}\\)</span>",
-          "md": "$\\pu{+36 J.K-1}$\n",
-          "tex": "{\\(\\qty{+36}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(S_2\\)</span> independe de <span class=\"math inline\">\\(S_1\\)</span>.",
+          "md": "$S_2$ independe de $S_1$.\n",
+          "tex": "{\\(S_2\\)} independe de {\\(S_1\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+51 J.K-1}\\)</span>",
-          "md": "$\\pu{+51 J.K-1}$\n",
-          "tex": "{\\(\\qty{+51}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "A relação entre <span class=\"math inline\">\\(S_2\\)</span> e <span class=\"math inline\">\\(S_1\\)</span> depende do caminho percorrido entre\nos estados.",
+          "md": "A relação entre $S_2$ e $S_1$ depende do caminho percorrido entre os\nestados.\n",
+          "tex": "A relação entre {\\(S_2\\)} e {\\(S_1\\)} depende do caminho percorrido entre os estados.\n"
         }
       ],
-      "correct_choice": 1
+      "correct_choice": 3
     },
     {
       "id_": "2B28",
@@ -564,47 +1670,6 @@
         }
       ],
       "correct_choice": 0
-    },
-    {
-      "id_": "2B32",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B32/2B32.md",
-      "date": "2023-01-10T00:03:27.108570",
-      "statement": {
-        "html": "<p>O termo <em>seta do tempo</em> é usado para distinguir uma direção no\ntempo nos fenômenos naturais, ou seja, que o estado <span class=\"math inline\">\\(2\\)</span> de um sistema macroscópico ocorre após\no estado <span class=\"math inline\">\\(1\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa <em>correta</em> a respeito\nde um processo que ocorre em sistema fechado.</p>",
-        "md": "O termo *seta do tempo* é usado para distinguir uma direção no tempo nos\nfenômenos naturais, ou seja, que o estado $2$ de um sistema macroscópico\nocorre após o estado $1$.\n\n**Assinale** a alternativa *correta* a respeito de um processo que\nocorre em sistema fechado.\n",
-        "tex": "O termo \\emph{seta do tempo} é usado para distinguir uma direção no tempo nos fenômenos naturais, ou seja, que o estado {\\(2\\)} de um sistema\nmacroscópico ocorre após o estado {\\(1\\)}.\n\n\\textbf{Assinale} a alternativa \\emph{correta} a respeito de um processo que ocorre em sistema fechado.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(S_2\\)</span> é igual a <span class=\"math inline\">\\(S_1\\)</span>.",
-          "md": "$S_2$ é igual a $S_1$.\n",
-          "tex": "{\\(S_2\\)} é igual a {\\(S_1\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(S_2\\)</span> é maior que <span class=\"math inline\">\\(S_1\\)</span>.",
-          "md": "$S_2$ é maior que $S_1$.\n",
-          "tex": "{\\(S_2\\)} é maior que {\\(S_1\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(S_2\\)</span> é menor que <span class=\"math inline\">\\(S_1\\)</span>.",
-          "md": "$S_2$ é menor que $S_1$.\n",
-          "tex": "{\\(S_2\\)} é menor que {\\(S_1\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(S_2\\)</span> independe de <span class=\"math inline\">\\(S_1\\)</span>.",
-          "md": "$S_2$ independe de $S_1$.\n",
-          "tex": "{\\(S_2\\)} independe de {\\(S_1\\)}.\n"
-        },
-        {
-          "html": "A relação entre <span class=\"math inline\">\\(S_2\\)</span> e <span class=\"math inline\">\\(S_1\\)</span> depende do caminho percorrido entre\nos estados.",
-          "md": "A relação entre $S_2$ e $S_1$ depende do caminho percorrido entre os\nestados.\n",
-          "tex": "A relação entre {\\(S_2\\)} e {\\(S_1\\)} depende do caminho percorrido entre os estados.\n"
-        }
-      ],
-      "correct_choice": 3
     },
     {
       "id_": "2B18",
@@ -743,47 +1808,6 @@
       "correct_choice": 1
     },
     {
-      "id_": "2B23",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B23/2B23.md",
-      "date": "2023-01-09T23:46:39.583005",
-      "statement": {
-        "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 H2(l) + O2(l) -&gt; 2 H2O(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ N2(g) + 3 H2(g) -&gt; 2 NH3(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaCl2.2H2O(s) -&gt; BaCl2(s) + 2 H2O(g)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações com\nentropia padrão positiva.</p>",
-        "md": "Considere as reações.\n\n1.  $\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }$\n2.  $\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }$\n3.  $\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }$\n4.  $\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }$\n\n**Assinale** a alternativa que relaciona as reações com entropia padrão\npositiva.\n",
-        "tex": "Considere as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\\)}\n\\item\n  {\\(\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }\\)}\n\\item\n  {\\(\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\\)}\n\\item\n  {\\(\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações com entropia padrão positiva.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>2</strong> e <strong>3</strong>",
-          "md": "**2** e **3**\n",
-          "tex": "\\textbf{2} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>2</strong> e <strong>4</strong>",
-          "md": "**2** e **4**\n",
-          "tex": "\\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>3</strong> e <strong>4</strong>",
-          "md": "**3** e **4**\n",
-          "tex": "\\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**2**, **3** e **4**\n",
-          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
       "id_": "2B36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B36/2B36.md",
       "date": "2023-01-10T01:15:42.005517",
@@ -860,6 +1884,77 @@
       "correct_choice": 2
     },
     {
+      "id_": "2B23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B23/2B23.md",
+      "date": "2023-01-09T23:46:39.583005",
+      "statement": {
+        "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 H2(l) + O2(l) -&gt; 2 H2O(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ N2(g) + 3 H2(g) -&gt; 2 NH3(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaCl2.2H2O(s) -&gt; BaCl2(s) + 2 H2O(g)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações com\nentropia padrão positiva.</p>",
+        "md": "Considere as reações.\n\n1.  $\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }$\n2.  $\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }$\n3.  $\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }$\n4.  $\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }$\n\n**Assinale** a alternativa que relaciona as reações com entropia padrão\npositiva.\n",
+        "tex": "Considere as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\\)}\n\\item\n  {\\(\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }\\)}\n\\item\n  {\\(\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }\\)}\n\\item\n  {\\(\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações com entropia padrão positiva.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2B39",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B39/2B39.md",
+      "date": "2023-01-09T22:19:52.605086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2B40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B40/2B40.md",
+      "date": "2023-01-09T22:19:52.605086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2B03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B03/2B03.md",
       "date": "2023-01-09T22:46:51.079456",
@@ -899,21 +1994,6 @@
         }
       ],
       "correct_choice": 0
-    },
-    {
-      "id_": "2B39",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B39/2B39.md",
-      "date": "2023-01-09T22:19:52.605086",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "2B04",
@@ -957,47 +2037,6 @@
       "correct_choice": 3
     },
     {
-      "id_": "2B02",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B02/2B02.md",
-      "date": "2023-01-09T22:41:16.550113",
-      "statement": {
-        "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{3 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{2 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{Ne}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{10 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{9 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
-        "md": "Um cilindro de volume $\\pu{3 L}$ contém $\\pu{2 mol}$ de gás $\\ce{Ne}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{10 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{9 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
-        "tex": "Um cilindro de volume {\\(\\qty{3}{\\unit{L}}\\)} contém {\\(\\qty{2}{\\unit{mol}}\\)} de gás {\\(\\ce{Ne}\\)} e está imerso em um banho de água na temperatura\nconstante de {\\(\\qty{10}{\\unit{\\degree C}}\\)}. O sistema sofre uma expansão isotérmica reversível até {\\(\\qty{9}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo gás.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{4,1 kJ}\\)</span>",
-          "md": "$\\pu{4,1 kJ}$\n",
-          "tex": "{\\(\\qty{4,1}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{5,6 kJ}\\)</span>",
-          "md": "$\\pu{5,6 kJ}$\n",
-          "tex": "{\\(\\qty{5,6}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{7,6 kJ}\\)</span>",
-          "md": "$\\pu{7,6 kJ}$\n",
-          "tex": "{\\(\\qty{7,6}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{10 kJ}\\)</span>",
-          "md": "$\\pu{10 kJ}$\n",
-          "tex": "{\\(\\qty{10}{\\unit{kJ}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{14 kJ}\\)</span>",
-          "md": "$\\pu{14 kJ}$\n",
-          "tex": "{\\(\\qty{14}{\\unit{kJ}}\\)}\n"
-        }
-      ],
-      "correct_choice": 1
-    },
-    {
       "id_": "2B34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B34/2B34.md",
       "date": "2023-01-10T00:11:11.201542",
@@ -1039,19 +2078,45 @@
       "correct_choice": 0
     },
     {
-      "id_": "2B40",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B40/2B40.md",
-      "date": "2023-01-09T22:19:52.605086",
+      "id_": "2B02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B02/2B02.md",
+      "date": "2023-01-09T22:41:16.550113",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{3 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{2 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{Ne}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{10 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{9 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
+        "md": "Um cilindro de volume $\\pu{3 L}$ contém $\\pu{2 mol}$ de gás $\\ce{Ne}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{10 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{9 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
+        "tex": "Um cilindro de volume {\\(\\qty{3}{\\unit{L}}\\)} contém {\\(\\qty{2}{\\unit{mol}}\\)} de gás {\\(\\ce{Ne}\\)} e está imerso em um banho de água na temperatura\nconstante de {\\(\\qty{10}{\\unit{\\degree C}}\\)}. O sistema sofre uma expansão isotérmica reversível até {\\(\\qty{9}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho realizado pelo gás.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,1 kJ}\\)</span>",
+          "md": "$\\pu{4,1 kJ}$\n",
+          "tex": "{\\(\\qty{4,1}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,6 kJ}\\)</span>",
+          "md": "$\\pu{5,6 kJ}$\n",
+          "tex": "{\\(\\qty{5,6}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,6 kJ}\\)</span>",
+          "md": "$\\pu{7,6 kJ}$\n",
+          "tex": "{\\(\\qty{7,6}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{10 kJ}\\)</span>",
+          "md": "$\\pu{10 kJ}$\n",
+          "tex": "{\\(\\qty{10}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 kJ}\\)</span>",
+          "md": "$\\pu{14 kJ}$\n",
+          "tex": "{\\(\\qty{14}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2B22",
@@ -1093,6 +2158,47 @@
         }
       ],
       "correct_choice": 2
+    },
+    {
+      "id_": "2B15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B15/2B15.md",
+      "date": "2023-01-10T16:25:06.724207",
+      "statement": {
+        "html": "<p>Considere válida a regra de Trouton, <span class=\"math inline\">\\(\\Delta S_\\mathrm{vap} \\approx \\pu{85\nJ.K-1.mol-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de vaporização do bromo líquido, que ferve a <span class=\"math inline\">\\(\\pu{59 \\degree C}\\)</span>.</p>",
+        "md": "Considere válida a regra de Trouton,\n$\\Delta S_\\mathrm{vap} \\approx \\pu{85 J.K-1.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização do bromo líquido, que ferve a $\\pu{59 \\degree C}$.\n",
+        "tex": "Considere válida a regra de Trouton, {\\(\\Delta S_\\mathrm{vap} \\approx \\qty{85}{\\unit{J.K^{-1}.mol^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de vaporização do bromo líquido, que ferve a {\\(\\qty{59}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,5 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{8,5 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{8,5}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{13 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{13}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{19 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{19}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{28 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{28 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{28}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{42 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{42 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{42}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2B26",
@@ -1171,45 +2277,19 @@
       "correct_choice": 3
     },
     {
-      "id_": "2B15",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B15/2B15.md",
-      "date": "2023-01-10T16:25:06.724207",
+      "id_": "2B38",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B38/2B38.md",
+      "date": "2023-01-09T22:19:52.601086",
       "statement": {
-        "html": "<p>Considere válida a regra de Trouton, <span class=\"math inline\">\\(\\Delta S_\\mathrm{vap} \\approx \\pu{85\nJ.K-1.mol-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de vaporização do bromo líquido, que ferve a <span class=\"math inline\">\\(\\pu{59 \\degree C}\\)</span>.</p>",
-        "md": "Considere válida a regra de Trouton,\n$\\Delta S_\\mathrm{vap} \\approx \\pu{85 J.K-1.mol-1}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de\nvaporização do bromo líquido, que ferve a $\\pu{59 \\degree C}$.\n",
-        "tex": "Considere válida a regra de Trouton, {\\(\\Delta S_\\mathrm{vap} \\approx \\qty{85}{\\unit{J.K^{-1}.mol^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de vaporização do bromo líquido, que ferve a {\\(\\qty{59}{\\unit{\\degree C}}\\)}.\n"
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{8,5 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{8,5 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{8,5}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{13 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{13 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{13}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{19 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{19 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{19}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{28 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{28 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{28}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{42 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{42 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{42}{\\unit{kJ.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 3
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2B09",
@@ -1264,6 +2344,21 @@
       "correct_choice": 4
     },
     {
+      "id_": "2B37",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B37/2B37.md",
+      "date": "2023-01-09T22:19:52.601086",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2B19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B19/2B19.md",
       "date": "2023-01-10T00:32:08.224021",
@@ -1295,47 +2390,6 @@
           "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
           "md": "**1**, **3** e **4**\n",
           "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
-      "id_": "2B20",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B20/2B20.md",
-      "date": "2023-01-10T00:41:26.712636",
-      "statement": {
-        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> líquido e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> líquido e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CaI2}\\)</span> aquoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CaI2}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de grafite e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de diamante.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
-        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{Br2}$ líquido e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{I2}$ líquido e $\\pu{1 mol}$ de $\\ce{I2}$\n    sólido.\n3.  $\\pu{1 mol}$ de $\\ce{CaI2}$ aquoso e $\\pu{1 mol}$ de $\\ce{CaI2}$\n    sólido.\n4.  $\\pu{1 mol}$ de grafite e $\\pu{1 mol}$ de diamante.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
-        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} sólido.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CaI2}\\)} aquoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CaI2}\\)} sólido.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de grafite e {\\(\\qty{1}{\\unit{mol}}\\)} de diamante.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>2</strong> e <strong>3</strong>",
-          "md": "**2** e **3**\n",
-          "tex": "\\textbf{2} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>2</strong> e <strong>4</strong>",
-          "md": "**2** e **4**\n",
-          "tex": "\\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>3</strong> e <strong>4</strong>",
-          "md": "**3** e **4**\n",
-          "tex": "\\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**2**, **3** e **4**\n",
-          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         },
         {
           "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
@@ -1387,34 +2441,45 @@
       "correct_choice": 2
     },
     {
-      "id_": "2B38",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B38/2B38.md",
-      "date": "2023-01-09T22:19:52.601086",
+      "id_": "2B20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B20/2B20.md",
+      "date": "2023-01-10T00:41:26.712636",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> líquido e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> líquido e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CaI2}\\)</span> aquoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CaI2}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de grafite e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de diamante.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
+        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{Br2}$ líquido e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{I2}$ líquido e $\\pu{1 mol}$ de $\\ce{I2}$\n    sólido.\n3.  $\\pu{1 mol}$ de $\\ce{CaI2}$ aquoso e $\\pu{1 mol}$ de $\\ce{CaI2}$\n    sólido.\n4.  $\\pu{1 mol}$ de grafite e $\\pu{1 mol}$ de diamante.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
+        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} sólido.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CaI2}\\)} aquoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CaI2}\\)} sólido.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de grafite e {\\(\\qty{1}{\\unit{mol}}\\)} de diamante.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2B37",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B37/2B37.md",
-      "date": "2023-01-09T22:19:52.601086",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2B33",
@@ -1551,6 +2616,47 @@
       "correct_choice": 3
     },
     {
+      "id_": "2B21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B21/2B21.md",
+      "date": "2023-01-10T00:41:25.184590",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O3}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH2Br2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH4}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HBr}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HF}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ne}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
+        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{O2}$ gasoso e $\\pu{1 mol}$ de $\\ce{O3}$ gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{CH2Br2}$ gasoso e $\\pu{1 mol}$ de $\\ce{CH4}$\n    gasoso.\n3.  $\\pu{1 mol}$ de $\\ce{HBr}$ gasoso e $\\pu{1 mol}$ de $\\ce{HF}$\n    gasoso.\n4.  $\\pu{1 mol}$ de $\\ce{NH3}$ gasoso e $\\pu{1 mol}$ de $\\ce{Ne}$\n    gasoso.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
+        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O3}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH2Br2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH4}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HBr}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HF}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{NH3}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Ne}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
       "id_": "2B12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B12/2B12.md",
       "date": "2023-01-09T23:18:37.424994",
@@ -1603,47 +2709,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "2B21",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B21/2B21.md",
-      "date": "2023-01-10T00:41:25.184590",
-      "statement": {
-        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O3}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH2Br2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH4}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HBr}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HF}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ne}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
-        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{O2}$ gasoso e $\\pu{1 mol}$ de $\\ce{O3}$ gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{CH2Br2}$ gasoso e $\\pu{1 mol}$ de $\\ce{CH4}$\n    gasoso.\n3.  $\\pu{1 mol}$ de $\\ce{HBr}$ gasoso e $\\pu{1 mol}$ de $\\ce{HF}$\n    gasoso.\n4.  $\\pu{1 mol}$ de $\\ce{NH3}$ gasoso e $\\pu{1 mol}$ de $\\ce{Ne}$\n    gasoso.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
-        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O3}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH2Br2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH4}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HBr}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HF}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{NH3}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Ne}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>3</strong>",
-          "md": "**3**\n",
-          "tex": "\\textbf{3}\n"
-        },
-        {
-          "html": "<strong>4</strong>",
-          "md": "**4**\n",
-          "tex": "\\textbf{4}\n"
-        },
-        {
-          "html": "<strong>3</strong> e <strong>4</strong>",
-          "md": "**3** e **4**\n",
-          "tex": "\\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**2**, **3** e **4**\n",
-          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 2
-    },
-    {
       "id_": "2B08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B08/2B08.md",
       "date": "2023-01-09T22:56:35.644321",
@@ -1683,66 +2748,6 @@
         }
       ],
       "correct_choice": 3
-    },
-    {
-      "id_": "2B13",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B13/2B13.md",
-      "date": "2023-01-09T23:30:56.840163",
-      "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de vaporização do argônio no ponto de ebulição.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nvaporização do argônio no ponto de ebulição.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de vaporização do argônio no ponto de ebulição.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": {
-        "quantities": [
-          {
-            "id_": "Hvap(Ar)",
-            "name": "entalpia padrão de vaporização do argônio",
-            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{Ar})",
-            "value": 6.5,
-            "unit": "kJ//mol",
-            "prec": 3
-          },
-          {
-            "id_": "Teb(Ar)",
-            "name": "temperatura de ebulição do argônio",
-            "symbol": "T_\\mathrm{eb}(\\ce{Ar})",
-            "value": -186,
-            "unit": "\\degree C",
-            "prec": 3
-          }
-        ]
-      },
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{74 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{74 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{74}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{120 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{120 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{120}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{180 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{180 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{180}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{290 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{290 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{290}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{450 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{450 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{450}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
-        }
-      ],
-      "correct_choice": 0
     },
     {
       "id_": "2B25",
@@ -1821,6 +2826,66 @@
       "correct_choice": 2
     },
     {
+      "id_": "2B13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B13/2B13.md",
+      "date": "2023-01-09T23:30:56.840163",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de vaporização do argônio no ponto de ebulição.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nvaporização do argônio no ponto de ebulição.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de vaporização do argônio no ponto de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hvap(Ar)",
+            "name": "entalpia padrão de vaporização do argônio",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{Ar})",
+            "value": 6.5,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Teb(Ar)",
+            "name": "temperatura de ebulição do argônio",
+            "symbol": "T_\\mathrm{eb}(\\ce{Ar})",
+            "value": -186,
+            "unit": "\\degree C",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{74 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{74 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{74}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{120 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{120}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{180 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{180}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{290 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{290 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{290}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{450 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{450 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{450}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
       "id_": "2B29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B29/2B29.md",
       "date": "2023-01-10T00:09:36.551998",
@@ -1871,6 +2936,72 @@
         }
       ],
       "correct_choice": 4
+    },
+    {
+      "id_": "2C16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C16/2C16.md",
+      "date": "2023-01-11T17:01:02.514824",
+      "statement": {
+        "html": "<p>Considere a reação de decomposição do carbonato de magnésio: <span class=\"math display\">\\[\n    \\ce{ MgCO3(s) -&gt; MgO(s) + CO2(g) }\n\\]</span> Suponha que <span class=\"math inline\">\\(\\Delta\nH^\\circ_\\mathrm{r}\\)</span> e <span class=\"math inline\">\\(\\Delta\nS^\\circ_\\mathrm{r}\\)</span> são independentes da temperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da menor\ntemperatura em que a redução da magnetita é espontânea.</p>\n<ul class=\"task-list\">\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/><span class=\"math inline\">\\(\\pu{570 K}\\)</span></li>\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/><span class=\"math inline\">\\(\\underset{ \\vphantom{\\big()} 1s}{ \\boxed{ \\uparrow\n\\phantom{\\downarrow} } } \\;\\; \\underset{ \\vphantom{\\big()} 2p}{ \\boxed{\n\\uparrow \\downarrow } \\; \\boxed{ \\uparrow \\downarrow } \\; \\boxed{\n\\uparrow \\downarrow } }\\)</span></li>\n</ul>",
+        "md": "Considere a reação de decomposição do carbonato de magnésio: $$\n    \\ce{ MgCO3(s) -> MgO(s) + CO2(g) }\n$$ Suponha que $\\Delta H^\\circ_\\mathrm{r}$ e $\\Delta S^\\circ_\\mathrm{r}$\nsão independentes da temperatura.\n\n**Assinale** a alternativa que mais se aproxima da menor temperatura em\nque a redução da magnetita é espontânea.\n\n-   $\\pu{570 K}$\n-   $\\underset{ \\vphantom{\\big()} 1s}{ \\boxed{ \\uparrow \\phantom{\\downarrow} } } \\;\\; \\underset{ \\vphantom{\\big()} 2p}{ \\boxed{ \\uparrow \\downarrow } \\; \\boxed{ \\uparrow \\downarrow } \\; \\boxed{ \\uparrow \\downarrow } }$\n",
+        "tex": "Considere a reação de decomposição do carbonato de magnésio: {\\[\n    \\ce{ MgCO3(s) -> MgO(s) + CO2(g) }\n\\]} Suponha que {\\(\\Delta H^\\circ_\\mathrm{r}\\)} e {\\(\\Delta S^\\circ_\\mathrm{r}\\)} são independentes da temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da menor temperatura em que a redução da magnetita é espontânea.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\qty{570}{\\unit{K}}\\)}\n\\item\n  {\\(\\underset{ \\vphantom{\\big()} 1s}{ \\boxed{ \\uparrow \\phantom{\\downarrow} } } \\;\\; \\underset{ \\vphantom{\\big()} 2p}{ \\boxed{ \\uparrow \\downarrow } \\; \\boxed{ \\uparrow \\downarrow } \\; \\boxed{ \\uparrow \\downarrow } }\\)}\n\\end{itemize}\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(MgCO3,s)",
+            "name": "entalpia padrão de formação do carbonato de magnésio",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{MgCO3,\\,\\text{s}})",
+            "value": -1100,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(MgO,s)",
+            "name": "entalpia padrão de formação do óxido de magnésio",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{MgO,\\,\\text{s}})",
+            "value": -602,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "S(MgCO3,s)",
+            "name": "entropia padrão molar do carbonato de magnésio",
+            "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{MgCO3,\\,\\text{s}})",
+            "value": 65.7,
+            "unit": "J//K.mol",
+            "prec": 3
+          },
+          {
+            "id_": "S(CO2,g)",
+            "name": "entropia padrão molar do dióxido de carbono",
+            "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": 214,
+            "unit": "J//K.mol",
+            "prec": 3
+          },
+          {
+            "id_": "S(MgO,s)",
+            "name": "entropia padrão molar do óxido de magnésio",
+            "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{MgO,\\,\\text{s}})",
+            "value": 26.9,
+            "unit": "J//K.mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2B10",
@@ -2054,98 +3185,6 @@
         }
       ],
       "correct_choice": 3
-    },
-    {
-      "id_": "2C16",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C16/2C16.md",
-      "date": "2023-01-11T03:17:01.943403",
-      "statement": {
-        "html": "<p>Considere a reação de decomposição do carbonato de magnésio: <span class=\"math display\">\\[\n    \\ce{ MgCO3(s) -&gt; MgO(s) + CO2(g) }\n\\]</span> Suponha que <span class=\"math inline\">\\(\\Delta\nH^\\circ_\\mathrm{r}\\)</span> e <span class=\"math inline\">\\(\\Delta\nS^\\circ_\\mathrm{r}\\)</span> são independentes da temperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da menor\ntemperatura em que a redução da magnetita é espontânea.</p>",
-        "md": "Considere a reação de decomposição do carbonato de magnésio: $$\n    \\ce{ MgCO3(s) -> MgO(s) + CO2(g) }\n$$ Suponha que $\\Delta H^\\circ_\\mathrm{r}$ e $\\Delta S^\\circ_\\mathrm{r}$\nsão independentes da temperatura.\n\n**Assinale** a alternativa que mais se aproxima da menor temperatura em\nque a redução da magnetita é espontânea.\n",
-        "tex": "Considere a reação de decomposição do carbonato de magnésio: {\\[\n    \\ce{ MgCO3(s) -> MgO(s) + CO2(g) }\n\\]} Suponha que {\\(\\Delta H^\\circ_\\mathrm{r}\\)} e {\\(\\Delta S^\\circ_\\mathrm{r}\\)} são independentes da temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da menor temperatura em que a redução da magnetita é espontânea.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": {
-        "quantities": [
-          {
-            "id_": "Hf(MgCO3,s)",
-            "name": "entalpia padrão de formação do carbonato de magnésio",
-            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{MgCO3,\\,\\text{s}})",
-            "value": -1100,
-            "unit": "kJ//mol",
-            "prec": 3
-          },
-          {
-            "id_": "Hf(CO2,g)",
-            "name": "entalpia padrão de formação do dióxido de carbono",
-            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
-            "value": -394,
-            "unit": "kJ//mol",
-            "prec": 3
-          },
-          {
-            "id_": "Hf(MgO,s)",
-            "name": "entalpia padrão de formação do óxido de magnésio",
-            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{MgO,\\,\\text{s}})",
-            "value": -602,
-            "unit": "kJ//mol",
-            "prec": 3
-          },
-          {
-            "id_": "S(MgCO3,s)",
-            "name": "entropia padrão molar do carbonato de magnésio",
-            "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{MgCO3,\\,\\text{s}})",
-            "value": 65.7,
-            "unit": "J//K.mol",
-            "prec": 3
-          },
-          {
-            "id_": "S(CO2,g)",
-            "name": "entropia padrão molar do dióxido de carbono",
-            "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
-            "value": 214,
-            "unit": "J//K.mol",
-            "prec": 3
-          },
-          {
-            "id_": "S(MgO,s)",
-            "name": "entropia padrão molar do óxido de magnésio",
-            "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{MgO,\\,\\text{s}})",
-            "value": 26.9,
-            "unit": "J//K.mol",
-            "prec": 3
-          }
-        ]
-      },
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{61 K}\\)</span>",
-          "md": "$\\pu{61 K}$\n",
-          "tex": "{\\(\\qty{61}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{110 K}\\)</span>",
-          "md": "$\\pu{110 K}$\n",
-          "tex": "{\\(\\qty{110}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{190 K}\\)</span>",
-          "md": "$\\pu{190 K}$\n",
-          "tex": "{\\(\\qty{190}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{330 K}\\)</span>",
-          "md": "$\\pu{330 K}$\n",
-          "tex": "{\\(\\qty{330}{\\unit{K}}\\)}\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{570 K}\\)</span>",
-          "md": "$\\pu{570 K}$\n",
-          "tex": "{\\(\\qty{570}{\\unit{K}}\\)}\n"
-        }
-      ],
-      "correct_choice": 4
     },
     {
       "id_": "2C19",
@@ -2338,6 +3377,66 @@
       "correct_choice": 2
     },
     {
+      "id_": "2C11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C11/2C11.md",
+      "date": "2023-01-10T20:09:32.717136",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão da combustão de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de monóxido de carbono gasoso\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão da combustão de $\\pu{1 mol}$ de monóxido de carbono gasoso\n$\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão da combustão de {\\(\\qty{1}{\\unit{mol}}\\)} de monóxido de carbono\ngasoso {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Gf(CO2,g)",
+            "name": "energia livre de Gibbs padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta G_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Gf(CO,g)",
+            "name": "energia livre de Gibbs padrão de formação do monóxido de carbono",
+            "symbol": "\\Delta G_\\mathrm{f}^{\\circ}(\\ce{CO,\\,\\text{g}})",
+            "value": -137,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-55 kJ}\\)</span>",
+          "md": "$\\pu{-55 kJ}$\n",
+          "tex": "{\\(\\qty{-55}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-92 kJ}\\)</span>",
+          "md": "$\\pu{-92 kJ}$\n",
+          "tex": "{\\(\\qty{-92}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-150 kJ}\\)</span>",
+          "md": "$\\pu{-150 kJ}$\n",
+          "tex": "{\\(\\qty{-150}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-260 kJ}\\)</span>",
+          "md": "$\\pu{-260 kJ}$\n",
+          "tex": "{\\(\\qty{-260}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-440 kJ}\\)</span>",
+          "md": "$\\pu{-440 kJ}$\n",
+          "tex": "{\\(\\qty{-440}{\\unit{kJ}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
       "id_": "2C13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C13/2C13.md",
       "date": "2023-01-10T22:42:08.217044",
@@ -2422,64 +3521,45 @@
       "correct_choice": 1
     },
     {
-      "id_": "2C11",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C11/2C11.md",
-      "date": "2023-01-10T20:09:32.717136",
+      "id_": "2C21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C21/2C21.md",
+      "date": "2023-01-11T00:05:37.704070",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão da combustão de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de monóxido de carbono gasoso\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão da combustão de $\\pu{1 mol}$ de monóxido de carbono gasoso\n$\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão da combustão de {\\(\\qty{1}{\\unit{mol}}\\)} de monóxido de carbono\ngasoso {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PCl5}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HCN}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{NO}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se menos estáveis em relação aos elementos quando a\ntemperatura aumenta.</p>",
+        "md": "Considere os compostos.\n\n1.  $\\ce{PCl5}$ gasoso.\n2.  $\\ce{HCN}$ gasoso.\n3.  $\\ce{NO}$ gasoso.\n4.  $\\ce{SO2}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\nmenos estáveis em relação aos elementos quando a temperatura aumenta.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PCl5}\\)} gasoso.\n\\item\n  {\\(\\ce{HCN}\\)} gasoso.\n\\item\n  {\\(\\ce{NO}\\)} gasoso.\n\\item\n  {\\(\\ce{SO2}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se menos estáveis em relação aos elementos quando a temperatura aumenta.\n"
       },
       "solution": null,
       "answer": null,
-      "data": {
-        "quantities": [
-          {
-            "id_": "Gf(CO2,g)",
-            "name": "energia livre de Gibbs padrão de formação do dióxido de carbono",
-            "symbol": "\\Delta G_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
-            "value": -394,
-            "unit": "kJ//mol",
-            "prec": 3
-          },
-          {
-            "id_": "Gf(CO,g)",
-            "name": "energia livre de Gibbs padrão de formação do monóxido de carbono",
-            "symbol": "\\Delta G_\\mathrm{f}^{\\circ}(\\ce{CO,\\,\\text{g}})",
-            "value": -137,
-            "unit": "kJ//mol",
-            "prec": 3
-          }
-        ]
-      },
+      "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-55 kJ}\\)</span>",
-          "md": "$\\pu{-55 kJ}$\n",
-          "tex": "{\\(\\qty{-55}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-92 kJ}\\)</span>",
-          "md": "$\\pu{-92 kJ}$\n",
-          "tex": "{\\(\\qty{-92}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-150 kJ}\\)</span>",
-          "md": "$\\pu{-150 kJ}$\n",
-          "tex": "{\\(\\qty{-150}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-260 kJ}\\)</span>",
-          "md": "$\\pu{-260 kJ}$\n",
-          "tex": "{\\(\\qty{-260}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-440 kJ}\\)</span>",
-          "md": "$\\pu{-440 kJ}$\n",
-          "tex": "{\\(\\qty{-440}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 2
     },
     {
       "id_": "2C09",
@@ -2556,47 +3636,6 @@
         }
       ],
       "correct_choice": 4
-    },
-    {
-      "id_": "2C21",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C21/2C21.md",
-      "date": "2023-01-11T00:05:37.704070",
-      "statement": {
-        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PCl5}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HCN}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{NO}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se menos estáveis em relação aos elementos quando a\ntemperatura aumenta.</p>",
-        "md": "Considere os compostos.\n\n1.  $\\ce{PCl5}$ gasoso.\n2.  $\\ce{HCN}$ gasoso.\n3.  $\\ce{NO}$ gasoso.\n4.  $\\ce{SO2}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\nmenos estáveis em relação aos elementos quando a temperatura aumenta.\n",
-        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PCl5}\\)} gasoso.\n\\item\n  {\\(\\ce{HCN}\\)} gasoso.\n\\item\n  {\\(\\ce{NO}\\)} gasoso.\n\\item\n  {\\(\\ce{SO2}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se menos estáveis em relação aos elementos quando a temperatura aumenta.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>1</strong>",
-          "md": "**1**\n",
-          "tex": "\\textbf{1}\n"
-        },
-        {
-          "html": "<strong>2</strong>",
-          "md": "**2**\n",
-          "tex": "\\textbf{2}\n"
-        },
-        {
-          "html": "<strong>1</strong> e <strong>2</strong>",
-          "md": "**1** e **2**\n",
-          "tex": "\\textbf{1} e \\textbf{2}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-          "md": "**1**, **2** e **3**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-          "md": "**1**, **2** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 2
     },
     {
       "id_": "2C05",
@@ -2977,47 +4016,6 @@
       "correct_choice": 2
     },
     {
-      "id_": "2C22",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C22/2C22.md",
-      "date": "2023-01-11T00:05:27.946550",
-      "statement": {
-        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li>Ciclopropano, <span class=\"math inline\">\\(\\ce{C3H6}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{CaO}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\ce{N2O}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HN3}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se menos estáveis em relação aos elementos quando a\ntemperatura aumenta.</p>",
-        "md": "Considere os compostos.\n\n1.  Ciclopropano, $\\ce{C3H6}$ gasoso.\n2.  $\\ce{CaO}$ sólido.\n3.  $\\ce{N2O}$ gasoso.\n4.  $\\ce{HN3}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\nmenos estáveis em relação aos elementos quando a temperatura aumenta.\n",
-        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ciclopropano, {\\(\\ce{C3H6}\\)} gasoso.\n\\item\n  {\\(\\ce{CaO}\\)} sólido.\n\\item\n  {\\(\\ce{N2O}\\)} gasoso.\n\\item\n  {\\(\\ce{HN3}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se menos estáveis em relação aos elementos quando a temperatura aumenta.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-          "md": "**1**, **2** e **3**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-          "md": "**1**, **2** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**2**, **3** e **4**\n",
-          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 4
-    },
-    {
       "id_": "2C03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C03/2C03.md",
       "date": "2023-01-10T22:41:43.199456",
@@ -3078,6 +4076,47 @@
       "correct_choice": 4
     },
     {
+      "id_": "2C22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C22/2C22.md",
+      "date": "2023-01-11T00:05:27.946550",
+      "statement": {
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li>Ciclopropano, <span class=\"math inline\">\\(\\ce{C3H6}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{CaO}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\ce{N2O}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HN3}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se menos estáveis em relação aos elementos quando a\ntemperatura aumenta.</p>",
+        "md": "Considere os compostos.\n\n1.  Ciclopropano, $\\ce{C3H6}$ gasoso.\n2.  $\\ce{CaO}$ sólido.\n3.  $\\ce{N2O}$ gasoso.\n4.  $\\ce{HN3}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\nmenos estáveis em relação aos elementos quando a temperatura aumenta.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ciclopropano, {\\(\\ce{C3H6}\\)} gasoso.\n\\item\n  {\\(\\ce{CaO}\\)} sólido.\n\\item\n  {\\(\\ce{N2O}\\)} gasoso.\n\\item\n  {\\(\\ce{HN3}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se menos estáveis em relação aos elementos quando a temperatura aumenta.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
       "id_": "2C06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C06/2C06.md",
       "date": "2023-01-11T02:58:06.219902",
@@ -3119,47 +4158,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "2C07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C07/2C07.md",
-      "date": "2023-01-11T03:05:51.187050",
-      "statement": {
-        "html": "<p>Considere diagrama de fases do hélio:</p>\n<figure>\n<img alt=\"Figura do problema 2C07.\" src=\"2C07-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2C07.</figcaption>\n</figure>\n<p>e as seguintes proposições.</p>\n<ol type=\"1\">\n<li>A temperatura máxima\nna qual o superfluido hélio-II pode existir é cerca de <span class=\"math inline\">\\(\\pu{2,4 K}\\)</span>.</li>\n<li>A pressão mínima na\nqual o hélio sólido pode existir é cerca de <span class=\"math inline\">\\(\\pu{10 atm}\\)</span>.</li>\n<li>O ponto de ebulição\nnormal do hélio-I é cerca de <span class=\"math inline\">\\(\\pu{5,5\nK}\\)</span>.</li>\n<li>O hélio sólido pode\nsublimar.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
-        "md": "Considere diagrama de fases do hélio:\n\n![Figura do problema 2C07.](2C07-1P.svg)\n\ne as seguintes proposições.\n\n1.  A temperatura máxima na qual o superfluido hélio-II pode existir é\n    cerca de $\\pu{2,4 K}$.\n2.  A pressão mínima na qual o hélio sólido pode existir é cerca de\n    $\\pu{10 atm}$.\n3.  O ponto de ebulição normal do hélio-I é cerca de $\\pu{5,5 K}$.\n4.  O hélio sólido pode sublimar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
-        "tex": "Considere diagrama de fases do hélio:\n\n\\begin{figure}\n\\centering\n\\includegraphics{2C07-1P.svg}\n\\caption{Figura do problema 2C07.}\n\\end{figure}\n\ne as seguintes proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A temperatura máxima na qual o superfluido hélio-II pode existir é cerca de {\\(\\qty{2,4}{\\unit{K}}\\)}.\n\\item\n  A pressão mínima na qual o hélio sólido pode existir é cerca de {\\(\\qty{10}{\\unit{atm}}\\)}.\n\\item\n  O ponto de ebulição normal do hélio-I é cerca de {\\(\\qty{5,5}{\\unit{K}}\\)}.\n\\item\n  O hélio sólido pode sublimar.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>1</strong> e <strong>2</strong>",
-          "md": "**1** e **2**\n",
-          "tex": "\\textbf{1} e \\textbf{2}\n"
-        },
-        {
-          "html": "<strong>1</strong> e <strong>3</strong>",
-          "md": "**1** e **3**\n",
-          "tex": "\\textbf{1} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>2</strong> e <strong>3</strong>",
-          "md": "**2** e **3**\n",
-          "tex": "\\textbf{2} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-          "md": "**1**, **2** e **3**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
       "id_": "2C02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C02/2C02.md",
       "date": "2023-01-10T20:17:50.064073",
@@ -3199,6 +4197,47 @@
         }
       ],
       "correct_choice": 1
+    },
+    {
+      "id_": "2C07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C07/2C07.md",
+      "date": "2023-01-11T03:05:51.187050",
+      "statement": {
+        "html": "<p>Considere diagrama de fases do hélio:</p>\n<figure>\n<img alt=\"Figura do problema 2C07.\" src=\"2C07-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2C07.</figcaption>\n</figure>\n<p>e as seguintes proposições.</p>\n<ol type=\"1\">\n<li>A temperatura máxima\nna qual o superfluido hélio-II pode existir é cerca de <span class=\"math inline\">\\(\\pu{2,4 K}\\)</span>.</li>\n<li>A pressão mínima na\nqual o hélio sólido pode existir é cerca de <span class=\"math inline\">\\(\\pu{10 atm}\\)</span>.</li>\n<li>O ponto de ebulição\nnormal do hélio-I é cerca de <span class=\"math inline\">\\(\\pu{5,5\nK}\\)</span>.</li>\n<li>O hélio sólido pode\nsublimar.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere diagrama de fases do hélio:\n\n![Figura do problema 2C07.](2C07-1P.svg)\n\ne as seguintes proposições.\n\n1.  A temperatura máxima na qual o superfluido hélio-II pode existir é\n    cerca de $\\pu{2,4 K}$.\n2.  A pressão mínima na qual o hélio sólido pode existir é cerca de\n    $\\pu{10 atm}$.\n3.  O ponto de ebulição normal do hélio-I é cerca de $\\pu{5,5 K}$.\n4.  O hélio sólido pode sublimar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere diagrama de fases do hélio:\n\n\\begin{figure}\n\\centering\n\\includegraphics{2C07-1P.svg}\n\\caption{Figura do problema 2C07.}\n\\end{figure}\n\ne as seguintes proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A temperatura máxima na qual o superfluido hélio-II pode existir é cerca de {\\(\\qty{2,4}{\\unit{K}}\\)}.\n\\item\n  A pressão mínima na qual o hélio sólido pode existir é cerca de {\\(\\qty{10}{\\unit{atm}}\\)}.\n\\item\n  O ponto de ebulição normal do hélio-I é cerca de {\\(\\qty{5,5}{\\unit{K}}\\)}.\n\\item\n  O hélio sólido pode sublimar.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2C18",
@@ -3334,6 +4373,47 @@
       "correct_choice": 3
     },
     {
+      "id_": "2A01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A01/2A01.md",
+      "date": "2023-01-09T16:51:49.186742",
+      "statement": {
+        "html": "<p>Considere os sistemas.</p>\n<ol type=\"1\">\n<li>Café em uma garrafa térmica de ótima qualidade.</li>\n<li>Líquido refrigerante na serpentina de uma geladeira.</li>\n<li>Um calorímetro de bomba no qual benzeno é queimado.</li>\n<li>Gasolina queimando no motor de um automóvel.</li>\n<li>Uma planta viva.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\ndos sistemas, respectivamente.</p>",
+        "md": "Considere os sistemas.\n\n1.  Café em uma garrafa térmica de ótima qualidade.\n2.  Líquido refrigerante na serpentina de uma geladeira.\n3.  Um calorímetro de bomba no qual benzeno é queimado.\n4.  Gasolina queimando no motor de um automóvel.\n5.  Uma planta viva.\n\n**Assinale** a alternativa com a classificação correta dos sistemas,\nrespectivamente.\n",
+        "tex": "Considere os sistemas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Café em uma garrafa térmica de ótima qualidade.\n\\item\n  Líquido refrigerante na serpentina de uma geladeira.\n\\item\n  Um calorímetro de bomba no qual benzeno é queimado.\n\\item\n  Gasolina queimando no motor de um automóvel.\n\\item\n  Uma planta viva.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a classificação correta dos sistemas, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Fechado; fechado; aberto;\nfechado; aberto.",
+          "md": "Fechado; fechado; aberto; fechado; aberto.\n",
+          "tex": "Fechado; fechado; aberto; fechado; aberto.\n"
+        },
+        {
+          "html": "Isolado; isolado; isolado;\naberto; fechado.",
+          "md": "Isolado; isolado; isolado; aberto; fechado.\n",
+          "tex": "Isolado; isolado; isolado; aberto; fechado.\n"
+        },
+        {
+          "html": "Isolado; fechado;\nisolado; aberto; aberto.",
+          "md": "Isolado; fechado; isolado; aberto; aberto.\n",
+          "tex": "Isolado; fechado; isolado; aberto; aberto.\n"
+        },
+        {
+          "html": "Fechado; fechado; fechado;\naberto; fechado.",
+          "md": "Fechado; fechado; fechado; aberto; fechado.\n",
+          "tex": "Fechado; fechado; fechado; aberto; fechado.\n"
+        },
+        {
+          "html": "Isolado; isolado; fechado;\nisolado; aberto.",
+          "md": "Isolado; isolado; fechado; isolado; aberto.\n",
+          "tex": "Isolado; isolado; fechado; isolado; aberto.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
       "id_": "2A20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A20/2A20.md",
       "date": "2023-01-09T18:05:49.257674",
@@ -3427,47 +4507,6 @@
       "correct_choice": 3
     },
     {
-      "id_": "2A01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A01/2A01.md",
-      "date": "2023-01-09T16:51:49.186742",
-      "statement": {
-        "html": "<p>Considere os sistemas.</p>\n<ol type=\"1\">\n<li>Café em uma garrafa térmica de ótima qualidade.</li>\n<li>Líquido refrigerante na serpentina de uma geladeira.</li>\n<li>Um calorímetro de bomba no qual benzeno é queimado.</li>\n<li>Gasolina queimando no motor de um automóvel.</li>\n<li>Uma planta viva.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\ndos sistemas, respectivamente.</p>",
-        "md": "Considere os sistemas.\n\n1.  Café em uma garrafa térmica de ótima qualidade.\n2.  Líquido refrigerante na serpentina de uma geladeira.\n3.  Um calorímetro de bomba no qual benzeno é queimado.\n4.  Gasolina queimando no motor de um automóvel.\n5.  Uma planta viva.\n\n**Assinale** a alternativa com a classificação correta dos sistemas,\nrespectivamente.\n",
-        "tex": "Considere os sistemas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Café em uma garrafa térmica de ótima qualidade.\n\\item\n  Líquido refrigerante na serpentina de uma geladeira.\n\\item\n  Um calorímetro de bomba no qual benzeno é queimado.\n\\item\n  Gasolina queimando no motor de um automóvel.\n\\item\n  Uma planta viva.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a classificação correta dos sistemas, respectivamente.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "Fechado; fechado; aberto;\nfechado; aberto.",
-          "md": "Fechado; fechado; aberto; fechado; aberto.\n",
-          "tex": "Fechado; fechado; aberto; fechado; aberto.\n"
-        },
-        {
-          "html": "Isolado; isolado; isolado;\naberto; fechado.",
-          "md": "Isolado; isolado; isolado; aberto; fechado.\n",
-          "tex": "Isolado; isolado; isolado; aberto; fechado.\n"
-        },
-        {
-          "html": "Isolado; fechado;\nisolado; aberto; aberto.",
-          "md": "Isolado; fechado; isolado; aberto; aberto.\n",
-          "tex": "Isolado; fechado; isolado; aberto; aberto.\n"
-        },
-        {
-          "html": "Fechado; fechado; fechado;\naberto; fechado.",
-          "md": "Fechado; fechado; fechado; aberto; fechado.\n",
-          "tex": "Fechado; fechado; fechado; aberto; fechado.\n"
-        },
-        {
-          "html": "Isolado; isolado; fechado;\nisolado; aberto.",
-          "md": "Isolado; isolado; fechado; isolado; aberto.\n",
-          "tex": "Isolado; isolado; fechado; isolado; aberto.\n"
-        }
-      ],
-      "correct_choice": 2
-    },
-    {
       "id_": "2A08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A08/2A08.md",
       "date": "2023-01-09T18:03:00.463220",
@@ -3509,45 +4548,34 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A10",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A10/2A10.md",
-      "date": "2023-01-09T01:45:29.841995",
+      "id_": "2A34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A34/2A34.md",
+      "date": "2023-01-08T16:11:36.181691",
       "statement": {
-        "html": "<p>Um sistema foi aquecido usando <span class=\"math inline\">\\(\\pu{300\nJ}\\)</span> de calor, mas sua energia interna caiu <span class=\"math inline\">\\(\\pu{150 J}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa correta.</p>",
-        "md": "Um sistema foi aquecido usando $\\pu{300 J}$ de calor, mas sua energia\ninterna caiu $\\pu{150 J}$.\n\n**Assinale** a alternativa correta.\n",
-        "tex": "Um sistema foi aquecido usando {\\(\\qty{300}{\\unit{J}}\\)} de calor, mas sua energia interna caiu {\\(\\qty{150}{\\unit{J}}\\)}.\n\n\\textbf{Assinale} a alternativa correta.\n"
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": [
-        {
-          "html": "O sistema realizou\n<span class=\"math inline\">\\(\\pu{150 J}\\)</span> de trabalho.",
-          "md": "O sistema realizou $\\pu{150 J}$ de trabalho.\n",
-          "tex": "O sistema realizou {\\(\\qty{150}{\\unit{J}}\\)} de trabalho.\n"
-        },
-        {
-          "html": "O sistema realizou <span class=\"math inline\">\\(\\pu{300 J}\\)</span> de trabalho.",
-          "md": "O sistema realizou $\\pu{300 J}$ de trabalho.\n",
-          "tex": "O sistema realizou {\\(\\qty{300}{\\unit{J}}\\)} de trabalho.\n"
-        },
-        {
-          "html": "O sistema realizou <span class=\"math inline\">\\(\\pu{450 J}\\)</span> de trabalho.",
-          "md": "O sistema realizou $\\pu{450 J}$ de trabalho.\n",
-          "tex": "O sistema realizou {\\(\\qty{450}{\\unit{J}}\\)} de trabalho.\n"
-        },
-        {
-          "html": "Foram realizados <span class=\"math inline\">\\(\\pu{150 J}\\)</span> de trabalho sobre o\nsistema.",
-          "md": "Foram realizados $\\pu{150 J}$ de trabalho sobre o sistema.\n",
-          "tex": "Foram realizados {\\(\\qty{150}{\\unit{J}}\\)} de trabalho sobre o sistema.\n"
-        },
-        {
-          "html": "Foram realizados <span class=\"math inline\">\\(\\pu{450 J}\\)</span> de trabalho sobre o\nsistema.",
-          "md": "Foram realizados $\\pu{450 J}$ de trabalho sobre o sistema.\n",
-          "tex": "Foram realizados {\\(\\qty{450}{\\unit{J}}\\)} de trabalho sobre o sistema.\n"
-        }
-      ],
-      "correct_choice": 0
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
+      "date": "2023-01-08T16:11:36.177693",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A14",
@@ -3597,6 +4625,47 @@
           "html": "<span class=\"math inline\">\\(\\pu{330 K}\\)</span>",
           "md": "$\\pu{330 K}$\n",
           "tex": "{\\(\\qty{330}{\\unit{K}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "2A10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A10/2A10.md",
+      "date": "2023-01-09T01:45:29.841995",
+      "statement": {
+        "html": "<p>Um sistema foi aquecido usando <span class=\"math inline\">\\(\\pu{300\nJ}\\)</span> de calor, mas sua energia interna caiu <span class=\"math inline\">\\(\\pu{150 J}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa correta.</p>",
+        "md": "Um sistema foi aquecido usando $\\pu{300 J}$ de calor, mas sua energia\ninterna caiu $\\pu{150 J}$.\n\n**Assinale** a alternativa correta.\n",
+        "tex": "Um sistema foi aquecido usando {\\(\\qty{300}{\\unit{J}}\\)} de calor, mas sua energia interna caiu {\\(\\qty{150}{\\unit{J}}\\)}.\n\n\\textbf{Assinale} a alternativa correta.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "O sistema realizou\n<span class=\"math inline\">\\(\\pu{150 J}\\)</span> de trabalho.",
+          "md": "O sistema realizou $\\pu{150 J}$ de trabalho.\n",
+          "tex": "O sistema realizou {\\(\\qty{150}{\\unit{J}}\\)} de trabalho.\n"
+        },
+        {
+          "html": "O sistema realizou <span class=\"math inline\">\\(\\pu{300 J}\\)</span> de trabalho.",
+          "md": "O sistema realizou $\\pu{300 J}$ de trabalho.\n",
+          "tex": "O sistema realizou {\\(\\qty{300}{\\unit{J}}\\)} de trabalho.\n"
+        },
+        {
+          "html": "O sistema realizou <span class=\"math inline\">\\(\\pu{450 J}\\)</span> de trabalho.",
+          "md": "O sistema realizou $\\pu{450 J}$ de trabalho.\n",
+          "tex": "O sistema realizou {\\(\\qty{450}{\\unit{J}}\\)} de trabalho.\n"
+        },
+        {
+          "html": "Foram realizados <span class=\"math inline\">\\(\\pu{150 J}\\)</span> de trabalho sobre o\nsistema.",
+          "md": "Foram realizados $\\pu{150 J}$ de trabalho sobre o sistema.\n",
+          "tex": "Foram realizados {\\(\\qty{150}{\\unit{J}}\\)} de trabalho sobre o sistema.\n"
+        },
+        {
+          "html": "Foram realizados <span class=\"math inline\">\\(\\pu{450 J}\\)</span> de trabalho sobre o\nsistema.",
+          "md": "Foram realizados $\\pu{450 J}$ de trabalho sobre o sistema.\n",
+          "tex": "Foram realizados {\\(\\qty{450}{\\unit{J}}\\)} de trabalho sobre o sistema.\n"
         }
       ],
       "correct_choice": 0
@@ -3725,36 +4794,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A34",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A34/2A34.md",
-      "date": "2023-01-08T16:11:36.181691",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A33",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
-      "date": "2023-01-08T16:11:36.177693",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A31/2A31.md",
       "date": "2023-01-09T18:07:24.776583",
@@ -3823,47 +4862,6 @@
       "correct_choice": 2
     },
     {
-      "id_": "2A02",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A02/2A02.md",
-      "date": "2023-01-08T16:21:08.208210",
-      "statement": {
-        "html": "<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A energia interna de\num sistema aberto pode ser aumentada adicionando massa ao sistema,\nrealizado trabalho sobre o sistema e transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema fechado pode ser aumentada realizado trabalho sobre o sistema\nou transferindo calor ao sistema.</li>\n<li>A energia interna de um sistema\nfechado pode ser aumentada apenas transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema isolado não pode ser alterada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\ncorretas.</p>",
-        "md": "Considere as proposições.\n\n1.  A energia interna de um sistema aberto pode ser aumentada\n    adicionando massa ao sistema, realizado trabalho sobre o sistema e\n    transferindo calor ao sistema.\n2.  A energia interna de um sistema fechado pode ser aumentada realizado\n    trabalho sobre o sistema ou transferindo calor ao sistema.\n3.  A energia interna de um sistema fechado pode ser aumentada apenas\n    transferindo calor ao sistema.\n4.  A energia interna de um sistema isolado não pode ser alterada.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
-        "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia interna de um sistema aberto pode ser aumentada adicionando massa ao sistema, realizado trabalho sobre o sistema e transferindo calor ao\n  sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada realizado trabalho sobre o sistema ou transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada apenas transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema isolado não pode ser alterada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<strong>1</strong> e <strong>2</strong>",
-          "md": "**1** e **2**\n",
-          "tex": "\\textbf{1} e \\textbf{2}\n"
-        },
-        {
-          "html": "<strong>1</strong> e <strong>4</strong>",
-          "md": "**1** e **4**\n",
-          "tex": "\\textbf{1} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong> e <strong>4</strong>",
-          "md": "**2** e **4**\n",
-          "tex": "\\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-          "md": "**1**, **2** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        }
-      ],
-      "correct_choice": 3
-    },
-    {
       "id_": "2A24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A24/2A24.md",
       "date": "2023-01-09T18:06:12.885417",
@@ -3905,42 +4903,42 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A07/2A07.md",
-      "date": "2023-01-09T18:01:53.539666",
+      "id_": "2A02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A02/2A02.md",
+      "date": "2023-01-08T16:21:08.208210",
       "statement": {
-        "html": "<p>Um calorímetro de volume constante foi calibrado com uma reação que\nlibera <span class=\"math inline\">\\(\\pu{3,5 kJ}\\)</span> de calor em\n<span class=\"math inline\">\\(\\pu{0,2 L}\\)</span> de uma solução colocada\nno calorímetro, resultando em um aumento de temperatura de <span class=\"math inline\">\\(\\pu{7 \\degree C}\\)</span>. Em um experimento\nposterior, <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span> foram misturados no mesmo\ncalorímetro e a temperatura subiu <span class=\"math inline\">\\(\\pu{2\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima a\nvariação de energia interna da mistura devido à reação de\nneutralização.</p>",
-        "md": "Um calorímetro de volume constante foi calibrado com uma reação que\nlibera $\\pu{3,5 kJ}$ de calor em $\\pu{0,2 L}$ de uma solução colocada no\ncalorímetro, resultando em um aumento de temperatura de\n$\\pu{7 \\degree C}$. Em um experimento posterior, $\\pu{100 mL}$ de uma\nsolução $\\pu{0,2 M}$ de $\\ce{KOH}$ foram misturados no mesmo calorímetro\ne a temperatura subiu $\\pu{2 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima a variação de energia\ninterna da mistura devido à reação de neutralização.\n",
-        "tex": "Um calorímetro de volume constante foi calibrado com uma reação que libera {\\(\\qty{3,5}{\\unit{kJ}}\\)} de calor em {\\(\\qty{0,2}{\\unit{L}}\\)} de uma\nsolução colocada no calorímetro, resultando em um aumento de temperatura de {\\(\\qty{7}{\\unit{\\degree C}}\\)}. Em um experimento posterior,\n{\\(\\qty{100}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{M}}\\)} de {\\(\\ce{KOH}\\)} foram misturados no mesmo calorímetro e a temperatura subiu\n{\\(\\qty{2}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima a variação de energia interna da mistura devido à reação de neutralização.\n"
+        "html": "<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A energia interna de\num sistema aberto pode ser aumentada adicionando massa ao sistema,\nrealizado trabalho sobre o sistema e transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema fechado pode ser aumentada realizado trabalho sobre o sistema\nou transferindo calor ao sistema.</li>\n<li>A energia interna de um sistema\nfechado pode ser aumentada apenas transferindo calor ao sistema.</li>\n<li>A energia interna de\num sistema isolado não pode ser alterada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\ncorretas.</p>",
+        "md": "Considere as proposições.\n\n1.  A energia interna de um sistema aberto pode ser aumentada\n    adicionando massa ao sistema, realizado trabalho sobre o sistema e\n    transferindo calor ao sistema.\n2.  A energia interna de um sistema fechado pode ser aumentada realizado\n    trabalho sobre o sistema ou transferindo calor ao sistema.\n3.  A energia interna de um sistema fechado pode ser aumentada apenas\n    transferindo calor ao sistema.\n4.  A energia interna de um sistema isolado não pode ser alterada.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
+        "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia interna de um sistema aberto pode ser aumentada adicionando massa ao sistema, realizado trabalho sobre o sistema e transferindo calor ao\n  sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada realizado trabalho sobre o sistema ou transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema fechado pode ser aumentada apenas transferindo calor ao sistema.\n\\item\n  A energia interna de um sistema isolado não pode ser alterada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-0,58 kJ}\\)</span>",
-          "md": "$\\pu{-0,58 kJ}$\n",
-          "tex": "{\\(\\qty{-0,58}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-0,69 kJ}\\)</span>",
-          "md": "$\\pu{-0,69 kJ}$\n",
-          "tex": "{\\(\\qty{-0,69}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-0,83 kJ}\\)</span>",
-          "md": "$\\pu{-0,83 kJ}$\n",
-          "tex": "{\\(\\qty{-0,83}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1 kJ}\\)</span>",
-          "md": "$\\pu{-1 kJ}$\n",
-          "tex": "{\\(\\qty{-1}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1,2 kJ}\\)</span>",
-          "md": "$\\pu{-1,2 kJ}$\n",
-          "tex": "{\\(\\qty{-1,2}{\\unit{kJ}}\\)}\n"
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
       "correct_choice": 3
@@ -3982,6 +4980,47 @@
           "html": "<span class=\"math inline\">\\(\\pu{45 kJ.mol-1}\\)</span>",
           "md": "$\\pu{45 kJ.mol-1}$\n",
           "tex": "{\\(\\qty{45}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "2A07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A07/2A07.md",
+      "date": "2023-01-09T18:01:53.539666",
+      "statement": {
+        "html": "<p>Um calorímetro de volume constante foi calibrado com uma reação que\nlibera <span class=\"math inline\">\\(\\pu{3,5 kJ}\\)</span> de calor em\n<span class=\"math inline\">\\(\\pu{0,2 L}\\)</span> de uma solução colocada\nno calorímetro, resultando em um aumento de temperatura de <span class=\"math inline\">\\(\\pu{7 \\degree C}\\)</span>. Em um experimento\nposterior, <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span> foram misturados no mesmo\ncalorímetro e a temperatura subiu <span class=\"math inline\">\\(\\pu{2\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima a\nvariação de energia interna da mistura devido à reação de\nneutralização.</p>",
+        "md": "Um calorímetro de volume constante foi calibrado com uma reação que\nlibera $\\pu{3,5 kJ}$ de calor em $\\pu{0,2 L}$ de uma solução colocada no\ncalorímetro, resultando em um aumento de temperatura de\n$\\pu{7 \\degree C}$. Em um experimento posterior, $\\pu{100 mL}$ de uma\nsolução $\\pu{0,2 M}$ de $\\ce{KOH}$ foram misturados no mesmo calorímetro\ne a temperatura subiu $\\pu{2 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima a variação de energia\ninterna da mistura devido à reação de neutralização.\n",
+        "tex": "Um calorímetro de volume constante foi calibrado com uma reação que libera {\\(\\qty{3,5}{\\unit{kJ}}\\)} de calor em {\\(\\qty{0,2}{\\unit{L}}\\)} de uma\nsolução colocada no calorímetro, resultando em um aumento de temperatura de {\\(\\qty{7}{\\unit{\\degree C}}\\)}. Em um experimento posterior,\n{\\(\\qty{100}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{M}}\\)} de {\\(\\ce{KOH}\\)} foram misturados no mesmo calorímetro e a temperatura subiu\n{\\(\\qty{2}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima a variação de energia interna da mistura devido à reação de neutralização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,58 kJ}\\)</span>",
+          "md": "$\\pu{-0,58 kJ}$\n",
+          "tex": "{\\(\\qty{-0,58}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,69 kJ}\\)</span>",
+          "md": "$\\pu{-0,69 kJ}$\n",
+          "tex": "{\\(\\qty{-0,69}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-0,83 kJ}\\)</span>",
+          "md": "$\\pu{-0,83 kJ}$\n",
+          "tex": "{\\(\\qty{-0,83}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1 kJ}\\)</span>",
+          "md": "$\\pu{-1 kJ}$\n",
+          "tex": "{\\(\\qty{-1}{\\unit{kJ}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,2 kJ}\\)</span>",
+          "md": "$\\pu{-1,2 kJ}$\n",
+          "tex": "{\\(\\qty{-1,2}{\\unit{kJ}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -4151,6 +5190,21 @@
       "correct_choice": 4
     },
     {
+      "id_": "2A35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A35/2A35.md",
+      "date": "2023-01-08T16:11:36.181691",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A13/2A13.md",
       "date": "2023-01-09T18:10:22.178248",
@@ -4242,6 +5296,66 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "2A39",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A39/2A39.md",
+      "date": "2023-01-08T16:11:36.185690",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
+      "date": "2023-01-08T16:11:36.189689",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A38",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A38/2A38.md",
+      "date": "2023-01-08T16:11:36.185690",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A37",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A37/2A37.md",
+      "date": "2023-01-08T16:11:36.185690",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A06",
@@ -4367,8 +5481,8 @@
       "correct_choice": 1
     },
     {
-      "id_": "2A35",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A35/2A35.md",
+      "id_": "2A36",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A36/2A36.md",
       "date": "2023-01-08T16:11:36.181691",
       "statement": {
         "html": "",
@@ -4442,21 +5556,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "2A39",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A39/2A39.md",
-      "date": "2023-01-08T16:11:36.185690",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A29/2A29.md",
       "date": "2023-01-09T18:07:15.524695",
@@ -4498,21 +5597,6 @@
       "correct_choice": 4
     },
     {
-      "id_": "2A40",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
-      "date": "2023-01-08T16:11:36.189689",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A09/2A09.md",
       "date": "2023-01-09T18:03:04.303191",
@@ -4552,36 +5636,6 @@
         }
       ],
       "correct_choice": 3
-    },
-    {
-      "id_": "2A38",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A38/2A38.md",
-      "date": "2023-01-08T16:11:36.185690",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A37",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A37/2A37.md",
-      "date": "2023-01-08T16:11:36.185690",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "2A12",
@@ -4705,21 +5759,6 @@
         }
       ],
       "correct_choice": 2
-    },
-    {
-      "id_": "2A36",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A36/2A36.md",
-      "date": "2023-01-08T16:11:36.181691",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "2A18",

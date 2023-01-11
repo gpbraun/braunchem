@@ -4,7 +4,7 @@
       "id_": "G",
       "name": "constante gravitacional universal",
       "symbol": "G",
-      "value": "6.67430E-11",
+      "value": "6.67E-11",
       "unit": "m3.kg-1.s-2",
       "prec": 3
     },
@@ -12,7 +12,7 @@
       "id_": "c",
       "name": "velocidade da luz no vácuo",
       "symbol": "c",
-      "value": "2.99792458E8",
+      "value": "3.00E8",
       "unit": "m.s-1",
       "prec": 3
     },
@@ -20,7 +20,7 @@
       "id_": "h",
       "name": "constante de Planck",
       "symbol": "h",
-      "value": "6.62607015E-34",
+      "value": "6.63E-34",
       "unit": "J.s",
       "prec": 3
     },
@@ -28,7 +28,7 @@
       "id_": "kB",
       "name": "constante de Boltzmann",
       "symbol": "k_\\mathrm{B}",
-      "value": "1.380649E-23",
+      "value": "1.38E-23",
       "unit": "J.K-1",
       "prec": 3
     },
@@ -36,7 +36,7 @@
       "id_": "sigma",
       "name": "constante de Stefan-Boltzmann",
       "symbol": "\\sigma",
-      "value": "5.670374419E-8",
+      "value": "5.67E-8",
       "unit": "W.m-2.K-4",
       "prec": 3
     },
@@ -44,7 +44,7 @@
       "id_": "wien",
       "name": "constante de Wien",
       "symbol": "b",
-      "value": "2.897771955",
+      "value": "2.90",
       "unit": "mm.K",
       "prec": 3
     },
@@ -52,7 +52,7 @@
       "id_": "e0",
       "name": "permissividade elétrica do vácuo",
       "symbol": "\\varepsilon_0",
-      "value": "8.8541878128E-12",
+      "value": "8.85E-12",
       "unit": "F.m-1",
       "prec": 3
     },
@@ -60,7 +60,7 @@
       "id_": "e",
       "name": "carga fundamental",
       "symbol": "e",
-      "value": "1.602176634E-19",
+      "value": "1.60E-19",
       "unit": "C",
       "prec": 3
     },
@@ -68,7 +68,7 @@
       "id_": "NA",
       "name": "constante de Avogadro",
       "symbol": "N_\\mathrm{A}",
-      "value": "6.02214076E23",
+      "value": "6.02E-23",
       "unit": "mol-1",
       "prec": 3
     },
@@ -76,7 +76,7 @@
       "id_": "R",
       "name": "constante dos gases",
       "symbol": "R",
-      "value": "8.31446261815324",
+      "value": "8.31",
       "unit": "J.K-1.mol-1",
       "prec": 3
     },
@@ -84,7 +84,7 @@
       "id_": "F",
       "name": "constate dos Faraday",
       "symbol": "F",
-      "value": "9.64853321233100184E4",
+      "value": "9.6500E4",
       "unit": "C.mol-1",
       "prec": 3
     },
@@ -92,7 +92,7 @@
       "id_": "mu",
       "name": "constante da massa atômica",
       "symbol": "m_\\mathrm{u}",
-      "value": "1.66054E-27",
+      "value": "1.67E-27",
       "unit": "kg",
       "prec": 3
     },
@@ -100,7 +100,7 @@
       "id_": "me",
       "name": "massa do elétron",
       "symbol": "m_\\mathrm{e}",
-      "value": "9.1093837015E-31",
+      "value": "9.10E-31",
       "unit": "kg",
       "prec": 3
     },
@@ -108,7 +108,7 @@
       "id_": "mp",
       "name": "massa do próton",
       "symbol": "m_\\mathrm{p}",
-      "value": "1.67262192369E-27",
+      "value": "1.67E-27",
       "unit": "kg",
       "prec": 3
     },
@@ -116,7 +116,7 @@
       "id_": "mn",
       "name": "massa do nêutron",
       "symbol": "m_\\mathrm{n}",
-      "value": "1.67492749804E-27",
+      "value": "1.67E-27",
       "unit": "kg",
       "prec": 3
     },
@@ -124,7 +124,7 @@
       "id_": "muB",
       "name": "magneton de Bohr",
       "symbol": "\\mu_\\mathrm{B}",
-      "value": "9.2740100783E-24",
+      "value": "9.30E-24",
       "unit": "J.T-1",
       "prec": 3
     },
@@ -132,7 +132,7 @@
       "id_": "rB",
       "name": "raio de Bohr",
       "symbol": "a_0",
-      "value": "5.29177210903E-11",
+      "value": "5.29E-11",
       "unit": "m",
       "prec": 3
     },
@@ -140,7 +140,7 @@
       "id_": "Rydberg",
       "name": "constante de Rydberg",
       "symbol": "\\mathcal{R}_\\infty",
-      "value": "1.0973731568160E7",
+      "value": "1.10E7",
       "unit": "m-1",
       "prec": 3
     },
@@ -148,7 +148,7 @@
       "id_": "atm",
       "name": "atmosfera padrão",
       "symbol": "1\\,\\mathrm{atm}",
-      "value": "1.01325E5",
+      "value": "1.01E5",
       "unit": "Pa",
       "prec": 3
     },
@@ -156,7 +156,7 @@
       "id_": "g",
       "name": "aceleração da gravidade padrão",
       "symbol": "g",
-      "value": "9.80665",
+      "value": "9.80",
       "unit": "m.s-2",
       "prec": 3
     },

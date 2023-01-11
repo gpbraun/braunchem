@@ -1042,7 +1042,7 @@
         after-item-skip = 2\itemsep,
         label-width = 1em,
         label-align = right,
-        label-offset = 0.7em,
+        label-offset = 1em,
     ] 
     { choices } [\item ]
 

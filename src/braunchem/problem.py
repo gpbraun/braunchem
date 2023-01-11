@@ -99,9 +99,11 @@ class Problem(BaseModel):
 
         metadata, content = frontmatter.parse(problem_path.read_text())
 
+        problem_id = problem_path.stem
+
         # informações básicas
         problem = {
-            "id_": problem_path.stem,
+            "id_": problem_id,
             "path": problem_path.resolve(),
             "date": datetime.utcfromtimestamp(problem_path.stat().st_mtime),
         }
@@ -121,6 +123,8 @@ class Problem(BaseModel):
         choice_list = soup.find("ul", {"class": "task-list"})
         if choice_list:
             choices = []
+            correct_choice = None
+
             choice_list_items = choice_list.find_all("li")
 
             if len(choice_list_items) == 1:
@@ -129,7 +133,7 @@ class Problem(BaseModel):
                 check_box = li.find("input").extract()
                 equation = li.find("span").extract()
                 choices, correct_choice = numerical_choices(
-                    equation.contents[0], seed=problem["id_"]
+                    equation.contents[0], seed=problem_id
                 )
                 problem["choices"] = choices
                 problem["correct_choice"] = correct_choice
@@ -141,9 +145,16 @@ class Problem(BaseModel):
                     choice = Text.parse_html("".join(str(x) for x in li.contents))
                     choices.append(choice)
                     if check_box.has_attr("checked"):
-                        problem["correct_choice"] = index
+                        correct_choice = index
+                        problem["correct_choice"] = correct_choice
                 problem["choices"] = choices
                 choice_list.decompose()
+
+                # TODO: mudar isso aqui, a validação pode ser feita automaticamente pelo pydantic!!!
+                if correct_choice is None:
+                    raise ValueError(
+                        f"O problema de múltipla escolha {problem_id} não possui resposta correta!"
+                    )
 
             if solution:
                 problem["solution"] = Text.parse_html(solution.extract())
