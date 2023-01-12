@@ -19,8 +19,15 @@
 		"scope": "markdown",
 		"prefix": "assinale",
 		"body": [
-			"**Assinale** a alternativa que mais se aproxima $1\n",
-			"- [x] \\$\\pu{$2}\\$\n"
+			"**Assinale** a alternativa que mais se aproxima $1",
+		],
+		"description": "Inserir comando de assinalar."
+	},
+	"Assinale as corretas": {
+		"scope": "markdown",
+		"prefix": "corretas",
+		"body": [
+			"**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
 		],
 		"description": "Inserir comando de assinalar."
 	},

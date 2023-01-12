@@ -6,14 +6,40 @@
     {
       "id_": "1B25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B25/1B25.md",
-      "date": "2023-01-12T18:39:23.661967",
+      "date": "2023-01-12T21:54:30.692644",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Magnésio</li>\n<li>Alumínio</li>\n<li>Bismuto</li>\n<li>Arsênio</li>\n<li>Cobre</li>\n</ol>",
+        "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Magnésio\nb.  Alumínio\nc.  Bismuto\nd.  Arsênio\ne.  Cobre\n",
+        "tex": "\\textbf{Apresente} a configuração eletrônica do estado fundamental e os números quânticos do orbital atômico mais energético para cada um dos átomos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  Magnésio\n\\item\n  Alumínio\n\\item\n  Bismuto\n\\item\n  Arsênio\n\\item\n  Cobre\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\, 3s^2$, $n=3$, $l=0$, $m=0$.",
+          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\), \\(n=3\\), \\(l=0\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\, 3p^1\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\, 3s^2\\, 3p^1$, $n=3$, $l=1$, $m=-1$.",
+          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\, 3p^1\\), \\(n=3\\), \\(l=1\\), \\(m=-1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^{10}\\,\n6p^3\\)</span>, <span class=\"math inline\">\\(n=6\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^{10}\\, 6p^3$, $n=6$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^{10}\\, 6p^3\\), \\(n=6\\), \\(l=1\\), \\(m=+1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^3\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^3$, $n=4$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^3\\), \\(n=4\\), \\(l=1\\), \\(m=+1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^1\\, 3d^{10}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^1\\, 3d^{10}$, $n=3$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^1\\, 3d^{10}\\), \\(n=3\\), \\(l=2\\), \\(m=+2\\).\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -62,11 +88,11 @@
     {
       "id_": "1B22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B22/1B22.md",
-      "date": "2023-01-12T19:42:21.919319",
+      "date": "2023-01-12T22:25:54.371702",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa com o conjunto de quatro\nnúmeros quânticos <span class=\"math inline\">\\(\\{ n, l, m_l, m_s\n\\}\\)</span> permitidos para um orbital atômico.</p>",
-        "md": "**Assinale** a alternativa com o conjunto de quatro números quânticos\n$\\{ n, l, m_l, m_s \\}$ permitidos para um orbital atômico.\n",
-        "tex": "\\textbf{Assinale} a alternativa com o conjunto de quatro números quânticos {\\(\\{ n, l, m_l, m_s \\}\\)} permitidos para um orbital atômico.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa com o conjunto de números\nquânticos <span class=\"math inline\">\\(\\{ n, l, m_l, m_s \\}\\)</span>\npermitidos para um orbital atômico.</p>",
+        "md": "**Assinale** a alternativa com o conjunto de números quânticos\n$\\{ n, l, m_l, m_s \\}$ permitidos para um orbital atômico.\n",
+        "tex": "\\textbf{Assinale} a alternativa com o conjunto de números quânticos {\\(\\{ n, l, m_l, m_s \\}\\)} permitidos para um orbital atômico.\n"
       },
       "solution": null,
       "answer": null,
@@ -306,16 +332,83 @@
       "correct_choice": 4
     },
     {
-      "id_": "1B26",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B26/1B26.md",
-      "date": "2023-01-12T18:39:23.665967",
+      "id_": "1B30",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B30/1B30.md",
+      "date": "2023-01-12T22:07:05.892030",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as proposições para átomos de carbono no estado\nfundamental.</p>\n<ol type=\"1\">\n<li>A carga nuclear\nefetiva, <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span>, de um\nelétron em um orbital <span class=\"math inline\">\\(1s\\)</span> é igual à\n<span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span> de um elétron em um\norbital <span class=\"math inline\">\\(2s\\)</span>.</li>\n<li>Um elétron em um\norbital <span class=\"math inline\">\\(2s\\)</span> tem a mesma energia que\num elétron em um orbital <span class=\"math inline\">\\(2p\\)</span>.</li>\n<li>Os elétrons nos\norbitais <span class=\"math inline\">\\(2p\\)</span> têm números quânticos\n<span class=\"math inline\">\\(m_s\\)</span> com spins de sinais\ncontrários.</li>\n<li>Os elétrons no\norbital <span class=\"math inline\">\\(2s\\)</span> têm o mesmo valor do\nnúmero quântico <span class=\"math inline\">\\(m_s\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>incorretas</em>.</p>",
+        "md": "Considere as proposições para átomos de carbono no estado fundamental.\n\n1.  A carga nuclear efetiva, $Z_\\mathrm{ef}$, de um elétron em um\n    orbital $1s$ é igual à $Z_\\mathrm{ef}$ de um elétron em um orbital\n    $2s$.\n2.  Um elétron em um orbital $2s$ tem a mesma energia que um elétron em\n    um orbital $2p$.\n3.  Os elétrons nos orbitais $2p$ têm números quânticos $m_s$ com spins\n    de sinais contrários.\n4.  Os elétrons no orbital $2s$ têm o mesmo valor do número quântico\n    $m_s$.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+        "tex": "Considere as proposições para átomos de carbono no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A carga nuclear efetiva, {\\(Z_\\mathrm{ef}\\)}, de um elétron em um orbital {\\(1s\\)} é igual à {\\(Z_\\mathrm{ef}\\)} de um elétron em um orbital\n  {\\(2s\\)}.\n\\item\n  Um elétron em um orbital {\\(2s\\)} tem a mesma energia que um elétron em um orbital {\\(2p\\)}.\n\\item\n  Os elétrons nos orbitais {\\(2p\\)} têm números quânticos {\\(m_s\\)} com spins de sinais contrários.\n\\item\n  Os elétrons no orbital {\\(2s\\)} têm o mesmo valor do número quântico {\\(m_s\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{incorretas}.\n"
       },
       "solution": null,
       "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1B26",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B26/1B26.md",
+      "date": "2023-01-12T21:47:27.147565",
+      "statement": {
+        "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Silício</li>\n<li>Cloro</li>\n<li>Rubídio</li>\n<li>Titânio</li>\n<li>Cromo</li>\n</ol>",
+        "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Silício\nb.  Cloro\nc.  Rubídio\nd.  Titânio\ne.  Cromo\n",
+        "tex": "\\textbf{Apresente} a configuração eletrônica do estado fundamental e os números quânticos do orbital atômico mais energético para cada um dos átomos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  Silício\n\\item\n  Cloro\n\\item\n  Rubídio\n\\item\n  Titânio\n\\item\n  Cromo\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\, 3p^2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\, 3s^2\\, 3p^2$, $n=3$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\, 3p^2\\), \\(n=3\\), \\(l=1\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\, 3p^5\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\, 3s^2\\, 3p^5$, $n=3$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\, 3p^5\\), \\(n=3\\), \\(l=1\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^1\\)</span>, <span\nclass=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\, 5s^1$, $n=5$, $l=0$, $m=0$.",
+          "tex": "\\(\\ce{[Kr]}\\, 5s^1\\), \\(n=5\\), \\(l=0\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^2$, $n=3$, $l=2$, $m=-1$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^2\\), \\(n=3\\), \\(l=2\\), \\(m=-1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^1\\, 3d^5\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^1\\, 3d^5$, $n=3$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^1\\, 3d^5\\), \\(n=3\\), \\(l=2\\), \\(m=+2\\).\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -446,11 +539,11 @@
     {
       "id_": "1B21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B21/1B21.md",
-      "date": "2023-01-12T19:41:26.758473",
+      "date": "2023-01-12T22:25:49.755802",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa com o conjunto de quatro\nnúmeros quânticos <span class=\"math inline\">\\(\\{ n, l, m_l, m_s\n\\}\\)</span> permitidos para um orbital atômico.</p>",
-        "md": "**Assinale** a alternativa com o conjunto de quatro números quânticos\n$\\{ n, l, m_l, m_s \\}$ permitidos para um orbital atômico.\n",
-        "tex": "\\textbf{Assinale} a alternativa com o conjunto de quatro números quânticos {\\(\\{ n, l, m_l, m_s \\}\\)} permitidos para um orbital atômico.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa com o conjunto de números\nquânticos <span class=\"math inline\">\\(\\{ n, l, m_l, m_s \\}\\)</span>\npermitidos para um orbital atômico.</p>",
+        "md": "**Assinale** a alternativa com o conjunto de números quânticos\n$\\{ n, l, m_l, m_s \\}$ permitidos para um orbital atômico.\n",
+        "tex": "\\textbf{Assinale} a alternativa com o conjunto de números quânticos {\\(\\{ n, l, m_l, m_s \\}\\)} permitidos para um orbital atômico.\n"
       },
       "solution": null,
       "answer": null,
@@ -483,6 +576,47 @@
         }
       ],
       "correct_choice": 4
+    },
+    {
+      "id_": "1B28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B28/1B28.md",
+      "date": "2023-01-12T21:58:30.171036",
+      "statement": {
+        "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Gálio</li>\n<li>Tungstênio</li>\n<li>Iodo</li>\n<li>Germânio</li>\n<li>Molibdênio</li>\n</ol>",
+        "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Gálio\nb.  Tungstênio\nc.  Iodo\nd.  Germânio\ne.  Molibdênio\n",
+        "tex": "\\textbf{Apresente} a configuração eletrônica do estado fundamental e os números quânticos do orbital atômico mais energético para cada um dos átomos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  Gálio\n\\item\n  Tungstênio\n\\item\n  Iodo\n\\item\n  Germânio\n\\item\n  Molibdênio\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^1\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^1$, $n=4$, $l=1$, $m=-1$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^1\\), \\(n=4\\), \\(l=1\\), \\(m=-1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\,\n5d^4\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^4$, $n=5$, $l=2$, $m=+1$.",
+          "tex": "\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^4\\), \\(n=5\\), \\(l=2\\), \\(m=+1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\,\n5p^5\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^5$, $n=5$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^5\\), \\(n=5\\), \\(l=1\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^2\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^2$, $n=4$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^2\\), \\(n=4\\), \\(l=1\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{5}\\)</span>, <span\nclass=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\, 5s^1\\, 4d^{5}$, $n=4$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{5}\\), \\(n=4\\), \\(l=2\\), \\(m=+2\\).\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "1B12",
@@ -528,11 +662,11 @@
     {
       "id_": "1B19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B19/1B19.md",
-      "date": "2023-01-12T20:25:54.248674",
+      "date": "2023-01-12T21:21:24.324223",
       "statement": {
-        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\downarrow}\\boxed{\\phantom{\\uparrow\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\downarrow\\phantom{\\uparrow}}\\boxed{\\uparrow\\phantom{\\downarrow}}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\phantom{\\downarrow}}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\downarrow}\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\uparrow\\phantom{\\downarrow}}}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
-        "md": "Considere as configurações eletrônicas.\n\n1.  $\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\downarrow}\\boxed{\\phantom{\\uparrow\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}}$\n2.  $\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\downarrow\\phantom{\\uparrow}}\\boxed{\\uparrow\\phantom{\\downarrow}}}$\n3.  $\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\phantom{\\downarrow}}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}}$\n4.  $\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\downarrow}\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\uparrow\\phantom{\\downarrow}}}$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
-        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\downarrow}\\boxed{\\phantom{\\uparrow\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}}\\)}\n\\item\n  {\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\downarrow\\phantom{\\uparrow}}\\boxed{\\uparrow\\phantom{\\downarrow}}}\\)}\n\\item\n  {\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\phantom{\\downarrow}}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}\\boxed{\\phantom{\\uparrow\\downarrow}}}\\)}\n\\item\n  {\\(\\underset{1s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2s}{\\boxed{\\uparrow\\downarrow}}\\;\\;\\underset{2p}{\\boxed{\\uparrow\\downarrow}\\boxed{\\uparrow\\phantom{\\downarrow}}\\boxed{\\uparrow\\phantom{\\downarrow}}}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
+        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow\n\\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow\n\\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
+        "md": "Considere as configurações eletrônicas.\n\n1.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n3.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n4.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
+        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
       },
       "solution": null,
       "answer": null,
@@ -690,6 +824,88 @@
       "correct_choice": 1
     },
     {
+      "id_": "1B27",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B27/1B27.md",
+      "date": "2023-01-12T21:51:00.815433",
+      "statement": {
+        "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Európio</li>\n<li>Criptônio</li>\n<li>Berílio</li>\n<li>Antimônio</li>\n<li>Prata</li>\n</ol>",
+        "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Európio\nb.  Criptônio\nc.  Berílio\nd.  Antimônio\ne.  Prata\n",
+        "tex": "\\textbf{Apresente} a configuração eletrônica do estado fundamental e os números quânticos do orbital atômico mais energético para cada um dos átomos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  Európio\n\\item\n  Criptônio\n\\item\n  Berílio\n\\item\n  Antimônio\n\\item\n  Prata\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\, 6s^2\\, 4f^7\\)</span>, <span\nclass=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=3\\)</span>, <span\nclass=\"math inline\">\\(m=+3\\)</span>.</p>\n",
+          "md": "$\\ce{[Xe]}\\, 6s^2\\, 4f^7$, $n=4$, $l=3$, $m=+3$.",
+          "tex": "\\(\\ce{[Xe]}\\, 6s^2\\, 4f^7\\), \\(n=4\\), \\(l=3\\), \\(m=+3\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^6\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^6$, $n=4$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^6\\), \\(n=4\\), \\(l=1\\), \\(m=+1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[He]}\\, 2s^2\\)</span>, <span\nclass=\"math inline\">\\(n=2\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[He]}\\, 2s^2$, $n=2$, $l=0$, $m=0$.",
+          "tex": "\\(\\ce{[He]}\\, 2s^2\\), \\(n=2\\), \\(l=0\\), \\(m=0\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\,\n5p^3\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^3$, $n=5$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^3\\), \\(n=5\\), \\(l=1\\), \\(m=+1\\).\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{10}\\)</span>,\n<span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\, 5s^1\\, 4d^{10}$, $n=4$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{10}\\), \\(n=4\\), \\(l=2\\), \\(m=+2\\).\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "1B33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B33/1B33.md",
+      "date": "2023-01-12T22:21:22.741323",
+      "statement": {
+        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^1\\)</span></li>\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^3\\)</span></li>\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^4\\)</span></li>\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^5\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com as configurações que\npodem representar estados excitados de átomos neutros.</p>",
+        "md": "Considere as configurações eletrônicas.\n\n1.  $1s^2\\, 2s^2\\, 2p^1$\n2.  $1s^2\\, 2s^2\\, 2p^3$\n3.  $1s^2\\, 2s^2\\, 2p^4$\n4.  $1s^2\\, 2s^2\\, 2p^5$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
+        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^1\\)}\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^3\\)}\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^4\\)}\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^5\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem representar estados excitados de átomos neutros.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
       "id_": "1B07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B07/1B07.md",
       "date": "2023-01-12T20:22:37.017279",
@@ -772,6 +988,78 @@
       "correct_choice": 2
     },
     {
+      "id_": "1B34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B34/1B34.md",
+      "date": "2023-01-12T22:34:26.606943",
+      "statement": {
+        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^1\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^5\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^8\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com as configurações que\npodem representar estados excitados de átomos neutros.</p>",
+        "md": "Considere as configurações eletrônicas.\n\n1.  $\\ce{[Ar]}\\, 4s^2\\, 3d^1$\n2.  $\\ce{[Ar]}\\, 4s^2\\, 3d^5$\n3.  $\\ce{[Ar]}\\, 4s^2\\, 3d^8$\n4.  $\\ce{[Ar]}\\, 4s^2\\, 3d^{10}$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
+        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^1\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^5\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^8\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem representar estados excitados de átomos neutros.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1B31",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B31/1B31.md",
+      "date": "2023-01-12T22:23:59.254145",
+      "statement": {
+        "html": "<p>No cromo e no cobre, ocorrem anomalias aparentes no preenchimento dos\norbitais. Nesses elementos, um elétron que deveria ocupar um orbital\n<span class=\"math inline\">\\(s\\)</span> ocupa um orbital <span class=\"math inline\">\\(d\\)</span>. Anomalias semelhantes ocorrem nos\nelementos <span class=\"math inline\">\\(\\ce{Mo}\\)</span>, <span class=\"math inline\">\\(\\ce{Pd}\\)</span>, <span class=\"math inline\">\\(\\ce{Ag}\\)</span> e <span class=\"math inline\">\\(\\ce{Au}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Explique</strong> a origem dessas anomalias.</li>\n<li><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental do <span class=\"math inline\">\\(\\ce{Cr}\\)</span>, <span class=\"math inline\">\\(\\ce{Cu}\\)</span>, <span class=\"math inline\">\\(\\ce{Mo}\\)</span>, <span class=\"math inline\">\\(\\ce{Pd}\\)</span>, <span class=\"math inline\">\\(\\ce{Ag}\\)</span> e <span class=\"math inline\">\\(\\ce{Au}\\)</span></li>\n<li><strong>Explique</strong> por que não existem elementos cujos\nelétrons preenchem orbitais <span class=\"math inline\">\\((n+1)s\\)</span>\nem vez de orbitais <span class=\"math inline\">\\(np\\)</span>.</li>\n</ol>",
+        "md": "No cromo e no cobre, ocorrem anomalias aparentes no preenchimento dos\norbitais. Nesses elementos, um elétron que deveria ocupar um orbital $s$\nocupa um orbital $d$. Anomalias semelhantes ocorrem nos elementos\n$\\ce{Mo}$, $\\ce{Pd}$, $\\ce{Ag}$ e $\\ce{Au}$.\n\na.  **Explique** a origem dessas anomalias.\nb.  **Apresente** a configuração eletrônica do estado fundamental do\n    $\\ce{Cr}$, $\\ce{Cu}$, $\\ce{Mo}$, $\\ce{Pd}$, $\\ce{Ag}$ e $\\ce{Au}$\nc.  **Explique** por que não existem elementos cujos elétrons preenchem\n    orbitais $(n+1)s$ em vez de orbitais $np$.\n",
+        "tex": "No cromo e no cobre, ocorrem anomalias aparentes no preenchimento dos orbitais. Nesses elementos, um elétron que deveria ocupar um orbital {\\(s\\)}\nocupa um orbital {\\(d\\)}. Anomalias semelhantes ocorrem nos elementos {\\(\\ce{Mo}\\)}, {\\(\\ce{Pd}\\)}, {\\(\\ce{Ag}\\)} e {\\(\\ce{Au}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Explique} a origem dessas anomalias.\n\\item\n  \\textbf{Apresente} a configuração eletrônica do estado fundamental do {\\(\\ce{Cr}\\)}, {\\(\\ce{Cu}\\)}, {\\(\\ce{Mo}\\)}, {\\(\\ce{Pd}\\)}, {\\(\\ce{Ag}\\)} e\n  {\\(\\ce{Au}\\)}\n\\item\n  \\textbf{Explique} por que não existem elementos cujos elétrons preenchem orbitais {\\((n+1)s\\)} em vez de orbitais {\\(np\\)}.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p>No cobre, as condições são energeticamente favoráveis para que um\nelétron seja promovido do orbital <span\nclass=\"math inline\">\\(4s\\)</span> para um orbital <span\nclass=\"math inline\">\\(3d\\)</span>, gerando uma camada <span\nclass=\"math inline\">\\(3d\\)</span> totalmente preenchida. No caso do\ncrono, as condições energeticamente favoráveis para que um elétron seja\npromovido do orbital <span class=\"math inline\">\\(4s\\)</span> promovido\ndo orbital <span class=\"math inline\">\\(4s\\)</span> para um orbital <span\nclass=\"math inline\">\\(3d\\)</span>, gerando uma camada <span\nclass=\"math inline\">\\(3d\\)</span> semi-preenchida.</p>\n",
+          "md": "No cobre, as condições são energeticamente favoráveis para que um elétron seja promovido do orbital $4s$ para um orbital $3d$, gerando uma camada $3d$ totalmente preenchida. No caso do crono, as condições energeticamente favoráveis para que um elétron seja promovido do orbital $4s$ promovido do orbital $4s$ para um orbital $3d$, gerando uma camada $3d$ semi-preenchida.",
+          "tex": "No cobre, as condições são energeticamente favoráveis para que um elétron seja promovido do orbital \\(4s\\) para um orbital \\(3d\\), gerando uma camada\n\\(3d\\) totalmente preenchida. No caso do crono, as condições energeticamente favoráveis para que um elétron seja promovido do orbital \\(4s\\) promovido\ndo orbital \\(4s\\) para um orbital \\(3d\\), gerando uma camada \\(3d\\) semi-preenchida.\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{Cr}\\,\\ce{[Ar]}\\,4s^1\\,3d^5\\)</span>,\n<span class=\"math inline\">\\(\\ce{Cu}\\,\\ce{[Ar]}\\,4s^1\\,3d^{10}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Mo}\\,\\ce{[Kr]}\\,5s^1\\,4d^5\\)</span>,\n<span class=\"math inline\">\\(\\ce{Pd}\\,\\ce{[Kr]}\\,4d^{10}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Ag}\\,\\ce{[Kr]}\\,5s^1\\,4d^{10}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Au}\\,\\ce{[Xe]}\\,6s^1\\,4f^{14}\\,5d^{10}\\)</span></p>\n",
+          "md": "$\\ce{Cr}\\,\\ce{[Ar]}\\,4s^1\\,3d^5$, $\\ce{Cu}\\,\\ce{[Ar]}\\,4s^1\\,3d^{10}$, $\\ce{Mo}\\,\\ce{[Kr]}\\,5s^1\\,4d^5$, $\\ce{Pd}\\,\\ce{[Kr]}\\,4d^{10}$, $\\ce{Ag}\\,\\ce{[Kr]}\\,5s^1\\,4d^{10}$, $\\ce{Au}\\,\\ce{[Xe]}\\,6s^1\\,4f^{14}\\,5d^{10}$",
+          "tex": "\\(\\ce{Cr}\\,\\ce{[Ar]}\\,4s^1\\,3d^5\\), \\(\\ce{Cu}\\,\\ce{[Ar]}\\,4s^1\\,3d^{10}\\), \\(\\ce{Mo}\\,\\ce{[Kr]}\\,5s^1\\,4d^5\\), \\(\\ce{Pd}\\,\\ce{[Kr]}\\,4d^{10}\\),\n\\(\\ce{Ag}\\,\\ce{[Kr]}\\,5s^1\\,4d^{10}\\), \\(\\ce{Au}\\,\\ce{[Xe]}\\,6s^1\\,4f^{14}\\,5d^{10}\\)\n"
+        },
+        {
+          "html": "<p>Os orbitais <span class=\"math inline\">\\(np\\)</span> têm energia muito\nmenor do que os orbitais <span\nclass=\"math inline\">\\((n+1)s\\)</span>.</p>\n",
+          "md": "Os orbitais $np$ têm energia muito menor do que os orbitais $(n+1)s$.",
+          "tex": "Os orbitais \\(np\\) têm energia muito menor do que os orbitais \\((n+1)s\\).\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "1B14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B14/1B14.md",
       "date": "2023-01-12T19:10:59.251741",
@@ -811,6 +1099,47 @@
         }
       ],
       "correct_choice": 3
+    },
+    {
+      "id_": "1B29",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B29/1B29.md",
+      "date": "2023-01-12T22:03:13.066553",
+      "statement": {
+        "html": "<p>Considere as proposições para os átomos com muitos elétrons.</p>\n<ol type=\"1\">\n<li>A carga nuclear efetiva, <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span>, é independente do número\nde elétrons presentes em um átomo.</li>\n<li>Os elétrons de um\norbital <span class=\"math inline\">\\(s\\)</span> blindam mais efetivamente\nda carga nuclear do núcleo os elétrons de outros orbitais porque um\nelétron em um orbital <span class=\"math inline\">\\(s\\)</span> pode\npenetrar o núcleo de um átomo.</li>\n<li>Elétrons com <span class=\"math inline\">\\(l = 2\\)</span> são mais efetivos na blindagem do\nque elétrons com <span class=\"math inline\">\\(l = 1\\)</span>.</li>\n<li>A <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span> de um elétron em um orbital\n<span class=\"math inline\">\\(p\\)</span> é menor do que o de um elétron em\num orbital <span class=\"math inline\">\\(s\\)</span> da mesma camada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as proposições para os átomos com muitos elétrons.\n\n1.  A carga nuclear efetiva, $Z_\\mathrm{ef}$, é independente do número\n    de elétrons presentes em um átomo.\n2.  Os elétrons de um orbital $s$ blindam mais efetivamente da carga\n    nuclear do núcleo os elétrons de outros orbitais porque um elétron\n    em um orbital $s$ pode penetrar o núcleo de um átomo.\n3.  Elétrons com $l = 2$ são mais efetivos na blindagem do que elétrons\n    com $l = 1$.\n4.  A $Z_\\mathrm{ef}$ de um elétron em um orbital $p$ é menor do que o\n    de um elétron em um orbital $s$ da mesma camada.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere as proposições para os átomos com muitos elétrons.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A carga nuclear efetiva, {\\(Z_\\mathrm{ef}\\)}, é independente do número de elétrons presentes em um átomo.\n\\item\n  Os elétrons de um orbital {\\(s\\)} blindam mais efetivamente da carga nuclear do núcleo os elétrons de outros orbitais porque um elétron em um\n  orbital {\\(s\\)} pode penetrar o núcleo de um átomo.\n\\item\n  Elétrons com {\\(l = 2\\)} são mais efetivos na blindagem do que elétrons com {\\(l = 1\\)}.\n\\item\n  A {\\(Z_\\mathrm{ef}\\)} de um elétron em um orbital {\\(p\\)} é menor do que o de um elétron em um orbital {\\(s\\)} da mesma camada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "1B13",
@@ -856,11 +1185,11 @@
     {
       "id_": "1B20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B20/1B20.md",
-      "date": "2023-01-12T20:20:59.883212",
+      "date": "2023-01-12T21:21:53.648056",
       "statement": {
-        "html": "<p>Considere as configurações eletrônicas da camada de valência.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{\n\\downarrow \\phantom{\\uparrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\boxed{\n\\phantom{\\downarrow \\uparrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow\n\\phantom{\\downarrow} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow\n\\phantom{\\downarrow} }\\boxed{ \\uparrow \\phantom{\\downarrow} } \\boxed{\n\\uparrow \\phantom{\\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{\n\\uparrow \\phantom{\\downarrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
-        "md": "Considere as configurações eletrônicas da camada de valência.\n\n1.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{ \\downarrow \\phantom{\\uparrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\boxed{ \\phantom{\\downarrow \\uparrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n3.  $\\underset{4s}{ \\boxed{ \\uparrow \\phantom{\\downarrow} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{ \\uparrow \\phantom{\\downarrow} } \\boxed{ \\uparrow \\phantom{\\downarrow} } }$\n4.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{ \\uparrow \\phantom{\\downarrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
-        "tex": "Considere as configurações eletrônicas da camada de valência.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{ \\downarrow \\phantom{\\uparrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\boxed{ \\phantom{\\downarrow \\uparrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\phantom{\\downarrow} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{ \\uparrow \\phantom{\\downarrow} } \\boxed{ \\uparrow \\phantom{\\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\phantom{\\downarrow} }\\boxed{ \\uparrow \\phantom{\\downarrow} } \\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
+        "html": "<p>Considere as configurações eletrônicas da camada de valência.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{\n\\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow\n\\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\hspace{5pt} } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\uparrow \\hspace{5pt} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
+        "md": "Considere as configurações eletrônicas da camada de valência.\n\n1.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n3.  $\\underset{4s}{ \\boxed{ \\uparrow \\hspace{5pt} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n4.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
+        "tex": "Considere as configurações eletrônicas da camada de valência.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\hspace{5pt} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
       },
       "solution": null,
       "answer": null,
@@ -1016,6 +1345,27 @@
         }
       ],
       "correct_choice": 3
+    },
+    {
+      "id_": "1B32",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B32/1B32.md",
+      "date": "2023-01-12T22:32:08.253395",
+      "statement": {
+        "html": "<p>No bloco <span class=\"math inline\">\\(f\\)</span>, exitem numerosas\nexceções no preenchimento regular previsto pelo princípio de\nconstrução.</p>\n<p><strong>Explique</strong> por que tantas exceções são observadas\nnesses elementos.</p>",
+        "md": "No bloco $f$, exitem numerosas exceções no preenchimento regular\nprevisto pelo princípio de construção.\n\n**Explique** por que tantas exceções são observadas nesses elementos.\n",
+        "tex": "No bloco {\\(f\\)}, exitem numerosas exceções no preenchimento regular previsto pelo princípio de construção.\n\n\\textbf{Explique} por que tantas exceções são observadas nesses elementos.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p>No geral, quando o número quântico principal aumenta, a diferença de\nenergia entre os orbitais fica cada vez menor. Essa tendência indica que\nnão é necessária uma grande quantidade de energia para rearranjar a\nestrutura eletrônica.</p>\n",
+          "md": "No geral, quando o número quântico principal aumenta, a diferença de energia entre os orbitais fica cada vez menor. Essa tendência indica que não é necessária uma grande quantidade de energia para rearranjar a estrutura eletrônica.",
+          "tex": "No geral, quando o número quântico principal aumenta, a diferença de energia entre os orbitais fica cada vez menor. Essa tendência indica que não é\nnecessária uma grande quantidade de energia para rearranjar a estrutura eletrônica.\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "1A26",

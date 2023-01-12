@@ -79,7 +79,7 @@ class Problem(BaseModel):
         if len(self.answer) == 1:
             return self.answer[0].tex
 
-        return latex.enum("enumerate", [answer.tex for answer in self.answer])
+        return latex.enum("answers", [answer.tex for answer in self.answer])
 
     def tex(self):
         """Retorna o enunciado completo do problema em LaTeX."""
@@ -282,9 +282,9 @@ class ProblemSet(BaseModel):
         answers = [p.tex_answer() for p in self.problems]
 
         if self.is_objective:
-            return header + latex.enum("answers", answers, sep_cmd="answer", cols=6)
+            return header + latex.enum("mcanswers", answers, sep_cmd="answer", cols=6)
 
-        return header + latex.enum("answers", answers, sep_cmd="answer")
+        return header + latex.enum("answers", answers)
 
     def get_updated_problem(self, problem_path: Path) -> Problem:
         """Retorna a versão mais recente de um problema no `ProblemSet`.

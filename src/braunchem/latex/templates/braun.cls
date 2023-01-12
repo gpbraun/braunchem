@@ -1022,6 +1022,18 @@
 
 %% RESPOSTAS
 
+\newlist { answers } { enumerate }{ 2 }
+
+\setlist [ answers, 1 ]
+    { 
+        label = { \usekomafont {disposition} \footnotesize { \arabic* }. } 
+    }
+
+\setlist [ answers, 2 ]
+    { 
+        label = { \alph*. } 
+    }
+
 \NewTasksEnvironment
     [
         label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
@@ -1031,7 +1043,7 @@
         label-offset = 0.7em,
         before-skip = 1em,
     ]
-    { answers } [ \answer ]
+    { mcanswers } [ \answer ]
 
 %% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
 
