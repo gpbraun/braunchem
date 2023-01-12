@@ -243,9 +243,10 @@ class ProblemSet(BaseModel):
 
         problems = []
         for problem_id in problem_ids:
-            try:
-                problems.append(self[problem_id])
-            except KeyError:
+            problem = self[problem_id]
+            if problem is not None:
+                problems.append(problem)
+            else:
                 logger.warning(f"O problema com ID {problem_id} não existe.")
 
         date = min(problem.date for problem in self)

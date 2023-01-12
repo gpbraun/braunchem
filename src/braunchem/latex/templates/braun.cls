@@ -1040,7 +1040,7 @@
         label  = { \choicebox { \Alph* } },
         item-indent = 2.5em,
         after-item-skip = 2\itemsep,
-        label-width = 1em,
+        label-width = 1.2em,
         label-align = right,
         label-offset = 1em,
     ] 
@@ -1052,7 +1052,7 @@
     [
         label  = \textbullet,
         item-indent = 1em,
-        label-width = 0.9ex,
+        label-width = 1ex,
         % label-offset = 0.5ex,
     ] 
     { datalist } [\item ]
