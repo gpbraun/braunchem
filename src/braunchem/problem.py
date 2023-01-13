@@ -6,7 +6,7 @@ import braunchem.utils.text as text
 import braunchem.utils.latex as latex
 from braunchem.utils.text import Text
 from braunchem.quantities import Table, qtys
-from braunchem.utils.autoprops import autoprops, numerical_choices
+from braunchem.utils.autoprops import autoprops, numerical_choices, ordering_choices
 
 import logging
 from datetime import datetime
@@ -139,10 +139,16 @@ class Problem(BaseModel):
                 # geração automática de distratores
                 li = choice_list_items[0]
                 check_box = li.find("input").extract()
-                equation = li.find("span").extract()
-                choices, correct_choice = numerical_choices(
-                    equation.contents[0], seed=problem_id
-                )
+                equation = li.find("span", {"class": "math"})
+                if equation:
+                    equation.extract()
+                    choices, correct_choice = numerical_choices(
+                        equation.contents[0], seed=problem_id
+                    )
+                else:
+                    answer = "".join(str(x) for x in li.contents)
+                    choices, correct_choice = ordering_choices(answer, seed=problem_id)
+
                 problem["choices"] = choices
                 problem["correct_choice"] = correct_choice
                 choice_list.decompose()

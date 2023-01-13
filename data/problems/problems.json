@@ -1,7 +1,7 @@
 {
   "id_": "root",
   "title": "ROOT",
-  "date": "2023-01-11T18:15:36.996079",
+  "date": "2023-01-12T21:31:45.135690",
   "problems": [
     {
       "id_": "1B25",
@@ -3007,6 +3007,47 @@
         }
       ],
       "correct_choice": 3
+    },
+    {
+      "id_": "1C01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C01/1C01.md",
+      "date": "2023-01-13T00:50:55.898309",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa com a ordem correta?</p>",
+        "md": "**Assinale** a alternativa com a ordem correta?\n",
+        "tex": "\\textbf{Assinale} a alternativa com a ordem correta?\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>;\n2; 3; 4.",
+          "md": "**1**; 2; 3; 4.\n",
+          "tex": "\\textbf{1}; 2; 3; 4.\n"
+        },
+        {
+          "html": "3; 4; <strong>1</strong>; 2.",
+          "md": "3; 4; **1**; 2.\n",
+          "tex": "3; 4; \\textbf{1}; 2.\n"
+        },
+        {
+          "html": "4; 2; <strong>1</strong>; 3.",
+          "md": "4; 2; **1**; 3.\n",
+          "tex": "4; 2; \\textbf{1}; 3.\n"
+        },
+        {
+          "html": "3; <strong>1</strong>; 4; 2.",
+          "md": "3; **1**; 4; 2.\n",
+          "tex": "3; \\textbf{1}; 4; 2.\n"
+        },
+        {
+          "html": "2; 4; <strong>1</strong>; 3.",
+          "md": "2; 4; **1**; 3.\n",
+          "tex": "2; 4; \\textbf{1}; 3.\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3H01",

@@ -5,6 +5,7 @@ Este módulo implementa funções para geração automática de distratores para
 import re
 import random
 from decimal import Decimal, Context
+from itertools import permutations
 
 from braunchem.utils.text import Text
 
@@ -242,13 +243,13 @@ class PhyisicalUnit:
 
 
 def numerical_choices(answer: str, seed: int | str = None):
-    """Gera múltilplas escolas para problemas com resposta numérica."""
+    """Gera múltilplas escolhas para problemas com resposta numérica."""
     if seed:
         random.seed(seed)
     try:
-        pu = PhyisicalUnit.parse_string(answer)
-
         correct_choice = random.randint(0, 4)
+
+        pu = PhyisicalUnit.parse_string(answer)
 
         scale = 1 + (abs(pu.value.log10()) + 1) / 5
 
@@ -261,8 +262,33 @@ def numerical_choices(answer: str, seed: int | str = None):
         raise AttributeError(f"Erro com seed {seed}")
 
 
+def ordering_choices(answer: str, seed: int | str = None) -> tuple[list, int]:
+    """Gera múltilplas escolhas para problemas com resposta numérica."""
+    if seed:
+        random.seed(seed)
+
+    correct_choice = random.randint(0, 4)
+
+    answer_list = [x.strip() for x in answer.split(";")]
+
+    if len(answer_list) < 3:
+        raise Exception(f"Erro com seed {seed} (menos de três itens na lista)")
+
+    # TODO: esse algorítimo é horroroso! melhorar urgente!
+    choices = []
+    while len(choices) < 4:
+        distractor_list = list(answer_list)
+        random.shuffle(distractor_list)
+        if (distractor := "; ".join(distractor_list)) not in choices:
+            choices.append(Text.parse_html(distractor + "."))
+
+    choices.insert(correct_choice, Text.parse_html(answer + "."))
+
+    return choices, correct_choice
+
+
 def main():
-    print(numerical_choices("\(\pu{2 kJ}\)", seed=123456))
+    print(ordering_choices("1; 2; 3; 4; 5; 6; 7", seed=1234567))
 
 
 if __name__ == "__main__":
