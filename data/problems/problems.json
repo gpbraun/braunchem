@@ -3175,14 +3175,25 @@
     {
       "id_": "3A39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A39/3A39.md",
-      "date": "2023-01-15T01:21:49.999629",
+      "date": "2023-01-15T04:08:19.155839",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O etomidato é um anestésico usado para prodecimento em paciente em\ntratamento ambulatório. Uma amostra de etomidato com massa de <span class=\"math inline\">\\(\\pu{5,8 mg}\\)</span> tem a seguinte composição\n<span class=\"math inline\">\\(\\pu{4 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{0,38 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span>, <span class=\"math inline\">\\(\\ce{0,66 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{N}\\)</span> e <span class=\"math inline\">\\(\\pu{0,76 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{O}\\)</span>. A massa molar do etomidato é\n<span class=\"math inline\">\\(\\pu{244 g.mol-1}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica do etomidato.</li>\n<li><strong>Determine</strong> a fórmula molecular do etomidato.</li>\n</ol>",
+        "md": "O etomidato é um anestésico usado para prodecimento em paciente em\ntratamento ambulatório. Uma amostra de etomidato com massa de\n$\\pu{5,8 mg}$ tem a seguinte composição $\\pu{4 mg}$ de $\\ce{C}$,\n$\\pu{0,38 mg}$ de $\\ce{H}$, $\\ce{0,66 mg}$ de $\\ce{N}$ e $\\pu{0,76 mg}$\nde $\\ce{O}$. A massa molar do etomidato é $\\pu{244 g.mol-1}$.\n\na.  **Determine** a fórmula empírica do etomidato.\nb.  **Determine** a fórmula molecular do etomidato.\n",
+        "tex": "O etomidato é um anestésico usado para prodecimento em paciente em tratamento ambulatório. Uma amostra de etomidato com massa de\n{\\(\\qty{5,8}{\\unit{mg}}\\)} tem a seguinte composição {\\(\\qty{4}{\\unit{mg}}\\)} de {\\(\\ce{C}\\)}, {\\(\\qty{0,38}{\\unit{mg}}\\)} de {\\(\\ce{H}\\)},\n{\\(\\ce{0,66 mg}\\)} de {\\(\\ce{N}\\)} e {\\(\\qty{0,76}{\\unit{mg}}\\)} de {\\(\\ce{O}\\)}. A massa molar do etomidato é {\\(\\qty{244}{\\unit{g.mol^{-1}}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica do etomidato.\n\\item\n  \\textbf{Determine} a fórmula molecular do etomidato.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C7H8NO}\\)</span></p>\n",
+          "md": "$\\ce{C7H8NO}$",
+          "tex": "\\(\\ce{C7H8NO}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C14H16N2O2}\\)</span></p>\n",
+          "md": "$\\ce{C14H16N2O2}$",
+          "tex": "\\(\\ce{C14H16N2O2}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3190,17 +3201,43 @@
     {
       "id_": "3A44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A44/3A44.md",
-      "date": "2023-01-15T01:21:50.035628",
+      "date": "2023-01-15T15:53:28.349970",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um aparelho doméstico para carbonatar a água usa cilindros de aço que\ncontém dióxido de carbono com volume igual a <span class=\"math inline\">\\(\\pu{250 mL}\\)</span>. Eles pesam <span class=\"math inline\">\\(\\pu{1 kg}\\)</span> quando cheios e <span class=\"math inline\">\\(\\pu{0,7 kg}\\)</span> quando vazios.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão de gás quando o cilindro está na metade da capacidade\nmáxima.</p>",
+        "md": "Um aparelho doméstico para carbonatar a água usa cilindros de aço que\ncontém dióxido de carbono com volume igual a $\\pu{250 mL}$. Eles pesam\n$\\pu{1 kg}$ quando cheios e $\\pu{0,7 kg}$ quando vazios.\n\n**Assinale** a alternativa que mais se aproxima da pressão de gás quando\no cilindro está na metade da capacidade máxima.\n",
+        "tex": "Um aparelho doméstico para carbonatar a água usa cilindros de aço que contém dióxido de carbono com volume igual a {\\(\\qty{250}{\\unit{mL}}\\)}. Eles\npesam {\\(\\qty{1}{\\unit{kg}}\\)} quando cheios e {\\(\\qty{0,7}{\\unit{kg}}\\)} quando vazios.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão de gás quando o cilindro está na metade da capacidade máxima.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{190 bar}\\)</span>",
+          "md": "$\\pu{190 bar}$\n",
+          "tex": "{\\(\\qty{190}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{330 bar}\\)</span>",
+          "md": "$\\pu{330 bar}$\n",
+          "tex": "{\\(\\qty{330}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{560 bar}\\)</span>",
+          "md": "$\\pu{560 bar}$\n",
+          "tex": "{\\(\\qty{560}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{960 bar}\\)</span>",
+          "md": "$\\pu{960 bar}$\n",
+          "tex": "{\\(\\qty{960}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1600 bar}\\)</span>",
+          "md": "$\\pu{1600 bar}$\n",
+          "tex": "{\\(\\qty{1600}{\\unit{bar}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3A33",
@@ -3246,14 +3283,25 @@
     {
       "id_": "3A48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A48/3A48.md",
-      "date": "2023-01-15T01:21:50.067628",
+      "date": "2023-01-15T19:38:53.281609",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O vapor de um derivado nitrato do benzeno tem densidade de <span class=\"math inline\">\\(\\pu{3,3 g.L-1}\\)</span>, em <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{200 \\degree C}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa molar do composto.</li>\n<li><strong>Determine</strong> a fórmula molecular do composto.</li>\n</ol>",
+        "md": "O vapor de um derivado nitrato do benzeno tem densidade de\n$\\pu{3,3 g.L-1}$, em $\\pu{1 atm}$ e $\\pu{200 \\degree C}$.\n\na.  **Determine** a massa molar do composto.\nb.  **Determine** a fórmula molecular do composto.\n",
+        "tex": "O vapor de um derivado nitrato do benzeno tem densidade de {\\(\\qty{3,3}{\\unit{g.L^{-1}}}\\)}, em {\\(\\qty{1}{\\unit{atm}}\\)} e\n{\\(\\qty{200}{\\unit{\\degree C}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa molar do composto.\n\\item\n  \\textbf{Determine} a fórmula molecular do composto.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{123 g.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{123 g.mol-1}$",
+          "tex": "\\(\\qty{123}{\\unit{g.mol^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C6H5NO2}\\)</span></p>\n",
+          "md": "$\\ce{C6H5NO2}$",
+          "tex": "\\(\\ce{C6H5NO2}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3384,17 +3432,43 @@
     {
       "id_": "3A43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A43/3A43.md",
-      "date": "2023-01-15T01:21:50.031628",
+      "date": "2023-01-15T15:45:32.226150",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1 L}\\)</span> de ar,\noriginalmente em <span class=\"math inline\">\\(\\pu{-20 \\degree C}\\)</span>\ne <span class=\"math inline\">\\(\\pu{760 Torr}\\)</span>, foi aquecida até\n<span class=\"math inline\">\\(\\pu{235 \\degree C}\\)</span>. Em seguida, a\npressão foi elevada a <span class=\"math inline\">\\(\\pu{765 Torr}\\)</span>\ne a amostra, aquecida até <span class=\"math inline\">\\(\\pu{1250 \\degree\nC}\\)</span>. Por fim, a pressão foi abaixada até <span class=\"math inline\">\\(\\pu{250 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume final da amostra de ar.</p>",
+        "md": "Uma amostra de $\\pu{1 L}$ de ar, originalmente em $\\pu{-20 \\degree C}$ e\n$\\pu{760 Torr}$, foi aquecida até $\\pu{235 \\degree C}$. Em seguida, a\npressão foi elevada a $\\pu{765 Torr}$ e a amostra, aquecida até\n$\\pu{1250 \\degree C}$. Por fim, a pressão foi abaixada até\n$\\pu{250 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima do volume final da\namostra de ar.\n",
+        "tex": "Uma amostra de {\\(\\qty{1}{\\unit{L}}\\)} de ar, originalmente em {\\(\\qty{-20}{\\unit{\\degree C}}\\)} e {\\(\\qty{760}{\\unit{Torr}}\\)}, foi aquecida até\n{\\(\\qty{235}{\\unit{\\degree C}}\\)}. Em seguida, a pressão foi elevada a {\\(\\qty{765}{\\unit{Torr}}\\)} e a amostra, aquecida até\n{\\(\\qty{1250}{\\unit{\\degree C}}\\)}. Por fim, a pressão foi abaixada até {\\(\\qty{250}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume final da amostra de ar.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,9 L}\\)</span>",
+          "md": "$\\pu{5,9 L}$\n",
+          "tex": "{\\(\\qty{5,9}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,5 L}\\)</span>",
+          "md": "$\\pu{8,5 L}$\n",
+          "tex": "{\\(\\qty{8,5}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 L}\\)</span>",
+          "md": "$\\pu{12 L}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{18 L}\\)</span>",
+          "md": "$\\pu{18 L}$\n",
+          "tex": "{\\(\\qty{18}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 L}\\)</span>",
+          "md": "$\\pu{26 L}$\n",
+          "tex": "{\\(\\qty{26}{\\unit{L}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3A18",
@@ -3440,14 +3514,35 @@
     {
       "id_": "3A54",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A54/3A54.md",
-      "date": "2023-01-15T01:21:50.111628",
+      "date": "2023-01-15T20:07:41.095504",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Diz-se que <em>cada respiração que damos, em média, contém moléculas\njá foram exaladas por Wolfgang Amadeus Mozart</em> (1756-1791). Para\nverificar a veracidade dessa afirmação considere que a atmosfera é\ncomposta por <span class=\"math inline\">\\(\\pu{80}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{N2}\\)</span> e <span class=\"math inline\">\\(\\pu{20}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span>. O volume de cada respiração\n(inspiração ou expiração) é aproximadamente <span class=\"math inline\">\\(\\pu{500 mL}\\)</span> e uma pessoa respira, em\nmédia, 12 vezes por minuto.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> o número total de moléculas na\natmosfera.</li>\n<li><strong>Determine</strong> o número de moléculas exaladas em cada\nrespiração em <span class=\"math inline\">\\(\\pu{37 \\degree C}\\)</span>, a\ntemperatura corporal.</li>\n<li><strong>Determine</strong> a fração das moléculas da atmosfera que\njá foram exaladas por Mozart.</li>\n<li><strong>Determine</strong> o número médio de moléculas em uma\nrespiração que já foram exaladas por Mozart.</li>\n</ol>",
+        "md": "Diz-se que *cada respiração que damos, em média, contém moléculas já\nforam exaladas por Wolfgang Amadeus Mozart* (1756-1791). Para verificar\na veracidade dessa afirmação considere que a atmosfera é composta por\n$\\pu{80}\\%$ de $\\ce{N2}$ e $\\pu{20}\\%$ de $\\ce{O2}$. O volume de cada\nrespiração (inspiração ou expiração) é aproximadamente $\\pu{500 mL}$ e\numa pessoa respira, em média, 12 vezes por minuto.\n\na.  **Determine** o número total de moléculas na atmosfera.\nb.  **Determine** o número de moléculas exaladas em cada respiração em\n    $\\pu{37 \\degree C}$, a temperatura corporal.\nc.  **Determine** a fração das moléculas da atmosfera que já foram\n    exaladas por Mozart.\nd.  **Determine** o número médio de moléculas em uma respiração que já\n    foram exaladas por Mozart.\n",
+        "tex": "Diz-se que \\emph{cada respiração que damos, em média, contém moléculas já foram exaladas por Wolfgang Amadeus Mozart} (1756-1791). Para verificar a\nveracidade dessa afirmação considere que a atmosfera é composta por {\\(\\num{80}\\%\\)} de {\\(\\ce{N2}\\)} e {\\(\\num{20}\\%\\)} de {\\(\\ce{O2}\\)}. O volume de\ncada respiração (inspiração ou expiração) é aproximadamente {\\(\\qty{500}{\\unit{mL}}\\)} e uma pessoa respira, em média, 12 vezes por minuto.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} o número total de moléculas na atmosfera.\n\\item\n  \\textbf{Determine} o número de moléculas exaladas em cada respiração em {\\(\\qty{37}{\\unit{\\degree C}}\\)}, a temperatura corporal.\n\\item\n  \\textbf{Determine} a fração das moléculas da atmosfera que já foram exaladas por Mozart.\n\\item\n  \\textbf{Determine} o número médio de moléculas em uma respiração que já foram exaladas por Mozart.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{1,1e44}\\)</span></p>\n",
+          "md": "$\\pu{1,1e44}$",
+          "tex": "\\(\\num{1,1e44}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{1,2e22}\\)</span></p>\n",
+          "md": "$\\pu{1,2e22}$",
+          "tex": "\\(\\num{1,2e22}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{2,6e30}\\)</span></p>\n",
+          "md": "$\\pu{2,6e30}$",
+          "tex": "\\(\\num{2,6e30}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{3,0e8}\\)</span></p>\n",
+          "md": "$\\pu{3,0e8}$",
+          "tex": "\\(\\num{3,0e8}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3496,17 +3591,43 @@
     {
       "id_": "3A41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A41/3A41.md",
-      "date": "2023-01-15T01:21:50.015628",
+      "date": "2023-01-15T04:13:19.809314",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de gás metano, <span class=\"math inline\">\\(\\ce{CH4}\\)</span>, foi aquecida lentamente na\npressão contante de <span class=\"math inline\">\\(\\pu{0,9 bar}\\)</span>. O\nvolume do gás foi medido em diferentes temperaturas e um gráfico do\nvolume em função da temperatura foi construído. A inclinação da reta foi\n<span class=\"math inline\">\\(\\pu{2,9e-4 L.K-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nda amostra de butano.</p>",
+        "md": "Uma amostra de gás metano, $\\ce{CH4}$, foi aquecida lentamente na\npressão contante de $\\pu{0,9 bar}$. O volume do gás foi medido em\ndiferentes temperaturas e um gráfico do volume em função da temperatura\nfoi construído. A inclinação da reta foi $\\pu{2,9e-4 L.K-1}$.\n\n**Assinale** a alternativa que mais se aproxima da massa da amostra de\nbutano.\n",
+        "tex": "Uma amostra de gás metano, {\\(\\ce{CH4}\\)}, foi aquecida lentamente na pressão contante de {\\(\\qty{0,9}{\\unit{bar}}\\)}. O volume do gás foi medido em\ndiferentes temperaturas e um gráfico do volume em função da temperatura foi construído. A inclinação da reta foi {\\(\\qty{2,9e-4}{\\unit{L.K^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa da amostra de butano.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,050 g}\\)</span>",
+          "md": "$\\pu{0,050 g}$\n",
+          "tex": "{\\(\\qty{0,050}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,073 g}\\)</span>",
+          "md": "$\\pu{0,073 g}$\n",
+          "tex": "{\\(\\qty{0,073}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,11 g}\\)</span>",
+          "md": "$\\pu{0,11 g}$\n",
+          "tex": "{\\(\\qty{0,11}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,16 g}\\)</span>",
+          "md": "$\\pu{0,16 g}$\n",
+          "tex": "{\\(\\qty{0,16}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,23 g}\\)</span>",
+          "md": "$\\pu{0,23 g}$\n",
+          "tex": "{\\(\\qty{0,23}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3A30",
@@ -3591,21 +3712,6 @@
       "correct_choice": 2
     },
     {
-      "id_": "3A56",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A56/3A56.md",
-      "date": "2023-01-15T01:21:50.123628",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "3A21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A21/3A21.md",
       "date": "2023-01-15T02:22:39.889660",
@@ -3645,36 +3751,6 @@
         }
       ],
       "correct_choice": 3
-    },
-    {
-      "id_": "3A57",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A57/3A57.md",
-      "date": "2023-01-15T01:21:50.127628",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3A58",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A58/3A58.md",
-      "date": "2023-01-15T01:21:50.131628",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "3A32",
@@ -3720,14 +3796,20 @@
     {
       "id_": "3A52",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A52/3A52.md",
-      "date": "2023-01-15T01:21:50.095628",
+      "date": "2023-01-15T19:54:23.685948",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um balão selado é preenchido com <span class=\"math inline\">\\(\\pu{10\nkg}\\)</span> de gás hidrogênio em CNTP.</p>\n<p><strong>Determine</strong> a massa de carga útil que pode ser\nlevantada pelo balão.</p>",
+        "md": "Um balão selado é preenchido com $\\pu{10 kg}$ de gás hidrogênio em CNTP.\n\n**Determine** a massa de carga útil que pode ser levantada pelo balão.\n",
+        "tex": "Um balão selado é preenchido com {\\(\\qty{10}{\\unit{kg}}\\)} de gás hidrogênio em CNTP.\n\n\\textbf{Determine} a massa de carga útil que pode ser levantada pelo balão.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{140 kg}\\)</span></p>\n",
+          "md": "$\\pu{140 kg}$",
+          "tex": "\\(\\qty{140}{\\unit{kg}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3735,17 +3817,43 @@
     {
       "id_": "3A37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A37/3A37.md",
-      "date": "2023-01-15T01:21:49.983629",
+      "date": "2023-01-15T03:53:40.330397",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura de <span class=\"math inline\">\\(\\ce{NaNO3}\\)</span> e\n<span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> de massa <span class=\"math inline\">\\(\\pu{5,4 g}\\)</span> contém <span class=\"math inline\">\\(\\pu{1,6 g}\\)</span> de sódio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{NaNO3}\\)</span> na\nmistura.</p>",
+        "md": "Uma mistura de $\\ce{NaNO3}$ e $\\ce{Na2SO4}$ de massa $\\pu{5,4 g}$ contém\n$\\pu{1,6 g}$ de sódio.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{NaNO3}$ na mistura.\n",
+        "tex": "Uma mistura de {\\(\\ce{NaNO3}\\)} e {\\(\\ce{Na2SO4}\\)} de massa {\\(\\qty{5,4}{\\unit{g}}\\)} contém {\\(\\qty{1,6}{\\unit{g}}\\)} de sódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{NaNO3}\\)} na mistura.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 \\%}\\)</span>",
+          "md": "$\\pu{12 \\%}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{18 \\%}\\)</span>",
+          "md": "$\\pu{18 \\%}$\n",
+          "tex": "{\\(\\qty{18}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{27 \\%}\\)</span>",
+          "md": "$\\pu{27 \\%}$\n",
+          "tex": "{\\(\\qty{27}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{41 \\%}\\)</span>",
+          "md": "$\\pu{41 \\%}$\n",
+          "tex": "{\\(\\qty{41}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{62 \\%}\\)</span>",
+          "md": "$\\pu{62 \\%}$\n",
+          "tex": "{\\(\\qty{62}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3A13",
@@ -3996,14 +4104,25 @@
     {
       "id_": "3A47",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A47/3A47.md",
-      "date": "2023-01-15T01:21:50.059628",
+      "date": "2023-01-15T19:38:59.565553",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O gás de um composto fluorado de metano tem densidade de <span class=\"math inline\">\\(\\pu{8 g.L-1}\\)</span>, em <span class=\"math inline\">\\(\\pu{2,8 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{300 K}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa molar do composto.</li>\n<li><strong>Determine</strong> a fórmula molecular do composto.</li>\n</ol>",
+        "md": "O gás de um composto fluorado de metano tem densidade de $\\pu{8 g.L-1}$,\nem $\\pu{2,8 atm}$ e $\\pu{300 K}$.\n\na.  **Determine** a massa molar do composto.\nb.  **Determine** a fórmula molecular do composto.\n",
+        "tex": "O gás de um composto fluorado de metano tem densidade de {\\(\\qty{8}{\\unit{g.L^{-1}}}\\)}, em {\\(\\qty{2,8}{\\unit{atm}}\\)} e {\\(\\qty{300}{\\unit{K}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa molar do composto.\n\\item\n  \\textbf{Determine} a fórmula molecular do composto.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{70 g.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{70 g.mol-1}$",
+          "tex": "\\(\\qty{70}{\\unit{g.mol^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{CHF3}\\)</span></p>\n",
+          "md": "$\\ce{CHF3}$",
+          "tex": "\\(\\ce{CHF3}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4093,44 +4212,61 @@
     {
       "id_": "3A38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A38/3A38.md",
-      "date": "2023-01-15T01:21:49.991628",
+      "date": "2023-01-15T04:00:06.339735",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura de <span class=\"math inline\">\\(\\ce{KBr}\\)</span> e <span class=\"math inline\">\\(\\ce{K2S}\\)</span> de massa <span class=\"math inline\">\\(\\pu{6,1 g}\\)</span> contém <span class=\"math inline\">\\(\\pu{2,5 g}\\)</span> de potássio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{KBr}\\)</span> na\nmistura.</p>",
+        "md": "Uma mistura de $\\ce{KBr}$ e $\\ce{K2S}$ de massa $\\pu{6,1 g}$ contém\n$\\pu{2,5 g}$ de potássio.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{KBr}$ na mistura.\n",
+        "tex": "Uma mistura de {\\(\\ce{KBr}\\)} e {\\(\\ce{K2S}\\)} de massa {\\(\\qty{6,1}{\\unit{g}}\\)} contém {\\(\\qty{2,5}{\\unit{g}}\\)} de potássio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{KBr}\\)} na mistura.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3A55",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A55/3A55.md",
-      "date": "2023-01-15T01:21:50.119628",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{80 \\%}\\)</span>",
+          "md": "$\\pu{80 \\%}$\n",
+          "tex": "{\\(\\qty{80}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 \\%}\\)</span>",
+          "md": "$\\pu{130 \\%}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{200 \\%}\\)</span>",
+          "md": "$\\pu{200 \\%}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{320 \\%}\\)</span>",
+          "md": "$\\pu{320 \\%}$\n",
+          "tex": "{\\(\\qty{320}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{500 \\%}\\)</span>",
+          "md": "$\\pu{500 \\%}$\n",
+          "tex": "{\\(\\qty{500}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3A53",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A53/3A53.md",
-      "date": "2023-01-15T01:21:50.103628",
+      "date": "2023-01-15T19:55:15.131833",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O raio médio da terra é <span class=\"math inline\">\\(\\pu{6400\nkm}\\)</span>.</p>\n<p><strong>Determine</strong> a massa da atmosfera.</p>",
+        "md": "O raio médio da terra é $\\pu{6400 km}$.\n\n**Determine** a massa da atmosfera.\n",
+        "tex": "O raio médio da terra é {\\(\\qty{6400}{\\unit{km}}\\)}.\n\n\\textbf{Determine} a massa da atmosfera.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{5e15 ton}\\)</span></p>\n",
+          "md": "$\\pu{5e15 ton}$",
+          "tex": "\\(\\qty{5e15}{\\unit{ton}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4179,29 +4315,66 @@
     {
       "id_": "3A46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A46/3A46.md",
-      "date": "2023-01-15T01:21:50.051628",
+      "date": "2023-01-15T15:57:15.611964",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O raio de um balão meteorológico era <span class=\"math inline\">\\(\\pu{1 m}\\)</span> ao ser lançado ao nível do mar\nem <span class=\"math inline\">\\(\\pu{20 \\degree C}\\)</span>. Ele se\nexpandiu e o raio aumento para <span class=\"math inline\">\\(\\pu{3\nm}\\)</span> na altitude máxima, onde a temperatura era <span class=\"math inline\">\\(\\pu{-20 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão dentro do balão nessa altitude.</p>",
+        "md": "O raio de um balão meteorológico era $\\pu{1 m}$ ao ser lançado ao nível\ndo mar em $\\pu{20 \\degree C}$. Ele se expandiu e o raio aumento para\n$\\pu{3 m}$ na altitude máxima, onde a temperatura era\n$\\pu{-20 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão dentro do\nbalão nessa altitude.\n",
+        "tex": "O raio de um balão meteorológico era {\\(\\qty{1}{\\unit{m}}\\)} ao ser lançado ao nível do mar em {\\(\\qty{20}{\\unit{\\degree C}}\\)}. Ele se expandiu e o\nraio aumento para {\\(\\qty{3}{\\unit{m}}\\)} na altitude máxima, onde a temperatura era {\\(\\qty{-20}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão dentro do balão nessa altitude.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,0063 atm}\\)</span>",
+          "md": "$\\pu{0,0063 atm}$\n",
+          "tex": "{\\(\\qty{0,0063}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,0095 atm}\\)</span>",
+          "md": "$\\pu{0,0095 atm}$\n",
+          "tex": "{\\(\\qty{0,0095}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,014 atm}\\)</span>",
+          "md": "$\\pu{0,014 atm}$\n",
+          "tex": "{\\(\\qty{0,014}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,021 atm}\\)</span>",
+          "md": "$\\pu{0,021 atm}$\n",
+          "tex": "{\\(\\qty{0,021}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,032 atm}\\)</span>",
+          "md": "$\\pu{0,032 atm}$\n",
+          "tex": "{\\(\\qty{0,032}{\\unit{atm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3A40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A40/3A40.md",
-      "date": "2023-01-15T01:21:50.007628",
+      "date": "2023-01-15T04:06:10.452889",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Em 1978, os cientistas extraíram um composto com propriedades\nantitumorais e antivirais de animais marinhos do Mar do Caribe. Uma\namostra de <span class=\"math inline\">\\(\\pu{1,8 mg}\\)</span> do composto\ndidemnia-A foi analisada e encontrou-se a seguinte composição: <span class=\"math inline\">\\(\\pu{1,1 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{0,15 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span>, <span class=\"math inline\">\\(\\pu{0,16 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{N}\\)</span> e <span class=\"math inline\">\\(\\pu{0,36 mg}\\)</span> de <span class=\"math inline\">\\(\\ce{O}\\)</span>. A massa molar da didemnia-A é\n<span class=\"math inline\">\\(\\pu{942 g.mol-1}\\)</span></p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica da didemnia-A.</li>\n<li><strong>Determine</strong> a fórmula molecular da didemnia-A.</li>\n</ol>",
+        "md": "Em 1978, os cientistas extraíram um composto com propriedades\nantitumorais e antivirais de animais marinhos do Mar do Caribe. Uma\namostra de $\\pu{1,8 mg}$ do composto didemnia-A foi analisada e\nencontrou-se a seguinte composição: $\\pu{1,1 mg}$ de $\\ce{C}$,\n$\\pu{0,15 mg}$ de $\\ce{H}$, $\\pu{0,16 mg}$ de $\\ce{N}$ e $\\pu{0,36 mg}$\nde $\\ce{O}$. A massa molar da didemnia-A é $\\pu{942 g.mol-1}$\n\na.  **Determine** a fórmula empírica da didemnia-A.\nb.  **Determine** a fórmula molecular da didemnia-A.\n",
+        "tex": "Em 1978, os cientistas extraíram um composto com propriedades antitumorais e antivirais de animais marinhos do Mar do Caribe. Uma amostra de\n{\\(\\qty{1,8}{\\unit{mg}}\\)} do composto didemnia-A foi analisada e encontrou-se a seguinte composição: {\\(\\qty{1,1}{\\unit{mg}}\\)} de {\\(\\ce{C}\\)},\n{\\(\\qty{0,15}{\\unit{mg}}\\)} de {\\(\\ce{H}\\)}, {\\(\\qty{0,16}{\\unit{mg}}\\)} de {\\(\\ce{N}\\)} e {\\(\\qty{0,36}{\\unit{mg}}\\)} de {\\(\\ce{O}\\)}. A massa molar\nda didemnia-A é {\\(\\qty{942}{\\unit{g.mol^{-1}}}\\)}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica da didemnia-A.\n\\item\n  \\textbf{Determine} a fórmula molecular da didemnia-A.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C49H78N6O12}\\)</span></p>\n",
+          "md": "$\\ce{C49H78N6O12}$",
+          "tex": "\\(\\ce{C49H78N6O12}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C49H78N6O12}\\)</span></p>\n",
+          "md": "$\\ce{C49H78N6O12}$",
+          "tex": "\\(\\ce{C49H78N6O12}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4209,14 +4382,20 @@
     {
       "id_": "3A50",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A50/3A50.md",
-      "date": "2023-01-15T01:21:50.083628",
+      "date": "2023-01-15T19:35:23.747467",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>A análise de um hidrocarboneto mostrou que ele é composto por <span class=\"math inline\">\\(\\pu{86}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span> e <span class=\"math inline\">\\(\\pu{14}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span> em massa. Quando <span class=\"math inline\">\\(\\pu{1,8 g}\\)</span> do gás foi armazenado em um\nbalão de <span class=\"math inline\">\\(\\pu{1,5 L}\\)</span>, em <span class=\"math inline\">\\(\\pu{17 \\degree C}\\)</span>, o gás exerceu a\npressão de <span class=\"math inline\">\\(\\pu{510 Torr}\\)</span>.</p>\n<p><strong>Determine</strong> a fórmula molecular do composto.</p>",
+        "md": "A análise de um hidrocarboneto mostrou que ele é composto por\n$\\pu{86}\\%$ de $\\ce{C}$ e $\\pu{14}\\%$ de $\\ce{H}$ em massa. Quando\n$\\pu{1,8 g}$ do gás foi armazenado em um balão de $\\pu{1,5 L}$, em\n$\\pu{17 \\degree C}$, o gás exerceu a pressão de $\\pu{510 Torr}$.\n\n**Determine** a fórmula molecular do composto.\n",
+        "tex": "A análise de um hidrocarboneto mostrou que ele é composto por {\\(\\num{86}\\%\\)} de {\\(\\ce{C}\\)} e {\\(\\num{14}\\%\\)} de {\\(\\ce{H}\\)} em massa. Quando\n{\\(\\qty{1,8}{\\unit{g}}\\)} do gás foi armazenado em um balão de {\\(\\qty{1,5}{\\unit{L}}\\)}, em {\\(\\qty{17}{\\unit{\\degree C}}\\)}, o gás exerceu a pressão\nde {\\(\\qty{510}{\\unit{Torr}}\\)}.\n\n\\textbf{Determine} a fórmula molecular do composto.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C6H6}\\)</span></p>\n",
+          "md": "$\\ce{C6H6}$",
+          "tex": "\\(\\ce{C6H6}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4470,7 +4649,7 @@
     {
       "id_": "3A11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A11/3A11.md",
-      "date": "2023-01-15T01:53:09.919139",
+      "date": "2023-01-15T04:14:58.724468",
       "statement": {
         "html": "<p>Uma usina de enriquecimento de urânio processou <span class=\"math inline\">\\(\\pu{25 kg}\\)</span> de hexafluoreto de urânio,\n<span class=\"math inline\">\\(\\ce{UF6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde flúor na amostra processada.</p>",
         "md": "Uma usina de enriquecimento de urânio processou $\\pu{25 kg}$ de\nhexafluoreto de urânio, $\\ce{UF6}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de flúor na\namostra processada.\n",
@@ -4481,29 +4660,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{84 mol}\\)</span>",
-          "md": "$\\pu{84 mol}$\n",
-          "tex": "{\\(\\qty{84}{\\unit{mol}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{84 g}\\)</span>",
+          "md": "$\\pu{84 g}$\n",
+          "tex": "{\\(\\qty{84}{\\unit{g}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{140 mol}\\)</span>",
-          "md": "$\\pu{140 mol}$\n",
-          "tex": "{\\(\\qty{140}{\\unit{mol}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{140 g}\\)</span>",
+          "md": "$\\pu{140 g}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{g}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{250 mol}\\)</span>",
-          "md": "$\\pu{250 mol}$\n",
-          "tex": "{\\(\\qty{250}{\\unit{mol}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{250 g}\\)</span>",
+          "md": "$\\pu{250 g}$\n",
+          "tex": "{\\(\\qty{250}{\\unit{g}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{430 mol}\\)</span>",
-          "md": "$\\pu{430 mol}$\n",
-          "tex": "{\\(\\qty{430}{\\unit{mol}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{430 g}\\)</span>",
+          "md": "$\\pu{430 g}$\n",
+          "tex": "{\\(\\qty{430}{\\unit{g}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{740 mol}\\)</span>",
-          "md": "$\\pu{740 mol}$\n",
-          "tex": "{\\(\\qty{740}{\\unit{mol}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{740 g}\\)</span>",
+          "md": "$\\pu{740 g}$\n",
+          "tex": "{\\(\\qty{740}{\\unit{g}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -4673,21 +4852,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "3A60",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A60/3A60.md",
-      "date": "2023-01-15T01:21:50.135628",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "3A31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A31/3A31.md",
       "date": "2023-01-15T02:43:20.149310",
@@ -4813,44 +4977,61 @@
     {
       "id_": "3A45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A45/3A45.md",
-      "date": "2023-01-15T01:21:50.043628",
+      "date": "2023-01-15T15:55:12.653050",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um vendedor de balões tem um recipiente de hélio de <span class=\"math inline\">\\(\\pu{18 L}\\)</span> que está sob <span class=\"math inline\">\\(\\pu{170 atm}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nnúmero de balões, de <span class=\"math inline\">\\(\\pu{2,4 L}\\)</span>\ncada, podem ser enchidos em <span class=\"math inline\">\\(\\pu{1\natm}\\)</span> e <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>,\ncom o hélio desse recipiente.</p>",
+        "md": "Um vendedor de balões tem um recipiente de hélio de $\\pu{18 L}$ que está\nsob $\\pu{170 atm}$ em $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do número de balões, de\n$\\pu{2,4 L}$ cada, podem ser enchidos em $\\pu{1 atm}$ e\n$\\pu{25 \\degree C}$, com o hélio desse recipiente.\n",
+        "tex": "Um vendedor de balões tem um recipiente de hélio de {\\(\\qty{18}{\\unit{L}}\\)} que está sob {\\(\\qty{170}{\\unit{atm}}\\)} em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de balões, de {\\(\\qty{2,4}{\\unit{L}}\\)} cada, podem ser enchidos em\n{\\(\\qty{1}{\\unit{atm}}\\)} e {\\(\\qty{25}{\\unit{\\degree C}}\\)}, com o hélio desse recipiente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{380}\\)</span>",
+          "md": "$\\pu{380}$\n",
+          "tex": "{\\(\\num{380}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{700}\\)</span>",
+          "md": "$\\pu{700}$\n",
+          "tex": "{\\(\\num{700}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1300}\\)</span>",
+          "md": "$\\pu{1300}$\n",
+          "tex": "{\\(\\num{1300}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2300}\\)</span>",
+          "md": "$\\pu{2300}$\n",
+          "tex": "{\\(\\num{2300}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4200}\\)</span>",
+          "md": "$\\pu{4200}$\n",
+          "tex": "{\\(\\num{4200}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3A51",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A51/3A51.md",
-      "date": "2023-01-15T01:21:50.087628",
+      "date": "2023-01-15T19:54:20.970085",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um balão selado feito de um material flexível deve ser projetado para\ntransportar uma carga de <span class=\"math inline\">\\(\\pu{10\nkg}\\)</span>. O balão é preenchido com <span class=\"math inline\">\\(\\pu{22,4 m3}\\)</span> de argônio em CNTP.</p>\n<p><strong>Determine</strong> a temperatura mínima pra qual o balão deve\nser aquecido para que esse flutue na atmosfera em CNTP.</p>",
+        "md": "Um balão selado feito de um material flexível deve ser projetado para\ntransportar uma carga de $\\pu{10 kg}$. O balão é preenchido com\n$\\pu{22,4 m3}$ de argônio em CNTP.\n\n**Determine** a temperatura mínima pra qual o balão deve ser aquecido\npara que esse flutue na atmosfera em CNTP.\n",
+        "tex": "Um balão selado feito de um material flexível deve ser projetado para transportar uma carga de {\\(\\qty{10}{\\unit{kg}}\\)}. O balão é preenchido com\n{\\(\\qty{22,4}{\\unit{m^{3}}}\\)} de argônio em CNTP.\n\n\\textbf{Determine} a temperatura mínima pra qual o balão deve ser aquecido para que esse flutue na atmosfera em CNTP.\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3A59",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A59/3A59.md",
-      "date": "2023-01-15T01:21:50.131628",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{200 \\degree C}\\)</span></p>\n",
+          "md": "$\\pu{200 \\degree C}$",
+          "tex": "\\(\\qty{200}{\\unit{\\degree C}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4858,17 +5039,43 @@
     {
       "id_": "3A42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A42/3A42.md",
-      "date": "2023-01-15T01:21:50.019628",
+      "date": "2023-01-15T04:12:54.677528",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de gás butano, <span class=\"math inline\">\\(\\ce{C4H10}\\)</span>, foi aquecida lentamente na\npressão constante de <span class=\"math inline\">\\(\\pu{0,8 bar}\\)</span>.\nO volume do gás foi medido em diferentes temperaturas e um gráfico do\nvolume em função da temperatura foi construído. A inclinação da reta foi\n<span class=\"math inline\">\\(\\pu{0,02 L.K-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nda amostra de butano.</p>",
+        "md": "Uma amostra de gás butano, $\\ce{C4H10}$, foi aquecida lentamente na\npressão constante de $\\pu{0,8 bar}$. O volume do gás foi medido em\ndiferentes temperaturas e um gráfico do volume em função da temperatura\nfoi construído. A inclinação da reta foi $\\pu{0,02 L.K-1}$.\n\n**Assinale** a alternativa que mais se aproxima da massa da amostra de\nbutano.\n",
+        "tex": "Uma amostra de gás butano, {\\(\\ce{C4H10}\\)}, foi aquecida lentamente na pressão constante de {\\(\\qty{0,8}{\\unit{bar}}\\)}. O volume do gás foi medido\nem diferentes temperaturas e um gráfico do volume em função da temperatura foi construído. A inclinação da reta foi {\\(\\qty{0,02}{\\unit{L.K^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa da amostra de butano.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0 g}\\)</span>",
+          "md": "$\\pu{6,0 g}$\n",
+          "tex": "{\\(\\qty{6,0}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,5 g}\\)</span>",
+          "md": "$\\pu{8,5 g}$\n",
+          "tex": "{\\(\\qty{8,5}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 g}\\)</span>",
+          "md": "$\\pu{12 g}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 g}\\)</span>",
+          "md": "$\\pu{17 g}$\n",
+          "tex": "{\\(\\qty{17}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24 g}\\)</span>",
+          "md": "$\\pu{24 g}$\n",
+          "tex": "{\\(\\qty{24}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3A02",
@@ -4914,14 +5121,20 @@
     {
       "id_": "3A49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A49/3A49.md",
-      "date": "2023-01-15T01:21:50.075628",
+      "date": "2023-01-15T19:33:04.576700",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um composto usado na fabricação de filmes de plástico é composto por\n<span class=\"math inline\">\\(\\pu{25}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{21}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span> e <span class=\"math inline\">\\(\\pu{73}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{Cl}\\)</span> em massa. O armazenamento de\n<span class=\"math inline\">\\(\\pu{3,5 g}\\)</span> do gás do composto em um\nrecipiente de <span class=\"math inline\">\\(\\pu{750 mL}\\)</span>, em <span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span>, resulta em uma pressão\nde <span class=\"math inline\">\\(\\pu{1,1 atm}\\)</span>.</p>\n<p><strong>Determine</strong> a fórmula molecular do composto.</p>",
+        "md": "Um composto usado na fabricação de filmes de plástico é composto por\n$\\pu{25}\\%$ de $\\ce{C}$, $\\pu{21}\\%$ de $\\ce{H}$ e $\\pu{73}\\%$ de\n$\\ce{Cl}$ em massa. O armazenamento de $\\pu{3,5 g}$ do gás do composto\nem um recipiente de $\\pu{750 mL}$, em $\\pu{0 \\degree C}$, resulta em uma\npressão de $\\pu{1,1 atm}$.\n\n**Determine** a fórmula molecular do composto.\n",
+        "tex": "Um composto usado na fabricação de filmes de plástico é composto por {\\(\\num{25}\\%\\)} de {\\(\\ce{C}\\)}, {\\(\\num{21}\\%\\)} de {\\(\\ce{H}\\)} e\n{\\(\\num{73}\\%\\)} de {\\(\\ce{Cl}\\)} em massa. O armazenamento de {\\(\\qty{3,5}{\\unit{g}}\\)} do gás do composto em um recipiente de\n{\\(\\qty{750}{\\unit{mL}}\\)}, em {\\(\\qty{0}{\\unit{\\degree C}}\\)}, resulta em uma pressão de {\\(\\qty{1,1}{\\unit{atm}}\\)}.\n\n\\textbf{Determine} a fórmula molecular do composto.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C2H2Cl2}\\)</span></p>\n",
+          "md": "$\\ce{C2H2Cl2}$",
+          "tex": "\\(\\ce{C2H2Cl2}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
