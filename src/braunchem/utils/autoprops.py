@@ -270,16 +270,21 @@ def ordering_choices(answer: str, seed: int | str = None) -> tuple[list, int]:
     correct_choice = random.randint(0, 4)
 
     answer_list = [x.strip() for x in answer.split(";")]
+    answer = "; ".join(answer_list)
 
     if len(answer_list) < 3:
         raise Exception(f"Erro com seed {seed} (menos de três itens na lista)")
 
     # TODO: esse algorítimo é horroroso! melhorar urgente!
     choices = []
+    choices_raw = [answer]
+
     while len(choices) < 4:
         distractor_list = list(answer_list)
         random.shuffle(distractor_list)
-        if (distractor := "; ".join(distractor_list)) not in choices:
+        distractor = "; ".join(distractor_list)
+        if distractor not in choices_raw:
+            choices_raw.append(distractor)
             choices.append(Text.parse_html(distractor + "."))
 
     choices.insert(correct_choice, Text.parse_html(answer + "."))

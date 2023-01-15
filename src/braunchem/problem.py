@@ -139,15 +139,18 @@ class Problem(BaseModel):
                 # geração automática de distratores
                 li = choice_list_items[0]
                 check_box = li.find("input").extract()
-                equation = li.find("span", {"class": "math"})
-                if equation:
-                    equation.extract()
-                    choices, correct_choice = numerical_choices(
-                        equation.contents[0], seed=problem_id
-                    )
-                else:
+                answer = "".join(str(x) for x in li.contents)
+
+                if answer.count(";", 2):
                     answer = "".join(str(x) for x in li.contents)
                     choices, correct_choice = ordering_choices(answer, seed=problem_id)
+                else:
+                    equation = li.find("span", {"class": "math"})
+                    if equation:
+                        equation.extract()
+                        choices, correct_choice = numerical_choices(
+                            equation.contents[0], seed=problem_id
+                        )
 
                 problem["choices"] = choices
                 problem["correct_choice"] = correct_choice

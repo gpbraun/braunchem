@@ -1,7 +1,7 @@
 {
   "id_": "root",
   "title": "ROOT",
-  "date": "2023-01-12T21:31:45.135690",
+  "date": "2023-01-15T00:27:21.993859",
   "problems": [
     {
       "id_": "1B25",
@@ -3022,7 +3022,7 @@
       "data": null,
       "choices": [
         {
-          "html": "<strong>1</strong>;\n2; 3; 4.",
+          "html": "<strong>1</strong>; 2; 3; 4.",
           "md": "**1**; 2; 3; 4.\n",
           "tex": "\\textbf{1}; 2; 3; 4.\n"
         },
@@ -3130,6 +3130,1842 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "3A12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A12/3A12.md",
+      "date": "2023-01-15T01:53:24.782548",
+      "statement": {
+        "html": "<p>Um químico quer extrair o ouro existente em <span class=\"math inline\">\\(\\pu{14 g}\\)</span> de cloreto de ouro(III)\ndi-hidratado, <span class=\"math inline\">\\(\\ce{AuCl3.2H2O}\\)</span>, em\numa solução com água.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da nassa\nde ouro que pode ser obtida da amostra.</p>",
+        "md": "Um químico quer extrair o ouro existente em $\\pu{14 g}$ de cloreto de\nouro(III) di-hidratado, $\\ce{AuCl3.2H2O}$, em uma solução com água.\n\n**Assinale** a alternativa que mais se aproxima da nassa de ouro que\npode ser obtida da amostra.\n",
+        "tex": "Um químico quer extrair o ouro existente em {\\(\\qty{14}{\\unit{g}}\\)} de cloreto de ouro(III) di-hidratado, {\\(\\ce{AuCl3.2H2O}\\)}, em uma solução com\nágua.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da nassa de ouro que pode ser obtida da amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,8 g}\\)</span>",
+          "md": "$\\pu{5,8 g}$\n",
+          "tex": "{\\(\\qty{5,8}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8 g}\\)</span>",
+          "md": "$\\pu{8 g}$\n",
+          "tex": "{\\(\\qty{8}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 g}\\)</span>",
+          "md": "$\\pu{11 g}$\n",
+          "tex": "{\\(\\qty{11}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{15 g}\\)</span>",
+          "md": "$\\pu{15 g}$\n",
+          "tex": "{\\(\\qty{15}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{21 g}\\)</span>",
+          "md": "$\\pu{21 g}$\n",
+          "tex": "{\\(\\qty{21}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3A39",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A39/3A39.md",
+      "date": "2023-01-15T01:21:49.999629",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A44",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A44/3A44.md",
+      "date": "2023-01-15T01:21:50.035628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A33/3A33.md",
+      "date": "2023-01-15T02:45:32.269966",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndensidade do vapor de clorofórmio, <span class=\"math inline\">\\(\\ce{CHCl3}\\)</span>, em <span class=\"math inline\">\\(\\pu{200 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da densidade do vapor de\nclorofórmio, $\\ce{CHCl3}$, em $\\pu{200 Torr}$ e $\\pu{298 K}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da densidade do vapor de clorofórmio, {\\(\\ce{CHCl3}\\)}, em {\\(\\qty{200}{\\unit{Torr}}\\)} e\n{\\(\\qty{298}{\\unit{K}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,3 g.L-1}\\)</span>",
+          "md": "$\\pu{1,3 g.L-1}$\n",
+          "tex": "{\\(\\qty{1,3}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,6 g.L-1}\\)</span>",
+          "md": "$\\pu{1,6 g.L-1}$\n",
+          "tex": "{\\(\\qty{1,6}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,9 g.L-1}\\)</span>",
+          "md": "$\\pu{1,9 g.L-1}$\n",
+          "tex": "{\\(\\qty{1,9}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,4 g.L-1}\\)</span>",
+          "md": "$\\pu{2,4 g.L-1}$\n",
+          "tex": "{\\(\\qty{2,4}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,9 g.L-1}\\)</span>",
+          "md": "$\\pu{2,9 g.L-1}$\n",
+          "tex": "{\\(\\qty{2,9}{\\unit{g.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A48",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A48/3A48.md",
+      "date": "2023-01-15T01:21:50.067628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A14/3A14.md",
+      "date": "2023-01-15T03:24:36.682205",
+      "statement": {
+        "html": "<p>O composto <span class=\"math inline\">\\(\\alpha\\)</span>-pineno, um\nantisséptico natural encontrado na resina de pinheiros, tem sido usado\ndesde tempos antigos por curandeiros da tripo <em>Zuni</em>.</p>\n<p>Uma amostra de <span class=\"math inline\">\\(\\pu{7,5 g}\\)</span> de\n<span class=\"math inline\">\\(\\alpha\\)</span>-pineno contém <span class=\"math inline\">\\(\\pu{6,61 g}\\)</span> de carbono e <span class=\"math inline\">\\(\\pu{0,89 g}\\)</span> de hidrogênio.</p>\n<p><strong>Assinale</strong> a alternativa com a composição mássica do\n<span class=\"math inline\">\\(\\alpha\\)</span>-pineno.</p>",
+        "md": "O composto $\\alpha$-pineno, um antisséptico natural encontrado na resina\nde pinheiros, tem sido usado desde tempos antigos por curandeiros da\ntripo *Zuni*.\n\nUma amostra de $\\pu{7,5 g}$ de $\\alpha$-pineno contém $\\pu{6,61 g}$ de\ncarbono e $\\pu{0,89 g}$ de hidrogênio.\n\n**Assinale** a alternativa com a composição mássica do $\\alpha$-pineno.\n",
+        "tex": "O composto {\\(\\alpha\\)}-pineno, um antisséptico natural encontrado na resina de pinheiros, tem sido usado desde tempos antigos por curandeiros da\ntripo \\emph{Zuni}.\n\nUma amostra de {\\(\\qty{7,5}{\\unit{g}}\\)} de {\\(\\alpha\\)}-pineno contém {\\(\\qty{6,61}{\\unit{g}}\\)} de carbono e {\\(\\qty{0,89}{\\unit{g}}\\)} de\nhidrogênio.\n\n\\textbf{Assinale} a alternativa com a composição mássica do {\\(\\alpha\\)}-pineno.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{82}\\%\\, \\ce{C}, \\pu{18}\\%\\,\n\\ce{H}\\)</span>",
+          "md": "$\\pu{82}\\%\\, \\ce{C}, \\pu{18}\\%\\, \\ce{H}$\n",
+          "tex": "{\\(\\num{82}\\%\\, \\ce{C}, \\num{18}\\%\\, \\ce{H}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{84}\\%\\, \\ce{C}, \\pu{16}\\%\\,\n\\ce{H}\\)</span>",
+          "md": "$\\pu{84}\\%\\, \\ce{C}, \\pu{16}\\%\\, \\ce{H}$\n",
+          "tex": "{\\(\\num{84}\\%\\, \\ce{C}, \\num{16}\\%\\, \\ce{H}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{86}\\%\\, \\ce{C}, \\pu{14}\\%\\,\n\\ce{H}\\)</span>",
+          "md": "$\\pu{86}\\%\\, \\ce{C}, \\pu{14}\\%\\, \\ce{H}$\n",
+          "tex": "{\\(\\num{86}\\%\\, \\ce{C}, \\num{14}\\%\\, \\ce{H}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{88}\\%\\, \\ce{C}, \\pu{12}\\%\\,\n\\ce{H}\\)</span>",
+          "md": "$\\pu{88}\\%\\, \\ce{C}, \\pu{12}\\%\\, \\ce{H}$\n",
+          "tex": "{\\(\\num{88}\\%\\, \\ce{C}, \\num{12}\\%\\, \\ce{H}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90}\\%\\, \\ce{C}, \\pu{10}\\%\\,\n\\ce{H}\\)</span>",
+          "md": "$\\pu{90}\\%\\, \\ce{C}, \\pu{10}\\%\\, \\ce{H}$\n",
+          "tex": "{\\(\\num{90}\\%\\, \\ce{C}, \\num{10}\\%\\, \\ce{H}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A29",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A29/3A29.md",
+      "date": "2023-01-15T02:39:39.442603",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume ocupado por <span class=\"math inline\">\\(\\pu{1 kg}\\)</span> de gás\nhidrogênio em CNTP.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do volume ocupado por\n$\\pu{1 kg}$ de gás hidrogênio em CNTP.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do volume ocupado por {\\(\\qty{1}{\\unit{kg}}\\)} de gás hidrogênio em CNTP.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4E3 L}\\)</span>",
+          "md": "$\\pu{1,4E3 L}$\n",
+          "tex": "{\\(\\qty{1,4E3}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,7E3 L}\\)</span>",
+          "md": "$\\pu{2,7E3 L}$\n",
+          "tex": "{\\(\\qty{2,7E3}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,5E3 L}\\)</span>",
+          "md": "$\\pu{5,5E3 L}$\n",
+          "tex": "{\\(\\qty{5,5E3}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,1E4 L}\\)</span>",
+          "md": "$\\pu{1,1E4 L}$\n",
+          "tex": "{\\(\\qty{1,1E4}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,2E4 L}\\)</span>",
+          "md": "$\\pu{2,2E4 L}$\n",
+          "tex": "{\\(\\qty{2,2E4}{\\unit{L}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A09/3A09.md",
+      "date": "2023-01-15T01:48:33.536226",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde <span class=\"math inline\">\\(\\pu{0,2 mol}\\)</span> de\nhidrogenossulfato de sódio anidro, <span class=\"math inline\">\\(\\ce{NaHSO4}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da massa de\n$\\pu{0,2 mol}$ de hidrogenossulfato de sódio anidro, $\\ce{NaHSO4}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de {\\(\\qty{0,2}{\\unit{mol}}\\)} de hidrogenossulfato de sódio anidro, {\\(\\ce{NaHSO4}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24 g}\\)</span>",
+          "md": "$\\pu{24 g}$\n",
+          "tex": "{\\(\\qty{24}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{35 g}\\)</span>",
+          "md": "$\\pu{35 g}$\n",
+          "tex": "{\\(\\qty{35}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{52 g}\\)</span>",
+          "md": "$\\pu{52 g}$\n",
+          "tex": "{\\(\\qty{52}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{77 g}\\)</span>",
+          "md": "$\\pu{77 g}$\n",
+          "tex": "{\\(\\qty{77}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{110 g}\\)</span>",
+          "md": "$\\pu{110 g}$\n",
+          "tex": "{\\(\\qty{110}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A43",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A43/3A43.md",
+      "date": "2023-01-15T01:21:50.031628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A18/3A18.md",
+      "date": "2023-01-15T02:06:16.098506",
+      "statement": {
+        "html": "<p>Considere os compostos eteno, <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>; propanol, <span class=\"math inline\">\\(\\ce{C3H7OH}\\)</span>; e heptano <span class=\"math inline\">\\(\\ce{C7H16}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> da fração mássica de nitrogênio.</p>",
+        "md": "Considere os compostos eteno, $\\ce{C2H4}$; propanol, $\\ce{C3H7OH}$; e\nheptano $\\ce{C7H16}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* da fração mássica de nitrogênio.\n",
+        "tex": "Considere os compostos eteno, {\\(\\ce{C2H4}\\)}; propanol, {\\(\\ce{C3H7OH}\\)}; e heptano {\\(\\ce{C7H16}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} da fração mássica de nitrogênio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "propanol; heptano; eteno.",
+          "md": "propanol; heptano; eteno.\n",
+          "tex": "propanol; heptano; eteno.\n"
+        },
+        {
+          "html": "eteno; propanol; heptano.",
+          "md": "eteno; propanol; heptano.\n",
+          "tex": "eteno; propanol; heptano.\n"
+        },
+        {
+          "html": "heptano; eteno; propanol.",
+          "md": "heptano; eteno; propanol.\n",
+          "tex": "heptano; eteno; propanol.\n"
+        },
+        {
+          "html": "heptano; propanol; eteno.",
+          "md": "heptano; propanol; eteno.\n",
+          "tex": "heptano; propanol; eteno.\n"
+        },
+        {
+          "html": "eteno; heptano; propanol.",
+          "md": "eteno; heptano; propanol.\n",
+          "tex": "eteno; heptano; propanol.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "3A54",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A54/3A54.md",
+      "date": "2023-01-15T01:21:50.111628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A26",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A26/3A26.md",
+      "date": "2023-01-15T02:34:54.632602",
+      "statement": {
+        "html": "<p>Uma amostra de ar seco no cilindro de um motor de teste de <span class=\"math inline\">\\(\\pu{80 cm3}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> é comprimida isotermicamente\naté <span class=\"math inline\">\\(\\pu{3,2 atm}\\)</span> sob a ação de um\npistão.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume final da amostra.</p>",
+        "md": "Uma amostra de ar seco no cilindro de um motor de teste de $\\pu{80 cm3}$\ne $\\pu{1 atm}$ é comprimida isotermicamente até $\\pu{3,2 atm}$ sob a\nação de um pistão.\n\n**Assinale** a alternativa que mais se aproxima do volume final da\namostra.\n",
+        "tex": "Uma amostra de ar seco no cilindro de um motor de teste de {\\(\\qty{80}{\\unit{cm^{3}}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)} é comprimida isotermicamente até\n{\\(\\qty{3,2}{\\unit{atm}}\\)} sob a ação de um pistão.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume final da amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 cm3}\\)</span>",
+          "md": "$\\pu{11 cm3}$\n",
+          "tex": "{\\(\\qty{11}{\\unit{cm^{3}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 cm3}\\)</span>",
+          "md": "$\\pu{17 cm3}$\n",
+          "tex": "{\\(\\qty{17}{\\unit{cm^{3}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 cm3}\\)</span>",
+          "md": "$\\pu{25 cm3}$\n",
+          "tex": "{\\(\\qty{25}{\\unit{cm^{3}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 cm3}\\)</span>",
+          "md": "$\\pu{37 cm3}$\n",
+          "tex": "{\\(\\qty{37}{\\unit{cm^{3}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 cm3}\\)</span>",
+          "md": "$\\pu{55 cm3}$\n",
+          "tex": "{\\(\\qty{55}{\\unit{cm^{3}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A41",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A41/3A41.md",
+      "date": "2023-01-15T01:21:50.015628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A30",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A30/3A30.md",
+      "date": "2023-01-15T02:41:29.232023",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume ocupado por <span class=\"math inline\">\\(\\pu{10 g}\\)</span> de gás\nhélio em CNTP.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do volume ocupado por\n$\\pu{10 g}$ de gás hélio em CNTP.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do volume ocupado por {\\(\\qty{10}{\\unit{g}}\\)} de gás hélio em CNTP.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{23 L}\\)</span>",
+          "md": "$\\pu{23 L}$\n",
+          "tex": "{\\(\\qty{23}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{36 L}\\)</span>",
+          "md": "$\\pu{36 L}$\n",
+          "tex": "{\\(\\qty{36}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{56 L}\\)</span>",
+          "md": "$\\pu{56 L}$\n",
+          "tex": "{\\(\\qty{56}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{87 L}\\)</span>",
+          "md": "$\\pu{87 L}$\n",
+          "tex": "{\\(\\qty{87}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 L}\\)</span>",
+          "md": "$\\pu{130 L}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{L}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A17/3A17.md",
+      "date": "2023-01-15T02:55:10.211667",
+      "statement": {
+        "html": "<p>Considere os compostos <span class=\"math inline\">\\(\\ce{NH3}\\)</span>,\n<span class=\"math inline\">\\(\\ce{N2O}\\)</span>, <span class=\"math inline\">\\(\\ce{HNO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> da fração mássica de nitrogênio.</p>",
+        "md": "Considere os compostos $\\ce{NH3}$, $\\ce{N2O}$, $\\ce{HNO2}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* da fração mássica de nitrogênio.\n",
+        "tex": "Considere os compostos {\\(\\ce{NH3}\\)}, {\\(\\ce{N2O}\\)}, {\\(\\ce{HNO2}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} da fração mássica de nitrogênio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{HNO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>.",
+          "md": "$\\ce{HNO2}$; $\\ce{NH3}$; $\\ce{N2O}$.\n",
+          "tex": "{\\(\\ce{HNO2}\\)}; {\\(\\ce{NH3}\\)}; {\\(\\ce{N2O}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{HNO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.",
+          "md": "$\\ce{N2O}$; $\\ce{HNO2}$; $\\ce{NH3}$.\n",
+          "tex": "{\\(\\ce{N2O}\\)}; {\\(\\ce{HNO2}\\)}; {\\(\\ce{NH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NH3}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{HNO2}\\)</span>.",
+          "md": "$\\ce{NH3}$; $\\ce{N2O}$; $\\ce{HNO2}$.\n",
+          "tex": "{\\(\\ce{NH3}\\)}; {\\(\\ce{N2O}\\)}; {\\(\\ce{HNO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>; <span class=\"math inline\">\\(\\ce{HNO2}\\)</span>.",
+          "md": "$\\ce{N2O}$; $\\ce{NH3}$; $\\ce{HNO2}$.\n",
+          "tex": "{\\(\\ce{N2O}\\)}; {\\(\\ce{NH3}\\)}; {\\(\\ce{HNO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{HNO2}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.",
+          "md": "$\\ce{HNO2}$; $\\ce{N2O}$; $\\ce{NH3}$.\n",
+          "tex": "{\\(\\ce{HNO2}\\)}; {\\(\\ce{N2O}\\)}; {\\(\\ce{NH3}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A56",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A56/3A56.md",
+      "date": "2023-01-15T01:21:50.123628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A21/3A21.md",
+      "date": "2023-01-15T02:22:39.889660",
+      "statement": {
+        "html": "<p>A massa molar do estireno, usado na manufatura do plástico\npoliestireno, é <span class=\"math inline\">\\(\\pu{104 g.mol-1}\\)</span> e\nsua fórmula empírica é <span class=\"math inline\">\\(\\ce{CH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula molecular do\nestireno.</p>",
+        "md": "A massa molar do estireno, usado na manufatura do plástico poliestireno,\né $\\pu{104 g.mol-1}$ e sua fórmula empírica é $\\ce{CH}$.\n\n**Assinale** a alternativa com a fórmula molecular do estireno.\n",
+        "tex": "A massa molar do estireno, usado na manufatura do plástico poliestireno, é {\\(\\qty{104}{\\unit{g.mol^{-1}}}\\)} e sua fórmula empírica é {\\(\\ce{CH}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula molecular do estireno.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H2}\\)</span>",
+          "md": "$\\ce{C2H2}$\n",
+          "tex": "{\\(\\ce{C2H2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C4H4}\\)</span>",
+          "md": "$\\ce{C4H4}$\n",
+          "tex": "{\\(\\ce{C4H4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H6}\\)</span>",
+          "md": "$\\ce{C6H6}$\n",
+          "tex": "{\\(\\ce{C6H6}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C8H8}\\)</span>",
+          "md": "$\\ce{C8H8}$\n",
+          "tex": "{\\(\\ce{C8H8}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C10H10}\\)</span>",
+          "md": "$\\ce{C10H10}$\n",
+          "tex": "{\\(\\ce{C10H10}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A57",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A57/3A57.md",
+      "date": "2023-01-15T01:21:50.127628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A58",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A58/3A58.md",
+      "date": "2023-01-15T01:21:50.131628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A32",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A32/3A32.md",
+      "date": "2023-01-15T02:43:55.396429",
+      "statement": {
+        "html": "<p>Considere os gases <span class=\"math inline\">\\(\\ce{NO}\\)</span>,\n<span class=\"math inline\">\\(\\ce{NO2}\\)</span>, e <span class=\"math inline\">\\(\\ce{N2O}\\)</span> sob as mesmas condições de\ntemperatura e pressão.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os gases em\nordem crescente de densidade de massa.</p>",
+        "md": "Considere os gases $\\ce{NO}$, $\\ce{NO2}$, e $\\ce{N2O}$ sob as mesmas\ncondições de temperatura e pressão.\n\n**Assinale** a alternativa que relaciona os gases em ordem crescente de\ndensidade de massa.\n",
+        "tex": "Considere os gases {\\(\\ce{NO}\\)}, {\\(\\ce{NO2}\\)}, e {\\(\\ce{N2O}\\)} sob as mesmas condições de temperatura e pressão.\n\n\\textbf{Assinale} a alternativa que relaciona os gases em ordem crescente de densidade de massa.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>.",
+          "md": "$\\ce{NO2}$; $\\ce{NO}$; $\\ce{N2O}$.\n",
+          "tex": "{\\(\\ce{NO2}\\)}; {\\(\\ce{NO}\\)}; {\\(\\ce{N2O}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>.",
+          "md": "$\\ce{N2O}$; $\\ce{NO2}$; $\\ce{NO}$.\n",
+          "tex": "{\\(\\ce{N2O}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{NO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.",
+          "md": "$\\ce{NO}$; $\\ce{N2O}$; $\\ce{NO2}$.\n",
+          "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{N2O}\\)}; {\\(\\ce{NO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>.",
+          "md": "$\\ce{NO2}$; $\\ce{N2O}$; $\\ce{NO}$.\n",
+          "tex": "{\\(\\ce{NO2}\\)}; {\\(\\ce{N2O}\\)}; {\\(\\ce{NO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{N2O}\\)</span>.",
+          "md": "$\\ce{NO}$; $\\ce{NO2}$; $\\ce{N2O}$.\n",
+          "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{N2O}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A52",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A52/3A52.md",
+      "date": "2023-01-15T01:21:50.095628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A37",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A37/3A37.md",
+      "date": "2023-01-15T01:21:49.983629",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A13/3A13.md",
+      "date": "2023-01-15T03:13:07.821879",
+      "statement": {
+        "html": "<p>Há séculos, os aborígenes australianos usam folhas de eucalipto para\naliviar gargantas irritadas e outras dores. O ingrediente ativo primário\nfoi identificado e recebeu o nome de eucaliptol.</p>\n<p>A análise de uma amostra de eucaliptol de massa total <span class=\"math inline\">\\(\\pu{3,16 g}\\)</span> mostrou em sua composição\n<span class=\"math inline\">\\(\\pu{2,46 g}\\)</span> de carbono, <span class=\"math inline\">\\(\\pu{0,373 g}\\)</span> de hidrogênio e <span class=\"math inline\">\\(\\pu{0,329 g}\\)</span> de oxigênio.</p>\n<p><strong>Assinale</strong> a alternativa com a composição mássica do\neucaliptol.</p>",
+        "md": "Há séculos, os aborígenes australianos usam folhas de eucalipto para\naliviar gargantas irritadas e outras dores. O ingrediente ativo primário\nfoi identificado e recebeu o nome de eucaliptol.\n\nA análise de uma amostra de eucaliptol de massa total $\\pu{3,16 g}$\nmostrou em sua composição $\\pu{2,46 g}$ de carbono, $\\pu{0,373 g}$ de\nhidrogênio e $\\pu{0,329 g}$ de oxigênio.\n\n**Assinale** a alternativa com a composição mássica do eucaliptol.\n",
+        "tex": "Há séculos, os aborígenes australianos usam folhas de eucalipto para aliviar gargantas irritadas e outras dores. O ingrediente ativo primário foi\nidentificado e recebeu o nome de eucaliptol.\n\nA análise de uma amostra de eucaliptol de massa total {\\(\\qty{3,16}{\\unit{g}}\\)} mostrou em sua composição {\\(\\qty{2,46}{\\unit{g}}\\)} de carbono,\n{\\(\\qty{0,373}{\\unit{g}}\\)} de hidrogênio e {\\(\\qty{0,329}{\\unit{g}}\\)} de oxigênio.\n\n\\textbf{Assinale} a alternativa com a composição mássica do eucaliptol.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{72}\\%\\, \\ce{C}, \\pu{16}\\%\\, \\ce{H},\n\\pu{12}\\%\\, \\ce{O}\\)</span>",
+          "md": "$\\pu{72}\\%\\, \\ce{C}, \\pu{16}\\%\\, \\ce{H}, \\pu{12}\\%\\, \\ce{O}$\n",
+          "tex": "{\\(\\num{72}\\%\\, \\ce{C}, \\num{16}\\%\\, \\ce{H}, \\num{12}\\%\\, \\ce{O}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{72}\\%\\, \\ce{C}, \\pu{14}\\%\\, \\ce{H},\n\\pu{14}\\%\\, \\ce{O}\\)</span>",
+          "md": "$\\pu{72}\\%\\, \\ce{C}, \\pu{14}\\%\\, \\ce{H}, \\pu{14}\\%\\, \\ce{O}$\n",
+          "tex": "{\\(\\num{72}\\%\\, \\ce{C}, \\num{14}\\%\\, \\ce{H}, \\num{14}\\%\\, \\ce{O}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{74}\\%\\, \\ce{C}, \\pu{12}\\%\\, \\ce{H},\n\\pu{14}\\%\\, \\ce{O}\\)</span>",
+          "md": "$\\pu{74}\\%\\, \\ce{C}, \\pu{12}\\%\\, \\ce{H}, \\pu{14}\\%\\, \\ce{O}$\n",
+          "tex": "{\\(\\num{74}\\%\\, \\ce{C}, \\num{12}\\%\\, \\ce{H}, \\num{14}\\%\\, \\ce{O}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{78}\\%\\, \\ce{C}, \\pu{12}\\%\\, \\ce{H},\n\\pu{10}\\%\\, \\ce{O}\\)</span>",
+          "md": "$\\pu{78}\\%\\, \\ce{C}, \\pu{12}\\%\\, \\ce{H}, \\pu{10}\\%\\, \\ce{O}$\n",
+          "tex": "{\\(\\num{78}\\%\\, \\ce{C}, \\num{12}\\%\\, \\ce{H}, \\num{10}\\%\\, \\ce{O}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{78}\\%\\, \\ce{C}, \\pu{10}\\%\\, \\ce{H},\n\\pu{12}\\%\\, \\ce{O}\\)</span>",
+          "md": "$\\pu{78}\\%\\, \\ce{C}, \\pu{10}\\%\\, \\ce{H}, \\pu{12}\\%\\, \\ce{O}$\n",
+          "tex": "{\\(\\num{78}\\%\\, \\ce{C}, \\num{10}\\%\\, \\ce{H}, \\num{12}\\%\\, \\ce{O}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A08/3A08.md",
+      "date": "2023-01-15T01:47:24.174674",
+      "statement": {
+        "html": "<p>A cal hidratada, <span class=\"math inline\">\\(\\ce{Ca(OH)2}\\)</span>, é\nusada para ajustar a acidez dos solos.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nquantidade de fórmulas unitárias em uma amostra de <span class=\"math inline\">\\(\\pu{1 kg}\\)</span> de cal.</p>",
+        "md": "A cal hidratada, $\\ce{Ca(OH)2}$, é usada para ajustar a acidez dos\nsolos.\n\n**Assinale** a alternativa que mais se aproxima da quantidade de\nfórmulas unitárias em uma amostra de $\\pu{1 kg}$ de cal.\n",
+        "tex": "A cal hidratada, {\\(\\ce{Ca(OH)2}\\)}, é usada para ajustar a acidez dos solos.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da quantidade de fórmulas unitárias em uma amostra de {\\(\\qty{1}{\\unit{kg}}\\)} de cal.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13 mol}\\)</span>",
+          "md": "$\\pu{13 mol}$\n",
+          "tex": "{\\(\\qty{13}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{18 mol}\\)</span>",
+          "md": "$\\pu{18 mol}$\n",
+          "tex": "{\\(\\qty{18}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 mol}\\)</span>",
+          "md": "$\\pu{26 mol}$\n",
+          "tex": "{\\(\\qty{26}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 mol}\\)</span>",
+          "md": "$\\pu{37 mol}$\n",
+          "tex": "{\\(\\qty{37}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{53 mol}\\)</span>",
+          "md": "$\\pu{53 mol}$\n",
+          "tex": "{\\(\\qty{53}{\\unit{mol}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A16/3A16.md",
+      "date": "2023-01-15T02:03:43.447147",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de prata no nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da fração mássica de\nprata no nitrato de prata, $\\ce{AgNO3}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de prata no nitrato de prata, {\\(\\ce{AgNO3}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{63 \\%}\\)</span>",
+          "md": "$\\pu{63 \\%}$\n",
+          "tex": "{\\(\\qty{63}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{98 \\%}\\)</span>",
+          "md": "$\\pu{98 \\%}$\n",
+          "tex": "{\\(\\qty{98}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{150 \\%}\\)</span>",
+          "md": "$\\pu{150 \\%}$\n",
+          "tex": "{\\(\\qty{150}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{240 \\%}\\)</span>",
+          "md": "$\\pu{240 \\%}$\n",
+          "tex": "{\\(\\qty{240}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{370 \\%}\\)</span>",
+          "md": "$\\pu{370 \\%}$\n",
+          "tex": "{\\(\\qty{370}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A07/3A07.md",
+      "date": "2023-01-15T01:46:18.415471",
+      "statement": {
+        "html": "<p>A ureia, <span class=\"math inline\">\\(\\ce{OC(NH2)2}\\)</span>, é usada\nem cremes faciais e, em maior escala, como fertilizante agrícola.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nquantidade de moléculas de ureia em uma amostra de <span class=\"math inline\">\\(\\pu{2,3e5 g}\\)</span>.</p>",
+        "md": "A ureia, $\\ce{OC(NH2)2}$, é usada em cremes faciais e, em maior escala,\ncomo fertilizante agrícola.\n\n**Assinale** a alternativa que mais se aproxima da quantidade de\nmoléculas de ureia em uma amostra de $\\pu{2,3e5 g}$.\n",
+        "tex": "A ureia, {\\(\\ce{OC(NH2)2}\\)}, é usada em cremes faciais e, em maior escala, como fertilizante agrícola.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da quantidade de moléculas de ureia em uma amostra de {\\(\\qty{2,3e5}{\\unit{g}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0E3 mol}\\)</span>",
+          "md": "$\\pu{2,0E3 mol}$\n",
+          "tex": "{\\(\\qty{2,0E3}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,8E3 mol}\\)</span>",
+          "md": "$\\pu{3,8E3 mol}$\n",
+          "tex": "{\\(\\qty{3,8E3}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,3E3 mol}\\)</span>",
+          "md": "$\\pu{7,3E3 mol}$\n",
+          "tex": "{\\(\\qty{7,3E3}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4E4 mol}\\)</span>",
+          "md": "$\\pu{1,4E4 mol}$\n",
+          "tex": "{\\(\\qty{1,4E4}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,7E4 mol}\\)</span>",
+          "md": "$\\pu{2,7E4 mol}$\n",
+          "tex": "{\\(\\qty{2,7E4}{\\unit{mol}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3A25",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A25/3A25.md",
+      "date": "2023-01-15T02:30:56.796446",
+      "statement": {
+        "html": "<p>Uma amostra de argônio com volume de <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> em <span class=\"math inline\">\\(\\pu{200 Torr}\\)</span> se expande isotermicamente\nem um tudo sob vácuo de volume <span class=\"math inline\">\\(\\pu{0,2\nL}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão final do argônio no tubo.</p>",
+        "md": "Uma amostra de argônio com volume de $\\pu{10 mL}$ em $\\pu{200 Torr}$ se\nexpande isotermicamente em um tudo sob vácuo de volume $\\pu{0,2 L}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão final do\nargônio no tubo.\n",
+        "tex": "Uma amostra de argônio com volume de {\\(\\qty{10}{\\unit{mL}}\\)} em {\\(\\qty{200}{\\unit{Torr}}\\)} se expande isotermicamente em um tudo sob vácuo de\nvolume {\\(\\qty{0,2}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão final do argônio no tubo.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,6 Torr}\\)</span>",
+          "md": "$\\pu{2,6 Torr}$\n",
+          "tex": "{\\(\\qty{2,6}{\\unit{Torr}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,6 Torr}\\)</span>",
+          "md": "$\\pu{3,6 Torr}$\n",
+          "tex": "{\\(\\qty{3,6}{\\unit{Torr}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,1 Torr}\\)</span>",
+          "md": "$\\pu{5,1 Torr}$\n",
+          "tex": "{\\(\\qty{5,1}{\\unit{Torr}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,1 Torr}\\)</span>",
+          "md": "$\\pu{7,1 Torr}$\n",
+          "tex": "{\\(\\qty{7,1}{\\unit{Torr}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{10 Torr}\\)</span>",
+          "md": "$\\pu{10 Torr}$\n",
+          "tex": "{\\(\\qty{10}{\\unit{Torr}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "3A36",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A36/3A36.md",
+      "date": "2023-01-15T03:24:53.333890",
+      "statement": {
+        "html": "<p>O <em>Codex Ebers</em>, um papiro médico egípcio, descreve o uso de\nalho com antisséptico. Hoje os químicos sabem que o óxido do dissulfeto\nde dialila (o composto volátil responsável pelo odor do alho) é um\nagente bactericida poderoso. Em <span class=\"math inline\">\\(\\pu{177\n\\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{200\nTorr}\\)</span>, uma amostra do vapor de dissulfeto de dialila tem\ndensidade <span class=\"math inline\">\\(\\pu{1,04 g.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nmolar da crisarobina.</p>",
+        "md": "O *Codex Ebers*, um papiro médico egípcio, descreve o uso de alho com\nantisséptico. Hoje os químicos sabem que o óxido do dissulfeto de\ndialila (o composto volátil responsável pelo odor do alho) é um agente\nbactericida poderoso. Em $\\pu{177 \\degree C}$ e $\\pu{200 Torr}$, uma\namostra do vapor de dissulfeto de dialila tem densidade\n$\\pu{1,04 g.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar da\ncrisarobina.\n",
+        "tex": "O \\emph{Codex Ebers}, um papiro médico egípcio, descreve o uso de alho com antisséptico. Hoje os químicos sabem que o óxido do dissulfeto de dialila\n(o composto volátil responsável pelo odor do alho) é um agente bactericida poderoso. Em {\\(\\qty{177}{\\unit{\\degree C}}\\)} e\n{\\(\\qty{200}{\\unit{Torr}}\\)}, uma amostra do vapor de dissulfeto de dialila tem densidade {\\(\\qty{1,04}{\\unit{g.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar da crisarobina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{21 g.mol-1}\\)</span>",
+          "md": "$\\pu{21 g.mol-1}$\n",
+          "tex": "{\\(\\qty{21}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{34 g.mol-1}\\)</span>",
+          "md": "$\\pu{34 g.mol-1}$\n",
+          "tex": "{\\(\\qty{34}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 g.mol-1}\\)</span>",
+          "md": "$\\pu{55 g.mol-1}$\n",
+          "tex": "{\\(\\qty{55}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{89 g.mol-1}\\)</span>",
+          "md": "$\\pu{89 g.mol-1}$\n",
+          "tex": "{\\(\\qty{89}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{150 g.mol-1}\\)</span>",
+          "md": "$\\pu{150 g.mol-1}$\n",
+          "tex": "{\\(\\qty{150}{\\unit{g.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "3A47",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A47/3A47.md",
+      "date": "2023-01-15T01:21:50.059628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A05/3A05.md",
+      "date": "2023-01-15T01:41:23.105562",
+      "statement": {
+        "html": "<p>A composição de uma amostra típica de magnésio é <span class=\"math inline\">\\(79\\%\\)</span> de magnésio-24 (massa atômica <span class=\"math inline\">\\(\\pu{3,98e-23 g}\\)</span>), <span class=\"math inline\">\\(10\\%\\)</span> de magnésio-25 (<span class=\"math inline\">\\(\\pu{4,15e-23 g}\\)</span>) e <span class=\"math inline\">\\(11\\%\\)</span> de magnésio-26 (<span class=\"math inline\">\\(\\pu{4,31e-23 g}\\)</span>).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nmolar de uma amostra típica de magnésio.</p>",
+        "md": "A composição de uma amostra típica de magnésio é $79\\%$ de magnésio-24\n(massa atômica $\\pu{3,98e-23 g}$), $10\\%$ de magnésio-25\n($\\pu{4,15e-23 g}$) e $11\\%$ de magnésio-26 ($\\pu{4,31e-23 g}$).\n\n**Assinale** a alternativa que mais se aproxima da massa molar de uma\namostra típica de magnésio.\n",
+        "tex": "A composição de uma amostra típica de magnésio é {\\(79\\%\\)} de magnésio-24 (massa atômica {\\(\\qty{3,98e-23}{\\unit{g}}\\)}), {\\(10\\%\\)} de magnésio-25\n({\\(\\qty{4,15e-23}{\\unit{g}}\\)}) e {\\(11\\%\\)} de magnésio-26 ({\\(\\qty{4,31e-23}{\\unit{g}}\\)}).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar de uma amostra típica de magnésio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24,1 g.mol-1}\\)</span>",
+          "md": "$\\pu{24,1 g.mol-1}$\n",
+          "tex": "{\\(\\qty{24,1}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24,2 g.mol-1}\\)</span>",
+          "md": "$\\pu{24,2 g.mol-1}$\n",
+          "tex": "{\\(\\qty{24,2}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24,3 g.mol-1}\\)</span>",
+          "md": "$\\pu{24,3 g.mol-1}$\n",
+          "tex": "{\\(\\qty{24,3}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24,4 g.mol-1}\\)</span>",
+          "md": "$\\pu{24,4 g.mol-1}$\n",
+          "tex": "{\\(\\qty{24,4}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24,5 g.mol-1}\\)</span>",
+          "md": "$\\pu{24,5 g.mol-1}$\n",
+          "tex": "{\\(\\qty{24,5}{\\unit{g.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A35/3A35.md",
+      "date": "2023-01-15T03:25:05.641657",
+      "statement": {
+        "html": "<p>O fármaco crisarobina foi isolado de plantas usadas pelos curandeiros\nda etnia <em>Zuni</em> para tratar doenças de pele. Em <span class=\"math inline\">\\(\\pu{210 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{64 Torr}\\)</span>, uma amostra do vapor de\ncrisarobina tem densidade <span class=\"math inline\">\\(\\pu{0,51\ng.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nmolar da crisarobina.</p>",
+        "md": "O fármaco crisarobina foi isolado de plantas usadas pelos curandeiros da\netnia *Zuni* para tratar doenças de pele. Em $\\pu{210 \\degree C}$ e\n$\\pu{64 Torr}$, uma amostra do vapor de crisarobina tem densidade\n$\\pu{0,51 g.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da massa molar da\ncrisarobina.\n",
+        "tex": "O fármaco crisarobina foi isolado de plantas usadas pelos curandeiros da etnia \\emph{Zuni} para tratar doenças de pele. Em\n{\\(\\qty{210}{\\unit{\\degree C}}\\)} e {\\(\\qty{64}{\\unit{Torr}}\\)}, uma amostra do vapor de crisarobina tem densidade {\\(\\qty{0,51}{\\unit{g.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar da crisarobina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{240 g.mol-1}\\)</span>",
+          "md": "$\\pu{240 g.mol-1}$\n",
+          "tex": "{\\(\\qty{240}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{400 g.mol-1}\\)</span>",
+          "md": "$\\pu{400 g.mol-1}$\n",
+          "tex": "{\\(\\qty{400}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{670 g.mol-1}\\)</span>",
+          "md": "$\\pu{670 g.mol-1}$\n",
+          "tex": "{\\(\\qty{670}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1100 g.mol-1}\\)</span>",
+          "md": "$\\pu{1100 g.mol-1}$\n",
+          "tex": "{\\(\\qty{1100}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1900 g.mol-1}\\)</span>",
+          "md": "$\\pu{1900 g.mol-1}$\n",
+          "tex": "{\\(\\qty{1900}{\\unit{g.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A38",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A38/3A38.md",
+      "date": "2023-01-15T01:21:49.991628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A55",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A55/3A55.md",
+      "date": "2023-01-15T01:21:50.119628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A53",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A53/3A53.md",
+      "date": "2023-01-15T01:21:50.103628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A23/3A23.md",
+      "date": "2023-01-15T02:33:48.141809",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de\ndióxido de carbono, <span class=\"math inline\">\\(\\ce{CO2}\\)</span>, está\ncontida em um balão de volume <span class=\"math inline\">\\(\\pu{1\nL}\\)</span> em <span class=\"math inline\">\\(\\pu{300 \\degree\nC}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão no balão.</p>",
+        "md": "Uma amostra de $\\pu{1 g}$ de dióxido de carbono, $\\ce{CO2}$, está\ncontida em um balão de volume $\\pu{1 L}$ em $\\pu{300 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão no balão.\n",
+        "tex": "Uma amostra de {\\(\\qty{1}{\\unit{g}}\\)} de dióxido de carbono, {\\(\\ce{CO2}\\)}, está contida em um balão de volume {\\(\\qty{1}{\\unit{L}}\\)} em\n{\\(\\qty{300}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão no balão.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{43 kPa}\\)</span>",
+          "md": "$\\pu{43 kPa}$\n",
+          "tex": "{\\(\\qty{43}{\\unit{kPa}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{68 kPa}\\)</span>",
+          "md": "$\\pu{68 kPa}$\n",
+          "tex": "{\\(\\qty{68}{\\unit{kPa}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{110 kPa}\\)</span>",
+          "md": "$\\pu{110 kPa}$\n",
+          "tex": "{\\(\\qty{110}{\\unit{kPa}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180 kPa}\\)</span>",
+          "md": "$\\pu{180 kPa}$\n",
+          "tex": "{\\(\\qty{180}{\\unit{kPa}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{280 kPa}\\)</span>",
+          "md": "$\\pu{280 kPa}$\n",
+          "tex": "{\\(\\qty{280}{\\unit{kPa}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A46",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A46/3A46.md",
+      "date": "2023-01-15T01:21:50.051628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A40/3A40.md",
+      "date": "2023-01-15T01:21:50.007628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A50",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A50/3A50.md",
+      "date": "2023-01-15T01:21:50.083628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A06/3A06.md",
+      "date": "2023-01-15T01:43:39.968935",
+      "statement": {
+        "html": "<p>A composição de uma amostra natural de cobre é <span class=\"math inline\">\\(70\\%\\)</span> de cobre-63 (massa molar <span class=\"math inline\">\\(\\pu{62,9 g.mol-1}\\)</span>) e <span class=\"math inline\">\\(30\\%\\)</span> de cobre-65 (<span class=\"math inline\">\\(\\pu{64,9 g.mol-1}\\)</span>).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nmolar de uma amostra típica de cobre.</p>",
+        "md": "A composição de uma amostra natural de cobre é $70\\%$ de cobre-63 (massa\nmolar $\\pu{62,9 g.mol-1}$) e $30\\%$ de cobre-65 ($\\pu{64,9 g.mol-1}$).\n\n**Assinale** a alternativa que mais se aproxima da massa molar de uma\namostra típica de cobre.\n",
+        "tex": "A composição de uma amostra natural de cobre é {\\(70\\%\\)} de cobre-63 (massa molar {\\(\\qty{62,9}{\\unit{g.mol^{-1}}}\\)}) e {\\(30\\%\\)} de cobre-65\n({\\(\\qty{64,9}{\\unit{g.mol^{-1}}}\\)}).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar de uma amostra típica de cobre.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{63,1 g.mol-1}\\)</span>",
+          "md": "$\\pu{63,1 g.mol-1}$\n",
+          "tex": "{\\(\\qty{63,1}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{63,2 g.mol-1}\\)</span>",
+          "md": "$\\pu{63,2 g.mol-1}$\n",
+          "tex": "{\\(\\qty{63,2}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{63,3 g.mol-1}\\)</span>",
+          "md": "$\\pu{63,3 g.mol-1}$\n",
+          "tex": "{\\(\\qty{63,3}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{63,4 g.mol-1}\\)</span>",
+          "md": "$\\pu{63,4 g.mol-1}$\n",
+          "tex": "{\\(\\qty{63,4}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{63,5 g.mol-1}\\)</span>",
+          "md": "$\\pu{63,5 g.mol-1}$\n",
+          "tex": "{\\(\\qty{63,5}{\\unit{g.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "3A28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A28/3A28.md",
+      "date": "2023-01-15T02:38:21.296360",
+      "statement": {
+        "html": "<p>Um balão atmosférico está cheio de gás hélio de <span class=\"math inline\">\\(\\pu{20 \\degree C }\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>. O volume do balão é <span class=\"math inline\">\\(\\pu{250 L}\\)</span>. Quando o balão sobe até uma\ncamada de ar onde a temperatura é <span class=\"math inline\">\\(\\pu{-30\n\\degree C}\\)</span>, o volume se expande até <span class=\"math inline\">\\(\\pu{800 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão da atmosfera nesse ponto.</p>",
+        "md": "Um balão atmosférico está cheio de gás hélio de $\\pu{20 \\degree C }$ e\n$\\pu{1 atm}$. O volume do balão é $\\pu{250 L}$. Quando o balão sobe até\numa camada de ar onde a temperatura é $\\pu{-30 \\degree C}$, o volume se\nexpande até $\\pu{800 L}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão da atmosfera\nnesse ponto.\n",
+        "tex": "Um balão atmosférico está cheio de gás hélio de {\\(\\qty{20}{\\unit{\\degree C }}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}. O volume do balão é\n{\\(\\qty{250}{\\unit{L}}\\)}. Quando o balão sobe até uma camada de ar onde a temperatura é {\\(\\qty{-30}{\\unit{\\degree C}}\\)}, o volume se expande até\n{\\(\\qty{800}{\\unit{L}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão da atmosfera nesse ponto.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,26 atm}\\)</span>",
+          "md": "$\\pu{0,26 atm}$\n",
+          "tex": "{\\(\\qty{0,26}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,34 atm}\\)</span>",
+          "md": "$\\pu{0,34 atm}$\n",
+          "tex": "{\\(\\qty{0,34}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,45 atm}\\)</span>",
+          "md": "$\\pu{0,45 atm}$\n",
+          "tex": "{\\(\\qty{0,45}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,59 atm}\\)</span>",
+          "md": "$\\pu{0,59 atm}$\n",
+          "tex": "{\\(\\qty{0,59}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,78 atm}\\)</span>",
+          "md": "$\\pu{0,78 atm}$\n",
+          "tex": "{\\(\\qty{0,78}{\\unit{atm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A15/3A15.md",
+      "date": "2023-01-15T02:02:35.440378",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de cloro no cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da fração mássica de\ncloro no cloreto de sódio, $\\ce{NaCl}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de cloro no cloreto de sódio, {\\(\\ce{NaCl}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{61 \\%}\\)</span>",
+          "md": "$\\pu{61 \\%}$\n",
+          "tex": "{\\(\\qty{61}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{95 \\%}\\)</span>",
+          "md": "$\\pu{95 \\%}$\n",
+          "tex": "{\\(\\qty{95}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{150 \\%}\\)</span>",
+          "md": "$\\pu{150 \\%}$\n",
+          "tex": "{\\(\\qty{150}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{230 \\%}\\)</span>",
+          "md": "$\\pu{230 \\%}$\n",
+          "tex": "{\\(\\qty{230}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{360 \\%}\\)</span>",
+          "md": "$\\pu{360 \\%}$\n",
+          "tex": "{\\(\\qty{360}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A27",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A27/3A27.md",
+      "date": "2023-01-15T02:36:42.498471",
+      "statement": {
+        "html": "<p>Uma parcela (termo técnico usado em meteorologia para uma pequena\nregião da atmosfera) de ar cujo volume é <span class=\"math inline\">\\(\\pu{1 m3}\\)</span> em <span class=\"math inline\">\\(\\pu{20 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> se eleva em um dos lados de\numa montanha. No topo, onde a pressão é <span class=\"math inline\">\\(\\pu{0,75 atm}\\)</span>, a parcela esfriou até\n<span class=\"math inline\">\\(\\pu{-10 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume da parcela nesse ponto.</p>",
+        "md": "Uma parcela (termo técnico usado em meteorologia para uma pequena região\nda atmosfera) de ar cujo volume é $\\pu{1 m3}$ em $\\pu{20 \\degree C}$ e\n$\\pu{1 atm}$ se eleva em um dos lados de uma montanha. No topo, onde a\npressão é $\\pu{0,75 atm}$, a parcela esfriou até $\\pu{-10 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do volume da parcela\nnesse ponto.\n",
+        "tex": "Uma parcela (termo técnico usado em meteorologia para uma pequena região da atmosfera) de ar cujo volume é {\\(\\qty{1}{\\unit{m^{3}}}\\)} em\n{\\(\\qty{20}{\\unit{\\degree C}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)} se eleva em um dos lados de uma montanha. No topo, onde a pressão é\n{\\(\\qty{0,75}{\\unit{atm}}\\)}, a parcela esfriou até {\\(\\qty{-10}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume da parcela nesse ponto.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{200 L}\\)</span>",
+          "md": "$\\pu{200 L}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{360 L}\\)</span>",
+          "md": "$\\pu{360 L}$\n",
+          "tex": "{\\(\\qty{360}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{660 L}\\)</span>",
+          "md": "$\\pu{660 L}$\n",
+          "tex": "{\\(\\qty{660}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1200 L}\\)</span>",
+          "md": "$\\pu{1200 L}$\n",
+          "tex": "{\\(\\qty{1200}{\\unit{L}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2200 L}\\)</span>",
+          "md": "$\\pu{2200 L}$\n",
+          "tex": "{\\(\\qty{2200}{\\unit{L}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A19/3A19.md",
+      "date": "2023-01-15T03:13:59.353142",
+      "statement": {
+        "html": "<p>A vanilina é encontrada na baunilha, extraída de orquídeas mexicanas.\nA análise da vanilina encontrou uma composição mássica de <span class=\"math inline\">\\(\\pu{63}\\%\\, \\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{5}\\%\\, \\ce{H}\\)</span> e <span class=\"math inline\">\\(\\pu{32}\\%\\, \\ce{O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula empírica do\nvanilina.</p>",
+        "md": "A vanilina é encontrada na baunilha, extraída de orquídeas mexicanas. A\nanálise da vanilina encontrou uma composição mássica de\n$\\pu{63}\\%\\, \\ce{C}$, $\\pu{5}\\%\\, \\ce{H}$ e $\\pu{32}\\%\\, \\ce{O}$.\n\n**Assinale** a alternativa com a fórmula empírica do vanilina.\n",
+        "tex": "A vanilina é encontrada na baunilha, extraída de orquídeas mexicanas. A análise da vanilina encontrou uma composição mássica de\n{\\(\\num{63}\\%\\, \\ce{C}\\)}, {\\(\\num{5}\\%\\, \\ce{H}\\)} e {\\(\\num{32}\\%\\, \\ce{O}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula empírica do vanilina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C8H6O3}\\)</span>",
+          "md": "$\\ce{C8H6O3}$\n",
+          "tex": "{\\(\\ce{C8H6O3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C8H8O3}\\)</span>",
+          "md": "$\\ce{C8H8O3}$\n",
+          "tex": "{\\(\\ce{C8H8O3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C8H10O3}\\)</span>",
+          "md": "$\\ce{C8H10O3}$\n",
+          "tex": "{\\(\\ce{C8H10O3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C10H8O3}\\)</span>",
+          "md": "$\\ce{C10H8O3}$\n",
+          "tex": "{\\(\\ce{C10H8O3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C10H8O4}\\)</span>",
+          "md": "$\\ce{C10H8O4}$\n",
+          "tex": "{\\(\\ce{C10H8O4}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3A10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A10/3A10.md",
+      "date": "2023-01-15T02:08:38.596303",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde <span class=\"math inline\">\\(\\pu{1,5 mol}\\)</span> de\nhidrogenossulfato de acido acético, <span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da massa de\n$\\pu{1,5 mol}$ de hidrogenossulfato de acido acético, $\\ce{CH3COOH}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da massa de {\\(\\qty{1,5}{\\unit{mol}}\\)} de hidrogenossulfato de acido acético,\n{\\(\\ce{CH3COOH}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{57 g}\\)</span>",
+          "md": "$\\pu{57 g}$\n",
+          "tex": "{\\(\\qty{57}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90 g}\\)</span>",
+          "md": "$\\pu{90 g}$\n",
+          "tex": "{\\(\\qty{90}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 g}\\)</span>",
+          "md": "$\\pu{140 g}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{230 g}\\)</span>",
+          "md": "$\\pu{230 g}$\n",
+          "tex": "{\\(\\qty{230}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{360 g}\\)</span>",
+          "md": "$\\pu{360 g}$\n",
+          "tex": "{\\(\\qty{360}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3A11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A11/3A11.md",
+      "date": "2023-01-15T01:53:09.919139",
+      "statement": {
+        "html": "<p>Uma usina de enriquecimento de urânio processou <span class=\"math inline\">\\(\\pu{25 kg}\\)</span> de hexafluoreto de urânio,\n<span class=\"math inline\">\\(\\ce{UF6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde flúor na amostra processada.</p>",
+        "md": "Uma usina de enriquecimento de urânio processou $\\pu{25 kg}$ de\nhexafluoreto de urânio, $\\ce{UF6}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de flúor na\namostra processada.\n",
+        "tex": "Uma usina de enriquecimento de urânio processou {\\(\\qty{25}{\\unit{kg}}\\)} de hexafluoreto de urânio, {\\(\\ce{UF6}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de flúor na amostra processada.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{84 mol}\\)</span>",
+          "md": "$\\pu{84 mol}$\n",
+          "tex": "{\\(\\qty{84}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 mol}\\)</span>",
+          "md": "$\\pu{140 mol}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{250 mol}\\)</span>",
+          "md": "$\\pu{250 mol}$\n",
+          "tex": "{\\(\\qty{250}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{430 mol}\\)</span>",
+          "md": "$\\pu{430 mol}$\n",
+          "tex": "{\\(\\qty{430}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{740 mol}\\)</span>",
+          "md": "$\\pu{740 mol}$\n",
+          "tex": "{\\(\\qty{740}{\\unit{mol}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A03/3A03.md",
+      "date": "2023-01-15T03:05:10.442491",
+      "statement": {
+        "html": "<p>A massa de uma moeda feita com cobre puro é <span class=\"math inline\">\\(\\pu{3,2 g}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nquantidade de cobre na moeda.</p>",
+        "md": "A massa de uma moeda feita com cobre puro é $\\pu{3,2 g}$.\n\n**Assinale** a alternativa que mais se aproxima da quantidade de cobre\nna moeda.\n",
+        "tex": "A massa de uma moeda feita com cobre puro é {\\(\\qty{3,2}{\\unit{g}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da quantidade de cobre na moeda.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,016 mol}\\)</span>",
+          "md": "$\\pu{0,016 mol}$\n",
+          "tex": "{\\(\\qty{0,016}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,023 mol}\\)</span>",
+          "md": "$\\pu{0,023 mol}$\n",
+          "tex": "{\\(\\qty{0,023}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,034 mol}\\)</span>",
+          "md": "$\\pu{0,034 mol}$\n",
+          "tex": "{\\(\\qty{0,034}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,050 mol}\\)</span>",
+          "md": "$\\pu{0,050 mol}$\n",
+          "tex": "{\\(\\qty{0,050}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,073 mol}\\)</span>",
+          "md": "$\\pu{0,073 mol}$\n",
+          "tex": "{\\(\\qty{0,073}{\\unit{mol}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3A34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A34/3A34.md",
+      "date": "2023-01-15T02:46:25.820582",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndensidade da amônia, <span class=\"math inline\">\\(\\ce{CHCl3}\\)</span>, em\n<span class=\"math inline\">\\(\\pu{0,86 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{32 \\degree C}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da densidade da amônia,\n$\\ce{CHCl3}$, em $\\pu{0,86 atm}$ e $\\pu{32 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da densidade da amônia, {\\(\\ce{CHCl3}\\)}, em {\\(\\qty{0,86}{\\unit{atm}}\\)} e\n{\\(\\qty{32}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,38 g.L-1}\\)</span>",
+          "md": "$\\pu{0,38 g.L-1}$\n",
+          "tex": "{\\(\\qty{0,38}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,47 g.L-1}\\)</span>",
+          "md": "$\\pu{0,47 g.L-1}$\n",
+          "tex": "{\\(\\qty{0,47}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,59 g.L-1}\\)</span>",
+          "md": "$\\pu{0,59 g.L-1}$\n",
+          "tex": "{\\(\\qty{0,59}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,74 g.L-1}\\)</span>",
+          "md": "$\\pu{0,74 g.L-1}$\n",
+          "tex": "{\\(\\qty{0,74}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,92 g.L-1}\\)</span>",
+          "md": "$\\pu{0,92 g.L-1}$\n",
+          "tex": "{\\(\\qty{0,92}{\\unit{g.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A24/3A24.md",
+      "date": "2023-01-15T02:29:46.845284",
+      "statement": {
+        "html": "<p>Um motor de automóvel mal regular, em marcha lenta, pode liberar até\n<span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CO}\\)</span> por minuto na atmosfera.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume de <span class=\"math inline\">\\(\\ce{CO}\\)</span> emitido por\nminuto em <span class=\"math inline\">\\(\\pu{27 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>",
+        "md": "Um motor de automóvel mal regular, em marcha lenta, pode liberar até\n$\\pu{1 mol}$ de $\\ce{CO}$ por minuto na atmosfera.\n\n**Assinale** a alternativa que mais se aproxima do volume de $\\ce{CO}$\nemitido por minuto em $\\pu{27 \\degree C}$ e $\\pu{1 atm}$.\n",
+        "tex": "Um motor de automóvel mal regular, em marcha lenta, pode liberar até {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CO}\\)} por minuto na atmosfera.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume de {\\(\\ce{CO}\\)} emitido por minuto em {\\(\\qty{27}{\\unit{\\degree C}}\\)} e\n{\\(\\qty{1}{\\unit{atm}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 L.min-1}\\)</span>",
+          "md": "$\\pu{11 L.min-1}$\n",
+          "tex": "{\\(\\qty{11}{\\unit{L.min^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 L.min-1}\\)</span>",
+          "md": "$\\pu{17 L.min-1}$\n",
+          "tex": "{\\(\\qty{17}{\\unit{L.min^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 L.min-1}\\)</span>",
+          "md": "$\\pu{25 L.min-1}$\n",
+          "tex": "{\\(\\qty{25}{\\unit{L.min^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 L.min-1}\\)</span>",
+          "md": "$\\pu{37 L.min-1}$\n",
+          "tex": "{\\(\\qty{37}{\\unit{L.min^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 L.min-1}\\)</span>",
+          "md": "$\\pu{55 L.min-1}$\n",
+          "tex": "{\\(\\qty{55}{\\unit{L.min^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A01/3A01.md",
+      "date": "2023-01-15T01:26:01.662416",
+      "statement": {
+        "html": "<p>Uma amostra de uma droga extraída de um fruto usado pela tribo\nperuana <em>Achuar Jivaro</em> para tratar infecções fúngicas contém\n<span class=\"math inline\">\\(\\pu{3e24}\\)</span> átomos de oxigênio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nquantidade de átomos de oxigênio na amostra.</p>",
+        "md": "Uma amostra de uma droga extraída de um fruto usado pela tribo peruana\n*Achuar Jivaro* para tratar infecções fúngicas contém $\\pu{3e24}$ átomos\nde oxigênio.\n\n**Assinale** a alternativa que mais se aproxima da quantidade de átomos\nde oxigênio na amostra.\n",
+        "tex": "Uma amostra de uma droga extraída de um fruto usado pela tribo peruana \\emph{Achuar Jivaro} para tratar infecções fúngicas contém {\\(\\num{3e24}\\)}\nátomos de oxigênio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da quantidade de átomos de oxigênio na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,3 mol}\\)</span>",
+          "md": "$\\pu{4,3 mol}$\n",
+          "tex": "{\\(\\qty{4,3}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,7 mol}\\)</span>",
+          "md": "$\\pu{5,7 mol}$\n",
+          "tex": "{\\(\\qty{5,7}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,6 mol}\\)</span>",
+          "md": "$\\pu{7,6 mol}$\n",
+          "tex": "{\\(\\qty{7,6}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{10 mol}\\)</span>",
+          "md": "$\\pu{10 mol}$\n",
+          "tex": "{\\(\\qty{10}{\\unit{mol}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13 mol}\\)</span>",
+          "md": "$\\pu{13 mol}$\n",
+          "tex": "{\\(\\qty{13}{\\unit{mol}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A60",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A60/3A60.md",
+      "date": "2023-01-15T01:21:50.135628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A31",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A31/3A31.md",
+      "date": "2023-01-15T02:43:20.149310",
+      "statement": {
+        "html": "<p>Considere os gases <span class=\"math inline\">\\(\\ce{N2H4}\\)</span>,\n<span class=\"math inline\">\\(\\ce{N2}\\)</span>, e <span class=\"math inline\">\\(\\ce{NH3}\\)</span> sob as mesmas condições de\ntemperatura e pressão.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os gases em\nordem crescente de densidade de massa.</p>",
+        "md": "Considere os gases $\\ce{N2H4}$, $\\ce{N2}$, e $\\ce{NH3}$ sob as mesmas\ncondições de temperatura e pressão.\n\n**Assinale** a alternativa que relaciona os gases em ordem crescente de\ndensidade de massa.\n",
+        "tex": "Considere os gases {\\(\\ce{N2H4}\\)}, {\\(\\ce{N2}\\)}, e {\\(\\ce{NH3}\\)} sob as mesmas condições de temperatura e pressão.\n\n\\textbf{Assinale} a alternativa que relaciona os gases em ordem crescente de densidade de massa.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{N2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>; <span class=\"math inline\">\\(\\ce{N2}\\)</span>.",
+          "md": "$\\ce{N2H4}$; $\\ce{NH3}$; $\\ce{N2}$.\n",
+          "tex": "{\\(\\ce{N2H4}\\)}; {\\(\\ce{NH3}\\)}; {\\(\\ce{N2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NH3}\\)</span>; <span class=\"math inline\">\\(\\ce{N2}\\)</span>; <span class=\"math inline\">\\(\\ce{N2H4}\\)</span>.",
+          "md": "$\\ce{NH3}$; $\\ce{N2}$; $\\ce{N2H4}$.\n",
+          "tex": "{\\(\\ce{NH3}\\)}; {\\(\\ce{N2}\\)}; {\\(\\ce{N2H4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{N2}\\)</span>; <span class=\"math inline\">\\(\\ce{N2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.",
+          "md": "$\\ce{N2}$; $\\ce{N2H4}$; $\\ce{NH3}$.\n",
+          "tex": "{\\(\\ce{N2}\\)}; {\\(\\ce{N2H4}\\)}; {\\(\\ce{NH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{N2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{N2}\\)</span>; <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.",
+          "md": "$\\ce{N2H4}$; $\\ce{N2}$; $\\ce{NH3}$.\n",
+          "tex": "{\\(\\ce{N2H4}\\)}; {\\(\\ce{N2}\\)}; {\\(\\ce{NH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NH3}\\)</span>; <span class=\"math inline\">\\(\\ce{N2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{N2}\\)</span>.",
+          "md": "$\\ce{NH3}$; $\\ce{N2H4}$; $\\ce{N2}$.\n",
+          "tex": "{\\(\\ce{NH3}\\)}; {\\(\\ce{N2H4}\\)}; {\\(\\ce{N2}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3A04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A04/3A04.md",
+      "date": "2023-01-15T01:36:49.339561",
+      "statement": {
+        "html": "<p>A cada dia são coletados <span class=\"math inline\">\\(\\pu{5,4\nkg}\\)</span> de alumínio em uma lixeira para resíduos recicláveis.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nnúmero de átomo de alumínio coletados em um dia.</p>",
+        "md": "A cada dia são coletados $\\pu{5,4 kg}$ de alumínio em uma lixeira para\nresíduos recicláveis.\n\n**Assinale** a alternativa que mais se aproxima do número de átomo de\nalumínio coletados em um dia.\n",
+        "tex": "A cada dia são coletados {\\(\\qty{5,4}{\\unit{kg}}\\)} de alumínio em uma lixeira para resíduos recicláveis.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomo de alumínio coletados em um dia.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2E26}\\)</span>",
+          "md": "$\\pu{1,2E26}$\n",
+          "tex": "{\\(\\num{1,2E26}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,7E26}\\)</span>",
+          "md": "$\\pu{7,7E26}$\n",
+          "tex": "{\\(\\num{7,7E26}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,9E27}\\)</span>",
+          "md": "$\\pu{4,9E27}$\n",
+          "tex": "{\\(\\num{4,9E27}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,2E28}\\)</span>",
+          "md": "$\\pu{3,2E28}$\n",
+          "tex": "{\\(\\num{3,2E28}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0E29}\\)</span>",
+          "md": "$\\pu{2,0E29}$\n",
+          "tex": "{\\(\\num{2,0E29}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3A20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A20/3A20.md",
+      "date": "2023-01-15T03:14:12.548948",
+      "statement": {
+        "html": "<p>A cadaverina é produzida na carne em decomposição. A análise da\nvanilina encontrou uma composição mássica de <span class=\"math inline\">\\(\\pu{59}\\%\\, \\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{14}\\%\\, \\ce{H}\\)</span> e <span class=\"math inline\">\\(\\pu{27}\\%\\, \\ce{O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula empírica do\nvanilina.</p>",
+        "md": "A cadaverina é produzida na carne em decomposição. A análise da vanilina\nencontrou uma composição mássica de $\\pu{59}\\%\\, \\ce{C}$,\n$\\pu{14}\\%\\, \\ce{H}$ e $\\pu{27}\\%\\, \\ce{O}$.\n\n**Assinale** a alternativa com a fórmula empírica do vanilina.\n",
+        "tex": "A cadaverina é produzida na carne em decomposição. A análise da vanilina encontrou uma composição mássica de {\\(\\num{59}\\%\\, \\ce{C}\\)},\n{\\(\\num{14}\\%\\, \\ce{H}\\)} e {\\(\\num{27}\\%\\, \\ce{O}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula empírica do vanilina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C3H14N}\\)</span>",
+          "md": "$\\ce{C3H14N}$\n",
+          "tex": "{\\(\\ce{C3H14N}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C5H12N3}\\)</span>",
+          "md": "$\\ce{C5H12N3}$\n",
+          "tex": "{\\(\\ce{C5H12N3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C5H14N2}\\)</span>",
+          "md": "$\\ce{C5H14N2}$\n",
+          "tex": "{\\(\\ce{C5H14N2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C7H14N2}\\)</span>",
+          "md": "$\\ce{C7H14N2}$\n",
+          "tex": "{\\(\\ce{C7H14N2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C7H16N3}\\)</span>",
+          "md": "$\\ce{C7H16N3}$\n",
+          "tex": "{\\(\\ce{C7H16N3}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A45",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A45/3A45.md",
+      "date": "2023-01-15T01:21:50.043628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A51",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A51/3A51.md",
+      "date": "2023-01-15T01:21:50.087628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A59",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A59/3A59.md",
+      "date": "2023-01-15T01:21:50.131628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A42",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A42/3A42.md",
+      "date": "2023-01-15T01:21:50.019628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A02/3A02.md",
+      "date": "2023-01-15T01:34:35.669804",
+      "statement": {
+        "html": "<p>Uma molécula de DNA humano contém <span class=\"math inline\">\\(\\pu{3,5e-15}\\)</span> átomos de carbono.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nnúmero de átomos de carbono em uma molécula de DNA.</p>",
+        "md": "Uma molécula de DNA humano contém $\\pu{3,5e-15}$ átomos de carbono.\n\n**Assinale** a alternativa que mais se aproxima do número de átomos de\ncarbono em uma molécula de DNA.\n",
+        "tex": "Uma molécula de DNA humano contém {\\(\\num{3,5e-15}\\)} átomos de carbono.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomos de carbono em uma molécula de DNA.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,1E8}\\)</span>",
+          "md": "$\\pu{2,1E8}$\n",
+          "tex": "{\\(\\num{2,1E8}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,5E8}\\)</span>",
+          "md": "$\\pu{6,5E8}$\n",
+          "tex": "{\\(\\num{6,5E8}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2E9}\\)</span>",
+          "md": "$\\pu{2E9}$\n",
+          "tex": "{\\(\\num{2E9}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,1E9}\\)</span>",
+          "md": "$\\pu{6,1E9}$\n",
+          "tex": "{\\(\\num{6,1E9}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,9E10}\\)</span>",
+          "md": "$\\pu{1,9E10}$\n",
+          "tex": "{\\(\\num{1,9E10}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3A49",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A49/3A49.md",
+      "date": "2023-01-15T01:21:50.075628",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3A22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A22/3A22.md",
+      "date": "2023-01-15T02:24:34.414575",
+      "statement": {
+        "html": "<p>A massa molar do ácido oxálico, o ácido encontrado no ruibarbo, é\n<span class=\"math inline\">\\(\\pu{90 g.mol-1}\\)</span> e sua fórmula\nempírica é <span class=\"math inline\">\\(\\ce{CHO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula molecular do\nestireno.</p>",
+        "md": "A massa molar do ácido oxálico, o ácido encontrado no ruibarbo, é\n$\\pu{90 g.mol-1}$ e sua fórmula empírica é $\\ce{CHO2}$.\n\n**Assinale** a alternativa com a fórmula molecular do estireno.\n",
+        "tex": "A massa molar do ácido oxálico, o ácido encontrado no ruibarbo, é {\\(\\qty{90}{\\unit{g.mol^{-1}}}\\)} e sua fórmula empírica é {\\(\\ce{CHO2}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula molecular do estireno.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CHO2}\\)</span>",
+          "md": "$\\ce{CHO2}$\n",
+          "tex": "{\\(\\ce{CHO2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H2O4}\\)</span>",
+          "md": "$\\ce{C2H2O4}$\n",
+          "tex": "{\\(\\ce{C2H2O4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C3H3O6}\\)</span>",
+          "md": "$\\ce{C3H3O6}$\n",
+          "tex": "{\\(\\ce{C3H3O6}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C4H4O8}\\)</span>",
+          "md": "$\\ce{C4H4O8}$\n",
+          "tex": "{\\(\\ce{C4H4O8}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C5H5O10}\\)</span>",
+          "md": "$\\ce{C5H5O10}$\n",
+          "tex": "{\\(\\ce{C5H5O10}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2B31",
@@ -6912,7 +8748,7 @@
     {
       "id_": "2A24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A24/2A24.md",
-      "date": "2023-01-09T18:06:12.885417",
+      "date": "2023-01-15T02:28:10.982151",
       "statement": {
         "html": "<p>A energia interna de combustão do ácido benzoico é conhecida, <span class=\"math inline\">\\(\\pu{-3,2 MJ.mol-1}\\)</span>. Quando um calorímetro\nde bomba foi calibrado pela queima de <span class=\"math inline\">\\(\\pu{0,85 g}\\)</span> de ácido benzoico em oxigênio\na temperatura aumentou <span class=\"math inline\">\\(\\pu{2 \\degree\nC}\\)</span>.</p>\n<p>Uma amostra do açúcar D-ribose, <span class=\"math inline\">\\(\\ce{C5H10O5}\\)</span>, pesando <span class=\"math inline\">\\(\\pu{0,7 g}\\)</span> foi, então, queimada no mesmo\ncalorímetro com excesso de oxigênio. A temperatura do calorímetro subiu\nde <span class=\"math inline\">\\(\\pu{22 \\degree C}\\)</span> para <span class=\"math inline\">\\(\\pu{23 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão da glicose.</p>",
         "md": "A energia interna de combustão do ácido benzoico é conhecida,\n$\\pu{-3,2 MJ.mol-1}$. Quando um calorímetro de bomba foi calibrado pela\nqueima de $\\pu{0,85 g}$ de ácido benzoico em oxigênio a temperatura\naumentou $\\pu{2 \\degree C}$.\n\nUma amostra do açúcar D-ribose, $\\ce{C5H10O5}$, pesando $\\pu{0,7 g}$\nfoi, então, queimada no mesmo calorímetro com excesso de oxigênio. A\ntemperatura do calorímetro subiu de $\\pu{22 \\degree C}$ para\n$\\pu{23 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nda glicose.\n",
