@@ -5183,14 +5183,25 @@
     {
       "id_": "3B49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B49/3B49.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:47:01.541204",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Um subproduto industrial é composto por carbono, hidrogênio, oxigênio\ne cloro. Quando <span class=\"math inline\">\\(\\pu{0,1 g}\\)</span> do\ncomposto foi analisado por combustão, produziram-se <span class=\"math inline\">\\(\\pu{0,0682 g}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> e <span class=\"math inline\">\\(\\pu{0,0140 g}\\)</span> de <span class=\"math inline\">\\(\\ce{H2O}\\)</span>. A fração mássica de cloro no\ncomposto foi determinada como <span class=\"math inline\">\\(\\pu{55}\\%\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica do composto.</li>\n<li><strong>Determine</strong> a fórmula molecular do composto.</li>\n</ol>",
+        "md": "Um subproduto industrial é composto por carbono, hidrogênio, oxigênio e\ncloro. Quando $\\pu{0,1 g}$ do composto foi analisado por combustão,\nproduziram-se $\\pu{0,0682 g}$ de $\\ce{CO2}$ e $\\pu{0,0140 g}$ de\n$\\ce{H2O}$. A fração mássica de cloro no composto foi determinada como\n$\\pu{55}\\%$.\n\na.  **Determine** a fórmula empírica do composto.\nb.  **Determine** a fórmula molecular do composto.\n",
+        "tex": "Um subproduto industrial é composto por carbono, hidrogênio, oxigênio e cloro. Quando {\\(\\qty{0,1}{\\unit{g}}\\)} do composto foi analisado por\ncombustão, produziram-se {\\(\\qty{0,0682}{\\unit{g}}\\)} de {\\(\\ce{CO2}\\)} e {\\(\\qty{0,0140}{\\unit{g}}\\)} de {\\(\\ce{H2O}\\)}. A fração mássica de cloro no\ncomposto foi determinada como {\\(\\num{55}\\%\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica do composto.\n\\item\n  \\textbf{Determine} a fórmula molecular do composto.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{CHOCl}\\)</span></p>\n",
+          "md": "$\\ce{CHOCl}$",
+          "tex": "\\(\\ce{CHOCl}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{CHOCl}\\)</span></p>\n",
+          "md": "$\\ce{CHOCl}$",
+          "tex": "\\(\\ce{CHOCl}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5280,14 +5291,20 @@
     {
       "id_": "3B51",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B51/3B51.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:55:31.117961",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Além da determinação da composição elementar de compostos\ndesconhecidos puros, a análise por combustão pode ser usada para a\ndeterminação da pureza de compostos conhecidos. Uma amostra de 2-naftol,\n<span class=\"math inline\">\\(\\ce{C10H7OH}\\)</span>, usada para preparar\nantioxidantes a serem incorporados na borracha sintética, estava\ncontaminada com uma pequena quantidade de <span class=\"math inline\">\\(\\ce{LiBr}\\)</span>.</p>\n<p>A análise por combustão da amostra deu os seguintes resultados: <span class=\"math inline\">\\(\\pu{77,5}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span>, <span class=\"math inline\">\\(\\ce{5,2}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span> em massa.</p>\n<p><strong>Determine</strong> a pureza percentual em massa da\namostra.</p>",
+        "md": "Além da determinação da composição elementar de compostos desconhecidos\npuros, a análise por combustão pode ser usada para a determinação da\npureza de compostos conhecidos. Uma amostra de 2-naftol, $\\ce{C10H7OH}$,\nusada para preparar antioxidantes a serem incorporados na borracha\nsintética, estava contaminada com uma pequena quantidade de $\\ce{LiBr}$.\n\nA análise por combustão da amostra deu os seguintes resultados:\n$\\pu{77,5}\\%$ de $\\ce{C}$, $\\ce{5,2}\\%$ de $\\ce{H}$ em massa.\n\n**Determine** a pureza percentual em massa da amostra.\n",
+        "tex": "Além da determinação da composição elementar de compostos desconhecidos puros, a análise por combustão pode ser usada para a determinação da pureza de\ncompostos conhecidos. Uma amostra de 2-naftol, {\\(\\ce{C10H7OH}\\)}, usada para preparar antioxidantes a serem incorporados na borracha sintética,\nestava contaminada com uma pequena quantidade de {\\(\\ce{LiBr}\\)}.\n\nA análise por combustão da amostra deu os seguintes resultados: {\\(\\num{77,5}\\%\\)} de {\\(\\ce{C}\\)}, {\\(\\ce{5,2}\\%\\)} de {\\(\\ce{H}\\)} em massa.\n\n\\textbf{Determine} a pureza percentual em massa da amostra.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{93}\\%\\)</span></p>\n",
+          "md": "$\\pu{93}\\%$",
+          "tex": "\\(\\num{93}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5295,14 +5312,35 @@
     {
       "id_": "3B31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B31/3B31.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T18:57:08.002828",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p><strong>Apresente</strong> a equação química balanceada para as\nreações descritas.</p>\n<ol type=\"a\">\n<li>O metal cálcio reage com água com produção de gás hidrogênio e\nhidróxido de cálcio que se dissolve na água.</li>\n<li>A reação entre óxido de sódio sólido, <span class=\"math inline\">\\(\\ce{Na2O}\\)</span>, e água produz hidróxido de\nsódio sólido que se dissolve na água.</li>\n<li>O metal magnésio sólido reage a quente em atmosfera de nitrogênio\npara produzir nitreto de magnésio, <span class=\"math inline\">\\(\\ce{Mg3N2}\\)</span>, sólido.</li>\n<li>A reação do gás amônio com oxigênio em temperaturas altas na\npresença do metal cobre como catalisador produz os fases água e dióxido\nde nitrogênio.</li>\n</ol>",
+        "md": "**Apresente** a equação química balanceada para as reações descritas.\n\na.  O metal cálcio reage com água com produção de gás hidrogênio e\n    hidróxido de cálcio que se dissolve na água.\nb.  A reação entre óxido de sódio sólido, $\\ce{Na2O}$, e água produz\n    hidróxido de sódio sólido que se dissolve na água.\nc.  O metal magnésio sólido reage a quente em atmosfera de nitrogênio\n    para produzir nitreto de magnésio, $\\ce{Mg3N2}$, sólido.\nd.  A reação do gás amônio com oxigênio em temperaturas altas na\n    presença do metal cobre como catalisador produz os fases água e\n    dióxido de nitrogênio.\n",
+        "tex": "\\textbf{Apresente} a equação química balanceada para as reações descritas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  O metal cálcio reage com água com produção de gás hidrogênio e hidróxido de cálcio que se dissolve na água.\n\\item\n  A reação entre óxido de sódio sólido, {\\(\\ce{Na2O}\\)}, e água produz hidróxido de sódio sólido que se dissolve na água.\n\\item\n  O metal magnésio sólido reage a quente em atmosfera de nitrogênio para produzir nitreto de magnésio, {\\(\\ce{Mg3N2}\\)}, sólido.\n\\item\n  A reação do gás amônio com oxigênio em temperaturas altas na presença do metal cobre como catalisador produz os fases água e dióxido de nitrogênio.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ Ca(s) + 2 H2O(l) -&gt; H2(g) +\nCa(OH)2(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ Ca(s) + 2 H2O(l) -> H2(g) + Ca(OH)2(aq) }$",
+          "tex": "\\(\\ce{ Ca(s) + 2 H2O(l) -> H2(g) + Ca(OH)2(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ Na2O(s) + H2O(l) -&gt; 2 NaOH(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ Na2O(s) + H2O(l) -> 2 NaOH(aq) }$",
+          "tex": "\\(\\ce{ Na2O(s) + H2O(l) -> 2 NaOH(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ 3 Mg(s) + N2(g) -&gt; Mg3N2(s)\n}\\)</span></p>\n",
+          "md": "$\\ce{ 3 Mg(s) + N2(g) -> Mg3N2(s) }$",
+          "tex": "\\(\\ce{ 3 Mg(s) + N2(g) -> Mg3N2(s) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ 4 NH3(g) + 7 O2(g) -&gt; 6 H2O(g) +\n4 NO2(g) }\\)</span></p>\n",
+          "md": "$\\ce{ 4 NH3(g) + 7 O2(g) -> 6 H2O(g) + 4 NO2(g) }$",
+          "tex": "\\(\\ce{ 4 NH3(g) + 7 O2(g) -> 6 H2O(g) + 4 NO2(g) }\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5390,6 +5428,27 @@
       "correct_choice": 3
     },
     {
+      "id_": "3B54",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B54/3B54.md",
+      "date": "2023-01-16T23:03:15.671312",
+      "statement": {
+        "html": "<p>A dolomita é um carbonato misto de cálcio e magnésio. O carbonato de\ncálcio e o carbonato de magnésio se decompõe por aquecimento para dar os\nóxidos de metal, <span class=\"math inline\">\\(\\ce{CaO}\\)</span> e <span class=\"math inline\">\\(\\ce{MgO}\\)</span>, e dióxido de carbono, <span class=\"math inline\">\\(\\ce{CO2}\\)</span>. Quando se aquece <span class=\"math inline\">\\(\\pu{10 g}\\)</span> de dolomita até a decomposição\ncompleta, <span class=\"math inline\">\\(\\pu{5,12 g}\\)</span> de um resíduo\nde <span class=\"math inline\">\\(\\ce{MgO}\\)</span> e <span class=\"math inline\">\\(\\ce{CaO}\\)</span> permanecem.</p>\n<p><strong>Determine</strong> a fração mássica de carbonato de magnésio\nna dolomita.</p>",
+        "md": "A dolomita é um carbonato misto de cálcio e magnésio. O carbonato de\ncálcio e o carbonato de magnésio se decompõe por aquecimento para dar os\nóxidos de metal, $\\ce{CaO}$ e $\\ce{MgO}$, e dióxido de carbono,\n$\\ce{CO2}$. Quando se aquece $\\pu{10 g}$ de dolomita até a decomposição\ncompleta, $\\pu{5,12 g}$ de um resíduo de $\\ce{MgO}$ e $\\ce{CaO}$\npermanecem.\n\n**Determine** a fração mássica de carbonato de magnésio na dolomita.\n",
+        "tex": "A dolomita é um carbonato misto de cálcio e magnésio. O carbonato de cálcio e o carbonato de magnésio se decompõe por aquecimento para dar os óxidos\nde metal, {\\(\\ce{CaO}\\)} e {\\(\\ce{MgO}\\)}, e dióxido de carbono, {\\(\\ce{CO2}\\)}. Quando se aquece {\\(\\qty{10}{\\unit{g}}\\)} de dolomita até a\ndecomposição completa, {\\(\\qty{5,12}{\\unit{g}}\\)} de um resíduo de {\\(\\ce{MgO}\\)} e {\\(\\ce{CaO}\\)} permanecem.\n\n\\textbf{Determine} a fração mássica de carbonato de magnésio na dolomita.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{61}\\%\\)</span></p>\n",
+          "md": "$\\pu{61}\\%$",
+          "tex": "\\(\\num{61}\\%\\)\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3B06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B06/3B06.md",
       "date": "2023-01-16T15:15:54.651495",
@@ -5433,14 +5492,20 @@
     {
       "id_": "3B52",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B52/3B52.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:56:51.517489",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Um composto orgânico de fórmula <span class=\"math inline\">\\(\\ce{C14H20O2N}\\)</span> foi recristalizado a\npartir de 1,1,2,2-tetracloretano, <span class=\"math inline\">\\(\\ce{C2H2Cl4}\\)</span>. A análise por combustão da\namostra deu os seguintes resultados: <span class=\"math inline\">\\(\\pu{68,5}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span>, <span class=\"math inline\">\\(\\ce{8,2}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span> em massa. Como esses resultados\nsão muito diferentes do que se esperaria para <span class=\"math inline\">\\(\\ce{C14H20O2N}\\)</span> puro, a amostra doi\nexaminada e encontrou-se uma quantidade significativa de\n1,1,2,2-tetracloretano.</p>\n<p><strong>Determine</strong> a pureza percentual em massa da\namostra.</p>",
+        "md": "Um composto orgânico de fórmula $\\ce{C14H20O2N}$ foi recristalizado a\npartir de 1,1,2,2-tetracloretano, $\\ce{C2H2Cl4}$. A análise por\ncombustão da amostra deu os seguintes resultados: $\\pu{68,5}\\%$ de\n$\\ce{C}$, $\\ce{8,2}\\%$ de $\\ce{H}$ em massa. Como esses resultados são\nmuito diferentes do que se esperaria para $\\ce{C14H20O2N}$ puro, a\namostra doi examinada e encontrou-se uma quantidade significativa de\n1,1,2,2-tetracloretano.\n\n**Determine** a pureza percentual em massa da amostra.\n",
+        "tex": "Um composto orgânico de fórmula {\\(\\ce{C14H20O2N}\\)} foi recristalizado a partir de 1,1,2,2-tetracloretano, {\\(\\ce{C2H2Cl4}\\)}. A análise por\ncombustão da amostra deu os seguintes resultados: {\\(\\num{68,5}\\%\\)} de {\\(\\ce{C}\\)}, {\\(\\ce{8,2}\\%\\)} de {\\(\\ce{H}\\)} em massa. Como esses resultados\nsão muito diferentes do que se esperaria para {\\(\\ce{C14H20O2N}\\)} puro, a amostra doi examinada e encontrou-se uma quantidade significativa de\n1,1,2,2-tetracloretano.\n\n\\textbf{Determine} a pureza percentual em massa da amostra.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{94}\\%\\)</span></p>\n",
+          "md": "$\\pu{94}\\%$",
+          "tex": "\\(\\num{94}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5489,17 +5554,43 @@
     {
       "id_": "3B35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B35/3B35.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T21:54:24.006540",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Uma amostra de massa <span class=\"math inline\">\\(\\pu{1,5 g}\\)</span>\ndo metal estanho foi colocada em um cadinho de <span class=\"math inline\">\\(\\pu{26,5 g}\\)</span> e aquecida até que todo o\nestanho reagisse com o oxigênio do ar para formar um óxido. O cadinho e\no produto pesaram <span class=\"math inline\">\\(\\pu{28,3 g}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula empírica do\nóxido.</p>",
+        "md": "Uma amostra de massa $\\pu{1,5 g}$ do metal estanho foi colocada em um\ncadinho de $\\pu{26,5 g}$ e aquecida até que todo o estanho reagisse com\no oxigênio do ar para formar um óxido. O cadinho e o produto pesaram\n$\\pu{28,3 g}$.\n\n**Assinale** a alternativa com a fórmula empírica do óxido.\n",
+        "tex": "Uma amostra de massa {\\(\\qty{1,5}{\\unit{g}}\\)} do metal estanho foi colocada em um cadinho de {\\(\\qty{26,5}{\\unit{g}}\\)} e aquecida até que todo o\nestanho reagisse com o oxigênio do ar para formar um óxido. O cadinho e o produto pesaram {\\(\\qty{28,3}{\\unit{g}}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula empírica do óxido.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Sn2O}\\)</span>",
+          "md": "$\\ce{Sn2O}$\n",
+          "tex": "{\\(\\ce{Sn2O}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnO}\\)</span>",
+          "md": "$\\ce{SnO}$\n",
+          "tex": "{\\(\\ce{SnO}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Sn2O3}\\)</span>",
+          "md": "$\\ce{Sn2O3}$\n",
+          "tex": "{\\(\\ce{Sn2O3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnO2}\\)</span>",
+          "md": "$\\ce{SnO2}$\n",
+          "tex": "{\\(\\ce{SnO2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Sn2O5}\\)</span>",
+          "md": "$\\ce{Sn2O5}$\n",
+          "tex": "{\\(\\ce{Sn2O5}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3B17",
@@ -5545,14 +5636,20 @@
     {
       "id_": "3B48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B48/3B48.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:44:33.942275",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Um composto obtido como subproduto em uma síntese industrial de\npolímeros contém, possivelmente, carbono, hidrogênio, oxigênio e iodo. A\nanálise por combustão de <span class=\"math inline\">\\(\\pu{1,7 g}\\)</span>\ndo composto produziu <span class=\"math inline\">\\(\\pu{1,32 g}\\)</span> de\n<span class=\"math inline\">\\(\\ce{CO2}\\)</span> e <span class=\"math inline\">\\(\\pu{0,63 g}\\)</span> de <span class=\"math inline\">\\(\\ce{H2O}\\)</span>. A percentagem em massa de iodo\nno composto foi determinada pela conversão do iodo contido em <span class=\"math inline\">\\(\\pu{0,85 g}\\)</span> da amostra em <span class=\"math inline\">\\(\\pu{1,15 g}\\)</span> de iodeto de chumbo(II).</p>\n<p><strong>Determine</strong> a fórmula empírica do composto.</p>",
+        "md": "Um composto obtido como subproduto em uma síntese industrial de\npolímeros contém, possivelmente, carbono, hidrogênio, oxigênio e iodo. A\nanálise por combustão de $\\pu{1,7 g}$ do composto produziu $\\pu{1,32 g}$\nde $\\ce{CO2}$ e $\\pu{0,63 g}$ de $\\ce{H2O}$. A percentagem em massa de\niodo no composto foi determinada pela conversão do iodo contido em\n$\\pu{0,85 g}$ da amostra em $\\pu{1,15 g}$ de iodeto de chumbo(II).\n\n**Determine** a fórmula empírica do composto.\n",
+        "tex": "Um composto obtido como subproduto em uma síntese industrial de polímeros contém, possivelmente, carbono, hidrogênio, oxigênio e iodo. A análise por\ncombustão de {\\(\\qty{1,7}{\\unit{g}}\\)} do composto produziu {\\(\\qty{1,32}{\\unit{g}}\\)} de {\\(\\ce{CO2}\\)} e {\\(\\qty{0,63}{\\unit{g}}\\)} de\n{\\(\\ce{H2O}\\)}. A percentagem em massa de iodo no composto foi determinada pela conversão do iodo contido em {\\(\\qty{0,85}{\\unit{g}}\\)} da amostra em\n{\\(\\qty{1,15}{\\unit{g}}\\)} de iodeto de chumbo(II).\n\n\\textbf{Determine} a fórmula empírica do composto.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C3H7I}\\)</span></p>\n",
+          "md": "$\\ce{C3H7I}$",
+          "tex": "\\(\\ce{C3H7I}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5560,14 +5657,35 @@
     {
       "id_": "3B38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B38/3B38.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T23:15:41.077184",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>A redução do óxido de ferro(III) ao metal ferro em um alto-forno é\noutra fonte de dióxido de carbono atmosférico. A redução ocorre em duas\netapas: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ C(s) + O2(g) &amp;-&gt; 2 CO(g) } \\\\\n    \\ce{ Fe2O3(s) + 3 CO(g) &amp;-&gt; Fe(l) + 3 CO2(g) }\n\\end{aligned}\n\\]</span> Considere que todo o <span class=\"math inline\">\\(\\ce{CO}\\)</span> gerado na primeira etapa reaja na\nsegunda.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> o número de átomos de carbono necessários\npara reagir com <span class=\"math inline\">\\(\\pu{600}\\)</span> fórmulas\nunitárias de <span class=\"math inline\">\\(\\ce{Fe2O3}\\)</span>.</li>\n<li><strong>Determine</strong> o volume máximo de dióxido de carbono\n(densidade <span class=\"math inline\">\\(\\pu{1,25 g.L-1}\\)</span>) que\npode ser gerado na produção de <span class=\"math inline\">\\(\\pu{1\nton}\\)</span> de ferro.</li>\n<li><strong>Determine</strong> o de dióxido de carbono liberado na\natmosfera durante a produção de <span class=\"math inline\">\\(\\pu{1\nton}\\)</span> de ferro considerando um rendimento percentual de <span class=\"math inline\">\\(\\pu{68}\\%\\)</span>.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{O2}\\)</span> necessários para a produção de\n<span class=\"math inline\">\\(\\pu{5 kg}\\)</span> de ferro.</li>\n</ol>",
+        "md": "A redução do óxido de ferro(III) ao metal ferro em um alto-forno é outra\nfonte de dióxido de carbono atmosférico. A redução ocorre em duas\netapas: $$\n\\begin{aligned}\n    \\ce{ C(s) + O2(g) &-> 2 CO(g) } \\\\\n    \\ce{ Fe2O3(s) + 3 CO(g) &-> Fe(l) + 3 CO2(g) }\n\\end{aligned}\n$$ Considere que todo o $\\ce{CO}$ gerado na primeira etapa reaja na\nsegunda.\n\na.  **Determine** o número de átomos de carbono necessários para reagir\n    com $\\pu{600}$ fórmulas unitárias de $\\ce{Fe2O3}$.\nb.  **Determine** o volume máximo de dióxido de carbono (densidade\n    $\\pu{1,25 g.L-1}$) que pode ser gerado na produção de $\\pu{1 ton}$\n    de ferro.\nc.  **Determine** o de dióxido de carbono liberado na atmosfera durante\n    a produção de $\\pu{1 ton}$ de ferro considerando um rendimento\n    percentual de $\\pu{68}\\%$.\nd.  **Determine** a massa de $\\ce{O2}$ necessários para a produção de\n    $\\pu{5 kg}$ de ferro.\n",
+        "tex": "A redução do óxido de ferro(III) ao metal ferro em um alto-forno é outra fonte de dióxido de carbono atmosférico. A redução ocorre em duas etapas: {\\[\n\\begin{aligned}\n    \\ce{ C(s) + O2(g) &-> 2 CO(g) } \\\\\n    \\ce{ Fe2O3(s) + 3 CO(g) &-> Fe(l) + 3 CO2(g) }\n\\end{aligned}\n\\]} Considere que todo o {\\(\\ce{CO}\\)} gerado na primeira etapa reaja na segunda.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} o número de átomos de carbono necessários para reagir com {\\(\\num{600}\\)} fórmulas unitárias de {\\(\\ce{Fe2O3}\\)}.\n\\item\n  \\textbf{Determine} o volume máximo de dióxido de carbono (densidade {\\(\\qty{1,25}{\\unit{g.L^{-1}}}\\)}) que pode ser gerado na produção de\n  {\\(\\qty{1}{\\unit{ton}}\\)} de ferro.\n\\item\n  \\textbf{Determine} o de dióxido de carbono liberado na atmosfera durante a produção de {\\(\\qty{1}{\\unit{ton}}\\)} de ferro considerando um rendimento\n  percentual de {\\(\\num{68}\\%\\)}.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{O2}\\)} necessários para a produção de {\\(\\qty{5}{\\unit{kg}}\\)} de ferro.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{1800}\\)</span></p>\n",
+          "md": "$\\pu{1800}$",
+          "tex": "\\(\\num{1800}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{9,5e5 L}\\)</span></p>\n",
+          "md": "$\\pu{9,5e5 L}$",
+          "tex": "\\(\\qty{9,5e5}{\\unit{L}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{6,5e5 L}\\)</span></p>\n",
+          "md": "$\\pu{6,5e5 L}$",
+          "tex": "\\(\\qty{6,5e5}{\\unit{L}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{2,1 kg}\\)</span></p>\n",
+          "md": "$\\pu{2,1 kg}$",
+          "tex": "\\(\\qty{2,1}{\\unit{kg}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5698,14 +5816,30 @@
     {
       "id_": "3B45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B45/3B45.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:38:44.613259",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>O estimulante do café e do chá é a cafeína, uma substância cuja massa\nmolar é <span class=\"math inline\">\\(\\pu{194 g.mol-1}\\)</span>. Na queima\nde <span class=\"math inline\">\\(\\pu{0,376 g}\\)</span> de cafeína\nformam-se <span class=\"math inline\">\\(\\pu{0,682 g}\\)</span> de dióxido\nde carbono, <span class=\"math inline\">\\(\\pu{0,174 g}\\)</span> de água e\n<span class=\"math inline\">\\(\\pu{0,110 g}\\)</span> de nitrogênio.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica da cafeína.</li>\n<li><strong>Determine</strong> a fórmula molecular da cafeína.</li>\n<li><strong>Apresente</strong> a equação de combustão da nicotina.</li>\n</ol>",
+        "md": "O estimulante do café e do chá é a cafeína, uma substância cuja massa\nmolar é $\\pu{194 g.mol-1}$. Na queima de $\\pu{0,376 g}$ de cafeína\nformam-se $\\pu{0,682 g}$ de dióxido de carbono, $\\pu{0,174 g}$ de água e\n$\\pu{0,110 g}$ de nitrogênio.\n\na.  **Determine** a fórmula empírica da cafeína.\nb.  **Determine** a fórmula molecular da cafeína.\nc.  **Apresente** a equação de combustão da nicotina.\n",
+        "tex": "O estimulante do café e do chá é a cafeína, uma substância cuja massa molar é {\\(\\qty{194}{\\unit{g.mol^{-1}}}\\)}. Na queima de\n{\\(\\qty{0,376}{\\unit{g}}\\)} de cafeína formam-se {\\(\\qty{0,682}{\\unit{g}}\\)} de dióxido de carbono, {\\(\\qty{0,174}{\\unit{g}}\\)} de água e\n{\\(\\qty{0,110}{\\unit{g}}\\)} de nitrogênio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica da cafeína.\n\\item\n  \\textbf{Determine} a fórmula molecular da cafeína.\n\\item\n  \\textbf{Apresente} a equação de combustão da nicotina.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C4H5N2O}\\)</span></p>\n",
+          "md": "$\\ce{C4H5N2O}$",
+          "tex": "\\(\\ce{C4H5N2O}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C8H10N4O2}\\)</span></p>\n",
+          "md": "$\\ce{C8H10N4O2}$",
+          "tex": "\\(\\ce{C8H10N4O2}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{2 C8H10N4O2 + 19 O2(g) -&gt; 16\nCO2(g) + 10 H2O(l) + 4 N2(g)}\\)</span></p>\n",
+          "md": "$\\ce{2 C8H10N4O2 + 19 O2(g) -> 16 CO2(g) + 10 H2O(l) + 4 N2(g)}$",
+          "tex": "\\(\\ce{2 C8H10N4O2 + 19 O2(g) -> 16 CO2(g) + 10 H2O(l) + 4 N2(g)}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5713,17 +5847,43 @@
     {
       "id_": "3B34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B34/3B34.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T21:50:26.943625",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>O brometo de bário, <span class=\"math inline\">\\(\\ce{BaBr_x}\\)</span>,\npode ser convertido em <span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>\npor tratamento com cloro. Sabe-se que <span class=\"math inline\">\\(\\pu{3,25 g}\\)</span> de <span class=\"math inline\">\\(\\ce{BaBr_x}\\)</span> reagem completamente com\nexcesso de cloro para dar <span class=\"math inline\">\\(\\pu{2,27\ng}\\)</span> de <span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o valor de <span class=\"math inline\">\\(x\\)</span>.</p>",
+        "md": "O brometo de bário, $\\ce{BaBr_x}$, pode ser convertido em $\\ce{BaCl2}$\npor tratamento com cloro. Sabe-se que $\\pu{3,25 g}$ de $\\ce{BaBr_x}$\nreagem completamente com excesso de cloro para dar $\\pu{2,27 g}$ de\n$\\ce{BaCl2}$.\n\n**Assinale** a alternativa com o valor de $x$.\n",
+        "tex": "O brometo de bário, {\\(\\ce{BaBr_x}\\)}, pode ser convertido em {\\(\\ce{BaCl2}\\)} por tratamento com cloro. Sabe-se que {\\(\\qty{3,25}{\\unit{g}}\\)} de\n{\\(\\ce{BaBr_x}\\)} reagem completamente com excesso de cloro para dar {\\(\\qty{2,27}{\\unit{g}}\\)} de {\\(\\ce{BaCl2}\\)}.\n\n\\textbf{Assinale} a alternativa com o valor de {\\(x\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(1\\)</span>",
+          "md": "$1$\n",
+          "tex": "{\\(1\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(2\\)</span>",
+          "md": "$2$\n",
+          "tex": "{\\(2\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(3\\)</span>",
+          "md": "$3$\n",
+          "tex": "{\\(3\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(4\\)</span>",
+          "md": "$4$\n",
+          "tex": "{\\(4\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(5\\)</span>",
+          "md": "$5$\n",
+          "tex": "{\\(5\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3B09",
@@ -5769,14 +5929,30 @@
     {
       "id_": "3B46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B46/3B46.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:39:25.300868",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>A nicotina, o estimulante do tabaco, tem efeitos fisiológicos muito\ncomplexos no organismo. Sua massa molar é <span class=\"math inline\">\\(\\pu{162 g.mol-1}\\)</span>. A queima de uma amostra\nde massa <span class=\"math inline\">\\(\\pu{0,385 g}\\)</span> produziu\n<span class=\"math inline\">\\(\\pu{1,07 g}\\)</span> de dióxido de carbono,\n<span class=\"math inline\">\\(\\pu{0,307 g}\\)</span> de água e <span class=\"math inline\">\\(\\pu{0,068 g}\\)</span> de nitrogênio.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica da nicotina.</li>\n<li><strong>Determine</strong> a fórmula molecular da nicotina.</li>\n<li><strong>Apresente</strong> a equação de combustão da nicotina.</li>\n</ol>",
+        "md": "A nicotina, o estimulante do tabaco, tem efeitos fisiológicos muito\ncomplexos no organismo. Sua massa molar é $\\pu{162 g.mol-1}$. A queima\nde uma amostra de massa $\\pu{0,385 g}$ produziu $\\pu{1,07 g}$ de dióxido\nde carbono, $\\pu{0,307 g}$ de água e $\\pu{0,068 g}$ de nitrogênio.\n\na.  **Determine** a fórmula empírica da nicotina.\nb.  **Determine** a fórmula molecular da nicotina.\nc.  **Apresente** a equação de combustão da nicotina.\n",
+        "tex": "A nicotina, o estimulante do tabaco, tem efeitos fisiológicos muito complexos no organismo. Sua massa molar é {\\(\\qty{162}{\\unit{g.mol^{-1}}}\\)}. A\nqueima de uma amostra de massa {\\(\\qty{0,385}{\\unit{g}}\\)} produziu {\\(\\qty{1,07}{\\unit{g}}\\)} de dióxido de carbono, {\\(\\qty{0,307}{\\unit{g}}\\)} de\nágua e {\\(\\qty{0,068}{\\unit{g}}\\)} de nitrogênio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica da nicotina.\n\\item\n  \\textbf{Determine} a fórmula molecular da nicotina.\n\\item\n  \\textbf{Apresente} a equação de combustão da nicotina.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C5H7N}\\)</span></p>\n",
+          "md": "$\\ce{C5H7N}$",
+          "tex": "\\(\\ce{C5H7N}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C10H14N2}\\)</span></p>\n",
+          "md": "$\\ce{C10H14N2}$",
+          "tex": "\\(\\ce{C10H14N2}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{2 C10H14N2 + 27 O2(g) -&gt; 20 CO2(g)\n+ 14 H2O(l) + 2 N2(g)}\\)</span></p>\n",
+          "md": "$\\ce{2 C10H14N2 + 27 O2(g) -> 20 CO2(g) + 14 H2O(l) + 2 N2(g)}$",
+          "tex": "\\(\\ce{2 C10H14N2 + 27 O2(g) -> 20 CO2(g) + 14 H2O(l) + 2 N2(g)}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5907,14 +6083,25 @@
     {
       "id_": "3B43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B43/3B43.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:32:24.877795",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Uma mistura de massa <span class=\"math inline\">\\(\\pu{4,94 g}\\)</span>\ncontendo <span class=\"math inline\">\\(\\pu{85}\\%\\)</span> de fosfina pura,\n<span class=\"math inline\">\\(\\pu{PH3}\\)</span>, e <span class=\"math inline\">\\(\\pu{0,11 kg}\\)</span> de <span class=\"math inline\">\\(\\ce{CuSO4.5H2O}\\)</span> foi colocada em um vaso\nonde ocorre a reação: <span class=\"math display\">\\[\n    \\ce{ CuSO4(s) + PH3(g) -&gt; Cu3P2(s) + H2SO4(aq) + H2O(l) }\n\\]</span> O rendimento percentual da reação é <span class=\"math inline\">\\(\\pu{6,3}\\%\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{Cu3P2}\\)</span> produzida.</li>\n</ol>",
+        "md": "Uma mistura de massa $\\pu{4,94 g}$ contendo $\\pu{85}\\%$ de fosfina pura,\n$\\pu{PH3}$, e $\\pu{0,11 kg}$ de $\\ce{CuSO4.5H2O}$ foi colocada em um\nvaso onde ocorre a reação: $$\n    \\ce{ CuSO4(s) + PH3(g) -> Cu3P2(s) + H2SO4(aq) + H2O(l) }\n$$ O rendimento percentual da reação é $\\pu{6,3}\\%$.\n\na.  **Identifique** o reagente limitante.\nb.  **Determine** a massa de $\\ce{Cu3P2}$ produzida.\n",
+        "tex": "Uma mistura de massa {\\(\\qty{4,94}{\\unit{g}}\\)} contendo {\\(\\num{85}\\%\\)} de fosfina pura, {\\(\\unit{PH^{3}}\\)}, e {\\(\\qty{0,11}{\\unit{kg}}\\)} de\n{\\(\\ce{CuSO4.5H2O}\\)} foi colocada em um vaso onde ocorre a reação: {\\[\n    \\ce{ CuSO4(s) + PH3(g) -> Cu3P2(s) + H2SO4(aq) + H2O(l) }\n\\]} O rendimento percentual da reação é {\\(\\num{6,3}\\%\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{Cu3P2}\\)} produzida.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{PH3}\\)</span></p>\n",
+          "md": "$\\ce{PH3}$",
+          "tex": "\\(\\ce{PH3}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{1 g}\\)</span></p>\n",
+          "md": "$\\pu{1 g}$",
+          "tex": "\\(\\qty{1}{\\unit{g}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5922,14 +6109,25 @@
     {
       "id_": "3B42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B42/3B42.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:24:10.723794",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>O metal alumínio reage com o gás cloro para produzir cloreto de\nalumínio: <span class=\"math display\">\\[\n    \\ce{ Al(s) + Cl2(g) -&gt; AlCl3(s) }\n\\]</span> Em uma preparação, <span class=\"math inline\">\\(\\pu{255*300\ng}\\)</span> de alumínio foram postos em uma vasilha fechada contendo\n<span class=\"math inline\">\\(\\pu{535 g}\\)</span> de gás cloro. Após a\nreação terminar, descobriu-se que <span class=\"math inline\">\\(\\pu{300\ng}\\)</span> de cloreto de alumínio foram produzidos.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de cloreto de alumínio que pode\nser obtida.</li>\n<li><strong>Determine</strong> o rendimento percentual do cloreto de\nalumínio.</li>\n</ol>",
+        "md": "O metal alumínio reage com o gás cloro para produzir cloreto de\nalumínio: $$\n    \\ce{ Al(s) + Cl2(g) -> AlCl3(s) }\n$$ Em uma preparação, $\\pu{255*300 g}$ de alumínio foram postos em uma\nvasilha fechada contendo $\\pu{535 g}$ de gás cloro. Após a reação\nterminar, descobriu-se que $\\pu{300 g}$ de cloreto de alumínio foram\nproduzidos.\n\na.  **Determine** a massa de cloreto de alumínio que pode ser obtida.\nb.  **Determine** o rendimento percentual do cloreto de alumínio.\n",
+        "tex": "O metal alumínio reage com o gás cloro para produzir cloreto de alumínio: {\\[\n    \\ce{ Al(s) + Cl2(g) -> AlCl3(s) }\n\\]} Em uma preparação, {\\(\\pu{255*300 g}\\)} de alumínio foram postos em uma vasilha fechada contendo {\\(\\qty{535}{\\unit{g}}\\)} de gás cloro. Após a\nreação terminar, descobriu-se que {\\(\\qty{300}{\\unit{g}}\\)} de cloreto de alumínio foram produzidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de cloreto de alumínio que pode ser obtida.\n\\item\n  \\textbf{Determine} o rendimento percentual do cloreto de alumínio.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{670 g}\\)</span></p>\n",
+          "md": "$\\pu{670 g}$",
+          "tex": "\\(\\qty{670}{\\unit{g}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{45}\\%\\)</span></p>\n",
+          "md": "$\\pu{45}\\%$",
+          "tex": "\\(\\num{45}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5937,40 +6135,40 @@
     {
       "id_": "3B04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B04/3B04.md",
-      "date": "2023-01-16T15:15:54.651495",
+      "date": "2023-01-16T21:44:26.628168",
       "statement": {
-        "html": "<p>Considere as reações químicas.</p>\n<ol type=\"1\">\n<li>Combustão completa do heptano líquido, <span class=\"math inline\">\\(\\ce{C7H16}\\)</span>, um dos hidrocarbonetos\npresentes na gasolina.</li>\n<li>Combustão incompleta do heptano líquido, <span class=\"math inline\">\\(\\ce{C7H16}\\)</span>, formando monóxido de carbono\ne vapor d’água.</li>\n<li>Combustão completa do aspartame, <span class=\"math inline\">\\(\\ce{C14H18N2O5}\\)</span>, um sólido usado como\nadoçante artificial.</li>\n<li>Combustão completa do dimetazano, <span class=\"math inline\">\\(\\ce{C11H17N5O2}\\)</span>, um antidepresivo\nsólido.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona a soma dos\ncoeficientes das reações balanceadas com os menores coeficientes\ninteiros, respectivamente.</p>",
-        "md": "Considere as reações químicas.\n\n1.  Combustão completa do heptano líquido, $\\ce{C7H16}$, um dos\n    hidrocarbonetos presentes na gasolina.\n2.  Combustão incompleta do heptano líquido, $\\ce{C7H16}$, formando\n    monóxido de carbono e vapor d'água.\n3.  Combustão completa do aspartame, $\\ce{C14H18N2O5}$, um sólido usado\n    como adoçante artificial.\n4.  Combustão completa do dimetazano, $\\ce{C11H17N5O2}$, um\n    antidepresivo sólido.\n\n**Assinale** a alternativa que relaciona a soma dos coeficientes das\nreações balanceadas com os menores coeficientes inteiros,\nrespectivamente.\n",
-        "tex": "Considere as reações químicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Combustão completa do heptano líquido, {\\(\\ce{C7H16}\\)}, um dos hidrocarbonetos presentes na gasolina.\n\\item\n  Combustão incompleta do heptano líquido, {\\(\\ce{C7H16}\\)}, formando monóxido de carbono e vapor d'água.\n\\item\n  Combustão completa do aspartame, {\\(\\ce{C14H18N2O5}\\)}, um sólido usado como adoçante artificial.\n\\item\n  Combustão completa do dimetazano, {\\(\\ce{C11H17N5O2}\\)}, um antidepresivo sólido.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona a soma dos coeficientes das reações balanceadas com os menores coeficientes inteiros, respectivamente.\n"
+        "html": "<p>Considere as reações químicas.</p>\n<ol type=\"1\">\n<li>Combustão completa do heptano líquido, <span class=\"math inline\">\\(\\ce{C7H16}\\)</span>, um dos hidrocarbonetos\npresentes na gasolina.</li>\n<li>Combustão incompleta do heptano líquido, <span class=\"math inline\">\\(\\ce{C7H16}\\)</span>, formando monóxido de carbono\ne vapor d’água.</li>\n<li>Combustão completa do aspartame, <span class=\"math inline\">\\(\\ce{C14H18N2O5}\\)</span>, um sólido usado como\nadoçante artificial.</li>\n<li>Combustão completa do dimetazano, <span class=\"math inline\">\\(\\ce{C11H17N5O2}\\)</span>, um antidepressivo\nsólido.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona a soma dos\ncoeficientes das reações balanceadas com os menores coeficientes\ninteiros, respectivamente.</p>",
+        "md": "Considere as reações químicas.\n\n1.  Combustão completa do heptano líquido, $\\ce{C7H16}$, um dos\n    hidrocarbonetos presentes na gasolina.\n2.  Combustão incompleta do heptano líquido, $\\ce{C7H16}$, formando\n    monóxido de carbono e vapor d'água.\n3.  Combustão completa do aspartame, $\\ce{C14H18N2O5}$, um sólido usado\n    como adoçante artificial.\n4.  Combustão completa do dimetazano, $\\ce{C11H17N5O2}$, um\n    antidepressivo sólido.\n\n**Assinale** a alternativa que relaciona a soma dos coeficientes das\nreações balanceadas com os menores coeficientes inteiros,\nrespectivamente.\n",
+        "tex": "Considere as reações químicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Combustão completa do heptano líquido, {\\(\\ce{C7H16}\\)}, um dos hidrocarbonetos presentes na gasolina.\n\\item\n  Combustão incompleta do heptano líquido, {\\(\\ce{C7H16}\\)}, formando monóxido de carbono e vapor d'água.\n\\item\n  Combustão completa do aspartame, {\\(\\ce{C14H18N2O5}\\)}, um sólido usado como adoçante artificial.\n\\item\n  Combustão completa do dimetazano, {\\(\\ce{C11H17N5O2}\\)}, um antidepressivo sólido.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona a soma dos coeficientes das reações balanceadas com os menores coeficientes inteiros, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "41; 27; 47; 149.",
-          "md": "41; 27; 47; 149.\n",
-          "tex": "41; 27; 47; 149.\n"
+          "html": "<span class=\"math inline\">\\(41\\)</span>; <span class=\"math inline\">\\(27\\)</span>; <span class=\"math inline\">\\(47\\)</span>; <span class=\"math inline\">\\(149\\)</span>.",
+          "md": "$41$; $27$; $47$; $149$.\n",
+          "tex": "{\\(41\\)}; {\\(27\\)}; {\\(47\\)}; {\\(149\\)}.\n"
         },
         {
-          "html": "41; 149; 47; 27.",
-          "md": "41; 149; 47; 27.\n",
-          "tex": "41; 149; 47; 27.\n"
+          "html": "<span class=\"math inline\">\\(41\\)</span>; <span class=\"math inline\">\\(149\\)</span>; <span class=\"math inline\">\\(47\\)</span>; <span class=\"math inline\">\\(27\\)</span>.",
+          "md": "$41$; $149$; $47$; $27$.\n",
+          "tex": "{\\(41\\)}; {\\(149\\)}; {\\(47\\)}; {\\(27\\)}.\n"
         },
         {
-          "html": "27; 47; 41; 149.",
-          "md": "27; 47; 41; 149.\n",
-          "tex": "27; 47; 41; 149.\n"
+          "html": "<span class=\"math inline\">\\(27\\)</span>; <span class=\"math inline\">\\(47\\)</span>; <span class=\"math inline\">\\(41\\)</span>; <span class=\"math inline\">\\(149\\)</span>.",
+          "md": "$27$; $47$; $41$; $149$.\n",
+          "tex": "{\\(27\\)}; {\\(47\\)}; {\\(41\\)}; {\\(149\\)}.\n"
         },
         {
-          "html": "27; 149; 47; 41.",
-          "md": "27; 149; 47; 41.\n",
-          "tex": "27; 149; 47; 41.\n"
+          "html": "<span class=\"math inline\">\\(27\\)</span>; <span class=\"math inline\">\\(149\\)</span>; <span class=\"math inline\">\\(47\\)</span>; <span class=\"math inline\">\\(41\\)</span>.",
+          "md": "$27$; $149$; $47$; $41$.\n",
+          "tex": "{\\(27\\)}; {\\(149\\)}; {\\(47\\)}; {\\(41\\)}.\n"
         },
         {
-          "html": "149; 41; 27; 47.",
-          "md": "149; 41; 27; 47.\n",
-          "tex": "149; 41; 27; 47.\n"
+          "html": "<span class=\"math inline\">\\(149\\)</span>; <span class=\"math inline\">\\(41\\)</span>; <span class=\"math inline\">\\(27\\)</span>; <span class=\"math inline\">\\(47\\)</span>.",
+          "md": "$149$; $41$; $27$; $47$.\n",
+          "tex": "{\\(149\\)}; {\\(41\\)}; {\\(27\\)}; {\\(47\\)}.\n"
         }
       ],
       "correct_choice": 2
@@ -5978,14 +6176,25 @@
     {
       "id_": "3B37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B37/3B37.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:00:03.847305",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>O superóxido de potássio, <span class=\"math inline\">\\(\\ce{KO2}\\)</span>, é utilizado em equipamentos de\nrespiração de sistema fechado para remover o dióxido de carbono e a água\ndo ar exalado. A remoção de água gera oxigênio para a respiração pela\nreação: <span class=\"math display\">\\[\n    \\ce{ KO2(s) + H2O(l) -&gt; O2(g) + KOH(s) }\n\\]</span> O hidróxido de potássio remove o dióxido de carbono do\nequipamento pela reação: <span class=\"math display\">\\[\n    \\ce{ KOH(s) + CO2(g) -&gt; KHCO3(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de superóxido de potássio\nnecessária para gerar <span class=\"math inline\">\\(\\pu{64 g}\\)</span> de\n<span class=\"math inline\">\\(\\ce{O2}\\)</span>.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> que pode ser removida do\nequipamento por <span class=\"math inline\">\\(\\pu{75 g}\\)</span> de <span class=\"math inline\">\\(\\ce{KO2}\\)</span>.</li>\n</ol>",
+        "md": "O superóxido de potássio, $\\ce{KO2}$, é utilizado em equipamentos de\nrespiração de sistema fechado para remover o dióxido de carbono e a água\ndo ar exalado. A remoção de água gera oxigênio para a respiração pela\nreação: $$\n    \\ce{ KO2(s) + H2O(l) -> O2(g) + KOH(s) }\n$$ O hidróxido de potássio remove o dióxido de carbono do equipamento\npela reação: $$\n    \\ce{ KOH(s) + CO2(g) -> KHCO3(s) }\n$$\n\na.  **Determine** a massa de superóxido de potássio necessária para\n    gerar $\\pu{64 g}$ de $\\ce{O2}$.\nb.  **Determine** a massa de $\\ce{CO2}$ que pode ser removida do\n    equipamento por $\\pu{75 g}$ de $\\ce{KO2}$.\n",
+        "tex": "O superóxido de potássio, {\\(\\ce{KO2}\\)}, é utilizado em equipamentos de respiração de sistema fechado para remover o dióxido de carbono e a água do\nar exalado. A remoção de água gera oxigênio para a respiração pela reação: {\\[\n    \\ce{ KO2(s) + H2O(l) -> O2(g) + KOH(s) }\n\\]} O hidróxido de potássio remove o dióxido de carbono do equipamento pela reação: {\\[\n    \\ce{ KOH(s) + CO2(g) -> KHCO3(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de superóxido de potássio necessária para gerar {\\(\\qty{64}{\\unit{g}}\\)} de {\\(\\ce{O2}\\)}.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{CO2}\\)} que pode ser removida do equipamento por {\\(\\qty{75}{\\unit{g}}\\)} de {\\(\\ce{KO2}\\)}.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{190 g}\\)</span></p>\n",
+          "md": "$\\pu{190 g}$",
+          "tex": "\\(\\qty{190}{\\unit{g}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{46 g}\\)</span></p>\n",
+          "md": "$\\pu{46 g}$",
+          "tex": "\\(\\qty{46}{\\unit{g}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6075,14 +6284,30 @@
     {
       "id_": "3B41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B41/3B41.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:19:27.867685",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Uma mistura de <span class=\"math inline\">\\(\\pu{12,4 g}\\)</span> de\nóxido de ferro(III) e <span class=\"math inline\">\\(\\pu{6,14 g}\\)</span>\ndo metal alumínio é colocada em um cadinho e aquecida em alta\ntemperatura em um forno. Ocorre a redução do óxido: <span class=\"math display\">\\[\n    \\ce{ FeO(s) + Al(l) -&gt; Fe(l) + Al2O3(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante.</li>\n<li><strong>Determine</strong> a quantidade máxima de ferro que pode ser\nproduzida.</li>\n<li><strong>Determine</strong> a massa do reagente em excesso que\npermaneceu no cadinho.</li>\n</ol>",
+        "md": "Uma mistura de $\\pu{12,4 g}$ de óxido de ferro(III) e $\\pu{6,14 g}$ do\nmetal alumínio é colocada em um cadinho e aquecida em alta temperatura\nem um forno. Ocorre a redução do óxido: $$\n    \\ce{ FeO(s) + Al(l) -> Fe(l) + Al2O3(s) }\n$$\n\na.  **Identifique** o reagente limitante.\nb.  **Determine** a quantidade máxima de ferro que pode ser produzida.\nc.  **Determine** a massa do reagente em excesso que permaneceu no\n    cadinho.\n",
+        "tex": "Uma mistura de {\\(\\qty{12,4}{\\unit{g}}\\)} de óxido de ferro(III) e {\\(\\qty{6,14}{\\unit{g}}\\)} do metal alumínio é colocada em um cadinho e aquecida em\nalta temperatura em um forno. Ocorre a redução do óxido: {\\[\n    \\ce{ FeO(s) + Al(l) -> Fe(l) + Al2O3(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante.\n\\item\n  \\textbf{Determine} a quantidade máxima de ferro que pode ser produzida.\n\\item\n  \\textbf{Determine} a massa do reagente em excesso que permaneceu no cadinho.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{FeO}\\)</span></p>\n",
+          "md": "$\\ce{FeO}$",
+          "tex": "\\(\\ce{FeO}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,17 mol}\\)</span></p>\n",
+          "md": "$\\pu{0,17 mol}$",
+          "tex": "\\(\\qty{0,17}{\\unit{mol}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{3,0 g}\\)</span> de <span\nclass=\"math inline\">\\(\\ce{Al}\\)</span></p>\n",
+          "md": "$\\pu{3,0 g}$ de $\\ce{Al}$",
+          "tex": "\\(\\qty{3,0}{\\unit{g}}\\) de \\(\\ce{Al}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6090,29 +6315,76 @@
     {
       "id_": "3B36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B36/3B36.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T21:55:41.096945",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Uma amostra de massa <span class=\"math inline\">\\(\\pu{1,27 g}\\)</span>\ndo metal cobre foi colocada em um cadinho de <span class=\"math inline\">\\(\\pu{26,3 g}\\)</span> e aquecida até que todo o\ncobre reagisse com o oxigênio do ar para formar um óxido. O cadinho e o\nproduto pesaram <span class=\"math inline\">\\(\\pu{27,7 g}\\)</span>.</p>",
+        "md": "Uma amostra de massa $\\pu{1,27 g}$ do metal cobre foi colocada em um\ncadinho de $\\pu{26,3 g}$ e aquecida até que todo o cobre reagisse com o\noxigênio do ar para formar um óxido. O cadinho e o produto pesaram\n$\\pu{27,7 g}$.\n",
+        "tex": "Uma amostra de massa {\\(\\qty{1,27}{\\unit{g}}\\)} do metal cobre foi colocada em um cadinho de {\\(\\qty{26,3}{\\unit{g}}\\)} e aquecida até que todo o\ncobre reagisse com o oxigênio do ar para formar um óxido. O cadinho e o produto pesaram {\\(\\qty{27,7}{\\unit{g}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cu2O}\\)</span>",
+          "md": "$\\ce{Cu2O}$\n",
+          "tex": "{\\(\\ce{Cu2O}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CuO}\\)</span>",
+          "md": "$\\ce{CuO}$\n",
+          "tex": "{\\(\\ce{CuO}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cu2O3}\\)</span>",
+          "md": "$\\ce{Cu2O3}$\n",
+          "tex": "{\\(\\ce{Cu2O3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CuO2}\\)</span>",
+          "md": "$\\ce{CuO2}$\n",
+          "tex": "{\\(\\ce{CuO2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cu2O5}\\)</span>",
+          "md": "$\\ce{Cu2O5}$\n",
+          "tex": "{\\(\\ce{Cu2O5}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3B32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B32/3B32.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T19:02:26.946203",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p><strong>Apresente</strong> a equação química balanceada para as\nreações descritas.</p>\n<ol type=\"a\">\n<li>A primeira etapa do processo de recuperação do cobre do minério que\ncontém <span class=\"math inline\">\\(\\ce{CuFeS2}\\)</span>, é o aquecimento\ndo minério no ar. Durante esse processo de cozimento, o oxigênio\nmolecular reage com o <span class=\"math inline\">\\(\\ce{CuFeS2}\\)</span> e\nproduz sulfeto de cobre(II), sólido, óxido de ferro(II), sólido e o gás\ndióxido de enxofre.</li>\n<li>O carbeto de silício, um abrasivo do diamante, <span class=\"math inline\">\\(\\ce{SiC}\\)</span>, é produzido pela reação de\ndióxido de silício com carbono elementar em <span class=\"math inline\">\\(\\pu{2000 \\degree C}\\)</span> para dar carbeto de\nsilício sólido e o gás monóxido de carbono.</li>\n<li>A reação dos gases hidrogênio e nitrogênio é usada na produção\ncomercial do gás amônia no processo de Haber.</li>\n<li>Em condições ácidas, o gás oxigênio reage com ácido bromídrico em\nágua para formar água líquida e bromo líquido.</li>\n</ol>",
+        "md": "**Apresente** a equação química balanceada para as reações descritas.\n\na.  A primeira etapa do processo de recuperação do cobre do minério que\n    contém $\\ce{CuFeS2}$, é o aquecimento do minério no ar. Durante esse\n    processo de cozimento, o oxigênio molecular reage com o\n    $\\ce{CuFeS2}$ e produz sulfeto de cobre(II), sólido, óxido de\n    ferro(II), sólido e o gás dióxido de enxofre.\nb.  O carbeto de silício, um abrasivo do diamante, $\\ce{SiC}$, é\n    produzido pela reação de dióxido de silício com carbono elementar em\n    $\\pu{2000 \\degree C}$ para dar carbeto de silício sólido e o gás\n    monóxido de carbono.\nc.  A reação dos gases hidrogênio e nitrogênio é usada na produção\n    comercial do gás amônia no processo de Haber.\nd.  Em condições ácidas, o gás oxigênio reage com ácido bromídrico em\n    água para formar água líquida e bromo líquido.\n",
+        "tex": "\\textbf{Apresente} a equação química balanceada para as reações descritas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  A primeira etapa do processo de recuperação do cobre do minério que contém {\\(\\ce{CuFeS2}\\)}, é o aquecimento do minério no ar. Durante esse\n  processo de cozimento, o oxigênio molecular reage com o {\\(\\ce{CuFeS2}\\)} e produz sulfeto de cobre(II), sólido, óxido de ferro(II), sólido e o gás\n  dióxido de enxofre.\n\\item\n  O carbeto de silício, um abrasivo do diamante, {\\(\\ce{SiC}\\)}, é produzido pela reação de dióxido de silício com carbono elementar em\n  {\\(\\qty{2000}{\\unit{\\degree C}}\\)} para dar carbeto de silício sólido e o gás monóxido de carbono.\n\\item\n  A reação dos gases hidrogênio e nitrogênio é usada na produção comercial do gás amônia no processo de Haber.\n\\item\n  Em condições ácidas, o gás oxigênio reage com ácido bromídrico em água para formar água líquida e bromo líquido.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ 2 CuFeS2(s) + 3 O2(g) -&gt; 2 CuS(s)\n+ 2 FeO(s) + 2 SO2(g) }\\)</span></p>\n",
+          "md": "$\\ce{ 2 CuFeS2(s) + 3 O2(g) -> 2 CuS(s) + 2 FeO(s) + 2 SO2(g) }$",
+          "tex": "\\(\\ce{ 2 CuFeS2(s) + 3 O2(g) -> 2 CuS(s) + 2 FeO(s) + 2 SO2(g) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ SiO2(s) + 3 C(s) -&gt; SiC(s) + 2\nCO(g) }\\)</span></p>\n",
+          "md": "$\\ce{ SiO2(s) + 3 C(s) -> SiC(s) + 2 CO(g) }$",
+          "tex": "\\(\\ce{ SiO2(s) + 3 C(s) -> SiC(s) + 2 CO(g) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ 3 H2(g) + N2(g) -&gt; 2 NH3(g)\n}\\)</span></p>\n",
+          "md": "$\\ce{ 3 H2(g) + N2(g) -> 2 NH3(g) }$",
+          "tex": "\\(\\ce{ 3 H2(g) + N2(g) -> 2 NH3(g) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ O2(g) + 4 HBr(aq) -&gt; 2 H2O(l) + 2\nBr2(l) }\\)</span></p>\n",
+          "md": "$\\ce{ O2(g) + 4 HBr(aq) -> 2 H2O(l) + 2 Br2(l) }$",
+          "tex": "\\(\\ce{ O2(g) + 4 HBr(aq) -> 2 H2O(l) + 2 Br2(l) }\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6161,7 +6433,7 @@
     {
       "id_": "3B03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B03/3B03.md",
-      "date": "2023-01-16T18:36:27.914570",
+      "date": "2023-01-16T21:44:12.152542",
       "statement": {
         "html": "<p>Considere as equações simplificadas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ Ag2CO3(s) + NaBr(aq) -&gt; AgBr(s)\n+ Na2CO3(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ H3PO4(aq) + Ca(OH)2(aq) -&gt;\nCa3(PO4)2(s) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Cr2(SO4)3(aq) + HClO2(aq) -&gt;\nCr(ClO2)3(aq) + H2SO4(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ H3PO4(aq) + NH3(aq) -&gt;\n(NH4)3PO4(aq) }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona a soma dos\ncoeficientes das reações balanceadas com os menores coeficientes\ninteiros, respectivamente.</p>",
         "md": "Considere as equações simplificadas.\n\n1.  $\\ce{ Ag2CO3(s) + NaBr(aq) -> AgBr(s) + Na2CO3(aq) }$\n2.  $\\ce{ H3PO4(aq) + Ca(OH)2(aq) -> Ca3(PO4)2(s) + H2O(l) }$\n3.  $\\ce{ Cr2(SO4)3(aq) + HClO2(aq) -> Cr(ClO2)3(aq) + H2SO4(aq) }$\n4.  $\\ce{ H3PO4(aq) + NH3(aq) -> (NH4)3PO4(aq) }$\n\n**Assinale** a alternativa que relaciona a soma dos coeficientes das\nreações balanceadas com os menores coeficientes inteiros,\nrespectivamente.\n",
@@ -6172,29 +6444,29 @@
       "data": null,
       "choices": [
         {
-          "html": "6; 12; 5; 12.",
-          "md": "6; 12; 5; 12.\n",
-          "tex": "6; 12; 5; 12.\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(12\\)</span>.",
+          "md": "$6$; $12$; $5$; $12$.\n",
+          "tex": "{\\(6\\)}; {\\(12\\)}; {\\(5\\)}; {\\(12\\)}.\n"
         },
         {
-          "html": "5; 6; 12; 12.",
-          "md": "5; 6; 12; 12.\n",
-          "tex": "5; 6; 12; 12.\n"
+          "html": "<span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(12\\)</span>.",
+          "md": "$5$; $6$; $12$; $12$.\n",
+          "tex": "{\\(5\\)}; {\\(6\\)}; {\\(12\\)}; {\\(12\\)}.\n"
         },
         {
-          "html": "6; 12; 12; 5.",
-          "md": "6; 12; 12; 5.\n",
-          "tex": "6; 12; 12; 5.\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(5\\)</span>.",
+          "md": "$6$; $12$; $12$; $5$.\n",
+          "tex": "{\\(6\\)}; {\\(12\\)}; {\\(12\\)}; {\\(5\\)}.\n"
         },
         {
-          "html": "5; 12; 12; 6.",
-          "md": "5; 12; 12; 6.\n",
-          "tex": "5; 12; 12; 6.\n"
+          "html": "<span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(6\\)</span>.",
+          "md": "$5$; $12$; $12$; $6$.\n",
+          "tex": "{\\(5\\)}; {\\(12\\)}; {\\(12\\)}; {\\(6\\)}.\n"
         },
         {
-          "html": "5; 12; 6; 12.",
-          "md": "5; 12; 6; 12.\n",
-          "tex": "5; 12; 6; 12.\n"
+          "html": "<span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(12\\)</span>.",
+          "md": "$5$; $12$; $6$; $12$.\n",
+          "tex": "{\\(5\\)}; {\\(12\\)}; {\\(6\\)}; {\\(12\\)}.\n"
         }
       ],
       "correct_choice": 2
@@ -6202,14 +6474,20 @@
     {
       "id_": "3B47",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B47/3B47.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:42:49.923087",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Um composto encontrado no núcleo de uma célula humana contém carbono,\nhidrogênio, oxigênio e nitrogênio. A análise por combustão de <span class=\"math inline\">\\(\\pu{1,35 g}\\)</span> do composto produziu <span class=\"math inline\">\\(\\pu{2,2 g}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> e <span class=\"math inline\">\\(\\pu{0,9 g}\\)</span> de <span class=\"math inline\">\\(\\ce{H2O}\\)</span>. Quando outra amostra, de <span class=\"math inline\">\\(\\ce{0,5 g}\\)</span>, do composto foi analisada\npara nitrogênio, produziu-se <span class=\"math inline\">\\(\\pu{0,13\ng}\\)</span> de <span class=\"math inline\">\\(\\ce{N2}\\)</span>.</p>\n<p><strong>Determine</strong> a fórmula empírica do composto.</p>",
+        "md": "Um composto encontrado no núcleo de uma célula humana contém carbono,\nhidrogênio, oxigênio e nitrogênio. A análise por combustão de\n$\\pu{1,35 g}$ do composto produziu $\\pu{2,2 g}$ de $\\ce{CO2}$ e\n$\\pu{0,9 g}$ de $\\ce{H2O}$. Quando outra amostra, de $\\ce{0,5 g}$, do\ncomposto foi analisada para nitrogênio, produziu-se $\\pu{0,13 g}$ de\n$\\ce{N2}$.\n\n**Determine** a fórmula empírica do composto.\n",
+        "tex": "Um composto encontrado no núcleo de uma célula humana contém carbono, hidrogênio, oxigênio e nitrogênio. A análise por combustão de\n{\\(\\qty{1,35}{\\unit{g}}\\)} do composto produziu {\\(\\qty{2,2}{\\unit{g}}\\)} de {\\(\\ce{CO2}\\)} e {\\(\\qty{0,9}{\\unit{g}}\\)} de {\\(\\ce{H2O}\\)}. Quando\noutra amostra, de {\\(\\ce{0,5 g}\\)}, do composto foi analisada para nitrogênio, produziu-se {\\(\\qty{0,13}{\\unit{g}}\\)} de {\\(\\ce{N2}\\)}.\n\n\\textbf{Determine} a fórmula empírica do composto.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C8H16N4O3}\\)</span></p>\n",
+          "md": "$\\ce{C8H16N4O3}$",
+          "tex": "\\(\\ce{C8H16N4O3}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6258,14 +6536,30 @@
     {
       "id_": "3B40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B40/3B40.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:15:39.062968",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Ácido nítrico é produzido comercialmente pelo Processo Ostwald: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ NH3(g) + O2(g) &amp;-&gt; NO(g) + H2O(g) } \\\\\n    \\ce{ NO(g) + O2(g) &amp;-&gt; NO2(g) } \\\\\n    \\ce{ NO2(g) + H2O(l) &amp;-&gt; HNO3(aq) + NO(g) }\n\\end{aligned}\n\\]</span> Uma indústria deve produzir <span class=\"math inline\">\\(\\pu{1000 ton}\\)</span> de ácido nítrico.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de amônia necessária para a\nprodução considerando que todo o óxido nítrico formado na última etapa\nreaja na primeira.</li>\n<li><strong>Determine</strong> a massa de amônia necessária para a\nprodução considerando que todo o óxido nítrico formado na última etapa\nnão seja reaproveitado na primeira.</li>\n<li><strong>Determine</strong> a massa de amônia necessária para a\nprodução considerando que todo o óxido nítrico formado na última etapa\nreaja na primeira.</li>\n</ol>",
+        "md": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald: $$\n\\begin{aligned}\n    \\ce{ NH3(g) + O2(g) &-> NO(g) + H2O(g) } \\\\\n    \\ce{ NO(g) + O2(g) &-> NO2(g) } \\\\\n    \\ce{ NO2(g) + H2O(l) &-> HNO3(aq) + NO(g) }\n\\end{aligned}\n$$ Uma indústria deve produzir $\\pu{1000 ton}$ de ácido nítrico.\n\na.  **Determine** a massa de amônia necessária para a produção\n    considerando que todo o óxido nítrico formado na última etapa reaja\n    na primeira.\nb.  **Determine** a massa de amônia necessária para a produção\n    considerando que todo o óxido nítrico formado na última etapa não\n    seja reaproveitado na primeira.\nc.  **Determine** a massa de amônia necessária para a produção\n    considerando que todo o óxido nítrico formado na última etapa reaja\n    na primeira.\n",
+        "tex": "Ácido nítrico é produzido comercialmente pelo Processo Ostwald: {\\[\n\\begin{aligned}\n    \\ce{ NH3(g) + O2(g) &-> NO(g) + H2O(g) } \\\\\n    \\ce{ NO(g) + O2(g) &-> NO2(g) } \\\\\n    \\ce{ NO2(g) + H2O(l) &-> HNO3(aq) + NO(g) }\n\\end{aligned}\n\\]} Uma indústria deve produzir {\\(\\qty{1000}{\\unit{ton}}\\)} de ácido nítrico.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de amônia necessária para a produção considerando que todo o óxido nítrico formado na última etapa reaja na primeira.\n\\item\n  \\textbf{Determine} a massa de amônia necessária para a produção considerando que todo o óxido nítrico formado na última etapa não seja reaproveitado\n  na primeira.\n\\item\n  \\textbf{Determine} a massa de amônia necessária para a produção considerando que todo o óxido nítrico formado na última etapa reaja na primeira.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{270 ton}\\)</span></p>\n",
+          "md": "$\\pu{270 ton}$",
+          "tex": "\\(\\qty{270}{\\unit{ton}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{410 ton}\\)</span></p>\n",
+          "md": "$\\pu{410 ton}$",
+          "tex": "\\(\\qty{410}{\\unit{ton}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{350 ton}\\)</span></p>\n",
+          "md": "$\\pu{350 ton}$",
+          "tex": "\\(\\qty{350}{\\unit{ton}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6314,7 +6608,7 @@
     {
       "id_": "3B02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B02/3B02.md",
-      "date": "2023-01-16T15:15:54.651495",
+      "date": "2023-01-16T21:44:05.776707",
       "statement": {
         "html": "<p>Considere as equações simplificadas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ KClO3(s) -&gt; KCl(s) + O2(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ KClO3(l) -&gt; KCl(s) + KClO4(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ N2H4(aq) + I2(aq) -&gt; HI(aq) +\nN2(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ P4O10(s) + H2O(l) -&gt; H3PO4(l)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona a soma dos\ncoeficientes das reações balanceadas com os menores coeficientes\ninteiros, respectivamente.</p>",
         "md": "Considere as equações simplificadas.\n\n1.  $\\ce{ KClO3(s) -> KCl(s) + O2(g) }$\n2.  $\\ce{ KClO3(l) -> KCl(s) + KClO4(g) }$\n3.  $\\ce{ N2H4(aq) + I2(aq) -> HI(aq) + N2(g) }$\n4.  $\\ce{ P4O10(s) + H2O(l) -> H3PO4(l) }$\n\n**Assinale** a alternativa que relaciona a soma dos coeficientes das\nreações balanceadas com os menores coeficientes inteiros,\nrespectivamente.\n",
@@ -6325,29 +6619,29 @@
       "data": null,
       "choices": [
         {
-          "html": "7; 11; 8; 8.",
-          "md": "7; 11; 8; 8.\n",
-          "tex": "7; 11; 8; 8.\n"
+          "html": "<span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(11\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(8\\)</span>.",
+          "md": "$7$; $11$; $8$; $8$.\n",
+          "tex": "{\\(7\\)}; {\\(11\\)}; {\\(8\\)}; {\\(8\\)}.\n"
         },
         {
-          "html": "11; 8; 7; 8.",
-          "md": "11; 8; 7; 8.\n",
-          "tex": "11; 8; 7; 8.\n"
+          "html": "<span class=\"math inline\">\\(11\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(8\\)</span>.",
+          "md": "$11$; $8$; $7$; $8$.\n",
+          "tex": "{\\(11\\)}; {\\(8\\)}; {\\(7\\)}; {\\(8\\)}.\n"
         },
         {
-          "html": "8; 8; 11; 7.",
-          "md": "8; 8; 11; 7.\n",
-          "tex": "8; 8; 11; 7.\n"
+          "html": "<span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(11\\)</span>; <span class=\"math inline\">\\(7\\)</span>.",
+          "md": "$8$; $8$; $11$; $7$.\n",
+          "tex": "{\\(8\\)}; {\\(8\\)}; {\\(11\\)}; {\\(7\\)}.\n"
         },
         {
-          "html": "7; 8; 8; 11.",
-          "md": "7; 8; 8; 11.\n",
-          "tex": "7; 8; 8; 11.\n"
+          "html": "<span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(11\\)</span>.",
+          "md": "$7$; $8$; $8$; $11$.\n",
+          "tex": "{\\(7\\)}; {\\(8\\)}; {\\(8\\)}; {\\(11\\)}.\n"
         },
         {
-          "html": "8; 7; 8; 11.",
-          "md": "8; 7; 8; 11.\n",
-          "tex": "8; 7; 8; 11.\n"
+          "html": "<span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(11\\)</span>.",
+          "md": "$8$; $7$; $8$; $11$.\n",
+          "tex": "{\\(8\\)}; {\\(7\\)}; {\\(8\\)}; {\\(11\\)}.\n"
         }
       ],
       "correct_choice": 3
@@ -6355,14 +6649,20 @@
     {
       "id_": "3B50",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B50/3B50.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:54:06.046469",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Bifenilas policloradas (PCBs) já foram produtos químicos muito usados\nna indústria, mas descobriu-se que eles eram perigosos para a saúde e\npara o meio ambiente. PCBs contêm somente carbono, hidrogênio e cloro.\nAroclor-1254 é o nome comercial de um PCB cuja massa molar é <span class=\"math inline\">\\(\\pu{361 g.mol-1}\\)</span>. A combustão de <span class=\"math inline\">\\(\\pu{1,52 g}\\)</span> de Aroclor-1254 produziu\n<span class=\"math inline\">\\(\\pu{2,22 g}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> e a combustão de <span class=\"math inline\">\\(\\pu{2,53 g}\\)</span> produziu <span class=\"math inline\">\\(\\pu{0,253 g}\\)</span> de <span class=\"math inline\">\\(\\ce{H2O}\\)</span>.</p>\n<p><strong>Determine</strong> o número de átomos de cloro em uma\nmolécula de Aroclor-1254.</p>",
+        "md": "Bifenilas policloradas (PCBs) já foram produtos químicos muito usados na\nindústria, mas descobriu-se que eles eram perigosos para a saúde e para\no meio ambiente. PCBs contêm somente carbono, hidrogênio e cloro.\nAroclor-1254 é o nome comercial de um PCB cuja massa molar é\n$\\pu{361 g.mol-1}$. A combustão de $\\pu{1,52 g}$ de Aroclor-1254\nproduziu $\\pu{2,22 g}$ de $\\ce{CO2}$ e a combustão de $\\pu{2,53 g}$\nproduziu $\\pu{0,253 g}$ de $\\ce{H2O}$.\n\n**Determine** o número de átomos de cloro em uma molécula de\nAroclor-1254.\n",
+        "tex": "Bifenilas policloradas (PCBs) já foram produtos químicos muito usados na indústria, mas descobriu-se que eles eram perigosos para a saúde e para o\nmeio ambiente. PCBs contêm somente carbono, hidrogênio e cloro. Aroclor-1254 é o nome comercial de um PCB cuja massa molar é\n{\\(\\qty{361}{\\unit{g.mol^{-1}}}\\)}. A combustão de {\\(\\qty{1,52}{\\unit{g}}\\)} de Aroclor-1254 produziu {\\(\\qty{2,22}{\\unit{g}}\\)} de {\\(\\ce{CO2}\\)} e\na combustão de {\\(\\qty{2,53}{\\unit{g}}\\)} produziu {\\(\\qty{0,253}{\\unit{g}}\\)} de {\\(\\ce{H2O}\\)}.\n\n\\textbf{Determine} o número de átomos de cloro em uma molécula de Aroclor-1254.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(6\\)</span></p>\n",
+          "md": "$6$",
+          "tex": "\\(6\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6452,7 +6752,7 @@
     {
       "id_": "3B01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B01/3B01.md",
-      "date": "2023-01-16T15:15:54.651495",
+      "date": "2023-01-16T21:43:57.868913",
       "statement": {
         "html": "<p>Considere as equações simplificadas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NaBH4(s) + H2O(l) -&gt; NaBO2(aq) +\nH2(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Mg(N3)2(s) + H2O(l) -&gt;\nMg(OH)2(aq) + HN3(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NaCl(aq) + SO3(g) + H2O(l) -&gt;\nNa2SO4(aq) + HCl(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Fe2P(s) + S(s) -&gt; P4S10(s) +\nFeS(s) }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona a soma dos\ncoeficientes das reações balanceadas com os menores coeficientes\ninteiros, respectivamente.</p>",
         "md": "Considere as equações simplificadas.\n\n1.  $\\ce{ NaBH4(s) + H2O(l) -> NaBO2(aq) + H2(g) }$\n2.  $\\ce{ Mg(N3)2(s) + H2O(l) -> Mg(OH)2(aq) + HN3(aq) }$\n3.  $\\ce{ NaCl(aq) + SO3(g) + H2O(l) -> Na2SO4(aq) + HCl(aq) }$\n4.  $\\ce{ Fe2P(s) + S(s) -> P4S10(s) + FeS(s) }$\n\n**Assinale** a alternativa que relaciona a soma dos coeficientes das\nreações balanceadas com os menores coeficientes inteiros,\nrespectivamente.\n",
@@ -6463,29 +6763,29 @@
       "data": null,
       "choices": [
         {
-          "html": "8; 6; 6; 31.",
-          "md": "8; 6; 6; 31.\n",
-          "tex": "8; 6; 6; 31.\n"
+          "html": "<span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(31\\)</span>.",
+          "md": "$8$; $6$; $6$; $31$.\n",
+          "tex": "{\\(8\\)}; {\\(6\\)}; {\\(6\\)}; {\\(31\\)}.\n"
         },
         {
-          "html": "6; 31; 6; 8.",
-          "md": "6; 31; 6; 8.\n",
-          "tex": "6; 31; 6; 8.\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(31\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(8\\)</span>.",
+          "md": "$6$; $31$; $6$; $8$.\n",
+          "tex": "{\\(6\\)}; {\\(31\\)}; {\\(6\\)}; {\\(8\\)}.\n"
         },
         {
-          "html": "6; 31; 8; 6.",
-          "md": "6; 31; 8; 6.\n",
-          "tex": "6; 31; 8; 6.\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(31\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(6\\)</span>.",
+          "md": "$6$; $31$; $8$; $6$.\n",
+          "tex": "{\\(6\\)}; {\\(31\\)}; {\\(8\\)}; {\\(6\\)}.\n"
         },
         {
-          "html": "6; 6; 31; 8.",
-          "md": "6; 6; 31; 8.\n",
-          "tex": "6; 6; 31; 8.\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(31\\)</span>; <span class=\"math inline\">\\(8\\)</span>.",
+          "md": "$6$; $6$; $31$; $8$.\n",
+          "tex": "{\\(6\\)}; {\\(6\\)}; {\\(31\\)}; {\\(8\\)}.\n"
         },
         {
-          "html": "6; 8; 31; 6.",
-          "md": "6; 8; 31; 6.\n",
-          "tex": "6; 8; 31; 6.\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(31\\)</span>; <span class=\"math inline\">\\(6\\)</span>.",
+          "md": "$6$; $8$; $31$; $6$.\n",
+          "tex": "{\\(6\\)}; {\\(8\\)}; {\\(31\\)}; {\\(6\\)}.\n"
         }
       ],
       "correct_choice": 0
@@ -6534,17 +6834,43 @@
     {
       "id_": "3B33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B33/3B33.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T21:47:51.211165",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>O composto <span class=\"math inline\">\\(\\ce{XCl2(NH3)2}\\)</span>\nforma-se da reação entre <span class=\"math inline\">\\(\\ce{XCl4}\\)</span>\ne <span class=\"math inline\">\\(\\ce{NH3}\\)</span>. Em um experimento,\n<span class=\"math inline\">\\(\\ce{3,57 g}\\)</span> de <span class=\"math inline\">\\(\\ce{XCl4}\\)</span> reagem com excesso de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> para dar <span class=\"math inline\">\\(\\ce{Cl2}\\)</span> e <span class=\"math inline\">\\(\\pu{3,18 g}\\)</span> de <span class=\"math inline\">\\(\\ce{XCl2(NH3)2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o elemento <span class=\"math inline\">\\(\\ce{X}\\)</span>.</p>",
+        "md": "O composto $\\ce{XCl2(NH3)2}$ forma-se da reação entre $\\ce{XCl4}$ e\n$\\ce{NH3}$. Em um experimento, $\\ce{3,57 g}$ de $\\ce{XCl4}$ reagem com\nexcesso de $\\ce{NH3}$ para dar $\\ce{Cl2}$ e $\\pu{3,18 g}$ de\n$\\ce{XCl2(NH3)2}$.\n\n**Assinale** a alternativa com o elemento $\\ce{X}$.\n",
+        "tex": "O composto {\\(\\ce{XCl2(NH3)2}\\)} forma-se da reação entre {\\(\\ce{XCl4}\\)} e {\\(\\ce{NH3}\\)}. Em um experimento, {\\(\\ce{3,57 g}\\)} de {\\(\\ce{XCl4}\\)}\nreagem com excesso de {\\(\\ce{NH3}\\)} para dar {\\(\\ce{Cl2}\\)} e {\\(\\qty{3,18}{\\unit{g}}\\)} de {\\(\\ce{XCl2(NH3)2}\\)}.\n\n\\textbf{Assinale} a alternativa com o elemento {\\(\\ce{X}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cu}\\)</span>",
+          "md": "$\\ce{Cu}$\n",
+          "tex": "{\\(\\ce{Cu}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Pd}\\)</span>",
+          "md": "$\\ce{Pd}$\n",
+          "tex": "{\\(\\ce{Pd}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Ag}\\)</span>",
+          "md": "$\\ce{Ag}$\n",
+          "tex": "{\\(\\ce{Ag}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Pt}\\)</span>",
+          "md": "$\\ce{Pt}$\n",
+          "tex": "{\\(\\ce{Pt}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Au}\\)</span>",
+          "md": "$\\ce{Au}$\n",
+          "tex": "{\\(\\ce{Au}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3B05",
@@ -6590,14 +6916,20 @@
     {
       "id_": "3B39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B39/3B39.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:14:32.754609",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>O brometo de sódio, <span class=\"math inline\">\\(\\ce{NaBr}\\)</span>,\nque é usado para produzir <span class=\"math inline\">\\(\\ce{AgBr}\\)</span>\npara uso em filmes fotográficos, pode ser preparado da seguinte forma:\n<span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ Fe(s) + Br2(l) &amp;-&gt; FeBr2(s) } \\\\\n    \\ce{ FeBr2(s) + Br2(l) &amp;-&gt; Fe3Br8(s) } \\\\\n    \\ce{ Fe3Br8(s) + Na2CO3(s) &amp;-&gt; NaBr(s) + CO2(g) + Fe3O4(s) }\n\\end{aligned}\n\\]</span></p>\n<p><strong>Determine</strong> a massa de ferro necessária para produzir\n<span class=\"math inline\">\\(\\pu{2,5 ton}\\)</span> de <span class=\"math inline\">\\(\\ce{NaBr}\\)</span>.</p>",
+        "md": "O brometo de sódio, $\\ce{NaBr}$, que é usado para produzir $\\ce{AgBr}$\npara uso em filmes fotográficos, pode ser preparado da seguinte forma:\n$$\n\\begin{aligned}\n    \\ce{ Fe(s) + Br2(l) &-> FeBr2(s) } \\\\\n    \\ce{ FeBr2(s) + Br2(l) &-> Fe3Br8(s) } \\\\\n    \\ce{ Fe3Br8(s) + Na2CO3(s) &-> NaBr(s) + CO2(g) + Fe3O4(s) }\n\\end{aligned}\n$$\n\n**Determine** a massa de ferro necessária para produzir $\\pu{2,5 ton}$\nde $\\ce{NaBr}$.\n",
+        "tex": "O brometo de sódio, {\\(\\ce{NaBr}\\)}, que é usado para produzir {\\(\\ce{AgBr}\\)} para uso em filmes fotográficos, pode ser preparado da seguinte forma:\n{\\[\n\\begin{aligned}\n    \\ce{ Fe(s) + Br2(l) &-> FeBr2(s) } \\\\\n    \\ce{ FeBr2(s) + Br2(l) &-> Fe3Br8(s) } \\\\\n    \\ce{ Fe3Br8(s) + Na2CO3(s) &-> NaBr(s) + CO2(g) + Fe3O4(s) }\n\\end{aligned}\n\\]}\n\n\\textbf{Determine} a massa de ferro necessária para produzir {\\(\\qty{2,5}{\\unit{ton}}\\)} de {\\(\\ce{NaBr}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{509 kg}\\)</span></p>\n",
+          "md": "$\\pu{509 kg}$",
+          "tex": "\\(\\qty{509}{\\unit{kg}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6646,14 +6978,30 @@
     {
       "id_": "3B44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B44/3B44.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:33:04.557225",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Um vaso de reação contém <span class=\"math inline\">\\(\\pu{5,77\ng}\\)</span> de fósforo branco e <span class=\"math inline\">\\(\\pu{5,77\ng}\\)</span> de oxigênio. A primeira reação que ocorre é a formação de\nóxido de fósforo(III), <span class=\"math inline\">\\(\\ce{P4O6}\\)</span>:\n<span class=\"math display\">\\[\n    \\ce{ P4(s) + O2(g) -&gt; P4O6(s) }\n\\]</span> Se o oxigênio estiver em excesso, a reação prossegue, com\nformação de óxido de fósforo(V), <span class=\"math inline\">\\(\\ce{P4O10}\\)</span>: <span class=\"math display\">\\[\n    \\ce{ P4O6(s) + O2(g) -&gt; P4O10(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante para a formação de\n<span class=\"math inline\">\\(\\ce{P4O10}\\)</span>.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\pu{P4O10}\\)</span> obtida.</li>\n<li><strong>Determine</strong> a massa de reagente em excesso que\npermanece no vaso de reação.</li>\n</ol>",
+        "md": "Um vaso de reação contém $\\pu{5,77 g}$ de fósforo branco e $\\pu{5,77 g}$\nde oxigênio. A primeira reação que ocorre é a formação de óxido de\nfósforo(III), $\\ce{P4O6}$: $$\n    \\ce{ P4(s) + O2(g) -> P4O6(s) }\n$$ Se o oxigênio estiver em excesso, a reação prossegue, com formação de\nóxido de fósforo(V), $\\ce{P4O10}$: $$\n    \\ce{ P4O6(s) + O2(g) -> P4O10(s) }\n$$\n\na.  **Identifique** o reagente limitante para a formação de\n    $\\ce{P4O10}$.\nb.  **Determine** a massa de $\\pu{P4O10}$ obtida.\nc.  **Determine** a massa de reagente em excesso que permanece no vaso\n    de reação.\n",
+        "tex": "Um vaso de reação contém {\\(\\qty{5,77}{\\unit{g}}\\)} de fósforo branco e {\\(\\qty{5,77}{\\unit{g}}\\)} de oxigênio. A primeira reação que ocorre é a\nformação de óxido de fósforo(III), {\\(\\ce{P4O6}\\)}: {\\[\n    \\ce{ P4(s) + O2(g) -> P4O6(s) }\n\\]} Se o oxigênio estiver em excesso, a reação prossegue, com formação de óxido de fósforo(V), {\\(\\ce{P4O10}\\)}: {\\[\n    \\ce{ P4O6(s) + O2(g) -> P4O10(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante para a formação de {\\(\\ce{P4O10}\\)}.\n\\item\n  \\textbf{Determine} a massa de {\\(\\unit{P^{4}O^{10}}\\)} obtida.\n\\item\n  \\textbf{Determine} a massa de reagente em excesso que permanece no vaso de reação.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{O2}\\)</span></p>\n",
+          "md": "$\\ce{O2}$",
+          "tex": "\\(\\ce{O2}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{5,77 g}\\)</span></p>\n",
+          "md": "$\\pu{5,77 g}$",
+          "tex": "\\(\\qty{5,77}{\\unit{g}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{5,7 g}\\)</span></p>\n",
+          "md": "$\\pu{5,7 g}$",
+          "tex": "\\(\\qty{5,7}{\\unit{g}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6661,14 +7009,20 @@
     {
       "id_": "3B53",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B53/3B53.md",
-      "date": "2023-01-16T15:15:54.655495",
+      "date": "2023-01-16T22:59:37.968532",
       "statement": {
-        "html": "<p>oi</p>",
-        "md": "oi\n",
-        "tex": "oi\n"
+        "html": "<p>Um laboratório forense está analisando uma mistura de dois sólidos,\ncloreto de cálcio di-hidratado, <span class=\"math inline\">\\(\\ce{CaCl2.2H2O}\\)</span>, e cloreto de potássio,\n<span class=\"math inline\">\\(\\ce{KCl}\\)</span>. A mistura foi aquecida\npara eliminar a água de hidratação: <span class=\"math display\">\\[\n    \\ce{ CaCl2.2H2O(s) -&gt;[$\\Delta$] CaCl2(s) + 2 H2O(g) }\n\\]</span> A massa de uma amostra da mistura antes do aquecimento doi\n<span class=\"math inline\">\\(\\pu{2,54 g}\\)</span>. Após o aquecimento, a\nmassa da mistura de <span class=\"math inline\">\\(\\ce{CaCl2}\\)</span> e\ncloreto de potássio foi <span class=\"math inline\">\\(\\pu{2,31\ng}\\)</span>.</p>\n<p><strong>Determine</strong> a fração mássica de cloreto de potássio na\namostra original.</p>",
+        "md": "Um laboratório forense está analisando uma mistura de dois sólidos,\ncloreto de cálcio di-hidratado, $\\ce{CaCl2.2H2O}$, e cloreto de\npotássio, $\\ce{KCl}$. A mistura foi aquecida para eliminar a água de\nhidratação: $$\n    \\ce{ CaCl2.2H2O(s) ->[$\\Delta$] CaCl2(s) + 2 H2O(g) }\n$$ A massa de uma amostra da mistura antes do aquecimento doi\n$\\pu{2,54 g}$. Após o aquecimento, a massa da mistura de $\\ce{CaCl2}$ e\ncloreto de potássio foi $\\pu{2,31 g}$.\n\n**Determine** a fração mássica de cloreto de potássio na amostra\noriginal.\n",
+        "tex": "Um laboratório forense está analisando uma mistura de dois sólidos, cloreto de cálcio di-hidratado, {\\(\\ce{CaCl2.2H2O}\\)}, e cloreto de potássio,\n{\\(\\ce{KCl}\\)}. A mistura foi aquecida para eliminar a água de hidratação: {\\[\n    \\ce{ CaCl2.2H2O(s) ->[$\\Delta$] CaCl2(s) + 2 H2O(g) }\n\\]} A massa de uma amostra da mistura antes do aquecimento doi {\\(\\qty{2,54}{\\unit{g}}\\)}. Após o aquecimento, a massa da mistura de {\\(\\ce{CaCl2}\\)}\ne cloreto de potássio foi {\\(\\qty{2,31}{\\unit{g}}\\)}.\n\n\\textbf{Determine} a fração mássica de cloreto de potássio na amostra original.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{63}\\%\\)</span></p>\n",
+          "md": "$\\pu{63}\\%$",
+          "tex": "\\(\\num{63}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -8059,7 +8413,7 @@
     {
       "id_": "2B38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B38/2B38.md",
-      "date": "2023-01-09T22:19:52.601086",
+      "date": "2023-01-16T22:00:16.559937",
       "statement": {
         "html": "",
         "md": "\n",

@@ -1050,7 +1050,7 @@
 \NewTasksEnvironment
     [
         label  = { \choicebox { \Alph* } },
-        item-indent = 2.5em,
+        item-indent = 3em,
         after-item-skip = 2\itemsep,
         label-width = 1.2em,
         label-align = right,
