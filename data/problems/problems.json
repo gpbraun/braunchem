@@ -5947,7 +5947,7 @@
     {
       "id_": "3C28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C28/3C28.md",
-      "date": "2023-01-18T00:14:57.499329",
+      "date": "2023-01-18T01:57:24.745324",
       "statement": {
         "html": "<p>Considere a distribuição de velocidade de três amostras de hélio em\n<span class=\"math inline\">\\(\\pu{300 K}\\)</span>, <span class=\"math inline\">\\(\\ce{900 K}\\)</span> e <span class=\"math inline\">\\(\\ce{1800 K}\\)</span>.</p>\n<figure>\n<img alt=\"Figura do problema 3C28.\" src=\"3C28-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3C28.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com a temperatura das\namostras <span class=\"math inline\">\\(\\ce{A}\\)</span>, <span class=\"math inline\">\\(\\ce{B}\\)</span>, <span class=\"math inline\">\\(\\ce{C}\\)</span>, respectivamente.</p>",
         "md": "Considere a distribuição de velocidade de três amostras de hélio em\n$\\pu{300 K}$, $\\ce{900 K}$ e $\\ce{1800 K}$.\n\n![Figura do problema 3C28.](3C28-1P.svg)\n\n**Assinale** a alternativa com a temperatura das amostras $\\ce{A}$,\n$\\ce{B}$, $\\ce{C}$, respectivamente.\n",
@@ -5958,29 +5958,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Ne}\\)</span>; <span class=\"math inline\">\\(\\ce{He}\\)</span>; <span class=\"math inline\">\\(\\ce{Ar}\\)</span>.",
-          "md": "$\\ce{Ne}$; $\\ce{He}$; $\\ce{Ar}$.\n",
-          "tex": "{\\(\\ce{Ne}\\)}; {\\(\\ce{He}\\)}; {\\(\\ce{Ar}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{900 K}\\)</span>; <span class=\"math inline\">\\(\\ce{1800 K}\\)</span>; <span class=\"math inline\">\\(\\pu{300 K}\\)</span>.",
+          "md": "$\\ce{900 K}$; $\\ce{1800 K}$; $\\pu{300 K}$.\n",
+          "tex": "{\\(\\ce{900 K}\\)}; {\\(\\ce{1800 K}\\)}; {\\(\\qty{300}{\\unit{K}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Ne}\\)</span>; <span class=\"math inline\">\\(\\ce{Ar}\\)</span>; <span class=\"math inline\">\\(\\ce{He}\\)</span>.",
-          "md": "$\\ce{Ne}$; $\\ce{Ar}$; $\\ce{He}$.\n",
-          "tex": "{\\(\\ce{Ne}\\)}; {\\(\\ce{Ar}\\)}; {\\(\\ce{He}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{900 K}\\)</span>; <span class=\"math inline\">\\(\\pu{300 K}\\)</span>; <span class=\"math inline\">\\(\\ce{1800 K}\\)</span>.",
+          "md": "$\\ce{900 K}$; $\\pu{300 K}$; $\\ce{1800 K}$.\n",
+          "tex": "{\\(\\ce{900 K}\\)}; {\\(\\qty{300}{\\unit{K}}\\)}; {\\(\\ce{1800 K}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Ar}\\)</span>; <span class=\"math inline\">\\(\\ce{Ne}\\)</span>; <span class=\"math inline\">\\(\\ce{He}\\)</span>.",
-          "md": "$\\ce{Ar}$; $\\ce{Ne}$; $\\ce{He}$.\n",
-          "tex": "{\\(\\ce{Ar}\\)}; {\\(\\ce{Ne}\\)}; {\\(\\ce{He}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{300 K}\\)</span>; <span class=\"math inline\">\\(\\ce{900 K}\\)</span>; <span class=\"math inline\">\\(\\ce{1800 K}\\)</span>.",
+          "md": "$\\pu{300 K}$; $\\ce{900 K}$; $\\ce{1800 K}$.\n",
+          "tex": "{\\(\\qty{300}{\\unit{K}}\\)}; {\\(\\ce{900 K}\\)}; {\\(\\ce{1800 K}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{He}\\)</span>; <span class=\"math inline\">\\(\\ce{Ne}\\)</span>; <span class=\"math inline\">\\(\\ce{Ar}\\)</span>.",
-          "md": "$\\ce{He}$; $\\ce{Ne}$; $\\ce{Ar}$.\n",
-          "tex": "{\\(\\ce{He}\\)}; {\\(\\ce{Ne}\\)}; {\\(\\ce{Ar}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{1800 K}\\)</span>; <span class=\"math inline\">\\(\\ce{900 K}\\)</span>; <span class=\"math inline\">\\(\\pu{300 K}\\)</span>.",
+          "md": "$\\ce{1800 K}$; $\\ce{900 K}$; $\\pu{300 K}$.\n",
+          "tex": "{\\(\\ce{1800 K}\\)}; {\\(\\ce{900 K}\\)}; {\\(\\qty{300}{\\unit{K}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{He}\\)</span>; <span class=\"math inline\">\\(\\ce{Ar}\\)</span>; <span class=\"math inline\">\\(\\ce{Ne}\\)</span>.",
-          "md": "$\\ce{He}$; $\\ce{Ar}$; $\\ce{Ne}$.\n",
-          "tex": "{\\(\\ce{He}\\)}; {\\(\\ce{Ar}\\)}; {\\(\\ce{Ne}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{1800 K}\\)</span>; <span class=\"math inline\">\\(\\pu{300 K}\\)</span>; <span class=\"math inline\">\\(\\ce{900 K}\\)</span>.",
+          "md": "$\\ce{1800 K}$; $\\pu{300 K}$; $\\ce{900 K}$.\n",
+          "tex": "{\\(\\ce{1800 K}\\)}; {\\(\\qty{300}{\\unit{K}}\\)}; {\\(\\ce{900 K}\\)}.\n"
         }
       ],
       "correct_choice": 2
@@ -5988,11 +5988,11 @@
     {
       "id_": "3C48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C48/3C48.md",
-      "date": "2023-01-18T01:51:06.738158",
+      "date": "2023-01-18T02:01:22.908602",
       "statement": {
-        "html": "<p>Nos extremos de um corredor de <span class=\"math inline\">\\(\\pu{2,4\nm}\\)</span> de um laboratório são abertos, no mesmo instante, dois\nfrascos, um dos frascos contém etanoato de metila, <span class=\"math inline\">\\(\\ce{C3H6O2}\\)</span>, enquanto o outro contém éter\nmetílico, <span class=\"math inline\">\\(\\ce{C2H6O}\\)</span>. .</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndistância do frasco de etanoato de etila em que sente-se o cheiro dos\ncompostos ao mesmo tempo.</p>",
-        "md": "Nos extremos de um corredor de $\\pu{2,4 m}$ de um laboratório são\nabertos, no mesmo instante, dois frascos, um dos frascos contém etanoato\nde metila, $\\ce{C3H6O2}$, enquanto o outro contém éter metílico,\n$\\ce{C2H6O}$. .\n\n**Assinale** a alternativa que mais se aproxima da distância do frasco\nde etanoato de etila em que sente-se o cheiro dos compostos ao mesmo\ntempo.\n",
-        "tex": "Nos extremos de um corredor de {\\(\\qty{2,4}{\\unit{m}}\\)} de um laboratório são abertos, no mesmo instante, dois frascos, um dos frascos contém\netanoato de metila, {\\(\\ce{C3H6O2}\\)}, enquanto o outro contém éter metílico, {\\(\\ce{C2H6O}\\)}. .\n\n\\textbf{Assinale} a alternativa que mais se aproxima da distância do frasco de etanoato de etila em que sente-se o cheiro dos compostos ao mesmo\ntempo.\n"
+        "html": "<p>Nos extremos de um corredor de <span class=\"math inline\">\\(\\pu{2,4\nm}\\)</span> de um laboratório são abertos, no mesmo instante, dois\nfrascos, um dos frascos contém etanoato de metila, <span class=\"math inline\">\\(\\ce{C3H6O2}\\)</span>, enquanto o outro contém éter\nmetílico, <span class=\"math inline\">\\(\\ce{C2H6O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndistância do frasco de etanoato de etila em que sente-se o cheiro dos\ncompostos ao mesmo tempo.</p>",
+        "md": "Nos extremos de um corredor de $\\pu{2,4 m}$ de um laboratório são\nabertos, no mesmo instante, dois frascos, um dos frascos contém etanoato\nde metila, $\\ce{C3H6O2}$, enquanto o outro contém éter metílico,\n$\\ce{C2H6O}$.\n\n**Assinale** a alternativa que mais se aproxima da distância do frasco\nde etanoato de etila em que sente-se o cheiro dos compostos ao mesmo\ntempo.\n",
+        "tex": "Nos extremos de um corredor de {\\(\\qty{2,4}{\\unit{m}}\\)} de um laboratório são abertos, no mesmo instante, dois frascos, um dos frascos contém\netanoato de metila, {\\(\\ce{C3H6O2}\\)}, enquanto o outro contém éter metílico, {\\(\\ce{C2H6O}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da distância do frasco de etanoato de etila em que sente-se o cheiro dos compostos ao mesmo\ntempo.\n"
       },
       "solution": null,
       "answer": null,
@@ -6547,7 +6547,7 @@
     {
       "id_": "3C35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C35/3C35.md",
-      "date": "2023-01-18T01:02:03.902053",
+      "date": "2023-01-18T02:00:32.968762",
       "statement": {
         "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{115 mg}\\)</span> de\neugenol, o composto responsável pelo odor do cravo-da-índia, foi\ncolocada em um balão evacuado de volume <span class=\"math inline\">\\(\\pu{500 mL}\\)</span>, em <span class=\"math inline\">\\(\\pu{280 \\degree C}\\)</span>. A pressão exercida\npelo eugenol no balão, nessas condições, foi <span class=\"math inline\">\\(\\pu{48 Torr}\\)</span>. Em uma experiência de\ncombustão <span class=\"math inline\">\\(\\pu{18,8 mg}\\)</span> de eugenol\nproduziram <span class=\"math inline\">\\(\\pu{50 mg}\\)</span> de dióxido de\ncarbono e <span class=\"math inline\">\\(\\pu{12,4 mg}\\)</span> de água.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica do eugenol.</li>\n<li><strong>Determine</strong> a fórmula molecular do eugenol.</li>\n</ol>",
         "md": "Uma amostra de $\\pu{115 mg}$ de eugenol, o composto responsável pelo\nodor do cravo-da-índia, foi colocada em um balão evacuado de volume\n$\\pu{500 mL}$, em $\\pu{280 \\degree C}$. A pressão exercida pelo eugenol\nno balão, nessas condições, foi $\\pu{48 Torr}$. Em uma experiência de\ncombustão $\\pu{18,8 mg}$ de eugenol produziram $\\pu{50 mg}$ de dióxido\nde carbono e $\\pu{12,4 mg}$ de água.\n\na.  **Determine** a fórmula empírica do eugenol.\nb.  **Determine** a fórmula molecular do eugenol.\n",
@@ -6556,9 +6556,9 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{C5H6O}\\)</span></p>\n",
-          "md": "$\\pu{C5H6O}$",
-          "tex": "\\(\\unit{C^{5}H^{6}O}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{C5H6O}\\)</span></p>\n",
+          "md": "$\\ce{C5H6O}$",
+          "tex": "\\(\\ce{C5H6O}\\)\n"
         },
         {
           "html": "<p><span class=\"math inline\">\\(\\ce{C10H12O2}\\)</span></p>\n",
@@ -7991,11 +7991,11 @@
     {
       "id_": "3B43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B43/3B43.md",
-      "date": "2023-01-16T22:32:24.877795",
+      "date": "2023-01-18T01:55:59.293553",
       "statement": {
-        "html": "<p>Uma mistura de massa <span class=\"math inline\">\\(\\pu{4,94 g}\\)</span>\ncontendo <span class=\"math inline\">\\(\\pu{85}\\%\\)</span> de fosfina pura,\n<span class=\"math inline\">\\(\\pu{PH3}\\)</span>, e <span class=\"math inline\">\\(\\pu{0,11 kg}\\)</span> de <span class=\"math inline\">\\(\\ce{CuSO4.5H2O}\\)</span> foi colocada em um vaso\nonde ocorre a reação: <span class=\"math display\">\\[\n    \\ce{ CuSO4(s) + PH3(g) -&gt; Cu3P2(s) + H2SO4(aq) + H2O(l) }\n\\]</span> O rendimento percentual da reação é <span class=\"math inline\">\\(\\pu{6,3}\\%\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{Cu3P2}\\)</span> produzida.</li>\n</ol>",
-        "md": "Uma mistura de massa $\\pu{4,94 g}$ contendo $\\pu{85}\\%$ de fosfina pura,\n$\\pu{PH3}$, e $\\pu{0,11 kg}$ de $\\ce{CuSO4.5H2O}$ foi colocada em um\nvaso onde ocorre a reação: $$\n    \\ce{ CuSO4(s) + PH3(g) -> Cu3P2(s) + H2SO4(aq) + H2O(l) }\n$$ O rendimento percentual da reação é $\\pu{6,3}\\%$.\n\na.  **Identifique** o reagente limitante.\nb.  **Determine** a massa de $\\ce{Cu3P2}$ produzida.\n",
-        "tex": "Uma mistura de massa {\\(\\qty{4,94}{\\unit{g}}\\)} contendo {\\(\\num{85}\\%\\)} de fosfina pura, {\\(\\unit{PH^{3}}\\)}, e {\\(\\qty{0,11}{\\unit{kg}}\\)} de\n{\\(\\ce{CuSO4.5H2O}\\)} foi colocada em um vaso onde ocorre a reação: {\\[\n    \\ce{ CuSO4(s) + PH3(g) -> Cu3P2(s) + H2SO4(aq) + H2O(l) }\n\\]} O rendimento percentual da reação é {\\(\\num{6,3}\\%\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{Cu3P2}\\)} produzida.\n\\end{enumerate}\n"
+        "html": "<p>Uma mistura de massa <span class=\"math inline\">\\(\\pu{4,94 g}\\)</span>\ncontendo <span class=\"math inline\">\\(\\pu{85}\\%\\)</span> de fosfina pura,\n<span class=\"math inline\">\\(\\ce{PH3}\\)</span>, e <span class=\"math inline\">\\(\\pu{0,11 kg}\\)</span> de <span class=\"math inline\">\\(\\ce{CuSO4.5H2O}\\)</span> foi colocada em um vaso\nonde ocorre a reação: <span class=\"math display\">\\[\n    \\ce{ CuSO4(s) + PH3(g) -&gt; Cu3P2(s) + H2SO4(aq) + H2O(l) }\n\\]</span> O rendimento percentual da reação é <span class=\"math inline\">\\(\\pu{6,3}\\%\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{Cu3P2}\\)</span> produzida.</li>\n</ol>",
+        "md": "Uma mistura de massa $\\pu{4,94 g}$ contendo $\\pu{85}\\%$ de fosfina pura,\n$\\ce{PH3}$, e $\\pu{0,11 kg}$ de $\\ce{CuSO4.5H2O}$ foi colocada em um\nvaso onde ocorre a reação: $$\n    \\ce{ CuSO4(s) + PH3(g) -> Cu3P2(s) + H2SO4(aq) + H2O(l) }\n$$ O rendimento percentual da reação é $\\pu{6,3}\\%$.\n\na.  **Identifique** o reagente limitante.\nb.  **Determine** a massa de $\\ce{Cu3P2}$ produzida.\n",
+        "tex": "Uma mistura de massa {\\(\\qty{4,94}{\\unit{g}}\\)} contendo {\\(\\num{85}\\%\\)} de fosfina pura, {\\(\\ce{PH3}\\)}, e {\\(\\qty{0,11}{\\unit{kg}}\\)} de\n{\\(\\ce{CuSO4.5H2O}\\)} foi colocada em um vaso onde ocorre a reação: {\\[\n    \\ce{ CuSO4(s) + PH3(g) -> Cu3P2(s) + H2SO4(aq) + H2O(l) }\n\\]} O rendimento percentual da reação é {\\(\\num{6,3}\\%\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{Cu3P2}\\)} produzida.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
@@ -8886,11 +8886,11 @@
     {
       "id_": "3B44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B44/3B44.md",
-      "date": "2023-01-16T22:33:04.557225",
+      "date": "2023-01-18T01:55:34.901615",
       "statement": {
-        "html": "<p>Um vaso de reação contém <span class=\"math inline\">\\(\\pu{5,77\ng}\\)</span> de fósforo branco e <span class=\"math inline\">\\(\\pu{5,77\ng}\\)</span> de oxigênio. A primeira reação que ocorre é a formação de\nóxido de fósforo(III), <span class=\"math inline\">\\(\\ce{P4O6}\\)</span>:\n<span class=\"math display\">\\[\n    \\ce{ P4(s) + O2(g) -&gt; P4O6(s) }\n\\]</span> Se o oxigênio estiver em excesso, a reação prossegue, com\nformação de óxido de fósforo(V), <span class=\"math inline\">\\(\\ce{P4O10}\\)</span>: <span class=\"math display\">\\[\n    \\ce{ P4O6(s) + O2(g) -&gt; P4O10(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante para a formação de\n<span class=\"math inline\">\\(\\ce{P4O10}\\)</span>.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\pu{P4O10}\\)</span> obtida.</li>\n<li><strong>Determine</strong> a massa de reagente em excesso que\npermanece no vaso de reação.</li>\n</ol>",
-        "md": "Um vaso de reação contém $\\pu{5,77 g}$ de fósforo branco e $\\pu{5,77 g}$\nde oxigênio. A primeira reação que ocorre é a formação de óxido de\nfósforo(III), $\\ce{P4O6}$: $$\n    \\ce{ P4(s) + O2(g) -> P4O6(s) }\n$$ Se o oxigênio estiver em excesso, a reação prossegue, com formação de\nóxido de fósforo(V), $\\ce{P4O10}$: $$\n    \\ce{ P4O6(s) + O2(g) -> P4O10(s) }\n$$\n\na.  **Identifique** o reagente limitante para a formação de\n    $\\ce{P4O10}$.\nb.  **Determine** a massa de $\\pu{P4O10}$ obtida.\nc.  **Determine** a massa de reagente em excesso que permanece no vaso\n    de reação.\n",
-        "tex": "Um vaso de reação contém {\\(\\qty{5,77}{\\unit{g}}\\)} de fósforo branco e {\\(\\qty{5,77}{\\unit{g}}\\)} de oxigênio. A primeira reação que ocorre é a\nformação de óxido de fósforo(III), {\\(\\ce{P4O6}\\)}: {\\[\n    \\ce{ P4(s) + O2(g) -> P4O6(s) }\n\\]} Se o oxigênio estiver em excesso, a reação prossegue, com formação de óxido de fósforo(V), {\\(\\ce{P4O10}\\)}: {\\[\n    \\ce{ P4O6(s) + O2(g) -> P4O10(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante para a formação de {\\(\\ce{P4O10}\\)}.\n\\item\n  \\textbf{Determine} a massa de {\\(\\unit{P^{4}O^{10}}\\)} obtida.\n\\item\n  \\textbf{Determine} a massa de reagente em excesso que permanece no vaso de reação.\n\\end{enumerate}\n"
+        "html": "<p>Um vaso de reação contém <span class=\"math inline\">\\(\\pu{5,77\ng}\\)</span> de fósforo branco e <span class=\"math inline\">\\(\\pu{5,77\ng}\\)</span> de oxigênio. A primeira reação que ocorre é a formação de\nóxido de fósforo(III), <span class=\"math inline\">\\(\\ce{P4O6}\\)</span>:\n<span class=\"math display\">\\[\n    \\ce{ P4(s) + O2(g) -&gt; P4O6(s) }\n\\]</span> Se o oxigênio estiver em excesso, a reação prossegue, com\nformação de óxido de fósforo(V), <span class=\"math inline\">\\(\\ce{P4O10}\\)</span>: <span class=\"math display\">\\[\n    \\ce{ P4O6(s) + O2(g) -&gt; P4O10(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Identifique</strong> o reagente limitante para a formação de\n<span class=\"math inline\">\\(\\ce{P4O10}\\)</span>.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{P4O10}\\)</span> obtida.</li>\n<li><strong>Determine</strong> a massa de reagente em excesso que\npermanece no vaso de reação.</li>\n</ol>",
+        "md": "Um vaso de reação contém $\\pu{5,77 g}$ de fósforo branco e $\\pu{5,77 g}$\nde oxigênio. A primeira reação que ocorre é a formação de óxido de\nfósforo(III), $\\ce{P4O6}$: $$\n    \\ce{ P4(s) + O2(g) -> P4O6(s) }\n$$ Se o oxigênio estiver em excesso, a reação prossegue, com formação de\nóxido de fósforo(V), $\\ce{P4O10}$: $$\n    \\ce{ P4O6(s) + O2(g) -> P4O10(s) }\n$$\n\na.  **Identifique** o reagente limitante para a formação de\n    $\\ce{P4O10}$.\nb.  **Determine** a massa de $\\ce{P4O10}$ obtida.\nc.  **Determine** a massa de reagente em excesso que permanece no vaso\n    de reação.\n",
+        "tex": "Um vaso de reação contém {\\(\\qty{5,77}{\\unit{g}}\\)} de fósforo branco e {\\(\\qty{5,77}{\\unit{g}}\\)} de oxigênio. A primeira reação que ocorre é a\nformação de óxido de fósforo(III), {\\(\\ce{P4O6}\\)}: {\\[\n    \\ce{ P4(s) + O2(g) -> P4O6(s) }\n\\]} Se o oxigênio estiver em excesso, a reação prossegue, com formação de óxido de fósforo(V), {\\(\\ce{P4O10}\\)}: {\\[\n    \\ce{ P4O6(s) + O2(g) -> P4O10(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Identifique} o reagente limitante para a formação de {\\(\\ce{P4O10}\\)}.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{P4O10}\\)} obtida.\n\\item\n  \\textbf{Determine} a massa de reagente em excesso que permanece no vaso de reação.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
