@@ -5183,17 +5183,43 @@
     {
       "id_": "3C45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C45/3C45.md",
-      "date": "2023-01-18T00:12:03.026876",
+      "date": "2023-01-18T01:44:26.870215",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um composto usado para preparar cloreto de polivinila (PVC) tem a\ncomposição <span class=\"math inline\">\\(\\pu{38,4}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{C}\\)</span>, <span class=\"math inline\">\\(\\ce{4,82}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{H}\\)</span> e <span class=\"math inline\">\\(\\pu{56,8}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{Cl}\\)</span> em massa. São necessários <span class=\"math inline\">\\(\\pu{7,73 min}\\)</span> para um determinado volume\ndo composto efundir por uma rolha porosa, mas só <span class=\"math inline\">\\(\\pu{6,18 min}\\)</span> para a mesma quantidade de\nargônio difundir na mesma temperatura e pressão.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula molecular do\ncomposto.</p>",
+        "md": "Um composto usado para preparar cloreto de polivinila (PVC) tem a\ncomposição $\\pu{38,4}\\%$ de $\\ce{C}$, $\\ce{4,82}\\%$ de $\\ce{H}$ e\n$\\pu{56,8}\\%$ de $\\ce{Cl}$ em massa. São necessários $\\pu{7,73 min}$\npara um determinado volume do composto efundir por uma rolha porosa, mas\nsó $\\pu{6,18 min}$ para a mesma quantidade de argônio difundir na mesma\ntemperatura e pressão.\n\n**Assinale** a alternativa com a fórmula molecular do composto.\n",
+        "tex": "Um composto usado para preparar cloreto de polivinila (PVC) tem a composição {\\(\\num{38,4}\\%\\)} de {\\(\\ce{C}\\)}, {\\(\\ce{4,82}\\%\\)} de {\\(\\ce{H}\\)} e\n{\\(\\num{56,8}\\%\\)} de {\\(\\ce{Cl}\\)} em massa. São necessários {\\(\\qty{7,73}{\\unit{min}}\\)} para um determinado volume do composto efundir por uma\nrolha porosa, mas só {\\(\\qty{6,18}{\\unit{min}}\\)} para a mesma quantidade de argônio difundir na mesma temperatura e pressão.\n\n\\textbf{Assinale} a alternativa com a fórmula molecular do composto.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H3Cl}\\)</span>",
+          "md": "$\\ce{C2H3Cl}$\n",
+          "tex": "{\\(\\ce{C2H3Cl}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H5Cl}\\)</span>",
+          "md": "$\\ce{C2H5Cl}$\n",
+          "tex": "{\\(\\ce{C2H5Cl}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C4H6Cl}\\)</span>",
+          "md": "$\\ce{C4H6Cl}$\n",
+          "tex": "{\\(\\ce{C4H6Cl}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C4H6Cl2}\\)</span>",
+          "md": "$\\ce{C4H6Cl2}$\n",
+          "tex": "{\\(\\ce{C4H6Cl2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H9C3}\\)</span>",
+          "md": "$\\ce{C6H9C3}$\n",
+          "tex": "{\\(\\ce{C6H9C3}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3C17",
@@ -5239,32 +5265,84 @@
     {
       "id_": "3C37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C37/3C37.md",
-      "date": "2023-01-18T00:12:02.970877",
+      "date": "2023-01-18T01:10:27.446963",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um balão de volume <span class=\"math inline\">\\(\\pu{5 L}\\)</span> foi\nevacuado e <span class=\"math inline\">\\(\\pu{43,8 g}\\)</span> de tetróxido\nde dinitrogênio, <span class=\"math inline\">\\(\\ce{N2O4}\\)</span>, foram\nadmitidos em <span class=\"math inline\">\\(\\pu{-196 \\degree C}\\)</span>\n(nessa temperatura, este composto é um sólido incolor). A amostra foi\naquecida até <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e,\nno processo, <span class=\"math inline\">\\(\\ce{N2O4}\\)</span> se vaporiza\ne se dissocia parcialmente para formar o gás <span class=\"math inline\">\\(\\ce{NO2}\\)</span>. A pressão cresce lentamente e\nse estabiliza em <span class=\"math inline\">\\(\\pu{2,96 atm}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração molar de <span class=\"math inline\">\\(\\ce{N2O4}\\)</span> quando a\npressão se estabiliza.</p>",
+        "md": "Um balão de volume $\\pu{5 L}$ foi evacuado e $\\pu{43,8 g}$ de tetróxido\nde dinitrogênio, $\\ce{N2O4}$, foram admitidos em $\\pu{-196 \\degree C}$\n(nessa temperatura, este composto é um sólido incolor). A amostra foi\naquecida até $\\pu{25 \\degree C}$ e, no processo, $\\ce{N2O4}$ se vaporiza\ne se dissocia parcialmente para formar o gás $\\ce{NO2}$. A pressão\ncresce lentamente e se estabiliza em $\\pu{2,96 atm}$.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\n$\\ce{N2O4}$ quando a pressão se estabiliza.\n",
+        "tex": "Um balão de volume {\\(\\qty{5}{\\unit{L}}\\)} foi evacuado e {\\(\\qty{43,8}{\\unit{g}}\\)} de tetróxido de dinitrogênio, {\\(\\ce{N2O4}\\)}, foram admitidos em\n{\\(\\qty{-196}{\\unit{\\degree C}}\\)} (nessa temperatura, este composto é um sólido incolor). A amostra foi aquecida até {\\(\\qty{25}{\\unit{\\degree C}}\\)}\ne, no processo, {\\(\\ce{N2O4}\\)} se vaporiza e se dissocia parcialmente para formar o gás {\\(\\ce{NO2}\\)}. A pressão cresce lentamente e se estabiliza\nem {\\(\\qty{2,96}{\\unit{atm}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração molar de {\\(\\ce{N2O4}\\)} quando a pressão se estabiliza.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,46}\\)</span>",
+          "md": "$\\pu{0,46}$\n",
+          "tex": "{\\(\\num{0,46}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,57}\\)</span>",
+          "md": "$\\pu{0,57}$\n",
+          "tex": "{\\(\\num{0,57}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,71}\\)</span>",
+          "md": "$\\pu{0,71}$\n",
+          "tex": "{\\(\\num{0,71}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,89}\\)</span>",
+          "md": "$\\pu{0,89}$\n",
+          "tex": "{\\(\\num{0,89}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,1}\\)</span>",
+          "md": "$\\pu{1,1}$\n",
+          "tex": "{\\(\\num{1,1}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C29/3C29.md",
-      "date": "2023-01-18T00:12:02.910878",
+      "date": "2023-01-18T00:41:26.016317",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Durante o mergulho, a pressão exercida pela coluna de água sobre o\nmergulhador pode se tornar alta o bastante para induzir o rompimento dos\npulmões. Por essa razão, os equipamentos de mergulho precisam ser\nsensíveis à pressão externa e aumentar a pressão do gás usado para a\nrespiração até ela se igualar à pressão externa.</p>\n<p>Um mergulhador está em trabalho de exploração de um navio naufragado.\nEle respira uma mistura de <span class=\"math inline\">\\(\\pu{36}\\%\\)</span> de oxigênio e <span class=\"math inline\">\\(\\pu{64}\\%\\)</span> de nitrogênio em massa. Na\nprofundidade de <span class=\"math inline\">\\(\\pu{33 ft}\\)</span>, a\npressão sobre o mergulhador é <span class=\"math inline\">\\(\\pu{2\nbar}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão parcial de oxigênio na mistura gasosa àquela profundidade.</p>",
+        "md": "Durante o mergulho, a pressão exercida pela coluna de água sobre o\nmergulhador pode se tornar alta o bastante para induzir o rompimento dos\npulmões. Por essa razão, os equipamentos de mergulho precisam ser\nsensíveis à pressão externa e aumentar a pressão do gás usado para a\nrespiração até ela se igualar à pressão externa.\n\nUm mergulhador está em trabalho de exploração de um navio naufragado.\nEle respira uma mistura de $\\pu{36}\\%$ de oxigênio e $\\pu{64}\\%$ de\nnitrogênio em massa. Na profundidade de $\\pu{33 ft}$, a pressão sobre o\nmergulhador é $\\pu{2 bar}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão parcial de\noxigênio na mistura gasosa àquela profundidade.\n",
+        "tex": "Durante o mergulho, a pressão exercida pela coluna de água sobre o mergulhador pode se tornar alta o bastante para induzir o rompimento dos pulmões.\nPor essa razão, os equipamentos de mergulho precisam ser sensíveis à pressão externa e aumentar a pressão do gás usado para a respiração até ela se\nigualar à pressão externa.\n\nUm mergulhador está em trabalho de exploração de um navio naufragado. Ele respira uma mistura de {\\(\\num{36}\\%\\)} de oxigênio e {\\(\\num{64}\\%\\)} de\nnitrogênio em massa. Na profundidade de {\\(\\qty{33}{\\unit{ft}}\\)}, a pressão sobre o mergulhador é {\\(\\qty{2}{\\unit{bar}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de oxigênio na mistura gasosa àquela profundidade.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,66 bar}\\)</span>",
+          "md": "$\\pu{0,66 bar}$\n",
+          "tex": "{\\(\\qty{0,66}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,82 bar}\\)</span>",
+          "md": "$\\pu{0,82 bar}$\n",
+          "tex": "{\\(\\qty{0,82}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,0 bar}\\)</span>",
+          "md": "$\\pu{1,0 bar}$\n",
+          "tex": "{\\(\\qty{1,0}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2 bar}\\)</span>",
+          "md": "$\\pu{1,2 bar}$\n",
+          "tex": "{\\(\\qty{1,2}{\\unit{bar}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5 bar}\\)</span>",
+          "md": "$\\pu{1,5 bar}$\n",
+          "tex": "{\\(\\qty{1,5}{\\unit{bar}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3C15",
@@ -5351,17 +5429,43 @@
     {
       "id_": "3C41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C41/3C41.md",
-      "date": "2023-01-18T00:12:02.998876",
+      "date": "2023-01-18T01:33:28.089381",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um químico pesou <span class=\"math inline\">\\(\\pu{5,14 g}\\)</span> de\numa mistura de óxido de bário, <span class=\"math inline\">\\(\\ce{BaO}\\)</span>, e óxido de cálcio, <span class=\"math inline\">\\(\\ce{CaO}\\)</span> é colocada em um recipiente de\n<span class=\"math inline\">\\(\\pu{1,5 L}\\)</span> contendo <span class=\"math inline\">\\(\\ce{CO2}\\)</span> em <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{750 Torr}\\)</span>. As reações ocorrem: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ BaO(s) + CO2(g) &amp;-&gt; BaCO3(s) } \\\\\n    \\ce{ CaO(s) + CO2(g) &amp;-&gt; CaCO3(s) }\n\\end{aligned}\n\\]</span> Ao final da reação, a pressão de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> restante no recipiente era <span class=\"math inline\">\\(\\pu{230 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{CaO}\\)</span> na\nmistura inicial.</p>",
+        "md": "Um químico pesou $\\pu{5,14 g}$ de uma mistura de óxido de bário,\n$\\ce{BaO}$, e óxido de cálcio, $\\ce{CaO}$ é colocada em um recipiente de\n$\\pu{1,5 L}$ contendo $\\ce{CO2}$ em $\\pu{30 \\degree C}$ e\n$\\pu{750 Torr}$. As reações ocorrem: $$\n\\begin{aligned}\n    \\ce{ BaO(s) + CO2(g) &-> BaCO3(s) } \\\\\n    \\ce{ CaO(s) + CO2(g) &-> CaCO3(s) }\n\\end{aligned}\n$$ Ao final da reação, a pressão de $\\ce{CO2}$ restante no recipiente\nera $\\pu{230 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{CaO}$ na mistura inicial.\n",
+        "tex": "Um químico pesou {\\(\\qty{5,14}{\\unit{g}}\\)} de uma mistura de óxido de bário, {\\(\\ce{BaO}\\)}, e óxido de cálcio, {\\(\\ce{CaO}\\)} é colocada em um\nrecipiente de {\\(\\qty{1,5}{\\unit{L}}\\)} contendo {\\(\\ce{CO2}\\)} em {\\(\\qty{30}{\\unit{\\degree C}}\\)} e {\\(\\qty{750}{\\unit{Torr}}\\)}. As reações\nocorrem: {\\[\n\\begin{aligned}\n    \\ce{ BaO(s) + CO2(g) &-> BaCO3(s) } \\\\\n    \\ce{ CaO(s) + CO2(g) &-> CaCO3(s) }\n\\end{aligned}\n\\]} Ao final da reação, a pressão de {\\(\\ce{CO2}\\)} restante no recipiente era {\\(\\qty{230}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{CaO}\\)} na mistura inicial.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,1 \\%}\\)</span>",
+          "md": "$\\pu{9,1 \\%}$\n",
+          "tex": "{\\(\\qty{9,1}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13 \\%}\\)</span>",
+          "md": "$\\pu{13 \\%}$\n",
+          "tex": "{\\(\\qty{13}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{18 \\%}\\)</span>",
+          "md": "$\\pu{18 \\%}$\n",
+          "tex": "{\\(\\qty{18}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 \\%}\\)</span>",
+          "md": "$\\pu{26 \\%}$\n",
+          "tex": "{\\(\\qty{26}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 \\%}\\)</span>",
+          "md": "$\\pu{37 \\%}$\n",
+          "tex": "{\\(\\qty{37}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C18",
@@ -5530,17 +5634,43 @@
     {
       "id_": "3C30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C30/3C30.md",
-      "date": "2023-01-18T00:12:02.918878",
+      "date": "2023-01-18T00:44:29.995789",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura gasosa é <span class=\"math inline\">\\(\\pu{80}\\%\\)</span>\nde metano, <span class=\"math inline\">\\(\\ce{CH4}\\)</span>, <span class=\"math inline\">\\(\\pu{10}\\%\\)</span> de etano, <span class=\"math inline\">\\(\\ce{C2H6}\\)</span>, <span class=\"math inline\">\\(\\pu{5}\\%\\)</span> de propano, <span class=\"math inline\">\\(\\ce{C3H8}\\)</span>, e <span class=\"math inline\">\\(\\pu{5}\\%\\)</span> de nitrogênio em volume. Todos\nos átomos de carbono da mistura são convertidos em butadieno, <span class=\"math inline\">\\(\\ce{C4H6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde butadieno formada a partir de <span class=\"math inline\">\\(\\pu{100\ng}\\)</span> da mistura gasosa.</p>",
+        "md": "Uma mistura gasosa é $\\pu{80}\\%$ de metano, $\\ce{CH4}$, $\\pu{10}\\%$ de\netano, $\\ce{C2H6}$, $\\pu{5}\\%$ de propano, $\\ce{C3H8}$, e $\\pu{5}\\%$ de\nnitrogênio em volume. Todos os átomos de carbono da mistura são\nconvertidos em butadieno, $\\ce{C4H6}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de butadieno\nformada a partir de $\\pu{100 g}$ da mistura gasosa.\n",
+        "tex": "Uma mistura gasosa é {\\(\\num{80}\\%\\)} de metano, {\\(\\ce{CH4}\\)}, {\\(\\num{10}\\%\\)} de etano, {\\(\\ce{C2H6}\\)}, {\\(\\num{5}\\%\\)} de propano,\n{\\(\\ce{C3H8}\\)}, e {\\(\\num{5}\\%\\)} de nitrogênio em volume. Todos os átomos de carbono da mistura são convertidos em butadieno, {\\(\\ce{C4H6}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de butadieno formada a partir de {\\(\\qty{100}{\\unit{g}}\\)} da mistura gasosa.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{51 g}\\)</span>",
+          "md": "$\\pu{51 g}$\n",
+          "tex": "{\\(\\qty{51}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{80 g}\\)</span>",
+          "md": "$\\pu{80 g}$\n",
+          "tex": "{\\(\\qty{80}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 g}\\)</span>",
+          "md": "$\\pu{130 g}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{200 g}\\)</span>",
+          "md": "$\\pu{200 g}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{320 g}\\)</span>",
+          "md": "$\\pu{320 g}$\n",
+          "tex": "{\\(\\qty{320}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C07",
@@ -5627,17 +5757,43 @@
     {
       "id_": "3C40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C40/3C40.md",
-      "date": "2023-01-18T00:12:02.990876",
+      "date": "2023-01-18T01:28:19.743319",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere um recipiente de paredes reforçadas com um dissecante\ngranulado no fundo. Nesse recipiente, previamente evacuado, introduz-se\n<span class=\"math inline\">\\(\\pu{0,7 atm}\\)</span> de uma mistura de\nhidrogênio e argônio a <span class=\"math inline\">\\(\\pu{20 \\degree\nC}\\)</span>. Excesso de oxigênio é adicionado à mistura até que a\npressão passe ao valor de <span class=\"math inline\">\\(\\pu{1\natm}\\)</span>. A reação se completa e a mistura é resfriada até <span class=\"math inline\">\\(\\pu{20 \\degree C}\\)</span>, sendo a pressão final\nde <span class=\"math inline\">\\(\\pu{0,85 atm}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração molar de hidrogênio na mistura inicial.</p>",
+        "md": "Considere um recipiente de paredes reforçadas com um dissecante\ngranulado no fundo. Nesse recipiente, previamente evacuado, introduz-se\n$\\pu{0,7 atm}$ de uma mistura de hidrogênio e argônio a\n$\\pu{20 \\degree C}$. Excesso de oxigênio é adicionado à mistura até que\na pressão passe ao valor de $\\pu{1 atm}$. A reação se completa e a\nmistura é resfriada até $\\pu{20 \\degree C}$, sendo a pressão final de\n$\\pu{0,85 atm}$.\n\n**Assinale** a alternativa que mais se aproxima da fração molar de\nhidrogênio na mistura inicial.\n",
+        "tex": "Considere um recipiente de paredes reforçadas com um dissecante granulado no fundo. Nesse recipiente, previamente evacuado, introduz-se\n{\\(\\qty{0,7}{\\unit{atm}}\\)} de uma mistura de hidrogênio e argônio a {\\(\\qty{20}{\\unit{\\degree C}}\\)}. Excesso de oxigênio é adicionado à mistura até\nque a pressão passe ao valor de {\\(\\qty{1}{\\unit{atm}}\\)}. A reação se completa e a mistura é resfriada até {\\(\\qty{20}{\\unit{\\degree C}}\\)}, sendo a\npressão final de {\\(\\qty{0,85}{\\unit{atm}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração molar de hidrogênio na mistura inicial.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,9 \\%}\\)</span>",
+          "md": "$\\pu{6,9 \\%}$\n",
+          "tex": "{\\(\\qty{6,9}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,8 \\%}\\)</span>",
+          "md": "$\\pu{9,8 \\%}$\n",
+          "tex": "{\\(\\qty{9,8}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 \\%}\\)</span>",
+          "md": "$\\pu{14 \\%}$\n",
+          "tex": "{\\(\\qty{14}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{20 \\%}\\)</span>",
+          "md": "$\\pu{20 \\%}$\n",
+          "tex": "{\\(\\qty{20}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{29 \\%}\\)</span>",
+          "md": "$\\pu{29 \\%}$\n",
+          "tex": "{\\(\\qty{29}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3C13",
@@ -5683,29 +5839,66 @@
     {
       "id_": "3C38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C38/3C38.md",
-      "date": "2023-01-18T00:12:02.978877",
+      "date": "2023-01-18T01:23:35.957398",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>A reação de dimetilhidrazina sólida, <span class=\"math inline\">\\(\\ce{(CH3)2N2H2}\\)</span>, e tetróxido de\ndinitrogênio liquefeito, <span class=\"math inline\">\\(\\ce{N2O4}\\)</span>,\nfoi investigada para uso como combustível de foguetes. A reação produz\nos gases dióxido de carbono, nitrogênio e vapor d’água, que são ejetados\nnos gases de exaustão.</p>\n<p>Em um experimento controlado, dimetilhidrazina sólida reagiu com\nexcesso de tetróxido de dinitrogênio e os gases foram coletados em um\nbalão fechado até atingir a pressão de <span class=\"math inline\">\\(\\pu{2,5 atm}\\)</span> e a temperatura de <span class=\"math inline\">\\(\\pu{400 K}\\)</span>. Ao final da reação, o <span class=\"math inline\">\\(\\ce{CO2}\\)</span> é removido por reação\nquímica.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão parcial do nitrogênio ao final do processo.</p>",
+        "md": "A reação de dimetilhidrazina sólida, $\\ce{(CH3)2N2H2}$, e tetróxido de\ndinitrogênio liquefeito, $\\ce{N2O4}$, foi investigada para uso como\ncombustível de foguetes. A reação produz os gases dióxido de carbono,\nnitrogênio e vapor d'água, que são ejetados nos gases de exaustão.\n\nEm um experimento controlado, dimetilhidrazina sólida reagiu com excesso\nde tetróxido de dinitrogênio e os gases foram coletados em um balão\nfechado até atingir a pressão de $\\pu{2,5 atm}$ e a temperatura de\n$\\pu{400 K}$. Ao final da reação, o $\\ce{CO2}$ é removido por reação\nquímica.\n\n**Assinale** a alternativa que mais se aproxima da pressão parcial do\nnitrogênio ao final do processo.\n",
+        "tex": "A reação de dimetilhidrazina sólida, {\\(\\ce{(CH3)2N2H2}\\)}, e tetróxido de dinitrogênio liquefeito, {\\(\\ce{N2O4}\\)}, foi investigada para uso como\ncombustível de foguetes. A reação produz os gases dióxido de carbono, nitrogênio e vapor d'água, que são ejetados nos gases de exaustão.\n\nEm um experimento controlado, dimetilhidrazina sólida reagiu com excesso de tetróxido de dinitrogênio e os gases foram coletados em um balão fechado\naté atingir a pressão de {\\(\\qty{2,5}{\\unit{atm}}\\)} e a temperatura de {\\(\\qty{400}{\\unit{K}}\\)}. Ao final da reação, o {\\(\\ce{CO2}\\)} é removido por\nreação química.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão parcial do nitrogênio ao final do processo.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,38 atm}\\)</span>",
+          "md": "$\\pu{0,38 atm}$\n",
+          "tex": "{\\(\\qty{0,38}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,46 atm}\\)</span>",
+          "md": "$\\pu{0,46 atm}$\n",
+          "tex": "{\\(\\qty{0,46}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,56 atm}\\)</span>",
+          "md": "$\\pu{0,56 atm}$\n",
+          "tex": "{\\(\\qty{0,56}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,68 atm}\\)</span>",
+          "md": "$\\pu{0,68 atm}$\n",
+          "tex": "{\\(\\qty{0,68}{\\unit{atm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,83 atm}\\)</span>",
+          "md": "$\\pu{0,83 atm}$\n",
+          "tex": "{\\(\\qty{0,83}{\\unit{atm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3C34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C34/3C34.md",
-      "date": "2023-01-18T00:12:02.950877",
+      "date": "2023-01-18T00:58:43.503040",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um cilindro de <span class=\"math inline\">\\(\\pu{15 L}\\)</span>\nequipado com um pistão que se move sem atrito é carregado com <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> de gás nitrogênio e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> de gás hidrogênio. O gases\nreagem segundo a reação: <span class=\"math display\">\\[\n    \\ce{ N2(g) + H2(g) -&gt; NH3(g) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a pressão parcial de amônia no cilindro\napós o final da reação.</li>\n<li><strong>Determine</strong> o volume do cilindro após o final da\nreação.</li>\n</ol>",
+        "md": "Um cilindro de $\\pu{15 L}$ equipado com um pistão que se move sem atrito\né carregado com $\\pu{1 atm}$ de gás nitrogênio e $\\pu{1 atm}$ de gás\nhidrogênio. O gases reagem segundo a reação: $$\n    \\ce{ N2(g) + H2(g) -> NH3(g) }\n$$\n\na.  **Determine** a pressão parcial de amônia no cilindro após o final\n    da reação.\nb.  **Determine** o volume do cilindro após o final da reação.\n",
+        "tex": "Um cilindro de {\\(\\qty{15}{\\unit{L}}\\)} equipado com um pistão que se move sem atrito é carregado com {\\(\\qty{1}{\\unit{atm}}\\)} de gás nitrogênio e\n{\\(\\qty{1}{\\unit{atm}}\\)} de gás hidrogênio. O gases reagem segundo a reação: {\\[\n    \\ce{ N2(g) + H2(g) -> NH3(g) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a pressão parcial de amônia no cilindro após o final da reação.\n\\item\n  \\textbf{Determine} o volume do cilindro após o final da reação.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{1 atm}\\)</span></p>\n",
+          "md": "$\\pu{1 atm}$",
+          "tex": "\\(\\qty{1}{\\unit{atm}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{10 L}\\)</span></p>\n",
+          "md": "$\\pu{10 L}$",
+          "tex": "\\(\\qty{10}{\\unit{L}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5795,17 +5988,43 @@
     {
       "id_": "3C48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C48/3C48.md",
-      "date": "2023-01-18T00:12:03.046875",
+      "date": "2023-01-18T01:51:06.738158",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Nos extremos de um corredor de <span class=\"math inline\">\\(\\pu{2,4\nm}\\)</span> de um laboratório são abertos, no mesmo instante, dois\nfrascos, um dos frascos contém etanoato de metila, <span class=\"math inline\">\\(\\ce{C3H6O2}\\)</span>, enquanto o outro contém éter\nmetílico, <span class=\"math inline\">\\(\\ce{C2H6O}\\)</span>. .</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndistância do frasco de etanoato de etila em que sente-se o cheiro dos\ncompostos ao mesmo tempo.</p>",
+        "md": "Nos extremos de um corredor de $\\pu{2,4 m}$ de um laboratório são\nabertos, no mesmo instante, dois frascos, um dos frascos contém etanoato\nde metila, $\\ce{C3H6O2}$, enquanto o outro contém éter metílico,\n$\\ce{C2H6O}$. .\n\n**Assinale** a alternativa que mais se aproxima da distância do frasco\nde etanoato de etila em que sente-se o cheiro dos compostos ao mesmo\ntempo.\n",
+        "tex": "Nos extremos de um corredor de {\\(\\qty{2,4}{\\unit{m}}\\)} de um laboratório são abertos, no mesmo instante, dois frascos, um dos frascos contém\netanoato de metila, {\\(\\ce{C3H6O2}\\)}, enquanto o outro contém éter metílico, {\\(\\ce{C2H6O}\\)}. .\n\n\\textbf{Assinale} a alternativa que mais se aproxima da distância do frasco de etanoato de etila em que sente-se o cheiro dos compostos ao mesmo\ntempo.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,69 m}\\)</span>",
+          "md": "$\\pu{0,69 m}$\n",
+          "tex": "{\\(\\qty{0,69}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,83 m}\\)</span>",
+          "md": "$\\pu{0,83 m}$\n",
+          "tex": "{\\(\\qty{0,83}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,0 m}\\)</span>",
+          "md": "$\\pu{1,0 m}$\n",
+          "tex": "{\\(\\qty{1,0}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2 m}\\)</span>",
+          "md": "$\\pu{1,2 m}$\n",
+          "tex": "{\\(\\qty{1,2}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 m}\\)</span>",
+          "md": "$\\pu{1,4 m}$\n",
+          "tex": "{\\(\\qty{1,4}{\\unit{m}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3C19",
@@ -5851,14 +6070,25 @@
     {
       "id_": "3C36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C36/3C36.md",
-      "date": "2023-01-18T00:12:02.962877",
+      "date": "2023-01-18T01:05:45.316775",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Suponha que <span class=\"math inline\">\\(\\pu{0,473 g}\\)</span> de um\ngás desconhecido, que ocupa <span class=\"math inline\">\\(\\pu{200\nmL}\\)</span> em <span class=\"math inline\">\\(\\pu{1,81 atm}\\)</span> e\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, foi analisado. A\ncomposição obtida foi de <span class=\"math inline\">\\(\\pu{0,414\ng}\\)</span> de nitrogênio e <span class=\"math inline\">\\(\\pu{0,0591\ng}\\)</span> de hidrogênio.</p>\n<p>Em um experimento, <span class=\"math inline\">\\(\\pu{0,35\nmmol}\\)</span> de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> efunde\npor uma pequena abertura de uma aparelhagem de vidro em <span class=\"math inline\">\\(\\pu{15 min}\\)</span> em <span class=\"math inline\">\\(\\pu{200 \\degree C}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula molecular do composto.</li>\n<li><strong>Determine</strong> a quantidade do composto que irá efundir\npela mesma abertura da aparelhagem de vidro em <span class=\"math inline\">\\(\\pu{25 min}\\)</span> em <span class=\"math inline\">\\(\\pu{200 \\degree C}\\)</span>.</li>\n</ol>",
+        "md": "Suponha que $\\pu{0,473 g}$ de um gás desconhecido, que ocupa\n$\\pu{200 mL}$ em $\\pu{1,81 atm}$ e $\\pu{25 \\degree C}$, foi analisado. A\ncomposição obtida foi de $\\pu{0,414 g}$ de nitrogênio e $\\pu{0,0591 g}$\nde hidrogênio.\n\nEm um experimento, $\\pu{0,35 mmol}$ de $\\ce{NH3}$ efunde por uma pequena\nabertura de uma aparelhagem de vidro em $\\pu{15 min}$ em\n$\\pu{200 \\degree C}$.\n\na.  **Determine** a fórmula molecular do composto.\nb.  **Determine** a quantidade do composto que irá efundir pela mesma\n    abertura da aparelhagem de vidro em $\\pu{25 min}$ em\n    $\\pu{200 \\degree C}$.\n",
+        "tex": "Suponha que {\\(\\qty{0,473}{\\unit{g}}\\)} de um gás desconhecido, que ocupa {\\(\\qty{200}{\\unit{mL}}\\)} em {\\(\\qty{1,81}{\\unit{atm}}\\)} e\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}, foi analisado. A composição obtida foi de {\\(\\qty{0,414}{\\unit{g}}\\)} de nitrogênio e {\\(\\qty{0,0591}{\\unit{g}}\\)}\nde hidrogênio.\n\nEm um experimento, {\\(\\qty{0,35}{\\unit{mmol}}\\)} de {\\(\\ce{NH3}\\)} efunde por uma pequena abertura de uma aparelhagem de vidro em\n{\\(\\qty{15}{\\unit{min}}\\)} em {\\(\\qty{200}{\\unit{\\degree C}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula molecular do composto.\n\\item\n  \\textbf{Determine} a quantidade do composto que irá efundir pela mesma abertura da aparelhagem de vidro em {\\(\\qty{25}{\\unit{min}}\\)} em\n  {\\(\\qty{200}{\\unit{\\degree C}}\\)}.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{N2H4}\\)</span></p>\n",
+          "md": "$\\ce{N2H4}$",
+          "tex": "\\(\\ce{N2H4}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,42 mmol}\\)</span></p>\n",
+          "md": "$\\pu{0,42 mmol}$",
+          "tex": "\\(\\qty{0,42}{\\unit{mmol}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -5907,17 +6137,43 @@
     {
       "id_": "3C43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C43/3C43.md",
-      "date": "2023-01-18T00:12:03.014876",
+      "date": "2023-01-18T01:38:00.544551",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura equimolar dos gases <span class=\"math inline\">\\(\\ce{SO2}\\)</span> e <span class=\"math inline\">\\(\\ce{O2}\\)</span>, com certa quantidade de <span class=\"math inline\">\\(\\ce{He}\\)</span> é carregada em um cilindro\nequipado com um pistão. A densidade da mistura é <span class=\"math inline\">\\(\\pu{2 g.L-1}\\)</span> em <span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>. O <span class=\"math inline\">\\(\\ce{SO2}\\)</span> reage completamente com <span class=\"math inline\">\\(\\ce{O2}\\)</span> para formar <span class=\"math inline\">\\(\\ce{SO3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndensidade da mistura gasosa ao final da reação.</p>",
+        "md": "Uma mistura equimolar dos gases $\\ce{SO2}$ e $\\ce{O2}$, com certa\nquantidade de $\\ce{He}$ é carregada em um cilindro equipado com um\npistão. A densidade da mistura é $\\pu{2 g.L-1}$ em $\\pu{0 \\degree C}$ e\n$\\pu{1 atm}$. O $\\ce{SO2}$ reage completamente com $\\ce{O2}$ para formar\n$\\ce{SO3}$.\n\n**Assinale** a alternativa que mais se aproxima da densidade da mistura\ngasosa ao final da reação.\n",
+        "tex": "Uma mistura equimolar dos gases {\\(\\ce{SO2}\\)} e {\\(\\ce{O2}\\)}, com certa quantidade de {\\(\\ce{He}\\)} é carregada em um cilindro equipado com um\npistão. A densidade da mistura é {\\(\\qty{2}{\\unit{g.L^{-1}}}\\)} em {\\(\\qty{0}{\\unit{\\degree C}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}. O {\\(\\ce{SO2}\\)} reage\ncompletamente com {\\(\\ce{O2}\\)} para formar {\\(\\ce{SO3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da densidade da mistura gasosa ao final da reação.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,93 g.L-1}\\)</span>",
+          "md": "$\\pu{0,93 g.L-1}$\n",
+          "tex": "{\\(\\qty{0,93}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2 g.L-1}\\)</span>",
+          "md": "$\\pu{1,2 g.L-1}$\n",
+          "tex": "{\\(\\qty{1,2}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5 g.L-1}\\)</span>",
+          "md": "$\\pu{1,5 g.L-1}$\n",
+          "tex": "{\\(\\qty{1,5}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0 g.L-1}\\)</span>",
+          "md": "$\\pu{2,0 g.L-1}$\n",
+          "tex": "{\\(\\qty{2,0}{\\unit{g.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5 g.L-1}\\)</span>",
+          "md": "$\\pu{2,5 g.L-1}$\n",
+          "tex": "{\\(\\qty{2,5}{\\unit{g.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3C06",
@@ -6086,17 +6342,43 @@
     {
       "id_": "3C39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C39/3C39.md",
-      "date": "2023-01-18T00:12:02.982877",
+      "date": "2023-01-18T01:25:54.552385",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de gás arsano, <span class=\"math inline\">\\(\\ce{AsH3}\\)</span>, em um fraco de <span class=\"math inline\">\\(\\pu{500 mL}\\)</span> , em <span class=\"math inline\">\\(\\pu{300 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{223 K}\\)</span> é aquecida até <span class=\"math inline\">\\(\\pu{473 K}\\)</span>, temperatura na qual o arsano\nse decompõe em arsênio sólido e gás hidrogênio. O frasco é, estão,\nesfriado até <span class=\"math inline\">\\(\\pu{273 K}\\)</span> e a pressão\nalcança <span class=\"math inline\">\\(\\pu{485 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração do arsano que se decompôs.</p>",
+        "md": "Uma amostra de gás arsano, $\\ce{AsH3}$, em um fraco de $\\pu{500 mL}$ ,\nem $\\pu{300 Torr}$ e $\\pu{223 K}$ é aquecida até $\\pu{473 K}$,\ntemperatura na qual o arsano se decompõe em arsênio sólido e gás\nhidrogênio. O frasco é, estão, esfriado até $\\pu{273 K}$ e a pressão\nalcança $\\pu{485 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da fração do arsano que\nse decompôs.\n",
+        "tex": "Uma amostra de gás arsano, {\\(\\ce{AsH3}\\)}, em um fraco de {\\(\\qty{500}{\\unit{mL}}\\)} , em {\\(\\qty{300}{\\unit{Torr}}\\)} e {\\(\\qty{223}{\\unit{K}}\\)} é\naquecida até {\\(\\qty{473}{\\unit{K}}\\)}, temperatura na qual o arsano se decompõe em arsênio sólido e gás hidrogênio. O frasco é, estão, esfriado até\n{\\(\\qty{273}{\\unit{K}}\\)} e a pressão alcança {\\(\\qty{485}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração do arsano que se decompôs.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{51 \\%}\\)</span>",
+          "md": "$\\pu{51 \\%}$\n",
+          "tex": "{\\(\\qty{51}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{81 \\%}\\)</span>",
+          "md": "$\\pu{81 \\%}$\n",
+          "tex": "{\\(\\qty{81}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 \\%}\\)</span>",
+          "md": "$\\pu{130 \\%}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{200 \\%}\\)</span>",
+          "md": "$\\pu{200 \\%}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{320 \\%}\\)</span>",
+          "md": "$\\pu{320 \\%}$\n",
+          "tex": "{\\(\\qty{320}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C10",
@@ -6142,22 +6424,48 @@
     {
       "id_": "3C42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C42/3C42.md",
-      "date": "2023-01-18T00:12:03.006876",
+      "date": "2023-01-18T01:34:50.126581",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura de cromo e zinco pesando <span class=\"math inline\">\\(\\pu{0,362 g}\\)</span> foi posta para reagir com\nexcesso de ácido clorídrico, segundo as reações: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ Cr(s) + HCl(aq) &amp;-&gt; CrCl3(aq) + H2(g) } \\\\\n    \\ce{ Zn(s) + HCl(aq) &amp;-&gt; ZnCl2(aq) + H2(g) }\n\\end{aligned}\n\\]</span> Ao final da reação, <span class=\"math inline\">\\(\\pu{255\nmL}\\)</span> de gás hidrogênio seco foram coletados em <span class=\"math inline\">\\(\\pu{26 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{750 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de zinco na mistura inicial.</p>",
+        "md": "Uma mistura de cromo e zinco pesando $\\pu{0,362 g}$ foi posta para\nreagir com excesso de ácido clorídrico, segundo as reações: $$\n\\begin{aligned}\n    \\ce{ Cr(s) + HCl(aq) &-> CrCl3(aq) + H2(g) } \\\\\n    \\ce{ Zn(s) + HCl(aq) &-> ZnCl2(aq) + H2(g) }\n\\end{aligned}\n$$ Ao final da reação, $\\pu{255 mL}$ de gás hidrogênio seco foram\ncoletados em $\\pu{26 \\degree C}$ e $\\pu{750 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nzinco na mistura inicial.\n",
+        "tex": "Uma mistura de cromo e zinco pesando {\\(\\qty{0,362}{\\unit{g}}\\)} foi posta para reagir com excesso de ácido clorídrico, segundo as reações: {\\[\n\\begin{aligned}\n    \\ce{ Cr(s) + HCl(aq) &-> CrCl3(aq) + H2(g) } \\\\\n    \\ce{ Zn(s) + HCl(aq) &-> ZnCl2(aq) + H2(g) }\n\\end{aligned}\n\\]} Ao final da reação, {\\(\\qty{255}{\\unit{mL}}\\)} de gás hidrogênio seco foram coletados em {\\(\\qty{26}{\\unit{\\degree C}}\\)} e\n{\\(\\qty{750}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de zinco na mistura inicial.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,7 \\%}\\)</span>",
+          "md": "$\\pu{8,7 \\%}$\n",
+          "tex": "{\\(\\qty{8,7}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13 \\%}\\)</span>",
+          "md": "$\\pu{13 \\%}$\n",
+          "tex": "{\\(\\qty{13}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19 \\%}\\)</span>",
+          "md": "$\\pu{19 \\%}$\n",
+          "tex": "{\\(\\qty{19}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{29 \\%}\\)</span>",
+          "md": "$\\pu{29 \\%}$\n",
+          "tex": "{\\(\\qty{29}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{43 \\%}\\)</span>",
+          "md": "$\\pu{43 \\%}$\n",
+          "tex": "{\\(\\qty{43}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3C27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C27/3C27.md",
-      "date": "2023-01-18T00:30:46.381492",
+      "date": "2023-01-18T01:54:18.621797",
       "statement": {
         "html": "<p>Considere a distribuição de velocidade dos gases <span class=\"math inline\">\\(\\ce{He}\\)</span>, <span class=\"math inline\">\\(\\ce{Ne}\\)</span> e <span class=\"math inline\">\\(\\ce{Ar}\\)</span>.</p>\n<figure>\n<img alt=\"Figura do problema 3C27.\" src=\"3C27-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3C27.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com os gases <span class=\"math inline\">\\(\\ce{A}\\)</span>, <span class=\"math inline\">\\(\\ce{B}\\)</span>, <span class=\"math inline\">\\(\\ce{C}\\)</span>, respectivamente.</p>",
         "md": "Considere a distribuição de velocidade dos gases $\\ce{He}$, $\\ce{Ne}$ e\n$\\ce{Ar}$.\n\n![Figura do problema 3C27.](3C27-1P.svg)\n\n**Assinale** a alternativa com os gases $\\ce{A}$, $\\ce{B}$, $\\ce{C}$,\nrespectivamente.\n",
@@ -6198,29 +6506,66 @@
     {
       "id_": "3C44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C44/3C44.md",
-      "date": "2023-01-18T00:12:03.018876",
+      "date": "2023-01-18T01:40:15.141414",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura gasosa é composta de propano, <span class=\"math inline\">\\(\\ce{C3H8}\\)</span>, metano, <span class=\"math inline\">\\(\\ce{CH4}\\)</span>, e monóxido de carbono, <span class=\"math inline\">\\(\\ce{CO}\\)</span>. A combustão, com excesso de\noxigênio, de <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> dessa\nmistura forma <span class=\"math inline\">\\(\\pu{70 mL}\\)</span> de dióxido\nde carbono.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de propano na amostra.</p>",
+        "md": "Uma mistura gasosa é composta de propano, $\\ce{C3H8}$, metano,\n$\\ce{CH4}$, e monóxido de carbono, $\\ce{CO}$. A combustão, com excesso\nde oxigênio, de $\\pu{50 mL}$ dessa mistura forma $\\pu{70 mL}$ de dióxido\nde carbono.\n\n**Assinale** a alternativa que mais se aproxima da fração de propano na\namostra.\n",
+        "tex": "Uma mistura gasosa é composta de propano, {\\(\\ce{C3H8}\\)}, metano, {\\(\\ce{CH4}\\)}, e monóxido de carbono, {\\(\\ce{CO}\\)}. A combustão, com excesso de\noxigênio, de {\\(\\qty{50}{\\unit{mL}}\\)} dessa mistura forma {\\(\\qty{70}{\\unit{mL}}\\)} de dióxido de carbono.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de propano na amostra.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,4 \\%}\\)</span>",
+          "md": "$\\pu{4,4 \\%}$\n",
+          "tex": "{\\(\\qty{4,4}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,4 \\%}\\)</span>",
+          "md": "$\\pu{6,4 \\%}$\n",
+          "tex": "{\\(\\qty{6,4}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,4 \\%}\\)</span>",
+          "md": "$\\pu{9,4 \\%}$\n",
+          "tex": "{\\(\\qty{9,4}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 \\%}\\)</span>",
+          "md": "$\\pu{14 \\%}$\n",
+          "tex": "{\\(\\qty{14}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{20 \\%}\\)</span>",
+          "md": "$\\pu{20 \\%}$\n",
+          "tex": "{\\(\\qty{20}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3C35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C35/3C35.md",
-      "date": "2023-01-18T00:12:02.954877",
+      "date": "2023-01-18T01:02:03.902053",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{115 mg}\\)</span> de\neugenol, o composto responsável pelo odor do cravo-da-índia, foi\ncolocada em um balão evacuado de volume <span class=\"math inline\">\\(\\pu{500 mL}\\)</span>, em <span class=\"math inline\">\\(\\pu{280 \\degree C}\\)</span>. A pressão exercida\npelo eugenol no balão, nessas condições, foi <span class=\"math inline\">\\(\\pu{48 Torr}\\)</span>. Em uma experiência de\ncombustão <span class=\"math inline\">\\(\\pu{18,8 mg}\\)</span> de eugenol\nproduziram <span class=\"math inline\">\\(\\pu{50 mg}\\)</span> de dióxido de\ncarbono e <span class=\"math inline\">\\(\\pu{12,4 mg}\\)</span> de água.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica do eugenol.</li>\n<li><strong>Determine</strong> a fórmula molecular do eugenol.</li>\n</ol>",
+        "md": "Uma amostra de $\\pu{115 mg}$ de eugenol, o composto responsável pelo\nodor do cravo-da-índia, foi colocada em um balão evacuado de volume\n$\\pu{500 mL}$, em $\\pu{280 \\degree C}$. A pressão exercida pelo eugenol\nno balão, nessas condições, foi $\\pu{48 Torr}$. Em uma experiência de\ncombustão $\\pu{18,8 mg}$ de eugenol produziram $\\pu{50 mg}$ de dióxido\nde carbono e $\\pu{12,4 mg}$ de água.\n\na.  **Determine** a fórmula empírica do eugenol.\nb.  **Determine** a fórmula molecular do eugenol.\n",
+        "tex": "Uma amostra de {\\(\\qty{115}{\\unit{mg}}\\)} de eugenol, o composto responsável pelo odor do cravo-da-índia, foi colocada em um balão evacuado de volume\n{\\(\\qty{500}{\\unit{mL}}\\)}, em {\\(\\qty{280}{\\unit{\\degree C}}\\)}. A pressão exercida pelo eugenol no balão, nessas condições, foi\n{\\(\\qty{48}{\\unit{Torr}}\\)}. Em uma experiência de combustão {\\(\\qty{18,8}{\\unit{mg}}\\)} de eugenol produziram {\\(\\qty{50}{\\unit{mg}}\\)} de dióxido de\ncarbono e {\\(\\qty{12,4}{\\unit{mg}}\\)} de água.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica do eugenol.\n\\item\n  \\textbf{Determine} a fórmula molecular do eugenol.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{C5H6O}\\)</span></p>\n",
+          "md": "$\\pu{C5H6O}$",
+          "tex": "\\(\\unit{C^{5}H^{6}O}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C10H12O2}\\)</span></p>\n",
+          "md": "$\\ce{C10H12O2}$",
+          "tex": "\\(\\ce{C10H12O2}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6228,14 +6573,25 @@
     {
       "id_": "3C33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C33/3C33.md",
-      "date": "2023-01-18T00:12:02.942878",
+      "date": "2023-01-18T00:54:42.212356",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> do gás\namônia, em <span class=\"math inline\">\\(\\pu{1 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, é misturada com <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> do gás cloreto de hidrogênio,\nem <span class=\"math inline\">\\(\\pu{150 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>. A seguinte reação\nocorre: <span class=\"math display\">\\[\n    \\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{NH4Cl}\\)</span> formada.</li>\n<li><strong>Determine</strong> a pressão parcial do gás em excesso após\no final da reação.</li>\n</ol>",
+        "md": "Uma amostra de $\\pu{15 mL}$ do gás amônia, em $\\pu{1 Torr}$ e\n$\\pu{30 \\degree C}$, é misturada com $\\pu{25 mL}$ do gás cloreto de\nhidrogênio, em $\\pu{150 Torr}$ e $\\pu{25 \\degree C}$. A seguinte reação\nocorre: $$\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n$$\n\na.  **Determine** a massa de $\\ce{NH4Cl}$ formada.\nb.  **Determine** a pressão parcial do gás em excesso após o final da\n    reação.\n",
+        "tex": "Uma amostra de {\\(\\qty{15}{\\unit{mL}}\\)} do gás amônia, em {\\(\\qty{1}{\\unit{Torr}}\\)} e {\\(\\qty{30}{\\unit{\\degree C}}\\)}, é misturada com\n{\\(\\qty{25}{\\unit{mL}}\\)} do gás cloreto de hidrogênio, em {\\(\\qty{150}{\\unit{Torr}}\\)} e {\\(\\qty{25}{\\unit{\\degree C}}\\)}. A seguinte reação ocorre:\n{\\[\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{NH4Cl}\\)} formada.\n\\item\n  \\textbf{Determine} a pressão parcial do gás em excesso após o final da reação.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{4,2 mg}\\)</span></p>\n",
+          "md": "$\\pu{4,2 mg}$",
+          "tex": "\\(\\qty{4,2}{\\unit{mg}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,076 atm}\\)</span></p>\n",
+          "md": "$\\pu{0,076 atm}$",
+          "tex": "\\(\\qty{0,076}{\\unit{atm}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6243,17 +6599,43 @@
     {
       "id_": "3C31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C31/3C31.md",
-      "date": "2023-01-18T00:12:02.926878",
+      "date": "2023-01-18T00:47:51.566875",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um pedaço de sódio metálico foi colocado em um balão contendo água em\num dia em que a pressão atmosférica era <span class=\"math inline\">\\(\\pu{758 Torr}\\)</span>. O sódio reagiu\ncompletamente com a água para produzir <span class=\"math inline\">\\(\\pu{137 mL}\\)</span> de uma mistura de gás\nhidrogênio e vapor d’água a <span class=\"math inline\">\\(\\pu{24 \\degree\nC}\\)</span>. Nesta temperatura, a pressão parcial da água é <span class=\"math inline\">\\(\\pu{24 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde sódio que reagiu.</p>",
+        "md": "Um pedaço de sódio metálico foi colocado em um balão contendo água em um\ndia em que a pressão atmosférica era $\\pu{758 Torr}$. O sódio reagiu\ncompletamente com a água para produzir $\\pu{137 mL}$ de uma mistura de\ngás hidrogênio e vapor d'água a $\\pu{24 \\degree C}$. Nesta temperatura,\na pressão parcial da água é $\\pu{24 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de sódio que\nreagiu.\n",
+        "tex": "Um pedaço de sódio metálico foi colocado em um balão contendo água em um dia em que a pressão atmosférica era {\\(\\qty{758}{\\unit{Torr}}\\)}. O sódio\nreagiu completamente com a água para produzir {\\(\\qty{137}{\\unit{mL}}\\)} de uma mistura de gás hidrogênio e vapor d'água a\n{\\(\\qty{24}{\\unit{\\degree C}}\\)}. Nesta temperatura, a pressão parcial da água é {\\(\\qty{24}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de sódio que reagiu.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,19 g}\\)</span>",
+          "md": "$\\pu{0,19 g}$\n",
+          "tex": "{\\(\\qty{0,19}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,25 g}\\)</span>",
+          "md": "$\\pu{0,25 g}$\n",
+          "tex": "{\\(\\qty{0,25}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,33 g}\\)</span>",
+          "md": "$\\pu{0,33 g}$\n",
+          "tex": "{\\(\\qty{0,33}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,44 g}\\)</span>",
+          "md": "$\\pu{0,44 g}$\n",
+          "tex": "{\\(\\qty{0,44}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,58 g}\\)</span>",
+          "md": "$\\pu{0,58 g}$\n",
+          "tex": "{\\(\\qty{0,58}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C22",
@@ -6381,32 +6763,84 @@
     {
       "id_": "3C47",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C47/3C47.md",
-      "date": "2023-01-18T00:12:03.042875",
+      "date": "2023-01-18T01:47:37.978338",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere um tubo de <span class=\"math inline\">\\(\\pu{3 m}\\)</span> de\ncomprimento onde em uma ponta é colocado um algodão com uma solução de\nácido clorídrico e na outra é colocado um algodão com uma solução de\nhidróxido de amônio. Um aerossol branco é formado no interior do tubo\nsegundo a reação: <span class=\"math display\">\\[\n    \\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndistância entre o aerossol branco e o algodão com amônia.</p>",
+        "md": "Considere um tubo de $\\pu{3 m}$ de comprimento onde em uma ponta é\ncolocado um algodão com uma solução de ácido clorídrico e na outra é\ncolocado um algodão com uma solução de hidróxido de amônio. Um aerossol\nbranco é formado no interior do tubo segundo a reação: $$\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da distância entre o\naerossol branco e o algodão com amônia.\n",
+        "tex": "Considere um tubo de {\\(\\qty{3}{\\unit{m}}\\)} de comprimento onde em uma ponta é colocado um algodão com uma solução de ácido clorídrico e na outra é\ncolocado um algodão com uma solução de hidróxido de amônio. Um aerossol branco é formado no interior do tubo segundo a reação: {\\[\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da distância entre o aerossol branco e o algodão com amônia.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 m}\\)</span>",
+          "md": "$\\pu{1,4 m}$\n",
+          "tex": "{\\(\\qty{1,4}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8 m}\\)</span>",
+          "md": "$\\pu{1,8 m}$\n",
+          "tex": "{\\(\\qty{1,8}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,3 m}\\)</span>",
+          "md": "$\\pu{2,3 m}$\n",
+          "tex": "{\\(\\qty{2,3}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,8 m}\\)</span>",
+          "md": "$\\pu{2,8 m}$\n",
+          "tex": "{\\(\\qty{2,8}{\\unit{m}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5 m}\\)</span>",
+          "md": "$\\pu{3,5 m}$\n",
+          "tex": "{\\(\\qty{3,5}{\\unit{m}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C32/3C32.md",
-      "date": "2023-01-18T00:12:02.934878",
+      "date": "2023-01-18T00:54:55.980262",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,4 g}\\)</span> de zinco\nimpuro reagiu com excesso de ácido clorídrico, formaram-se <span class=\"math inline\">\\(\\pu{127 mL}\\)</span> de gás hidrogênio, que foi\ncoletado sobre água em <span class=\"math inline\">\\(\\pu{10 \\degree\nC}\\)</span>. A pressão externa era <span class=\"math inline\">\\(\\pu{738\nTorr}\\)</span>. Nesta temperatura, a pressão parcial da água é <span class=\"math inline\">\\(\\pu{10 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza do zinco.</p>",
+        "md": "Quando $\\pu{0,4 g}$ de zinco impuro reagiu com excesso de ácido\nclorídrico, formaram-se $\\pu{127 mL}$ de gás hidrogênio, que foi\ncoletado sobre água em $\\pu{10 \\degree C}$. A pressão externa era\n$\\pu{738 Torr}$. Nesta temperatura, a pressão parcial da água é\n$\\pu{10 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da pureza do zinco.\n",
+        "tex": "Quando {\\(\\qty{0,4}{\\unit{g}}\\)} de zinco impuro reagiu com excesso de ácido clorídrico, formaram-se {\\(\\qty{127}{\\unit{mL}}\\)} de gás hidrogênio, que\nfoi coletado sobre água em {\\(\\qty{10}{\\unit{\\degree C}}\\)}. A pressão externa era {\\(\\qty{738}{\\unit{Torr}}\\)}. Nesta temperatura, a pressão parcial\nda água é {\\(\\qty{10}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pureza do zinco.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{21 \\%}\\)</span>",
+          "md": "$\\pu{21 \\%}$\n",
+          "tex": "{\\(\\qty{21}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{34 \\%}\\)</span>",
+          "md": "$\\pu{34 \\%}$\n",
+          "tex": "{\\(\\qty{34}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{54 \\%}\\)</span>",
+          "md": "$\\pu{54 \\%}$\n",
+          "tex": "{\\(\\qty{54}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{85 \\%}\\)</span>",
+          "md": "$\\pu{85 \\%}$\n",
+          "tex": "{\\(\\qty{85}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130 \\%}\\)</span>",
+          "md": "$\\pu{130 \\%}$\n",
+          "tex": "{\\(\\qty{130}{\\unit{\\%}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3C01",
@@ -6452,17 +6886,43 @@
     {
       "id_": "3C46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C46/3C46.md",
-      "date": "2023-01-18T00:12:03.034876",
+      "date": "2023-01-18T01:46:35.122333",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Quando uma amostra de <span class=\"math inline\">\\(\\pu{2,36\ng}\\)</span> de fósforo foi queimada em cloro, produziram-se <span class=\"math inline\">\\(\\pu{10,5 g}\\)</span> de um cloreto de fósforo. Seu\nvapor levou <span class=\"math inline\">\\(\\pu{1,77}\\)</span> vez mais\ntempo para efundir do que o mesmo número de mols de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> nas mesmas condições de\ntemperatura e pressão.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula molecular do\ncloreto de fósforo.</p>",
+        "md": "Quando uma amostra de $\\pu{2,36 g}$ de fósforo foi queimada em cloro,\nproduziram-se $\\pu{10,5 g}$ de um cloreto de fósforo. Seu vapor levou\n$\\pu{1,77}$ vez mais tempo para efundir do que o mesmo número de mols de\n$\\ce{CO2}$ nas mesmas condições de temperatura e pressão.\n\n**Assinale** a alternativa com a fórmula molecular do cloreto de\nfósforo.\n",
+        "tex": "Quando uma amostra de {\\(\\qty{2,36}{\\unit{g}}\\)} de fósforo foi queimada em cloro, produziram-se {\\(\\qty{10,5}{\\unit{g}}\\)} de um cloreto de fósforo.\nSeu vapor levou {\\(\\num{1,77}\\)} vez mais tempo para efundir do que o mesmo número de mols de {\\(\\ce{CO2}\\)} nas mesmas condições de temperatura e\npressão.\n\n\\textbf{Assinale} a alternativa com a fórmula molecular do cloreto de fósforo.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{PCl2}\\)</span>",
+          "md": "$\\ce{PCl2}$\n",
+          "tex": "{\\(\\ce{PCl2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{PCl3}\\)</span>",
+          "md": "$\\ce{PCl3}$\n",
+          "tex": "{\\(\\ce{PCl3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{PCl4}\\)</span>",
+          "md": "$\\ce{PCl4}$\n",
+          "tex": "{\\(\\ce{PCl4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{PCl5}\\)</span>",
+          "md": "$\\ce{PCl5}$\n",
+          "tex": "{\\(\\ce{PCl5}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{PCl6}\\)</span>",
+          "md": "$\\ce{PCl6}$\n",
+          "tex": "{\\(\\ce{PCl6}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3C02",
