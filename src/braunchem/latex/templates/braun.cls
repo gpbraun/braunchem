@@ -1264,6 +1264,9 @@
     {
         \group_begin:
         \cs_set:Npn \caption ##1 {\relax}
+
+        \pgfplotsset { scale = 0.8 }
+
         \begin{center}
     }
     {
@@ -1525,8 +1528,6 @@
         \cs_set_eq:NN \figure \simplefigure
         \cs_set_eq:NN \endfigure \endsimplefigure
 
-        \pgfplotsset { scale = 0.9 }
-
         \medskip
 
         \begin{tcolorbox}
@@ -1706,8 +1707,6 @@
 
         \cs_set_eq:NN \figure \simplefigure
         \cs_set_eq:NN \endfigure \endsimplefigure
-
-        \pgfplotsset { scale = 0.9 }
 
         \bigskip
 
