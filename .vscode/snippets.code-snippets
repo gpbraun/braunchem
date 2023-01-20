@@ -49,7 +49,19 @@
 			"---",
 			"$2"
 		],
-		"description": "Inserir comando de assinalar."
+		"description": "Inserir dados."
+	},
+	"Resposta": {
+		"scope": "markdown",
+		"prefix": "resposta",
+		"body": [
+			"---",
+			"answer:",
+			"\t- $1",
+			"---",
+			"$2"
+		],
+		"description": "Inserir respostas."
 	},
 	"Unidade física": {
 		"scope": "markdown",

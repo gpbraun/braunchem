@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = both,
+            minor tick num=1,
+            xlabel = {$\qty{1000}{K}/T$},
+            ylabel = {$\ln (P/\unit{Torr})$},
+            xmin = 3.5, xmax = 5.5,
+            domain = 3.5:5.5,
+        ]
+
+    \addplot
+        { -3.358714*x + 12.247 };
+
+    \end{axis}
+\end{tikzpicture}
+

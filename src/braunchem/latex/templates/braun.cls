@@ -58,11 +58,11 @@
 %   FILTERED WARNINGS
 %============================================================%
 
-\WarningFilter{ hyperref }         { Token~not~allowed~in~a~PDF~string }
-\WarningFilter{ typearea }         { Bad~type~area~settings! }
-\WarningFilter{ latex }            { Font~shape }
-\WarningFilter{ latex }            { Unused~global~option(s) }
-\WarningFilter{ latex }            { \KOMAScriptVersion }
+\WarningFilter{ hyperref } { Token~not~allowed~in~a~PDF~string }
+\WarningFilter{ typearea } { Bad~type~area~settings! }
+\WarningFilter{ latex }    { Font~shape }
+\WarningFilter{ latex }    { Unused~global~option(s) }
+\WarningFilter{ latex }    { \KOMAScriptVersion }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -93,12 +93,12 @@
 %============================================================%
 
 \cs_set:Npn \BraunNoWarning % Avoid badness errors
-    { 
-        \dim_set_eq:NN \vfuzz    \c_max_dim
-        \dim_set_eq:NN \hfuzz    \c_max_dim
-        \int_set_eq:NN \hbadness \c_max_int
-        \int_set_eq:NN \vbadness \c_max_int
-    }
+  { 
+      \dim_set_eq:NN \vfuzz    \c_max_dim
+      \dim_set_eq:NN \hfuzz    \c_max_dim
+      \int_set_eq:NN \hbadness \c_max_int
+      \int_set_eq:NN \vbadness \c_max_int
+  }
 
 \cs_set_eq:NN \BraunVFill \tex_vfill:D
 
@@ -116,18 +116,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \keys_define:nn { braun }
-    {
-        language .code:n    = \PassOptionsToPackage {#1} { babel },
-        language .initial:n = brazil,
+  {
+    language .code:n    = \PassOptionsToPackage {#1} { babel },
+    language .initial:n = brazil,
 
-        linewidth .dim_set:N = \g_braun_linewidth_dim,
-		linewidth .initial:n =  0.4pt,
-    }
+    linewidth .dim_set:N = \g_braun_linewidth_dim,
+    linewidth .initial:n =  0.4pt,
+  }
 
 % #1 -> module
 % #2 -> keys
 \NewDocumentCommand \braunsetup { o m } 
-    { \exp_args:Ne \keys_set:nn { braun \IfValueT {#1} {/#1} } {#2} }
+  { \exp_args:Ne \keys_set:nn { braun \IfValueT {#1} {/#1} } {#2} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -136,48 +136,48 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \keys_define:nn { braun }
-    {
-        familydefault .tl_set:N = \g_braun_family_default_tl,
+  {
+    familydefault .tl_set:N = \g_braun_family_default_tl,
 
-        font .tl_set:N  = \g_braun_font_tl,
-        font .initial:n = ptsans,
+    font .tl_set:N  = \g_braun_font_tl,
+    font .initial:n = ptsans,
 
-        emph .code:n = \cs_gset:Npn \emph ##1 { { #1 ##1 } },
-    }
+    emph .code:n = \cs_gset:Npn \emph ##1 { { #1 ##1 } },
+  }
 
 \cs_set:Nn \braun_select_font:
-    {
-        %% font names
-        \RequirePackage { anyfontsize }
-        \str_case:Vn \g_braun_font_tl
-            {
-                { lmodern }
-                { 
-                    \RequirePackage { lmodern  }
-                }
-                { ptsans }
-                {
-                    \RequirePackage { lmodern }
-                    \RequirePackage [ scaled ] { PTSans }
-                }
-                { paratype }
-                {
-                    \RequirePackage { paratype }
-                    \RequirePackage { eulervm  }
-                }  
-                { helvetica }
-                { 
-                    \RequirePackage { lmodern }
-                    \RequirePackage [ scaled  ] { helvet }
-                }          
-            }
-        % family default
-        \str_case:Vn \g_braun_family_default_tl
-            {
-                { rm } { \cs_gset_eq:NN \familydefault \rmdefault }
-                { sf } { \cs_gset_eq:NN \familydefault \sfdefault }
-            }
-    }
+  {
+    %% font names
+    \RequirePackage { anyfontsize }
+    \str_case:Vn \g_braun_font_tl
+      {
+        { lmodern }
+        { 
+          \RequirePackage { lmodern  }
+        }
+        { ptsans }
+        {
+          \RequirePackage { lmodern }
+          \RequirePackage [ scaled ] { PTSans }
+        }
+        { paratype }
+        {
+          \RequirePackage { paratype }
+          \RequirePackage { eulervm  }
+        }  
+        { helvetica }
+        { 
+          \RequirePackage { lmodern }
+          \RequirePackage [ scaled  ] { helvet }
+        }          
+      }
+    % family default
+    \str_case:Vn \g_braun_family_default_tl
+      {
+        { rm } { \cs_gset_eq:NN \familydefault \rmdefault }
+        { sf } { \cs_gset_eq:NN \familydefault \sfdefault }
+      }
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -197,7 +197,7 @@
 %============================================================%
 
 \keys_define:nn { braun }
-    { unknown .code:n  = \exp_args:NV \KOMAoption \l_keys_key_tl {#1} }
+  { unknown .code:n  = \exp_args:NV \KOMAoption \l_keys_key_tl {#1} }
 
 %============================================================%
 %   MATH
@@ -214,13 +214,13 @@
 \RequirePackage { siunitx }
 
 \sisetup 
-    { 
-        retain-explicit-plus,
-        parse-units=false,
-        range-phrase = { ~a~ }, 
-        list-final-separator = { ~e~ }, 
-        locale = FR,
-    }
+  { 
+    retain-explicit-plus,
+    parse-units=false,
+    range-phrase = { ~a~ }, 
+    list-final-separator = { ~e~ }, 
+    locale = FR,
+  }
 
 \cs_set_eq:NN \pu \mathrm
 
@@ -237,22 +237,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \keys_define:nn { braun/box }
-    {
-        width .dim_set:N = \l_braun_box_width_dim,
-        width .initial:n = 2em,
+  {
+    width .dim_set:N = \l_braun_box_width_dim,
+    width .initial:n = 2em,
 
-        fill  .tl_set:N  = \l_braun_box_fill_tl,
-        fill  .initial:n = white,
+    fill  .tl_set:N  = \l_braun_box_fill_tl,
+    fill  .initial:n = white,
 
-        stroke  .tl_set:N  = \l_braun_box_stroke_tl,
-        stroke  .initial:n = black,
+    stroke  .tl_set:N  = \l_braun_box_stroke_tl,
+    stroke  .initial:n = black,
 
-        align  .tl_set:N  = \l_braun_box_align_tl,
-        align  .initial:n = t,
+    align  .tl_set:N  = \l_braun_box_align_tl,
+    align  .initial:n = t,
 
-        yshift .dim_set:N  = \l_braun_box_yshift_dim,
-        yshift .initial:n  = 0pt,
-    }
+    yshift .dim_set:N  = \l_braun_box_yshift_dim,
+    yshift .initial:n  = 0pt,
+  }
 
 %============================================================%
 %   HEADERS
@@ -265,43 +265,43 @@
 % #2 -> code
 
 \NewDocumentCommand \BraunHeader { O{} m }
-    {
-        \BraunNoWarning
-        \skip_vertical:n { 1ex } 
-        \group_begin:
-            \dim_zero:N \parindent
-            \draw_begin:
-                \draw_linewidth:V \g_braun_linewidth_dim
-                \hcoffin_set:Nn   \l__braun_txta_coffin {#2}
-                \hcoffin_set:Nn   \l__braun_txtb_coffin {#1}
-                \draw_path_moveto:n 
-                    { \linewidth , 0em }
-                \draw_path_lineto:n 
-                    { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0cm }
-                \draw_path_corner_arc:nn { 2ex }{ 2ex }
-                \draw_path_lineto:n 
-                    { \coffin_wd:N \l__braun_txta_coffin + 4ex , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
-                \draw_path_corner_arc:nn { 0cm }{ 0cm }
-                \draw_path_lineto:n 
-                    { 0cm , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
-                \draw_path_corner_arc:nn { 2ex }{ 2ex }
-                \draw_path_lineto:n 
-                    { 0cm , 0em }
-                \draw_path_lineto:n 
-                    { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
-                \color_fill:n { black!20 }
-                \draw_path_use_clear:n { fill, stroke }
-                \draw_transform_shift:n 
-                    { \linewidth - 1em , 1.25ex }
-                \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
-                \draw_transform_shift:n 
-                    { ( \coffin_wd:N \l__braun_txta_coffin + 4ex ) / 2 - \linewidth + 1em , 0cm }
-                \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
-            \draw_end:
-        \group_end:
-        \skip_vertical:n { 1ex }
-        \braun_ghost_section:
-    }
+  {
+    \BraunNoWarning
+    \skip_vertical:n { 1ex } 
+    \group_begin:
+      \dim_zero:N \parindent
+      \draw_begin:
+        \draw_linewidth:V \g_braun_linewidth_dim
+        \hcoffin_set:Nn   \l__braun_txta_coffin {#2}
+        \hcoffin_set:Nn   \l__braun_txtb_coffin {#1}
+        \draw_path_moveto:n 
+          { \linewidth , 0em }
+        \draw_path_lineto:n 
+          { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0cm }
+        \draw_path_corner_arc:nn { 2ex }{ 2ex }
+        \draw_path_lineto:n 
+          { \coffin_wd:N \l__braun_txta_coffin + 4ex , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
+        \draw_path_corner_arc:nn { 0cm }{ 0cm }
+        \draw_path_lineto:n 
+          { 0cm , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
+        \draw_path_corner_arc:nn { 2ex }{ 2ex }
+        \draw_path_lineto:n 
+          { 0cm , 0em }
+        \draw_path_lineto:n 
+          { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
+        \color_fill:n { black!20 }
+        \draw_path_use_clear:n { fill, stroke }
+        \draw_transform_shift:n 
+          { \linewidth - 1em , 1.25ex }
+        \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
+        \draw_transform_shift:n 
+          { ( \coffin_wd:N \l__braun_txta_coffin + 4ex ) / 2 - \linewidth + 1em , 0cm }
+        \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
+      \draw_end:
+    \group_end:
+    \skip_vertical:n { 1ex }
+    \braun_ghost_section:
+  }
 
 %============================================================%
 %   ChoiceBox
@@ -316,16 +316,16 @@
 		\hcoffin_set:Nn \l_tmpa_coffin 
 			{
 				\draw_begin:
-					\draw_path_moveto:n { -#2 +0.2ex, -#2 }
-					\draw_path_lineto:n { #2 -0.2ex  , -#2 }
-					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
-					\draw_path_lineto:n { #2 -0.2ex, #2 }
-					\draw_path_corner_arc:nn { 0cm }{ 0cm }
-					\draw_path_lineto:n { -#2 +0.2ex, #2 }
-					\draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
-					\draw_path_close:
-					\color_fill:n { blue!60!black!20 }
-					\draw_path_use_clear:n { fill }
+        \draw_path_moveto:n { -#2 +0.2ex, -#2 }
+        \draw_path_lineto:n { #2 -0.2ex  , -#2 }
+        \draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
+        \draw_path_lineto:n { #2 -0.2ex, #2 }
+        \draw_path_corner_arc:nn { 0cm }{ 0cm }
+        \draw_path_lineto:n { -#2 +0.2ex, #2 }
+        \draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
+        \draw_path_close:
+        \color_fill:n { blue!60!black!20 }
+        \draw_path_use_clear:n { fill }
 				\draw_end:
 			}
 		\hcoffin_set:Nn \l_tmpb_coffin {#1}
@@ -339,7 +339,7 @@
 %% FRONT-END
 
 \cs_set:Npn \choicebox #1 
-    { \braun_choice_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
+  { \braun_choice_box:nn  { \bfseries\sffamily\small #1 }{0.65em} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -359,33 +359,33 @@
 \RequirePackage{ pgfplots }
 
 \keys_define:nn { braun/draw/plot }
-    { 
-        unknown .code:n = \exp_args:Ne \pgfplotsset { \l_keys_key_tl = #1 },
-    }
+  { 
+    unknown .code:n = \exp_args:Ne \pgfplotsset { \l_keys_key_tl = #1 },
+  }
 
 \pgfqkeys { /pgf/number~format }
-    {
-        set~thousands~separator = {},
-        set~decimal~separator = {,\!},
-    }
+  {
+    set~thousands~separator = {},
+    set~decimal~separator = {,\!},
+  }
 
 \pgfplotsset
-    {
-        compat = 1.17,
-        samples = 150,
-        legend~cell~align = left,
-        every~axis~plot/.append~style = {very~thick},
-        every~axis~plot/.append~style = {mark=none},
-        every~axis~plot/.append~style = {mark~options={fill=white}},
-    }
+  {
+    compat = 1.17,
+    samples = 150,
+    legend~cell~align = left,
+    every~axis~plot/.append~style = {very~thick},
+    every~axis~plot/.append~style = {mark=none},
+    every~axis~plot/.append~style = {mark~options={fill=white}},
+  }
 
 \tikzstyle{every~pin}=[draw=black]
 
 \AtBeginDocument 
-    {
-        \usepgfplotslibrary{groupplots, fillbetween}
-        \usetikzlibrary{shapes.geometric, calc}
-    }
+  {
+    \usepgfplotslibrary{groupplots, fillbetween}
+    \usetikzlibrary{shapes.geometric, calc}
+  }
 
 %============================================================%
 %   PALETA DE CORES (BOOTSTRAP)
@@ -394,10 +394,10 @@
 \cs_set_eq:NN \legacydefinecolor \definecolor
 
 \cs_set:Npn \definecolor #1#2#3
-    {
-        \legacydefinecolor {#1}{#2}{#3}
-        \color_set:nnn     {#1}{#2}{#3}
-    }
+  {
+    \legacydefinecolor {#1}{#2}{#3}
+    \color_set:nnn     {#1}{#2}{#3}
+  }
 
 % CORES BÁSICAS
 \definecolor { blue   } { HTML } { 0d6efd }
@@ -425,15 +425,15 @@
  
 % CORES EM GRÁFICOS
 \pgfplotscreateplotcyclelist { braun-pallet }
-    {
-        { blue },
-        { red },
-        { green },
-    }
+  {
+    { blue  },
+    { red   },
+    { green },
+  }
 \pgfplotsset
-    {
-        cycle~list~name = braun-pallet,
-    }
+  {
+    cycle~list~name = braun-pallet,
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -446,29 +446,29 @@
 \pagestyle { scrheadings }
 
 \keys_define:nn { braun/page }
-    {
-        headfoot-font .code:n    = \setkomafont { pageheadfoot } {#1},
-        headfoot-font .initial:n =  ,
+  {
+    headfoot-font .code:n    = \setkomafont { pageheadfoot } {#1},
+    headfoot-font .initial:n =  ,
 
-        columnsep .dim_set:N = \columnsep,
-        columnsep .initial:n = 2em,
-    }
+    columnsep .dim_set:N = \columnsep,
+    columnsep .initial:n = 2em,
+  }
 
 %============================================================%
 %   COLUMN SEPARATOR
 %============================================================%
 
 \keys_define:nn { braun/page/mcrule }
-    { 
-        fancy .meta:n = 
-            {
-                line-style = dashed,
-                width      = thick,
-                color      = gray-500,
-            },
+  { 
+    fancy .meta:n = 
+      {
+        line-style = dashed,
+        width      = thick,
+        color      = gray-500,
+      },
 
-        unknown .code:n = \exp_args:Ne \SetMCRule { \l_keys_key_tl = #1 },
-    }
+    unknown .code:n = \exp_args:Ne \SetMCRule { \l_keys_key_tl = #1 },
+  }
 
 %============================================================%
 %   HEADER
@@ -476,48 +476,48 @@
 
 
 \keys_define:nn { braun/page/header }
-    {
-        sepline .choices:nn = { true, false } 
-            {
-                \exp_args:Nne \KOMAoption { headsepline }
-                    {  
-                        \str_if_eq:nnTF {#1} { true } 
-                            { \dim_use:N \g_braun_linewidth_dim } { false }
-                    }
-            },
-        sepline .initial:n = false,
-        sepline .default:n = true,
+  {
+    sepline .choices:nn = { true, false } 
+      {
+        \exp_args:Nne \KOMAoption { headsepline }
+          {  
+            \str_if_eq:nnTF {#1} { true } 
+              { \dim_use:N \g_braun_linewidth_dim } { false }
+          }
+      },
+    sepline .initial:n = false,
+    sepline .default:n = true,
 
-        title-sepline .choices:nn = { true, false } 
-            {
-                \KOMAoption { plainheadsepline } {#1}
-            },
-        title-sepline .initial:n = false,
-        title-sepline .default:n = true,
+    title-sepline .choices:nn = { true, false } 
+      {
+        \KOMAoption { plainheadsepline } {#1}
+      },
+    title-sepline .initial:n = false,
+    title-sepline .default:n = true,
 
-        font .code:n    = \setkomafont { pagehead } {#1},
-        font .initial:n =  ,
+    font .code:n    = \setkomafont { pagehead } {#1},
+    font .initial:n =  ,
 
-        inner  .tl_set:N  = \l_braun_page_ihead_tl ,
-        center .tl_set:N  = \l_braun_page_chead_tl ,
-        outer  .tl_set:N  = \l_braun_page_ohead_tl ,
+    inner  .tl_set:N  = \l_braun_page_ihead_tl ,
+    center .tl_set:N  = \l_braun_page_chead_tl ,
+    outer  .tl_set:N  = \l_braun_page_ohead_tl ,
 
-        title-inner  .tl_set:N  = \l_braun_page_title_ihead_tl ,
-        title-center .tl_set:N  = \l_braun_page_title_chead_tl ,
-        title-outer  .tl_set:N  = \l_braun_page_title_ohead_tl ,
+    title-inner  .tl_set:N  = \l_braun_page_title_ihead_tl ,
+    title-center .tl_set:N  = \l_braun_page_title_chead_tl ,
+    title-outer  .tl_set:N  = \l_braun_page_title_ohead_tl ,
 
-        plain .meta:n = 
-            { 
-                inner  = ,
-                center = ,
-                outer  = ,
-                sepline = false,
-                title-inner  = ,
-                title-center = ,
-                title-outer  = ,
-                title-sepline = false,
-            },
-    }
+    plain .meta:n = 
+      { 
+        inner  = ,
+        center = ,
+        outer  = ,
+        sepline = false,
+        title-inner  = ,
+        title-center = ,
+        title-outer  = ,
+        title-sepline = false,
+      },
+  }
 
 \ihead 
     [ \tl_use:N \l_braun_page_title_ihead_tl ] 
@@ -534,50 +534,50 @@
 %============================================================%
 
 \keys_define:nn { braun/page/footer }
-    {
-        sepline .choices:nn = { true, false } 
-            {
-                \exp_args:Nne \KOMAoption { footsepline }
-                    {  
-                        \str_if_eq:nnTF {#1} { true } 
-                            { \dim_use:N \g_braun_linewidth_dim } { false }
-                    }
-            },
-        sepline .initial:n = false,
-        sepline .default:n = true,
+  {
+    sepline .choices:nn = { true, false } 
+      {
+        \exp_args:Nne \KOMAoption { footsepline }
+          {  
+            \str_if_eq:nnTF {#1} { true } 
+              { \dim_use:N \g_braun_linewidth_dim } { false }
+          }
+      },
+    sepline .initial:n = false,
+    sepline .default:n = true,
 
-        title-sepline .choices:nn = { true, false } 
-            {
-                \KOMAoption { plainfootsepline } {#1}
-            },
-        title-sepline .initial:n = false,
-        title-sepline .default:n = true,
+    title-sepline .choices:nn = { true, false } 
+      {
+        \KOMAoption { plainfootsepline } {#1}
+      },
+    title-sepline .initial:n = false,
+    title-sepline .default:n = true,
 
-        font .code:n    = \setkomafont { pagefoot } {#1},
-        font .initial:n =  {},
+    font .code:n    = \setkomafont { pagefoot } {#1},
+    font .initial:n =  {},
 
-        inner  .tl_set:N  = \l_braun_page_ifoot_tl ,
-        center .tl_set:N  = \l_braun_page_cfoot_tl ,
-        center .initial:n = { \thepage },
-        outer  .tl_set:N  = \l_braun_page_ofoot_tl ,
+    inner  .tl_set:N  = \l_braun_page_ifoot_tl ,
+    center .tl_set:N  = \l_braun_page_cfoot_tl ,
+    center .initial:n = { \thepage },
+    outer  .tl_set:N  = \l_braun_page_ofoot_tl ,
 
-        title-inner  .tl_set:N  = \l_braun_page_title_ifoot_tl ,
-        title-center .tl_set:N  = \l_braun_page_title_cfoot_tl ,
-        title-center .initial:n = { \thepage },
-        title-outer  .tl_set:N  = \l_braun_page_title_ofoot_tl ,
+    title-inner  .tl_set:N  = \l_braun_page_title_ifoot_tl ,
+    title-center .tl_set:N  = \l_braun_page_title_cfoot_tl ,
+    title-center .initial:n = { \thepage },
+    title-outer  .tl_set:N  = \l_braun_page_title_ofoot_tl ,
 
-        plain .meta:n = 
-            { 
-                inner  = ,
-                center = {\thepage},
-                outer  = ,
-                sepline = false,
-                title-inner  = ,
-                title-center = {\thepage},
-                title-outer  = ,
-                title-sepline = false,
-            },
-    }
+    plain .meta:n = 
+      { 
+        inner  = ,
+        center = {\thepage},
+        outer  = ,
+        sepline = false,
+        title-inner  = ,
+        title-center = {\thepage},
+        title-outer  = ,
+        title-sepline = false,
+      },
+  }
 
 \ifoot 
     [ \tl_use:N \l_braun_page_title_ifoot_tl ] 
@@ -611,130 +611,131 @@
 % #1 -> sequence variable
 % #2 -> separation
 \cs_set:Nn \braun_select_sep:Nn
-    {
-        \str_case:nn {#2}
-            {
-                { csv    } { \seq_use:Nn #1   { ,~  } }
-                { break  } { \seq_use:Nn #1   { \\  } }
-				{ normal } { \seq_use:Nnnn #1 { ~e~ } { ,~ } { ,~e~ } }
-            }
-    }
+  {
+    \str_case:nn {#2}
+      {
+        { csv    } { \seq_use:Nn #1   { ,~  } }
+        { break  } { \seq_use:Nn #1   { \\  } }
+        { normal } { \seq_use:Nnnn #1 { ~e~ } { ,~ } { ,~e~ } }
+      }
+  }
 \cs_generate_variant:Nn \braun_select_sep:Nn {cv}
 \cs_generate_variant:Nn \braun_select_sep:Nn {cn}
 
 % #1 -> text input
 % #2 -> text case
 \cs_set:Nn \braun_select_case:nn
-    {
-        \str_case:nnF {#2}
-            {
-                { upper } { \text_uppercase:n {#1} }
-                { lower } { \text_lowercase:n {#1} }
-                { title } { \text_titlecase:n {#1} }
-                { first } { \text_titlecase_first:n {#1} }
-            } {#1}
-    }
+  {
+    \str_case:nnF {#2}
+      {
+        { upper } { \text_uppercase:n {#1} }
+        { lower } { \text_lowercase:n {#1} }
+        { title } { \text_titlecase:n {#1} }
+        { first } { \text_titlecase_first:n {#1} }
+      } 
+      {#1}
+  }
 \cs_generate_variant:Nn \braun_select_case:nn {ev}
 
-% #1 m -> title element name
+% #1 -> title element name
 \NewDocumentCommand \NewTitleElement { o m }
-    {
+  {
 		\seq_new:c  { l_braun_title_#2_value_seq  }
 		\bool_new:c { l_braun_title_#2_input_bool }
-        \keys_define:nn { braun/maketitle/#2 }
-            {
-                value .code:n = 
-					{ 
-						\bool_if:cT { l_braun_title_#2_single_bool }
-							{ \seq_clear:c { l_braun_title_#2_value_seq } }
-						\seq_put_right:cn { l_braun_title_#2_value_seq } {##1} 
-					},
-				
-				single-value .bool_set:c  = { l_braun_title_#2_single_bool },
-				single-value .initial:n   = false,
-				single-value .default:n   = true,
+    \keys_define:nn { braun/maketitle/#2 }
+      {
+        value .code:n = 
+          { 
+            \bool_if:cT { l_braun_title_#2_single_bool }
+              { \seq_clear:c { l_braun_title_#2_value_seq } }
+            \seq_put_right:cn { l_braun_title_#2_value_seq } {##1} 
+          },
+      
+        single-value .bool_set:c  = { l_braun_title_#2_single_bool },
+        single-value .initial:n   = false,
+        single-value .default:n   = true,
 
-                font .tl_set:c   = { l_braun_title_#2_font_tl },
+        font .tl_set:c   = { l_braun_title_#2_font_tl },
 
-                case .choices:nn = { upper, lower, title, first, none }
-                    { \tl_set:cn { l_braun_title_#2_case_tl } {##1} },
-                case .initial:n  = first,
+        case .choices:nn = { upper, lower, title, first, none }
+            { \tl_set:cn { l_braun_title_#2_case_tl } {##1} },
+        case .initial:n  = first,
 
-                sep .choices:nn = { normal, csv, break }
-                    { \tl_set:cn { l_braun_title_#2_sep_tl } {##1} },
-                sep .initial:n  = normal,
+        sep .choices:nn = { normal, csv, break }
+            { \tl_set:cn { l_braun_title_#2_sep_tl } {##1} },
+        sep .initial:n  = normal,
 
-                sort .bool_set:c = { l_braun_title_#2_sort_bool },
-                sort .initial:n  = false,
-				sort .default:n  = true,
+        sort .bool_set:c = { l_braun_title_#2_sort_bool },
+        sort .initial:n  = false,
+        sort .default:n  = true,
 
-                pre-text  .tl_set:c = { l_braun_title_#2_pre_text_tl  },
-				post-text .tl_set:c = { l_braun_title_#2_post_text_tl },
+        pre-text  .tl_set:c = { l_braun_title_#2_pre_text_tl  },
+        post-text .tl_set:c = { l_braun_title_#2_post_text_tl },
 
-                before-skip .skip_set:c = { l_braun_title_#2_before_skip },
-                before-skip .initial:n  = 0.5em,
-				after-skip  .skip_set:c = { l_braun_title_#2_after_skip  },
-                after-skip  .initial:n  = 0.5em,
-            }
+        before-skip .skip_set:c = { l_braun_title_#2_before_skip },
+        before-skip .initial:n  = 0.5em,
+        after-skip  .skip_set:c = { l_braun_title_#2_after_skip  },
+        after-skip  .initial:n  = 0.5em,
+      }
 		% Change default keys for the title element
 		\IfNoValueF {#1} { \keys_set:nn { braun/maketitle/#2 } {#1} }
         % Set the title element value
-        \cs_gset:cpn {#2} ##1 
+    \cs_gset:cpn {#2} ##1 
 			{  
 				\bool_set_true:c { l_braun_title_#2_input_bool }
 				\keys_set:nn { braun/maketitle/#2 }{ value = \exp_not:n {##1} } 
 				% LaTeX2e compatibility
 				\cs_if_exist:cT {@#2} { \cs_set:cpn {@#2} {##1} } 
 			}
-        % Print title element value
-      	\cs_new:cpn { Print \char_uppercase:N #2 }
-            {
-				\bool_if:NTF \l_braun_if_maketitle_bool
-                    { % inside \maketitle
-                        \use:c { braun_maketitle_print_#2 }
-                    }
-                    { % outside \maketitle
-                        \seq_if_empty:cF { l_braun_title_#2_value_seq }
-                            {
-                                \braun_select_sep:cn 
-                                    { l_braun_title_#2_value_seq } { normal } 
-                            }
-                    }
+      % Print title element value
+      \cs_new:cpn { Print \char_uppercase:N #2 }
+        {
+          \bool_if:NTF \l_braun_if_maketitle_bool
+            { % inside \maketitle
+              \use:c { braun_maketitle_print_#2 }
             }
+            { % outside \maketitle
+              \seq_if_empty:cF { l_braun_title_#2_value_seq }
+                {
+                  \braun_select_sep:cn 
+                    { l_braun_title_#2_value_seq } { normal } 
+                }
+            }
+        }
 		% Print title element value inside \maketitle
 		\cs_new:cpn { braun_maketitle_print_#2 }
-            {
+      {
 				\seq_if_empty:cF { l_braun_title_#2_value_seq }
-                    {
+          {
 						\group_begin:
-							\dim_compare:vNVF 
-								{ l_braun_title_#2_before_skip } = \c_zero_dim
-								{
-									\skip_vertical:c 
-										{ l_braun_title_#2_before_skip }
-								}
-							\exp_not:n 
-								{ \tl_use:c { l_braun_title_#2_font_tl } }
-							\tl_use:c  { l_braun_title_#2_pre_text_tl } 
-							\braun_select_case:ev
-								{ 
-									\braun_select_sep:cv
-										{ l_braun_title_#2_value_seq } 
-										{ l_braun_title_#2_sep_tl    } 
-								} 
-								{ l_braun_title_#2_case_tl  }
-							\tl_use:c { l_braun_title_#2_post_text_tl } 
-							\dim_compare:vNVF 
-								{ l_braun_title_#2_before_skip } = \c_zero_dim
-								{
-									\skip_vertical:c 
-										{ l_braun_title_#2_after_skip }
-								}
+            \dim_compare:vNVF 
+              { l_braun_title_#2_before_skip } = \c_zero_dim
+              {
+                \skip_vertical:c 
+                  { l_braun_title_#2_before_skip }
+              }
+            \exp_not:n 
+              { \tl_use:c { l_braun_title_#2_font_tl } }
+            \tl_use:c  { l_braun_title_#2_pre_text_tl } 
+            \braun_select_case:ev
+              { 
+                \braun_select_sep:cv
+                  { l_braun_title_#2_value_seq } 
+                  { l_braun_title_#2_sep_tl    } 
+              } 
+              { l_braun_title_#2_case_tl  }
+            \tl_use:c { l_braun_title_#2_post_text_tl } 
+            \dim_compare:vNVF 
+              { l_braun_title_#2_before_skip } = \c_zero_dim
+              {
+                \skip_vertical:c 
+                  { l_braun_title_#2_after_skip }
+              }
 						\group_end:
-                    }
+          }
 				\cs_undefine:c { #2 }
 			}
-    }
+  }
 
 %% ELEMENTOS PADRÃO
 
@@ -783,14 +784,14 @@
 
 % #1 -> logo name/value
 \cs_set:Npn \logo #1
-    { \keys_set:nn { braun/maketitle/logo } { value = #1 } }
+  { \keys_set:nn { braun/maketitle/logo } { value = #1 } }
 
 % #1 -> qrcode link
 \cs_set:Npn \qrcode #1
-    { 
-        \RequirePackage { qrcode }
-        \seq_put_right:Nn \g_braun_logo_value_seq { \qrcode {#1} }
-    }
+  { 
+      \RequirePackage { qrcode }
+      \seq_put_right:Nn \g_braun_logo_value_seq { \qrcode {#1} }
+  }
 
 \coffin_new:N \l_braun_title_logo_r_coffin
 \coffin_new:N \l_braun_title_logo_l_coffin
@@ -799,11 +800,11 @@
 \cs_set:Npn \braun_set_logo_coffin:N #1
 	{
 		\group_begin:
-			\seq_gpop_left:NNT \g_braun_logo_value_seq \l_tmpa_tl
-				{
-					\braun_set_logo_box:N \l_tmpa_box
-					\hcoffin_gset:Nn #1 { \box_use_drop:N \l_tmpa_box }
-				}
+    \seq_gpop_left:NNT \g_braun_logo_value_seq \l_tmpa_tl
+      {
+        \braun_set_logo_box:N \l_tmpa_box
+        \hcoffin_gset:Nn #1 { \box_use_drop:N \l_tmpa_box }
+      }
 		\group_end:
 	}
 	
@@ -811,73 +812,73 @@
 
 % #1 -> box to recieve logo
 \cs_set:Npn \braun_set_logo_box:N #1
-{
+  {
     \hbox_set:Nn #1
-        {
-            \group_begin:
-                \prop_get:NVNTF \l_braun_logos_prop \l_tmpa_tl \l_tmpb_tl 
-                    { \tl_use:N \l_tmpb_tl } 
-                    { \tl_use:N \l_tmpa_tl }
-            \group_end:
-        }
+      {
+        \group_begin:
+        \prop_get:NVNTF \l_braun_logos_prop \l_tmpa_tl \l_tmpb_tl 
+          { \tl_use:N \l_tmpb_tl } 
+          { \tl_use:N \l_tmpa_tl }
+        \group_end:
+      }
     \box_autosize_to_wd_and_ht:NVV #1 \l_braun_logo_width_dim \l_braun_logo_height_dim
-}
+  }
 
 % #1 -> logo name/value
 \cs_new:Npn \PrintLogo #1 
-    {
-        \group_begin:
-            \braun_set_logo_box:N \l_tmpa_box
-            \hcoffin_set:Nn       \l_tmpa_coffin { \box_use_drop:N \l_tmpa_box }
-            \coffin_typeset:N     \l_tma_coffin  {l} {H} {0pt} {0pt}
-        \group_end:
-    }
+  {
+    \group_begin:
+    \braun_set_logo_box:N \l_tmpa_box
+    \hcoffin_set:Nn       \l_tmpa_coffin { \box_use_drop:N \l_tmpa_box }
+    \coffin_typeset:N     \l_tma_coffin  {l} {H} {0pt} {0pt}
+    \group_end:
+  }
 
 %% LOGOS PREDEFINIDOS
 
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
 		pensi = 
+      {
+        \draw_begin:  
+        \color_set:nnn {pensi}{HTML}{ffc107}
+        \fp_set:Nn \l_tmpa_fp { 60 } % Angle
+        \draw_path_moveto:n 
+            { 0em , 0em }
+        \draw_path_lineto:n 
+            { 0em , 1cm }
+        \draw_path_lineto:n 
+            { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) , 1cm }
+        \draw_path_arc:nnn { 90 } { - \l_tmpa_fp }
+            { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) }
+        \draw_path_close:   
+        \color_fill:n { white }
+        \draw_path_use:n { fill }
+        \draw_transform_shift:n 
+            {  
+                \draw_point_polar:nn 
+                    { 0.7 * 1cm  } { 90 - \l_tmpa_fp / 2 }
+            }
+        \draw_path_moveto:n 
             {
-                \draw_begin:  
-                    \color_set:nnn {pensi}{HTML}{ffc107}
-                    \fp_set:Nn \l_tmpa_fp { 60 } % Angle
-                    \draw_path_moveto:n 
-                        { 0em , 0em }
-                    \draw_path_lineto:n 
-                        { 0em , 1cm }
-                    \draw_path_lineto:n 
-                        { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) , 1cm }
-                    \draw_path_arc:nnn { 90 } { - \l_tmpa_fp }
-                        { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) }
-                    \draw_path_close:   
-                    \color_fill:n { white }
-                    \draw_path_use:n { fill }
-                    \draw_transform_shift:n 
-                        {  
-                            \draw_point_polar:nn 
-                                { 0.7 * 1cm  } { 90 - \l_tmpa_fp / 2 }
-                        }
-                    \draw_path_moveto:n 
-                        {
-                            \draw_point_polar:nn 
-                                {  1cm / ( 3 * sqrt(3) ) } { 0 }
-                        }
-                    \draw_path_lineto:n 
-                        {
-                            \draw_point_polar:nn
-                                {  1cm / ( 3 * sqrt(3) ) } { 120 }
-                        }
-                    \draw_path_lineto:n 
-                        {
-                            \draw_point_polar:nn
-                                {  1cm / ( 3 * sqrt(3) ) } { -120 }
-                        }
-                    \draw_path_close:
-                    \color_fill:n { yellow!80 }
-                    \draw_path_use:n { fill }
-                \draw_end:
-            },
+                \draw_point_polar:nn 
+                    {  1cm / ( 3 * sqrt(3) ) } { 0 }
+            }
+        \draw_path_lineto:n 
+            {
+                \draw_point_polar:nn
+                    {  1cm / ( 3 * sqrt(3) ) } { 120 }
+            }
+        \draw_path_lineto:n 
+            {
+                \draw_point_polar:nn
+                    {  1cm / ( 3 * sqrt(3) ) } { -120 }
+            }
+        \draw_path_close:
+        \color_fill:n { yellow!80 }
+        \draw_path_use:n { fill }
+        \draw_end:
+      },
 	}
 
 %============================================================%
@@ -912,36 +913,39 @@
 
 % #1 -> footnote text
 \cs_set:Npn \BraunThanks #1
-    { % equivalent to \thanks
+% equivalent to \thanks
+  { 
 		\tl_if_blank:nF {#1}
-		{
-			\group_begin:
-				\cs_set:Npn \thefootnote { \ensuremath { \star } }
-				\footnotetext [ 0 ] {#1}
-			\group_end:
-		}
+      {
+        \group_begin:
+        \cs_set:Npn \thefootnote { \ensuremath { \star } }
+        \footnotetext [ 0 ] {#1}
+        \group_end:
+      }
 		\cs_undefine:N \BraunThanks % save memory
-    }
+  }
+
 
 \cs_set:Npn \BraunHRule
-    { % print horizontal rule
-		\group_begin:
-			\BraunNoWarning
-			\dim_zero:N \parindent
-			\skip_vertical:n {1pt}
-			\draw_begin:
-				\draw_linewidth:V \g_braun_linewidth_dim
-				\draw_path_moveto:n { 0cm , 0cm }
-				\draw_path_lineto:n { \linewidth , 0cm }
-				\draw_path_use_clear:n { stroke }
-			\draw_end:
-			\skip_vertical:n {1pt}
-		\group_end:
-    }
+% print horizontal rule
+  { 
+    \group_begin:
+    \BraunNoWarning
+    \dim_zero:N \parindent
+    \skip_vertical:n {1pt}
+    \draw_begin:
+    \draw_linewidth:V \g_braun_linewidth_dim
+    \draw_path_moveto:n { 0cm , 0cm }
+    \draw_path_lineto:n { \linewidth , 0cm }
+    \draw_path_use_clear:n { stroke }
+    \draw_end:
+    \skip_vertical:n {1pt}
+    \group_end:
+  }
 
 % #1 -> content
 \cs_set_protected:Npn \BraunSingleColumn #1
-    { \legacy_if:nTF { @twocolumn } { \twocolumn [#1] } {#1} }
+  { \legacy_if:nTF { @twocolumn } { \twocolumn [#1] } {#1} }
 
 %% MAKETITLE COMMAND
 
@@ -949,66 +953,66 @@
 \bool_new:N   \l_braun_if_maketitle_bool
 
 \RenewDocumentCommand \maketitle { o }
-    {
-        \group_begin:
-			\bool_set_true:N \l_braun_if_maketitle_bool
-			\BraunNoWarning
-			% \dim_zero:N  \parindent
-			\dim_gzero:N \@topnum % Prevents figures from going at top of page.
-			% Set keys
-			\IfNoValueF {#1} { \keys_set:nn { braun/maketitle } {#1} }
-			% Logo coffins
-			\str_if_eq:VnTF \l_braun_title_align_tl {r}
-				{ % frist logo on the right
-					\braun_set_logo_coffin:N \l_braun_title_logo_l_coffin
-					\braun_set_logo_coffin:N \l_braun_title_logo_r_coffin
-				}
-				{ % frist logo on the left
-					\braun_set_logo_coffin:N \l_braun_title_logo_r_coffin
-					\braun_set_logo_coffin:N \l_braun_title_logo_l_coffin
-				}		
-			% Main title coffin
-			\vcoffin_set:Nnn \l_braun_title_coffin
-				{ \textwidth }
-				{
-					\str_case:Vn \l_braun_title_align_tl
-						{
-							{ c } { \centering 	 }
-							{ l } { \raggedright }
-							{ r } { \raggedleft  }
-						}
-					%% Print title elements specified by \l_braun_title_print_clist
-					\clist_map_inline:Nn \l_braun_title_print_clist 
-						{ \use:c { braun_maketitle_print_##1 } }
-				}
-			% Join coffins
-			\coffin_join:NnnNnnnn \l_braun_title_coffin {vc} {r}	
-				\l_braun_title_logo_r_coffin {vc} {r} {0pt} {0pt}
-			\coffin_join:NnnNnnnn \l_braun_title_coffin {vc} {l}	
-				\l_braun_title_logo_l_coffin {vc} {l} {0pt} {0pt}
-			% Print title
+  {
+    \group_begin:
+    \bool_set_true:N \l_braun_if_maketitle_bool
+    \BraunNoWarning
+    % \dim_zero:N  \parindent
+    \dim_gzero:N \@topnum % Prevents figures from going at top of page.
+    % Set keys
+    \IfNoValueF {#1} { \keys_set:nn { braun/maketitle } {#1} }
+    % Logo coffins
+    \str_if_eq:VnTF \l_braun_title_align_tl {r}
+      { % frist logo on the right
+        \braun_set_logo_coffin:N \l_braun_title_logo_l_coffin
+        \braun_set_logo_coffin:N \l_braun_title_logo_r_coffin
+      }
+      { % frist logo on the left
+        \braun_set_logo_coffin:N \l_braun_title_logo_r_coffin
+        \braun_set_logo_coffin:N \l_braun_title_logo_l_coffin
+      }		
+    % Main title coffin
+    \vcoffin_set:Nnn \l_braun_title_coffin
+      { \textwidth }
+      {
+        \str_case:Vn \l_braun_title_align_tl
+          {
+            { c } { \centering 	 }
+            { l } { \raggedright }
+            { r } { \raggedleft  }
+          }
+        %% Print title elements specified by \l_braun_title_print_clist
+        \clist_map_inline:Nn \l_braun_title_print_clist 
+          { \use:c { braun_maketitle_print_##1 } }
+      }
+    % Join coffins
+    \coffin_join:NnnNnnnn \l_braun_title_coffin {vc} {r}	
+      \l_braun_title_logo_r_coffin {vc} {r} {0pt} {0pt}
+    \coffin_join:NnnNnnnn \l_braun_title_coffin {vc} {l}	
+      \l_braun_title_logo_l_coffin {vc} {l} {0pt} {0pt}
+    % Print title
 
-            \thispagestyle { plain.scrheadings }
+    \thispagestyle { plain.scrheadings }
 
-			\BraunSingleColumn
-				{
-                    \skip_vertical:n { -\headheight - 1em }
-					\tl_use:N        \l_braun_title_pre_text_tl
-					\bool_if:NT      \l_braun_title_toprule_bool { \BraunHRule }
-					\skip_vertical:V \l_braun_title_before_skip
+    \BraunSingleColumn
+      {
+                  \skip_vertical:n { -\headheight - 1em }
+        \tl_use:N        \l_braun_title_pre_text_tl
+        \bool_if:NT      \l_braun_title_toprule_bool { \BraunHRule }
+        \skip_vertical:V \l_braun_title_before_skip
 
-					\coffin_typeset:Nnnnn \l_braun_title_coffin {l} {vc} {0pt} {0pt}
+        \coffin_typeset:Nnnnn \l_braun_title_coffin {l} {vc} {0pt} {0pt}
 
-					\skip_vertical:V \l_braun_title_after_skip
-					\bool_if:NT      \l_braun_title_botrule_bool { \BraunHRule }
-					\tl_use:N        \l_braun_title_post_text_tl
+        \skip_vertical:V \l_braun_title_after_skip
+        \bool_if:NT      \l_braun_title_botrule_bool { \BraunHRule }
+        \tl_use:N        \l_braun_title_post_text_tl
 
-					\skip_vertical:n { 3em }
-				}
-			\bool_if:NT \l_braun_title_contact_input_bool
-				{ \BraunThanks { \PrintContact } }
-        \group_end:
-    }
+        \skip_vertical:n { 3em }
+      }
+    \bool_if:NT \l_braun_title_contact_input_bool
+      { \BraunThanks { \PrintContact } }
+    \group_end:
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1025,49 +1029,49 @@
 \newlist { answers } { enumerate }{ 2 }
 
 \setlist [ answers, 1 ]
-    { 
-        label = { \usekomafont {disposition} \footnotesize { \arabic* }. } 
-    }
+  { 
+    label = { \usekomafont {disposition} \footnotesize { \arabic* }. } 
+  }
 
 \setlist [ answers, 2 ]
-    { 
-        label = { \alph*. } 
-    }
+  { 
+    label = { \alph*. } 
+  }
 
 \NewTasksEnvironment
-    [
-        label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
-        label-align = right,
-        item-indent = 2.5em,
-        label-width = 1.5em,
-        label-offset = 0.7em,
-        before-skip = 1em,
-    ]
-    { mcanswers } [ \answer ]
+  [
+    label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
+    label-align = right,
+    item-indent = 2.5em,
+    label-width = 1.5em,
+    label-offset = 0.7em,
+    before-skip = 1em,
+  ]
+  { mcanswers } [ \answer ]
 
 %% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
 
 \NewTasksEnvironment
-    [
-        label  = { \choicebox { \Alph* } },
-        item-indent = 3em,
-        after-item-skip = 2\itemsep,
-        label-width = 1.2em,
-        label-align = right,
-        label-offset = 1em,
-    ] 
-    { choices } [\item ]
+  [
+    label  = { \choicebox { \Alph* } },
+    item-indent = 3em,
+    after-item-skip = 2\itemsep,
+    label-width = 1.2em,
+    label-align = right,
+    label-offset = 1em,
+  ] 
+  { choices } [\item ]
 
 %% DADOS ADICIONAIS NO FINAL DO ENUNCIADO
 
 \NewTasksEnvironment
-    [
-        label  = \textbullet,
-        item-indent = 1em,
-        label-width = 1ex,
-        % label-offset = 0.5ex,
-    ] 
-    { datalist } [\item ]
+  [
+    label  = \textbullet,
+    item-indent = 1em,
+    label-width = 1ex,
+    % label-offset = 0.5ex,
+  ] 
+  { datalist } [\item ]
 
 %============================================================%
 %   ALTERNATIVAS
@@ -1093,62 +1097,63 @@
 % #4 -> alternativa D
 % #5 -> alternativa E
 \cs_set:Npn \autochoices #1#2#3#4#5
-    {
-        \group_begin:
+  {
+    \group_begin:
 
-        \hbox_set:Nn \l_braun_choices_a_box {#1}
-        \hbox_set:Nn \l_braun_choices_b_box {#2}
-        \hbox_set:Nn \l_braun_choices_c_box {#3}
-        \hbox_set:Nn \l_braun_choices_d_box {#4}
-        \hbox_set:Nn \l_braun_choices_e_box {#5}
+    \hbox_set:Nn \l_braun_choices_a_box {#1}
+    \hbox_set:Nn \l_braun_choices_b_box {#2}
+    \hbox_set:Nn \l_braun_choices_c_box {#3}
+    \hbox_set:Nn \l_braun_choices_d_box {#4}
+    \hbox_set:Nn \l_braun_choices_e_box {#5}
 
-        \fp_set:Nn \l_braun_choices_a_fp
-            { \dim_to_decimal:n { \box_wd:N \l_braun_choices_a_box } }
-        \fp_set:Nn \l_braun_choices_b_fp
-            { \dim_to_decimal:n { \box_wd:N \l_braun_choices_b_box } }
-        \fp_set:Nn \l_braun_choices_c_fp
-            { \dim_to_decimal:n { \box_wd:N \l_braun_choices_c_box } }
-        \fp_set:Nn \l_braun_choices_d_fp
-            { \dim_to_decimal:n { \box_wd:N \l_braun_choices_d_box } }
-        \fp_set:Nn \l_braun_choices_e_fp
-            { \dim_to_decimal:n { \box_wd:N \l_braun_choices_e_box } }
+    \fp_set:Nn \l_braun_choices_a_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_a_box } }
+    \fp_set:Nn \l_braun_choices_b_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_b_box } }
+    \fp_set:Nn \l_braun_choices_c_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_c_box } }
+    \fp_set:Nn \l_braun_choices_d_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_d_box } }
+    \fp_set:Nn \l_braun_choices_e_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_e_box } }
 
-        \fp_set:Nn \l_tmpa_fp 
-            { % alternativa de maior tamanho
-                max(
-                    \l_braun_choices_a_fp,
-                    \l_braun_choices_b_fp,
-                    \l_braun_choices_c_fp,
-                    \l_braun_choices_d_fp,
-                    \l_braun_choices_e_fp
-                )
-            }
-        \fp_set:Nn \l_tmpb_fp 
-            { % tamanho útil
-                0.7 * \dim_to_decimal:n {\columnwidth}
-            }
+    \fp_set:Nn \l_tmpa_fp % alternativa de maior tamanho
+      { 
+        max(
+            \l_braun_choices_a_fp,
+            \l_braun_choices_b_fp,
+            \l_braun_choices_c_fp,
+            \l_braun_choices_d_fp,
+            \l_braun_choices_e_fp
+        )
+      }
 
-        \int_set:Nn \l_tmpa_int 
-            { % número de colunas
-                \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
-            }
+    \fp_set:Nn \l_tmpb_fp % tamanho útil
+      { 
+        0.7 * \dim_to_decimal:n {\columnwidth}
+      }
 
-        \int_compare:nNnT { \l_tmpa_int } = {4}
-            {
-                \int_set:Nn \l_tmpa_int {3}
-            }
+    \int_set:Nn \l_tmpa_int % número de colunas
+      { 
+        \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
+      }
 
-        \smallskip
-        \begin{choices}(\l_tmpa_int)
-            \item #1
-            \item #2
-            \item #3
-            \item #4
-            \item #5
-        \end{choices}
+    \int_compare:nNnT { \l_tmpa_int } = {4}
+      {
+        \int_set:Nn \l_tmpa_int {3}
+      }
 
-        \group_end:
-    }
+    \smallskip
+    \begin{choices}(\l_tmpa_int)
+      \item #1
+      \item #2
+      \item #3
+      \item #4
+      \item #5
+    \end{choices}
+
+    \group_end:
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1172,61 +1177,61 @@
 
 \keys_define:nn { braun/graphics }
 	{
-        float-position .code:n = { \def \fps@figure {#1} },
-        float-position .initial:n = {tbh},
+    float-position .code:n = { \def \fps@figure {#1} },
+    float-position .initial:n = {tbh},
 
-        width .dim_set:N = \l_braun_graphics_width_dim,
+    width .dim_set:N = \l_braun_graphics_width_dim,
 		width .initial:n = 5cm,
 
 		height .dim_set:N = \l_braun_graphics_height_dim,
 		height .initial:n = 4cm,
 
-        path .tl_set:N = \g_braun_graphics_path_tl,
-        path .initial:n = {},
+    path .tl_set:N = \g_braun_graphics_path_tl,
+    path .initial:n = {},
 	}
 
 \cs_set:Npn \path #1 
-    { 
-        \seq_put_right:Nn \l_file_search_path_seq {#1} 
-        \tl_set:Nn \g_braun_graphics_path_tl {#1}
-    }
+  { 
+    \seq_put_right:Nn \l_file_search_path_seq {#1} 
+    \tl_set:Nn \g_braun_graphics_path_tl {#1}
+  }
 
 % #1 -> coffin
 % #2 -> content
 \cs_set:Nn \braun_graphics_box:Nn
-{ 
+  { 
     \hcoffin_set:Nn #1
-        {
-            \group_begin:
-                \hbox_set:Nn \l_tmpa_box {#2}
-                \box_autosize_to_wd_and_ht:NVV \l_tmpa_box 
-                    \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
-                \box_use_drop:N \l_tmpa_box
-            \group_end:
-        }   
-}
+      {
+        \group_begin:
+        \hbox_set:Nn \l_tmpa_box {#2}
+        \box_autosize_to_wd_and_ht:NVV \l_tmpa_box 
+            \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
+        \box_use_drop:N \l_tmpa_box
+        \group_end:
+      }   
+  }
 
 % #1 -> coffin
 % #2 -> figure path
 \cs_set:Nn \braun_include_graphics:Nn
-    { 
-        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
-            { 
-                \braun_graphics_box:Nn #1 
-                    { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
-            }
-    }
+  { 
+    \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
+      { 
+        \braun_graphics_box:Nn #1 
+          { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
+      }
+  }
 
 % #1 -> coffin
 % #2 -> svg path
 \cs_set:Nn \braun_include_svg:Nn
-    { 
-        \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
-            { 
-                \braun_graphics_box:Nn #1 
-                    { \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 } } 
-            }
-    }
+  { 
+    \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
+      { 
+        \braun_graphics_box:Nn #1 
+          { \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 } } 
+      }
+  }
 
 \tl_new:N \l_tmpc_tl
 
@@ -1235,44 +1240,44 @@
 % #1 -> keys: braun/graphics
 % #2 -> figure path
 \DeclareDocumentCommand \includegraphics { o m }
-    { 
-        \group_begin:
-        \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
-        \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
-        \str_case:VnF \l_tmpc_tl
-            {
-                { .svg }
-                { 
-                    \file_if_exist_input:nF 
-                        { \g_braun_graphics_path_tl \l_tmpa_tl / \l_tmpb_tl .tex }
-                        { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
-                }      
-            }
-            {
-                \braun_include_graphics:Nn \l_tmpa_coffin {#2}
-            }
+  { 
+    \group_begin:
+    \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
+    \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
+    \str_case:VnF \l_tmpc_tl
+      {
+        { .svg }
+        { 
+          \file_if_exist_input:nF 
+            { \g_braun_graphics_path_tl \l_tmpa_tl / \l_tmpb_tl .tex }
+            { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
+        }      
+      }
+      {
+        \braun_include_graphics:Nn \l_tmpa_coffin {#2}
+      }
 
-        \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {vc} {0pt} {0pt}
-        \group_end:
-    }
+    \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {vc} {0pt} {0pt}
+    \group_end:
+  }
 
 %============================================================%
 %   FIGURAS
 %============================================================%
 
 \NewDocumentEnvironment { simplefigure } {}
-    {
-        \group_begin:
-        \cs_set:Npn \caption ##1 {\relax}
+  {
+    \group_begin:
+    \cs_set:Npn \caption ##1 {\relax}
 
-        \pgfplotsset { scale = 0.8 }
+    \pgfplotsset { scale = 0.8 }
 
-        \begin{center}
-    }
-    {
-        \end{center}
-        \group_end:
-    }
+    \begin{center}
+  }
+  {
+    \end{center}
+    \group_end:
+  }
 
 %============================================================%
 %   INCLUSÃO DE CONTEÚDO TABELADO
@@ -1280,8 +1285,8 @@
 
 \keys_define:nn { braun/tables }
 	{
-        float-position .code:n = { \def \fps@table {#1} },
-        float-position .initial:n = {tb},
+    float-position .code:n = { \def \fps@table {#1} },
+    float-position .initial:n = {tb},
 	}
 
 
@@ -1294,20 +1299,20 @@
 
 \NewDocumentEnvironment { longtable } { O{} m }
 	{
-        \group_begin:
+    \group_begin:
 
-        \tl_set:Nn \arraystretch {1.25}
-        \cs_set_eq:NN \toprule \relax
+    \tl_set:Nn \arraystretch {1.25}
+    \cs_set_eq:NN \toprule \relax
 
-        \arrayrulecolor { black!50 }
+    \arrayrulecolor { black!50 }
 
-        \begin{center}    
+    \begin{center}    
 		\begin{tabular} [#1] {#2} 
 		
 	}
 	{
 		\end{tabular}
-        \end{center}
+    \end{center}
 
 		\group_end:
 	}
@@ -1321,25 +1326,25 @@
 \captionsetup [ figure ] { font = {small, sf} }
 
 \keys_define:nn { braun/caption }
-    {
-        font .code:n = \captionsetup { font = { #1 } },
-        font .initial:n = {sf},
+  {
+    font .code:n = \captionsetup { font = { #1 } },
+    font .initial:n = {sf},
 
-        labelformat .code:n = \captionsetup { labelformat = { #1 } },
+    labelformat .code:n = \captionsetup { labelformat = { #1 } },
 
-        labelfont .code:n = \captionsetup { labelfont = { #1 } },
-        labelfont .initial:n = {bf},
+    labelfont .code:n = \captionsetup { labelfont = { #1 } },
+    labelfont .initial:n = {bf},
 
-        labelsep .tl_set:N = \captionformat,
-        labelsep .initial:n = \quad,
+    labelsep .tl_set:N = \captionformat,
+    labelsep .initial:n = \quad,
 
-        unknown .code:n  = \exp_args:NV \captionsetup \l_keys_key_tl {#1}
-    }
+    unknown .code:n  = \exp_args:NV \captionsetup \l_keys_key_tl {#1}
+  }
 
 \DeclareCaptionLabelFormat { caps }
-    {
-        \text_uppercase:n {#1} ~ #2
-    }
+  {
+    \text_uppercase:n {#1} ~ #2
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1358,98 +1363,93 @@
 %============================================================%
 
 \keys_define:nn { braun/colortable }
-    {
-        caption-color .code:n = 
-            \colorlet { colortable_caption_color } { #1 },
-        caption-color .initial:n = blue!70!black,
+  {
+    caption-color .code:n = \colorlet { colortable_caption_color } { #1 },
+    caption-color .initial:n = blue!70!black,
 
-        caption-label-color .code:n = 
-            \colorlet { colortable_label_color } { #1 },
-        caption-label-color .initial:n = red!80!black,
+    caption-label-color .code:n = \colorlet { colortable_label_color } { #1 },
+    caption-label-color .initial:n = red!80!black,
 
-        frame-color .code:n = 
-            \colorlet { colortable_frame_color } { #1 },
-        frame-color .initial:n = orange,
+    frame-color .code:n = \colorlet { colortable_frame_color } { #1 },
+    frame-color .initial:n = orange,
 
-        background-color .code:n = 
-            \colorlet { colortable_background_color } { #1 },
-        background-color .initial:n = yellow!7.5,
-    }
+    background-color .code:n = \colorlet { colortable_background_color } { #1 },
+    background-color .initial:n = yellow!7.5,
+  }
 
 \NewDocumentEnvironment { colortable } { O{} m +b }
-    {
-        \group_begin:
+  {
+    \group_begin:
 
-        \tl_set:Nn \arraystretch {1.5}
+    \tl_set:Nn \arraystretch {1.5}
 
-        \captionsetup
-            {
-                font = { sf, bf },
-                labelformat = caps,
-                labelfont = { color = colortable_label_color },
-                textfont  = { color = colortable_caption_color },
-            }
+    \captionsetup
+      {
+        font = { sf, bf },
+        labelformat = caps,
+        labelfont = { color = colortable_label_color },
+        textfont  = { color = colortable_caption_color },
+      }
 
-        \begin{table}
-        \centering
-        \tcbox
-            [
-                left = 0pt,
-                right = 0pt,
-                boxsep = 0pt,
-                top = 2pt,
-                bottom = -3ex,
-                toptitle = -0.8ex,
-                bottomtitle = 1ex,
-                lefttitle = 1ex,
-                righttitle = 1ex,
-                title =
-                    { 
-                        \captionof { table } 
-                            { 
-                                \raggedright
-                                \l_tmpa_tl 
-                            } 
-                    },
-                colframe = colortable_frame_color,
-                colback = white,
-                colbacktitle = colortable_background_color,
-                sharp~ corners = downhill,
-                grow~ to~ left~ by = 1ex,
-                arc = 1ex,
-            ]
-            {
-                \cs_set_eq:NN \toprule    \relax
-                \cs_set_eq:NN \bottomrule \relax
+    \begin{table}
+    \centering
+    \tcbox
+      [
+        left = 0pt,
+        right = 0pt,
+        boxsep = 0pt,
+        top = 2pt,
+        bottom = -3ex,
+        toptitle = -0.8ex,
+        bottomtitle = 1ex,
+        lefttitle = 1ex,
+        righttitle = 1ex,
+        title =
+          { 
+            \captionof { table } 
+              { 
+                \raggedright
+                \l_tmpa_tl 
+              } 
+          },
+        colframe = colortable_frame_color,
+        colback = white,
+        colbacktitle = colortable_background_color,
+        sharp~ corners = downhill,
+        grow~ to~ left~ by = 1ex,
+        arc = 1ex,
+      ]
+      {
+        \cs_set_eq:NN \toprule    \relax
+        \cs_set_eq:NN \bottomrule \relax
 
-                % \arrayrulecolor { colortable_frame_color }
+        % \arrayrulecolor { colortable_frame_color }
 
-                \dim_set:Nn \lightrulewidth {1pt}
+        \dim_set:Nn \lightrulewidth {1pt}
 
-                \begin{tabular} [#1] { @{\hspace{1ex}} #2 @{\hspace{1ex}} } 
-                    #3
-                \end{tabular}
-            }
-    } 
-    {
-        \end{table}
-        \group_end:
+        \begin{tabular} [#1] { @{\hspace{1ex}} #2 @{\hspace{1ex}} } 
+          #3
+        \end{tabular}
+      }
+  } 
+  {
+    \end{table}
+    \group_end:
 
-        \arrayrulecolor { black }
-    }
+    \arrayrulecolor { black }
+  }
 
 \NewDocumentEnvironment { displaytable } {}
 	{
-        \group_begin:
+    \group_begin:
 
-        \cs_set:Npn \paragraph ##1
-            { \tl_set:Nn \l_tmpa_tl {##1} }
+    \cs_set:Npn \paragraph ##1 { \tl_set:Nn \l_tmpa_tl {##1} }
 
-        \cs_set_eq:NN \longtable \colortable
-        \cs_set_eq:NN \endlongtable \endcolortable
+    \cs_set_eq:NN \longtable \colortable
+    \cs_set_eq:NN \endlongtable \endcolortable
 	}
 	{
-        \group_end:
+    \group_end:
 	}
 
 %============================================================%
@@ -1457,202 +1457,200 @@
 %============================================================%
 
 \keys_define:nn { braun/examples }
-    {
-        color .code:n = 
-            \colorlet { example_color } { #1 },
-        color .initial:n = purple!60!black,
+  {
+    color .code:n = \colorlet { example_color } { #1 },
+    color .initial:n = purple!60!black,
 
-        background-color .code:n = 
-            \colorlet { example_background_color } { #1 },
-        background-color .initial:n = blue!7.5,
-    }
+    background-color .code:n = \colorlet { example_background_color } { #1 },
+    background-color .initial:n = blue!7.5,
+  }
 
 \newfloat  { floatexample } { thp } { loe }
 \captionsetup [ floatexample ] { name = Exemplo }
 
 \cs_set:Npn \ExampleHeader #1
-    {
-        \group_begin:
+  {
+    \group_begin:
 
-        \captionsetup
-            {
-                labelformat = caps,
-                font = { color = example_color, sf },
-                labelfont = bf,
-            }
+    \captionsetup
+      {
+          labelformat = caps,
+          font = { color = example_color, sf },
+          labelfont = bf,
+      }
 
-        \captionof { floatexample } 
-            {
-                \raggedright
-                #1
-            }  
+    \captionof { floatexample } 
+      {
+          \raggedright
+          #1
+      }
 
-        \skip_vertical:n {-1em}
- 
-        \group_end:  
-    }
+    \skip_vertical:n {-1em}
+
+    \group_end:  
+  }
 
 \newcounter { step } [ floatexample ]
 
 \cs_set:Npn \ExampleSubHeader #1
-    {
-        \refstepcounter { step }
+  {
+    \refstepcounter { step }
 
-        \tcbsubtitle
-            [
-                top = 0.5ex,
-                bottom = 0.5ex,
-                enhanced, 
-                frame~ hidden,
-            ]
-            {    
-                {
-                    \strut 
-                    \bfseries
-                    \color { example_color } 
-                    \small
-                    \sffamily 
-                    Etapa~ \arabic{ step }. 
-                }
-                \; #1
-            }
-    }
+    \tcbsubtitle
+      [
+        top = 0.5ex,
+        bottom = 0.5ex,
+        enhanced, 
+        frame~ hidden,
+      ]
+      {    
+        {
+          \strut 
+          \bfseries
+          \color { example_color } 
+          \small
+          \sffamily 
+          Etapa~ \arabic{ step }. 
+        }
+        \; #1
+      }
+  }
 
 \NewDocumentEnvironment { example } { }
-    {
-        \group_begin:
+  {
+    \group_begin:
 
-        \cs_set_eq:NN \subsubsection \ExampleHeader
-        \cs_set_eq:NN \paragraph \ExampleSubHeader
+    \cs_set_eq:NN \subsubsection \ExampleHeader
+    \cs_set_eq:NN \paragraph \ExampleSubHeader
 
-        \cs_set_eq:NN \figure \simplefigure
-        \cs_set_eq:NN \endfigure \endsimplefigure
+    \cs_set_eq:NN \figure \simplefigure
+    \cs_set_eq:NN \endfigure \endsimplefigure
 
-        \medskip
+    \medskip
 
-        \begin{tcolorbox}
-            [
-                breakable,
-                parbox = false,
-                colback = white,
-                coltitle = black,
-                colbacktitle = example_background_color,
-                colframe = example_color,
-                left = 1ex,
-                right = 1ex,
-                top = 1ex,
-                bottom = 1ex,
-                sharp~ corners = downhill,
-                arc = 1ex,
-            ]
+    \begin{tcolorbox}
+      [
+        breakable,
+        parbox = false,
+        colback = white,
+        coltitle = black,
+        colbacktitle = example_background_color,
+        colframe = example_color,
+        left = 1ex,
+        right = 1ex,
+        top = 1ex,
+        bottom = 1ex,
+        sharp~ corners = downhill,
+        arc = 1ex,
+      ]
 
-        \dim_zero:N \parindent
-        \dim_set_eq:NN \parskip \medskipamount
-    } 
-    {
-        \end{tcolorbox}
+    \dim_zero:N \parindent
+    \dim_set_eq:NN \parskip \medskipamount
+  } 
+  {
+    \end{tcolorbox}
 
-        \medskip
+    \medskip
 
-        \group_end:
-    }
+    \group_end:
+  }
 
 %============================================================%
 %   PONTO PARA PENSAR
 %============================================================%
 
 \cs_set:Npn \ThinkHeader #1
-    {
-        \tcbsubtitle
-            { 
-                \usekomafont { disposition }
-                \small
-                \text_uppercase:n {#1}
-            }
-    }
+  {
+    \tcbsubtitle
+      { 
+        \usekomafont { disposition }
+        \small
+        \text_uppercase:n {#1}
+      }
+  }
 
 \NewDocumentEnvironment { think } { }
-    {
-        \cs_set_eq:NN \subsubsection \ThinkHeader
+  {
+    \cs_set_eq:NN \subsubsection \ThinkHeader
 
-        \smallskip
-        \begin{addmargin}{\parindent}
-        \begin{tcolorbox}
-            [
-                hbox~ boxed~ title,
-                frame~ hidden,
-                sharp~ corners,
-                top = -1pt,
-                colback = white,
-                coltitle = black,
-                colbacktitle = white,
-                fonttitle = \sffamily\bfseries,
-                left = 0pt,
-                right = 0pt,
-                toptitle = 2pt,
-                bottomtitle = 2pt,
-                colframe = gray-500,
-            ]
-    } 
-    {
-        \end{tcolorbox}
-        \end{addmargin}
-        \smallskip
-    }
+    \smallskip
+    \begin{addmargin}{\parindent}
+    \begin{tcolorbox}
+      [
+        hbox~ boxed~ title,
+        frame~ hidden,
+        sharp~ corners,
+        top = -1pt,
+        colback = white,
+        coltitle = black,
+        colbacktitle = white,
+        fonttitle = \sffamily\bfseries,
+        left = 0pt,
+        right = 0pt,
+        toptitle = 2pt,
+        bottomtitle = 2pt,
+        colframe = gray-500,
+      ]
+  } 
+  {
+    \end{tcolorbox}
+    \end{addmargin}
+    \smallskip
+  }
 
 %============================================================%
 %   INFO E ATENÇÃO
 %============================================================%
 
 \keys_define:nn { braun/boxes/indentedsection }
-    {
-        title .tl_set:N = \l_braun_boxes_indentedsection_title_tl,
-        title .initial:n = Atenção,
+  {
+    title .tl_set:N = \l_braun_boxes_indentedsection_title_tl,
+    title .initial:n = Atenção,
 
-        color .tl_set:N = \l_braun_boxes_indentedsection_color_tl,
-        color .initial:n = gray-400,
-    }
+    color .tl_set:N = \l_braun_boxes_indentedsection_color_tl,
+    color .initial:n = gray-400,
+  }
 
 \cs_set:Npn \gobblepars
-    { % evita um novo parágrafo logo após o título.
-        \@ifnextchar \par
-            {
-                \expandafter\gobblepars\@gobble
-            }{}
-    }
+  { % evita um novo parágrafo logo após o título.
+    \@ifnextchar \par
+      {
+          \expandafter\gobblepars\@gobble
+      }{}
+  }
 
 % #1 -> color
 \NewDocumentEnvironment { indentedsection } { o }
-    {
+  {
+    \group_begin:
+
+    \IfValueT {#1} 
+      { \keys_set:nn { braun/boxes/indentedsection } {#1} }
+
+    \cs_set:Npn \subsubsection ##1
+      {
         \group_begin:
-
-        \IfValueT {#1} 
-            { \keys_set:nn { braun/boxes/indentedsection } {#1} }
-
-        \cs_set:Npn \subsubsection ##1
-            {
-                \group_begin:
-                \skip_horizontal:n { -\parindent }
-                \color { \l_braun_boxes_indentedsection_color_tl }
-                \sffamily
-                \bfseries
-                \text_uppercase:n {##1}
-                \skip_horizontal:N \labelsep
-                \group_end:
-                \gobblepars
-            }
-        
-        \cs_set_eq:NN \paragraph \relax % paragrafo gera erro dentro do addmargin
-
-        \medskip
-        \begin{addmargin} [ \parindent ] { \c_zero_dim }
-    } 
-    {
-        \end{addmargin}
-        \medskip
-
+        \skip_horizontal:n { -\parindent }
+        \color { \l_braun_boxes_indentedsection_color_tl }
+        \sffamily
+        \bfseries
+        \text_uppercase:n {##1}
+        \skip_horizontal:N \labelsep
         \group_end:
-    }
+        \gobblepars
+      }
+    
+    \cs_set_eq:NN \paragraph \relax % paragrafo gera erro dentro do addmargin
+
+    \medskip
+    \begin{addmargin} [ \parindent ] { \c_zero_dim }
+  } 
+  {
+    \end{addmargin}
+    \medskip
+
+    \group_end:
+  }
 
 \cs_set:Npn \gobblepars
     {
@@ -1663,89 +1661,88 @@
     }
 
 \NewDocumentEnvironment { info } {}
-    {
-        \begin{indentedsection}[ color = cyan!60!black ]
-    } 
-    {
-        \end{indentedsection}
-    }
+  {
+    \begin{indentedsection}[ color = cyan!60!black ]
+  } 
+  {
+    \end{indentedsection}
+  }
 
 \NewDocumentEnvironment { warning } {}
-    {
-        \begin{indentedsection}[ color = red ]
-    } 
-    {
-        \end{indentedsection}
-    }
+  {
+    \begin{indentedsection}[ color = red ]
+  } 
+  {
+    \end{indentedsection}
+  }
 
 %============================================================%
-%   PROVA (COMO ISSO É FEITO?)
+%   PROVA ("COMO ISSO É FEITO?")
 %============================================================%
 
 \cs_set:Npn \DerivationHeader #1
-    {
-        \tcbsubtitle
-            [
-                enhanced,
-                frame~ hidden,
-                coltext = black,
-                colback = yellow!7.5,
-            ]
-            {
-
-                \usekomafont { disposition }
-                \text_uppercase:n {#1}
-            }
-    }
+  {
+    \tcbsubtitle
+      [
+        enhanced,
+        frame~ hidden,
+        coltext = black,
+        colback = yellow!7.5,
+      ]
+      {
+        \usekomafont { disposition }
+        \text_uppercase:n {#1}
+      }
+  }
 
 
 \NewDocumentEnvironment { derivation } { }
-    {
-        \group_begin:
+  {
+    \group_begin:
 
-        \cs_set_eq:NN \subsubsection \DerivationHeader
+    \cs_set_eq:NN \subsubsection \DerivationHeader
 
-        \cs_set_eq:NN \figure \simplefigure
-        \cs_set_eq:NN \endfigure \endsimplefigure
+    \cs_set_eq:NN \figure \simplefigure
+    \cs_set_eq:NN \endfigure \endsimplefigure
 
-        \bigskip
+    \bigskip
 
-        \begin{tcolorbox}
-            [
-                breakable,
-                sharp~ corners,
-                frame~ hidden,
-                colback = yellow!7.5,
-                left = 1ex,
-                right = 1ex,
-                borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
-                borderline~ horizontal = {1.5pt}{0pt}{orange},
-            ]
-    } 
-    {
-        \end{tcolorbox}
+    \begin{tcolorbox}
+      [
+        breakable,
+        sharp~ corners,
+        frame~ hidden,
+        colback = yellow!7.5,
+        left = 1ex,
+        right = 1ex,
+        borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
+        borderline~ horizontal = {1.5pt}{0pt}{orange},
+      ]
+  } 
+  {
+    \end{tcolorbox}
 
-        \bigskip
+    \bigskip
 
-        \group_end:
-    }
+    \group_end:
+  }
 
 %============================================================%
 %   RESUMO NO FINAL DA SEÇÃO
 %============================================================%
 
 \RenewDocumentEnvironment { quote } {}
-    {
-        \medskip
-        \begin{addmargin} [ \parindent ] { \parindent }
-        \small
-        \bfseries
-        \itshape
-    } 
-    {
-        \end{addmargin}
-        \medskip
-    }
+  {
+    \medskip
+    \begin{addmargin} [ \parindent ] { \parindent }
+    \small
+    \bfseries
+    \itshape
+  } 
+  {
+    \end{addmargin}
+    \medskip
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1754,16 +1751,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \keys_define:nn { braun/problems }
-    {
-        id .tl_set:N = \l_braun_problem_id_tl,
-        id .initial:n = ,
+  {
+    id .tl_set:N = \l_braun_problem_id_tl,
+    id .initial:n = ,
 
-        name .tl_set:N = \l_braun_problem_name_tl,
-        name .initial:n = Problema,
+    name .tl_set:N = \l_braun_problem_name_tl,
+    name .initial:n = Problema,
 
-        path .tl_set:N = \g_braun_graphics_path_tl,
-        path .initial:n = ,
-    }
+    path .tl_set:N = \g_braun_graphics_path_tl,
+    path .initial:n = ,
+  }
 
 \newcounter { problem } [ subsection ]
 
@@ -1773,51 +1770,48 @@
 
 % #1 -> set keys: braun/problem
 \NewDocumentEnvironment { problem } { O{} }
+  {
+    \refstepcounter { problem }
+
+    \group_begin:
+
+    \cs_set_eq:NN \figure \simplefigure
+    \cs_set_eq:NN \endfigure \endsimplefigure
+
+    \keys_set:nn { braun/problems } { path = , id = , #1 }
+
+    \subsubsection*{}\skip_vertical:n {-2em}
+
+    % %% HEADER
+    % \BraunHeader
+    %     [ \texttt{ \color{pink} \l_braun_problem_id_tl } ]
+    %     { 
+    %         \footnotesize\sffamily\bfseries
+    %         \text_uppercase:n { \l_braun_problem_name_tl } ~
+    %         \arabic { section } . \arabic { problem }
+    %     }
     {
-        \refstepcounter { problem }
-
-        \group_begin:
-
-        \cs_set_eq:NN \figure \simplefigure
-        \cs_set_eq:NN \endfigure \endsimplefigure
-
-        \keys_set:nn { braun/problems } { path = , id = , #1 }
-
-        \subsubsection*{}\skip_vertical:n {-2em}
-
-        % %% HEADER
-        % \BraunHeader
-        %     [ \texttt{ \color{pink} \l_braun_problem_id_tl } ]
-        %     { 
-        %         \footnotesize\sffamily\bfseries
-        %         \text_uppercase:n { \l_braun_problem_name_tl } ~
-        %         \arabic { section } . \arabic { problem }
-        %     }
-        {
-            \usekomafont{ disposition }
-            \text_uppercase:n { \l_braun_problem_name_tl } ~
-            \arabic { subsection } . \arabic { problem }
-            
-            
-            
-        }
-        \hfill
-        {
-            \small
-            \texttt{ \color{purple} \tl_use:N \l_braun_problem_id_tl  }
-            \skip_horizontal:n {1ex}
-        }
-        % \\[-1ex]
-        % {\color{black!50} \rule{\linewidth}{0.4pt}}
-        \\[1ex]
-
-        \dim_zero:N \parindent
-        \dim_set_eq:NN \parskip \medskipamount        
-    } 
-    {
-        \group_end:
-        \smallskip
+      \usekomafont{ disposition }
+      \text_uppercase:n { \l_braun_problem_name_tl } ~
+      \arabic { subsection } . \arabic { problem }    
     }
+    \hfill
+    {
+      \small
+      \texttt{ \color{purple} \tl_use:N \l_braun_problem_id_tl  }
+      \skip_horizontal:n {1ex}
+    }
+    % \\[-1ex]
+    % {\color{black!50} \rule{\linewidth}{0.4pt}}
+    \\[1ex]
+
+    \dim_zero:N \parindent
+    \dim_set_eq:NN \parskip \medskipamount        
+  } 
+  {
+    \group_end:
+    \smallskip
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1826,61 +1820,61 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \cs_set:Npn \DeclareBraunTemplate #1 #2
-    { \keys_define:nn { braun } { #1 .meta:n = { #2 } } }
+  { \keys_define:nn { braun } { #1 .meta:n = { #2 } } }
 
 %============================================================%
 %   BRAUN
 %============================================================%
 
 \DeclareBraunTemplate { braun }
-    {
-        DIV = 27,
+  {
+    DIV = 27,
 
-        font = paratype,
-        fontsize = 9pt,
-        emph = \itshape,
+    font = paratype,
+    fontsize = 9pt,
+    emph = \itshape,
 
-        % Cabeçalhos
-        headinclude = true,
-        page / headfoot-font = \sffamily,
-        page / header / sepline = true,
-        page / header / inner = { \textbf{\PrintTitle} \; | \; \PrintAuthor ,~ \PrintDate },
-        page / header / center = {},
-        page / header / outer = \textbf{\thepage},
+    % Cabeçalhos
+    headinclude = true,
+    page / headfoot-font = \sffamily,
+    page / header / sepline = true,
+    page / header / inner = { \textbf{\PrintTitle} \; | \; \PrintAuthor ,~ \PrintDate },
+    page / header / center = {},
+    page / header / outer = \textbf{\thepage},
 
-        % Rodapé
-        footinclude = false,
-        page / footer / inner = {},
-        page / footer / center = {},
-        page / footer / outer = {},
+    % Rodapé
+    footinclude = false,
+    page / footer / inner = {},
+    page / footer / center = {},
+    page / footer / outer = {},
 
-        % Rodapé da página de título
-        page / footer / title-center = {},
+    % Rodapé da página de título
+    page / footer / title-center = {},
 
-        % Divisão das colunas (twocolumn)
-        page / mcrule / fancy,
+    % Divisão das colunas (twocolumn)
+    page / mcrule / fancy,
 
-        % Título
-        maketitle / align = l,
-        maketitle / print = { title, subtitle, author, affiliation },
-        maketitle / toprule = true,
-        maketitle / botrule = true,
-        maketitle / title / font = \Huge\bfseries ,
-        maketitle / subtitle / font = \Large\bfseries ,
-        maketitle / author / font = \large\bfseries\sffamily ,
-        maketitle / affiliation / font = \sffamily\slshape ,
-        maketitle / date / value = \int_use:N \c_sys_year_int ,
-        maketitle / date / font  = \Large\bfseries ,
-        maketitle / logo / value = pensi,
+    % Título
+    maketitle / align = l,
+    maketitle / print = { title, subtitle, author, affiliation },
+    maketitle / toprule = true,
+    maketitle / botrule = true,
+    maketitle / title / font = \Huge\bfseries ,
+    maketitle / subtitle / font = \Large\bfseries ,
+    maketitle / author / font = \large\bfseries\sffamily ,
+    maketitle / affiliation / font = \sffamily\slshape ,
+    maketitle / date / value = \int_use:N \c_sys_year_int ,
+    maketitle / date / font  = \Large\bfseries ,
+    maketitle / logo / value = pensi,
 
-        % Legendas
-        captions = nooneline,
-        caption / labelfont = { color = blue!70!black, bf },
-        caption / labelformat = caps,
+    % Legendas
+    captions = nooneline,
+    caption / labelfont = { color = blue!70!black, bf },
+    caption / labelformat = caps,
 
-        % Problemas
-        problems / name = Problema,
-    }
+    % Problemas
+    problems / name = Problema,
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1909,16 +1903,16 @@
 \RequirePackage { hyperref }
 
 \hypersetup
-    {
-        pdftitle    = { Braun },
-        pdfauthor   = Gabriel~ Braun,
-        pdfsubject  = Engenharia,
-        pdfkeywords = {Ciência,~ Engenharia},
-        pdfproducer = {Gabriel~ Braun},
-        pdfcreator  = {Gabriel~ Braun},
-        hidelinks,
-        breaklinks  = true,
-    }
+  {
+    pdftitle    = { Braun },
+    pdfauthor   = Gabriel~ Braun,
+    pdfsubject  = Engenharia,
+    pdfkeywords = {Ciência,~ Engenharia},
+    pdfproducer = {Gabriel~ Braun},
+    pdfcreator  = {Gabriel~ Braun},
+    hidelinks,
+    breaklinks  = true,
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
