@@ -3052,14 +3052,20 @@
     {
       "id_": "3D31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D31/3D31.md",
-      "date": "2023-01-20T22:43:22.343538",
+      "date": "2023-01-21T00:48:06.606432",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O ácido clorídrico concentrado contém <span class=\"math inline\">\\(\\pu{37,5}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> em massa e tem densidade de\n<span class=\"math inline\">\\(\\pu{1,2 g.cm-3}\\)</span>. Deseja-se preparar\n<span class=\"math inline\">\\(\\ce{10 L}\\)</span> uma solução <span class=\"math inline\">\\(\\pu{0,74 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>.</p>\n<p><strong>Determine</strong> o volume de ácido clorídrico concentrado\nnecessário para preparar a solução desejada.</p>",
+        "md": "O ácido clorídrico concentrado contém $\\pu{37,5}\\%$ de $\\ce{HCl}$ em\nmassa e tem densidade de $\\pu{1,2 g.cm-3}$. Deseja-se preparar\n$\\ce{10 L}$ uma solução $\\pu{0,74 mol.L-1}$ de $\\ce{HCl}$.\n\n**Determine** o volume de ácido clorídrico concentrado necessário para\npreparar a solução desejada.\n",
+        "tex": "O ácido clorídrico concentrado contém {\\(\\num{37,5}\\%\\)} de {\\(\\ce{HCl}\\)} em massa e tem densidade de {\\(\\qty{1,2}{\\unit{g.cm^{-3}}}\\)}. Deseja-se\npreparar {\\(\\ce{10 L}\\)} uma solução {\\(\\qty{0,74}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)}.\n\n\\textbf{Determine} o volume de ácido clorídrico concentrado necessário para preparar a solução desejada.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{600 mL}\\)</span></p>\n",
+          "md": "$\\pu{600 mL}$",
+          "tex": "\\(\\qty{600}{\\unit{mL}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3067,14 +3073,25 @@
     {
       "id_": "3D30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D30/3D30.md",
-      "date": "2023-01-20T22:43:22.339538",
+      "date": "2023-01-21T00:46:09.416311",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Os adeptos do ramo da medicina alternativa conhecida como homeopatia\nafirmam que soluções muito diluídas de certas substâncias têm efeito\nterapêutico. Para explorar essa questão, suponha que você preparou uma\nsolução supostamente ativa, <span class=\"math inline\">\\(\\ce{X}\\)</span>,\ncom concentração molar de <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span>. Diluia <span class=\"math inline\">\\(\\pu{10\nmL}\\)</span> dessa solução dobrando o volume, dobrando novamente, e\nassim por diante, <span class=\"math inline\">\\(\\pu{90}\\)</span>\nvezes.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> quantas moléculas de <span class=\"math inline\">\\(\\ce{X}\\)</span> estarão presentes em <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> da solução final.</li>\n<li><strong>Determine</strong> o número de diluições sucessivas, por\n<span class=\"math inline\">\\(\\pu{10}\\)</span> vezes, da solução original\nque seriam necessárias para que restasse menos de uma molécula de <span class=\"math inline\">\\(\\ce{X}\\)</span> na solução original.</li>\n</ol>",
+        "md": "Os adeptos do ramo da medicina alternativa conhecida como homeopatia\nafirmam que soluções muito diluídas de certas substâncias têm efeito\nterapêutico. Para explorar essa questão, suponha que você preparou uma\nsolução supostamente ativa, $\\ce{X}$, com concentração molar de\n$\\pu{0,1 mol.L-1}$. Diluia $\\pu{10 mL}$ dessa solução dobrando o volume,\ndobrando novamente, e assim por diante, $\\pu{90}$ vezes.\n\na.  **Determine** quantas moléculas de $\\ce{X}$ estarão presentes em\n    $\\pu{10 mL}$ da solução final.\nb.  **Determine** o número de diluições sucessivas, por $\\pu{10}$ vezes,\n    da solução original que seriam necessárias para que restasse menos\n    de uma molécula de $\\ce{X}$ na solução original.\n",
+        "tex": "Os adeptos do ramo da medicina alternativa conhecida como homeopatia afirmam que soluções muito diluídas de certas substâncias têm efeito terapêutico.\nPara explorar essa questão, suponha que você preparou uma solução supostamente ativa, {\\(\\ce{X}\\)}, com concentração molar de\n{\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}. Diluia {\\(\\qty{10}{\\unit{mL}}\\)} dessa solução dobrando o volume, dobrando novamente, e assim por diante,\n{\\(\\num{90}\\)} vezes.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} quantas moléculas de {\\(\\ce{X}\\)} estarão presentes em {\\(\\qty{10}{\\unit{mL}}\\)} da solução final.\n\\item\n  \\textbf{Determine} o número de diluições sucessivas, por {\\(\\num{10}\\)} vezes, da solução original que seriam necessárias para que restasse menos de\n  uma molécula de {\\(\\ce{X}\\)} na solução original.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p>Não resta nenhuma molécula de <span\nclass=\"math inline\">\\(\\ce{X}\\)</span>.</p>\n",
+          "md": "Não resta nenhuma molécula de $\\ce{X}$.",
+          "tex": "Não resta nenhuma molécula de \\(\\ce{X}\\).\n"
+        },
+        {
+          "html": "<p>Após 20 diluições resta menos de uma molécula.</p>\n",
+          "md": "Após 20 diluições resta menos de uma molécula.",
+          "tex": "Após 20 diluições resta menos de uma molécula.\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3205,14 +3222,25 @@
     {
       "id_": "3D36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D36/3D36.md",
-      "date": "2023-01-20T22:43:22.355537",
+      "date": "2023-01-21T01:02:31.370132",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um químico dissolveu <span class=\"math inline\">\\(\\pu{0,033\ng}\\)</span> de sulfato de cobre penta-hidratado, <span class=\"math inline\">\\(\\ce{CuSO4.5H2O}\\)</span>, em água e diluiu a\nsolução até a marca em um balão volumétrico de <span class=\"math inline\">\\(\\pu{250 mL}\\)</span>. Uma amostra de <span class=\"math inline\">\\(\\pu{2 mL}\\)</span> dessa solução foi transferida\npara outro balão volumétrico de <span class=\"math inline\">\\(\\pu{250\nmL}\\)</span> e diluída.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a molaridade de <span class=\"math inline\">\\(\\ce{CuSO4.5H2O}\\)</span> na solução final.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{CuSO4.5H2O}\\)</span> que deveria ser medida\npara preparar a solução final diretamente.</li>\n</ol>",
+        "md": "Um químico dissolveu $\\pu{0,033 g}$ de sulfato de cobre penta-hidratado,\n$\\ce{CuSO4.5H2O}$, em água e diluiu a solução até a marca em um balão\nvolumétrico de $\\pu{250 mL}$. Uma amostra de $\\pu{2 mL}$ dessa solução\nfoi transferida para outro balão volumétrico de $\\pu{250 mL}$ e diluída.\n\na.  **Determine** a molaridade de $\\ce{CuSO4.5H2O}$ na solução final.\nb.  **Determine** a massa de $\\ce{CuSO4.5H2O}$ que deveria ser medida\n    para preparar a solução final diretamente.\n",
+        "tex": "Um químico dissolveu {\\(\\qty{0,033}{\\unit{g}}\\)} de sulfato de cobre penta-hidratado, {\\(\\ce{CuSO4.5H2O}\\)}, em água e diluiu a solução até a marca em\num balão volumétrico de {\\(\\qty{250}{\\unit{mL}}\\)}. Uma amostra de {\\(\\qty{2}{\\unit{mL}}\\)} dessa solução foi transferida para outro balão volumétrico\nde {\\(\\qty{250}{\\unit{mL}}\\)} e diluída.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a molaridade de {\\(\\ce{CuSO4.5H2O}\\)} na solução final.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{CuSO4.5H2O}\\)} que deveria ser medida para preparar a solução final diretamente.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{4,2e-6 mol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{4,2e-6 mol.L-1}$",
+          "tex": "\\(\\qty{4,2e-6}{\\unit{mol.L^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{2,6e-4 g}\\)</span></p>\n",
+          "md": "$\\pu{2,6e-4 g}$",
+          "tex": "\\(\\qty{2,6e-4}{\\unit{g}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3220,14 +3248,25 @@
     {
       "id_": "3D33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D33/3D33.md",
-      "date": "2023-01-20T22:43:22.347538",
+      "date": "2023-01-21T00:53:08.689516",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma solução foi preparada pela dissolução de <span class=\"math inline\">\\(\\pu{0,5 g}\\)</span> de <span class=\"math inline\">\\(\\ce{KCl}\\)</span>, <span class=\"math inline\">\\(\\pu{0,5 g}\\)</span> de <span class=\"math inline\">\\(\\ce{K2S}\\)</span> e <span class=\"math inline\">\\(\\pu{0,5 g}\\)</span> de <span class=\"math inline\">\\(\\ce{K3PO4}\\)</span> em <span class=\"math inline\">\\(\\pu{500 mL}\\)</span> de água.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a concentração de íons sulfeto na\nsolução.</li>\n<li><strong>Determine</strong> a concentração de íons potássio na\nsolução.</li>\n</ol>",
+        "md": "Uma solução foi preparada pela dissolução de $\\pu{0,5 g}$ de $\\ce{KCl}$,\n$\\pu{0,5 g}$ de $\\ce{K2S}$ e $\\pu{0,5 g}$ de $\\ce{K3PO4}$ em\n$\\pu{500 mL}$ de água.\n\na.  **Determine** a concentração de íons sulfeto na solução.\nb.  **Determine** a concentração de íons potássio na solução.\n",
+        "tex": "Uma solução foi preparada pela dissolução de {\\(\\qty{0,5}{\\unit{g}}\\)} de {\\(\\ce{KCl}\\)}, {\\(\\qty{0,5}{\\unit{g}}\\)} de {\\(\\ce{K2S}\\)} e\n{\\(\\qty{0,5}{\\unit{g}}\\)} de {\\(\\ce{K3PO4}\\)} em {\\(\\qty{500}{\\unit{mL}}\\)} de água.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de íons sulfeto na solução.\n\\item\n  \\textbf{Determine} a concentração de íons potássio na solução.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{9,1e-3 mol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{9,1e-3 mol.L-1}$",
+          "tex": "\\(\\qty{9,1e-3}{\\unit{mol.L^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{4,6e-2 mol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{4,6e-2 mol.L-1}$",
+          "tex": "\\(\\qty{4,6e-2}{\\unit{mol.L^{-1}}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3235,14 +3274,25 @@
     {
       "id_": "3D38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D38/3D38.md",
-      "date": "2023-01-20T22:43:22.363537",
+      "date": "2023-01-21T01:11:09.932971",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma planta industrial descarrega <span class=\"math inline\">\\(\\pu{3,5\nm3.s-1}\\)</span> de água contendo <span class=\"math inline\">\\(\\pu{65\nppm}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> em um rio\ncuja vazão é <span class=\"math inline\">\\(\\pu{50 m3.s-1}\\)</span> e\ncontem <span class=\"math inline\">\\(\\pu{10,2 ppm}\\)</span> de <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span>. Para que outra indústria\nutilize a água do rio, essa deve ser neutralizada com óxido de cálcio,\nque reage com o ácido clorídrico formando cloreto de cálcio conforme a\nreação: <span class=\"math display\">\\[\n    \\ce{ 2 HCl(aq) + CaO(aq) -&gt; CaCl2(aq) + H2O(l) }\n\\]</span> A segunda indústria utiliza <span class=\"math inline\">\\(\\pu{18\nm3.s-1}\\)</span> de água e retorna <span class=\"math inline\">\\(\\pu{90}\\%\\)</span> ao rio.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a concentração de cloreto na água do rio\napós a descarga da primeira indústria.</li>\n<li><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span> na água do rio após a\ndescarga da segunda indústria.</li>\n</ol>",
+        "md": "Uma planta industrial descarrega $\\pu{3,5 m3.s-1}$ de água contendo\n$\\pu{65 ppm}$ de $\\ce{HCl}$ em um rio cuja vazão é $\\pu{50 m3.s-1}$ e\ncontem $\\pu{10,2 ppm}$ de $\\ce{Ca^{2+}}$. Para que outra indústria\nutilize a água do rio, essa deve ser neutralizada com óxido de cálcio,\nque reage com o ácido clorídrico formando cloreto de cálcio conforme a\nreação: $$\n    \\ce{ 2 HCl(aq) + CaO(aq) -> CaCl2(aq) + H2O(l) }\n$$ A segunda indústria utiliza $\\pu{18 m3.s-1}$ de água e retorna\n$\\pu{90}\\%$ ao rio.\n\na.  **Determine** a concentração de cloreto na água do rio após a\n    descarga da primeira indústria.\nb.  **Determine** a concentração de $\\ce{Ca^{2+}}$ na água do rio após a\n    descarga da segunda indústria.\n",
+        "tex": "Uma planta industrial descarrega {\\(\\qty{3,5}{\\unit{m^{3}.s^{-1}}}\\)} de água contendo {\\(\\qty{65}{\\unit{ppm}}\\)} de {\\(\\ce{HCl}\\)} em um rio cuja\nvazão é {\\(\\qty{50}{\\unit{m^{3}.s^{-1}}}\\)} e contem {\\(\\qty{10,2}{\\unit{ppm}}\\)} de {\\(\\ce{Ca^{2+}}\\)}. Para que outra indústria utilize a água do\nrio, essa deve ser neutralizada com óxido de cálcio, que reage com o ácido clorídrico formando cloreto de cálcio conforme a reação: {\\[\n    \\ce{ 2 HCl(aq) + CaO(aq) -> CaCl2(aq) + H2O(l) }\n\\]} A segunda indústria utiliza {\\(\\qty{18}{\\unit{m^{3}.s^{-1}}}\\)} de água e retorna {\\(\\num{90}\\%\\)} ao rio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de cloreto na água do rio após a descarga da primeira indústria.\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{Ca^{2+}}\\)} na água do rio após a descarga da segunda indústria.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{4,25 ppm}\\)</span></p>\n",
+          "md": "$\\pu{4,25 ppm}$",
+          "tex": "\\(\\qty{4,25}{\\unit{ppm}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{10,3 ppm}\\)</span></p>\n",
+          "md": "$\\pu{10,3 ppm}$",
+          "tex": "\\(\\qty{10,3}{\\unit{ppm}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3291,14 +3341,20 @@
     {
       "id_": "3D29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D29/3D29.md",
-      "date": "2023-01-20T22:43:22.335538",
+      "date": "2023-01-21T00:41:55.047011",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Quando uma amostra de <span class=\"math inline\">\\(\\pu{2 g}\\)</span>\nde minério de ferro é tratada com <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> de ácido clorídrico, o ferro se dissolve no ácido para\nformar uma solução de <span class=\"math inline\">\\(\\ce{FeCl3}\\)</span>. A\nsolução de <span class=\"math inline\">\\(\\ce{FeCl3}\\)</span> foi diluída\naté <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> e a concentração de\níons <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>, determinada por\nespectrofotometria, foi <span class=\"math inline\">\\(\\pu{0,145\nmol.L-1}\\)</span>.</p>\n<p><strong>Determine</strong> a fração mássica de ferro no minério.</p>",
+        "md": "Quando uma amostra de $\\pu{2 g}$ de minério de ferro é tratada com\n$\\pu{50 mL}$ de ácido clorídrico, o ferro se dissolve no ácido para\nformar uma solução de $\\ce{FeCl3}$. A solução de $\\ce{FeCl3}$ foi\ndiluída até $\\pu{100 mL}$ e a concentração de íons $\\ce{Fe^{3+}}$,\ndeterminada por espectrofotometria, foi $\\pu{0,145 mol.L-1}$.\n\n**Determine** a fração mássica de ferro no minério.\n",
+        "tex": "Quando uma amostra de {\\(\\qty{2}{\\unit{g}}\\)} de minério de ferro é tratada com {\\(\\qty{50}{\\unit{mL}}\\)} de ácido clorídrico, o ferro se dissolve no\nácido para formar uma solução de {\\(\\ce{FeCl3}\\)}. A solução de {\\(\\ce{FeCl3}\\)} foi diluída até {\\(\\qty{100}{\\unit{mL}}\\)} e a concentração de íons\n{\\(\\ce{Fe^{3+}}\\)}, determinada por espectrofotometria, foi {\\(\\qty{0,145}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Determine} a fração mássica de ferro no minério.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{40}\\%\\)</span></p>\n",
+          "md": "$\\pu{40}\\%$",
+          "tex": "\\(\\num{40}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3388,14 +3444,25 @@
     {
       "id_": "3D35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D35/3D35.md",
-      "date": "2023-01-20T22:43:22.355537",
+      "date": "2023-01-21T01:00:08.700272",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Para preparar uma solução muito diluída, é aconselhável executar uma\nsérie de diluições a partir de uma solução preparar de um reagente, em\nvez de pesar uma massa muito pequena ou medir um volume muito pequeno da\nsolução-estoque. Uma solução foi preparada por transferência de <span class=\"math inline\">\\(\\pu{0,661 g}\\)</span> de dicromato de potássio,\n<span class=\"math inline\">\\(\\ce{K2Cr2O7}\\)</span>, para um balão\nvolumétrico de <span class=\"math inline\">\\(\\pu{250 mL}\\)</span> e\ndiluição com água até a marca. Uma amostra de <span class=\"math inline\">\\(\\pu{1 mL}\\)</span> dessa solução foi transferida\npara um balão volumétrico de <span class=\"math inline\">\\(\\pu{500\nmL}\\)</span> e diluída novamente com água até a marca. Depois, <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> dessa última solução foram\ntransferidos para um balão de <span class=\"math inline\">\\(\\pu{250\nmL}\\)</span> e diluídos com água até a marca.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a molaridade de <span class=\"math inline\">\\(\\ce{K2Cr2O7}\\)</span> na solução final.</li>\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{K2Cr2O7}\\)</span> que deveria ser medida para\npreparar a solução final diretamente.</li>\n</ol>",
+        "md": "Para preparar uma solução muito diluída, é aconselhável executar uma\nsérie de diluições a partir de uma solução preparar de um reagente, em\nvez de pesar uma massa muito pequena ou medir um volume muito pequeno da\nsolução-estoque. Uma solução foi preparada por transferência de\n$\\pu{0,661 g}$ de dicromato de potássio, $\\ce{K2Cr2O7}$, para um balão\nvolumétrico de $\\pu{250 mL}$ e diluição com água até a marca. Uma\namostra de $\\pu{1 mL}$ dessa solução foi transferida para um balão\nvolumétrico de $\\pu{500 mL}$ e diluída novamente com água até a marca.\nDepois, $\\pu{10 mL}$ dessa última solução foram transferidos para um\nbalão de $\\pu{250 mL}$ e diluídos com água até a marca.\n\na.  **Determine** a molaridade de $\\ce{K2Cr2O7}$ na solução final.\nb.  **Determine** a massa de $\\ce{K2Cr2O7}$ que deveria ser medida para\n    preparar a solução final diretamente.\n",
+        "tex": "Para preparar uma solução muito diluída, é aconselhável executar uma série de diluições a partir de uma solução preparar de um reagente, em vez de\npesar uma massa muito pequena ou medir um volume muito pequeno da solução-estoque. Uma solução foi preparada por transferência de\n{\\(\\qty{0,661}{\\unit{g}}\\)} de dicromato de potássio, {\\(\\ce{K2Cr2O7}\\)}, para um balão volumétrico de {\\(\\qty{250}{\\unit{mL}}\\)} e diluição com água\naté a marca. Uma amostra de {\\(\\qty{1}{\\unit{mL}}\\)} dessa solução foi transferida para um balão volumétrico de {\\(\\qty{500}{\\unit{mL}}\\)} e diluída\nnovamente com água até a marca. Depois, {\\(\\qty{10}{\\unit{mL}}\\)} dessa última solução foram transferidos para um balão de {\\(\\qty{250}{\\unit{mL}}\\)}\ne diluídos com água até a marca.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a molaridade de {\\(\\ce{K2Cr2O7}\\)} na solução final.\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{K2Cr2O7}\\)} que deveria ser medida para preparar a solução final diretamente.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7,2e-7 mol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{7,2e-7 mol.L-1}$",
+          "tex": "\\(\\qty{7,2e-7}{\\unit{mol.L^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{5,3e-5 g}\\)</span></p>\n",
+          "md": "$\\pu{5,3e-5 g}$",
+          "tex": "\\(\\qty{5,3e-5}{\\unit{g}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3444,14 +3511,25 @@
     {
       "id_": "3D27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D27/3D27.md",
-      "date": "2023-01-20T22:43:22.331538",
+      "date": "2023-01-21T01:32:46.683697",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as misturas: óleo e vinagre; giz e sal de cozinha; água\nsalgada.</p>\n<ol type=\"a\">\n<li><strong>Classifique</strong> as misturas como homogênea ou\nheterogênea.</li>\n<li><strong>Proponha</strong> uma técnica para separar cada mistura em\nseus componentes.</li>\n</ol>",
+        "md": "Considere as misturas: óleo e vinagre; giz e sal de cozinha; água\nsalgada.\n\na.  **Classifique** as misturas como homogênea ou heterogênea.\nb.  **Proponha** uma técnica para separar cada mistura em seus\n    componentes.\n",
+        "tex": "Considere as misturas: óleo e vinagre; giz e sal de cozinha; água salgada.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Classifique} as misturas como homogênea ou heterogênea.\n\\item\n  \\textbf{Proponha} uma técnica para separar cada mistura em seus componentes.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p>Heterogênea; heterogênea; homogênea.</p>\n",
+          "md": "Heterogênea; heterogênea; homogênea.",
+          "tex": "Heterogênea; heterogênea; homogênea.\n"
+        },
+        {
+          "html": "<p>Decantação; dissolução seguida de filtração; destilação.</p>\n",
+          "md": "Decantação; dissolução seguida de filtração; destilação.",
+          "tex": "Decantação; dissolução seguida de filtração; destilação.\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3459,14 +3537,20 @@
     {
       "id_": "3D43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D43/3D43.md",
-      "date": "2023-01-20T22:43:22.375537",
+      "date": "2023-01-21T01:17:53.384281",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O <em>colorímetro de Duboscq</em> consiste em uma célula de caminho\nóptico fixo e uma célula de caminho óptico variável. O comprimento dessa\ncélula e ajustado até que a transmissão das células seja a mesma. Uma\nsolução de concentração <span class=\"math inline\">\\(\\pu{24 \\micro\ng.L-1}\\)</span> de certa substância é adicionada à célula fixa de\ncomprimento <span class=\"math inline\">\\(\\pu{4 cm}\\)</span>. Uma solução\ndo mesmo soluto de concentração desconhecida é adicionada à célula de\nconcentração variável e seu comprimento é ajustado para <span class=\"math inline\">\\(\\pu{3 cm}\\)</span>.</p>\n<p><strong>Determine</strong> a molaridade da segunda solução.</p>",
+        "md": "O *colorímetro de Duboscq* consiste em uma célula de caminho óptico fixo\ne uma célula de caminho óptico variável. O comprimento dessa célula e\najustado até que a transmissão das células seja a mesma. Uma solução de\nconcentração $\\pu{24 \\micro g.L-1}$ de certa substância é adicionada à\ncélula fixa de comprimento $\\pu{4 cm}$. Uma solução do mesmo soluto de\nconcentração desconhecida é adicionada à célula de concentração variável\ne seu comprimento é ajustado para $\\pu{3 cm}$.\n\n**Determine** a molaridade da segunda solução.\n",
+        "tex": "O \\emph{colorímetro de Duboscq} consiste em uma célula de caminho óptico fixo e uma célula de caminho óptico variável. O comprimento dessa célula e\najustado até que a transmissão das células seja a mesma. Uma solução de concentração {\\(\\qty{24}{\\unit{\\micro g.L^{-1}}}\\)} de certa substância é\nadicionada à célula fixa de comprimento {\\(\\qty{4}{\\unit{cm}}\\)}. Uma solução do mesmo soluto de concentração desconhecida é adicionada à célula de\nconcentração variável e seu comprimento é ajustado para {\\(\\qty{3}{\\unit{cm}}\\)}.\n\n\\textbf{Determine} a molaridade da segunda solução.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{16 \\micro g.L-1}\\)</span></p>\n",
+          "md": "$\\pu{16 \\micro g.L-1}$",
+          "tex": "\\(\\qty{16}{\\unit{\\micro g.L^{-1}}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3638,14 +3722,20 @@
     {
       "id_": "3D41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D41/3D41.md",
-      "date": "2023-01-20T22:43:22.371537",
+      "date": "2023-01-21T01:15:59.801209",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um dos efluentes do processo de hidrotratamento de gás combustível é\nágua contendo <span class=\"math inline\">\\(\\pu{3}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{H2S}\\)</span> e <span class=\"math inline\">\\(\\pu{1}\\%\\)</span> <span class=\"math inline\">\\(\\ce{NH3}\\)</span> em base molar, denominada água\nácida. Para possibilitar a remoção de <span class=\"math inline\">\\(\\ce{H2S}\\)</span> e <span class=\"math inline\">\\(\\ce{NH3}\\)</span>, duas colunas de destilação são\nempregadas.</p>\n<p>São recuperados no topo da primeira coluna <span class=\"math inline\">\\(\\pu{95}\\%\\)</span> do <span class=\"math inline\">\\(\\ce{H2S}\\)</span> e <span class=\"math inline\">\\(\\pu{0,5}\\%\\)</span> do <span class=\"math inline\">\\(\\ce{NH3}\\)</span> que entram. Na segunda coluna,\n<span class=\"math inline\">\\(\\ce{99,5}\\%\\)</span> do <span class=\"math inline\">\\(\\ce{H2S}\\)</span> e do <span class=\"math inline\">\\(\\ce{NH3}\\)</span> são recuperados no topo. Não há\nrecuperação de água no topo das colunas.</p>\n<p><strong>Determine</strong> fração molar de <span class=\"math inline\">\\(\\ce{H2S}\\)</span> que sai junto à água na corrente\nde fundo da segunda coluna de destilação.</p>",
+        "md": "Um dos efluentes do processo de hidrotratamento de gás combustível é\nágua contendo $\\pu{3}\\%$ de $\\ce{H2S}$ e $\\pu{1}\\%$ $\\ce{NH3}$ em base\nmolar, denominada água ácida. Para possibilitar a remoção de $\\ce{H2S}$\ne $\\ce{NH3}$, duas colunas de destilação são empregadas.\n\nSão recuperados no topo da primeira coluna $\\pu{95}\\%$ do $\\ce{H2S}$ e\n$\\pu{0,5}\\%$ do $\\ce{NH3}$ que entram. Na segunda coluna, $\\ce{99,5}\\%$\ndo $\\ce{H2S}$ e do $\\ce{NH3}$ são recuperados no topo. Não há\nrecuperação de água no topo das colunas.\n\n**Determine** fração molar de $\\ce{H2S}$ que sai junto à água na\ncorrente de fundo da segunda coluna de destilação.\n",
+        "tex": "Um dos efluentes do processo de hidrotratamento de gás combustível é água contendo {\\(\\num{3}\\%\\)} de {\\(\\ce{H2S}\\)} e {\\(\\num{1}\\%\\)} {\\(\\ce{NH3}\\)}\nem base molar, denominada água ácida. Para possibilitar a remoção de {\\(\\ce{H2S}\\)} e {\\(\\ce{NH3}\\)}, duas colunas de destilação são empregadas.\n\nSão recuperados no topo da primeira coluna {\\(\\num{95}\\%\\)} do {\\(\\ce{H2S}\\)} e {\\(\\num{0,5}\\%\\)} do {\\(\\ce{NH3}\\)} que entram. Na segunda coluna,\n{\\(\\ce{99,5}\\%\\)} do {\\(\\ce{H2S}\\)} e do {\\(\\ce{NH3}\\)} são recuperados no topo. Não há recuperação de água no topo das colunas.\n\n\\textbf{Determine} fração molar de {\\(\\ce{H2S}\\)} que sai junto à água na corrente de fundo da segunda coluna de destilação.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7,8e-6}\\)</span></p>\n",
+          "md": "$\\pu{7,8e-6}$",
+          "tex": "\\(\\num{7,8e-6}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3653,14 +3743,25 @@
     {
       "id_": "3D28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D28/3D28.md",
-      "date": "2023-01-20T22:43:22.335538",
+      "date": "2023-01-21T01:33:17.990963",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as misturas: suco de limão; água e óleo; sal e pimenta em\npó.</p>\n<ol type=\"a\">\n<li><strong>Classifique</strong> as misturas como homogênea ou\nheterogênea.</li>\n<li><strong>Proponha</strong> uma técnica para separar cada mistura em\nseus componentes.</li>\n</ol>",
+        "md": "Considere as misturas: suco de limão; água e óleo; sal e pimenta em pó.\n\na.  **Classifique** as misturas como homogênea ou heterogênea.\nb.  **Proponha** uma técnica para separar cada mistura em seus\n    componentes.\n",
+        "tex": "Considere as misturas: suco de limão; água e óleo; sal e pimenta em pó.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Classifique} as misturas como homogênea ou heterogênea.\n\\item\n  \\textbf{Proponha} uma técnica para separar cada mistura em seus componentes.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p>Homogênea; heterogênea; heterogênea.</p>\n",
+          "md": "Homogênea; heterogênea; heterogênea.",
+          "tex": "Homogênea; heterogênea; heterogênea.\n"
+        },
+        {
+          "html": "<p>Destilação; decantação; dissolução seguida de filtração.</p>\n",
+          "md": "Destilação; decantação; dissolução seguida de filtração.",
+          "tex": "Destilação; decantação; dissolução seguida de filtração.\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3709,14 +3810,20 @@
     {
       "id_": "3D42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D42/3D42.md",
-      "date": "2023-01-20T22:43:22.375537",
+      "date": "2023-01-21T01:16:48.852864",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma unidade industrial produz uma corrente aquosa de vazão <span class=\"math inline\">\\(\\pu{10 kg.h-1}\\)</span> contendo um sal de baixa\nsolubilidade em água. Visando a recuperar o sal, inicialmente\nempregou-se um processo de filtração. A corrente de filtrado obtida\napresentou apenas água e vazão de <span class=\"math inline\">\\(\\pu{6\nkg.h-1}\\)</span>. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d’água com vazão de <span class=\"math inline\">\\(\\pu{1\nkg.h-1}\\)</span> e outra contendo apenas o sal.</p>\n<p>Assinale a alternativa que mais se aproxima da fração mássica de sal\nna corrente inicial.</p>",
+        "md": "Uma unidade industrial produz uma corrente aquosa de vazão\n$\\pu{10 kg.h-1}$ contendo um sal de baixa solubilidade em água. Visando\na recuperar o sal, inicialmente empregou-se um processo de filtração. A\ncorrente de filtrado obtida apresentou apenas água e vazão de\n$\\pu{6 kg.h-1}$. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d'água com vazão de $\\pu{1 kg.h-1}$ e outra contendo apenas o sal.\n\nAssinale a alternativa que mais se aproxima da fração mássica de sal na\ncorrente inicial.\n",
+        "tex": "Uma unidade industrial produz uma corrente aquosa de vazão {\\(\\qty{10}{\\unit{kg.h^{-1}}}\\)} contendo um sal de baixa solubilidade em água. Visando a\nrecuperar o sal, inicialmente empregou-se um processo de filtração. A corrente de filtrado obtida apresentou apenas água e vazão de\n{\\(\\qty{6}{\\unit{kg.h^{-1}}}\\)}. A corrente de concentrado foi encaminhada a uma etapa de evaporação, ao final da qual se obteve uma corrente contendo\napenas vapor d'água com vazão de {\\(\\qty{1}{\\unit{kg.h^{-1}}}\\)} e outra contendo apenas o sal.\n\nAssinale a alternativa que mais se aproxima da fração mássica de sal na corrente inicial.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{70}\\%\\)</span></p>\n",
+          "md": "$\\pu{70}\\%$",
+          "tex": "\\(\\num{70}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3765,14 +3872,20 @@
     {
       "id_": "3D34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D34/3D34.md",
-      "date": "2023-01-20T22:43:22.351538",
+      "date": "2023-01-21T00:54:44.151848",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Em medicina, às vezes é necessário preparar soluções com uma dada\nconcentração de um determinado íon. Um técnico de laboratório preparou\n<span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de uma solução que\ncontém <span class=\"math inline\">\\(\\pu{0,5 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> e <span class=\"math inline\">\\(\\pu{0,3 g}\\)</span> de <span class=\"math inline\">\\(\\ce{KCl}\\)</span>, bem como glicose e outros\naçúcares.</p>\n<p><strong>Determine</strong> a concentração de cloreto na solução.</p>",
+        "md": "Em medicina, às vezes é necessário preparar soluções com uma dada\nconcentração de um determinado íon. Um técnico de laboratório preparou\n$\\pu{100 mL}$ de uma solução que contém $\\pu{0,5 g}$ de $\\ce{NaCl}$ e\n$\\pu{0,3 g}$ de $\\ce{KCl}$, bem como glicose e outros açúcares.\n\n**Determine** a concentração de cloreto na solução.\n",
+        "tex": "Em medicina, às vezes é necessário preparar soluções com uma dada concentração de um determinado íon. Um técnico de laboratório preparou\n{\\(\\qty{100}{\\unit{mL}}\\)} de uma solução que contém {\\(\\qty{0,5}{\\unit{g}}\\)} de {\\(\\ce{NaCl}\\)} e {\\(\\qty{0,3}{\\unit{g}}\\)} de {\\(\\ce{KCl}\\)}, bem\ncomo glicose e outros açúcares.\n\n\\textbf{Determine} a concentração de cloreto na solução.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,13 mol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{0,13 mol.L-1}$",
+          "tex": "\\(\\qty{0,13}{\\unit{mol.L^{-1}}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3821,14 +3934,25 @@
     {
       "id_": "3D44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D44/3D44.md",
-      "date": "2023-01-20T22:43:22.379537",
+      "date": "2023-01-21T01:37:46.056501",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>A saturação de oxigênio, definida como a razão entre a concentração\nde oxi-hemoglobina e a concentração total de hemoglobina no sangue, pode\nser determinada por espectroscopia de absorção. Uma amostra de sangue é\ncoletada e colocada em uma célula com <span class=\"math inline\">\\(\\pu{10\nmm}\\)</span> de caminho óptico.</p>\n<figure>\n<img alt=\"Figura do problema 3D44.\" src=\"3D44-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3D44.</figcaption>\n</figure>\n<p>A solução transmite <span class=\"math inline\">\\(10\\%\\)</span> da luz\nincidente de comprimento de onda <span class=\"math inline\">\\(\\pu{750\nnm}\\)</span> e <span class=\"math inline\">\\(\\pu{30}\\%\\)</span> da luz\nincidente de comprimento de onda <span class=\"math inline\">\\(\\pu{850\nnm}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> concentração de oxi-hemoglobina e\ndesoxi-hemoglobina no sangue.</li>\n<li><strong>Determine</strong> a saturação de oxigênio na amostra de\nsangue.</li>\n</ol>",
+        "md": "A saturação de oxigênio, definida como a razão entre a concentração de\noxi-hemoglobina e a concentração total de hemoglobina no sangue, pode\nser determinada por espectroscopia de absorção. Uma amostra de sangue é\ncoletada e colocada em uma célula com $\\pu{10 mm}$ de caminho óptico.\n\n![Figura do problema 3D44.](3D44-1P.svg)\n\nA solução transmite $10\\%$ da luz incidente de comprimento de onda\n$\\pu{750 nm}$ e $\\pu{30}\\%$ da luz incidente de comprimento de onda\n$\\pu{850 nm}$.\n\na.  **Determine** concentração de oxi-hemoglobina e desoxi-hemoglobina\n    no sangue.\nb.  **Determine** a saturação de oxigênio na amostra de sangue.\n",
+        "tex": "A saturação de oxigênio, definida como a razão entre a concentração de oxi-hemoglobina e a concentração total de hemoglobina no sangue, pode ser\ndeterminada por espectroscopia de absorção. Uma amostra de sangue é coletada e colocada em uma célula com {\\(\\qty{10}{\\unit{mm}}\\)} de caminho óptico.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3D44-1P.svg}\n\\caption{Figura do problema 3D44.}\n\\end{figure}\n\nA solução transmite {\\(10\\%\\)} da luz incidente de comprimento de onda {\\(\\qty{750}{\\unit{nm}}\\)} e {\\(\\num{30}\\%\\)} da luz incidente de comprimento\nde onda {\\(\\qty{850}{\\unit{nm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} concentração de oxi-hemoglobina e desoxi-hemoglobina no sangue.\n\\item\n  \\textbf{Determine} a saturação de oxigênio na amostra de sangue.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7 mmol.L-1}\\)</span> e <span\nclass=\"math inline\">\\(\\pu{0,4 mmol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{7 mmol.L-1}$ e $\\pu{0,4 mmol.L-1}$",
+          "tex": "\\(\\qty{7}{\\unit{mmol.L^{-1}}}\\) e \\(\\qty{0,4}{\\unit{mmol.L^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{95}\\%\\)</span></p>\n",
+          "md": "$\\pu{95}\\%$",
+          "tex": "\\(\\num{95}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3959,14 +4083,20 @@
     {
       "id_": "3D39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D39/3D39.md",
-      "date": "2023-01-20T22:43:22.367537",
+      "date": "2023-01-21T01:12:44.065547",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma coluna de destilação contínua é usada para separar <span class=\"math inline\">\\(\\pu{800 kg.h-1}\\)</span> de uma mistura ternária\ndos compostos <span class=\"math inline\">\\(\\ce{A}\\)</span>, <span class=\"math inline\">\\(\\ce{B}\\)</span> e <span class=\"math inline\">\\(\\ce{C}\\)</span> com <span class=\"math inline\">\\(\\pu{40}\\%\\)</span>, <span class=\"math inline\">\\(\\pu{10}\\%\\)</span> e <span class=\"math inline\">\\(\\pu{50}\\%\\)</span> em massa, respectivamente. O\nproduto de topo deve apresentar <span class=\"math inline\">\\(\\pu{66}\\%\\)</span> de <span class=\"math inline\">\\(\\ce{A}\\)</span> em massa e o de fundo é\nconstituído apenas pelo componente <span class=\"math inline\">\\(\\ce{C}\\)</span>.</p>\n<p><strong>Determine</strong> fração mássica de <span class=\"math inline\">\\(\\ce{B}\\)</span> no produto de topo.</p>",
+        "md": "Uma coluna de destilação contínua é usada para separar $\\pu{800 kg.h-1}$\nde uma mistura ternária dos compostos $\\ce{A}$, $\\ce{B}$ e $\\ce{C}$ com\n$\\pu{40}\\%$, $\\pu{10}\\%$ e $\\pu{50}\\%$ em massa, respectivamente. O\nproduto de topo deve apresentar $\\pu{66}\\%$ de $\\ce{A}$ em massa e o de\nfundo é constituído apenas pelo componente $\\ce{C}$.\n\n**Determine** fração mássica de $\\ce{B}$ no produto de topo.\n",
+        "tex": "Uma coluna de destilação contínua é usada para separar {\\(\\qty{800}{\\unit{kg.h^{-1}}}\\)} de uma mistura ternária dos compostos {\\(\\ce{A}\\)},\n{\\(\\ce{B}\\)} e {\\(\\ce{C}\\)} com {\\(\\num{40}\\%\\)}, {\\(\\num{10}\\%\\)} e {\\(\\num{50}\\%\\)} em massa, respectivamente. O produto de topo deve apresentar\n{\\(\\num{66}\\%\\)} de {\\(\\ce{A}\\)} em massa e o de fundo é constituído apenas pelo componente {\\(\\ce{C}\\)}.\n\n\\textbf{Determine} fração mássica de {\\(\\ce{B}\\)} no produto de topo.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{16}\\%\\)</span></p>\n",
+          "md": "$\\pu{16}\\%$",
+          "tex": "\\(\\num{16}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -3974,14 +4104,20 @@
     {
       "id_": "3D37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D37/3D37.md",
-      "date": "2023-01-20T22:43:22.359537",
+      "date": "2023-01-21T01:05:46.669565",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><em>Oleum</em>, ou ácido sulfúrico fumegante, é obtido através da\nabsorção do trióxido de enxofre por ácido sulfúrico. Ao se misturar\noleum com água obtém-se ácido sulfúrico concentrado segundo a reação:\n<span class=\"math display\">\\[\n    \\ce{ SO3(l) + H2O(l) -&gt; H2SO4(l) }\n\\]</span> Deseja-se preparar uma solução aquosa com <span class=\"math inline\">\\(\\pu{95}\\%\\)</span> de ácido sulfúrico em massa a\npartir de uma carga de <span class=\"math inline\">\\(\\pu{1 ton}\\)</span>\nde oleum, com <span class=\"math inline\">\\(\\pu{20}\\%\\)</span> em massa\ntrióxido de enxofre.</p>\n<p><strong>Determine</strong> a massa de água que deve ser adicionada à\ncarga de oleum para obter a solução desejada.</p>",
+        "md": "*Oleum*, ou ácido sulfúrico fumegante, é obtido através da absorção do\ntrióxido de enxofre por ácido sulfúrico. Ao se misturar oleum com água\nobtém-se ácido sulfúrico concentrado segundo a reação: $$\n    \\ce{ SO3(l) + H2O(l) -> H2SO4(l) }\n$$ Deseja-se preparar uma solução aquosa com $\\pu{95}\\%$ de ácido\nsulfúrico em massa a partir de uma carga de $\\pu{1 ton}$ de oleum, com\n$\\pu{20}\\%$ em massa trióxido de enxofre.\n\n**Determine** a massa de água que deve ser adicionada à carga de oleum\npara obter a solução desejada.\n",
+        "tex": "\\emph{Oleum}, ou ácido sulfúrico fumegante, é obtido através da absorção do trióxido de enxofre por ácido sulfúrico. Ao se misturar oleum com água\nobtém-se ácido sulfúrico concentrado segundo a reação: {\\[\n    \\ce{ SO3(l) + H2O(l) -> H2SO4(l) }\n\\]} Deseja-se preparar uma solução aquosa com {\\(\\num{95}\\%\\)} de ácido sulfúrico em massa a partir de uma carga de {\\(\\qty{1}{\\unit{ton}}\\)} de\noleum, com {\\(\\num{20}\\%\\)} em massa trióxido de enxofre.\n\n\\textbf{Determine} a massa de água que deve ser adicionada à carga de oleum para obter a solução desejada.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{45 kg}\\)</span></p>\n",
+          "md": "$\\pu{45 kg}$",
+          "tex": "\\(\\qty{45}{\\unit{kg}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4235,14 +4371,20 @@
     {
       "id_": "3D40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D40/3D40.md",
-      "date": "2023-01-20T22:43:22.367537",
+      "date": "2023-01-21T01:14:10.137625",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma corrente líquida de vazão <span class=\"math inline\">\\(\\pu{20\nkg.h-1}\\)</span> e composição percentual mássica de <span class=\"math inline\">\\(\\pu{60}\\%\\)</span> de óleo e <span class=\"math inline\">\\(\\pu{40}\\%\\)</span> de água é continuamente\nseparada em duas correntes, uma com <span class=\"math inline\">\\(\\pu{95,4}\\%\\)</span> e outra com <span class=\"math inline\">\\(\\pu{1}\\%\\)</span> de óleo.</p>\n<p><strong>Determine</strong> vazão mássica da corrente com menor\nconcentração de óleo.</p>",
+        "md": "Uma corrente líquida de vazão $\\pu{20 kg.h-1}$ e composição percentual\nmássica de $\\pu{60}\\%$ de óleo e $\\pu{40}\\%$ de água é continuamente\nseparada em duas correntes, uma com $\\pu{95,4}\\%$ e outra com $\\pu{1}\\%$\nde óleo.\n\n**Determine** vazão mássica da corrente com menor concentração de óleo.\n",
+        "tex": "Uma corrente líquida de vazão {\\(\\qty{20}{\\unit{kg.h^{-1}}}\\)} e composição percentual mássica de {\\(\\num{60}\\%\\)} de óleo e {\\(\\num{40}\\%\\)} de água\né continuamente separada em duas correntes, uma com {\\(\\num{95,4}\\%\\)} e outra com {\\(\\num{1}\\%\\)} de óleo.\n\n\\textbf{Determine} vazão mássica da corrente com menor concentração de óleo.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7,5 kg.h-1}\\)</span></p>\n",
+          "md": "$\\pu{7,5 kg.h-1}$",
+          "tex": "\\(\\qty{7,5}{\\unit{kg.h^{-1}}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -4291,14 +4433,20 @@
     {
       "id_": "3D32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D32/3D32.md",
-      "date": "2023-01-20T22:43:22.347538",
+      "date": "2023-01-21T00:56:01.382770",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Deseja-se preparar <span class=\"math inline\">\\(\\pu{500 mL}\\)</span>\nde uma solução aquosa <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>. Para isso, dispõe-se de uma\nsolução <span class=\"math inline\">\\(\\pu{0,3 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span> e uma solução <span class=\"math inline\">\\(\\pu{0,05 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>.</p>\n<p><strong>Determine</strong> o volume das soluções-estoque de <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span> necessários para preparar a\nsolução desejada.</p>",
+        "md": "Deseja-se preparar $\\pu{500 mL}$ de uma solução aquosa\n$\\pu{0,1 mol.L-1}$ de nitrato de prata, $\\ce{AgNO3}$. Para isso,\ndispõe-se de uma solução $\\pu{0,3 mol.L-1}$ de $\\ce{AgNO3}$ e uma\nsolução $\\pu{0,05 mol.L-1}$ de $\\ce{AgNO3}$.\n\n**Determine** o volume das soluções-estoque de $\\ce{AgNO3}$ necessários\npara preparar a solução desejada.\n",
+        "tex": "Deseja-se preparar {\\(\\qty{500}{\\unit{mL}}\\)} de uma solução aquosa {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de nitrato de prata, {\\(\\ce{AgNO3}\\)}. Para\nisso, dispõe-se de uma solução {\\(\\qty{0,3}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{AgNO3}\\)} e uma solução {\\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\)} de\n{\\(\\ce{AgNO3}\\)}.\n\n\\textbf{Determine} o volume das soluções-estoque de {\\(\\ce{AgNO3}\\)} necessários para preparar a solução desejada.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{100 mL}\\)</span> da solução <span\nclass=\"math inline\">\\(\\pu{0,3 mol.L-1}\\)</span> e <span\nclass=\"math inline\">\\(\\pu{400 mL}\\)</span> da solução <span\nclass=\"math inline\">\\(\\pu{0,05 mol.L-1}\\)</span>.</p>\n",
+          "md": "$\\pu{100 mL}$ da solução $\\pu{0,3 mol.L-1}$ e $\\pu{400 mL}$ da solução $\\pu{0,05 mol.L-1}$.",
+          "tex": "\\(\\qty{100}{\\unit{mL}}\\) da solução \\(\\qty{0,3}{\\unit{mol.L^{-1}}}\\) e \\(\\qty{400}{\\unit{mL}}\\) da solução \\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\).\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -13641,7 +13789,7 @@
     {
       "id_": "2D40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2D/2D40/2D40.md",
-      "date": "2023-01-19T21:18:43.335696",
+      "date": "2023-01-21T01:12:48.769562",
       "statement": {
         "html": "<p>Uma solução é preparada pela mistura de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de tetracloreto de carbono,\n<span class=\"math inline\">\\(\\ce{CCl4}\\)</span>, e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de benzeno, <span class=\"math inline\">\\(\\ce{C6H6}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<table>\n<colgroup>\n<col style=\"width: 41%\"/>\n<col style=\"width: 14%\"/>\n<col style=\"width: 14%\"/>\n<col style=\"width: 14%\"/>\n<col style=\"width: 14%\"/>\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\ce{C6H6(l)}\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\ce{C6H6(g)}\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\ce{CCl4(l)}\\)</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">\\(\\ce{CCl4(g)}\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td><span class=\"math inline\">\\(\\Delta\nG_\\mathrm{f}^\\circ/\\pu{kJ//mol}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\pu{+124,5}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\pu{+129,6}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\pu{-65,2}\\)</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\(\\pu{-60,6}\\)</span></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Determine</strong> a fração de benzeno no vapor.</p>",
         "md": "Uma solução é preparada pela mistura de $\\pu{1 mol}$ de tetracloreto de\ncarbono, $\\ce{CCl4}$, e $\\pu{1 mol}$ de benzeno, $\\ce{C6H6}$ em\n$\\pu{25 \\degree C}$.\n\n|                                          | $\\ce{C6H6(l)}$ | $\\ce{C6H6(g)}$ | $\\ce{CCl4(l)}$ | $\\ce{CCl4(g)}$ |\n|-----------------------------|:---------:|:---------:|:---------:|:---------:|\n| $\\Delta G_\\mathrm{f}^\\circ/\\pu{kJ//mol}$ | $\\pu{+124,5}$  | $\\pu{+129,6}$  |  $\\pu{-65,2}$  |  $\\pu{-60,6}$  |\n\n**Determine** a fração de benzeno no vapor.\n",

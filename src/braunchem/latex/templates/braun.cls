@@ -1058,7 +1058,7 @@
     after-item-skip = 2\itemsep,
     label-width = 1.2em,
     label-align = right,
-    label-offset = 1em,
+    label-offset = 0.8em,
   ] 
   { choices } [\item ]
 
@@ -1130,7 +1130,7 @@
 
     \fp_set:Nn \l_tmpb_fp % tamanho útil
       { 
-        0.7 * \dim_to_decimal:n {\columnwidth}
+        0.8 * \dim_to_decimal:n {\columnwidth}
       }
 
     \int_set:Nn \l_tmpa_int % número de colunas
