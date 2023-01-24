@@ -1130,7 +1130,7 @@
 
     \fp_set:Nn \l_tmpb_fp % tamanho útil
       { 
-        0.8 * \dim_to_decimal:n {\columnwidth}
+        0.7 * \dim_to_decimal:n {\columnwidth}
       }
 
     \int_set:Nn \l_tmpa_int % número de colunas
