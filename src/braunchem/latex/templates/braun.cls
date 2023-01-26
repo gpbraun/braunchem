@@ -383,8 +383,15 @@
 
 \AtBeginDocument 
   {
-    \usepgfplotslibrary{groupplots, fillbetween}
-    \usetikzlibrary{shapes.geometric, calc}
+    \usepgfplotslibrary{ groupplots, fillbetween }
+    \usetikzlibrary
+      {
+        calc,
+        shapes.geometric, 
+        decorations.pathreplacing,
+        decorations.markings,
+        arrows.meta,
+      }
   }
 
 %============================================================%
