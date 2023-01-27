@@ -429,7 +429,14 @@
 \definecolor { gray-700 } { HTML } { 495057 } 
 \definecolor { gray-800 } { HTML } { 343a40 } 
 \definecolor { gray-900 } { HTML } { 212529 } 
- 
+
+% CORES DOS BLOCOS
+\colorlet{ s-block } { blue   }
+\colorlet{ p-block } { yellow }
+\colorlet{ d-block } { red    }
+\colorlet{ f-block } { purple }
+
+
 % CORES EM GRÁFICOS
 \pgfplotscreateplotcyclelist { braun-pallet }
   {
@@ -527,14 +534,14 @@
   }
 
 \ihead 
-    [ \tl_use:N \l_braun_page_title_ihead_tl ] 
-    { \tl_use:N \l_braun_page_ihead_tl       }
+  [ \tl_use:N \l_braun_page_title_ihead_tl ] 
+  { \tl_use:N \l_braun_page_ihead_tl       }
 \chead
-    [ \tl_use:N \l_braun_page_title_chead_tl ]
-    { \tl_use:N   \l_braun_page_chead_tl     }
+  [ \tl_use:N \l_braun_page_title_chead_tl ]
+  { \tl_use:N   \l_braun_page_chead_tl     }
 \ohead 
-    [ \tl_use:N \l_braun_page_title_ohead_tl ] 
-    { \tl_use:N \l_braun_page_ohead_tl       }
+  [ \tl_use:N \l_braun_page_title_ohead_tl ] 
+  { \tl_use:N \l_braun_page_ohead_tl       }
 
 %============================================================%
 %   FOOTER

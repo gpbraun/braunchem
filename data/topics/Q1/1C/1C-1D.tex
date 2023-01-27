@@ -1,0 +1,141 @@
+\begin{tikzpicture}
+  \def\sep{2pt} % Node distance
+  \tikzset
+    {
+      element/.style = 
+        {
+          rectangle,
+          rounded corners = 2pt,
+          thick,
+          fill = #1!15,
+          draw = #1,
+          minimum size = 2.8em,
+          align = center,
+        },
+    }  
+  % GRUPO 1
+  \node (Li) [element = cyan] 
+    { \ce{Li} \\ \num{519} };
+  \node (Na) [element = blue, anchor = north, yshift = -\sep] at (Li.south) 
+    { \ce{Na} \\ \num{494} };
+  \node (K) [element = blue, anchor = north, yshift = -\sep] at (Na.south) 
+    { \ce{K} \\ \num{418} };
+  \node (Rb) [element = blue, anchor = north, yshift = -\sep] at (K.south) 
+    { \ce{Rb} \\ \num{402} };
+  \node (Cs) [element = blue, anchor = north, yshift = -\sep] at (Rb.south) 
+    { \ce{Cs} \\ \num{376} };
+
+  % GRUPO 2
+  \node (Be) [element = cyan, anchor = west, xshift = \sep] at (Li.east) 
+    { \ce{Be} \\ \num{900} };
+  \node (Mg) [element = cyan, anchor = north, yshift = -\sep] at (Be.south) 
+    { \ce{Mg} \\ \num{736} };
+  \node (Ca) [element = cyan, anchor = north, yshift = -\sep] at (Mg.south) 
+    { \ce{Ca} \\ \num{590} };
+  \node (Sr) [element = cyan, anchor = north, yshift = -\sep] at (Ca.south) 
+    { \ce{Sr} \\ \num{548} };
+  \node (Ba) [element = cyan, anchor = north, yshift = -\sep] at (Sr.south) 
+    { \ce{Ba} \\ \num{502} };
+
+  % GRUPO 13
+  \node (B) [element = cyan, anchor = west, xshift = \sep] at (Be.east) 
+    { \ce{B} \\ \num{799} };
+  \node (Al) [element = cyan, anchor = north, yshift = -\sep] at (B.south) 
+    { \ce{Al} \\ \num{577} };
+  \node (Ga) [element = cyan, anchor = north, yshift = -\sep] at (Al.south) 
+    { \ce{Ga} \\ \num{577} };
+  \node (In) [element = cyan, anchor = north, yshift = -\sep] at (Ga.south) 
+    { \ce{In} \\ \num{556} };
+  \node (Tl) [element = cyan, anchor = north, yshift = -\sep] at (In.south) 
+    { \ce{Tl} \\ \num{590} };
+
+  % GRUPO 14
+  \node (C) [element = lime, anchor = west, xshift = \sep] at (B.east) 
+    { \ce{C} \\ \num{1090} };
+  \node (Si) [element = cyan, anchor = north, yshift = -\sep] at (C.south) 
+    { \ce{Si} \\ \num{786} };
+  \node (Ge) [element = cyan, anchor = north, yshift = -\sep] at (Si.south) 
+    { \ce{Ge} \\ \num{784} };
+  \node (Sn) [element = cyan, anchor = north, yshift = -\sep] at (Ge.south) 
+    { \ce{Sn} \\ \num{707} };
+  \node (Pb) [element = cyan, anchor = north, yshift = -\sep] at (Sn.south) 
+    { \ce{Pb} \\ \num{716} };
+
+  % GRUPO 15
+  \node (N) [element = lime, anchor = west, xshift = \sep] at (C.east) 
+    { \ce{N} \\ \num{1400} };
+  \node (P) [element = lime, anchor = north, yshift = -\sep] at (N.south) 
+    { \ce{P} \\ \num{1011} };
+  \node (As) [element = cyan, anchor = north, yshift = -\sep] at (P.south) 
+    { \ce{As} \\ \num{947} };
+  \node (Sb) [element = cyan, anchor = north, yshift = -\sep] at (As.south) 
+    { \ce{Sb} \\ \num{834} };
+  \node (Bi) [element = cyan, anchor = north, yshift = -\sep] at (Sb.south) 
+    { \ce{Bi} \\ \num{703} };
+
+  % GRUPO 16
+  \node (O) [element = lime, anchor = west, xshift = \sep] at (N.east) 
+    { \ce{O} \\ \num{1310} };
+  \node (S) [element = lime, anchor = north, yshift = -\sep] at (O.south) 
+    { \ce{S} \\ \num{1000} };
+  \node (Se) [element = cyan, anchor = north, yshift = -\sep] at (S.south) 
+    { \ce{Se} \\ \num{941} };
+  \node (Te) [element = cyan, anchor = north, yshift = -\sep] at (Se.south) 
+    { \ce{Te} \\ \num{870} };
+  \node (Po) [element = cyan, anchor = north, yshift = -\sep] at (Te.south) 
+    { \ce{Po} \\ \num{812} };
+
+  % GRUPO 17
+  \node (F) [element = yellow, anchor = west, xshift = \sep] at (O.east) 
+    { \ce{F} \\ \num{1680} };
+  \node (Cl) [element = lime, anchor = north, yshift = -\sep] at (F.south) 
+    { \ce{Cl} \\ \num{1255} };
+  \node (Br) [element = lime, anchor = north, yshift = -\sep] at (Cl.south) 
+    { \ce{Br} \\ \num{1140} };
+  \node (I) [element = lime, anchor = north, yshift = -\sep] at (Br.south) 
+    { \ce{I} \\ \num{1008} };
+  \node (At) [element = lime, anchor = north, yshift = -\sep] at (I.south) 
+    { \ce{At} \\ \num{1037} };
+
+  % GRUPO 18
+  \node (Ne) [element = red, anchor = west, xshift = \sep] at (F.east) 
+    { \ce{Ne} \\ \num{2080} };
+  \node (Ar) [element = yellow, anchor = north, yshift = -\sep] at (Ne.south) 
+    { \ce{Ar} \\ \num{1255} };
+  \node (Kr) [element = yellow, anchor = north, yshift = -\sep] at (Ar.south) 
+    { \ce{Kr} \\ \num{1140} };
+  \node (Xe) [element = lime, anchor = north, yshift = -\sep] at (Kr.south) 
+    { \ce{Xe} \\ \num{1008} };
+  \node (Rn) [element = lime, anchor = north, yshift = -\sep] at (Xe.south) 
+    { \ce{Rn} \\ \num{1037} };
+
+  % PRIMEIRO PERÍODO
+  \node (H) [element = lime, anchor = south, yshift = \sep] at (Li.north) 
+    { \ce{H} \\ \num{1310} };
+  \node (He) [element = red, anchor = south, yshift = \sep] at (Ne.north) 
+    { \ce{He} \\ \num{2370} };
+  
+  % LABELS GRUPO
+  \begin{scope}[anchor = south]
+    \node at (B.north)  {13};
+    \node at (H.north)  {1};
+    \node at (Be.north) {2};
+    \node at (C.north)  {14};
+    \node at (N.north)  {15};
+    \node at (O.north)  {16};
+    \node at (F.north)  {17};
+    \node at (He.north) {18};
+  \end{scope}
+
+  % LABELS PERÍODO
+  \begin{scope}[anchor = east]
+    \node at (H.west)  {1};
+    \node at (Li.west) {2};
+    \node at (Na.west) {3};
+    \node at (K.west)  {4};
+    \node at (Rb.west) {5};
+    \node at (Cs.west) {6};
+  \end{scope}
+    
+\end{tikzpicture}
+  

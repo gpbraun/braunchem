@@ -10,10 +10,6 @@
                     draw = #1,
                     minimum size = 2.2em,
                 },
-            s-orbital/.style = {orbital = blue},
-            p-orbital/.style = {orbital = orange},
-            d-orbital/.style = {orbital = red},
-            f-orbital/.style = {orbital = purple},
             % Arrow color
             arrcol/.style={black!50},
             % No arrow
@@ -48,21 +44,21 @@
               }
         }  
     \path (0,0)
-        node[s-orbital] (1-s) {$1s$} 
+        node[orbital=s-block] (1-s) {$1s$} 
         \foreach \i in {2,...,7}
-            {--++ (0,-\d) node[s-orbital] (\i-s) {$\i \mathrm{s}$} coordinate[midway](\i-1)};
+            {--++ (0,-\d) node[orbital=s-block] (\i-s) {$\i s$} coordinate[midway](\i-1)};
     \path (\d,-\d)
-        node[p-orbital] (2-p) {$2p$} 
+        node[orbital=p-block] (2-p) {$2p$} 
         \foreach \i in {3,...,7}
-            {--++ (0,-\d) node[p-orbital] (\i-p) {$\i \mathrm{p}$} coordinate[midway](\i-2)};
+            {--++ (0,-\d) node[orbital=p-block] (\i-p) {$\i p$} coordinate[midway](\i-2)};
     \path (2*\d,-2*\d)
-        node[d-orbital] (3-d) {$3d$} 
+        node[orbital=d-block] (3-d) {$3d$} 
         \foreach \i in {4,...,6}
-            {--++ (0,-\d) node[d-orbital] (\i-d) {$\i \mathrm{d}$} coordinate[midway](\i-3)};
+            {--++ (0,-\d) node[orbital=d-block] (\i-d) {$\i d$} coordinate[midway](\i-3)};
     \path (3*\d,-3*\d)
-        node[f-orbital] (4-f) {$4f$} 
+        node[orbital=f-block] (4-f) {$4f$} 
         \foreach \i in {5}
-            {--++ (0,-\d) node[f-orbital] (\i-f) {$\i \mathrm{f}$} coordinate[midway](\i-4)};
+            {--++ (0,-\d) node[orbital=f-block] (\i-f) {$\i f$} coordinate[midway](\i-4)};
     
     
     \path (7-s) --++ (0,-.5*\d) coordinate (8-1);
@@ -114,3 +110,4 @@
         (6-d) edge [narr] (7-p);
     \draw[narr,-{Stealth[scale=1]}] (7-p) --++ (-1,-1); 
 \end{tikzpicture}
+
