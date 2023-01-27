@@ -1,0 +1,178 @@
+\begin{tikzpicture}
+  \begin{axis}
+    [
+      grid = none,
+      ylabel = {Raio atômico, $r/\unit{pm}$},
+      xlabel = {Número atômico, $Z$},
+      % ymin=0, ymax=300,
+      xtick = \empty,
+    ]
+    %% SEGUNDO PERÍODO
+    % bloco s
+    \node [anchor = south west] at (axis cs:03, 152) { Li };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (03, 167) % Li
+        (04, 112) % Be
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      { 
+        (04, 112) % Be
+        (05, 87) % B
+        (06, 67) % C
+        (07, 56) % N
+        (08, 48) % O
+        (09, 42) % F
+      };
+    \node [anchor = south west] at (axis cs:09, 42) { F };
+  
+    %% TERCEIRO PERÍODO
+    % bloco s
+    \node [anchor = south west] at (axis cs:10, 190) { Na };
+    \addplot [ color=s-block ] coordinates
+      { 
+          (11, 190) % Na
+          (12, 145) % Mg
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (12, 145) % Mg
+        (13, 118) % Al
+        (14, 111) % Si
+        (15, 98) % P
+        (16, 88) % S
+        (17, 79) % Cl
+      };
+    \node [anchor = south west] at (axis cs:17, 79) { Cl };
+  
+    %% QUARTO PERÍODO
+    % bloco s
+    \node [anchor = south west] at (axis cs:19, 243) { K };
+    \addplot [ color=s-block ] coordinates
+        { 
+          (19, 243) % K
+          (20, 194) % Ca
+        };
+    % bloco d
+    \addplot [ color=d-block ] coordinates
+      {
+        (20, 194) % Ca
+        (21, 184) % Sc
+        (22, 176) % Ti
+        (23, 171) % V
+        (24, 166) % Cr
+        (25, 161) % Mn
+        (26, 156) % Fe
+        (27, 152) % Co
+        (28, 149) % Ni
+        (29, 145) % Cu
+        (30, 142) % Zn
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (30, 142) % Zn
+        (31, 136) % Ga
+        (32, 125) % Ge
+        (33, 114) % As
+        (34, 103) % Se
+        (35, 94) % Br
+      };
+    \node [anchor = south west] at (axis cs:35, 94) { Br };
+  
+    %% QUINTO PERÍODO
+    % bloco s
+    \node [anchor = south west] at (axis cs:37, 265) { Rb };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (37, 265) % Rb
+        (38, 219) % Sr
+      };
+    % bloco d
+    \addplot [ color=d-block ] coordinates
+      {
+        (38, 219) % Sr
+        (39, 212) % Y
+        (40, 206) % Zr
+        (41, 198) % Nb
+        (42, 190) % Mo
+        (43, 183) % Tc
+        (44, 178) % Ru
+        (45, 173) % Rh
+        (46, 169) % Pd
+        (47, 165) % Ag
+        (48, 161) % Cd
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (48, 161) % Cd
+        (49, 156) % In
+        (50, 145) % Sn
+        (51, 133) % Sb
+        (52, 123) % Te
+        (53, 115) % I
+      };
+    \node [anchor = south west] at (axis cs:53, 115) { I };
+  
+    %% SEXTO PERÍODO
+    % bloco s
+    \node [anchor = south west] at (axis cs:55, 298) { Cs };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (55, 298) % Cs
+        (56, 253) % Ba
+      };
+    % bloco f
+    \addplot [ color=f-block ] coordinates
+      {
+        (56, 253) % Ba
+        (57, 247) % La
+        (58, 247) % Ce
+        (59, 247) % Pr
+        (60, 206) % Nd
+        (61, 205) % Pm
+        (62, 238) % Sm
+        (63, 231) % Eu
+        (64, 233) % Gd
+        (65, 225) % Tb
+        (66, 228) % Dy
+        (67, 226) % Ho
+        (68, 226) % Er
+        (69, 222) % Tm
+        (70, 222) % Yb
+      };
+    % bloco d
+    \addplot [ color=d-block ] coordinates
+      {
+        (70, 222) % Yb
+        (71, 217) % Lu
+        (72, 208) % Hf
+        (73, 200) % Ta
+        (74, 193) % W
+        (75, 188) % Re
+        (76, 185) % Os
+        (77, 180) % Ir
+        (78, 177) % Pt
+        (79, 174) % Au
+        (80, 171) % Hg
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (80, 171) % Hg
+        (81, 156) % Tl
+        (82, 156) % Pb
+        (83, 143) % Bi
+        (84, 135) % Po
+        (85, 127) % At
+      };
+    \node [anchor = north east] at (axis cs:85, 127) { At };
+  \end{axis}
+\end{tikzpicture}
+  
+  
+  
+    

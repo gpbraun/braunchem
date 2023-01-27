@@ -114,28 +114,24 @@
     { \ce{H} \\ \num{1310} };
   \node (He) [element = red, anchor = south, yshift = \sep] at (Ne.north) 
     { \ce{He} \\ \num{2370} };
-  
+
   % LABELS GRUPO
-  \begin{scope}[anchor = south]
-    \node at (B.north)  {13};
-    \node at (H.north)  {1};
-    \node at (Be.north) {2};
-    \node at (C.north)  {14};
-    \node at (N.north)  {15};
-    \node at (O.north)  {16};
-    \node at (F.north)  {17};
-    \node at (He.north) {18};
-  \end{scope}
+  \node [anchor = south] at (H.north)  {1};
+  \node [anchor = south] at (Be.north) {2};
+  \node [anchor = south] at (B.north)  {13};
+  \node [anchor = south] at (C.north)  {14};
+  \node [anchor = south] at (N.north)  {15};
+  \node [anchor = south] at (O.north)  {16};
+  \node [anchor = south] at (F.north)  {17};
+  \node [anchor = south] at (He.north) {18};
 
   % LABELS PERÍODO
-  \begin{scope}[anchor = east]
-    \node at (H.west)  {1};
-    \node at (Li.west) {2};
-    \node at (Na.west) {3};
-    \node at (K.west)  {4};
-    \node at (Rb.west) {5};
-    \node at (Cs.west) {6};
-  \end{scope}
-    
-\end{tikzpicture}
+  \node [anchor = east] at (H.west)  {1};
+  \node [anchor = east] at (Li.west) {2};
+  \node [anchor = east] at (Na.west) {3};
+  \node [anchor = east] at (K.west)  {4};
+  \node [anchor = east] at (Rb.west) {5};
+  \node [anchor = east] at (Cs.west) {6};
   
+\end{tikzpicture}
+

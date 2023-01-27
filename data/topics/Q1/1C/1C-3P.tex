@@ -1,0 +1,189 @@
+\begin{tikzpicture}
+  \begin{axis}
+    [
+      grid = none,
+      ylabel = {Energia de ionização, $I_1/\unit{kJ.mol^{-1}}$},
+      xlabel = {Número atômico, $Z$},
+      xtick = \empty,
+    ]
+    %% PRIMEIRO PERÍODO
+    \node [anchor = north east] at (axis cs:01, 1312.0) { H };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (01, 1312.0) % H
+        (02, 2372.3) % He
+      };
+    \node [anchor = south west] at (axis cs:02, 2372.3) { He };
+    
+    %% SEGUNDO PERÍODO
+    % bloco s
+    \node [anchor = north east] at (axis cs:03, 520.2) { Li };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (03, 520.2) % Li
+        (04, 899.5) % Be
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      { 
+        (04, 899) % Be
+        (05, 800) % B
+        (06, 1086.5) % C
+        (07, 1402.3) % N
+        (08, 1313.9) % O
+        (09, 1681.0) % F
+        (10, 2080.7) % Ne
+      };
+    \node [anchor = south west] at (axis cs:10, 2080.7) { Ne };
+  
+    %% TERCEIRO PERÍODO
+    % bloco s
+    \node [anchor = north east] at (axis cs:11, 495.8) { Na };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (11, 495.8) % Na
+        (12, 737.7) % Mg
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (12, 737.7) % Mg
+        (13, 577.5) % Al
+        (14, 786.5) % Si
+        (15, 1011.8) % P
+        (16, 999.6) % S
+        (17, 1251.2) % Cl
+        (18, 1520.6) % Ar
+      };
+    \node [anchor = south west] at (axis cs:18, 1520.6) { Ar };
+  
+    %% QUARTO PERÍODO
+    % bloco s
+    \node [anchor = north east] at (axis cs:19, 418.8) { K };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (19, 418.8) % K
+        (20, 589.8) % Ca
+      };
+    % bloco d
+    \addplot [ color=d-block ] coordinates
+      {
+        (20, 589.8) % Ca
+        (21, 633.1) % Sc
+        (22, 658.8) % Ti
+        (23, 650.9) % V
+        (24, 652.9) % Cr
+        (25, 717.3) % Mn
+        (26, 762.5) % Fe
+        (27, 760.4) % Co
+        (28, 737.1) % Ni
+        (29, 745.5) % Cu
+        (30, 906.4) % Zn
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (30, 906.4) % Zn
+        (31, 578.8) % Ga
+        (32, 762) % Ge
+        (33, 947.0) % As
+        (34, 941.0) % Se
+        (35, 1139.9) % Br
+        (36, 1350.8) % Kr
+      };
+    \node [anchor = south west] at (axis cs:36, 1350.8) { Kr };
+  
+    %% QUINTO PERÍODO
+    % bloco s
+    \node [anchor = north east] at (axis cs:37, 403.0) { Rb };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (37, 403.0) % Rb
+        (38, 549.5) % Sr
+      };
+    % bloco d
+    \addplot [ color=d-block ] coordinates
+      {
+        (38, 549.5) % Sr
+        (39, 600) % Y
+        (40, 640.1) % Zr
+        (41, 652.1) % Nb
+        (42, 684.3) % Mo
+        (43, 702) % Tc
+        (44, 710.2) % Ru
+        (45, 719.7) % Rh
+        (46, 804.4) % Pd
+        (47, 731.0) % Ag
+        (48, 867.8) % Cd
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (48, 867.8) % Cd
+        (49, 558.3) % In
+        (50, 708.6) % Sn
+        (51, 834) % Sb
+        (52, 869.3) % Te
+        (53, 1008.4) % I
+        (54, 1008.4) % Xe
+      };
+    \node [anchor = south west] at (axis cs:54, 1008.4) { Xe };
+  
+    %% SEXTO PERÍODO
+    % bloco s
+    \node [anchor = north east] at (axis cs:55, 375.7) { Cs };
+    \addplot [ color=s-block ] coordinates
+      { 
+        (55, 375.7) % Cs
+        (56, 502.9) % Ba
+      };
+    % bloco f
+    \addplot [ color=f-block ] coordinates
+      {
+        (56, 502.9) % Ba
+        (57, 538.1) % La
+        (58, 534.4) % Ce
+        (59, 527) % Pr
+        (60, 533.1) % Nd
+        (61, 540) % Pm
+        (62, 544.5) % Sm
+        (63, 547.1) % Eu
+        (64, 593.4) % Gd
+        (65, 565.8) % Tb
+        (66, 573.0) % Dy
+        (67, 581.0) % Ho
+        (68, 589.3) % Er
+        (69, 596.7) % Tm
+        (70, 603.4) % Yb
+      };
+    % bloco d
+    \addplot [ color=d-block ] coordinates
+      {
+        (70, 603.4) % Yb
+        (71, 523.5) % Lu
+        (72, 658.5) % Hf
+        (73, 761) % Ta
+        (74, 770) % W
+        (75, 760) % Re
+        (76, 840) % Os
+        (77, 880) % Ir
+        (78, 870) % Pt
+        (79, 890.1) % Au
+        (80, 1007.1) % Hg
+      };
+    % bloco p
+    \addplot [ color=p-block ] coordinates
+      {
+        (80, 1007.1) % Hg
+        (81, 589.4) % Tl
+        (82, 715.6) % Pb
+        (83, 703) % Bi
+        (84, 812.1) % Po
+        (85, 890) % At
+        (86, 1037) % Rn
+      };
+    \node [anchor = south] at (axis cs:86, 1037) { At };
+  \end{axis}
+\end{tikzpicture}
+      
+      

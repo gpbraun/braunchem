@@ -7,18 +7,21 @@
           rectangle,
           rounded corners = 2pt,
           thick,
-          fill = black!7,
           draw = black!75,
           minimum size = 2.8em,
         },
-      atom-radius/.style = 
-        {
+      cation-radius/.style = 
+        { 
           nearly transparent, 
-          fill = #1,
-          ball color = #1,
+          fill = red,
+          ball color = orange,
         },
-      cation-radius/.style = { atom-radius = red },
-      anion-radius/.style = { atom-radius = green },
+      anion-radius/.style = 
+        { 
+          nearly transparent, 
+          fill = green,
+          ball color = lime,
+        },
     }  
 
   \begin{scope}[every node/.style = {element}]
@@ -128,38 +131,38 @@
 
   % LABELS ÁTOMOS
   \begin{scope}[align = center]
-    \node at (Li) { \ce{Li} \\ \num{152} };
-    \node at (Na) { \ce{Na} \\ \num{164} };
-    \node at (K)  { \ce{K}  \\ \num{227} };
-    \node at (Rb) { \ce{Rb} \\ \num{248} };
-    \node at (Cs) { \ce{Cs} \\ \num{265} };
+    \node at (Li) { \ce{Li^+} \\ \num{76} };
+    \node at (Na) { \ce{Na^+} \\ \num{102} };
+    \node at (K)  { \ce{K^+}  \\ \num{138} };
+    \node at (Rb) { \ce{Rb^+} \\ \num{152} };
+    \node at (Cs) { \ce{Cs^+} \\ \num{167} };
 
-    \node at (Be) { \ce{Be} \\ \num{113} };
-    \node at (Mg) { \ce{Mg} \\ \num{160} };
-    \node at (Ca) { \ce{Ca} \\ \num{197} };
-    \node at (Sr) { \ce{Sr} \\ \num{215} };
-    \node at (Ba) { \ce{Ba} \\ \num{217} };
+    \node at (Be) { \ce{Be^{2+}} \\ \num{45} };
+    \node at (Mg) { \ce{Mg^{2+}} \\ \num{72} };
+    \node at (Ca) { \ce{Ca^{2+}} \\ \num{100} };
+    \node at (Sr) { \ce{Sr^{2+}} \\ \num{118} };
+    \node at (Ba) { \ce{Ba^{2+}} \\ \num{135} };
 
-    \node at (B)  { \ce{B}  \\ \num{83} };
-    \node at (Al) { \ce{Al} \\ \num{143} };
-    \node at (Ga) { \ce{Ga} \\ \num{122} };
-    \node at (In) { \ce{In} \\ \num{163} };
-    \node at (Tl) { \ce{Tl} \\ \num{170} };
+    \node at (B)  { \ce{B^{3+}}  \\ \num{23} };
+    \node at (Al) { \ce{Al^{3+}} \\ \num{54} };
+    \node at (Ga) { \ce{Ga^{3+}} \\ \num{62} };
+    \node at (In) { \ce{In^{3+}} \\ \num{80} };
+    \node at (Tl) { \ce{Tl^{3+}} \\ \num{89} };
 
-    \node at (N)  { \ce{N}  \\ \num{75} };
-    \node at (P)  { \ce{P}  \\ \num{110} };
-    \node at (As) { \ce{As} \\ \num{121} };
+    \node at (N)  { \ce{N^{3-}}  \\ \num{171} };
+    \node at (P)  { \ce{P^{3-}}  \\ \num{212} };
+    \node at (As) { \ce{As^{3-}} \\ \num{222} };
 
-    \node at (O)  { \ce{O}  \\ \num{66} };
-    \node at (S)  { \ce{S}  \\ \num{104} };
-    \node at (Se) { \ce{Se} \\ \num{117} };
-    \node at (Te) { \ce{Te} \\ \num{137} };
+    \node at (O)  { \ce{O^{2-}}  \\ \num{140} };
+    \node at (S)  { \ce{S^{2-}}  \\ \num{184} };
+    \node at (Se) { \ce{Se^{2-}} \\ \num{198} };
+    \node at (Te) { \ce{Te^{2-}} \\ \num{221} };
     
 
-    \node at (F)  { \ce{F}  \\ \num{71} };
-    \node at (Cl) { \ce{Cl} \\ \num{99} };
-    \node at (Br) { \ce{Br} \\ \num{114} };
-    \node at (I)  { \ce{I}  \\ \num{133} };
+    \node at (F)  { \ce{F^-}  \\ \num{133} };
+    \node at (Cl) { \ce{Cl^-} \\ \num{181} };
+    \node at (Br) { \ce{Br^-} \\ \num{196} };
+    \node at (I)  { \ce{I^-}  \\ \num{220} };
   \end{scope}
 
   % ÁTOMOS SEM RAIO IÔNICO
@@ -179,5 +182,4 @@
   \end{scope}
 
 \end{tikzpicture}
-  
   

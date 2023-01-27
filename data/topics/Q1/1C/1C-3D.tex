@@ -7,15 +7,14 @@
           rectangle,
           rounded corners = 2pt,
           thick,
-          fill = black!7,
           draw = black!75,
           minimum size = 2.8em,
         },
       atom-radius/.style = 
         {
           nearly transparent, 
-          fill = blue!50,
-          ball color = blue,
+          fill = blue,
+          ball color = cyan,
         },
     }  
 
@@ -71,46 +70,47 @@
   \end{scope}
 
   % RAIOS ATÔMICOS
-  \fill [atom-radius] (Li) circle (15.2bp);
-  \fill [atom-radius] (Na) circle (16.4bp);
-  \fill [atom-radius] (K)  circle (22.7bp);
-  \fill [atom-radius] (Rb) circle (24.8bp);
-  \fill [atom-radius] (Cs) circle (26.5bp);
+  \fill [atom-radius] (Li) circle (16.7bp);
+  \fill [atom-radius] (Na) circle (19.0bp);
+  \fill [atom-radius] (K)  circle (24.3bp);
+  \fill [atom-radius] (Rb) circle (26.5bp);
+  \fill [atom-radius] (Cs) circle (29.8bp);
 
-  \fill [atom-radius] (Be) circle (11.3bp);
-  \fill [atom-radius] (Mg) circle (16.0bp);
-  \fill [atom-radius] (Ca) circle (19.7bp);
-  \fill [atom-radius] (Sr) circle (21.5bp);
-  \fill [atom-radius] (Ba) circle (21.7bp);
+  \fill [atom-radius] (Be) circle (11.2bp);
+  \fill [atom-radius] (Mg) circle (14.5bp);
+  \fill [atom-radius] (Ca) circle (19.4bp);
+  \fill [atom-radius] (Sr) circle (21.9bp);
+  \fill [atom-radius] (Ba) circle (25.3bp);
 
-  \fill [atom-radius] (B)  circle (8.3bp);
-  \fill [atom-radius] (Al) circle (14.3bp);
-  \fill [atom-radius] (Ga) circle (12.2bp);
-  \fill [atom-radius] (In) circle (16.3bp);
-  \fill [atom-radius] (Tl) circle (17.0bp);
+  \fill [atom-radius] (B)  circle (8.7bp);
+  \fill [atom-radius] (Al) circle (11.8bp);
+  \fill [atom-radius] (Ga) circle (13.6bp);
+  \fill [atom-radius] (In) circle (15.6bp);
+  \fill [atom-radius] (Tl) circle (15.6bp);
 
-  \fill [atom-radius] (C)  circle (7.7bp);
-  \fill [atom-radius] (Si) circle (11.7bp);
-  \fill [atom-radius] (Ge) circle (12.2bp);
-  \fill [atom-radius] (Sn) circle (14.1bp);
-  \fill [atom-radius] (Pb) circle (17.5bp);
+  \fill [atom-radius] (C)  circle (6.7bp);
+  \fill [atom-radius] (Si) circle (11.1bp);
+  \fill [atom-radius] (Ge) circle (12.5bp);
+  \fill [atom-radius] (Sn) circle (14.5bp);
+  \fill [atom-radius] (Pb) circle (15.4bp);
 
-  \fill [atom-radius] (N)  circle (7.5bp);
-  \fill [atom-radius] (P)  circle (11.0bp);
-  \fill [atom-radius] (As) circle (12.1bp);
-  \fill [atom-radius] (Sb) circle (14.1bp);
-  \fill [atom-radius] (Bi) circle (15.5bp);
+  \fill [atom-radius] (N)  circle (5.6bp);
+  \fill [atom-radius] (P)  circle (9.9bp);
+  \fill [atom-radius] (As) circle (11.4bp);
+  \fill [atom-radius] (Sb) circle (13.3bp);
+  \fill [atom-radius] (Bi) circle (14.3bp);
 
-  \fill [atom-radius] (O)  circle (6.6bp);
-  \fill [atom-radius] (S)  circle (10.4bp);
-  \fill [atom-radius] (Se) circle (11.7bp);
-  \fill [atom-radius] (Te) circle (13.7bp);
-  \fill [atom-radius] (Po) circle (16.7bp);
+  \fill [atom-radius] (O)  circle (4.8bp);
+  \fill [atom-radius] (S)  circle (8.8bp);
+  \fill [atom-radius] (Se) circle (10.3bp);
+  \fill [atom-radius] (Te) circle (12.3bp);
+  \fill [atom-radius] (Po) circle (13.5bp);
   
-  \fill [atom-radius] (F)  circle (7.1bp);
-  \fill [atom-radius] (Cl) circle (9.9bp);
-  \fill [atom-radius] (Br) circle (11.4bp);
-  \fill [atom-radius] (I)  circle (13.3bp);
+  \fill [atom-radius] (F)  circle (4.2bp);
+  \fill [atom-radius] (Cl) circle (7.9bp);
+  \fill [atom-radius] (Br) circle (9.4bp);
+  \fill [atom-radius] (I)  circle (11.5bp);
+  \fill [atom-radius] (At) circle (12.7bp);
 
   % LABELS GRUPO
   \begin{scope}[anchor = south]
@@ -134,53 +134,48 @@
 
   % LABELS ÁTOMOS
   \begin{scope}[align = center]
-    \node at (Li) { \ce{Li} \\ \num{152} };
-    \node at (Na) { \ce{Na} \\ \num{164} };
-    \node at (K)  { \ce{K}  \\ \num{227} };
-    \node at (Rb) { \ce{Rb} \\ \num{248} };
-    \node at (Cs) { \ce{Cs} \\ \num{265} };
+    \node at (Li) { \ce{Li} \\ \num{167} };
+    \node at (Na) { \ce{Na} \\ \num{190} };
+    \node at (K)  { \ce{K}  \\ \num{243} };
+    \node at (Rb) { \ce{Rb} \\ \num{265} };
+    \node at (Cs) { \ce{Cs} \\ \num{298} };
 
-    \node at (Be) { \ce{Be} \\ \num{113} };
-    \node at (Mg) { \ce{Mg} \\ \num{160} };
-    \node at (Ca) { \ce{Ca} \\ \num{197} };
-    \node at (Sr) { \ce{Sr} \\ \num{215} };
-    \node at (Ba) { \ce{Ba} \\ \num{217} };
+    \node at (Be) { \ce{Be} \\ \num{112} };
+    \node at (Mg) { \ce{Mg} \\ \num{145} };
+    \node at (Ca) { \ce{Ca} \\ \num{194} };
+    \node at (Sr) { \ce{Sr} \\ \num{219} };
+    \node at (Ba) { \ce{Ba} \\ \num{253} };
 
-    \node at (B)  { \ce{B}  \\ \num{83} };
-    \node at (Al) { \ce{Al} \\ \num{143} };
-    \node at (Ga) { \ce{Ga} \\ \num{122} };
-    \node at (In) { \ce{In} \\ \num{163} };
-    \node at (Tl) { \ce{Tl} \\ \num{170} };
+    \node at (B)  { \ce{B}  \\ \num{87} };
+    \node at (Al) { \ce{Al} \\ \num{118} };
+    \node at (Ga) { \ce{Ga} \\ \num{136} };
+    \node at (In) { \ce{In} \\ \num{156} };
+    \node at (Tl) { \ce{Tl} \\ \num{156} };
 
-    \node at (C)  { \ce{C}  \\ \num{77} };
-    \node at (Si) { \ce{Si} \\ \num{117} };
-    \node at (Ge) { \ce{Ge} \\ \num{122} };
-    \node at (Sn) { \ce{Sn} \\ \num{141} };
-    \node at (Pb) { \ce{Pb} \\ \num{175} };
+    \node at (C)  { \ce{C}  \\ \num{67} };
+    \node at (Si) { \ce{Si} \\ \num{111} };
+    \node at (Ge) { \ce{Ge} \\ \num{125} };
+    \node at (Sn) { \ce{Sn} \\ \num{145} };
+    \node at (Pb) { \ce{Pb} \\ \num{154} };
 
-    \node at (N)  { \ce{N}  \\ \num{75} };
-    \node at (P)  { \ce{P}  \\ \num{110} };
-    \node at (As) { \ce{As} \\ \num{121} };
-    \node at (Sb) { \ce{Sb} \\ \num{141} };
-    \node at (Bi) { \ce{Bi} \\ \num{155} };
+    \node at (N)  { \ce{N}  \\ \num{56} };
+    \node at (P)  { \ce{P}  \\ \num{98} };
+    \node at (As) { \ce{As} \\ \num{114} };
+    \node at (Sb) { \ce{Sb} \\ \num{133} };
+    \node at (Bi) { \ce{Bi} \\ \num{143} };
 
-    \node at (O)  { \ce{O}  \\ \num{66} };
-    \node at (S)  { \ce{S}  \\ \num{104} };
-    \node at (Se) { \ce{Se} \\ \num{117} };
-    \node at (Te) { \ce{Te} \\ \num{137} };
-    \node at (Po) { \ce{Po} \\ \num{167} };
+    \node at (O)  { \ce{O}  \\ \num{48} };
+    \node at (S)  { \ce{S}  \\ \num{88} };
+    \node at (Se) { \ce{Se} \\ \num{103} };
+    \node at (Te) { \ce{Te} \\ \num{123} };
+    \node at (Po) { \ce{Po} \\ \num{135} };
 
-    \node at (F)  { \ce{F}  \\ \num{71} };
-    \node at (Cl) { \ce{Cl} \\ \num{99} };
-    \node at (Br) { \ce{Br} \\ \num{114} };
-    \node at (I)  { \ce{I}  \\ \num{133} };
-  \end{scope}
-
-  % ÁTOMOS SEM RAIO ATÔMICO
-  \begin{scope}[black!60]
-    \node at (At) { \ce{At} };
+    \node at (F)  { \ce{F}  \\ \num{42} };
+    \node at (Cl) { \ce{Cl} \\ \num{79} };
+    \node at (Br) { \ce{Br} \\ \num{94} };
+    \node at (I)  { \ce{I}  \\ \num{115} };
+    \node at (At) { \ce{I}  \\ \num{127} };
   \end{scope}
 
 \end{tikzpicture}
-    
-    
+  
