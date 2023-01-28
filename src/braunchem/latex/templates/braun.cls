@@ -488,7 +488,6 @@
 %   HEADER
 %============================================================%
 
-
 \keys_define:nn { braun/page/header }
   {
     sepline .choices:nn = { true, false } 
@@ -849,7 +848,6 @@
   }
 
 %% LOGOS PREDEFINIDOS
-
 \prop_const_from_keyval:Nn \l_braun_logos_prop
 	{
 		pensi = 
