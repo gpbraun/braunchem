@@ -1,0 +1,252 @@
+\begin{tikzpicture}
+  \def\sep{2pt} % Node distance
+  \tikzset
+    {
+      element/.style = 
+        {
+          rectangle,
+          rounded corners = 2pt,
+          thick,
+          fill = #1!15,
+          draw = #1,
+          minimum height = 2.2em,
+          minimum width = 2.2em,
+        },
+    }  
+
+  % BLOCO s
+  \begin{scope}[every node/.style = {element = s-block}]
+    % grupo 1
+    \node (Li) { $\mathrm{2s}$ };
+    \node (Na) [anchor = north, yshift = -\sep] at (Li.south) { $\mathrm{3s}$ };
+    \node (K)  [anchor = north, yshift = -\sep] at (Na.south) { $\mathrm{4s}$ };
+    \node (Rb) [anchor = north, yshift = -\sep] at (K.south)  { $\mathrm{5s}$ };
+    \node (Cs) [anchor = north, yshift = -\sep] at (Rb.south) { $\mathrm{6s}$ };
+    \node (Fr) [anchor = north, yshift = -\sep] at (Cs.south) { $\mathrm{7s}$ };
+
+    % grupo 2
+    \node (Be) [anchor = west,  xshift = +\sep] at (Li.east)  {};
+    \node (Mg) [anchor = north, yshift = -\sep] at (Be.south) {};
+    \node (Ca) [anchor = north, yshift = -\sep] at (Mg.south) {};
+    \node (Sr) [anchor = north, yshift = -\sep] at (Ca.south) {};
+    \node (Ba) [anchor = north, yshift = -\sep] at (Sr.south) {};
+    \node (Ra) [anchor = north, yshift = -\sep] at (Ba.south) {};
+  \end{scope}
+
+  % BLOCO d (grupo 3)
+  \begin{scope}[every node/.style = {element = d-block}]
+    % grupo 3
+    \node (Sc) [anchor = west,  xshift = +\sep] at (Ca.east)  { $\mathrm{3d}$ };
+    \node (Y)  [anchor = north, yshift = -\sep] at (Sc.south) { $\mathrm{4d}$ };
+    \node (La) [anchor = north, yshift = -\sep] at (Y.south)  { $\mathrm{5d}$ };
+    \node (Ac) [anchor = north, yshift = -\sep] at (La.south) { $\mathrm{6d}$ };
+  \end{scope}
+
+  \begin{scope}[even odd rule]
+    \clip[decorate, decoration=snake]
+      ($(La.north east) + (-1, 1)$) rectangle ($(Ac.south east) + (2, -1)$)
+      ($(La.north east) + (-1, 1) + (1.4, 0)$) rectangle ($(Ac.south east) + (2, -1) - (1, 0)$);
+    \begin{scope}[every node/.style = {element = f-block, minimum width = 1cm}]
+      \node (4f) [anchor = west, xshift = +\sep] at (La.east) {};
+      \node (5f) [anchor = west, xshift = +\sep] at (Ac.east) {};
+    \end{scope}
+  \end{scope}
+
+  % BLOCO f
+  \begin{scope}[every node/.style = {element = f-block}]    
+    % Lantanoides
+    \node (Ce) [anchor = north east, xshift = -1em, yshift = -2em] at (5f.south) { $\mathrm{4f}$ };
+    \node (Pr) [anchor = west, xshift = +\sep] at (Ce.east) {};
+    \node (Nd) [anchor = west, xshift = +\sep] at (Pr.east) {};
+    \node (Pm) [anchor = west, xshift = +\sep] at (Nd.east) {};
+    \node (Sm) [anchor = west, xshift = +\sep] at (Pm.east) {};
+    \node (Eu) [anchor = west, xshift = +\sep] at (Sm.east) {};
+    \node (Gd) [anchor = west, xshift = +\sep] at (Eu.east) {};
+    \node (Tb) [anchor = west, xshift = +\sep] at (Gd.east) {};
+    \node (Dy) [anchor = west, xshift = +\sep] at (Tb.east) {};
+    \node (Ho) [anchor = west, xshift = +\sep] at (Dy.east) {};
+    \node (Er) [anchor = west, xshift = +\sep] at (Ho.east) {};
+    \node (Tm) [anchor = west, xshift = +\sep] at (Er.east) {};
+    \node (Yb) [anchor = west, xshift = +\sep] at (Tm.east) {};
+    \node (Lu) [anchor = west, xshift = +\sep] at (Yb.east) {};
+
+    % Actinoides
+    \node (Th) [anchor = north, yshift = -\sep] at (Ce.south) { $\mathrm{5f}$ };
+    \node (Pa) [anchor = west,  xshift = +\sep] at (Th.east) {};
+    \node (U)  [anchor = west,  xshift = +\sep] at (Pa.east) {};
+    \node (Np) [anchor = west,  xshift = +\sep] at (U.east)  {};
+    \node (Pu) [anchor = west,  xshift = +\sep] at (Np.east) {};
+    \node (Am) [anchor = west,  xshift = +\sep] at (Pu.east) {};
+    \node (Cm) [anchor = west,  xshift = +\sep] at (Am.east) {};
+    \node (Bk) [anchor = west,  xshift = +\sep] at (Cm.east) {};
+    \node (Cf) [anchor = west,  xshift = +\sep] at (Bk.east) {};
+    \node (Es) [anchor = west,  xshift = +\sep] at (Cf.east) {};
+    \node (Fm) [anchor = west,  xshift = +\sep] at (Es.east) {};
+    \node (Md) [anchor = west,  xshift = +\sep] at (Fm.east) {};
+    \node (No) [anchor = west,  xshift = +\sep] at (Md.east) {};
+    \node (Lr) [anchor = west,  xshift = +\sep] at (No.east) {};
+  \end{scope}
+
+  % Linhas conectando o bloco f à tabela.
+  \begin{scope}[draw = gray, dotted, very thick]
+    \draw (5f.south west) -| ++ (0,-1em) -| (Ce.north west);
+    \draw (5f.south east) -| ++ (0,-1em) -| (Lu.north east);
+  \end{scope}
+
+  % BLOCO d (grupos 4-12)
+  \begin{scope}[every node/.style = {element = d-block}]
+    % grupo 4 (de trás para frente)
+    \node (Rf) [anchor = west,  xshift = +\sep] at (5f.east)  {};
+    \node (Hf) [anchor = west,  xshift = +\sep] at (4f.east)  {};
+    \node (Zr) [anchor = south, yshift = +\sep] at (Hf.north) {};
+    \node (Ti) [anchor = south, yshift = +\sep] at (Zr.north) {};
+
+    % grupo 5
+    \node (V)  [anchor = west, xshift = +\sep] at (Ti.east) {};
+    \node (Nb) [anchor = west, xshift = +\sep] at (Zr.east) {};
+    \node (Ta) [anchor = west, xshift = +\sep] at (Hf.east) {};
+    \node (Db) [anchor = west, xshift = +\sep] at (Rf.east) {};
+
+    % grupo 6
+    \node (Cr) [anchor = west, xshift = +\sep] at (V.east)  {};
+    \node (Mo) [anchor = west, xshift = +\sep] at (Nb.east) {};
+    \node (W)  [anchor = west, xshift = +\sep] at (Ta.east) {};
+    \node (Sg) [anchor = west, xshift = +\sep] at (Db.east) {};
+
+    % grupo 7
+    \node (Mn) [anchor = west, xshift = +\sep] at (Cr.east) {};
+    \node (Tc) [anchor = west, xshift = +\sep] at (Mo.east) {};
+    \node (Re) [anchor = west, xshift = +\sep] at (W.east) {};
+    \node (Bh) [anchor = west, xshift = +\sep] at (Sg.east) {};
+
+    % grupo 8
+    \node (Fe) [anchor = west, xshift = +\sep] at (Mn.east) {};
+    \node (Ru) [anchor = west, xshift = +\sep] at (Tc.east) {};
+    \node (Os) [anchor = west, xshift = +\sep] at (Re.east) {};
+    \node (Hs) [anchor = west, xshift = +\sep] at (Bh.east) {};
+
+    % grupo 9
+    \node (Co) [anchor = west, xshift = +\sep] at (Fe.east) {};
+    \node (Rh) [anchor = west, xshift = +\sep] at (Ru.east) {};
+    \node (Ir) [anchor = west, xshift = +\sep] at (Os.east) {};
+    \node (Mt) [anchor = west, xshift = +\sep] at (Hs.east) {};
+
+    % grupo 10
+    \node (Ni) [anchor = west, xshift = +\sep] at (Co.east) {};
+    \node (Pd) [anchor = west, xshift = +\sep] at (Rh.east) {};
+    \node (Pt) [anchor = west, xshift = +\sep] at (Ir.east) {};
+    \node (Ds) [anchor = west, xshift = +\sep] at (Mt.east) {};
+
+    % grupo 11
+    \node (Cu) [anchor = west, xshift = +\sep] at (Ni.east) {};
+    \node (Ag) [anchor = west, xshift = +\sep] at (Pd.east) {};
+    \node (Au) [anchor = west, xshift = +\sep] at (Pt.east) {};
+    \node (Rg) [anchor = west, xshift = +\sep] at (Ds.east) {};
+
+    % grupo 12
+    \node (Zn) [anchor = west, xshift = +\sep] at (Cu.east) {};
+    \node (Cd) [anchor = west, xshift = +\sep] at (Ag.east) {};
+    \node (Hg) [anchor = west, xshift = +\sep] at (Au.east) {};
+    \node (Cn) [anchor = west, xshift = +\sep] at (Rg.east) {};
+  \end{scope}
+
+  % BLOCO p
+  \begin{scope}[every node/.style = {element = p-block}]
+    % grupo 13 (de trás para frente)
+    \node (Nh) [anchor = west,  xshift = +\sep] at (Cn.east)  { $\mathrm{7p}$ };
+    \node (Tl) [anchor = south, yshift = +\sep] at (Nh.north) { $\mathrm{6p}$ };
+    \node (In) [anchor = south, yshift = +\sep] at (Tl.north) { $\mathrm{5p}$ };
+    \node (Ga) [anchor = south, yshift = +\sep] at (In.north) { $\mathrm{4p}$ };
+    \node (Al) [anchor = south, yshift = +\sep] at (Ga.north) { $\mathrm{3p}$ };
+    \node (B)  [anchor = south, yshift = +\sep] at (Al.north) { $\mathrm{2p}$ };
+
+    % grupo 14
+    \node (C)  [anchor = west, xshift = +\sep] at (B.east)  {};
+    \node (Si) [anchor = west, xshift = +\sep] at (Al.east) {};
+    \node (Ge) [anchor = west, xshift = +\sep] at (Ga.east) {};
+    \node (Sn) [anchor = west, xshift = +\sep] at (In.east) {};
+    \node (Pb) [anchor = west, xshift = +\sep] at (Tl.east) {};
+    \node (Fl) [anchor = west, xshift = +\sep] at (Nh.east) {};
+
+    % grupo 15
+    \node (N)  [anchor = west, xshift = +\sep] at (C.east)  {};
+    \node (P)  [anchor = west, xshift = +\sep] at (Si.east) {};
+    \node (As) [anchor = west, xshift = +\sep] at (Ge.east) {};
+    \node (Sb) [anchor = west, xshift = +\sep] at (Sn.east) {};
+    \node (Bi) [anchor = west, xshift = +\sep] at (Pb.east) {};
+    \node (Mc) [anchor = west, xshift = +\sep] at (Fl.east) {};
+
+    % grupo 16
+    \node (O)  [anchor = west, xshift = +\sep] at (N.east)  {};
+    \node (S)  [anchor = west, xshift = +\sep] at (P.east)  {};
+    \node (Se) [anchor = west, xshift = +\sep] at (As.east) {};
+    \node (Te) [anchor = west, xshift = +\sep] at (Sb.east) {};
+    \node (Po) [anchor = west, xshift = +\sep] at (Bi.east) {};
+    \node (Lv) [anchor = west, xshift = +\sep] at (Mc.east) {};
+
+    % grupo 17
+    \node (F)  [anchor = west, xshift = +\sep] at (O.east)  {};
+    \node (Cl) [anchor = west, xshift = +\sep] at (S.east)  {};
+    \node (Br) [anchor = west, xshift = +\sep] at (Se.east) {};
+    \node (I)  [anchor = west, xshift = +\sep] at (Te.east) {};
+    \node (At) [anchor = west, xshift = +\sep] at (Po.east) {};
+    \node (Ts) [anchor = west, xshift = +\sep] at (Lv.east) {};
+
+    % grupo 18
+    \node (Ne) [anchor = west, xshift = +\sep] at (F.east)  { \ce{Ne} };
+    \node (Ar) [anchor = west, xshift = +\sep] at (Cl.east) { \ce{Ar} };
+    \node (Kr) [anchor = west, xshift = +\sep] at (Br.east) { \ce{Kr} };
+    \node (Xe) [anchor = west, xshift = +\sep] at (I.east)  { \ce{Xe} };
+    \node (Rn) [anchor = west, xshift = +\sep] at (At.east) { \ce{Rn} };
+    \node (Og) [anchor = west, xshift = +\sep] at (Ts.east) { \ce{Og} };
+
+    \node (He) [anchor = south, yshift = +\sep] at (Ne.north) { \ce{He} };
+  \end{scope}
+
+  \node [element = gray, anchor = east] (H) at (He -| Fe) { \ce{H} };
+  \node [anchor = east] at (H.west) { $\mathrm{1s}$ };
+  \draw (H.east) -- (He.west);
+
+  % LABELS GRUPO
+  \begin{scope}[anchor = south]
+    \node (g1)  at (Li.north) {1};
+    \node (g2)  at (Be.north) {2};
+    \node (g3)  at (Sc.north) {3};
+    \node (g4)  at (Ti.north) {4};
+    \node (g5)  at (V.north)  {5};
+    \node (g6)  at (Cr.north) {6};
+    \node (g7)  at (Mn.north) {7};
+    \node (g8)  at (Fe.north) {8};
+    \node (g9)  at (Co.north) {9};
+    \node (g10) at (Ni.north) {10};
+    \node (g11) at (Cu.north) {11};
+    \node (g12) at (Zn.north) {12};
+    \node (g13) at (B.north)  {13};
+    \node (g14) at (C.north)  {14};
+    \node (g15) at (N.north)  {15};
+    \node (g16) at (O.north)  {16};
+    \node (g17) at (F.north)  {17};
+    \node (g18) at (He.north) {18}; 
+  \end{scope}
+
+  \draw [ |-| ] (g1.north west) -- (g2.north east) 
+    node [midway, above] { Bloco $\mathrm{s}$ };
+  \draw [ |-| ] (g3.north west) -- (g12.north east)
+    node [midway, above] { Bloco $\mathrm{d}$ };
+  \draw [ |-| ] (g13.west |- g18.north) -- (g18.north east)
+    node [midway, above] { Bloco $\mathrm{p}$ };
+  \draw [ |-| ] ($(Th.south west) - (0, 1em)$) -- ($(Lr.south east) - (0, 1em)$)
+    node [midway, below] { Bloco $\mathrm{f}$ };
+
+  % LABELS PERÍODO
+  \begin{scope}[anchor = east]
+    \node (p1) at (Li.west) {2};
+    \node (p2) at (Na.west) {3};
+    \node (p3) at (K.west)  {4};
+    \node (p4) at (Rb.west) {5};
+    \node (p5) at (Cs.west) {6};
+    \node (p6) at (Fr.west) {7};
+  \end{scope}
+  
+\end{tikzpicture}
+

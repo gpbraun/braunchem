@@ -390,6 +390,7 @@
         shapes.geometric, 
         decorations.pathreplacing,
         decorations.markings,
+        decorations.pathmorphing,
         arrows.meta,
       }
   }
@@ -435,7 +436,6 @@
 \colorlet{ p-block } { yellow }
 \colorlet{ d-block } { red    }
 \colorlet{ f-block } { purple }
-
 
 % CORES EM GRÁFICOS
 \pgfplotscreateplotcyclelist { braun-pallet }
@@ -960,7 +960,6 @@
   { \legacy_if:nTF { @twocolumn } { \twocolumn [#1] } {#1} }
 
 %% MAKETITLE COMMAND
-
 \coffin_new:N \l_braun_title_coffin
 \bool_new:N   \l_braun_if_maketitle_bool
 
@@ -1008,7 +1007,7 @@
 
     \BraunSingleColumn
       {
-                  \skip_vertical:n { -\headheight - 1em }
+        \skip_vertical:n { -\headheight - 1em }
         \tl_use:N        \l_braun_title_pre_text_tl
         \bool_if:NT      \l_braun_title_toprule_bool { \BraunHRule }
         \skip_vertical:V \l_braun_title_before_skip
@@ -1132,11 +1131,11 @@
     \fp_set:Nn \l_tmpa_fp % alternativa de maior tamanho
       { 
         max(
-            \l_braun_choices_a_fp,
-            \l_braun_choices_b_fp,
-            \l_braun_choices_c_fp,
-            \l_braun_choices_d_fp,
-            \l_braun_choices_e_fp
+          \l_braun_choices_a_fp,
+          \l_braun_choices_b_fp,
+          \l_braun_choices_c_fp,
+          \l_braun_choices_d_fp,
+          \l_braun_choices_e_fp
         )
       }
 
@@ -1259,11 +1258,11 @@
     \str_case:VnF \l_tmpc_tl
       {
         { .svg }
-        { 
+        {
           \file_if_exist_input:nF 
             { \g_braun_graphics_path_tl \l_tmpa_tl / \l_tmpb_tl .tex }
             { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
-        }      
+        }
       }
       {
         \braun_include_graphics:Nn \l_tmpa_coffin {#2}
@@ -1292,6 +1291,20 @@
   }
 
 %============================================================%
+%   FIGURA EM UMA COLUNA
+%============================================================%
+
+\NewDocumentEnvironment { singlecolfig } {}
+  {
+    \group_begin:
+    \cs_set:Npn \figure    { \begin{figure*} }
+    \cs_set:Npn \endfigure { \end{figure*}   }
+  }
+  {
+    \group_end:
+  }
+
+%============================================================%
 %   INCLUSÃO DE CONTEÚDO TABELADO
 %============================================================%
 
@@ -1300,7 +1313,6 @@
     float-position .code:n = { \def \fps@table {#1} },
     float-position .initial:n = {tb},
 	}
-
 
 \RequirePackage { booktabs, array }
 

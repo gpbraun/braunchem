@@ -267,7 +267,15 @@
 \AtBeginDocument 
     {
         \usepgfplotslibrary{groupplots, fillbetween}
-        \usetikzlibrary{shapes.geometric, calc}
+        \usetikzlibrary
+            {
+                calc,
+                shapes.geometric, 
+                decorations.pathreplacing,
+                decorations.markings,
+                decorations.pathmorphing,
+                arrows.meta,
+            }
     }
 
 %============================================================%
@@ -296,6 +304,12 @@
 \definecolor { gray-700 } { HTML } { 495057 } 
 \definecolor { gray-800 } { HTML } { 343a40 } 
 \definecolor { gray-900 } { HTML } { 212529 } 
+
+% CORES DOS BLOCOS
+\colorlet{ s-block } { blue   }
+\colorlet{ p-block } { yellow }
+\colorlet{ d-block } { red    }
+\colorlet{ f-block } { purple }
  
 \pgfplotscreateplotcyclelist { braun-pallet }
     {
