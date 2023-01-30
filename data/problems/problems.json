@@ -4797,45 +4797,1152 @@
       "correct_choice": 3
     },
     {
-      "id_": "1C01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C01/1C01.md",
-      "date": "2023-01-13T00:50:55.898309",
+      "id_": "1C23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C23/1C23.md",
+      "date": "2023-01-30T23:44:21.392175",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa com a ordem correta?</p>",
-        "md": "**Assinale** a alternativa com a ordem correta?\n",
-        "tex": "\\textbf{Assinale} a alternativa com a ordem correta?\n"
+        "html": "<p>Considere as energias de ionização de um elemento.</p>\n<figure>\n<img alt=\"Figura do problema 1C23.\" src=\"1C23-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 1C23.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com o grupo a que esse\nelemento pertence.</p>",
+        "md": "Considere as energias de ionização de um elemento.\n\n![Figura do problema 1C23.](1C23-1P.svg)\n\n**Assinale** a alternativa com o grupo a que esse elemento pertence.\n",
+        "tex": "Considere as energias de ionização de um elemento.\n\n\\begin{figure}\n\\centering\n\\includegraphics{1C23-1P.svg}\n\\caption{Figura do problema 1C23.}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa com o grupo a que esse elemento pertence.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<strong>1</strong>; 2; 3; 4.",
-          "md": "**1**; 2; 3; 4.\n",
-          "tex": "\\textbf{1}; 2; 3; 4.\n"
+          "html": "<span class=\"math inline\">\\(1\\)</span>",
+          "md": "$1$\n",
+          "tex": "{\\(1\\)}\n"
         },
         {
-          "html": "3; 4; <strong>1</strong>; 2.",
-          "md": "3; 4; **1**; 2.\n",
-          "tex": "3; 4; \\textbf{1}; 2.\n"
+          "html": "<span class=\"math inline\">\\(2\\)</span>",
+          "md": "$2$\n",
+          "tex": "{\\(2\\)}\n"
         },
         {
-          "html": "4; 2; <strong>1</strong>; 3.",
-          "md": "4; 2; **1**; 3.\n",
-          "tex": "4; 2; \\textbf{1}; 3.\n"
+          "html": "<span class=\"math inline\">\\(13\\)</span>",
+          "md": "$13$\n",
+          "tex": "{\\(13\\)}\n"
         },
         {
-          "html": "3; <strong>1</strong>; 4; 2.",
-          "md": "3; **1**; 4; 2.\n",
-          "tex": "3; \\textbf{1}; 4; 2.\n"
+          "html": "<span class=\"math inline\">\\(14\\)</span>",
+          "md": "$14$\n",
+          "tex": "{\\(14\\)}\n"
         },
         {
-          "html": "2; 4; <strong>1</strong>; 3.",
-          "md": "2; 4; **1**; 3.\n",
-          "tex": "2; 4; \\textbf{1}; 3.\n"
+          "html": "<span class=\"math inline\">\\(15\\)</span>",
+          "md": "$15$\n",
+          "tex": "{\\(15\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1C19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C19/1C19.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os pares de elementos</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Ca}\\)</span> e <span class=\"math inline\">\\(\\ce{Mg}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Mg}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Si}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro elemento tem a <em>menor</em> primeira energia de\nionização.</p>",
+        "md": "Considere os pares de elementos\n\n1.  $\\ce{Ca}$ e $\\ce{Mg}$\n2.  $\\ce{Mg}$ e $\\ce{Na}$\n3.  $\\ce{Al}$ e $\\ce{Na}$\n4.  $\\ce{Al}$ e $\\ce{Si}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nelemento tem a *menor* primeira energia de ionização.\n",
+        "tex": "Considere os pares de elementos\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Ca}\\)} e {\\(\\ce{Mg}\\)}\n\\item\n  {\\(\\ce{Mg}\\)} e {\\(\\ce{Na}\\)}\n\\item\n  {\\(\\ce{Al}\\)} e {\\(\\ce{Na}\\)}\n\\item\n  {\\(\\ce{Al}\\)} e {\\(\\ce{Si}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro elemento tem a \\emph{menor} primeira energia de ionização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C26",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C26/1C26.md",
+      "date": "2023-01-30T23:38:05.217879",
+      "statement": {
+        "html": "<p>Considere os pares de elementos</p>\n<ol type=\"1\">\n<li>Germânio e\nselênio.</li>\n<li>Boro e carbono.</li>\n<li>Fósforo e\narsênio.</li>\n<li>Cloro e flúor.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro elemento tem a <em>menor</em> afinidade eletrônica.</p>",
+        "md": "Considere os pares de elementos\n\n1.  Germânio e selênio.\n2.  Boro e carbono.\n3.  Fósforo e arsênio.\n4.  Cloro e flúor.\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nelemento tem a *menor* afinidade eletrônica.\n",
+        "tex": "Considere os pares de elementos\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Germânio e selênio.\n\\item\n  Boro e carbono.\n\\item\n  Fósforo e arsênio.\n\\item\n  Cloro e flúor.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro elemento tem a \\emph{menor} afinidade eletrônica.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C20/1C20.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os pares de elementos</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Ca}\\)</span> e <span class=\"math inline\">\\(\\ce{Mg}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Mg}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Si}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro elemento tem a <em>menor</em> primeira energia de\nionização.</p>",
+        "md": "Considere os pares de elementos\n\n1.  $\\ce{Ca}$ e $\\ce{Mg}$\n2.  $\\ce{Mg}$ e $\\ce{Na}$\n3.  $\\ce{Al}$ e $\\ce{Na}$\n4.  $\\ce{Al}$ e $\\ce{Si}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nelemento tem a *menor* primeira energia de ionização.\n",
+        "tex": "Considere os pares de elementos\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Ca}\\)} e {\\(\\ce{Mg}\\)}\n\\item\n  {\\(\\ce{Mg}\\)} e {\\(\\ce{Na}\\)}\n\\item\n  {\\(\\ce{Al}\\)} e {\\(\\ce{Na}\\)}\n\\item\n  {\\(\\ce{Al}\\)} e {\\(\\ce{Si}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro elemento tem a \\emph{menor} primeira energia de ionização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C16/1C16.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os pares de íons</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Ga^{3+}}\\)</span> e <span class=\"math inline\">\\(\\ce{In^{3+}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Pb^{2+}}\\)</span> e <span class=\"math inline\">\\(\\ce{Pb^{4+}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{K^+}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro íon tem o <em>menor</em> menor raio.</p>",
+        "md": "Considere os pares de íons\n\n1.  $\\ce{Ga^{3+}}$ e $\\ce{In^{3+}}$\n2.  $\\ce{P^{3-}}$ e $\\ce{S^{2-}}$\n3.  $\\ce{Pb^{2+}}$ e $\\ce{Pb^{4+}}$\n4.  $\\ce{K^+}$ e $\\ce{S^{2-}}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro íon\ntem o *menor* menor raio.\n",
+        "tex": "Considere os pares de íons\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Ga^{3+}}\\)} e {\\(\\ce{In^{3+}}\\)}\n\\item\n  {\\(\\ce{P^{3-}}\\)} e {\\(\\ce{S^{2-}}\\)}\n\\item\n  {\\(\\ce{Pb^{2+}}\\)} e {\\(\\ce{Pb^{4+}}\\)}\n\\item\n  {\\(\\ce{K^+}\\)} e {\\(\\ce{S^{2-}}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro íon tem o \\emph{menor} menor raio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1C25",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C25/1C25.md",
+      "date": "2023-01-30T23:38:05.217879",
+      "statement": {
+        "html": "<p>Considere os pares de elementos</p>\n<ol type=\"1\">\n<li>Telúrio e iodo.</li>\n<li>Berílio e magnésio.</li>\n<li>Oxigênio e\nenxofre</li>\n<li>Gálio e índio.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro elemento tem a <em>menor</em> afinidade eletrônica.</p>",
+        "md": "Considere os pares de elementos\n\n1.  Telúrio e iodo.\n2.  Berílio e magnésio.\n3.  Oxigênio e enxofre\n4.  Gálio e índio.\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nelemento tem a *menor* afinidade eletrônica.\n",
+        "tex": "Considere os pares de elementos\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Telúrio e iodo.\n\\item\n  Berílio e magnésio.\n\\item\n  Oxigênio e enxofre\n\\item\n  Gálio e índio.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro elemento tem a \\emph{menor} afinidade eletrônica.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1C13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C13/1C13.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: zinco, mercúrio e cádmio.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de raio atômico.</p>",
+        "md": "Considere os elementos: zinco, mercúrio e cádmio.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de raio atômico.\n",
+        "tex": "Considere os elementos: zinco, mercúrio e cádmio.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de raio atômico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "cádmio; mercúrio; zinco.",
+          "md": "cádmio; mercúrio; zinco.\n",
+          "tex": "cádmio; mercúrio; zinco.\n"
+        },
+        {
+          "html": "mercúrio; cádmio; zinco.",
+          "md": "mercúrio; cádmio; zinco.\n",
+          "tex": "mercúrio; cádmio; zinco.\n"
+        },
+        {
+          "html": "zinco; cádmio; mercúrio.",
+          "md": "zinco; cádmio; mercúrio.\n",
+          "tex": "zinco; cádmio; mercúrio.\n"
+        },
+        {
+          "html": "cádmio; zinco; mercúrio.",
+          "md": "cádmio; zinco; mercúrio.\n",
+          "tex": "cádmio; zinco; mercúrio.\n"
+        },
+        {
+          "html": "zinco; mercúrio; cádmio.",
+          "md": "zinco; mercúrio; cádmio.\n",
+          "tex": "zinco; mercúrio; cádmio.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1C28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C28/1C28.md",
+      "date": "2023-01-30T23:38:05.217879",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa com o par de elementos que\n<em>não possuem</em> relação diagonal.</p>",
+        "md": "**Assinale** a alternativa com o par de elementos que *não possuem*\nrelação diagonal.\n",
+        "tex": "\\textbf{Assinale} a alternativa com o par de elementos que \\emph{não possuem} relação diagonal.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Be}\\)</span> e <span class=\"math inline\">\\(\\ce{Al}\\)</span>",
+          "md": "$\\ce{Be}$ e $\\ce{Al}$\n",
+          "tex": "{\\(\\ce{Be}\\)} e {\\(\\ce{Al}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{As}\\)</span> e <span class=\"math inline\">\\(\\ce{Sn}\\)</span>",
+          "md": "$\\ce{As}$ e $\\ce{Sn}$\n",
+          "tex": "{\\(\\ce{As}\\)} e {\\(\\ce{Sn}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Ga}\\)</span> e <span class=\"math inline\">\\(\\ce{Sn}\\)</span>",
+          "md": "$\\ce{Ga}$ e $\\ce{Sn}$\n",
+          "tex": "{\\(\\ce{Ga}\\)} e {\\(\\ce{Sn}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{B}\\)</span> e <span class=\"math inline\">\\(\\ce{Si}\\)</span>",
+          "md": "$\\ce{B}$ e $\\ce{Si}$\n",
+          "tex": "{\\(\\ce{B}\\)} e {\\(\\ce{Si}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C}\\)</span> e <span class=\"math inline\">\\(\\ce{P}\\)</span>",
+          "md": "$\\ce{C}$ e $\\ce{P}$\n",
+          "tex": "{\\(\\ce{C}\\)} e {\\(\\ce{P}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1C27",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C27/1C27.md",
+      "date": "2023-01-30T23:38:05.217879",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa com o par de elementos que\n<em>possuem</em> relação diagonal.</p>",
+        "md": "**Assinale** a alternativa com o par de elementos que *possuem* relação\ndiagonal.\n",
+        "tex": "\\textbf{Assinale} a alternativa com o par de elementos que \\emph{possuem} relação diagonal.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Li}\\)</span> e <span class=\"math inline\">\\(\\ce{Mg}\\)</span>",
+          "md": "$\\ce{Li}$ e $\\ce{Mg}$\n",
+          "tex": "{\\(\\ce{Li}\\)} e {\\(\\ce{Mg}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Ca}\\)</span> e <span class=\"math inline\">\\(\\ce{Al}\\)</span>",
+          "md": "$\\ce{Ca}$ e $\\ce{Al}$\n",
+          "tex": "{\\(\\ce{Ca}\\)} e {\\(\\ce{Al}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{F}\\)</span> e <span class=\"math inline\">\\(\\ce{S}\\)</span>",
+          "md": "$\\ce{F}$ e $\\ce{S}$\n",
+          "tex": "{\\(\\ce{F}\\)} e {\\(\\ce{S}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{O}\\)</span> e <span class=\"math inline\">\\(\\ce{S}\\)</span>",
+          "md": "$\\ce{O}$ e $\\ce{S}$\n",
+          "tex": "{\\(\\ce{O}\\)} e {\\(\\ce{S}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C}\\)</span> e <span class=\"math inline\">\\(\\ce{Al}\\)</span>",
+          "md": "$\\ce{C}$ e $\\ce{Al}$\n",
+          "tex": "{\\(\\ce{C}\\)} e {\\(\\ce{Al}\\)}\n"
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "1C04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C04/1C04.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: fósforo, <span class=\"math inline\">\\(\\ce{No}\\)</span>, <span class=\"math inline\">\\(\\ce{Po}\\)</span>, <span class=\"math inline\">\\(\\ce{Mo}\\)</span> e criptônio.</p>\n<p><strong>Assinale</strong> a alternativa com o bloco de tabela\nperiódica de cada elemento, respectivamente</p>",
+        "md": "Considere os elementos: fósforo, $\\ce{No}$, $\\ce{Po}$, $\\ce{Mo}$ e\ncriptônio.\n\n**Assinale** a alternativa com o bloco de tabela periódica de cada\nelemento, respectivamente\n",
+        "tex": "Considere os elementos: fósforo, {\\(\\ce{No}\\)}, {\\(\\ce{Po}\\)}, {\\(\\ce{Mo}\\)} e criptônio.\n\n\\textbf{Assinale} a alternativa com o bloco de tabela periódica de cada elemento, respectivamente\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "bloco p; bloco d; bloco p; bloco p; bloco f.",
+          "md": "bloco p; bloco d; bloco p; bloco p; bloco f.\n",
+          "tex": "bloco p; bloco d; bloco p; bloco p; bloco f.\n"
+        },
+        {
+          "html": "bloco d; bloco p; bloco f; bloco p; bloco p.",
+          "md": "bloco d; bloco p; bloco f; bloco p; bloco p.\n",
+          "tex": "bloco d; bloco p; bloco f; bloco p; bloco p.\n"
+        },
+        {
+          "html": "bloco p; bloco p; bloco p; bloco f; bloco d.",
+          "md": "bloco p; bloco p; bloco p; bloco f; bloco d.\n",
+          "tex": "bloco p; bloco p; bloco p; bloco f; bloco d.\n"
+        },
+        {
+          "html": "bloco d; bloco p; bloco p; bloco p; bloco f.",
+          "md": "bloco d; bloco p; bloco p; bloco p; bloco f.\n",
+          "tex": "bloco d; bloco p; bloco p; bloco p; bloco f.\n"
+        },
+        {
+          "html": "bloco p; bloco f; bloco p; bloco d; bloco p.",
+          "md": "bloco p; bloco f; bloco p; bloco d; bloco p.\n",
+          "tex": "bloco p; bloco f; bloco p; bloco d; bloco p.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1C24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C24/1C24.md",
+      "date": "2023-01-30T23:44:31.004044",
+      "statement": {
+        "html": "<p>Considere as energias de ionização de um elemento.</p>\n<figure>\n<img alt=\"Figura do problema 1C24.\" src=\"1C24-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 1C24.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com o grupo a que esse\nelemento pertence.</p>",
+        "md": "Considere as energias de ionização de um elemento.\n\n![Figura do problema 1C24.](1C24-1P.svg)\n\n**Assinale** a alternativa com o grupo a que esse elemento pertence.\n",
+        "tex": "Considere as energias de ionização de um elemento.\n\n\\begin{figure}\n\\centering\n\\includegraphics{1C24-1P.svg}\n\\caption{Figura do problema 1C24.}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa com o grupo a que esse elemento pertence.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(1\\)</span>",
+          "md": "$1$\n",
+          "tex": "{\\(1\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(2\\)</span>",
+          "md": "$2$\n",
+          "tex": "{\\(2\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(13\\)</span>",
+          "md": "$13$\n",
+          "tex": "{\\(13\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(14\\)</span>",
+          "md": "$14$\n",
+          "tex": "{\\(14\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(15\\)</span>",
+          "md": "$15$\n",
+          "tex": "{\\(15\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1C02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C02/1C02.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: radônio, bromo e bário.</p>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\nde cada elemento, respectivamente.</p>",
+        "md": "Considere os elementos: radônio, bromo e bário.\n\n**Assinale** a alternativa com a classificação correta de cada elemento,\nrespectivamente.\n",
+        "tex": "Considere os elementos: radônio, bromo e bário.\n\n\\textbf{Assinale} a alternativa com a classificação correta de cada elemento, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "halogênio; gás nobre; metal alcalino-terroso.",
+          "md": "halogênio; gás nobre; metal alcalino-terroso.\n",
+          "tex": "halogênio; gás nobre; metal alcalino-terroso.\n"
+        },
+        {
+          "html": "gás nobre; halogênio; metal alcalino-terroso.",
+          "md": "gás nobre; halogênio; metal alcalino-terroso.\n",
+          "tex": "gás nobre; halogênio; metal alcalino-terroso.\n"
+        },
+        {
+          "html": "halogênio; metal alcalino-terroso; gás nobre.",
+          "md": "halogênio; metal alcalino-terroso; gás nobre.\n",
+          "tex": "halogênio; metal alcalino-terroso; gás nobre.\n"
+        },
+        {
+          "html": "gás nobre; metal alcalino-terroso; halogênio.",
+          "md": "gás nobre; metal alcalino-terroso; halogênio.\n",
+          "tex": "gás nobre; metal alcalino-terroso; halogênio.\n"
+        },
+        {
+          "html": "metal alcalino-terroso; gás nobre; halogênio.",
+          "md": "metal alcalino-terroso; gás nobre; halogênio.\n",
+          "tex": "metal alcalino-terroso; gás nobre; halogênio.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1C12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C12/1C12.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: cobalto, titânio e cromo.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de raio atômico.</p>",
+        "md": "Considere os elementos: cobalto, titânio e cromo.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de raio atômico.\n",
+        "tex": "Considere os elementos: cobalto, titânio e cromo.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de raio atômico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "titânio; cromo; cobalto.",
+          "md": "titânio; cromo; cobalto.\n",
+          "tex": "titânio; cromo; cobalto.\n"
+        },
+        {
+          "html": "cromo; cobalto; titânio.",
+          "md": "cromo; cobalto; titânio.\n",
+          "tex": "cromo; cobalto; titânio.\n"
+        },
+        {
+          "html": "cromo; titânio; cobalto.",
+          "md": "cromo; titânio; cobalto.\n",
+          "tex": "cromo; titânio; cobalto.\n"
+        },
+        {
+          "html": "cobalto; cromo; titânio.",
+          "md": "cobalto; cromo; titânio.\n",
+          "tex": "cobalto; cromo; titânio.\n"
+        },
+        {
+          "html": "titânio; cobalto; cromo.",
+          "md": "titânio; cobalto; cromo.\n",
+          "tex": "titânio; cobalto; cromo.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1C09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C09/1C09.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: chumbo, enxofre, zinco, silício e\nantimônio.</p>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\nde cada elemento, respectivamente.</p>",
+        "md": "Considere os elementos: chumbo, enxofre, zinco, silício e antimônio.\n\n**Assinale** a alternativa com a classificação correta de cada elemento,\nrespectivamente.\n",
+        "tex": "Considere os elementos: chumbo, enxofre, zinco, silício e antimônio.\n\n\\textbf{Assinale} a alternativa com a classificação correta de cada elemento, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "metal; ametal; metaloide; metaloide; metal.",
+          "md": "metal; ametal; metaloide; metaloide; metal.\n",
+          "tex": "metal; ametal; metaloide; metaloide; metal.\n"
+        },
+        {
+          "html": "metaloide; ametal; metaloide; metal; metal.",
+          "md": "metaloide; ametal; metaloide; metal; metal.\n",
+          "tex": "metaloide; ametal; metaloide; metal; metal.\n"
+        },
+        {
+          "html": "metal; metal; metaloide; metaloide; ametal.",
+          "md": "metal; metal; metaloide; metaloide; ametal.\n",
+          "tex": "metal; metal; metaloide; metaloide; ametal.\n"
+        },
+        {
+          "html": "metal; ametal; metal; metaloide; metaloide.",
+          "md": "metal; ametal; metal; metaloide; metaloide.\n",
+          "tex": "metal; ametal; metal; metaloide; metaloide.\n"
+        },
+        {
+          "html": "metal; metaloide; ametal; metaloide; metal.",
+          "md": "metal; metaloide; ametal; metaloide; metal.\n",
+          "tex": "metal; metaloide; ametal; metaloide; metal.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C15/1C15.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os pares de íons</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span> e <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span> e <span class=\"math inline\">\\(\\ce{K^+}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span> e <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro íon tem o <em>menor</em> raio.</p>",
+        "md": "Considere os pares de íons\n\n1.  $\\ce{Mg^{2+}}$ e $\\ce{Al^{3+}}$\n2.  $\\ce{O^{2-}}$ e $\\ce{S^{2-}}$\n3.  $\\ce{Ca^{2+}}$ e $\\ce{K^+}$\n4.  $\\ce{S^{2-}}$ e $\\ce{Cl^-}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro íon\ntem o *menor* raio.\n",
+        "tex": "Considere os pares de íons\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Mg^{2+}}\\)} e {\\(\\ce{Al^{3+}}\\)}\n\\item\n  {\\(\\ce{O^{2-}}\\)} e {\\(\\ce{S^{2-}}\\)}\n\\item\n  {\\(\\ce{Ca^{2+}}\\)} e {\\(\\ce{K^+}\\)}\n\\item\n  {\\(\\ce{S^{2-}}\\)} e {\\(\\ce{Cl^-}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro íon tem o \\emph{menor} raio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1C05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C05/1C05.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Um elemento possui 118 nêutrons e número de massa 200.</p>\n<p><strong>Assinale</strong> a alternativa com o grupo e o período desse\nelemento na Tabela Periódica.</p>",
+        "md": "Um elemento possui 118 nêutrons e número de massa 200.\n\n**Assinale** a alternativa com o grupo e o período desse elemento na\nTabela Periódica.\n",
+        "tex": "Um elemento possui 118 nêutrons e número de massa 200.\n\n\\textbf{Assinale} a alternativa com o grupo e o período desse elemento na Tabela Periódica.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Grupo 1; Período 5.",
+          "md": "Grupo 1; Período 5.\n",
+          "tex": "Grupo 1; Período 5.\n"
+        },
+        {
+          "html": "Grupo 4; Período 4.",
+          "md": "Grupo 4; Período 4.\n",
+          "tex": "Grupo 4; Período 4.\n"
+        },
+        {
+          "html": "Grupo 4; Período 6.",
+          "md": "Grupo 4; Período 6.\n",
+          "tex": "Grupo 4; Período 6.\n"
+        },
+        {
+          "html": "Grupo 14; Período 4.",
+          "md": "Grupo 14; Período 4.\n",
+          "tex": "Grupo 14; Período 4.\n"
+        },
+        {
+          "html": "Grupo 14; Período\n6.",
+          "md": "Grupo 14; Período 6.\n",
+          "tex": "Grupo 14; Período 6.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1C03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C03/1C03.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: zircônio, <span class=\"math inline\">\\(\\ce{As}\\)</span>, <span class=\"math inline\">\\(\\ce{Ta}\\)</span>, bário e <span class=\"math inline\">\\(\\ce{Si}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o bloco de tabela\nperiódica de cada elemento, respectivamente</p>",
+        "md": "Considere os elementos: zircônio, $\\ce{As}$, $\\ce{Ta}$, bário e\n$\\ce{Si}$.\n\n**Assinale** a alternativa com o bloco de tabela periódica de cada\nelemento, respectivamente\n",
+        "tex": "Considere os elementos: zircônio, {\\(\\ce{As}\\)}, {\\(\\ce{Ta}\\)}, bário e {\\(\\ce{Si}\\)}.\n\n\\textbf{Assinale} a alternativa com o bloco de tabela periódica de cada elemento, respectivamente\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "bloco d; bloco p; bloco d; bloco s; bloco p.",
+          "md": "bloco d; bloco p; bloco d; bloco s; bloco p.\n",
+          "tex": "bloco d; bloco p; bloco d; bloco s; bloco p.\n"
+        },
+        {
+          "html": "bloco s; bloco p; bloco d; bloco p; bloco d.",
+          "md": "bloco s; bloco p; bloco d; bloco p; bloco d.\n",
+          "tex": "bloco s; bloco p; bloco d; bloco p; bloco d.\n"
+        },
+        {
+          "html": "bloco d; bloco d; bloco s; bloco p; bloco p.",
+          "md": "bloco d; bloco d; bloco s; bloco p; bloco p.\n",
+          "tex": "bloco d; bloco d; bloco s; bloco p; bloco p.\n"
+        },
+        {
+          "html": "bloco s; bloco d; bloco p; bloco p; bloco d.",
+          "md": "bloco s; bloco d; bloco p; bloco p; bloco d.\n",
+          "tex": "bloco s; bloco d; bloco p; bloco p; bloco d.\n"
+        },
+        {
+          "html": "bloco d; bloco s; bloco d; bloco p; bloco p.",
+          "md": "bloco d; bloco s; bloco d; bloco p; bloco p.\n",
+          "tex": "bloco d; bloco s; bloco d; bloco p; bloco p.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1C17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C17/1C17.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os íons: <span class=\"math inline\">\\(\\ce{Na^+}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>, <span class=\"math inline\">\\(\\ce{F^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de raio atômico.</p>",
+        "md": "Considere os íons: $\\ce{Na^+}$, $\\ce{Mg^{2+}}$, $\\ce{F^-}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de raio atômico.\n",
+        "tex": "Considere os íons: {\\(\\ce{Na^+}\\)}, {\\(\\ce{Mg^{2+}}\\)}, {\\(\\ce{F^-}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de raio atômico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{F^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Na^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
+          "md": "$\\ce{F^-}$; $\\ce{Na^+}$; $\\ce{Mg^{2+}}$.\n",
+          "tex": "{\\(\\ce{F^-}\\)}; {\\(\\ce{Na^+}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{F^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Na^+}\\)</span>.",
+          "md": "$\\ce{F^-}$; $\\ce{Mg^{2+}}$; $\\ce{Na^+}$.\n",
+          "tex": "{\\(\\ce{F^-}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Na^+}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Na^+}\\)</span>; <span class=\"math inline\">\\(\\ce{F^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
+          "md": "$\\ce{Na^+}$; $\\ce{F^-}$; $\\ce{Mg^{2+}}$.\n",
+          "tex": "{\\(\\ce{Na^+}\\)}; {\\(\\ce{F^-}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Na^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{F^-}\\)</span>.",
+          "md": "$\\ce{Na^+}$; $\\ce{Mg^{2+}}$; $\\ce{F^-}$.\n",
+          "tex": "{\\(\\ce{Na^+}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{F^-}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{F^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Na^+}\\)</span>.",
+          "md": "$\\ce{Mg^{2+}}$; $\\ce{F^-}$; $\\ce{Na^+}$.\n",
+          "tex": "{\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{F^-}\\)}; {\\(\\ce{Na^+}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1C08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C08/1C08.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Um elemento possui 22 nêutrons e número de massa 40.</p>\n<p><strong>Assinale</strong> a alternativa com o grupo e o período desse\nelemento na Tabela Periódica.</p>",
+        "md": "Um elemento possui 22 nêutrons e número de massa 40.\n\n**Assinale** a alternativa com o grupo e o período desse elemento na\nTabela Periódica.\n",
+        "tex": "Um elemento possui 22 nêutrons e número de massa 40.\n\n\\textbf{Assinale} a alternativa com o grupo e o período desse elemento na Tabela Periódica.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Grupo 2; Período 1.",
+          "md": "Grupo 2; Período 1.\n",
+          "tex": "Grupo 2; Período 1.\n"
+        },
+        {
+          "html": "Grupo 8; Período 3.",
+          "md": "Grupo 8; Período 3.\n",
+          "tex": "Grupo 8; Período 3.\n"
+        },
+        {
+          "html": "Grupo 8; Período 5.",
+          "md": "Grupo 8; Período 5.\n",
+          "tex": "Grupo 8; Período 5.\n"
+        },
+        {
+          "html": "Grupo 18; Período\n3.",
+          "md": "Grupo 18; Período 3.\n",
+          "tex": "Grupo 18; Período 3.\n"
+        },
+        {
+          "html": "Grupo 18; Período 5.",
+          "md": "Grupo 18; Período 5.\n",
+          "tex": "Grupo 18; Período 5.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C01/1C01.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: cério, cádmio e sódio.</p>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\nde cada elemento, respectivamente.</p>",
+        "md": "Considere os elementos: cério, cádmio e sódio.\n\n**Assinale** a alternativa com a classificação correta de cada elemento,\nrespectivamente.\n",
+        "tex": "Considere os elementos: cério, cádmio e sódio.\n\n\\textbf{Assinale} a alternativa com a classificação correta de cada elemento, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "lantanoide; metal de\ntransição; metal alcalino.",
+          "md": "lantanoide; metal de transição; metal alcalino.\n",
+          "tex": "lantanoide; metal de transição; metal alcalino.\n"
+        },
+        {
+          "html": "metal de\ntransição; lantanoide; metal alcalino.",
+          "md": "metal de transição; lantanoide; metal alcalino.\n",
+          "tex": "metal de transição; lantanoide; metal alcalino.\n"
+        },
+        {
+          "html": "metal alcalino; metal de\ntransição; lantanoide.",
+          "md": "metal alcalino; metal de transição; lantanoide.\n",
+          "tex": "metal alcalino; metal de transição; lantanoide.\n"
+        },
+        {
+          "html": "metal alcalino; lantanoide; metal de\ntransição.",
+          "md": "metal alcalino; lantanoide; metal de transição.\n",
+          "tex": "metal alcalino; lantanoide; metal de transição.\n"
+        },
+        {
+          "html": "metal de\ntransição; metal alcalino; lantanoide.",
+          "md": "metal de transição; metal alcalino; lantanoide.\n",
+          "tex": "metal de transição; metal alcalino; lantanoide.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1C10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C10/1C10.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: alumínio, carbono, germânio, arsênio e\nselênio.</p>\n<p><strong>Assinale</strong> a alternativa com a classificação correta\nde cada elemento, respectivamente.</p>",
+        "md": "Considere os elementos: alumínio, carbono, germânio, arsênio e selênio.\n\n**Assinale** a alternativa com a classificação correta de cada elemento,\nrespectivamente.\n",
+        "tex": "Considere os elementos: alumínio, carbono, germânio, arsênio e selênio.\n\n\\textbf{Assinale} a alternativa com a classificação correta de cada elemento, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "ametal; metaloide; ametal; metal; metaloide.",
+          "md": "ametal; metaloide; ametal; metal; metaloide.\n",
+          "tex": "ametal; metaloide; ametal; metal; metaloide.\n"
+        },
+        {
+          "html": "ametal; metal; metaloide; metaloide; ametal.",
+          "md": "ametal; metal; metaloide; metaloide; ametal.\n",
+          "tex": "ametal; metal; metaloide; metaloide; ametal.\n"
+        },
+        {
+          "html": "metal; ametal; metaloide; metaloide; ametal.",
+          "md": "metal; ametal; metaloide; metaloide; ametal.\n",
+          "tex": "metal; ametal; metaloide; metaloide; ametal.\n"
+        },
+        {
+          "html": "metal; ametal; metaloide; ametal; metaloide.",
+          "md": "metal; ametal; metaloide; ametal; metaloide.\n",
+          "tex": "metal; ametal; metaloide; ametal; metaloide.\n"
+        },
+        {
+          "html": "metaloide; ametal; metal; metaloide; ametal.",
+          "md": "metaloide; ametal; metal; metaloide; ametal.\n",
+          "tex": "metaloide; ametal; metal; metaloide; ametal.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1C18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C18/1C18.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os íons: <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>, <span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de raio atômico.</p>",
+        "md": "Considere os íons: $\\ce{S^{2-}}$, $\\ce{Cl^-}$, $\\ce{P^{3-}}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de raio atômico.\n",
+        "tex": "Considere os íons: {\\(\\ce{S^{2-}}\\)}, {\\(\\ce{Cl^-}\\)}, {\\(\\ce{P^{3-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de raio atômico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>.",
+          "md": "$\\ce{P^{3-}}$; $\\ce{Cl^-}$; $\\ce{S^{2-}}$.\n",
+          "tex": "{\\(\\ce{P^{3-}}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{S^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>.",
+          "md": "$\\ce{Cl^-}$; $\\ce{P^{3-}}$; $\\ce{S^{2-}}$.\n",
+          "tex": "{\\(\\ce{Cl^-}\\)}; {\\(\\ce{P^{3-}}\\)}; {\\(\\ce{S^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>.",
+          "md": "$\\ce{P^{3-}}$; $\\ce{S^{2-}}$; $\\ce{Cl^-}$.\n",
+          "tex": "{\\(\\ce{P^{3-}}\\)}; {\\(\\ce{S^{2-}}\\)}; {\\(\\ce{Cl^-}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span>.",
+          "md": "$\\ce{S^{2-}}$; $\\ce{Cl^-}$; $\\ce{P^{3-}}$.\n",
+          "tex": "{\\(\\ce{S^{2-}}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{P^{3-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{P^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>.",
+          "md": "$\\ce{S^{2-}}$; $\\ce{P^{3-}}$; $\\ce{Cl^-}$.\n",
+          "tex": "{\\(\\ce{S^{2-}}\\)}; {\\(\\ce{P^{3-}}\\)}; {\\(\\ce{Cl^-}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1C14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C14/1C14.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: antimônio, bismuto e fósforo.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de raio atômico.</p>",
+        "md": "Considere os elementos: antimônio, bismuto e fósforo.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de raio atômico.\n",
+        "tex": "Considere os elementos: antimônio, bismuto e fósforo.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de raio atômico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "bismuto; fósforo; antimônio.",
+          "md": "bismuto; fósforo; antimônio.\n",
+          "tex": "bismuto; fósforo; antimônio.\n"
+        },
+        {
+          "html": "bismuto; antimônio; fósforo.",
+          "md": "bismuto; antimônio; fósforo.\n",
+          "tex": "bismuto; antimônio; fósforo.\n"
+        },
+        {
+          "html": "antimônio; fósforo; bismuto.",
+          "md": "antimônio; fósforo; bismuto.\n",
+          "tex": "antimônio; fósforo; bismuto.\n"
+        },
+        {
+          "html": "antimônio; bismuto; fósforo.",
+          "md": "antimônio; bismuto; fósforo.\n",
+          "tex": "antimônio; bismuto; fósforo.\n"
+        },
+        {
+          "html": "fósforo; antimônio; bismuto.",
+          "md": "fósforo; antimônio; bismuto.\n",
+          "tex": "fósforo; antimônio; bismuto.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1C06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C06/1C06.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Um elemento possui 78 nêutrons e número de massa 113.</p>\n<p><strong>Assinale</strong> a alternativa com o grupo e o período desse\nelemento na Tabela Periódica.</p>",
+        "md": "Um elemento possui 78 nêutrons e número de massa 113.\n\n**Assinale** a alternativa com o grupo e o período desse elemento na\nTabela Periódica.\n",
+        "tex": "Um elemento possui 78 nêutrons e número de massa 113.\n\n\\textbf{Assinale} a alternativa com o grupo e o período desse elemento na Tabela Periódica.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Grupo 1; Período 4.",
+          "md": "Grupo 1; Período 4.\n",
+          "tex": "Grupo 1; Período 4.\n"
+        },
+        {
+          "html": "Grupo 1; Período\n6.",
+          "md": "Grupo 1; Período 6.\n",
+          "tex": "Grupo 1; Período 6.\n"
+        },
+        {
+          "html": "Grupo 11; Período 4.",
+          "md": "Grupo 11; Período 4.\n",
+          "tex": "Grupo 11; Período 4.\n"
+        },
+        {
+          "html": "Grupo 11; Período 6.",
+          "md": "Grupo 11; Período 6.\n",
+          "tex": "Grupo 11; Período 6.\n"
+        },
+        {
+          "html": "Grupo 13; Período 7.",
+          "md": "Grupo 13; Período 7.\n",
+          "tex": "Grupo 13; Período 7.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1C11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C11/1C11.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elementos: enxofre, cloro e silício.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de raio atômico.</p>",
+        "md": "Considere os elementos: enxofre, cloro e silício.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de raio atômico.\n",
+        "tex": "Considere os elementos: enxofre, cloro e silício.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de raio atômico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "enxofre; silício; cloro.",
+          "md": "enxofre; silício; cloro.\n",
+          "tex": "enxofre; silício; cloro.\n"
+        },
+        {
+          "html": "silício; cloro; enxofre.",
+          "md": "silício; cloro; enxofre.\n",
+          "tex": "silício; cloro; enxofre.\n"
+        },
+        {
+          "html": "cloro; silício; enxofre.",
+          "md": "cloro; silício; enxofre.\n",
+          "tex": "cloro; silício; enxofre.\n"
+        },
+        {
+          "html": "silício; enxofre; cloro.",
+          "md": "silício; enxofre; cloro.\n",
+          "tex": "silício; enxofre; cloro.\n"
+        },
+        {
+          "html": "cloro; enxofre; silício.",
+          "md": "cloro; enxofre; silício.\n",
+          "tex": "cloro; enxofre; silício.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C07/1C07.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Um elemento possui 67 nêutrons e número de massa 116.</p>\n<p><strong>Assinale</strong> a alternativa com o grupo e o período desse\nelemento na Tabela Periódica.</p>",
+        "md": "Um elemento possui 67 nêutrons e número de massa 116.\n\n**Assinale** a alternativa com o grupo e o período desse elemento na\nTabela Periódica.\n",
+        "tex": "Um elemento possui 67 nêutrons e número de massa 116.\n\n\\textbf{Assinale} a alternativa com o grupo e o período desse elemento na Tabela Periódica.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "Grupo 3; Período 3.",
+          "md": "Grupo 3; Período 3.\n",
+          "tex": "Grupo 3; Período 3.\n"
+        },
+        {
+          "html": "Grupo 3; Período 5.",
+          "md": "Grupo 3; Período 5.\n",
+          "tex": "Grupo 3; Período 5.\n"
+        },
+        {
+          "html": "Grupo 13; Período 3.",
+          "md": "Grupo 13; Período 3.\n",
+          "tex": "Grupo 13; Período 3.\n"
+        },
+        {
+          "html": "Grupo 13; Período\n5.",
+          "md": "Grupo 13; Período 5.\n",
+          "tex": "Grupo 13; Período 5.\n"
+        },
+        {
+          "html": "Grupo 15; Período 4.",
+          "md": "Grupo 15; Período 4.\n",
+          "tex": "Grupo 15; Período 4.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1C22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C22/1C22.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elentos: chumbo, bário e césio.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de energia de ionização.</p>",
+        "md": "Considere os elentos: chumbo, bário e césio.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de energia de ionização.\n",
+        "tex": "Considere os elentos: chumbo, bário e césio.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de energia de ionização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "chumbo; bário; césio.",
+          "md": "chumbo; bário; césio.\n",
+          "tex": "chumbo; bário; césio.\n"
+        },
+        {
+          "html": "bário; chumbo; césio.",
+          "md": "bário; chumbo; césio.\n",
+          "tex": "bário; chumbo; césio.\n"
+        },
+        {
+          "html": "césio; chumbo; bário.",
+          "md": "césio; chumbo; bário.\n",
+          "tex": "césio; chumbo; bário.\n"
+        },
+        {
+          "html": "chumbo; césio; bário.",
+          "md": "chumbo; césio; bário.\n",
+          "tex": "chumbo; césio; bário.\n"
+        },
+        {
+          "html": "bário; césio; chumbo.",
+          "md": "bário; césio; chumbo.\n",
+          "tex": "bário; césio; chumbo.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1C21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C21/1C21.md",
+      "date": "2023-01-30T23:38:05.213879",
+      "statement": {
+        "html": "<p>Considere os elentos: selênio oxigênio e telúrio.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>decrescente</em> de energia de ionização.</p>",
+        "md": "Considere os elentos: selênio oxigênio e telúrio.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*decrescente* de energia de ionização.\n",
+        "tex": "Considere os elentos: selênio oxigênio e telúrio.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{decrescente} de energia de ionização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "oxigênio; telúrio; selênio.",
+          "md": "oxigênio; telúrio; selênio.\n",
+          "tex": "oxigênio; telúrio; selênio.\n"
+        },
+        {
+          "html": "selênio; oxigênio; telúrio.",
+          "md": "selênio; oxigênio; telúrio.\n",
+          "tex": "selênio; oxigênio; telúrio.\n"
+        },
+        {
+          "html": "oxigênio; selênio; telúrio.",
+          "md": "oxigênio; selênio; telúrio.\n",
+          "tex": "oxigênio; selênio; telúrio.\n"
+        },
+        {
+          "html": "telúrio; oxigênio; selênio.",
+          "md": "telúrio; oxigênio; selênio.\n",
+          "tex": "telúrio; oxigênio; selênio.\n"
+        },
+        {
+          "html": "selênio; telúrio; oxigênio.",
+          "md": "selênio; telúrio; oxigênio.\n",
+          "tex": "selênio; telúrio; oxigênio.\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3D31",
@@ -13260,11 +14367,11 @@
     {
       "id_": "2B22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B22/2B22.md",
-      "date": "2023-01-10T00:44:08.120782",
+      "date": "2023-01-30T23:38:05.217879",
       "statement": {
-        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclopentano líquido e\n<span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de pent-1-eno\nlíquido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 g}\\)</span> de eteno e <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de polietileno.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclobutano e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de cicloexano.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
-        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{I2}$ gasoso e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de ciclopentano líquido e $\\pu{1 mol}$ de pent-1-eno\n    líquido.\n3.  $\\pu{1 g}$ de eteno e $\\pu{1 g}$ de polietileno.\n4.  $\\pu{1 mol}$ de ciclobutano e $\\pu{1 mol}$ de cicloexano.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
-        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de ciclopentano líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de pent-1-eno líquido.\n\\item\n  {\\(\\qty{1}{\\unit{g}}\\)} de eteno e {\\(\\qty{1}{\\unit{g}}\\)} de polietileno.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de ciclobutano e {\\(\\qty{1}{\\unit{mol}}\\)} de cicloexano.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+        "html": "<p>Considere os pares de substâncias em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclopentano líquido e\n<span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de pent-1-eno\nlíquido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 g}\\)</span> de eteno e <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de polietileno.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclobutano e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de cicloexano.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância tem a <em>maior</em> entropia.</p>",
+        "md": "Considere os pares de substâncias em $\\pu{298 K}$ e $\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{I2}$ gasoso e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de ciclopentano líquido e $\\pu{1 mol}$ de pent-1-eno\n    líquido.\n3.  $\\pu{1 g}$ de eteno e $\\pu{1 g}$ de polietileno.\n4.  $\\pu{1 mol}$ de ciclobutano e $\\pu{1 mol}$ de cicloexano.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância tem a *maior* entropia.\n",
+        "tex": "Considere os pares de substâncias em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{I2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Br2}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de ciclopentano líquido e {\\(\\qty{1}{\\unit{mol}}\\)} de pent-1-eno líquido.\n\\item\n  {\\(\\qty{1}{\\unit{g}}\\)} de eteno e {\\(\\qty{1}{\\unit{g}}\\)} de polietileno.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de ciclobutano e {\\(\\qty{1}{\\unit{mol}}\\)} de cicloexano.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância tem a \\emph{maior} entropia.\n"
       },
       "solution": null,
       "answer": null,
@@ -13809,11 +14916,11 @@
     {
       "id_": "2B21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B21/2B21.md",
-      "date": "2023-01-10T00:41:25.184590",
+      "date": "2023-01-30T23:38:05.217879",
       "statement": {
-        "html": "<p>Considere os pares de substâncias a segui em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O3}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH2Br2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH4}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HBr}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HF}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ne}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância possui maior entropia.</p>",
-        "md": "Considere os pares de substâncias a segui em $\\pu{298 K}$ e\n$\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{O2}$ gasoso e $\\pu{1 mol}$ de $\\ce{O3}$ gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{CH2Br2}$ gasoso e $\\pu{1 mol}$ de $\\ce{CH4}$\n    gasoso.\n3.  $\\pu{1 mol}$ de $\\ce{HBr}$ gasoso e $\\pu{1 mol}$ de $\\ce{HF}$\n    gasoso.\n4.  $\\pu{1 mol}$ de $\\ce{NH3}$ gasoso e $\\pu{1 mol}$ de $\\ce{Ne}$\n    gasoso.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância possui maior entropia.\n",
-        "tex": "Considere os pares de substâncias a segui em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O3}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH2Br2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH4}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HBr}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HF}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{NH3}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Ne}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância possui maior entropia.\n"
+        "html": "<p>Considere os pares de substâncias em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{O3}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH2Br2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{CH4}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HBr}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{HF}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{NH3}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Ne}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância tem a <em>maior</em> entropia.</p>",
+        "md": "Considere os pares de substâncias em $\\pu{298 K}$ e $\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{O2}$ gasoso e $\\pu{1 mol}$ de $\\ce{O3}$ gasoso.\n2.  $\\pu{1 mol}$ de $\\ce{CH2Br2}$ gasoso e $\\pu{1 mol}$ de $\\ce{CH4}$\n    gasoso.\n3.  $\\pu{1 mol}$ de $\\ce{HBr}$ gasoso e $\\pu{1 mol}$ de $\\ce{HF}$\n    gasoso.\n4.  $\\pu{1 mol}$ de $\\ce{NH3}$ gasoso e $\\pu{1 mol}$ de $\\ce{Ne}$\n    gasoso.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância tem a *maior* entropia.\n",
+        "tex": "Considere os pares de substâncias em {\\(\\qty{298}{\\unit{K}}\\)} e {\\(\\qty{1}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{O3}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH2Br2}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{CH4}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HBr}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{HF}\\)} gasoso.\n\\item\n  {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{NH3}\\)} gasoso e {\\(\\qty{1}{\\unit{mol}}\\)} de {\\(\\ce{Ne}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira substância tem a \\emph{maior} entropia.\n"
       },
       "solution": null,
       "answer": null,
