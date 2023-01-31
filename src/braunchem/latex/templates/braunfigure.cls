@@ -108,6 +108,8 @@
 
 \pagestyle{empty}
 
+\RequirePackage [ margin=1cm ] { geometry }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
 %   CLASS              

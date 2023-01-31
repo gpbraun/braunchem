@@ -1276,6 +1276,8 @@
 %   FIGURAS
 %============================================================%
 
+% \setcapindent{1em}
+
 \NewDocumentEnvironment { simplefigure } {}
   {
     \group_begin:
@@ -1415,6 +1417,8 @@
         textfont  = { color = colortable_caption_color },
       }
 
+    \setcaphanging
+
     \begin{table}
     \centering
     \tcbox
@@ -1502,6 +1506,8 @@
           font = { color = example_color, sf },
           labelfont = bf,
       }
+
+    \setcaphanging
 
     \captionof { floatexample } 
       {
