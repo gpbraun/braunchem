@@ -71,14 +71,18 @@ class Topic(BaseModel):
         if not self.problem_sets:
             return ""
 
-        tex_statements = latex.section("Problemas", level=0, numbered=False)
+        tex_statements = ""
         tex_answers = latex.section("Gabarito", level=0, numbered=False)
 
+        previous_len = 1
         for problem_collection in self.problem_collections(problem_db):
             tex_statements = "\n".join(
                 [tex_statements, problem_collection.tex_statements()]
             )
-            tex_answers = "\n".join([tex_answers, problem_collection.tex_answers()])
+            tex_answers = "\n".join(
+                [tex_answers, problem_collection.tex_answers(start=previous_len)]
+            )
+            previous_len += len(problem_collection)
 
         return "\n".join([tex_statements, tex_answers])
 

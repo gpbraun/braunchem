@@ -324,7 +324,7 @@
         \draw_path_lineto:n { -#2 +0.2ex, #2 }
         \draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
         \draw_path_close:
-        \color_fill:n { blue!60!black!20 }
+        \color_fill:n { gray!30 }
         \draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -381,9 +381,17 @@
 
 \tikzstyle{every~pin}=[draw=black]
 
+%============================================================%
+%   BIBLIOTECAS ADICIONAIS DO TIKZ/PGFPLOTS
+%============================================================%
+
 \AtBeginDocument 
   {
-    \usepgfplotslibrary{ groupplots, fillbetween }
+    \usepgfplotslibrary
+      { 
+        groupplots, 
+        fillbetween 
+      }
     \usetikzlibrary
       {
         calc,
@@ -396,7 +404,7 @@
   }
 
 %============================================================%
-%   PALETA DE CORES (BOOTSTRAP)
+%   PALETA DE CORES
 %============================================================%
 
 \cs_set_eq:NN \legacydefinecolor \definecolor
@@ -407,29 +415,27 @@
     \color_set:nnn     {#1}{#2}{#3}
   }
 
-% CORES BÁSICAS
-\definecolor { blue   } { HTML } { 0d6efd }
-\definecolor { indigo } { HTML } { 6610f2 }
-\definecolor { purple } { HTML } { 6f42c1 }
-\definecolor { pink   } { HTML } { d63384 }
-\definecolor { red    } { HTML } { dc3545 } 
-\definecolor { orange } { HTML } { fd7e14 } 
-\definecolor { yellow } { HTML } { ffc107 } 
-\definecolor { green  } { HTML } { 198754 } 
-\definecolor { teal   } { HTML } { 20c997 } 
-\definecolor { cyan   } { HTML } { 0dcaf0 } 
-\definecolor { lime   } { HTML } { 84cc16 }
+% CINZA
+\definecolor { gray } { HTML } { 64748b }
 
-% TONS DE CINZA
-\definecolor { gray-100 } { HTML } { f8f9fa }
-\definecolor { gray-200 } { HTML } { e9ecef }
-\definecolor { gray-300 } { HTML } { dee2e6 }
-\definecolor { gray-400 } { HTML } { ced4da }
-\definecolor { gray-500 } { HTML } { adb5bd } 
-\definecolor { gray-600 } { HTML } { 6c757d } 
-\definecolor { gray-700 } { HTML } { 495057 } 
-\definecolor { gray-800 } { HTML } { 343a40 } 
-\definecolor { gray-900 } { HTML } { 212529 } 
+% CORES BÁSICAS (TAILWIND)
+\definecolor { red     } { HTML } { ef4444 }
+\definecolor { orange  } { HTML } { f97316 }
+\definecolor { amber   } { HTML } { f59e0b }
+\definecolor { yellow  } { HTML } { eab308 }
+\definecolor { lime    } { HTML } { 84cc16 }
+\definecolor { green   } { HTML } { 22c55e }
+\definecolor { emerald } { HTML } { 10b981 }
+\definecolor { teal    } { HTML } { 14b8a6 }
+\definecolor { cyan    } { HTML } { 06b6d4 }
+\definecolor { sky     } { HTML } { 0ea5e9 }
+\definecolor { blue    } { HTML } { 3b82f6 }
+\definecolor { indigo  } { HTML } { 6366f1 }
+\definecolor { violet  } { HTML } { 8b5cf6 }
+\definecolor { purple  } { HTML } { a855f7 }
+\definecolor { fuchsia } { HTML } { d946ef }
+\definecolor { pink    } { HTML } { fdf2f8 }
+\definecolor { rose    } { HTML } { f43f5e }
 
 % CORES DOS BLOCOS
 \colorlet{ s-block } { blue   }
@@ -443,6 +449,7 @@
     { blue  },
     { red   },
     { green },
+    { purple },
   }
 \pgfplotsset
   {
@@ -478,7 +485,7 @@
       {
         line-style = dashed,
         width      = thick,
-        color      = gray-500,
+        color      = gray,
       },
 
     unknown .code:n = \exp_args:Ne \SetMCRule { \l_keys_key_tl = #1 },
@@ -690,9 +697,11 @@
         after-skip  .skip_set:c = { l_braun_title_#2_after_skip  },
         after-skip  .initial:n  = 0.5em,
       }
+
 		% Change default keys for the title element
 		\IfNoValueF {#1} { \keys_set:nn { braun/maketitle/#2 } {#1} }
-        % Set the title element value
+    
+    % Set the title element value
     \cs_gset:cpn {#2} ##1 
 			{  
 				\bool_set_true:c { l_braun_title_#2_input_bool }
@@ -700,22 +709,24 @@
 				% LaTeX2e compatibility
 				\cs_if_exist:cT {@#2} { \cs_set:cpn {@#2} {##1} } 
 			}
-      % Print title element value
-      \cs_new:cpn { Print \char_uppercase:N #2 }
-        {
-          \bool_if:NTF \l_braun_if_maketitle_bool
-            { % inside \maketitle
-              \use:c { braun_maketitle_print_#2 }
-            }
-            { % outside \maketitle
-              \seq_if_empty:cF { l_braun_title_#2_value_seq }
-                {
-                  \braun_select_sep:cn 
-                    { l_braun_title_#2_value_seq } { normal } 
-                }
-            }
-        }
-		% Print title element value inside \maketitle
+
+    % Print title element value
+    \cs_new:cpn { Print \char_uppercase:N #2 }
+      {
+        \bool_if:NTF \l_braun_if_maketitle_bool
+          { % inside \maketitle
+            \use:c { braun_maketitle_print_#2 }
+          }
+          { % outside \maketitle
+            \seq_if_empty:cF { l_braun_title_#2_value_seq }
+              {
+                \braun_select_sep:cn 
+                  { l_braun_title_#2_value_seq } { normal } 
+              }
+          }
+      }
+		
+    % Print title element value inside \maketitle
 		\cs_new:cpn { braun_maketitle_print_#2 }
       {
 				\seq_if_empty:cF { l_braun_title_#2_value_seq }
@@ -753,12 +764,12 @@
 %% ELEMENTOS PADRÃO
 
 \NewTitleElement 
-	[ font = \LARGE\bfseries ] 
-	{ title }
+	[ font = \Huge\bfseries ] 
+	{ id }
 
 \NewTitleElement 
-	[ font = \large ]
-	{ subtitle }
+	[ font = \Huge\bfseries ] 
+	{ title }
 
 \NewTitleElement 
 	[ font = \large  ]
@@ -773,7 +784,13 @@
 	{ date }
 
 \NewTitleElement 
-	[ case = lower, font = \ttfamily , before-skip = 0pt, after-skip = 0pt, pre-text = \textnormal{Contato:~} ]
+	[ 
+    case = lower, 
+    font = \ttfamily, 
+    before-skip = 0pt,
+    after-skip = 0pt,
+    pre-text = \textnormal{Contato:~}
+  ]
 	{ contact }
 
 %============================================================%
@@ -853,42 +870,41 @@
 		pensi = 
       {
         \draw_begin:  
-        \color_set:nnn {pensi}{HTML}{ffc107}
-        \fp_set:Nn \l_tmpa_fp { 60 } % Angle
-        \draw_path_moveto:n 
+          \fp_set:Nn \l_tmpa_fp { 60 } % Angle
+          \draw_path_moveto:n 
             { 0em , 0em }
-        \draw_path_lineto:n 
+          \draw_path_lineto:n 
             { 0em , 1cm }
-        \draw_path_lineto:n 
+          \draw_path_lineto:n 
             { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) , 1cm }
-        \draw_path_arc:nnn { 90 } { - \l_tmpa_fp }
+          \draw_path_arc:nnn { 90 } { - \l_tmpa_fp }
             { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) }
-        \draw_path_close:   
-        \color_fill:n { white }
-        \draw_path_use:n { fill }
-        \draw_transform_shift:n 
+          \draw_path_close:   
+          \color_fill:n { white }
+          \draw_path_use:n { fill }
+          \draw_transform_shift:n 
             {  
-                \draw_point_polar:nn 
-                    { 0.7 * 1cm  } { 90 - \l_tmpa_fp / 2 }
+              \draw_point_polar:nn 
+                { 0.7 * 1cm  } { 90 - \l_tmpa_fp / 2 }
             }
-        \draw_path_moveto:n 
+          \draw_path_moveto:n 
             {
-                \draw_point_polar:nn 
-                    {  1cm / ( 3 * sqrt(3) ) } { 0 }
+              \draw_point_polar:nn 
+                {  1cm / ( 3 * sqrt(3) ) } { 0 }
             }
-        \draw_path_lineto:n 
+          \draw_path_lineto:n 
             {
-                \draw_point_polar:nn
-                    {  1cm / ( 3 * sqrt(3) ) } { 120 }
+              \draw_point_polar:nn
+                {  1cm / ( 3 * sqrt(3) ) } { 120 }
             }
-        \draw_path_lineto:n 
+          \draw_path_lineto:n 
             {
-                \draw_point_polar:nn
-                    {  1cm / ( 3 * sqrt(3) ) } { -120 }
+              \draw_point_polar:nn
+                {  1cm / ( 3 * sqrt(3) ) } { -120 }
             }
-        \draw_path_close:
-        \color_fill:n { yellow!80 }
-        \draw_path_use:n { fill }
+          \draw_path_close:
+          \color_fill:n { yellow!70 }
+          \draw_path_use:n { fill }
         \draw_end:
       },
 	}
@@ -904,7 +920,7 @@
 		align .initial:n  = c,
 
 		print .clist_set:N = \l_braun_title_print_clist,
-		print .initial:n   = { title, subtitle, author, affiliation, date },
+		print .initial:n   = { title, author, affiliation },
 
 		pre-text  .tl_set:N = \l_braun_title_pre_text_tl,
 		post-text .tl_set:N = \l_braun_title_post_text_tl,
@@ -1020,157 +1036,44 @@
 
         \skip_vertical:n { 3em }
       }
-    \bool_if:NT \l_braun_title_contact_input_bool
+    % \bool_if:NT \l_braun_title_contact_input_bool
       { \BraunThanks { \PrintContact } }
     \group_end:
   }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
-%   PROBLEMS
+%   CABEÇALHOS DE SEÇÕES
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage { tasks, enumitem }
-
-\setlist{ leftmargin = 2em }
-
-%% RESPOSTAS
-
-\newlist { answers } { enumerate }{ 2 }
-
-\setlist [ answers, 1 ]
-  { 
-    label = { \usekomafont {disposition} \footnotesize { \arabic* }. } 
-  }
-
-\setlist [ answers, 2 ]
-  { 
-    label = { \alph*. } 
-  }
-
-\NewTasksEnvironment
-  [
-    label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
-    label-align = right,
-    item-indent = 2.5em,
-    label-width = 1.5em,
-    label-offset = 0.7em,
-    before-skip = 1em,
-  ]
-  { mcanswers } [ \answer ]
-
-%% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
-
-\NewTasksEnvironment
-  [
-    label  = { \choicebox { \Alph* } },
-    item-indent = 3em,
-    after-item-skip = 2\itemsep,
-    label-width = 1.2em,
-    label-align = right,
-    label-offset = 0.8em,
-  ] 
-  { choices } [\item ]
-
-%% DADOS ADICIONAIS NO FINAL DO ENUNCIADO
-
-\NewTasksEnvironment
-  [
-    label  = \textbullet,
-    item-indent = 1em,
-    label-width = 1ex,
-    % label-offset = 0.5ex,
-  ] 
-  { datalist } [\item ]
-
-%============================================================%
-%   ALTERNATIVAS
-%============================================================%
-
-% Determinacão automática do número de colunas
-
-\box_new:N \l_braun_choices_a_box
-\box_new:N \l_braun_choices_b_box
-\box_new:N \l_braun_choices_c_box
-\box_new:N \l_braun_choices_d_box
-\box_new:N \l_braun_choices_e_box
-
-\fp_new:N \l_braun_choices_a_fp
-\fp_new:N \l_braun_choices_b_fp
-\fp_new:N \l_braun_choices_c_fp
-\fp_new:N \l_braun_choices_d_fp
-\fp_new:N \l_braun_choices_e_fp
-
-% #1 -> alternativa A
-% #2 -> alternativa B
-% #3 -> alternativa C
-% #4 -> alternativa D
-% #5 -> alternativa E
-\cs_set:Npn \autochoices #1#2#3#4#5
+% #1 -> level
+% #2 -> indent
+% #3 -> number
+% #4 -> text
+\cs_set:Npn \sectionlinesformat #1#2#3#4
   {
-    \group_begin:
-
-    \hbox_set:Nn \l_braun_choices_a_box {#1}
-    \hbox_set:Nn \l_braun_choices_b_box {#2}
-    \hbox_set:Nn \l_braun_choices_c_box {#3}
-    \hbox_set:Nn \l_braun_choices_d_box {#4}
-    \hbox_set:Nn \l_braun_choices_e_box {#5}
-
-    \fp_set:Nn \l_braun_choices_a_fp
-      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_a_box } }
-    \fp_set:Nn \l_braun_choices_b_fp
-      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_b_box } }
-    \fp_set:Nn \l_braun_choices_c_fp
-      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_c_box } }
-    \fp_set:Nn \l_braun_choices_d_fp
-      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_d_box } }
-    \fp_set:Nn \l_braun_choices_e_fp
-      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_e_box } }
-
-    \fp_set:Nn \l_tmpa_fp % alternativa de maior tamanho
-      { 
-        max(
-          \l_braun_choices_a_fp,
-          \l_braun_choices_b_fp,
-          \l_braun_choices_c_fp,
-          \l_braun_choices_d_fp,
-          \l_braun_choices_e_fp
-        )
-      }
-
-    \fp_set:Nn \l_tmpb_fp % tamanho útil
-      { 
-        0.7 * \dim_to_decimal:n {\columnwidth}
-      }
-
-    \int_set:Nn \l_tmpa_int % número de colunas
-      { 
-        \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
-      }
-
-    \int_compare:nNnT { \l_tmpa_int } = {4}
+    \Ifstr{#1}{section}
       {
-        \int_set:Nn \l_tmpa_int {3}
+        \begin{tikzpicture}
+          \node (background) 
+            [  
+              fill = blue!7.5, 
+              anchor = west, 
+              minimum~height = 2em, 
+              minimum~width = \linewidth 
+            ] {};
+          \node [ anchor = west, align = left, xshift = 1ex ] 
+            at (background.west)
+            {
+              \@hangfrom{\hskip #2#3}{#4}
+            };
+        \end{tikzpicture}    
       }
-
-    \smallskip
-    \begin{choices}(\l_tmpa_int)
-      \item #1
-      \item #2
-      \item #3
-      \item #4
-      \item #5
-    \end{choices}
-
-    \group_end:
+      {
+        \@hangfrom{\hskip #2#3}{#4}
+      }
   }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                              
-%   LISTAS
-%                                              
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
@@ -1394,13 +1297,13 @@
     caption-color .initial:n = blue!70!black,
 
     caption-label-color .code:n = \colorlet { colortable_label_color } { #1 },
-    caption-label-color .initial:n = red!80!black,
+    caption-label-color .initial:n = red!70!black,
 
     frame-color .code:n = \colorlet { colortable_frame_color } { #1 },
-    frame-color .initial:n = orange,
+    frame-color .initial:n = yellow,
 
     background-color .code:n = \colorlet { colortable_background_color } { #1 },
-    background-color .initial:n = yellow!7.5,
+    background-color .initial:n = yellow!10,
   }
 
 \NewDocumentEnvironment { colortable } { O{} m +b }
@@ -1619,7 +1522,7 @@
         right = 0pt,
         toptitle = 2pt,
         bottomtitle = 2pt,
-        colframe = gray-500,
+        colframe = gray,
       ]
   } 
   {
@@ -1638,15 +1541,12 @@
     title .initial:n = Atenção,
 
     color .tl_set:N = \l_braun_boxes_indentedsection_color_tl,
-    color .initial:n = gray-400,
+    color .initial:n = gray,
   }
 
 \cs_set:Npn \gobblepars
   { % evita um novo parágrafo logo após o título.
-    \@ifnextchar \par
-      {
-          \expandafter\gobblepars\@gobble
-      }{}
+    \@ifnextchar \par { \expandafter\gobblepars\@gobble }{}
   }
 
 % #1 -> color
@@ -1682,32 +1582,16 @@
     \group_end:
   }
 
-\cs_set:Npn \gobblepars
-    {
-        \@ifnextchar \par
-            {
-                \expandafter\gobblepars\@gobble
-            }{}
-    }
-
 \NewDocumentEnvironment { info } {}
-  {
-    \begin{indentedsection}[ color = cyan!60!black ]
-  } 
-  {
-    \end{indentedsection}
-  }
+  { \begin{indentedsection}[ color = cyan!60!black ] } 
+  { \end{indentedsection} }
 
 \NewDocumentEnvironment { warning } {}
-  {
-    \begin{indentedsection}[ color = red ]
-  } 
-  {
-    \end{indentedsection}
-  }
+  { \begin{indentedsection}[ color = red!80!black ] } 
+  { \end{indentedsection} }
 
 %============================================================%
-%   PROVA ("COMO ISSO É FEITO?")
+%   DEMONSTRAÇÃO ("COMO ISSO É FEITO?")
 %============================================================%
 
 \cs_set:Npn \DerivationHeader #1
@@ -1746,7 +1630,7 @@
         left = 1ex,
         right = 1ex,
         borderline~ vertical = {1.5pt}{0pt}{yellow!7.5},
-        borderline~ horizontal = {1.5pt}{0pt}{orange},
+        borderline~ horizontal = {1.5pt}{0pt}{yellow},
       ]
   } 
   {
@@ -1776,6 +1660,148 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                              
+%   LISTAS
+%                                              
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage { tasks, enumitem }
+
+\setlist{ leftmargin = 2em }
+\setlist [ itemize ] { leftmargin = * }
+
+%% RESPOSTAS
+
+\newlist { answers } { enumerate }{ 2 }
+
+\setlist [ answers, 1 ]
+  { 
+    label = { \usekomafont {disposition} \footnotesize { \arabic* }. } 
+  }
+
+\setlist [ answers, 2 ]
+  { 
+    label = { \alph*. } 
+  }
+
+\NewTasksEnvironment
+  [
+    label = { \usekomafont {disposition} \footnotesize { \arabic* }. },
+    label-align = right,
+    item-indent = 2.5em,
+    label-width = 1.5em,
+    label-offset = 0.7em,
+    before-skip = 1em,
+  ]
+  { mcanswers } [ \answer ]
+
+%% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
+
+\NewTasksEnvironment
+  [
+    label  = { \choicebox { \Alph* } },
+    item-indent = 3em,
+    after-item-skip = 2\itemsep,
+    label-width = 1.2em,
+    label-align = right,
+    label-offset = 0.8em,
+  ] 
+  { choices } [\item ]
+
+%% DADOS ADICIONAIS NO FINAL DO ENUNCIADO
+
+\NewTasksEnvironment
+  [
+    label  = \textbullet,
+    item-indent = 1em,
+    label-width = 1ex,
+    % label-offset = 0.5ex,
+  ] 
+  { datalist } [\item ]
+
+%============================================================%
+%   ALTERNATIVAS
+%============================================================%
+
+% Determinacão automática do número de colunas
+
+\box_new:N \l_braun_choices_a_box
+\box_new:N \l_braun_choices_b_box
+\box_new:N \l_braun_choices_c_box
+\box_new:N \l_braun_choices_d_box
+\box_new:N \l_braun_choices_e_box
+
+\fp_new:N \l_braun_choices_a_fp
+\fp_new:N \l_braun_choices_b_fp
+\fp_new:N \l_braun_choices_c_fp
+\fp_new:N \l_braun_choices_d_fp
+\fp_new:N \l_braun_choices_e_fp
+
+% #1 -> alternativa A
+% #2 -> alternativa B
+% #3 -> alternativa C
+% #4 -> alternativa D
+% #5 -> alternativa E
+\cs_set:Npn \autochoices #1#2#3#4#5
+  {
+    \group_begin:
+
+    \hbox_set:Nn \l_braun_choices_a_box {#1}
+    \hbox_set:Nn \l_braun_choices_b_box {#2}
+    \hbox_set:Nn \l_braun_choices_c_box {#3}
+    \hbox_set:Nn \l_braun_choices_d_box {#4}
+    \hbox_set:Nn \l_braun_choices_e_box {#5}
+
+    \fp_set:Nn \l_braun_choices_a_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_a_box } }
+    \fp_set:Nn \l_braun_choices_b_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_b_box } }
+    \fp_set:Nn \l_braun_choices_c_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_c_box } }
+    \fp_set:Nn \l_braun_choices_d_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_d_box } }
+    \fp_set:Nn \l_braun_choices_e_fp
+      { \dim_to_decimal:n { \box_wd:N \l_braun_choices_e_box } }
+
+    \fp_set:Nn \l_tmpa_fp % alternativa de maior tamanho
+      { 
+        max(
+          \l_braun_choices_a_fp,
+          \l_braun_choices_b_fp,
+          \l_braun_choices_c_fp,
+          \l_braun_choices_d_fp,
+          \l_braun_choices_e_fp
+        )
+      }
+
+    \fp_set:Nn \l_tmpb_fp % tamanho útil
+      { 
+        0.7 * \dim_to_decimal:n {\columnwidth}
+      }
+
+    \int_set:Nn \l_tmpa_int % número de colunas
+      { 
+        \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
+      }
+
+    \int_compare:nNnT { \l_tmpa_int } = {4}
+      {
+        \int_set:Nn \l_tmpa_int {3}
+      }
+
+    \smallskip
+    \begin{choices}(\l_tmpa_int)
+      \item #1
+      \item #2
+      \item #3
+      \item #4
+      \item #5
+    \end{choices}
+
+    \group_end:
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                              
 %   PROBLEMAS
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1792,7 +1818,7 @@
     path .initial:n = ,
   }
 
-\newcounter { problem } [ subsection ]
+\newcounter { problem }
 
 %============================================================%
 %   AMBIENTE DOS PROBLEMAS
@@ -1805,41 +1831,19 @@
 
     \group_begin:
 
+    \keys_set:nn { braun/problems } { path = , id = , #1 }
+
+    \dim_zero:N \parindent
+    \dim_set_eq:NN \parskip \medskipamount   
+
     \cs_set_eq:NN \figure \simplefigure
     \cs_set_eq:NN \endfigure \endsimplefigure
 
-    \keys_set:nn { braun/problems } { path = , id = , #1 }
-
-    \subsubsection*{}\skip_vertical:n {-2em}
-
-    % %% HEADER
-    % \BraunHeader
-    %     [ \texttt{ \color{pink} \l_braun_problem_id_tl } ]
-    %     { 
-    %         \footnotesize\sffamily\bfseries
-    %         \text_uppercase:n { \l_braun_problem_name_tl } ~
-    %         \arabic { section } . \arabic { problem }
-    %     }
-    {
-      \usekomafont{ disposition }
-      \text_uppercase:n { \l_braun_problem_name_tl } ~
-      \arabic { subsection } . \arabic { problem }    
-    }
-    \hfill
-    {
-      \small
-      \texttt{ \color{purple} \tl_use:N \l_braun_problem_id_tl  }
-      \skip_horizontal:n {1ex}
-    }
-    % \\[-1ex]
-    % {\color{black!50} \rule{\linewidth}{0.4pt}}
-    \\[1ex]
-
-    \dim_zero:N \parindent
-    \dim_set_eq:NN \parskip \medskipamount        
+    \minisec{ \text_uppercase:n { \l_braun_problem_name_tl } ~ \arabic { problem }  }     
   } 
   {
     \group_end:
+
     \smallskip
   }
 
@@ -1886,16 +1890,15 @@
 
     % Título
     maketitle / align = l,
-    maketitle / print = { title, subtitle, author, affiliation },
     maketitle / toprule = true,
     maketitle / botrule = true,
-    maketitle / title / font = \Huge\bfseries ,
-    maketitle / subtitle / font = \Large\bfseries ,
-    maketitle / author / font = \large\bfseries\sffamily ,
-    maketitle / affiliation / font = \sffamily\slshape ,
-    maketitle / date / value = \int_use:N \c_sys_year_int ,
-    maketitle / date / font  = \Large\bfseries ,
+    maketitle / title / font = \Huge\bfseries,
+    maketitle / author / font = \large\bfseries\sffamily,
+    maketitle / affiliation / font = \sffamily\slshape,
+    maketitle / date / value = \int_use:N \c_sys_year_int,
+    maketitle / date / font  = \Large\bfseries,
     maketitle / logo / value = pensi,
+    maketitle / contact / value = {gabriel.braun@pensi.com.br,\;(21)\,99848-4949},
 
     % Legendas
     captions = nooneline,

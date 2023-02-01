@@ -75,11 +75,11 @@ def latex_len(tex_str):
     return count
 
 
-def enum(name: str, items: list, cols=0, sep_cmd="item"):
+def enum(name: str, items: list, cols=0, sep_cmd="item", start: int = 1):
     # latex enumerate
     cols = f"({cols})" if cols else ""
     content = "\n".join([cmd(sep_cmd) + i for i in items])
-    return env(name, f"{cols}{content}")
+    return env(name, f"[start = {start}]{cols}{content}")
 
 
 def ce(arg):

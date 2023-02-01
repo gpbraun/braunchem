@@ -267,22 +267,18 @@ class ProblemSet(BaseModel):
         """Verifica se todos os problemas são objetivos."""
         return all(p.is_objective for p in self)
 
-    def tex_statements(self, use_header: bool = True) -> str:
+    def tex_statements(self) -> str:
         """Retorna o conjunto de problemas em LaTeX."""
         if not self.problems:
             return ""
 
-        header = (
-            latex.section(self.title, level=1)
-            + latex.cmd("refstepcounter", "subsection")
-            if use_header
-            else ""
-        )
+        title = self.title
+        header = latex.section(title, level=0, numbered=False)
         statements = "\n".join(p.tex() for p in self)
 
         return header + statements
 
-    def tex_answers(self) -> str:
+    def tex_answers(self, start: int = 1) -> str:
         """Retorna o gabarito dos problemas em LaTeX."""
         if not self.problems:
             return ""
@@ -291,9 +287,11 @@ class ProblemSet(BaseModel):
         answers = [p.tex_answer() for p in self.problems]
 
         if self.is_objective:
-            return header + latex.enum("mcanswers", answers, sep_cmd="answer", cols=6)
+            return header + latex.enum(
+                "mcanswers", answers, sep_cmd="answer", cols=6, start=start
+            )
 
-        return header + latex.enum("answers", answers)
+        return header + latex.enum("answers", answers, start=start)
 
     def get_updated_problem(self, problem_path: Path) -> Problem:
         """Retorna a versão mais recente de um problema no `ProblemSet`.
