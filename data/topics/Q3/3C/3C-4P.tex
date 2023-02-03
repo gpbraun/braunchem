@@ -1,0 +1,19 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            ylabel = {Energia potencial, $E_\mathrm{p}$},
+            xlabel = {Distância entre os centros, $r$},
+            domain = 0.9:2,
+            xmin = 0.9, xmax = 2,
+            ymin = -2.3, ymax = 0.5,
+            xtick=\empty, ytick=0,
+        ]
+        \addplot
+            {
+               4 * 2 * ((1/x)^(12) - (1/x)^6)
+            };
+ \end{axis}
+ \end{tikzpicture}
+
+ 

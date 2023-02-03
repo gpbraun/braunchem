@@ -6,7 +6,7 @@
     {
       "id_": "1B25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B25/1B25.md",
-      "date": "2023-01-12T21:54:30.692644",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Magnésio</li>\n<li>Alumínio</li>\n<li>Bismuto</li>\n<li>Arsênio</li>\n<li>Cobre</li>\n</ol>",
         "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Magnésio\nb.  Alumínio\nc.  Bismuto\nd.  Arsênio\ne.  Cobre\n",
@@ -15,29 +15,29 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[Ne]}\\, 3s^2$, $n=3$, $l=0$, $m=0$.",
-          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\), \\(n=3\\), \\(l=0\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\,\\mathrm{3s^2}\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\,\\mathrm{3s^2}$, $n=3$, $l=0$, $m=0$.",
+          "tex": "\\(\\ce{[Ne]}\\,\\mathrm{3s^2}\\), \\(n=3\\), \\(l=0\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\, 3p^1\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
-          "md": "$\\ce{[Ne]}\\, 3s^2\\, 3p^1$, $n=3$, $l=1$, $m=-1$.",
-          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\, 3p^1\\), \\(n=3\\), \\(l=1\\), \\(m=-1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\,\\mathrm{3s^2 3p^1}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\,\\mathrm{3s^2 3p^1}$, $n=3$, $l=1$, $m=-1$.",
+          "tex": "\\(\\ce{[Ne]}\\,\\mathrm{3s^2 3p^1}\\), \\(n=3\\), \\(l=1\\), \\(m=-1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^{10}\\,\n6p^3\\)</span>, <span class=\"math inline\">\\(n=6\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
-          "md": "$\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^{10}\\, 6p^3$, $n=6$, $l=1$, $m=+1$.",
-          "tex": "\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^{10}\\, 6p^3\\), \\(n=6\\), \\(l=1\\), \\(m=+1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\,\\mathrm{6s^2 4f^{14} 5d^{10}\n6p^3}\\)</span>, <span class=\"math inline\">\\(n=6\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Xe]}\\,\\mathrm{6s^2 4f^{14} 5d^{10} 6p^3}$, $n=6$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Xe]}\\,\\mathrm{6s^2 4f^{14} 5d^{10} 6p^3}\\), \\(n=6\\), \\(l=1\\), \\(m=+1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^3\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^3$, $n=4$, $l=1$, $m=+1$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^3\\), \\(n=4\\), \\(l=1\\), \\(m=+1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}\n4p^3}\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^3}$, $n=4$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^3}\\), \\(n=4\\), \\(l=1\\), \\(m=+1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^1\\, 3d^{10}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^1\\, 3d^{10}$, $n=3$, $l=2$, $m=+2$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^1\\, 3d^{10}\\), \\(n=3\\), \\(l=2\\), \\(m=+2\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^1\n3d^{10}}\\)</span>, <span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^1 3d^{10}}$, $n=3$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^1 3d^{10}}\\), \\(n=3\\), \\(l=2\\), \\(m=+2\\).\n"
         }
       ],
       "data": null,
@@ -47,11 +47,11 @@
     {
       "id_": "1B24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B24/1B24.md",
-      "date": "2023-01-12T20:22:05.048632",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as distribuições de átomos no estado fundamental.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 3d^{10}\\, 4s^2\\,\n4p^1\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^1\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^2\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Xe]}\\, 4f^7\\, 3s^2\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com o número atômico do\nelemento referente a cada distribuição eletrônica, respectivamente.</p>",
-        "md": "Considere as distribuições de átomos no estado fundamental.\n\n1.  $\\ce{[Ar]}\\, 3d^{10}\\, 4s^2\\, 4p^1$\n2.  $\\ce{[Ne]}\\, 3s^1$\n3.  $\\ce{[Kr]}\\, 5s^2$\n4.  $\\ce{[Xe]}\\, 4f^7\\, 3s^2$\n\n**Assinale** a alternativa com o número atômico do elemento referente a\ncada distribuição eletrônica, respectivamente.\n",
-        "tex": "Considere as distribuições de átomos no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Ar]}\\, 3d^{10}\\, 4s^2\\, 4p^1\\)}\n\\item\n  {\\(\\ce{[Ne]}\\, 3s^1\\)}\n\\item\n  {\\(\\ce{[Kr]}\\, 5s^2\\)}\n\\item\n  {\\(\\ce{[Xe]}\\, 4f^7\\, 3s^2\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com o número atômico do elemento referente a cada distribuição eletrônica, respectivamente.\n"
+        "html": "<p>Considere as distribuições de átomos no estado fundamental.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{3d^{10} 4s^2\n4p^1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ne]}\\,\\mathrm{3s^1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Xe]}\\,\\mathrm{4f^7\n3s^2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com o número atômico do\nelemento referente a cada distribuição eletrônica, respectivamente.</p>",
+        "md": "Considere as distribuições de átomos no estado fundamental.\n\n1.  $\\ce{[Ar]}\\,\\mathrm{3d^{10} 4s^2 4p^1}$\n2.  $\\ce{[Ne]}\\,\\mathrm{3s^1}$\n3.  $\\ce{[Kr]}\\,\\mathrm{5s^2}$\n4.  $\\ce{[Xe]}\\,\\mathrm{4f^7 3s^2}$\n\n**Assinale** a alternativa com o número atômico do elemento referente a\ncada distribuição eletrônica, respectivamente.\n",
+        "tex": "Considere as distribuições de átomos no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Ar]}\\,\\mathrm{3d^{10} 4s^2 4p^1}\\)}\n\\item\n  {\\(\\ce{[Ne]}\\,\\mathrm{3s^1}\\)}\n\\item\n  {\\(\\ce{[Kr]}\\,\\mathrm{5s^2}\\)}\n\\item\n  {\\(\\ce{[Xe]}\\,\\mathrm{4f^7 3s^2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com o número atômico do elemento referente a cada distribuição eletrônica, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
@@ -129,7 +129,7 @@
     {
       "id_": "1B18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B18/1B18.md",
-      "date": "2023-01-12T19:24:22.740940",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Pb}\\)</span>, <span class=\"math inline\">\\(\\ce{Ir}\\)</span>, <span class=\"math inline\">\\(\\ce{Y}\\)</span> e <span class=\"math inline\">\\(\\ce{Cd}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons de\ndesemparelhados previstos na configuração do estado fundamental para\ncada átomo, respectivamente.</p>",
         "md": "Considere os átomos no estado fundamental $\\ce{Pb}$, $\\ce{Ir}$, $\\ce{Y}$\ne $\\ce{Cd}$.\n\n**Assinale** a alternativa com o número de elétrons de desemparelhados\nprevistos na configuração do estado fundamental para cada átomo,\nrespectivamente.\n",
@@ -140,29 +140,29 @@
       "data": null,
       "choices": [
         {
-          "html": "2; 3; 0; 0",
-          "md": "2; 3; 0; 0\n",
-          "tex": "2; 3; 0; 0\n"
+          "html": "<span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(0\\)</span>; <span class=\"math inline\">\\(0\\)</span>",
+          "md": "$2$; $3$; $0$; $0$\n",
+          "tex": "{\\(2\\)}; {\\(3\\)}; {\\(0\\)}; {\\(0\\)}\n"
         },
         {
-          "html": "2; 3; 1; 0",
-          "md": "2; 3; 1; 0\n",
-          "tex": "2; 3; 1; 0\n"
+          "html": "<span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(0\\)</span>",
+          "md": "$2$; $3$; $1$; $0$\n",
+          "tex": "{\\(2\\)}; {\\(3\\)}; {\\(1\\)}; {\\(0\\)}\n"
         },
         {
-          "html": "3; 2; 1; 1",
-          "md": "3; 2; 1; 1\n",
-          "tex": "3; 2; 1; 1\n"
+          "html": "<span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(1\\)</span>",
+          "md": "$3$; $2$; $1$; $1$\n",
+          "tex": "{\\(3\\)}; {\\(2\\)}; {\\(1\\)}; {\\(1\\)}\n"
         },
         {
-          "html": "3; 2; 1; 1",
-          "md": "3; 2; 1; 1\n",
-          "tex": "3; 2; 1; 1\n"
+          "html": "<span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(1\\)</span>",
+          "md": "$3$; $2$; $1$; $1$\n",
+          "tex": "{\\(3\\)}; {\\(2\\)}; {\\(1\\)}; {\\(1\\)}\n"
         },
         {
-          "html": "2; 2; 2; 0",
-          "md": "2; 2; 2; 0\n",
-          "tex": "2; 2; 2; 0\n"
+          "html": "<span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(0\\)</span>",
+          "md": "$2$; $2$; $2$; $0$\n",
+          "tex": "{\\(2\\)}; {\\(2\\)}; {\\(2\\)}; {\\(0\\)}\n"
         }
       ],
       "correct_choice": 1
@@ -170,7 +170,7 @@
     {
       "id_": "1B16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B16/1B16.md",
-      "date": "2023-01-12T19:16:27.577791",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Pb}\\)</span>, <span class=\"math inline\">\\(\\ce{Ir}\\)</span>, <span class=\"math inline\">\\(\\ce{Y}\\)</span> e <span class=\"math inline\">\\(\\ce{Cd}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons de\nvalência (incluindo os elétrons <span class=\"math inline\">\\(d\\)</span>\nmais externos) para cada átomo, respectivamente.</p>",
         "md": "Considere os átomos no estado fundamental $\\ce{Pb}$, $\\ce{Ir}$, $\\ce{Y}$\ne $\\ce{Cd}$.\n\n**Assinale** a alternativa com o número de elétrons de valência\n(incluindo os elétrons $d$ mais externos) para cada átomo,\nrespectivamente.\n",
@@ -181,29 +181,29 @@
       "data": null,
       "choices": [
         {
-          "html": "18; 7; 16; 27",
-          "md": "18; 7; 16; 27\n",
-          "tex": "18; 7; 16; 27\n"
+          "html": "<span class=\"math inline\">\\(18\\)</span>; <span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(16\\)</span>; <span class=\"math inline\">\\(27\\)</span>",
+          "md": "$18$; $7$; $16$; $27$\n",
+          "tex": "{\\(18\\)}; {\\(7\\)}; {\\(16\\)}; {\\(27\\)}\n"
         },
         {
-          "html": "18; 6; 15; 28",
-          "md": "18; 6; 15; 28\n",
-          "tex": "18; 6; 15; 28\n"
+          "html": "<span class=\"math inline\">\\(18\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(15\\)</span>; <span class=\"math inline\">\\(28\\)</span>",
+          "md": "$18$; $6$; $15$; $28$\n",
+          "tex": "{\\(18\\)}; {\\(6\\)}; {\\(15\\)}; {\\(28\\)}\n"
         },
         {
-          "html": "19; 6; 15; 28",
-          "md": "19; 6; 15; 28\n",
-          "tex": "19; 6; 15; 28\n"
+          "html": "<span class=\"math inline\">\\(19\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(15\\)</span>; <span class=\"math inline\">\\(28\\)</span>",
+          "md": "$19$; $6$; $15$; $28$\n",
+          "tex": "{\\(19\\)}; {\\(6\\)}; {\\(15\\)}; {\\(28\\)}\n"
         },
         {
-          "html": "19; 8; 16; 27",
-          "md": "19; 8; 16; 27\n",
-          "tex": "19; 8; 16; 27\n"
+          "html": "<span class=\"math inline\">\\(19\\)</span>; <span class=\"math inline\">\\(8\\)</span>; <span class=\"math inline\">\\(16\\)</span>; <span class=\"math inline\">\\(27\\)</span>",
+          "md": "$19$; $8$; $16$; $27$\n",
+          "tex": "{\\(19\\)}; {\\(8\\)}; {\\(16\\)}; {\\(27\\)}\n"
         },
         {
-          "html": "19; 7; 16; 27",
-          "md": "19; 7; 16; 27\n",
-          "tex": "19; 7; 16; 27\n"
+          "html": "<span class=\"math inline\">\\(19\\)</span>; <span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(16\\)</span>; <span class=\"math inline\">\\(27\\)</span>",
+          "md": "$19$; $7$; $16$; $27$\n",
+          "tex": "{\\(19\\)}; {\\(7\\)}; {\\(16\\)}; {\\(27\\)}\n"
         }
       ],
       "correct_choice": 4
@@ -211,11 +211,11 @@
     {
       "id_": "1B09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B09/1B09.md",
-      "date": "2023-01-12T20:12:53.634186",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<ol type=\"1\">\n<li>A energia do\nelétron.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do\nátomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(1s\\)</span> para o <span class=\"math inline\">\\(2p\\)</span>.</p>",
-        "md": "Considere os parâmetros para um átomo de hidrogênio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $1s$ para o $2p$.\n",
-        "tex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(1s\\)} para o {\\(2p\\)}.\n"
+        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<ol type=\"1\">\n<li>A energia do\nelétron.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do\nátomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(\\mathrm{1s}\\)</span> para o <span class=\"math inline\">\\(\\mathrm{2p}\\)</span>.</p>",
+        "md": "Considere os parâmetros para um átomo de hidrogênio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $\\mathrm{1s}$ para o\n$\\mathrm{2p}$.\n",
+        "tex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(\\mathrm{1s}\\)} para o\n{\\(\\mathrm{2p}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -252,7 +252,7 @@
     {
       "id_": "1B02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B02/1B02.md",
-      "date": "2023-01-12T18:43:34.778389",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Em um determinado estado, os três números quânticos do elétron de um\nátomo de hidrogênio são <span class=\"math inline\">\\(n = 3\\)</span>,\n<span class=\"math inline\">\\(l = 1\\)</span> e <span class=\"math inline\">\\(m_l = -1\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de orbital que\nesse elétron está localizado.</p>",
         "md": "Em um determinado estado, os três números quânticos do elétron de um\nátomo de hidrogênio são $n = 3$, $l = 1$ e $m_l = -1$.\n\n**Assinale** a alternativa com o tipo de orbital que esse elétron está\nlocalizado.\n",
@@ -263,29 +263,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(3p\\)</span>",
-          "md": "$3p$\n",
-          "tex": "{\\(3p\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3p}\\)</span>",
+          "md": "$\\mathrm{3p}$\n",
+          "tex": "{\\(\\mathrm{3p}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(3d\\)</span>",
-          "md": "$3d$\n",
-          "tex": "{\\(3d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3d}\\)</span>",
+          "md": "$\\mathrm{3d}$\n",
+          "tex": "{\\(\\mathrm{3d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4p\\)</span>",
-          "md": "$4p$\n",
-          "tex": "{\\(4p\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4p}\\)</span>",
+          "md": "$\\mathrm{4p}$\n",
+          "tex": "{\\(\\mathrm{4p}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4d\\)</span>",
-          "md": "$4d$\n",
-          "tex": "{\\(4d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4d}\\)</span>",
+          "md": "$\\mathrm{4d}$\n",
+          "tex": "{\\(\\mathrm{4d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4f\\)</span>",
-          "md": "$4f$\n",
-          "tex": "{\\(4f\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4f}\\)</span>",
+          "md": "$\\mathrm{4f}$\n",
+          "tex": "{\\(\\mathrm{4f}\\)}\n"
         }
       ],
       "correct_choice": 0
@@ -334,11 +334,11 @@
     {
       "id_": "1B30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B30/1B30.md",
-      "date": "2023-01-12T22:07:05.892030",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as proposições para átomos de carbono no estado\nfundamental.</p>\n<ol type=\"1\">\n<li>A carga nuclear\nefetiva, <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span>, de um\nelétron em um orbital <span class=\"math inline\">\\(1s\\)</span> é igual à\n<span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span> de um elétron em um\norbital <span class=\"math inline\">\\(2s\\)</span>.</li>\n<li>Um elétron em um\norbital <span class=\"math inline\">\\(2s\\)</span> tem a mesma energia que\num elétron em um orbital <span class=\"math inline\">\\(2p\\)</span>.</li>\n<li>Os elétrons nos\norbitais <span class=\"math inline\">\\(2p\\)</span> têm números quânticos\n<span class=\"math inline\">\\(m_s\\)</span> com spins de sinais\ncontrários.</li>\n<li>Os elétrons no\norbital <span class=\"math inline\">\\(2s\\)</span> têm o mesmo valor do\nnúmero quântico <span class=\"math inline\">\\(m_s\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>incorretas</em>.</p>",
-        "md": "Considere as proposições para átomos de carbono no estado fundamental.\n\n1.  A carga nuclear efetiva, $Z_\\mathrm{ef}$, de um elétron em um\n    orbital $1s$ é igual à $Z_\\mathrm{ef}$ de um elétron em um orbital\n    $2s$.\n2.  Um elétron em um orbital $2s$ tem a mesma energia que um elétron em\n    um orbital $2p$.\n3.  Os elétrons nos orbitais $2p$ têm números quânticos $m_s$ com spins\n    de sinais contrários.\n4.  Os elétrons no orbital $2s$ têm o mesmo valor do número quântico\n    $m_s$.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
-        "tex": "Considere as proposições para átomos de carbono no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A carga nuclear efetiva, {\\(Z_\\mathrm{ef}\\)}, de um elétron em um orbital {\\(1s\\)} é igual à {\\(Z_\\mathrm{ef}\\)} de um elétron em um orbital\n  {\\(2s\\)}.\n\\item\n  Um elétron em um orbital {\\(2s\\)} tem a mesma energia que um elétron em um orbital {\\(2p\\)}.\n\\item\n  Os elétrons nos orbitais {\\(2p\\)} têm números quânticos {\\(m_s\\)} com spins de sinais contrários.\n\\item\n  Os elétrons no orbital {\\(2s\\)} têm o mesmo valor do número quântico {\\(m_s\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{incorretas}.\n"
+        "html": "<p>Considere as proposições para átomos de carbono no estado\nfundamental.</p>\n<ol type=\"1\">\n<li>A carga nuclear\nefetiva, <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span>, de um\nelétron em um orbital <span class=\"math inline\">\\(\\mathrm{1s}\\)</span> é\nigual à <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span> de um elétron\nem um orbital <span class=\"math inline\">\\(\\mathrm{2s}\\)</span>.</li>\n<li>Um elétron em um\norbital <span class=\"math inline\">\\(\\mathrm{2s}\\)</span> tem a mesma\nenergia que um elétron em um orbital <span class=\"math inline\">\\(\\mathrm{2p}\\)</span>.</li>\n<li>Os elétrons nos\norbitais <span class=\"math inline\">\\(\\mathrm{2p}\\)</span> têm números\nquânticos <span class=\"math inline\">\\(m_s\\)</span> com spins de sinais\ncontrários.</li>\n<li>Os elétrons no\norbital <span class=\"math inline\">\\(\\mathrm{2s}\\)</span> têm o mesmo\nvalor do número quântico <span class=\"math inline\">\\(m_s\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>incorretas</em>.</p>",
+        "md": "Considere as proposições para átomos de carbono no estado fundamental.\n\n1.  A carga nuclear efetiva, $Z_\\mathrm{ef}$, de um elétron em um\n    orbital $\\mathrm{1s}$ é igual à $Z_\\mathrm{ef}$ de um elétron em um\n    orbital $\\mathrm{2s}$.\n2.  Um elétron em um orbital $\\mathrm{2s}$ tem a mesma energia que um\n    elétron em um orbital $\\mathrm{2p}$.\n3.  Os elétrons nos orbitais $\\mathrm{2p}$ têm números quânticos $m_s$\n    com spins de sinais contrários.\n4.  Os elétrons no orbital $\\mathrm{2s}$ têm o mesmo valor do número\n    quântico $m_s$.\n\n**Assinale** a alternativa que relaciona as proposições *incorretas*.\n",
+        "tex": "Considere as proposições para átomos de carbono no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A carga nuclear efetiva, {\\(Z_\\mathrm{ef}\\)}, de um elétron em um orbital {\\(\\mathrm{1s}\\)} é igual à {\\(Z_\\mathrm{ef}\\)} de um elétron em um\n  orbital {\\(\\mathrm{2s}\\)}.\n\\item\n  Um elétron em um orbital {\\(\\mathrm{2s}\\)} tem a mesma energia que um elétron em um orbital {\\(\\mathrm{2p}\\)}.\n\\item\n  Os elétrons nos orbitais {\\(\\mathrm{2p}\\)} têm números quânticos {\\(m_s\\)} com spins de sinais contrários.\n\\item\n  Os elétrons no orbital {\\(\\mathrm{2s}\\)} têm o mesmo valor do número quântico {\\(m_s\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{incorretas}.\n"
       },
       "solution": null,
       "answer": null,
@@ -375,7 +375,7 @@
     {
       "id_": "1B26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B26/1B26.md",
-      "date": "2023-01-12T21:47:27.147565",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Silício</li>\n<li>Cloro</li>\n<li>Rubídio</li>\n<li>Titânio</li>\n<li>Cromo</li>\n</ol>",
         "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Silício\nb.  Cloro\nc.  Rubídio\nd.  Titânio\ne.  Cromo\n",
@@ -384,29 +384,29 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\, 3p^2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[Ne]}\\, 3s^2\\, 3p^2$, $n=3$, $l=1$, $m=0$.",
-          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\, 3p^2\\), \\(n=3\\), \\(l=1\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\,\\mathrm{3s^2 3p^2}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\,\\mathrm{3s^2 3p^2}$, $n=3$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Ne]}\\,\\mathrm{3s^2 3p^2}\\), \\(n=3\\), \\(l=1\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\, 3s^2\\, 3p^5\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[Ne]}\\, 3s^2\\, 3p^5$, $n=3$, $l=1$, $m=0$.",
-          "tex": "\\(\\ce{[Ne]}\\, 3s^2\\, 3p^5\\), \\(n=3\\), \\(l=1\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ne]}\\,\\mathrm{3s^2 3p^5}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ne]}\\,\\mathrm{3s^2 3p^5}$, $n=3$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Ne]}\\,\\mathrm{3s^2 3p^5}\\), \\(n=3\\), \\(l=1\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^1\\)</span>, <span\nclass=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[Kr]}\\, 5s^1$, $n=5$, $l=0$, $m=0$.",
-          "tex": "\\(\\ce{[Kr]}\\, 5s^1\\), \\(n=5\\), \\(l=0\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^1}\\)</span>, <span\nclass=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\,\\mathrm{5s^1}$, $n=5$, $l=0$, $m=0$.",
+          "tex": "\\(\\ce{[Kr]}\\,\\mathrm{5s^1}\\), \\(n=5\\), \\(l=0\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^2\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^2$, $n=3$, $l=2$, $m=-1$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^2\\), \\(n=3\\), \\(l=2\\), \\(m=-1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^2}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^2 3d^2}$, $n=3$, $l=2$, $m=-1$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^2}\\), \\(n=3\\), \\(l=2\\), \\(m=-1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^1\\, 3d^5\\)</span>, <span\nclass=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^1\\, 3d^5$, $n=3$, $l=2$, $m=+2$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^1\\, 3d^5\\), \\(n=3\\), \\(l=2\\), \\(m=+2\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^1 3d^5}\\)</span>,\n<span class=\"math inline\">\\(n=3\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^1 3d^5}$, $n=3$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^1 3d^5}\\), \\(n=3\\), \\(l=2\\), \\(m=+2\\).\n"
         }
       ],
       "data": null,
@@ -416,11 +416,11 @@
     {
       "id_": "1B11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B11/1B11.md",
-      "date": "2023-01-12T20:12:58.746449",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de lítio.</p>\n<ol type=\"1\">\n<li>A energia do\nelétron.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do\nátomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(1s\\)</span> para o <span class=\"math inline\">\\(2p\\)</span>.</p>",
-        "md": "Considere os parâmetros para um átomo de lítio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $1s$ para o $2p$.\n",
-        "tex": "Considere os parâmetros para um átomo de lítio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(1s\\)} para o {\\(2p\\)}.\n"
+        "html": "<p>Considere os parâmetros para um átomo de lítio.</p>\n<ol type=\"1\">\n<li>A energia do\nelétron.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do\nátomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(\\mathrm{1s}\\)</span> para o <span class=\"math inline\">\\(\\mathrm{2p}\\)</span>.</p>",
+        "md": "Considere os parâmetros para um átomo de lítio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $\\mathrm{1s}$ para o\n$\\mathrm{2p}$.\n",
+        "tex": "Considere os parâmetros para um átomo de lítio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(\\mathrm{1s}\\)} para o\n{\\(\\mathrm{2p}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -457,7 +457,7 @@
     {
       "id_": "1B15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B15/1B15.md",
-      "date": "2023-01-12T19:14:35.573433",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{N}\\)</span>, <span class=\"math inline\">\\(\\ce{Ag}\\)</span>, <span class=\"math inline\">\\(\\ce{Nb}\\)</span> e <span class=\"math inline\">\\(\\ce{W}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons de\nvalência (incluindo os elétrons <span class=\"math inline\">\\(d\\)</span>\nmais externos) para cada átomo, respectivamente.</p>",
         "md": "Considere os átomos no estado fundamental $\\ce{N}$, $\\ce{Ag}$, $\\ce{Nb}$\ne $\\ce{W}$.\n\n**Assinale** a alternativa com o número de elétrons de valência\n(incluindo os elétrons $d$ mais externos) para cada átomo,\nrespectivamente.\n",
@@ -468,29 +468,29 @@
       "data": null,
       "choices": [
         {
-          "html": "5; 10; 5; 22",
-          "md": "5; 10; 5; 22\n",
-          "tex": "5; 10; 5; 22\n"
+          "html": "<span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(10\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(22\\)</span>",
+          "md": "$5$; $10$; $5$; $22$\n",
+          "tex": "{\\(5\\)}; {\\(10\\)}; {\\(5\\)}; {\\(22\\)}\n"
         },
         {
-          "html": "5; 11; 5; 20",
-          "md": "5; 11; 5; 20\n",
-          "tex": "5; 11; 5; 20\n"
+          "html": "<span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(11\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(20\\)</span>",
+          "md": "$5$; $11$; $5$; $20$\n",
+          "tex": "{\\(5\\)}; {\\(11\\)}; {\\(5\\)}; {\\(20\\)}\n"
         },
         {
-          "html": "5; 12; 4; 22",
-          "md": "5; 12; 4; 22\n",
-          "tex": "5; 12; 4; 22\n"
+          "html": "<span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(12\\)</span>; <span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(22\\)</span>",
+          "md": "$5$; $12$; $4$; $22$\n",
+          "tex": "{\\(5\\)}; {\\(12\\)}; {\\(4\\)}; {\\(22\\)}\n"
         },
         {
-          "html": "6; 11; 4; 20",
-          "md": "6; 11; 4; 20\n",
-          "tex": "6; 11; 4; 20\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(11\\)</span>; <span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(20\\)</span>",
+          "md": "$6$; $11$; $4$; $20$\n",
+          "tex": "{\\(6\\)}; {\\(11\\)}; {\\(4\\)}; {\\(20\\)}\n"
         },
         {
-          "html": "6; 10; 5; 20",
-          "md": "6; 10; 5; 20\n",
-          "tex": "6; 10; 5; 20\n"
+          "html": "<span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(10\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(20\\)</span>",
+          "md": "$6$; $10$; $5$; $20$\n",
+          "tex": "{\\(6\\)}; {\\(10\\)}; {\\(5\\)}; {\\(20\\)}\n"
         }
       ],
       "correct_choice": 1
@@ -498,11 +498,11 @@
     {
       "id_": "1B23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B23/1B23.md",
-      "date": "2023-01-12T20:21:48.136277",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as distribuições de átomos no estado fundamental.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Kr]}\\, 4d^{10}\\, 5s^2\\,\n5p^4\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 3d^3\\, 4s^2\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[He]}\\, 2s^2\\, 2p^2\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Rn]}\\, 7s^2\\, 6d^2\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com o número atômico do\nelemento referente a cada distribuição eletrônica, respectivamente.</p>",
-        "md": "Considere as distribuições de átomos no estado fundamental.\n\n1.  $\\ce{[Kr]}\\, 4d^{10}\\, 5s^2\\, 5p^4$\n2.  $\\ce{[Ar]}\\, 3d^3\\, 4s^2$\n3.  $\\ce{[He]}\\, 2s^2\\, 2p^2$\n4.  $\\ce{[Rn]}\\, 7s^2\\, 6d^2$\n\n**Assinale** a alternativa com o número atômico do elemento referente a\ncada distribuição eletrônica, respectivamente.\n",
-        "tex": "Considere as distribuições de átomos no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Kr]}\\, 4d^{10}\\, 5s^2\\, 5p^4\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 3d^3\\, 4s^2\\)}\n\\item\n  {\\(\\ce{[He]}\\, 2s^2\\, 2p^2\\)}\n\\item\n  {\\(\\ce{[Rn]}\\, 7s^2\\, 6d^2\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com o número atômico do elemento referente a cada distribuição eletrônica, respectivamente.\n"
+        "html": "<p>Considere as distribuições de átomos no estado fundamental.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{4d^{10} 5s^2\n5p^4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{3d^3\n4s^2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[He]}\\,\\mathrm{2s^2\n2p^2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Rn]}\\,\\mathrm{7s^2\n6d^2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com o número atômico do\nelemento referente a cada distribuição eletrônica, respectivamente.</p>",
+        "md": "Considere as distribuições de átomos no estado fundamental.\n\n1.  $\\ce{[Kr]}\\,\\mathrm{4d^{10} 5s^2 5p^4}$\n2.  $\\ce{[Ar]}\\,\\mathrm{3d^3 4s^2}$\n3.  $\\ce{[He]}\\,\\mathrm{2s^2 2p^2}$\n4.  $\\ce{[Rn]}\\,\\mathrm{7s^2 6d^2}$\n\n**Assinale** a alternativa com o número atômico do elemento referente a\ncada distribuição eletrônica, respectivamente.\n",
+        "tex": "Considere as distribuições de átomos no estado fundamental.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Kr]}\\,\\mathrm{4d^{10} 5s^2 5p^4}\\)}\n\\item\n  {\\(\\ce{[Ar]}\\,\\mathrm{3d^3 4s^2}\\)}\n\\item\n  {\\(\\ce{[He]}\\,\\mathrm{2s^2 2p^2}\\)}\n\\item\n  {\\(\\ce{[Rn]}\\,\\mathrm{7s^2 6d^2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com o número atômico do elemento referente a cada distribuição eletrônica, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
@@ -580,7 +580,7 @@
     {
       "id_": "1B28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B28/1B28.md",
-      "date": "2023-01-12T21:58:30.171036",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Gálio</li>\n<li>Tungstênio</li>\n<li>Iodo</li>\n<li>Germânio</li>\n<li>Molibdênio</li>\n</ol>",
         "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Gálio\nb.  Tungstênio\nc.  Iodo\nd.  Germânio\ne.  Molibdênio\n",
@@ -589,29 +589,29 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^1\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^1$, $n=4$, $l=1$, $m=-1$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^1\\), \\(n=4\\), \\(l=1\\), \\(m=-1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}\n4p^1}\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=-1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^1}$, $n=4$, $l=1$, $m=-1$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^1}\\), \\(n=4\\), \\(l=1\\), \\(m=-1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\,\n5d^4\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
-          "md": "$\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^4$, $n=5$, $l=2$, $m=+1$.",
-          "tex": "\\(\\ce{[Xe]}\\, 6s^2\\, 4f^{14}\\, 5d^4\\), \\(n=5\\), \\(l=2\\), \\(m=+1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\,\\mathrm{6s^2 4f^{14}\n5d^4}\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Xe]}\\,\\mathrm{6s^2 4f^{14} 5d^4}$, $n=5$, $l=2$, $m=+1$.",
+          "tex": "\\(\\ce{[Xe]}\\,\\mathrm{6s^2 4f^{14} 5d^4}\\), \\(n=5\\), \\(l=2\\), \\(m=+1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\,\n5p^5\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^5$, $n=5$, $l=1$, $m=0$.",
-          "tex": "\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^5\\), \\(n=5\\), \\(l=1\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^2 4d^{10}\n5p^5}\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\,\\mathrm{5s^2 4d^{10} 5p^5}$, $n=5$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Kr]}\\,\\mathrm{5s^2 4d^{10} 5p^5}\\), \\(n=5\\), \\(l=1\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^2\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^2$, $n=4$, $l=1$, $m=0$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^2\\), \\(n=4\\), \\(l=1\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}\n4p^2}\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^2}$, $n=4$, $l=1$, $m=0$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^2}\\), \\(n=4\\), \\(l=1\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{5}\\)</span>, <span\nclass=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
-          "md": "$\\ce{[Kr]}\\, 5s^1\\, 4d^{5}$, $n=4$, $l=2$, $m=+2$.",
-          "tex": "\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{5}\\), \\(n=4\\), \\(l=2\\), \\(m=+2\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{5}}\\)</span>,\n<span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{5}}$, $n=4$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{5}}\\), \\(n=4\\), \\(l=2\\), \\(m=+2\\).\n"
         }
       ],
       "data": null,
@@ -621,11 +621,11 @@
     {
       "id_": "1B12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B12/1B12.md",
-      "date": "2023-01-12T20:13:01.834606",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de lítio.</p>\n<ol type=\"1\">\n<li>A energia do\nelétron.</li>\n<li>O valor do número quântico\n<span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do\nátomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(2s\\)</span> para o <span class=\"math inline\">\\(2p\\)</span>.</p>",
-        "md": "Considere os parâmetros para um átomo de lítio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $2s$ para o $2p$.\n",
-        "tex": "Considere os parâmetros para um átomo de lítio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(2s\\)} para o {\\(2p\\)}.\n"
+        "html": "<p>Considere os parâmetros para um átomo de lítio.</p>\n<ol type=\"1\">\n<li>A energia do\nelétron.</li>\n<li>O valor do número quântico\n<span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do\nátomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(\\mathrm{2s}\\)</span> para o <span class=\"math inline\">\\(\\mathrm{2p}\\)</span>.</p>",
+        "md": "Considere os parâmetros para um átomo de lítio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $\\mathrm{2s}$ para o\n$\\mathrm{2p}$.\n",
+        "tex": "Considere os parâmetros para um átomo de lítio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(\\mathrm{2s}\\)} para o\n{\\(\\mathrm{2p}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -662,11 +662,11 @@
     {
       "id_": "1B19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B19/1B19.md",
-      "date": "2023-01-12T21:21:24.324223",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow\n\\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow\n\\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{\n\\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
-        "md": "Considere as configurações eletrônicas.\n\n1.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n3.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n4.  $\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
-        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{1s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{2p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
+        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow\n} } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\downarrow\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow}\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow\n} } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\uparrow \\hspace{5pt} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow\\hspace{5pt}\n} } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow}\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow\n} } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\downarrow\n}\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\uparrow \\hspace{5pt} } }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
+        "md": "Considere as configurações eletrônicas.\n\n1.  $\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n3.  $\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n4.  $\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
+        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\item\n  {\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow\\hspace{5pt} } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{\\mathrm{1s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{2p}}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
       },
       "solution": null,
       "answer": null,
@@ -703,7 +703,7 @@
     {
       "id_": "1B17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B17/1B17.md",
-      "date": "2023-01-12T19:18:48.573875",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Bi}\\)</span>, <span class=\"math inline\">\\(\\ce{Si}\\)</span>, <span class=\"math inline\">\\(\\ce{Ta}\\)</span> e <span class=\"math inline\">\\(\\ce{Ni}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons de\ndesemparelhados previstos na configuração do estado fundamental para\ncada átomo, respectivamente.</p>",
         "md": "Considere os átomos no estado fundamental $\\ce{Bi}$, $\\ce{Si}$,\n$\\ce{Ta}$ e $\\ce{Ni}$.\n\n**Assinale** a alternativa com o número de elétrons de desemparelhados\nprevistos na configuração do estado fundamental para cada átomo,\nrespectivamente.\n",
@@ -714,29 +714,29 @@
       "data": null,
       "choices": [
         {
-          "html": "3; 2; 3; 2",
-          "md": "3; 2; 3; 2\n",
-          "tex": "3; 2; 3; 2\n"
+          "html": "<span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>",
+          "md": "$3$; $2$; $3$; $2$\n",
+          "tex": "{\\(3\\)}; {\\(2\\)}; {\\(3\\)}; {\\(2\\)}\n"
         },
         {
-          "html": "3; 3; 2; 1",
-          "md": "3; 3; 2; 1\n",
-          "tex": "3; 3; 2; 1\n"
+          "html": "<span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(1\\)</span>",
+          "md": "$3$; $3$; $2$; $1$\n",
+          "tex": "{\\(3\\)}; {\\(3\\)}; {\\(2\\)}; {\\(1\\)}\n"
         },
         {
-          "html": "4; 3; 2; 1",
-          "md": "4; 3; 2; 1\n",
-          "tex": "4; 3; 2; 1\n"
+          "html": "<span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(1\\)</span>",
+          "md": "$4$; $3$; $2$; $1$\n",
+          "tex": "{\\(4\\)}; {\\(3\\)}; {\\(2\\)}; {\\(1\\)}\n"
         },
         {
-          "html": "4; 1; 4; 3",
-          "md": "4; 1; 4; 3\n",
-          "tex": "4; 1; 4; 3\n"
+          "html": "<span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(3\\)</span>",
+          "md": "$4$; $1$; $4$; $3$\n",
+          "tex": "{\\(4\\)}; {\\(1\\)}; {\\(4\\)}; {\\(3\\)}\n"
         },
         {
-          "html": "4; 2; 3; 2",
-          "md": "4; 2; 3; 2\n",
-          "tex": "4; 2; 3; 2\n"
+          "html": "<span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(2\\)</span>",
+          "md": "$4$; $2$; $3$; $2$\n",
+          "tex": "{\\(4\\)}; {\\(2\\)}; {\\(3\\)}; {\\(2\\)}\n"
         }
       ],
       "correct_choice": 0
@@ -744,40 +744,40 @@
     {
       "id_": "1B04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B04/1B04.md",
-      "date": "2023-01-12T20:19:46.789440",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as subcamadas <span class=\"math inline\">\\(1p\\)</span>,\n<span class=\"math inline\">\\(5f\\)</span>, <span class=\"math inline\">\\(5g\\)</span> e <span class=\"math inline\">\\(6g\\)</span></p>\n<p><strong>Assinale</strong> a alternativa que relaciona as subcamadas\nque podem existir em um átomo.</p>",
-        "md": "Considere as subcamadas $1p$, $5f$, $5g$ e $6g$\n\n**Assinale** a alternativa que relaciona as subcamadas que podem existir\nem um átomo.\n",
-        "tex": "Considere as subcamadas {\\(1p\\)}, {\\(5f\\)}, {\\(5g\\)} e {\\(6g\\)}\n\n\\textbf{Assinale} a alternativa que relaciona as subcamadas que podem existir em um átomo.\n"
+        "html": "<p>Considere as subcamadas <span class=\"math inline\">\\(\\mathrm{1p}\\)</span>, <span class=\"math inline\">\\(\\mathrm{5f}\\)</span>, <span class=\"math inline\">\\(\\mathrm{5g}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6g}\\)</span></p>\n<p><strong>Assinale</strong> a alternativa que relaciona as subcamadas\nque podem existir em um átomo.</p>",
+        "md": "Considere as subcamadas $\\mathrm{1p}$, $\\mathrm{5f}$, $\\mathrm{5g}$ e\n$\\mathrm{6g}$\n\n**Assinale** a alternativa que relaciona as subcamadas que podem existir\nem um átomo.\n",
+        "tex": "Considere as subcamadas {\\(\\mathrm{1p}\\)}, {\\(\\mathrm{5f}\\)}, {\\(\\mathrm{5g}\\)} e {\\(\\mathrm{6g}\\)}\n\n\\textbf{Assinale} a alternativa que relaciona as subcamadas que podem existir em um átomo.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(5f\\)</span> e <span class=\"math inline\">\\(5g\\)</span>",
-          "md": "$5f$ e $5g$\n",
-          "tex": "{\\(5f\\)} e {\\(5g\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{5f}\\)</span> e <span class=\"math inline\">\\(\\mathrm{5g}\\)</span>",
+          "md": "$\\mathrm{5f}$ e $\\mathrm{5g}$\n",
+          "tex": "{\\(\\mathrm{5f}\\)} e {\\(\\mathrm{5g}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(5f\\)</span> e <span class=\"math inline\">\\(6g\\)</span>",
-          "md": "$5f$ e $6g$\n",
-          "tex": "{\\(5f\\)} e {\\(6g\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{5f}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6g}\\)</span>",
+          "md": "$\\mathrm{5f}$ e $\\mathrm{6g}$\n",
+          "tex": "{\\(\\mathrm{5f}\\)} e {\\(\\mathrm{6g}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(5g\\)</span> e <span class=\"math inline\">\\(6g\\)</span>",
-          "md": "$5g$ e $6g$\n",
-          "tex": "{\\(5g\\)} e {\\(6g\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{5g}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6g}\\)</span>",
+          "md": "$\\mathrm{5g}$ e $\\mathrm{6g}$\n",
+          "tex": "{\\(\\mathrm{5g}\\)} e {\\(\\mathrm{6g}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(5f\\)</span>, <span class=\"math inline\">\\(5g\\)</span> e <span class=\"math inline\">\\(6g\\)</span>",
-          "md": "$5f$, $5g$ e $6g$\n",
-          "tex": "{\\(5f\\)}, {\\(5g\\)} e {\\(6g\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{5f}\\)</span>, <span class=\"math inline\">\\(\\mathrm{5g}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6g}\\)</span>",
+          "md": "$\\mathrm{5f}$, $\\mathrm{5g}$ e $\\mathrm{6g}$\n",
+          "tex": "{\\(\\mathrm{5f}\\)}, {\\(\\mathrm{5g}\\)} e {\\(\\mathrm{6g}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(1p\\)</span>, <span class=\"math inline\">\\(5f\\)</span>, <span class=\"math inline\">\\(5g\\)</span> e <span class=\"math inline\">\\(6g\\)</span>",
-          "md": "$1p$, $5f$, $5g$ e $6g$\n",
-          "tex": "{\\(1p\\)}, {\\(5f\\)}, {\\(5g\\)} e {\\(6g\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{1p}\\)</span>, <span class=\"math inline\">\\(\\mathrm{5f}\\)</span>, <span class=\"math inline\">\\(\\mathrm{5g}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6g}\\)</span>",
+          "md": "$\\mathrm{1p}$, $\\mathrm{5f}$, $\\mathrm{5g}$ e $\\mathrm{6g}$\n",
+          "tex": "{\\(\\mathrm{1p}\\)}, {\\(\\mathrm{5f}\\)}, {\\(\\mathrm{5g}\\)} e {\\(\\mathrm{6g}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -785,11 +785,11 @@
     {
       "id_": "1B10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B10/1B10.md",
-      "date": "2023-01-12T20:12:56.114314",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<ol type=\"1\">\n<li>A energia do elétron.</li>\n<li>O valor do número quântico\n<span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do átomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(2s\\)</span> para o <span class=\"math inline\">\\(2p\\)</span>.</p>",
-        "md": "Considere os parâmetros para um átomo de hidrogênio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $2s$ para o $2p$.\n",
-        "tex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(2s\\)} para o {\\(2p\\)}.\n"
+        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<ol type=\"1\">\n<li>A energia do elétron.</li>\n<li>O valor do número quântico\n<span class=\"math inline\">\\(n\\)</span>.</li>\n<li>O valor do número\nquântico <span class=\"math inline\">\\(l\\)</span>.</li>\n<li>O raio do átomo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o hidrogênio faz a transição do orbital <span class=\"math inline\">\\(\\mathrm{2s}\\)</span> para o <span class=\"math inline\">\\(\\mathrm{2p}\\)</span>.</p>",
+        "md": "Considere os parâmetros para um átomo de hidrogênio.\n\n1.  A energia do elétron.\n2.  O valor do número quântico $n$.\n3.  O valor do número quântico $l$.\n4.  O raio do átomo.\n\n**Assinale** a alternativa que relaciona os parâmetros que aumentam\nquando o hidrogênio faz a transição do orbital $\\mathrm{2s}$ para o\n$\\mathrm{2p}$.\n",
+        "tex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A energia do elétron.\n\\item\n  O valor do número quântico {\\(n\\)}.\n\\item\n  O valor do número quântico {\\(l\\)}.\n\\item\n  O raio do átomo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o hidrogênio faz a transição do orbital {\\(\\mathrm{2s}\\)} para o\n{\\(\\mathrm{2p}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -826,7 +826,7 @@
     {
       "id_": "1B27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B27/1B27.md",
-      "date": "2023-01-12T21:51:00.815433",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental e os números quânticos do orbital atômico mais energético\npara cada um dos átomos.</p>\n<ol type=\"a\">\n<li>Európio</li>\n<li>Criptônio</li>\n<li>Berílio</li>\n<li>Antimônio</li>\n<li>Prata</li>\n</ol>",
         "md": "**Apresente** a configuração eletrônica do estado fundamental e os\nnúmeros quânticos do orbital atômico mais energético para cada um dos\nátomos.\n\na.  Európio\nb.  Criptônio\nc.  Berílio\nd.  Antimônio\ne.  Prata\n",
@@ -835,29 +835,29 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\, 6s^2\\, 4f^7\\)</span>, <span\nclass=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=3\\)</span>, <span\nclass=\"math inline\">\\(m=+3\\)</span>.</p>\n",
-          "md": "$\\ce{[Xe]}\\, 6s^2\\, 4f^7$, $n=4$, $l=3$, $m=+3$.",
-          "tex": "\\(\\ce{[Xe]}\\, 6s^2\\, 4f^7\\), \\(n=4\\), \\(l=3\\), \\(m=+3\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Xe]}\\,\\mathrm{6s^2 4f^7}\\)</span>,\n<span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=3\\)</span>, <span\nclass=\"math inline\">\\(m=+3\\)</span>.</p>\n",
+          "md": "$\\ce{[Xe]}\\,\\mathrm{6s^2 4f^7}$, $n=4$, $l=3$, $m=+3$.",
+          "tex": "\\(\\ce{[Xe]}\\,\\mathrm{6s^2 4f^7}\\), \\(n=4\\), \\(l=3\\), \\(m=+3\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\,\n4p^6\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
-          "md": "$\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^6$, $n=4$, $l=1$, $m=+1$.",
-          "tex": "\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\, 4p^6\\), \\(n=4\\), \\(l=1\\), \\(m=+1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}\n4p^6}\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^6}$, $n=4$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10} 4p^6}\\), \\(n=4\\), \\(l=1\\), \\(m=+1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[He]}\\, 2s^2\\)</span>, <span\nclass=\"math inline\">\\(n=2\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
-          "md": "$\\ce{[He]}\\, 2s^2$, $n=2$, $l=0$, $m=0$.",
-          "tex": "\\(\\ce{[He]}\\, 2s^2\\), \\(n=2\\), \\(l=0\\), \\(m=0\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[He]}\\,\\mathrm{2s^2}\\)</span>, <span\nclass=\"math inline\">\\(n=2\\)</span>, <span\nclass=\"math inline\">\\(l=0\\)</span>, <span\nclass=\"math inline\">\\(m=0\\)</span>.</p>\n",
+          "md": "$\\ce{[He]}\\,\\mathrm{2s^2}$, $n=2$, $l=0$, $m=0$.",
+          "tex": "\\(\\ce{[He]}\\,\\mathrm{2s^2}\\), \\(n=2\\), \\(l=0\\), \\(m=0\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\,\n5p^3\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
-          "md": "$\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^3$, $n=5$, $l=1$, $m=+1$.",
-          "tex": "\\(\\ce{[Kr]}\\, 5s^2\\, 4d^{10}\\, 5p^3\\), \\(n=5\\), \\(l=1\\), \\(m=+1\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^2 4d^{10}\n5p^3}\\)</span>, <span class=\"math inline\">\\(n=5\\)</span>, <span\nclass=\"math inline\">\\(l=1\\)</span>, <span\nclass=\"math inline\">\\(m=+1\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\,\\mathrm{5s^2 4d^{10} 5p^3}$, $n=5$, $l=1$, $m=+1$.",
+          "tex": "\\(\\ce{[Kr]}\\,\\mathrm{5s^2 4d^{10} 5p^3}\\), \\(n=5\\), \\(l=1\\), \\(m=+1\\).\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{10}\\)</span>,\n<span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
-          "md": "$\\ce{[Kr]}\\, 5s^1\\, 4d^{10}$, $n=4$, $l=2$, $m=+2$.",
-          "tex": "\\(\\ce{[Kr]}\\, 5s^1\\, 4d^{10}\\), \\(n=4\\), \\(l=2\\), \\(m=+2\\).\n"
+          "html": "<p><span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^1\n4d^{10}}\\)</span>, <span class=\"math inline\">\\(n=4\\)</span>, <span\nclass=\"math inline\">\\(l=2\\)</span>, <span\nclass=\"math inline\">\\(m=+2\\)</span>.</p>\n",
+          "md": "$\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{10}}$, $n=4$, $l=2$, $m=+2$.",
+          "tex": "\\(\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{10}}\\), \\(n=4\\), \\(l=2\\), \\(m=+2\\).\n"
         }
       ],
       "data": null,
@@ -867,11 +867,11 @@
     {
       "id_": "1B33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B33/1B33.md",
-      "date": "2023-01-12T22:21:22.741323",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^1\\)</span></li>\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^3\\)</span></li>\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^4\\)</span></li>\n<li><span class=\"math inline\">\\(1s^2\\, 2s^2\\, 2p^5\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com as configurações que\npodem representar estados excitados de átomos neutros.</p>",
-        "md": "Considere as configurações eletrônicas.\n\n1.  $1s^2\\, 2s^2\\, 2p^1$\n2.  $1s^2\\, 2s^2\\, 2p^3$\n3.  $1s^2\\, 2s^2\\, 2p^4$\n4.  $1s^2\\, 2s^2\\, 2p^5$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
-        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^1\\)}\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^3\\)}\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^4\\)}\n\\item\n  {\\(1s^2\\, 2s^2\\, 2p^5\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem representar estados excitados de átomos neutros.\n"
+        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\mathrm{1s^2 2s^2 2p^1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\mathrm{1s^2 2s^2 2p^3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\mathrm{1s^2 2s^2 2p^4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\mathrm{1s^2 2s^2 2p^5}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com as configurações que\npodem representar estados excitados de átomos neutros.</p>",
+        "md": "Considere as configurações eletrônicas.\n\n1.  $\\mathrm{1s^2 2s^2 2p^1}$\n2.  $\\mathrm{1s^2 2s^2 2p^3}$\n3.  $\\mathrm{1s^2 2s^2 2p^4}$\n4.  $\\mathrm{1s^2 2s^2 2p^5}$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
+        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\mathrm{1s^2 2s^2 2p^1}\\)}\n\\item\n  {\\(\\mathrm{1s^2 2s^2 2p^3}\\)}\n\\item\n  {\\(\\mathrm{1s^2 2s^2 2p^4}\\)}\n\\item\n  {\\(\\mathrm{1s^2 2s^2 2p^5}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem representar estados excitados de átomos neutros.\n"
       },
       "solution": null,
       "answer": null,
@@ -908,7 +908,7 @@
     {
       "id_": "1B07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B07/1B07.md",
-      "date": "2023-01-12T20:22:37.017279",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa com o número de orbitais em\nsubcamadas com número quântico <span class=\"math inline\">\\(n\\)</span>\nigual a <span class=\"math inline\">\\(3\\)</span>, <span class=\"math inline\">\\(4\\)</span>, <span class=\"math inline\">\\(5\\)</span>\ne <span class=\"math inline\">\\(6\\)</span>, respectivamente.</p>",
         "md": "**Assinale** a alternativa com o número de orbitais em subcamadas com\nnúmero quântico $n$ igual a $3$, $4$, $5$ e $6$, respectivamente.\n",
@@ -919,29 +919,29 @@
       "data": null,
       "choices": [
         {
-          "html": "2; 3; 4; 5",
-          "md": "2; 3; 4; 5\n",
-          "tex": "2; 3; 4; 5\n"
+          "html": "<span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(5\\)</span>",
+          "md": "$2$; $3$; $4$; $5$\n",
+          "tex": "{\\(2\\)}; {\\(3\\)}; {\\(4\\)}; {\\(5\\)}\n"
         },
         {
-          "html": "3; 4; 5; 6",
-          "md": "3; 4; 5; 6\n",
-          "tex": "3; 4; 5; 6\n"
+          "html": "<span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(6\\)</span>",
+          "md": "$3$; $4$; $5$; $6$\n",
+          "tex": "{\\(3\\)}; {\\(4\\)}; {\\(5\\)}; {\\(6\\)}\n"
         },
         {
-          "html": "4; 9; 16; 25",
-          "md": "4; 9; 16; 25\n",
-          "tex": "4; 9; 16; 25\n"
+          "html": "<span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(9\\)</span>; <span class=\"math inline\">\\(16\\)</span>; <span class=\"math inline\">\\(25\\)</span>",
+          "md": "$4$; $9$; $16$; $25$\n",
+          "tex": "{\\(4\\)}; {\\(9\\)}; {\\(16\\)}; {\\(25\\)}\n"
         },
         {
-          "html": "7; 9; 11; 13",
-          "md": "7; 9; 11; 13\n",
-          "tex": "7; 9; 11; 13\n"
+          "html": "<span class=\"math inline\">\\(7\\)</span>; <span class=\"math inline\">\\(9\\)</span>; <span class=\"math inline\">\\(11\\)</span>; <span class=\"math inline\">\\(13\\)</span>",
+          "md": "$7$; $9$; $11$; $13$\n",
+          "tex": "{\\(7\\)}; {\\(9\\)}; {\\(11\\)}; {\\(13\\)}\n"
         },
         {
-          "html": "9; 16; 25; 36",
-          "md": "9; 16; 25; 36\n",
-          "tex": "9; 16; 25; 36\n"
+          "html": "<span class=\"math inline\">\\(9\\)</span>; <span class=\"math inline\">\\(16\\)</span>; <span class=\"math inline\">\\(25\\)</span>; <span class=\"math inline\">\\(36\\)</span>",
+          "md": "$9$; $16$; $25$; $36$\n",
+          "tex": "{\\(9\\)}; {\\(16\\)}; {\\(25\\)}; {\\(36\\)}\n"
         }
       ],
       "correct_choice": 4
@@ -949,7 +949,7 @@
     {
       "id_": "1B06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B06/1B06.md",
-      "date": "2023-01-12T20:22:26.721074",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa com o número de orbitais em\nsubcamadas com número quântico <span class=\"math inline\">\\(l\\)</span>\nigual a <span class=\"math inline\">\\(0\\)</span>, <span class=\"math inline\">\\(1\\)</span>, <span class=\"math inline\">\\(2\\)</span>\ne <span class=\"math inline\">\\(3\\)</span>, respectivamente.</p>",
         "md": "**Assinale** a alternativa com o número de orbitais em subcamadas com\nnúmero quântico $l$ igual a $0$, $1$, $2$ e $3$, respectivamente.\n",
@@ -960,29 +960,29 @@
       "data": null,
       "choices": [
         {
-          "html": "0; 2; 4; 8",
-          "md": "0; 2; 4; 8\n",
-          "tex": "0; 2; 4; 8\n"
+          "html": "<span class=\"math inline\">\\(0\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(4\\)</span>; <span class=\"math inline\">\\(8\\)</span>",
+          "md": "$0$; $2$; $4$; $8$\n",
+          "tex": "{\\(0\\)}; {\\(2\\)}; {\\(4\\)}; {\\(8\\)}\n"
         },
         {
-          "html": "1; 2; 3; 4",
-          "md": "1; 2; 3; 4\n",
-          "tex": "1; 2; 3; 4\n"
+          "html": "<span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(4\\)</span>",
+          "md": "$1$; $2$; $3$; $4$\n",
+          "tex": "{\\(1\\)}; {\\(2\\)}; {\\(3\\)}; {\\(4\\)}\n"
         },
         {
-          "html": "1; 3; 5; 7",
-          "md": "1; 3; 5; 7\n",
-          "tex": "1; 3; 5; 7\n"
+          "html": "<span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(3\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(7\\)</span>",
+          "md": "$1$; $3$; $5$; $7$\n",
+          "tex": "{\\(1\\)}; {\\(3\\)}; {\\(5\\)}; {\\(7\\)}\n"
         },
         {
-          "html": "1; 5; 9; 13",
-          "md": "1; 5; 9; 13\n",
-          "tex": "1; 5; 9; 13\n"
+          "html": "<span class=\"math inline\">\\(1\\)</span>; <span class=\"math inline\">\\(5\\)</span>; <span class=\"math inline\">\\(9\\)</span>; <span class=\"math inline\">\\(13\\)</span>",
+          "md": "$1$; $5$; $9$; $13$\n",
+          "tex": "{\\(1\\)}; {\\(5\\)}; {\\(9\\)}; {\\(13\\)}\n"
         },
         {
-          "html": "2; 6; 10; 14",
-          "md": "2; 6; 10; 14\n",
-          "tex": "2; 6; 10; 14\n"
+          "html": "<span class=\"math inline\">\\(2\\)</span>; <span class=\"math inline\">\\(6\\)</span>; <span class=\"math inline\">\\(10\\)</span>; <span class=\"math inline\">\\(14\\)</span>",
+          "md": "$2$; $6$; $10$; $14$\n",
+          "tex": "{\\(2\\)}; {\\(6\\)}; {\\(10\\)}; {\\(14\\)}\n"
         }
       ],
       "correct_choice": 2
@@ -990,11 +990,11 @@
     {
       "id_": "1B34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B34/1B34.md",
-      "date": "2023-01-12T22:34:26.606943",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^1\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^5\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^8\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com as configurações que\npodem representar estados excitados de átomos neutros.</p>",
-        "md": "Considere as configurações eletrônicas.\n\n1.  $\\ce{[Ar]}\\, 4s^2\\, 3d^1$\n2.  $\\ce{[Ar]}\\, 4s^2\\, 3d^5$\n3.  $\\ce{[Ar]}\\, 4s^2\\, 3d^8$\n4.  $\\ce{[Ar]}\\, 4s^2\\, 3d^{10}$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
-        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^1\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^5\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^8\\)}\n\\item\n  {\\(\\ce{[Ar]}\\, 4s^2\\, 3d^{10}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem representar estados excitados de átomos neutros.\n"
+        "html": "<p>Considere as configurações eletrônicas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^5}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^8}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com as configurações que\npodem representar estados excitados de átomos neutros.</p>",
+        "md": "Considere as configurações eletrônicas.\n\n1.  $\\ce{[Ar]}\\,\\mathrm{4s^2 3d^1}$\n2.  $\\ce{[Ar]}\\,\\mathrm{4s^2 3d^5}$\n3.  $\\ce{[Ar]}\\,\\mathrm{4s^2 3d^8}$\n4.  $\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}}$\n\n**Assinale** a alternativa com as configurações que podem representar\nestados excitados de átomos neutros.\n",
+        "tex": "Considere as configurações eletrônicas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^1}\\)}\n\\item\n  {\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^5}\\)}\n\\item\n  {\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^8}\\)}\n\\item\n  {\\(\\ce{[Ar]}\\,\\mathrm{4s^2 3d^{10}}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com as configurações que podem representar estados excitados de átomos neutros.\n"
       },
       "solution": null,
       "answer": null,
@@ -1031,7 +1031,7 @@
     {
       "id_": "1B31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B31/1B31.md",
-      "date": "2023-01-12T22:23:59.254145",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>No cromo e no cobre, ocorrem anomalias aparentes no preenchimento dos\norbitais. Nesses elementos, um elétron que deveria ocupar um orbital\n<span class=\"math inline\">\\(s\\)</span> ocupa um orbital <span class=\"math inline\">\\(d\\)</span>. Anomalias semelhantes ocorrem nos\nelementos <span class=\"math inline\">\\(\\ce{Mo}\\)</span>, <span class=\"math inline\">\\(\\ce{Pd}\\)</span>, <span class=\"math inline\">\\(\\ce{Ag}\\)</span> e <span class=\"math inline\">\\(\\ce{Au}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Explique</strong> a origem dessas anomalias.</li>\n<li><strong>Apresente</strong> a configuração eletrônica do estado\nfundamental do <span class=\"math inline\">\\(\\ce{Cr}\\)</span>, <span class=\"math inline\">\\(\\ce{Cu}\\)</span>, <span class=\"math inline\">\\(\\ce{Mo}\\)</span>, <span class=\"math inline\">\\(\\ce{Pd}\\)</span>, <span class=\"math inline\">\\(\\ce{Ag}\\)</span> e <span class=\"math inline\">\\(\\ce{Au}\\)</span></li>\n<li><strong>Explique</strong> por que não existem elementos cujos\nelétrons preenchem orbitais <span class=\"math inline\">\\((n+1)s\\)</span>\nem vez de orbitais <span class=\"math inline\">\\(np\\)</span>.</li>\n</ol>",
         "md": "No cromo e no cobre, ocorrem anomalias aparentes no preenchimento dos\norbitais. Nesses elementos, um elétron que deveria ocupar um orbital $s$\nocupa um orbital $d$. Anomalias semelhantes ocorrem nos elementos\n$\\ce{Mo}$, $\\ce{Pd}$, $\\ce{Ag}$ e $\\ce{Au}$.\n\na.  **Explique** a origem dessas anomalias.\nb.  **Apresente** a configuração eletrônica do estado fundamental do\n    $\\ce{Cr}$, $\\ce{Cu}$, $\\ce{Mo}$, $\\ce{Pd}$, $\\ce{Ag}$ e $\\ce{Au}$\nc.  **Explique** por que não existem elementos cujos elétrons preenchem\n    orbitais $(n+1)s$ em vez de orbitais $np$.\n",
@@ -1040,19 +1040,19 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p>No cobre, as condições são energeticamente favoráveis para que um\nelétron seja promovido do orbital <span\nclass=\"math inline\">\\(4s\\)</span> para um orbital <span\nclass=\"math inline\">\\(3d\\)</span>, gerando uma camada <span\nclass=\"math inline\">\\(3d\\)</span> totalmente preenchida. No caso do\ncrono, as condições energeticamente favoráveis para que um elétron seja\npromovido do orbital <span class=\"math inline\">\\(4s\\)</span> promovido\ndo orbital <span class=\"math inline\">\\(4s\\)</span> para um orbital <span\nclass=\"math inline\">\\(3d\\)</span>, gerando uma camada <span\nclass=\"math inline\">\\(3d\\)</span> semi-preenchida.</p>\n",
-          "md": "No cobre, as condições são energeticamente favoráveis para que um elétron seja promovido do orbital $4s$ para um orbital $3d$, gerando uma camada $3d$ totalmente preenchida. No caso do crono, as condições energeticamente favoráveis para que um elétron seja promovido do orbital $4s$ promovido do orbital $4s$ para um orbital $3d$, gerando uma camada $3d$ semi-preenchida.",
-          "tex": "No cobre, as condições são energeticamente favoráveis para que um elétron seja promovido do orbital \\(4s\\) para um orbital \\(3d\\), gerando uma camada\n\\(3d\\) totalmente preenchida. No caso do crono, as condições energeticamente favoráveis para que um elétron seja promovido do orbital \\(4s\\) promovido\ndo orbital \\(4s\\) para um orbital \\(3d\\), gerando uma camada \\(3d\\) semi-preenchida.\n"
+          "html": "<p>No cobre, as condições são energeticamente favoráveis para que um\nelétron seja promovido do orbital <span\nclass=\"math inline\">\\(\\mathrm{4s}\\)</span> para um orbital <span\nclass=\"math inline\">\\(\\mathrm{3d}\\)</span>, gerando uma camada <span\nclass=\"math inline\">\\(\\mathrm{3d}\\)</span> totalmente preenchida. No\ncaso do crono, as condições energeticamente favoráveis para que um\nelétron seja promovido do orbital <span\nclass=\"math inline\">\\(\\mathrm{4s}\\)</span> para um orbital <span\nclass=\"math inline\">\\(\\mathrm{3d}\\)</span>, gerando uma camada <span\nclass=\"math inline\">\\(\\mathrm{3d}\\)</span> semi-preenchida.</p>\n",
+          "md": "No cobre, as condições são energeticamente favoráveis para que um elétron seja promovido do orbital $\\mathrm{4s}$ para um orbital $\\mathrm{3d}$, gerando uma camada $\\mathrm{3d}$ totalmente preenchida. No caso do crono, as condições energeticamente favoráveis para que um elétron seja promovido do orbital $\\mathrm{4s}$ para um orbital $\\mathrm{3d}$, gerando uma camada $\\mathrm{3d}$ semi-preenchida.",
+          "tex": "No cobre, as condições são energeticamente favoráveis para que um elétron seja promovido do orbital \\(\\mathrm{4s}\\) para um orbital \\(\\mathrm{3d}\\),\ngerando uma camada \\(\\mathrm{3d}\\) totalmente preenchida. No caso do crono, as condições energeticamente favoráveis para que um elétron seja promovido\ndo orbital \\(\\mathrm{4s}\\) para um orbital \\(\\mathrm{3d}\\), gerando uma camada \\(\\mathrm{3d}\\) semi-preenchida.\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{Cr}\\,\\ce{[Ar]}\\,4s^1\\,3d^5\\)</span>,\n<span class=\"math inline\">\\(\\ce{Cu}\\,\\ce{[Ar]}\\,4s^1\\,3d^{10}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Mo}\\,\\ce{[Kr]}\\,5s^1\\,4d^5\\)</span>,\n<span class=\"math inline\">\\(\\ce{Pd}\\,\\ce{[Kr]}\\,4d^{10}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Ag}\\,\\ce{[Kr]}\\,5s^1\\,4d^{10}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Au}\\,\\ce{[Xe]}\\,6s^1\\,4f^{14}\\,5d^{10}\\)</span></p>\n",
-          "md": "$\\ce{Cr}\\,\\ce{[Ar]}\\,4s^1\\,3d^5$, $\\ce{Cu}\\,\\ce{[Ar]}\\,4s^1\\,3d^{10}$, $\\ce{Mo}\\,\\ce{[Kr]}\\,5s^1\\,4d^5$, $\\ce{Pd}\\,\\ce{[Kr]}\\,4d^{10}$, $\\ce{Ag}\\,\\ce{[Kr]}\\,5s^1\\,4d^{10}$, $\\ce{Au}\\,\\ce{[Xe]}\\,6s^1\\,4f^{14}\\,5d^{10}$",
-          "tex": "\\(\\ce{Cr}\\,\\ce{[Ar]}\\,4s^1\\,3d^5\\), \\(\\ce{Cu}\\,\\ce{[Ar]}\\,4s^1\\,3d^{10}\\), \\(\\ce{Mo}\\,\\ce{[Kr]}\\,5s^1\\,4d^5\\), \\(\\ce{Pd}\\,\\ce{[Kr]}\\,4d^{10}\\),\n\\(\\ce{Ag}\\,\\ce{[Kr]}\\,5s^1\\,4d^{10}\\), \\(\\ce{Au}\\,\\ce{[Xe]}\\,6s^1\\,4f^{14}\\,5d^{10}\\)\n"
+          "html": "<p>Cromo, <span\nclass=\"math inline\">\\(\\ce{[Ar]}\\mathrm{4s^1\\,3d^5}\\)</span>; cobre <span\nclass=\"math inline\">\\(\\ce{[Ar]}\\,\\mathrm{4s^1 3d^{10}}\\)</span>;\nmolibdênio, <span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^1\n4d^5}\\)</span>; paládio, <span\nclass=\"math inline\">\\(\\ce{Pd}\\,\\ce{[Kr]}\\,\\mathrm{4d^{10}}\\)</span>;\nprata, <span class=\"math inline\">\\(\\ce{[Kr]}\\,\\mathrm{5s^1\n4d^{10}}\\)</span>; ouro, <span\nclass=\"math inline\">\\(\\ce{[Xe]}\\,\\mathrm{6s^1 4f^{14}\n5d^{10}}\\)</span></p>\n",
+          "md": "Cromo, $\\ce{[Ar]}\\mathrm{4s^1\\,3d^5}$; cobre $\\ce{[Ar]}\\,\\mathrm{4s^1 3d^{10}}$; molibdênio, $\\ce{[Kr]}\\,\\mathrm{5s^1 4d^5}$; paládio, $\\ce{Pd}\\,\\ce{[Kr]}\\,\\mathrm{4d^{10}}$; prata, $\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{10}}$; ouro, $\\ce{[Xe]}\\,\\mathrm{6s^1 4f^{14} 5d^{10}}$",
+          "tex": "Cromo, \\(\\ce{[Ar]}\\mathrm{4s^1\\,3d^5}\\); cobre \\(\\ce{[Ar]}\\,\\mathrm{4s^1 3d^{10}}\\); molibdênio, \\(\\ce{[Kr]}\\,\\mathrm{5s^1 4d^5}\\); paládio,\n\\(\\ce{Pd}\\,\\ce{[Kr]}\\,\\mathrm{4d^{10}}\\); prata, \\(\\ce{[Kr]}\\,\\mathrm{5s^1 4d^{10}}\\); ouro, \\(\\ce{[Xe]}\\,\\mathrm{6s^1 4f^{14} 5d^{10}}\\)\n"
         },
         {
-          "html": "<p>Os orbitais <span class=\"math inline\">\\(np\\)</span> têm energia muito\nmenor do que os orbitais <span\nclass=\"math inline\">\\((n+1)s\\)</span>.</p>\n",
-          "md": "Os orbitais $np$ têm energia muito menor do que os orbitais $(n+1)s$.",
-          "tex": "Os orbitais \\(np\\) têm energia muito menor do que os orbitais \\((n+1)s\\).\n"
+          "html": "<p>Os orbitais <span class=\"math inline\">\\(n\\mathrm{p}\\)</span> têm\nenergia muito menor do que os orbitais <span\nclass=\"math inline\">\\((n+1)\\mathrm{s}\\)</span>.</p>\n",
+          "md": "Os orbitais $n\\mathrm{p}$ têm energia muito menor do que os orbitais $(n+1)\\mathrm{s}$.",
+          "tex": "Os orbitais \\(n\\mathrm{p}\\) têm energia muito menor do que os orbitais \\((n+1)\\mathrm{s}\\).\n"
         }
       ],
       "data": null,
@@ -1062,7 +1062,7 @@
     {
       "id_": "1B14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B14/1B14.md",
-      "date": "2023-01-12T19:10:59.251741",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Zn}\\)</span>, <span class=\"math inline\">\\(\\ce{Cl}\\)</span>, <span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Cu}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de orbital do qual\num elétron pode ser removido para formar um cátion para cada átomo,\nrespectivamente.</p>",
         "md": "Considere os átomos no estado fundamental $\\ce{Zn}$, $\\ce{Cl}$,\n$\\ce{Al}$ e $\\ce{Cu}$.\n\n**Assinale** a alternativa com o tipo de orbital do qual um elétron pode\nser removido para formar um cátion para cada átomo, respectivamente.\n",
@@ -1073,29 +1073,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(3d\\)</span>; <span class=\"math inline\">\\(3p\\)</span>; <span class=\"math inline\">\\(3p\\)</span>; <span class=\"math inline\">\\(3d\\)</span>",
-          "md": "$3d$; $3p$; $3p$; $3d$\n",
-          "tex": "{\\(3d\\)}; {\\(3p\\)}; {\\(3p\\)}; {\\(3d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3d}\\)</span>",
+          "md": "$\\mathrm{3d}$; $\\mathrm{3p}$; $\\mathrm{3p}$; $\\mathrm{3d}$\n",
+          "tex": "{\\(\\mathrm{3d}\\)}; {\\(\\mathrm{3p}\\)}; {\\(\\mathrm{3p}\\)}; {\\(\\mathrm{3d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(3d\\)</span>; <span class=\"math inline\">\\(3s\\)</span>; <span class=\"math inline\">\\(3s\\)</span>; <span class=\"math inline\">\\(4s\\)</span>",
-          "md": "$3d$; $3s$; $3s$; $4s$\n",
-          "tex": "{\\(3d\\)}; {\\(3s\\)}; {\\(3s\\)}; {\\(4s\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{4s}\\)</span>",
+          "md": "$\\mathrm{3d}$; $\\mathrm{3s}$; $\\mathrm{3s}$; $\\mathrm{4s}$\n",
+          "tex": "{\\(\\mathrm{3d}\\)}; {\\(\\mathrm{3s}\\)}; {\\(\\mathrm{3s}\\)}; {\\(\\mathrm{4s}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(3p\\)</span>; <span class=\"math inline\">\\(3s\\)</span>; <span class=\"math inline\">\\(3d\\)</span>",
-          "md": "$4s$; $3p$; $3s$; $3d$\n",
-          "tex": "{\\(4s\\)}; {\\(3p\\)}; {\\(3s\\)}; {\\(3d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3d}\\)</span>",
+          "md": "$\\mathrm{4s}$; $\\mathrm{3p}$; $\\mathrm{3s}$; $\\mathrm{3d}$\n",
+          "tex": "{\\(\\mathrm{4s}\\)}; {\\(\\mathrm{3p}\\)}; {\\(\\mathrm{3s}\\)}; {\\(\\mathrm{3d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(3p\\)</span>; <span class=\"math inline\">\\(3p\\)</span>; <span class=\"math inline\">\\(4s\\)</span>",
-          "md": "$4s$; $3p$; $3p$; $4s$\n",
-          "tex": "{\\(4s\\)}; {\\(3p\\)}; {\\(3p\\)}; {\\(4s\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{4s}\\)</span>",
+          "md": "$\\mathrm{4s}$; $\\mathrm{3p}$; $\\mathrm{3p}$; $\\mathrm{4s}$\n",
+          "tex": "{\\(\\mathrm{4s}\\)}; {\\(\\mathrm{3p}\\)}; {\\(\\mathrm{3p}\\)}; {\\(\\mathrm{4s}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(3d\\)</span>; <span class=\"math inline\">\\(3s\\)</span>; <span class=\"math inline\">\\(3p\\)</span>; <span class=\"math inline\">\\(4s\\)</span>",
-          "md": "$3d$; $3s$; $3p$; $4s$\n",
-          "tex": "{\\(3d\\)}; {\\(3s\\)}; {\\(3p\\)}; {\\(4s\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{4s}\\)</span>",
+          "md": "$\\mathrm{3d}$; $\\mathrm{3s}$; $\\mathrm{3p}$; $\\mathrm{4s}$\n",
+          "tex": "{\\(\\mathrm{3d}\\)}; {\\(\\mathrm{3s}\\)}; {\\(\\mathrm{3p}\\)}; {\\(\\mathrm{4s}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -1103,11 +1103,11 @@
     {
       "id_": "1B29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B29/1B29.md",
-      "date": "2023-01-12T22:03:13.066553",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as proposições para os átomos com muitos elétrons.</p>\n<ol type=\"1\">\n<li>A carga nuclear efetiva, <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span>, é independente do número\nde elétrons presentes em um átomo.</li>\n<li>Os elétrons de um\norbital <span class=\"math inline\">\\(s\\)</span> blindam mais efetivamente\nda carga nuclear do núcleo os elétrons de outros orbitais porque um\nelétron em um orbital <span class=\"math inline\">\\(s\\)</span> pode\npenetrar o núcleo de um átomo.</li>\n<li>Elétrons com <span class=\"math inline\">\\(l = 2\\)</span> são mais efetivos na blindagem do\nque elétrons com <span class=\"math inline\">\\(l = 1\\)</span>.</li>\n<li>A <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span> de um elétron em um orbital\n<span class=\"math inline\">\\(p\\)</span> é menor do que o de um elétron em\num orbital <span class=\"math inline\">\\(s\\)</span> da mesma camada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
-        "md": "Considere as proposições para os átomos com muitos elétrons.\n\n1.  A carga nuclear efetiva, $Z_\\mathrm{ef}$, é independente do número\n    de elétrons presentes em um átomo.\n2.  Os elétrons de um orbital $s$ blindam mais efetivamente da carga\n    nuclear do núcleo os elétrons de outros orbitais porque um elétron\n    em um orbital $s$ pode penetrar o núcleo de um átomo.\n3.  Elétrons com $l = 2$ são mais efetivos na blindagem do que elétrons\n    com $l = 1$.\n4.  A $Z_\\mathrm{ef}$ de um elétron em um orbital $p$ é menor do que o\n    de um elétron em um orbital $s$ da mesma camada.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
-        "tex": "Considere as proposições para os átomos com muitos elétrons.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A carga nuclear efetiva, {\\(Z_\\mathrm{ef}\\)}, é independente do número de elétrons presentes em um átomo.\n\\item\n  Os elétrons de um orbital {\\(s\\)} blindam mais efetivamente da carga nuclear do núcleo os elétrons de outros orbitais porque um elétron em um\n  orbital {\\(s\\)} pode penetrar o núcleo de um átomo.\n\\item\n  Elétrons com {\\(l = 2\\)} são mais efetivos na blindagem do que elétrons com {\\(l = 1\\)}.\n\\item\n  A {\\(Z_\\mathrm{ef}\\)} de um elétron em um orbital {\\(p\\)} é menor do que o de um elétron em um orbital {\\(s\\)} da mesma camada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
+        "html": "<p>Considere as proposições para os átomos com muitos elétrons.</p>\n<ol type=\"1\">\n<li>A carga nuclear efetiva, <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span>, é independente do número\nde elétrons presentes em um átomo.</li>\n<li>Os elétrons de um\norbital s blindam mais efetivamente da carga nuclear do núcleo os\nelétrons de outros orbitais porque um elétron em um orbital s pode\npenetrar o núcleo de um átomo.</li>\n<li>Elétrons com <span class=\"math inline\">\\(l = 2\\)</span> são mais efetivos na blindagem do\nque elétrons com <span class=\"math inline\">\\(l = 1\\)</span>.</li>\n<li>A <span class=\"math inline\">\\(Z_\\mathrm{ef}\\)</span> de um elétron em um orbital\np é menor do que o de um elétron em um orbital s da mesma camada.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as proposições para os átomos com muitos elétrons.\n\n1.  A carga nuclear efetiva, $Z_\\mathrm{ef}$, é independente do número\n    de elétrons presentes em um átomo.\n2.  Os elétrons de um orbital s blindam mais efetivamente da carga\n    nuclear do núcleo os elétrons de outros orbitais porque um elétron\n    em um orbital s pode penetrar o núcleo de um átomo.\n3.  Elétrons com $l = 2$ são mais efetivos na blindagem do que elétrons\n    com $l = 1$.\n4.  A $Z_\\mathrm{ef}$ de um elétron em um orbital p é menor do que o de\n    um elétron em um orbital s da mesma camada.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere as proposições para os átomos com muitos elétrons.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A carga nuclear efetiva, {\\(Z_\\mathrm{ef}\\)}, é independente do número de elétrons presentes em um átomo.\n\\item\n  Os elétrons de um orbital s blindam mais efetivamente da carga nuclear do núcleo os elétrons de outros orbitais porque um elétron em um orbital s\n  pode penetrar o núcleo de um átomo.\n\\item\n  Elétrons com {\\(l = 2\\)} são mais efetivos na blindagem do que elétrons com {\\(l = 1\\)}.\n\\item\n  A {\\(Z_\\mathrm{ef}\\)} de um elétron em um orbital p é menor do que o de um elétron em um orbital s da mesma camada.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
@@ -1144,7 +1144,7 @@
     {
       "id_": "1B13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B13/1B13.md",
-      "date": "2023-01-12T19:09:15.414310",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Ge}\\)</span>, <span class=\"math inline\">\\(\\ce{Mn}\\)</span>, <span class=\"math inline\">\\(\\ce{Ba}\\)</span> e <span class=\"math inline\">\\(\\ce{Au}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de orbital do qual\num elétron pode ser removido para formar um cátion para cada átomo,\nrespectivamente.</p>",
         "md": "Considere os átomos no estado fundamental $\\ce{Ge}$, $\\ce{Mn}$,\n$\\ce{Ba}$ e $\\ce{Au}$.\n\n**Assinale** a alternativa com o tipo de orbital do qual um elétron pode\nser removido para formar um cátion para cada átomo, respectivamente.\n",
@@ -1155,29 +1155,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(6s\\)</span>; <span class=\"math inline\">\\(5d\\)</span>",
-          "md": "$4s$; $4s$; $6s$; $5d$\n",
-          "tex": "{\\(4s\\)}; {\\(4s\\)}; {\\(6s\\)}; {\\(5d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{5d}\\)</span>",
+          "md": "$\\mathrm{4s}$; $\\mathrm{4s}$; $\\mathrm{6s}$; $\\mathrm{5d}$\n",
+          "tex": "{\\(\\mathrm{4s}\\)}; {\\(\\mathrm{4s}\\)}; {\\(\\mathrm{6s}\\)}; {\\(\\mathrm{5d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(3d\\)</span>; <span class=\"math inline\">\\(6s\\)</span>; <span class=\"math inline\">\\(6s\\)</span>",
-          "md": "$4s$; $3d$; $6s$; $6s$\n",
-          "tex": "{\\(4s\\)}; {\\(3d\\)}; {\\(6s\\)}; {\\(6s\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>",
+          "md": "$\\mathrm{4s}$; $\\mathrm{3d}$; $\\mathrm{6s}$; $\\mathrm{6s}$\n",
+          "tex": "{\\(\\mathrm{4s}\\)}; {\\(\\mathrm{3d}\\)}; {\\(\\mathrm{6s}\\)}; {\\(\\mathrm{6s}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4p\\)</span>; <span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(6s\\)</span>; <span class=\"math inline\">\\(6s\\)</span>",
-          "md": "$4p$; $4s$; $6s$; $6s$\n",
-          "tex": "{\\(4p\\)}; {\\(4s\\)}; {\\(6s\\)}; {\\(6s\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>",
+          "md": "$\\mathrm{4p}$; $\\mathrm{4s}$; $\\mathrm{6s}$; $\\mathrm{6s}$\n",
+          "tex": "{\\(\\mathrm{4p}\\)}; {\\(\\mathrm{4s}\\)}; {\\(\\mathrm{6s}\\)}; {\\(\\mathrm{6s}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4p\\)</span>; <span class=\"math inline\">\\(3d\\)</span>; <span class=\"math inline\">\\(5s\\)</span>; <span class=\"math inline\">\\(6s\\)</span>",
-          "md": "$4p$; $3d$; $5s$; $6s$\n",
-          "tex": "{\\(4p\\)}; {\\(3d\\)}; {\\(5s\\)}; {\\(6s\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{5s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>",
+          "md": "$\\mathrm{4p}$; $\\mathrm{3d}$; $\\mathrm{5s}$; $\\mathrm{6s}$\n",
+          "tex": "{\\(\\mathrm{4p}\\)}; {\\(\\mathrm{3d}\\)}; {\\(\\mathrm{5s}\\)}; {\\(\\mathrm{6s}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4p\\)</span>; <span class=\"math inline\">\\(4s\\)</span>; <span class=\"math inline\">\\(6s\\)</span>; <span class=\"math inline\">\\(5d\\)</span>",
-          "md": "$4p$; $4s$; $6s$; $5d$\n",
-          "tex": "{\\(4p\\)}; {\\(4s\\)}; {\\(6s\\)}; {\\(5d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4p}\\)</span>; <span class=\"math inline\">\\(\\mathrm{4s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{6s}\\)</span>; <span class=\"math inline\">\\(\\mathrm{5d}\\)</span>",
+          "md": "$\\mathrm{4p}$; $\\mathrm{4s}$; $\\mathrm{6s}$; $\\mathrm{5d}$\n",
+          "tex": "{\\(\\mathrm{4p}\\)}; {\\(\\mathrm{4s}\\)}; {\\(\\mathrm{6s}\\)}; {\\(\\mathrm{5d}\\)}\n"
         }
       ],
       "correct_choice": 2
@@ -1185,11 +1185,11 @@
     {
       "id_": "1B20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B20/1B20.md",
-      "date": "2023-01-12T21:21:53.648056",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as configurações eletrônicas da camada de valência.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{\n\\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow\n\\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\hspace{5pt} } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\uparrow \\hspace{5pt} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } }\n\\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{\n\\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
-        "md": "Considere as configurações eletrônicas da camada de valência.\n\n1.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n3.  $\\underset{4s}{ \\boxed{ \\uparrow \\hspace{5pt} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n4.  $\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
-        "tex": "Considere as configurações eletrônicas da camada de valência.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\hspace{5pt} } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\item\n  {\\(\\underset{4s}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{4p}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
+        "html": "<p>Considere as configurações eletrônicas da camada de valência.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\downarrow\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow}\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow\n\\hspace{5pt} } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)</span></li>\n<li><span class=\"math inline\">\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow\n\\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow\n\\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt}\n}\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as\nconfigurações que correspondem ao estado fundamental de um átomo\nneutro.</p>",
+        "md": "Considere as configurações eletrônicas da camada de valência.\n\n1.  $\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n2.  $\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n3.  $\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\hspace{5pt} } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }$\n4.  $\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }$\n\n**Assinale** a alternativa que relaciona as configurações que\ncorrespondem ao estado fundamental de um átomo neutro.\n",
+        "tex": "Considere as configurações eletrônicas da camada de valência.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\downarrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\downarrow }\\hspace{-0.4pt}\\boxed{ \\phantom{\\downarrow \\uparrow} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\item\n  {\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\hspace{5pt} } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} } }\\)}\n\\item\n  {\\(\\underset{\\mathrm{4s}}{ \\boxed{ \\uparrow \\downarrow } } \\;\\; \\underset{\\mathrm{4p}}{ \\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\uparrow \\hspace{5pt} }\\hspace{-0.4pt}\\boxed{ \\phantom{\\uparrow \\downarrow} } }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as configurações que correspondem ao estado fundamental de um átomo neutro.\n"
       },
       "solution": null,
       "answer": null,
@@ -1226,11 +1226,11 @@
     {
       "id_": "1B08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B08/1B08.md",
-      "date": "2023-01-12T20:11:48.450618",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as proposições</p>\n<ol type=\"1\">\n<li>São permitidos 7\nvalores para o número quântico <span class=\"math inline\">\\(l\\)</span>\nquando <span class=\"math inline\">\\(n = 7\\)</span>.</li>\n<li>São permitidos 5\nvalores para o número quântico <span class=\"math inline\">\\(m_l\\)</span>\npara a subcamada <span class=\"math inline\">\\(6d\\)</span>.</li>\n<li>São permitidos 3\nvalores para o número quântico <span class=\"math inline\">\\(m_l\\)</span>\npara a subcamada <span class=\"math inline\">\\(3p\\)</span>.</li>\n<li>Existem 3 subcamadas na camada\ncom <span class=\"math inline\">\\(n = 4\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
-        "md": "Considere as proposições\n\n1.  São permitidos 7 valores para o número quântico $l$ quando $n = 7$.\n2.  São permitidos 5 valores para o número quântico $m_l$ para a\n    subcamada $6d$.\n3.  São permitidos 3 valores para o número quântico $m_l$ para a\n    subcamada $3p$.\n4.  Existem 3 subcamadas na camada com $n = 4$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
-        "tex": "Considere as proposições\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  São permitidos 7 valores para o número quântico {\\(l\\)} quando {\\(n = 7\\)}.\n\\item\n  São permitidos 5 valores para o número quântico {\\(m_l\\)} para a subcamada {\\(6d\\)}.\n\\item\n  São permitidos 3 valores para o número quântico {\\(m_l\\)} para a subcamada {\\(3p\\)}.\n\\item\n  Existem 3 subcamadas na camada com {\\(n = 4\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
+        "html": "<p>Considere as proposições</p>\n<ol type=\"1\">\n<li>São permitidos 7\nvalores para o número quântico <span class=\"math inline\">\\(l\\)</span>\nquando <span class=\"math inline\">\\(n = 7\\)</span>.</li>\n<li>São permitidos 5\nvalores para o número quântico <span class=\"math inline\">\\(m_l\\)</span>\npara a subcamada <span class=\"math inline\">\\(\\mathrm{6d}\\)</span>.</li>\n<li>São permitidos 3\nvalores para o número quântico <span class=\"math inline\">\\(m_l\\)</span>\npara a subcamada <span class=\"math inline\">\\(\\mathrm{3p}\\)</span>.</li>\n<li>Existem 3 subcamadas na camada\ncom <span class=\"math inline\">\\(n = 4\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as proposições\n\n1.  São permitidos 7 valores para o número quântico $l$ quando $n = 7$.\n2.  São permitidos 5 valores para o número quântico $m_l$ para a\n    subcamada $\\mathrm{6d}$.\n3.  São permitidos 3 valores para o número quântico $m_l$ para a\n    subcamada $\\mathrm{3p}$.\n4.  Existem 3 subcamadas na camada com $n = 4$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere as proposições\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  São permitidos 7 valores para o número quântico {\\(l\\)} quando {\\(n = 7\\)}.\n\\item\n  São permitidos 5 valores para o número quântico {\\(m_l\\)} para a subcamada {\\(\\mathrm{6d}\\)}.\n\\item\n  São permitidos 3 valores para o número quântico {\\(m_l\\)} para a subcamada {\\(\\mathrm{3p}\\)}.\n\\item\n  Existem 3 subcamadas na camada com {\\(n = 4\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
@@ -1267,40 +1267,40 @@
     {
       "id_": "1B03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B03/1B03.md",
-      "date": "2023-01-12T20:20:18.362230",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>Considere as subcamadas <span class=\"math inline\">\\(2d\\)</span>,\n<span class=\"math inline\">\\(4d\\)</span>, <span class=\"math inline\">\\(4g\\)</span> e <span class=\"math inline\">\\(6f\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as subcamadas\nque podem existir em um átomo.</p>",
-        "md": "Considere as subcamadas $2d$, $4d$, $4g$ e $6f$.\n\n**Assinale** a alternativa que relaciona as subcamadas que podem existir\nem um átomo.\n",
-        "tex": "Considere as subcamadas {\\(2d\\)}, {\\(4d\\)}, {\\(4g\\)} e {\\(6f\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as subcamadas que podem existir em um átomo.\n"
+        "html": "<p>Considere as subcamadas <span class=\"math inline\">\\(\\mathrm{2d}\\)</span>, <span class=\"math inline\">\\(\\mathrm{4d}\\)</span>, <span class=\"math inline\">\\(\\mathrm{4g}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6f}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as subcamadas\nque podem existir em um átomo.</p>",
+        "md": "Considere as subcamadas $\\mathrm{2d}$, $\\mathrm{4d}$, $\\mathrm{4g}$ e\n$\\mathrm{6f}$.\n\n**Assinale** a alternativa que relaciona as subcamadas que podem existir\nem um átomo.\n",
+        "tex": "Considere as subcamadas {\\(\\mathrm{2d}\\)}, {\\(\\mathrm{4d}\\)}, {\\(\\mathrm{4g}\\)} e {\\(\\mathrm{6f}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as subcamadas que podem existir em um átomo.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(4d\\)</span>",
-          "md": "$4d$\n",
-          "tex": "{\\(4d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4d}\\)</span>",
+          "md": "$\\mathrm{4d}$\n",
+          "tex": "{\\(\\mathrm{4d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(6f\\)</span>",
-          "md": "$6f$\n",
-          "tex": "{\\(6f\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{6f}\\)</span>",
+          "md": "$\\mathrm{6f}$\n",
+          "tex": "{\\(\\mathrm{6f}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4d\\)</span> e <span class=\"math inline\">\\(6f\\)</span>",
-          "md": "$4d$ e $6f$\n",
-          "tex": "{\\(4d\\)} e {\\(6f\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4d}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6f}\\)</span>",
+          "md": "$\\mathrm{4d}$ e $\\mathrm{6f}$\n",
+          "tex": "{\\(\\mathrm{4d}\\)} e {\\(\\mathrm{6f}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(2d\\)</span>, <span class=\"math inline\">\\(4d\\)</span> e <span class=\"math inline\">\\(6f\\)</span>",
-          "md": "$2d$, $4d$ e $6f$\n",
-          "tex": "{\\(2d\\)}, {\\(4d\\)} e {\\(6f\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{2d}\\)</span>, <span class=\"math inline\">\\(\\mathrm{4d}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6f}\\)</span>",
+          "md": "$\\mathrm{2d}$, $\\mathrm{4d}$ e $\\mathrm{6f}$\n",
+          "tex": "{\\(\\mathrm{2d}\\)}, {\\(\\mathrm{4d}\\)} e {\\(\\mathrm{6f}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4d\\)</span>, <span class=\"math inline\">\\(4g\\)</span> e <span class=\"math inline\">\\(6f\\)</span>",
-          "md": "$4d$, $4g$ e $6f$\n",
-          "tex": "{\\(4d\\)}, {\\(4g\\)} e {\\(6f\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4d}\\)</span>, <span class=\"math inline\">\\(\\mathrm{4g}\\)</span> e <span class=\"math inline\">\\(\\mathrm{6f}\\)</span>",
+          "md": "$\\mathrm{4d}$, $\\mathrm{4g}$ e $\\mathrm{6f}$\n",
+          "tex": "{\\(\\mathrm{4d}\\)}, {\\(\\mathrm{4g}\\)} e {\\(\\mathrm{6f}\\)}\n"
         }
       ],
       "correct_choice": 2
@@ -1308,7 +1308,7 @@
     {
       "id_": "1B01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B01/1B01.md",
-      "date": "2023-01-12T18:43:11.558433",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
         "html": "<p>Em um determinado estado, os três números quânticos do elétron de um\nátomo de hidrogênio são <span class=\"math inline\">\\(n = 4\\)</span>,\n<span class=\"math inline\">\\(l = 2\\)</span> e <span class=\"math inline\">\\(m_l = -1\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de orbital que\nesse elétron está localizado.</p>",
         "md": "Em um determinado estado, os três números quânticos do elétron de um\nátomo de hidrogênio são $n = 4$, $l = 2$ e $m_l = -1$.\n\n**Assinale** a alternativa com o tipo de orbital que esse elétron está\nlocalizado.\n",
@@ -1319,29 +1319,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(3p\\)</span>",
-          "md": "$3p$\n",
-          "tex": "{\\(3p\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3p}\\)</span>",
+          "md": "$\\mathrm{3p}$\n",
+          "tex": "{\\(\\mathrm{3p}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(3d\\)</span>",
-          "md": "$3d$\n",
-          "tex": "{\\(3d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{3d}\\)</span>",
+          "md": "$\\mathrm{3d}$\n",
+          "tex": "{\\(\\mathrm{3d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4p\\)</span>",
-          "md": "$4p$\n",
-          "tex": "{\\(4p\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4p}\\)</span>",
+          "md": "$\\mathrm{4p}$\n",
+          "tex": "{\\(\\mathrm{4p}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4d\\)</span>",
-          "md": "$4d$\n",
-          "tex": "{\\(4d\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4d}\\)</span>",
+          "md": "$\\mathrm{4d}$\n",
+          "tex": "{\\(\\mathrm{4d}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(4f\\)</span>",
-          "md": "$4f$\n",
-          "tex": "{\\(4f\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{4f}\\)</span>",
+          "md": "$\\mathrm{4f}$\n",
+          "tex": "{\\(\\mathrm{4f}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -1349,11 +1349,11 @@
     {
       "id_": "1B32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B32/1B32.md",
-      "date": "2023-01-12T22:32:08.253395",
+      "date": "2023-02-02T20:40:49.894848",
       "statement": {
-        "html": "<p>No bloco <span class=\"math inline\">\\(f\\)</span>, exitem numerosas\nexceções no preenchimento regular previsto pelo princípio de\nconstrução.</p>\n<p><strong>Explique</strong> por que tantas exceções são observadas\nnesses elementos.</p>",
-        "md": "No bloco $f$, exitem numerosas exceções no preenchimento regular\nprevisto pelo princípio de construção.\n\n**Explique** por que tantas exceções são observadas nesses elementos.\n",
-        "tex": "No bloco {\\(f\\)}, exitem numerosas exceções no preenchimento regular previsto pelo princípio de construção.\n\n\\textbf{Explique} por que tantas exceções são observadas nesses elementos.\n"
+        "html": "<p>No bloco f, exitem numerosas exceções no preenchimento regular\nprevisto pelo princípio de construção.</p>\n<p><strong>Explique</strong> por que tantas exceções são observadas\nnesses elementos.</p>",
+        "md": "No bloco f, exitem numerosas exceções no preenchimento regular previsto\npelo princípio de construção.\n\n**Explique** por que tantas exceções são observadas nesses elementos.\n",
+        "tex": "No bloco f, exitem numerosas exceções no preenchimento regular previsto pelo princípio de construção.\n\n\\textbf{Explique} por que tantas exceções são observadas nesses elementos.\n"
       },
       "solution": null,
       "answer": [

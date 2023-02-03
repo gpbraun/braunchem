@@ -230,79 +230,6 @@
 
 \RequirePackage [ version = 4 ] { mhchem }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                              
-%   BOXES -> isso aqui vai morrer
-%                                              
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\keys_define:nn { braun/box }
-  {
-    width .dim_set:N = \l_braun_box_width_dim,
-    width .initial:n = 2em,
-
-    fill  .tl_set:N  = \l_braun_box_fill_tl,
-    fill  .initial:n = white,
-
-    stroke  .tl_set:N  = \l_braun_box_stroke_tl,
-    stroke  .initial:n = black,
-
-    align  .tl_set:N  = \l_braun_box_align_tl,
-    align  .initial:n = t,
-
-    yshift .dim_set:N  = \l_braun_box_yshift_dim,
-    yshift .initial:n  = 0pt,
-  }
-
-%============================================================%
-%   HEADERS
-%============================================================%
-
-\coffin_new:N \l__braun_txta_coffin
-\coffin_new:N \l__braun_txtb_coffin
-
-% #1 -> name
-% #2 -> code
-
-\NewDocumentCommand \BraunHeader { O{} m }
-  {
-    \BraunNoWarning
-    \skip_vertical:n { 1ex } 
-    \group_begin:
-      \dim_zero:N \parindent
-      \draw_begin:
-        \draw_linewidth:V \g_braun_linewidth_dim
-        \hcoffin_set:Nn   \l__braun_txta_coffin {#2}
-        \hcoffin_set:Nn   \l__braun_txtb_coffin {#1}
-        \draw_path_moveto:n 
-          { \linewidth , 0em }
-        \draw_path_lineto:n 
-          { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0cm }
-        \draw_path_corner_arc:nn { 2ex }{ 2ex }
-        \draw_path_lineto:n 
-          { \coffin_wd:N \l__braun_txta_coffin + 4ex , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
-        \draw_path_corner_arc:nn { 0cm }{ 0cm }
-        \draw_path_lineto:n 
-          { 0cm , \coffin_ht:N \l__braun_txta_coffin + 2.5ex }
-        \draw_path_corner_arc:nn { 2ex }{ 2ex }
-        \draw_path_lineto:n 
-          { 0cm , 0em }
-        \draw_path_lineto:n 
-          { \coffin_wd:N \l__braun_txta_coffin + 4ex , 0em }
-        \color_fill:n { black!20 }
-        \draw_path_use_clear:n { fill, stroke }
-        \draw_transform_shift:n 
-          { \linewidth - 1em , 1.25ex }
-        \draw_coffin_use:Nnn \l__braun_txtb_coffin {r}  {H}
-        \draw_transform_shift:n 
-          { ( \coffin_wd:N \l__braun_txta_coffin + 4ex ) / 2 - \linewidth + 1em , 0cm }
-        \draw_coffin_use:Nnn \l__braun_txta_coffin {hc} {H}
-      \draw_end:
-    \group_end:
-    \skip_vertical:n { 1ex }
-    \braun_ghost_section:
-  }
-
 %============================================================%
 %   ChoiceBox
 %============================================================%
@@ -316,6 +243,7 @@
 		\hcoffin_set:Nn \l_tmpa_coffin 
 			{
 				\draw_begin:
+        \color_set:nnn {pensi} {HTML} {ffc107} 
         \draw_path_moveto:n { -#2 +0.2ex, -#2 }
         \draw_path_lineto:n { #2 -0.2ex  , -#2 }
         \draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
@@ -324,7 +252,7 @@
         \draw_path_lineto:n { -#2 +0.2ex, #2 }
         \draw_path_corner_arc:nn { 0.6ex }{ 0.6ex }
         \draw_path_close:
-        \color_fill:n { gray!30 }
+        \color_fill:n { black!15 }
         \draw_path_use_clear:n { fill }
 				\draw_end:
 			}
@@ -407,35 +335,21 @@
 %   PALETA DE CORES
 %============================================================%
 
-\cs_set_eq:NN \legacydefinecolor \definecolor
-
-\cs_set:Npn \definecolor #1#2#3
-  {
-    \legacydefinecolor {#1}{#2}{#3}
-    \color_set:nnn     {#1}{#2}{#3}
-  }
-
 % CINZA
 \definecolor { gray } { HTML } { 64748b }
 
-% CORES BÁSICAS (TAILWIND)
-\definecolor { red     } { HTML } { ef4444 }
-\definecolor { orange  } { HTML } { f97316 }
-\definecolor { amber   } { HTML } { f59e0b }
-\definecolor { yellow  } { HTML } { eab308 }
-\definecolor { lime    } { HTML } { 84cc16 }
-\definecolor { green   } { HTML } { 22c55e }
-\definecolor { emerald } { HTML } { 10b981 }
-\definecolor { teal    } { HTML } { 14b8a6 }
-\definecolor { cyan    } { HTML } { 06b6d4 }
-\definecolor { sky     } { HTML } { 0ea5e9 }
-\definecolor { blue    } { HTML } { 3b82f6 }
-\definecolor { indigo  } { HTML } { 6366f1 }
-\definecolor { violet  } { HTML } { 8b5cf6 }
-\definecolor { purple  } { HTML } { a855f7 }
-\definecolor { fuchsia } { HTML } { d946ef }
-\definecolor { pink    } { HTML } { fdf2f8 }
-\definecolor { rose    } { HTML } { f43f5e }
+% CORES BÁSICAS
+\definecolor { blue   } { HTML } { 0d6efd }
+\definecolor { indigo } { HTML } { 6610f2 }
+\definecolor { purple } { HTML } { 6f42c1 }
+\definecolor { pink   } { HTML } { d63384 }
+\definecolor { red    } { HTML } { dc3545 } 
+\definecolor { orange } { HTML } { fd7e14 } 
+\definecolor { yellow } { HTML } { ffc107 } 
+\definecolor { green  } { HTML } { 198754 } 
+\definecolor { teal   } { HTML } { 20c997 } 
+\definecolor { cyan   } { HTML } { 0dcaf0 } 
+\definecolor { lime   } { HTML } { 84cc16 }
 
 % CORES DOS BLOCOS
 \colorlet{ s-block } { blue   }
@@ -869,7 +783,8 @@
 	{
 		pensi = 
       {
-        \draw_begin:  
+        \draw_begin: 
+          \color_set:nnn {pensi} {HTML} {ffc107} 
           \fp_set:Nn \l_tmpa_fp { 60 } % Angle
           \draw_path_moveto:n 
             { 0em , 0em }
@@ -903,7 +818,7 @@
                 {  1cm / ( 3 * sqrt(3) ) } { -120 }
             }
           \draw_path_close:
-          \color_fill:n { yellow!70 }
+          \color_fill:n { pensi }
           \draw_path_use:n { fill }
         \draw_end:
       },
@@ -1047,6 +962,12 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\keys_define:nn { braun/section }
+	{
+		background-color .code:n = \colorlet { section_background_color } {#1},
+    background-color .initial:n =  blue!10,
+	}
+
 % #1 -> level
 % #2 -> indent
 % #3 -> number
@@ -1055,20 +976,17 @@
   {
     \Ifstr{#1}{section}
       {
-        \begin{tikzpicture}
-          \node (background) 
-            [  
-              fill = blue!7.5, 
-              anchor = west, 
-              minimum~height = 2em, 
-              minimum~width = \linewidth 
-            ] {};
-          \node [ anchor = west, align = left, xshift = 1ex ] 
-            at (background.west)
-            {
-              \@hangfrom{\hskip #2#3}{#4}
-            };
-        \end{tikzpicture}    
+        \begin{tcolorbox}
+            [
+              frame~hidden,
+              % colframe = yellow,
+              colback = section_background_color,
+              sharp~corners = downhill,
+              arc = 1ex,
+              beforeafter~skip=0pt,
+            ]
+          \@hangfrom{\hskip #2#3}{#4}
+        \end{tcolorbox}
       }
       {
         \@hangfrom{\hskip #2#3}{#4}
@@ -1256,12 +1174,12 @@
 
 \keys_define:nn { braun/caption }
   {
-    font .code:n = \captionsetup { font = { #1 } },
+    font .code:n = \captionsetup { font = {#1} },
     font .initial:n = {sf},
 
-    labelformat .code:n = \captionsetup { labelformat = { #1 } },
+    labelformat .code:n = \captionsetup { labelformat = {#1} },
 
-    labelfont .code:n = \captionsetup { labelfont = { #1 } },
+    labelfont .code:n = \captionsetup { labelfont = {#1} },
     labelfont .initial:n = {bf},
 
     labelsep .tl_set:N = \captionformat,
@@ -1285,7 +1203,7 @@
 
 \tcbuselibrary { skins, breakable }
 
-\tcbset { enhanced~ jigsaw }
+\tcbset { enhanced~jigsaw }
 
 %============================================================%
 %   TABELA BONITINHA
@@ -1293,13 +1211,13 @@
 
 \keys_define:nn { braun/colortable }
   {
-    caption-color .code:n = \colorlet { colortable_caption_color } { #1 },
+    caption-color .code:n = \colorlet { colortable_caption_color } {#1},
     caption-color .initial:n = blue!70!black,
 
-    caption-label-color .code:n = \colorlet { colortable_label_color } { #1 },
+    caption-label-color .code:n = \colorlet { colortable_label_color } {#1},
     caption-label-color .initial:n = red!70!black,
 
-    frame-color .code:n = \colorlet { colortable_frame_color } { #1 },
+    frame-color .code:n = \colorlet { colortable_frame_color } {#1},
     frame-color .initial:n = yellow,
 
     background-color .code:n = \colorlet { colortable_background_color } { #1 },
@@ -1596,19 +1514,9 @@
 
 \cs_set:Npn \DerivationHeader #1
   {
-    \tcbsubtitle
-      [
-        enhanced,
-        frame~ hidden,
-        coltext = black,
-        colback = yellow!7.5,
-      ]
-      {
-        \usekomafont { disposition }
-        \text_uppercase:n {#1}
-      }
+    \minisec { \text_uppercase:n {#1} }
+    \skip_vertical:n {1ex}
   }
-
 
 \NewDocumentEnvironment { derivation } { }
   {
