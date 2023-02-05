@@ -44,21 +44,21 @@
               }
         }  
     \path (0,0)
-        node[orbital=s-block] (1-s) {$1s$} 
+        node[orbital=s-block] (1-s) {$\mathrm{1s}$} 
         \foreach \i in {2,...,7}
-            {--++ (0,-\d) node[orbital=s-block] (\i-s) {$\i s$} coordinate[midway](\i-1)};
+            {--++ (0,-\d) node[orbital=s-block] (\i-s) {$\mathrm{\i s}$} coordinate[midway](\i-1)};
     \path (\d,-\d)
-        node[orbital=p-block] (2-p) {$2p$} 
+        node[orbital=p-block] (2-p) {$\mathrm{2p}$} 
         \foreach \i in {3,...,7}
-            {--++ (0,-\d) node[orbital=p-block] (\i-p) {$\i p$} coordinate[midway](\i-2)};
+            {--++ (0,-\d) node[orbital=p-block] (\i-p) {$\mathrm{\i p}$} coordinate[midway](\i-2)};
     \path (2*\d,-2*\d)
-        node[orbital=d-block] (3-d) {$3d$} 
+        node[orbital=d-block] (3-d) {$\mathrm{3d}$} 
         \foreach \i in {4,...,6}
-            {--++ (0,-\d) node[orbital=d-block] (\i-d) {$\i d$} coordinate[midway](\i-3)};
+            {--++ (0,-\d) node[orbital=d-block] (\i-d) {$\mathrm{\i d}$} coordinate[midway](\i-3)};
     \path (3*\d,-3*\d)
-        node[orbital=f-block] (4-f) {$4f$} 
+        node[orbital=f-block] (4-f) {$\mathrm{4f}$} 
         \foreach \i in {5}
-            {--++ (0,-\d) node[orbital=f-block] (\i-f) {$\i f$} coordinate[midway](\i-4)};
+            {--++ (0,-\d) node[orbital=f-block] (\i-f) {$\mathrm{\i f}$} coordinate[midway](\i-4)};
     
     
     \path (7-s) --++ (0,-.5*\d) coordinate (8-1);
