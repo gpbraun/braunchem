@@ -305,6 +305,16 @@
     every~axis~plot/.append~style = {very~thick},
     every~axis~plot/.append~style = {mark=none},
     every~axis~plot/.append~style = {mark~options={fill=white}},
+    bar~cycle~list/.style = 
+      {
+        /pgfplots/cycle~list=
+          { 
+            {blue, fill=blue!20}, 
+            {red, fill=red!20}, 
+            {green, fill=green!20},
+            {purple, fill=purple!20}, 
+          },
+      }
   }
 
 \tikzstyle{every~pin}=[draw=black]

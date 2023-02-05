@@ -205,7 +205,7 @@
 
   \node [element = gray, anchor = east] (H) at (He -| Fe) { \ce{H} };
   \node [anchor = east] at (H.west) { $\mathrm{1s}$ };
-  \draw (H.east) -- (He.west);
+  \draw [draw = gray, dotted, very thick] (H.east) -- (He.west);
 
   % LABELS GRUPO
   \begin{scope}[anchor = south]
