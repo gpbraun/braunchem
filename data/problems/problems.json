@@ -18981,7 +18981,7 @@
     {
       "id_": "2A34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A34/2A34.md",
-      "date": "2023-02-06T00:54:32.924387",
+      "date": "2023-02-06T03:58:57.157658",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia padrão de combustão do diamante.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia padrão de\ncombustão do diamante.\n",
@@ -18992,11 +18992,11 @@
       "data": {
         "quantities": [
           {
-            "id_": "Hf(diamante,s)",
-            "name": "Hf(diamante,s)",
-            "symbol": null,
-            "value": null,
-            "unit": null,
+            "id_": "Hf(diamante)",
+            "name": "entalpia padrão de formação do diamante",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C,\\,\\text{diamante}})",
+            "value": 1.9,
+            "unit": "kJ//mol",
             "prec": 3
           },
           {
