@@ -18334,6 +18334,51 @@
       "correct_choice": 2
     },
     {
+      "id_": "2A43",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A43/2A43.md",
+      "date": "2023-02-06T01:33:58.526721",
+      "statement": {
+        "html": "<p>O petróleo bruto com frequência é contaminado pelo gás sulfeto de\nhidrogênio, que é venenoso. O processo Claus para a extração de enxofre\ndo petróleo bruto tem duas etapas: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ 2 H2S(g) + 3 O2(g) &amp;-&gt; 2 SO2(g) + 2 H2O(l) } \\\\\n    \\ce{ 2 H2S(g) + SO2(g) &amp;-&gt; 3 S(s) + 2 H2O(l) }\n\\end{aligned}\n\\]</span> Todo dióxido de enxofre formado na primeira etapa é consumido\nna segunda.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação química global do\nprocesso.</li>\n<li><strong>Determine</strong> a variação de entalpia associada à\nprodução de <span class=\"math inline\">\\(\\pu{60 kg}\\)</span> de\nenxofre.</li>\n</ol>",
+        "md": "O petróleo bruto com frequência é contaminado pelo gás sulfeto de\nhidrogênio, que é venenoso. O processo Claus para a extração de enxofre\ndo petróleo bruto tem duas etapas: $$\n\\begin{aligned}\n    \\ce{ 2 H2S(g) + 3 O2(g) &-> 2 SO2(g) + 2 H2O(l) } \\\\\n    \\ce{ 2 H2S(g) + SO2(g) &-> 3 S(s) + 2 H2O(l) }\n\\end{aligned}\n$$ Todo dióxido de enxofre formado na primeira etapa é consumido na\nsegunda.\n\na.  **Apresente** a equação química global do processo.\nb.  **Determine** a variação de entalpia associada à produção de\n    $\\pu{60 kg}$ de enxofre.\n",
+        "tex": "O petróleo bruto com frequência é contaminado pelo gás sulfeto de hidrogênio, que é venenoso. O processo Claus para a extração de enxofre do petróleo\nbruto tem duas etapas: {\\[\n\\begin{aligned}\n    \\ce{ 2 H2S(g) + 3 O2(g) &-> 2 SO2(g) + 2 H2O(l) } \\\\\n    \\ce{ 2 H2S(g) + SO2(g) &-> 3 S(s) + 2 H2O(l) }\n\\end{aligned}\n\\]} Todo dióxido de enxofre formado na primeira etapa é consumido na segunda.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação química global do processo.\n\\item\n  \\textbf{Determine} a variação de entalpia associada à produção de {\\(\\qty{60}{\\unit{kg}}\\)} de enxofre.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ 2 H2S(g) + O2(g) -&gt; 2 S(s) + 2\nH2O(l) }\\)</span></p>\n",
+          "md": "$\\ce{ 2 H2S(g) + O2(g) -> 2 S(s) + 2 H2O(l) }$",
+          "tex": "\\(\\ce{ 2 H2S(g) + O2(g) -> 2 S(s) + 2 H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{-5e5 kJ}\\)</span></p>\n",
+          "md": "$\\pu{-5e5 kJ}$",
+          "tex": "\\(\\qty{-5e5}{\\unit{kJ}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(H2S,g)",
+            "name": "entalpia padrão de formação do ácido sulfídrico",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2S,\\,\\text{g}})",
+            "value": -20.6,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A25/2A25.md",
       "date": "2023-01-09T18:06:46.337038",
@@ -18427,6 +18472,38 @@
       "correct_choice": 2
     },
     {
+      "id_": "2A41",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A41/2A41.md",
+      "date": "2023-02-06T01:27:54.657433",
+      "statement": {
+        "html": "<p>Octano deve ser usado como combustível para aquecer o ar de uma sala\nde <span class=\"math inline\">\\(\\pu{33 m3}\\)</span> de <span class=\"math inline\">\\(\\pu{40 \\degree F}\\)</span> até <span class=\"math inline\">\\(\\pu{78 \\degree F}\\)</span> sob <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>, em um dia frio de\ninverno.</p>\n<p>A capacidade calorífica molar do ar é <span class=\"math inline\">\\(\\pu{1 J.K-1.g-1}\\)</span>.</p>\n<p><strong>Determine</strong> a massa de octano que deve ser queimada\npara produzir calor suficiente para aquecer o ar da sala.</p>",
+        "md": "Octano deve ser usado como combustível para aquecer o ar de uma sala de\n$\\pu{33 m3}$ de $\\pu{40 \\degree F}$ até $\\pu{78 \\degree F}$ sob\n$\\pu{1 atm}$, em um dia frio de inverno.\n\nA capacidade calorífica molar do ar é $\\pu{1 J.K-1.g-1}$.\n\n**Determine** a massa de octano que deve ser queimada para produzir\ncalor suficiente para aquecer o ar da sala.\n",
+        "tex": "Octano deve ser usado como combustível para aquecer o ar de uma sala de {\\(\\qty{33}{\\unit{m^{3}}}\\)} de {\\(\\qty{40}{\\unit{\\degree F}}\\)} até\n{\\(\\qty{78}{\\unit{\\degree F}}\\)} sob {\\(\\qty{1}{\\unit{atm}}\\)}, em um dia frio de inverno.\n\nA capacidade calorífica molar do ar é {\\(\\qty{1}{\\unit{J.K^{-1}.g^{-1}}}\\)}.\n\n\\textbf{Determine} a massa de octano que deve ser queimada para produzir calor suficiente para aquecer o ar da sala.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{18 g}\\)</span></p>\n",
+          "md": "$\\pu{18 g}$",
+          "tex": "\\(\\qty{18}{\\unit{g}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hc(octano,l)",
+            "name": "entalpia padrão de combustão do octano",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
+            "value": -5470,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A08/2A08.md",
       "date": "2023-01-09T18:03:00.463220",
@@ -18468,6 +18545,54 @@
       "correct_choice": 0
     },
     {
+      "id_": "2A49",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A49/2A49.md",
+      "date": "2023-02-06T03:04:08.723326",
+      "statement": {
+        "html": "<p>A entalpia da reação: <span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -&gt; 2 Al2O3(s) }\n\\]</span> é <span class=\"math inline\">\\(\\pu{-3350 kJ.mol-1}\\)</span> em\n<span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Determine</strong> a entalpia da reação em <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span>.</p>",
+        "md": "A entalpia da reação: $$\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n$$ é $\\pu{-3350 kJ.mol-1}$ em $\\pu{298 K}$.\n\n**Determine** a entalpia da reação em $\\pu{100 \\degree C}$.\n",
+        "tex": "A entalpia da reação: {\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n\\]} é {\\(\\qty{-3350}{\\unit{kJ.mol^{-1}}}\\)} em {\\(\\qty{298}{\\unit{K}}\\)}.\n\n\\textbf{Determine} a entalpia da reação em {\\(\\qty{100}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{-3380 kJ.mol-1}\\%\\)</span></p>\n",
+          "md": "$\\pu{-3380 kJ.mol-1}\\%$",
+          "tex": "\\(\\qty{-3380}{\\unit{kJ.mol^{-1}}}\\%\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "CP(Al,s)",
+            "name": "capacidade calorífica molar em pressão constante do alumínio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{Al,\\,\\text{s}})",
+            "value": 24,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "CP(O2,g)",
+            "name": "capacidade calorífica molar em pressão constante do oxigênio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{O2,\\,\\text{g}})",
+            "value": 29,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "CP(Al2O3,s)",
+            "name": "capacidade calorífica molar em pressão constante do óxido de alumínio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{Al2O3,\\,\\text{s}})",
+            "value": 79,
+            "unit": "J//K.mol",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A10/2A10.md",
       "date": "2023-01-09T01:45:29.841995",
@@ -18507,6 +18632,43 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "2A44",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A44/2A44.md",
+      "date": "2023-02-06T01:56:51.366807",
+      "statement": {
+        "html": "<p>Uma reação que está sendo estudada para gerar oxigênio a partir de\ndióxido de carbono em voos espaciais longos tem as duas etapas\nseguintes: <span class=\"math display\">\\[\n\\begin{aligned}\n    \\ce{ CO2(g) + 2 H2(g) -&gt; C(s) + 2 H2O(l) } \\\\\n    \\ce{ 2 H2O(l) -&gt; 2 H2(g) + O2 }\n\\end{aligned}\n\\]</span> Toda água formada na primeira etapa é consumida na\nsegunda.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação química global do\nprocesso.</li>\n<li><strong>Determine</strong> a variação de entalpia associada à\nprodução de <span class=\"math inline\">\\(\\pu{32 L}\\)</span> de oxigênio\nem <span class=\"math inline\">\\(\\pu{0,82 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{300 K}\\)</span>.</li>\n</ol>",
+        "md": "Uma reação que está sendo estudada para gerar oxigênio a partir de\ndióxido de carbono em voos espaciais longos tem as duas etapas\nseguintes: $$\n\\begin{aligned}\n    \\ce{ CO2(g) + 2 H2(g) -> C(s) + 2 H2O(l) } \\\\\n    \\ce{ 2 H2O(l) -> 2 H2(g) + O2 }\n\\end{aligned}\n$$ Toda água formada na primeira etapa é consumida na segunda.\n\na.  **Apresente** a equação química global do processo.\nb.  **Determine** a variação de entalpia associada à produção de\n    $\\pu{32 L}$ de oxigênio em $\\pu{0,82 atm}$ e $\\pu{300 K}$.\n",
+        "tex": "Uma reação que está sendo estudada para gerar oxigênio a partir de dióxido de carbono em voos espaciais longos tem as duas etapas seguintes: {\\[\n\\begin{aligned}\n    \\ce{ CO2(g) + 2 H2(g) -> C(s) + 2 H2O(l) } \\\\\n    \\ce{ 2 H2O(l) -> 2 H2(g) + O2 }\n\\end{aligned}\n\\]} Toda água formada na primeira etapa é consumida na segunda.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação química global do processo.\n\\item\n  \\textbf{Determine} a variação de entalpia associada à produção de {\\(\\qty{32}{\\unit{L}}\\)} de oxigênio em {\\(\\qty{0,82}{\\unit{atm}}\\)} e\n  {\\(\\qty{300}{\\unit{K}}\\)}.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ CO2(g) -&gt; C(s) + O2(g)\n}\\)</span></p>\n",
+          "md": "$\\ce{ CO2(g) -> C(s) + O2(g) }$",
+          "tex": "\\(\\ce{ CO2(g) -> C(s) + O2(g) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{+420 kJ}\\)</span></p>\n",
+          "md": "$\\pu{+420 kJ}$",
+          "tex": "\\(\\qty{+420}{\\unit{kJ}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A14",
@@ -18559,6 +18721,62 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "2A50",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A50/2A50.md",
+      "date": "2023-02-06T03:06:01.385427",
+      "statement": {
+        "html": "<p>A entalpia padrão de formação do nitrato de amônio, <span class=\"math inline\">\\(\\ce{NH4NO3}\\)</span> é <span class=\"math inline\">\\(\\pu{-365 kJ.mol-1}\\)</span> em <span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Determine</strong> a entalpia padrão de formação do nitrato\nde amônio em <span class=\"math inline\">\\(\\pu{250 \\degree\nC}\\)</span>.</p>",
+        "md": "A entalpia padrão de formação do nitrato de amônio, $\\ce{NH4NO3}$ é\n$\\pu{-365 kJ.mol-1}$ em $\\pu{298 K}$.\n\n**Determine** a entalpia padrão de formação do nitrato de amônio em\n$\\pu{250 \\degree C}$.\n",
+        "tex": "A entalpia padrão de formação do nitrato de amônio, {\\(\\ce{NH4NO3}\\)} é {\\(\\qty{-365}{\\unit{kJ.mol^{-1}}}\\)} em {\\(\\qty{298}{\\unit{K}}\\)}.\n\n\\textbf{Determine} a entalpia padrão de formação do nitrato de amônio em {\\(\\qty{250}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{-376 kJ.mol-1}\\%\\)</span></p>\n",
+          "md": "$\\pu{-376 kJ.mol-1}\\%$",
+          "tex": "\\(\\qty{-376}{\\unit{kJ.mol^{-1}}}\\%\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "CP(H2,g)",
+            "name": "capacidade calorífica molar em pressão constante do hidrogênio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{H2,\\,\\text{g}})",
+            "value": 29,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "CP(NH4NO3,s)",
+            "name": "capacidade calorífica molar em pressão constante do nitrato de amônio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{NH4NO3,\\,\\text{s}})",
+            "value": 84,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "CP(N2,g)",
+            "name": "capacidade calorífica molar em pressão constante do nitrogênio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{N2,\\,\\text{g}})",
+            "value": 29,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "CP(O2,g)",
+            "name": "capacidade calorífica molar em pressão constante do oxigênio",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{O2,\\,\\text{g}})",
+            "value": 29,
+            "unit": "J//K.mol",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A16",
@@ -18643,6 +18861,83 @@
       "correct_choice": 1
     },
     {
+      "id_": "2A46",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A46/2A46.md",
+      "date": "2023-02-06T02:54:47.961573",
+      "statement": {
+        "html": "<p>m automóvel experimental usa hidrogênio como combustível. No começo\nde uma corrida de teste, o tanque rígido de <span class=\"math inline\">\\(\\pu{30 L}\\)</span> admitiu <span class=\"math inline\">\\(\\pu{16 atm}\\)</span> de hidrogênio em <span class=\"math inline\">\\(\\pu{298 K}\\)</span>, No fim da corrida, a\ntemperatura do tanque era ainda <span class=\"math inline\">\\(\\pu{298\nK}\\)</span>, porém a pressão caiu para <span class=\"math inline\">\\(\\pu{4\natm}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a quantidade de <span class=\"math inline\">\\(\\ce{H2}\\)</span> queimada durante a corrida.</li>\n<li><strong>Determine</strong> o calor liberado pela combustão do\nhidrogênio.</li>\n</ol>",
+        "md": "m automóvel experimental usa hidrogênio como combustível. No começo de\numa corrida de teste, o tanque rígido de $\\pu{30 L}$ admitiu\n$\\pu{16 atm}$ de hidrogênio em $\\pu{298 K}$, No fim da corrida, a\ntemperatura do tanque era ainda $\\pu{298 K}$, porém a pressão caiu para\n$\\pu{4 atm}$.\n\na.  **Determine** a quantidade de $\\ce{H2}$ queimada durante a corrida.\nb.  **Determine** o calor liberado pela combustão do hidrogênio.\n",
+        "tex": "m automóvel experimental usa hidrogênio como combustível. No começo de uma corrida de teste, o tanque rígido de {\\(\\qty{30}{\\unit{L}}\\)} admitiu\n{\\(\\qty{16}{\\unit{atm}}\\)} de hidrogênio em {\\(\\qty{298}{\\unit{K}}\\)}, No fim da corrida, a temperatura do tanque era ainda {\\(\\qty{298}{\\unit{K}}\\)},\nporém a pressão caiu para {\\(\\qty{4}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a quantidade de {\\(\\ce{H2}\\)} queimada durante a corrida.\n\\item\n  \\textbf{Determine} o calor liberado pela combustão do hidrogênio.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{15 mol}\\)</span></p>\n",
+          "md": "$\\pu{15 mol}$",
+          "tex": "\\(\\qty{15}{\\unit{mol}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{4200 kJ}\\)</span></p>\n",
+          "md": "$\\pu{4200 kJ}$",
+          "tex": "\\(\\qty{4200}{\\unit{kJ}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A47",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A47/2A47.md",
+      "date": "2023-02-06T02:57:33.103457",
+      "statement": {
+        "html": "<p>Na combustão do enxofre, o produto da oxidação normalmente é <span class=\"math inline\">\\(\\ce{SO2}\\)</span>, mas <span class=\"math inline\">\\(\\ce{SO3}\\)</span> também pode se formar em\ncondições específicas. Quando uma amostra de <span class=\"math inline\">\\(\\pu{0,62 g}\\)</span> de enxofre foi queimada com\noxigênio ultrapuro em um calorímetro de bomba de capacidade calorífica\n<span class=\"math inline\">\\(\\pu{5,3 kJ.K-1}\\)</span>, a temperatura\naumentou <span class=\"math inline\">\\(\\pu{1,14 \\degree C}\\)</span>. Todo\nenxofre foi consumido na reação.</p>\n<p><strong>Determine</strong> a razão entre o dióxido de enxofre e o\ntrióxido de enxofre produzido.</p>",
+        "md": "Na combustão do enxofre, o produto da oxidação normalmente é $\\ce{SO2}$,\nmas $\\ce{SO3}$ também pode se formar em condições específicas. Quando\numa amostra de $\\pu{0,62 g}$ de enxofre foi queimada com oxigênio\nultrapuro em um calorímetro de bomba de capacidade calorífica\n$\\pu{5,3 kJ.K-1}$, a temperatura aumentou $\\pu{1,14 \\degree C}$. Todo\nenxofre foi consumido na reação.\n\n**Determine** a razão entre o dióxido de enxofre e o trióxido de enxofre\nproduzido.\n",
+        "tex": "Na combustão do enxofre, o produto da oxidação normalmente é {\\(\\ce{SO2}\\)}, mas {\\(\\ce{SO3}\\)} também pode se formar em condições específicas. Quando\numa amostra de {\\(\\qty{0,62}{\\unit{g}}\\)} de enxofre foi queimada com oxigênio ultrapuro em um calorímetro de bomba de capacidade calorífica\n{\\(\\qty{5,3}{\\unit{kJ.K^{-1}}}\\)}, a temperatura aumentou {\\(\\qty{1,14}{\\unit{\\degree C}}\\)}. Todo enxofre foi consumido na reação.\n\n\\textbf{Determine} a razão entre o dióxido de enxofre e o trióxido de enxofre produzido.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(6\\)</span></p>\n",
+          "md": "$6$",
+          "tex": "\\(6\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(SO2,g)",
+            "name": "entalpia padrão de formação do dióxido de enxofre",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{SO2,\\,\\text{g}})",
+            "value": -297,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(SO3,g)",
+            "name": "entalpia padrão de formação do trióxido de enxofre",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{SO3,\\,\\text{g}})",
+            "value": -396,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A28/2A28.md",
       "date": "2023-01-09T18:07:00.208876",
@@ -18686,22 +18981,156 @@
     {
       "id_": "2A34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A34/2A34.md",
-      "date": "2023-01-08T16:11:36.181691",
+      "date": "2023-02-06T00:54:32.924387",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia padrão de combustão do diamante.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia padrão de\ncombustão do diamante.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia padrão de combustão do diamante.\n"
       },
       "solution": null,
       "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(diamante,s)",
+            "name": "Hf(diamante,s)",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-140 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-140 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-140}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-230 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-230 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-230}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-400 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-400 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-400}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-690 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-690 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-690}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1200 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1200 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1200}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "2A33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
+      "date": "2023-02-06T00:53:23.108154",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia padrão de combustão da glicose.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia padrão de\ncombustão da glicose.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia padrão de combustão da glicose.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(glicose,s)",
+            "name": "entalpia padrão de formação do glicose",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C6H12O6,\\,\\text{s}})",
+            "value": -1270,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,0 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,0 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,0}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,3 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,3 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,3}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1,7 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1,7 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1,7}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,2 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2,2 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2,2}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2,8 MJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2,8 MJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2,8}{\\unit{MJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2A48",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A48/2A48.md",
+      "date": "2023-02-06T03:01:51.438282",
+      "statement": {
+        "html": "<p>Em um cilindro rígido mantido em <span class=\"math inline\">\\(\\pu{27\n\\degree C}\\)</span>, o gás triatômico <span class=\"math inline\">\\(\\ce{A3}\\)</span> é convertido em outro diatômico\n<span class=\"math inline\">\\(\\ce{A2}\\)</span> segundo a reação: <span class=\"math display\">\\[\n    \\ce{ 2 A3(g) -&gt; 3 A2(g) } \\quad \\Delta H = \\pu{108 kJ.mol-1}\n\\]</span> A capacidade calorífica molar do gás <span class=\"math inline\">\\(\\ce{A2}\\)</span> é <span class=\"math inline\">\\(\\pu{30 J.K-1.mol-1}\\)</span> nessas condições.</p>\n<p><strong>Determine</strong> o aumento percentual de pressão no\ncilindro.</p>",
+        "md": "Em um cilindro rígido mantido em $\\pu{27 \\degree C}$, o gás triatômico\n$\\ce{A3}$ é convertido em outro diatômico $\\ce{A2}$ segundo a reação: $$\n    \\ce{ 2 A3(g) -> 3 A2(g) } \\quad \\Delta H = \\pu{108 kJ.mol-1}\n$$ A capacidade calorífica molar do gás $\\ce{A2}$ é\n$\\pu{30 J.K-1.mol-1}$ nessas condições.\n\n**Determine** o aumento percentual de pressão no cilindro.\n",
+        "tex": "Em um cilindro rígido mantido em {\\(\\qty{27}{\\unit{\\degree C}}\\)}, o gás triatômico {\\(\\ce{A3}\\)} é convertido em outro diatômico {\\(\\ce{A2}\\)}\nsegundo a reação: {\\[\n    \\ce{ 2 A3(g) -> 3 A2(g) } \\quad \\Delta H = \\qty{108}{\\unit{kJ.mol^{-1}}}\n\\]} A capacidade calorífica molar do gás {\\(\\ce{A2}\\)} é {\\(\\qty{30}{\\unit{J.K^{-1}.mol^{-1}}}\\)} nessas condições.\n\n\\textbf{Determine} o aumento percentual de pressão no cilindro.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{650}\\%\\)</span></p>\n",
+          "md": "$\\pu{650}\\%$",
+          "tex": "\\(\\num{650}\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
     },
     {
-      "id_": "2A33",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A33/2A33.md",
-      "date": "2023-01-08T16:11:36.177693",
+      "id_": "2A53",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A53/2A53.md",
+      "date": "2023-02-06T00:49:40.151334",
       "statement": {
         "html": "",
         "md": "\n",
@@ -18905,6 +19334,54 @@
       "correct_choice": 3
     },
     {
+      "id_": "2A42",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A42/2A42.md",
+      "date": "2023-02-06T01:33:28.910855",
+      "statement": {
+        "html": "<p>O consumo global anual de energia é cerca de 100 terawatts-ano, sendo\n<span class=\"math inline\">\\(\\pu{30}\\%\\)</span> desse valor proveniente\nda queima de combustíveis fósseis. Considere que os combustíveis fósseis\nsão compostos majoritariamente por octano, contendo <span class=\"math inline\">\\(\\pu{10 ppm}\\)</span> de enxofre. Apenas 80% da\nenergia liberada na combustão completa pode ser aproveitada.</p>\n<p><strong>Determine</strong> a massa de dióxido de enxofre formada por\nhora devido à queima de combustíveis fósseis.</p>",
+        "md": "O consumo global anual de energia é cerca de 100 terawatts-ano, sendo\n$\\pu{30}\\%$ desse valor proveniente da queima de combustíveis fósseis.\nConsidere que os combustíveis fósseis são compostos majoritariamente por\noctano, contendo $\\pu{10 ppm}$ de enxofre. Apenas 80% da energia\nliberada na combustão completa pode ser aproveitada.\n\n**Determine** a massa de dióxido de enxofre formada por hora devido à\nqueima de combustíveis fósseis.\n",
+        "tex": "O consumo global anual de energia é cerca de 100 terawatts-ano, sendo {\\(\\num{30}\\%\\)} desse valor proveniente da queima de combustíveis fósseis.\nConsidere que os combustíveis fósseis são compostos majoritariamente por octano, contendo {\\(\\qty{10}{\\unit{ppm}}\\)} de enxofre. Apenas 80\\% da\nenergia liberada na combustão completa pode ser aproveitada.\n\n\\textbf{Determine} a massa de dióxido de enxofre formada por hora devido à queima de combustíveis fósseis.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7 ton}\\)</span></p>\n",
+          "md": "$\\pu{7 ton}$",
+          "tex": "\\(\\qty{7}{\\unit{ton}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(octano,l)",
+            "name": "entalpia padrão de formação do octano",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{C8H18,\\,\\text{l}})",
+            "value": -250,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A15/2A15.md",
       "date": "2023-01-09T18:05:01.210168",
@@ -19026,6 +19503,46 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "2A45",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A45/2A45.md",
+      "date": "2023-02-06T01:59:22.175504",
+      "statement": {
+        "html": "<p>O gás de água é um combustível barato de baixo grau calorífico obtido\ndo carvão. A produção do gás de água é descrita pela reação: <span class=\"math display\">\\[\n    \\ce{ C(s) + H2O(l) -&gt; CO(g) + H2(g) }\n\\]</span></p>\n<p><strong>Determine</strong> a variação de entalpia associada à\nprodução de <span class=\"math inline\">\\(\\pu{200 L}\\)</span> de\nhidrogênio em <span class=\"math inline\">\\(\\pu{500 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{65 \\degree C}\\)</span>.</p>",
+        "md": "O gás de água é um combustível barato de baixo grau calorífico obtido do\ncarvão. A produção do gás de água é descrita pela reação: $$\n    \\ce{ C(s) + H2O(l) -> CO(g) + H2(g) }\n$$\n\n**Determine** a variação de entalpia associada à produção de\n$\\pu{200 L}$ de hidrogênio em $\\pu{500 Torr}$ e $\\pu{65 \\degree C}$.\n",
+        "tex": "O gás de água é um combustível barato de baixo grau calorífico obtido do carvão. A produção do gás de água é descrita pela reação: {\\[\n    \\ce{ C(s) + H2O(l) -> CO(g) + H2(g) }\n\\]}\n\n\\textbf{Determine} a variação de entalpia associada à produção de {\\(\\qty{200}{\\unit{L}}\\)} de hidrogênio em {\\(\\qty{500}{\\unit{Torr}}\\)} e\n{\\(\\qty{65}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{+620 kJ}\\)</span></p>\n",
+          "md": "$\\pu{+620 kJ}$",
+          "tex": "\\(\\qty{+620}{\\unit{kJ}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(CO,g)",
+            "name": "entalpia padrão de formação do monóxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO,\\,\\text{g}})",
+            "value": -111,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(H2O,g)",
+            "name": "entalpia padrão de formação do vapor d'água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{g}})",
+            "value": -242,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A22",
@@ -19328,17 +19845,70 @@
     {
       "id_": "2A35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A35/2A35.md",
-      "date": "2023-01-08T16:11:36.181691",
+      "date": "2023-02-06T00:55:42.496611",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia padrão de formação do etino, o combustível usado nos maçaricos\nde solda de oxiacetileno.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia padrão de\nformação do etino, o combustível usado nos maçaricos de solda de\noxiacetileno.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia padrão de formação do etino, o combustível usado nos maçaricos de solda de\noxiacetileno.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hc(etino,g)",
+            "name": "entalpia padrão de combustão do etino",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{C2H2,\\,\\text{g}})",
+            "value": -1300,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+230 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+230 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+230}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+380 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+380 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+380}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+640 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+640 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+640}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1100 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+1100 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+1100}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{+1800 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{+1800 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{+1800}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "2A32",
@@ -19403,15 +19973,45 @@
     {
       "id_": "2A39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A39/2A39.md",
-      "date": "2023-01-08T16:11:36.185690",
+      "date": "2023-02-06T01:18:40.011233",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Motores a vapor movidos a carvão usam o calor da queima do carvão\npara aquecer a água. Suponha que um carvão de densidade <span class=\"math inline\">\\(\\pu{1,5 g.cm-3}\\)</span> é carbono puro.</p>\n<p>Um pedaço de carvão de <span class=\"math inline\">\\(\\pu{7 cm} \\times\n\\pu{6 cm} \\times \\pu{5 cm}\\)</span> é queimado.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> o calor liberado na queima do pedaço de\ncarvão.</li>\n<li><strong>Determine</strong> a massa de água que pode ser aquecida de\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> a <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span> na queima desse pedaço\nde carvão.</li>\n</ol>",
+        "md": "Motores a vapor movidos a carvão usam o calor da queima do carvão para\naquecer a água. Suponha que um carvão de densidade $\\pu{1,5 g.cm-3}$ é\ncarbono puro.\n\nUm pedaço de carvão de $\\pu{7 cm} \\times \\pu{6 cm} \\times \\pu{5 cm}$ é\nqueimado.\n\na.  **Determine** o calor liberado na queima do pedaço de carvão.\nb.  **Determine** a massa de água que pode ser aquecida de\n    $\\pu{25 \\degree C}$ a $\\pu{100 \\degree C}$ na queima desse pedaço de\n    carvão.\n",
+        "tex": "Motores a vapor movidos a carvão usam o calor da queima do carvão para aquecer a água. Suponha que um carvão de densidade\n{\\(\\qty{1,5}{\\unit{g.cm^{-3}}}\\)} é carbono puro.\n\nUm pedaço de carvão de {\\(\\qty{7}{\\unit{cm}} \\times \\qty{6}{\\unit{cm}} \\times \\qty{5}{\\unit{cm}}\\)} é queimado.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} o calor liberado na queima do pedaço de carvão.\n\\item\n  \\textbf{Determine} a massa de água que pode ser aquecida de {\\(\\qty{25}{\\unit{\\degree C}}\\)} a {\\(\\qty{100}{\\unit{\\degree C}}\\)} na queima desse\n  pedaço de carvão.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{10 MJ}\\)</span></p>\n",
+          "md": "$\\pu{10 MJ}$",
+          "tex": "\\(\\qty{10}{\\unit{MJ}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{32 kg}\\)</span></p>\n",
+          "md": "$\\pu{32 kg}$",
+          "tex": "\\(\\qty{32}{\\unit{kg}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "CP(H2O,l)",
+            "name": "capacidade calorífica molar em pressão constante da água",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{H2O,\\,\\text{l}})",
+            "value": 75,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
       "choices": null,
       "correct_choice": null
     },
@@ -19457,9 +20057,9 @@
       "correct_choice": 4
     },
     {
-      "id_": "2A40",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
-      "date": "2023-01-08T16:11:36.189689",
+      "id_": "2A55",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A55/2A55.md",
+      "date": "2023-02-06T00:49:40.155334",
       "statement": {
         "html": "",
         "md": "\n",
@@ -19468,6 +20068,70 @@
       "solution": null,
       "answer": null,
       "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
+      "date": "2023-02-06T01:23:47.895172",
+      "statement": {
+        "html": "<p>O <em>gás de síntese</em> é uma mistura de monóxido de carbono,\nhidrogênio, metano e alguns gases incombustíveis que é produzida no\nrefino do petróleo. Um certo gás de síntese contém, por volume, <span class=\"math inline\">\\(\\pu{40}\\%\\)</span> de monóxido de carbono, <span class=\"math inline\">\\(\\pu{25}\\%\\)</span> de gás hidrogênio e <span class=\"math inline\">\\(\\pu{10}\\%\\)</span> de gases incombustíveis. A\ndiferença é devido ao metano. Suponha que o gás está sob <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Determine</strong> o volume desse gás que deve ser queimado\npara elevar em <span class=\"math inline\">\\(\\pu{5 \\degree C}\\)</span> a\ntemperatura de <span class=\"math inline\">\\(\\pu{5,5 L}\\)</span> de\nágua.</p>",
+        "md": "O *gás de síntese* é uma mistura de monóxido de carbono, hidrogênio,\nmetano e alguns gases incombustíveis que é produzida no refino do\npetróleo. Um certo gás de síntese contém, por volume, $\\pu{40}\\%$ de\nmonóxido de carbono, $\\pu{25}\\%$ de gás hidrogênio e $\\pu{10}\\%$ de\ngases incombustíveis. A diferença é devido ao metano. Suponha que o gás\nestá sob $\\pu{1 atm}$ e $\\pu{298 K}$.\n\n**Determine** o volume desse gás que deve ser queimado para elevar em\n$\\pu{5 \\degree C}$ a temperatura de $\\pu{5,5 L}$ de água.\n",
+        "tex": "O \\emph{gás de síntese} é uma mistura de monóxido de carbono, hidrogênio, metano e alguns gases incombustíveis que é produzida no refino do petróleo.\nUm certo gás de síntese contém, por volume, {\\(\\num{40}\\%\\)} de monóxido de carbono, {\\(\\num{25}\\%\\)} de gás hidrogênio e {\\(\\num{10}\\%\\)} de gases\nincombustíveis. A diferença é devido ao metano. Suponha que o gás está sob {\\(\\qty{1}{\\unit{atm}}\\)} e {\\(\\qty{298}{\\unit{K}}\\)}.\n\n\\textbf{Determine} o volume desse gás que deve ser queimado para elevar em {\\(\\qty{5}{\\unit{\\degree C}}\\)} a temperatura de {\\(\\qty{5,5}{\\unit{L}}\\)}\nde água.\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7 L}\\)</span></p>\n",
+          "md": "$\\pu{7 L}$",
+          "tex": "\\(\\qty{7}{\\unit{L}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hf(CH4,g)",
+            "name": "Hf(CH4,g)",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "CP(H2O,l)",
+            "name": "capacidade calorífica molar em pressão constante da água",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{H2O,\\,\\text{l}})",
+            "value": 75,
+            "unit": "J//K.mol",
+            "prec": 2
+          },
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO,g)",
+            "name": "entalpia padrão de formação do monóxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO,\\,\\text{g}})",
+            "value": -111,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
       "choices": null,
       "correct_choice": null
     },
@@ -19515,30 +20179,64 @@
     {
       "id_": "2A38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A38/2A38.md",
-      "date": "2023-01-08T16:11:36.185690",
+      "date": "2023-02-06T01:14:59.657472",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Em climas quentes e secos, uma alternativa barata para o\nar-condicionado é a refrigeração evaporativa. O aparelho usa água para\nmolhar continuamente uma almofada porosa através da qual um ventilador\nempurra o ar quente. O ar esfria conforme a água evapora.</p>\n<p>A capacidade calorífica molar do ar é <span class=\"math inline\">\\(\\pu{1 J.K-1.g-1}\\)</span> e sua densidade é <span class=\"math inline\">\\(\\pu{1,25 g.cm-3}\\)</span>.</p>\n<p><strong>Determine</strong> quanta água deve evaporar para esfriar em\n<span class=\"math inline\">\\(\\pu{20 \\degree C}\\)</span> o ar em uma sala\nde dimensões <span class=\"math inline\">\\(\\pu{4 m} \\times \\pu{5 m} \\times\n\\pu{3 m}\\)</span></p>",
+        "md": "Em climas quentes e secos, uma alternativa barata para o ar-condicionado\né a refrigeração evaporativa. O aparelho usa água para molhar\ncontinuamente uma almofada porosa através da qual um ventilador empurra\no ar quente. O ar esfria conforme a água evapora.\n\nA capacidade calorífica molar do ar é $\\pu{1 J.K-1.g-1}$ e sua densidade\né $\\pu{1,25 g.cm-3}$.\n\n**Determine** quanta água deve evaporar para esfriar em\n$\\pu{20 \\degree C}$ o ar em uma sala de dimensões\n$\\pu{4 m} \\times \\pu{5 m} \\times \\pu{3 m}$\n",
+        "tex": "Em climas quentes e secos, uma alternativa barata para o ar-condicionado é a refrigeração evaporativa. O aparelho usa água para molhar continuamente\numa almofada porosa através da qual um ventilador empurra o ar quente. O ar esfria conforme a água evapora.\n\nA capacidade calorífica molar do ar é {\\(\\qty{1}{\\unit{J.K^{-1}.g^{-1}}}\\)} e sua densidade é {\\(\\qty{1,25}{\\unit{g.cm^{-3}}}\\)}.\n\n\\textbf{Determine} quanta água deve evaporar para esfriar em {\\(\\qty{20}{\\unit{\\degree C}}\\)} o ar em uma sala de dimensões\n{\\(\\qty{4}{\\unit{m}} \\times \\qty{5}{\\unit{m}} \\times \\qty{3}{\\unit{m}}\\)}\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{612 g}\\)</span></p>\n",
+          "md": "$\\pu{612 g}$",
+          "tex": "\\(\\qty{612}{\\unit{g}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hvap(H2O)",
+            "name": "entalpia padrão de vaporização da água",
+            "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
+            "value": 40.7,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
       "choices": null,
       "correct_choice": null
     },
     {
       "id_": "2A37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A37/2A37.md",
-      "date": "2023-01-08T16:11:36.185690",
+      "date": "2023-02-06T01:00:35.837484",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Em 1750, Joseph Black fez um experimento que levou à descoberta das\nentalpias de fusão. Ele colocou duas amostras de <span class=\"math inline\">\\(\\pu{150 g}\\)</span> de água em <span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span> (uma amostra sólida e\noutra líquida) em uma sala mantida na temperatura constante de <span class=\"math inline\">\\(\\pu{5 \\degree C}\\)</span>. Em seguida, ele\nobservou o tempo necessário para que cada amostra chegasse à temperatura\nfinal. O líquido chegou a <span class=\"math inline\">\\(\\pu{5 \\degree\nC}\\)</span> após <span class=\"math inline\">\\(\\pu{30 min}\\)</span>. O\ngelo, porém, levou <span class=\"math inline\">\\(\\pu{10,5 h}\\)</span> para\natingir <span class=\"math inline\">\\(\\pu{5 \\degree C}\\)</span>. Ele\nconcluiu que a diferença de tempo necessária para chegar à mesma\ntemperatura final correspondia à diferença de calor necessária para\naumentar as temperaturas necessárias.</p>\n<p><strong>Determine</strong> a entalpia de fusão do gelo.</p>",
+        "md": "Em 1750, Joseph Black fez um experimento que levou à descoberta das\nentalpias de fusão. Ele colocou duas amostras de $\\pu{150 g}$ de água em\n$\\pu{0 \\degree C}$ (uma amostra sólida e outra líquida) em uma sala\nmantida na temperatura constante de $\\pu{5 \\degree C}$. Em seguida, ele\nobservou o tempo necessário para que cada amostra chegasse à temperatura\nfinal. O líquido chegou a $\\pu{5 \\degree C}$ após $\\pu{30 min}$. O gelo,\nporém, levou $\\pu{10,5 h}$ para atingir $\\pu{5 \\degree C}$. Ele concluiu\nque a diferença de tempo necessária para chegar à mesma temperatura\nfinal correspondia à diferença de calor necessária para aumentar as\ntemperaturas necessárias.\n\n**Determine** a entalpia de fusão do gelo.\n",
+        "tex": "Em 1750, Joseph Black fez um experimento que levou à descoberta das entalpias de fusão. Ele colocou duas amostras de {\\(\\qty{150}{\\unit{g}}\\)} de água\nem {\\(\\qty{0}{\\unit{\\degree C}}\\)} (uma amostra sólida e outra líquida) em uma sala mantida na temperatura constante de\n{\\(\\qty{5}{\\unit{\\degree C}}\\)}. Em seguida, ele observou o tempo necessário para que cada amostra chegasse à temperatura final. O líquido chegou a\n{\\(\\qty{5}{\\unit{\\degree C}}\\)} após {\\(\\qty{30}{\\unit{min}}\\)}. O gelo, porém, levou {\\(\\qty{10,5}{\\unit{h}}\\)} para atingir\n{\\(\\qty{5}{\\unit{\\degree C}}\\)}. Ele concluiu que a diferença de tempo necessária para chegar à mesma temperatura final correspondia à diferença de\ncalor necessária para aumentar as temperaturas necessárias.\n\n\\textbf{Determine} a entalpia de fusão do gelo.\n"
       },
       "solution": null,
-      "answer": null,
-      "data": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{7,5 kJ.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{7,5 kJ.mol-1}$",
+          "tex": "\\(\\qty{7,5}{\\unit{kJ.mol^{-1}}}\\)\n"
+        }
+      ],
+      "data": {
+        "quantities": [
+          {
+            "id_": "CP(H2O,l)",
+            "name": "capacidade calorífica molar em pressão constante da água",
+            "symbol": "C_{P, \\mathrm{m}}(\\ce{H2O,\\,\\text{l}})",
+            "value": 75,
+            "unit": "J//K.mol",
+            "prec": 2
+          }
+        ]
+      },
       "choices": null,
       "correct_choice": null
     },
@@ -19625,6 +20323,36 @@
       "correct_choice": 3
     },
     {
+      "id_": "2A54",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A54/2A54.md",
+      "date": "2023-02-06T00:49:40.151334",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2A51",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A51/2A51.md",
+      "date": "2023-02-06T00:49:40.147334",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "2A11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A11/2A11.md",
       "date": "2023-01-08T18:07:40.522285",
@@ -19668,7 +20396,75 @@
     {
       "id_": "2A36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A36/2A36.md",
-      "date": "2023-01-08T16:11:36.181691",
+      "date": "2023-02-06T00:56:41.060794",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia padrão de formação da ureia, um subproduto do metabolismo das\nproteínas.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia padrão de\nformação da ureia, um subproduto do metabolismo das proteínas.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia padrão de formação da ureia, um subproduto do metabolismo das proteínas.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "Hc(ureia,s)",
+            "name": "entalpia padrão de combustão da ureia",
+            "symbol": "\\Delta H_\\mathrm{c}^{\\circ}(\\ce{CO,\\,\\text{s}})",
+            "value": -632,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(H2O,l)",
+            "name": "entalpia padrão de formação da água",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
+            "value": -286,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CO2,g)",
+            "name": "entalpia padrão de formação do dióxido de carbono",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CO2,\\,\\text{g}})",
+            "value": -394,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-39 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-39 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-39}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-67 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-67 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-67}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-110 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-110 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-110}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-190 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-190 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-190}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-330 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-330 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-330}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "2A52",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A52/2A52.md",
+      "date": "2023-02-06T00:49:40.151334",
       "statement": {
         "html": "",
         "md": "\n",
