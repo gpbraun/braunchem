@@ -12,16 +12,16 @@ TEX_TEMPLATES_PATH = importlib.resources.files("braunchem.latex.templates")
 """Diretório da base de dados."""
 
 
-def run_latexmk(tex_path: Path):
+def run_latexmk(tex_path: Path, lualatex: bool = False):
     """Executa o comando `latexmk`."""
     logger.info(f"Compilando o arquivo '{tex_path}' com latexmk.")
     latexmk = subprocess.run(
         [
             shutil.which("latexmk"),
+            "-lualatex" if lualatex else "-pdf",
             "-shell-escape",
             "-interaction=nonstopmode",
             "-file-line-error",
-            "-pdf",
             "-cd",
             str(tex_path),
         ],
@@ -129,6 +129,7 @@ class Document:
         title: str | None = None,
         author: str | None = None,
         affiliation: str | None = None,
+        classname: str | None = None,
         template: str | None = None,
         contents: str | None = None,
         toc: bool = False,
@@ -139,6 +140,7 @@ class Document:
         self.title = title
         self.author = author
         self.affiliation = affiliation
+        self.classname = classname
         self.template = template
         self.contents = contents
         self.standalone = standalone
@@ -163,6 +165,8 @@ class Document:
     @property
     def cls(self) -> str:
         """Comando que especifica a classe do documento."""
+        if self.classname:
+            return self.classname
         return "braunfigure" if self.standalone else "braun"
 
     @property
@@ -221,7 +225,10 @@ class Document:
         if tectonic:
             run_tectonic(tex_path)
         else:
-            run_latexmk(tex_path)
+            if self.classname == "braunpres":
+                run_latexmk(tex_path, lualatex=True)
+            else:
+                run_latexmk(tex_path)
 
         pdf_path = tex_path.with_suffix(".pdf")
 

@@ -20,17 +20,7 @@ logger = logging.getLogger(__name__)
 
 
 class Presentation(BaseModel):
-    """Apresentação.
-
-    Atributos:
-        id_ (str): Identificador único.
-        path (Path): Endereço do arquivo `.md` do tópico
-        title (str): Título do tópico.
-        author (str): Autor da teoria.
-        content (Text): Conteúdo teórico.
-        sections (list[str]): Títulos das seções.
-        problem_sets (list[ProblemSet]): Listas de problemas.
-    """
+    """Apresentação."""
 
     id_: str
     path: Path
@@ -39,12 +29,24 @@ class Presentation(BaseModel):
     author: str = "Gabriel Braun"
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     content: Text
+    problems: list = None
 
-    def tex(self, problem_db: ProblemSet):
+    def tex(self):
         """Retorna o conteúdo do tópico em LaTeX."""
         return self.content.tex
 
-    def tex_document(self, problem_db: ProblemSet):
+    def tex_problems(self, problem_db: ProblemSet):
+        """Retorna os problemas do tópico em LaTeX."""
+        if not self.problems:
+            return ""
+
+        problem_collection = problem_db.filter(self.id, self.title, self.problems)
+
+        tex_statements = problem_collection.tex_statements()
+
+        return tex_statements
+
+    def tex_document(self):
         """Cria o arquivo `pdf` do tópico."""
         return Document(
             id_=self.id_,
@@ -52,165 +54,144 @@ class Presentation(BaseModel):
             title=self.title,
             author=self.author,
             affiliation=self.affiliation,
-            template="braun, twocolumn=true",
+            classname="braunpres",
             toc=True,
-            contents=self.tex(problem_db),
+            contents=self.tex(),
         )
 
-    def write_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
+    def write_pdf(self, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `.pdf` do tópico."""
-        self.tex_document(problem_db).write_pdf(tmp_dir.joinpath(self.id_), out_dir)
+        self.tex_document().write_pdf(tmp_dir.joinpath(self.id_), out_dir)
 
     @classmethod
-    def parse_mdfile(cls, topic_path: Path):
+    def parse_mdfile(cls, pres_path: Path):
         """Cria um `Topic` a partir de um arquivo `.md`."""
-        logger.info(f"Atualizando tópico em {topic_path}.")
+        logger.info(f"Atualizando apresentação em {pres_path:}.")
 
-        metadata, content = frontmatter.parse(topic_path.read_text())
+        metadata, content = frontmatter.parse(pres_path.read_text())
 
         # informações básicas
-        topic = {
-            "id_": topic_path.stem,
-            "path": topic_path.resolve(),
-            "date": datetime.utcfromtimestamp(topic_path.stat().st_mtime),
+        presentation = {
+            "id_": pres_path.stem,
+            "path": pres_path.resolve(),
+            "date": datetime.utcfromtimestamp(pres_path.stat().st_mtime),
         }
 
         # extrair os metadados do arquivo `.md`
-        topic.update(metadata)
-
-        # extrai as seções
-        soup = text.md2soup(content)
-
-        topic["sections"] = [
-            Section.parse_obj(
-                {
-                    "id_": f"{topic_path.stem}{index:02d}",
-                    "title": title,
-                    "content": content,
-                }
-            )
-            for index, (title, content) in enumerate(
-                text.soup_split_header(soup), start=1
-            )
-        ]
+        presentation.update(metadata)
 
         # conteúdo
-        topic["content"] = Text.parse_md(content)
+        presentation["content"] = Text.parse_md_pres(content)
 
-        return cls.parse_obj(topic)
+        return cls.parse_obj(presentation)
 
 
-class TopicSet(BaseModel):
-    """Conjunto de tópicos.
-
-    Atributos:
-        date (datetime): Data.
-        topics (list[Topic]): Conjuntos de tópicos.
-    """
+class PresentationSet(BaseModel):
+    """Conjunto de apresentações."""
 
     id_: str
     date: datetime
     title: str
-    topics: list[Topic]
+    presentations: list[Presentation]
 
     def __len__(self):
-        return len(self.topics)
+        return len(self.presentations)
 
     def __iter__(self):
-        return iter(self.topics)
+        return iter(self.presentations)
 
-    def __getitem__(self, key: str) -> Topic:
-        return next(filter(lambda topic: topic.id_ == key, self), None)
+    def __getitem__(self, key: str) -> Presentation:
+        return next(filter(lambda pres: pres.id_ == key, self), None)
 
-    def filter(self, topic_set_id: str, title: str, topic_ids: list[str]):
-        """Cria um subconjunto da lista problemas.
-
-        Args:
-            topic_set_id (str): Identificador da lista de tópicos.
-            title (str): Título da lista de problemas.
-            problem_ids (list[str]): Lista com os `id_` desejados.
-
-        Retorna:
-            ProblemSet: Subconjunto de dados com os `id_` selecionados.
-        """
-        if not topic_ids:
+    def filter(self, pres_set_id: str, title: str, pres_ids: list[str]):
+        if not pres_ids:
             return None
 
-        topics = []
-        for topic_id in topic_ids:
+        presentations = []
+        for pres_id in pres_ids:
             try:
-                topics.append(self[topic_id])
+                presentations.append(self[pres_id])
             except KeyError:
-                logger.warning(f"O tópico com ID {topic_id} não existe.")
+                logger.warning(f"O tópico com ID {pres_id} não existe.")
 
-        date = min(topic.date for topic in self)
+        date = min(pres.date for pres in self)
 
-        return TopicSet(id_=topic_set_id, title=title, date=date, topics=topics)
+        return PresentationSet(
+            id_=pres_set_id, title=title, date=date, presentations=presentations
+        )
 
-    def update_topics(self, topic_paths: list[Path]):
+    def update_presentations(self, pres_paths: list[Path]):
         """Atualiza os problemas do `ProblemSet`."""
-        updated_topics = []
+        updated_presentations = []
 
-        for topic_path in topic_paths:
-            topic_id = topic_path.stem
-            topic_date = datetime.utcfromtimestamp(topic_path.stat().st_mtime)
+        for pres_path in pres_paths:
+            pres_id = pres_path.stem
+            pres_date = datetime.utcfromtimestamp(pres_path.stat().st_mtime)
 
-            topic = self[topic_id]
+            pres = self[pres_id]
 
-            if not topic:
-                topic = Topic.parse_mdfile(topic_path)
+            if not pres:
+                pres = Presentation.parse_mdfile(pres_path)
 
-            elif topic.date < topic_date:
-                topic = Topic.parse_mdfile(topic_path)
+            elif pres.date < pres_date:
+                pres = Presentation.parse_mdfile(pres_path)
 
-            logger.debug(f"Tópico '{topic_id}' mantido.")
-            updated_topics.append(topic)
+            logger.debug(f"Tópico '{pres_id}' mantido.")
+            updated_presentations.append(pres)
 
-        self.topics = updated_topics
+        self.presentations = updated_presentations
 
-    def tex_documents(self, problem_db: ProblemSet):
-        return map(lambda topic: topic.tex_document(problem_db), self.topics)
+    def tex_documents(self):
+        return map(lambda pres: pres.tex_document(), self.presentations)
 
-    def write_pdfs(self, problem_db: ProblemSet, tmp_dir, out_dir):
+    def write_pdfs(self, tmp_dir, out_dir):
         """Cria o arquivo `pdf` para todos os tópicos."""
-        for topic in self.topics:
-            topic.write_pdf(problem_db, tmp_dir, out_dir)
+        for pres in self.presentations:
+            pres.write_pdf(tmp_dir, out_dir)
 
     @classmethod
-    def parse_paths(cls, topic_paths: list[Path]):
+    def parse_paths(cls, pres_paths: list[Path]):
         """Cria um `TopicSet` com os endereços de tópicos fornecidos."""
         with Pool() as pool:
-            topics = list(pool.imap_unordered(Topic.parse_mdfile, topic_paths))
+            presentations = list(
+                pool.imap_unordered(Presentation.parse_mdfile, pres_paths)
+            )
 
-        return cls(id_="root", title="ROOT", date=datetime.now(), topics=topics)
+        return cls(
+            id_="root", title="ROOT", date=datetime.now(), presentations=presentations
+        )
 
-    # @classmethod
-    # def parse_database(cls, topics_dir: Path, force_update: bool = False):
-    #     """Atualiza a base de dados"""
-    #     topic_json_path = topics_dir.joinpath("topics.json")
+    @classmethod
+    def parse_database(cls, presentations_dir: Path, force_update: bool = False):
+        """Atualiza a base de dados"""
+        pres_json_path = presentations_dir.joinpath("presentations.json")
 
-    #     topic_paths = text.get_database_paths(topics_dir)
+        pres_paths = text.get_database_paths(presentations_dir)
 
-    #     if not topic_json_path.exists() or force_update:
-    #         topic_db = cls.parse_paths(topic_paths)
-    #         topic_json_path.write_text(
-    #             topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
-    #         )
-    #         return topic_db
+        if not pres_json_path.exists() or force_update:
+            pres_db = cls.parse_paths(pres_paths)
+            pres_json_path.write_text(
+                pres_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            return pres_db
 
-    #     logger.info(f"Lendo base de dados no arquivo: {topic_json_path}.")
+        logger.info(f"Lendo base de dados no arquivo: {pres_json_path}.")
 
-    #     topic_db = cls.parse_file(topic_json_path)
-    #     topic_db.update_topics(topic_paths)
+        pres_db = cls.parse_file(pres_json_path)
+        pres_db.update_presentations(pres_paths)
 
-    #     topic_json_path.write_text(
-    #         topic_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
-    #     )
+        pres_json_path.write_text(
+            pres_db.json(indent=2, ensure_ascii=False), encoding="utf-8"
+        )
 
-    #     return topic_db
+        return pres_db
 
 
 def main():
+    pres = Presentation.parse_mdfile(Path("data/presentations/Q2/2A/S2A.md"))
+    problem_db = ProblemSet.parse_database("./data/problems", force_update=False)
+
+    pres.write_pdf(problem_db, tmp_dir=Path("test"), out_dir=Path("test"))
     return
 
 
