@@ -166,7 +166,7 @@ class PresentationSet(BaseModel):
         """Atualiza a base de dados"""
         pres_json_path = presentations_dir.joinpath("presentations.json")
 
-        pres_paths = text.get_database_paths(presentations_dir)
+        pres_paths = text.get_database_paths(presentations_dir, generate_figures=False)
 
         if not pres_json_path.exists() or force_update:
             pres_db = cls.parse_paths(pres_paths)
@@ -185,15 +185,3 @@ class PresentationSet(BaseModel):
         )
 
         return pres_db
-
-
-def main():
-    pres = Presentation.parse_mdfile(Path("data/presentations/Q2/2A/S2A.md"))
-    problem_db = ProblemSet.parse_database("./data/problems", force_update=False)
-
-    pres.write_pdf(problem_db, tmp_dir=Path("test"), out_dir=Path("test"))
-    return
-
-
-if __name__ == "__main__":
-    main()

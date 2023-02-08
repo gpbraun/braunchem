@@ -12,6 +12,7 @@ def parse_fractions(unit_str: str):
         return f"\\unit{{{unit_str}}}"
 
     numerator, denominator = unit_str.split("//", 1)
+    numerator = f"\\unit{{{numerator}}}"
     return f"\\tfrac{{{numerator}}}{{{parse_fractions(denominator)}}}"
 
 
@@ -39,7 +40,7 @@ def pu2qty(text_str) -> str:
 
 def filter_pu2qty(elem, doc, debug=False):
     """Converte todos os comandos `\\pu` do mhchem aos equivalentes no formato `siunitx` em um documento em PANDOC."""
-    if isinstance(elem, pf.Math) and doc.format == "latex":
+    if isinstance(elem, pf.Math) and doc.format in ["latex", "beamer"]:
         elem.text = pu2qty(elem.text)
 
         return elem
