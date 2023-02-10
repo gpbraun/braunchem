@@ -6,6 +6,7 @@ import braunchem.utils.config as config
 from braunchem.focus import FocusSet
 from braunchem.problem import ProblemSet
 from braunchem.topic import TopicSet
+from braunchem.presentation import PresentationSet
 
 WEB_PATH = Path("/home/braun/Documents/Developer/braunchem-web")
 

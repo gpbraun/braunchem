@@ -102,6 +102,21 @@ def md2tex(md_str: str) -> str:
     return tex_str
 
 
+def md2beamer(md_str: str) -> str:
+    """Converte markdown em beamer usando pandoc."""
+    tex_str = pypandoc.convert_text(
+        source=md_str,
+        to="beamer",
+        format=PANDOC_MARKDOWN_FORMAT,
+        extra_args=["--quiet", f"--columns={PANDOC_COLUMN_NUM}"],
+        filters=PANDOC_FILTER_PATHS,
+    )
+    tex_str = tex_str.replace("\\toprule()", "\\toprule")
+    tex_str = tex_str.replace("\\midrule()", "\\midrule")
+    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
+    return tex_str
+
+
 def md2soup(md_str: str) -> bs4.BeautifulSoup:
     """Converte markdown em HTML que é parseado pelo BS."""
     html_str = md2html(md_str)
@@ -138,9 +153,10 @@ class Text(pydantic.BaseModel):
             return
 
         md_str = str(md_str).strip()
-        html_str = md2html(md_str)
 
+        html_str = md2html(md_str)
         tex_str = md2tex(md_str)
+
         return cls(html=html_str, md=md_str, tex=tex_str)
 
     @classmethod
@@ -153,10 +169,24 @@ class Text(pydantic.BaseModel):
 
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
+
+        return cls(html=html_str, md=md_str, tex=tex_str)
+
+    @classmethod
+    def parse_md_pres(cls, md_str: str):
+        """Cria um `Text` a partir de uma apresentação em markdown."""
+        if not md_str:
+            return
+
+        md_str = str(md_str).strip()
+
+        html_str = md2html(md_str)
+        tex_str = md2beamer(md_str)
+
         return cls(html=html_str, md=md_str, tex=tex_str)
 
 
-def get_database_paths(database_dir: Path) -> list[Path]:
+def get_database_paths(database_dir: Path, generate_figures=True) -> list[Path]:
     """Retorna os endereço dos arquivos `.md` dos problemas no diretório.
 
     Args:
@@ -182,45 +212,53 @@ def get_database_paths(database_dir: Path) -> list[Path]:
                 logging.debug(f"Arquivo '{file_path}' adicionado à lista.")
                 continue
 
-            img_dst_path = config.IMAGES_DIR.joinpath(file_name)
-
             # figuras
-            if file_path.suffix in [".svg", ".png"]:
-                # se o svg veio de um .tex, continuar
-                if file_path.with_suffix(".tex").exists():
+            if generate_figures:
+                img_dst_path = config.IMAGES_DIR.joinpath(file_name)
+
+                if file_path.suffix in [".svg", ".png"]:
+                    # se o svg veio de um .tex, continuar
+                    if file_path.with_suffix(".tex").exists():
+                        continue
+
+                    if img_dst_path.exists():
+                        if file_path.stat().st_mtime < img_dst_path.stat().st_mtime:
+                            continue
+
+                    img_dst_path.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy(src=file_path, dst=img_dst_path)
+                    logging.info(
+                        f"Arquivo '{file_path}' copiado para: '{img_dst_path}'."
+                    )
                     continue
 
-                if img_dst_path.exists():
-                    if file_path.stat().st_mtime < img_dst_path.stat().st_mtime:
-                        continue
+                # figuras em LaTeX
+                if file_path.suffix == ".tex":
+                    tex_svg_img_dst_path = img_dst_path.with_suffix(".svg")
+                    if tex_svg_img_dst_path.exists():
+                        if (
+                            file_path.stat().st_mtime
+                            < tex_svg_img_dst_path.stat().st_mtime
+                        ):
+                            logging.debug(f"Figura '{file_path}' mantida.")
+                            continue
 
-                img_dst_path.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy(src=file_path, dst=img_dst_path)
-                logging.info(f"Arquivo '{file_path}' copiado para: '{img_dst_path}'.")
-                continue
+                    tex_img_dst_dir = tex_svg_img_dst_path.parent
+                    tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_).joinpath(
+                        name
+                    )
+                    tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
 
-            # figuras em LaTeX
-            if file_path.suffix == ".tex":
-                tex_svg_img_dst_path = img_dst_path.with_suffix(".svg")
-                if tex_svg_img_dst_path.exists():
-                    if file_path.stat().st_mtime < tex_svg_img_dst_path.stat().st_mtime:
-                        logging.debug(f"Figura '{file_path}' mantida.")
-                        continue
-
-                tex_img_dst_dir = tex_svg_img_dst_path.parent
-                tex_img_tmp_dir = config.TMP_IMAGES_DIR.joinpath(dir_).joinpath(name)
-                tex_img_tmp_dir.mkdir(parents=True, exist_ok=True)
-
-                tex_doc = Document(
-                    id_=name,
-                    contents=latex.cmd("input", str(file_path.resolve())),
-                    standalone=True,
-                )
-                tex_doc.write_svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
-                shutil.copy(
-                    src=tex_svg_img_dst_path,
-                    dst=file_path.with_suffix(".svg"),
-                )
+                    tex_doc = Document(
+                        id_=name,
+                        contents=latex.cmd("input", str(file_path.resolve())),
+                        standalone=True,
+                    )
+                    tex_doc.write_svg(tmp_dir=tex_img_tmp_dir, out_dir=tex_img_dst_dir)
+                    shutil.copy(
+                        src=tex_svg_img_dst_path,
+                        dst=file_path.with_suffix(".svg"),
+                    )
 
     return md_files
 

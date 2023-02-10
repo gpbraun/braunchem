@@ -54,7 +54,7 @@ class Topic(BaseModel):
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
     sections: list[Section]
     content: Text
-    problem_sets: dict = {}
+    problem_sets: dict = None
 
     def problem_collections(self, problem_db: ProblemSet):
         """Retorna uma lista de `ProblemSets` a partir dos ids dos problemas."""
