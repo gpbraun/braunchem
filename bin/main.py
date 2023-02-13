@@ -6,7 +6,6 @@ import braunchem.utils.config as config
 from braunchem.focus import FocusSet
 from braunchem.problem import ProblemSet
 from braunchem.topic import TopicSet
-from braunchem.presentation import PresentationSet
 
 WEB_PATH = Path("/home/braun/Documents/Developer/braunchem-web")
 
@@ -20,11 +19,12 @@ def main():
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
-    topic_db["2A"].write_pdf(
-        problem_db,
-        tmp_dir=config.TMP_TOPICS_DIR,
-        out_dir=config.OUT_DIR,
-    )
+    for topic in ["1A", "2A", "3A"]:
+        topic_db[topic].write_pdf(
+            problem_db,
+            tmp_dir=config.TMP_TOPICS_DIR,
+            out_dir=config.OUT_DIR,
+        )
 
     # COPIA A BASE DE DADOS PARA O SITE
     for db_file in [
