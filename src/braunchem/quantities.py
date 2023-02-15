@@ -101,9 +101,9 @@ def preposition_join(parameter_name: str, substance_name: str):
         str: parametro do/da substância
 
     Exemplo:
-        >>> add_preposition('entalpia', 'água')
+        >>> preposition_join('entalpia', 'água')
         'entalpia da água'
-        >>> add_preposition('entropia', 'sódio')
+        >>> preposition_join('entropia', 'sódio')
         'entropia do sódio'
     """
     last_char = substance_name.split(" ")[0][-1]
