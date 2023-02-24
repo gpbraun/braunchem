@@ -7778,11 +7778,11 @@
     {
       "id_": "3A44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3A/3A44/3A44.md",
-      "date": "2023-01-15T15:53:28.349970",
+      "date": "2023-02-24T18:37:42.302903",
       "statement": {
-        "html": "<p>Um aparelho doméstico para carbonatar a água usa cilindros de aço que\ncontém dióxido de carbono com volume igual a <span class=\"math inline\">\\(\\pu{250 mL}\\)</span>. Eles pesam <span class=\"math inline\">\\(\\pu{1 kg}\\)</span> quando cheios e <span class=\"math inline\">\\(\\pu{0,7 kg}\\)</span> quando vazios.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão de gás quando o cilindro está na metade da capacidade\nmáxima.</p>",
-        "md": "Um aparelho doméstico para carbonatar a água usa cilindros de aço que\ncontém dióxido de carbono com volume igual a $\\pu{250 mL}$. Eles pesam\n$\\pu{1 kg}$ quando cheios e $\\pu{0,7 kg}$ quando vazios.\n\n**Assinale** a alternativa que mais se aproxima da pressão de gás quando\no cilindro está na metade da capacidade máxima.\n",
-        "tex": "Um aparelho doméstico para carbonatar a água usa cilindros de aço que contém dióxido de carbono com volume igual a {\\(\\qty{250}{\\unit{mL}}\\)}. Eles\npesam {\\(\\qty{1}{\\unit{kg}}\\)} quando cheios e {\\(\\qty{0,7}{\\unit{kg}}\\)} quando vazios.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão de gás quando o cilindro está na metade da capacidade máxima.\n"
+        "html": "<p>Um aparelho doméstico para carbonatar a água usa cilindros de aço que\ncontém dióxido de carbono em <span class=\"math inline\">\\(\\pu{20 \\degree\nC}\\)</span> com volume igual a <span class=\"math inline\">\\(\\pu{250\nmL}\\)</span>. Eles pesam <span class=\"math inline\">\\(\\pu{1 kg}\\)</span>\nquando cheios e <span class=\"math inline\">\\(\\pu{0,7 kg}\\)</span> quando\nvazios.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão de gás quando o cilindro está na metade da capacidade\nmáxima.</p>",
+        "md": "Um aparelho doméstico para carbonatar a água usa cilindros de aço que\ncontém dióxido de carbono em $\\pu{20 \\degree C}$ com volume igual a\n$\\pu{250 mL}$. Eles pesam $\\pu{1 kg}$ quando cheios e $\\pu{0,7 kg}$\nquando vazios.\n\n**Assinale** a alternativa que mais se aproxima da pressão de gás quando\no cilindro está na metade da capacidade máxima.\n",
+        "tex": "Um aparelho doméstico para carbonatar a água usa cilindros de aço que contém dióxido de carbono em {\\(\\qty{20}{\\unit{\\degree C}}\\)} com volume igual a\n{\\(\\qty{250}{\\unit{mL}}\\)}. Eles pesam {\\(\\qty{1}{\\unit{kg}}\\)} quando cheios e {\\(\\qty{0,7}{\\unit{kg}}\\)} quando vazios.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão de gás quando o cilindro está na metade da capacidade máxima.\n"
       },
       "solution": null,
       "answer": null,
@@ -13714,7 +13714,7 @@
     {
       "id_": "2B24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B24/2B24.md",
-      "date": "2023-01-09T23:50:11.901998",
+      "date": "2023-02-24T18:37:42.302903",
       "statement": {
         "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ H2(g) + I2(s) -&gt; 2 HI(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 Ag(s) + Br2(l) -&gt; 2 AgBr(s)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ O2(g) -&gt; O2(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 NO2(g) -&gt; N2O4(g) }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações com\nentropia padrão negativa.</p>",
         "md": "Considere as reações.\n\n1.  $\\ce{ H2(g) + I2(s) -> 2 HI(g) }$\n2.  $\\ce{ 2 Ag(s) + Br2(l) -> 2 AgBr(s) }$\n3.  $\\ce{ O2(g) -> O2(aq) }$\n4.  $\\ce{ 2 NO2(g) -> N2O4(g) }$\n\n**Assinale** a alternativa que relaciona as reações com entropia padrão\nnegativa.\n",
@@ -13725,19 +13725,19 @@
       "data": null,
       "choices": [
         {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-          "md": "**1**, **2** e **3**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
         },
         {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-          "md": "**1**, **2** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
         },
         {
           "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
@@ -13750,7 +13750,7 @@
           "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 4
+      "correct_choice": 3
     },
     {
       "id_": "2B14",
@@ -14254,7 +14254,7 @@
     {
       "id_": "2B23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B23/2B23.md",
-      "date": "2023-01-09T23:46:39.583005",
+      "date": "2023-02-24T18:37:42.298903",
       "statement": {
         "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 H2(l) + O2(l) -&gt; 2 H2O(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ N2(g) + 3 H2(g) -&gt; 2 NH3(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaCl2.2H2O(s) -&gt; BaCl2(s) + 2 H2O(g)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações com\nentropia padrão positiva.</p>",
         "md": "Considere as reações.\n\n1.  $\\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }$\n2.  $\\ce{ 2 H2(l) + O2(l) -> 2 H2O(g) }$\n3.  $\\ce{ N2(g) + 3 H2(g) -> 2 NH3(g) }$\n4.  $\\ce{ BaCl2.2H2O(s) -> BaCl2(s) + 2 H2O(g) }$\n\n**Assinale** a alternativa que relaciona as reações com entropia padrão\npositiva.\n",
@@ -14265,9 +14265,14 @@
       "data": null,
       "choices": [
         {
-          "html": "<strong>2</strong> e <strong>3</strong>",
-          "md": "**2** e **3**\n",
-          "tex": "\\textbf{2} e \\textbf{3}\n"
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
         },
         {
           "html": "<strong>2</strong> e <strong>4</strong>",
@@ -14275,22 +14280,17 @@
           "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<strong>3</strong> e <strong>4</strong>",
-          "md": "**3** e **4**\n",
-          "tex": "\\textbf{3} e \\textbf{4}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
         },
         {
           "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
           "md": "**2**, **3** e **4**\n",
           "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 2
     },
     {
       "id_": "2B36",
@@ -14606,7 +14606,7 @@
     {
       "id_": "2B26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B26/2B26.md",
-      "date": "2023-01-10T00:00:50.720045",
+      "date": "2023-02-24T18:37:42.302903",
       "statement": {
         "html": "<p>Considere uma das reações usada na propulsão de foguetes: <span class=\"math display\">\\[\n    \\ce{ 7 H2O2(l) + 2 N2H4(l) -&gt; 2 HNO3(aq) + 8 H2O(l) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão dessa reação em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
         "md": "Considere uma das reações usada na propulsão de foguetes: $$\n    \\ce{ 7 H2O2(l) + 2 N2H4(l) -> 2 HNO3(aq) + 8 H2O(l) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entropia padrão dessa\nreação em $\\pu{25 \\degree C}$.\n",
@@ -14626,7 +14626,7 @@
           },
           {
             "id_": "S(H2O,l)",
-            "name": "entropia padrão molar da água",
+            "name": "entropia padrão molar da Ã¡gua",
             "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{H2O,\\,\\text{l}})",
             "value": 69.9,
             "unit": "J//K.mol",
@@ -14634,7 +14634,7 @@
           },
           {
             "id_": "S(H2O2,l)",
-            "name": "entropia padrão molar do peróxido de hidrogênio",
+            "name": "entropia padrão molar do perÃ³xido de hidrogÃªnio",
             "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{H2O2,\\,\\text{l}})",
             "value": 110,
             "unit": "J//K.mol",
@@ -14642,7 +14642,7 @@
           },
           {
             "id_": "S(HNO3,aq)",
-            "name": "entropia padrão molar do ácido nítrico",
+            "name": "entropia padrão molar do Ã¡cido nÃ­trico",
             "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{HNO3,\\,\\text{aq}})",
             "value": 146,
             "unit": "J//K.mol",
@@ -14652,29 +14652,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-110 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{-110 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{-110}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-36 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-36 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-36}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-200 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{-200 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{-200}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-59 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-59 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-59}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-350 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{-350 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{-350}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-98 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-98 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-98}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-620 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{-620 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{-620}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-160 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-160 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-160}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1100 J.K-1.mol-1}\\)</span>",
-          "md": "$\\pu{-1100 J.K-1.mol-1}$\n",
-          "tex": "{\\(\\qty{-1100}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-260 J.K-1.mol-1}\\)</span>",
+          "md": "$\\pu{-260 J.K-1.mol-1}$\n",
+          "tex": "{\\(\\qty{-260}{\\unit{J.K^{-1}.mol^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -15062,11 +15062,11 @@
     {
       "id_": "2B12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B12/2B12.md",
-      "date": "2023-01-09T23:18:37.424994",
+      "date": "2023-02-24T18:37:42.298903",
       "statement": {
-        "html": "<p>A pressão de um cilindro contendo <span class=\"math inline\">\\(\\pu{23,5 mol}\\)</span> de gás oxigênio aumenta de\n<span class=\"math inline\">\\(\\pu{2 kPa}\\)</span> até <span class=\"math inline\">\\(\\pu{8 kPa}\\)</span> enquanto a temperatura sobre\nde <span class=\"math inline\">\\(\\pu{240 K}\\)</span> até <span class=\"math inline\">\\(\\pu{360 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
-        "md": "A pressão de um cilindro contendo $\\pu{23,5 mol}$ de gás oxigênio\naumenta de $\\pu{2 kPa}$ até $\\pu{8 kPa}$ enquanto a temperatura sobre de\n$\\pu{240 K}$ até $\\pu{360 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
-        "tex": "A pressão de um cilindro contendo {\\(\\qty{23,5}{\\unit{mol}}\\)} de gás oxigênio aumenta de {\\(\\qty{2}{\\unit{kPa}}\\)} até {\\(\\qty{8}{\\unit{kPa}}\\)}\nenquanto a temperatura sobre de {\\(\\qty{240}{\\unit{K}}\\)} até {\\(\\qty{360}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+        "html": "<p>A pressão de um cilindro contendo <span class=\"math inline\">\\(\\pu{23,5 g}\\)</span> de gás oxigênio aumenta de\n<span class=\"math inline\">\\(\\pu{2 kPa}\\)</span> até <span class=\"math inline\">\\(\\pu{8 kPa}\\)</span> enquanto a temperatura sobre\nde <span class=\"math inline\">\\(\\pu{240 K}\\)</span> até <span class=\"math inline\">\\(\\pu{360 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A pressão de um cilindro contendo $\\pu{23,5 g}$ de gás oxigênio aumenta\nde $\\pu{2 kPa}$ até $\\pu{8 kPa}$ enquanto a temperatura sobre de\n$\\pu{240 K}$ até $\\pu{360 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A pressão de um cilindro contendo {\\(\\qty{23,5}{\\unit{g}}\\)} de gás oxigênio aumenta de {\\(\\qty{2}{\\unit{kPa}}\\)} até {\\(\\qty{8}{\\unit{kPa}}\\)}\nenquanto a temperatura sobre de {\\(\\qty{240}{\\unit{K}}\\)} até {\\(\\qty{360}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
       },
       "solution": null,
       "answer": null,
@@ -18254,7 +18254,7 @@
     {
       "id_": "2A19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A19/2A19.md",
-      "date": "2023-02-16T19:40:00.705766",
+      "date": "2023-02-24T18:36:55.939255",
       "statement": {
         "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,2 g}\\)</span> de fósforo\nreage com cloro para formar tricloreto de fósforo, <span class=\"math inline\">\\(\\ce{PCl3}\\)</span>, <span class=\"math display\">\\[\n    \\ce{ 2 P(s) + 3 Cl2(g) -&gt; 2 PCl3(l) }\n\\]</span> em um calorímetro de capacidade calorífica <span class=\"math inline\">\\(\\pu{220 J.K-1}\\)</span>, sob pressão constante, a\ntemperatura do calorímetro aumenta <span class=\"math inline\">\\(\\pu{11\n\\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
         "md": "Quando $\\pu{0,2 g}$ de fósforo reage com cloro para formar tricloreto de\nfósforo, $\\ce{PCl3}$, $$\n    \\ce{ 2 P(s) + 3 Cl2(g) -> 2 PCl3(l) }\n$$ em um calorímetro de capacidade calorífica $\\pu{220 J.K-1}$, sob\npressão constante, a temperatura do calorímetro aumenta\n$\\pu{11 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
@@ -18265,29 +18265,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-130 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-130 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-130}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-140 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-140 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-140}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-240 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-240 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-240}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-250 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-250 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-250}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-420 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-420 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-420}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-450 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-450 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-450}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-750 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-750 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-750}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-800 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-800 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-800}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1300 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1300 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1300}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-1400 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1400 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1400}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -19109,11 +19109,11 @@
     {
       "id_": "2A48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A48/2A48.md",
-      "date": "2023-02-06T03:01:51.438282",
+      "date": "2023-02-24T18:37:42.298903",
       "statement": {
-        "html": "<p>Em um cilindro rígido mantido em <span class=\"math inline\">\\(\\pu{27\n\\degree C}\\)</span>, o gás triatômico <span class=\"math inline\">\\(\\ce{A3}\\)</span> é convertido em outro diatômico\n<span class=\"math inline\">\\(\\ce{A2}\\)</span> segundo a reação: <span class=\"math display\">\\[\n    \\ce{ 2 A3(g) -&gt; 3 A2(g) } \\quad \\Delta H = \\pu{108 kJ.mol-1}\n\\]</span> A capacidade calorífica molar do gás <span class=\"math inline\">\\(\\ce{A2}\\)</span> é <span class=\"math inline\">\\(\\pu{30 J.K-1.mol-1}\\)</span> nessas condições.</p>\n<p><strong>Determine</strong> o aumento percentual de pressão no\ncilindro.</p>",
-        "md": "Em um cilindro rígido mantido em $\\pu{27 \\degree C}$, o gás triatômico\n$\\ce{A3}$ é convertido em outro diatômico $\\ce{A2}$ segundo a reação: $$\n    \\ce{ 2 A3(g) -> 3 A2(g) } \\quad \\Delta H = \\pu{108 kJ.mol-1}\n$$ A capacidade calorífica molar do gás $\\ce{A2}$ é\n$\\pu{30 J.K-1.mol-1}$ nessas condições.\n\n**Determine** o aumento percentual de pressão no cilindro.\n",
-        "tex": "Em um cilindro rígido mantido em {\\(\\qty{27}{\\unit{\\degree C}}\\)}, o gás triatômico {\\(\\ce{A3}\\)} é convertido em outro diatômico {\\(\\ce{A2}\\)}\nsegundo a reação: {\\[\n    \\ce{ 2 A3(g) -> 3 A2(g) } \\quad \\Delta H = \\qty{108}{\\unit{kJ.mol^{-1}}}\n\\]} A capacidade calorífica molar do gás {\\(\\ce{A2}\\)} é {\\(\\qty{30}{\\unit{J.K^{-1}.mol^{-1}}}\\)} nessas condições.\n\n\\textbf{Determine} o aumento percentual de pressão no cilindro.\n"
+        "html": "<p>Em um cilindro rígido mantido em <span class=\"math inline\">\\(\\pu{27\n\\degree C}\\)</span>, o gás triatômico <span class=\"math inline\">\\(\\ce{A3}\\)</span> é convertido em outro diatômico\n<span class=\"math inline\">\\(\\ce{A2}\\)</span> segundo a reação: <span class=\"math display\">\\[\n    \\ce{ 2 A3(g) -&gt; 3 A2(g) } \\quad \\Delta U = \\pu{108 kJ.mol-1}\n\\]</span> A capacidade calorífica molar do gás <span class=\"math inline\">\\(\\ce{A2}\\)</span> é <span class=\"math inline\">\\(\\pu{30 J.K-1.mol-1}\\)</span> nessas condições.</p>\n<p><strong>Determine</strong> o aumento percentual de pressão no\ncilindro.</p>",
+        "md": "Em um cilindro rígido mantido em $\\pu{27 \\degree C}$, o gás triatômico\n$\\ce{A3}$ é convertido em outro diatômico $\\ce{A2}$ segundo a reação: $$\n    \\ce{ 2 A3(g) -> 3 A2(g) } \\quad \\Delta U = \\pu{108 kJ.mol-1}\n$$ A capacidade calorífica molar do gás $\\ce{A2}$ é\n$\\pu{30 J.K-1.mol-1}$ nessas condições.\n\n**Determine** o aumento percentual de pressão no cilindro.\n",
+        "tex": "Em um cilindro rígido mantido em {\\(\\qty{27}{\\unit{\\degree C}}\\)}, o gás triatômico {\\(\\ce{A3}\\)} é convertido em outro diatômico {\\(\\ce{A2}\\)}\nsegundo a reação: {\\[\n    \\ce{ 2 A3(g) -> 3 A2(g) } \\quad \\Delta U = \\qty{108}{\\unit{kJ.mol^{-1}}}\n\\]} A capacidade calorífica molar do gás {\\(\\ce{A2}\\)} é {\\(\\qty{30}{\\unit{J.K^{-1}.mol^{-1}}}\\)} nessas condições.\n\n\\textbf{Determine} o aumento percentual de pressão no cilindro.\n"
       },
       "solution": null,
       "answer": [
