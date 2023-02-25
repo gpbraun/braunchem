@@ -1612,19 +1612,6 @@
   ]
   { mcanswers } [ \answer ]
 
-%% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
-
-\NewTasksEnvironment
-  [
-    label  = { \choicebox { \Alph* } },
-    item-indent = 3em,
-    after-item-skip = 2\itemsep,
-    label-width = 1.2em,
-    label-align = right,
-    label-offset = 0.8em,
-  ] 
-  { choices } [\item ]
-
 %% DADOS ADICIONAIS NO FINAL DO ENUNCIADO
 
 \NewTasksEnvironment
@@ -1639,6 +1626,19 @@
 %============================================================%
 %   ALTERNATIVAS
 %============================================================%
+
+%% ALTERNATIVAS DE PROBLEMAS OBJETIVOS
+
+\NewTasksEnvironment
+  [
+    label  = { \choicebox { \Alph* } },
+    item-indent = 3em,
+    after-item-skip = 2\itemsep,
+    label-width = 1.2em,
+    label-align = right,
+    label-offset = 0.8em,
+  ] 
+  { choices } [\item ]
 
 % Determinacão automática do número de colunas
 
@@ -1689,16 +1689,18 @@
           \l_braun_choices_d_fp,
           \l_braun_choices_e_fp
         )
+        + 
+        \dim_to_decimal:n { 3em }
       }
 
     \fp_set:Nn \l_tmpb_fp % tamanho útil
       { 
-        0.7 * \dim_to_decimal:n {\columnwidth}
+        \dim_to_decimal:n { \columnwidth }
       }
 
     \int_set:Nn \l_tmpa_int % número de colunas
       { 
-        \fp_to_int:n { max( 1, min( 3, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
+        \fp_to_int:n { max( 1, min( 5, floor(\l_tmpb_fp  / \l_tmpa_fp) ) ) } 
       }
 
     \int_compare:nNnT { \l_tmpa_int } = {4}
