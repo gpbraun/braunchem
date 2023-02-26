@@ -282,7 +282,8 @@
         \usetikzlibrary
             {
                 calc,
-                shapes.geometric, 
+                shapes.geometric,
+                decorations.text, 
                 decorations.pathreplacing,
                 decorations.markings,
                 decorations.pathmorphing,

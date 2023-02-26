@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+    \foreach \x/\t [count=\xx from 0] in 
+        {Azul/blue, Violeta/violet, Vermelho/red, Laranja/orange, Amarelo/yellow, Verde/green}
+        {
+            \pgfmathsetmacro{\angle}{60*\xx}
+            \path
+                [
+                    decoration =
+                        {
+                            text along path,
+                            text={\x},
+                            text align=center,
+                            reverse path
+                        },
+                    postaction={decorate},
+                ] 
+            \ifnum \xx < 4
+                (\angle-30:3.1) arc (\angle-30:\angle+30:3.1);
+            \else
+                (\angle+30:3.3) arc (\angle+30:\angle-30:3.3);
+            \fi
+            \draw[double=\t, thick, double distance=8mm] 
+                (\angle-30:2.4) arc (\angle-30:\angle+30:2.4);
+            \draw[thick]    
+                (\angle-30:2) -- (\angle-30:2.8);
+            \draw[thick, ->]           
+                (0,0) -- (\angle:1.8);
+        }
+\end{tikzpicture}
