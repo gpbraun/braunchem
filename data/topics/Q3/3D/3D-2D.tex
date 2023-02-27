@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+    \fill[yellow!50]
+        (-1.5,1) -- (5.5,1) -- (5.5,2) -- (4,2) -- (0,3.5) -- (-1.5,3.5) -- cycle;
+    \draw[very thick, black!80]
+        (0,5) |- (4,0) -- (4,5);
+    \fill[purple, nearly transparent]
+        (0,0) rectangle (4,4);
+    \draw[thick, stealth-stealth, shorten <=2, shorten >=2]
+        (0,4.5) -- (4,4.5);
+    \node [anchor = south] at (2,4.5) {$L$};
+    \node [anchor = south] at (-0.75,2) {$I_0$};
+    \node [anchor = south] at (4.75,1.25) {$I$};
+\end{tikzpicture}
