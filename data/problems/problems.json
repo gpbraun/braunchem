@@ -88,7 +88,7 @@
     {
       "id_": "1B22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B22/1B22.md",
-      "date": "2023-01-12T22:25:54.371702",
+      "date": "2023-02-27T13:57:06.927483",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa com o conjunto de números\nquânticos <span class=\"math inline\">\\(\\{ n, l, m_l, m_s \\}\\)</span>\npermitidos para um orbital atômico.</p>",
         "md": "**Assinale** a alternativa com o conjunto de números quânticos\n$\\{ n, l, m_l, m_s \\}$ permitidos para um orbital atômico.\n",
@@ -104,9 +104,9 @@
           "tex": "{\\(\\{ 1, 1, 0, +1/2 \\}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\{\n5, 3, -3, -1/2 \\}\\)</span>",
-          "md": "$\\{ 5, 3, -3, -1/2 \\}$\n",
-          "tex": "{\\(\\{ 5, 3, -3, -1/2 \\}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\{\n5, 3, -4, -1/2 \\}\\)</span>",
+          "md": "$\\{ 5, 3, -4, -1/2 \\}$\n",
+          "tex": "{\\(\\{ 5, 3, -4, -1/2 \\}\\)}\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\{ 5, 4, -4, -1/2 \\}\\)</span>",
@@ -170,11 +170,11 @@
     {
       "id_": "1B16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1B/1B16/1B16.md",
-      "date": "2023-02-02T20:40:49.894848",
+      "date": "2023-02-27T13:57:06.927483",
       "statement": {
-        "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Pb}\\)</span>, <span class=\"math inline\">\\(\\ce{Ir}\\)</span>, <span class=\"math inline\">\\(\\ce{Y}\\)</span> e <span class=\"math inline\">\\(\\ce{Cd}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons de\nvalência (incluindo os elétrons <span class=\"math inline\">\\(d\\)</span>\nmais externos) para cada átomo, respectivamente.</p>",
-        "md": "Considere os átomos no estado fundamental $\\ce{Pb}$, $\\ce{Ir}$, $\\ce{Y}$\ne $\\ce{Cd}$.\n\n**Assinale** a alternativa com o número de elétrons de valência\n(incluindo os elétrons $d$ mais externos) para cada átomo,\nrespectivamente.\n",
-        "tex": "Considere os átomos no estado fundamental {\\(\\ce{Pb}\\)}, {\\(\\ce{Ir}\\)}, {\\(\\ce{Y}\\)} e {\\(\\ce{Cd}\\)}.\n\n\\textbf{Assinale} a alternativa com o número de elétrons de valência (incluindo os elétrons {\\(d\\)} mais externos) para cada átomo, respectivamente.\n"
+        "html": "<p>Considere os átomos no estado fundamental <span class=\"math inline\">\\(\\ce{Ta}\\)</span>, <span class=\"math inline\">\\(\\ce{Tc}\\)</span>, <span class=\"math inline\">\\(\\ce{Te}\\)</span> e <span class=\"math inline\">\\(\\ce{Ta}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o número de elétrons de\nvalência (incluindo os elétrons <span class=\"math inline\">\\(d\\)</span>\nmais externos) para cada átomo, respectivamente.</p>",
+        "md": "Considere os átomos no estado fundamental $\\ce{Ta}$, $\\ce{Tc}$,\n$\\ce{Te}$ e $\\ce{Ta}$.\n\n**Assinale** a alternativa com o número de elétrons de valência\n(incluindo os elétrons $d$ mais externos) para cada átomo,\nrespectivamente.\n",
+        "tex": "Considere os átomos no estado fundamental {\\(\\ce{Ta}\\)}, {\\(\\ce{Tc}\\)}, {\\(\\ce{Te}\\)} e {\\(\\ce{Ta}\\)}.\n\n\\textbf{Assinale} a alternativa com o número de elétrons de valência (incluindo os elétrons {\\(d\\)} mais externos) para cada átomo, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
@@ -6903,11 +6903,11 @@
     {
       "id_": "3D42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D42/3D42.md",
-      "date": "2023-01-21T01:16:48.852864",
+      "date": "2023-02-27T21:15:59.643777",
       "statement": {
-        "html": "<p>Uma unidade industrial produz uma corrente aquosa de vazão <span class=\"math inline\">\\(\\pu{10 kg.h-1}\\)</span> contendo um sal de baixa\nsolubilidade em água. Visando a recuperar o sal, inicialmente\nempregou-se um processo de filtração. A corrente de filtrado obtida\napresentou apenas água e vazão de <span class=\"math inline\">\\(\\pu{6\nkg.h-1}\\)</span>. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d’água com vazão de <span class=\"math inline\">\\(\\pu{1\nkg.h-1}\\)</span> e outra contendo apenas o sal.</p>\n<p>Assinale a alternativa que mais se aproxima da fração mássica de sal\nna corrente inicial.</p>",
-        "md": "Uma unidade industrial produz uma corrente aquosa de vazão\n$\\pu{10 kg.h-1}$ contendo um sal de baixa solubilidade em água. Visando\na recuperar o sal, inicialmente empregou-se um processo de filtração. A\ncorrente de filtrado obtida apresentou apenas água e vazão de\n$\\pu{6 kg.h-1}$. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d'água com vazão de $\\pu{1 kg.h-1}$ e outra contendo apenas o sal.\n\nAssinale a alternativa que mais se aproxima da fração mássica de sal na\ncorrente inicial.\n",
-        "tex": "Uma unidade industrial produz uma corrente aquosa de vazão {\\(\\qty{10}{\\unit{kg.h^{-1}}}\\)} contendo um sal de baixa solubilidade em água. Visando a\nrecuperar o sal, inicialmente empregou-se um processo de filtração. A corrente de filtrado obtida apresentou apenas água e vazão de\n{\\(\\qty{6}{\\unit{kg.h^{-1}}}\\)}. A corrente de concentrado foi encaminhada a uma etapa de evaporação, ao final da qual se obteve uma corrente contendo\napenas vapor d'água com vazão de {\\(\\qty{1}{\\unit{kg.h^{-1}}}\\)} e outra contendo apenas o sal.\n\nAssinale a alternativa que mais se aproxima da fração mássica de sal na corrente inicial.\n"
+        "html": "<p>Uma unidade industrial produz uma corrente aquosa de vazão <span class=\"math inline\">\\(\\pu{10 kg.h-1}\\)</span> contendo um sal de baixa\nsolubilidade em água. Visando a recuperar o sal, inicialmente\nempregou-se um processo de filtração. A corrente de filtrado obtida\napresentou apenas água e vazão de <span class=\"math inline\">\\(\\pu{6\nkg.h-1}\\)</span>. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d’água com vazão de <span class=\"math inline\">\\(\\pu{1\nkg.h-1}\\)</span> e outra contendo apenas o sal.</p>\n<p><strong>Determine</strong> a fração mássica de sal na corrente\ninicial.</p>",
+        "md": "Uma unidade industrial produz uma corrente aquosa de vazão\n$\\pu{10 kg.h-1}$ contendo um sal de baixa solubilidade em água. Visando\na recuperar o sal, inicialmente empregou-se um processo de filtração. A\ncorrente de filtrado obtida apresentou apenas água e vazão de\n$\\pu{6 kg.h-1}$. A corrente de concentrado foi encaminhada a uma etapa\nde evaporação, ao final da qual se obteve uma corrente contendo apenas\nvapor d'água com vazão de $\\pu{1 kg.h-1}$ e outra contendo apenas o sal.\n\n**Determine** a fração mássica de sal na corrente inicial.\n",
+        "tex": "Uma unidade industrial produz uma corrente aquosa de vazão {\\(\\qty{10}{\\unit{kg.h^{-1}}}\\)} contendo um sal de baixa solubilidade em água. Visando a\nrecuperar o sal, inicialmente empregou-se um processo de filtração. A corrente de filtrado obtida apresentou apenas água e vazão de\n{\\(\\qty{6}{\\unit{kg.h^{-1}}}\\)}. A corrente de concentrado foi encaminhada a uma etapa de evaporação, ao final da qual se obteve uma corrente contendo\napenas vapor d'água com vazão de {\\(\\qty{1}{\\unit{kg.h^{-1}}}\\)} e outra contendo apenas o sal.\n\n\\textbf{Determine} a fração mássica de sal na corrente inicial.\n"
       },
       "solution": null,
       "answer": [
@@ -7197,18 +7197,22 @@
     {
       "id_": "3D37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D37/3D37.md",
-      "date": "2023-01-21T01:05:46.669565",
+      "date": "2023-02-27T22:36:46.110861",
       "statement": {
-        "html": "<p><em>Oleum</em>, ou ácido sulfúrico fumegante, é obtido através da\nabsorção do trióxido de enxofre por ácido sulfúrico. Ao se misturar\noleum com água obtém-se ácido sulfúrico concentrado segundo a reação:\n<span class=\"math display\">\\[\n    \\ce{ SO3(l) + H2O(l) -&gt; H2SO4(l) }\n\\]</span> Deseja-se preparar uma solução aquosa com <span class=\"math inline\">\\(\\pu{95}\\%\\)</span> de ácido sulfúrico em massa a\npartir de uma carga de <span class=\"math inline\">\\(\\pu{1 ton}\\)</span>\nde oleum, com <span class=\"math inline\">\\(\\pu{20}\\%\\)</span> em massa\ntrióxido de enxofre.</p>\n<p><strong>Determine</strong> a massa de água que deve ser adicionada à\ncarga de oleum para obter a solução desejada.</p>",
-        "md": "*Oleum*, ou ácido sulfúrico fumegante, é obtido através da absorção do\ntrióxido de enxofre por ácido sulfúrico. Ao se misturar oleum com água\nobtém-se ácido sulfúrico concentrado segundo a reação: $$\n    \\ce{ SO3(l) + H2O(l) -> H2SO4(l) }\n$$ Deseja-se preparar uma solução aquosa com $\\pu{95}\\%$ de ácido\nsulfúrico em massa a partir de uma carga de $\\pu{1 ton}$ de oleum, com\n$\\pu{20}\\%$ em massa trióxido de enxofre.\n\n**Determine** a massa de água que deve ser adicionada à carga de oleum\npara obter a solução desejada.\n",
-        "tex": "\\emph{Oleum}, ou ácido sulfúrico fumegante, é obtido através da absorção do trióxido de enxofre por ácido sulfúrico. Ao se misturar oleum com água\nobtém-se ácido sulfúrico concentrado segundo a reação: {\\[\n    \\ce{ SO3(l) + H2O(l) -> H2SO4(l) }\n\\]} Deseja-se preparar uma solução aquosa com {\\(\\num{95}\\%\\)} de ácido sulfúrico em massa a partir de uma carga de {\\(\\qty{1}{\\unit{ton}}\\)} de\noleum, com {\\(\\num{20}\\%\\)} em massa trióxido de enxofre.\n\n\\textbf{Determine} a massa de água que deve ser adicionada à carga de oleum para obter a solução desejada.\n"
+        "html": "<p><em>Oleum</em>, ou ácido sulfúrico fumegante, é obtido através da\nabsorção do trióxido de enxofre por ácido sulfúrico. Ao misturar oleum e\nágua obtém-se ácido sulfúrico concentrado segundo a reação: <span class=\"math display\">\\[\n    \\ce{ SO3(l) + H2O(l) -&gt; H2SO4(l) }\n\\]</span> Deseja-se preparar uma solução aquosa com <span class=\"math inline\">\\(\\pu{95}\\%\\)</span> de ácido sulfúrico em massa a\npartir de uma carga de <span class=\"math inline\">\\(\\pu{1 ton}\\)</span>\nde oleum, com <span class=\"math inline\">\\(\\pu{20}\\%\\)</span> de trióxido\nde enxofre em massa.</p>\n<p><strong>Determine</strong> a massa de água que deve ser adicionada à\ncarga de oleum para preparar a solução.</p>",
+        "md": "*Oleum*, ou ácido sulfúrico fumegante, é obtido através da absorção do\ntrióxido de enxofre por ácido sulfúrico. Ao misturar oleum e água\nobtém-se ácido sulfúrico concentrado segundo a reação: $$\n    \\ce{ SO3(l) + H2O(l) -> H2SO4(l) }\n$$ Deseja-se preparar uma solução aquosa com $\\pu{95}\\%$ de ácido\nsulfúrico em massa a partir de uma carga de $\\pu{1 ton}$ de oleum, com\n$\\pu{20}\\%$ de trióxido de enxofre em massa.\n\n**Determine** a massa de água que deve ser adicionada à carga de oleum\npara preparar a solução.\n",
+        "tex": "\\emph{Oleum}, ou ácido sulfúrico fumegante, é obtido através da absorção do trióxido de enxofre por ácido sulfúrico. Ao misturar oleum e água obtém-se\nácido sulfúrico concentrado segundo a reação: {\\[\n    \\ce{ SO3(l) + H2O(l) -> H2SO4(l) }\n\\]} Deseja-se preparar uma solução aquosa com {\\(\\num{95}\\%\\)} de ácido sulfúrico em massa a partir de uma carga de {\\(\\qty{1}{\\unit{ton}}\\)} de\noleum, com {\\(\\num{20}\\%\\)} de trióxido de enxofre em massa.\n\n\\textbf{Determine} a massa de água que deve ser adicionada à carga de oleum para preparar a solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<h4>Converta as massas iniciais em quantidade usando a massa molar.</h4>\n<p>De <span class=\"math inline\">\\(n = m/M\\)</span> <span class=\"math display\">\\[\n\\begin{aligned}\n    n_{\\ce{SO3}, \\text{inicial}}\n        &amp;= \\dfrac{ \\pu{200 kg} }{ \\pu{80 g//mol} } = \\pu{2,5 kmol}\n\\\\\n    n_{\\ce{H2SO4}, \\text{inicial}}\n        &amp;= \\dfrac{ \\pu{800 kg} }{ \\pu{98 g//mol} } = \\pu{8,2 kmol}\n\\end{aligned}\n\\]</span></p>\n<h4>Escreva a expressão para o balanço em <span class=\"math inline\">\\(\\ce{S}\\)</span>. Calcule a quantidade final de\n<span class=\"math inline\">\\(\\ce{H2SO4}\\)</span></h4>\n<p>De <span class=\"math inline\">\\(n_\\text{final} =\nn_\\text{inicial}\\)</span> <span class=\"math display\">\\[\n    n_{\\ce{H2SO4}, \\text{final}}\n        = n_{\\ce{H2SO4}, \\text{inicial}}\n        + n_{\\ce{SO3}, \\text{inicial}}  \n\\]</span> logo, <span class=\"math display\">\\[\n    n_{\\ce{H2SO4}, \\text{final}}\n        = \\pu{2,5 kmol} + \\pu{8,2 kmol}\n        = \\pu{10,7 kmol}\n\\]</span></p>\n<h4>Converta a quantidade final de <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> em massa usando a massa\nmolar.</h4>\n<p>De <span class=\"math inline\">\\(m = nM\\)</span> <span class=\"math display\">\\[\n    m_{\\ce{H2SO4}, \\text{final}}\n        = (\\pu{10,7 kmol}) \\times (\\pu{98 g//mol})\n        = \\pu{1045 kg}\n\\]</span></p>\n<h4>Calcule a massa total da solução final.</h4>\n<p><span class=\"math display\">\\[\n    m_\\text{final}\n        = \\dfrac{ \\pu{1045 kg} }{ \\pu{0,95} }\n        = \\pu{1100 kg}\n\\]</span></p>\n<h4>A diferença de massa entre a solução final e a solução inicial é\ndevido à massa de água adicionada.</h4>\n<p>$$ m_{\\ce{H2O}, \\text{add}} = \\pu{1100 kg} - \\pu{1000 kg} = \\boxed{\n\\pu{100 kg} }</p>\n<p>$$</p>",
+        "md": "#### Converta as massas iniciais em quantidade usando a massa molar.\n\nDe $n = m/M$ $$\n\\begin{aligned}\n    n_{\\ce{SO3}, \\text{inicial}}\n        &= \\dfrac{ \\pu{200 kg} }{ \\pu{80 g//mol} } = \\pu{2,5 kmol}\n\\\\\n    n_{\\ce{H2SO4}, \\text{inicial}}\n        &= \\dfrac{ \\pu{800 kg} }{ \\pu{98 g//mol} } = \\pu{8,2 kmol}\n\\end{aligned}\n$$\n\n#### Escreva a expressão para o balanço em $\\ce{S}$. Calcule a quantidade final de $\\ce{H2SO4}$\n\nDe $n_\\text{final} = n_\\text{inicial}$ $$\n    n_{\\ce{H2SO4}, \\text{final}}\n        = n_{\\ce{H2SO4}, \\text{inicial}}\n        + n_{\\ce{SO3}, \\text{inicial}}  \n$$ logo, $$\n    n_{\\ce{H2SO4}, \\text{final}}\n        = \\pu{2,5 kmol} + \\pu{8,2 kmol}\n        = \\pu{10,7 kmol}\n$$\n\n#### Converta a quantidade final de $\\ce{H2SO4}$ em massa usando a massa molar.\n\nDe $m = nM$ $$\n    m_{\\ce{H2SO4}, \\text{final}}\n        = (\\pu{10,7 kmol}) \\times (\\pu{98 g//mol})\n        = \\pu{1045 kg}\n$$\n\n#### Calcule a massa total da solução final.\n\n$$\n    m_\\text{final}\n        = \\dfrac{ \\pu{1045 kg} }{ \\pu{0,95} }\n        = \\pu{1100 kg}\n$$\n\n#### A diferença de massa entre a solução final e a solução inicial é devido à massa de água adicionada.\n\n\\$\\$ m\\_{\\ce{H2O}, \\text{add}} = \\pu{1100 kg} - \\pu{1000 kg} = \\boxed{\n\\pu{100 kg} }\n\n\\$\\$\n",
+        "tex": "\\hypertarget{converta-as-massas-iniciais-em-quantidade-usando-a-massa-molar.}{%\n\\paragraph{Converta as massas iniciais em quantidade usando a massa molar.}\\label{converta-as-massas-iniciais-em-quantidade-usando-a-massa-molar.}}\n\nDe {\\(n = m/M\\)} {\\[\n\\begin{aligned}\n    n_{\\ce{SO3}, \\text{inicial}}\n        &= \\dfrac{ \\qty{200}{\\unit{kg}} }{ \\qty{80}{\\tfrac{\\unit{g}}{\\unit{mol}}} } = \\qty{2,5}{\\unit{kmol}}\n\\\\\n    n_{\\ce{H2SO4}, \\text{inicial}}\n        &= \\dfrac{ \\qty{800}{\\unit{kg}} }{ \\qty{98}{\\tfrac{\\unit{g}}{\\unit{mol}}} } = \\qty{8,2}{\\unit{kmol}}\n\\end{aligned}\n\\]}\n\n\\hypertarget{escreva-a-expressuxe3o-para-o-balanuxe7o-em-ces.-calcule-a-quantidade-final-de-ceh2so4}{%\n\\paragraph{\\texorpdfstring{Escreva a expressão para o balanço em {\\(\\ce{S}\\)}. Calcule a quantidade final de\n{\\(\\ce{H2SO4}\\)}}{Escreva a expressão para o balanço em \\textbackslash ce\\{S\\}. Calcule a quantidade final de \\textbackslash ce\\{H2SO4\\}}}\\label{escreva-a-expressuxe3o-para-o-balanuxe7o-em-ces.-calcule-a-quantidade-final-de-ceh2so4}}\n\nDe {\\(n_\\text{final} = n_\\text{inicial}\\)} {\\[\n    n_{\\ce{H2SO4}, \\text{final}}\n        = n_{\\ce{H2SO4}, \\text{inicial}}\n        + n_{\\ce{SO3}, \\text{inicial}}  \n\\]} logo, {\\[\n    n_{\\ce{H2SO4}, \\text{final}}\n        = \\qty{2,5}{\\unit{kmol}} + \\qty{8,2}{\\unit{kmol}}\n        = \\qty{10,7}{\\unit{kmol}}\n\\]}\n\n\\hypertarget{converta-a-quantidade-final-de-ceh2so4-em-massa-usando-a-massa-molar.}{%\n\\paragraph{\\texorpdfstring{Converta a quantidade final de {\\(\\ce{H2SO4}\\)} em massa usando a massa\nmolar.}{Converta a quantidade final de \\textbackslash ce\\{H2SO4\\} em massa usando a massa molar.}}\\label{converta-a-quantidade-final-de-ceh2so4-em-massa-usando-a-massa-molar.}}\n\nDe {\\(m = nM\\)} {\\[\n    m_{\\ce{H2SO4}, \\text{final}}\n        = (\\qty{10,7}{\\unit{kmol}}) \\times (\\qty{98}{\\tfrac{\\unit{g}}{\\unit{mol}}})\n        = \\qty{1045}{\\unit{kg}}\n\\]}\n\n\\hypertarget{calcule-a-massa-total-da-soluuxe7uxe3o-final.}{%\n\\paragraph{Calcule a massa total da solução final.}\\label{calcule-a-massa-total-da-soluuxe7uxe3o-final.}}\n\n{\\[\n    m_\\text{final}\n        = \\dfrac{ \\qty{1045}{\\unit{kg}} }{ \\num{0,95} }\n        = \\qty{1100}{\\unit{kg}}\n\\]}\n\n\\hypertarget{a-diferenuxe7a-de-massa-entre-a-soluuxe7uxe3o-final-e-a-soluuxe7uxe3o-inicial-uxe9-devido-uxe0-massa-de-uxe1gua-adicionada.}{%\n\\paragraph{A diferença de massa entre a solução final e a solução inicial é devido à massa de água\nadicionada.}\\label{a-diferenuxe7a-de-massa-entre-a-soluuxe7uxe3o-final-e-a-soluuxe7uxe3o-inicial-uxe9-devido-uxe0-massa-de-uxe1gua-adicionada.}}\n\n\\$\\$ m\\_\\{\\textbackslash ce\\{H2O\\}, \\textbackslash text\\{add\\}\\} = \\textbackslash pu\\{1100 kg\\} - \\textbackslash pu\\{1000 kg\\} =\n\\textbackslash boxed\\{ \\textbackslash pu\\{100 kg\\} \\}\n\n\\$\\$\n"
+      },
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{45 kg}\\)</span></p>\n",
-          "md": "$\\pu{45 kg}$",
-          "tex": "\\(\\qty{45}{\\unit{kg}}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\pu{100 kg}\\)</span></p>\n",
+          "md": "$\\pu{100 kg}$",
+          "tex": "\\(\\qty{100}{\\unit{kg}}\\)\n"
         }
       ],
       "data": null,
@@ -12980,40 +12984,40 @@
     {
       "id_": "3B28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B28/3B28.md",
-      "date": "2023-01-16T18:23:41.142857",
+      "date": "2023-02-27T13:57:06.927483",
       "statement": {
-        "html": "<p>O antiperspirante cloreto de de alumínio é feito pela reação de óxido\nde alumínio sólido, carbono sólido e gás cloro. <span class=\"math display\">\\[\n    \\ce{ Al2O3(s) + C(s) + Cl2(g) -&gt; AlCl3(s) + CO(g) }\n\\]</span> O rendimento percentual da reação é <span class=\"math inline\">\\(\\pu{80}\\%\\)</span>.</p>\n<p>Em uma batelada, <span class=\"math inline\">\\(\\pu{125 kg}\\)</span> de\nóxido de boro foram aquecidos com <span class=\"math inline\">\\(\\pu{125\nkg}\\)</span> de magnésio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde cloreto de alumínio produzida na reação.</p>",
-        "md": "O antiperspirante cloreto de de alumínio é feito pela reação de óxido de\nalumínio sólido, carbono sólido e gás cloro. $$\n    \\ce{ Al2O3(s) + C(s) + Cl2(g) -> AlCl3(s) + CO(g) }\n$$ O rendimento percentual da reação é $\\pu{80}\\%$.\n\nEm uma batelada, $\\pu{125 kg}$ de óxido de boro foram aquecidos com\n$\\pu{125 kg}$ de magnésio.\n\n**Assinale** a alternativa que mais se aproxima da massa de cloreto de\nalumínio produzida na reação.\n",
-        "tex": "O antiperspirante cloreto de de alumínio é feito pela reação de óxido de alumínio sólido, carbono sólido e gás cloro. {\\[\n    \\ce{ Al2O3(s) + C(s) + Cl2(g) -> AlCl3(s) + CO(g) }\n\\]} O rendimento percentual da reação é {\\(\\num{80}\\%\\)}.\n\nEm uma batelada, {\\(\\qty{125}{\\unit{kg}}\\)} de óxido de boro foram aquecidos com {\\(\\qty{125}{\\unit{kg}}\\)} de magnésio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de cloreto de alumínio produzida na reação.\n"
+        "html": "<p>O antiperspirante cloreto de de alumínio é feito pela reação de óxido\nde alumínio sólido, carbono sólido e gás cloro. <span class=\"math display\">\\[\n    \\ce{ Al2O3(s) + C(s) + Cl2(g) -&gt; AlCl3(s) + CO(g) }\n\\]</span> O rendimento percentual da reação é <span class=\"math inline\">\\(\\pu{80}\\%\\)</span>.</p>\n<p>Em uma batelada, <span class=\"math inline\">\\(\\pu{185 kg}\\)</span> de\nóxido de alumínio foram aquecidos com <span class=\"math inline\">\\(\\pu{25\nkg}\\)</span> de carbono e <span class=\"math inline\">\\(\\pu{100\nkg}\\)</span> de cloro.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde cloreto de alumínio produzida na reação.</p>",
+        "md": "O antiperspirante cloreto de de alumínio é feito pela reação de óxido de\nalumínio sólido, carbono sólido e gás cloro. $$\n    \\ce{ Al2O3(s) + C(s) + Cl2(g) -> AlCl3(s) + CO(g) }\n$$ O rendimento percentual da reação é $\\pu{80}\\%$.\n\nEm uma batelada, $\\pu{185 kg}$ de óxido de alumínio foram aquecidos com\n$\\pu{25 kg}$ de carbono e $\\pu{100 kg}$ de cloro.\n\n**Assinale** a alternativa que mais se aproxima da massa de cloreto de\nalumínio produzida na reação.\n",
+        "tex": "O antiperspirante cloreto de de alumínio é feito pela reação de óxido de alumínio sólido, carbono sólido e gás cloro. {\\[\n    \\ce{ Al2O3(s) + C(s) + Cl2(g) -> AlCl3(s) + CO(g) }\n\\]} O rendimento percentual da reação é {\\(\\num{80}\\%\\)}.\n\nEm uma batelada, {\\(\\qty{185}{\\unit{kg}}\\)} de óxido de alumínio foram aquecidos com {\\(\\qty{25}{\\unit{kg}}\\)} de carbono e {\\(\\qty{100}{\\unit{kg}}\\)}\nde cloro.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de cloreto de alumínio produzida na reação.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{39 kg}\\)</span>",
-          "md": "$\\pu{39 kg}$\n",
-          "tex": "{\\(\\qty{39}{\\unit{kg}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{48 kg}\\)</span>",
+          "md": "$\\pu{48 kg}$\n",
+          "tex": "{\\(\\qty{48}{\\unit{kg}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{62 kg}\\)</span>",
-          "md": "$\\pu{62 kg}$\n",
-          "tex": "{\\(\\qty{62}{\\unit{kg}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{77 kg}\\)</span>",
+          "md": "$\\pu{77 kg}$\n",
+          "tex": "{\\(\\qty{77}{\\unit{kg}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{100 kg}\\)</span>",
-          "md": "$\\pu{100 kg}$\n",
-          "tex": "{\\(\\qty{100}{\\unit{kg}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{120 kg}\\)</span>",
+          "md": "$\\pu{120 kg}$\n",
+          "tex": "{\\(\\qty{120}{\\unit{kg}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{160 kg}\\)</span>",
-          "md": "$\\pu{160 kg}$\n",
-          "tex": "{\\(\\qty{160}{\\unit{kg}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{200 kg}\\)</span>",
+          "md": "$\\pu{200 kg}$\n",
+          "tex": "{\\(\\qty{200}{\\unit{kg}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{260 kg}\\)</span>",
-          "md": "$\\pu{260 kg}$\n",
-          "tex": "{\\(\\qty{260}{\\unit{kg}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{330 kg}\\)</span>",
+          "md": "$\\pu{330 kg}$\n",
+          "tex": "{\\(\\qty{330}{\\unit{kg}}\\)}\n"
         }
       ],
       "correct_choice": 2
@@ -13807,7 +13811,7 @@
     {
       "id_": "2B01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B01/2B01.md",
-      "date": "2023-01-09T22:40:50.349957",
+      "date": "2023-02-27T13:57:06.927483",
       "statement": {
         "html": "<p>Um cilindro de volume <span class=\"math inline\">\\(\\pu{2 L}\\)</span>\ncontém <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de gás <span class=\"math inline\">\\(\\ce{He}\\)</span> e está imerso em um banho de água\nna temperatura constante de <span class=\"math inline\">\\(\\pu{30 \\degree\nC}\\)</span>. O sistema sofre uma expansão isotérmica reversível até\n<span class=\"math inline\">\\(\\pu{4 L}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho realizado pelo gás.</p>",
         "md": "Um cilindro de volume $\\pu{2 L}$ contém $\\pu{1 mol}$ de gás $\\ce{He}$ e\nestá imerso em um banho de água na temperatura constante de\n$\\pu{30 \\degree C}$. O sistema sofre uma expansão isotérmica reversível\naté $\\pu{4 L}$.\n\n**Assinale** a alternativa que mais se aproxima do trabalho realizado\npelo gás.\n",
@@ -13818,29 +13822,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{0,96 kJ}\\)</span>",
-          "md": "$\\pu{0,96 kJ}$\n",
-          "tex": "{\\(\\qty{0,96}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,88 kJ}\\)</span>",
+          "md": "$\\pu{0,88 kJ}$\n",
+          "tex": "{\\(\\qty{0,88}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,2 kJ}\\)</span>",
-          "md": "$\\pu{1,2 kJ}$\n",
-          "tex": "{\\(\\qty{1,2}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,1 kJ}\\)</span>",
+          "md": "$\\pu{1,1 kJ}$\n",
+          "tex": "{\\(\\qty{1,1}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,5 kJ}\\)</span>",
-          "md": "$\\pu{1,5 kJ}$\n",
-          "tex": "{\\(\\qty{1,5}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 kJ}\\)</span>",
+          "md": "$\\pu{1,4 kJ}$\n",
+          "tex": "{\\(\\qty{1,4}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,9 kJ}\\)</span>",
-          "md": "$\\pu{1,9 kJ}$\n",
-          "tex": "{\\(\\qty{1,9}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,7 kJ}\\)</span>",
+          "md": "$\\pu{1,7 kJ}$\n",
+          "tex": "{\\(\\qty{1,7}{\\unit{kJ}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,4 kJ}\\)</span>",
-          "md": "$\\pu{2,4 kJ}$\n",
-          "tex": "{\\(\\qty{2,4}{\\unit{kJ}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{2,1 kJ}\\)</span>",
+          "md": "$\\pu{2,1 kJ}$\n",
+          "tex": "{\\(\\qty{2,1}{\\unit{kJ}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -19763,11 +19767,11 @@
     {
       "id_": "2A26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A26/2A26.md",
-      "date": "2023-01-09T16:50:42.343069",
+      "date": "2023-02-27T21:15:59.643777",
       "statement": {
-        "html": "<p>A reação de combustão do alumínio foi estudada como parte de uma\npesquisa para usar alumínio em pó como combustível de foguetes. <span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -&gt; 2 Al2O3(s) }\n\\]</span> A combustão de <span class=\"math inline\">\\(\\pu{27 g}\\)</span>\nde alumínio produziu <span class=\"math inline\">\\(\\pu{3870 kJ}\\)</span>\nde calor sob condições de volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão do alumínio em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
-        "md": "A reação de combustão do alumínio foi estudada como parte de uma\npesquisa para usar alumínio em pó como combustível de foguetes. $$\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n$$ A combustão de $\\pu{27 g}$ de alumínio produziu $\\pu{3870 kJ}$ de\ncalor sob condições de volume constante.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\ndo alumínio em $\\pu{25 \\degree C}$.\n",
-        "tex": "A reação de combustão do alumínio foi estudada como parte de uma pesquisa para usar alumínio em pó como combustível de foguetes. {\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n\\]} A combustão de {\\(\\qty{27}{\\unit{g}}\\)} de alumínio produziu {\\(\\qty{3870}{\\unit{kJ}}\\)} de calor sob condições de volume constante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão do alumínio em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+        "html": "<p>A reação de combustão do alumínio foi estudada como parte de uma\npesquisa para usar alumínio em pó como combustível de foguetes. <span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -&gt; 2 Al2O3(s) }\n\\]</span> A combustão de <span class=\"math inline\">\\(\\pu{27 g}\\)</span>\nde alumínio produziu <span class=\"math inline\">\\(\\pu{3870 kJ}\\)</span>\nde calor em <span class=\"math inline\">\\(\\pu{1200 \\degree C}\\)</span> sob\ncondições de volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de combustão de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span>\nde alumínio em <span class=\"math inline\">\\(\\pu{1200 \\degree\nC}\\)</span>.</p>",
+        "md": "A reação de combustão do alumínio foi estudada como parte de uma\npesquisa para usar alumínio em pó como combustível de foguetes. $$\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n$$ A combustão de $\\pu{27 g}$ de alumínio produziu $\\pu{3870 kJ}$ de\ncalor em $\\pu{1200 \\degree C}$ sob condições de volume constante.\n\n**Assinale** a alternativa que mais se aproxima da entalpia de combustão\nde $\\pu{1 mol}$ de alumínio em $\\pu{1200 \\degree C}$.\n",
+        "tex": "A reação de combustão do alumínio foi estudada como parte de uma pesquisa para usar alumínio em pó como combustível de foguetes. {\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n\\]} A combustão de {\\(\\qty{27}{\\unit{g}}\\)} de alumínio produziu {\\(\\qty{3870}{\\unit{kJ}}\\)} de calor em {\\(\\qty{1200}{\\unit{\\degree C}}\\)} sob\ncondições de volume constante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de combustão de {\\(\\qty{1}{\\unit{mol}}\\)} de alumínio em\n{\\(\\qty{1200}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -19799,7 +19803,7 @@
           "tex": "{\\(\\qty{-3850}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 1
     },
     {
       "id_": "2A03",

@@ -1,13 +1,60 @@
 \begin{tikzpicture}
-    \fill[yellow!50]
-        (-1.5,1) -- (5.5,1) -- (5.5,2) -- (4,2) -- (0,3.5) -- (-1.5,3.5) -- cycle;
-    \draw[very thick, black!80]
-        (0,5) |- (4,0) -- (4,5);
-    \fill[purple, nearly transparent]
-        (0,0) rectangle (4,4);
-    \draw[thick, stealth-stealth, shorten <=2, shorten >=2]
-        (0,4.5) -- (4,4.5);
-    \node [anchor = south] at (2,4.5) {$L$};
-    \node [anchor = south] at (-0.75,2) {$I_0$};
-    \node [anchor = south] at (4.75,1.25) {$I$};
+    \def\cellWidth{3}
+    \tikzset
+        {
+            cell/.style=
+                {
+                    draw = #1,
+                    top color = #1!20, 
+                    bottom color = #1!20, 
+                    middle color = white,
+                    shading angle = 90,
+                },
+            solution/.style=
+                {
+                    opacity = 0.25,
+                    top color = #1!60, 
+                    bottom color = #1, 
+                    shading angle = 10,
+                },
+            light/.style=
+                {
+                    yellow, 
+                    semitransparent,
+                },
+        }
+    
+    % CUBETA
+    \node [rectangle, minimum width=\cellWidth cm, minimum height=4cm] 
+        (cell) at (0, 0) {};
+
+    \draw [thick, cell=gray, line cap=round] 
+        (cell.south west) -- 
+        (cell.north west) arc(180:0:\cellWidth/2 and 0.4) -- 
+        (cell.south east) -- 
+        (cell.south west);
+
+    \draw [thick, dashed, draw=gray] 
+        (cell.south east) arc(0:180:\cellWidth/2 and 0.4);
+
+    \path[solution=violet] 
+        (cell.south west) -- 
+        ($(cell.north west) - (0,1)$) -- 
+        ($(cell.north east) - (0,1)$) -- 
+        (cell.south east) -- 
+        (cell.south west);
+    \path[solution=violet] 
+        ($(cell.north west) - (0,1)$) arc(180:0:\cellWidth/2 and 0.4) -- cycle;
+
+    \draw [stealth-stealth, thick, , shorten <=2, shorten >=2] 
+        ($(cell.north east) - (0,0.3)$)  -- ($(cell.north west) - (0,0.3)$);
+
+    \node [anchor = south] at ($(cell.north) - (0,0.3)$) {$L$};
+
+    % FEIXE LUMINOSO
+    \fill[light]
+        ($(cell.north west) - (0,1.5)$) --++ (-1,0) |- ($(cell.south east) + (0,0.7)$) -|++ (1,0.7) --++(-1,0) -- cycle;
+
+    \node [anchor = south] at ($(cell.south west) + (-0.5,0.8)$) {$I_0$};
+    \node [anchor = south] at ($(cell.south east) + (+0.5,0.8)$) {$I$};
 \end{tikzpicture}
