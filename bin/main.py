@@ -19,7 +19,7 @@ def main():
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
-    for topic in ["3D"]:
+    for topic in ["1A", "2A", "3A", "1B", "2B", "3B"]:
         topic_db[topic].write_pdf(
             problem_db,
             tmp_dir=config.TMP_TOPICS_DIR,
