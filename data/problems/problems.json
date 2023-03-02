@@ -14569,7 +14569,7 @@
     {
       "id_": "2B22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B22/2B22.md",
-      "date": "2023-01-30T23:38:05.217879",
+      "date": "2023-03-02T19:30:04.274001",
       "statement": {
         "html": "<p>Considere os pares de substâncias em <span class=\"math inline\">\\(\\pu{298 K}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{I2}\\)</span> gasoso e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{Br2}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclopentano líquido e\n<span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de pent-1-eno\nlíquido.</li>\n<li><span class=\"math inline\">\\(\\pu{1 g}\\)</span> de eteno e <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de polietileno.</li>\n<li><span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de ciclobutano e <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de cicloexano.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira substância tem a <em>maior</em> entropia.</p>",
         "md": "Considere os pares de substâncias em $\\pu{298 K}$ e $\\pu{1 atm}$.\n\n1.  $\\pu{1 mol}$ de $\\ce{I2}$ gasoso e $\\pu{1 mol}$ de $\\ce{Br2}$\n    gasoso.\n2.  $\\pu{1 mol}$ de ciclopentano líquido e $\\pu{1 mol}$ de pent-1-eno\n    líquido.\n3.  $\\pu{1 g}$ de eteno e $\\pu{1 g}$ de polietileno.\n4.  $\\pu{1 mol}$ de ciclobutano e $\\pu{1 mol}$ de cicloexano.\n\n**Assinale** a alternativa que relaciona os pares em que a primeira\nsubstância tem a *maior* entropia.\n",
@@ -14580,32 +14580,32 @@
       "data": null,
       "choices": [
         {
-          "html": "<strong>1</strong>",
-          "md": "**1**\n",
-          "tex": "\\textbf{1}\n"
-        },
-        {
-          "html": "<strong>3</strong>",
-          "md": "**3**\n",
-          "tex": "\\textbf{3}\n"
-        },
-        {
           "html": "<strong>1</strong> e <strong>3</strong>",
           "md": "**1** e **3**\n",
           "tex": "\\textbf{1} e \\textbf{3}\n"
         },
         {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-          "md": "**1**, **2** e **3**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
         },
         {
           "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
           "md": "**1**, **3** e **4**\n",
           "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 3
     },
     {
       "id_": "2B26",
