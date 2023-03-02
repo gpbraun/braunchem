@@ -13519,7 +13519,7 @@
     {
       "id_": "3B22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B22/3B22.md",
-      "date": "2023-02-15T23:18:55.739448",
+      "date": "2023-03-02T18:53:56.406808",
       "statement": {
         "html": "<p>A reação: <span class=\"math display\">\\[\n    \\ce{ N2H4(g) + ClF3(g) -&gt; HF(g) + N2(g) + Cl2(g) }\n\\]</span> é realizada com <span class=\"math inline\">\\(\\pu{12\nmol}\\)</span> de <span class=\"math inline\">\\(\\ce{N2H4}\\)</span> e <span class=\"math inline\">\\(\\pu{12 mol}\\)</span> de <span class=\"math inline\">\\(\\ce{ClF3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nquantidade do reagente em excesso restará ao final da reação.</p>",
         "md": "A reação: $$\n    \\ce{ N2H4(g) + ClF3(g) -> HF(g) + N2(g) + Cl2(g) }\n$$ é realizada com $\\pu{12 mol}$ de $\\ce{N2H4}$ e $\\pu{12 mol}$ de\n$\\ce{ClF3}$.\n\n**Assinale** a alternativa que mais se aproxima da quantidade do\nreagente em excesso restará ao final da reação.\n",
@@ -13550,9 +13550,9 @@
           "tex": "{\\(\\qty{2,3}{\\unit{mol}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{3 mol}\\)</span>",
-          "md": "$\\pu{3 mol}$\n",
-          "tex": "{\\(\\qty{3}{\\unit{mol}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{3,0 mol}\\)</span>",
+          "md": "$\\pu{3,0 mol}$\n",
+          "tex": "{\\(\\qty{3,0}{\\unit{mol}}\\)}\n"
         }
       ],
       "correct_choice": 4
@@ -13642,7 +13642,7 @@
     {
       "id_": "2B35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B35/2B35.md",
-      "date": "2023-01-10T01:15:56.132694",
+      "date": "2023-03-02T18:53:56.406808",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do universo devido à formação de fluoreto de\nhidrogênio em <span class=\"math inline\">\\(\\pu{25 \\degree\nC}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo universo devido à formação de fluoreto de hidrogênio em\n$\\pu{25 \\degree C}$.\n",
@@ -13654,7 +13654,7 @@
         "quantities": [
           {
             "id_": "Hf(HF,g)",
-            "name": "entalpia padrão de formação do ácido fluorídrico",
+            "name": "entalpia padrão de formação do Ã¡cido fluorÃ­drico",
             "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{HF,\\,\\text{g}})",
             "value": -271,
             "unit": "kJ//mol",
@@ -13662,7 +13662,7 @@
           },
           {
             "id_": "S(F2,g)",
-            "name": "entropia padrão molar do flúor",
+            "name": "entropia padrão molar do flÃºor",
             "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{F2,\\,\\text{g}})",
             "value": 203,
             "unit": "J//K.mol",
@@ -13670,7 +13670,7 @@
           },
           {
             "id_": "S(H2,g)",
-            "name": "entropia padrão molar do hidrogênio",
+            "name": "entropia padrão molar do hidrogÃªnio",
             "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{H2,\\,\\text{g}})",
             "value": 131,
             "unit": "J//K.mol",
@@ -13678,7 +13678,7 @@
           },
           {
             "id_": "S(HF,g)",
-            "name": "entropia padrão molar do ácido fluorídrico",
+            "name": "entropia padrão molar do Ã¡cido fluorÃ­drico",
             "symbol": "S_\\mathrm{m}^{\\circ}(\\ce{HF,\\,\\text{g}})",
             "value": 174,
             "unit": "J//K.mol",
@@ -13688,29 +13688,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+970 J.K-1}\\)</span>",
-          "md": "$\\pu{+970 J.K-1}$\n",
-          "tex": "{\\(\\qty{+970}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+510 J.K-1}\\)</span>",
+          "md": "$\\pu{+510 J.K-1}$\n",
+          "tex": "{\\(\\qty{+510}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+1800 J.K-1}\\)</span>",
-          "md": "$\\pu{+1800 J.K-1}$\n",
-          "tex": "{\\(\\qty{+1800}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+920 J.K-1}\\)</span>",
+          "md": "$\\pu{+920 J.K-1}$\n",
+          "tex": "{\\(\\qty{+920}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+3300 J.K-1}\\)</span>",
-          "md": "$\\pu{+3300 J.K-1}$\n",
-          "tex": "{\\(\\qty{+3300}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+1600 J.K-1}\\)</span>",
+          "md": "$\\pu{+1600 J.K-1}$\n",
+          "tex": "{\\(\\qty{+1600}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+6200 J.K-1}\\)</span>",
-          "md": "$\\pu{+6200 J.K-1}$\n",
-          "tex": "{\\(\\qty{+6200}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+3000 J.K-1}\\)</span>",
+          "md": "$\\pu{+3000 J.K-1}$\n",
+          "tex": "{\\(\\qty{+3000}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+11000 J.K-1}\\)</span>",
-          "md": "$\\pu{+11000 J.K-1}$\n",
-          "tex": "{\\(\\qty{+11000}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+5300 J.K-1}\\)</span>",
+          "md": "$\\pu{+5300 J.K-1}$\n",
+          "tex": "{\\(\\qty{+5300}{\\unit{J.K^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 1
@@ -13759,11 +13759,11 @@
     {
       "id_": "2B14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B14/2B14.md",
-      "date": "2023-01-09T23:30:48.600124",
+      "date": "2023-03-02T18:53:56.406808",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de vaporização do argônio no ponto de ebulição.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nvaporização do argônio no ponto de ebulição.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de vaporização do argônio no ponto de ebulição.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentropia padrão de vaporização da água no ponto de ebulição.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entropia padrão de\nvaporização da água no ponto de ebulição.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entropia padrão de vaporização da água no ponto de ebulição.\n"
       },
       "solution": null,
       "answer": null,
@@ -13771,7 +13771,7 @@
         "quantities": [
           {
             "id_": "Hvap(H2O)",
-            "name": "entalpia padrão de vaporização da água",
+            "name": "entalpia padrão de vaporização da Ã¡gua",
             "symbol": "\\Delta H_\\mathrm{vap}^{\\circ}(\\ce{H2O})",
             "value": 40.7,
             "unit": "kJ//mol",
@@ -14727,7 +14727,7 @@
     {
       "id_": "2B09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B09/2B09.md",
-      "date": "2023-01-09T22:56:42.543994",
+      "date": "2023-03-02T18:53:56.406808",
       "statement": {
         "html": "<p>A temperatura de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de\ngás hélio aumenta de <span class=\"math inline\">\\(\\pu{25 \\degree\nC}\\)</span> até <span class=\"math inline\">\\(\\pu{300 \\degree C}\\)</span>\nem volume constante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
         "md": "A temperatura de $\\pu{1 mol}$ de gás hélio aumenta de\n$\\pu{25 \\degree C}$ até $\\pu{300 \\degree C}$ em volume constante.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
@@ -14749,29 +14749,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+2,3 J.K-1}\\)</span>",
-          "md": "$\\pu{+2,3 J.K-1}$\n",
-          "tex": "{\\(\\qty{+2,3}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+2,2 J.K-1}\\)</span>",
+          "md": "$\\pu{+2,2 J.K-1}$\n",
+          "tex": "{\\(\\qty{+2,2}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+3,2 J.K-1}\\)</span>",
-          "md": "$\\pu{+3,2 J.K-1}$\n",
-          "tex": "{\\(\\qty{+3,2}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+3,0 J.K-1}\\)</span>",
+          "md": "$\\pu{+3,0 J.K-1}$\n",
+          "tex": "{\\(\\qty{+3,0}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+4,4 J.K-1}\\)</span>",
-          "md": "$\\pu{+4,4 J.K-1}$\n",
-          "tex": "{\\(\\qty{+4,4}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+4,1 J.K-1}\\)</span>",
+          "md": "$\\pu{+4,1 J.K-1}$\n",
+          "tex": "{\\(\\qty{+4,1}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+6,1 J.K-1}\\)</span>",
-          "md": "$\\pu{+6,1 J.K-1}$\n",
-          "tex": "{\\(\\qty{+6,1}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+5,7 J.K-1}\\)</span>",
+          "md": "$\\pu{+5,7 J.K-1}$\n",
+          "tex": "{\\(\\qty{+5,7}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{+8,5 J.K-1}\\)</span>",
-          "md": "$\\pu{+8,5 J.K-1}$\n",
-          "tex": "{\\(\\qty{+8,5}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+7,8 J.K-1}\\)</span>",
+          "md": "$\\pu{+7,8 J.K-1}$\n",
+          "tex": "{\\(\\qty{+7,8}{\\unit{J.K^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 4
@@ -14973,7 +14973,7 @@
     {
       "id_": "2B30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B30/2B30.md",
-      "date": "2023-01-10T00:09:31.436137",
+      "date": "2023-03-02T18:53:56.406808",
       "statement": {
         "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{2 mol}\\)</span> de\namônia é formada a partir dos elementos <span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia da vizinhança devido à reação.</p>",
         "md": "Uma amostra de $\\pu{2 mol}$ de amônia é formada a partir dos elementos\n$\\pu{298 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\nda vizinhança devido à reação.\n",
@@ -14985,7 +14985,7 @@
         "quantities": [
           {
             "id_": "Hf(NH3,g)",
-            "name": "entalpia padrão de formação da amônia",
+            "name": "entalpia padrão de formação da amÃ´nia",
             "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{NH3,\\,\\text{g}})",
             "value": -46.1,
             "unit": "kJ//mol",
@@ -14995,29 +14995,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-110 J.K-1}\\)</span>",
-          "md": "$\\pu{-110 J.K-1}$\n",
-          "tex": "{\\(\\qty{-110}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+310 J.K-1}\\)</span>",
+          "md": "$\\pu{+310 J.K-1}$\n",
+          "tex": "{\\(\\qty{+310}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-180 J.K-1}\\)</span>",
-          "md": "$\\pu{-180 J.K-1}$\n",
-          "tex": "{\\(\\qty{-180}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+530 J.K-1}\\)</span>",
+          "md": "$\\pu{+530 J.K-1}$\n",
+          "tex": "{\\(\\qty{+530}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-280 J.K-1}\\)</span>",
-          "md": "$\\pu{-280 J.K-1}$\n",
-          "tex": "{\\(\\qty{-280}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+890 J.K-1}\\)</span>",
+          "md": "$\\pu{+890 J.K-1}$\n",
+          "tex": "{\\(\\qty{+890}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-460 J.K-1}\\)</span>",
-          "md": "$\\pu{-460 J.K-1}$\n",
-          "tex": "{\\(\\qty{-460}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+1500 J.K-1}\\)</span>",
+          "md": "$\\pu{+1500 J.K-1}$\n",
+          "tex": "{\\(\\qty{+1500}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-740 J.K-1}\\)</span>",
-          "md": "$\\pu{-740 J.K-1}$\n",
-          "tex": "{\\(\\qty{-740}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+2600 J.K-1}\\)</span>",
+          "md": "$\\pu{+2600 J.K-1}$\n",
+          "tex": "{\\(\\qty{+2600}{\\unit{J.K^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 0
@@ -15066,11 +15066,11 @@
     {
       "id_": "2B12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2B/2B12/2B12.md",
-      "date": "2023-02-24T18:37:42.298903",
+      "date": "2023-03-02T18:53:56.406808",
       "statement": {
-        "html": "<p>A pressão de um cilindro contendo <span class=\"math inline\">\\(\\pu{23,5 g}\\)</span> de gás oxigênio aumenta de\n<span class=\"math inline\">\\(\\pu{2 kPa}\\)</span> até <span class=\"math inline\">\\(\\pu{8 kPa}\\)</span> enquanto a temperatura sobre\nde <span class=\"math inline\">\\(\\pu{240 K}\\)</span> até <span class=\"math inline\">\\(\\pu{360 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
-        "md": "A pressão de um cilindro contendo $\\pu{23,5 g}$ de gás oxigênio aumenta\nde $\\pu{2 kPa}$ até $\\pu{8 kPa}$ enquanto a temperatura sobre de\n$\\pu{240 K}$ até $\\pu{360 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
-        "tex": "A pressão de um cilindro contendo {\\(\\qty{23,5}{\\unit{g}}\\)} de gás oxigênio aumenta de {\\(\\qty{2}{\\unit{kPa}}\\)} até {\\(\\qty{8}{\\unit{kPa}}\\)}\nenquanto a temperatura sobre de {\\(\\qty{240}{\\unit{K}}\\)} até {\\(\\qty{360}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
+        "html": "<p>A pressão de um cilindro contendo <span class=\"math inline\">\\(\\pu{24\ng}\\)</span> de gás oxigênio aumenta de <span class=\"math inline\">\\(\\pu{2\nkPa}\\)</span> até <span class=\"math inline\">\\(\\pu{8 kPa}\\)</span>\nenquanto a temperatura sobe de <span class=\"math inline\">\\(\\pu{240\nK}\\)</span> até <span class=\"math inline\">\\(\\pu{480 K}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação de entropia do gás.</p>",
+        "md": "A pressão de um cilindro contendo $\\pu{24 g}$ de gás oxigênio aumenta de\n$\\pu{2 kPa}$ até $\\pu{8 kPa}$ enquanto a temperatura sobe de\n$\\pu{240 K}$ até $\\pu{480 K}$.\n\n**Assinale** a alternativa que mais se aproxima da variação de entropia\ndo gás.\n",
+        "tex": "A pressão de um cilindro contendo {\\(\\qty{24}{\\unit{g}}\\)} de gás oxigênio aumenta de {\\(\\qty{2}{\\unit{kPa}}\\)} até {\\(\\qty{8}{\\unit{kPa}}\\)} enquanto\na temperatura sobe de {\\(\\qty{240}{\\unit{K}}\\)} até {\\(\\qty{480}{\\unit{K}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação de entropia do gás.\n"
       },
       "solution": null,
       "answer": null,
@@ -15088,29 +15088,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-2,3 J.K-1}\\)</span>",
-          "md": "$\\pu{-2,3 J.K-1}$\n",
-          "tex": "{\\(\\qty{-2,3}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+6,6 J.K-1}\\)</span>",
+          "md": "$\\pu{+6,6 J.K-1}$\n",
+          "tex": "{\\(\\qty{+6,6}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-2,9 J.K-1}\\)</span>",
-          "md": "$\\pu{-2,9 J.K-1}$\n",
-          "tex": "{\\(\\qty{-2,9}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+9,0 J.K-1}\\)</span>",
+          "md": "$\\pu{+9,0 J.K-1}$\n",
+          "tex": "{\\(\\qty{+9,0}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-3,7 J.K-1}\\)</span>",
-          "md": "$\\pu{-3,7 J.K-1}$\n",
-          "tex": "{\\(\\qty{-3,7}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+12 J.K-1}\\)</span>",
+          "md": "$\\pu{+12 J.K-1}$\n",
+          "tex": "{\\(\\qty{+12}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-4,7 J.K-1}\\)</span>",
-          "md": "$\\pu{-4,7 J.K-1}$\n",
-          "tex": "{\\(\\qty{-4,7}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+17 J.K-1}\\)</span>",
+          "md": "$\\pu{+17 J.K-1}$\n",
+          "tex": "{\\(\\qty{+17}{\\unit{J.K^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-6,0 J.K-1}\\)</span>",
-          "md": "$\\pu{-6,0 J.K-1}$\n",
-          "tex": "{\\(\\qty{-6,0}{\\unit{J.K^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{+23 J.K-1}\\)</span>",
+          "md": "$\\pu{+23 J.K-1}$\n",
+          "tex": "{\\(\\qty{+23}{\\unit{J.K^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 0
