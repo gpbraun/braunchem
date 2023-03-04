@@ -15,11 +15,11 @@ def main():
 
     config.load_config("bin/config.cfg")
 
-    problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR, force_update=False)
+    problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR, force_update=True)
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
 
-    for topic in ["1A", "2A", "3A", "1B", "2B", "3B"]:
+    for topic in ["2A"]:
         topic_db[topic].write_pdf(
             problem_db,
             tmp_dir=config.TMP_TOPICS_DIR,
