@@ -8761,6 +8761,190 @@
       "prec": 3
     },
     {
+      "id_": "lambda(H+)",
+      "name": "condutividade iônica do hidrônio",
+      "symbol": "\\lambda(\\ce{H+})",
+      "value": "35",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Li+)",
+      "name": "condutividade iônica do cátion lítio",
+      "symbol": "\\lambda(\\ce{Li+})",
+      "value": "3.9",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Na+)",
+      "name": "condutividade iônica do cátion sódio",
+      "symbol": "\\lambda(\\ce{Na+})",
+      "value": "5.0",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(K+)",
+      "name": "condutividade iônica do cátion potássio",
+      "symbol": "\\lambda(\\ce{K+})",
+      "value": "7.4",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Rb+)",
+      "name": "condutividade iônica do cátion rubídio",
+      "symbol": "\\lambda(\\ce{Rb+})",
+      "value": "7.8",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Cs+)",
+      "name": "condutividade iônica do cátion césio",
+      "symbol": "\\lambda(\\ce{Cs+})",
+      "value": "7.7",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Ag+)",
+      "name": "condutividade iônica do cátion prata",
+      "symbol": "\\lambda(\\ce{Ag+})",
+      "value": "6.2",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Mg+2)",
+      "name": "condutividade iônica do cátion magnésio",
+      "symbol": "\\lambda(\\ce{Mg^2+})",
+      "value": "11",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Ca+2)",
+      "name": "condutividade iônica do cátion cálcio",
+      "symbol": "\\lambda(\\ce{Ca^2+})",
+      "value": "12",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Sr+2)",
+      "name": "condutividade iônica do cátion estrôncio",
+      "symbol": "\\lambda(\\ce{Sr^2+})",
+      "value": "12",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(NH4+)",
+      "name": "condutividade iônica do amônio",
+      "symbol": "\\lambda(\\ce{NH4^+})",
+      "value": "7.4",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(tetrametilamonio)",
+      "name": "condutividade iônica do tetrametilamonio",
+      "symbol": "\\lambda(\\ce{N(CH3)4^+})",
+      "value": "4.5",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(tetraetilamonio)",
+      "name": "condutividade iônica do tetraetilamonio",
+      "symbol": "\\lambda(\\ce{N(C2H5)4^+})",
+      "value": "3.3",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(OH-)",
+      "name": "condutividade iônica do hidróxido",
+      "symbol": "\\lambda(\\ce{OH^-})",
+      "value": "20",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(F-)",
+      "name": "condutividade iônica do fluoreto",
+      "symbol": "\\lambda(\\ce{F^-})",
+      "value": "5.5",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Cl-)",
+      "name": "condutividade iônica do cloreto",
+      "symbol": "\\lambda(\\ce{Cl^-})",
+      "value": "7.6",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(Br-)",
+      "name": "condutividade iônica do brometo",
+      "symbol": "\\lambda(\\ce{Br^-})",
+      "value": "7.8",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(I-)",
+      "name": "condutividade iônica do iodeto",
+      "symbol": "\\lambda(\\ce{I^-})",
+      "value": "7.7",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(CO3-2)",
+      "name": "condutividade iônica do carbonato",
+      "symbol": "\\lambda(\\ce{CO3^2-})",
+      "value": "14",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(NO3-)",
+      "name": "condutividade iônica do nitrato",
+      "symbol": "\\lambda(\\ce{NO3^-})",
+      "value": "7.2",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(SO4-2)",
+      "name": "condutividade iônica do sulfato",
+      "symbol": "\\lambda(\\ce{SO4^2-})",
+      "value": "16",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(acetato)",
+      "name": "condutividade iônica do acetato",
+      "symbol": "\\lambda(\\ce{CH3CO2^-})",
+      "value": "4.1",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
+      "id_": "lambda(formiato)",
+      "name": "condutividade iônica do formiato",
+      "symbol": "\\lambda(\\ce{HCO2^-})",
+      "value": "5.5",
+      "unit": "S//m.M",
+      "prec": 2
+    },
+    {
       "id_": "Ka2(H2SO4)",
       "name": "constante de acidez 2 do ácido sulfúrico",
       "symbol": "K_\\mathrm{a2}(\\ce{H2SO4})",

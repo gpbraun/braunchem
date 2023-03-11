@@ -7805,32 +7805,84 @@
     {
       "id_": "3E10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E10/3E10.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:05:04.346809",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de soluções aquosas contendo os solutos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Ca(NO3)2}\\)</span> e <span class=\"math inline\">\\(\\ce{Na2CO3}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{NiSO4}\\)</span> e <span class=\"math inline\">\\(\\ce{CuCl2}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{Na3PO4}\\)</span> e <span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{NaCl}\\)</span> e <span class=\"math inline\">\\(\\ce{K2S}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\nhá formação de precipitado quando as soluções são misturadas.</p>",
+        "md": "Considere os pares de soluções aquosas contendo os solutos:\n\n1.  $\\ce{Ca(NO3)2}$ e $\\ce{Na2CO3}$.\n2.  $\\ce{NiSO4}$ e $\\ce{CuCl2}$.\n3.  $\\ce{Na3PO4}$ e $\\ce{BaCl2}$.\n4.  $\\ce{NaCl}$ e $\\ce{K2S}$.\n\n**Assinale** a alternativa que relaciona os pares em que há formação de\nprecipitado quando as soluções são misturadas.\n",
+        "tex": "Considere os pares de soluções aquosas contendo os solutos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Ca(NO3)2}\\)} e {\\(\\ce{Na2CO3}\\)}.\n\\item\n  {\\(\\ce{NiSO4}\\)} e {\\(\\ce{CuCl2}\\)}.\n\\item\n  {\\(\\ce{Na3PO4}\\)} e {\\(\\ce{BaCl2}\\)}.\n\\item\n  {\\(\\ce{NaCl}\\)} e {\\(\\ce{K2S}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que há formação de precipitado quando as soluções são misturadas.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E13/3E13.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:22:59.766274",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Excesso de iodeto de sódio, <span class=\"math inline\">\\(\\ce{NaI}\\)</span>, foi adicionado a <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução de nitrato de\nprata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span> em água. Foram\nformados <span class=\"math inline\">\\(\\pu{1,76 g}\\)</span> de um\nprecipitado.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de nitrato de prata.</p>",
+        "md": "Excesso de iodeto de sódio, $\\ce{NaI}$, foi adicionado a $\\pu{50 mL}$ de\numa solução de nitrato de prata, $\\ce{AgNO3}$ em água. Foram formados\n$\\pu{1,76 g}$ de um precipitado.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de nitrato de prata.\n",
+        "tex": "Excesso de iodeto de sódio, {\\(\\ce{NaI}\\)}, foi adicionado a {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução de nitrato de prata, {\\(\\ce{AgNO3}\\)} em água.\nForam formados {\\(\\qty{1,76}{\\unit{g}}\\)} de um precipitado.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de nitrato de prata.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,24 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,24 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,24}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,31 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,31 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,31}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,40 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,40 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,40}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,51 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,51 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,51}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,65 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,65 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,65}{\\unit{mol.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E48",
@@ -7865,17 +7917,43 @@
     {
       "id_": "3E11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E11/3E11.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:09:02.745435",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de\numa solução de cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>, foi tratada com excesso de\nnitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>. Foram\nformados <span class=\"math inline\">\\(\\pu{0,43 g}\\)</span> de um\nprecipitado seco.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de cloreto de sódio.</p>",
+        "md": "Uma alíquota de $\\pu{10 mL}$ de uma solução de cloreto de sódio,\n$\\ce{NaCl}$, foi tratada com excesso de nitrato de prata, $\\ce{AgNO3}$.\nForam formados $\\pu{0,43 g}$ de um precipitado seco.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de cloreto de sódio.\n",
+        "tex": "Uma alíquota de {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução de cloreto de sódio, {\\(\\ce{NaCl}\\)}, foi tratada com excesso de nitrato de prata,\n{\\(\\ce{AgNO3}\\)}. Foram formados {\\(\\qty{0,43}{\\unit{g}}\\)} de um precipitado seco.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de cloreto de sódio.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,18 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,18 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,18}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,23 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,23 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,23}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,3 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,3 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,3}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,39 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,39 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,39}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,51 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,51 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,51}{\\unit{mol.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E47",
@@ -7925,32 +8003,103 @@
     {
       "id_": "3E04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E04/3E04.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T18:31:06.735797",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma solução saturada em cloreto de prata, <span class=\"math inline\">\\(\\ce{AgCl}\\)</span>, em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> tem condutividade <span class=\"math inline\">\\(\\pu{0,21 mS.m-1}\\)</span> acima da condutividade\nda água.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nsolubilidade do cloreto de prata em <span class=\"math inline\">\\(\\pu{25\n\\degree C}\\)</span>.</p>",
+        "md": "Uma solução saturada em cloreto de prata, $\\ce{AgCl}$, em\n$\\pu{25 \\degree C}$ tem condutividade $\\pu{0,21 mS.m-1}$ acima da\ncondutividade da água.\n\n**Assinale** a alternativa que mais se aproxima da solubilidade do\ncloreto de prata em $\\pu{25 \\degree C}$.\n",
+        "tex": "Uma solução saturada em cloreto de prata, {\\(\\ce{AgCl}\\)}, em {\\(\\qty{25}{\\unit{\\degree C}}\\)} tem condutividade {\\(\\qty{0,21}{\\unit{mS.m^{-1}}}\\)}\nacima da condutividade da água.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da solubilidade do cloreto de prata em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "lambda(Cl-)",
+            "name": "condutividade iônica do cloreto",
+            "symbol": "\\lambda(\\ce{Cl^-})",
+            "value": 7.6,
+            "unit": "S//m.M",
+            "prec": 2
+          },
+          {
+            "id_": "lambda(Ag+)",
+            "name": "condutividade iônica do cátion prata",
+            "symbol": "\\lambda(\\ce{Ag+})",
+            "value": 6.2,
+            "unit": "S//m.M",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,85 mg.L-1}\\)</span>",
+          "md": "$\\pu{0,85 mg.L-1}$\n",
+          "tex": "{\\(\\qty{0,85}{\\unit{mg.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,1 mg.L-1}\\)</span>",
+          "md": "$\\pu{1,1 mg.L-1}$\n",
+          "tex": "{\\(\\qty{1,1}{\\unit{mg.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 mg.L-1}\\)</span>",
+          "md": "$\\pu{1,4 mg.L-1}$\n",
+          "tex": "{\\(\\qty{1,4}{\\unit{mg.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,7 mg.L-1}\\)</span>",
+          "md": "$\\pu{1,7 mg.L-1}$\n",
+          "tex": "{\\(\\qty{1,7}{\\unit{mg.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,2 mg.L-1}\\)</span>",
+          "md": "$\\pu{2,2 mg.L-1}$\n",
+          "tex": "{\\(\\qty{2,2}{\\unit{mg.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3E02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E02/3E02.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:10:07.481060",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma solução contém <span class=\"math inline\">\\(\\pu{0,3\nmol.L-1}\\)</span> de brometo, <span class=\"math inline\">\\(\\pu{0,06\nmol.L-1}\\)</span> de fosfato, <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de cátions cálcio e cátions prata.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de cátions prata na solução.</p>",
+        "md": "Uma solução contém $\\pu{0,3 mol.L-1}$ de brometo, $\\pu{0,06 mol.L-1}$ de\nfosfato, $\\pu{0,1 mol.L-1}$ de cátions cálcio e cátions prata.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncátions prata na solução.\n",
+        "tex": "Uma solução contém {\\(\\qty{0,3}{\\unit{mol.L^{-1}}}\\)} de brometo, {\\(\\qty{0,06}{\\unit{mol.L^{-1}}}\\)} de fosfato, {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}\nde cátions cálcio e cátions prata.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de cátions prata na solução.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,21 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,21 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,21}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,28 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,28 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,28}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,37 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,37 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,37}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,48 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,48 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,48}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,63 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,63 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,63}{\\unit{mol.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3E45",
@@ -8180,17 +8329,43 @@
     {
       "id_": "3E16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E16/3E16.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:10:31.612625",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\nágua salobra contendo ácido sulfídrico foi alcalinizada com amoníaco e\ntratada com <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,02 mol.L-1}\\)</span> em\nnitrato de prata. O excesso de nitrato de prata foi retrotitulado com\n<span class=\"math inline\">\\(\\pu{6 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,04 mol.L-1}\\)</span> de tiocianato de\npotássio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração ácido sulfídrico na água.</p>",
+        "md": "Uma amostra de $\\pu{100 mL}$ de água salobra contendo ácido sulfídrico\nfoi alcalinizada com amoníaco e tratada com $\\pu{30 mL}$ de uma solução\n$\\pu{0,02 mol.L-1}$ em nitrato de prata. O excesso de nitrato de prata\nfoi retrotitulado com $\\pu{6 mL}$ de uma solução $\\pu{0,04 mol.L-1}$ de\ntiocianato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração ácido\nsulfídrico na água.\n",
+        "tex": "Uma amostra de {\\(\\qty{100}{\\unit{mL}}\\)} de água salobra contendo ácido sulfídrico foi alcalinizada com amoníaco e tratada com\n{\\(\\qty{30}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} em nitrato de prata. O excesso de nitrato de prata foi retrotitulado com\n{\\(\\qty{6}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,04}{\\unit{mol.L^{-1}}}\\)} de tiocianato de potássio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração ácido sulfídrico na água.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8 ppm}\\)</span>",
+          "md": "$\\pu{1,8 ppm}$\n",
+          "tex": "{\\(\\qty{1,8}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,4 ppm}\\)</span>",
+          "md": "$\\pu{2,4 ppm}$\n",
+          "tex": "{\\(\\qty{2,4}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,3 ppm}\\)</span>",
+          "md": "$\\pu{3,3 ppm}$\n",
+          "tex": "{\\(\\qty{3,3}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,4 ppm}\\)</span>",
+          "md": "$\\pu{4,4 ppm}$\n",
+          "tex": "{\\(\\qty{4,4}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0 ppm}\\)</span>",
+          "md": "$\\pu{6,0 ppm}$\n",
+          "tex": "{\\(\\qty{6,0}{\\unit{ppm}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3E18",
@@ -8240,17 +8415,43 @@
     {
       "id_": "3E07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E07/3E07.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T18:50:31.651459",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos iônicos.</p>\n<ol type=\"1\">\n<li>Fosfato de potássio, <span class=\"math inline\">\\(\\ce{K3PO4}\\)</span>.</li>\n<li>Cloreto de\nchumbo(II), <span class=\"math inline\">\\(\\ce{PbCl2}\\)</span>.</li>\n<li>Sulfeto de cádmio,\n<span class=\"math inline\">\\(\\ce{CdS}\\)</span>.</li>\n<li>Sulfato de bário,\n<span class=\"math inline\">\\(\\ce{BaSO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nsolúveis em água.</p>",
+        "md": "Considere os compostos iônicos.\n\n1.  Fosfato de potássio, $\\ce{K3PO4}$.\n2.  Cloreto de chumbo(II), $\\ce{PbCl2}$.\n3.  Sulfeto de cádmio, $\\ce{CdS}$.\n4.  Sulfato de bário, $\\ce{BaSO4}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis em água.\n",
+        "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Fosfato de potássio, {\\(\\ce{K3PO4}\\)}.\n\\item\n  Cloreto de chumbo(II), {\\(\\ce{PbCl2}\\)}.\n\\item\n  Sulfeto de cádmio, {\\(\\ce{CdS}\\)}.\n\\item\n  Sulfato de bário, {\\(\\ce{BaSO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis em água.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3E24",
@@ -8285,32 +8486,84 @@
     {
       "id_": "3E15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E15/3E15.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:10:35.696508",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de\numa solução de nitrato de prata foi titulada com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span> em cromato de potássio,\nformando um precipitado vermelho brilhante.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de nitrato de prata.</p>",
+        "md": "Uma alíquota de $\\pu{50 mL}$ de uma solução de nitrato de prata foi\ntitulada com $\\pu{10 mL}$ de uma solução $\\pu{1 mol.L-1}$ em cromato de\npotássio, formando um precipitado vermelho brilhante.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de nitrato de prata.\n",
+        "tex": "Uma alíquota de {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução de nitrato de prata foi titulada com {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} em cromato de potássio, formando um precipitado vermelho brilhante.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de nitrato de prata.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,19 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,19 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,19}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,24 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,24 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,24}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,31 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,31 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,31}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,40 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,40 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,40}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,51 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,51 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,51}{\\unit{mol.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3E09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E09/3E09.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:05:06.802794",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de soluções aquosas contendo os solutos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Fe3(SO4)2}\\)</span> e <span class=\"math inline\">\\(\\ce{NaOH}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{AgNO3}\\)</span> e <span class=\"math inline\">\\(\\ce{K2CO3}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{Pb(NO3)2}\\)</span> e <span class=\"math inline\">\\(\\ce{CH3CH2ONa}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{BaCl2}\\)</span> e <span class=\"math inline\">\\(\\ce{K2SO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\nhá formação de precipitado quando as soluções são misturadas.</p>",
+        "md": "Considere os pares de soluções aquosas contendo os solutos:\n\n1.  $\\ce{Fe3(SO4)2}$ e $\\ce{NaOH}$.\n2.  $\\ce{AgNO3}$ e $\\ce{K2CO3}$.\n3.  $\\ce{Pb(NO3)2}$ e $\\ce{CH3CH2ONa}$.\n4.  $\\ce{BaCl2}$ e $\\ce{K2SO4}$.\n\n**Assinale** a alternativa que relaciona os pares em que há formação de\nprecipitado quando as soluções são misturadas.\n",
+        "tex": "Considere os pares de soluções aquosas contendo os solutos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Fe3(SO4)2}\\)} e {\\(\\ce{NaOH}\\)}.\n\\item\n  {\\(\\ce{AgNO3}\\)} e {\\(\\ce{K2CO3}\\)}.\n\\item\n  {\\(\\ce{Pb(NO3)2}\\)} e {\\(\\ce{CH3CH2ONa}\\)}.\n\\item\n  {\\(\\ce{BaCl2}\\)} e {\\(\\ce{K2SO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que há formação de precipitado quando as soluções são misturadas.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3E51",
@@ -8330,17 +8583,43 @@
     {
       "id_": "3E08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E08/3E08.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T18:50:36.907434",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos iônicos.</p>\n<ol type=\"1\">\n<li>Nitrato de cádmio, <span class=\"math inline\">\\(\\ce{Cd(NO3)2}\\)</span>.</li>\n<li>Acetato de cobre(II), <span class=\"math inline\">\\(\\ce{Cu(CH3CO2)2}\\)</span>.</li>\n<li>Hidróxido de\ncobalto(III), <span class=\"math inline\">\\(\\ce{Co(OH)3}\\)</span>.</li>\n<li>Brometo de prata,\n<span class=\"math inline\">\\(\\ce{AgBr}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nsolúveis em água.</p>",
+        "md": "Considere os compostos iônicos.\n\n1.  Nitrato de cádmio, $\\ce{Cd(NO3)2}$.\n2.  Acetato de cobre(II), $\\ce{Cu(CH3CO2)2}$.\n3.  Hidróxido de cobalto(III), $\\ce{Co(OH)3}$.\n4.  Brometo de prata, $\\ce{AgBr}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis em água.\n",
+        "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Nitrato de cádmio, {\\(\\ce{Cd(NO3)2}\\)}.\n\\item\n  Acetato de cobre(II), {\\(\\ce{Cu(CH3CO2)2}\\)}.\n\\item\n  Hidróxido de cobalto(III), {\\(\\ce{Co(OH)3}\\)}.\n\\item\n  Brometo de prata, {\\(\\ce{AgBr}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis em água.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E32",
@@ -8360,17 +8639,43 @@
     {
       "id_": "3E06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E06/3E06.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T18:42:17.549325",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as substâncias.</p>\n<ol type=\"1\">\n<li>Glicose, <span class=\"math inline\">\\(\\ce{C6H12O6}\\)</span>.</li>\n<li>Cloreto de bário,\n<span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>.</li>\n<li>Fluoreto de\npotássio, <span class=\"math inline\">\\(\\ce{KF}\\)</span>.</li>\n<li>Ácido sulfúrico,\n<span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\nque são eletrólitos e conduzem eletricidade em solução aquosa.</p>",
+        "md": "Considere as substâncias.\n\n1.  Glicose, $\\ce{C6H12O6}$.\n2.  Cloreto de bário, $\\ce{BaCl2}$.\n3.  Fluoreto de potássio, $\\ce{KF}$.\n4.  Ácido sulfúrico, $\\ce{H2SO4}$.\n\n**Assinale** a alternativa que relaciona as substâncias que são\neletrólitos e conduzem eletricidade em solução aquosa.\n",
+        "tex": "Considere as substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Glicose, {\\(\\ce{C6H12O6}\\)}.\n\\item\n  Cloreto de bário, {\\(\\ce{BaCl2}\\)}.\n\\item\n  Fluoreto de potássio, {\\(\\ce{KF}\\)}.\n\\item\n  Ácido sulfúrico, {\\(\\ce{H2SO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias que são eletrólitos e conduzem eletricidade em solução aquosa.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3E25",
@@ -8390,32 +8695,84 @@
     {
       "id_": "3E01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E01/3E01.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T17:44:46.934091",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma solução contém <span class=\"math inline\">\\(\\pu{0,3\nmol.L-1}\\)</span> de cátions sódio, <span class=\"math inline\">\\(\\ce{0,28\nmol.L-1}\\)</span> de cloreto, <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de sulfato e cátions ferro(III).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de cátions ferro(III) na solução.</p>",
+        "md": "Uma solução contém $\\pu{0,3 mol.L-1}$ de cátions sódio,\n$\\ce{0,28 mol.L-1}$ de cloreto, $\\pu{0,1 mol.L-1}$ de sulfato e cátions\nferro(III).\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncátions ferro(III) na solução.\n",
+        "tex": "Uma solução contém {\\(\\qty{0,3}{\\unit{mol.L^{-1}}}\\)} de cátions sódio, {\\(\\ce{0,28 mol.L-1}\\)} de cloreto, {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de\nsulfato e cátions ferro(III).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de cátions ferro(III) na solução.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{16 mmol.L-1}\\)</span>",
+          "md": "$\\pu{16 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{16}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 mmol.L-1}\\)</span>",
+          "md": "$\\pu{25 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{25}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{39 mmol.L-1}\\)</span>",
+          "md": "$\\pu{39 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{39}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{60 mmol.L-1}\\)</span>",
+          "md": "$\\pu{60 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{60}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{93 mmol.L-1}\\)</span>",
+          "md": "$\\pu{93 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{93}{\\unit{mmol.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3E14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E14/3E14.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:24:15.197301",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Excesso de nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>, foi adicionado a <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{4,2 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{K2CrO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde precipitado formado.</p>",
+        "md": "Excesso de nitrato de prata, $\\ce{AgNO3}$, foi adicionado a $\\pu{30 mL}$\nde uma solução $\\pu{4,2 mol.L-1}$ de $\\ce{K2CrO4}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de precipitado\nformado.\n",
+        "tex": "Excesso de nitrato de prata, {\\(\\ce{AgNO3}\\)}, foi adicionado a {\\(\\qty{30}{\\unit{mL}}\\)} de uma solução {\\(\\qty{4,2}{\\unit{mol.L^{-1}}}\\)} de\n{\\(\\ce{K2CrO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de precipitado formado.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,8 g}\\)</span>",
+          "md": "$\\pu{7,8 g}$\n",
+          "tex": "{\\(\\qty{7,8}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 g}\\)</span>",
+          "md": "$\\pu{12 g}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{18 g}\\)</span>",
+          "md": "$\\pu{18 g}$\n",
+          "tex": "{\\(\\qty{18}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{28 g}\\)</span>",
+          "md": "$\\pu{28 g}$\n",
+          "tex": "{\\(\\qty{28}{\\unit{g}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{42 g}\\)</span>",
+          "md": "$\\pu{42 g}$\n",
+          "tex": "{\\(\\qty{42}{\\unit{g}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "3E41",
@@ -8450,47 +8807,144 @@
     {
       "id_": "3E05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E05/3E05.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T18:40:53.661515",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as substâncias.</p>\n<ol type=\"1\">\n<li>Hidróxido de sódio,\n<span class=\"math inline\">\\(\\ce{NaOH}\\)</span>.</li>\n<li>Bromo, <span class=\"math inline\">\\(\\ce{Br2}\\)</span>.</li>\n<li>Etanol, <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.</li>\n<li>Nitrato de chumbo,\n<span class=\"math inline\">\\(\\ce{Pb(NO3)2}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\nque são eletrólitos e conduzem eletricidade em solução aquosa.</p>",
+        "md": "Considere as substâncias.\n\n1.  Hidróxido de sódio, $\\ce{NaOH}$.\n2.  Bromo, $\\ce{Br2}$.\n3.  Etanol, $\\ce{CH3CH2OH}$.\n4.  Nitrato de chumbo, $\\ce{Pb(NO3)2}$.\n\n**Assinale** a alternativa que relaciona as substâncias que são\neletrólitos e conduzem eletricidade em solução aquosa.\n",
+        "tex": "Considere as substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Hidróxido de sódio, {\\(\\ce{NaOH}\\)}.\n\\item\n  Bromo, {\\(\\ce{Br2}\\)}.\n\\item\n  Etanol, {\\(\\ce{CH3CH2OH}\\)}.\n\\item\n  Nitrato de chumbo, {\\(\\ce{Pb(NO3)2}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias que são eletrólitos e conduzem eletricidade em solução aquosa.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3E03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E03/3E03.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T18:30:38.427994",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,01\nmol.L-1}\\)</span> em sulfato de sódio, <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ncondutividade da solução em <span class=\"math inline\">\\(\\pu{25 \\degree\nC}\\)</span>.</p>",
+        "md": "Considere uma solução $\\pu{0,01 mol.L-1}$ em sulfato de sódio,\n$\\ce{Na2SO4}$.\n\n**Assinale** a alternativa que mais se aproxima da condutividade da\nsolução em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)} em sulfato de sódio, {\\(\\ce{Na2SO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da condutividade da solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "lambda(Na+)",
+            "name": "condutividade iônica do cátion sódio",
+            "symbol": "\\lambda(\\ce{Na+})",
+            "value": 5.0,
+            "unit": "S//m.M",
+            "prec": 2
+          },
+          {
+            "id_": "lambda(SO4-2)",
+            "name": "condutividade iônica do sulfato",
+            "symbol": "\\lambda(\\ce{SO4^2-})",
+            "value": 16,
+            "unit": "S//m.M",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 mS.m-1}\\)</span>",
+          "md": "$\\pu{14 mS.m-1}$\n",
+          "tex": "{\\(\\qty{14}{\\unit{mS.m^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{21 mS.m-1}\\)</span>",
+          "md": "$\\pu{21 mS.m-1}$\n",
+          "tex": "{\\(\\qty{21}{\\unit{mS.m^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{31 mS.m-1}\\)</span>",
+          "md": "$\\pu{31 mS.m-1}$\n",
+          "tex": "{\\(\\qty{31}{\\unit{mS.m^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{45 mS.m-1}\\)</span>",
+          "md": "$\\pu{45 mS.m-1}$\n",
+          "tex": "{\\(\\qty{45}{\\unit{mS.m^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{66 mS.m-1}\\)</span>",
+          "md": "$\\pu{66 mS.m-1}$\n",
+          "tex": "{\\(\\qty{66}{\\unit{mS.m^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3E12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E12/3E12.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-03-11T19:09:05.289421",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>No seu doutorado, Marie Curie estimou a massa molar do rádio,\nelemento que ela descobriu. Pela análise de suas propriedades químicas,\nela sabia que o rádio era do mesmo grupo do bário na Tabela Periódica.\nQuando uma amostra de <span class=\"math inline\">\\(\\pu{90 mg}\\)</span> de\ncloreto de rádio foi tratada com excesso de nitrato de prata são\nformados <span class=\"math inline\">\\(\\pu{86 mg}\\)</span> de um\nprecipitado.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nmolar do rádio.</p>",
+        "md": "No seu doutorado, Marie Curie estimou a massa molar do rádio, elemento\nque ela descobriu. Pela análise de suas propriedades químicas, ela sabia\nque o rádio era do mesmo grupo do bário na Tabela Periódica. Quando uma\namostra de $\\pu{90 mg}$ de cloreto de rádio foi tratada com excesso de\nnitrato de prata são formados $\\pu{86 mg}$ de um precipitado.\n\n**Assinale** a alternativa que mais se aproxima da massa molar do rádio.\n",
+        "tex": "No seu doutorado, Marie Curie estimou a massa molar do rádio, elemento que ela descobriu. Pela análise de suas propriedades químicas, ela sabia que o\nrádio era do mesmo grupo do bário na Tabela Periódica. Quando uma amostra de {\\(\\qty{90}{\\unit{mg}}\\)} de cloreto de rádio foi tratada com excesso de\nnitrato de prata são formados {\\(\\qty{86}{\\unit{mg}}\\)} de um precipitado.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa molar do rádio.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{82 g.mol-1}\\)</span>",
+          "md": "$\\pu{82 g.mol-1}$\n",
+          "tex": "{\\(\\qty{82}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 g.mol-1}\\)</span>",
+          "md": "$\\pu{140 g.mol-1}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{230 g.mol-1}\\)</span>",
+          "md": "$\\pu{230 g.mol-1}$\n",
+          "tex": "{\\(\\qty{230}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{380 g.mol-1}\\)</span>",
+          "md": "$\\pu{380 g.mol-1}$\n",
+          "tex": "{\\(\\qty{380}{\\unit{g.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{640 g.mol-1}\\)</span>",
+          "md": "$\\pu{640 g.mol-1}$\n",
+          "tex": "{\\(\\qty{640}{\\unit{g.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "3A12",
