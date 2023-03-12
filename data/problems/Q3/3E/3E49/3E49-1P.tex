@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            ylabel = {Massa, $m/\%$},
+            xlabel = {Temperatura, $T/\unit{\degree C}$},
+            xmin = 0,  xmax = 1000,
+            ymin = 30, ymax = 100,
+        ]
+    \draw [draw=blue, very thick, rounded corners=1.1em]
+        (axis cs:    0, 100.00) --
+        (axis cs:  100, 100.00) --
+        (axis cs:  130,  87.67) -- 
+        (axis cs:  450,  87.67) -- 
+        (axis cs:  500,  68.49) -- 
+        (axis cs:  660,  68.49) --
+        (axis cs:  730,  38.37) --
+        (axis cs: 1000,  38.37);
+    \end{axis}
+ \end{tikzpicture}
+ 

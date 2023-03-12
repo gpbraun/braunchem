@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            ylabel = {Resistência, $R/\unit{\ohm}$},
+            xlabel = {Concentração, $c/\unit{mol.L^{-1}}$},
+            domain = 0.2:1.2,
+            xmin=0.2, xmax=1.2,
+            ytick={1,2,3,4,5,6},
+            ymin=0,
+        ]
+        \addplot
+            {
+               1/x
+            };
+ \end{axis}
+ \end{tikzpicture}
