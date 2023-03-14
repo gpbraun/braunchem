@@ -6145,14 +6145,40 @@
     {
       "id_": "3F30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F30/3F30.md",
-      "date": "2023-03-12T15:40:56.223904",
+      "date": "2023-03-14T17:52:50.717425",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as bases: <span class=\"math inline\">\\(\\ce{CN^-}\\)</span>,\n<span class=\"math inline\">\\(\\ce{NH2NH2}\\)</span>, <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{HPO4^{2-}}\\)</span> e <span class=\"math inline\">\\(\\ce{CO(NH2)2}\\)</span></p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> o equilíbrio de transferência de prótons\ndas bases com água.</li>\n<li><strong>Identifique</strong> os pares ácido-base conjugados na\ntransferência de prótons das bases com água.</li>\n</ol>",
+        "md": "Considere as bases: $\\ce{CN^-}$, $\\ce{NH2NH2}$, $\\ce{CO3^{2-}}$,\n$\\ce{HPO4^{2-}}$ e $\\ce{CO(NH2)2}$\n\na.  **Apresente** o equilíbrio de transferência de prótons das bases com\n    água.\nb.  **Identifique** os pares ácido-base conjugados na transferência de\n    prótons das bases com água.\n",
+        "tex": "Considere as bases: {\\(\\ce{CN^-}\\)}, {\\(\\ce{NH2NH2}\\)}, {\\(\\ce{CO3^{2-}}\\)}, {\\(\\ce{HPO4^{2-}}\\)} e {\\(\\ce{CO(NH2)2}\\)}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} o equilíbrio de transferência de prótons das bases com água.\n\\item\n  \\textbf{Identifique} os pares ácido-base conjugados na transferência de prótons das bases com água.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ CN^-(aq) + H2O(l) &lt;=&gt; HCN(aq)\n+ OH^-(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ CN^-(aq) + H2O(l) <=> HCN(aq) + OH^-(aq) }$",
+          "tex": "\\(\\ce{ CN^-(aq) + H2O(l) <=> HCN(aq) + OH^-(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ NH2NH2(aq) + H2O(l) &lt;=&gt;\nNH2NH3^+(aq) + OH^-(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ NH2NH2(aq) + H2O(l) <=> NH2NH3^+(aq) + OH^-(aq) }$",
+          "tex": "\\(\\ce{ NH2NH2(aq) + H2O(l) <=> NH2NH3^+(aq) + OH^-(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ CO3^{2-}(aq) + H2O(l) &lt;=&gt;\nHCO3^-(aq) + OH^-(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ CO3^{2-}(aq) + H2O(l) <=> HCO3^-(aq) + OH^-(aq) }$",
+          "tex": "\\(\\ce{ CO3^{2-}(aq) + H2O(l) <=> HCO3^-(aq) + OH^-(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ HPO4^{2-}(aq) + H2O(l) &lt;=&gt;\nHPO4^-(aq) + OH^-(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ HPO4^{2-}(aq) + H2O(l) <=> HPO4^-(aq) + OH^-(aq) }$",
+          "tex": "\\(\\ce{ HPO4^{2-}(aq) + H2O(l) <=> HPO4^-(aq) + OH^-(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ CO(NH2)2(aq) + H2O(l) &lt;=&gt;\nNH2CONH3^+(aq) + OH^-(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ CO(NH2)2(aq) + H2O(l) <=> NH2CONH3^+(aq) + OH^-(aq) }$",
+          "tex": "\\(\\ce{ CO(NH2)2(aq) + H2O(l) <=> NH2CONH3^+(aq) + OH^-(aq) }\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6201,14 +6227,20 @@
     {
       "id_": "3F36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F36/3F36.md",
-      "date": "2023-03-12T15:40:56.231904",
+      "date": "2023-03-14T18:39:19.829768",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma substância desconhecida é composta de carbono, hidrogênio,\noxigênio e nitrogênio. Quando uma amostra de <span class=\"math inline\">\\(\\pu{1,57 g}\\)</span> dessa substância é queimada,\nsão formados <span class=\"math inline\">\\(\\pu{0,31 g}\\)</span> de água e\n<span class=\"math inline\">\\(\\pu{2,13 g}\\)</span> de dióxido de\ncarbono.</p>\n<p>Em outro experimento, todo nitrogênio de uma amostra de <span class=\"math inline\">\\(\\pu{1,03 g}\\)</span> da substância foi convertido\nem amônia e dissolvido em <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> de água. Foram necessários <span class=\"math inline\">\\(\\pu{27 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,5 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> para titular a solução de\namônia.</p>\n<p><strong>Determine</strong> a fórmula empírica da substância</p>",
+        "md": "Uma substância desconhecida é composta de carbono, hidrogênio, oxigênio\ne nitrogênio. Quando uma amostra de $\\pu{1,57 g}$ dessa substância é\nqueimada, são formados $\\pu{0,31 g}$ de água e $\\pu{2,13 g}$ de dióxido\nde carbono.\n\nEm outro experimento, todo nitrogênio de uma amostra de $\\pu{1,03 g}$ da\nsubstância foi convertido em amônia e dissolvido em $\\pu{50 mL}$ de\nágua. Foram necessários $\\pu{27 mL}$ de uma solução $\\pu{0,5 mol.L-1}$\nde $\\ce{HCl}$ para titular a solução de amônia.\n\n**Determine** a fórmula empírica da substância\n",
+        "tex": "Uma substância desconhecida é composta de carbono, hidrogênio, oxigênio e nitrogênio. Quando uma amostra de {\\(\\qty{1,57}{\\unit{g}}\\)} dessa\nsubstância é queimada, são formados {\\(\\qty{0,31}{\\unit{g}}\\)} de água e {\\(\\qty{2,13}{\\unit{g}}\\)} de dióxido de carbono.\n\nEm outro experimento, todo nitrogênio de uma amostra de {\\(\\qty{1,03}{\\unit{g}}\\)} da substância foi convertido em amônia e dissolvido em\n{\\(\\qty{50}{\\unit{mL}}\\)} de água. Foram necessários {\\(\\qty{27}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)}\npara titular a solução de amônia.\n\n\\textbf{Determine} a fórmula empírica da substância\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C7H5N3O6}\\)</span></p>\n",
+          "md": "$\\ce{C7H5N3O6}$",
+          "tex": "\\(\\ce{C7H5N3O6}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6216,14 +6248,25 @@
     {
       "id_": "3F38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F38/3F38.md",
-      "date": "2023-03-12T15:40:56.231904",
+      "date": "2023-03-14T19:25:52.629168",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um frasco contendo <span class=\"math inline\">\\(\\pu{500 L}\\)</span> de\numa solução de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> não foi protegido do ar\napós a padronização e absorveu <span class=\"math inline\">\\(\\pu{616\nmg}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span>. Foram\nnecessários <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> dessa\nsolução para titular <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\numa solução de ácido acético.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a concentração da solução de ácido\nacético</li>\n<li><strong>Determine</strong> o erro relativo na determinação da\nconcentração se a absorção de <span class=\"math inline\">\\(\\ce{CO2}\\)</span> não for considerada.</li>\n</ol>",
+        "md": "Um frasco contendo $\\pu{500 L}$ de uma solução de $\\ce{NaOH}$\n$\\pu{0,1 mol.L-1}$ não foi protegido do ar após a padronização e\nabsorveu $\\pu{616 mg}$ de $\\ce{CO2}$. Foram necessários $\\pu{50 mL}$\ndessa solução para titular $\\pu{100 mL}$ de uma solução de ácido\nacético.\n\na.  **Determine** a concentração da solução de ácido acético\nb.  **Determine** o erro relativo na determinação da concentração se a\n    absorção de $\\ce{CO2}$ não for considerada.\n",
+        "tex": "Um frasco contendo {\\(\\qty{500}{\\unit{L}}\\)} de uma solução de {\\(\\ce{NaOH}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} não foi protegido do ar após a\npadronização e absorveu {\\(\\qty{616}{\\unit{mg}}\\)} de {\\(\\ce{CO2}\\)}. Foram necessários {\\(\\qty{50}{\\unit{mL}}\\)} dessa solução para titular\n{\\(\\qty{100}{\\unit{mL}}\\)} de uma solução de ácido acético.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração da solução de ácido acético\n\\item\n  \\textbf{Determine} o erro relativo na determinação da concentração se a absorção de {\\(\\ce{CO2}\\)} não for considerada.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{36 mmol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{36 mmol.L-1}$",
+          "tex": "\\(\\qty{36}{\\unit{mmol.L^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{39\\%}\\)</span></p>\n",
+          "md": "$\\pu{39\\%}$",
+          "tex": "\\(\\qty{39}{\\unit{\\%}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6270,9 +6313,95 @@
       "correct_choice": 0
     },
     {
+      "id_": "3F54",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F54/3F54.md",
+      "date": "2023-03-14T19:30:39.537359",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F53",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F53/3F53.md",
+      "date": "2023-03-14T19:30:39.533359",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3F29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F29/3F29.md",
-      "date": "2023-03-12T15:40:56.223904",
+      "date": "2023-03-14T17:50:12.168735",
+      "statement": {
+        "html": "<p>Considere os ácidos: <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>,\n<span class=\"math inline\">\\(\\ce{C6H5NH3^+}\\)</span>, <span class=\"math inline\">\\(\\ce{H2PO4^-}\\)</span>, <span class=\"math inline\">\\(\\ce{HCOOH}\\)</span> e <span class=\"math inline\">\\(\\ce{NH2NH3^+}\\)</span></p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> o equilíbrio de transferência de prótons\ndos ácidos com água.</li>\n<li><strong>Identifique</strong> os pares ácido-base conjugados na\ntransferência de prótons dos ácidos com água.</li>\n</ol>",
+        "md": "Considere os ácidos: $\\ce{H2SO4}$, $\\ce{C6H5NH3^+}$, $\\ce{H2PO4^-}$,\n$\\ce{HCOOH}$ e $\\ce{NH2NH3^+}$\n\na.  **Apresente** o equilíbrio de transferência de prótons dos ácidos\n    com água.\nb.  **Identifique** os pares ácido-base conjugados na transferência de\n    prótons dos ácidos com água.\n",
+        "tex": "Considere os ácidos: {\\(\\ce{H2SO4}\\)}, {\\(\\ce{C6H5NH3^+}\\)}, {\\(\\ce{H2PO4^-}\\)}, {\\(\\ce{HCOOH}\\)} e {\\(\\ce{NH2NH3^+}\\)}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} o equilíbrio de transferência de prótons dos ácidos com água.\n\\item\n  \\textbf{Identifique} os pares ácido-base conjugados na transferência de prótons dos ácidos com água.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ H2SO4(aq) + H2O(l) &lt;=&gt;\nHSO4^-(aq) + H3O^+(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ H2SO4(aq) + H2O(l) <=> HSO4^-(aq) + H3O^+(aq) }$",
+          "tex": "\\(\\ce{ H2SO4(aq) + H2O(l) <=> HSO4^-(aq) + H3O^+(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ C6H5NH3^+(aq) + H2O(l) &lt;=&gt;\nC6H5NH2(aq) + H3O^+(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ C6H5NH3^+(aq) + H2O(l) <=> C6H5NH2(aq) + H3O^+(aq) }$",
+          "tex": "\\(\\ce{ C6H5NH3^+(aq) + H2O(l) <=> C6H5NH2(aq) + H3O^+(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ H2PO4^-(aq) + H2O(l) &lt;=&gt;\nH2PO4^{2-}(aq) + H3O^+(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ H2PO4^-(aq) + H2O(l) <=> H2PO4^{2-}(aq) + H3O^+(aq) }$",
+          "tex": "\\(\\ce{ H2PO4^-(aq) + H2O(l) <=> H2PO4^{2-}(aq) + H3O^+(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ HCOOH(aq) + H2O(l) &lt;=&gt;\nHCOO^-(aq) + H3O^+(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ HCOOH(aq) + H2O(l) <=> HCOO^-(aq) + H3O^+(aq) }$",
+          "tex": "\\(\\ce{ HCOOH(aq) + H2O(l) <=> HCOO^-(aq) + H3O^+(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ NH2NH3^+(aq) + H2O(l) &lt;=&gt;\nNH2NH2(aq) + H3O^+(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ NH2NH3^+(aq) + H2O(l) <=> NH2NH2(aq) + H3O^+(aq) }$",
+          "tex": "\\(\\ce{ NH2NH3^+(aq) + H2O(l) <=> NH2NH2(aq) + H3O^+(aq) }\\)\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F55",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F55/3F55.md",
+      "date": "2023-03-14T19:30:39.537359",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F47",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F47/3F47.md",
+      "date": "2023-03-14T19:30:39.521360",
       "statement": {
         "html": "",
         "md": "\n",
@@ -6367,6 +6496,21 @@
       "correct_choice": 3
     },
     {
+      "id_": "3F42",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F42/3F42.md",
+      "date": "2023-03-14T19:32:57.711496",
+      "statement": {
+        "html": "<p>Foi borbulhado ar em CNTP a <span class=\"math inline\">\\(\\pu{30,0\nL.min-1}\\)</span> por uma solução com <span class=\"math inline\">\\(\\pu{75\nmL}\\)</span> de uma solução a <span class=\"math inline\">\\(1\\%\\)</span>\nde peróxido de hidrogênio. O <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> converte o <span class=\"math inline\">\\(\\ce{SO2}\\)</span> do ar em ácido sulfúrico. Após\ndez minutos o <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> foi\ntitulado com <span class=\"math inline\">\\(\\ce{10 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,002 mol L-1}\\)</span> em\nhidróxido de sódio</p>\n<ul>\n<li><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> no ar em partes por milhão.</li>\n<li></li>\n</ul>",
+        "md": "Foi borbulhado ar em CNTP a $\\pu{30,0 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol L-1}$ em hidróxido de sódio\n\n-   **Determine** a concentração de $\\ce{SO2}$ no ar em partes por\n    milhão.\n-   \n",
+        "tex": "Foi borbulhado ar em CNTP a {\\(\\qty{30,0}{\\unit{L.min^{-1}}}\\)} por uma solução com {\\(\\qty{75}{\\unit{mL}}\\)} de uma solução a {\\(1\\%\\)} de peróxido\nde hidrogênio. O {\\(\\ce{H2O2}\\)} converte o {\\(\\ce{SO2}\\)} do ar em ácido sulfúrico. Após dez minutos o {\\(\\ce{H2SO4}\\)} foi titulado com\n{\\(\\ce{10 mL}\\)} de uma solução {\\(\\qty{0,002}{\\unit{mol L^{-1}}}\\)} em hidróxido de sódio\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{SO2}\\)} no ar em partes por milhão.\n\\item\n\\end{itemize}\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3F10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F10/3F10.md",
       "date": "2023-03-13T19:35:19.266834",
@@ -6408,9 +6552,24 @@
       "correct_choice": 2
     },
     {
+      "id_": "3F50",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F50/3F50.md",
+      "date": "2023-03-14T19:30:39.529359",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3F14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F14/3F14.md",
-      "date": "2023-03-13T19:41:18.524907",
+      "date": "2023-03-14T19:30:00.913196",
       "statement": {
         "html": "<p>Considere os compostos: <span class=\"math inline\">\\(\\ce{SO2}\\)</span>, <span class=\"math inline\">\\(\\ce{I^-}\\)</span>, <span class=\"math inline\">\\(\\ce{CH3S^-}\\)</span>, <span class=\"math inline\">\\(\\ce{NH2^-}\\)</span>, <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o caráter ácido-base de\nLewis de cada composto, respectivamente.</p>",
         "md": "Considere os compostos: $\\ce{SO2}$, $\\ce{I^-}$, $\\ce{CH3S^-}$,\n$\\ce{NH2^-}$, $\\ce{NO2}$.\n\n**Assinale** a alternativa com o caráter ácido-base de Lewis de cada\ncomposto, respectivamente.\n",
@@ -6574,14 +6733,40 @@
     {
       "id_": "3F28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F28/3F28.md",
-      "date": "2023-03-12T15:40:56.219904",
+      "date": "2023-03-14T17:46:11.379088",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Apresente</strong> a equação balanceada para as reações.</p>\n<ol type=\"a\">\n<li><span class=\"math inline\">\\(\\ce{ NaOH(aq) + HCl(aq) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NH4Cl(aq) + KOH(aq) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NaHCO3(aq) + HBr(aq) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Na2SO3(aq) + HCl(aq) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Na2S2O3(aq) + HCl(aq) -&gt;\n}\\)</span></li>\n</ol>",
+        "md": "**Apresente** a equação balanceada para as reações.\n\na.  $\\ce{ NaOH(aq) + HCl(aq) -> }$\nb.  $\\ce{ NH4Cl(aq) + KOH(aq) -> }$\nc.  $\\ce{ NaHCO3(aq) + HBr(aq) -> }$\nd.  $\\ce{ Na2SO3(aq) + HCl(aq) -> }$\ne.  $\\ce{ Na2S2O3(aq) + HCl(aq) -> }$\n",
+        "tex": "\\textbf{Apresente} a equação balanceada para as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ NaOH(aq) + HCl(aq) -> }\\)}\n\\item\n  {\\(\\ce{ NH4Cl(aq) + KOH(aq) -> }\\)}\n\\item\n  {\\(\\ce{ NaHCO3(aq) + HBr(aq) -> }\\)}\n\\item\n  {\\(\\ce{ Na2SO3(aq) + HCl(aq) -> }\\)}\n\\item\n  {\\(\\ce{ Na2S2O3(aq) + HCl(aq) -> }\\)}\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ NaOH(aq) + HCl(aq) -&gt; NaCl(aq) +\nH2O(l) }\\)</span></p>\n",
+          "md": "$\\ce{ NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l) }$",
+          "tex": "\\(\\ce{ NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ NH4Cl(aq) + KOH(aq) -&gt; NH3(g) +\nKCl(aq) + H2O(l) }\\)</span></p>\n",
+          "md": "$\\ce{ NH4Cl(aq) + KOH(aq) -> NH3(g) + KCl(aq) + H2O(l) }$",
+          "tex": "\\(\\ce{ NH4Cl(aq) + KOH(aq) -> NH3(g) + KCl(aq) + H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ NaHCO3(aq) + HBr(aq) -&gt; NaBr(aq)\n+ CO2(g) + H2O(l) }\\)</span></p>\n",
+          "md": "$\\ce{ NaHCO3(aq) + HBr(aq) -> NaBr(aq) + CO2(g) + H2O(l) }$",
+          "tex": "\\(\\ce{ NaHCO3(aq) + HBr(aq) -> NaBr(aq) + CO2(g) + H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ Na2SO3(aq) + 2 HCl(aq) -&gt; 2\nNaCl(aq) + SO2(g) + H2O(l) }\\)</span></p>\n",
+          "md": "$\\ce{ Na2SO3(aq) + 2 HCl(aq) -> 2 NaCl(aq) + SO2(g) + H2O(l) }$",
+          "tex": "\\(\\ce{ Na2SO3(aq) + 2 HCl(aq) -> 2 NaCl(aq) + SO2(g) + H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ Na2S2O3(aq) + 2 HCl(aq) -&gt; 2\nNaCl(aq) + SO2(g) + S(s) + H2O(l) }\\)</span></p>\n",
+          "md": "$\\ce{ Na2S2O3(aq) + 2 HCl(aq) -> 2 NaCl(aq) + SO2(g) + S(s) + H2O(l) }$",
+          "tex": "\\(\\ce{ Na2S2O3(aq) + 2 HCl(aq) -> 2 NaCl(aq) + SO2(g) + S(s) + H2O(l) }\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6630,14 +6815,25 @@
     {
       "id_": "3F32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F32/3F32.md",
-      "date": "2023-03-12T15:40:56.227904",
+      "date": "2023-03-14T18:07:13.987415",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Apresente</strong> a estrutura de Lewis do produto das\nreações.</p>\n<ol type=\"a\">\n<li><span class=\"math inline\">\\(\\ce{ BrF3(g) + F^-(g) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Cl^-(g) + FeCl3(g) -&gt;\n}\\)</span></li>\n</ol>",
+        "md": "**Apresente** a estrutura de Lewis do produto das reações.\n\na.  $\\ce{ BrF3(g) + F^-(g) -> }$\nb.  $\\ce{ Cl^-(g) + FeCl3(g) -> }$\n",
+        "tex": "\\textbf{Apresente} a estrutura de Lewis do produto das reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ BrF3(g) + F^-(g) -> }\\)}\n\\item\n  {\\(\\ce{ Cl^-(g) + FeCl3(g) -> }\\)}\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{BrF4^-}\\)</span></p>\n",
+          "md": "$\\ce{BrF4^-}$",
+          "tex": "\\(\\ce{BrF4^-}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{FeCl4^-}\\)</span></p>\n",
+          "md": "$\\ce{FeCl4^-}$",
+          "tex": "\\(\\ce{FeCl4^-}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6682,6 +6878,21 @@
         }
       ],
       "correct_choice": 0
+    },
+    {
+      "id_": "3F52",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F52/3F52.md",
+      "date": "2023-03-14T19:30:39.529359",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "3F17",
@@ -6766,6 +6977,21 @@
       "correct_choice": 2
     },
     {
+      "id_": "3F49",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F49/3F49.md",
+      "date": "2023-03-14T19:30:39.525360",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3F21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F21/3F21.md",
       "date": "2023-03-13T20:46:30.627015",
@@ -6805,6 +7031,21 @@
         }
       ],
       "correct_choice": 3
+    },
+    {
+      "id_": "3F56",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F56/3F56.md",
+      "date": "2023-03-14T19:30:39.537359",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "3F03",
@@ -6848,9 +7089,9 @@
       "correct_choice": 2
     },
     {
-      "id_": "3F33",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F33/3F33.md",
-      "date": "2023-03-13T20:51:38.042398",
+      "id_": "3F51",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F51/3F51.md",
+      "date": "2023-03-14T19:30:39.529359",
       "statement": {
         "html": "",
         "md": "\n",
@@ -6863,9 +7104,9 @@
       "correct_choice": null
     },
     {
-      "id_": "3F34",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F34/3F34.md",
-      "date": "2023-03-13T20:51:47.660382",
+      "id_": "3F44",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F44/3F44.md",
+      "date": "2023-03-14T19:30:39.517360",
       "statement": {
         "html": "",
         "md": "\n",
@@ -6873,6 +7114,78 @@
       },
       "solution": null,
       "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F45",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F45/3F45.md",
+      "date": "2023-03-14T19:30:39.517360",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F33/3F33.md",
+      "date": "2023-03-14T18:19:57.692878",
+      "statement": {
+        "html": "<p>Um ácido diprótico desconhecido é composto de carbono, hidrogênio e\noxigênio. Quando uma amostra de <span class=\"math inline\">\\(\\pu{10\ng}\\)</span> do ácido é queimada, são formados <span class=\"math inline\">\\(\\pu{4,03 g}\\)</span> de água e <span class=\"math inline\">\\(\\pu{9,79 g}\\)</span> de dióxido de carbono.</p>\n<p>Em outro experimento, uma amostra de <span class=\"math inline\">\\(\\pu{0,09 g}\\)</span> do ácido foi dissolvida em\n<span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de água e titulada com\n<span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,04 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica do ácido.</li>\n<li><strong>Determine</strong> a massa molar do ácido.</li>\n<li><strong>Determine</strong> a fórmula molecular do ácido.</li>\n</ol>",
+        "md": "Um ácido diprótico desconhecido é composto de carbono, hidrogênio e\noxigênio. Quando uma amostra de $\\pu{10 g}$ do ácido é queimada, são\nformados $\\pu{4,03 g}$ de água e $\\pu{9,79 g}$ de dióxido de carbono.\n\nEm outro experimento, uma amostra de $\\pu{0,09 g}$ do ácido foi\ndissolvida em $\\pu{30 mL}$ de água e titulada com $\\pu{50 mL}$ de uma\nsolução $\\pu{0,04 mol.L-1}$ de $\\ce{NaOH}$.\n\na.  **Determine** a fórmula empírica do ácido.\nb.  **Determine** a massa molar do ácido.\nc.  **Determine** a fórmula molecular do ácido.\n",
+        "tex": "Um ácido diprótico desconhecido é composto de carbono, hidrogênio e oxigênio. Quando uma amostra de {\\(\\qty{10}{\\unit{g}}\\)} do ácido é queimada, são\nformados {\\(\\qty{4,03}{\\unit{g}}\\)} de água e {\\(\\qty{9,79}{\\unit{g}}\\)} de dióxido de carbono.\n\nEm outro experimento, uma amostra de {\\(\\qty{0,09}{\\unit{g}}\\)} do ácido foi dissolvida em {\\(\\qty{30}{\\unit{mL}}\\)} de água e titulada com\n{\\(\\qty{50}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,04}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{NaOH}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica do ácido.\n\\item\n  \\textbf{Determine} a massa molar do ácido.\n\\item\n  \\textbf{Determine} a fórmula molecular do ácido.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{CH2O}\\)</span></p>\n",
+          "md": "$\\ce{CH2O}$",
+          "tex": "\\(\\ce{CH2O}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{90 g.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{90 g.mol-1}$",
+          "tex": "\\(\\qty{90}{\\unit{g.mol^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C2H2O4}\\)</span></p>\n",
+          "md": "$\\ce{C2H2O4}$",
+          "tex": "\\(\\ce{C2H2O4}\\)\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F34/3F34.md",
+      "date": "2023-03-14T18:30:02.639541",
+      "statement": {
+        "html": "<p>O ácido cítrico é composto de carbono, hidrogênio e oxigênio e tem\nmassa molar <span class=\"math inline\">\\(\\pu{192 g.mol-1}\\)</span>.\nQuando uma amostra de <span class=\"math inline\">\\(\\pu{3,84 g}\\)</span>\ndo ácido é queimada, são formados <span class=\"math inline\">\\(\\pu{1,44\ng}\\)</span> de água e <span class=\"math inline\">\\(\\pu{5,28 g}\\)</span>\nde dióxido de carbono.</p>\n<p>Em outro experimento, uma amostra de <span class=\"math inline\">\\(\\pu{0,25 g}\\)</span> de ácido cítrico foi\ndissolvida em <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de água e\ntitulada com <span class=\"math inline\">\\(\\pu{39 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula molecular do ácido\ncítrico.</li>\n<li><strong>Determine</strong> o número de hidrogênios ionizáveis na\nmolécula de ácido cítrico.</li>\n</ol>",
+        "md": "O ácido cítrico é composto de carbono, hidrogênio e oxigênio e tem massa\nmolar $\\pu{192 g.mol-1}$. Quando uma amostra de $\\pu{3,84 g}$ do ácido é\nqueimada, são formados $\\pu{1,44 g}$ de água e $\\pu{5,28 g}$ de dióxido\nde carbono.\n\nEm outro experimento, uma amostra de $\\pu{0,25 g}$ de ácido cítrico foi\ndissolvida em $\\pu{25 mL}$ de água e titulada com $\\pu{39 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ de $\\ce{KOH}$.\n\na.  **Determine** a fórmula molecular do ácido cítrico.\nb.  **Determine** o número de hidrogênios ionizáveis na molécula de\n    ácido cítrico.\n",
+        "tex": "O ácido cítrico é composto de carbono, hidrogênio e oxigênio e tem massa molar {\\(\\qty{192}{\\unit{g.mol^{-1}}}\\)}. Quando uma amostra de\n{\\(\\qty{3,84}{\\unit{g}}\\)} do ácido é queimada, são formados {\\(\\qty{1,44}{\\unit{g}}\\)} de água e {\\(\\qty{5,28}{\\unit{g}}\\)} de dióxido de carbono.\n\nEm outro experimento, uma amostra de {\\(\\qty{0,25}{\\unit{g}}\\)} de ácido cítrico foi dissolvida em {\\(\\qty{25}{\\unit{mL}}\\)} de água e titulada com\n{\\(\\qty{39}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{KOH}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula molecular do ácido cítrico.\n\\item\n  \\textbf{Determine} o número de hidrogênios ionizáveis na molécula de ácido cítrico.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C6H8O7}\\)</span></p>\n",
+          "md": "$\\ce{C6H8O7}$",
+          "tex": "\\(\\ce{C6H8O7}\\)\n"
+        },
+        {
+          "html": "<p>3</p>\n",
+          "md": "3",
+          "tex": "3\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6921,7 +7234,54 @@
     {
       "id_": "3F39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F39/3F39.md",
-      "date": "2023-03-12T15:40:56.235904",
+      "date": "2023-03-14T19:29:29.236327",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{700 mg}\\)</span> de\nfarinha de trigo foi analisada pelo método Kjeldahl. Neste método, a\namostra é decomposta em meio de ácido sulfúrico concentrado a quente\npara converter o nitrogênio das proteínas em íons amônio. A amônia\nformada pela adição de uma base concentrada após a digestão com <span class=\"math inline\">\\(\\pu{H2SO4}\\)</span> foi destilada em <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,05 mol.dm-3}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>. O excesso de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> foi retrotitulado com <span class=\"math inline\">\\(\\ce{5 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\ce{0,05 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span>. O nitrogênio representa <span class=\"math inline\">\\(20\\%\\)</span> da massa das proteínas do trigo.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a reação que ocorre entre a amônia e o\nácido clorídrico.</li>\n<li><strong>Determine</strong> fração de proteína na farinha.</li>\n</ol>",
+        "md": "Uma amostra de $\\pu{700 mg}$ de farinha de trigo foi analisada pelo\nmétodo Kjeldahl. Neste método, a amostra é decomposta em meio de ácido\nsulfúrico concentrado a quente para converter o nitrogênio das proteínas\nem íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com $\\pu{H2SO4}$ foi destilada em $\\pu{25 mL}$ de uma\nsolução $\\pu{0,05 mol.dm-3}$ de $\\ce{HCl}$. O excesso de $\\ce{HCl}$ foi\nretrotitulado com $\\ce{5 mL}$ de uma solução $\\ce{0,05 mol.L-1}$ de\n$\\ce{NaOH}$. O nitrogênio representa $20\\%$ da massa das proteínas do\ntrigo.\n\na.  **Apresente** a reação que ocorre entre a amônia e o ácido\n    clorídrico.\nb.  **Determine** fração de proteína na farinha.\n",
+        "tex": "Uma amostra de {\\(\\qty{700}{\\unit{mg}}\\)} de farinha de trigo foi analisada pelo método Kjeldahl. Neste método, a amostra é decomposta em meio de\nácido sulfúrico concentrado a quente para converter o nitrogênio das proteínas em íons amônio. A amônia formada pela adição de uma base concentrada\napós a digestão com {\\(\\unit{H^{2}SO^{4}}\\)} foi destilada em {\\(\\qty{25}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,05}{\\unit{mol.dm^{-3}}}\\)} de\n{\\(\\ce{HCl}\\)}. O excesso de {\\(\\ce{HCl}\\)} foi retrotitulado com {\\(\\ce{5 mL}\\)} de uma solução {\\(\\ce{0,05 mol.L-1}\\)} de {\\(\\ce{NaOH}\\)}. O\nnitrogênio representa {\\(20\\%\\)} da massa das proteínas do trigo.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a reação que ocorre entre a amônia e o ácido clorídrico.\n\\item\n  \\textbf{Determine} fração de proteína na farinha.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ NH3(aq) + HCl(aq) -&gt; NH4Cl(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ NH3(aq) + HCl(aq) -> NH4Cl(aq) }$",
+          "tex": "\\(\\ce{ NH3(aq) + HCl(aq) -> NH4Cl(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(10\\%\\)</span></p>\n",
+          "md": "$10\\%$",
+          "tex": "\\(10\\%\\)\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F35/3F35.md",
+      "date": "2023-03-14T18:32:20.485826",
+      "statement": {
+        "html": "<p>Uma substância desconhecida é composta de carbono, hidrogênio,\noxigênio e nitrogênio. Quando uma amostra de <span class=\"math inline\">\\(\\pu{1,77 g}\\)</span> dessa substância é queimada,\nsão formados <span class=\"math inline\">\\(\\pu{1,35 g}\\)</span> de água e\n<span class=\"math inline\">\\(\\pu{2,64 g}\\)</span> de dióxido de\ncarbono.</p>\n<p>Em outro experimento, todo nitrogênio de uma amostra de <span class=\"math inline\">\\(\\pu{0,885 g}\\)</span> da substância foi convertido\nem amônia e dissolvido em <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> de água. Foram necessários <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,5 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> para titular a solução de\namônia.</p>\n<p><strong>Determine</strong> a fórmula empírica da substância</p>",
+        "md": "Uma substância desconhecida é composta de carbono, hidrogênio, oxigênio\ne nitrogênio. Quando uma amostra de $\\pu{1,77 g}$ dessa substância é\nqueimada, são formados $\\pu{1,35 g}$ de água e $\\pu{2,64 g}$ de dióxido\nde carbono.\n\nEm outro experimento, todo nitrogênio de uma amostra de $\\pu{0,885 g}$\nda substância foi convertido em amônia e dissolvido em $\\pu{50 mL}$ de\nágua. Foram necessários $\\pu{15 mL}$ de uma solução $\\pu{0,5 mol.L-1}$\nde $\\ce{H2SO4}$ para titular a solução de amônia.\n\n**Determine** a fórmula empírica da substância\n",
+        "tex": "Uma substância desconhecida é composta de carbono, hidrogênio, oxigênio e nitrogênio. Quando uma amostra de {\\(\\qty{1,77}{\\unit{g}}\\)} dessa\nsubstância é queimada, são formados {\\(\\qty{1,35}{\\unit{g}}\\)} de água e {\\(\\qty{2,64}{\\unit{g}}\\)} de dióxido de carbono.\n\nEm outro experimento, todo nitrogênio de uma amostra de {\\(\\qty{0,885}{\\unit{g}}\\)} da substância foi convertido em amônia e dissolvido em\n{\\(\\qty{50}{\\unit{mL}}\\)} de água. Foram necessários {\\(\\qty{15}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{H2SO4}\\)}\npara titular a solução de amônia.\n\n\\textbf{Determine} a fórmula empírica da substância\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{C2H5NO}\\)</span></p>\n",
+          "md": "$\\ce{C2H5NO}$",
+          "tex": "\\(\\ce{C2H5NO}\\)\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "3F46",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F46/3F46.md",
+      "date": "2023-03-14T19:30:39.521360",
       "statement": {
         "html": "",
         "md": "\n",
@@ -6934,16 +7294,22 @@
       "correct_choice": null
     },
     {
-      "id_": "3F35",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F35/3F35.md",
-      "date": "2023-03-12T15:40:56.231904",
+      "id_": "3F41",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F41/3F41.md",
+      "date": "2023-03-14T19:31:03.746943",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram, <span class=\"math inline\">\\(\\ce{C10H20N2S4}\\)</span>. O enxofre em <span class=\"math inline\">\\(\\pu{600 mg}\\)</span> de uma amostra para\npreparação de Antabuse foi oxidado a <span class=\"math inline\">\\(\\ce{SO2}\\)</span>, o qual foi absorvido em <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> para gerar <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>. O ácido foi titulado com\n<span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de hidróxido de sódio\n<span class=\"math inline\">\\(\\pu{0,04 mol L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica do princípio ativo na preparação.</p>",
+        "md": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n$\\ce{C10H20N2S4}$. O enxofre em $\\pu{600 mg}$ de uma amostra para\npreparação de Antabuse foi oxidado a $\\ce{SO2}$, o qual foi absorvido em\n$\\ce{H2O2}$ para gerar $\\ce{H2SO4}$. O ácido foi titulado com\n$\\pu{20 mL}$ de hidróxido de sódio $\\pu{0,04 mol L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica do\nprincípio ativo na preparação.\n",
+        "tex": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de alcoolismo crônico, é o dissulfeto de tetraetiltiuram, {\\(\\ce{C10H20N2S4}\\)}. O\nenxofre em {\\(\\qty{600}{\\unit{mg}}\\)} de uma amostra para preparação de Antabuse foi oxidado a {\\(\\ce{SO2}\\)}, o qual foi absorvido em {\\(\\ce{H2O2}\\)}\npara gerar {\\(\\ce{H2SO4}\\)}. O ácido foi titulado com {\\(\\qty{20}{\\unit{mL}}\\)} de hidróxido de sódio {\\(\\qty{0,04}{\\unit{mol L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica do princípio ativo na preparação.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(10\\%\\)</span></p>\n",
+          "md": "$10\\%$",
+          "tex": "\\(10\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7074,14 +7440,25 @@
     {
       "id_": "3F37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F37/3F37.md",
-      "date": "2023-03-12T15:40:56.231904",
+      "date": "2023-03-14T18:47:50.601634",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um frasco contendo <span class=\"math inline\">\\(\\pu{1 L}\\)</span> de\numa solução de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,15 mol.L-1}\\)</span> não foi protegido do ar\napós a padronização e absorveu <span class=\"math inline\">\\(\\pu{528\nmg}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span>. Uma\nalíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> dessa\nsolução foi titulada com uma solução <span class=\"math inline\">\\(\\pu{1\nmol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a reação de absorção do <span class=\"math inline\">\\(\\ce{CO2}\\)</span> pela solução.</li>\n<li><strong>Determine</strong> o volume da solução de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> utilizado na titulação.</li>\n</ol>",
+        "md": "Um frasco contendo $\\pu{1 L}$ de uma solução de $\\ce{NaOH}$\n$\\pu{0,15 mol.L-1}$ não foi protegido do ar após a padronização e\nabsorveu $\\pu{528 mg}$ de $\\ce{CO2}$. Uma alíquota de $\\pu{100 mL}$\ndessa solução foi titulada com uma solução $\\pu{1 mol.L-1}$ de\n$\\ce{HCl}$.\n\na.  **Apresente** a reação de absorção do $\\ce{CO2}$ pela solução.\nb.  **Determine** o volume da solução de $\\ce{HCl}$ utilizado na\n    titulação.\n",
+        "tex": "Um frasco contendo {\\(\\qty{1}{\\unit{L}}\\)} de uma solução de {\\(\\ce{NaOH}\\)} {\\(\\qty{0,15}{\\unit{mol.L^{-1}}}\\)} não foi protegido do ar após a\npadronização e absorveu {\\(\\qty{528}{\\unit{mg}}\\)} de {\\(\\ce{CO2}\\)}. Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} dessa solução foi titulada com uma\nsolução {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a reação de absorção do {\\(\\ce{CO2}\\)} pela solução.\n\\item\n  \\textbf{Determine} o volume da solução de {\\(\\ce{HCl}\\)} utilizado na titulação.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ CO2(g) + NaOH(aq) -&gt; NaHCO3(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ CO2(g) + NaOH(aq) -> NaHCO3(aq) }$",
+          "tex": "\\(\\ce{ CO2(g) + NaOH(aq) -> NaHCO3(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{13,8 mL}\\)</span></p>\n",
+          "md": "$\\pu{13,8 mL}$",
+          "tex": "\\(\\qty{13,8}{\\unit{mL}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7089,11 +7466,11 @@
     {
       "id_": "3F40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F40/3F40.md",
-      "date": "2023-03-12T15:40:56.235904",
+      "date": "2023-03-14T19:30:07.352558",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O <em>Index Merck</em> indica que <span class=\"math inline\">\\(\\pu{10\nmg}\\)</span> de guanidina, <span class=\"math inline\">\\(\\ce{CH5N3}\\)</span>, pode ser administrada para\ncada quilograma de peso corporal no tratamento da miastenia grave. O\nnitrogênio em uma amostra de quatro tabletes, que pesou um total de\n<span class=\"math inline\">\\(\\pu{7,5 g}\\)</span>, foi convertido em\namônia, seguida por destilação em <span class=\"math inline\">\\(\\ce{100\nmL}\\)</span> de uma solução <span class=\"math inline\">\\({0,175 mol\nL-1}\\)</span> em <span class=\"math inline\">\\(\\ce{HCl}\\)</span>. O\nexcesso de ácido foi retrotitulado com <span class=\"math inline\">\\(\\pu{12 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em hidróxido de\nsódio.</p>\n<p><strong>Determine</strong> o número de tabletes que representam uma\ndose apropriada para um paciente de <span class=\"math inline\">\\(\\pu{70\nkg}\\)</span>.</p>",
+        "md": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\ce{100 mL}$ de uma solução ${0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
+        "tex": "O \\emph{Index Merck} indica que {\\(\\qty{10}{\\unit{mg}}\\)} de guanidina, {\\(\\ce{CH5N3}\\)}, pode ser administrada para cada quilograma de peso corporal\nno tratamento da miastenia grave. O nitrogênio em uma amostra de quatro tabletes, que pesou um total de {\\(\\qty{7,5}{\\unit{g}}\\)}, foi convertido em\namônia, seguida por destilação em {\\(\\ce{100 mL}\\)} de uma solução {\\({0,175 mol L-1}\\)} em {\\(\\ce{HCl}\\)}. O excesso de ácido foi retrotitulado com\n{\\(\\qty{12}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em hidróxido de sódio.\n\n\\textbf{Determine} o número de tabletes que representam uma dose apropriada para um paciente de {\\(\\qty{70}{\\unit{kg}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -7225,6 +7602,21 @@
       "correct_choice": 1
     },
     {
+      "id_": "3F43",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F43/3F43.md",
+      "date": "2023-03-14T19:30:39.513361",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3F22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F22/3F22.md",
       "date": "2023-03-13T21:07:25.882695",
@@ -7268,14 +7660,25 @@
     {
       "id_": "3F31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F31/3F31.md",
-      "date": "2023-03-12T15:40:56.223904",
+      "date": "2023-03-14T18:06:29.486240",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Apresente</strong> a estrutura de Lewis do produto das\nreações.</p>\n<ol type=\"a\">\n<li><span class=\"math inline\">\\(\\ce{ PF5(g) + F^-(g) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Cl^-(g) + SO2(g) -&gt;\n}\\)</span></li>\n</ol>",
+        "md": "**Apresente** a estrutura de Lewis do produto das reações.\n\na.  $\\ce{ PF5(g) + F^-(g) -> }$\nb.  $\\ce{ Cl^-(g) + SO2(g) -> }$\n",
+        "tex": "\\textbf{Apresente} a estrutura de Lewis do produto das reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ PF5(g) + F^-(g) -> }\\)}\n\\item\n  {\\(\\ce{ Cl^-(g) + SO2(g) -> }\\)}\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{PF6^-}\\)</span></p>\n",
+          "md": "$\\ce{PF6^-}$",
+          "tex": "\\(\\ce{PF6^-}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{SO2Cl^-}\\)</span></p>\n",
+          "md": "$\\ce{SO2Cl^-}$",
+          "tex": "\\(\\ce{SO2Cl^-}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7324,14 +7727,40 @@
     {
       "id_": "3F27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F27/3F27.md",
-      "date": "2023-03-12T15:40:56.219904",
+      "date": "2023-03-14T13:05:54.606966",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Apresente</strong> a equação balanceada para as reações.</p>\n<ol type=\"a\">\n<li><span class=\"math inline\">\\(\\ce{ CO2(g) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ SO3(g) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ P4O10(s) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaO(s) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Li2O(s) + H2O(l) }\\)</span></li>\n</ol>",
+        "md": "**Apresente** a equação balanceada para as reações.\n\na.  $\\ce{ CO2(g) + H2O(l) }$\nb.  $\\ce{ SO3(g) + H2O(l) }$\nc.  $\\ce{ P4O10(s) + H2O(l) }$\nd.  $\\ce{ BaO(s) + H2O(l) }$\ne.  $\\ce{ Li2O(s) + H2O(l) }$\n",
+        "tex": "\\textbf{Apresente} a equação balanceada para as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ CO2(g) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ SO3(g) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ P4O10(s) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ BaO(s) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ Li2O(s) + H2O(l) }\\)}\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ CO2(g) + H2O(l) -&gt; H2CO3(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ CO2(g) + H2O(l) -> H2CO3(aq) }$",
+          "tex": "\\(\\ce{ CO2(g) + H2O(l) -> H2CO3(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ SO3(g) + H2O(l) -&gt; H2SO4(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ SO3(g) + H2O(l) -> H2SO4(aq) }$",
+          "tex": "\\(\\ce{ SO3(g) + H2O(l) -> H2SO4(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ P4O10(s) + 6 H2O(l) -&gt; 4\nH3PO4(aq) }\\)</span></p>\n",
+          "md": "$\\ce{ P4O10(s) + 6 H2O(l) -> 4 H3PO4(aq) }$",
+          "tex": "\\(\\ce{ P4O10(s) + 6 H2O(l) -> 4 H3PO4(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ BaO(s) + H2O(l) -&gt; Ba(OH)2(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ BaO(s) + H2O(l) -> Ba(OH)2(aq) }$",
+          "tex": "\\(\\ce{ BaO(s) + H2O(l) -> Ba(OH)2(aq) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ Li2O(s) + H2O(l) -&gt; 2 LiOH(aq)\n}\\)</span></p>\n",
+          "md": "$\\ce{ Li2O(s) + H2O(l) -> 2 LiOH(aq) }$",
+          "tex": "\\(\\ce{ Li2O(s) + H2O(l) -> 2 LiOH(aq) }\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7376,6 +7805,21 @@
         }
       ],
       "correct_choice": 1
+    },
+    {
+      "id_": "3F48",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F48/3F48.md",
+      "date": "2023-03-14T19:30:39.525360",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "3F20",
