@@ -6401,14 +6401,20 @@
     {
       "id_": "3F47",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F47/3F47.md",
-      "date": "2023-03-14T19:30:39.521360",
+      "date": "2023-03-15T13:50:29.712102",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. Uma amostra de <span class=\"math inline\">\\(\\pu{20 g}\\)</span> foi\ndiluída a <span class=\"math inline\">\\(\\ce{200 mL}\\)</span> em um balão\nvolumétrico. Uma alíquota de <span class=\"math inline\">\\(\\pu{20\nmL}\\)</span> da solução foi titulada com <span class=\"math inline\">\\(\\pu{60 mL}\\)</span> de uma solução aquosa <span class=\"math inline\">\\(\\pu{0,5 mol.L-1}\\)</span> de ácido clorídrico.</p>\n<p><strong>Determine</strong> a fração mássica de carbonato de sódio na\namostra.</p>",
+        "md": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de\nsódio. Uma amostra de $\\pu{20 g}$ foi diluída a $\\ce{200 mL}$ em um\nbalão volumétrico. Uma alíquota de $\\pu{20 mL}$ da solução foi titulada\ncom $\\pu{60 mL}$ de uma solução aquosa $\\pu{0,5 mol.L-1}$ de ácido\nclorídrico.\n\n**Determine** a fração mássica de carbonato de sódio na amostra.\n",
+        "tex": "Uma mistura sólida é composta de carbonato de sódio e bicarbonato de sódio. Uma amostra de {\\(\\qty{20}{\\unit{g}}\\)} foi diluída a {\\(\\ce{200 mL}\\)} em\num balão volumétrico. Uma alíquota de {\\(\\qty{20}{\\unit{mL}}\\)} da solução foi titulada com {\\(\\qty{60}{\\unit{mL}}\\)} de uma solução aquosa\n{\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de ácido clorídrico.\n\n\\textbf{Determine} a fração mássica de carbonato de sódio na amostra.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(45\\%\\)</span></p>\n",
+          "md": "$45\\%$",
+          "tex": "\\(45\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6457,11 +6463,11 @@
     {
       "id_": "3F07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F07/3F07.md",
-      "date": "2023-03-13T19:31:49.679621",
+      "date": "2023-03-15T14:00:37.251206",
       "statement": {
-        "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NH4I(aq) + H2O(l) -&gt; NH3(aq) + H3O^+(aq) +\nI^-(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NH4I(s) -&gt;[\\Delta] NH3(g) + HI(g)\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ CH3COOH(aq) + NH3(aq) -&gt; CH3CONH2(aq) +\nH2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NH4I(am) + KHNH2(am) -&gt; KI(am) + 2 NH3(l)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações\nácido-base de Brønsted-Lowry.</p>",
-        "md": "Considere as reações.\n\n1.  $\\ce{ NH4I(aq) + H2O(l) -> NH3(aq) + H3O^+(aq) + I^-(aq) }$\n2.  $\\ce{ NH4I(s) ->[\\Delta] NH3(g) + HI(g) }$\n3.  $\\ce{ CH3COOH(aq) + NH3(aq) -> CH3CONH2(aq) + H2O(l) }$\n4.  $\\ce{ NH4I(am) + KHNH2(am) -> KI(am) + 2 NH3(l) }$\n\n**Assinale** a alternativa que relaciona as reações ácido-base de\nBrønsted-Lowry.\n",
-        "tex": "Considere as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ NH4I(aq) + H2O(l) -> NH3(aq) + H3O^+(aq) + I^-(aq) }\\)}\n\\item\n  {\\(\\ce{ NH4I(s) ->[\\Delta] NH3(g) + HI(g) }\\)}\n\\item\n  {\\(\\ce{ CH3COOH(aq) + NH3(aq) -> CH3CONH2(aq) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ NH4I(am) + KHNH2(am) -> KI(am) + 2 NH3(l) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações ácido-base de Brønsted-Lowry.\n"
+        "html": "<p>Considere as reações.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{ NH4I(aq) + H2O(l) -&gt; NH3(aq) + H3O^+(aq) +\nI^-(aq) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NH4I(s) -&gt; NH3(g) + HI(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ CH3COOH(aq) + NH3(aq) -&gt; CH3CONH2(aq) +\nH2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ NH4I(am) + KHNH2(am) -&gt; KI(am) + 2 NH3(l)\n}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as reações\nácido-base de Brønsted-Lowry.</p>",
+        "md": "Considere as reações.\n\n1.  $\\ce{ NH4I(aq) + H2O(l) -> NH3(aq) + H3O^+(aq) + I^-(aq) }$\n2.  $\\ce{ NH4I(s) -> NH3(g) + HI(g) }$\n3.  $\\ce{ CH3COOH(aq) + NH3(aq) -> CH3CONH2(aq) + H2O(l) }$\n4.  $\\ce{ NH4I(am) + KHNH2(am) -> KI(am) + 2 NH3(l) }$\n\n**Assinale** a alternativa que relaciona as reações ácido-base de\nBrønsted-Lowry.\n",
+        "tex": "Considere as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ NH4I(aq) + H2O(l) -> NH3(aq) + H3O^+(aq) + I^-(aq) }\\)}\n\\item\n  {\\(\\ce{ NH4I(s) -> NH3(g) + HI(g) }\\)}\n\\item\n  {\\(\\ce{ CH3COOH(aq) + NH3(aq) -> CH3CONH2(aq) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ NH4I(am) + KHNH2(am) -> KI(am) + 2 NH3(l) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as reações ácido-base de Brønsted-Lowry.\n"
       },
       "solution": null,
       "answer": null,
@@ -6498,11 +6504,11 @@
     {
       "id_": "3F42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F42/3F42.md",
-      "date": "2023-03-14T19:32:57.711496",
+      "date": "2023-03-15T13:00:37.061456",
       "statement": {
-        "html": "<p>Foi borbulhado ar em CNTP a <span class=\"math inline\">\\(\\pu{30,0\nL.min-1}\\)</span> por uma solução com <span class=\"math inline\">\\(\\pu{75\nmL}\\)</span> de uma solução a <span class=\"math inline\">\\(1\\%\\)</span>\nde peróxido de hidrogênio. O <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> converte o <span class=\"math inline\">\\(\\ce{SO2}\\)</span> do ar em ácido sulfúrico. Após\ndez minutos o <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> foi\ntitulado com <span class=\"math inline\">\\(\\ce{10 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,002 mol L-1}\\)</span> em\nhidróxido de sódio</p>\n<ul>\n<li><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> no ar em partes por milhão.</li>\n<li></li>\n</ul>",
-        "md": "Foi borbulhado ar em CNTP a $\\pu{30,0 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol L-1}$ em hidróxido de sódio\n\n-   **Determine** a concentração de $\\ce{SO2}$ no ar em partes por\n    milhão.\n-   \n",
-        "tex": "Foi borbulhado ar em CNTP a {\\(\\qty{30,0}{\\unit{L.min^{-1}}}\\)} por uma solução com {\\(\\qty{75}{\\unit{mL}}\\)} de uma solução a {\\(1\\%\\)} de peróxido\nde hidrogênio. O {\\(\\ce{H2O2}\\)} converte o {\\(\\ce{SO2}\\)} do ar em ácido sulfúrico. Após dez minutos o {\\(\\ce{H2SO4}\\)} foi titulado com\n{\\(\\ce{10 mL}\\)} de uma solução {\\(\\qty{0,002}{\\unit{mol L^{-1}}}\\)} em hidróxido de sódio\n\n\\begin{itemize}\n\\tightlist\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{SO2}\\)} no ar em partes por milhão.\n\\item\n\\end{itemize}\n"
+        "html": "<p>Foi borbulhado ar em CNTP a <span class=\"math inline\">\\(\\pu{30\nL.min-1}\\)</span> por uma solução com <span class=\"math inline\">\\(\\pu{75\nmL}\\)</span> de uma solução a <span class=\"math inline\">\\(1\\%\\)</span>\nde peróxido de hidrogênio. O <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> converte o <span class=\"math inline\">\\(\\ce{SO2}\\)</span> do ar em ácido sulfúrico. Após\ndez minutos o <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> foi\ntitulado com <span class=\"math inline\">\\(\\ce{10 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,002 mol.L-1}\\)</span> em\nhidróxido de sódio</p>\n<p><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> no ar em partes por milhão.</p>",
+        "md": "Foi borbulhado ar em CNTP a $\\pu{30 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol.L-1}$ em hidróxido de sódio\n\n**Determine** a concentração de $\\ce{SO2}$ no ar em partes por milhão.\n",
+        "tex": "Foi borbulhado ar em CNTP a {\\(\\qty{30}{\\unit{L.min^{-1}}}\\)} por uma solução com {\\(\\qty{75}{\\unit{mL}}\\)} de uma solução a {\\(1\\%\\)} de peróxido de\nhidrogênio. O {\\(\\ce{H2O2}\\)} converte o {\\(\\ce{SO2}\\)} do ar em ácido sulfúrico. Após dez minutos o {\\(\\ce{H2SO4}\\)} foi titulado com\n{\\(\\ce{10 mL}\\)} de uma solução {\\(\\qty{0,002}{\\unit{mol.L^{-1}}}\\)} em hidróxido de sódio\n\n\\textbf{Determine} a concentração de {\\(\\ce{SO2}\\)} no ar em partes por milhão.\n"
       },
       "solution": null,
       "answer": null,
@@ -6554,14 +6560,20 @@
     {
       "id_": "3F50",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F50/3F50.md",
-      "date": "2023-03-14T19:30:39.529359",
+      "date": "2023-03-15T13:53:41.018631",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{50 g}\\)</span> de uma\nsolução <span class=\"math inline\">\\(4\\%\\)</span> em hidróxido de sódio é\nmisturada com <span class=\"math inline\">\\(\\pu{50 g}\\)</span> de uma\nsolução <span class=\"math inline\">\\(1,82\\%\\)</span> em ácido clorídrico\nem um calorímetro adiabático a <span class=\"math inline\">\\(\\pu{20\n\\degree C}\\)</span>. A temperatura da solução aumenta para <span class=\"math inline\">\\(\\pu{23,4 \\degree C}\\)</span>. Em seguida, <span class=\"math inline\">\\(\\pu{70 g}\\)</span> de uma solução <span class=\"math inline\">\\(3,5\\%\\)</span> em ácido sulfúrico são adicionados\nà solução.</p>\n<p><strong>Determine</strong> a temperatura da solução após a adição do\nácido sulfúrico.</p>",
+        "md": "Uma amostra de $\\pu{50 g}$ de uma solução $4\\%$ em hidróxido de sódio é\nmisturada com $\\pu{50 g}$ de uma solução $1,82\\%$ em ácido clorídrico em\num calorímetro adiabático a $\\pu{20 \\degree C}$. A temperatura da\nsolução aumenta para $\\pu{23,4 \\degree C}$. Em seguida, $\\pu{70 g}$ de\numa solução $3,5\\%$ em ácido sulfúrico são adicionados à solução.\n\n**Determine** a temperatura da solução após a adição do ácido sulfúrico.\n",
+        "tex": "Uma amostra de {\\(\\qty{50}{\\unit{g}}\\)} de uma solução {\\(4\\%\\)} em hidróxido de sódio é misturada com {\\(\\qty{50}{\\unit{g}}\\)} de uma solução\n{\\(1,82\\%\\)} em ácido clorídrico em um calorímetro adiabático a {\\(\\qty{20}{\\unit{\\degree C}}\\)}. A temperatura da solução aumenta para\n{\\(\\qty{23,4}{\\unit{\\degree C}}\\)}. Em seguida, {\\(\\qty{70}{\\unit{g}}\\)} de uma solução {\\(3,5\\%\\)} em ácido sulfúrico são adicionados à solução.\n\n\\textbf{Determine} a temperatura da solução após a adição do ácido sulfúrico.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{24 \\degree C}\\)</span></p>\n",
+          "md": "$\\pu{24 \\degree C}$",
+          "tex": "\\(\\qty{24}{\\unit{\\degree C}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6979,7 +6991,7 @@
     {
       "id_": "3F49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F49/3F49.md",
-      "date": "2023-03-14T19:30:39.525360",
+      "date": "2023-03-15T13:33:33.065500",
       "statement": {
         "html": "",
         "md": "\n",
@@ -7106,29 +7118,61 @@
     {
       "id_": "3F44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F44/3F44.md",
-      "date": "2023-03-14T19:30:39.517360",
+      "date": "2023-03-15T12:39:58.412500",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um frasco de <span class=\"math inline\">\\(\\pu{500 mL}\\)</span> de uma\nsolução de ácido sulfúrico foi analisada tomando uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> e adicionando <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span>. O excesso de base foi\nretrotitulado com <span class=\"math inline\">\\(\\pu{12 mL}\\)</span> de\n<span class=\"math inline\">\\(\\ce{HCl}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>.</p>",
+        "md": "Um frasco de $\\pu{500 mL}$ de uma solução de ácido sulfúrico foi\nanalisada tomando uma alíquota de $\\pu{100 mL}$ e adicionando\n$\\pu{50 mL}$ de uma solução $\\pu{0,2 mol.L-1}$ de $\\ce{NaOH}$. O excesso\nde base foi retrotitulado com $\\pu{12 mL}$ de $\\ce{HCl}$\n$\\pu{0,1 mol.L-1}$.\n",
+        "tex": "Um frasco de {\\(\\qty{500}{\\unit{mL}}\\)} de uma solução de ácido sulfúrico foi analisada tomando uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} e\nadicionando {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{NaOH}\\)}. O excesso de base foi retrotitulado com\n{\\(\\qty{12}{\\unit{mL}}\\)} de {\\(\\ce{HCl}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 mmol.L-1}\\)</span>",
+          "md": "$\\pu{12 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{12}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19 mmol.L-1}\\)</span>",
+          "md": "$\\pu{19 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{19}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{29 mmol.L-1}\\)</span>",
+          "md": "$\\pu{29 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{29}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{44 mmol.L-1}\\)</span>",
+          "md": "$\\pu{44 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{44}{\\unit{mmol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{67 mmol.L-1}\\)</span>",
+          "md": "$\\pu{67 mmol.L-1}$\n",
+          "tex": "{\\(\\qty{67}{\\unit{mmol.L^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "3F45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F45/3F45.md",
-      "date": "2023-03-14T19:30:39.517360",
+      "date": "2023-03-15T13:17:39.275135",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O teor de formaldeído, <span class=\"math inline\">\\(\\ce{HCHO}\\)</span>, em um pesticida foi\ndeterminado pela pesagem de <span class=\"math inline\">\\(\\pu{0,3\ng}\\)</span> de uma amostra líquida em um frasco contendo <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> e <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> a <span class=\"math inline\">\\(3\\%\\)</span>. Por aquecimento, ocorre a reação:\n<span class=\"math display\">\\[\n    \\ce{ HCHO(aq) + H2O2(aq) + OH^-(aq) -&gt; HCOO^-(aq) + 2 H2O(l) }\n\\]</span> Após esfriar, o excesso de base foi titulado com <span class=\"math inline\">\\(\\pu{24 mL}\\)</span> de <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> <span class=\"math inline\">\\(\\pu{0,05 mol.L-1}\\)</span>.</p>\n<p><strong>Determine</strong> a fração mássica de formaldeído na\namostra.</p>",
+        "md": "O teor de formaldeído, $\\ce{HCHO}$, em um pesticida foi determinado pela\npesagem de $\\pu{0,3 g}$ de uma amostra líquida em um frasco contendo\n$\\pu{50 mL}$ de $\\ce{NaOH}$ $\\pu{0,1 mol.L-1}$ e $\\pu{50 mL}$ de\n$\\ce{H2O2}$ a $3\\%$. Por aquecimento, ocorre a reação: $$\n    \\ce{ HCHO(aq) + H2O2(aq) + OH^-(aq) -> HCOO^-(aq) + 2 H2O(l) }\n$$ Após esfriar, o excesso de base foi titulado com $\\pu{24 mL}$ de\n$\\ce{H2SO4}$ $\\pu{0,05 mol.L-1}$.\n\n**Determine** a fração mássica de formaldeído na amostra.\n",
+        "tex": "O teor de formaldeído, {\\(\\ce{HCHO}\\)}, em um pesticida foi determinado pela pesagem de {\\(\\qty{0,3}{\\unit{g}}\\)} de uma amostra líquida em um frasco\ncontendo {\\(\\qty{50}{\\unit{mL}}\\)} de {\\(\\ce{NaOH}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} e {\\(\\qty{50}{\\unit{mL}}\\)} de {\\(\\ce{H2O2}\\)} a {\\(3\\%\\)}.\nPor aquecimento, ocorre a reação: {\\[\n    \\ce{ HCHO(aq) + H2O2(aq) + OH^-(aq) -> HCOO^-(aq) + 2 H2O(l) }\n\\]} Após esfriar, o excesso de base foi titulado com {\\(\\qty{24}{\\unit{mL}}\\)} de {\\(\\ce{H2SO4}\\)} {\\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Determine} a fração mássica de formaldeído na amostra.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(4\\%\\)</span></p>\n",
+          "md": "$4\\%$",
+          "tex": "\\(4\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7281,14 +7325,20 @@
     {
       "id_": "3F46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F46/3F46.md",
-      "date": "2023-03-14T19:30:39.521360",
+      "date": "2023-03-15T14:05:27.204922",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{200 mg}\\)</span> de\ndimetilftalato, <span class=\"math inline\">\\(\\ce{C10H10O4}\\)</span>, é\ncolocada em refluxo com <span class=\"math inline\">\\(\\pu{50 mL}\\)</span>\nde <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> para hidrolisar os\ngrupos éster: <span class=\"math display\">\\[\n    \\ce{ C10H10O4(aq) + 2 OH^-(aq) -&gt; C8H4O4^{2-}(aq) + 2 CH3OH(aq) }\n\\]</span> Após o final da reação, o excesso de base foi retrotitulado\ncom <span class=\"math inline\">\\(\\pu{32 mL}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>.</p>\n<p><strong>Determine</strong> a pureza da amostra de dimetilftalato.</p>",
+        "md": "Uma amostra de $\\pu{200 mg}$ de dimetilftalato, $\\ce{C10H10O4}$, é\ncolocada em refluxo com $\\pu{50 mL}$ de $\\ce{NaOH}$ $\\pu{0,1 mol.L-1}$\npara hidrolisar os grupos éster: $$\n    \\ce{ C10H10O4(aq) + 2 OH^-(aq) -> C8H4O4^{2-}(aq) + 2 CH3OH(aq) }\n$$ Após o final da reação, o excesso de base foi retrotitulado com\n$\\pu{32 mL}$ de $\\ce{HCl}$ $\\pu{0,1 mol.L-1}$.\n\n**Determine** a pureza da amostra de dimetilftalato.\n",
+        "tex": "Uma amostra de {\\(\\qty{200}{\\unit{mg}}\\)} de dimetilftalato, {\\(\\ce{C10H10O4}\\)}, é colocada em refluxo com {\\(\\qty{50}{\\unit{mL}}\\)} de\n{\\(\\ce{NaOH}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} para hidrolisar os grupos éster: {\\[\n    \\ce{ C10H10O4(aq) + 2 OH^-(aq) -> C8H4O4^{2-}(aq) + 2 CH3OH(aq) }\n\\]} Após o final da reação, o excesso de base foi retrotitulado com {\\(\\qty{32}{\\unit{mL}}\\)} de {\\(\\ce{HCl}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Determine} a pureza da amostra de dimetilftalato.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(85\\%\\)</span></p>\n",
+          "md": "$85\\%$",
+          "tex": "\\(85\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7296,11 +7346,11 @@
     {
       "id_": "3F41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F41/3F41.md",
-      "date": "2023-03-14T19:31:03.746943",
+      "date": "2023-03-14T22:16:15.747182",
       "statement": {
-        "html": "<p>O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram, <span class=\"math inline\">\\(\\ce{C10H20N2S4}\\)</span>. O enxofre em <span class=\"math inline\">\\(\\pu{600 mg}\\)</span> de uma amostra para\npreparação de Antabuse foi oxidado a <span class=\"math inline\">\\(\\ce{SO2}\\)</span>, o qual foi absorvido em <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> para gerar <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>. O ácido foi titulado com\n<span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de hidróxido de sódio\n<span class=\"math inline\">\\(\\pu{0,04 mol L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica do princípio ativo na preparação.</p>",
-        "md": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n$\\ce{C10H20N2S4}$. O enxofre em $\\pu{600 mg}$ de uma amostra para\npreparação de Antabuse foi oxidado a $\\ce{SO2}$, o qual foi absorvido em\n$\\ce{H2O2}$ para gerar $\\ce{H2SO4}$. O ácido foi titulado com\n$\\pu{20 mL}$ de hidróxido de sódio $\\pu{0,04 mol L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica do\nprincípio ativo na preparação.\n",
-        "tex": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de alcoolismo crônico, é o dissulfeto de tetraetiltiuram, {\\(\\ce{C10H20N2S4}\\)}. O\nenxofre em {\\(\\qty{600}{\\unit{mg}}\\)} de uma amostra para preparação de Antabuse foi oxidado a {\\(\\ce{SO2}\\)}, o qual foi absorvido em {\\(\\ce{H2O2}\\)}\npara gerar {\\(\\ce{H2SO4}\\)}. O ácido foi titulado com {\\(\\qty{20}{\\unit{mL}}\\)} de hidróxido de sódio {\\(\\qty{0,04}{\\unit{mol L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica do princípio ativo na preparação.\n"
+        "html": "<p>O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram, <span class=\"math inline\">\\(\\ce{C10H20N2S4}\\)</span>. O enxofre em <span class=\"math inline\">\\(\\pu{600 mg}\\)</span> de uma amostra para\npreparação de Antabuse foi oxidado a <span class=\"math inline\">\\(\\ce{SO2}\\)</span>, o qual foi absorvido em <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> para gerar <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>. O ácido foi titulado com\n<span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de hidróxido de sódio\n<span class=\"math inline\">\\(\\pu{0,04 mol L-1}\\)</span>.</p>\n<p><strong>Determine</strong> a fração mássica do princípio ativo na\npreparação.</p>",
+        "md": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de\nalcoolismo crônico, é o dissulfeto de tetraetiltiuram,\n$\\ce{C10H20N2S4}$. O enxofre em $\\pu{600 mg}$ de uma amostra para\npreparação de Antabuse foi oxidado a $\\ce{SO2}$, o qual foi absorvido em\n$\\ce{H2O2}$ para gerar $\\ce{H2SO4}$. O ácido foi titulado com\n$\\pu{20 mL}$ de hidróxido de sódio $\\pu{0,04 mol L-1}$.\n\n**Determine** a fração mássica do princípio ativo na preparação.\n",
+        "tex": "O ingrediente ativo na Antabuse, uma droga usada no tratamento de alcoolismo crônico, é o dissulfeto de tetraetiltiuram, {\\(\\ce{C10H20N2S4}\\)}. O\nenxofre em {\\(\\qty{600}{\\unit{mg}}\\)} de uma amostra para preparação de Antabuse foi oxidado a {\\(\\ce{SO2}\\)}, o qual foi absorvido em {\\(\\ce{H2O2}\\)}\npara gerar {\\(\\ce{H2SO4}\\)}. O ácido foi titulado com {\\(\\qty{20}{\\unit{mL}}\\)} de hidróxido de sódio {\\(\\qty{0,04}{\\unit{mol L^{-1}}}\\)}.\n\n\\textbf{Determine} a fração mássica do princípio ativo na preparação.\n"
       },
       "solution": null,
       "answer": [
@@ -7440,11 +7490,11 @@
     {
       "id_": "3F37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F37/3F37.md",
-      "date": "2023-03-14T18:47:50.601634",
+      "date": "2023-03-15T12:33:05.350483",
       "statement": {
-        "html": "<p>Um frasco contendo <span class=\"math inline\">\\(\\pu{1 L}\\)</span> de\numa solução de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,15 mol.L-1}\\)</span> não foi protegido do ar\napós a padronização e absorveu <span class=\"math inline\">\\(\\pu{528\nmg}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span>. Uma\nalíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> dessa\nsolução foi titulada com uma solução <span class=\"math inline\">\\(\\pu{1\nmol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a reação de absorção do <span class=\"math inline\">\\(\\ce{CO2}\\)</span> pela solução.</li>\n<li><strong>Determine</strong> o volume da solução de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> utilizado na titulação.</li>\n</ol>",
-        "md": "Um frasco contendo $\\pu{1 L}$ de uma solução de $\\ce{NaOH}$\n$\\pu{0,15 mol.L-1}$ não foi protegido do ar após a padronização e\nabsorveu $\\pu{528 mg}$ de $\\ce{CO2}$. Uma alíquota de $\\pu{100 mL}$\ndessa solução foi titulada com uma solução $\\pu{1 mol.L-1}$ de\n$\\ce{HCl}$.\n\na.  **Apresente** a reação de absorção do $\\ce{CO2}$ pela solução.\nb.  **Determine** o volume da solução de $\\ce{HCl}$ utilizado na\n    titulação.\n",
-        "tex": "Um frasco contendo {\\(\\qty{1}{\\unit{L}}\\)} de uma solução de {\\(\\ce{NaOH}\\)} {\\(\\qty{0,15}{\\unit{mol.L^{-1}}}\\)} não foi protegido do ar após a\npadronização e absorveu {\\(\\qty{528}{\\unit{mg}}\\)} de {\\(\\ce{CO2}\\)}. Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} dessa solução foi titulada com uma\nsolução {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a reação de absorção do {\\(\\ce{CO2}\\)} pela solução.\n\\item\n  \\textbf{Determine} o volume da solução de {\\(\\ce{HCl}\\)} utilizado na titulação.\n\\end{enumerate}\n"
+        "html": "<p>Um frasco contendo <span class=\"math inline\">\\(\\pu{1 L}\\)</span> de\numa solução de <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,15 mol.L-1}\\)</span> não foi protegido do ar\napós a padronização e absorveu <span class=\"math inline\">\\(\\pu{528\nmg}\\)</span> de <span class=\"math inline\">\\(\\ce{CO2}\\)</span>. Uma\nalíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> dessa\nsolução foi titulada com uma solução <span class=\"math inline\">\\(\\pu{1\nmol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a reação de absorção do <span class=\"math inline\">\\(\\ce{CO2}\\)</span> pela solução.</li>\n<li><strong>Determine</strong> o volume da solução de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> utilizado.</li>\n</ol>",
+        "md": "Um frasco contendo $\\pu{1 L}$ de uma solução de $\\ce{NaOH}$\n$\\pu{0,15 mol.L-1}$ não foi protegido do ar após a padronização e\nabsorveu $\\pu{528 mg}$ de $\\ce{CO2}$. Uma alíquota de $\\pu{100 mL}$\ndessa solução foi titulada com uma solução $\\pu{1 mol.L-1}$ de\n$\\ce{HCl}$.\n\na.  **Apresente** a reação de absorção do $\\ce{CO2}$ pela solução.\nb.  **Determine** o volume da solução de $\\ce{HCl}$ utilizado.\n",
+        "tex": "Um frasco contendo {\\(\\qty{1}{\\unit{L}}\\)} de uma solução de {\\(\\ce{NaOH}\\)} {\\(\\qty{0,15}{\\unit{mol.L^{-1}}}\\)} não foi protegido do ar após a\npadronização e absorveu {\\(\\qty{528}{\\unit{mg}}\\)} de {\\(\\ce{CO2}\\)}. Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} dessa solução foi titulada com uma\nsolução {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a reação de absorção do {\\(\\ce{CO2}\\)} pela solução.\n\\item\n  \\textbf{Determine} o volume da solução de {\\(\\ce{HCl}\\)} utilizado.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
@@ -7604,17 +7654,43 @@
     {
       "id_": "3F43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F43/3F43.md",
-      "date": "2023-03-14T19:30:39.513361",
+      "date": "2023-03-14T23:13:38.057247",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{125 mg}\\)</span> de\ncarbonato foi dissolvida em <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>. O excesso de ácido foi\nretrotilulado com <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de\n<span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula unitária do\ncarbonato.</p>",
+        "md": "Uma amostra de $\\pu{125 mg}$ de carbonato foi dissolvida em $\\pu{50 mL}$\nde $\\ce{HCl}$ $\\pu{0,1 mol.L-1}$. O excesso de ácido foi retrotilulado\ncom $\\pu{25 mL}$ de $\\ce{NaOH}$ $\\pu{0,1 mol.L-1}$.\n\n**Assinale** a alternativa com a fórmula unitária do carbonato.\n",
+        "tex": "Uma amostra de {\\(\\qty{125}{\\unit{mg}}\\)} de carbonato foi dissolvida em {\\(\\qty{50}{\\unit{mL}}\\)} de {\\(\\ce{HCl}\\)}\n{\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}. O excesso de ácido foi retrotilulado com {\\(\\qty{25}{\\unit{mL}}\\)} de {\\(\\ce{NaOH}\\)}\n{\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa com a fórmula unitária do carbonato.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Na2CO3}\\)</span>",
+          "md": "$\\ce{Na2CO3}$\n",
+          "tex": "{\\(\\ce{Na2CO3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{MgCO3}\\)</span>",
+          "md": "$\\ce{MgCO3}$\n",
+          "tex": "{\\(\\ce{MgCO3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{K2CO3}\\)</span>",
+          "md": "$\\ce{K2CO3}$\n",
+          "tex": "{\\(\\ce{K2CO3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CaCO3}\\)</span>",
+          "md": "$\\ce{CaCO3}$\n",
+          "tex": "{\\(\\ce{CaCO3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{BaCO3}\\)</span>",
+          "md": "$\\ce{BaCO3}$\n",
+          "tex": "{\\(\\ce{BaCO3}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "3F22",
@@ -7727,11 +7803,11 @@
     {
       "id_": "3F27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F27/3F27.md",
-      "date": "2023-03-14T13:05:54.606966",
+      "date": "2023-03-15T12:36:55.265284",
       "statement": {
-        "html": "<p><strong>Apresente</strong> a equação balanceada para as reações.</p>\n<ol type=\"a\">\n<li><span class=\"math inline\">\\(\\ce{ CO2(g) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ SO3(g) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ P4O10(s) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaO(s) + H2O(l) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Li2O(s) + H2O(l) }\\)</span></li>\n</ol>",
-        "md": "**Apresente** a equação balanceada para as reações.\n\na.  $\\ce{ CO2(g) + H2O(l) }$\nb.  $\\ce{ SO3(g) + H2O(l) }$\nc.  $\\ce{ P4O10(s) + H2O(l) }$\nd.  $\\ce{ BaO(s) + H2O(l) }$\ne.  $\\ce{ Li2O(s) + H2O(l) }$\n",
-        "tex": "\\textbf{Apresente} a equação balanceada para as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ CO2(g) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ SO3(g) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ P4O10(s) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ BaO(s) + H2O(l) }\\)}\n\\item\n  {\\(\\ce{ Li2O(s) + H2O(l) }\\)}\n\\end{enumerate}\n"
+        "html": "<p><strong>Apresente</strong> a equação balanceada para as reações.</p>\n<ol type=\"a\">\n<li><span class=\"math inline\">\\(\\ce{ CO2(g) + H2O(l) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ SO3(g) + H2O(l) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ P4O10(s) + H2O(l) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ BaO(s) + H2O(l) -&gt;\n}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ Li2O(s) + H2O(l) -&gt;\n}\\)</span></li>\n</ol>",
+        "md": "**Apresente** a equação balanceada para as reações.\n\na.  $\\ce{ CO2(g) + H2O(l) -> }$\nb.  $\\ce{ SO3(g) + H2O(l) -> }$\nc.  $\\ce{ P4O10(s) + H2O(l) -> }$\nd.  $\\ce{ BaO(s) + H2O(l) -> }$\ne.  $\\ce{ Li2O(s) + H2O(l) -> }$\n",
+        "tex": "\\textbf{Apresente} a equação balanceada para as reações.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ CO2(g) + H2O(l) -> }\\)}\n\\item\n  {\\(\\ce{ SO3(g) + H2O(l) -> }\\)}\n\\item\n  {\\(\\ce{ P4O10(s) + H2O(l) -> }\\)}\n\\item\n  {\\(\\ce{ BaO(s) + H2O(l) -> }\\)}\n\\item\n  {\\(\\ce{ Li2O(s) + H2O(l) -> }\\)}\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
@@ -7768,7 +7844,7 @@
     {
       "id_": "3F26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F26/3F26.md",
-      "date": "2023-03-13T21:04:23.453082",
+      "date": "2023-03-15T12:33:49.326225",
       "statement": {
         "html": "<p>Os cátions zinco em uma amostra de <span class=\"math inline\">\\(\\pu{0,7 g}\\)</span> talco foi titulado com <span class=\"math inline\">\\(\\pu{22 mL}\\)</span> de EDTA <span class=\"math inline\">\\(\\pu{0,016 mol.L-1}\\)</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de zinco no talco.</p>",
         "md": "Os cátions zinco em uma amostra de $\\pu{0,7 g}$ talco foi titulado com\n$\\pu{22 mL}$ de EDTA $\\pu{0,016 mol.L-1}$\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nzinco no talco.\n",
@@ -7809,14 +7885,25 @@
     {
       "id_": "3F48",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F48/3F48.md",
-      "date": "2023-03-14T19:30:39.525360",
+      "date": "2023-03-15T13:51:24.300965",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1,2 g}\\)</span> de uma\nmistura contendo <span class=\"math inline\">\\(\\ce{(NH4)2SO4}\\)</span>,\n<span class=\"math inline\">\\(\\ce{NH4NO3}\\)</span> e substâncias inertes\nfoi diluída a <span class=\"math inline\">\\(\\ce{200 mL}\\)</span> em um\nbalão volumétrico. Um alíquota de <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> foi alcalinizada com base forte e a amônia liberada foi\ndestilada e coletada em <span class=\"math inline\">\\(\\pu{30 mL}\\)</span>\nde <span class=\"math inline\">\\(\\ce{HCl}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>. O excesso de ácido foi\nretrotitulado com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de\n<span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>.</p>\n<p>Em outro experimento, uma alíquota de <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> foi tratada com liga de\nDervada, reduzindo os íons <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span> a <span class=\"math inline\">\\(\\ce{NH4^+}\\)</span>, e alcalinizada com base\nforte. A amônia liberada foi destilada e coletada em <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> da mesma solução de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>, sendo o excesso de ácido\nretrotilulado com <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> da\nbase.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fração mássica de <span class=\"math inline\">\\(\\ce{(NH4)2SO4}\\)</span> na mistura.</li>\n<li><strong>Determine</strong> a fração mássica de <span class=\"math inline\">\\(\\ce{NH3NO3}\\)</span> na mistura.</li>\n</ol>",
+        "md": "Uma amostra de $\\pu{1,2 g}$ de uma mistura contendo $\\ce{(NH4)2SO4}$,\n$\\ce{NH4NO3}$ e substâncias inertes foi diluída a $\\ce{200 mL}$ em um\nbalão volumétrico. Um alíquota de $\\pu{50 mL}$ foi alcalinizada com base\nforte e a amônia liberada foi destilada e coletada em $\\pu{30 mL}$ de\n$\\ce{HCl}$ $\\pu{0,1 mol.L-1}$. O excesso de ácido foi retrotitulado com\n$\\pu{10 mL}$ de $\\ce{NaOH}$ $\\pu{0,1 mol.L-1}$.\n\nEm outro experimento, uma alíquota de $\\pu{25 mL}$ foi tratada com liga\nde Dervada, reduzindo os íons $\\ce{NO3^-}$ a $\\ce{NH4^+}$, e\nalcalinizada com base forte. A amônia liberada foi destilada e coletada\nem $\\pu{30 mL}$ da mesma solução de $\\ce{HCl}$, sendo o excesso de ácido\nretrotilulado com $\\pu{15 mL}$ da base.\n\na.  **Determine** a fração mássica de $\\ce{(NH4)2SO4}$ na mistura.\nb.  **Determine** a fração mássica de $\\ce{NH3NO3}$ na mistura.\n",
+        "tex": "Uma amostra de {\\(\\qty{1,2}{\\unit{g}}\\)} de uma mistura contendo {\\(\\ce{(NH4)2SO4}\\)}, {\\(\\ce{NH4NO3}\\)} e substâncias inertes foi diluída a\n{\\(\\ce{200 mL}\\)} em um balão volumétrico. Um alíquota de {\\(\\qty{50}{\\unit{mL}}\\)} foi alcalinizada com base forte e a amônia liberada foi destilada\ne coletada em {\\(\\qty{30}{\\unit{mL}}\\)} de {\\(\\ce{HCl}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}. O excesso de ácido foi retrotitulado com\n{\\(\\qty{10}{\\unit{mL}}\\)} de {\\(\\ce{NaOH}\\)} {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}.\n\nEm outro experimento, uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} foi tratada com liga de Dervada, reduzindo os íons {\\(\\ce{NO3^-}\\)} a\n{\\(\\ce{NH4^+}\\)}, e alcalinizada com base forte. A amônia liberada foi destilada e coletada em {\\(\\qty{30}{\\unit{mL}}\\)} da mesma solução de\n{\\(\\ce{HCl}\\)}, sendo o excesso de ácido retrotilulado com {\\(\\qty{15}{\\unit{mL}}\\)} da base.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fração mássica de {\\(\\ce{(NH4)2SO4}\\)} na mistura.\n\\item\n  \\textbf{Determine} a fração mássica de {\\(\\ce{NH3NO3}\\)} na mistura.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(22\\%\\)</span></p>\n",
+          "md": "$22\\%$",
+          "tex": "\\(22\\%\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(26\\%\\)</span></p>\n",
+          "md": "$26\\%$",
+          "tex": "\\(26\\%\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
