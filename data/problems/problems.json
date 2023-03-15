@@ -6313,36 +6313,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "3F54",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F54/3F54.md",
-      "date": "2023-03-14T19:30:39.537359",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3F53",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F53/3F53.md",
-      "date": "2023-03-14T19:30:39.533359",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "3F29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F29/3F29.md",
       "date": "2023-03-14T17:50:12.168735",
@@ -6379,21 +6349,6 @@
           "tex": "\\(\\ce{ NH2NH3^+(aq) + H2O(l) <=> NH2NH2(aq) + H3O^+(aq) }\\)\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "3F55",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F55/3F55.md",
-      "date": "2023-03-14T19:30:39.537359",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -6504,7 +6459,7 @@
     {
       "id_": "3F42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F42/3F42.md",
-      "date": "2023-03-15T13:00:37.061456",
+      "date": "2023-03-15T22:16:57.748257",
       "statement": {
         "html": "<p>Foi borbulhado ar em CNTP a <span class=\"math inline\">\\(\\pu{30\nL.min-1}\\)</span> por uma solução com <span class=\"math inline\">\\(\\pu{75\nmL}\\)</span> de uma solução a <span class=\"math inline\">\\(1\\%\\)</span>\nde peróxido de hidrogênio. O <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> converte o <span class=\"math inline\">\\(\\ce{SO2}\\)</span> do ar em ácido sulfúrico. Após\ndez minutos o <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> foi\ntitulado com <span class=\"math inline\">\\(\\ce{10 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,002 mol.L-1}\\)</span> em\nhidróxido de sódio</p>\n<p><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> no ar em partes por milhão.</p>",
         "md": "Foi borbulhado ar em CNTP a $\\pu{30 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol.L-1}$ em hidróxido de sódio\n\n**Determine** a concentração de $\\ce{SO2}$ no ar em partes por milhão.\n",
@@ -6894,14 +6849,25 @@
     {
       "id_": "3F52",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F52/3F52.md",
-      "date": "2023-03-14T19:30:39.529359",
+      "date": "2023-03-15T22:16:06.067958",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\numa solução de ácido sulfúrico foi titulada com uma solução <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span> de hidróxido de potássio,\n<span class=\"math inline\">\\(\\ce{KOH}\\)</span>. A condutividade da\nsolução foi monitorada ao longo da reação.</p>\n<figure>\n<img alt=\"Figura do problema 3F52.\" src=\"3F52-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3F52.</figcaption>\n</figure>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para a reação de\ntitulação.</li>\n<li><strong>Determine</strong> a concentração da solução de ácido\nsulfúrico.</li>\n</ol>",
+        "md": "Uma alíquota de $\\pu{100 mL}$ de uma solução de ácido sulfúrico foi\ntitulada com uma solução $\\pu{1 mol.L-1}$ de hidróxido de potássio,\n$\\ce{KOH}$. A condutividade da solução foi monitorada ao longo da\nreação.\n\n![Figura do problema 3F52.](3F52-1P.svg)\n\na.  **Apresente** a equação iônica para a reação de titulação.\nb.  **Determine** a concentração da solução de ácido sulfúrico.\n",
+        "tex": "Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} de uma solução de ácido sulfúrico foi titulada com uma solução {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de\nhidróxido de potássio, {\\(\\ce{KOH}\\)}. A condutividade da solução foi monitorada ao longo da reação.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3F52-1P.svg}\n\\caption{Figura do problema 3F52.}\n\\end{figure}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para a reação de titulação.\n\\item\n  \\textbf{Determine} a concentração da solução de ácido sulfúrico.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ H3O^+(aq) + OH^-(aq) -&gt; 2 H2O(l)\n}\\)</span></p>\n",
+          "md": "$\\ce{ H3O^+(aq) + OH^-(aq) -> 2 H2O(l) }$",
+          "tex": "\\(\\ce{ H3O^+(aq) + OH^-(aq) -> 2 H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{75 mmol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{75 mmol.L-1}$",
+          "tex": "\\(\\qty{75}{\\unit{mmol.L^{-1}}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7056,21 +7022,6 @@
       "correct_choice": 3
     },
     {
-      "id_": "3F56",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F56/3F56.md",
-      "date": "2023-03-14T19:30:39.537359",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "3F03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F03/3F03.md",
       "date": "2023-03-13T19:19:47.690751",
@@ -7114,14 +7065,30 @@
     {
       "id_": "3F51",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F51/3F51.md",
-      "date": "2023-03-14T19:30:39.529359",
+      "date": "2023-03-15T22:15:59.467921",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma alíquota de uma solução <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de ácido clorídrico foi titulada com uma solução <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span> de hidróxido de sódio,\n<span class=\"math inline\">\\(\\ce{NaOH}\\)</span>. A condutividade da\nsolução foi monitorada ao longo da reação.</p>\n<figure>\n<img alt=\"Figura do problema 3F51.\" src=\"3F51-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3F51.</figcaption>\n</figure>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para a reação de\ntitulação.</li>\n<li><strong>Determine</strong> o volume de hidróxido de sódio necessário\npara atingir o ponto de equivalência.</li>\n<li><strong>Identifique</strong> os íons responsáveis pela condutividade\nda solução ao longo da titulação.</li>\n<li><strong>Explique</strong> porque a condutividade da solução é maior\napós a adição de <span class=\"math inline\">\\(\\ce{5 mL}\\)</span> de base\ndo que após a adição de <span class=\"math inline\">\\(\\pu{15 mL}\\)</span>\nde base.</li>\n</ol>",
+        "md": "Uma alíquota de uma solução $\\pu{0,1 mol.L-1}$ de ácido clorídrico foi\ntitulada com uma solução $\\pu{1 mol.L-1}$ de hidróxido de sódio,\n$\\ce{NaOH}$. A condutividade da solução foi monitorada ao longo da\nreação.\n\n![Figura do problema 3F51.](3F51-1P.svg)\n\na.  **Apresente** a equação iônica para a reação de titulação.\nb.  **Determine** o volume de hidróxido de sódio necessário para atingir\n    o ponto de equivalência.\nc.  **Identifique** os íons responsáveis pela condutividade da solução\n    ao longo da titulação.\nd.  **Explique** porque a condutividade da solução é maior após a adição\n    de $\\ce{5 mL}$ de base do que após a adição de $\\pu{15 mL}$ de base.\n",
+        "tex": "Uma alíquota de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de ácido clorídrico foi titulada com uma solução {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de\nhidróxido de sódio, {\\(\\ce{NaOH}\\)}. A condutividade da solução foi monitorada ao longo da reação.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3F51-1P.svg}\n\\caption{Figura do problema 3F51.}\n\\end{figure}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para a reação de titulação.\n\\item\n  \\textbf{Determine} o volume de hidróxido de sódio necessário para atingir o ponto de equivalência.\n\\item\n  \\textbf{Identifique} os íons responsáveis pela condutividade da solução ao longo da titulação.\n\\item\n  \\textbf{Explique} porque a condutividade da solução é maior após a adição de {\\(\\ce{5 mL}\\)} de base do que após a adição de\n  {\\(\\qty{15}{\\unit{mL}}\\)} de base.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\ce{ H3O^+(aq) + OH^-(aq) -&gt; 2 H2O(l)\n}\\)</span></p>\n",
+          "md": "$\\ce{ H3O^+(aq) + OH^-(aq) -> 2 H2O(l) }$",
+          "tex": "\\(\\ce{ H3O^+(aq) + OH^-(aq) -> 2 H2O(l) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{10 mL}\\)</span></p>\n",
+          "md": "$\\pu{10 mL}$",
+          "tex": "\\(\\qty{10}{\\unit{mL}}\\)\n"
+        },
+        {
+          "html": "<p>Antes do ponto de equivalência, <span\nclass=\"math inline\">\\(\\ce{Na^+}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Cl^-}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{H^+}\\)</span>. No ponto de equivalência, <span\nclass=\"math inline\">\\(\\ce{Na^+}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{Cl^-}\\)</span>. Após o ponto de equivalência,\n<span class=\"math inline\">\\(\\ce{Na^+}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{H3O^+}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{Cl^-}\\)</span>.</p>\n",
+          "md": "Antes do ponto de equivalência, $\\ce{Na^+}$, $\\ce{Cl^-}$ e $\\ce{H^+}$. No ponto de equivalência, $\\ce{Na^+}$ e $\\ce{Cl^-}$. Após o ponto de equivalência, $\\ce{Na^+}$, $\\ce{H3O^+}$ e $\\ce{Cl^-}$.",
+          "tex": "Antes do ponto de equivalência, \\(\\ce{Na^+}\\), \\(\\ce{Cl^-}\\) e \\(\\ce{H^+}\\). No ponto de equivalência, \\(\\ce{Na^+}\\) e \\(\\ce{Cl^-}\\). Após o ponto de\nequivalência, \\(\\ce{Na^+}\\), \\(\\ce{H3O^+}\\) e \\(\\ce{Cl^-}\\).\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7527,11 +7494,11 @@
     {
       "id_": "3F40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F40/3F40.md",
-      "date": "2023-03-14T19:30:07.352558",
+      "date": "2023-03-15T22:17:24.404416",
       "statement": {
-        "html": "<p>O <em>Index Merck</em> indica que <span class=\"math inline\">\\(\\pu{10\nmg}\\)</span> de guanidina, <span class=\"math inline\">\\(\\ce{CH5N3}\\)</span>, pode ser administrada para\ncada quilograma de peso corporal no tratamento da miastenia grave. O\nnitrogênio em uma amostra de quatro tabletes, que pesou um total de\n<span class=\"math inline\">\\(\\pu{7,5 g}\\)</span>, foi convertido em\namônia, seguida por destilação em <span class=\"math inline\">\\(\\ce{100\nmL}\\)</span> de uma solução <span class=\"math inline\">\\({0,175 mol\nL-1}\\)</span> em <span class=\"math inline\">\\(\\ce{HCl}\\)</span>. O\nexcesso de ácido foi retrotitulado com <span class=\"math inline\">\\(\\pu{12 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em hidróxido de\nsódio.</p>\n<p><strong>Determine</strong> o número de tabletes que representam uma\ndose apropriada para um paciente de <span class=\"math inline\">\\(\\pu{70\nkg}\\)</span>.</p>",
-        "md": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\ce{100 mL}$ de uma solução ${0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
-        "tex": "O \\emph{Index Merck} indica que {\\(\\qty{10}{\\unit{mg}}\\)} de guanidina, {\\(\\ce{CH5N3}\\)}, pode ser administrada para cada quilograma de peso corporal\nno tratamento da miastenia grave. O nitrogênio em uma amostra de quatro tabletes, que pesou um total de {\\(\\qty{7,5}{\\unit{g}}\\)}, foi convertido em\namônia, seguida por destilação em {\\(\\ce{100 mL}\\)} de uma solução {\\({0,175 mol L-1}\\)} em {\\(\\ce{HCl}\\)}. O excesso de ácido foi retrotitulado com\n{\\(\\qty{12}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em hidróxido de sódio.\n\n\\textbf{Determine} o número de tabletes que representam uma dose apropriada para um paciente de {\\(\\qty{70}{\\unit{kg}}\\)}.\n"
+        "html": "<p>O <em>Index Merck</em> indica que <span class=\"math inline\">\\(\\pu{10\nmg}\\)</span> de guanidina, <span class=\"math inline\">\\(\\ce{CH5N3}\\)</span>, pode ser administrada para\ncada quilograma de peso corporal no tratamento da miastenia grave. O\nnitrogênio em uma amostra de quatro tabletes, que pesou um total de\n<span class=\"math inline\">\\(\\pu{7,5 g}\\)</span>, foi convertido em\namônia, seguida por destilação em <span class=\"math inline\">\\(\\pu{100\nmL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,175 mol\nL-1}\\)</span> em <span class=\"math inline\">\\(\\ce{HCl}\\)</span>. O\nexcesso de ácido foi retrotitulado com <span class=\"math inline\">\\(\\pu{12 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em hidróxido de\nsódio.</p>\n<p><strong>Determine</strong> o número de tabletes que representam uma\ndose apropriada para um paciente de <span class=\"math inline\">\\(\\pu{70\nkg}\\)</span>.</p>",
+        "md": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\pu{100 mL}$ de uma solução $\\pu{0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
+        "tex": "O \\emph{Index Merck} indica que {\\(\\qty{10}{\\unit{mg}}\\)} de guanidina, {\\(\\ce{CH5N3}\\)}, pode ser administrada para cada quilograma de peso corporal\nno tratamento da miastenia grave. O nitrogênio em uma amostra de quatro tabletes, que pesou um total de {\\(\\qty{7,5}{\\unit{g}}\\)}, foi convertido em\namônia, seguida por destilação em {\\(\\qty{100}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,175}{\\unit{mol L^{-1}}}\\)} em {\\(\\ce{HCl}\\)}. O excesso de ácido\nfoi retrotitulado com {\\(\\qty{12}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em hidróxido de sódio.\n\n\\textbf{Determine} o número de tabletes que representam uma dose apropriada para um paciente de {\\(\\qty{70}{\\unit{kg}}\\)}.\n"
       },
       "solution": null,
       "answer": null,
@@ -10513,7 +10480,7 @@
     {
       "id_": "3E43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E43/3E43.md",
-      "date": "2023-03-12T04:42:53.872101",
+      "date": "2023-03-15T22:14:19.743382",
       "statement": {
         "html": "<p>Uma alíquota de uma solução <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>, foi titulada com uma solução\n<span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span> de nitrato de prata,\n<span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>. A condutividade da\nsolução foi monitorada ao longo da reação.</p>\n<figure>\n<img alt=\"Figura do problema 3E43.\" src=\"3E43-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3E43.</figcaption>\n</figure>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para a reação de\ntitulação.</li>\n<li><strong>Determine</strong> o volume de nitrato de prata necessário\npara atingir o ponto de equivalência.</li>\n<li><strong>Identifique</strong> os íons responsáveis pela condutividade\nda solução ao longo da titulação.</li>\n</ol>",
         "md": "Uma alíquota de uma solução $\\pu{0,1 mol.L-1}$ de cloreto de sódio,\n$\\ce{NaCl}$, foi titulada com uma solução $\\pu{1 mol.L-1}$ de nitrato de\nprata, $\\ce{AgNO3}$. A condutividade da solução foi monitorada ao longo\nda reação.\n\n![Figura do problema 3E43.](3E43-1P.svg)\n\na.  **Apresente** a equação iônica para a reação de titulação.\nb.  **Determine** o volume de nitrato de prata necessário para atingir o\n    ponto de equivalência.\nc.  **Identifique** os íons responsáveis pela condutividade da solução\n    ao longo da titulação.\n",
@@ -10525,6 +10492,11 @@
           "html": "<p><span class=\"math inline\">\\(\\ce{ Ag^+(aq) + Cl^-(aq) -&gt; AgCl(s)\n}\\)</span></p>\n",
           "md": "$\\ce{ Ag^+(aq) + Cl^-(aq) -> AgCl(s) }$",
           "tex": "\\(\\ce{ Ag^+(aq) + Cl^-(aq) -> AgCl(s) }\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{10 mL}\\)</span></p>\n",
+          "md": "$\\pu{10 mL}$",
+          "tex": "\\(\\qty{10}{\\unit{mL}}\\)\n"
         },
         {
           "html": "<p>Antes do ponto de equivalência, <span\nclass=\"math inline\">\\(\\ce{Na^+}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Cl^-}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{NO3^-}\\)</span>. No ponto de equivalência,\n<span class=\"math inline\">\\(\\ce{Na^+}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{NO3^-}\\)</span>. Após o ponto de equivalência,\n<span class=\"math inline\">\\(\\ce{Na^+}\\)</span>, <span\nclass=\"math inline\">\\(\\ce{Ag^+}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{NO3^-}\\)</span>.</p>\n",
