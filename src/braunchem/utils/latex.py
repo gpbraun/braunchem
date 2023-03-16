@@ -129,6 +129,7 @@ def qty(num_str: str, unit_str: str) -> str:
 
     formated_unit_str = re.sub(UNIT_EXP_REGEX, lambda x: f"^{{{x.group(0)}}}", unit_str)
     formated_unit_str = formated_unit_str.replace("\\mu", "\\micro")
+    formated_unit_str = formated_unit_str.replace("\\Omega", "\\omh")
 
     # unidades sem valor numérico
     if not num_str:

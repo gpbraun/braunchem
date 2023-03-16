@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            ylabel = {Condutividade, $\kappa/\unit{S.m^{-1}}$},
+            xlabel = {Volume de \ce{KOH}, $V_{\ce{KOH}}/\unit{mL}$},
+            domain = 0:30,
+            xmin=0, xmax=30,
+        ]
+        \addplot
+         {
+             (
+                 (7.35)*x % K+
+                 + (16.00)*7.5 % SO4-2
+                 + max((19.91)*(x*1 - 15), 0) % OH-
+                 + max((34.96)*(15 - x*1), 0) % H+
+             )/(100 + x)
+         };
+ \end{axis}
+ \end{tikzpicture}
+ 

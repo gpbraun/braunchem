@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            ylabel = {Condutividade, $\kappa/\unit{S.m^{-1}}$},
+            xlabel = {Volume de \ce{NaOH}, $V_{\ce{NaOH}}/\unit{mL}$},
+            domain = 0:20,
+            xmin=0, xmax=20,
+            ymin=1,
+        ]
+        \addplot
+         {
+             (
+                 (5.01)*10 % Na+
+                 + (7.64)*x*1 % Cl-
+                 + max((19.91)*(x*1 - 10), 0) % OH-
+                 + max((34.96)*(10 - x*1), 0) % H+
+             )/(100 + x)
+         };
+ \end{axis}
+ \end{tikzpicture}
+ 
