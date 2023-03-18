@@ -1,0 +1,82 @@
+\begin{tikzpicture}
+    \def\cellWidth{5}
+    \tikzset
+        {
+            cell/.style=
+                {
+                    draw = #1,
+                    top color = #1!20, 
+                    bottom color = #1!20, 
+                    middle color = white,
+                    shading angle = 90,
+                },
+            solution/.style=
+                {
+                    opacity = 0.25,
+                    top color = #1!60, 
+                    bottom color = #1, 
+                    shading angle = 10,
+                },
+            membrane/.style=
+                {
+                    thick,
+                    draw=yellow!75!black, 
+                    fill opacity = 0.7,
+                    top color = yellow!40, 
+                    bottom color = yellow, 
+                    shading angle = 0,
+                },
+        }
+    
+    % CÉLULA
+    \begin{scope}
+        \node [rectangle, minimum width=\cellWidth cm, minimum height=4cm] 
+            (cell) at (0, 0) {};
+
+        \draw [thick, cell=gray, line cap=round] 
+            (cell.south west) -- 
+            (cell.north west) arc(180:0:\cellWidth/2 and 0.4) -- 
+            (cell.south east) -- 
+            (cell.south west);
+
+        \draw [thick, dashed, draw=gray] 
+            (cell.south east) arc(0:180:\cellWidth/2 and 0.4);
+
+        \path[solution=orange] 
+            (cell.south west) -- 
+            ($(cell.north west) - (0,1.1)$) -- 
+            ($(cell.north) - (0,1.1)$) -- 
+            (cell.south) -- 
+            (cell.south west);
+        \path[solution=orange] 
+            ($(cell.north west) - (0,1.1)$) arc(180:90:\cellWidth/2 and 0.4) -- ($(cell.north) - (0,1.1)$) -- cycle;
+
+        \path[solution=blue] 
+            (cell.south) -- 
+            ($(cell.north) - (0,2)$) -- 
+            ($(cell.north east) - (0,2)$) -- 
+            (cell.south east) -- 
+            (cell.south);
+        \path[solution=blue] 
+            ($(cell.north east) - (0,2)$) arc(0:90:\cellWidth/2 and 0.4) -- ($(cell.north) - (0,2)$) -- cycle;
+    \end{scope}
+
+    \draw [ draw=black, thick, stealth-stealth ]
+        ($(cell.north) - (-0.5,1.1)$) -- node [right] {$\qty{5,22}{cm}$}
+        ($(cell.north) - (-0.5,2)$);
+
+    % MEMBRANA
+    \foreach \i in {1,...,100}
+        \fill[black] ($(rnd*0.4, rnd*3.3) + (cell.south) + (-0.2, 0.05)$) circle (0.7pt);
+        
+    \node [rectangle, anchor=south, minimum width=0.5cm, minimum height=3cm, membrane] 
+        (membrane) at (cell.south) {};
+    \node [rectangle, anchor=south, minimum width=0.5cm, minimum height=0.4cm, shift={(0, -1pt)}, membrane, , label={[yshift=5pt] Membrana}] 
+        (uppermembrane) at (membrane.north) {};
+
+    \node [anchor=south, shift={(-5pt, +15pt)}] 
+        at ($(cell.south west)!0.5!(membrane.south east)$) { Solução };
+    \node [anchor=south, shift={(+5pt, +15pt)}] 
+        at ($(cell.south east)!0.5!(membrane.south west)$) { \ce{H2O(l)} };
+
+\end{tikzpicture}
