@@ -255,7 +255,7 @@ class Quantity(BaseModel):
         return cls(id_=string, name=string)
 
 
-QTY_STR_RE = re.compile(r"([\w\d]*)\(([\w\d]*),?(.*)\)\=([\d\.Ee\+\-]*)")
+QTY_STR_RE = re.compile(r"([\w\d]*)\((.*),?(.*)\)\=([\d\.Ee\+\-]*)")
 """Expressão em REGEX para converter uma string em um `Quantity`"""
 
 

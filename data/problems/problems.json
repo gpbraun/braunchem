@@ -19056,7 +19056,7 @@
     {
       "id_": "2E16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E16/2E16.md",
-      "date": "2023-03-16T15:36:46.614865",
+      "date": "2023-03-18T17:25:14.094208",
       "statement": {
         "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{10 g}\\)</span> de\n<span class=\"math inline\">\\(\\ce{NH4NO3}\\)</span> é dissolvida em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água a <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ntemperatura final da solução.</p>",
         "md": "Uma amostra de $\\pu{10 g}$ de $\\ce{NH4NO3}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
@@ -19067,67 +19067,67 @@
       "data": {
         "quantities": [
           {
-            "id_": "$\\Delta H_\\text{R}(\\ce{NH4NO3}) = \\pu{-628 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{R}(\\ce{NH4NO3}) = \\pu{-628 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{hid}(\\ce{NH4^{+}}) = \\pu{-307 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{hid}(\\ce{NH4^{+}}) = \\pu{-307 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{hid}(\\ce{NO3^{-}}) = \\pu{-314 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{hid}(\\ce{NO3^{-}}) = \\pu{-314 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
             "id_": "CP(H2O,l)",
             "name": "capacidade calorífica molar em pressão constante da água",
             "symbol": "C_{P, \\mathrm{m}}(\\ce{H2O,\\,\\text{l}})",
             "value": 75,
             "unit": "J//K.mol",
             "prec": 2
+          },
+          {
+            "id_": "Hrede(NH4NO3)",
+            "name": "entalpia de rede do \\ce{NH4NO3}",
+            "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}(\\ce{NH4NO3})",
+            "value": -628,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hhid(NH4^+)",
+            "name": "entalpia padrão de hidratação do \\ce{NH4^+}",
+            "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{NH4^+})",
+            "value": -307,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hhid(NO3^-)",
+            "name": "entalpia padrão de hidratação do \\ce{NO3^-}",
+            "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{NO3^-})",
+            "value": -314,
+            "unit": "kJ//mol",
+            "prec": 3
           }
         ]
       },
       "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{21 \\degree C}\\)</span>",
-          "md": "$\\pu{21 \\degree C}$\n",
-          "tex": "{\\(\\qty{21}{\\unit{\\degree C}}\\)}\n"
-        },
         {
           "html": "<span class=\"math inline\">\\(\\pu{23 \\degree C}\\)</span>",
           "md": "$\\pu{23 \\degree C}$\n",
           "tex": "{\\(\\qty{23}{\\unit{\\degree C}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>",
-          "md": "$\\pu{25 \\degree C}$\n",
-          "tex": "{\\(\\qty{25}{\\unit{\\degree C}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{34 \\degree C}\\)</span>",
+          "md": "$\\pu{34 \\degree C}$\n",
+          "tex": "{\\(\\qty{34}{\\unit{\\degree C}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{27 \\degree C}\\)</span>",
-          "md": "$\\pu{27 \\degree C}$\n",
-          "tex": "{\\(\\qty{27}{\\unit{\\degree C}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{50 \\degree C}\\)</span>",
+          "md": "$\\pu{50 \\degree C}$\n",
+          "tex": "{\\(\\qty{50}{\\unit{\\degree C}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{29 \\degree C}\\)</span>",
-          "md": "$\\pu{29 \\degree C}$\n",
-          "tex": "{\\(\\qty{29}{\\unit{\\degree C}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{73 \\degree C}\\)</span>",
+          "md": "$\\pu{73 \\degree C}$\n",
+          "tex": "{\\(\\qty{73}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{110 \\degree C}\\)</span>",
+          "md": "$\\pu{110 \\degree C}$\n",
+          "tex": "{\\(\\qty{110}{\\unit{\\degree C}}\\)}\n"
         }
       ],
-      "correct_choice": 1
+      "correct_choice": 0
     },
     {
       "id_": "2E32",
@@ -20375,24 +20375,16 @@
     {
       "id_": "2E13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E13/2E13.md",
-      "date": "2023-03-16T15:36:02.855279",
+      "date": "2023-03-18T17:10:01.805993",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de solução do cloreto de sódio.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de solução\ndo cloreto de sódio.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de solução do cloreto de sódio.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de dissolução do cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\ndissolução do cloreto de sódio, $\\ce{NaCl}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de dissolução do cloreto de sódio, {\\(\\ce{NaCl}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": {
         "quantities": [
-          {
-            "id_": "$\\Delta H_\\text{hid}(\\ce{NaCl}) = \\pu{784 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{hid}(\\ce{NaCl}) = \\pu{784 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
           {
             "id_": "Hrede(NaCl)",
             "name": "entalpia de rede do cloreto de sódio",
@@ -20400,42 +20392,50 @@
             "value": 787,
             "unit": "kJ//mol",
             "prec": 3
+          },
+          {
+            "id_": "Hhid(NaCl)",
+            "name": "entalpia padrão de hidratação do \\ce{NaCl}",
+            "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{NaCl})",
+            "value": 784,
+            "unit": "kJ//mol",
+            "prec": 3
           }
         ]
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{1 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{1}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{3,0 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{3,0 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{3,0}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{2 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{2}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{3,9 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{3,9 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{3,9}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{3 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{3 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{3}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{5,0 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{5,0 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{5,0}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{4 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{4 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{4}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{6,5 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{6,5 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{6,5}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{5 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{5 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{5}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{8,4 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{8,4 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{8,4}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 0
     },
     {
       "id_": "2E15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E15/2E15.md",
-      "date": "2023-03-16T15:36:31.279010",
+      "date": "2023-03-18T17:25:20.894418",
       "statement": {
         "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{4 g}\\)</span> de <span class=\"math inline\">\\(\\ce{MgBr2}\\)</span> é dissolvida em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água a <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ntemperatura final da solução.</p>",
         "md": "Uma amostra de $\\pu{4 g}$ de $\\ce{MgBr2}$ é dissolvida em $\\pu{100 g}$\nde água a $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima da temperatura final da\nsolução.\n",
@@ -20446,28 +20446,28 @@
       "data": {
         "quantities": [
           {
-            "id_": "$\\Delta H_\\text{R}(\\ce{MgBr2}) = \\pu{-2406 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{R}(\\ce{MgBr2}) = \\pu{-2406 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{hid}(\\ce{MgBr2}) = \\pu{-2591,6 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{hid}(\\ce{MgBr2}) = \\pu{-2591,6 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
             "id_": "CP(H2O,l)",
             "name": "capacidade calorífica molar em pressão constante da água",
             "symbol": "C_{P, \\mathrm{m}}(\\ce{H2O,\\,\\text{l}})",
             "value": 75,
             "unit": "J//K.mol",
             "prec": 2
+          },
+          {
+            "id_": "Hrede(MgBr2)",
+            "name": "entalpia de rede do \\ce{MgBr2}",
+            "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}(\\ce{MgBr2})",
+            "value": -2410,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hhid(MgBr2)",
+            "name": "entalpia padrão de hidratação do \\ce{MgBr2}",
+            "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{MgBr2})",
+            "value": -2590,
+            "unit": "kJ//mol",
+            "prec": 3
           }
         ]
       },
@@ -20478,9 +20478,9 @@
           "tex": "{\\(\\qty{15}{\\unit{\\degree C}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>",
-          "md": "$\\pu{25 \\degree C}$\n",
-          "tex": "{\\(\\qty{25}{\\unit{\\degree C}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{23 \\degree C}\\)</span>",
+          "md": "$\\pu{23 \\degree C}$\n",
+          "tex": "{\\(\\qty{23}{\\unit{\\degree C}}\\)}\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\pu{35 \\degree C}\\)</span>",
@@ -20488,14 +20488,14 @@
           "tex": "{\\(\\qty{35}{\\unit{\\degree C}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{45 \\degree C}\\)</span>",
-          "md": "$\\pu{45 \\degree C}$\n",
-          "tex": "{\\(\\qty{45}{\\unit{\\degree C}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{53 \\degree C}\\)</span>",
+          "md": "$\\pu{53 \\degree C}$\n",
+          "tex": "{\\(\\qty{53}{\\unit{\\degree C}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{55 \\degree C}\\)</span>",
-          "md": "$\\pu{55 \\degree C}$\n",
-          "tex": "{\\(\\qty{55}{\\unit{\\degree C}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{80 \\degree C}\\)</span>",
+          "md": "$\\pu{80 \\degree C}$\n",
+          "tex": "{\\(\\qty{80}{\\unit{\\degree C}}\\)}\n"
         }
       ],
       "correct_choice": 2
@@ -20713,70 +20713,70 @@
     {
       "id_": "2E14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E14/2E14.md",
-      "date": "2023-03-16T15:36:20.339114",
+      "date": "2023-03-18T17:20:46.493932",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do brometo de cálcio.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede do brometo de cálcio.\n"
+        "html": "<p>oi</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do brometo de cálcio.</p>",
+        "md": "oi\n\n**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
+        "tex": "oi\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede do brometo de cálcio.\n"
       },
       "solution": null,
       "answer": null,
       "data": {
         "quantities": [
           {
-            "id_": "$\\Delta H_\\text{hid}(\\ce{Ca^{2+}}) = \\pu{-1579 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{hid}(\\ce{Ca^{2+}}) = \\pu{-1579 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
+            "id_": "Hsol(CaCl2)",
+            "name": "entalpia padrão de dissolução do \\ce{CaCl2}",
+            "symbol": "\\Delta H_\\mathrm{sol}^{\\circ}(\\ce{CaCl2})",
+            "value": -103,
+            "unit": "kJ//mol",
             "prec": 3
           },
           {
-            "id_": "$\\Delta H_\\text{hid}(\\ce{Cl^-}) = \\pu{-336 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{hid}(\\ce{Cl^-}) = \\pu{-336 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
+            "id_": "Hhid(Ca^{2+})",
+            "name": "entalpia padrão de hidratação do \\ce{Ca^{2+}}",
+            "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{Ca^{2+}})",
+            "value": -1580,
+            "unit": "kJ//mol",
             "prec": 3
           },
           {
-            "id_": "$\\Delta H_\\text{sol}(\\ce{CaCl2}) = \\pu{-103 kJ.mol-1}$",
-            "name": "$\\Delta H_\\text{sol}(\\ce{CaCl2}) = \\pu{-103 kJ.mol-1}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
+            "id_": "Hhid(Cl^-)",
+            "name": "entalpia padrão de hidratação do \\ce{Cl^-}",
+            "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{Cl^-})",
+            "value": -336,
+            "unit": "kJ//mol",
             "prec": 3
           }
         ]
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-983 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-983 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-983}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-160 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-160 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-160}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1125 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1125 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1125}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-300 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-300 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-300}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1928 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1928 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1928}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-560 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-560 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-560}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-2254 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-2254 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-2254}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-1000 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1000 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1000}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-2414 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-2414 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-2414}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-1900 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1900 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1900}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 4
     },
     {
       "id_": "2E43",
