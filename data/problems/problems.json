@@ -6459,14 +6459,20 @@
     {
       "id_": "3F42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F42/3F42.md",
-      "date": "2023-03-15T22:16:57.748257",
+      "date": "2023-03-17T14:25:25.767913",
       "statement": {
         "html": "<p>Foi borbulhado ar em CNTP a <span class=\"math inline\">\\(\\pu{30\nL.min-1}\\)</span> por uma solução com <span class=\"math inline\">\\(\\pu{75\nmL}\\)</span> de uma solução a <span class=\"math inline\">\\(1\\%\\)</span>\nde peróxido de hidrogênio. O <span class=\"math inline\">\\(\\ce{H2O2}\\)</span> converte o <span class=\"math inline\">\\(\\ce{SO2}\\)</span> do ar em ácido sulfúrico. Após\ndez minutos o <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> foi\ntitulado com <span class=\"math inline\">\\(\\ce{10 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,002 mol.L-1}\\)</span> em\nhidróxido de sódio</p>\n<p><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> no ar em partes por milhão.</p>",
         "md": "Foi borbulhado ar em CNTP a $\\pu{30 L.min-1}$ por uma solução com\n$\\pu{75 mL}$ de uma solução a $1\\%$ de peróxido de hidrogênio. O\n$\\ce{H2O2}$ converte o $\\ce{SO2}$ do ar em ácido sulfúrico. Após dez\nminutos o $\\ce{H2SO4}$ foi titulado com $\\ce{10 mL}$ de uma solução\n$\\pu{0,002 mol.L-1}$ em hidróxido de sódio\n\n**Determine** a concentração de $\\ce{SO2}$ no ar em partes por milhão.\n",
         "tex": "Foi borbulhado ar em CNTP a {\\(\\qty{30}{\\unit{L.min^{-1}}}\\)} por uma solução com {\\(\\qty{75}{\\unit{mL}}\\)} de uma solução a {\\(1\\%\\)} de peróxido de\nhidrogênio. O {\\(\\ce{H2O2}\\)} converte o {\\(\\ce{SO2}\\)} do ar em ácido sulfúrico. Após dez minutos o {\\(\\ce{H2SO4}\\)} foi titulado com\n{\\(\\ce{10 mL}\\)} de uma solução {\\(\\qty{0,002}{\\unit{mol.L^{-1}}}\\)} em hidróxido de sódio\n\n\\textbf{Determine} a concentração de {\\(\\ce{SO2}\\)} no ar em partes por milhão.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,75 ppm}\\)</span></p>\n",
+          "md": "$\\pu{0,75 ppm}$",
+          "tex": "\\(\\qty{0,75}{\\unit{ppm}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -7494,14 +7500,20 @@
     {
       "id_": "3F40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3F/3F40/3F40.md",
-      "date": "2023-03-15T22:17:24.404416",
+      "date": "2023-03-17T14:25:25.767913",
       "statement": {
         "html": "<p>O <em>Index Merck</em> indica que <span class=\"math inline\">\\(\\pu{10\nmg}\\)</span> de guanidina, <span class=\"math inline\">\\(\\ce{CH5N3}\\)</span>, pode ser administrada para\ncada quilograma de peso corporal no tratamento da miastenia grave. O\nnitrogênio em uma amostra de quatro tabletes, que pesou um total de\n<span class=\"math inline\">\\(\\pu{7,5 g}\\)</span>, foi convertido em\namônia, seguida por destilação em <span class=\"math inline\">\\(\\pu{100\nmL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,175 mol\nL-1}\\)</span> em <span class=\"math inline\">\\(\\ce{HCl}\\)</span>. O\nexcesso de ácido foi retrotitulado com <span class=\"math inline\">\\(\\pu{12 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em hidróxido de\nsódio.</p>\n<p><strong>Determine</strong> o número de tabletes que representam uma\ndose apropriada para um paciente de <span class=\"math inline\">\\(\\pu{70\nkg}\\)</span>.</p>",
         "md": "O *Index Merck* indica que $\\pu{10 mg}$ de guanidina, $\\ce{CH5N3}$, pode\nser administrada para cada quilograma de peso corporal no tratamento da\nmiastenia grave. O nitrogênio em uma amostra de quatro tabletes, que\npesou um total de $\\pu{7,5 g}$, foi convertido em amônia, seguida por\ndestilação em $\\pu{100 mL}$ de uma solução $\\pu{0,175 mol L-1}$ em\n$\\ce{HCl}$. O excesso de ácido foi retrotitulado com $\\pu{12 mL}$ de uma\nsolução $\\pu{0,1 mol.L-1}$ em hidróxido de sódio.\n\n**Determine** o número de tabletes que representam uma dose apropriada\npara um paciente de $\\pu{70 kg}$.\n",
         "tex": "O \\emph{Index Merck} indica que {\\(\\qty{10}{\\unit{mg}}\\)} de guanidina, {\\(\\ce{CH5N3}\\)}, pode ser administrada para cada quilograma de peso corporal\nno tratamento da miastenia grave. O nitrogênio em uma amostra de quatro tabletes, que pesou um total de {\\(\\qty{7,5}{\\unit{g}}\\)}, foi convertido em\namônia, seguida por destilação em {\\(\\qty{100}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,175}{\\unit{mol L^{-1}}}\\)} em {\\(\\ce{HCl}\\)}. O excesso de ácido\nfoi retrotitulado com {\\(\\qty{12}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em hidróxido de sódio.\n\n\\textbf{Determine} o número de tabletes que representam uma dose apropriada para um paciente de {\\(\\qty{70}{\\unit{kg}}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p>9 tabletes</p>\n",
+          "md": "9 tabletes",
+          "tex": "9 tabletes\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -14234,11 +14246,11 @@
     {
       "id_": "3C09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C09/3C09.md",
-      "date": "2023-01-17T23:16:40.963215",
+      "date": "2023-03-17T14:25:25.763913",
       "statement": {
-        "html": "<p>Por meio de uma série de etapas enzimáticas do processo de\nfotossíntese, o dióxido de carbono e a água produzem glicose e oxigênio\nde acordo com a equação: <span class=\"math display\">\\[\n    \\ce{ CO2(g) + H2O(l) -&gt; C6H12O6(s) + O2(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume de dióxido de carbono, ajustado para <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1}\\)</span> para produzir <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de glicose por fotossíntese.</p>",
-        "md": "Por meio de uma série de etapas enzimáticas do processo de fotossíntese,\no dióxido de carbono e a água produzem glicose e oxigênio de acordo com\na equação: $$\n    \\ce{ CO2(g) + H2O(l) -> C6H12O6(s) + O2(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima do volume de dióxido de\ncarbono, ajustado para $\\pu{25 \\degree C}$ e $\\pu{1}$ para produzir\n$\\pu{1 g}$ de glicose por fotossíntese.\n",
-        "tex": "Por meio de uma série de etapas enzimáticas do processo de fotossíntese, o dióxido de carbono e a água produzem glicose e oxigênio de acordo com a\nequação: {\\[\n    \\ce{ CO2(g) + H2O(l) -> C6H12O6(s) + O2(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume de dióxido de carbono, ajustado para {\\(\\qty{25}{\\unit{\\degree C}}\\)} e {\\(\\num{1}\\)}\npara produzir {\\(\\qty{1}{\\unit{g}}\\)} de glicose por fotossíntese.\n"
+        "html": "<p>Por meio de uma série de etapas enzimáticas do processo de\nfotossíntese, o dióxido de carbono e a água produzem glicose e oxigênio\nde acordo com a equação: <span class=\"math display\">\\[\n    \\ce{ CO2(g) + H2O(l) -&gt; C6H12O6(s) + O2(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume de dióxido de carbono, ajustado para <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> para produzir <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de glicose por fotossíntese.</p>",
+        "md": "Por meio de uma série de etapas enzimáticas do processo de fotossíntese,\no dióxido de carbono e a água produzem glicose e oxigênio de acordo com\na equação: $$\n    \\ce{ CO2(g) + H2O(l) -> C6H12O6(s) + O2(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima do volume de dióxido de\ncarbono, ajustado para $\\pu{25 \\degree C}$ e $\\pu{1 atm}$ para produzir\n$\\pu{1 g}$ de glicose por fotossíntese.\n",
+        "tex": "Por meio de uma série de etapas enzimáticas do processo de fotossíntese, o dióxido de carbono e a água produzem glicose e oxigênio de acordo com a\nequação: {\\[\n    \\ce{ CO2(g) + H2O(l) -> C6H12O6(s) + O2(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume de dióxido de carbono, ajustado para {\\(\\qty{25}{\\unit{\\degree C}}\\)} e\n{\\(\\qty{1}{\\unit{atm}}\\)} para produzir {\\(\\qty{1}{\\unit{g}}\\)} de glicose por fotossíntese.\n"
       },
       "solution": null,
       "answer": null,
@@ -14588,11 +14600,11 @@
     {
       "id_": "3C33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C33/3C33.md",
-      "date": "2023-01-18T00:54:42.212356",
+      "date": "2023-03-17T14:25:25.767913",
       "statement": {
-        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> do gás\namônia, em <span class=\"math inline\">\\(\\pu{1 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, é misturada com <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> do gás cloreto de hidrogênio,\nem <span class=\"math inline\">\\(\\pu{150 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>. A seguinte reação\nocorre: <span class=\"math display\">\\[\n    \\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{NH4Cl}\\)</span> formada.</li>\n<li><strong>Determine</strong> a pressão parcial do gás em excesso após\no final da reação.</li>\n</ol>",
-        "md": "Uma amostra de $\\pu{15 mL}$ do gás amônia, em $\\pu{1 Torr}$ e\n$\\pu{30 \\degree C}$, é misturada com $\\pu{25 mL}$ do gás cloreto de\nhidrogênio, em $\\pu{150 Torr}$ e $\\pu{25 \\degree C}$. A seguinte reação\nocorre: $$\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n$$\n\na.  **Determine** a massa de $\\ce{NH4Cl}$ formada.\nb.  **Determine** a pressão parcial do gás em excesso após o final da\n    reação.\n",
-        "tex": "Uma amostra de {\\(\\qty{15}{\\unit{mL}}\\)} do gás amônia, em {\\(\\qty{1}{\\unit{Torr}}\\)} e {\\(\\qty{30}{\\unit{\\degree C}}\\)}, é misturada com\n{\\(\\qty{25}{\\unit{mL}}\\)} do gás cloreto de hidrogênio, em {\\(\\qty{150}{\\unit{Torr}}\\)} e {\\(\\qty{25}{\\unit{\\degree C}}\\)}. A seguinte reação ocorre:\n{\\[\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{NH4Cl}\\)} formada.\n\\item\n  \\textbf{Determine} a pressão parcial do gás em excesso após o final da reação.\n\\end{enumerate}\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> do gás\namônia, em <span class=\"math inline\">\\(\\pu{100 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, é misturada com <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> do gás cloreto de hidrogênio,\nem <span class=\"math inline\">\\(\\pu{150 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>. A seguinte reação\nocorre: <span class=\"math display\">\\[\n    \\ce{ NH3(g) + HCl(g) -&gt; NH4Cl(s) }\n\\]</span></p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de <span class=\"math inline\">\\(\\ce{NH4Cl}\\)</span> formada.</li>\n<li><strong>Determine</strong> a pressão parcial do gás em excesso após\no final da reação.</li>\n</ol>",
+        "md": "Uma amostra de $\\pu{15 mL}$ do gás amônia, em $\\pu{100 Torr}$ e\n$\\pu{30 \\degree C}$, é misturada com $\\pu{25 mL}$ do gás cloreto de\nhidrogênio, em $\\pu{150 Torr}$ e $\\pu{25 \\degree C}$. A seguinte reação\nocorre: $$\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n$$\n\na.  **Determine** a massa de $\\ce{NH4Cl}$ formada.\nb.  **Determine** a pressão parcial do gás em excesso após o final da\n    reação.\n",
+        "tex": "Uma amostra de {\\(\\qty{15}{\\unit{mL}}\\)} do gás amônia, em {\\(\\qty{100}{\\unit{Torr}}\\)} e {\\(\\qty{30}{\\unit{\\degree C}}\\)}, é misturada com\n{\\(\\qty{25}{\\unit{mL}}\\)} do gás cloreto de hidrogênio, em {\\(\\qty{150}{\\unit{Torr}}\\)} e {\\(\\qty{25}{\\unit{\\degree C}}\\)}. A seguinte reação ocorre:\n{\\[\n    \\ce{ NH3(g) + HCl(g) -> NH4Cl(s) }\n\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de {\\(\\ce{NH4Cl}\\)} formada.\n\\item\n  \\textbf{Determine} a pressão parcial do gás em excesso após o final da reação.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
@@ -14819,20 +14831,20 @@
     {
       "id_": "3C32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3C/3C32/3C32.md",
-      "date": "2023-01-18T00:54:55.980262",
+      "date": "2023-03-17T14:25:25.763913",
       "statement": {
-        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,4 g}\\)</span> de zinco\nimpuro reagiu com excesso de ácido clorídrico, formaram-se <span class=\"math inline\">\\(\\pu{127 mL}\\)</span> de gás hidrogênio, que foi\ncoletado sobre água em <span class=\"math inline\">\\(\\pu{10 \\degree\nC}\\)</span>. A pressão externa era <span class=\"math inline\">\\(\\pu{738\nTorr}\\)</span>. Nesta temperatura, a pressão parcial da água é <span class=\"math inline\">\\(\\pu{10 Torr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza do zinco.</p>",
-        "md": "Quando $\\pu{0,4 g}$ de zinco impuro reagiu com excesso de ácido\nclorídrico, formaram-se $\\pu{127 mL}$ de gás hidrogênio, que foi\ncoletado sobre água em $\\pu{10 \\degree C}$. A pressão externa era\n$\\pu{738 Torr}$. Nesta temperatura, a pressão parcial da água é\n$\\pu{10 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da pureza do zinco.\n",
-        "tex": "Quando {\\(\\qty{0,4}{\\unit{g}}\\)} de zinco impuro reagiu com excesso de ácido clorídrico, formaram-se {\\(\\qty{127}{\\unit{mL}}\\)} de gás hidrogênio, que\nfoi coletado sobre água em {\\(\\qty{10}{\\unit{\\degree C}}\\)}. A pressão externa era {\\(\\qty{738}{\\unit{Torr}}\\)}. Nesta temperatura, a pressão parcial\nda água é {\\(\\qty{10}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pureza do zinco.\n"
+        "html": "<p>Quando <span class=\"math inline\">\\(\\pu{0,4 g}\\)</span> de zinco\nimpuro reagiu com excesso de ácido clorídrico conforme a reação: <span class=\"math display\">\\[\n    \\ce{ Zn(s) + 2 HCl(aq) -&gt; ZnCl2(aq) + H2(g) }\n\\]</span> Foram coletados <span class=\"math inline\">\\(\\pu{127\nmL}\\)</span> de gás hidrogênio sobre água em <span class=\"math inline\">\\(\\pu{10 \\degree C}\\)</span>. A pressão externa era\n<span class=\"math inline\">\\(\\pu{738 Torr}\\)</span>. Nesta temperatura, a\npressão parcial da água é <span class=\"math inline\">\\(\\pu{10\nTorr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza do zinco.</p>",
+        "md": "Quando $\\pu{0,4 g}$ de zinco impuro reagiu com excesso de ácido\nclorídrico conforme a reação: $$\n    \\ce{ Zn(s) + 2 HCl(aq) -> ZnCl2(aq) + H2(g) }\n$$ Foram coletados $\\pu{127 mL}$ de gás hidrogênio sobre água em\n$\\pu{10 \\degree C}$. A pressão externa era $\\pu{738 Torr}$. Nesta\ntemperatura, a pressão parcial da água é $\\pu{10 Torr}$.\n\n**Assinale** a alternativa que mais se aproxima da pureza do zinco.\n",
+        "tex": "Quando {\\(\\qty{0,4}{\\unit{g}}\\)} de zinco impuro reagiu com excesso de ácido clorídrico conforme a reação: {\\[\n    \\ce{ Zn(s) + 2 HCl(aq) -> ZnCl2(aq) + H2(g) }\n\\]} Foram coletados {\\(\\qty{127}{\\unit{mL}}\\)} de gás hidrogênio sobre água em {\\(\\qty{10}{\\unit{\\degree C}}\\)}. A pressão externa era\n{\\(\\qty{738}{\\unit{Torr}}\\)}. Nesta temperatura, a pressão parcial da água é {\\(\\qty{10}{\\unit{Torr}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pureza do zinco.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{21 \\%}\\)</span>",
-          "md": "$\\pu{21 \\%}$\n",
-          "tex": "{\\(\\qty{21}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{22 \\%}\\)</span>",
+          "md": "$\\pu{22 \\%}$\n",
+          "tex": "{\\(\\qty{22}{\\unit{\\%}}\\)}\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\pu{34 \\%}\\)</span>",
@@ -14845,14 +14857,14 @@
           "tex": "{\\(\\qty{54}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{85 \\%}\\)</span>",
-          "md": "$\\pu{85 \\%}$\n",
-          "tex": "{\\(\\qty{85}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{86 \\%}\\)</span>",
+          "md": "$\\pu{86 \\%}$\n",
+          "tex": "{\\(\\qty{86}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{130 \\%}\\)</span>",
-          "md": "$\\pu{130 \\%}$\n",
-          "tex": "{\\(\\qty{130}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{140 \\%}\\)</span>",
+          "md": "$\\pu{140 \\%}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{\\%}}\\)}\n"
         }
       ],
       "correct_choice": 3
@@ -19435,17 +19447,62 @@
     {
       "id_": "2E17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E17/2E17.md",
-      "date": "2023-03-16T15:18:33.513565",
+      "date": "2023-03-17T14:48:55.265707",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.kg-1}\\)</span> do analgésico codeína, <span class=\"math inline\">\\(\\ce{C18H21NO3}\\)</span>, em benzeno.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ntemperatura de congelamento dessa solução.</p>",
+        "md": "Considere uma solução $\\pu{0,2 mol.kg-1}$ do analgésico codeína,\n$\\ce{C18H21NO3}$, em benzeno.\n\n**Assinale** a alternativa que mais se aproxima da temperatura de\ncongelamento dessa solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,2}{\\unit{mol.kg^{-1}}}\\)} do analgésico codeína, {\\(\\ce{C18H21NO3}\\)}, em benzeno.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da temperatura de congelamento dessa solução.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "kf(benzeno)",
+            "name": "constante crioscópica do benzeno",
+            "symbol": "k_\\mathrm{b}(\\ce{C6H6})",
+            "value": 5.12,
+            "unit": "K.kg//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Tfus(benzeno)",
+            "name": "temperatura de fusão do benzeno",
+            "symbol": "T_\\mathrm{fus}(\\ce{C6H6})",
+            "value": 5.5,
+            "unit": "\\degree C",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,9 \\degree C}\\)</span>",
+          "md": "$\\pu{1,9 \\degree C}$\n",
+          "tex": "{\\(\\qty{1,9}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5 \\degree C}\\)</span>",
+          "md": "$\\pu{2,5 \\degree C}$\n",
+          "tex": "{\\(\\qty{2,5}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,4 \\degree C}\\)</span>",
+          "md": "$\\pu{3,4 \\degree C}$\n",
+          "tex": "{\\(\\qty{3,4}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,5 \\degree C}\\)</span>",
+          "md": "$\\pu{4,5 \\degree C}$\n",
+          "tex": "{\\(\\qty{4,5}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0 \\degree C}\\)</span>",
+          "md": "$\\pu{6,0 \\degree C}$\n",
+          "tex": "{\\(\\qty{6,0}{\\unit{\\degree C}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2E07",
@@ -19551,17 +19608,54 @@
     {
       "id_": "2E18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E18/2E18.md",
-      "date": "2023-03-16T15:18:33.513565",
+      "date": "2023-03-18T13:23:45.110427",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{5 mmol}\\)</span> do\ninseticida malation, <span class=\"math inline\">\\(\\ce{C10H19O6PS2}\\)</span>, foi dissolvida em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> em cânfora.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nvariação na temperatura de congelamento da solução devido à\ndissolução.</p>",
+        "md": "Uma amostra de $\\pu{5 mmol}$ do inseticida malation, $\\ce{C10H19O6PS2}$,\nfoi dissolvida em $\\pu{100 g}$ em cânfora.\n\n**Assinale** a alternativa que mais se aproxima da variação na\ntemperatura de congelamento da solução devido à dissolução.\n",
+        "tex": "Uma amostra de {\\(\\qty{5}{\\unit{mmol}}\\)} do inseticida malation, {\\(\\ce{C10H19O6PS2}\\)}, foi dissolvida em {\\(\\qty{100}{\\unit{g}}\\)} em cânfora.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da variação na temperatura de congelamento da solução devido à dissolução.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "kf(canfora)",
+            "name": "constante crioscópica da cânfora",
+            "symbol": "k_\\mathrm{b}(\\ce{C10H16O})",
+            "value": 39.7,
+            "unit": "K.kg//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,6 \\degree C}\\)</span>",
+          "md": "$\\pu{1,6 \\degree C}$\n",
+          "tex": "{\\(\\qty{1,6}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2 \\degree C}\\)</span>",
+          "md": "$\\pu{2 \\degree C}$\n",
+          "tex": "{\\(\\qty{2}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5 \\degree C}\\)</span>",
+          "md": "$\\pu{2,5 \\degree C}$\n",
+          "tex": "{\\(\\qty{2,5}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,2 \\degree C}\\)</span>",
+          "md": "$\\pu{3,2 \\degree C}$\n",
+          "tex": "{\\(\\qty{3,2}{\\unit{\\degree C}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,0 \\degree C}\\)</span>",
+          "md": "$\\pu{4,0 \\degree C}$\n",
+          "tex": "{\\(\\qty{4,0}{\\unit{\\degree C}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2E42",
@@ -22879,6 +22973,906 @@
         }
       ],
       "correct_choice": 1
+    },
+    {
+      "id_": "2F26",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F26/2F26.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F53",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F53/2F53.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F41",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F41/2F41.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F39",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F39/2F39.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F10/2F10.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F02/2F02.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F54",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F54/2F54.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F57",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F57/2F57.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F29",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F29/2F29.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F16/2F16.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F08/2F08.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F01/2F01.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F42",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F42/2F42.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F45",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F45/2F45.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F23/2F23.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F47",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F47/2F47.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F32",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F32/2F32.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F31",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F31/2F31.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F21/2F21.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F25",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F25/2F25.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F24/2F24.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F35/2F35.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F22/2F22.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F48",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F48/2F48.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F15/2F15.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F11/2F11.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F37",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F37/2F37.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F59",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F59/2F59.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F46",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F46/2F46.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F58",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F58/2F58.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F40",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F40/2F40.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F52",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F52/2F52.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F17/2F17.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F07/2F07.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F49",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F49/2F49.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F06/2F06.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F50",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F50/2F50.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F20/2F20.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F12/2F12.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F56",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F56/2F56.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F19/2F19.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F03/2F03.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F43",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F43/2F43.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F60",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F60/2F60.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F36",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F36/2F36.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F09/2F09.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F27",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F27/2F27.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F51",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F51/2F51.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F44",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F44/2F44.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F05/2F05.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F14/2F14.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F38",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F38/2F38.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F13/2F13.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F34/2F34.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F33/2F33.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F55",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F55/2F55.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F04/2F04.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F18/2F18.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F30",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F30/2F30.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
+      "id_": "2F28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2F/2F28/2F28.md",
+      "date": "2023-03-17T14:48:55.265707",
+      "statement": {
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2A19",
