@@ -19383,43 +19383,17 @@
     {
       "id_": "2E10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E10/2E10.md",
-      "date": "2023-03-19T17:40:03.780196",
+      "date": "2023-03-19T20:00:33.591935",
       "statement": {
-        "html": "<p>Considere as curvas de solubilidade do brometo de potássio em\nágua.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E10-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa <em>incorreta</em>.</p>",
-        "md": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E10-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
-        "tex": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E10-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa \\emph{incorreta}.\n"
+        "html": "",
+        "md": "\n",
+        "tex": "\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": [
-        {
-          "html": "A dissolução do <span class=\"math inline\">\\(\\ce{KBr}\\)</span> em água é um processo\nendotérmico.<br/>",
-          "md": "A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.  \n",
-          "tex": "A dissolução do {\\(\\ce{KBr}\\)} em água é um processo endotérmico.\\\\\n"
-        },
-        {
-          "html": "A <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, a concentração de uma\nsolução aquosa saturada em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>\né de aproximadamente <span class=\"math inline\">\\(\\pu{6\nmol.kg-1}\\)</span>.<br/>",
-          "md": "A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada em\n$\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.  \n",
-          "tex": "A {\\(\\qty{30}{\\unit{\\degree C}}\\)}, a concentração de uma solução aquosa saturada em {\\(\\ce{KBr}\\)} é de aproximadamente\n{\\(\\qty{6}{\\unit{mol.kg^{-1}}}\\)}.\\\\\n"
-        },
-        {
-          "html": "Misturas correspondentes a\npontos situados na região <span class=\"math inline\">\\(A\\)</span> da\nfigura são bifásicas.<br/>",
-          "md": "Misturas correspondentes a pontos situados na região $A$ da figura são\nbifásicas.  \n",
-          "tex": "Misturas correspondentes a pontos situados na região {\\(A\\)} da figura são bifásicas.\\\\\n"
-        },
-        {
-          "html": "Misturas correspondentes a\npontos situados na região <span class=\"math inline\">\\(B\\)</span> da\nfigura são monofásicas.<br/>",
-          "md": "Misturas correspondentes a pontos situados na região $B$ da figura são\nmonofásicas.  \n",
-          "tex": "Misturas correspondentes a pontos situados na região {\\(B\\)} da figura são monofásicas.\\\\\n"
-        },
-        {
-          "html": "Misturas correspondentes a\npontos situados sobre a curva são saturadas em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>.",
-          "md": "Misturas correspondentes a pontos situados sobre a curva são saturadas\nem $\\ce{KBr}$.\n",
-          "tex": "Misturas correspondentes a pontos situados sobre a curva são saturadas em {\\(\\ce{KBr}\\)}.\n"
-        }
-      ],
-      "correct_choice": 1
+      "choices": null,
+      "correct_choice": null
     },
     {
       "id_": "2E23",
@@ -19560,11 +19534,11 @@
     {
       "id_": "2E08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E08/2E08.md",
-      "date": "2023-03-19T17:37:31.271730",
+      "date": "2023-03-19T19:58:35.418004",
       "statement": {
-        "html": "<p>Considere as curvas de solubilidade.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E08-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>Ao dissolver <span class=\"math inline\">\\(\\pu{130 g}\\)</span> de <span class=\"math inline\">\\(\\ce{KNO3}\\)</span> em <span class=\"math inline\">\\(\\pu{200 g}\\)</span> de água, a <span class=\"math inline\">\\(\\pu{40 \\degree C}\\)</span>, a solução obtida é\nsaturada e possui <span class=\"math inline\">\\(\\pu{70 g}\\)</span> de\ncorpo de fundo.</li>\n<li>Ao dissolver <span class=\"math inline\">\\(\\pu{20 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Ce2(SO4)3}\\)</span> em <span class=\"math inline\">\\(\\pu{300 g}\\)</span> de água a <span class=\"math inline\">\\(\\pu{10 \\degree C}\\)</span> e, posteriormente,\naquecer a solução até <span class=\"math inline\">\\(\\pu{90 \\degree\nC}\\)</span> haverá gradativa precipitação da substância.</li>\n<li>A menor quantidade de água\nnecessária para dissolver completamente <span class=\"math inline\">\\(\\pu{140 g}\\)</span> de <span class=\"math inline\">\\(\\ce{K2Cr2O7}\\)</span> a <span class=\"math inline\">\\(\\pu{90 \\degree C}\\)</span> é cerca de <span class=\"math inline\">\\(\\pu{150 g}\\)</span>.</li>\n<li>O nitrato de sódio é a\nsubstância mais solúvel a <span class=\"math inline\">\\(\\pu{100 \\degree\nC}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
-        "md": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E08-1P.svg)\n\nConsidere as proposições.\n\n1.  Ao dissolver $\\pu{130 g}$ de $\\ce{KNO3}$ em $\\pu{200 g}$ de água, a\n    $\\pu{40 \\degree C}$, a solução obtida é saturada e possui\n    $\\pu{70 g}$ de corpo de fundo.\n2.  Ao dissolver $\\pu{20 g}$ de $\\ce{Ce2(SO4)3}$ em $\\pu{300 g}$ de água\n    a $\\pu{10 \\degree C}$ e, posteriormente, aquecer a solução até\n    $\\pu{90 \\degree C}$ haverá gradativa precipitação da substância.\n3.  A menor quantidade de água necessária para dissolver completamente\n    $\\pu{140 g}$ de $\\ce{K2Cr2O7}$ a $\\pu{90 \\degree C}$ é cerca de\n    $\\pu{150 g}$.\n4.  O nitrato de sódio é a substância mais solúvel a\n    $\\pu{100 \\degree C}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
-        "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E08-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ao dissolver {\\(\\qty{130}{\\unit{g}}\\)} de {\\(\\ce{KNO3}\\)} em {\\(\\qty{200}{\\unit{g}}\\)} de água, a {\\(\\qty{40}{\\unit{\\degree C}}\\)}, a solução obtida\n  é saturada e possui {\\(\\qty{70}{\\unit{g}}\\)} de corpo de fundo.\n\\item\n  Ao dissolver {\\(\\qty{20}{\\unit{g}}\\)} de {\\(\\ce{Ce2(SO4)3}\\)} em {\\(\\qty{300}{\\unit{g}}\\)} de água a {\\(\\qty{10}{\\unit{\\degree C}}\\)} e,\n  posteriormente, aquecer a solução até {\\(\\qty{90}{\\unit{\\degree C}}\\)} haverá gradativa precipitação da substância.\n\\item\n  A menor quantidade de água necessária para dissolver completamente {\\(\\qty{140}{\\unit{g}}\\)} de {\\(\\ce{K2Cr2O7}\\)} a\n  {\\(\\qty{90}{\\unit{\\degree C}}\\)} é cerca de {\\(\\qty{150}{\\unit{g}}\\)}.\n\\item\n  O nitrato de sódio é a substância mais solúvel a {\\(\\qty{100}{\\unit{\\degree C}}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
+        "html": "<p>Considere as curvas de solubilidade.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E08-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>Ao dissolver <span class=\"math inline\">\\(\\pu{130 g}\\)</span> de <span class=\"math inline\">\\(\\ce{KNO3}\\)</span> em <span class=\"math inline\">\\(\\pu{200 g}\\)</span> de água, a <span class=\"math inline\">\\(\\pu{40 \\degree C}\\)</span>, a solução obtida é\nsaturada e possui <span class=\"math inline\">\\(\\pu{70 g}\\)</span> de\ncorpo de fundo.</li>\n<li>Ao dissolver <span class=\"math inline\">\\(\\pu{20 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Ce2(SO4)3}\\)</span> em <span class=\"math inline\">\\(\\pu{300 g}\\)</span> de água a <span class=\"math inline\">\\(\\pu{10 \\degree C}\\)</span> e, posteriormente,\naquecer a solução até <span class=\"math inline\">\\(\\pu{90 \\degree\nC}\\)</span> haverá gradativa precipitação da substância.</li>\n<li>A menor quantidade de água\nnecessária para dissolver completamente <span class=\"math inline\">\\(\\pu{140 g}\\)</span> de <span class=\"math inline\">\\(\\ce{K2Cr2O7}\\)</span> en <span class=\"math inline\">\\(\\pu{90 \\degree C}\\)</span> é cerca de <span class=\"math inline\">\\(\\pu{150 g}\\)</span>.</li>\n<li>O <span class=\"math inline\">\\(\\ce{K2Cr2O7}\\)</span> é a substância mais solúvel\nem <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E08-1P.svg)\n\nConsidere as proposições.\n\n1.  Ao dissolver $\\pu{130 g}$ de $\\ce{KNO3}$ em $\\pu{200 g}$ de água, a\n    $\\pu{40 \\degree C}$, a solução obtida é saturada e possui\n    $\\pu{70 g}$ de corpo de fundo.\n2.  Ao dissolver $\\pu{20 g}$ de $\\ce{Ce2(SO4)3}$ em $\\pu{300 g}$ de água\n    a $\\pu{10 \\degree C}$ e, posteriormente, aquecer a solução até\n    $\\pu{90 \\degree C}$ haverá gradativa precipitação da substância.\n3.  A menor quantidade de água necessária para dissolver completamente\n    $\\pu{140 g}$ de $\\ce{K2Cr2O7}$ en $\\pu{90 \\degree C}$ é cerca de\n    $\\pu{150 g}$.\n4.  O $\\ce{K2Cr2O7}$ é a substância mais solúvel em\n    $\\pu{100 \\degree C}$.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E08-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ao dissolver {\\(\\qty{130}{\\unit{g}}\\)} de {\\(\\ce{KNO3}\\)} em {\\(\\qty{200}{\\unit{g}}\\)} de água, a {\\(\\qty{40}{\\unit{\\degree C}}\\)}, a solução obtida\n  é saturada e possui {\\(\\qty{70}{\\unit{g}}\\)} de corpo de fundo.\n\\item\n  Ao dissolver {\\(\\qty{20}{\\unit{g}}\\)} de {\\(\\ce{Ce2(SO4)3}\\)} em {\\(\\qty{300}{\\unit{g}}\\)} de água a {\\(\\qty{10}{\\unit{\\degree C}}\\)} e,\n  posteriormente, aquecer a solução até {\\(\\qty{90}{\\unit{\\degree C}}\\)} haverá gradativa precipitação da substância.\n\\item\n  A menor quantidade de água necessária para dissolver completamente {\\(\\qty{140}{\\unit{g}}\\)} de {\\(\\ce{K2Cr2O7}\\)} en\n  {\\(\\qty{90}{\\unit{\\degree C}}\\)} é cerca de {\\(\\qty{150}{\\unit{g}}\\)}.\n\\item\n  O {\\(\\ce{K2Cr2O7}\\)} é a substância mais solúvel em {\\(\\qty{100}{\\unit{\\degree C}}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
@@ -19799,11 +19773,11 @@
     {
       "id_": "2E09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E09/2E09.md",
-      "date": "2023-03-16T15:34:01.620427",
+      "date": "2023-03-19T20:01:59.308981",
       "statement": {
-        "html": "<p>curvas de solubilidade.</p>",
-        "md": "curvas de solubilidade.\n",
-        "tex": "curvas de solubilidade.\n"
+        "html": "<p>Considere as curvas de solubilidade do brometo de potássio em\nágua.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E09-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ul class=\"task-list\">\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/>A dissolução do\n<span class=\"math inline\">\\(\\ce{KBr}\\)</span> em água é um processo\nendotérmico.<br/>\n</li>\n<li><input disabled=\"\" type=\"checkbox\"/>A <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, a concentração de uma\nsolução aquosa saturada em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>\né de aproximadamente <span class=\"math inline\">\\(\\pu{6\nmol.kg-1}\\)</span>.<br/>\n</li>\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/>Misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(A\\)</span> da figura são bifásicas e misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(B\\)</span> da figura são monofásicas.<br/>\n</li>\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/>Misturas\ncorrespondentes a pontos situados sobre a curva são saturadas em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>.</li>\n</ul>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E09-1P.svg)\n\nConsidere as proposições.\n\n-   A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.  \n-   A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada\n    em $\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.  \n-   Misturas correspondentes a pontos situados na região $A$ da figura\n    são bifásicas e misturas correspondentes a pontos situados na região\n    $B$ da figura são monofásicas.  \n-   Misturas correspondentes a pontos situados sobre a curva são\n    saturadas em $\\ce{KBr}$.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
+        "tex": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E09-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  A dissolução do {\\(\\ce{KBr}\\)} em água é um processo endotérmico.\\\\\n\\item\n  A {\\(\\qty{30}{\\unit{\\degree C}}\\)}, a concentração de uma solução aquosa saturada em {\\(\\ce{KBr}\\)} é de aproximadamente\n  {\\(\\qty{6}{\\unit{mol.kg^{-1}}}\\)}.\\\\\n\\item\n  Misturas correspondentes a pontos situados na região {\\(A\\)} da figura são bifásicas e misturas correspondentes a pontos situados na região {\\(B\\)}\n  da figura são monofásicas.\\\\\n\\item\n  Misturas correspondentes a pontos situados sobre a curva são saturadas em {\\(\\ce{KBr}\\)}.\n\\end{itemize}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
@@ -19945,43 +19919,43 @@
     {
       "id_": "2E07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E07/2E07.md",
-      "date": "2023-03-19T17:37:12.420167",
+      "date": "2023-03-19T19:55:29.270969",
       "statement": {
-        "html": "<p>Considere as curvas de solubilidade.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E07-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa <em>incorreta</em>.</p>",
-        "md": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E07-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
-        "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E07-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa \\emph{incorreta}.\n"
+        "html": "<p>Considere as curvas de solubilidade.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E07-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>Em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, uma mistura de <span class=\"math inline\">\\(\\pu{120 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaNO3}\\)</span> com <span class=\"math inline\">\\(\\ce{100 g}\\)</span> água é bifásica, sendo uma das\nfases o nitrato de amônio sólido e a outra a água líquida.<br/>\n</li>\n<li>Em <span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span>, uma mistura de <span class=\"math inline\">\\(\\pu{20 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> com <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água é monofásica, sendo\nesta fase uma solução aquosa não saturada em <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.<br/>\n</li>\n<li>Em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, a concentração de íons\nde sódio existentes na fase líquida de uma mistura preparada pela adição\nde <span class=\"math inline\">\\(\\pu{6 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> à <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água é <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span>.<br/>\n</li>\n<li>Em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, a quantidade de íons\nde sódio presentes em uma solução preparada pela dissolução de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> em <span class=\"math inline\">\\(\\ce{10 g}\\)</span> de água é maior do que a\nexistente em outra solução preparada pela dissolução de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4.10H2O}\\)</span> na mesma quantidade de\nágua.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E07-1P.svg)\n\nConsidere as proposições.\n\n1.  Em $\\pu{25 \\degree C}$, uma mistura de $\\pu{120 g}$ de $\\ce{NaNO3}$\n    com $\\ce{100 g}$ água é bifásica, sendo uma das fases o nitrato de\n    amônio sólido e a outra a água líquida.  \n2.  Em $\\pu{0 \\degree C}$, uma mistura de $\\pu{20 g}$ de $\\ce{NaCl}$ com\n    $\\pu{100 g}$ de água é monofásica, sendo esta fase uma solução\n    aquosa não saturada em $\\ce{NaCl}$.  \n3.  Em $\\pu{25 \\degree C}$, a concentração de íons de sódio existentes\n    na fase líquida de uma mistura preparada pela adição de $\\pu{6 g}$\n    de $\\ce{NaCl}$ à $\\pu{100 g}$ de água é $\\pu{1 mol.L-1}$.  \n4.  Em $\\pu{25 \\degree C}$, a quantidade de íons de sódio presentes em\n    uma solução preparada pela dissolução de $\\pu{1 g}$ de $\\ce{Na2SO4}$\n    em $\\ce{10 g}$ de água é maior do que a existente em outra solução\n    preparada pela dissolução de $\\pu{1 g}$ de $\\ce{Na2SO4.10H2O}$ na\n    mesma quantidade de água.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
+        "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E07-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Em {\\(\\qty{25}{\\unit{\\degree C}}\\)}, uma mistura de {\\(\\qty{120}{\\unit{g}}\\)} de {\\(\\ce{NaNO3}\\)} com {\\(\\ce{100 g}\\)} água é bifásica, sendo uma\n  das fases o nitrato de amônio sólido e a outra a água líquida.\\\\\n\\item\n  Em {\\(\\qty{0}{\\unit{\\degree C}}\\)}, uma mistura de {\\(\\qty{20}{\\unit{g}}\\)} de {\\(\\ce{NaCl}\\)} com {\\(\\qty{100}{\\unit{g}}\\)} de água é monofásica,\n  sendo esta fase uma solução aquosa não saturada em {\\(\\ce{NaCl}\\)}.\\\\\n\\item\n  Em {\\(\\qty{25}{\\unit{\\degree C}}\\)}, a concentração de íons de sódio existentes na fase líquida de uma mistura preparada pela adição de\n  {\\(\\qty{6}{\\unit{g}}\\)} de {\\(\\ce{NaCl}\\)} à {\\(\\qty{100}{\\unit{g}}\\)} de água é {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)}.\\\\\n\\item\n  Em {\\(\\qty{25}{\\unit{\\degree C}}\\)}, a quantidade de íons de sódio presentes em uma solução preparada pela dissolução de {\\(\\qty{1}{\\unit{g}}\\)} de\n  {\\(\\ce{Na2SO4}\\)} em {\\(\\ce{10 g}\\)} de água é maior do que a existente em outra solução preparada pela dissolução de {\\(\\qty{1}{\\unit{g}}\\)} de\n  {\\(\\ce{Na2SO4.10H2O}\\)} na mesma quantidade de água.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "A <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, a solubilidade em água\ndo <span class=\"math inline\">\\(\\ce{NaNO3}\\)</span> é maior que a do\n<span class=\"math inline\">\\(\\ce{Na2SO4.10H2O}\\)</span>.<br/>",
-          "md": "A $\\pu{25 \\degree C}$, a solubilidade em água do $\\ce{NaNO3}$ é maior\nque a do $\\ce{Na2SO4.10H2O}$.  \n",
-          "tex": "A {\\(\\qty{25}{\\unit{\\degree C}}\\)}, a solubilidade em água do {\\(\\ce{NaNO3}\\)} é maior que a do {\\(\\ce{Na2SO4.10H2O}\\)}.\\\\\n"
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
         },
         {
-          "html": "A <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, uma mistura de <span class=\"math inline\">\\(\\pu{120 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaNO3}\\)</span> com <span class=\"math inline\">\\(\\ce{100 g}\\)</span> água é bifásica, sendo uma das\nfases o nitrato de amônio sólida e a outra a água líquida.<br/>",
-          "md": "A $\\pu{25 \\degree C}$, uma mistura de $\\pu{120 g}$ de $\\ce{NaNO3}$ com\n$\\ce{100 g}$ água é bifásica, sendo uma das fases o nitrato de amônio\nsólida e a outra a água líquida.  \n",
-          "tex": "A {\\(\\qty{25}{\\unit{\\degree C}}\\)}, uma mistura de {\\(\\qty{120}{\\unit{g}}\\)} de {\\(\\ce{NaNO3}\\)} com {\\(\\ce{100 g}\\)} água é bifásica, sendo uma das\nfases o nitrato de amônio sólida e a outra a água líquida.\\\\\n"
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "A <span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span>, uma mistura de <span class=\"math inline\">\\(\\pu{20 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> com <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água é monofásica, sendo\nesta fase uma solução aquosa não saturada em <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.<br/>",
-          "md": "A $\\pu{0 \\degree C}$, uma mistura de $\\pu{20 g}$ de $\\ce{NaCl}$ com\n$\\pu{100 g}$ de água é monofásica, sendo esta fase uma solução aquosa\nnão saturada em $\\ce{NaCl}$.  \n",
-          "tex": "A {\\(\\qty{0}{\\unit{\\degree C}}\\)}, uma mistura de {\\(\\qty{20}{\\unit{g}}\\)} de {\\(\\ce{NaCl}\\)} com {\\(\\qty{100}{\\unit{g}}\\)} de água é monofásica,\nsendo esta fase uma solução aquosa não saturada em {\\(\\ce{NaCl}\\)}.\\\\\n"
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
         },
         {
-          "html": "A <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, a concentração de íons\nde sódio existentes na fase líquida de uma mistura preparada pela adição\nde <span class=\"math inline\">\\(\\pu{6 g}\\)</span> de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> à <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água é <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span>.<br/>",
-          "md": "A $\\pu{25 \\degree C}$, a concentração de íons de sódio existentes na\nfase líquida de uma mistura preparada pela adição de $\\pu{6 g}$ de\n$\\ce{NaCl}$ à $\\pu{100 g}$ de água é $\\pu{1 mol.L-1}$.  \n",
-          "tex": "A {\\(\\qty{25}{\\unit{\\degree C}}\\)}, a concentração de íons de sódio existentes na fase líquida de uma mistura preparada pela adição de\n{\\(\\qty{6}{\\unit{g}}\\)} de {\\(\\ce{NaCl}\\)} à {\\(\\qty{100}{\\unit{g}}\\)} de água é {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)}.\\\\\n"
+          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**2**, **3** e **4**\n",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         },
         {
-          "html": "A <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>, a quantidade de íons\nde sódio presentes em uma solução preparada pela dissolução de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> em <span class=\"math inline\">\\(\\ce{10 g}\\)</span> de água é maior do que a\nexistente em outra solução preparada pela dissolução de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> em <span class=\"math inline\">\\(\\pu{10 g}\\)</span> de água é maior do que a\nexistente em outra solução preparada pela dissolução de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4.10H2O}\\)</span> na mesma quantidade de\nágua.",
-          "md": "A $\\pu{25 \\degree C}$, a quantidade de íons de sódio presentes em uma\nsolução preparada pela dissolução de $\\pu{1 g}$ de $\\ce{Na2SO4}$ em\n$\\ce{10 g}$ de água é maior do que a existente em outra solução\npreparada pela dissolução de $\\pu{1 g}$ de $\\ce{Na2SO4}$ em $\\pu{10 g}$\nde água é maior do que a existente em outra solução preparada pela\ndissolução de $\\pu{1 g}$ de $\\ce{Na2SO4.10H2O}$ na mesma quantidade de\nágua.\n",
-          "tex": "A {\\(\\qty{25}{\\unit{\\degree C}}\\)}, a quantidade de íons de sódio presentes em uma solução preparada pela dissolução de {\\(\\qty{1}{\\unit{g}}\\)} de\n{\\(\\ce{Na2SO4}\\)} em {\\(\\ce{10 g}\\)} de água é maior do que a existente em outra solução preparada pela dissolução de {\\(\\qty{1}{\\unit{g}}\\)} de\n{\\(\\ce{Na2SO4}\\)} em {\\(\\qty{10}{\\unit{g}}\\)} de água é maior do que a existente em outra solução preparada pela dissolução de {\\(\\qty{1}{\\unit{g}}\\)}\nde {\\(\\ce{Na2SO4.10H2O}\\)} na mesma quantidade de água.\n"
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 1
+      "correct_choice": 3
     },
     {
       "id_": "2E24",
@@ -20262,43 +20236,43 @@
     {
       "id_": "2E06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E06/2E06.md",
-      "date": "2023-03-19T17:33:45.828954",
+      "date": "2023-03-19T19:52:06.458600",
       "statement": {
-        "html": "<p>Considere as curvas de solubilidade de duas substâncias <span class=\"math inline\">\\(\\ce{A}\\)</span> e <span class=\"math inline\">\\(\\ce{B}\\)</span>.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E06-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa <em>correta</em>.</p>",
-        "md": "Considere as curvas de solubilidade de duas substâncias $\\ce{A}$ e\n$\\ce{B}$.\n\n![Curvas de solubilidade](2E06-1P.svg)\n\n**Assinale** a alternativa *correta*.\n",
-        "tex": "Considere as curvas de solubilidade de duas substâncias {\\(\\ce{A}\\)} e {\\(\\ce{B}\\)}.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E06-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa \\emph{correta}.\n"
+        "html": "<p>Considere as curvas de solubilidade.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E06-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições:</p>\n<ol type=\"1\">\n<li>Soluções preparadas com <span class=\"math inline\">\\(\\pu{40 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> ou com <span class=\"math inline\">\\(\\pu{40 g}\\)</span> de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água em são instáveis em\n<span class=\"math inline\">\\(\\pu{60 \\degree C}\\)</span>.</li>\n<li>Soluções preparadas com <span class=\"math inline\">\\(\\pu{40 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> em <span class=\"math inline\">\\(\\pu{50 g}\\)</span> de água em são supersaturadas\nem <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</li>\n<li>A curva de solubilidade do\n<span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> indica uma mudança na\nestrutura do corpo de fundo a partir de <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</li>\n<li>A solubilidade do\n<span class=\"math inline\">\\(\\ce{SO2}\\)</span> segue o perfil esperado\npara a solubilidade de gases em água.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E06-1P.svg)\n\nConsidere as proposições:\n\n1.  Soluções preparadas com $\\pu{40 g}$ de $\\ce{Na2SO4}$ ou com\n    $\\pu{40 g}$ de $\\ce{SO2}$ em $\\pu{100 g}$ de água em são instáveis\n    em $\\pu{60 \\degree C}$.\n2.  Soluções preparadas com $\\pu{40 g}$ de $\\ce{Na2SO4}$ em $\\pu{50 g}$\n    de água em são supersaturadas em $\\pu{25 \\degree C}$.\n3.  A curva de solubilidade do $\\ce{Na2SO4}$ indica uma mudança na\n    estrutura do corpo de fundo a partir de $\\pu{25 \\degree C}$.\n4.  A solubilidade do $\\ce{SO2}$ segue o perfil esperado para a\n    solubilidade de gases em água.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
+        "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E06-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Soluções preparadas com {\\(\\qty{40}{\\unit{g}}\\)} de {\\(\\ce{Na2SO4}\\)} ou com {\\(\\qty{40}{\\unit{g}}\\)} de {\\(\\ce{SO2}\\)} em {\\(\\qty{100}{\\unit{g}}\\)}\n  de água em são instáveis em {\\(\\qty{60}{\\unit{\\degree C}}\\)}.\n\\item\n  Soluções preparadas com {\\(\\qty{40}{\\unit{g}}\\)} de {\\(\\ce{Na2SO4}\\)} em {\\(\\qty{50}{\\unit{g}}\\)} de água em são supersaturadas em\n  {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\\item\n  A curva de solubilidade do {\\(\\ce{Na2SO4}\\)} indica uma mudança na estrutura do corpo de fundo a partir de {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\\item\n  A solubilidade do {\\(\\ce{SO2}\\)} segue o perfil esperado para a solubilidade de gases em água.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "No ponto <span class=\"math inline\">\\(P\\)</span> as soluções apresentam a mesma\ntemperatura mas as solubilidades de <span class=\"math inline\">\\(\\ce{A}\\)</span> e <span class=\"math inline\">\\(\\ce{B}\\)</span> são diferentes.<br/>",
-          "md": "No ponto $P$ as soluções apresentam a mesma temperatura mas as\nsolubilidades de $\\ce{A}$ e $\\ce{B}$ são diferentes.  \n",
-          "tex": "No ponto {\\(P\\)} as soluções apresentam a mesma temperatura mas as solubilidades de {\\(\\ce{A}\\)} e {\\(\\ce{B}\\)} são diferentes.\\\\\n"
+          "html": "<strong>3</strong>",
+          "md": "**3**\n",
+          "tex": "\\textbf{3}\n"
         },
         {
-          "html": "A solução da substância <span class=\"math inline\">\\(\\ce{B}\\)</span> está supersaturada no ponto <span class=\"math inline\">\\(Q\\)</span>.<br/>",
-          "md": "A solução da substância $\\ce{B}$ está supersaturada no ponto $Q$.  \n",
-          "tex": "A solução da substância {\\(\\ce{B}\\)} está supersaturada no ponto {\\(Q\\)}.\\\\\n"
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
         },
         {
-          "html": "Soluções preparadas com <span class=\"math inline\">\\(\\pu{40 g}\\)</span> de <span class=\"math inline\">\\(\\ce{A}\\)</span> ou <span class=\"math inline\">\\(\\ce{B}\\)</span> em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de água são instáveis.",
-          "md": "Soluções preparadas com $\\pu{40 g}$ de $\\ce{A}$ ou $\\ce{B}$ em\n$\\pu{100 g}$ de água são instáveis.\n",
-          "tex": "Soluções preparadas com {\\(\\qty{40}{\\unit{g}}\\)} de {\\(\\ce{A}\\)} ou {\\(\\ce{B}\\)} em {\\(\\qty{100}{\\unit{g}}\\)} de água são instáveis.\n"
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
         },
         {
-          "html": "As curvas de solubilidade não\nindicam mudanças na estrutura dos solutos.<br/>",
-          "md": "As curvas de solubilidade não indicam mudanças na estrutura dos\nsolutos.  \n",
-          "tex": "As curvas de solubilidade não indicam mudanças na estrutura dos solutos.\\\\\n"
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "A solubilidade da\nsubstância <span class=\"math inline\">\\(\\ce{B}\\)</span> segue o perfil\nesperado para a solubilidade de gases em água.",
-          "md": "A solubilidade da substância $\\ce{B}$ segue o perfil esperado para a\nsolubilidade de gases em água.\n",
-          "tex": "A solubilidade da substância {\\(\\ce{B}\\)} segue o perfil esperado para a solubilidade de gases em água.\n"
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 4
+      "correct_choice": 1
     },
     {
       "id_": "2E20",
@@ -20916,7 +20890,7 @@
     {
       "id_": "2E14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E14/2E14.md",
-      "date": "2023-03-19T18:04:32.970155",
+      "date": "2023-03-19T19:32:11.262292",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do brometo de cálcio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",

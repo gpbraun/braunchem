@@ -17,7 +17,7 @@ def main():
 
     problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR, force_update=False)
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
-    focus_db = FocusSet.parse_database(config.FOCUSES_DIR)
+    FocusSet.parse_database(config.FOCUSES_DIR)
 
     for topic in ["2E"]:
         topic_db[topic].write_pdf(

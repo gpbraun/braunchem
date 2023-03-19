@@ -8,25 +8,20 @@
             ymin = 0, ymax =100,
             domain = 0:100,
         ]
-        \addplot
-            {
-              (27/34)*x + 73
-            };
-        \addplot
+        \addplot [blue]
             {
               (7/400)*x^2 + (3/5)*x + 11
             };
-        \addplot
+        \addplot [red]
             {
               (3/1000)*x^2 + (43/100)*x + 5
             };
-         \addplot
+         \addplot [green]
             {
               18*(1.05)^(-x) + 3
             };
-        \node at (axis cs:10,92) {$\ce{NaNO3}$};
-        \node at (axis cs:30,65) {$\ce{KNO3}$};
-        \node at (axis cs:70,65) {$\ce{K2Cr2O7}$};
-        \node at (axis cs:80,10) {$\ce{Ce2(SO4)3}$};
+        \node at (axis cs:30,67) {\ce{KNO3}};
+        \node at (axis cs:70,67) {\ce{K2Cr2O7}};
+        \node at (axis cs:80,11) {\ce{Ce2(SO4)3}};
     \end{axis}
 \end{tikzpicture}
