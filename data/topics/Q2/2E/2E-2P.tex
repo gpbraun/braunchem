@@ -2,7 +2,7 @@
     \begin{axis}
         [
             grid = none,
-            xlabel = {Temperatura, $T/\si{\degree C}$},
+            xlabel = {Temperatura, $T/\unit{\degree C}$},
             ylabel = {Solubilidade, $s/(\text{g soluto/100 g água})$},
             xmin=0, xmax=100, 
             ymin=0, ymax=100,
@@ -14,7 +14,7 @@
             };
         \addplot [blue, domain = 25:100]
             {
-                40*(1.05)^(25-x)+40
+                40*(1.05)^(25-x) + 40
             };
         \addplot [red]
             {
@@ -28,8 +28,8 @@
             {
               18*(1.05)^(-x) + 3
             };
-        \node [anchor=south west] at (axis cs:0,82) {\ce{NaNO3}};
-        \node [anchor=north west] at (axis cs:14,38) {\ce{Na2SO4.10H2O}};
+        \node [anchor=south west] at (axis cs:0,82)  {\ce{NaNO3}};
+        \node [anchor=west] at (axis cs:12,30) {\ce{Na2SO4.10H2O}};
         \node [anchor=south west] at (axis cs:70,45) {\ce{Na2SO4}};
         \node [anchor=north west] at (axis cs:70,37) {\ce{NaCl}};
         \node at (axis cs:80,11) {\ce{Ce2(SO4)3}};

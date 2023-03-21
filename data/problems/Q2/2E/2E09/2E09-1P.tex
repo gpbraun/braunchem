@@ -6,7 +6,7 @@
             xlabel = {Temperatura, $T/\si{\degree C}$},
             ylabel = {Solubilidade, $s/(\text{g soluto/100 g água})$},
             xmin = 0,  xmax=100, 
-            ymin = 50, ymax =115,
+            ymin = 20, ymax = 120,
         ]
         \addplot+[blue, domain=0:100, name path=A]
             {
@@ -15,6 +15,6 @@
         \addplot+[domain=0:100, draw=none, name path=B] {0};
         \addplot+[blue, fill opacity=0.1] fill between [of=A and B,soft clip={domain=0:100}]; % filling
         \node at (axis cs:30,90) {$A$};
-        \node at (axis cs:70,70) {$B$};
+        \node at (axis cs:70,50) {$B$};
     \end{axis}
 \end{tikzpicture}

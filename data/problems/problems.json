@@ -19383,17 +19383,43 @@
     {
       "id_": "2E10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E10/2E10.md",
-      "date": "2023-03-19T20:00:33.591935",
+      "date": "2023-03-21T00:34:23.808530",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as curvas de solubilidade.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E10-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A hidratação do\n<span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> libera mais energia que\na hidratação do <span class=\"math inline\">\\(\\ce{Na2SO4.10H2O}\\)</span>.</li>\n<li>A entalpia de\nsolução do <span class=\"math inline\">\\(\\ce{Na2SO4.10H2O}\\)</span> é\nendotérmica, enquanto a do <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> é exotérmica.</li>\n<li>A entalpia de dissociação do\n<span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span> é maior que a do <span class=\"math inline\">\\(\\ce{Na2SO4.10H2O}\\)</span>.</li>\n<li>O valor absoluto da\nentalpia de dissociação do <span class=\"math inline\">\\(\\ce{NaNO3}\\)</span> é maior que o do <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere as curvas de solubilidade.\n\n![Curvas de solubilidade](2E10-1P.svg)\n\nConsidere as proposições.\n\n1.  A hidratação do $\\ce{Na2SO4}$ libera mais energia que a hidratação\n    do $\\ce{Na2SO4.10H2O}$.\n2.  A entalpia de solução do $\\ce{Na2SO4.10H2O}$ é endotérmica, enquanto\n    a do $\\ce{Na2SO4}$ é exotérmica.\n3.  A entalpia de dissociação do $\\ce{Na2SO4}$ é maior que a do\n    $\\ce{Na2SO4.10H2O}$.\n4.  O valor absoluto da entalpia de dissociação do $\\ce{NaNO3}$ é maior\n    que o do $\\ce{NaCl}$.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
+        "tex": "Considere as curvas de solubilidade.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E10-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A hidratação do {\\(\\ce{Na2SO4}\\)} libera mais energia que a hidratação do {\\(\\ce{Na2SO4.10H2O}\\)}.\n\\item\n  A entalpia de solução do {\\(\\ce{Na2SO4.10H2O}\\)} é endotérmica, enquanto a do {\\(\\ce{Na2SO4}\\)} é exotérmica.\n\\item\n  A entalpia de dissociação do {\\(\\ce{Na2SO4}\\)} é maior que a do {\\(\\ce{Na2SO4.10H2O}\\)}.\n\\item\n  O valor absoluto da entalpia de dissociação do {\\(\\ce{NaNO3}\\)} é maior que o do {\\(\\ce{NaCl}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2E23",
@@ -19773,17 +19799,43 @@
     {
       "id_": "2E09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E09/2E09.md",
-      "date": "2023-03-19T20:01:59.308981",
+      "date": "2023-03-21T00:02:33.469747",
       "statement": {
-        "html": "<p>Considere as curvas de solubilidade do brometo de potássio em\nágua.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E09-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ul class=\"task-list\">\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/>A dissolução do\n<span class=\"math inline\">\\(\\ce{KBr}\\)</span> em água é um processo\nendotérmico.<br/>\n</li>\n<li><input disabled=\"\" type=\"checkbox\"/>A <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, a concentração de uma\nsolução aquosa saturada em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>\né de aproximadamente <span class=\"math inline\">\\(\\pu{6\nmol.kg-1}\\)</span>.<br/>\n</li>\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/>Misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(A\\)</span> da figura são bifásicas e misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(B\\)</span> da figura são monofásicas.<br/>\n</li>\n<li><input checked=\"\" disabled=\"\" type=\"checkbox\"/>Misturas\ncorrespondentes a pontos situados sobre a curva são saturadas em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>.</li>\n</ul>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
-        "md": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E09-1P.svg)\n\nConsidere as proposições.\n\n-   A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.  \n-   A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada\n    em $\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.  \n-   Misturas correspondentes a pontos situados na região $A$ da figura\n    são bifásicas e misturas correspondentes a pontos situados na região\n    $B$ da figura são monofásicas.  \n-   Misturas correspondentes a pontos situados sobre a curva são\n    saturadas em $\\ce{KBr}$.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
-        "tex": "Considere as curvas de solubilidade do brometo de potássio em água.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E09-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{itemize}\n\\tightlist\n\\item\n  A dissolução do {\\(\\ce{KBr}\\)} em água é um processo endotérmico.\\\\\n\\item\n  A {\\(\\qty{30}{\\unit{\\degree C}}\\)}, a concentração de uma solução aquosa saturada em {\\(\\ce{KBr}\\)} é de aproximadamente\n  {\\(\\qty{6}{\\unit{mol.kg^{-1}}}\\)}.\\\\\n\\item\n  Misturas correspondentes a pontos situados na região {\\(A\\)} da figura são bifásicas e misturas correspondentes a pontos situados na região {\\(B\\)}\n  da figura são monofásicas.\\\\\n\\item\n  Misturas correspondentes a pontos situados sobre a curva são saturadas em {\\(\\ce{KBr}\\)}.\n\\end{itemize}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
+        "html": "<p>Considere a curva de solubilidade do brometo de potássio em água.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E09-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A dissolução do\n<span class=\"math inline\">\\(\\ce{KBr}\\)</span> em água é um processo\nendotérmico.<br/>\n</li>\n<li>A <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, a concentração de uma\nsolução aquosa saturada em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>\né de aproximadamente <span class=\"math inline\">\\(\\pu{6\nmol.kg-1}\\)</span>.<br/>\n</li>\n<li>Misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(A\\)</span> da figura são bifásicas e misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(B\\)</span> da figura são monofásicas.<br/>\n</li>\n<li>Misturas\ncorrespondentes a pontos situados sobre a curva são saturadas em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere a curva de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E09-1P.svg)\n\nConsidere as proposições.\n\n1.  A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.  \n2.  A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada\n    em $\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.  \n3.  Misturas correspondentes a pontos situados na região $A$ da figura\n    são bifásicas e misturas correspondentes a pontos situados na região\n    $B$ da figura são monofásicas.  \n4.  Misturas correspondentes a pontos situados sobre a curva são\n    saturadas em $\\ce{KBr}$.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
+        "tex": "Considere a curva de solubilidade do brometo de potássio em água.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E09-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A dissolução do {\\(\\ce{KBr}\\)} em água é um processo endotérmico.\\\\\n\\item\n  A {\\(\\qty{30}{\\unit{\\degree C}}\\)}, a concentração de uma solução aquosa saturada em {\\(\\ce{KBr}\\)} é de aproximadamente\n  {\\(\\qty{6}{\\unit{mol.kg^{-1}}}\\)}.\\\\\n\\item\n  Misturas correspondentes a pontos situados na região {\\(A\\)} da figura são bifásicas e misturas correspondentes a pontos situados na região {\\(B\\)}\n  da figura são monofásicas.\\\\\n\\item\n  Misturas correspondentes a pontos situados sobre a curva são saturadas em {\\(\\ce{KBr}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>3</strong> e <strong>4</strong>",
+          "md": "**3** e **4**\n",
+          "tex": "\\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2E46",
@@ -20742,14 +20794,25 @@
     {
       "id_": "2E39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E39/2E39.md",
-      "date": "2023-03-18T14:23:18.969584",
+      "date": "2023-03-20T23:48:29.774767",
       "statement": {
-        "html": "<p>MAIS uma</p>",
-        "md": "MAIS uma\n",
-        "tex": "MAIS uma\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{0,2 g}\\)</span> de\npolietileno, <span class=\"math inline\">\\(\\ce{(CH2)_n}\\)</span>\ndissolvida em <span class=\"math inline\">\\(\\pu{0,1 L}\\)</span> de tolueno\ntem pressão osmótica <span class=\"math inline\">\\(\\pu{6,3 Torr}\\)</span>\nem <span class=\"math inline\">\\(\\pu{20 \\degree C}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa molar média do polímero.</li>\n<li><strong>Determine</strong> o numero médio de unidades monoméricas em\numa molécula do polímero.</li>\n</ol>",
+        "md": "Uma amostra de $\\pu{0,2 g}$ de polietileno, $\\ce{(CH2)_n}$ dissolvida em\n$\\pu{0,1 L}$ de tolueno tem pressão osmótica $\\pu{6,3 Torr}$ em\n$\\pu{20 \\degree C}$.\n\na.  **Determine** a massa molar média do polímero.\nb.  **Determine** o numero médio de unidades monoméricas em uma molécula\n    do polímero.\n",
+        "tex": "Uma amostra de {\\(\\qty{0,2}{\\unit{g}}\\)} de polietileno, {\\(\\ce{(CH2)_n}\\)} dissolvida em {\\(\\qty{0,1}{\\unit{L}}\\)} de tolueno tem pressão osmótica\n{\\(\\qty{6,3}{\\unit{Torr}}\\)} em {\\(\\qty{20}{\\unit{\\degree C}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa molar média do polímero.\n\\item\n  \\textbf{Determine} o numero médio de unidades monoméricas em uma molécula do polímero.\n\\end{enumerate}\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{5800 g.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{5800 g.mol-1}$",
+          "tex": "\\(\\qty{5800}{\\unit{g.mol^{-1}}}\\)\n"
+        },
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{414}\\)</span></p>\n",
+          "md": "$\\pu{414}$",
+          "tex": "\\(\\num{414}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null

@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+    \begin{axis}
+        [
+            grid = major,
+            xlabel = {Temperatura, $T/\si{\degree C}$},
+            ylabel = {Solubilidade, $s/(\text{g soluto/100 g água})$},
+            xmin=0, xmax=100, 
+            ymin=0, ymax=100,
+            domain = 0:100,
+        ]
+        \addplot [blue, domain = 0:25]
+            {
+                12*x^2/125 + 20
+            };
+        \addplot [blue, domain = 25:100]
+            {
+                40*(1.05)^(25-x)+40
+            };
+        \addplot [red]
+            {
+                40
+            };
+        \addplot [green, domain=0:40]
+            {
+              (345/39442)*x^2 + (17083/39442)*x + 70
+            };
+        \node [anchor=south west] at (axis cs:0,82) {\ce{NaNO3}};
+        \node [anchor=south west] at (axis cs:11,21) {\ce{Na2SO4.10H2O}};
+        \node [anchor=south west] at (axis cs:70,45) {\ce{Na2SO4}};
+        \node [anchor=north west] at (axis cs:70,37) {\ce{NaCl}};
+    \end{axis}
+\end{tikzpicture}
+
