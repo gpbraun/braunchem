@@ -1,0 +1,18 @@
+\begin{chemscheme}
+\schemestart
+    \chemfig[fixed length=true]
+        {
+            \charge{90:1.5pt=\:, 270:1.5pt=\:}{Cl}(-[3,0.75,,,draw=none])
+                (-[0]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O})
+                (=[6]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O})
+        }
+    \qquad
+    \arrow(.mid east--.mid west){<->}
+    \chemfig[fixed length=true]
+        {
+            \charge{90:1.5pt=\:, 270:1.5pt=\:}{Cl}(-[3,0.75,,,draw=none])
+                (=[0]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O})
+                (=[6]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O})
+        }
+\schemestop
+\end{chemscheme}
