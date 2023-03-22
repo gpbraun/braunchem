@@ -299,7 +299,7 @@
 
 \pgfplotsset
   {
-    compat = 1.17,
+    compat = 1.18,
     samples = 150,
     legend~cell~align = left,
     every~axis~plot/.append~style = {very~thick},
@@ -1039,9 +1039,11 @@
     \tl_set:Nn \g_braun_graphics_path_tl {#1}
   }
 
+\cs_set_eq:NN \legacyincludegraphics \includegraphics
+
 % #1 -> coffin
 % #2 -> content
-\cs_set:Nn \braun_graphics_box:Nn
+\cs_set:Nn \braun_graphics_box:Nn %%%% NÃO USADO
   { 
     \hcoffin_set:Nn #1
       {
@@ -1060,8 +1062,7 @@
   { 
     \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
       { 
-        \braun_graphics_box:Nn #1 
-          { \graphics_include:n { \g_braun_graphics_path_tl / #2 } } 
+        \legacyincludegraphics { \g_braun_graphics_path_tl / #2 }
       }
   }
 
@@ -1071,14 +1072,11 @@
   { 
     \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
       { 
-        \braun_graphics_box:Nn #1 
-          { \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 } } 
+        \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 }
       }
   }
 
 \tl_new:N \l_tmpc_tl
-
-\cs_set_eq:NN \legacyincludegraphics \includegraphics
 
 % #1 -> keys: braun/graphics
 % #2 -> figure path
@@ -1099,8 +1097,6 @@
       {
         \braun_include_graphics:Nn \l_tmpa_coffin {#2}
       }
-
-    \coffin_typeset:Nnnnn \l_tmpa_coffin {l} {vc} {0pt} {0pt}
     \group_end:
   }
 

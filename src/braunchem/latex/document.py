@@ -259,3 +259,11 @@ class Document:
         run_pdf2svg(pdf_path, svg_path)
 
         return svg_path
+
+
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
