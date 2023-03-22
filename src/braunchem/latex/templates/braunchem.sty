@@ -183,8 +183,67 @@
 % configurações gerais
 \tikzset
     { 
- 
         chemline  /. style = { line~width = \dim_use:N \g_bchem_line_width_dim },
+		%% MONTAGEM DA ESTRUTURA DE LEWIS
+        electron /. style = { circle, fill, inner~sep=0.12ex},
+        fbd /. style =
+            {
+                line~ width = 4pt, 
+                draw = blue!20,
+                shorten~<= 0.1 ex,
+                shorten~>= 0.1 ex,
+                line~ cap=butt,
+            },
+        elebd /. style =
+            {
+                draw = none,
+                postaction =
+                    {
+                        decorate, decoration =
+                            {
+                                markings, 
+                                mark = between~ positions~ 0.3~ and~ 0.7~ step~ 0.4~ with 
+                                    { 
+                                        \node[electron] {}; 
+                                    }
+                            } 
+                    }
+            },
+        elebd2 /. style =
+            {
+                draw = none,
+                postaction =
+                    {
+                        decorate, decoration =
+                            {
+                                markings, 
+                                mark = between~ positions~ 0.3~ and~ 0.7~ step~ 0.4~ with 
+                                    { 
+                                        \node[electron, shift={(0, +0.3ex)}] {};
+                                        \node[electron, shift={(0, -0.3ex)}] {}; 
+                                    }
+
+                            } 
+                    }
+            },
+        elebd3 /. style =
+            {
+                draw = none,
+                postaction =
+                    {
+                        decorate, decoration =
+                            {
+                                markings, 
+                                mark = between~ positions~ 0.3~ and~ 0.7~ step~ 0.4~ with 
+                                    { 
+                                        \node[electron, shift={(0, +0.6ex)}] {};
+                                        \node[electron] {}; 
+                                        \node[electron, shift={(0, -0.6ex)}] {}; 
+                                    }
+
+                            } 
+                    }
+            },
         %% BOND STYLES
         bold~bond /. style = { line~width = \dim_use:N \g_bchem_bond_spacing_dim },
         dash~bond /. style =

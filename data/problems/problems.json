@@ -2398,7 +2398,7 @@
     {
       "id_": "1D36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1D/1D36/1D36.md",
-      "date": "2023-01-24T23:52:35.238943",
+      "date": "2023-03-22T21:00:51.451627",
       "statement": {
         "html": "<p>As espécies <span class=\"math inline\">\\(\\ce{Ca}\\)</span>, <span class=\"math inline\">\\(\\ce{Ti^{2+}}\\)</span> e <span class=\"math inline\">\\(\\ce{V^{3+}}\\)</span> têm o mesmo número de\nelétrons.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a configuração eletrônica de cada\nespécie.</li>\n<li><strong>Explique</strong> possíveis diferenças nas\nconfigurações.</li>\n<li><strong>Determine</strong> o número de elétrons desemparelhados em\ncada espécie.</li>\n<li><strong>Verifique</strong> se existe um átomo neutro com\nconfiguração eletrônica do <span class=\"math inline\">\\(\\ce{Ti^{3+}}\\)</span>.</li>\n</ol>",
         "md": "As espécies $\\ce{Ca}$, $\\ce{Ti^{2+}}$ e $\\ce{V^{3+}}$ têm o mesmo número\nde elétrons.\n\na.  **Apresente** a configuração eletrônica de cada espécie.\nb.  **Explique** possíveis diferenças nas configurações.\nc.  **Determine** o número de elétrons desemparelhados em cada espécie.\nd.  **Verifique** se existe um átomo neutro com configuração eletrônica\n    do $\\ce{Ti^{3+}}$.\n",
@@ -2407,14 +2407,14 @@
       "solution": null,
       "answer": [
         {
-          "html": "<p>A configuração do <span class=\"math inline\">\\(\\ce{Ca}\\)</span> é\n<span class=\"math inline\">\\(\\ce{[Ar]}\\, 4s^2\\)</span> e a do <span\nclass=\"math inline\">\\(\\ce{Ti^{2+}}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{V^{3+}}\\)</span> é <span\nclass=\"math inline\">\\(\\ce{[Ar]}\\, 4d^2\\)</span>.</p>\n",
-          "md": "A configuração do $\\ce{Ca}$ é $\\ce{[Ar]}\\, 4s^2$ e a do $\\ce{Ti^{2+}}$ e $\\ce{V^{3+}}$ é $\\ce{[Ar]}\\, 4d^2$.",
-          "tex": "A configuração do \\(\\ce{Ca}\\) é \\(\\ce{[Ar]}\\, 4s^2\\) e a do \\(\\ce{Ti^{2+}}\\) e \\(\\ce{V^{3+}}\\) é \\(\\ce{[Ar]}\\, 4d^2\\).\n"
+          "html": "<p>A configuração do <span class=\"math inline\">\\(\\ce{Ca}\\)</span> é\n<span class=\"math inline\">\\(\\ce{[Ar]}\\, \\mathrm{4s^2}\\)</span> e a do\n<span class=\"math inline\">\\(\\ce{Ti^{2+}}\\)</span> e <span\nclass=\"math inline\">\\(\\ce{V^{3+}}\\)</span> é <span\nclass=\"math inline\">\\(\\ce{[Ar]}\\, \\mathrm{4d^2}\\)</span>.</p>\n",
+          "md": "A configuração do $\\ce{Ca}$ é $\\ce{[Ar]}\\, \\mathrm{4s^2}$ e a do $\\ce{Ti^{2+}}$ e $\\ce{V^{3+}}$ é $\\ce{[Ar]}\\, \\mathrm{4d^2}$.",
+          "tex": "A configuração do \\(\\ce{Ca}\\) é \\(\\ce{[Ar]}\\, \\mathrm{4s^2}\\) e a do \\(\\ce{Ti^{2+}}\\) e \\(\\ce{V^{3+}}\\) é \\(\\ce{[Ar]}\\, \\mathrm{4d^2}\\).\n"
         },
         {
-          "html": "<p>No bloco <span class=\"math inline\">\\(d\\)</span>, a energia dos\norbitais <span class=\"math inline\">\\((n-1)d\\)</span> é menor que a do\norbital <span class=\"math inline\">\\(ns\\)</span>, assim, quando o <span\nclass=\"math inline\">\\(\\ce{Ti}\\)</span> e o <span\nclass=\"math inline\">\\(\\ce{V}\\)</span> formam íons, o elétron é removido\ndo orbital <span class=\"math inline\">\\(3s\\)</span>.</p>\n",
-          "md": "No bloco $d$, a energia dos orbitais $(n-1)d$ é menor que a do orbital $ns$, assim, quando o $\\ce{Ti}$ e o $\\ce{V}$ formam íons, o elétron é removido do orbital $3s$.",
-          "tex": "No bloco \\(d\\), a energia dos orbitais \\((n-1)d\\) é menor que a do orbital \\(ns\\), assim, quando o \\(\\ce{Ti}\\) e o \\(\\ce{V}\\) formam íons, o elétron é\nremovido do orbital \\(3s\\).\n"
+          "html": "<p>No bloco <span class=\"math inline\">\\(\\mathrm{d}\\)</span>, a energia\ndos orbitais <span class=\"math inline\">\\((n-1)\\mathrm{d}\\)</span> é\nmenor que a do orbital <span class=\"math inline\">\\(n\\mathrm{s}\\)</span>,\nassim, quando o <span class=\"math inline\">\\(\\ce{Ti}\\)</span> e o <span\nclass=\"math inline\">\\(\\ce{V}\\)</span> formam íons, o elétron é removido\ndo orbital <span class=\"math inline\">\\(\\mathrm{3s}\\)</span>.</p>\n",
+          "md": "No bloco $\\mathrm{d}$, a energia dos orbitais $(n-1)\\mathrm{d}$ é menor que a do orbital $n\\mathrm{s}$, assim, quando o $\\ce{Ti}$ e o $\\ce{V}$ formam íons, o elétron é removido do orbital $\\mathrm{3s}$.",
+          "tex": "No bloco \\(\\mathrm{d}\\), a energia dos orbitais \\((n-1)\\mathrm{d}\\) é menor que a do orbital \\(n\\mathrm{s}\\), assim, quando o \\(\\ce{Ti}\\) e o\n\\(\\ce{V}\\) formam íons, o elétron é removido do orbital \\(\\mathrm{3s}\\).\n"
         },
         {
           "html": "<p><span class=\"math inline\">\\(\\ce{Ca}\\)</span> não possui elétron\ndesemparelhado, <span class=\"math inline\">\\(\\ce{Ti^{2+}}\\)</span> e\n<span class=\"math inline\">\\(\\ce{V^{3+}}\\)</span> possuem dois elétrons\ndesemparelhados.</p>\n",

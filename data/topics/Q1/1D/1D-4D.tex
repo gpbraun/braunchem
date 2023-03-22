@@ -1,16 +1,16 @@
 \begin{chemscheme}
     \chemfig[fixed length=true]
         {
-            C(-[3,0.75,,,draw=none]{\color{red}0})
-                (=[0]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O}(-[3,0.75,,,draw=none]{\color{red}0}))
-                (=[6]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O}(-[3,0.75,,,draw=none]{\color{red}0}))
+            \charge{90:5pt={\scriptsize$0$}}{C}(-[3,0.5,,,draw=none])
+                (=[0]\charge{60:1pt=\:, -60:1pt=\:, 120:5pt={\scriptsize$0$}}{O})
+                (=[6]\charge{120:1pt=\:, -120:1pt=\:, 60:5pt={\scriptsize$0$}}{O})
         }
     \qquad
     \qquad
     \chemfig[fixed length=true]
         {
-            O(-[3,0.75,,,draw=none]{\color{red}+2})
-                (=[0]\charge{90:1.5pt=\:, 270:1.5pt=\:}{C}(-[3,0.75,,,draw=none]{\color{red}-2}))
-                (=[6]\charge{90:1.5pt=\:, 270:1.5pt=\:}{O}(-[3,0.75,,,draw=none]{\color{red}0}))
+            \charge{90:5pt={\scriptsize$+2$}}{O}(-[3,0.5,,,draw=none])
+                (=[0]\charge{60:1pt=\:, -60:1pt=\:, 120:5pt={\scriptsize$0$}}{C})
+                (=[6]\charge{120:1pt=\:, -120:1pt=\:, 60:5pt={\scriptsize$-2$}}{O})
         }
 \end{chemscheme}
