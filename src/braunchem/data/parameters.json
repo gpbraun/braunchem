@@ -93,7 +93,7 @@
         },
         {
             "id_": "Pvap",
-            "name": "pressão de vapor a 298\\,\\mathrm{K}",
+            "name": "pressão de vapor em 298\\,\\mathrm{K}",
             "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}",
             "unit": "Torr",
             "prec": 3
@@ -152,14 +152,14 @@
             "name": "constante crioscópica",
             "symbol": "k_\\mathrm{b}",
             "unit": "K.kg//mol",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "kb",
             "name": "constante ebulioscópica",
             "symbol": "k_\\mathrm{b}",
             "unit": "K.kg//mol",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "Ka",
@@ -173,7 +173,7 @@
             "name": "constante de acidez",
             "symbol": "\\mathrm{p}K_\\mathrm{a}",
             "unit": "",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "Kb",
@@ -187,7 +187,7 @@
             "name": "constante de basicidade",
             "symbol": "\\mathrm{p}K_\\mathrm{b}",
             "unit": "",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "Ka1",
@@ -201,7 +201,7 @@
             "name": "constante de acidez 1",
             "symbol": "\\mathrm{p}K_\\mathrm{a1}",
             "unit": "",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "Ka2",
@@ -215,7 +215,7 @@
             "name": "constante de acidez 2",
             "symbol": "\\mathrm{p}K_\\mathrm{a2}",
             "unit": "",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "Ka3",
@@ -229,7 +229,7 @@
             "name": "constante de acidez 3",
             "symbol": "\\mathrm{p}K_\\mathrm{a3}",
             "unit": "",
-            "prec": 3
+            "prec": 2
         },
         {
             "id_": "Kps",

@@ -182,15 +182,15 @@
       "symbol": "k_\\mathrm{b}(\\ce{CH3COCH3})",
       "value": "2.4",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(acetona)",
       "name": "constante ebulioscópica da acetona",
       "symbol": "k_\\mathrm{b}(\\ce{CH3COCH3})",
-      "value": "1.71",
+      "value": "1.7",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(benzeno)",
@@ -212,17 +212,17 @@
       "id_": "kf(benzeno)",
       "name": "constante crioscópica do benzeno",
       "symbol": "k_\\mathrm{b}(\\ce{C6H6})",
-      "value": "5.12",
+      "value": "5.1",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(benzeno)",
       "name": "constante ebulioscópica do benzeno",
       "symbol": "k_\\mathrm{b}(\\ce{C6H6})",
-      "value": "2.53",
+      "value": "2.5",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(canfora)",
@@ -244,17 +244,17 @@
       "id_": "kf(canfora)",
       "name": "constante crioscópica da cânfora",
       "symbol": "k_\\mathrm{b}(\\ce{C10H16O})",
-      "value": "39.7",
+      "value": "40",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(canfora)",
       "name": "constante ebulioscópica da cânfora",
       "symbol": "k_\\mathrm{b}(\\ce{C10H16O})",
-      "value": "5.61",
+      "value": "5.6",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(CCl4)",
@@ -276,17 +276,17 @@
       "id_": "kf(CCl4)",
       "name": "constante crioscópica do tetracloreto de carbono",
       "symbol": "k_\\mathrm{b}(\\ce{CCl4})",
-      "value": "29.8",
+      "value": "30",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(CCl4)",
       "name": "constante ebulioscópica do tetracloreto de carbono",
       "symbol": "k_\\mathrm{b}(\\ce{CCl4})",
-      "value": "4.95",
+      "value": "5.0",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(cicloexano)",
@@ -308,17 +308,17 @@
       "id_": "kf(cicloexano)",
       "name": "constante crioscópica do cicloexano",
       "symbol": "k_\\mathrm{b}(\\ce{C6H12})",
-      "value": "20.1",
+      "value": "20",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(cicloexano)",
       "name": "constante ebulioscópica do cicloexano",
       "symbol": "k_\\mathrm{b}(\\ce{C6H12})",
-      "value": "2.79",
+      "value": "2.8",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(naftaleno)",
@@ -340,9 +340,9 @@
       "id_": "kf(naftaleno)",
       "name": "constante crioscópica do naftaleno",
       "symbol": "k_\\mathrm{b}(\\ce{C10H8})",
-      "value": "6.94",
+      "value": "6.9",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(naftaleno)",
@@ -350,7 +350,7 @@
       "symbol": "k_\\mathrm{b}(\\ce{C10H8})",
       "value": "5.8",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(fenol)",
@@ -372,17 +372,17 @@
       "id_": "kf(fenol)",
       "name": "constante crioscópica do fenol",
       "symbol": "k_\\mathrm{b}(\\ce{C6H6O})",
-      "value": "7.27",
+      "value": "7.3",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(fenol)",
       "name": "constante ebulioscópica do fenol",
       "symbol": "k_\\mathrm{b}(\\ce{C6H6O})",
-      "value": "3.04",
+      "value": "3.0",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(H2O)",
@@ -404,9 +404,9 @@
       "id_": "kf(H2O)",
       "name": "constante crioscópica da água",
       "symbol": "k_\\mathrm{b}(\\ce{H2O})",
-      "value": "1.86",
+      "value": "1.9",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kb(H2O)",
@@ -414,7 +414,7 @@
       "symbol": "k_\\mathrm{b}(\\ce{H2O})",
       "value": "0.51",
       "unit": "K.kg//mol",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(ueria)",
@@ -428,9 +428,9 @@
       "id_": "pKb(ueria)",
       "name": "constante de basicidade da ureia",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{CO(NH2)2})",
-      "value": "13.9",
+      "value": "14",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(anilina)",
@@ -444,9 +444,9 @@
       "id_": "pKb(anilina)",
       "name": "constante de basicidade da anilina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C6H5NH2})",
-      "value": "9.37",
+      "value": "9.4",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(piridina)",
@@ -460,9 +460,9 @@
       "id_": "pKb(piridina)",
       "name": "constante de basicidade da piridina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C5H5N})",
-      "value": "8.75",
+      "value": "8.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(NH2OH)",
@@ -476,9 +476,9 @@
       "id_": "pKb(NH2OH)",
       "name": "constante de basicidade da hidroxilamina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH2OH})",
-      "value": "7.97",
+      "value": "8.0",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(nicotina)",
@@ -492,9 +492,9 @@
       "id_": "pKb(nicotina)",
       "name": "constante de basicidade da nicotina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C10H14N2})",
-      "value": "5.98",
+      "value": "6.0",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(morfina)",
@@ -508,9 +508,9 @@
       "id_": "pKb(morfina)",
       "name": "constante de basicidade da morfina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C17H19O3N})",
-      "value": "5.79",
+      "value": "5.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(hidrazina)",
@@ -524,9 +524,9 @@
       "id_": "pKb(hidrazina)",
       "name": "constante de basicidade da hidrazina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH2NH2})",
-      "value": "5.77",
+      "value": "5.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(NH3)",
@@ -540,9 +540,9 @@
       "id_": "pKb(NH3)",
       "name": "constante de basicidade da amônia",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH3})",
-      "value": "4.75",
+      "value": "4.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(trimetilamina)",
@@ -556,9 +556,9 @@
       "id_": "pKb(trimetilamina)",
       "name": "constante de basicidade da trimetilamina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{(CH3)3N})",
-      "value": "4.19",
+      "value": "4.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(metilamina)",
@@ -572,9 +572,9 @@
       "id_": "pKb(metilamina)",
       "name": "constante de basicidade da metilamina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{CH3NH2})",
-      "value": "3.44",
+      "value": "3.4",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(dimetilamina)",
@@ -588,9 +588,9 @@
       "id_": "pKb(dimetilamina)",
       "name": "constante de basicidade da dimetilamina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{(CH3)2NH})",
-      "value": "3.27",
+      "value": "3.3",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(etilamina)",
@@ -604,9 +604,9 @@
       "id_": "pKb(etilamina)",
       "name": "constante de basicidade da etilamina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C2H5NH2})",
-      "value": "3.19",
+      "value": "3.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Kb(trietilamina)",
@@ -620,9 +620,9 @@
       "id_": "pKb(trietilamina)",
       "name": "constante de basicidade da trietilamina",
       "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{(C2H5)3N})",
-      "value": "2.99",
+      "value": "3.0",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "HL(H2)",
@@ -8964,9 +8964,9 @@
       "id_": "pKa2(H2SO4)",
       "name": "constante de acidez 2 do ácido sulfúrico",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2SO4})",
-      "value": "1.92",
+      "value": "1.9",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(acido oxalico)",
@@ -8980,9 +8980,9 @@
       "id_": "pKa1(acido oxalico)",
       "name": "constante de acidez 1 do ácido oxálico",
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{(COOH)2})",
-      "value": "1.23",
+      "value": "1.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(acido oxalico)",
@@ -8996,9 +8996,9 @@
       "id_": "pKa2(acido oxalico)",
       "name": "constante de acidez 2 do ácido oxálico",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{(COOH)2})",
-      "value": "4.19",
+      "value": "4.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(H2SO3)",
@@ -9012,9 +9012,9 @@
       "id_": "pKa1(H2SO3)",
       "name": "constante de acidez 1 do ácido sulfuroso",
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2SO3})",
-      "value": "1.81",
+      "value": "1.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(H2SO3)",
@@ -9028,9 +9028,9 @@
       "id_": "pKa2(H2SO3)",
       "name": "constante de acidez 2 do ácido sulfuroso",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2SO3})",
-      "value": "6.91",
+      "value": "6.9",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(H3PO3)",
@@ -9046,7 +9046,7 @@
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H3PO3})",
       "value": "2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(H3PO3)",
@@ -9060,9 +9060,9 @@
       "id_": "pKa2(H3PO3)",
       "name": "constante de acidez 2 do ácido fosforoso",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO3})",
-      "value": "6.59",
+      "value": "6.6",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(H3PO4)",
@@ -9076,9 +9076,9 @@
       "id_": "pKa1(H3PO4)",
       "name": "constante de acidez 1 do ácido fosfórico",
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H3PO4})",
-      "value": "2.12",
+      "value": "2.1",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(H3PO4)",
@@ -9092,9 +9092,9 @@
       "id_": "pKa2(H3PO4)",
       "name": "constante de acidez 2 do ácido fosfórico",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
-      "value": "7.21",
+      "value": "7.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka3(H3PO4)",
@@ -9108,9 +9108,9 @@
       "id_": "pKa3(H3PO4)",
       "name": "constante de acidez 3 do ácido fosfórico",
       "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4})",
-      "value": "12.7",
+      "value": "13",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(acido tartarico)",
@@ -9124,9 +9124,9 @@
       "id_": "pKa1(acido tartarico)",
       "name": "constante de acidez 1 do ácido tartárico",
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{C2H4O2(COOH)2})",
-      "value": "3.22",
+      "value": "3.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(acido tartarico)",
@@ -9140,9 +9140,9 @@
       "id_": "pKa2(acido tartarico)",
       "name": "constante de acidez 2 do ácido tartárico",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{C2H4O2(COOH)2})",
-      "value": "4.82",
+      "value": "4.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(H2CO3)",
@@ -9156,9 +9156,9 @@
       "id_": "pKa1(H2CO3)",
       "name": "constante de acidez 1 do ácido carbônico",
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2CO3})",
-      "value": "6.37",
+      "value": "6.4",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(H2CO3)",
@@ -9172,9 +9172,9 @@
       "id_": "pKa2(H2CO3)",
       "name": "constante de acidez 2 do ácido carbônico",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2CO3})",
-      "value": "10.2",
+      "value": "10",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka1(H2S)",
@@ -9188,9 +9188,9 @@
       "id_": "pKa1(H2S)",
       "name": "constante de acidez 1 do ácido sulfídrico",
       "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2S})",
-      "value": "6.89",
+      "value": "6.9",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka2(H2S)",
@@ -9204,9 +9204,9 @@
       "id_": "pKa2(H2S)",
       "name": "constante de acidez 2 do ácido sulfídrico",
       "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2S})",
-      "value": "14.2",
+      "value": "14",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "kH(atm)",
@@ -9294,7 +9294,7 @@
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CCl3COOH})",
       "value": "0.52",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(C6H5SO3H)",
@@ -9310,7 +9310,7 @@
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{C6H5SO3H})",
       "value": "0.7",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HIO3)",
@@ -9326,7 +9326,7 @@
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HIO3})",
       "value": "0.77",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(H2SO3)",
@@ -9340,9 +9340,9 @@
       "id_": "pKa(H2SO3)",
       "name": "constante de acidez do ácido sulfuroso",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{H2SO3})",
-      "value": "1.81",
+      "value": "1.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HClO2)",
@@ -9358,7 +9358,7 @@
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HClO2})",
       "value": "2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(H3PO4)",
@@ -9372,9 +9372,9 @@
       "id_": "pKa(H3PO4)",
       "name": "constante de acidez do ácido fosfórico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{H3PO4})",
-      "value": "2.12",
+      "value": "2.1",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(CH2ClCOOH)",
@@ -9388,9 +9388,9 @@
       "id_": "pKa(CH2ClCOOH)",
       "name": "constante de acidez do ácido cloroacético",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH2ClCOOH})",
-      "value": "2.85",
+      "value": "2.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(ácido lático)",
@@ -9404,9 +9404,9 @@
       "id_": "pKa(ácido lático)",
       "name": "constante de acidez do ácido lático",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH3CH(OH)COOH})",
-      "value": "3.08",
+      "value": "3.1",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HNO2)",
@@ -9420,9 +9420,9 @@
       "id_": "pKa(HNO2)",
       "name": "constante de acidez do ácido nitroso",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HNO2})",
-      "value": "3.37",
+      "value": "3.4",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HF)",
@@ -9436,9 +9436,9 @@
       "id_": "pKa(HF)",
       "name": "constante de acidez do ácido fluorídrico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HF})",
-      "value": "3.45",
+      "value": "3.4",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HCOOH)",
@@ -9452,9 +9452,9 @@
       "id_": "pKa(HCOOH)",
       "name": "constante de acidez do ácido fórmico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HCOOH})",
-      "value": "3.75",
+      "value": "3.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(C6H5COOH)",
@@ -9468,9 +9468,9 @@
       "id_": "pKa(C6H5COOH)",
       "name": "constante de acidez do ácido benzóico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{C6H5COOH})",
-      "value": "4.19",
+      "value": "4.2",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(CH3COOH)",
@@ -9484,9 +9484,9 @@
       "id_": "pKa(CH3COOH)",
       "name": "constante de acidez do ácido acético",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH3COOH})",
-      "value": "4.75",
+      "value": "4.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(H2CO3)",
@@ -9500,9 +9500,9 @@
       "id_": "pKa(H2CO3)",
       "name": "constante de acidez do ácido carbônico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{H2CO3})",
-      "value": "6.37",
+      "value": "6.4",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HClO)",
@@ -9516,9 +9516,9 @@
       "id_": "pKa(HClO)",
       "name": "constante de acidez do ácido hipocloroso",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HClO})",
-      "value": "7.53",
+      "value": "7.5",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HBrO)",
@@ -9532,9 +9532,9 @@
       "id_": "pKa(HBrO)",
       "name": "constante de acidez do ácido hipobromoso",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HBrO})",
-      "value": "8.69",
+      "value": "8.7",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(B(OH)3)",
@@ -9548,9 +9548,9 @@
       "id_": "pKa(B(OH)3)",
       "name": "constante de acidez do ácido bórico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{B(OH)3})",
-      "value": "9.14",
+      "value": "9.1",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HCN)",
@@ -9564,9 +9564,9 @@
       "id_": "pKa(HCN)",
       "name": "constante de acidez do ácido cianídrico",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HCN})",
-      "value": "9.31",
+      "value": "9.3",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(C6H5OH)",
@@ -9580,9 +9580,9 @@
       "id_": "pKa(C6H5OH)",
       "name": "constante de acidez do fenol",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{C6H5OH})",
-      "value": "9.89",
+      "value": "9.9",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(HIO3)",
@@ -9596,9 +9596,9 @@
       "id_": "pKa(HIO3)",
       "name": "constante de acidez do ácido hipoiodoso",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HIO3})",
-      "value": "10.6",
+      "value": "11",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(Fe+3)",
@@ -9612,9 +9612,9 @@
       "id_": "pKa(Fe+3)",
       "name": "constante de acidez do cátion ferro (III)",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{Fe^3+})",
-      "value": "2.46",
+      "value": "2.5",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(Cr+3)",
@@ -9628,9 +9628,9 @@
       "id_": "pKa(Cr+3)",
       "name": "constante de acidez do cátion cromo (III)",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{Cr^3+})",
-      "value": "3.89",
+      "value": "3.9",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(Al+3)",
@@ -9644,9 +9644,9 @@
       "id_": "pKa(Al+3)",
       "name": "constante de acidez do cátion alumínio (III)",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{Al^3+})",
-      "value": "4.85",
+      "value": "4.8",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(Cu+2)",
@@ -9660,9 +9660,9 @@
       "id_": "pKa(Cu+2)",
       "name": "constante de acidez do cátion cobre (II)",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{Cu^2+})",
-      "value": "7.49",
+      "value": "7.5",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(Ni+2)",
@@ -9676,9 +9676,9 @@
       "id_": "pKa(Ni+2)",
       "name": "constante de acidez do cátion níquel (II)",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{Ni^2+})",
-      "value": "9.03",
+      "value": "9.0",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Ka(Fe+2)",
@@ -9692,9 +9692,9 @@
       "id_": "pKa(Fe+2)",
       "name": "constante de acidez do cátion ferro (II)",
       "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{Fe^2+})",
-      "value": "10.1",
+      "value": "10",
       "unit": "",
-      "prec": 3
+      "prec": 2
     },
     {
       "id_": "Tfus(acetona)",
@@ -9858,7 +9858,7 @@
     },
     {
       "id_": "Pvap(benzeno)",
-      "name": "pressão de vapor a 298\\,\\mathrm{K} do benzeno",
+      "name": "pressão de vapor em 298\\,\\mathrm{K} do benzeno",
       "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}(\\ce{C6H6})",
       "value": "94.6",
       "unit": "Torr",
@@ -9906,7 +9906,7 @@
     },
     {
       "id_": "Pvap(etanol)",
-      "name": "pressão de vapor a 298\\,\\mathrm{K} do etanol",
+      "name": "pressão de vapor em 298\\,\\mathrm{K} do etanol",
       "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}(\\ce{C2H5OH})",
       "value": "58.9",
       "unit": "Torr",
@@ -9994,7 +9994,7 @@
     },
     {
       "id_": "Pvap(Hg)",
-      "name": "pressão de vapor a 298\\,\\mathrm{K} do mercúrio",
+      "name": "pressão de vapor em 298\\,\\mathrm{K} do mercúrio",
       "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}(\\ce{Hg})",
       "value": "0.0017",
       "unit": "Torr",
@@ -10082,7 +10082,7 @@
     },
     {
       "id_": "Pvap(metanol)",
-      "name": "pressão de vapor a 298\\,\\mathrm{K} do metanol",
+      "name": "pressão de vapor em 298\\,\\mathrm{K} do metanol",
       "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}(\\ce{CH3OH})",
       "value": "123",
       "unit": "Torr",
@@ -10130,7 +10130,7 @@
     },
     {
       "id_": "Pvap(H2O)",
-      "name": "pressão de vapor a 298\\,\\mathrm{K} da água",
+      "name": "pressão de vapor em 298\\,\\mathrm{K} da água",
       "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}(\\ce{H2O})",
       "value": "23.8",
       "unit": "Torr",
@@ -10138,7 +10138,7 @@
     },
     {
       "id_": "Pvap(tolueno)",
-      "name": "pressão de vapor a 298\\,\\mathrm{K} do tolueno",
+      "name": "pressão de vapor em 298\\,\\mathrm{K} do tolueno",
       "symbol": "P_\\mathrm{vap}^{298\\,\\mathrm{K}}(\\ce{C7H8})",
       "value": "29.1",
       "unit": "Torr",
