@@ -1,0 +1,19 @@
+\begin{chemscheme}
+\begin{tikzpicture}
+    \begin{scope}
+    \node (c1) at (0,0) 
+        {
+            \chemfig{[:180]**5(-----)}
+        };
+    \node [shift = {(1.5, 0)}] (c2) at (c1.east) 
+        {
+            \chemfig{**5(-----)}
+        };
+    \end{scope}
+
+    \node (m) at ($(c1)!0.5!(c2)$) { \color{red}{\chemfig{Fe}} };
+
+    \draw [red,thick] (m.west) -- (c1.center);
+    \draw [red,thick] (m.east) -- (c2.center);
+\end{tikzpicture}
+\end{chemscheme}
