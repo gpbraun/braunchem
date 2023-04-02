@@ -9589,54 +9589,84 @@
     {
       "id_": "3E35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E35/3E35.md",
-      "date": "2023-03-12T02:49:44.328275",
+      "date": "2023-04-01T22:51:02.815718",
       "statement": {
-        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de\numa solução <span class=\"math inline\">\\(\\pu{0,5 mol.L-1}\\)</span> de\ncromato de potássio, <span class=\"math inline\">\\(\\ce{K2CrO4}\\)</span>,\nfoi titulada com <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> de uma\nsolução de nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>. Em outro experimento, uma\namostra de <span class=\"math inline\">\\(\\pu{5 g}\\)</span> de cloreto de\nsódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>, foi dissolvida em\nágua e titulada com <span class=\"math inline\">\\(\\ce{45 mL}\\)</span> da\nmesma solução de nitrato de prata.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a pureza da amostra de cloreto de\nsódio</li>\n</ol>",
-        "md": "Uma alíquota de $\\pu{25 mL}$ de uma solução $\\pu{0,5 mol.L-1}$ de\ncromato de potássio, $\\ce{K2CrO4}$, foi titulada com $\\pu{15 mL}$ de uma\nsolução de nitrato de prata, $\\ce{AgNO3}$. Em outro experimento, uma\namostra de $\\pu{5 g}$ de cloreto de sódio, $\\ce{NaCl}$, foi dissolvida\nem água e titulada com $\\ce{45 mL}$ da mesma solução de nitrato de\nprata.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a pureza da amostra de cloreto de sódio\n",
-        "tex": "Uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de cromato de potássio, {\\(\\ce{K2CrO4}\\)}, foi titulada\ncom {\\(\\qty{15}{\\unit{mL}}\\)} de uma solução de nitrato de prata, {\\(\\ce{AgNO3}\\)}. Em outro experimento, uma amostra de {\\(\\qty{5}{\\unit{g}}\\)} de\ncloreto de sódio, {\\(\\ce{NaCl}\\)}, foi dissolvida em água e titulada com {\\(\\ce{45 mL}\\)} da mesma solução de nitrato de prata.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a pureza da amostra de cloreto de sódio\n\\end{enumerate}\n"
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de\numa solução <span class=\"math inline\">\\(\\pu{0,5 mol.L-1}\\)</span> de\ncromato de potássio, <span class=\"math inline\">\\(\\ce{K2CrO4}\\)</span>,\nfoi titulada com <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> de uma\nsolução de nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>.</p>\n<p>Em outro experimento, uma amostra de <span class=\"math inline\">\\(\\pu{5 g}\\)</span> de cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>, foi dissolvida em água e\ntitulada com <span class=\"math inline\">\\(\\ce{45 mL}\\)</span> da mesma\nsolução de nitrato de prata.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza da amostra de cloreto de sódio.</p>",
+        "md": "Uma alíquota de $\\pu{25 mL}$ de uma solução $\\pu{0,5 mol.L-1}$ de\ncromato de potássio, $\\ce{K2CrO4}$, foi titulada com $\\pu{15 mL}$ de uma\nsolução de nitrato de prata, $\\ce{AgNO3}$.\n\nEm outro experimento, uma amostra de $\\pu{5 g}$ de cloreto de sódio,\n$\\ce{NaCl}$, foi dissolvida em água e titulada com $\\ce{45 mL}$ da mesma\nsolução de nitrato de prata.\n\n**Assinale** a alternativa que mais se aproxima da pureza da amostra de\ncloreto de sódio.\n",
+        "tex": "Uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de cromato de potássio, {\\(\\ce{K2CrO4}\\)}, foi titulada\ncom {\\(\\qty{15}{\\unit{mL}}\\)} de uma solução de nitrato de prata, {\\(\\ce{AgNO3}\\)}.\n\nEm outro experimento, uma amostra de {\\(\\qty{5}{\\unit{g}}\\)} de cloreto de sódio, {\\(\\ce{NaCl}\\)}, foi dissolvida em água e titulada com\n{\\(\\ce{45 mL}\\)} da mesma solução de nitrato de prata.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pureza da amostra de cloreto de sódio.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{ 2 Ag^+(aq) + CrO4^{2-}(aq) -&gt;\nAg2CrO4(s) }\\)</span> e <span class=\"math inline\">\\(\\ce{ Ag^+(aq) +\nCl^-(aq) -&gt; AgCl(s) }\\)</span></p>\n",
-          "md": "$\\ce{ 2 Ag^+(aq) + CrO4^{2-}(aq) -> Ag2CrO4(s) }$ e $\\ce{ Ag^+(aq) + Cl^-(aq) -> AgCl(s) }$",
-          "tex": "\\(\\ce{ 2 Ag^+(aq) + CrO4^{2-}(aq) -> Ag2CrO4(s) }\\) e \\(\\ce{ Ag^+(aq) + Cl^-(aq) -> AgCl(s) }\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{35 \\%}\\)</span>",
+          "md": "$\\pu{35 \\%}$\n",
+          "tex": "{\\(\\qty{35}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(88\\%\\)</span></p>\n",
-          "md": "$88\\%$",
-          "tex": "\\(88\\%\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{55 \\%}\\)</span>",
+          "md": "$\\pu{55 \\%}$\n",
+          "tex": "{\\(\\qty{55}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{88 \\%}\\)</span>",
+          "md": "$\\pu{88 \\%}$\n",
+          "tex": "{\\(\\qty{88}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 \\%}\\)</span>",
+          "md": "$\\pu{140 \\%}$\n",
+          "tex": "{\\(\\qty{140}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{220 \\%}\\)</span>",
+          "md": "$\\pu{220 \\%}$\n",
+          "tex": "{\\(\\qty{220}{\\unit{\\%}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 2
     },
     {
       "id_": "3E34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E34/3E34.md",
-      "date": "2023-03-12T03:12:10.241848",
+      "date": "2023-04-01T22:30:08.842548",
       "statement": {
-        "html": "<p>O alumínio presente em uma amostra com <span class=\"math inline\">\\(\\pu{6,06 g}\\)</span> de sulfato de alumínio e\namônio foi precipitado com amônia aquosa como óxido de alumínio\nhidratado. O precipitado foi filtrado e calcinado a alta temperatura\npara formando <span class=\"math inline\">\\(\\pu{1,29 g}\\)</span> de óxido\nde alumínio puro.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para a reação que ocorre\nem solução.</li>\n<li><strong>Determine</strong> a fórmula unitária do sal da\namostra.</li>\n</ol>",
-        "md": "O alumínio presente em uma amostra com $\\pu{6,06 g}$ de sulfato de\nalumínio e amônio foi precipitado com amônia aquosa como óxido de\nalumínio hidratado. O precipitado foi filtrado e calcinado a alta\ntemperatura para formando $\\pu{1,29 g}$ de óxido de alumínio puro.\n\na.  **Apresente** a equação iônica para a reação que ocorre em solução.\nb.  **Determine** a fórmula unitária do sal da amostra.\n",
-        "tex": "O alumínio presente em uma amostra com {\\(\\qty{6,06}{\\unit{g}}\\)} de sulfato de alumínio e amônio foi precipitado com amônia aquosa como óxido de\nalumínio hidratado. O precipitado foi filtrado e calcinado a alta temperatura para formando {\\(\\qty{1,29}{\\unit{g}}\\)} de óxido de alumínio puro.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para a reação que ocorre em solução.\n\\item\n  \\textbf{Determine} a fórmula unitária do sal da amostra.\n\\end{enumerate}\n"
+        "html": "<p>O alumínio presente em uma amostra com <span class=\"math inline\">\\(\\pu{6,06 g}\\)</span> de sulfato de alumínio e\namônio foi precipitado com amônia aquosa como óxido de alumínio\nhidratado. O precipitado foi filtrado e calcinado a alta temperatura\npara formando <span class=\"math inline\">\\(\\pu{1,29 g}\\)</span> de óxido\nde alumínio puro.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula molecular do\nsal.</p>",
+        "md": "O alumínio presente em uma amostra com $\\pu{6,06 g}$ de sulfato de\nalumínio e amônio foi precipitado com amônia aquosa como óxido de\nalumínio hidratado. O precipitado foi filtrado e calcinado a alta\ntemperatura para formando $\\pu{1,29 g}$ de óxido de alumínio puro.\n\n**Assinale** a alternativa com a fórmula molecular do sal.\n",
+        "tex": "O alumínio presente em uma amostra com {\\(\\qty{6,06}{\\unit{g}}\\)} de sulfato de alumínio e amônio foi precipitado com amônia aquosa como óxido de\nalumínio hidratado. O precipitado foi filtrado e calcinado a alta temperatura para formando {\\(\\qty{1,29}{\\unit{g}}\\)} de óxido de alumínio puro.\n\n\\textbf{Assinale} a alternativa com a fórmula molecular do sal.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{ 2 Al^{3+}(aq) + 3 O^{2-}(aq) -&gt;\nAl2O3(aq) }\\)</span></p>\n",
-          "md": "$\\ce{ 2 Al^{3+}(aq) + 3 O^{2-}(aq) -> Al2O3(aq) }$",
-          "tex": "\\(\\ce{ 2 Al^{3+}(aq) + 3 O^{2-}(aq) -> Al2O3(aq) }\\)\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Al(NH4)(SO4)}\\)</span>",
+          "md": "$\\ce{Al(NH4)(SO4)}$\n",
+          "tex": "{\\(\\ce{Al(NH4)(SO4)}\\)}\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{Al2(NH4)4(SO4)5}\\)</span></p>\n",
-          "md": "$\\ce{Al2(NH4)4(SO4)5}$",
-          "tex": "\\(\\ce{Al2(NH4)4(SO4)5}\\)\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Al(NH4)3(SO4)3}\\)</span>",
+          "md": "$\\ce{Al(NH4)3(SO4)3}$\n",
+          "tex": "{\\(\\ce{Al(NH4)3(SO4)3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al2(NH4)2(SO4)4}\\)</span>",
+          "md": "$\\ce{Al2(NH4)2(SO4)4}$\n",
+          "tex": "{\\(\\ce{Al2(NH4)2(SO4)4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al2(NH4)4(SO4)5}\\)</span>",
+          "md": "$\\ce{Al2(NH4)4(SO4)5}$\n",
+          "tex": "{\\(\\ce{Al2(NH4)4(SO4)5}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al2(NH4)6(SO4)6}\\)</span>",
+          "md": "$\\ce{Al2(NH4)6(SO4)6}$\n",
+          "tex": "{\\(\\ce{Al2(NH4)6(SO4)6}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 3
     },
     {
       "id_": "3E20",
@@ -9672,23 +9702,43 @@
     {
       "id_": "3E40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E40/3E40.md",
-      "date": "2023-03-12T03:00:56.778762",
+      "date": "2023-04-01T22:32:50.541213",
       "statement": {
-        "html": "<p>O fósforo em <span class=\"math inline\">\\(\\pu{4 g}\\)</span> de um\nalimento vegetal foi convertido a fosfato e tratado com <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,08 mol.L-1}\\)</span> em nitrato de prata. O\nexcesso de nitrato de prata foi retrotitulado com <span class=\"math inline\">\\(\\pu{5 mL}\\)</span> de tiocianato de potássio <span class=\"math inline\">\\(\\pu{0,06 mol.L-1}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a fração mássica de fósforo no alimento\nvegetal.</li>\n</ol>",
-        "md": "O fósforo em $\\pu{4 g}$ de um alimento vegetal foi convertido a fosfato\ne tratado com $\\pu{50 mL}$ de uma solução $\\pu{0,08 mol.L-1}$ em nitrato\nde prata. O excesso de nitrato de prata foi retrotitulado com\n$\\pu{5 mL}$ de tiocianato de potássio $\\pu{0,06 mol.L-1}$.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a fração mássica de fósforo no alimento vegetal.\n",
-        "tex": "O fósforo em {\\(\\qty{4}{\\unit{g}}\\)} de um alimento vegetal foi convertido a fosfato e tratado com {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{0,08}{\\unit{mol.L^{-1}}}\\)} em nitrato de prata. O excesso de nitrato de prata foi retrotitulado com {\\(\\qty{5}{\\unit{mL}}\\)} de tiocianato de\npotássio {\\(\\qty{0,06}{\\unit{mol.L^{-1}}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a fração mássica de fósforo no alimento vegetal.\n\\end{enumerate}\n"
+        "html": "<p>O fósforo em <span class=\"math inline\">\\(\\pu{4 g}\\)</span> de um\nalimento vegetal foi convertido a fosfato e tratado com <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,08 mol.L-1}\\)</span> em nitrato de prata. O\nexcesso de nitrato de prata foi retrotitulado com <span class=\"math inline\">\\(\\pu{5 mL}\\)</span> de tiocianato de potássio <span class=\"math inline\">\\(\\pu{0,06 mol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de fósforo no alimento vegetal.</p>",
+        "md": "O fósforo em $\\pu{4 g}$ de um alimento vegetal foi convertido a fosfato\ne tratado com $\\pu{50 mL}$ de uma solução $\\pu{0,08 mol.L-1}$ em nitrato\nde prata. O excesso de nitrato de prata foi retrotitulado com\n$\\pu{5 mL}$ de tiocianato de potássio $\\pu{0,06 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nfósforo no alimento vegetal.\n",
+        "tex": "O fósforo em {\\(\\qty{4}{\\unit{g}}\\)} de um alimento vegetal foi convertido a fosfato e tratado com {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{0,08}{\\unit{mol.L^{-1}}}\\)} em nitrato de prata. O excesso de nitrato de prata foi retrotitulado com {\\(\\qty{5}{\\unit{mL}}\\)} de tiocianato de\npotássio {\\(\\qty{0,06}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de fósforo no alimento vegetal.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(3\\%\\)</span></p>\n",
-          "md": "$3\\%$",
-          "tex": "\\(3\\%\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 \\%}\\)</span>",
+          "md": "$\\pu{1,4 \\%}$\n",
+          "tex": "{\\(\\qty{1,4}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8 \\%}\\)</span>",
+          "md": "$\\pu{1,8 \\%}$\n",
+          "tex": "{\\(\\qty{1,8}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,3 \\%}\\)</span>",
+          "md": "$\\pu{2,3 \\%}$\n",
+          "tex": "{\\(\\qty{2,3}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3 \\%}\\)</span>",
+          "md": "$\\pu{3 \\%}$\n",
+          "tex": "{\\(\\qty{3}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,9 \\%}\\)</span>",
+          "md": "$\\pu{3,9 \\%}$\n",
+          "tex": "{\\(\\qty{3,9}{\\unit{\\%}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 3
     },
     {
       "id_": "3E10",
@@ -9796,28 +9846,43 @@
     {
       "id_": "3E33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E33/3E33.md",
-      "date": "2023-03-12T02:17:35.247741",
+      "date": "2023-04-01T22:29:23.238933",
       "statement": {
-        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{2,2 g}\\)</span>\nminério de ferro foi dissolvida em ácido clorídrico concentrado. A\nsolução resultante foi diluída em água precipitada como óxido de\nferro(III) hidratado pela adição de amônia. O precipitado foi filtrado e\ncalcinado a alta temperatura para formando <span class=\"math inline\">\\(\\pu{1,6 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Fe2O3}\\)</span> puro</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para a reação que ocorre\nem solução.</li>\n<li><strong>Determine</strong> a fração mássica de ferro no\nminério.</li>\n</ol>",
-        "md": "Uma amostra de $\\pu{2,2 g}$ minério de ferro foi dissolvida em ácido\nclorídrico concentrado. A solução resultante foi diluída em água\nprecipitada como óxido de ferro(III) hidratado pela adição de amônia. O\nprecipitado foi filtrado e calcinado a alta temperatura para formando\n$\\pu{1,6 g}$ de $\\ce{Fe2O3}$ puro\n\na.  **Apresente** a equação iônica para a reação que ocorre em solução.\nb.  **Determine** a fração mássica de ferro no minério.\n",
-        "tex": "Uma amostra de {\\(\\qty{2,2}{\\unit{g}}\\)} minério de ferro foi dissolvida em ácido clorídrico concentrado. A solução resultante foi diluída em água\nprecipitada como óxido de ferro(III) hidratado pela adição de amônia. O precipitado foi filtrado e calcinado a alta temperatura para formando\n{\\(\\qty{1,6}{\\unit{g}}\\)} de {\\(\\ce{Fe2O3}\\)} puro\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para a reação que ocorre em solução.\n\\item\n  \\textbf{Determine} a fração mássica de ferro no minério.\n\\end{enumerate}\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{2,2 g}\\)</span>\nminério de ferro foi dissolvida em ácido clorídrico concentrado. A\nsolução resultante foi diluída em água precipitada como óxido de\nferro(III) hidratado pela adição de amônia. O precipitado foi filtrado e\ncalcinado a alta temperatura para formando <span class=\"math inline\">\\(\\pu{1,6 g}\\)</span> de <span class=\"math inline\">\\(\\ce{Fe2O3}\\)</span> puro</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de ferro no minério.</p>",
+        "md": "Uma amostra de $\\pu{2,2 g}$ minério de ferro foi dissolvida em ácido\nclorídrico concentrado. A solução resultante foi diluída em água\nprecipitada como óxido de ferro(III) hidratado pela adição de amônia. O\nprecipitado foi filtrado e calcinado a alta temperatura para formando\n$\\pu{1,6 g}$ de $\\ce{Fe2O3}$ puro\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nferro no minério.\n",
+        "tex": "Uma amostra de {\\(\\qty{2,2}{\\unit{g}}\\)} minério de ferro foi dissolvida em ácido clorídrico concentrado. A solução resultante foi diluída em água\nprecipitada como óxido de ferro(III) hidratado pela adição de amônia. O precipitado foi filtrado e calcinado a alta temperatura para formando\n{\\(\\qty{1,6}{\\unit{g}}\\)} de {\\(\\ce{Fe2O3}\\)} puro\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de ferro no minério.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{ 2 Fe^{3+}(aq) + 3 O^{2-}(aq) -&gt;\nFe2O3(aq) }\\)</span></p>\n",
-          "md": "$\\ce{ 2 Fe^{3+}(aq) + 3 O^{2-}(aq) -> Fe2O3(aq) }$",
-          "tex": "\\(\\ce{ 2 Fe^{3+}(aq) + 3 O^{2-}(aq) -> Fe2O3(aq) }\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{7,7 \\%}\\)</span>",
+          "md": "$\\pu{7,7 \\%}$\n",
+          "tex": "{\\(\\qty{7,7}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(25\\%\\)</span></p>\n",
-          "md": "$25\\%$",
-          "tex": "\\(25\\%\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{11 \\%}\\)</span>",
+          "md": "$\\pu{11 \\%}$\n",
+          "tex": "{\\(\\qty{11}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 \\%}\\)</span>",
+          "md": "$\\pu{17 \\%}$\n",
+          "tex": "{\\(\\qty{17}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 \\%}\\)</span>",
+          "md": "$\\pu{25 \\%}$\n",
+          "tex": "{\\(\\qty{25}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 \\%}\\)</span>",
+          "md": "$\\pu{37 \\%}$\n",
+          "tex": "{\\(\\qty{37}{\\unit{\\%}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 3
     },
     {
       "id_": "3E11",
@@ -9884,18 +9949,18 @@
     {
       "id_": "3E42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E42/3E42.md",
-      "date": "2023-03-12T03:01:37.834421",
+      "date": "2023-04-01T23:45:21.677407",
       "statement": {
-        "html": "<p>O ácido cloroacético, utilizado como conservante em 100 mL de uma\nbebida carbonatada, foi extraído em éter dietílico e então retornado à\nsolução aquosa pela extração com NaOH <span class=\"math inline\">\\(\\pu{1\nmol.L-1}\\)</span>. O cloroacetato reage com o hidróxido de sódio\nliberando íons cloreto. Esse extrato aquoso foi acidificado e tratado\ncom <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de nitrato de prata\n<span class=\"math inline\">\\(\\pu{0,05 mol.L-1}\\)</span>. Após a filtração\ndo precipitado, a titulação do filtrado requereu <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de uma solução de tiocianato\nde amônio. Em outro experimento, uma alíquota de <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> da mesma solução de tiocianato\nde amônio foi titulada com <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> da solução de nitrato de prata <span class=\"math inline\">\\(\\pu{0,05 mol.L-1}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a massa de ácido cloroacético na\nsolução.</li>\n</ol>",
-        "md": "O ácido cloroacético, utilizado como conservante em 100 mL de uma bebida\ncarbonatada, foi extraído em éter dietílico e então retornado à solução\naquosa pela extração com NaOH $\\pu{1 mol.L-1}$. O cloroacetato reage com\no hidróxido de sódio liberando íons cloreto. Esse extrato aquoso foi\nacidificado e tratado com $\\pu{50 mL}$ de nitrato de prata\n$\\pu{0,05 mol.L-1}$. Após a filtração do precipitado, a titulação do\nfiltrado requereu $\\pu{10 mL}$ de uma solução de tiocianato de amônio.\nEm outro experimento, uma alíquota de $\\pu{20 mL}$ da mesma solução de\ntiocianato de amônio foi titulada com $\\pu{50 mL}$ da solução de nitrato\nde prata $\\pu{0,05 mol.L-1}$.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a massa de ácido cloroacético na solução.\n",
-        "tex": "O ácido cloroacético, utilizado como conservante em 100 mL de uma bebida carbonatada, foi extraído em éter dietílico e então retornado à solução\naquosa pela extração com NaOH {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)}. O cloroacetato reage com o hidróxido de sódio liberando íons cloreto. Esse extrato\naquoso foi acidificado e tratado com {\\(\\qty{50}{\\unit{mL}}\\)} de nitrato de prata {\\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\)}. Após a filtração do\nprecipitado, a titulação do filtrado requereu {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução de tiocianato de amônio. Em outro experimento, uma alíquota de\n{\\(\\qty{20}{\\unit{mL}}\\)} da mesma solução de tiocianato de amônio foi titulada com {\\(\\qty{50}{\\unit{mL}}\\)} da solução de nitrato de prata\n{\\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a massa de ácido cloroacético na solução.\n\\end{enumerate}\n"
+        "html": "<p>O arsênio em <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de uma\namostra de pesticida foi convertido a <span class=\"math inline\">\\(\\ce{H3AsO4}\\)</span> por tratamento adequado. O\nácido foi neutralizado e <span class=\"math inline\">\\(\\pu{40 mL}\\)</span>\nde nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>,\n<span class=\"math inline\">\\(\\pu{0,06 mol.L-1}\\)</span> foram adicionados\nà solução. O excesso de cátions prata foi retrotitulado com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de tiocianato de amônio, <span class=\"math inline\">\\(\\ce{NH4SCN}\\)</span>.</p>\n<p>Em outro experimento, <span class=\"math inline\">\\(\\pu{100\nmL}\\)</span> da solução de tiocianato de amônio foram titulados com\n<span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,5 mol.L-1}\\)</span> de nitrato de prata.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Calcule</strong> a fração mássica de arsênio na\namostra.</li>\n</ol>",
+        "md": "O arsênio em $\\pu{1 g}$ de uma amostra de pesticida foi convertido a\n$\\ce{H3AsO4}$ por tratamento adequado. O ácido foi neutralizado e\n$\\pu{40 mL}$ de nitrato de prata, $\\ce{AgNO3}$, $\\pu{0,06 mol.L-1}$\nforam adicionados à solução. O excesso de cátions prata foi\nretrotitulado com $\\pu{10 mL}$ de tiocianato de amônio, $\\ce{NH4SCN}$.\n\nEm outro experimento, $\\pu{100 mL}$ da solução de tiocianato de amônio\nforam titulados com $\\pu{20 mL}$ de uma solução $\\pu{0,5 mol.L-1}$ de\nnitrato de prata.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Calcule** a fração mássica de arsênio na amostra.\n",
+        "tex": "O arsênio em {\\(\\qty{1}{\\unit{g}}\\)} de uma amostra de pesticida foi convertido a {\\(\\ce{H3AsO4}\\)} por tratamento adequado. O ácido foi neutralizado\ne {\\(\\qty{40}{\\unit{mL}}\\)} de nitrato de prata, {\\(\\ce{AgNO3}\\)}, {\\(\\qty{0,06}{\\unit{mol.L^{-1}}}\\)} foram adicionados à solução. O excesso de\ncátions prata foi retrotitulado com {\\(\\qty{10}{\\unit{mL}}\\)} de tiocianato de amônio, {\\(\\ce{NH4SCN}\\)}.\n\nEm outro experimento, {\\(\\qty{100}{\\unit{mL}}\\)} da solução de tiocianato de amônio foram titulados com {\\(\\qty{20}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de nitrato de prata.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Calcule} a fração mássica de arsênio na amostra.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{118 mg}\\)</span></p>\n",
-          "md": "$\\pu{118 mg}$",
-          "tex": "\\(\\qty{118}{\\unit{mg}}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\pu{10,5 \\%}\\)</span></p>\n",
+          "md": "$\\pu{10,5 \\%}$",
+          "tex": "\\(\\qty{10,5}{\\unit{\\%}}\\)\n"
         }
       ],
       "data": null,
@@ -10087,13 +10152,54 @@
       "correct_choice": null
     },
     {
+      "id_": "3E50",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E50/3E50.md",
+      "date": "2023-04-01T22:39:45.977429",
+      "statement": {
+        "html": "<p>Uma amostra de uma substância desconhecida foi submetida à análise\ntermogravimétrica.</p>\n<figure>\n<img alt=\"Figura do problema 3E50.\" src=\"3E50-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3E50.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com uma possível\nsubstância.</p>",
+        "md": "Uma amostra de uma substância desconhecida foi submetida à análise\ntermogravimétrica.\n\n![Figura do problema 3E50.](3E50-1P.svg)\n\n**Assinale** a alternativa com uma possível substância.\n",
+        "tex": "Uma amostra de uma substância desconhecida foi submetida à análise termogravimétrica.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3E50-1P.svg}\n\\caption{Figura do problema 3E50.}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa com uma possível substância.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO(NH2)2}\\)</span>",
+          "md": "$\\ce{CO(NH2)2}$\n",
+          "tex": "{\\(\\ce{CO(NH2)2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{FeSO4}\\)</span>",
+          "md": "$\\ce{FeSO4}$\n",
+          "tex": "{\\(\\ce{FeSO4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Ca(NO3)2}\\)</span>",
+          "md": "$\\ce{Ca(NO3)2}$\n",
+          "tex": "{\\(\\ce{Ca(NO3)2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Ag2CO3}\\)</span>",
+          "md": "$\\ce{Ag2CO3}$\n",
+          "tex": "{\\(\\ce{Ag2CO3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NaHCO3}\\)</span>",
+          "md": "$\\ce{NaHCO3}$\n",
+          "tex": "{\\(\\ce{NaHCO3}\\)}\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
       "id_": "3E23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E23/3E23.md",
-      "date": "2023-03-12T03:44:13.845030",
+      "date": "2023-04-02T00:20:54.121420",
       "statement": {
         "html": "<p>Considere uma porção de uma solução aquosa de concentração <span class=\"math inline\">\\(\\pu{10 mmol.L-1}\\)</span> de um eletrólito em\nformato de um cilindro de <span class=\"math inline\">\\(\\pu{2 cm}\\)</span>\nde diâmetro e <span class=\"math inline\">\\(\\pu{314 cm}\\)</span> de\ncomprimento. A resistência elétrica dessa porção é de <span class=\"math inline\">\\(\\pu{10 k \\Omega}\\)</span>.</p>\n<p><strong>Determine</strong> a condutividade molar do eletrólito.</p>",
         "md": "Considere uma porção de uma solução aquosa de concentração\n$\\pu{10 mmol.L-1}$ de um eletrólito em formato de um cilindro de\n$\\pu{2 cm}$ de diâmetro e $\\pu{314 cm}$ de comprimento. A resistência\nelétrica dessa porção é de $\\pu{10 k \\Omega}$.\n\n**Determine** a condutividade molar do eletrólito.\n",
-        "tex": "Considere uma porção de uma solução aquosa de concentração {\\(\\qty{10}{\\unit{mmol.L^{-1}}}\\)} de um eletrólito em formato de um cilindro de\n{\\(\\qty{2}{\\unit{cm}}\\)} de diâmetro e {\\(\\qty{314}{\\unit{cm}}\\)} de comprimento. A resistência elétrica dessa porção é de\n{\\(\\qty{10}{\\unit{k \\omh}}\\)}.\n\n\\textbf{Determine} a condutividade molar do eletrólito.\n"
+        "tex": "Considere uma porção de uma solução aquosa de concentração {\\(\\qty{10}{\\unit{mmol.L^{-1}}}\\)} de um eletrólito em formato de um cilindro de\n{\\(\\qty{2}{\\unit{cm}}\\)} de diâmetro e {\\(\\qty{314}{\\unit{cm}}\\)} de comprimento. A resistência elétrica dessa porção é de\n{\\(\\qty{10}{\\unit{k \\ohm}}\\)}.\n\n\\textbf{Determine} a condutividade molar do eletrólito.\n"
       },
       "solution": null,
       "answer": [
@@ -10139,45 +10245,66 @@
       "correct_choice": null
     },
     {
+      "id_": "3E52",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E52/3E52.md",
+      "date": "2023-04-01T23:53:56.983426",
+      "statement": {
+        "html": "<p>Um funcionário de uma fábrica de explosivos desapareceu. Acredita-se\nque ele caiu em um tanque de <span class=\"math inline\">\\(\\pu{7000\nL}\\)</span> contendo uma mistura sulfonítrica concentrada e foi\n<em>completamente dissolvido</em>. Para verificar essa hipótese, a\nmistura foi analisada para determinar a quantidade de fósforo.</p>\n<p>O fósforo em uma alíquota de <span class=\"math inline\">\\(\\pu{100\nmL}\\)</span> foi convertido a fosfato, <span class=\"math inline\">\\(\\ce{PO4^{3-}}\\)</span> por tratamento adequado.\nForam adicionados <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span> de nitrato\nde prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>, à alíquota. O\nexcesso de cátions prata foi retrotitulado com <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> de tiocianato de amônio,\n<span class=\"math inline\">\\(\\ce{NH4SCN}\\)</span>.</p>\n<p>A titulação de uma alíquota de <span class=\"math inline\">\\(\\pu{100\nmL}\\)</span> retirada de outro tanque idêntico foi submetido ao mesmo\nprocedimento e empregou <span class=\"math inline\">\\(\\pu{34 mL}\\)</span>\nda mesma solução de tiocianato de amônio.</p>\n<p>O funcionário pesava <span class=\"math inline\">\\(\\pu{70 kg}\\)</span>\ne o corpo humano possui cerca de <span class=\"math inline\">\\(0,62\\%\\)</span> de fósforo.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a massa de fósforo no corpo do\nfuncionário.</li>\n<li><strong>Verifique</strong> se o funcionário pode ter sido dissolvido\npela mistura sulfonítrica.</li>\n</ol>",
+        "md": "Um funcionário de uma fábrica de explosivos desapareceu. Acredita-se que\nele caiu em um tanque de $\\pu{7000 L}$ contendo uma mistura sulfonítrica\nconcentrada e foi *completamente dissolvido*. Para verificar essa\nhipótese, a mistura foi analisada para determinar a quantidade de\nfósforo.\n\nO fósforo em uma alíquota de $\\pu{100 mL}$ foi convertido a fosfato,\n$\\ce{PO4^{3-}}$ por tratamento adequado. Foram adicionados $\\pu{10 mL}$\nde uma solução $\\pu{0,2 mol.L-1}$ de nitrato de prata, $\\ce{AgNO3}$, à\nalíquota. O excesso de cátions prata foi retrotitulado com $\\pu{20 mL}$\nde uma solução $\\pu{0,1 mol.L-1}$ de tiocianato de amônio,\n$\\ce{NH4SCN}$.\n\nA titulação de uma alíquota de $\\pu{100 mL}$ retirada de outro tanque\nidêntico foi submetido ao mesmo procedimento e empregou $\\pu{34 mL}$ da\nmesma solução de tiocianato de amônio.\n\nO funcionário pesava $\\pu{70 kg}$ e o corpo humano possui cerca de\n$0,62\\%$ de fósforo.\n\na.  **Determine** a massa de fósforo no corpo do funcionário.\nb.  **Verifique** se o funcionário pode ter sido dissolvido pela mistura\n    sulfonítrica.\n",
+        "tex": "Um funcionário de uma fábrica de explosivos desapareceu. Acredita-se que ele caiu em um tanque de {\\(\\qty{7000}{\\unit{L}}\\)} contendo uma mistura\nsulfonítrica concentrada e foi \\emph{completamente dissolvido}. Para verificar essa hipótese, a mistura foi analisada para determinar a quantidade de\nfósforo.\n\nO fósforo em uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} foi convertido a fosfato, {\\(\\ce{PO4^{3-}}\\)} por tratamento adequado. Foram adicionados\n{\\(\\qty{10}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} de nitrato de prata, {\\(\\ce{AgNO3}\\)}, à alíquota. O excesso de cátions\nprata foi retrotitulado com {\\(\\qty{20}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de tiocianato de amônio, {\\(\\ce{NH4SCN}\\)}.\n\nA titulação de uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} retirada de outro tanque idêntico foi submetido ao mesmo procedimento e empregou\n{\\(\\qty{34}{\\unit{mL}}\\)} da mesma solução de tiocianato de amônio.\n\nO funcionário pesava {\\(\\qty{70}{\\unit{kg}}\\)} e o corpo humano possui cerca de {\\(0,62\\%\\)} de fósforo.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a massa de fósforo no corpo do funcionário.\n\\item\n  \\textbf{Verifique} se o funcionário pode ter sido dissolvido pela mistura sulfonítrica.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p>O tanque poderia conter um corpo dissolvido.</p>\n",
+          "md": "O tanque poderia conter um corpo dissolvido.",
+          "tex": "O tanque poderia conter um corpo dissolvido.\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3E49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E49/3E49.md",
-      "date": "2023-03-12T03:30:16.033004",
+      "date": "2023-04-01T22:58:56.747960",
       "statement": {
-        "html": "<p>Uma amostra oxalato de cálcio monohidratado foi submetida à análise\ntermogravimétrica.</p>\n<figure>\n<img alt=\"Figura do problema 3E49.\" src=\"3E49-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3E49.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa <em>incorreta</em>.</p>",
-        "md": "Uma amostra oxalato de cálcio monohidratado foi submetida à análise\ntermogravimétrica.\n\n![Figura do problema 3E49.](3E49-1P.svg)\n\n**Assinale** a alternativa *incorreta*.\n",
-        "tex": "Uma amostra oxalato de cálcio monohidratado foi submetida à análise termogravimétrica.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3E49-1P.svg}\n\\caption{Figura do problema 3E49.}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa \\emph{incorreta}.\n"
+        "html": "<p>Uma amostra de oxalato de cálcio monoidratado foi submetida à análise\ntermogravimétrica.</p>\n<figure>\n<img alt=\"Figura do problema 3E49.\" src=\"3E49-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 3E49.</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A água de hidratação\né eliminada em <span class=\"math inline\">\\(\\pu{100 \\degree\nC}\\)</span>.</li>\n<li>Ocorre liberação de\n<span class=\"math inline\">\\(\\ce{CO}\\)</span> em <span class=\"math inline\">\\(\\pu{500 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\ce{CO2}\\)</span> em <span class=\"math inline\">\\(\\pu{700 \\degree C}\\)</span>.</li>\n<li>A fase sólida é\ncomposta majoritariamente por <span class=\"math inline\">\\(\\ce{CaCO3}\\)</span> em <span class=\"math inline\">\\(\\pu{580 \\degree C}\\)</span> e <span class=\"math inline\">\\(\\ce{CaO}\\)</span> em <span class=\"math inline\">\\(\\pu{900 \\degree C}\\)</span>.</li>\n<li><span class=\"math inline\">\\(40\\%\\)</span> da massa inicial é perdida na forma\nde gases.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em></p>",
+        "md": "Uma amostra de oxalato de cálcio monoidratado foi submetida à análise\ntermogravimétrica.\n\n![Figura do problema 3E49.](3E49-1P.svg)\n\nConsidere as proposições.\n\n1.  A água de hidratação é eliminada em $\\pu{100 \\degree C}$.\n2.  Ocorre liberação de $\\ce{CO}$ em $\\pu{500 \\degree C}$ e $\\ce{CO2}$\n    em $\\pu{700 \\degree C}$.\n3.  A fase sólida é composta majoritariamente por $\\ce{CaCO3}$ em\n    $\\pu{580 \\degree C}$ e $\\ce{CaO}$ em $\\pu{900 \\degree C}$.\n4.  $40\\%$ da massa inicial é perdida na forma de gases.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*\n",
+        "tex": "Uma amostra de oxalato de cálcio monoidratado foi submetida à análise termogravimétrica.\n\n\\begin{figure}\n\\centering\n\\includegraphics{3E49-1P.svg}\n\\caption{Figura do problema 3E49.}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A água de hidratação é eliminada em {\\(\\qty{100}{\\unit{\\degree C}}\\)}.\n\\item\n  Ocorre liberação de {\\(\\ce{CO}\\)} em {\\(\\qty{500}{\\unit{\\degree C}}\\)} e {\\(\\ce{CO2}\\)} em {\\(\\qty{700}{\\unit{\\degree C}}\\)}.\n\\item\n  A fase sólida é composta majoritariamente por {\\(\\ce{CaCO3}\\)} em {\\(\\qty{580}{\\unit{\\degree C}}\\)} e {\\(\\ce{CaO}\\)} em\n  {\\(\\qty{900}{\\unit{\\degree C}}\\)}.\n\\item\n  {\\(40\\%\\)} da massa inicial é perdida na forma de gases.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "A decomposição térmica do\noxalato de cálcio ocorre em três etapas.<br/>",
-          "md": "A decomposição térmica do oxalato de cálcio ocorre em três etapas.  \n",
-          "tex": "A decomposição térmica do oxalato de cálcio ocorre em três etapas.\\\\\n"
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
         },
         {
-          "html": "A água de hidratação é\neliminada da estrutura cristalina do oxalato de cálcio a temperatura\nmaior que <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span>.",
-          "md": "A água de hidratação é eliminada da estrutura cristalina do oxalato de\ncálcio a temperatura maior que $\\pu{100 \\degree C}$.\n",
-          "tex": "A água de hidratação é eliminada da estrutura cristalina do oxalato de cálcio a temperatura maior que {\\(\\qty{100}{\\unit{\\degree C}}\\)}.\n"
+          "html": "<strong>1</strong> e <strong>3</strong>",
+          "md": "**1** e **3**\n",
+          "tex": "\\textbf{1} e \\textbf{3}\n"
         },
         {
-          "html": "A decomposição do oxalato de\ncálcio ocorre com formação de monóxido e de dióxido de carbono.<br/>",
-          "md": "A decomposição do oxalato de cálcio ocorre com formação de monóxido e de\ndióxido de carbono.  \n",
-          "tex": "A decomposição do oxalato de cálcio ocorre com formação de monóxido e de dióxido de carbono.\\\\\n"
+          "html": "<strong>2</strong> e <strong>3</strong>",
+          "md": "**2** e **3**\n",
+          "tex": "\\textbf{2} e \\textbf{3}\n"
         },
         {
-          "html": "O evento térmico que ocorre a a\n<span class=\"math inline\">\\(\\pu{800 \\degree C}\\)</span> leva à formação\nde cal virgem.<br/>",
-          "md": "O evento térmico que ocorre a a $\\pu{800 \\degree C}$ leva à formação de\ncal virgem.  \n",
-          "tex": "O evento térmico que ocorre a a {\\(\\qty{800}{\\unit{\\degree C}}\\)} leva à formação de cal virgem.\\\\\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
         },
         {
-          "html": "Na decomposição do\noxalato de cálcio, praticamente <span class=\"math inline\">\\(40\\%\\)</span> da amostra é perdida na forma de\ngases.",
-          "md": "Na decomposição do oxalato de cálcio, praticamente $40\\%$ da amostra é\nperdida na forma de gases.\n",
-          "tex": "Na decomposição do oxalato de cálcio, praticamente {\\(40\\%\\)} da amostra é perdida na forma de gases.\n"
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 4
+      "correct_choice": 3
     },
     {
       "id_": "3E17",
@@ -10223,54 +10350,84 @@
     {
       "id_": "3E38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E38/3E38.md",
-      "date": "2023-03-12T03:00:54.378782",
+      "date": "2023-04-01T22:50:49.379827",
       "statement": {
-        "html": "<p>Uma amostra com <span class=\"math inline\">\\(\\pu{1,5 g}\\)</span> de\nsulfato de sódio de pureza <span class=\"math inline\">\\(94,6\\%\\)</span>\nfoi dissolvida em água até completar <span class=\"math inline\">\\(\\pu{1\nL}\\)</span> de solução. Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> dessa solução foi titulada\ncom <span class=\"math inline\">\\(\\pu{45 mL}\\)</span> de uma solução de\ncloreto de bário. Em outro experimento, foram necessários <span class=\"math inline\">\\(\\pu{9 mL}\\)</span> da mesma solução de cloreto de\nbário para titular <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\numa solução de acetato de chumbo(II), <span class=\"math inline\">\\(\\ce{Pb(CH3CO2)2}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a concentração da solução de acetato de\nchumbo.</li>\n</ol>",
-        "md": "Uma amostra com $\\pu{1,5 g}$ de sulfato de sódio de pureza $94,6\\%$ foi\ndissolvida em água até completar $\\pu{1 L}$ de solução. Uma alíquota de\n$\\pu{100 mL}$ dessa solução foi titulada com $\\pu{45 mL}$ de uma solução\nde cloreto de bário. Em outro experimento, foram necessários $\\pu{9 mL}$\nda mesma solução de cloreto de bário para titular $\\pu{100 mL}$ de uma\nsolução de acetato de chumbo(II), $\\ce{Pb(CH3CO2)2}$.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a concentração da solução de acetato de chumbo.\n",
-        "tex": "Uma amostra com {\\(\\qty{1,5}{\\unit{g}}\\)} de sulfato de sódio de pureza {\\(94,6\\%\\)} foi dissolvida em água até completar {\\(\\qty{1}{\\unit{L}}\\)} de\nsolução. Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} dessa solução foi titulada com {\\(\\qty{45}{\\unit{mL}}\\)} de uma solução de cloreto de bário. Em\noutro experimento, foram necessários {\\(\\qty{9}{\\unit{mL}}\\)} da mesma solução de cloreto de bário para titular {\\(\\qty{100}{\\unit{mL}}\\)} de uma\nsolução de acetato de chumbo(II), {\\(\\ce{Pb(CH3CO2)2}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a concentração da solução de acetato de chumbo.\n\\end{enumerate}\n"
+        "html": "<p>Uma amostra com <span class=\"math inline\">\\(\\pu{1,5 g}\\)</span> de\nsulfato de sódio de pureza <span class=\"math inline\">\\(94,6\\%\\)</span>\nfoi dissolvida em água até completar <span class=\"math inline\">\\(\\pu{1\nL}\\)</span> de solução. Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> dessa solução foi titulada\ncom <span class=\"math inline\">\\(\\pu{45 mL}\\)</span> de uma solução de\ncloreto de bário.</p>\n<p>Em outro experimento, foram necessários <span class=\"math inline\">\\(\\pu{9 mL}\\)</span> da mesma solução de cloreto de\nbário para titular <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\numa solução de acetato de chumbo(II), <span class=\"math inline\">\\(\\ce{Pb(CH3CO2)2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de acetato de chumbo.</p>",
+        "md": "Uma amostra com $\\pu{1,5 g}$ de sulfato de sódio de pureza $94,6\\%$ foi\ndissolvida em água até completar $\\pu{1 L}$ de solução. Uma alíquota de\n$\\pu{100 mL}$ dessa solução foi titulada com $\\pu{45 mL}$ de uma solução\nde cloreto de bário.\n\nEm outro experimento, foram necessários $\\pu{9 mL}$ da mesma solução de\ncloreto de bário para titular $\\pu{100 mL}$ de uma solução de acetato de\nchumbo(II), $\\ce{Pb(CH3CO2)2}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de acetato de chumbo.\n",
+        "tex": "Uma amostra com {\\(\\qty{1,5}{\\unit{g}}\\)} de sulfato de sódio de pureza {\\(94,6\\%\\)} foi dissolvida em água até completar {\\(\\qty{1}{\\unit{L}}\\)} de\nsolução. Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} dessa solução foi titulada com {\\(\\qty{45}{\\unit{mL}}\\)} de uma solução de cloreto de bário.\n\nEm outro experimento, foram necessários {\\(\\qty{9}{\\unit{mL}}\\)} da mesma solução de cloreto de bário para titular {\\(\\qty{100}{\\unit{mL}}\\)} de uma\nsolução de acetato de chumbo(II), {\\(\\ce{Pb(CH3CO2)2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de acetato de chumbo.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{ Ba^{2+}(aq) + SO4^{2-}(aq) -&gt;\nBaSO4(s) }\\)</span> e <span class=\"math inline\">\\(\\ce{ Pb^{2+}(aq) + 2\nCl^-(aq) -&gt; PbCl2(s) }\\)</span></p>\n",
-          "md": "$\\ce{ Ba^{2+}(aq) + SO4^{2-}(aq) -> BaSO4(s) }$ e $\\ce{ Pb^{2+}(aq) + 2 Cl^-(aq) -> PbCl2(s) }$",
-          "tex": "\\(\\ce{ Ba^{2+}(aq) + SO4^{2-}(aq) -> BaSO4(s) }\\) e \\(\\ce{ Pb^{2+}(aq) + 2 Cl^-(aq) -> PbCl2(s) }\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,062 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,062 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,062}{\\unit{mol.L^{-1}}}\\)}\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></p>\n",
-          "md": "$\\pu{0,2 mol.L-1}$",
-          "tex": "\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,083 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,083 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,083}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,11 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,11 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,11}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,15 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,15 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,15}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,2 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 4
     },
     {
       "id_": "3E37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E37/3E37.md",
-      "date": "2023-03-12T02:43:46.767100",
+      "date": "2023-04-01T22:50:52.983798",
       "statement": {
-        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de um\npesticida contendo DDT, <span class=\"math inline\">\\(\\ce{C14H9Cl5}\\)</span>, foi decomposta com sódio\nmetálico em álcool e os íons cloreto liberados foram titulados com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>. Em outro experimento, <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> da mesma solução de nitrato de\nprata, foram titulados com <span class=\"math inline\">\\(\\pu{10\nmL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{3\nmol.L-1}\\)</span> em cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a fração mássica de DDT no\npesticida.</li>\n</ol>",
-        "md": "Uma amostra de $\\pu{1 g}$ de um pesticida contendo DDT, $\\ce{C14H9Cl5}$,\nfoi decomposta com sódio metálico em álcool e os íons cloreto liberados\nforam titulados com $\\pu{10 mL}$ nitrato de prata, $\\ce{AgNO3}$. Em\noutro experimento, $\\pu{30 mL}$ da mesma solução de nitrato de prata,\nforam titulados com $\\pu{10 mL}$ de uma solução $\\pu{3 mol.L-1}$ em\ncloreto de sódio, $\\ce{NaCl}$.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a fração mássica de DDT no pesticida.\n",
-        "tex": "Uma amostra de {\\(\\qty{1}{\\unit{g}}\\)} de um pesticida contendo DDT, {\\(\\ce{C14H9Cl5}\\)}, foi decomposta com sódio metálico em álcool e os íons\ncloreto liberados foram titulados com {\\(\\qty{10}{\\unit{mL}}\\)} nitrato de prata, {\\(\\ce{AgNO3}\\)}. Em outro experimento, {\\(\\qty{30}{\\unit{mL}}\\)} da\nmesma solução de nitrato de prata, foram titulados com {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução {\\(\\qty{3}{\\unit{mol.L^{-1}}}\\)} em cloreto de sódio,\n{\\(\\ce{NaCl}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a fração mássica de DDT no pesticida.\n\\end{enumerate}\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> de um\npesticida contendo DDT, <span class=\"math inline\">\\(\\ce{C14H9Cl5}\\)</span>, foi decomposta com sódio\nmetálico em álcool e os íons cloreto liberados foram titulados com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> nitrato de prata, <span class=\"math inline\">\\(\\ce{AgNO3}\\)</span>.</p>\n<p>Em outro experimento, <span class=\"math inline\">\\(\\pu{30 mL}\\)</span>\nda mesma solução de nitrato de prata, foram titulados com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{3 mol.L-1}\\)</span> em cloreto de sódio, <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de DDT no pesticida.</p>",
+        "md": "Uma amostra de $\\pu{1 g}$ de um pesticida contendo DDT, $\\ce{C14H9Cl5}$,\nfoi decomposta com sódio metálico em álcool e os íons cloreto liberados\nforam titulados com $\\pu{10 mL}$ nitrato de prata, $\\ce{AgNO3}$.\n\nEm outro experimento, $\\pu{30 mL}$ da mesma solução de nitrato de prata,\nforam titulados com $\\pu{10 mL}$ de uma solução $\\pu{3 mol.L-1}$ em\ncloreto de sódio, $\\ce{NaCl}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de DDT\nno pesticida.\n",
+        "tex": "Uma amostra de {\\(\\qty{1}{\\unit{g}}\\)} de um pesticida contendo DDT, {\\(\\ce{C14H9Cl5}\\)}, foi decomposta com sódio metálico em álcool e os íons\ncloreto liberados foram titulados com {\\(\\qty{10}{\\unit{mL}}\\)} nitrato de prata, {\\(\\ce{AgNO3}\\)}.\n\nEm outro experimento, {\\(\\qty{30}{\\unit{mL}}\\)} da mesma solução de nitrato de prata, foram titulados com {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{3}{\\unit{mol.L^{-1}}}\\)} em cloreto de sódio, {\\(\\ce{NaCl}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de DDT no pesticida.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{ Ag^+(aq) + Cl^-(aq) -&gt; AgCl(s)\n}\\)</span></p>\n",
-          "md": "$\\ce{ Ag^+(aq) + Cl^-(aq) -> AgCl(s) }$",
-          "tex": "\\(\\ce{ Ag^+(aq) + Cl^-(aq) -> AgCl(s) }\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{28 \\%}\\)</span>",
+          "md": "$\\pu{28 \\%}$\n",
+          "tex": "{\\(\\qty{28}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(70\\%\\)</span></p>\n",
-          "md": "$70\\%$",
-          "tex": "\\(70\\%\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{45 \\%}\\)</span>",
+          "md": "$\\pu{45 \\%}$\n",
+          "tex": "{\\(\\qty{45}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{70 \\%}\\)</span>",
+          "md": "$\\pu{70 \\%}$\n",
+          "tex": "{\\(\\qty{70}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{110 \\%}\\)</span>",
+          "md": "$\\pu{110 \\%}$\n",
+          "tex": "{\\(\\qty{110}{\\unit{\\%}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{170 \\%}\\)</span>",
+          "md": "$\\pu{170 \\%}$\n",
+          "tex": "{\\(\\qty{170}{\\unit{\\%}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 2
     },
     {
       "id_": "3E30",
@@ -10363,28 +10520,43 @@
     {
       "id_": "3E36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E36/3E36.md",
-      "date": "2023-03-12T02:43:49.839077",
+      "date": "2023-04-01T22:50:57.319763",
       "statement": {
-        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\numa solução de sulfato de sódio, <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span>, foi titulada com <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma solução de cloreto de\nbário, <span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>. Em outro\nexperimento, <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> da mesma\nsolução de cloreto de bário foi titulada com <span class=\"math inline\">\\(\\pu{5 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span> de fosfato de amônio,\n<span class=\"math inline\">\\(\\ce{(NH4)3PO4}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a concentração da solução de sulfato de\nsódio.</li>\n</ol>",
-        "md": "Uma alíquota de $\\pu{100 mL}$ de uma solução de sulfato de sódio,\n$\\ce{Na2SO4}$, foi titulada com $\\pu{20 mL}$ de uma solução de cloreto\nde bário, $\\ce{BaCl2}$. Em outro experimento, $\\pu{15 mL}$ da mesma\nsolução de cloreto de bário foi titulada com $\\pu{5 mL}$ de uma solução\n$\\pu{1 mol.L-1}$ de fosfato de amônio, $\\ce{(NH4)3PO4}$.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a concentração da solução de sulfato de sódio.\n",
-        "tex": "Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} de uma solução de sulfato de sódio, {\\(\\ce{Na2SO4}\\)}, foi titulada com {\\(\\qty{20}{\\unit{mL}}\\)} de uma\nsolução de cloreto de bário, {\\(\\ce{BaCl2}\\)}. Em outro experimento, {\\(\\qty{15}{\\unit{mL}}\\)} da mesma solução de cloreto de bário foi titulada com\n{\\(\\qty{5}{\\unit{mL}}\\)} de uma solução {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de fosfato de amônio, {\\(\\ce{(NH4)3PO4}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a concentração da solução de sulfato de sódio.\n\\end{enumerate}\n"
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\numa solução de sulfato de sódio, <span class=\"math inline\">\\(\\ce{Na2SO4}\\)</span>, foi titulada com <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma solução de cloreto de\nbário, <span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>.</p>\n<p>Em outro experimento, <span class=\"math inline\">\\(\\pu{15 mL}\\)</span>\nda mesma solução de cloreto de bário foi titulada com <span class=\"math inline\">\\(\\pu{5 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span> de fosfato de amônio,\n<span class=\"math inline\">\\(\\ce{(NH4)3PO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de sulfato de sódio.</p>",
+        "md": "Uma alíquota de $\\pu{100 mL}$ de uma solução de sulfato de sódio,\n$\\ce{Na2SO4}$, foi titulada com $\\pu{20 mL}$ de uma solução de cloreto\nde bário, $\\ce{BaCl2}$.\n\nEm outro experimento, $\\pu{15 mL}$ da mesma solução de cloreto de bário\nfoi titulada com $\\pu{5 mL}$ de uma solução $\\pu{1 mol.L-1}$ de fosfato\nde amônio, $\\ce{(NH4)3PO4}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de sulfato de sódio.\n",
+        "tex": "Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} de uma solução de sulfato de sódio, {\\(\\ce{Na2SO4}\\)}, foi titulada com {\\(\\qty{20}{\\unit{mL}}\\)} de uma\nsolução de cloreto de bário, {\\(\\ce{BaCl2}\\)}.\n\nEm outro experimento, {\\(\\qty{15}{\\unit{mL}}\\)} da mesma solução de cloreto de bário foi titulada com {\\(\\qty{5}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)} de fosfato de amônio, {\\(\\ce{(NH4)3PO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de sulfato de sódio.\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\ce{ Ba^{2+}(aq) + SO4^{2-}(aq) -&gt;\nBaSO4(s) }\\)</span> e <span class=\"math inline\">\\(\\ce{ 3 Ba^{2+}(aq) + 2\nPO4^{3-}(aq) -&gt; Ba3(PO4)2(s) }\\)</span></p>\n",
-          "md": "$\\ce{ Ba^{2+}(aq) + SO4^{2-}(aq) -> BaSO4(s) }$ e $\\ce{ 3 Ba^{2+}(aq) + 2 PO4^{3-}(aq) -> Ba3(PO4)2(s) }$",
-          "tex": "\\(\\ce{ Ba^{2+}(aq) + SO4^{2-}(aq) -> BaSO4(s) }\\) e \\(\\ce{ 3 Ba^{2+}(aq) + 2 PO4^{3-}(aq) -> Ba3(PO4)2(s) }\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,1 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span></p>\n",
-          "md": "$\\pu{0,1 mol.L-1}$",
-          "tex": "\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,14 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,14 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,14}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,20 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,20 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,20}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,27 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,27 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,27}{\\unit{mol.L^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,38 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,38 mol.L-1}$\n",
+          "tex": "{\\(\\qty{0,38}{\\unit{mol.L^{-1}}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 0
     },
     {
       "id_": "3E46",
@@ -10415,7 +10587,7 @@
     {
       "id_": "3E16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E16/3E16.md",
-      "date": "2023-03-12T02:09:37.021177",
+      "date": "2023-04-01T22:34:54.248198",
       "statement": {
         "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{15 g}\\)</span> do\nmineral eulitita, <span class=\"math inline\">\\(\\ce{2Bi2O3.3SiO2}\\)</span>, foi dissolvida em\nácido até completar <span class=\"math inline\">\\(\\pu{500 mL}\\)</span> de\nsolução. O <span class=\"math inline\">\\(\\ce{SiO2}\\)</span>, pouco\nsolúvel, foi removido por filtração. Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> dessa solução foi titulada\ncom <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,08 mol.L-1}\\)</span> de fosfato de\nsódio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza da eulitita.</p>",
         "md": "Uma amostra de $\\pu{15 g}$ do mineral eulitita, $\\ce{2Bi2O3.3SiO2}$, foi\ndissolvida em ácido até completar $\\pu{500 mL}$ de solução. O\n$\\ce{SiO2}$, pouco solúvel, foi removido por filtração. Uma alíquota de\n$\\pu{100 mL}$ dessa solução foi titulada com $\\pu{20 mL}$ de uma solução\n$\\pu{0,08 mol.L-1}$ de fosfato de sódio.\n\n**Assinale** a alternativa que mais se aproxima da pureza da eulitita.\n",
@@ -10528,32 +10700,52 @@
     {
       "id_": "3E39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E39/3E39.md",
-      "date": "2023-03-12T02:59:01.755715",
+      "date": "2023-04-01T22:32:25.601416",
       "statement": {
-        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\nágua salobra contendo ácido sulfídrico foi alcalinizada com amoníaco e\ntratada com <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,02 mol.L-1}\\)</span> de\nnitrato de prata. O excesso de nitrato de prata foi retrotitulado com\n<span class=\"math inline\">\\(\\pu{6 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,04 mol.L-1}\\)</span> de tiocianato de\npotássio.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a concentração ácido sulfídrico na água\nem partes por milhão.</li>\n</ol>",
-        "md": "Uma amostra de $\\pu{100 mL}$ de água salobra contendo ácido sulfídrico\nfoi alcalinizada com amoníaco e tratada com $\\pu{30 mL}$ de uma solução\n$\\pu{0,02 mol.L-1}$ de nitrato de prata. O excesso de nitrato de prata\nfoi retrotitulado com $\\pu{6 mL}$ de uma solução $\\pu{0,04 mol.L-1}$ de\ntiocianato de potássio.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a concentração ácido sulfídrico na água em partes por\n    milhão.\n",
-        "tex": "Uma amostra de {\\(\\qty{100}{\\unit{mL}}\\)} de água salobra contendo ácido sulfídrico foi alcalinizada com amoníaco e tratada com\n{\\(\\qty{30}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} de nitrato de prata. O excesso de nitrato de prata foi retrotitulado com\n{\\(\\qty{6}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,04}{\\unit{mol.L^{-1}}}\\)} de tiocianato de potássio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a concentração ácido sulfídrico na água em partes por milhão.\n\\end{enumerate}\n"
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de\nágua salobra contendo ácido sulfídrico foi alcalinizada com amoníaco e\ntratada com <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,02 mol.L-1}\\)</span> de\nnitrato de prata. O excesso de nitrato de prata foi retrotitulado com\n<span class=\"math inline\">\\(\\pu{6 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,04 mol.L-1}\\)</span> de tiocianato de\npotássio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de ácido sulfídrico na água</p>",
+        "md": "Uma amostra de $\\pu{100 mL}$ de água salobra contendo ácido sulfídrico\nfoi alcalinizada com amoníaco e tratada com $\\pu{30 mL}$ de uma solução\n$\\pu{0,02 mol.L-1}$ de nitrato de prata. O excesso de nitrato de prata\nfoi retrotitulado com $\\pu{6 mL}$ de uma solução $\\pu{0,04 mol.L-1}$ de\ntiocianato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração de ácido\nsulfídrico na água\n",
+        "tex": "Uma amostra de {\\(\\qty{100}{\\unit{mL}}\\)} de água salobra contendo ácido sulfídrico foi alcalinizada com amoníaco e tratada com\n{\\(\\qty{30}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} de nitrato de prata. O excesso de nitrato de prata foi retrotitulado com\n{\\(\\qty{6}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,04}{\\unit{mol.L^{-1}}}\\)} de tiocianato de potássio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de ácido sulfídrico na água\n"
       },
       "solution": null,
-      "answer": [
+      "answer": null,
+      "data": null,
+      "choices": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{6 ppm}\\)</span></p>\n",
-          "md": "$\\pu{6 ppm}$",
-          "tex": "\\(\\qty{6}{\\unit{ppm}}\\)\n"
+          "html": "<span class=\"math inline\">\\(\\pu{2,4 ppm}\\)</span>",
+          "md": "$\\pu{2,4 ppm}$\n",
+          "tex": "{\\(\\qty{2,4}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,3 ppm}\\)</span>",
+          "md": "$\\pu{3,3 ppm}$\n",
+          "tex": "{\\(\\qty{3,3}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,4 ppm}\\)</span>",
+          "md": "$\\pu{4,4 ppm}$\n",
+          "tex": "{\\(\\qty{4,4}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6 ppm}\\)</span>",
+          "md": "$\\pu{6 ppm}$\n",
+          "tex": "{\\(\\qty{6}{\\unit{ppm}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,1 ppm}\\)</span>",
+          "md": "$\\pu{8,1 ppm}$\n",
+          "tex": "{\\(\\qty{8,1}{\\unit{ppm}}\\)}\n"
         }
       ],
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "correct_choice": 3
     },
     {
       "id_": "3E07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E07/3E07.md",
-      "date": "2023-03-11T18:50:31.651459",
+      "date": "2023-04-01T23:07:25.473863",
       "statement": {
-        "html": "<p>Considere os compostos iônicos.</p>\n<ol type=\"1\">\n<li>Fosfato de potássio, <span class=\"math inline\">\\(\\ce{K3PO4}\\)</span>.</li>\n<li>Cloreto de\nchumbo(II), <span class=\"math inline\">\\(\\ce{PbCl2}\\)</span>.</li>\n<li>Sulfeto de cádmio,\n<span class=\"math inline\">\\(\\ce{CdS}\\)</span>.</li>\n<li>Sulfato de bário,\n<span class=\"math inline\">\\(\\ce{BaSO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nsolúveis em água.</p>",
-        "md": "Considere os compostos iônicos.\n\n1.  Fosfato de potássio, $\\ce{K3PO4}$.\n2.  Cloreto de chumbo(II), $\\ce{PbCl2}$.\n3.  Sulfeto de cádmio, $\\ce{CdS}$.\n4.  Sulfato de bário, $\\ce{BaSO4}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis em água.\n",
-        "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Fosfato de potássio, {\\(\\ce{K3PO4}\\)}.\n\\item\n  Cloreto de chumbo(II), {\\(\\ce{PbCl2}\\)}.\n\\item\n  Sulfeto de cádmio, {\\(\\ce{CdS}\\)}.\n\\item\n  Sulfato de bário, {\\(\\ce{BaSO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis em água.\n"
+        "html": "<p>Considere os compostos iônicos.</p>\n<ol type=\"1\">\n<li>Fosfato de potássio, <span class=\"math inline\">\\(\\ce{K3PO4}\\)</span>.</li>\n<li>Cloreto de\nchumbo(II), <span class=\"math inline\">\\(\\ce{PbCl2}\\)</span>.</li>\n<li>Sulfeto de cádmio,\n<span class=\"math inline\">\\(\\ce{CdS}\\)</span>.</li>\n<li>Sulfato de bário,\n<span class=\"math inline\">\\(\\ce{BaSO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nsolúveis.</p>",
+        "md": "Considere os compostos iônicos.\n\n1.  Fosfato de potássio, $\\ce{K3PO4}$.\n2.  Cloreto de chumbo(II), $\\ce{PbCl2}$.\n3.  Sulfeto de cádmio, $\\ce{CdS}$.\n4.  Sulfato de bário, $\\ce{BaSO4}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis.\n",
+        "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Fosfato de potássio, {\\(\\ce{K3PO4}\\)}.\n\\item\n  Cloreto de chumbo(II), {\\(\\ce{PbCl2}\\)}.\n\\item\n  Sulfeto de cádmio, {\\(\\ce{CdS}\\)}.\n\\item\n  Sulfato de bário, {\\(\\ce{BaSO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis.\n"
       },
       "solution": null,
       "answer": null,
@@ -10732,13 +10924,34 @@
       "correct_choice": 3
     },
     {
+      "id_": "3E51",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E51/3E51.md",
+      "date": "2023-04-02T00:06:17.006924",
+      "statement": {
+        "html": "<p>O ácido cloroacético, utilizado como conservante em <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de uma bebida carbonatada,\nfoi extraído em éter dietílico e então retornado à solução aquosa pela\nextração com <span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{1 mol.L-1}\\)</span>. O cloroacetato reage com\no hidróxido de sódio liberando íons cloreto. Esse extrato aquoso foi\nacidificado e tratado com <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> de nitrato de prata <span class=\"math inline\">\\(\\pu{0,05\nmol.L-1}\\)</span>. Após a filtração do precipitado, a titulação do\nfiltrado requereu <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de uma\nsolução de tiocianato de amônio, <span class=\"math inline\">\\(\\ce{NH4SCN}\\)</span> <span class=\"math inline\">\\(\\pu{0,01 mol.L-1}\\)</span>.</p>\n<p>A titulação de um branco, submetido ao mesmo procedimento, empregou\n<span class=\"math inline\">\\(\\pu{20 mL}\\)</span> da mesma solução de\ntiocianato de amônio.</p>\n<ol type=\"a\">\n<li><strong>Apresente</strong> a equação iônica para as reações de\ntitulação.</li>\n<li><strong>Determine</strong> a massa de ácido cloroacético na\nsolução.</li>\n</ol>",
+        "md": "O ácido cloroacético, utilizado como conservante em $\\pu{100 mL}$ de uma\nbebida carbonatada, foi extraído em éter dietílico e então retornado à\nsolução aquosa pela extração com $\\ce{NaOH}$ $\\pu{1 mol.L-1}$. O\ncloroacetato reage com o hidróxido de sódio liberando íons cloreto. Esse\nextrato aquoso foi acidificado e tratado com $\\pu{50 mL}$ de nitrato de\nprata $\\pu{0,05 mol.L-1}$. Após a filtração do precipitado, a titulação\ndo filtrado requereu $\\pu{10 mL}$ de uma solução de tiocianato de\namônio, $\\ce{NH4SCN}$ $\\pu{0,01 mol.L-1}$.\n\nA titulação de um branco, submetido ao mesmo procedimento, empregou\n$\\pu{20 mL}$ da mesma solução de tiocianato de amônio.\n\na.  **Apresente** a equação iônica para as reações de titulação.\nb.  **Determine** a massa de ácido cloroacético na solução.\n",
+        "tex": "O ácido cloroacético, utilizado como conservante em {\\(\\qty{100}{\\unit{mL}}\\)} de uma bebida carbonatada, foi extraído em éter dietílico e então\nretornado à solução aquosa pela extração com {\\(\\ce{NaOH}\\)} {\\(\\qty{1}{\\unit{mol.L^{-1}}}\\)}. O cloroacetato reage com o hidróxido de sódio liberando\níons cloreto. Esse extrato aquoso foi acidificado e tratado com {\\(\\qty{50}{\\unit{mL}}\\)} de nitrato de prata {\\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\)}.\nApós a filtração do precipitado, a titulação do filtrado requereu {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução de tiocianato de amônio, {\\(\\ce{NH4SCN}\\)}\n{\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)}.\n\nA titulação de um branco, submetido ao mesmo procedimento, empregou {\\(\\qty{20}{\\unit{mL}}\\)} da mesma solução de tiocianato de amônio.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Apresente} a equação iônica para as reações de titulação.\n\\item\n  \\textbf{Determine} a massa de ácido cloroacético na solução.\n\\end{enumerate}\n"
+      },
+      "solution": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{118 mg}\\)</span></p>\n",
+          "md": "$\\pu{118 mg}$",
+          "tex": "\\(\\qty{118}{\\unit{mg}}\\)\n"
+        }
+      ],
+      "data": null,
+      "choices": null,
+      "correct_choice": null
+    },
+    {
       "id_": "3E08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E08/3E08.md",
-      "date": "2023-03-11T18:50:36.907434",
+      "date": "2023-04-01T23:07:29.601831",
       "statement": {
-        "html": "<p>Considere os compostos iônicos.</p>\n<ol type=\"1\">\n<li>Nitrato de cádmio, <span class=\"math inline\">\\(\\ce{Cd(NO3)2}\\)</span>.</li>\n<li>Acetato de cobre(II), <span class=\"math inline\">\\(\\ce{Cu(CH3CO2)2}\\)</span>.</li>\n<li>Hidróxido de\ncobalto(III), <span class=\"math inline\">\\(\\ce{Co(OH)3}\\)</span>.</li>\n<li>Brometo de prata,\n<span class=\"math inline\">\\(\\ce{AgBr}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nsolúveis em água.</p>",
-        "md": "Considere os compostos iônicos.\n\n1.  Nitrato de cádmio, $\\ce{Cd(NO3)2}$.\n2.  Acetato de cobre(II), $\\ce{Cu(CH3CO2)2}$.\n3.  Hidróxido de cobalto(III), $\\ce{Co(OH)3}$.\n4.  Brometo de prata, $\\ce{AgBr}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis em água.\n",
-        "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Nitrato de cádmio, {\\(\\ce{Cd(NO3)2}\\)}.\n\\item\n  Acetato de cobre(II), {\\(\\ce{Cu(CH3CO2)2}\\)}.\n\\item\n  Hidróxido de cobalto(III), {\\(\\ce{Co(OH)3}\\)}.\n\\item\n  Brometo de prata, {\\(\\ce{AgBr}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis em água.\n"
+        "html": "<p>Considere os compostos iônicos.</p>\n<ol type=\"1\">\n<li>Nitrato de cádmio, <span class=\"math inline\">\\(\\ce{Cd(NO3)2}\\)</span>.</li>\n<li>Acetato de cobre(II), <span class=\"math inline\">\\(\\ce{Cu(CH3CO2)2}\\)</span>.</li>\n<li>Hidróxido de\ncobalto(III), <span class=\"math inline\">\\(\\ce{Co(OH)3}\\)</span>.</li>\n<li>Brometo de prata,\n<span class=\"math inline\">\\(\\ce{AgBr}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nsolúveis.</p>",
+        "md": "Considere os compostos iônicos.\n\n1.  Nitrato de cádmio, $\\ce{Cd(NO3)2}$.\n2.  Acetato de cobre(II), $\\ce{Cu(CH3CO2)2}$.\n3.  Hidróxido de cobalto(III), $\\ce{Co(OH)3}$.\n4.  Brometo de prata, $\\ce{AgBr}$.\n\n**Assinale** a alternativa que relaciona os compostos solúveis.\n",
+        "tex": "Considere os compostos iônicos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Nitrato de cádmio, {\\(\\ce{Cd(NO3)2}\\)}.\n\\item\n  Acetato de cobre(II), {\\(\\ce{Cu(CH3CO2)2}\\)}.\n\\item\n  Hidróxido de cobalto(III), {\\(\\ce{Co(OH)3}\\)}.\n\\item\n  Brometo de prata, {\\(\\ce{AgBr}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos solúveis.\n"
       },
       "solution": null,
       "answer": null,
@@ -10801,11 +11014,11 @@
     {
       "id_": "3E06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E06/3E06.md",
-      "date": "2023-03-11T18:42:17.549325",
+      "date": "2023-04-01T22:40:31.201023",
       "statement": {
-        "html": "<p>Considere as substâncias.</p>\n<ol type=\"1\">\n<li>Glicose, <span class=\"math inline\">\\(\\ce{C6H12O6}\\)</span>.</li>\n<li>Cloreto de bário,\n<span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>.</li>\n<li>Fluoreto de\npotássio, <span class=\"math inline\">\\(\\ce{KF}\\)</span>.</li>\n<li>Ácido sulfúrico,\n<span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\nque são eletrólitos e conduzem eletricidade em solução aquosa.</p>",
-        "md": "Considere as substâncias.\n\n1.  Glicose, $\\ce{C6H12O6}$.\n2.  Cloreto de bário, $\\ce{BaCl2}$.\n3.  Fluoreto de potássio, $\\ce{KF}$.\n4.  Ácido sulfúrico, $\\ce{H2SO4}$.\n\n**Assinale** a alternativa que relaciona as substâncias que são\neletrólitos e conduzem eletricidade em solução aquosa.\n",
-        "tex": "Considere as substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Glicose, {\\(\\ce{C6H12O6}\\)}.\n\\item\n  Cloreto de bário, {\\(\\ce{BaCl2}\\)}.\n\\item\n  Fluoreto de potássio, {\\(\\ce{KF}\\)}.\n\\item\n  Ácido sulfúrico, {\\(\\ce{H2SO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias que são eletrólitos e conduzem eletricidade em solução aquosa.\n"
+        "html": "<p>Considere as substâncias.</p>\n<ol type=\"1\">\n<li>Glicose, <span class=\"math inline\">\\(\\ce{C6H12O6}\\)</span>.</li>\n<li>Cloreto de bário,\n<span class=\"math inline\">\\(\\ce{BaCl2}\\)</span>.</li>\n<li>Fluoreto de\npotássio, <span class=\"math inline\">\\(\\ce{KF}\\)</span>.</li>\n<li>Ácido sulfúrico,\n<span class=\"math inline\">\\(\\ce{H2SO4}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os eletrólitos\nque conduzem eletricidade em solução aquosa.</p>",
+        "md": "Considere as substâncias.\n\n1.  Glicose, $\\ce{C6H12O6}$.\n2.  Cloreto de bário, $\\ce{BaCl2}$.\n3.  Fluoreto de potássio, $\\ce{KF}$.\n4.  Ácido sulfúrico, $\\ce{H2SO4}$.\n\n**Assinale** a alternativa que relaciona os eletrólitos que conduzem\neletricidade em solução aquosa.\n",
+        "tex": "Considere as substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Glicose, {\\(\\ce{C6H12O6}\\)}.\n\\item\n  Cloreto de bário, {\\(\\ce{BaCl2}\\)}.\n\\item\n  Fluoreto de potássio, {\\(\\ce{KF}\\)}.\n\\item\n  Ácido sulfúrico, {\\(\\ce{H2SO4}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os eletrólitos que conduzem eletricidade em solução aquosa.\n"
       },
       "solution": null,
       "answer": null,
@@ -11024,11 +11237,11 @@
     {
       "id_": "3E05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3E/3E05/3E05.md",
-      "date": "2023-03-11T18:40:53.661515",
+      "date": "2023-04-01T22:40:38.436959",
       "statement": {
-        "html": "<p>Considere as substâncias.</p>\n<ol type=\"1\">\n<li>Hidróxido de sódio,\n<span class=\"math inline\">\\(\\ce{NaOH}\\)</span>.</li>\n<li>Bromo, <span class=\"math inline\">\\(\\ce{Br2}\\)</span>.</li>\n<li>Etanol, <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.</li>\n<li>Nitrato de chumbo,\n<span class=\"math inline\">\\(\\ce{Pb(NO3)2}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\nque são eletrólitos e conduzem eletricidade em solução aquosa.</p>",
-        "md": "Considere as substâncias.\n\n1.  Hidróxido de sódio, $\\ce{NaOH}$.\n2.  Bromo, $\\ce{Br2}$.\n3.  Etanol, $\\ce{CH3CH2OH}$.\n4.  Nitrato de chumbo, $\\ce{Pb(NO3)2}$.\n\n**Assinale** a alternativa que relaciona as substâncias que são\neletrólitos e conduzem eletricidade em solução aquosa.\n",
-        "tex": "Considere as substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Hidróxido de sódio, {\\(\\ce{NaOH}\\)}.\n\\item\n  Bromo, {\\(\\ce{Br2}\\)}.\n\\item\n  Etanol, {\\(\\ce{CH3CH2OH}\\)}.\n\\item\n  Nitrato de chumbo, {\\(\\ce{Pb(NO3)2}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias que são eletrólitos e conduzem eletricidade em solução aquosa.\n"
+        "html": "<p>Considere as substâncias.</p>\n<ol type=\"1\">\n<li>Hidróxido de sódio,\n<span class=\"math inline\">\\(\\ce{NaOH}\\)</span>.</li>\n<li>Bromo, <span class=\"math inline\">\\(\\ce{Br2}\\)</span>.</li>\n<li>Etanol, <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.</li>\n<li>Nitrato de chumbo,\n<span class=\"math inline\">\\(\\ce{Pb(NO3)2}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os eletrólitos\nque conduzem eletricidade em solução aquosa.</p>",
+        "md": "Considere as substâncias.\n\n1.  Hidróxido de sódio, $\\ce{NaOH}$.\n2.  Bromo, $\\ce{Br2}$.\n3.  Etanol, $\\ce{CH3CH2OH}$.\n4.  Nitrato de chumbo, $\\ce{Pb(NO3)2}$.\n\n**Assinale** a alternativa que relaciona os eletrólitos que conduzem\neletricidade em solução aquosa.\n",
+        "tex": "Considere as substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Hidróxido de sódio, {\\(\\ce{NaOH}\\)}.\n\\item\n  Bromo, {\\(\\ce{Br2}\\)}.\n\\item\n  Etanol, {\\(\\ce{CH3CH2OH}\\)}.\n\\item\n  Nitrato de chumbo, {\\(\\ce{Pb(NO3)2}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os eletrólitos que conduzem eletricidade em solução aquosa.\n"
       },
       "solution": null,
       "answer": null,
