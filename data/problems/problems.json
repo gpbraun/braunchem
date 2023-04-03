@@ -4861,7 +4861,7 @@
     {
       "id_": "1C19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C19/1C19.md",
-      "date": "2023-03-06T23:49:52.404452",
+      "date": "2023-04-03T15:57:08.524787",
       "statement": {
         "html": "<p>Considere os pares de elementos</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Ca}\\)</span> e <span class=\"math inline\">\\(\\ce{Mg}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Mg}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Si}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro elemento tem a <em>menor</em> primeira energia de\nionização.</p>",
         "md": "Considere os pares de elementos\n\n1.  $\\ce{Ca}$ e $\\ce{Mg}$\n2.  $\\ce{Mg}$ e $\\ce{Na}$\n3.  $\\ce{Al}$ e $\\ce{Na}$\n4.  $\\ce{Al}$ e $\\ce{Si}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nelemento tem a *menor* primeira energia de ionização.\n",
@@ -4872,9 +4872,19 @@
       "data": null,
       "choices": [
         {
-          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-          "md": "**1**, **2** e **3**\n",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
         },
         {
           "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
@@ -4885,19 +4895,9 @@
           "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
           "md": "**1**, **3** e **4**\n",
           "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**2**, **3** e **4**\n",
-          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 4
+      "correct_choice": 2
     },
     {
       "id_": "1C26",
@@ -4943,7 +4943,7 @@
     {
       "id_": "1C20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1C/1C20/1C20.md",
-      "date": "2023-03-13T18:46:46.319371",
+      "date": "2023-04-03T15:57:54.908650",
       "statement": {
         "html": "<p>Considere os pares de elementos</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Ca}\\)</span> e <span class=\"math inline\">\\(\\ce{Mg}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Mg}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Na}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Al}\\)</span> e <span class=\"math inline\">\\(\\ce{Si}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro elemento tem a <em>menor</em> segunda energia de\nionização.</p>",
         "md": "Considere os pares de elementos\n\n1.  $\\ce{Ca}$ e $\\ce{Mg}$\n2.  $\\ce{Mg}$ e $\\ce{Na}$\n3.  $\\ce{Al}$ e $\\ce{Na}$\n4.  $\\ce{Al}$ e $\\ce{Si}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nelemento tem a *menor* segunda energia de ionização.\n",
