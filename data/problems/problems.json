@@ -1370,7 +1370,7 @@
     {
       "id_": "1E23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E23/1E23.md",
-      "date": "2023-04-11T01:47:31.540623",
+      "date": "2023-04-11T15:34:53.000557",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do metanol.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
@@ -1380,14 +1380,6 @@
       "answer": null,
       "data": {
         "quantities": [
-          {
-            "id_": "$\\Delta H^\\circ_\\mathrm{sub}(\\ce{grafita}) = \\pu{+716 kJ//mol}$",
-            "name": "$\\Delta H^\\circ_\\mathrm{sub}(\\ce{grafita}) = \\pu{+716 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
           {
             "id_": "HL(C-H)",
             "name": "entalpia de ligação do \\ce{C-H}",
@@ -1427,6 +1419,14 @@
             "value": 496,
             "unit": "kJ//mol",
             "prec": 3
+          },
+          {
+            "id_": "Hsub(grafita)",
+            "name": "entalpia padrão de sublimação do \\ce{grafita}",
+            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{grafita})",
+            "value": 716,
+            "unit": "kJ//mol",
+            "prec": 3
           }
         ]
       },
@@ -1462,7 +1462,7 @@
     {
       "id_": "1E18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E18/1E18.md",
-      "date": "2023-04-11T01:39:35.476768",
+      "date": "2023-04-11T15:38:10.646267",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do cloreto de cálcio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\ncloreto de cálcio.\n",
@@ -1472,38 +1472,6 @@
       "answer": null,
       "data": {
         "quantities": [
-          {
-            "id_": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
-            "name": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$I_1(\\ce{Ca}) = \\pu{590 kJ//mol}$",
-            "name": "$I_1(\\ce{Ca}) = \\pu{590 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$I_2(\\ce{Ca}) = \\pu{1146 kJ//mol}$",
-            "name": "$I_2(\\ce{Ca}) = \\pu{1146 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{sub}(\\ce{Ca}) = \\pu{190 kJ//mol}$",
-            "name": "$\\Delta H_\\text{sub}(\\ce{Ca}) = \\pu{190 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
           {
             "id_": "HL(Cl2)",
             "name": "entalpia de ligação do \\ce{Cl2}",
@@ -1517,6 +1485,38 @@
             "name": "entalpia padrão de formação do cloreto de cálcio",
             "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CaCl2,\\,\\text{s}})",
             "value": -796,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hge(Cl)",
+            "name": "entalpia padrão de ganho de elétron do \\ce{Cl}",
+            "symbol": "\\Delta H_\\mathrm{ge}^{\\circ}(\\ce{Cl})",
+            "value": -349,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hion(Ca^+)",
+            "name": "entalpia padrão de ionização do \\ce{Ca^+}",
+            "symbol": "\\Delta H_\\mathrm{ion}^{\\circ}(\\ce{Ca^+})",
+            "value": 1150,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hion(Ca)",
+            "name": "entalpia padrão de ionização do \\ce{Ca}",
+            "symbol": "\\Delta H_\\mathrm{ion}^{\\circ}(\\ce{Ca})",
+            "value": 590,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hsub(Ca)",
+            "name": "entalpia padrão de sublimação do \\ce{Ca}",
+            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{Ca})",
+            "value": 190,
             "unit": "kJ//mol",
             "prec": 3
           }
@@ -1554,7 +1554,7 @@
     {
       "id_": "1E20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E20/1E20.md",
-      "date": "2023-04-11T01:40:55.977260",
+      "date": "2023-04-11T15:36:04.221176",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nsegunda afinidade eletrônica do enxofre.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
@@ -1565,43 +1565,11 @@
       "data": {
         "quantities": [
           {
-            "id_": "$E_\\mathrm{ae1}(\\ce{S}) = \\pu{2,1 eV}$",
-            "name": "$E_\\mathrm{ae1}(\\ce{S}) = \\pu{2,1 eV}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$I(\\ce{K}) = \\pu{4,4 eV}$",
-            "name": "$I(\\ce{K}) = \\pu{4,4 eV}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{rede}(\\ce{K2S}) = \\pu{2052 kJ//mol}$",
-            "name": "$\\Delta H_\\text{rede}(\\ce{K2S}) = \\pu{2052 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
-            "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{sub}(\\ce{S}) = \\pu{277 kJ//mol}$",
-            "name": "$\\Delta H_\\text{sub}(\\ce{S}) = \\pu{277 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
+            "id_": "Hrede(K2S)",
+            "name": "entalpia de rede do \\ce{K2S}",
+            "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}(\\ce{K2S})",
+            "value": 2050,
+            "unit": "kJ//mol",
             "prec": 3
           },
           {
@@ -1611,6 +1579,38 @@
             "value": -381,
             "unit": "kJ//mol",
             "prec": 3
+          },
+          {
+            "id_": "Hsub(K)",
+            "name": "entalpia padrão de sublimação do \\ce{K}",
+            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{K})",
+            "value": 90,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hsub(S)",
+            "name": "entalpia padrão de sublimação do \\ce{S}",
+            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{S})",
+            "value": 277,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "AE1(S)",
+            "name": "primeira afinidade eletrônica do \\ce{S}",
+            "symbol": "E_\\mathrm{ae1}(\\ce{S})",
+            "value": 2,
+            "unit": "eV",
+            "prec": 2
+          },
+          {
+            "id_": "I1(K)",
+            "name": "primeira energia de ionização do \\ce{K}",
+            "symbol": "I_1(\\ce{K})",
+            "value": 4,
+            "unit": "eV",
+            "prec": 2
           }
         ]
       },
@@ -2017,7 +2017,7 @@
     {
       "id_": "1E19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E19/1E19.md",
-      "date": "2023-04-11T01:40:20.839373",
+      "date": "2023-04-11T15:37:03.985693",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de sublimação do lítio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do lítio.\n",
@@ -2028,42 +2028,42 @@
       "data": {
         "quantities": [
           {
-            "id_": "$E_\\mathrm{ae}(\\ce{I}) = \\pu{-295 kJ//mol}$",
-            "name": "$E_\\mathrm{ae}(\\ce{I}) = \\pu{-295 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$I(\\ce{Li}) = \\pu{520 kJ//mol}$",
-            "name": "$I(\\ce{Li}) = \\pu{520 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{f}(\\ce{LiI}) = \\pu{-292 kJ//mol}$",
-            "name": "$\\Delta H_\\text{f}(\\ce{LiI}) = \\pu{-292 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{rede}(\\ce{LiI}) = \\pu{-753 kJ//mol}$",
-            "name": "$\\Delta H_\\text{rede}(\\ce{LiI}) = \\pu{-753 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
             "id_": "HL(I2)",
             "name": "entalpia de ligação do \\ce{I2}",
             "symbol": "\\Delta H_\\mathrm{L}(\\ce{I2})",
             "value": 151,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hrede(LiI)",
+            "name": "entalpia de rede do \\ce{LiI}",
+            "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}(\\ce{LiI})",
+            "value": 753,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(LiI,s)",
+            "name": "entalpia padrão de formação do \\ce{LiI,s}",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{LiI,s})",
+            "value": -292,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hge(I)",
+            "name": "entalpia padrão de ganho de elétron do \\ce{I}",
+            "symbol": "\\Delta H_\\mathrm{ge}^{\\circ}(\\ce{I})",
+            "value": -295,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hion(Li)",
+            "name": "entalpia padrão de ionização do \\ce{Li}",
+            "symbol": "\\Delta H_\\mathrm{ion}^{\\circ}(\\ce{Li})",
+            "value": 520,
             "unit": "kJ//mol",
             "prec": 3
           }
@@ -2630,7 +2630,7 @@
     {
       "id_": "1E17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E17/1E17.md",
-      "date": "2023-04-11T01:48:35.630373",
+      "date": "2023-04-11T15:32:24.991253",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do cloreto de potássio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo cloreto de potássio.\n",
@@ -2641,42 +2641,42 @@
       "data": {
         "quantities": [
           {
-            "id_": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
-            "name": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$I(\\ce{K}) = \\pu{419 kJ//mol}$",
-            "name": "$I(\\ce{K}) = \\pu{419 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{rede}(\\ce{KCl}) = \\pu{-690 kJ//mol}$",
-            "name": "$\\Delta H_\\text{rede}(\\ce{KCl}) = \\pu{-690 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
-            "id_": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
-            "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
-          },
-          {
             "id_": "HL(Cl2)",
             "name": "entalpia de ligação do \\ce{Cl2}",
             "symbol": "\\Delta H_\\mathrm{L}(\\ce{Cl2})",
             "value": 242,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hrede(KCl)",
+            "name": "entalpia de rede do \\ce{KCl}",
+            "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}(\\ce{KCl})",
+            "value": -690,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hge(Cl)",
+            "name": "entalpia padrão de ganho de elétron do \\ce{Cl}",
+            "symbol": "\\Delta H_\\mathrm{ge}^{\\circ}(\\ce{Cl})",
+            "value": -349,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hion(K)",
+            "name": "entalpia padrão de ionização do \\ce{K}",
+            "symbol": "\\Delta H_\\mathrm{ion}^{\\circ}(\\ce{K})",
+            "value": 419,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hsub(K)",
+            "name": "entalpia padrão de sublimação do \\ce{K}",
+            "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}(\\ce{K})",
+            "value": 90,
             "unit": "kJ//mol",
             "prec": 3
           }

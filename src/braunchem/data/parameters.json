@@ -99,9 +99,23 @@
             "prec": 3
         },
         {
-            "id_": "Hvap",
+            "id_": "Hsub",
             "name": "entalpia padrão de sublimação",
             "symbol": "\\Delta H_\\mathrm{sub}^{\\circ}",
+            "unit": "kJ//mol",
+            "prec": 3
+        },
+        {
+            "id_": "Hion",
+            "name": "entalpia padrão de ionização",
+            "symbol": "\\Delta H_\\mathrm{ion}^{\\circ}",
+            "unit": "kJ//mol",
+            "prec": 3
+        },
+        {
+            "id_": "Hge",
+            "name": "entalpia padrão de ganho de elétron",
+            "symbol": "\\Delta H_\\mathrm{ge}^{\\circ}",
             "unit": "kJ//mol",
             "prec": 3
         },
@@ -111,6 +125,34 @@
             "symbol": "\\Delta H_\\mathrm{rede}^{\\circ}",
             "unit": "kJ//mol",
             "prec": 3
+        },
+        {
+            "id_": "I1",
+            "name": "primeira energia de ionização",
+            "symbol": "I_1",
+            "unit": "eV",
+            "prec": 2
+        },
+        {
+            "id_": "I2",
+            "name": "segunda energia de ionização",
+            "symbol": "I_2",
+            "unit": "eV",
+            "prec": 2
+        },
+        {
+            "id_": "AE1",
+            "name": "primeira afinidade eletrônica",
+            "symbol": "E_\\mathrm{ae1}",
+            "unit": "eV",
+            "prec": 2
+        },
+        {
+            "id_": "AE2",
+            "name": "segunda afinidade eletrônica",
+            "symbol": "E_\\mathrm{ae2}",
+            "unit": "eV",
+            "prec": 2
         },
         {
             "id_": "Tc",
