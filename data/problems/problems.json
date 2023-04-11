@@ -1368,6 +1368,1350 @@
       "correct_choice": null
     },
     {
+      "id_": "1E23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E23/1E23.md",
+      "date": "2023-04-11T01:47:31.540623",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do metanol.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do metanol.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "$\\Delta H^\\circ_\\mathrm{sub}(\\ce{grafita}) = \\pu{+716 kJ//mol}$",
+            "name": "$\\Delta H^\\circ_\\mathrm{sub}(\\ce{grafita}) = \\pu{+716 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "HL(C-H)",
+            "name": "entalpia de ligação do \\ce{C-H}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-H})",
+            "value": 412,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(C-O)",
+            "name": "entalpia de ligação do \\ce{C-O}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-O})",
+            "value": 360,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(H2)",
+            "name": "entalpia de ligação do \\ce{H2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{H2})",
+            "value": 436,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(O-H)",
+            "name": "entalpia de ligação do \\ce{O-H}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{O-H})",
+            "value": 463,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(O2)",
+            "name": "entalpia de ligação do \\ce{O2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{O2})",
+            "value": 496,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-73 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-73 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-73}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-120 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-120 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-120}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-200 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-200 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-200}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-330 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-330 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-330}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-550 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-550 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-550}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1E18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E18/1E18.md",
+      "date": "2023-04-11T01:39:35.476768",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do cloreto de cálcio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\ncloreto de cálcio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede do cloreto de cálcio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
+            "name": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$I_1(\\ce{Ca}) = \\pu{590 kJ//mol}$",
+            "name": "$I_1(\\ce{Ca}) = \\pu{590 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$I_2(\\ce{Ca}) = \\pu{1146 kJ//mol}$",
+            "name": "$I_2(\\ce{Ca}) = \\pu{1146 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{sub}(\\ce{Ca}) = \\pu{190 kJ//mol}$",
+            "name": "$\\Delta H_\\text{sub}(\\ce{Ca}) = \\pu{190 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "HL(Cl2)",
+            "name": "entalpia de ligação do \\ce{Cl2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{Cl2})",
+            "value": 242,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "Hf(CaCl2,s)",
+            "name": "entalpia padrão de formação do cloreto de cálcio",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{CaCl2,\\,\\text{s}})",
+            "value": -796,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-350 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-350 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-350}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-660 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-660 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-660}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-1200 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1200 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1200}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-2300 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2300 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2300}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-4300 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-4300 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-4300}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1E20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E20/1E20.md",
+      "date": "2023-04-11T01:40:55.977260",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nsegunda afinidade eletrônica do enxofre.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da segunda afinidade eletrônica do enxofre.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "$E_\\mathrm{ae1}(\\ce{S}) = \\pu{2,1 eV}$",
+            "name": "$E_\\mathrm{ae1}(\\ce{S}) = \\pu{2,1 eV}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$I(\\ce{K}) = \\pu{4,4 eV}$",
+            "name": "$I(\\ce{K}) = \\pu{4,4 eV}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{rede}(\\ce{K2S}) = \\pu{2052 kJ//mol}$",
+            "name": "$\\Delta H_\\text{rede}(\\ce{K2S}) = \\pu{2052 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
+            "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{sub}(\\ce{S}) = \\pu{277 kJ//mol}$",
+            "name": "$\\Delta H_\\text{sub}(\\ce{S}) = \\pu{277 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "Hf(K2S,s)",
+            "name": "entalpia padrão de formação do sulfeto de potássio",
+            "symbol": "\\Delta H_\\mathrm{f}^{\\circ}(\\ce{K2S,\\,\\text{s}})",
+            "value": -381,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8 eV}\\)</span>",
+          "md": "$\\pu{1,8 eV}$\n",
+          "tex": "{\\(\\qty{1,8}{\\unit{eV}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,4 eV}\\)</span>",
+          "md": "$\\pu{2,4 eV}$\n",
+          "tex": "{\\(\\qty{2,4}{\\unit{eV}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,3 eV}\\)</span>",
+          "md": "$\\pu{3,3 eV}$\n",
+          "tex": "{\\(\\qty{3,3}{\\unit{eV}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,4 eV}\\)</span>",
+          "md": "$\\pu{4,4 eV}$\n",
+          "tex": "{\\(\\qty{4,4}{\\unit{eV}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0 eV}\\)</span>",
+          "md": "$\\pu{6,0 eV}$\n",
+          "tex": "{\\(\\qty{6,0}{\\unit{eV}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1E16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E16/1E16.md",
+      "date": "2023-04-11T01:32:25.969194",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>, <span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>, <span class=\"math inline\">\\(\\ce{HCN}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de energia de ligação <span class=\"math inline\">\\(\\ce{CN}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{NHCH2}$, $\\ce{NH2CH3}$, $\\ce{HCN}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de energia de ligação $\\ce{CN}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{NHCH2}\\)}, {\\(\\ce{NH2CH3}\\)}, {\\(\\ce{HCN}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de energia de ligação {\\(\\ce{CN}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{HCN}\\)</span>; <span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>; <span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>.",
+          "md": "$\\ce{HCN}$; $\\ce{NHCH2}$; $\\ce{NH2CH3}$.\n",
+          "tex": "{\\(\\ce{HCN}\\)}; {\\(\\ce{NHCH2}\\)}; {\\(\\ce{NH2CH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>.",
+          "md": "$\\ce{NH2CH3}$; $\\ce{NHCH2}$; $\\ce{HCN}$.\n",
+          "tex": "{\\(\\ce{NH2CH3}\\)}; {\\(\\ce{NHCH2}\\)}; {\\(\\ce{HCN}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>; <span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>.",
+          "md": "$\\ce{NH2CH3}$; $\\ce{HCN}$; $\\ce{NHCH2}$.\n",
+          "tex": "{\\(\\ce{NH2CH3}\\)}; {\\(\\ce{HCN}\\)}; {\\(\\ce{NHCH2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{HCN}\\)</span>; <span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>.",
+          "md": "$\\ce{HCN}$; $\\ce{NH2CH3}$; $\\ce{NHCH2}$.\n",
+          "tex": "{\\(\\ce{HCN}\\)}; {\\(\\ce{NH2CH3}\\)}; {\\(\\ce{NHCH2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>; <span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>.",
+          "md": "$\\ce{NHCH2}$; $\\ce{NH2CH3}$; $\\ce{HCN}$.\n",
+          "tex": "{\\(\\ce{NHCH2}\\)}; {\\(\\ce{NH2CH3}\\)}; {\\(\\ce{HCN}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1E07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E07/1E07.md",
+      "date": "2023-04-11T01:55:34.106939",
+      "statement": {
+        "html": "<p>Considere os ânions: <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Br^-}\\)</span>, <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>, <span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ânions em\nordem <em>crescente</em> de polarizabilidade.</p>",
+        "md": "Considere os ânions: $\\ce{Cl^-}$, $\\ce{Br^-}$, $\\ce{N^{3-}}$,\n$\\ce{O^{2-}}$.\n\n**Assinale** a alternativa que relaciona os ânions em ordem *crescente*\nde polarizabilidade.\n",
+        "tex": "Considere os ânions: {\\(\\ce{Cl^-}\\)}, {\\(\\ce{Br^-}\\)}, {\\(\\ce{N^{3-}}\\)}, {\\(\\ce{O^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ânions em ordem \\emph{crescente} de polarizabilidade.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Br^-}\\)</span>.",
+          "md": "$\\ce{O^{2-}}$; $\\ce{N^{3-}}$; $\\ce{Cl^-}$; $\\ce{Br^-}$.\n",
+          "tex": "{\\(\\ce{O^{2-}}\\)}; {\\(\\ce{N^{3-}}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{Br^-}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Br^-}\\)</span>; <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>.",
+          "md": "$\\ce{Br^-}$; $\\ce{N^{3-}}$; $\\ce{O^{2-}}$; $\\ce{Cl^-}$.\n",
+          "tex": "{\\(\\ce{Br^-}\\)}; {\\(\\ce{N^{3-}}\\)}; {\\(\\ce{O^{2-}}\\)}; {\\(\\ce{Cl^-}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Br^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>.",
+          "md": "$\\ce{O^{2-}}$; $\\ce{N^{3-}}$; $\\ce{Br^-}$; $\\ce{Cl^-}$.\n",
+          "tex": "{\\(\\ce{O^{2-}}\\)}; {\\(\\ce{N^{3-}}\\)}; {\\(\\ce{Br^-}\\)}; {\\(\\ce{Cl^-}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Br^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>.",
+          "md": "$\\ce{Br^-}$; $\\ce{Cl^-}$; $\\ce{O^{2-}}$; $\\ce{N^{3-}}$.\n",
+          "tex": "{\\(\\ce{Br^-}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{O^{2-}}\\)}; {\\(\\ce{N^{3-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Br^-}\\)</span>; <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>.",
+          "md": "$\\ce{O^{2-}}$; $\\ce{Cl^-}$; $\\ce{Br^-}$; $\\ce{N^{3-}}$.\n",
+          "tex": "{\\(\\ce{O^{2-}}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{Br^-}\\)}; {\\(\\ce{N^{3-}}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1E15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E15/1E15.md",
+      "date": "2023-04-11T01:29:41.555479",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CF4}\\)</span>, <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>, <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de energia de ligação.</p>",
+        "md": "Considere as moléculas: $\\ce{CF4}$, $\\ce{CCl4}$, $\\ce{CBr4}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de energia de ligação.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{CF4}\\)}, {\\(\\ce{CCl4}\\)}, {\\(\\ce{CBr4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de energia de ligação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CF4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.",
+          "md": "$\\ce{CCl4}$; $\\ce{CF4}$; $\\ce{CBr4}$.\n",
+          "tex": "{\\(\\ce{CCl4}\\)}; {\\(\\ce{CF4}\\)}; {\\(\\ce{CBr4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>; <span class=\"math inline\">\\(\\ce{CF4}\\)</span>.",
+          "md": "$\\ce{CCl4}$; $\\ce{CBr4}$; $\\ce{CF4}$.\n",
+          "tex": "{\\(\\ce{CCl4}\\)}; {\\(\\ce{CBr4}\\)}; {\\(\\ce{CF4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CF4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.",
+          "md": "$\\ce{CF4}$; $\\ce{CCl4}$; $\\ce{CBr4}$.\n",
+          "tex": "{\\(\\ce{CF4}\\)}; {\\(\\ce{CCl4}\\)}; {\\(\\ce{CBr4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CBr4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CF4}\\)</span>.",
+          "md": "$\\ce{CBr4}$; $\\ce{CCl4}$; $\\ce{CF4}$.\n",
+          "tex": "{\\(\\ce{CBr4}\\)}; {\\(\\ce{CCl4}\\)}; {\\(\\ce{CF4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CF4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>.",
+          "md": "$\\ce{CF4}$; $\\ce{CBr4}$; $\\ce{CCl4}$.\n",
+          "tex": "{\\(\\ce{CF4}\\)}; {\\(\\ce{CBr4}\\)}; {\\(\\ce{CCl4}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1E24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E24/1E24.md",
+      "date": "2023-04-11T01:34:47.598527",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da razão\nentre a energia liberada por átomo de hidrogênio na combustão completa\ndo octano gasoso e na célula de combustível de hidrogênio e\noxigênio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da razão entre a energia\nliberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da razão entre a energia liberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "HL(C-C)",
+            "name": "entalpia de ligação do \\ce{C-C}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-C})",
+            "value": 348,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(C-H)",
+            "name": "entalpia de ligação do \\ce{C-H}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-H})",
+            "value": 412,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(C=O)",
+            "name": "entalpia de ligação do \\ce{C=O}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C=O})",
+            "value": 743,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(H2)",
+            "name": "entalpia de ligação do \\ce{H2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{H2})",
+            "value": 436,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(O2)",
+            "name": "entalpia de ligação do \\ce{O2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{O2})",
+            "value": 496,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,93}\\)</span>",
+          "md": "$\\pu{0,93}$\n",
+          "tex": "{\\(\\num{0,93}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2}\\)</span>",
+          "md": "$\\pu{1,2}$\n",
+          "tex": "{\\(\\num{1,2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5}\\)</span>",
+          "md": "$\\pu{1,5}$\n",
+          "tex": "{\\(\\num{1,5}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0}\\)</span>",
+          "md": "$\\pu{2,0}$\n",
+          "tex": "{\\(\\num{2,0}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5}\\)</span>",
+          "md": "$\\pu{2,5}$\n",
+          "tex": "{\\(\\num{2,5}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1E11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E11/1E11.md",
+      "date": "2023-04-11T01:17:49.670112",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{HCN}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CN}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{HCN}$, $\\ce{CH2NH}$, $\\ce{CH3NH2}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CN}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{HCN}\\)}, {\\(\\ce{CH2NH}\\)}, {\\(\\ce{CH3NH2}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CN}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.",
+          "md": "$\\ce{CH2NH}$; $\\ce{HCN}$; $\\ce{CH3NH2}$.\n",
+          "tex": "{\\(\\ce{CH2NH}\\)}; {\\(\\ce{HCN}\\)}; {\\(\\ce{CH3NH2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>.",
+          "md": "$\\ce{CH3NH2}$; $\\ce{HCN}$; $\\ce{CH2NH}$.\n",
+          "tex": "{\\(\\ce{CH3NH2}\\)}; {\\(\\ce{HCN}\\)}; {\\(\\ce{CH2NH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>.",
+          "md": "$\\ce{CH3NH2}$; $\\ce{CH2NH}$; $\\ce{HCN}$.\n",
+          "tex": "{\\(\\ce{CH3NH2}\\)}; {\\(\\ce{CH2NH}\\)}; {\\(\\ce{HCN}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{HCN}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>.",
+          "md": "$\\ce{HCN}$; $\\ce{CH3NH2}$; $\\ce{CH2NH}$.\n",
+          "tex": "{\\(\\ce{HCN}\\)}; {\\(\\ce{CH3NH2}\\)}; {\\(\\ce{CH2NH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>; <span class=\"math inline\">\\(\\ce{HCN}\\)</span>.",
+          "md": "$\\ce{CH2NH}$; $\\ce{CH3NH2}$; $\\ce{HCN}$.\n",
+          "tex": "{\\(\\ce{CH2NH}\\)}; {\\(\\ce{CH3NH2}\\)}; {\\(\\ce{HCN}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1E05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E05/1E05.md",
+      "date": "2023-04-11T01:03:48.333651",
+      "statement": {
+        "html": "<p>Considere os cátions: <span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>,\n<span class=\"math inline\">\\(\\ce{K^+}\\)</span>, <span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>, <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os cátions em\nordem <em>crescente</em> de capacidade de polarização.</p>",
+        "md": "Considere os cátions: $\\ce{Rb^+}$, $\\ce{K^+}$, $\\ce{Be^{2+}}$,\n$\\ce{Sr^{2+}}$.\n\n**Assinale** a alternativa que relaciona os cátions em ordem *crescente*\nde capacidade de polarização.\n",
+        "tex": "Considere os cátions: {\\(\\ce{Rb^+}\\)}, {\\(\\ce{K^+}\\)}, {\\(\\ce{Be^{2+}}\\)}, {\\(\\ce{Sr^{2+}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os cátions em ordem \\emph{crescente} de capacidade de polarização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>.",
+          "md": "$\\ce{K^+}$; $\\ce{Be^{2+}}$; $\\ce{Sr^{2+}}$; $\\ce{Rb^+}$.\n",
+          "tex": "{\\(\\ce{K^+}\\)}; {\\(\\ce{Be^{2+}}\\)}; {\\(\\ce{Sr^{2+}}\\)}; {\\(\\ce{Rb^+}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>.",
+          "md": "$\\ce{Rb^+}$; $\\ce{K^+}$; $\\ce{Sr^{2+}}$; $\\ce{Be^{2+}}$.\n",
+          "tex": "{\\(\\ce{Rb^+}\\)}; {\\(\\ce{K^+}\\)}; {\\(\\ce{Sr^{2+}}\\)}; {\\(\\ce{Be^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>.",
+          "md": "$\\ce{K^+}$; $\\ce{Be^{2+}}$; $\\ce{Rb^+}$; $\\ce{Sr^{2+}}$.\n",
+          "tex": "{\\(\\ce{K^+}\\)}; {\\(\\ce{Be^{2+}}\\)}; {\\(\\ce{Rb^+}\\)}; {\\(\\ce{Sr^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>.",
+          "md": "$\\ce{Rb^+}$; $\\ce{Be^{2+}}$; $\\ce{K^+}$; $\\ce{Sr^{2+}}$.\n",
+          "tex": "{\\(\\ce{Rb^+}\\)}; {\\(\\ce{Be^{2+}}\\)}; {\\(\\ce{K^+}\\)}; {\\(\\ce{Sr^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>.",
+          "md": "$\\ce{Be^{2+}}$; $\\ce{Sr^{2+}}$; $\\ce{K^+}$; $\\ce{Rb^+}$.\n",
+          "tex": "{\\(\\ce{Be^{2+}}\\)}; {\\(\\ce{Sr^{2+}}\\)}; {\\(\\ce{K^+}\\)}; {\\(\\ce{Rb^+}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1E09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E09/1E09.md",
+      "date": "2023-04-11T01:13:07.700462",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CO}\\)</span>,\n<span class=\"math inline\">\\(\\ce{CO2}\\)</span>, <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CO}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{CO}$, $\\ce{CO2}$, $\\ce{CO3^{2-}}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CO}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{CO}\\)}, {\\(\\ce{CO2}\\)}, {\\(\\ce{CO3^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CO}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{CO2}\\)</span>.",
+          "md": "$\\ce{CO}$; $\\ce{CO3^{2-}}$; $\\ce{CO2}$.\n",
+          "tex": "{\\(\\ce{CO}\\)}; {\\(\\ce{CO3^{2-}}\\)}; {\\(\\ce{CO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>.",
+          "md": "$\\ce{CO}$; $\\ce{CO2}$; $\\ce{CO3^{2-}}$.\n",
+          "tex": "{\\(\\ce{CO}\\)}; {\\(\\ce{CO2}\\)}; {\\(\\ce{CO3^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>.",
+          "md": "$\\ce{CO2}$; $\\ce{CO}$; $\\ce{CO3^{2-}}$.\n",
+          "tex": "{\\(\\ce{CO2}\\)}; {\\(\\ce{CO}\\)}; {\\(\\ce{CO3^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{CO}\\)</span>.",
+          "md": "$\\ce{CO2}$; $\\ce{CO3^{2-}}$; $\\ce{CO}$.\n",
+          "tex": "{\\(\\ce{CO2}\\)}; {\\(\\ce{CO3^{2-}}\\)}; {\\(\\ce{CO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{CO}\\)</span>.",
+          "md": "$\\ce{CO3^{2-}}$; $\\ce{CO2}$; $\\ce{CO}$.\n",
+          "tex": "{\\(\\ce{CO3^{2-}}\\)}; {\\(\\ce{CO2}\\)}; {\\(\\ce{CO}\\)}.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1E04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E04/1E04.md",
+      "date": "2023-04-11T00:58:07.118851",
+      "statement": {
+        "html": "<p>Considere os pares de compostos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl}\\)</span> e <span class=\"math inline\">\\(\\ce{HI}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH4}\\)</span> e <span class=\"math inline\">\\(\\ce{CF4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{PH3}\\)</span> e <span class=\"math inline\">\\(\\ce{NH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem o <em>maior</em> caráter iônico.</p>",
+        "md": "Considere os pares de compostos:\n\n1.  $\\ce{HCl}$ e $\\ce{HI}$\n2.  $\\ce{CH4}$ e $\\ce{CF4}$\n3.  $\\ce{PH3}$ e $\\ce{NH3}$\n4.  $\\ce{SO2}$ e $\\ce{NO2}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem o *maior* caráter iônico.\n",
+        "tex": "Considere os pares de compostos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl}\\)} e {\\(\\ce{HI}\\)}\n\\item\n  {\\(\\ce{CH4}\\)} e {\\(\\ce{CF4}\\)}\n\\item\n  {\\(\\ce{PH3}\\)} e {\\(\\ce{NH3}\\)}\n\\item\n  {\\(\\ce{SO2}\\)} e {\\(\\ce{NO2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem o \\emph{maior} caráter iônico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>4</strong>",
+          "md": "**4**\n",
+          "tex": "\\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1E19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E19/1E19.md",
+      "date": "2023-04-11T01:40:20.839373",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de sublimação do lítio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do lítio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de sublimação do lítio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "$E_\\mathrm{ae}(\\ce{I}) = \\pu{-295 kJ//mol}$",
+            "name": "$E_\\mathrm{ae}(\\ce{I}) = \\pu{-295 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$I(\\ce{Li}) = \\pu{520 kJ//mol}$",
+            "name": "$I(\\ce{Li}) = \\pu{520 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{f}(\\ce{LiI}) = \\pu{-292 kJ//mol}$",
+            "name": "$\\Delta H_\\text{f}(\\ce{LiI}) = \\pu{-292 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{rede}(\\ce{LiI}) = \\pu{-753 kJ//mol}$",
+            "name": "$\\Delta H_\\text{rede}(\\ce{LiI}) = \\pu{-753 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "HL(I2)",
+            "name": "entalpia de ligação do \\ce{I2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{I2})",
+            "value": 151,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{98 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{98 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{98}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{160 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{160 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{160}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{260 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{260 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{260}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{430 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{430 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{430}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{710 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{710 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{710}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1E13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E13/1E13.md",
+      "date": "2023-04-11T01:21:11.224794",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>, <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>, <span class=\"math inline\">\\(\\ce{C2H6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CC}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{C2H2}$, $\\ce{C2H4}$, $\\ce{C2H6}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CC}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{C2H2}\\)}, {\\(\\ce{C2H4}\\)}, {\\(\\ce{C2H6}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CC}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H6}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>.",
+          "md": "$\\ce{C2H6}$; $\\ce{C2H4}$; $\\ce{C2H2}$.\n",
+          "tex": "{\\(\\ce{C2H6}\\)}; {\\(\\ce{C2H4}\\)}; {\\(\\ce{C2H2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H6}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>.",
+          "md": "$\\ce{C2H4}$; $\\ce{C2H6}$; $\\ce{C2H2}$.\n",
+          "tex": "{\\(\\ce{C2H4}\\)}; {\\(\\ce{C2H6}\\)}; {\\(\\ce{C2H2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H6}\\)</span>.",
+          "md": "$\\ce{C2H4}$; $\\ce{C2H2}$; $\\ce{C2H6}$.\n",
+          "tex": "{\\(\\ce{C2H4}\\)}; {\\(\\ce{C2H2}\\)}; {\\(\\ce{C2H6}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H6}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>.",
+          "md": "$\\ce{C2H6}$; $\\ce{C2H2}$; $\\ce{C2H4}$.\n",
+          "tex": "{\\(\\ce{C2H6}\\)}; {\\(\\ce{C2H2}\\)}; {\\(\\ce{C2H4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C2H2}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>; <span class=\"math inline\">\\(\\ce{C2H6}\\)</span>.",
+          "md": "$\\ce{C2H2}$; $\\ce{C2H4}$; $\\ce{C2H6}$.\n",
+          "tex": "{\\(\\ce{C2H2}\\)}; {\\(\\ce{C2H4}\\)}; {\\(\\ce{C2H6}\\)}.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1E10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E10/1E10.md",
+      "date": "2023-04-11T01:17:02.143580",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SO3}\\)</span>, <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{SO}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{SO3}$, $\\ce{SO3^{2-}}$, $\\ce{SO4^{2-}}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{SO}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{SO3}\\)}, {\\(\\ce{SO3^{2-}}\\)}, {\\(\\ce{SO4^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{SO}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>.",
+          "md": "$\\ce{SO3}$; $\\ce{SO3^{2-}}$; $\\ce{SO4^{2-}}$.\n",
+          "tex": "{\\(\\ce{SO3}\\)}; {\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO4^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>.",
+          "md": "$\\ce{SO4^{2-}}$; $\\ce{SO3^{2-}}$; $\\ce{SO3}$.\n",
+          "tex": "{\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>.",
+          "md": "$\\ce{SO3}$; $\\ce{SO4^{2-}}$; $\\ce{SO3^{2-}}$.\n",
+          "tex": "{\\(\\ce{SO3}\\)}; {\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>.",
+          "md": "$\\ce{SO4^{2-}}$; $\\ce{SO3}$; $\\ce{SO3^{2-}}$.\n",
+          "tex": "{\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3}\\)}; {\\(\\ce{SO3^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>.",
+          "md": "$\\ce{SO3^{2-}}$; $\\ce{SO4^{2-}}$; $\\ce{SO3}$.\n",
+          "tex": "{\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1E08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E08/1E08.md",
+      "date": "2023-04-11T01:55:42.199069",
+      "statement": {
+        "html": "<p>Considere os ânions: <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{F^-}\\)</span>, <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ânion em\nordem <em>crescente</em> de polarizabilidade.</p>",
+        "md": "Considere os ânions: $\\ce{Cl^-}$, $\\ce{Se^{2-}}$, $\\ce{F^-}$,\n$\\ce{S^{2-}}$.\n\n**Assinale** a alternativa que relaciona os ânion em ordem *crescente*\nde polarizabilidade.\n",
+        "tex": "Considere os ânions: {\\(\\ce{Cl^-}\\)}, {\\(\\ce{Se^{2-}}\\)}, {\\(\\ce{F^-}\\)}, {\\(\\ce{S^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ânion em ordem \\emph{crescente} de polarizabilidade.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{I^-}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>.",
+          "md": "$\\ce{Cl^-}$; $\\ce{I^-}$; $\\ce{S^{2-}}$; $\\ce{Se^{2-}}$.\n",
+          "tex": "{\\(\\ce{Cl^-}\\)}; {\\(\\ce{I^-}\\)}; {\\(\\ce{S^{2-}}\\)}; {\\(\\ce{Se^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{I^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>.",
+          "md": "$\\ce{I^-}$; $\\ce{Cl^-}$; $\\ce{S^{2-}}$; $\\ce{Se^{2-}}$.\n",
+          "tex": "{\\(\\ce{I^-}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{S^{2-}}\\)}; {\\(\\ce{Se^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{I^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>.",
+          "md": "$\\ce{S^{2-}}$; $\\ce{I^-}$; $\\ce{Cl^-}$; $\\ce{Se^{2-}}$.\n",
+          "tex": "{\\(\\ce{S^{2-}}\\)}; {\\(\\ce{I^-}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{Se^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{I^-}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>.",
+          "md": "$\\ce{Cl^-}$; $\\ce{Se^{2-}}$; $\\ce{I^-}$; $\\ce{S^{2-}}$.\n",
+          "tex": "{\\(\\ce{Cl^-}\\)}; {\\(\\ce{Se^{2-}}\\)}; {\\(\\ce{I^-}\\)}; {\\(\\ce{S^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>; <span class=\"math inline\">\\(\\ce{I^-}\\)</span>.",
+          "md": "$\\ce{Se^{2-}}$; $\\ce{S^{2-}}$; $\\ce{Cl^-}$; $\\ce{I^-}$.\n",
+          "tex": "{\\(\\ce{Se^{2-}}\\)}; {\\(\\ce{S^{2-}}\\)}; {\\(\\ce{Cl^-}\\)}; {\\(\\ce{I^-}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1E02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E02/1E02.md",
+      "date": "2023-04-11T00:59:34.999857",
+      "statement": {
+        "html": "<p>Considere os elementos: <span class=\"math inline\">\\(\\ce{I}\\)</span>,\n<span class=\"math inline\">\\(\\ce{S}\\)</span>, <span class=\"math inline\">\\(\\ce{Br}\\)</span>, <span class=\"math inline\">\\(\\ce{O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de eletronegatividade.</p>",
+        "md": "Considere os elementos: $\\ce{I}$, $\\ce{S}$, $\\ce{Br}$, $\\ce{O}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de eletronegatividade.\n",
+        "tex": "Considere os elementos: {\\(\\ce{I}\\)}, {\\(\\ce{S}\\)}, {\\(\\ce{Br}\\)}, {\\(\\ce{O}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de eletronegatividade.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{S}\\)</span>; <span class=\"math inline\">\\(\\ce{I}\\)</span>; <span class=\"math inline\">\\(\\ce{Br}\\)</span>; <span class=\"math inline\">\\(\\ce{O}\\)</span>.",
+          "md": "$\\ce{S}$; $\\ce{I}$; $\\ce{Br}$; $\\ce{O}$.\n",
+          "tex": "{\\(\\ce{S}\\)}; {\\(\\ce{I}\\)}; {\\(\\ce{Br}\\)}; {\\(\\ce{O}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{O}\\)</span>; <span class=\"math inline\">\\(\\ce{S}\\)</span>; <span class=\"math inline\">\\(\\ce{I}\\)</span>; <span class=\"math inline\">\\(\\ce{Br}\\)</span>.",
+          "md": "$\\ce{O}$; $\\ce{S}$; $\\ce{I}$; $\\ce{Br}$.\n",
+          "tex": "{\\(\\ce{O}\\)}; {\\(\\ce{S}\\)}; {\\(\\ce{I}\\)}; {\\(\\ce{Br}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{I}\\)</span>; <span class=\"math inline\">\\(\\ce{O}\\)</span>; <span class=\"math inline\">\\(\\ce{Br}\\)</span>; <span class=\"math inline\">\\(\\ce{S}\\)</span>.",
+          "md": "$\\ce{I}$; $\\ce{O}$; $\\ce{Br}$; $\\ce{S}$.\n",
+          "tex": "{\\(\\ce{I}\\)}; {\\(\\ce{O}\\)}; {\\(\\ce{Br}\\)}; {\\(\\ce{S}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Br}\\)</span>; <span class=\"math inline\">\\(\\ce{I}\\)</span>; <span class=\"math inline\">\\(\\ce{O}\\)</span>; <span class=\"math inline\">\\(\\ce{S}\\)</span>.",
+          "md": "$\\ce{Br}$; $\\ce{I}$; $\\ce{O}$; $\\ce{S}$.\n",
+          "tex": "{\\(\\ce{Br}\\)}; {\\(\\ce{I}\\)}; {\\(\\ce{O}\\)}; {\\(\\ce{S}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Br}\\)</span>; <span class=\"math inline\">\\(\\ce{I}\\)</span>; <span class=\"math inline\">\\(\\ce{S}\\)</span>; <span class=\"math inline\">\\(\\ce{O}\\)</span>.",
+          "md": "$\\ce{Br}$; $\\ce{I}$; $\\ce{S}$; $\\ce{O}$.\n",
+          "tex": "{\\(\\ce{Br}\\)}; {\\(\\ce{I}\\)}; {\\(\\ce{S}\\)}; {\\(\\ce{O}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1E01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E01/1E01.md",
+      "date": "2023-04-11T00:58:57.351428",
+      "statement": {
+        "html": "<p>Considere os elementos: <span class=\"math inline\">\\(\\ce{Sb}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Sb}\\)</span>, <span class=\"math inline\">\\(\\ce{Se}\\)</span>, <span class=\"math inline\">\\(\\ce{In}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de eletronegatividade.</p>",
+        "md": "Considere os elementos: $\\ce{Sb}$, $\\ce{Sb}$, $\\ce{Se}$, $\\ce{In}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de eletronegatividade.\n",
+        "tex": "Considere os elementos: {\\(\\ce{Sb}\\)}, {\\(\\ce{Sb}\\)}, {\\(\\ce{Se}\\)}, {\\(\\ce{In}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de eletronegatividade.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{In}\\)</span>; <span class=\"math inline\">\\(\\ce{Se}\\)</span>; <span class=\"math inline\">\\(\\ce{Sb}\\)</span>; <span class=\"math inline\">\\(\\ce{Sn}\\)</span>.",
+          "md": "$\\ce{In}$; $\\ce{Se}$; $\\ce{Sb}$; $\\ce{Sn}$.\n",
+          "tex": "{\\(\\ce{In}\\)}; {\\(\\ce{Se}\\)}; {\\(\\ce{Sb}\\)}; {\\(\\ce{Sn}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Sn}\\)</span>; <span class=\"math inline\">\\(\\ce{In}\\)</span>; <span class=\"math inline\">\\(\\ce{Se}\\)</span>; <span class=\"math inline\">\\(\\ce{Sb}\\)</span>.",
+          "md": "$\\ce{Sn}$; $\\ce{In}$; $\\ce{Se}$; $\\ce{Sb}$.\n",
+          "tex": "{\\(\\ce{Sn}\\)}; {\\(\\ce{In}\\)}; {\\(\\ce{Se}\\)}; {\\(\\ce{Sb}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{In}\\)</span>; <span class=\"math inline\">\\(\\ce{Sn}\\)</span>; <span class=\"math inline\">\\(\\ce{Sb}\\)</span>; <span class=\"math inline\">\\(\\ce{Se}\\)</span>.",
+          "md": "$\\ce{In}$; $\\ce{Sn}$; $\\ce{Sb}$; $\\ce{Se}$.\n",
+          "tex": "{\\(\\ce{In}\\)}; {\\(\\ce{Sn}\\)}; {\\(\\ce{Sb}\\)}; {\\(\\ce{Se}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Se}\\)</span>; <span class=\"math inline\">\\(\\ce{Sn}\\)</span>; <span class=\"math inline\">\\(\\ce{In}\\)</span>; <span class=\"math inline\">\\(\\ce{Sb}\\)</span>.",
+          "md": "$\\ce{Se}$; $\\ce{Sn}$; $\\ce{In}$; $\\ce{Sb}$.\n",
+          "tex": "{\\(\\ce{Se}\\)}; {\\(\\ce{Sn}\\)}; {\\(\\ce{In}\\)}; {\\(\\ce{Sb}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Sb}\\)</span>; <span class=\"math inline\">\\(\\ce{Se}\\)</span>; <span class=\"math inline\">\\(\\ce{In}\\)</span>; <span class=\"math inline\">\\(\\ce{Sn}\\)</span>.",
+          "md": "$\\ce{Sb}$; $\\ce{Se}$; $\\ce{In}$; $\\ce{Sn}$.\n",
+          "tex": "{\\(\\ce{Sb}\\)}; {\\(\\ce{Se}\\)}; {\\(\\ce{In}\\)}; {\\(\\ce{Sn}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1E21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E21/1E21.md",
+      "date": "2023-04-11T01:50:53.453671",
+      "statement": {
+        "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ CCl3CHCl2(g) + 2 HF(g) -&gt; CCl3CHF2(g) + 2 HCl }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
+        "md": "Considere a reação: $$\n    \\ce{ CCl3CHCl2(g) + 2 HF(g) -> CCl3CHF2(g) + 2 HCl }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
+        "tex": "Considere a reação: {\\[\n    \\ce{ CCl3CHCl2(g) + 2 HF(g) -> CCl3CHF2(g) + 2 HCl }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "HL(C-Cl)",
+            "name": "entalpia de ligação do \\ce{C-Cl}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-Cl})",
+            "value": 338,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(C-F)",
+            "name": "entalpia de ligação do \\ce{C-F}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-F})",
+            "value": 484,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(C-H)",
+            "name": "entalpia de ligação do \\ce{C-H}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-H})",
+            "value": 412,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(HCl)",
+            "name": "entalpia de ligação do \\ce{HCl}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{HCl})",
+            "value": 431,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(HF)",
+            "name": "entalpia de ligação do \\ce{HF}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{HF})",
+            "value": 565,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-11 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-11 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-11}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-16 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-16 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-16}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-24 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-24 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-24}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-35 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-35 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-35}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-52 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-52 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-52}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1E12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E12/1E12.md",
+      "date": "2023-04-11T01:17:56.633904",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{NO}\\)</span>,\n<span class=\"math inline\">\\(\\ce{NO2}\\)</span>, <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{NO}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{NO}$, $\\ce{NO2}$, $\\ce{NO3^-}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{NO}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{NO}\\)}, {\\(\\ce{NO2}\\)}, {\\(\\ce{NO3^-}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{NO}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>.",
+          "md": "$\\ce{NO}$; $\\ce{NO2}$; $\\ce{NO3^-}$.\n",
+          "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{NO3^-}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>.",
+          "md": "$\\ce{NO3^-}$; $\\ce{NO2}$; $\\ce{NO}$.\n",
+          "tex": "{\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{NO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.",
+          "md": "$\\ce{NO3^-}$; $\\ce{NO}$; $\\ce{NO2}$.\n",
+          "tex": "{\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.",
+          "md": "$\\ce{NO}$; $\\ce{NO3^-}$; $\\ce{NO2}$.\n",
+          "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>.",
+          "md": "$\\ce{NO2}$; $\\ce{NO3^-}$; $\\ce{NO}$.\n",
+          "tex": "{\\(\\ce{NO2}\\)}; {\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1E06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E06/1E06.md",
+      "date": "2023-04-11T01:03:42.386338",
+      "statement": {
+        "html": "<p>Considere os cátions: <span class=\"math inline\">\\(\\ce{K^+}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>, <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>, <span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os cátions em\nordem <em>crescente</em> de capacidade de polarização.</p>",
+        "md": "Considere os cátions: $\\ce{K^+}$, $\\ce{Mg^{2+}}$, $\\ce{Al^{3+}}$,\n$\\ce{Cs^+}$.\n\n**Assinale** a alternativa que relaciona os cátions em ordem *crescente*\nde capacidade de polarização.\n",
+        "tex": "Considere os cátions: {\\(\\ce{K^+}\\)}, {\\(\\ce{Mg^{2+}}\\)}, {\\(\\ce{Al^{3+}}\\)}, {\\(\\ce{Cs^+}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os cátions em ordem \\emph{crescente} de capacidade de polarização.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>.",
+          "md": "$\\ce{Mg^{2+}}$; $\\ce{Al^{3+}}$; $\\ce{Cs^+}$; $\\ce{K^+}$.\n",
+          "tex": "{\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Cs^+}\\)}; {\\(\\ce{K^+}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>.",
+          "md": "$\\ce{Cs^+}$; $\\ce{K^+}$; $\\ce{Mg^{2+}}$; $\\ce{Al^{3+}}$.\n",
+          "tex": "{\\(\\ce{Cs^+}\\)}; {\\(\\ce{K^+}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>.",
+          "md": "$\\ce{Mg^{2+}}$; $\\ce{Cs^+}$; $\\ce{K^+}$; $\\ce{Al^{3+}}$.\n",
+          "tex": "{\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Cs^+}\\)}; {\\(\\ce{K^+}\\)}; {\\(\\ce{Al^{3+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>.",
+          "md": "$\\ce{K^+}$; $\\ce{Cs^+}$; $\\ce{Mg^{2+}}$; $\\ce{Al^{3+}}$.\n",
+          "tex": "{\\(\\ce{K^+}\\)}; {\\(\\ce{Cs^+}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^+}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>.",
+          "md": "$\\ce{Al^{3+}}$; $\\ce{K^+}$; $\\ce{Mg^{2+}}$; $\\ce{Cs^+}$.\n",
+          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{K^+}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Cs^+}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1E14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E14/1E14.md",
+      "date": "2023-04-11T01:22:01.779650",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2O}\\)</span>, <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CO}\\)</span>.</p>",
+        "md": "Considere as moléculas: $\\ce{CH3OH}$, $\\ce{CH2O}$, $\\ce{CH3OCH3}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CO}$.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{CH3OH}\\)}, {\\(\\ce{CH2O}\\)}, {\\(\\ce{CH3OCH3}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CO}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.",
+          "md": "$\\ce{H2CO}$; $\\ce{CH3OH}$; $\\ce{CH3OCH3}$.\n",
+          "tex": "{\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OH}\\)}; {\\(\\ce{CH3OCH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>.",
+          "md": "$\\ce{CH3OCH3}$; $\\ce{CH3OH}$; $\\ce{H2CO}$.\n",
+          "tex": "{\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{CH3OH}\\)}; {\\(\\ce{H2CO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.",
+          "md": "$\\ce{CH3OH}$; $\\ce{H2CO}$; $\\ce{CH3OCH3}$.\n",
+          "tex": "{\\(\\ce{CH3OH}\\)}; {\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OCH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>.",
+          "md": "$\\ce{CH3OCH3}$; $\\ce{H2CO}$; $\\ce{CH3OH}$.\n",
+          "tex": "{\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>.",
+          "md": "$\\ce{H2CO}$; $\\ce{CH3OCH3}$; $\\ce{CH3OH}$.\n",
+          "tex": "{\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{CH3OH}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1E22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E22/1E22.md",
+      "date": "2023-04-11T01:53:06.964378",
+      "statement": {
+        "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ CH4(g) + 2 F2(g) -&gt; CH2F2(g) + 2 HF(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
+        "md": "Considere a reação: $$\n    \\ce{ CH4(g) + 2 F2(g) -> CH2F2(g) + 2 HF(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
+        "tex": "Considere a reação: {\\[\n    \\ce{ CH4(g) + 2 F2(g) -> CH2F2(g) + 2 HF(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "HL(C-F)",
+            "name": "entalpia de ligação do \\ce{C-F}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-F})",
+            "value": 484,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(C-H)",
+            "name": "entalpia de ligação do \\ce{C-H}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{C-H})",
+            "value": 412,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(F2)",
+            "name": "entalpia de ligação do \\ce{F2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{F2})",
+            "value": 158,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(HF)",
+            "name": "entalpia de ligação do \\ce{HF}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{HF})",
+            "value": 565,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-92 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-92 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-92}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-170 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-170 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-170}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-300 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-300 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-300}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-530 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-530 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-530}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-960 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-960 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-960}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1E03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E03/1E03.md",
+      "date": "2023-04-11T00:59:36.623876",
+      "statement": {
+        "html": "<p>Considere os pares de compostos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{P4O10}\\)</span> e <span class=\"math inline\">\\(\\ce{PCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaBr}\\)</span> e <span class=\"math inline\">\\(\\ce{MgBr2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CaS}\\)</span> e <span class=\"math inline\">\\(\\ce{CaO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem o <em>maior</em> caráter iônico.</p>",
+        "md": "Considere os pares de compostos:\n\n1.  $\\ce{P4O10}$ e $\\ce{PCl3}$\n2.  $\\ce{CO2}$ e $\\ce{NO2}$\n3.  $\\ce{NaBr}$ e $\\ce{MgBr2}$\n4.  $\\ce{CaS}$ e $\\ce{CaO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem o *maior* caráter iônico.\n",
+        "tex": "Considere os pares de compostos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{P4O10}\\)} e {\\(\\ce{PCl3}\\)}\n\\item\n  {\\(\\ce{CO2}\\)} e {\\(\\ce{NO2}\\)}\n\\item\n  {\\(\\ce{NaBr}\\)} e {\\(\\ce{MgBr2}\\)}\n\\item\n  {\\(\\ce{CaS}\\)} e {\\(\\ce{CaO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem o \\emph{maior} caráter iônico.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
+        },
+        {
+          "html": "<strong>1</strong> e <strong>4</strong>",
+          "md": "**1** e **4**\n",
+          "tex": "\\textbf{1} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
+        },
+        {
+          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+          "md": "**1**, **2**, **3** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1E17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E17/1E17.md",
+      "date": "2023-04-11T01:48:35.630373",
+      "statement": {
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do cloreto de potássio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo cloreto de potássio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do cloreto de potássio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
+            "name": "$E_\\mathrm{ae}(\\ce{Cl}) = \\pu{-349 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$I(\\ce{K}) = \\pu{419 kJ//mol}$",
+            "name": "$I(\\ce{K}) = \\pu{419 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{rede}(\\ce{KCl}) = \\pu{-690 kJ//mol}$",
+            "name": "$\\Delta H_\\text{rede}(\\ce{KCl}) = \\pu{-690 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
+            "name": "$\\Delta H_\\text{sub}(\\ce{K}) = \\pu{90 kJ//mol}$",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          },
+          {
+            "id_": "HL(Cl2)",
+            "name": "entalpia de ligação do \\ce{Cl2}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{Cl2})",
+            "value": 242,
+            "unit": "kJ//mol",
+            "prec": 3
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-80 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-80 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-80}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-140 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-140 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-140}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-240 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-240 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-240}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-410 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-410 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-410}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{-710 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-710 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-710}{\\unit{kJ.mol^{-1}}}\\)}\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
       "id_": "1D39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1D/1D39/1D39.md",
       "date": "2023-02-22T22:30:18.962071",
