@@ -1,0 +1,41 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{chemscheme}
+\begin{tikzpicture}
+    \node (C1) [3Datom=gray] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={- 20}{0.8}] at (C1) {};
+    \node (L3) [3Dbond={-160}{0.8}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L2) [3Dbond={- 90}{0.9}] at (C1) {};
+    \node (L4) [3Dbond={+ 90}{1.0}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=white}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \node at ($(L4.top) + (L4.bottom)$) {};
+    \end{scope}
+
+    \draw (L4.south east) 
+            to [out=0, in=70, edge node={node [above, shift={(8pt,2pt)}] {\footnotesize\ang{109,5}}}] 
+        (L1.north east);
+
+    \node (lewis) [anchor=east, shift={(-3.5em, 0pt)}] at (C1) 
+        { 
+            \chemfig[fixed length=true]
+                {
+                    C
+                        (-[3]H)
+                        (-[-3]H)
+                        (-[-1]H)
+                        (-[7]H)
+                }
+            \quad =
+        };
+\end{tikzpicture}
+\end{chemscheme}

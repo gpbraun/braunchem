@@ -1,0 +1,78 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\setlength{\tabcolsep}{1em}
+\begin{chemscheme}
+\begin{tabular}{ c c c }
+%%%% CH4
+\begin{tikzpicture}
+    \node (C1) [3Datom=gray] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={- 20}{0.8}] at (C1) {};
+    \node (L3) [3Dbond={-160}{0.8}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L2) [3Dbond={- 90}{0.9}] at (C1) {};
+    \node (L4) [3Dbond={+ 90}{1.0}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=white}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \node at ($(L4.top) + (L4.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+&
+%%%% SF6
+\begin{tikzpicture}
+    \node (C1) [3Datom=yellow] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={+160}{0.9}] at (C1) {};
+    \node (L3) [3Dbond={- 90}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L5) [3Dbond={- 20}{1.1}] at (C1) {};
+    \node (L6) [3Dbond={-160}{1.1}] at (C1) {};
+    \node (L4) [3Dbond={+ 90}{1.0}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=cyan}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L4.top) + (L4.bottom)$) {};
+        \node at ($(L5.top) + (L5.bottom)$) {};
+        \node at ($(L6.top) + (L6.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+&
+%%%% PCl5
+\begin{tikzpicture}
+    \node (C1) [3Datom=orange] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={- 90}{1.0}] at (C1) {};
+    \node (L4) [3Dbond={+180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L3) [3Dbond={- 20}{1.1}] at (C1) {};
+    \node (L5) [3Dbond={+ 90}{1.0}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=green}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \node at ($(L4.top) + (L4.bottom)$) {};
+        \node at ($(L5.top) + (L5.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+\\
+\ce{CH4} & \ce{SF6} & \ce{PCl5}
+\end{tabular}
+\end{chemscheme}

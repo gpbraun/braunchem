@@ -1,0 +1,33 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{chemscheme}
+\begin{tikzpicture}
+    \node (C1) [3Datom=lime] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={   0}{1.0}] at (C1) {};
+    \node (L2) [3Dbond={+180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+
+    \begin{scope}[every node/.style={3Datom=green}]
+        \node (X1) at ($(L1.top) + (L1.bottom)$) {};
+        \node (X2) at ($(L2.top) + (L2.bottom)$) {};
+    \end{scope}
+
+    \draw (L2.south east) 
+        to [out=80, in=100, edge node={node [above] {\footnotesize\ang{180}}}] 
+    (L1.north east);
+
+    \node [anchor=east, shift={(-1em, 0)}] at (X2) 
+        { 
+            \chemfig[fixed length=true]
+                {
+                    Be
+                        (-[0]\charge{0:1.5pt=\:, 90:1.5pt=\:, -90:1.5pt=\:}{Cl})
+                        (-[6]\charge{180:1.5pt=\:, 90:1.5pt=\:, -90:1.5pt=\:}{Cl})
+                }
+            \quad =
+        };
+\end{tikzpicture}
+\end{chemscheme}

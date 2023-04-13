@@ -1670,3 +1670,44 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \ExplSyntaxOff
+
+\def\bondLenght{0.5 cm}
+\tikzset
+    {
+        3Datom/.style=
+            {
+                shade,
+                circle,
+                shading = ball,
+                ball color = #1!90,
+                minimum size = 1.1em,
+            },
+        3Dbond/.style 2 args=
+            {
+                cylinder,
+                minimum height = #2 * \bondLenght,    
+                aspect = 0.8,
+                anchor = bottom,
+                inner sep = 1.5pt,
+                top color = gray, 
+                bottom color = gray, 
+                middle color = gray!40,
+                shading angle = #1,
+                rotate = #1,    
+                shift={(3.2pt,0)},
+            },
+        3Dlonepair/.style=
+            {
+                shade,
+                isosceles triangle,
+                shading = ball,
+                rounded corners = 2.5ex,
+                ball color = lime,
+                minimum width = 1.5em,
+                minimum height = 2.5em,
+                semitransparent,
+                shift={(#1:-5pt)},
+                rotate = 180 + #1,
+                anchor = apex,
+            }
+    }
