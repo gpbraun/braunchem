@@ -10127,11 +10127,11 @@
     {
       "id_": "3D14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3D/3D14/3D14.md",
-      "date": "2023-01-20T23:22:24.690254",
+      "date": "2023-04-16T19:34:15.398127",
       "statement": {
-        "html": "<p>Uma solução aquosa de nitrato de zinco, <span class=\"math inline\">\\(\\ce{Zn(NO3)2}\\)</span>, tem molalidade <span class=\"math inline\">\\(\\pu{0,643 mol.L-1}\\)</span> e molalidade <span class=\"math inline\">\\(\\pu{0,653 mol.kg-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndensidade da solução.</p>",
-        "md": "Uma solução aquosa de nitrato de zinco, $\\ce{Zn(NO3)2}$, tem molalidade\n$\\pu{0,643 mol.L-1}$ e molalidade $\\pu{0,653 mol.kg-1}$.\n\n**Assinale** a alternativa que mais se aproxima da densidade da solução.\n",
-        "tex": "Uma solução aquosa de nitrato de zinco, {\\(\\ce{Zn(NO3)2}\\)}, tem molalidade {\\(\\qty{0,643}{\\unit{mol.L^{-1}}}\\)} e molalidade\n{\\(\\qty{0,653}{\\unit{mol.kg^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da densidade da solução.\n"
+        "html": "<p>Uma solução aquosa de nitrato de zinco, <span class=\"math inline\">\\(\\ce{Zn(NO3)2}\\)</span>, tem molaridade <span class=\"math inline\">\\(\\pu{0,643 mol.L-1}\\)</span> e molalidade <span class=\"math inline\">\\(\\pu{0,653 mol.kg-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndensidade da solução.</p>",
+        "md": "Uma solução aquosa de nitrato de zinco, $\\ce{Zn(NO3)2}$, tem molaridade\n$\\pu{0,643 mol.L-1}$ e molalidade $\\pu{0,653 mol.kg-1}$.\n\n**Assinale** a alternativa que mais se aproxima da densidade da solução.\n",
+        "tex": "Uma solução aquosa de nitrato de zinco, {\\(\\ce{Zn(NO3)2}\\)}, tem molaridade {\\(\\qty{0,643}{\\unit{mol.L^{-1}}}\\)} e molalidade\n{\\(\\qty{0,653}{\\unit{mol.kg^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da densidade da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -20576,21 +20576,26 @@
     {
       "id_": "2E04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E04/2E04.md",
-      "date": "2023-03-16T15:32:35.845238",
+      "date": "2023-04-16T13:20:07.265393",
       "statement": {
         "html": "<p>A concentração mínima de oxigênio necessária para a vida dos peixes é\n<span class=\"math inline\">\\(\\pu{4 ppm}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npressão mínima de ar para permitir a vida dos peixes.</p>",
         "md": "A concentração mínima de oxigênio necessária para a vida dos peixes é\n$\\pu{4 ppm}$.\n\n**Assinale** a alternativa que mais se aproxima da pressão mínima de ar\npara permitir a vida dos peixes.\n",
         "tex": "A concentração mínima de oxigênio necessária para a vida dos peixes é {\\(\\qty{4}{\\unit{ppm}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pressão mínima de ar para permitir a vida dos peixes.\n"
       },
       "solution": null,
-      "answer": [
-        {
-          "html": "<p>kH(O2)</p>\n",
-          "md": "kH(O2)",
-          "tex": "kH(O2)\n"
-        }
-      ],
-      "data": null,
+      "answer": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "kH(O2)",
+            "name": "constante de Henry do oxigênio",
+            "symbol": "k_\\mathrm{H}(\\ce{O2})",
+            "value": 0.0013,
+            "unit": "mol//L.atm",
+            "prec": 2
+          }
+        ]
+      },
       "choices": [
         {
           "html": "<span class=\"math inline\">\\(\\pu{0,20 atm}\\)</span>",
@@ -20900,28 +20905,28 @@
     {
       "id_": "2E37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E37/2E37.md",
-      "date": "2023-03-18T14:21:13.065689",
+      "date": "2023-04-16T22:01:50.899608",
       "statement": {
-        "html": "<p>Em solução de tetracloreto de carbono, o tetracloreto de vanádio\nsofre dimerização formando <span class=\"math inline\">\\(\\ce{V2Cl8}\\)</span>. Em um experimento, <span class=\"math inline\">\\(\\pu{6,76 g}\\)</span> de <span class=\"math inline\">\\(\\ce{VCl4}\\)</span> foram dissolvidos em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de tetracloreto de carbono a\n<span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span>. Após certo tempo\na mistura alcançou o equilíbrio, sendo a densidade <span class=\"math inline\">\\(\\pu{1,78 g.cm-3}\\)</span>. A mistura foi resfriada\ncom nitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.</p>\n<figure>\n<img alt=\"Figura do problema 2E37.\" src=\"2E37-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2E37.</figcaption>\n</figure>\n<ol type=\"a\">\n<li><strong>Determine</strong> o grau de dimerização do tetracloreto de\nvanádio.</li>\n<li><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{VCl4}\\)</span> no equilíbrio.</li>\n<li><strong>Determine</strong> a concentração de <span class=\"math inline\">\\(\\ce{V2Cl8}\\)</span> no equilíbrio.</li>\n</ol>",
-        "md": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. A mistura foi resfriada com\nnitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.\n\n![Figura do problema 2E37.](2E37-1P.svg)\n\na.  **Determine** o grau de dimerização do tetracloreto de vanádio.\nb.  **Determine** a concentração de $\\ce{VCl4}$ no equilíbrio.\nc.  **Determine** a concentração de $\\ce{V2Cl8}$ no equilíbrio.\n",
-        "tex": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre dimerização formando {\\(\\ce{V2Cl8}\\)}. Em um experimento,\n{\\(\\qty{6,76}{\\unit{g}}\\)} de {\\(\\ce{VCl4}\\)} foram dissolvidos em {\\(\\qty{100}{\\unit{g}}\\)} de tetracloreto de carbono a\n{\\(\\qty{0}{\\unit{\\degree C}}\\)}. Após certo tempo a mistura alcançou o equilíbrio, sendo a densidade {\\(\\qty{1,78}{\\unit{g.cm^{-3}}}\\)}. A mistura foi\nresfriada com nitrogênio líquido, sendo registrada a variação da temperatura com o tempo.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E37-1P.svg}\n\\caption{Figura do problema 2E37.}\n\\end{figure}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} o grau de dimerização do tetracloreto de vanádio.\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{VCl4}\\)} no equilíbrio.\n\\item\n  \\textbf{Determine} a concentração de {\\(\\ce{V2Cl8}\\)} no equilíbrio.\n\\end{enumerate}\n"
+        "html": "<p>Em solução de tetracloreto de carbono, o tetracloreto de vanádio\nsofre dimerização formando <span class=\"math inline\">\\(\\ce{V2Cl8}\\)</span>. Em um experimento, <span class=\"math inline\">\\(\\pu{6,76 g}\\)</span> de <span class=\"math inline\">\\(\\ce{VCl4}\\)</span> foram dissolvidos em <span class=\"math inline\">\\(\\pu{100 g}\\)</span> de tetracloreto de carbono a\n<span class=\"math inline\">\\(\\pu{0 \\degree C}\\)</span>. Após certo tempo\na mistura alcançou o equilíbrio, sendo a densidade <span class=\"math inline\">\\(\\pu{1,78 g.cm-3}\\)</span>. A mistura foi resfriada\ncom nitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.</p>\n<figure>\n<img alt=\"Figura do problema 2E37.\" src=\"2E37-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2E37.</figcaption>\n</figure>\n<ol type=\"a\">\n<li><strong>Determine</strong> o grau de dimerização do tetracloreto de\nvanádio.</li>\n<li><strong>Determine</strong> a concentração molar de <span class=\"math inline\">\\(\\ce{VCl4}\\)</span> no equilíbrio.</li>\n<li><strong>Determine</strong> a concentração molar de <span class=\"math inline\">\\(\\ce{V2Cl8}\\)</span> no equilíbrio.</li>\n</ol>",
+        "md": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre\ndimerização formando $\\ce{V2Cl8}$. Em um experimento, $\\pu{6,76 g}$ de\n$\\ce{VCl4}$ foram dissolvidos em $\\pu{100 g}$ de tetracloreto de carbono\na $\\pu{0 \\degree C}$. Após certo tempo a mistura alcançou o equilíbrio,\nsendo a densidade $\\pu{1,78 g.cm-3}$. A mistura foi resfriada com\nnitrogênio líquido, sendo registrada a variação da temperatura com o\ntempo.\n\n![Figura do problema 2E37.](2E37-1P.svg)\n\na.  **Determine** o grau de dimerização do tetracloreto de vanádio.\nb.  **Determine** a concentração molar de $\\ce{VCl4}$ no equilíbrio.\nc.  **Determine** a concentração molar de $\\ce{V2Cl8}$ no equilíbrio.\n",
+        "tex": "Em solução de tetracloreto de carbono, o tetracloreto de vanádio sofre dimerização formando {\\(\\ce{V2Cl8}\\)}. Em um experimento,\n{\\(\\qty{6,76}{\\unit{g}}\\)} de {\\(\\ce{VCl4}\\)} foram dissolvidos em {\\(\\qty{100}{\\unit{g}}\\)} de tetracloreto de carbono a\n{\\(\\qty{0}{\\unit{\\degree C}}\\)}. Após certo tempo a mistura alcançou o equilíbrio, sendo a densidade {\\(\\qty{1,78}{\\unit{g.cm^{-3}}}\\)}. A mistura foi\nresfriada com nitrogênio líquido, sendo registrada a variação da temperatura com o tempo.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E37-1P.svg}\n\\caption{Figura do problema 2E37.}\n\\end{figure}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} o grau de dimerização do tetracloreto de vanádio.\n\\item\n  \\textbf{Determine} a concentração molar de {\\(\\ce{VCl4}\\)} no equilíbrio.\n\\item\n  \\textbf{Determine} a concentração molar de {\\(\\ce{V2Cl8}\\)} no equilíbrio.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(85\\%\\)</span></p>\n",
-          "md": "$85\\%$",
-          "tex": "\\(85\\%\\)\n"
+          "html": "<p><span class=\"math inline\">\\(66\\%\\)</span></p>\n",
+          "md": "$66\\%$",
+          "tex": "\\(66\\%\\)\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{84 mmol.L-1}\\)</span></p>\n",
-          "md": "$\\pu{84 mmol.L-1}$",
-          "tex": "\\(\\qty{84}{\\unit{mmol.L^{-1}}}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{0,2 mol.L-1}$",
+          "tex": "\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{234 mmol.L-1}\\)</span></p>\n",
-          "md": "$\\pu{234 mmol.L-1}$",
-          "tex": "\\(\\qty{234}{\\unit{mmol.L^{-1}}}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\pu{0,2 mmol.L-1}\\)</span></p>\n",
+          "md": "$\\pu{0,2 mmol.L-1}$",
+          "tex": "\\(\\qty{0,2}{\\unit{mmol.L^{-1}}}\\)\n"
         }
       ],
       "data": {
@@ -20929,7 +20934,7 @@
           {
             "id_": "kf(CCl4)",
             "name": "constante crioscópica do tetracloreto de carbono",
-            "symbol": "k_\\mathrm{b}(\\ce{CCl4})",
+            "symbol": "k_\\mathrm{c}(\\ce{CCl4})",
             "value": 30,
             "unit": "K.kg//mol",
             "prec": 2
@@ -21101,7 +21106,7 @@
     {
       "id_": "2E33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E33/2E33.md",
-      "date": "2023-03-18T13:53:54.958897",
+      "date": "2023-04-16T19:45:48.688807",
       "statement": {
         "html": "<p>Uma solução <span class=\"math inline\">\\(\\pu{1}\\%\\)</span> em <span class=\"math inline\">\\(\\ce{NaCl}\\)</span>, em massa, tem ponto de\ncongelamento <span class=\"math inline\">\\(\\pu{-0,593 \\degree\nC}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a molalidade total de todas as espécies\nde soluto.</li>\n<li><strong>Determine</strong> a fração de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> dissociada em solução.</li>\n</ol>",
         "md": "Uma solução $\\pu{1}\\%$ em $\\ce{NaCl}$, em massa, tem ponto de\ncongelamento $\\pu{-0,593 \\degree C}$.\n\na.  **Determine** a molalidade total de todas as espécies de soluto.\nb.  **Determine** a fração de $\\ce{NaCl}$ dissociada em solução.\n",
@@ -21120,7 +21125,18 @@
           "tex": "\\(\\num{84}\\%\\)\n"
         }
       ],
-      "data": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "kc(H2O)",
+            "name": "kc(H2O)",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          }
+        ]
+      },
       "choices": null,
       "correct_choice": null
     },
@@ -21209,14 +21225,20 @@
     {
       "id_": "2E31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E31/2E31.md",
-      "date": "2023-03-19T16:51:48.075264",
+      "date": "2023-04-16T18:42:34.044934",
       "statement": {
         "html": "<p>Considere os dados em <span class=\"math inline\">\\(\\pu{25 \\degree\nC}\\)</span>.</p>\n<table>\n<colgroup>\n<col style=\"width: 50%\"/>\n<col style=\"width: 13%\"/>\n<col style=\"width: 12%\"/>\n<col style=\"width: 12%\"/>\n<col style=\"width: 12%\"/>\n</colgroup>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: left;\"></th>\n<th style=\"text-align: right;\"><span class=\"math inline\">\\(\\ce{NaCl}\\)</span></th>\n<th style=\"text-align: right;\"><span class=\"math inline\">\\(\\ce{NaI}\\)</span></th>\n<th style=\"text-align: right;\"><span class=\"math inline\">\\(\\ce{KCl}\\)</span></th>\n<th style=\"text-align: right;\"><span class=\"math inline\">\\(\\ce{KI}\\)</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: left;\"><span class=\"math inline\">\\(\\Delta\nH_\\text{rede}^\\circ/\\pu{kJ//mol}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{788}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{686}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{699}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{632}\\)</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: left;\"><span class=\"math inline\">\\(\\Delta\nH_\\text{sol}^\\circ/\\pu{kJ//mol}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{4}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{-5}\\)</span></td>\n<td style=\"text-align: right;\"><span class=\"math inline\">\\(\\pu{17}\\)</span></td>\n<td style=\"text-align: right;\"></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Determine</strong> a entalpia de dissolução do <span class=\"math inline\">\\(\\ce{KI}\\)</span>.</p>",
         "md": "Considere os dados em $\\pu{25 \\degree C}$.\n\n|                                           | $\\ce{NaCl}$ | $\\ce{NaI}$ | $\\ce{KCl}$ |  $\\ce{KI}$ |\n|:----------------------------------|---------:|--------:|--------:|--------:|\n| $\\Delta H_\\text{rede}^\\circ/\\pu{kJ//mol}$ |  $\\pu{788}$ | $\\pu{686}$ | $\\pu{699}$ | $\\pu{632}$ |\n| $\\Delta H_\\text{sol}^\\circ/\\pu{kJ//mol}$  |    $\\pu{4}$ |  $\\pu{-5}$ |  $\\pu{17}$ |            |\n\n**Determine** a entalpia de dissolução do $\\ce{KI}$.\n",
         "tex": "Considere os dados em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\begin{longtable}[]{@{}\n  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.5000}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.1300}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.1200}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.1200}}\n  >{\\raggedleft\\arraybackslash}p{(\\columnwidth - 8\\tabcolsep) * \\real{0.1200}}@{}}\n\\toprule\n\\begin{minipage}[b]{\\linewidth}\\raggedright\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\(\\ce{NaCl}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\(\\ce{NaI}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\(\\ce{KCl}\\)}\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedleft\n{\\(\\ce{KI}\\)}\n\\end{minipage} \\\\\n\\midrule\n\\endhead\n{\\(\\Delta H_\\text{rede}^\\circ/\\tfrac{\\unit{kJ}}{\\unit{mol}}\\)} & {\\(\\num{788}\\)} & {\\(\\num{686}\\)} & {\\(\\num{699}\\)} & {\\(\\num{632}\\)} \\\\\n{\\(\\Delta H_\\text{sol}^\\circ/\\tfrac{\\unit{kJ}}{\\unit{mol}}\\)} & {\\(\\num{4}\\)} & {\\(\\num{-5}\\)} & {\\(\\num{17}\\)} & \\\\\n\\bottomrule\n\\end{longtable}\n\n\\textbf{Determine} a entalpia de dissolução do {\\(\\ce{KI}\\)}.\n"
       },
       "solution": null,
-      "answer": null,
+      "answer": [
+        {
+          "html": "<p><span class=\"math inline\">\\(\\pu{43 kJ.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{43 kJ.mol-1}$",
+          "tex": "\\(\\qty{43}{\\unit{kJ.mol^{-1}}}\\)\n"
+        }
+      ],
       "data": null,
       "choices": null,
       "correct_choice": null
@@ -21366,20 +21388,20 @@
     {
       "id_": "2E09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E09/2E09.md",
-      "date": "2023-03-21T00:02:33.469747",
+      "date": "2023-04-16T13:53:16.692310",
       "statement": {
-        "html": "<p>Considere a curva de solubilidade do brometo de potássio em água.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E09-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A dissolução do\n<span class=\"math inline\">\\(\\ce{KBr}\\)</span> em água é um processo\nendotérmico.<br/>\n</li>\n<li>A <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, a concentração de uma\nsolução aquosa saturada em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>\né de aproximadamente <span class=\"math inline\">\\(\\pu{6\nmol.kg-1}\\)</span>.<br/>\n</li>\n<li>Misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(A\\)</span> da figura são bifásicas e misturas\ncorrespondentes a pontos situados na região <span class=\"math inline\">\\(B\\)</span> da figura são monofásicas.<br/>\n</li>\n<li>Misturas\ncorrespondentes a pontos situados sobre a curva são saturadas em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
-        "md": "Considere a curva de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E09-1P.svg)\n\nConsidere as proposições.\n\n1.  A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.  \n2.  A $\\pu{30 \\degree C}$, a concentração de uma solução aquosa saturada\n    em $\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.  \n3.  Misturas correspondentes a pontos situados na região $A$ da figura\n    são bifásicas e misturas correspondentes a pontos situados na região\n    $B$ da figura são monofásicas.  \n4.  Misturas correspondentes a pontos situados sobre a curva são\n    saturadas em $\\ce{KBr}$.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
-        "tex": "Considere a curva de solubilidade do brometo de potássio em água.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E09-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A dissolução do {\\(\\ce{KBr}\\)} em água é um processo endotérmico.\\\\\n\\item\n  A {\\(\\qty{30}{\\unit{\\degree C}}\\)}, a concentração de uma solução aquosa saturada em {\\(\\ce{KBr}\\)} é de aproximadamente\n  {\\(\\qty{6}{\\unit{mol.kg^{-1}}}\\)}.\\\\\n\\item\n  Misturas correspondentes a pontos situados na região {\\(A\\)} da figura são bifásicas e misturas correspondentes a pontos situados na região {\\(B\\)}\n  da figura são monofásicas.\\\\\n\\item\n  Misturas correspondentes a pontos situados sobre a curva são saturadas em {\\(\\ce{KBr}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
+        "html": "<p>Considere a curva de solubilidade do brometo de potássio em água.</p>\n<figure>\n<img alt=\"Curvas de solubilidade\" src=\"2E09-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Curvas de solubilidade</figcaption>\n</figure>\n<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>A dissolução do\n<span class=\"math inline\">\\(\\ce{KBr}\\)</span> em água é um processo\nendotérmico.<br/>\n</li>\n<li>Em <span class=\"math inline\">\\(\\pu{30 \\degree C}\\)</span>, a molalidade de uma\nsolução aquosa saturada em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>\né de aproximadamente <span class=\"math inline\">\\(\\pu{6\nmol.kg-1}\\)</span>.<br/>\n</li>\n<li>Misturas correspondentes a\npontos situados na região <span class=\"math inline\">\\(A\\)</span> da\nfigura são bifásicas e misturas correspondentes a pontos situados na\nregião <span class=\"math inline\">\\(B\\)</span> da figura são\nmonofásicas.<br/>\n</li>\n<li>Misturas\ncorrespondentes a pontos situados sobre a curva são saturadas em <span class=\"math inline\">\\(\\ce{KBr}\\)</span>.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relacionas as proposições\n<em>corretas</em>.</p>",
+        "md": "Considere a curva de solubilidade do brometo de potássio em água.\n\n![Curvas de solubilidade](2E09-1P.svg)\n\nConsidere as proposições.\n\n1.  A dissolução do $\\ce{KBr}$ em água é um processo endotérmico.  \n2.  Em $\\pu{30 \\degree C}$, a molalidade de uma solução aquosa saturada\n    em $\\ce{KBr}$ é de aproximadamente $\\pu{6 mol.kg-1}$.  \n3.  Misturas correspondentes a pontos situados na região $A$ da figura\n    são bifásicas e misturas correspondentes a pontos situados na região\n    $B$ da figura são monofásicas.  \n4.  Misturas correspondentes a pontos situados sobre a curva são\n    saturadas em $\\ce{KBr}$.\n\n**Assinale** a alternativa que relacionas as proposições *corretas*.\n",
+        "tex": "Considere a curva de solubilidade do brometo de potássio em água.\n\n\\begin{figure}\n\\centering\n\\includegraphics{2E09-1P.svg}\n\\caption{Curvas de solubilidade}\n\\end{figure}\n\nConsidere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A dissolução do {\\(\\ce{KBr}\\)} em água é um processo endotérmico.\\\\\n\\item\n  Em {\\(\\qty{30}{\\unit{\\degree C}}\\)}, a molalidade de uma solução aquosa saturada em {\\(\\ce{KBr}\\)} é de aproximadamente\n  {\\(\\qty{6}{\\unit{mol.kg^{-1}}}\\)}.\\\\\n\\item\n  Misturas correspondentes a pontos situados na região {\\(A\\)} da figura são bifásicas e misturas correspondentes a pontos situados na região {\\(B\\)}\n  da figura são monofásicas.\\\\\n\\item\n  Misturas correspondentes a pontos situados sobre a curva são saturadas em {\\(\\ce{KBr}\\)}.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relacionas as proposições \\emph{corretas}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<strong>1</strong> e <strong>3</strong>",
-          "md": "**1** e **3**\n",
-          "tex": "\\textbf{1} e \\textbf{3}\n"
+          "html": "<strong>1</strong> e <strong>2</strong>",
+          "md": "**1** e **2**\n",
+          "tex": "\\textbf{1} e \\textbf{2}\n"
         },
         {
           "html": "<strong>1</strong> e <strong>4</strong>",
@@ -21387,14 +21409,14 @@
           "tex": "\\textbf{1} e \\textbf{4}\n"
         },
         {
-          "html": "<strong>3</strong> e <strong>4</strong>",
-          "md": "**3** e **4**\n",
-          "tex": "\\textbf{3} e \\textbf{4}\n"
+          "html": "<strong>2</strong> e <strong>4</strong>",
+          "md": "**2** e **4**\n",
+          "tex": "\\textbf{2} e \\textbf{4}\n"
         },
         {
-          "html": "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+          "md": "**1**, **2** e **4**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
         },
         {
           "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
@@ -21631,18 +21653,18 @@
     {
       "id_": "2E30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E30/2E30.md",
-      "date": "2023-03-18T14:21:57.995079",
+      "date": "2023-04-16T18:07:35.362752",
       "statement": {
-        "html": "<p>O volume de sangue no corpo de um mergulhador de mar profundo é cerca\nde <span class=\"math inline\">\\(\\pu{6 L}\\)</span>. As células sanguíneas\ncompõem cerca de <span class=\"math inline\">\\(55\\%\\)</span> do volume do\nsangue. Os restantes <span class=\"math inline\">\\(45\\%\\)</span> formam a\nsolução em água conhecida como plasma. A solubilidade do <span class=\"math inline\">\\(\\ce{N2}\\)</span> no sangue a uma pressão parcial\nde 1 atm é <span class=\"math inline\">\\(\\pu{5,8e-4\nmol.L-1.atm-1}\\)</span>.</p>\n<p><strong>Determine</strong> o volume de nitrogênio, medido sob <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{37 \\degree C}\\)</span>, eliminado por um\nmergulhador em profundidade de <span class=\"math inline\">\\(\\pu{90\nm}\\)</span> em seu retorno à superfície.</p>",
-        "md": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de\n$\\pu{6 L}$. As células sanguíneas compõem cerca de $55\\%$ do volume do\nsangue. Os restantes $45\\%$ formam a solução em água conhecida como\nplasma. A solubilidade do $\\ce{N2}$ no sangue a uma pressão parcial de 1\natm é $\\pu{5,8e-4 mol.L-1.atm-1}$.\n\n**Determine** o volume de nitrogênio, medido sob $\\pu{1 atm}$ e\n$\\pu{37 \\degree C}$, eliminado por um mergulhador em profundidade de\n$\\pu{90 m}$ em seu retorno à superfície.\n",
-        "tex": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de {\\(\\qty{6}{\\unit{L}}\\)}. As células sanguíneas compõem cerca de {\\(55\\%\\)} do\nvolume do sangue. Os restantes {\\(45\\%\\)} formam a solução em água conhecida como plasma. A solubilidade do {\\(\\ce{N2}\\)} no sangue a uma pressão\nparcial de 1 atm é {\\(\\qty{5,8e-4}{\\unit{mol.L^{-1}.atm^{-1}}}\\)}.\n\n\\textbf{Determine} o volume de nitrogênio, medido sob {\\(\\qty{1}{\\unit{atm}}\\)} e {\\(\\qty{37}{\\unit{\\degree C}}\\)}, eliminado por um mergulhador em\nprofundidade de {\\(\\qty{90}{\\unit{m}}\\)} em seu retorno à superfície.\n"
+        "html": "<p>O volume de sangue no corpo de um mergulhador de mar profundo é cerca\nde <span class=\"math inline\">\\(\\pu{6 L}\\)</span>. As células sanguíneas\ncompõem cerca de <span class=\"math inline\">\\(55\\%\\)</span> do volume do\nsangue. Os restantes <span class=\"math inline\">\\(45\\%\\)</span> formam a\nsolução em água conhecida como plasma. A solubilidade do <span class=\"math inline\">\\(\\ce{N2}\\)</span> no sangue a uma pressão parcial\nde 1 atm é <span class=\"math inline\">\\(\\pu{5,8e-4 mol.L-1}\\)</span>.</p>\n<p><strong>Determine</strong> o volume de nitrogênio, medido sob <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{37 \\degree C}\\)</span>, eliminado por um\nmergulhador em profundidade de <span class=\"math inline\">\\(\\pu{90\nm}\\)</span> em seu retorno à superfície.</p>",
+        "md": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de\n$\\pu{6 L}$. As células sanguíneas compõem cerca de $55\\%$ do volume do\nsangue. Os restantes $45\\%$ formam a solução em água conhecida como\nplasma. A solubilidade do $\\ce{N2}$ no sangue a uma pressão parcial de 1\natm é $\\pu{5,8e-4 mol.L-1}$.\n\n**Determine** o volume de nitrogênio, medido sob $\\pu{1 atm}$ e\n$\\pu{37 \\degree C}$, eliminado por um mergulhador em profundidade de\n$\\pu{90 m}$ em seu retorno à superfície.\n",
+        "tex": "O volume de sangue no corpo de um mergulhador de mar profundo é cerca de {\\(\\qty{6}{\\unit{L}}\\)}. As células sanguíneas compõem cerca de {\\(55\\%\\)} do\nvolume do sangue. Os restantes {\\(45\\%\\)} formam a solução em água conhecida como plasma. A solubilidade do {\\(\\ce{N2}\\)} no sangue a uma pressão\nparcial de 1 atm é {\\(\\qty{5,8e-4}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Determine} o volume de nitrogênio, medido sob {\\(\\qty{1}{\\unit{atm}}\\)} e {\\(\\qty{37}{\\unit{\\degree C}}\\)}, eliminado por um mergulhador em\nprofundidade de {\\(\\qty{90}{\\unit{m}}\\)} em seu retorno à superfície.\n"
       },
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{400 mL}\\)</span></p>\n",
-          "md": "$\\pu{400 mL}$",
-          "tex": "\\(\\qty{400}{\\unit{mL}}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\pu{286 mL}\\)</span></p>\n",
+          "md": "$\\pu{286 mL}$",
+          "tex": "\\(\\qty{286}{\\unit{mL}}\\)\n"
         }
       ],
       "data": null,
@@ -21652,7 +21674,7 @@
     {
       "id_": "2E34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E34/2E34.md",
-      "date": "2023-03-18T14:01:00.244126",
+      "date": "2023-04-16T19:45:54.624851",
       "statement": {
         "html": "<p>Uma solução <span class=\"math inline\">\\(\\pu{1}\\%\\)</span> em <span class=\"math inline\">\\(\\ce{MgSO4}\\)</span>, em massa, tem ponto de\ncongelamento <span class=\"math inline\">\\(\\pu{-0,192 \\degree\nC}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a molalidade total de todas as espécies\nde soluto.</li>\n<li><strong>Determine</strong> a fração de <span class=\"math inline\">\\(\\ce{MgSO4}\\)</span> dissociada em solução.</li>\n</ol>",
         "md": "Uma solução $\\pu{1}\\%$ em $\\ce{MgSO4}$, em massa, tem ponto de\ncongelamento $\\pu{-0,192 \\degree C}$.\n\na.  **Determine** a molalidade total de todas as espécies de soluto.\nb.  **Determine** a fração de $\\ce{MgSO4}$ dissociada em solução.\n",
@@ -21671,7 +21693,18 @@
           "tex": "\\(\\num{23}\\%\\)\n"
         }
       ],
-      "data": null,
+      "data": {
+        "quantities": [
+          {
+            "id_": "kc(H2O)",
+            "name": "kc(H2O)",
+            "symbol": null,
+            "value": null,
+            "unit": null,
+            "prec": 3
+          }
+        ]
+      },
       "choices": null,
       "correct_choice": null
     },
@@ -21989,11 +22022,11 @@
     {
       "id_": "2E22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E22/2E22.md",
-      "date": "2023-04-14T12:05:08.426477",
+      "date": "2023-04-16T16:55:55.365011",
       "statement": {
-        "html": "<p>Uma solução <span class=\"math inline\">\\(\\pu{0,124 mol.kg-1}\\)</span>\nde ácido tricloroacético tem ponto de congelamento <span class=\"math inline\">\\(\\pu{-0,423 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde ionização do ácido.</p>",
-        "md": "Uma solução $\\pu{0,124 mol.kg-1}$ de ácido tricloroacético tem ponto de\ncongelamento $\\pu{-0,423 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de ionização do\nácido.\n",
-        "tex": "Uma solução {\\(\\qty{0,124}{\\unit{mol.kg^{-1}}}\\)} de ácido tricloroacético tem ponto de congelamento {\\(\\qty{-0,423}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de ionização do ácido.\n"
+        "html": "<p>Uma solução <span class=\"math inline\">\\(\\pu{0,12 mol.kg-1}\\)</span>\nde ácido tricloroacético tem ponto de congelamento <span class=\"math inline\">\\(\\pu{-0,41 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde ionização do ácido.</p>",
+        "md": "Uma solução $\\pu{0,12 mol.kg-1}$ de ácido tricloroacético tem ponto de\ncongelamento $\\pu{-0,41 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de ionização do\nácido.\n",
+        "tex": "Uma solução {\\(\\qty{0,12}{\\unit{mol.kg^{-1}}}\\)} de ácido tricloroacético tem ponto de congelamento {\\(\\qty{-0,41}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de ionização do ácido.\n"
       },
       "solution": null,
       "answer": null,
@@ -22011,24 +22044,24 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{21 \\%}\\)</span>",
-          "md": "$\\pu{21 \\%}$\n",
-          "tex": "{\\(\\qty{21}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{20 \\%}\\)</span>",
+          "md": "$\\pu{20 \\%}$\n",
+          "tex": "{\\(\\qty{20}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{33 \\%}\\)</span>",
-          "md": "$\\pu{33 \\%}$\n",
-          "tex": "{\\(\\qty{33}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{32 \\%}\\)</span>",
+          "md": "$\\pu{32 \\%}$\n",
+          "tex": "{\\(\\qty{32}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{52 \\%}\\)</span>",
-          "md": "$\\pu{52 \\%}$\n",
-          "tex": "{\\(\\qty{52}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{51 \\%}\\)</span>",
+          "md": "$\\pu{51 \\%}$\n",
+          "tex": "{\\(\\qty{51}{\\unit{\\%}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{83 \\%}\\)</span>",
-          "md": "$\\pu{83 \\%}$\n",
-          "tex": "{\\(\\qty{83}{\\unit{\\%}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{80 \\%}\\)</span>",
+          "md": "$\\pu{80 \\%}$\n",
+          "tex": "{\\(\\qty{80}{\\unit{\\%}}\\)}\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\pu{130 \\%}\\)</span>",
@@ -22387,11 +22420,11 @@
     {
       "id_": "2E38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E38/2E38.md",
-      "date": "2023-03-18T14:22:52.040751",
+      "date": "2023-04-16T21:29:06.528877",
       "statement": {
-        "html": "<p>O ácido acético comporta-se diferentemente em dois solventes\ndistintos. O ponto de congelamento de uma solução <span class=\"math inline\">\\(5\\%\\)</span>, em massa, de ácido acético em água é\n<span class=\"math inline\">\\(\\pu{21,72 \\degree C}\\)</span>. Em benzeno, o\nabaixamento do ponto de congelamento associado a uma solução <span class=\"math inline\">\\(5\\%\\)</span>, em massa, de ácido acético é <span class=\"math inline\">\\(\\pu{2,47 \\degree C}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Explique</strong> a diferença no comportamento do ácido\nacético em solução.</li>\n<li><strong>Determine</strong> o grau de reação do ácido acético em\nágua.</li>\n<li><strong>Determine</strong> o grau de reação do ácido acético em\nbenzeno.</li>\n</ol>",
-        "md": "O ácido acético comporta-se diferentemente em dois solventes distintos.\nO ponto de congelamento de uma solução $5\\%$, em massa, de ácido acético\nem água é $\\pu{21,72 \\degree C}$. Em benzeno, o abaixamento do ponto de\ncongelamento associado a uma solução $5\\%$, em massa, de ácido acético é\n$\\pu{2,47 \\degree C}$.\n\na.  **Explique** a diferença no comportamento do ácido acético em\n    solução.\nb.  **Determine** o grau de reação do ácido acético em água.\nc.  **Determine** o grau de reação do ácido acético em benzeno.\n",
-        "tex": "O ácido acético comporta-se diferentemente em dois solventes distintos. O ponto de congelamento de uma solução {\\(5\\%\\)}, em massa, de ácido acético\nem água é {\\(\\qty{21,72}{\\unit{\\degree C}}\\)}. Em benzeno, o abaixamento do ponto de congelamento associado a uma solução {\\(5\\%\\)}, em massa, de\nácido acético é {\\(\\qty{2,47}{\\unit{\\degree C}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Explique} a diferença no comportamento do ácido acético em solução.\n\\item\n  \\textbf{Determine} o grau de reação do ácido acético em água.\n\\item\n  \\textbf{Determine} o grau de reação do ácido acético em benzeno.\n\\end{enumerate}\n"
+        "html": "<p>O ácido acético comporta-se diferentemente em dois solventes\ndistintos. O ponto de congelamento de uma solução <span class=\"math inline\">\\(5\\%\\)</span>, em massa, de ácido acético em água é\n<span class=\"math inline\">\\(\\pu{-1,72 \\degree C}\\)</span>. Em benzeno, o\nabaixamento do ponto de congelamento associado a uma solução <span class=\"math inline\">\\(5\\%\\)</span>, em massa, de ácido acético é <span class=\"math inline\">\\(\\pu{2,32 \\degree C}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Explique</strong> a diferença no comportamento do ácido\nacético em solução.</li>\n<li><strong>Determine</strong> o grau de reação do ácido acético em\nágua.</li>\n<li><strong>Determine</strong> o grau de reação do ácido acético em\nbenzeno.</li>\n</ol>",
+        "md": "O ácido acético comporta-se diferentemente em dois solventes distintos.\nO ponto de congelamento de uma solução $5\\%$, em massa, de ácido acético\nem água é $\\pu{-1,72 \\degree C}$. Em benzeno, o abaixamento do ponto de\ncongelamento associado a uma solução $5\\%$, em massa, de ácido acético é\n$\\pu{2,32 \\degree C}$.\n\na.  **Explique** a diferença no comportamento do ácido acético em\n    solução.\nb.  **Determine** o grau de reação do ácido acético em água.\nc.  **Determine** o grau de reação do ácido acético em benzeno.\n",
+        "tex": "O ácido acético comporta-se diferentemente em dois solventes distintos. O ponto de congelamento de uma solução {\\(5\\%\\)}, em massa, de ácido acético\nem água é {\\(\\qty{-1,72}{\\unit{\\degree C}}\\)}. Em benzeno, o abaixamento do ponto de congelamento associado a uma solução {\\(5\\%\\)}, em massa, de\nácido acético é {\\(\\qty{2,32}{\\unit{\\degree C}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Explique} a diferença no comportamento do ácido acético em solução.\n\\item\n  \\textbf{Determine} o grau de reação do ácido acético em água.\n\\item\n  \\textbf{Determine} o grau de reação do ácido acético em benzeno.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
@@ -22401,9 +22434,9 @@
           "tex": "O ácido acético sofre ionização em água e dimerização em benzeno.\n"
         },
         {
-          "html": "<p><span class=\"math inline\">\\(5\\%\\)</span></p>\n",
-          "md": "$5\\%$",
-          "tex": "\\(5\\%\\)\n"
+          "html": "<p><span class=\"math inline\">\\(3,1\\%\\)</span></p>\n",
+          "md": "$3,1\\%$",
+          "tex": "\\(3,1\\%\\)\n"
         },
         {
           "html": "<p><span class=\"math inline\">\\(96,5\\%\\)</span></p>\n",
@@ -22416,7 +22449,7 @@
           {
             "id_": "kf(H2O)",
             "name": "constante crioscópica da água",
-            "symbol": "k_\\mathrm{b}(\\ce{H2O})",
+            "symbol": "k_\\mathrm{c}(\\ce{H2O})",
             "value": 1.9,
             "unit": "K.kg//mol",
             "prec": 2
@@ -22424,7 +22457,7 @@
           {
             "id_": "kf(benzeno)",
             "name": "constante crioscópica do benzeno",
-            "symbol": "k_\\mathrm{b}(\\ce{C6H6})",
+            "symbol": "k_\\mathrm{c}(\\ce{C6H6})",
             "value": 5.1,
             "unit": "K.kg//mol",
             "prec": 2
@@ -22520,11 +22553,11 @@
     {
       "id_": "2E14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E14/2E14.md",
-      "date": "2023-03-19T19:32:11.262292",
+      "date": "2023-04-16T14:36:10.036216",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do brometo de cálcio.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\nbrometo de cálcio.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede do brometo de cálcio.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do cloreto de cálcio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\ncloreto de cálcio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede do cloreto de cálcio.\n"
       },
       "solution": null,
       "answer": null,
@@ -22542,7 +22575,7 @@
             "id_": "Hhid(Cl^-)",
             "name": "entalpia padrão de hidratação do \\ce{Cl^-}",
             "symbol": "\\Delta H_\\mathrm{hid}^{\\circ}(\\ce{Cl^-})",
-            "value": -336,
+            "value": -380,
             "unit": "kJ//mol",
             "prec": 3
           },
@@ -22550,7 +22583,7 @@
             "id_": "Hsol(CaCl2)",
             "name": "entalpia padrão de solução do \\ce{CaCl2}",
             "symbol": "\\Delta H_\\mathrm{sol}^{\\circ}(\\ce{CaCl2})",
-            "value": -103,
+            "value": -80,
             "unit": "kJ//mol",
             "prec": 3
           }
@@ -22558,29 +22591,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-160 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-160 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-160}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-180 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-180 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-180}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-300 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-300 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-300}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-350 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-350 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-350}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-560 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-560 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-560}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-650 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-650 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-650}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1000 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1000 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1000}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-1200 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-1200 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-1200}{\\unit{kJ.mol^{-1}}}\\)}\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{-1900 kJ.mol-1}\\)</span>",
-          "md": "$\\pu{-1900 kJ.mol-1}$\n",
-          "tex": "{\\(\\qty{-1900}{\\unit{kJ.mol^{-1}}}\\)}\n"
+          "html": "<span class=\"math inline\">\\(\\pu{-2300 kJ.mol-1}\\)</span>",
+          "md": "$\\pu{-2300 kJ.mol-1}$\n",
+          "tex": "{\\(\\qty{-2300}{\\unit{kJ.mol^{-1}}}\\)}\n"
         }
       ],
       "correct_choice": 4
@@ -22588,11 +22621,11 @@
     {
       "id_": "2E43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2E/2E43/2E43.md",
-      "date": "2023-03-18T15:40:32.127922",
+      "date": "2023-04-16T20:20:02.251469",
       "statement": {
-        "html": "<p>A análise elementar da L-carnitina, um composto que, acredita-se, que\naumenta a força muscular, indicou uma composição mássica de <span class=\"math inline\">\\(\\pu{9,38}\\% \\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{8,69}\\% \\ce{H}\\)</span>, <span class=\"math inline\">\\(\\pu{8,89}\\% \\ce{N}\\)</span> e <span class=\"math inline\">\\(\\pu{29,78}\\% \\ce{O}\\)</span>.</p>\n<p>Quando uma amostra de <span class=\"math inline\">\\(\\pu{322\nmg}\\)</span> de L-carnitina é dissolvida em metanol até completar <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de solução em <span class=\"math inline\">\\(\\pu{32 \\degree C}\\)</span>, a pressão osmótica da\nsolução é <span class=\"math inline\">\\(\\pu{0,5 atm}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica da L-carnitina.</li>\n<li><strong>Determine</strong> a massa molar da L-carnitina.</li>\n<li><strong>Determine</strong> a fórmula molecular da L-carnitina.</li>\n</ol>",
-        "md": "A análise elementar da L-carnitina, um composto que, acredita-se, que\naumenta a força muscular, indicou uma composição mássica de\n$\\pu{9,38}\\% \\ce{C}$, $\\pu{8,69}\\% \\ce{H}$, $\\pu{8,89}\\% \\ce{N}$ e\n$\\pu{29,78}\\% \\ce{O}$.\n\nQuando uma amostra de $\\pu{322 mg}$ de L-carnitina é dissolvida em\nmetanol até completar $\\pu{100 mL}$ de solução em $\\pu{32 \\degree C}$, a\npressão osmótica da solução é $\\pu{0,5 atm}$.\n\na.  **Determine** a fórmula empírica da L-carnitina.\nb.  **Determine** a massa molar da L-carnitina.\nc.  **Determine** a fórmula molecular da L-carnitina.\n",
-        "tex": "A análise elementar da L-carnitina, um composto que, acredita-se, que aumenta a força muscular, indicou uma composição mássica de\n{\\(\\num{9,38}\\% \\ce{C}\\)}, {\\(\\num{8,69}\\% \\ce{H}\\)}, {\\(\\num{8,89}\\% \\ce{N}\\)} e {\\(\\num{29,78}\\% \\ce{O}\\)}.\n\nQuando uma amostra de {\\(\\qty{322}{\\unit{mg}}\\)} de L-carnitina é dissolvida em metanol até completar {\\(\\qty{100}{\\unit{mL}}\\)} de solução em\n{\\(\\qty{32}{\\unit{\\degree C}}\\)}, a pressão osmótica da solução é {\\(\\qty{0,5}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica da L-carnitina.\n\\item\n  \\textbf{Determine} a massa molar da L-carnitina.\n\\item\n  \\textbf{Determine} a fórmula molecular da L-carnitina.\n\\end{enumerate}\n"
+        "html": "<p>A análise elementar da L-carnitina, um composto que, acredita-se, que\naumenta a força muscular, indicou uma composição mássica de <span class=\"math inline\">\\(\\pu{52,16}\\% \\ce{C}\\)</span>, <span class=\"math inline\">\\(\\pu{9,38}\\% \\ce{H}\\)</span>, <span class=\"math inline\">\\(\\pu{8,69}\\% \\ce{N}\\)</span> e <span class=\"math inline\">\\(\\pu{29,78}\\% \\ce{O}\\)</span>.</p>\n<p>Quando uma amostra de <span class=\"math inline\">\\(\\pu{322\nmg}\\)</span> de L-carnitina é dissolvida em metanol até completar <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de solução em <span class=\"math inline\">\\(\\pu{32 \\degree C}\\)</span>, a pressão osmótica da\nsolução é <span class=\"math inline\">\\(\\pu{0,5 atm}\\)</span>.</p>\n<ol type=\"a\">\n<li><strong>Determine</strong> a fórmula empírica da L-carnitina.</li>\n<li><strong>Determine</strong> a massa molar da L-carnitina.</li>\n<li><strong>Determine</strong> a fórmula molecular da L-carnitina.</li>\n</ol>",
+        "md": "A análise elementar da L-carnitina, um composto que, acredita-se, que\naumenta a força muscular, indicou uma composição mássica de\n$\\pu{52,16}\\% \\ce{C}$, $\\pu{9,38}\\% \\ce{H}$, $\\pu{8,69}\\% \\ce{N}$ e\n$\\pu{29,78}\\% \\ce{O}$.\n\nQuando uma amostra de $\\pu{322 mg}$ de L-carnitina é dissolvida em\nmetanol até completar $\\pu{100 mL}$ de solução em $\\pu{32 \\degree C}$, a\npressão osmótica da solução é $\\pu{0,5 atm}$.\n\na.  **Determine** a fórmula empírica da L-carnitina.\nb.  **Determine** a massa molar da L-carnitina.\nc.  **Determine** a fórmula molecular da L-carnitina.\n",
+        "tex": "A análise elementar da L-carnitina, um composto que, acredita-se, que aumenta a força muscular, indicou uma composição mássica de\n{\\(\\num{52,16}\\% \\ce{C}\\)}, {\\(\\num{9,38}\\% \\ce{H}\\)}, {\\(\\num{8,69}\\% \\ce{N}\\)} e {\\(\\num{29,78}\\% \\ce{O}\\)}.\n\nQuando uma amostra de {\\(\\qty{322}{\\unit{mg}}\\)} de L-carnitina é dissolvida em metanol até completar {\\(\\qty{100}{\\unit{mL}}\\)} de solução em\n{\\(\\qty{32}{\\unit{\\degree C}}\\)}, a pressão osmótica da solução é {\\(\\qty{0,5}{\\unit{atm}}\\)}.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\alph{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Determine} a fórmula empírica da L-carnitina.\n\\item\n  \\textbf{Determine} a massa molar da L-carnitina.\n\\item\n  \\textbf{Determine} a fórmula molecular da L-carnitina.\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": [
