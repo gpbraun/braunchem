@@ -40,6 +40,7 @@ PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 PANDOC_FILTERS = [
     "containers.py",
     "pu2qty.py",
+    "teste.lua",
 ]
 """Filtros para o pandoc."""
 

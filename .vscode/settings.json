@@ -16,5 +16,9 @@
             "strings": true
         },
     },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "Lua.diagnostics.globals": [
+        "pandoc",
+        "FORMAT"
+    ]
 }

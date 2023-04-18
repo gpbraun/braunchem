@@ -16,9 +16,7 @@ def div2env(elem, doc, debug=False):
         begin = latex(f"\n\\begin{{{env}}}\n")
         end = latex(f"\n\\end{{{env}}}\n")
 
-        elem = pf.Div(begin, *elem.content, end)
-
-        return elem
+        return pf.Div(begin, elem, end)
 
     return
 
