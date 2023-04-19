@@ -20,7 +20,12 @@ def main():
     FocusSet.parse_database(config.FOCUSES_DIR)
 
     for topic in ["2A"]:
-        topic_db[topic].write_pdf(
+        # topic_db[topic].write_pdf(
+        #     problem_db,
+        #     tmp_dir=config.TMP_TOPICS_DIR,
+        #     out_dir=config.OUT_DIR,
+        # )
+        topic_db[topic].write_solutions_pdf(
             problem_db,
             tmp_dir=config.TMP_TOPICS_DIR,
             out_dir=config.OUT_DIR,

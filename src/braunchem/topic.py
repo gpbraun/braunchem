@@ -86,6 +86,22 @@ class Topic(BaseModel):
 
         return "\n".join([tex_statements, tex_answers])
 
+    def tex_solutions(self, problem_db: ProblemSet):
+        """Retorna os problemas do tópico em LaTeX."""
+        if not self.problem_sets:
+            return ""
+
+        tex_solutions = ""
+
+        previous_len = 1
+        for problem_collection in self.problem_collections(problem_db):
+            tex_solutions = "\n".join(
+                [tex_solutions, problem_collection.tex_solutions()]
+            )
+            previous_len += len(problem_collection)
+
+        return tex_solutions
+
     def tex(self, problem_db: ProblemSet):
         """Retorna o conteúdo do tópico em LaTeX."""
         return self.content.tex + self.tex_problems(problem_db)
@@ -103,9 +119,32 @@ class Topic(BaseModel):
             contents=self.tex(problem_db),
         )
 
+    def tex_solutions_document(self, problem_db: ProblemSet):
+        """Cria o arquivo `pdf` do tópico."""
+        return Document(
+            id_=self.id_ + "_gabarito",
+            path=self.path.parent,
+            title=self.title,
+            author="Renan Romariz e Gabriel Braun",
+            affiliation=self.affiliation,
+            template="braun, twocolumn=true",
+            toc=False,
+            contents=self.tex_solutions(problem_db),
+        )
+
     def write_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
         """Cria o arquivo `.pdf` do tópico."""
-        self.tex_document(problem_db).write_pdf(tmp_dir.joinpath(self.id_), out_dir)
+        self.tex_document(problem_db).write_pdf(
+            tmp_dir.joinpath(self.id_),
+            out_dir,
+        )
+
+    def write_solutions_pdf(self, problem_db: ProblemSet, tmp_dir: Path, out_dir: Path):
+        """Cria o arquivo `.pdf` do tópico."""
+        self.tex_solutions_document(problem_db).write_pdf(
+            tmp_dir.joinpath(self.id_ + "_gabarito"),
+            out_dir,
+        )
 
     @classmethod
     def parse_mdfile(cls, topic_path: Path):

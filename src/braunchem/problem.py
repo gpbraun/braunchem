@@ -92,6 +92,19 @@ class Problem(BaseModel):
 
         return latex.env("problem", contents, keys=parameters)
 
+    def tex_solution(self):
+        """Retorna a solução do problema em LaTeX."""
+        contents = self.solution.tex
+
+        parameters = {
+            "id": self.id_,
+            "path": self.path.parent,
+        }
+        if self.is_objective:
+            parameters["answer"] = chr(ord("A") + self.correct_choice)
+
+        return latex.env("solution", contents, keys=parameters)
+
     @classmethod
     def parse_mdfile(cls, problem_path: Path):
         """Cria um `Problem` a partir de um arquivo `.md`."""
@@ -201,11 +214,6 @@ class Problem(BaseModel):
 
         # problema discursivo
         if solution:
-            answer_list = solution.find("ul")
-            if answer_list:
-                answer = [Text.parse_html(li) for li in answer_list.find_all("li")]
-                problem["answer"] = answer
-                answer_list.decompose()
             problem["solution"] = Text.parse_html(solution.extract())
         problem["statement"] = Text.parse_html(soup)
 
@@ -275,6 +283,17 @@ class ProblemSet(BaseModel):
         title = self.title
         header = latex.section(title, level=0, numbered=False)
         statements = "\n".join(p.tex() for p in self)
+
+        return header + statements
+
+    def tex_solutions(self) -> str:
+        """Retorna o conjunto de problemas em LaTeX."""
+        if not self.problems:
+            return ""
+
+        title = self.title
+        header = latex.section(title, level=0, numbered=False)
+        statements = "\n".join(p.tex_solution() for p in self)
 
         return header + statements
 

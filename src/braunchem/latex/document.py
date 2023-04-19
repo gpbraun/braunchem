@@ -225,10 +225,7 @@ class Document:
         if tectonic:
             run_tectonic(tex_path)
         else:
-            if self.classname == "braunpres":
-                run_latexmk(tex_path, lualatex=True)
-            else:
-                run_latexmk(tex_path)
+            run_latexmk(tex_path)
 
         pdf_path = tex_path.with_suffix(".pdf")
 

@@ -798,44 +798,10 @@
 	{
 		pensi = 
       {
-        \draw_begin: 
-          \color_set:nnn {pensi} {HTML} {ffc107} 
-          \fp_set:Nn \l_tmpa_fp { 60 } % Angle
-          \draw_path_moveto:n 
-            { 0em , 0em }
-          \draw_path_lineto:n 
-            { 0em , 1cm }
-          \draw_path_lineto:n 
-            { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) , 1cm }
-          \draw_path_arc:nnn { 90 } { - \l_tmpa_fp }
-            { 1cm * ( sind(\l_tmpa_fp) ) / ( cosd(\l_tmpa_fp) + sind(\l_tmpa_fp) + 1 ) }
-          \draw_path_close:   
-          \color_fill:n { white }
-          \draw_path_use:n { fill }
-          \draw_transform_shift:n 
-            {  
-              \draw_point_polar:nn 
-                { 0.7 * 1cm  } { 90 - \l_tmpa_fp / 2 }
-            }
-          \draw_path_moveto:n 
-            {
-              \draw_point_polar:nn 
-                {  1cm / ( 3 * sqrt(3) ) } { 0 }
-            }
-          \draw_path_lineto:n 
-            {
-              \draw_point_polar:nn
-                {  1cm / ( 3 * sqrt(3) ) } { 120 }
-            }
-          \draw_path_lineto:n 
-            {
-              \draw_point_polar:nn
-                {  1cm / ( 3 * sqrt(3) ) } { -120 }
-            }
-          \draw_path_close:
-          \color_fill:n { pensi }
-          \draw_path_use:n { fill }
-        \draw_end:
+        \tikz \fill [ yellow ]
+            (0,0) |- (0.366, 1) 
+            arc [ start~ angle = 90, end~ angle = -60, radius = 0.366] -- cycle 
+            (0.253, 0.772) -- (0.253, 0.439) -- (0.542, 0.606);
       },
 	}
 
@@ -869,9 +835,9 @@
 		after-skip  .initial:n  = 0.5em,
 	}
 
-% #1 -> footnote text
-\cs_set:Npn \BraunThanks #1
-% equivalent to \thanks
+% #1 -> texto do rodapé
+\cs_new:Nn \braun_thanks:n
+% equivalente ao \thanks
   { 
 		\tl_if_blank:nF {#1}
       {
@@ -880,30 +846,22 @@
         \footnotetext [ 0 ] {#1}
         \group_end:
       }
-		\cs_undefine:N \BraunThanks % save memory
+		\cs_undefine:N \braun_thanks:n % pode ser usado apenas uma vez
   }
 
+\cs_new:Npn \braun_horizontal_rule:
+% linha horizontal
+  {
+    \noindent \exp_args:NVV \rule \linewidth \g_braun_linewidth_dim
+  }
 
-\cs_set:Npn \BraunHRule
-% print horizontal rule
+% #1 -> conteúdo
+\cs_new:Nn \braun_single_column:n
   { 
-    \group_begin:
-    \BraunNoWarning
-    \dim_zero:N \parindent
-    \skip_vertical:n {1pt}
-    \draw_begin:
-    \draw_linewidth:V \g_braun_linewidth_dim
-    \draw_path_moveto:n { 0cm , 0cm }
-    \draw_path_lineto:n { \linewidth , 0cm }
-    \draw_path_use_clear:n { stroke }
-    \draw_end:
-    \skip_vertical:n {1pt}
-    \group_end:
+    \legacy_if:nTF { @twocolumn } 
+      { \twocolumn [ \mode_leave_vertical: #1 ] } 
+      { \mode_leave_vertical: #1 } 
   }
-
-% #1 -> content
-\cs_set_protected:Npn \BraunSingleColumn #1
-  { \legacy_if:nTF { @twocolumn } { \twocolumn [#1] } {#1} }
 
 %% MAKETITLE COMMAND
 \coffin_new:N \l_braun_title_coffin
@@ -913,8 +871,6 @@
   {
     \group_begin:
     \bool_set_true:N \l_braun_if_maketitle_bool
-    \BraunNoWarning
-    % \dim_zero:N  \parindent
     \dim_gzero:N \@topnum % Prevents figures from going at top of page.
     % Set keys
     \IfNoValueF {#1} { \keys_set:nn { braun/maketitle } {#1} }
@@ -950,24 +906,24 @@
     % Print title
 
     \thispagestyle { plain.scrheadings }
-
-    \BraunSingleColumn
+    
+    \braun_single_column:n
       {
-        \skip_vertical:n { -\headheight - 1em }
+        \skip_vertical:n { -\headheight - 2em }
         \tl_use:N        \l_braun_title_pre_text_tl
-        \bool_if:NT      \l_braun_title_toprule_bool { \BraunHRule }
+        \bool_if:NT      \l_braun_title_toprule_bool { \braun_horizontal_rule: }
         \skip_vertical:V \l_braun_title_before_skip
 
         \coffin_typeset:Nnnnn \l_braun_title_coffin {l} {vc} {0pt} {0pt}
 
         \skip_vertical:V \l_braun_title_after_skip
-        \bool_if:NT      \l_braun_title_botrule_bool { \BraunHRule }
+        \bool_if:NT      \l_braun_title_botrule_bool { \braun_horizontal_rule: }
         \tl_use:N        \l_braun_title_post_text_tl
 
         \skip_vertical:n { 3em }
       }
     % \bool_if:NT \l_braun_title_contact_input_bool
-      { \BraunThanks { \PrintContact } }
+      { \braun_thanks:n { \PrintContact } }
     \group_end:
   }
 
@@ -1737,6 +1693,9 @@
 
     path .tl_set:N = \g_braun_graphics_path_tl,
     path .initial:n = ,
+
+    answer .tl_set:N = \l_braun_answer_tl,
+    answer .initial:n = ,
   }
 
 \newcounter { problem }
@@ -1761,6 +1720,40 @@
     \cs_set_eq:NN \endfigure \endsimplefigure
 
     \minisec{ \text_uppercase:n { \l_braun_problem_name_tl } ~ \arabic { problem }  }     
+  } 
+  {
+    \group_end:
+
+    \smallskip
+  }
+
+%============================================================%
+%   AMBIENTE DAS SOLUÇÕES
+%============================================================%
+
+% #1 -> set keys: braun/problem
+\NewDocumentEnvironment { solution } { O{} }
+  {
+    \refstepcounter { problem }
+
+    \group_begin:
+
+    \keys_set:nn { braun/problems } { path = , id = , answer = , #1 }
+
+    \dim_zero:N \parindent
+    \dim_set_eq:NN \parskip \medskipamount   
+
+    \cs_set_eq:NN \figure \simplefigure
+    \cs_set_eq:NN \endfigure \endsimplefigure
+
+    \minisec
+      { 
+        \text_uppercase:n { \l_braun_problem_name_tl } ~ \arabic { problem }
+        \tl_if_empty:NF \l_braun_answer_tl 
+          { .\;\, \choicebox { \l_braun_answer_tl  } }
+        \hfill
+          { \color{purple} \l_braun_problem_id_tl }
+      }     
   } 
   {
     \group_end:
@@ -1877,3 +1870,4 @@
 \recalctypearea
 
 \ExplSyntaxOff
+
