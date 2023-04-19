@@ -1,20 +1,11 @@
-Olá {{helloworld}}
+Um imã de ferro possui $\pu{25 g}$ de massa. A massa de um átomo de ferro é $\pu{9,3e-26 kg}$.
 
-indentado
+**Assinale** a alternativa que mais se aproxima do número de átomos de ferro no imã.
 
-:::example
+- [x] $\pu{3,7e23}$
 
-Um teste
+Mais um teste
 
-- um
-- Dois
-- olá
+---
 
-:::
-
-Outro teste:
-
-a. Um $f(x) = \pu{10 kg}$
-b. Dois
-c. Três
-
+Essa é a solução

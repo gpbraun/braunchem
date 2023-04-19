@@ -26,6 +26,7 @@ MARKDOWN_EXTENSIONS = [
     "pipe_tables",
     "implicit_figures",
     "fenced_divs",
+    "yaml_metadata_block",
 ]
 """Extensões de markdown utilizadas"""
 
@@ -34,13 +35,16 @@ PANDOC_MARKDOWN_FORMAT = (
 )
 """Formato markdown para o pandoc."""
 
+PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
+"""Diretório contendo os filtros"""
+
 PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 """Diretório contendo os filtros"""
 
 PANDOC_FILTERS = [
     "containers.py",
     "pu2qty.py",
-    "teste.lua",
+    "lists.lua",
 ]
 """Filtros para o pandoc."""
 
@@ -51,6 +55,32 @@ PANDOC_FILTER_PATHS = [
 
 PANDOC_COLUMN_NUM = 150
 """Número de colunas consideradas pelo pandoc"""
+
+
+def md2json(md_str: str) -> str:
+    """Converte markdown em HTML usando pandoc."""
+    return pypandoc.convert_text(
+        source=md_str,
+        to="json",
+        format=PANDOC_MARKDOWN_FORMAT,
+        extra_args=["--quiet", "--mathjax"],
+        filters=PANDOC_FILTER_PATHS,
+    )
+
+
+def md2problem(html_str: str) -> str:
+    """Converte HTML em LaTeX usando pandoc."""
+    tex_str = pypandoc.convert_text(
+        source=html_str,
+        to="/home/braun/Documents/Developer/braunchem/src/braunchem/utils/writers/problem.lua",
+        format=PANDOC_MARKDOWN_FORMAT,
+        extra_args=["--quiet", "--mathjax", f"--columns={PANDOC_COLUMN_NUM}"],
+        filters=PANDOC_FILTER_PATHS,
+    )
+    tex_str = tex_str.replace("\\toprule()", "\\toprule")
+    tex_str = tex_str.replace("\\midrule()", "\\midrule")
+    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
+    return tex_str
 
 
 def md2html(md_str: str) -> str:
@@ -170,19 +200,6 @@ class Text(pydantic.BaseModel):
 
         md_str = html2md(html_str)
         tex_str = html2tex(html_str)
-
-        return cls(html=html_str, md=md_str, tex=tex_str)
-
-    @classmethod
-    def parse_md_pres(cls, md_str: str):
-        """Cria um `Text` a partir de uma apresentação em markdown."""
-        if not md_str:
-            return
-
-        md_str = str(md_str).strip()
-
-        html_str = md2html(md_str)
-        tex_str = md2beamer(md_str)
 
         return cls(html=html_str, md=md_str, tex=tex_str)
 

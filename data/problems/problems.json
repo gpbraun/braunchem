@@ -2589,43 +2589,43 @@
     {
       "id_": "1E03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E03/1E03.md",
-      "date": "2023-04-11T00:59:36.623876",
+      "date": "2023-04-17T20:19:48.974540",
       "statement": {
         "html": "<p>Considere os pares de compostos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{P4O10}\\)</span> e <span class=\"math inline\">\\(\\ce{PCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaBr}\\)</span> e <span class=\"math inline\">\\(\\ce{MgBr2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CaS}\\)</span> e <span class=\"math inline\">\\(\\ce{CaO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem o <em>maior</em> caráter iônico.</p>",
         "md": "Considere os pares de compostos:\n\n1.  $\\ce{P4O10}$ e $\\ce{PCl3}$\n2.  $\\ce{CO2}$ e $\\ce{NO2}$\n3.  $\\ce{NaBr}$ e $\\ce{MgBr2}$\n4.  $\\ce{CaS}$ e $\\ce{CaO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem o *maior* caráter iônico.\n",
-        "tex": "Considere os pares de compostos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{P4O10}\\)} e {\\(\\ce{PCl3}\\)}\n\\item\n  {\\(\\ce{CO2}\\)} e {\\(\\ce{NO2}\\)}\n\\item\n  {\\(\\ce{NaBr}\\)} e {\\(\\ce{MgBr2}\\)}\n\\item\n  {\\(\\ce{CaS}\\)} e {\\(\\ce{CaO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem o \\emph{maior} caráter iônico.\n"
+        "tex": "Considere os pares de compostos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\item\n  {\\(\\ce{P4O10}\\)} e {\\(\\ce{PCl3}\\)}\n\\item\n  {\\(\\ce{CO2}\\)} e {\\(\\ce{NO2}\\)}\n\\item\n  {\\(\\ce{NaBr}\\)} e {\\(\\ce{MgBr2}\\)}\n\\item\n  {\\(\\ce{CaS}\\)} e {\\(\\ce{CaO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem o \\emph{maior} caráter iônico.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
+          "html": "<strong>1</strong>",
+          "md": "**1**\n",
+          "tex": "\\textbf{1}\n"
+        },
+        {
+          "html": "<strong>2</strong>",
+          "md": "**2**\n",
+          "tex": "\\textbf{2}\n"
+        },
+        {
           "html": "<strong>1</strong> e <strong>2</strong>",
           "md": "**1** e **2**\n",
           "tex": "\\textbf{1} e \\textbf{2}\n"
         },
         {
-          "html": "<strong>1</strong> e <strong>4</strong>",
-          "md": "**1** e **4**\n",
-          "tex": "\\textbf{1} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>2</strong> e <strong>4</strong>",
-          "md": "**2** e **4**\n",
-          "tex": "\\textbf{2} e \\textbf{4}\n"
+          "html": "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
+          "md": "**1**, **2** e **3**\n",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}\n"
         },
         {
           "html": "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
           "md": "**1**, **2** e **4**\n",
           "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}\n"
-        },
-        {
-          "html": "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-          "md": "**1**, **2**, **3** e **4**\n",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}\n"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 2
     },
     {
       "id_": "1E17",
@@ -28397,18 +28397,18 @@
     {
       "id_": "2A49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A49/2A49.md",
-      "date": "2023-02-06T03:09:36.320486",
+      "date": "2023-04-19T20:01:32.188975",
       "statement": {
-        "html": "<p>A entalpia da reação: <span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -&gt; 2 Al2O3(s) }\n\\]</span> é <span class=\"math inline\">\\(\\pu{-3350 kJ.mol-1}\\)</span> em\n<span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Determine</strong> a entalpia da reação em <span class=\"math inline\">\\(\\pu{100 \\degree C}\\)</span>.</p>",
-        "md": "A entalpia da reação: $$\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n$$ é $\\pu{-3350 kJ.mol-1}$ em $\\pu{298 K}$.\n\n**Determine** a entalpia da reação em $\\pu{100 \\degree C}$.\n",
-        "tex": "A entalpia da reação: {\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n\\]} é {\\(\\qty{-3350}{\\unit{kJ.mol^{-1}}}\\)} em {\\(\\qty{298}{\\unit{K}}\\)}.\n\n\\textbf{Determine} a entalpia da reação em {\\(\\qty{100}{\\unit{\\degree C}}\\)}.\n"
+        "html": "<p>A entalpia da reação: <span class=\"math display\">\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -&gt; 2 Al2O3(s) }\n\\]</span> é <span class=\"math inline\">\\(\\pu{-3350 kJ.mol-1}\\)</span> em\n<span class=\"math inline\">\\(\\pu{298 K}\\)</span>.</p>\n<p><strong>Determine</strong> a entalpia da reação em <span class=\"math inline\">\\(\\pu{1000 \\degree C}\\)</span>.</p>",
+        "md": "A entalpia da reação: $$\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n$$ é $\\pu{-3350 kJ.mol-1}$ em $\\pu{298 K}$.\n\n**Determine** a entalpia da reação em $\\pu{1000 \\degree C}$.\n",
+        "tex": "A entalpia da reação: {\\[\n    \\ce{ 4 Al(s) + 3 O2(g) -> 2 Al2O3(s) }\n\\]} é {\\(\\qty{-3350}{\\unit{kJ.mol^{-1}}}\\)} em {\\(\\qty{298}{\\unit{K}}\\)}.\n\n\\textbf{Determine} a entalpia da reação em {\\(\\qty{1000}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": null,
       "answer": [
         {
-          "html": "<p><span class=\"math inline\">\\(\\pu{-3380 kJ.mol-1}\\)</span></p>\n",
-          "md": "$\\pu{-3380 kJ.mol-1}$",
-          "tex": "\\(\\qty{-3380}{\\unit{kJ.mol^{-1}}}\\)\n"
+          "html": "<p><span class=\"math inline\">\\(\\pu{-3375 kJ.mol-1}\\)</span></p>\n",
+          "md": "$\\pu{-3375 kJ.mol-1}$",
+          "tex": "\\(\\qty{-3375}{\\unit{kJ.mol^{-1}}}\\)\n"
         }
       ],
       "data": {
@@ -28978,21 +28978,6 @@
       "correct_choice": null
     },
     {
-      "id_": "2A53",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A53/2A53.md",
-      "date": "2023-02-06T00:49:40.151334",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A31/2A31.md",
       "date": "2023-02-15T23:18:55.727448",
@@ -29357,11 +29342,11 @@
     {
       "id_": "2A45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A45/2A45.md",
-      "date": "2023-02-06T01:59:22.175504",
+      "date": "2023-04-19T20:03:20.547341",
       "statement": {
-        "html": "<p>O gás de água é um combustível barato de baixo grau calorífico obtido\ndo carvão. A produção do gás de água é descrita pela reação: <span class=\"math display\">\\[\n    \\ce{ C(s) + H2O(l) -&gt; CO(g) + H2(g) }\n\\]</span></p>\n<p><strong>Determine</strong> a variação de entalpia associada à\nprodução de <span class=\"math inline\">\\(\\pu{200 L}\\)</span> de\nhidrogênio em <span class=\"math inline\">\\(\\pu{500 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{65 \\degree C}\\)</span>.</p>",
-        "md": "O gás de água é um combustível barato de baixo grau calorífico obtido do\ncarvão. A produção do gás de água é descrita pela reação: $$\n    \\ce{ C(s) + H2O(l) -> CO(g) + H2(g) }\n$$\n\n**Determine** a variação de entalpia associada à produção de\n$\\pu{200 L}$ de hidrogênio em $\\pu{500 Torr}$ e $\\pu{65 \\degree C}$.\n",
-        "tex": "O gás de água é um combustível barato de baixo grau calorífico obtido do carvão. A produção do gás de água é descrita pela reação: {\\[\n    \\ce{ C(s) + H2O(l) -> CO(g) + H2(g) }\n\\]}\n\n\\textbf{Determine} a variação de entalpia associada à produção de {\\(\\qty{200}{\\unit{L}}\\)} de hidrogênio em {\\(\\qty{500}{\\unit{Torr}}\\)} e\n{\\(\\qty{65}{\\unit{\\degree C}}\\)}.\n"
+        "html": "<p>O gás de água é um combustível barato de baixo grau calorífico obtido\ndo carvão. A produção do gás de água é descrita pela reação: <span class=\"math display\">\\[\n    \\ce{ C(s) + H2O(g) -&gt; CO(g) + H2(g) }\n\\]</span></p>\n<p><strong>Determine</strong> a variação de entalpia associada à\nprodução de <span class=\"math inline\">\\(\\pu{200 L}\\)</span> de\nhidrogênio em <span class=\"math inline\">\\(\\pu{500 Torr}\\)</span> e <span class=\"math inline\">\\(\\pu{65 \\degree C}\\)</span>.</p>",
+        "md": "O gás de água é um combustível barato de baixo grau calorífico obtido do\ncarvão. A produção do gás de água é descrita pela reação: $$\n    \\ce{ C(s) + H2O(g) -> CO(g) + H2(g) }\n$$\n\n**Determine** a variação de entalpia associada à produção de\n$\\pu{200 L}$ de hidrogênio em $\\pu{500 Torr}$ e $\\pu{65 \\degree C}$.\n",
+        "tex": "O gás de água é um combustível barato de baixo grau calorífico obtido do carvão. A produção do gás de água é descrita pela reação: {\\[\n    \\ce{ C(s) + H2O(g) -> CO(g) + H2(g) }\n\\]}\n\n\\textbf{Determine} a variação de entalpia associada à produção de {\\(\\qty{200}{\\unit{L}}\\)} de hidrogênio em {\\(\\qty{500}{\\unit{Torr}}\\)} e\n{\\(\\qty{65}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": null,
       "answer": [
@@ -29907,21 +29892,6 @@
       "correct_choice": 4
     },
     {
-      "id_": "2A55",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A55/2A55.md",
-      "date": "2023-02-06T00:49:40.155334",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A40/2A40.md",
       "date": "2023-02-06T03:57:44.255504",
@@ -30173,36 +30143,6 @@
       "correct_choice": 3
     },
     {
-      "id_": "2A54",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A54/2A54.md",
-      "date": "2023-02-06T00:49:40.151334",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2A51",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A51/2A51.md",
-      "date": "2023-02-06T00:49:40.147334",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2A11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A11/2A11.md",
       "date": "2023-02-13T14:32:59.118863",
@@ -30302,21 +30242,6 @@
         }
       ],
       "correct_choice": 4
-    },
-    {
-      "id_": "2A52",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2A/2A52/2A52.md",
-      "date": "2023-02-06T00:49:40.151334",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "2A18",

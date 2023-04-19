@@ -1269,7 +1269,7 @@
             \captionof { table } 
               { 
                 \raggedright
-                \l_tmpa_tl 
+                \l_tmpa_tl
               } 
           },
         colframe = colortable_frame_color,
