@@ -830,7 +830,7 @@
 		botrule .default:n  = true,
 
 		before-skip .skip_set:N = \l_braun_title_before_skip,
-		before-skip .initial:n  = 0.5em,
+		before-skip .initial:n  = 0.7em,
 		after-skip  .skip_set:N = \l_braun_title_after_skip,
 		after-skip  .initial:n  = 0.5em,
 	}
@@ -1752,7 +1752,7 @@
         \tl_if_empty:NF \l_braun_answer_tl 
           { .\;\, \choicebox { \l_braun_answer_tl  } }
         \hfill
-          { \color{purple} \l_braun_problem_id_tl }
+          { \color{purple} \normalfont \texttt{ \l_braun_problem_id_tl } }
       }     
   } 
   {
