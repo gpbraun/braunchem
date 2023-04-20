@@ -124,7 +124,7 @@ class Topic(BaseModel):
         return Document(
             id_=self.id_ + "_gabarito",
             path=self.path.parent,
-            title="Gabarito " + self.title,
+            title="Gabarito: " + self.title,
             author="Renan Romariz e Gabriel Braun",
             affiliation=self.affiliation,
             template="braun, twocolumn=true",
