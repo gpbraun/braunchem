@@ -9,8 +9,11 @@ def main():
     md_text = test_file.read_text()
 
     problem_json = converter.md2problem(md_text)
-    problem_jsons = json.dumps(problem_json, indent=2, ensure_ascii=False)
-    print(problem_jsons)
+    problem_jsons = json.dumps(problem_json, indent=4, ensure_ascii=False)
+
+    json_file = Path("test/test_problem.json")
+    json_file.touch(exist_ok=True)
+    json_file.write_text(problem_jsons)
 
 
 if __name__ == "__main__":
