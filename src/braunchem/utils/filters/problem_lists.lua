@@ -105,7 +105,8 @@ local function autoNumChoices(math_text)
 
     local function addNumChoice(value)
         -- Cria uma alternativa numérica a partir de seu valor.
-        local math_choice_text = string.gsub(math_text, correct_value_str, formatValue(value))
+        local choice_value_str = formatValue(value)
+        local math_choice_text = string.gsub(math_text, correct_value_str, choice_value_str)
         addChoice(pandoc.Plain(pandoc.Math("InlineMath", math_choice_text)))
     end
 
