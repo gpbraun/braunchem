@@ -2,10 +2,12 @@ Um imã de ferro possui $\pu{25 g}$ de massa. A massa de um átomo de ferro é $
 
 **Assinale** a alternativa que mais se aproxima do número de átomos de ferro no imã.
 
-- [x] $\pu{3,7e23}$
-
-Mais um teste
+- [x] $\pu{100 m}$
 
 ---
 
 Essa é a solução
+
+$$
+    f(x) = x
+$$

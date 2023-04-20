@@ -22,7 +22,7 @@ def autoprops(true_props):
         ]
         correct_choice = 0
     # Uma correta
-    if true_props == [0]:
+    if true_props == [0]:  # 1
         choices = [
             "<strong>1</strong>",
             "<strong>2</strong>",
@@ -31,7 +31,7 @@ def autoprops(true_props):
             "<strong>1</strong> e <strong>4</strong>",
         ]
         correct_choice = 0
-    if true_props == [1]:
+    if true_props == [1]:  # 2
         choices = [
             "<strong>1</strong>",
             "<strong>2</strong>",
@@ -40,7 +40,7 @@ def autoprops(true_props):
             "<strong>2</strong> e <strong>4</strong>",
         ]
         correct_choice = 1
-    if true_props == [2]:
+    if true_props == [2]:  # 3
         choices = [
             "<strong>2</strong>",
             "<strong>3</strong>",
@@ -49,7 +49,7 @@ def autoprops(true_props):
             "<strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 1
-    if true_props == [3]:
+    if true_props == [3]:  # 4
         choices = [
             "<strong>3</strong>",
             "<strong>4</strong>",
@@ -59,7 +59,7 @@ def autoprops(true_props):
         ]
         correct_choice = 1
     # Duas corretas
-    if true_props == [0, 1]:
+    if true_props == [0, 1]:  # 1 e 2
         choices = [
             "<strong>1</strong>",
             "<strong>2</strong>",
@@ -68,7 +68,7 @@ def autoprops(true_props):
             "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
         ]
         correct_choice = 2
-    if true_props == [0, 2]:
+    if true_props == [0, 2]:  # 1 e 3
         choices = [
             "<strong>1</strong>",
             "<strong>3</strong>",
@@ -77,7 +77,7 @@ def autoprops(true_props):
             "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 2
-    if true_props == [0, 3]:
+    if true_props == [0, 3]:  # 1 e 4
         choices = [
             "<strong>1</strong>",
             "<strong>4</strong>",
@@ -86,7 +86,7 @@ def autoprops(true_props):
             "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 2
-    if true_props == [1, 2]:
+    if true_props == [1, 2]:  # 2 e 3
         choices = [
             "<strong>2</strong>",
             "<strong>3</strong>",
@@ -95,7 +95,7 @@ def autoprops(true_props):
             "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 2
-    if true_props == [1, 3]:
+    if true_props == [1, 3]:  # 2 e 4
         choices = [
             "<strong>2</strong>",
             "<strong>4</strong>",
@@ -104,7 +104,7 @@ def autoprops(true_props):
             "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 2
-    if true_props == [2, 3]:
+    if true_props == [2, 3]:  # 3 e 4
         choices = [
             "<strong>3</strong>",
             "<strong>4</strong>",
@@ -114,7 +114,7 @@ def autoprops(true_props):
         ]
         correct_choice = 2
     # Três corretas
-    if true_props == [0, 1, 2]:
+    if true_props == [0, 1, 2]:  # 1, 2 e 3
         choices = [
             "<strong>1</strong> e <strong>2</strong>",
             "<strong>1</strong> e <strong>3</strong>",
@@ -123,7 +123,7 @@ def autoprops(true_props):
             "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 3
-    if true_props == [0, 1, 3]:
+    if true_props == [0, 1, 3]:  # 1, 2 e 4
         choices = [
             "<strong>1</strong> e <strong>2</strong>",
             "<strong>1</strong> e <strong>4</strong>",
@@ -132,7 +132,7 @@ def autoprops(true_props):
             "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 3
-    if true_props == [0, 2, 3]:
+    if true_props == [0, 2, 3]:  # 1, 3 e 4
         choices = [
             "<strong>1</strong> e <strong>3</strong>",
             "<strong>1</strong> e <strong>4</strong>",
@@ -141,7 +141,7 @@ def autoprops(true_props):
             "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
         ]
         correct_choice = 3
-    if true_props == [1, 2, 3]:
+    if true_props == [1, 2, 3]:  # 2, 3 e 4
         choices = [
             "<strong>2</strong> e <strong>3</strong>",
             "<strong>2</strong> e <strong>4</strong>",
@@ -151,7 +151,7 @@ def autoprops(true_props):
         ]
         correct_choice = 3
     # Todas corretas
-    if true_props == [0, 1, 2, 3]:
+    if true_props == [0, 1, 2, 3]:  # 1, 2, 3 e 4
         choices = [
             "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
             "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",

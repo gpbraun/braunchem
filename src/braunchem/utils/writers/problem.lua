@@ -25,8 +25,9 @@ local latex_filters = {
     end
 }
 
--- Converte um Pandoc em latex e html
-local text = function(doc, opts)
+-- Converte um pandoc.Block em latex e html
+local text = function(block, opts)
+    local doc = pandoc.Pandoc(block)
     return {
         html  = pandoc.write(doc, 'html', opts),
         latex = pandoc.write(doc:walk(latex_filters), 'latex', opts),
@@ -35,10 +36,14 @@ end
 
 function Writer(doc, opts)
     -- Converte as alternativas
-    local choices = {}
-    for _, block in ipairs(doc.meta.choices) do
-        local choice_doc = pandoc.Pandoc(block)
-        table.insert(choices, text(choice_doc, opts))
+    local choices = nil
+    local correct_choice = nil
+    if doc.meta.choices ~= nil then
+        choices = {}
+        for _, block in ipairs(doc.meta.choices) do
+            table.insert(choices, text(block, opts))
+        end
+        correct_choice = doc.meta.correct_choice
     end
 
     -- Separa o enunciado da solução.
@@ -55,16 +60,14 @@ function Writer(doc, opts)
             table.insert(statement, block)
         end
     end
-    local statement_doc = pandoc.Pandoc(statement)
-    local solution_doc  = pandoc.Pandoc(solution)
 
-    local problem_data  = {
+    local problem_data = {
         -- teste = doc.blocks,
-        choices = choices,
-        date = doc.meta.date,
-        correct_choice = doc.meta.correct_choice,
-        statement = text(statement_doc, opts),
-        solution = text(solution_doc, opts)
+        date           = doc.meta.date,
+        choices        = choices,
+        correct_choice = correct_choice,
+        statement      = text(statement, opts),
+        solution       = text(solution, opts)
     }
     return pandoc.json.encode(problem_data)
 end
