@@ -62,7 +62,7 @@ function Writer(doc, opts)
     end
 
     local problem_data = {
-        -- teste          = doc.meta.choices,
+        teste          = doc.meta.choices,
         date           = doc.meta.date,
         choices        = choices,
         correct_choice = correct_choice - 1,

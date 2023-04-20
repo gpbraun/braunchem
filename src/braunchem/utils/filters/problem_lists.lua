@@ -4,13 +4,24 @@ local choices = nil
 local correct_choice = nil
 
 
-local addChoice = function(choice)
+local function trimBlockContentSpaces(content)
+    -- Remove espaços em volta de um bloco.
+    if content[1].tag == "Space" then
+        table.remove(content, 1)
+    end
+    if content[#content].tag == "Space" then
+        table.remove(content, #content)
+    end
+end
+
+
+local function addChoice(choice)
     -- Adiciona uma alternativa na lista global.
     table.insert(choices, choice)
 end
 
 
-local addPropChoice = function(prop_choice_nums)
+local function addPropChoice(prop_choice_nums)
     -- Cria uma alternativa para proposições.
     if #prop_choice_nums == 0 then
         return pandoc.Plain("NDA")
@@ -31,7 +42,7 @@ local addPropChoice = function(prop_choice_nums)
 end
 
 
-local autoPropChoices = function(elem)
+local function autoPropChoices(elem)
     -- Cria distratores para um problema de avaliação de proposições.
     choices = {}
     local prop_choice_map = {
@@ -62,11 +73,11 @@ local autoPropChoices = function(elem)
         table.remove(choice[1].content, 1)
     end
 
-    -- Adiciona as cinco alternativas na lista
+    -- adiciona as cinco alternativas na lista
     local correct_props_str = table.concat(correct_props, ",")
     for i, prop_choice_nums in ipairs(prop_choice_map[correct_props_str]) do
         addPropChoice(prop_choice_nums)
-        -- Procura a alternativa correta
+        -- procura a alternativa correta
         if table.concat(prop_choice_nums, ",") == correct_props_str then
             correct_choice = i
         end
@@ -74,7 +85,7 @@ local autoPropChoices = function(elem)
 end
 
 
-local formatValue = function(value)
+local function formatValue(value)
     -- Converte um valor em uma string com formatação correta.
     local prec_value = string.format("%.2g", value)
 
@@ -87,16 +98,12 @@ local formatValue = function(value)
 end
 
 
-local autoNumChoices = function(math_text)
+local function autoNumChoices(math_text)
     -- Cria distratores a partir de uma alternativa numérica.
-    choices = {}
-    math.randomseed(1234)
-    correct_choice = math.random(1, 5)
-
     local _, _, correct_value_str = string.find(math_text, "(%d+[%.%,]?%d*[eE]?[+-]?%d*)")
     local correct_value = tonumber(tostring(string.gsub(correct_value_str, ",", ".")))
 
-    local addNumChoice = function(value)
+    local function addNumChoice(value)
         -- Cria uma alternativa numérica a partir de seu valor.
         local math_choice_text = string.gsub(math_text, correct_value_str, formatValue(value))
         addChoice(pandoc.Plain(pandoc.Math("InlineMath", math_choice_text)))
@@ -111,19 +118,69 @@ local autoNumChoices = function(math_text)
 end
 
 
-local autoChoices = function(choice)
-    -- Gera distratores a partir de uma alternativa correta.
-
-    -- alternativa consiste apenas de uma equação
-    if #choice[1].content == 1 and choice[1].content[1].tag == "Math" then
-        -- gerar alternativas numéricas.
-        autoNumChoices(choice[1].content[1].text)
+local function generatePermutations(n, items)
+    -- Usa o algorítimo de Heap para gerar permutações da lista.
+    if n == 0 then
+        addChoice(items)
+    else
+        for i = 1, n do
+            generatePermutations(n - 1, items)
+            local swapIndex = n % 2 == 0 and i or 1
+            items[swapIndex], items[n] = items[n], items[swapIndex]
+        end
     end
-    -- gerar alternativas de ordenação
 end
 
 
-local taskBulletList = function(elem)
+local function autoOrderChoices(choice_content)
+    -- Cria distratores a partir de uma alternativa numérica.
+    local items = {}
+    local separator = nil
+
+    local item = {}
+    for _, block in ipairs(choice_content) do
+        local block_str = pandoc.utils.stringify(block):sub(-1)
+
+        if block_str == ";" or block_str == ">" or block_str == "<" then
+            separator = block_str
+            trimBlockContentSpaces(item)
+            table.insert(items, item)
+            item = {}
+        else
+            table.insert(item, block)
+        end
+    end
+    trimBlockContentSpaces(item)
+    table.insert(items, item)
+
+    generatePermutations(3, items)
+end
+
+
+local function autoChoices(choice)
+    -- Gera distratores a partir de uma alternativa correta.
+    if #choice ~= 1 then
+        return
+    end
+
+    choices = {}
+    local choice_content = choice[1].content
+
+    math.randomseed(1234)
+    correct_choice = math.random(1, 5)
+
+    -- alternativa consiste apenas de uma equação
+    if #choice_content == 1 and choice_content[1].tag == "Math" then
+        -- gerar alternativas numéricas.
+        autoNumChoices(choice_content[1].text)
+        return
+    end
+    -- gerar alternativas de ordenação
+    autoOrderChoices(choice_content)
+end
+
+
+local function taskBulletList(elem)
     -- Problema objetivo com alternativas.
     choices = {}
     for i, choice in ipairs(elem.content) do
@@ -144,17 +201,17 @@ local taskBulletList = function(elem)
 end
 
 
-local decompactifyItem = function(blocks)
-    for i, blk in ipairs(blocks) do
-        if blk.t == 'Plain' then
-            blocks[i] = pandoc.Para(blk.content)
+local function decompactifyItem(blocks)
+    for i, bolck in ipairs(blocks) do
+        if bolck.tag == 'Plain' then
+            blocks[i] = pandoc.Para(bolck.content)
         end
     end
     return blocks
 end
 
 
-local decompactifyList = function(elem)
+local function decompactifyList(elem)
     elem.content = elem.content:map(decompactifyItem)
 end
 

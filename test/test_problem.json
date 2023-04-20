@@ -1,28 +1,32 @@
 {
     "choices": [
         {
-            "html": "<span class=\"math inline\">\\pu{+4,7E9 m}</span>",
-            "latex": "\\(\\pu{+4,7E9 m}\\)"
+            "html": "<span class=\"math inline\">\\ce{NaOH}</span>\nHCl\n<span class=\"math inline\">\\ce{HNO3}</span>",
+            "latex": "\\(\\ce{NaOH}\\)\n\nHCl\n\n\\(\\ce{HNO3}\\)"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{+1,6E10 m}</span>",
-            "latex": "\\(\\pu{+1,6E10 m}\\)"
+            "html": "<span class=\"math inline\">\\ce{NaOH}</span>\nHCl\n<span class=\"math inline\">\\ce{HNO3}</span>",
+            "latex": "\\(\\ce{NaOH}\\)\n\nHCl\n\n\\(\\ce{HNO3}\\)"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{+5,3E10 m}</span>",
-            "latex": "\\(\\pu{+5,3E10 m}\\)"
+            "html": "<span class=\"math inline\">\\ce{NaOH}</span>\nHCl\n<span class=\"math inline\">\\ce{HNO3}</span>",
+            "latex": "\\(\\ce{NaOH}\\)\n\nHCl\n\n\\(\\ce{HNO3}\\)"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{+1,8E11 m}</span>",
-            "latex": "\\(\\pu{+1,8E11 m}\\)"
+            "html": "<span class=\"math inline\">\\ce{NaOH}</span>\nHCl\n<span class=\"math inline\">\\ce{HNO3}</span>",
+            "latex": "\\(\\ce{NaOH}\\)\n\nHCl\n\n\\(\\ce{HNO3}\\)"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{+5,9E11 m}</span>",
-            "latex": "\\(\\pu{+5,9E11 m}\\)"
+            "html": "<span class=\"math inline\">\\ce{NaOH}</span>\nHCl\n<span class=\"math inline\">\\ce{HNO3}</span>",
+            "latex": "\\(\\ce{NaOH}\\)\n\nHCl\n\n\\(\\ce{HNO3}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\ce{NaOH}</span>\nHCl\n<span class=\"math inline\">\\ce{HNO3}</span>",
+            "latex": "\\(\\ce{NaOH}\\)\n\nHCl\n\n\\(\\ce{HNO3}\\)"
         }
     ],
     "correct_choice": 2,
-    "date": "2023-04-20T17:27:28",
+    "date": "2023-04-20T19:13:48",
     "solution": {
         "html": "<p>Essa é a solução</p>\n<p><span class=\"math display\">\n    f(x) = x\n</span></p>",
         "latex": "Essa é a solução\n\n\\[\n    f(x) = x\n\\]"
@@ -30,5 +34,187 @@
     "statement": {
         "html": "<p>Um imã de ferro possui <span class=\"math inline\">\\pu{25 g}</span> de massa. A massa de um átomo de ferro é <span class=\"math inline\">\\pu{9,3e-26\nkg}</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do número de átomos de ferro no imã.</p>",
         "latex": "Um imã de ferro possui \\(\\pu{25 g}\\) de massa. A massa de um átomo de ferro é \\(\\pu{9,3e-26 kg}\\).\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomos de ferro no imã."
+    },
+    "teste": {
+        "1": {
+            "1": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{NaOH}"
+                    ],
+                    "t": "Math"
+                }
+            ],
+            "2": [
+                {
+                    "c": "HCl",
+                    "t": "Str"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{HNO3}"
+                    ],
+                    "t": "Math"
+                }
+            ]
+        },
+        "2": {
+            "1": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{NaOH}"
+                    ],
+                    "t": "Math"
+                }
+            ],
+            "2": [
+                {
+                    "c": "HCl",
+                    "t": "Str"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{HNO3}"
+                    ],
+                    "t": "Math"
+                }
+            ]
+        },
+        "3": {
+            "1": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{NaOH}"
+                    ],
+                    "t": "Math"
+                }
+            ],
+            "2": [
+                {
+                    "c": "HCl",
+                    "t": "Str"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{HNO3}"
+                    ],
+                    "t": "Math"
+                }
+            ]
+        },
+        "4": {
+            "1": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{NaOH}"
+                    ],
+                    "t": "Math"
+                }
+            ],
+            "2": [
+                {
+                    "c": "HCl",
+                    "t": "Str"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{HNO3}"
+                    ],
+                    "t": "Math"
+                }
+            ]
+        },
+        "5": {
+            "1": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{NaOH}"
+                    ],
+                    "t": "Math"
+                }
+            ],
+            "2": [
+                {
+                    "c": "HCl",
+                    "t": "Str"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{HNO3}"
+                    ],
+                    "t": "Math"
+                }
+            ]
+        },
+        "6": {
+            "1": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{NaOH}"
+                    ],
+                    "t": "Math"
+                }
+            ],
+            "2": [
+                {
+                    "c": "HCl",
+                    "t": "Str"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "t": "InlineMath"
+                        },
+                        "\\ce{HNO3}"
+                    ],
+                    "t": "Math"
+                }
+            ]
+        }
     }
 }
