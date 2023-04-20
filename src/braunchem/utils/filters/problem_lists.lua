@@ -65,12 +65,12 @@ local function autoPropChoices(elem)
 
     local correct_props = {}
     for i, choice in ipairs(elem.content) do
-        local checkbox = pandoc.utils.stringify(table.remove(choice[1].content, 1))
+        local checkbox = pandoc.utils.stringify(choice[1].content:remove(1))
         if checkbox == "☒" then
             table.insert(correct_props, i)
         end
         -- Remove o primeiro espaço
-        table.remove(choice[1].content, 1)
+        choice[1].content:remove(1)
     end
 
     -- adiciona as cinco alternativas na lista
@@ -184,21 +184,21 @@ end
 local function taskBulletList(elem)
     -- Problema objetivo com alternativas.
     choices = {}
+
     for i, choice in ipairs(elem.content) do
-        local checkbox = pandoc.utils.stringify(table.remove(choice[1].content, 1))
+        local checkbox = pandoc.utils.stringify(choice[1].content:remove(1))
         if checkbox == "☒" then
             correct_choice = i
         end
         -- Remove o primeiro espaço
-        table.remove(choice[1].content, 1)
+        choice[1].content:remove(1)
         addChoice(choice)
     end
-    if #choices > 1 and correct_choice ~= nil then
-        -- problema com mais de uma alternativa, sendo uma correta
-        return
+
+    if #choices == 1 then
+        -- problema com apenas uma alternativa (gerar as alternativas)
+        autoChoices(choices[1])
     end
-    -- problema com apenas uma alternativa (gerar as alternativas)
-    autoChoices(choices[1])
 end
 
 
