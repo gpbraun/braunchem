@@ -1,12 +1,28 @@
 {
     "choices": [
         {
-            "html": "<span class=\"math inline\">\\pu{100 m}</span>",
-            "latex": "\\(\\pu{100 m}\\)"
+            "html": "<span class=\"math inline\">\\pu{+4,7E9 m}</span>",
+            "latex": "\\(\\pu{+4,7E9 m}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{+1,6E10 m}</span>",
+            "latex": "\\(\\pu{+1,6E10 m}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{+5,3E10 m}</span>",
+            "latex": "\\(\\pu{+5,3E10 m}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{+1,8E11 m}</span>",
+            "latex": "\\(\\pu{+1,8E11 m}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{+5,9E11 m}</span>",
+            "latex": "\\(\\pu{+5,9E11 m}\\)"
         }
     ],
-    "correct_choice": "0",
-    "date": "2023-04-20T05:39:07",
+    "correct_choice": 2,
+    "date": "2023-04-20T17:27:28",
     "solution": {
         "html": "<p>Essa é a solução</p>\n<p><span class=\"math display\">\n    f(x) = x\n</span></p>",
         "latex": "Essa é a solução\n\n\\[\n    f(x) = x\n\\]"

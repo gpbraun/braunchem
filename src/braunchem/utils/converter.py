@@ -33,7 +33,7 @@ PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
 PANDOC_PROBLEM_FILTERS = [
     "containers.py",
     "pu2qty.py",
-    "lists.lua",
+    "problem_lists.lua",
 ]
 """Filtros usados nos problemas."""
 

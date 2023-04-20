@@ -2,7 +2,7 @@ Um imã de ferro possui $\pu{25 g}$ de massa. A massa de um átomo de ferro é $
 
 **Assinale** a alternativa que mais se aproxima do número de átomos de ferro no imã.
 
-- [x] $\pu{100 m}$
+- [x] $\pu{+5,3e10 m}$
 
 ---
 

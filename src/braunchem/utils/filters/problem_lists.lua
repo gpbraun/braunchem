@@ -1,14 +1,38 @@
+local math = require "math"
+
 local choices = nil
 local correct_choice = nil
 
+
 local addChoice = function(choice)
-    -- Adiciona uma alternativa na lista global
+    -- Adiciona uma alternativa na lista global.
     table.insert(choices, choice)
 end
 
 
+local addPropChoice = function(prop_choice_nums)
+    -- Cria uma alternativa para proposições.
+    if #prop_choice_nums == 0 then
+        return pandoc.Plain("NDA")
+    end
+    local prop_choice = {}
+    for i, prop_num in ipairs(prop_choice_nums) do
+        table.insert(prop_choice, pandoc.Strong(tostring(prop_num)))
+        if i < #prop_choice_nums - 1 then
+            table.insert(prop_choice, pandoc.Str(","))
+            table.insert(prop_choice, pandoc.Space())
+        elseif i == #prop_choice_nums - 1 then
+            table.insert(prop_choice, pandoc.Space())
+            table.insert(prop_choice, pandoc.Str("e"))
+            table.insert(prop_choice, pandoc.Space())
+        end
+    end
+    addChoice(pandoc.Plain(prop_choice))
+end
+
+
 local autoPropChoices = function(elem)
-    -- Cria distratores para um problema de avaliação de proposições
+    -- Cria distratores para um problema de avaliação de proposições.
     choices = {}
     local prop_choice_map = {
         [""]        = { {}, { 1 }, { 2 }, { 3 }, { 4 } },
@@ -28,26 +52,6 @@ local autoPropChoices = function(elem)
         ["1,2,3,4"] = { { 1, 2, 3 }, { 1, 2, 4 }, { 1, 3, 4 }, { 2, 3, 4 }, { 1, 2, 3, 4 } }
     }
 
-    local addPropChoice = function(prop_choice_nums)
-        -- Cria uma alternativa para proposições
-        if #prop_choice_nums == 0 then
-            return pandoc.Plain("NDA")
-        end
-        local prop_choice = {}
-        for i, prop_num in ipairs(prop_choice_nums) do
-            table.insert(prop_choice, pandoc.Strong(tostring(prop_num)))
-            if i < #prop_choice_nums - 1 then
-                table.insert(prop_choice, pandoc.Str(","))
-                table.insert(prop_choice, pandoc.Space())
-            elseif i == #prop_choice_nums - 1 then
-                table.insert(prop_choice, pandoc.Space())
-                table.insert(prop_choice, pandoc.Str("e"))
-                table.insert(prop_choice, pandoc.Space())
-            end
-        end
-        addChoice(pandoc.Plain(prop_choice))
-    end
-
     local correct_props = {}
     for i, choice in ipairs(elem.content) do
         local checkbox = pandoc.utils.stringify(table.remove(choice[1].content, 1))
@@ -64,43 +68,68 @@ local autoPropChoices = function(elem)
         addPropChoice(prop_choice_nums)
         -- Procura a alternativa correta
         if table.concat(prop_choice_nums, ",") == correct_props_str then
-            correct_choice = i - 1
+            correct_choice = i
         end
     end
 end
 
 
-local autoNumChoices = function(math_text)
-    -- Cria distratores a partir de uma alternativa numérica
-    choices = {}
+local formatValue = function(value)
+    -- Converte um valor em uma string com formatação correta.
+    local prec_value = string.format("%.2g", value)
 
-    local addNumChoice = function(num, unit)
-        -- Cria uma alternativa numérica a partir do valor e da unidade
-        local math_choice = pandoc.Math("InlineMath", "\\pu{" .. num .. " " .. unit .. "}")
-        addChoice(pandoc.Plain(math_choice))
+    if math.abs(value) < 1e-3 or math.abs(value) > 1e4 then
+        -- notação exponencial
+        return string.format("%.1E", prec_value):gsub("E%+?0?(%d+)", "E%1"):gsub("%.", ",")
+    end
+    -- notação decimal
+    return string.format("%.4f", prec_value):gsub("%.?0+$", ""):gsub("%.", ",")
+end
+
+
+local autoNumChoices = function(math_text)
+    -- Cria distratores a partir de uma alternativa numérica.
+    choices = {}
+    math.randomseed(1234)
+    correct_choice = math.random(1, 5)
+
+    local _, _, correct_value_str = string.find(math_text, "(%d+[%.%,]?%d*[eE]?[+-]?%d*)")
+    local correct_value = tonumber(tostring(string.gsub(correct_value_str, ",", ".")))
+
+    local addNumChoice = function(value)
+        -- Cria uma alternativa numérica a partir de seu valor.
+        local math_choice_text = string.gsub(math_text, correct_value_str, formatValue(value))
+        addChoice(pandoc.Plain(pandoc.Math("InlineMath", math_choice_text)))
     end
 
-    addNumChoice("100", "m")
+    ---@diagnostic disable-next-line: param-type-mismatch
+    local scale = 1 + (math.abs(math.log(correct_value, 10)) + 1) / 5
+    for i = 1, 5 do
+        local value = correct_value * scale ^ (i - correct_choice)
+        addNumChoice(value)
+    end
 end
+
 
 local autoChoices = function(choice)
-    -- Gera distratores a partir de uma alternativa correta
+    -- Gera distratores a partir de uma alternativa correta.
 
-    -- Alternativa consiste apenas de uma equação
+    -- alternativa consiste apenas de uma equação
     if #choice[1].content == 1 and choice[1].content[1].tag == "Math" then
-        -- Gerar alternativas numéricas.
+        -- gerar alternativas numéricas.
         autoNumChoices(choice[1].content[1].text)
     end
-    -- Gerar alternativas de ordenação
+    -- gerar alternativas de ordenação
 end
 
+
 local taskBulletList = function(elem)
-    -- Problema objetivo com alternativas
+    -- Problema objetivo com alternativas.
     choices = {}
     for i, choice in ipairs(elem.content) do
         local checkbox = pandoc.utils.stringify(table.remove(choice[1].content, 1))
         if checkbox == "☒" then
-            correct_choice = i - 1
+            correct_choice = i
         end
         -- Remove o primeiro espaço
         table.remove(choice[1].content, 1)
@@ -134,7 +163,6 @@ function OrderedList(elem)
     local frist = pandoc.utils.stringify(elem.content[1][1].content[1])
     if frist == "☒" or frist == "☐" then
         autoPropChoices(elem)
-        return {}
     end
 
     decompactifyList(elem)
@@ -145,6 +173,7 @@ function BulletList(elem)
     local frist = pandoc.utils.stringify(elem.content[1][1].content[1])
     if frist == "☒" or frist == "☐" then
         taskBulletList(elem)
+        -- remove a lista do enunciado
         return {}
     end
 

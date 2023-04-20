@@ -65,7 +65,7 @@ function Writer(doc, opts)
         -- teste          = doc.meta.choices,
         date           = doc.meta.date,
         choices        = choices,
-        correct_choice = correct_choice,
+        correct_choice = correct_choice - 1,
         statement      = text(statement, opts),
         solution       = text(solution, opts)
     }
