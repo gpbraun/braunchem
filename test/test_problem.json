@@ -1,28 +1,37 @@
 {
+    "_id": "1234",
     "choices": [
         {
-            "html": "<span class=\"math inline\">\\pu{13 m}</span>",
-            "latex": "\\(\\pu{13 m}\\)"
+            "html": "A",
+            "latex": "A"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{20 m}</span>",
-            "latex": "\\(\\pu{20 m}\\)"
+            "html": "B",
+            "latex": "B"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{30 m}</span>",
-            "latex": "\\(\\pu{30 m}\\)"
+            "html": "C",
+            "latex": "C"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{45 m}</span>",
-            "latex": "\\(\\pu{45 m}\\)"
+            "html": "A &gt; C &gt; B",
+            "latex": "A \\textgreater{} C \\textgreater{} B"
         },
         {
-            "html": "<span class=\"math inline\">\\pu{67 m}</span>",
-            "latex": "\\(\\pu{67 m}\\)"
+            "html": "B &gt; A &gt; C",
+            "latex": "B \\textgreater{} A \\textgreater{} C"
+        },
+        {
+            "html": "B &gt; C &gt; A",
+            "latex": "B \\textgreater{} C \\textgreater{} A"
+        },
+        {
+            "html": "C &gt; A &gt; B",
+            "latex": "C \\textgreater{} A \\textgreater{} B"
         }
     ],
     "correct_choice": 2,
-    "date": "2023-04-20T19:58:13",
+    "date": "2023-04-23T21:45:10",
     "solution": {
         "html": "<p>Essa é a solução</p>\n<p><span class=\"math display\">\n    f(x) = x\n</span></p>",
         "latex": "Essa é a solução\n\n\\[\n    f(x) = x\n\\]"
@@ -30,77 +39,5 @@
     "statement": {
         "html": "<p>Um imã de ferro possui <span class=\"math inline\">\\pu{25 g}</span> de massa. A massa de um átomo de ferro é <span class=\"math inline\">\\pu{9,3e-26\nkg}</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do número de átomos de ferro no imã.</p>",
         "latex": "Um imã de ferro possui \\(\\pu{25 g}\\) de massa. A massa de um átomo de ferro é \\(\\pu{9,3e-26 kg}\\).\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomos de ferro no imã."
-    },
-    "teste": [
-        {
-            "c": [
-                {
-                    "c": [
-                        {
-                            "t": "InlineMath"
-                        },
-                        "\\pu{13 m}"
-                    ],
-                    "t": "Math"
-                }
-            ],
-            "t": "Plain"
-        },
-        {
-            "c": [
-                {
-                    "c": [
-                        {
-                            "t": "InlineMath"
-                        },
-                        "\\pu{20 m}"
-                    ],
-                    "t": "Math"
-                }
-            ],
-            "t": "Plain"
-        },
-        {
-            "c": [
-                {
-                    "c": [
-                        {
-                            "t": "InlineMath"
-                        },
-                        "\\pu{30 m}"
-                    ],
-                    "t": "Math"
-                }
-            ],
-            "t": "Plain"
-        },
-        {
-            "c": [
-                {
-                    "c": [
-                        {
-                            "t": "InlineMath"
-                        },
-                        "\\pu{45 m}"
-                    ],
-                    "t": "Math"
-                }
-            ],
-            "t": "Plain"
-        },
-        {
-            "c": [
-                {
-                    "c": [
-                        {
-                            "t": "InlineMath"
-                        },
-                        "\\pu{67 m}"
-                    ],
-                    "t": "Math"
-                }
-            ],
-            "t": "Plain"
-        }
-    ]
+    }
 }

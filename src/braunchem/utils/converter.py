@@ -56,7 +56,12 @@ def md2problem(md_str: str) -> str:
         source=md_str,
         to=PANDOC_PROBLEM_WRITER_PATH,
         format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet", "--katex", f"--columns={PANDOC_COLUMN_NUM}"],
+        extra_args=[
+            "--quiet",
+            "--katex",
+            f"--columns={PANDOC_COLUMN_NUM}",
+            "--metadata=id:1234",
+        ],
         filters=PANDOC_PROBLEM_FILTER_PATHS,
     )
     return json.loads(problem)

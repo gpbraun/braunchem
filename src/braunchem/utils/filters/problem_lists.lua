@@ -1,7 +1,95 @@
 local math = require "math"
 
-local choices = nil
-local correct_choice = nil
+
+local PROP_CHOICES_MAP = {
+    [""] = {
+        {}, { 1 }, { 2 },
+        { 3 }, { 4 }
+    },
+    ["1"] = {
+        { 1 }, { 2 }, { 1, 2 },
+        { 1, 3 }, { 1, 4 }
+    },
+    ["2"] = {
+        { 1 }, { 2 }, { 1, 2 },
+        { 2, 3 }, { 2, 4 }
+    },
+    ["3"] = {
+        { 3 }, { 4 }, { 1, 3 },
+        { 2, 3 }, { 3, 4 }
+    },
+    ["4"] = {
+        { 3 }, { 4 }, { 1, 4 },
+        { 2, 4 }, { 3, 4 }
+    },
+    ["1,2"] = {
+        { 1 }, { 2 }, { 1, 2 },
+        { 1, 2, 3 }, { 1, 2, 4 }
+    },
+    ["1,3"] = {
+        { 1 }, { 3 }, { 1, 3 },
+        { 1, 2, 3 }, { 1, 3, 4 }
+    },
+    ["1,4"] = {
+        { 1 }, { 4 }, { 1, 4 },
+        { 1, 2, 4 }, { 1, 3, 4 }
+    },
+    ["2,3"] = {
+        { 2 }, { 3 }, { 2, 3 },
+        { 1, 2, 3 }, { 2, 3, 4 }
+    },
+    ["3,4"] = {
+        { 3 }, { 4 }, { 3, 4 },
+        { 1, 3, 4 }, { 2, 3, 4 }
+    },
+    ["1,2,3"] = {
+        { 1, 2 }, { 1, 3 }, { 2, 3 },
+        { 1, 2, 3 }, { 1, 2, 3, 4 }
+    },
+    ["1,2,4"] = {
+        { 1, 2 }, { 1, 4 }, { 2, 4 },
+        { 1, 2, 4 }, { 1, 2, 3, 4 }
+    },
+    ["1,3,4"] = {
+        { 1, 3 }, { 1, 4 }, { 3, 4 },
+        { 1, 3, 4 }, { 1, 2, 3, 4 }
+    },
+    ["2,3,4"] = {
+        { 2, 3 }, { 2, 4 }, { 3, 4 },
+        { 2, 3, 4 }, { 1, 2, 3, 4 }
+    },
+    ["1,2,3,4"] = {
+        { 1, 2, 3 }, { 1, 2, 4 }, { 1, 3, 4 },
+        { 2, 3, 4 }, { 1, 2, 3, 4 }
+    }
+}
+
+
+local ORDER_CHOICES_MAP = {
+    [3] = {
+        { 1, 3, 2 }, { 2, 1, 3 },
+        { 2, 3, 1 }, { 3, 1, 2 }
+    },
+    [4] = {
+        { 1, 2, 4, 3 }, { 1, 4, 2, 3 },
+        { 2, 3, 1, 4 }, { 2, 4, 3, 1 }
+    },
+    [5] = {
+        { 1, 2, 3, 5, 4 }, { 1, 4, 5, 2, 3 },
+        { 2, 3, 4, 1, 5 }, { 2, 5, 4, 3, 1 }
+    },
+    [6] = {
+        { 1, 2, 4, 3, 5, 6 }, { 1, 5, 4, 2, 3, 6 },
+        { 2, 3, 5, 6, 4, 1 }, { 2, 6, 5, 4, 3, 1 }
+    },
+}
+
+
+local choices
+local correct_choice
+
+local seed
+
 
 
 local function trimBlockContentSpaces(content)
@@ -19,7 +107,6 @@ local function addChoice(choice)
     -- Adiciona uma alternativa na lista global.
     table.insert(choices, choice)
 end
-
 
 local function addPropChoice(prop_choice_nums)
     -- Cria uma alternativa para proposições.
@@ -45,27 +132,10 @@ end
 local function autoPropChoices(elem)
     -- Cria distratores para um problema de avaliação de proposições.
     choices = {}
-    local prop_choice_map = {
-        [""]        = { {}, { 1 }, { 2 }, { 3 }, { 4 } },
-        ["1"]       = { { 1 }, { 2 }, { 1, 2 }, { 1, 3 }, { 1, 4 } },
-        ["2"]       = { { 1 }, { 2 }, { 1, 2 }, { 2, 3 }, { 2, 4 } },
-        ["3"]       = { { 3 }, { 4 }, { 1, 3 }, { 2, 3 }, { 3, 4 } },
-        ["4"]       = { { 3 }, { 4 }, { 1, 4 }, { 2, 4 }, { 3, 4 } },
-        ["1,2"]     = { { 1 }, { 2 }, { 1, 2 }, { 1, 2, 3 }, { 1, 2, 4 } },
-        ["1,3"]     = { { 1 }, { 3 }, { 1, 3 }, { 1, 2, 3 }, { 1, 3, 4 } },
-        ["1,4"]     = { { 1 }, { 4 }, { 1, 4 }, { 1, 2, 4 }, { 1, 3, 4 } },
-        ["2,3"]     = { { 2 }, { 3 }, { 2, 3 }, { 1, 2, 3 }, { 2, 3, 4 } },
-        ["3,4"]     = { { 3 }, { 4 }, { 3, 4 }, { 1, 3, 4 }, { 2, 3, 4 } },
-        ["1,2,3"]   = { { 1, 2 }, { 1, 3 }, { 2, 3 }, { 1, 2, 3 }, { 1, 2, 3, 4 } },
-        ["1,2,4"]   = { { 1, 2 }, { 1, 4 }, { 2, 4 }, { 1, 2, 4 }, { 1, 2, 3, 4 } },
-        ["1,3,4"]   = { { 1, 3 }, { 1, 4 }, { 3, 4 }, { 1, 3, 4 }, { 1, 2, 3, 4 } },
-        ["2,3,4"]   = { { 2, 3 }, { 2, 4 }, { 3, 4 }, { 2, 3, 4 }, { 1, 2, 3, 4 } },
-        ["1,2,3,4"] = { { 1, 2, 3 }, { 1, 2, 4 }, { 1, 3, 4 }, { 2, 3, 4 }, { 1, 2, 3, 4 } }
-    }
 
     local correct_props = {}
     for i, choice in ipairs(elem.content) do
-        local checkbox = pandoc.utils.stringify(choice[1].content:remove(1))
+        local checkbox = choice[1].content:remove(1).text
         if checkbox == "☒" then
             table.insert(correct_props, i)
         end
@@ -75,7 +145,7 @@ local function autoPropChoices(elem)
 
     -- adiciona as cinco alternativas na lista
     local correct_props_str = table.concat(correct_props, ",")
-    for i, prop_choice_nums in ipairs(prop_choice_map[correct_props_str]) do
+    for i, prop_choice_nums in ipairs(PROP_CHOICES_MAP[correct_props_str]) do
         addPropChoice(prop_choice_nums)
         -- procura a alternativa correta
         if table.concat(prop_choice_nums, ",") == correct_props_str then
@@ -119,20 +189,6 @@ local function autoNumChoices(math_text)
 end
 
 
-local function generatePermutations(n, items)
-    -- Usa o algorítimo de Heap para gerar permutações da lista.
-    if n == 0 then
-        addChoice(items)
-    else
-        for i = 1, n do
-            generatePermutations(n - 1, items)
-            local swapIndex = n % 2 == 0 and i or 1
-            items[swapIndex], items[n] = items[n], items[swapIndex]
-        end
-    end
-end
-
-
 local function autoOrderChoices(choice_content)
     -- Cria distratores a partir de uma alternativa numérica.
     local items = {}
@@ -140,12 +196,13 @@ local function autoOrderChoices(choice_content)
 
     local item = {}
     for _, block in ipairs(choice_content) do
-        local block_str = pandoc.utils.stringify(block):sub(-1)
+        local block_str = block.text
 
         if block_str == ";" or block_str == ">" or block_str == "<" then
             separator = block_str
             trimBlockContentSpaces(item)
             table.insert(items, item)
+            addChoice(item)
             item = {}
         else
             table.insert(item, block)
@@ -153,8 +210,27 @@ local function autoOrderChoices(choice_content)
     end
     trimBlockContentSpaces(item)
     table.insert(items, item)
+    addChoice(item)
 
-    generatePermutations(3, items)
+    local function addOrderChoice(order_choice_nums)
+        local order_choice = {}
+        for i, order_choice_num in ipairs(order_choice_nums) do
+            -- Concatena `order_choice` e `items[order_choice_num]`
+            for _, block in ipairs(items[order_choice_num]) do
+                table.insert(order_choice, block)
+            end
+            if i < #order_choice_nums then
+                table.insert(order_choice, pandoc.Space())
+                table.insert(order_choice, pandoc.Str(separator))
+                table.insert(order_choice, pandoc.Space())
+            end
+        end
+        addChoice(pandoc.Plain(order_choice))
+    end
+
+    for _, order_choice_nums in ipairs(ORDER_CHOICES_MAP[#items]) do
+        addOrderChoice(order_choice_nums)
+    end
 end
 
 
@@ -186,7 +262,7 @@ local function taskBulletList(elem)
     choices = {}
 
     for i, choice in ipairs(elem.content) do
-        local checkbox = pandoc.utils.stringify(choice[1].content:remove(1))
+        local checkbox = choice[1].content:remove(1).text
         if checkbox == "☒" then
             correct_choice = i
         end
@@ -218,7 +294,7 @@ end
 
 
 function OrderedList(elem)
-    local frist = pandoc.utils.stringify(elem.content[1][1].content[1])
+    local frist = elem.content[1][1].content[1].text
     if frist == "☒" or frist == "☐" then
         autoPropChoices(elem)
     end
@@ -228,7 +304,7 @@ function OrderedList(elem)
 end
 
 function BulletList(elem)
-    local frist = pandoc.utils.stringify(elem.content[1][1].content[1])
+    local frist = elem.content[1][1].content[1].text
     if frist == "☒" or frist == "☐" then
         taskBulletList(elem)
         -- remove a lista do enunciado
@@ -240,6 +316,7 @@ function BulletList(elem)
 end
 
 function Meta(metadata)
+    seed = metadata.id
     metadata.date = os.date("!%Y-%m-%dT%T")
     metadata.choices = choices
     metadata.correct_choice = correct_choice
