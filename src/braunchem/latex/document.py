@@ -154,7 +154,6 @@ class Document:
 
         return "\n".join(
             [
-                latex.cmd("path", self.path) if self.path else "",
                 latex.cmd("id", self.id_),
                 latex.cmd("title", self.title) if self.title else "",
                 latex.cmd("author", self.author) if self.author else "",

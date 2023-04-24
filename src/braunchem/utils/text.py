@@ -91,7 +91,10 @@ def html2tex(html_str: str, path: Path = None) -> str:
         ],
         filters=PANDOC_FILTER_PATHS,
     )
-    # tex_str = tex_str.replace("\\noalign{}", "")
+    tex_str = tex_str.replace("\\noalign{}", "")
+    tex_str = tex_str.replace("\\endhead", "")
+    tex_str = tex_str.replace("\\endlastfoot", "")
+    tex_str = tex_str.replace("\\bottomrule", "")
     return tex_str
 
 
@@ -108,7 +111,10 @@ def md2tex(md_str: str, path: Path = None) -> str:
         ],
         filters=PANDOC_FILTER_PATHS,
     )
-    # tex_str = tex_str.replace("\\noalign{}", "")
+    tex_str = tex_str.replace("\\noalign{}", "")
+    tex_str = tex_str.replace("\\endhead", "")
+    tex_str = tex_str.replace("\\endlastfoot", "")
+    tex_str = tex_str.replace("\\bottomrule", "")
     return tex_str
 
 

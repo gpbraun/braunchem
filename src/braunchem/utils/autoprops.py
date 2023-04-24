@@ -18,16 +18,16 @@ def list_to_props(prop_list):
         html_str += f"{prop}"
         tex_str += f"\\textbf{{{prop}}}"
         md_str += f"**{prop}**"
-    if i < len(prop_list) - 1:
-        sep = ", "
-        html_str += sep
-        tex_str += sep
-        md_str += sep
-    if i == len(prop_list) - 1:
-        sep = " e "
-        html_str += sep
-        tex_str += sep
-        md_str += sep
+        if i < len(prop_list) - 2:
+            sep = ", "
+            html_str += sep
+            tex_str += sep
+            md_str += sep
+        if i == len(prop_list) - 2:
+            sep = " e "
+            html_str += sep
+            tex_str += sep
+            md_str += sep
     return Text.parse_obj({"html": html_str, "md": md_str, "tex": tex_str})
 
 
@@ -205,6 +205,36 @@ def decimal_to_sci_string(value: Decimal, lower_bound=1e-3, upper_bound=1e4) -> 
     return f"{value:f}"
 
 
+def parse_fractions(unit_str: str):
+    if not "//" in unit_str:
+        return f"\\unit{{{unit_str}}}"
+
+    numerator, denominator = unit_str.split("//", 1)
+    numerator = f"\\unit{{{numerator}}}"
+    return f"\\tfrac{{{numerator}}}{{{parse_fractions(denominator)}}}"
+
+
+UNIT_EXP_REGEX = re.compile(r"[\+\-]?\d+")
+
+
+def qty(num_str: str, unit_str: str) -> str:
+    """Retorna o comando no formato `siunitx` referente a um valor numérico e uma unidade."""
+    # valor numérico sem unidades
+    if not unit_str:
+        return f"\\num{{{num_str}}}"
+
+    formated_unit_str = re.sub(UNIT_EXP_REGEX, lambda x: f"^{{{x.group(0)}}}", unit_str)
+    formated_unit_str = formated_unit_str.replace("\\mu", "\\micro")
+    formated_unit_str = formated_unit_str.replace("\\Omega", "\\ohm")
+    formated_unit_str = parse_fractions(formated_unit_str)
+
+    # unidades sem valor numérico
+    if not num_str:
+        return formated_unit_str
+
+    return f"\\qty{{{num_str}}}{{{formated_unit_str}}}"
+
+
 class PhyisicalUnit:
     """Valor com unidade."""
 
@@ -226,9 +256,7 @@ class PhyisicalUnit:
         return f"\\pu{{{self.value_string()} {self.unit}}}"
 
     def to_qty(self):
-        if not self.unit:
-            return f"\\num{{{self.value_string()}}}"
-        return f"\\qty{{{self.value_string()}}}{{{self.unit}}}"
+        return qty(self.value_string(), self.unit)
 
     def to_text(self):
         return Text.parse_obj(

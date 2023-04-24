@@ -132,12 +132,12 @@ mistura de reação em equilíbrio. Como um exemplo do trabalho deles, acompanhe
 \(\qty{1000}{\unit{K}}\). A composição das misturas no equilíbrio e a pressão total, \(P\), foram determinadas.
 
 \begin{longtable}[]{@{}cccc@{}}
-\toprule\noalign{}
+\toprule
 \(P_{\ce{SO2}}/\unit{bar}\) & \(P_{\ce{O2}}/\unit{bar}\) & \(P_{\ce{SO3}}/\unit{bar}\) & \(K\) \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+
+
+
 \(\num{0,660}\) & \(\num{0,390}\) & \(\num{0,084}\) & \(\num{0,04}\) \\
 \(\num{0,038}\) & \(\num{0,220}\) & \(\num{0,004}\) & \(\num{0,04}\) \\
 \(\num{0,110}\) & \(\num{0,110}\) & \(\num{0,007}\) & \(\num{0,04}\) \\
@@ -210,23 +210,24 @@ equilíbrio \[
 
 Essas regras empíricas podem ser resumidas pela introdução do conceito de \textbf{atividade}, \(a_{\ce{J}}\), de uma substância \(\ce{J}\):
 
+\begin{displaytable}
+
+\paragraph{Atividades químicas}
+
 \begin{longtable}[]{@{}lll@{}}
-\caption{Atividades químicas}\tabularnewline
-\toprule\noalign{}
+\toprule
 \textbf{Substância} & \textbf{Atividade} & \textbf{Simplificado} \\
-\midrule\noalign{}
-\endfirsthead
-\toprule\noalign{}
-\textbf{Substância} & \textbf{Atividade} & \textbf{Simplificado} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+
+
+
 gás ideal & \(a_{\ce{J}} = P_{\ce{J}}/P^\circ\) & \(a_{\ce{J}} = P_{\ce{J}}\) \\
 soluto diluído & \(a_{\ce{J}} = \ce{[J]}/c^\circ\) & \(a_{\ce{J}} = \ce{[J]}\) \\
 solvente & \(a_{\ce{J}} = 1\) & \(a_{\ce{J}} = 1\) \\
 sólido ou líquido & \(a_{\ce{J}} = 1\) & \(a_{\ce{J}} = 1\) \\
 \end{longtable}
+
+\end{displaytable}
 
 Note que todas as atividades são números puros e, portanto, não têm unidades. Quando usamos a forma simplificada da constante de equilíbrio, a
 atividade é o valor numérico da pressão em bars ou o valor numérico da concentração molar em mols por litro.
@@ -900,12 +901,12 @@ De \(PV = nRT\) \[
 \paragraph{Elabore uma tabela de equilíbrio.}
 
 \begin{longtable}[]{@{}lccc@{}}
-\toprule\noalign{}
+\toprule
 & \(\ce{PCl5}\) & \(\ce{PCl3}\) & \(\ce{Cl2}\) \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+
+
+
 início & \(\num{1,3}\) & \(0\) & \(0\) \\
 reação & \(-x\) & \(+x\) & \(+x\) \\
 equilíbrio & \(\num{1,3} - x\) & \(x\) & \(x\) \\
@@ -977,12 +978,12 @@ De \(PV = nRT\) \[
 \paragraph{Elabore uma tabela de equilíbrio.}
 
 \begin{longtable}[]{@{}lccc@{}}
-\toprule\noalign{}
+\toprule
 & \(\ce{N2}\) & \(\ce{O2}\) & \(\ce{N2O}\) \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+
+
+
 início & \(\num{3,3}\) & \(\num{6,6}\) & \(0\) \\
 reação & \(-2x\) & \(-x\) & \(+2x\) \\
 equilíbrio & \(\num{3,3} - 2x\) & \(\num{6,6} - x\) & \(2x\) \\
@@ -1240,12 +1241,12 @@ De \(K = P_{\ce{PCl5}} / P_{\ce{PCl3}} P_{\ce{Cl2}}\) \[
 \paragraph{Elabore uma tabela de equilíbrio.}
 
 \begin{longtable}[]{@{}lccc@{}}
-\toprule\noalign{}
+\toprule
 & \(\ce{PCl3}\) & \(\ce{Cl2}\) & \(\ce{PCl5}\) \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+
+
+
 início & \(\num{1,28}\) & \(\num{2,15}\) & \(\num{0,02}\) \\
 reação & \(-x\) & \(-x\) & \(+x\) \\
 equilíbrio & \(\num{1,28} - x\) & \(\num{2,15} - x\) & \(\num{0,02} + x\) \\
@@ -1396,12 +1397,12 @@ processo dinâmico é, provavelmente, o que acontece na superfície de Vênus, o
 \] quando a temperatura aumenta.
 
 \begin{longtable}[]{@{}lrr@{}}
-\toprule\noalign{}
+\toprule
 & \(\ce{SO2(g)}\) & \(\ce{SO3(g)}\) \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+
+
+
 \(\Delta H_{\mathrm{f}}^\circ/\tfrac{\unit{kJ}}{\unit{mol}}\) & \(\num{-297}\) & \(\num{-396}\) \\
 \end{longtable}
 
@@ -1535,7 +1536,7 @@ Considere as proposições a respeito de uma reação reversível.
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as proposições \emph{corretas}.
-\autochoices{\textbf{3} e }{\textbf{4} e }{\textbf{1}\textbf{4} e }{\textbf{2}\textbf{4} e }{\textbf{3}\textbf{4} e }
+\autochoices{\textbf{3}}{\textbf{4}}{\textbf{1} e \textbf{4}}{\textbf{2} e \textbf{4}}{\textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -1559,7 +1560,7 @@ Considere as proposições a respeito de uma reação reversível.
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as proposições \emph{corretas}.
-\autochoices{\textbf{2} e }{\textbf{3} e }{\textbf{2}\textbf{3} e }{\textbf{1}\textbf{2}\textbf{3} e }{\textbf{2}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{2}}{\textbf{3}}{\textbf{2} e \textbf{3}}{\textbf{1}, \textbf{2} e \textbf{3}}{\textbf{2}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -1686,7 +1687,7 @@ Considere as quantidades:
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as quantidades que serão \emph{iguais} nos dois recipientes no equilíbrio.
-\autochoices{\textbf{3} e }{\textbf{4} e }{\textbf{1}\textbf{4} e }{\textbf{2}\textbf{4} e }{\textbf{3}\textbf{4} e }
+\autochoices{\textbf{3}}{\textbf{4}}{\textbf{1} e \textbf{4}}{\textbf{2} e \textbf{4}}{\textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -1716,7 +1717,7 @@ Considere as quantidades:
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as quantidades que serão \emph{iguais} nos dois recipientes no equilíbrio.
-\autochoices{\textbf{1}\textbf{2}\textbf{3} e }{\textbf{1}\textbf{2}\textbf{4} e }{\textbf{1}\textbf{3}\textbf{4} e }{\textbf{2}\textbf{3}\textbf{4} e }{\textbf{1}\textbf{2}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{1}, \textbf{2} e \textbf{3}}{\textbf{1}, \textbf{2} e \textbf{4}}{\textbf{1}, \textbf{3} e \textbf{4}}{\textbf{2}, \textbf{3} e \textbf{4}}{\textbf{1}, \textbf{2}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -1765,7 +1766,7 @@ G^\circ_\mathrm{r} = \qty{-21}{\tfrac{\unit{kJ}}{\unit{mol}}}
 {\(\pu{P_{\ce{I2}}} = \qty{0,88}{\unit{bar}}\)} e {\(\pu{P_{\ce{HI}}} = \qty{0,065}{\unit{bar}}\)}.
 
 \textbf{Assinale} a alternativa que mais se aproxima da energia livre de reação.
-\autochoices{\(\qty{-8,2}{kJ.mol-1}\)}{\(\qty{-13}{kJ.mol-1}\)}{\(\qty{-19}{kJ.mol-1}\)}{\(\qty{-29}{kJ.mol-1}\)}{\(\qty{-45}{kJ.mol-1}\)}
+\autochoices{\(\qty{-8,2}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-13}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-19}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-29}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-45}{\unit{kJ.mol^{-1}}}\)}
 \end{problem}
 
 
@@ -1779,7 +1780,7 @@ Considere a reação em {\(\qty{400}{\unit{K}}\)}: {\[
 {\(\pu{P_{\ce{H2}}} = \qty{1,8}{\unit{bar}}\)} e {\(\pu{P_{\ce{NH3}}} = \qty{20}{\unit{bar}}\)}.
 
 \textbf{Assinale} a alternativa que mais se aproxima da energia livre de reação.
-\autochoices{\(\qty{-2,7}{kJ.mol-1}\)}{\(\qty{-3,5}{kJ.mol-1}\)}{\(\qty{-4,5}{kJ.mol-1}\)}{\(\qty{-5,7}{kJ.mol-1}\)}{\(\qty{-7,4}{kJ.mol-1}\)}
+\autochoices{\(\qty{-2,7}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-3,5}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-4,5}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-5,7}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-7,4}{\unit{kJ.mol^{-1}}}\)}
 \end{problem}
 
 
@@ -1879,7 +1880,7 @@ Considere a reação em {\(\qty{500}{\unit{K}}\)}: {\[
 \]} Em um experimento, a pressão parcial de {\(\ce{H2}\)} e {\(\ce{Cl2}\)} no equilíbrio é {\(\qty{1}{\unit{\micro Pa}}\)}.
 
 \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{HCl}\)}.
-\autochoices{\(\qty{4,4}{mbar}\)}{\(\qty{6,4}{mbar}\)}{\(\qty{9,4}{mbar}\)}{\(\qty{14}{mbar}\)}{\(\qty{20}{mbar}\)}
+\autochoices{\(\qty{4,4}{\unit{mbar}}\)}{\(\qty{6,4}{\unit{mbar}}\)}{\(\qty{9,4}{\unit{mbar}}\)}{\(\qty{14}{\unit{mbar}}\)}{\(\qty{20}{\unit{mbar}}\)}
 \end{problem}
 
 
@@ -1892,7 +1893,7 @@ Considere a reação em {\(\qty{800}{\unit{K}}\)}: {\[
 \]} Em um experimento, a pressão parcial de {\(\ce{N2}\)} e {\(\ce{O2}\)} no equilíbrio é {\(\qty{52}{\unit{kPa}}\)}.
 
 \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{NO}\)}.
-\autochoices{\(\qty{3}{\mu Pa}\)}{\(\qty{3,9}{\mu Pa}\)}{\(\qty{5,0}{\mu Pa}\)}{\(\qty{6,5}{\mu Pa}\)}{\(\qty{8,4}{\mu Pa}\)}
+\autochoices{\(\qty{3}{\unit{\micro Pa}}\)}{\(\qty{3,9}{\unit{\micro Pa}}\)}{\(\qty{5,0}{\unit{\micro Pa}}\)}{\(\qty{6,5}{\unit{\micro Pa}}\)}{\(\qty{8,4}{\unit{\micro Pa}}\)}
 \end{problem}
 
 
@@ -1904,7 +1905,7 @@ Um vaso rígido selado foi carregado com {\(\qty{0,01}{\unit{bar}}\)} de {\(\ce{
 aquecida até uma temperatura em que ocorre a reação: {\[
     \ce{ N2(g) + H2(g) <=> 2 NH3(g) } \quad K = \num{0,11}
 \]} \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{NH3}\)} no equilíbrio.
-\autochoices{\(\qty{9,4E-5}{bar}\)}{\(\qty{1,9E-4}{bar}\)}{\(\qty{3,8E-4}{bar}\)}{\(\qty{7,6E-4}{bar}\)}{\(\qty{1,5E-3}{bar}\)}
+\autochoices{\(\qty{9,4E-5}{\unit{bar}}\)}{\(\qty{1,9E-4}{\unit{bar}}\)}{\(\qty{3,8E-4}{\unit{bar}}\)}{\(\qty{7,6E-4}{\unit{bar}}\)}{\(\qty{1,5E-3}{\unit{bar}}\)}
 \end{problem}
 
 
@@ -1917,7 +1918,7 @@ mistura é aquecida até uma temperatura em que ocorre a reação: {\[
     \ce{ 2 HCl(g) + I2(s) <=> 2 HI(g) + Cl2(g) } \quad K =
 \num{3,5e-32}
 \]} \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{HI}\)} no equilíbrio.
-\autochoices{\(\qty{1,8E-13}{bar}\)}{\(\qty{6,2E-13}{bar}\)}{\(\qty{2,2E-12}{bar}\)}{\(\qty{7,8E-12}{bar}\)}{\(\qty{2,7E-11}{bar}\)}
+\autochoices{\(\qty{1,8E-13}{\unit{bar}}\)}{\(\qty{6,2E-13}{\unit{bar}}\)}{\(\qty{2,2E-12}{\unit{bar}}\)}{\(\qty{7,8E-12}{\unit{bar}}\)}{\(\qty{2,7E-11}{\unit{bar}}\)}
 \end{problem}
 
 
@@ -1929,7 +1930,7 @@ Um balão é carregado com {\(\qty{3,3}{\unit{mbar}}\)} de monocloreto de bromo,
 ocorre a reação: {\[
     \ce{ 2 BrCl(g) <=> Br2(g) + Cl2(g) } \quad K = 32
 \]} \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{BrCl}\)} no equilíbrio.
-\autochoices{\(\qty{0,18}{mbar}\)}{\(\qty{0,23}{mbar}\)}{\(\qty{0,30}{mbar}\)}{\(\qty{0,39}{mbar}\)}{\(\qty{0,51}{mbar}\)}
+\autochoices{\(\qty{0,18}{\unit{mbar}}\)}{\(\qty{0,23}{\unit{mbar}}\)}{\(\qty{0,30}{\unit{mbar}}\)}{\(\qty{0,39}{\unit{mbar}}\)}{\(\qty{0,51}{\unit{mbar}}\)}
 \end{problem}
 
 
@@ -1941,7 +1942,7 @@ Uma mistura de gases inicialmente com {\(P_{\ce{Cl2}} = \qty{0,2}{\unit{bar}}\)}
 {\(P_{\ce{ClF}} = \qty{0,1}{\unit{bar}}\)} entra em equilíbrio em {\(\qty{2500}{\unit{K}}\)}, em que ocorre a reação: {\[
     \ce{ Cl2(g) + F2(g) <=> 2 ClF(g) } \quad K = 20
 \]} \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{ClF}\)} no equilíbrio.
-\autochoices{\(\qty{0,14}{bar}\)}{\(\qty{0,19}{bar}\)}{\(\qty{0,25}{bar}\)}{\(\qty{0,33}{bar}\)}{\(\qty{0,44}{bar}\)}
+\autochoices{\(\qty{0,14}{\unit{bar}}\)}{\(\qty{0,19}{\unit{bar}}\)}{\(\qty{0,25}{\unit{bar}}\)}{\(\qty{0,33}{\unit{bar}}\)}{\(\qty{0,44}{\unit{bar}}\)}
 \end{problem}
 
 
@@ -1954,7 +1955,7 @@ em ocorre a reação: {\[
     \ce{ PCl5(g) <=> PCl3(g) + Cl2(g) } \quad K_\mathrm{c} =
 \num{1,8}
 \]} \textbf{Assinale} a alternativa que mais se aproxima da concentração de {\(\ce{PCl3}\)} no equilíbrio.
-\autochoices{\(\qty{0,25}{mol.L-1}\)}{\(\qty{0,31}{mol.L-1}\)}{\(\qty{0,40}{mol.L-1}\)}{\(\qty{0,50}{mol.L-1}\)}{\(\qty{0,63}{mol.L-1}\)}
+\autochoices{\(\qty{0,25}{\unit{mol.L^{-1}}}\)}{\(\qty{0,31}{\unit{mol.L^{-1}}}\)}{\(\qty{0,40}{\unit{mol.L^{-1}}}\)}{\(\qty{0,50}{\unit{mol.L^{-1}}}\)}{\(\qty{0,63}{\unit{mol.L^{-1}}}\)}
 \end{problem}
 
 
@@ -1967,7 +1968,7 @@ Uma amostra de {\(\qty{25,6}{\unit{g}}\)} de {\(\ce{NH3}\)} é colocada em um re
     \ce{ 2 NH3(g) <=> N2(g) + 3 H2(g) } \quad K_\mathrm{c} =
 \num{0,4}
 \]} \textbf{Assinale} a alternativa que mais se aproxima da concentração de {\(\ce{H2}\)} no equilíbrio.
-\autochoices{\(\qty{0,19}{mol.L-1}\)}{\(\qty{0,25}{mol.L-1}\)}{\(\qty{0,32}{mol.L-1}\)}{\(\qty{0,42}{mol.L-1}\)}{\(\qty{0,54}{mol.L-1}\)}
+\autochoices{\(\qty{0,19}{\unit{mol.L^{-1}}}\)}{\(\qty{0,25}{\unit{mol.L^{-1}}}\)}{\(\qty{0,32}{\unit{mol.L^{-1}}}\)}{\(\qty{0,42}{\unit{mol.L^{-1}}}\)}{\(\qty{0,54}{\unit{mol.L^{-1}}}\)}
 \end{problem}
 
 
@@ -1993,7 +1994,7 @@ Em um reator, a reação está em equilíbrio: {\[
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as proposições \emph{corretas}.
-\autochoices{\textbf{1}\textbf{2} e }{\textbf{1}\textbf{4} e }{\textbf{2}\textbf{4} e }{\textbf{1}\textbf{2}\textbf{4} e }{\textbf{1}\textbf{2}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{1} e \textbf{2}}{\textbf{1} e \textbf{4}}{\textbf{2} e \textbf{4}}{\textbf{1}, \textbf{2} e \textbf{4}}{\textbf{1}, \textbf{2}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -2019,7 +2020,7 @@ Em um reator, a reação está em equilíbrio: {\[
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as proposições \emph{corretas}.
-\autochoices{\textbf{1} e }{\textbf{2} e }{\textbf{1}\textbf{2} e }{\textbf{2}\textbf{3} e }{\textbf{2}\textbf{4} e }
+\autochoices{\textbf{1}}{\textbf{2}}{\textbf{1} e \textbf{2}}{\textbf{2} e \textbf{3}}{\textbf{2} e \textbf{4}}
 \end{problem}
 
 
@@ -2033,7 +2034,7 @@ Em um reator mantido em temperatura constante ocorre a reação: {\[
 parcial de {\(\ce{PCl5}\)} aumenta em {\(\qty{2}{\unit{atm}}\)} e o equilíbrio é reestabelecido.
 
 \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{PCl5}\)} no equilíbrio.
-\autochoices{\(\qty{0,80}{atm}\)}{\(\qty{0,98}{atm}\)}{\(\qty{1,2}{atm}\)}{\(\qty{1,5}{atm}\)}{\(\qty{1,9}{atm}\)}
+\autochoices{\(\qty{0,80}{\unit{atm}}\)}{\(\qty{0,98}{\unit{atm}}\)}{\(\qty{1,2}{\unit{atm}}\)}{\(\qty{1,5}{\unit{atm}}\)}{\(\qty{1,9}{\unit{atm}}\)}
 \end{problem}
 
 
@@ -2048,7 +2049,7 @@ pressão de {\(\ce{CO2}\)} foi reduzida até {\(\qty{0,43}{\unit{bar}}\)} pela r
 atingiu novamente o equilíbrio.
 
 \textbf{Assinale} a alternativa que mais se aproxima da pressão parcial de {\(\ce{CO}\)} no equilíbrio.
-\autochoices{\(\qty{1,5}{bar}\)}{\(\qty{1,9}{bar}\)}{\(\qty{2,5}{bar}\)}{\(\qty{3,3}{bar}\)}{\(\qty{4,3}{bar}\)}
+\autochoices{\(\qty{1,5}{\unit{bar}}\)}{\(\qty{1,9}{\unit{bar}}\)}{\(\qty{2,5}{\unit{bar}}\)}{\(\qty{3,3}{\unit{bar}}\)}{\(\qty{4,3}{\unit{bar}}\)}
 \end{problem}
 
 
@@ -2072,7 +2073,7 @@ Considere as reações:
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as reações em que os \emph{reagentes} são favorecidos por compressão.
-\autochoices{\textbf{1}\textbf{2} e }{\textbf{1}\textbf{3} e }{\textbf{2}\textbf{3} e }{\textbf{1}\textbf{2}\textbf{3} e }{\textbf{1}\textbf{2}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{1} e \textbf{2}}{\textbf{1} e \textbf{3}}{\textbf{2} e \textbf{3}}{\textbf{1}, \textbf{2} e \textbf{3}}{\textbf{1}, \textbf{2}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -2096,7 +2097,7 @@ Considere as reações:
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as reações em que os \emph{reagentes} são favorecidos por compressão.
-\autochoices{\textbf{1} e }{\textbf{3} e }{\textbf{1}\textbf{3} e }{\textbf{1}\textbf{2}\textbf{3} e }{\textbf{1}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{1}}{\textbf{3}}{\textbf{1} e \textbf{3}}{\textbf{1}, \textbf{2} e \textbf{3}}{\textbf{1}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -2120,7 +2121,7 @@ Considere as reações:
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as reações em que os \emph{produtos} são favorecidos por aumento da temperatura.
-\autochoices{\textbf{1} e }{\textbf{4} e }{\textbf{1}\textbf{4} e }{\textbf{1}\textbf{2}\textbf{4} e }{\textbf{1}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{1}}{\textbf{4}}{\textbf{1} e \textbf{4}}{\textbf{1}, \textbf{2} e \textbf{4}}{\textbf{1}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -2144,7 +2145,7 @@ Considere as reações:
 \end{enumerate}
 
 \textbf{Assinale} a alternativa que relaciona as reações em que os \emph{produtos} são favorecidos por aumento da temperatura.
-\autochoices{\textbf{1}\textbf{2} e }{\textbf{1}\textbf{4} e }{\textbf{2}\textbf{4} e }{\textbf{1}\textbf{2}\textbf{4} e }{\textbf{1}\textbf{2}\textbf{3}\textbf{4} e }
+\autochoices{\textbf{1} e \textbf{2}}{\textbf{1} e \textbf{4}}{\textbf{2} e \textbf{4}}{\textbf{1}, \textbf{2} e \textbf{4}}{\textbf{1}, \textbf{2}, \textbf{3} e \textbf{4}}
 \end{problem}
 
 
@@ -2175,7 +2176,7 @@ Considere a reação: {\[
 {\(\qty{227}{\unit{\degree C}}\)}.
 
 \textbf{Assinale} a alternativa que mais se aproxima da entalpia padrão de reação.
-\autochoices{\(\qty{-200}{kJ.mol-1}\)}{\(\qty{-330}{kJ.mol-1}\)}{\(\qty{-550}{kJ.mol-1}\)}{\(\qty{-920}{kJ.mol-1}\)}{\(\qty{-1500}{kJ.mol-1}\)}
+\autochoices{\(\qty{-200}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-330}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-550}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-920}{\unit{kJ.mol^{-1}}}\)}{\(\qty{-1500}{\unit{kJ.mol^{-1}}}\)}
 \end{problem}
 
 \section*{Problemas cumulativos}

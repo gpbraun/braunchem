@@ -973,8 +973,20 @@
 \RequirePackage { float }
 
 %============================================================%
+%   INLCUSÃO DE IMAGENS
+%============================================================%
+
+\RequirePackage { float }
+
+%============================================================%
 %   FIGURAS
 %============================================================%
+
+\keys_define:nn { braun/graphics }
+	{
+    float-position .code:n = { \def \fps@figure {#1} },
+    float-position .initial:n = {tbh},
+	}
 
 % \setcapindent{1em}
 
@@ -1038,6 +1050,7 @@
 		
 	}
 	{
+    \bottomrule
 		\end{tabular}
     \end{center}
 
@@ -1128,7 +1141,6 @@
         right = 0pt,
         boxsep = 0pt,
         top = 2pt,
-        bottom = -3ex,
         toptitle = -0.8ex,
         bottomtitle = 1ex,
         lefttitle = 1ex,
@@ -1152,7 +1164,7 @@
         \cs_set_eq:NN \toprule    \relax
         \cs_set_eq:NN \bottomrule \relax
 
-        % \arrayrulecolor { colortable_frame_color }
+        \arrayrulecolor { colortable_frame_color }
 
         \dim_set:Nn \lightrulewidth {1pt}
 
