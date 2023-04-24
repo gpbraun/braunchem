@@ -15,6 +15,8 @@ def main():
     json_file.touch(exist_ok=True)
     json_file.write_text(problem_json_str)
 
+    print(problem_json["statement"]["latex"])
+
 
 if __name__ == "__main__":
     main()

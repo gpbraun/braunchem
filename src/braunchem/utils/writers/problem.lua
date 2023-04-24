@@ -67,7 +67,8 @@ function Writer(doc, opts)
         choices        = choices,
         correct_choice = correct_choice - 1,
         statement      = text(statement, opts),
-        solution       = text(solution, opts)
+        solution       = text(solution, opts),
+        table          = doc.meta.tables,
     }
     return pandoc.json.encode(problem_data)
 end

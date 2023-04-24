@@ -24,9 +24,10 @@ MARKDOWN_EXTENSIONS = [
     "fancy_lists",
     "task_lists",
     "pipe_tables",
+    "table_captions",
     "implicit_figures",
     "fenced_divs",
-    "yaml_metadata_block",
+    # "yaml_metadata_block",
 ]
 """Extensões de markdown utilizadas"""
 

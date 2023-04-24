@@ -312,9 +312,16 @@ function BulletList(elem)
     return elem
 end
 
+local tables = {}
+
+function Table(elem)
+    table.insert(tables, elem)
+end
+
 function Meta(metadata)
     metadata.date = os.date("!%Y-%m-%dT%T")
     metadata.choices = choices
     metadata.correct_choice = correct_choice
+    metadata.tables = tables
     return metadata
 end

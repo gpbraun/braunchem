@@ -35,13 +35,829 @@
         }
     ],
     "correct_choice": 2,
-    "date": "2023-04-24T00:47:06",
+    "date": "2023-04-24T02:26:35",
     "solution": {
         "html": "<p>Solução</p>",
         "latex": "Solução"
     },
     "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
-        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
-    }
+        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<table>\n<caption>Olá</caption>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: center;\"><span class=\"math inline\">P_{\\ce{SO2}}/\\pu{bar}</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">P_{\\ce{O2}}/\\pu{bar}</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">P_{\\ce{SO3}}/\\pu{bar}</span></th>\n<th style=\"text-align: center;\"><span class=\"math inline\">K</span></th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,660}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,390}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,084}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,04}</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,038}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,220}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,004}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,04}</span></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,110}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,110}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,007}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,04}</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,950}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,880}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,180}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,04}</span></td>\n</tr>\n<tr class=\"odd\">\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{1,440}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{1,980}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,410}</span></td>\n<td style=\"text-align: center;\"><span class=\"math inline\">\\pu{0,04}</span></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
+        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{longtable}[]{@{}cccc@{}}\n\\caption{Olá}\\tabularnewline\n\\toprule\\noalign{}\n\\(P_{\\ce{SO2}}/\\pu{bar}\\) & \\(P_{\\ce{O2}}/\\pu{bar}\\) & \\(P_{\\ce{SO3}}/\\pu{bar}\\) & \\(K\\) \\\\\n\\midrule\\noalign{}\n\\endfirsthead\n\\toprule\\noalign{}\n\\(P_{\\ce{SO2}}/\\pu{bar}\\) & \\(P_{\\ce{O2}}/\\pu{bar}\\) & \\(P_{\\ce{SO3}}/\\pu{bar}\\) & \\(K\\) \\\\\n\\midrule\\noalign{}\n\\endhead\n\\bottomrule\\noalign{}\n\\endlastfoot\n\\(\\pu{0,660}\\) & \\(\\pu{0,390}\\) & \\(\\pu{0,084}\\) & \\(\\pu{0,04}\\) \\\\\n\\(\\pu{0,038}\\) & \\(\\pu{0,220}\\) & \\(\\pu{0,004}\\) & \\(\\pu{0,04}\\) \\\\\n\\(\\pu{0,110}\\) & \\(\\pu{0,110}\\) & \\(\\pu{0,007}\\) & \\(\\pu{0,04}\\) \\\\\n\\(\\pu{0,950}\\) & \\(\\pu{0,880}\\) & \\(\\pu{0,180}\\) & \\(\\pu{0,04}\\) \\\\\n\\(\\pu{1,440}\\) & \\(\\pu{1,980}\\) & \\(\\pu{0,410}\\) & \\(\\pu{0,04}\\) \\\\\n\\end{longtable}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
+    },
+    "table": [
+        {
+            "c": [
+                [
+                    "",
+                    [],
+                    []
+                ],
+                [
+                    null,
+                    [
+                        {
+                            "c": [
+                                {
+                                    "c": "Olá",
+                                    "t": "Str"
+                                }
+                            ],
+                            "t": "Plain"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        {
+                            "t": "AlignCenter"
+                        },
+                        {
+                            "t": "ColWidthDefault"
+                        }
+                    ],
+                    [
+                        {
+                            "t": "AlignCenter"
+                        },
+                        {
+                            "t": "ColWidthDefault"
+                        }
+                    ],
+                    [
+                        {
+                            "t": "AlignCenter"
+                        },
+                        {
+                            "t": "ColWidthDefault"
+                        }
+                    ],
+                    [
+                        {
+                            "t": "AlignCenter"
+                        },
+                        {
+                            "t": "ColWidthDefault"
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "",
+                        [],
+                        []
+                    ],
+                    [
+                        [
+                            [
+                                "",
+                                [],
+                                []
+                            ],
+                            [
+                                [
+                                    [
+                                        "",
+                                        [],
+                                        []
+                                    ],
+                                    {
+                                        "t": "AlignDefault"
+                                    },
+                                    1,
+                                    1,
+                                    [
+                                        {
+                                            "c": [
+                                                {
+                                                    "c": [
+                                                        {
+                                                            "t": "InlineMath"
+                                                        },
+                                                        "P_{\\ce{SO2}}/\\pu{bar}"
+                                                    ],
+                                                    "t": "Math"
+                                                }
+                                            ],
+                                            "t": "Plain"
+                                        }
+                                    ]
+                                ],
+                                [
+                                    [
+                                        "",
+                                        [],
+                                        []
+                                    ],
+                                    {
+                                        "t": "AlignDefault"
+                                    },
+                                    1,
+                                    1,
+                                    [
+                                        {
+                                            "c": [
+                                                {
+                                                    "c": [
+                                                        {
+                                                            "t": "InlineMath"
+                                                        },
+                                                        "P_{\\ce{O2}}/\\pu{bar}"
+                                                    ],
+                                                    "t": "Math"
+                                                }
+                                            ],
+                                            "t": "Plain"
+                                        }
+                                    ]
+                                ],
+                                [
+                                    [
+                                        "",
+                                        [],
+                                        []
+                                    ],
+                                    {
+                                        "t": "AlignDefault"
+                                    },
+                                    1,
+                                    1,
+                                    [
+                                        {
+                                            "c": [
+                                                {
+                                                    "c": [
+                                                        {
+                                                            "t": "InlineMath"
+                                                        },
+                                                        "P_{\\ce{SO3}}/\\pu{bar}"
+                                                    ],
+                                                    "t": "Math"
+                                                }
+                                            ],
+                                            "t": "Plain"
+                                        }
+                                    ]
+                                ],
+                                [
+                                    [
+                                        "",
+                                        [],
+                                        []
+                                    ],
+                                    {
+                                        "t": "AlignDefault"
+                                    },
+                                    1,
+                                    1,
+                                    [
+                                        {
+                                            "c": [
+                                                {
+                                                    "c": [
+                                                        {
+                                                            "t": "InlineMath"
+                                                        },
+                                                        "K"
+                                                    ],
+                                                    "t": "Math"
+                                                }
+                                            ],
+                                            "t": "Plain"
+                                        }
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "",
+                            [],
+                            []
+                        ],
+                        0,
+                        [],
+                        [
+                            [
+                                [
+                                    "",
+                                    [],
+                                    []
+                                ],
+                                [
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,660}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,390}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,084}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,04}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ],
+                            [
+                                [
+                                    "",
+                                    [],
+                                    []
+                                ],
+                                [
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,038}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,220}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,004}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,04}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ],
+                            [
+                                [
+                                    "",
+                                    [],
+                                    []
+                                ],
+                                [
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,110}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,110}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,007}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,04}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ],
+                            [
+                                [
+                                    "",
+                                    [],
+                                    []
+                                ],
+                                [
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,950}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,880}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,180}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,04}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ],
+                            [
+                                [
+                                    "",
+                                    [],
+                                    []
+                                ],
+                                [
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{1,440}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{1,980}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,410}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        [
+                                            "",
+                                            [],
+                                            []
+                                        ],
+                                        {
+                                            "t": "AlignDefault"
+                                        },
+                                        1,
+                                        1,
+                                        [
+                                            {
+                                                "c": [
+                                                    {
+                                                        "c": [
+                                                            {
+                                                                "t": "InlineMath"
+                                                            },
+                                                            "\\pu{0,04}"
+                                                        ],
+                                                        "t": "Math"
+                                                    }
+                                                ],
+                                                "t": "Plain"
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    [
+                        "",
+                        [],
+                        []
+                    ],
+                    []
+                ]
+            ],
+            "t": "Table"
+        }
+    ]
 }

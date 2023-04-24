@@ -16,6 +16,7 @@ MARKDOWN_EXTENSIONS = [
     "fancy_lists",
     "task_lists",
     "pipe_tables",
+    "table_captions",
     "implicit_figures",
     "fenced_divs",
     "yaml_metadata_block",
@@ -32,6 +33,7 @@ PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
 
 PANDOC_PROBLEM_FILTERS = [
     "containers.lua",
+    "tables.lua",
     "pu2qty.py",
     "problem_lists.lua",
 ]
