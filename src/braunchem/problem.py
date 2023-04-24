@@ -129,10 +129,12 @@ class Problem(BaseModel):
         # respostas de problemas discursivos!
         answer = metadata.pop("answer", None)
         if isinstance(answer, list):
-            problem["answer"] = [Text.parse_md(item) for item in answer]
+            problem["answer"] = [
+                Text.parse_md(item, problem["path"]) for item in answer
+            ]
 
         elif isinstance(answer, str):
-            problem["answer"] = [Text.parse_md(answer)]
+            problem["answer"] = [Text.parse_md(answer, problem["path"])]
 
         # conteúdo
         soup = text.md2soup(content)
@@ -156,7 +158,9 @@ class Problem(BaseModel):
 
                 if answer.count(";", 2):
                     answer = "".join(str(x) for x in li.contents)
-                    choices, correct_choice = ordering_choices(answer, seed=problem_id)
+                    choices, correct_choice = ordering_choices(
+                        answer, seed=problem_id, path=problem["path"]
+                    )
                 else:
                     equation = li.find("span", {"class": "math"})
                     if equation:
@@ -172,7 +176,9 @@ class Problem(BaseModel):
             elif len(choice_list_items) == 5:
                 for index, li in enumerate(choice_list_items):
                     check_box = li.find("input").extract()
-                    choice = Text.parse_html("".join(str(x) for x in li.contents))
+                    choice = Text.parse_html(
+                        "".join(str(x) for x in li.contents), problem["path"]
+                    )
                     choices.append(choice)
                     if check_box.has_attr("checked"):
                         correct_choice = index
@@ -187,9 +193,11 @@ class Problem(BaseModel):
                     )
 
             if solution:
-                problem["solution"] = Text.parse_html(solution.extract())
+                problem["solution"] = Text.parse_html(
+                    solution.extract(), problem["path"]
+                )
 
-            problem["statement"] = Text.parse_html(soup)
+            problem["statement"] = Text.parse_html(soup, problem["path"])
 
             return cls.parse_obj(problem)
 
@@ -207,15 +215,17 @@ class Problem(BaseModel):
             problem["choices"] = choices
             problem["correct_choice"] = correct_choice
             if solution:
-                problem["solution"] = Text.parse_html(solution.extract())
-            problem["statement"] = Text.parse_html(soup)
+                problem["solution"] = Text.parse_html(
+                    solution.extract(), problem["path"]
+                )
+            problem["statement"] = Text.parse_html(soup, problem["path"])
 
             return cls.parse_obj(problem)
 
         # problema discursivo
         if solution:
-            problem["solution"] = Text.parse_html(solution.extract())
-        problem["statement"] = Text.parse_html(soup)
+            problem["solution"] = Text.parse_html(solution.extract(), problem["path"])
+        problem["statement"] = Text.parse_html(soup, problem["path"])
 
         return cls.parse_obj(problem)
 
@@ -359,6 +369,8 @@ class ProblemSet(BaseModel):
         """Cria um `ProblemSet` com os problemas fornecidos."""
         with Pool() as pool:
             problems = list(pool.imap_unordered(Problem.parse_mdfile, problem_paths))
+
+        problems = list(map(Problem.parse_mdfile, problem_paths))
 
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
 

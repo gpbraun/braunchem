@@ -10,159 +10,177 @@ from itertools import permutations
 from braunchem.utils.text import Text
 
 
+def list_to_props(prop_list):
+    html_str = ""
+    tex_str = ""
+    md_str = ""
+    for i, prop in enumerate(prop_list):
+        html_str += f"{prop}"
+        tex_str += f"\\textbf{{{prop}}}"
+        md_str += f"**{prop}**"
+    if i < len(prop_list) - 1:
+        sep = ", "
+        html_str += sep
+        tex_str += sep
+        md_str += sep
+    if i == len(prop_list) - 1:
+        sep = " e "
+        html_str += sep
+        tex_str += sep
+        md_str += sep
+    return Text.parse_obj({"html": html_str, "md": md_str, "tex": tex_str})
+
+
 def autoprops(true_props):
     """Cria as alternativas para problemas de V ou F."""
     if not true_props:
         choices = [
-            "<strong>N</strong>",
-            "<strong>1</strong>",
-            "<strong>2</strong>",
-            "<strong>3</strong>",
-            "<strong>4</strong>",
+            list_to_props(["N"]),
+            list_to_props([1]),
+            list_to_props([2]),
+            list_to_props([3]),
+            list_to_props([4]),
         ]
         correct_choice = 0
     # Uma correta
     if true_props == [0]:  # 1
         choices = [
-            "<strong>1</strong>",
-            "<strong>2</strong>",
-            "<strong>1</strong> e <strong>2</strong>",
-            "<strong>1</strong> e <strong>3</strong>",
-            "<strong>1</strong> e <strong>4</strong>",
+            list_to_props([1]),
+            list_to_props([2]),
+            list_to_props([1, 2]),
+            list_to_props([1, 3]),
+            list_to_props([1, 4]),
         ]
         correct_choice = 0
     if true_props == [1]:  # 2
         choices = [
-            "<strong>1</strong>",
-            "<strong>2</strong>",
-            "<strong>1</strong> e <strong>2</strong>",
-            "<strong>2</strong> e <strong>3</strong>",
-            "<strong>2</strong> e <strong>4</strong>",
+            list_to_props([1]),
+            list_to_props([2]),
+            list_to_props([1, 2]),
+            list_to_props([2, 3]),
+            list_to_props([2, 4]),
         ]
         correct_choice = 1
     if true_props == [2]:  # 3
         choices = [
-            "<strong>2</strong>",
-            "<strong>3</strong>",
-            "<strong>1</strong> e <strong>3</strong>",
-            "<strong>2</strong> e <strong>3</strong>",
-            "<strong>3</strong> e <strong>4</strong>",
+            list_to_props([2]),
+            list_to_props([3]),
+            list_to_props([1, 3]),
+            list_to_props([2, 3]),
+            list_to_props([3, 4]),
         ]
         correct_choice = 1
     if true_props == [3]:  # 4
         choices = [
-            "<strong>3</strong>",
-            "<strong>4</strong>",
-            "<strong>1</strong> e <strong>4</strong>",
-            "<strong>2</strong> e <strong>4</strong>",
-            "<strong>3</strong> e <strong>4</strong>",
+            list_to_props([3]),
+            list_to_props([4]),
+            list_to_props([1, 4]),
+            list_to_props([2, 4]),
+            list_to_props([3, 4]),
         ]
         correct_choice = 1
     # Duas corretas
     if true_props == [0, 1]:  # 1 e 2
         choices = [
-            "<strong>1</strong>",
-            "<strong>2</strong>",
-            "<strong>1</strong> e <strong>2</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
+            list_to_props([1]),
+            list_to_props([2]),
+            list_to_props([1, 2]),
+            list_to_props([1, 2, 3]),
+            list_to_props([1, 2, 4]),
         ]
         correct_choice = 2
     if true_props == [0, 2]:  # 1 e 3
         choices = [
-            "<strong>1</strong>",
-            "<strong>3</strong>",
-            "<strong>1</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([1]),
+            list_to_props([3]),
+            list_to_props([1, 3]),
+            list_to_props([1, 2, 3]),
+            list_to_props([1, 3, 4]),
         ]
         correct_choice = 2
     if true_props == [0, 3]:  # 1 e 4
         choices = [
-            "<strong>1</strong>",
-            "<strong>4</strong>",
-            "<strong>1</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([1]),
+            list_to_props([4]),
+            list_to_props([1, 4]),
+            list_to_props([1, 2, 4]),
+            list_to_props([1, 3, 4]),
         ]
         correct_choice = 2
     if true_props == [1, 2]:  # 2 e 3
         choices = [
-            "<strong>2</strong>",
-            "<strong>3</strong>",
-            "<strong>2</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-            "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([2]),
+            list_to_props([3]),
+            list_to_props([2, 3]),
+            list_to_props([1, 2, 3]),
+            list_to_props([2, 3, 4]),
         ]
         correct_choice = 2
     if true_props == [1, 3]:  # 2 e 4
         choices = [
-            "<strong>2</strong>",
-            "<strong>4</strong>",
-            "<strong>2</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-            "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([2]),
+            list_to_props([4]),
+            list_to_props([2, 4]),
+            list_to_props([1, 2, 4]),
+            list_to_props([2, 3, 4]),
         ]
         correct_choice = 2
     if true_props == [2, 3]:  # 3 e 4
         choices = [
-            "<strong>3</strong>",
-            "<strong>4</strong>",
-            "<strong>3</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-            "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([3]),
+            list_to_props([4]),
+            list_to_props([3, 4]),
+            list_to_props([1, 3, 4]),
+            list_to_props([2, 3, 4]),
         ]
         correct_choice = 2
     # Três corretas
     if true_props == [0, 1, 2]:  # 1, 2 e 3
         choices = [
-            "<strong>1</strong> e <strong>2</strong>",
-            "<strong>1</strong> e <strong>3</strong>",
-            "<strong>2</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([1, 2]),
+            list_to_props([1, 3]),
+            list_to_props([2, 3]),
+            list_to_props([1, 2, 3]),
+            list_to_props([1, 2, 3, 4]),
         ]
         correct_choice = 3
     if true_props == [0, 1, 3]:  # 1, 2 e 4
         choices = [
-            "<strong>1</strong> e <strong>2</strong>",
-            "<strong>1</strong> e <strong>4</strong>",
-            "<strong>2</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([1, 2]),
+            list_to_props([1, 4]),
+            list_to_props([2, 4]),
+            list_to_props([1, 2, 4]),
+            list_to_props([1, 2, 3, 4]),
         ]
         correct_choice = 3
     if true_props == [0, 2, 3]:  # 1, 3 e 4
         choices = [
-            "<strong>1</strong> e <strong>3</strong>",
-            "<strong>1</strong> e <strong>4</strong>",
-            "<strong>3</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([1, 3]),
+            list_to_props([1, 4]),
+            list_to_props([3, 4]),
+            list_to_props([1, 3, 4]),
+            list_to_props([1, 2, 3, 4]),
         ]
         correct_choice = 3
     if true_props == [1, 2, 3]:  # 2, 3 e 4
         choices = [
-            "<strong>2</strong> e <strong>3</strong>",
-            "<strong>2</strong> e <strong>4</strong>",
-            "<strong>3</strong> e <strong>4</strong>",
-            "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([2, 3]),
+            list_to_props([2, 4]),
+            list_to_props([3, 4]),
+            list_to_props([2, 3, 4]),
+            list_to_props([1, 2, 3, 4]),
         ]
         correct_choice = 3
     # Todas corretas
     if true_props == [0, 1, 2, 3]:  # 1, 2, 3 e 4
         choices = [
-            "<strong>1</strong>, <strong>2</strong> e <strong>3</strong>",
-            "<strong>1</strong>, <strong>2</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>3</strong> e <strong>4</strong>",
-            "<strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
-            "<strong>1</strong>, <strong>2</strong>, <strong>3</strong> e <strong>4</strong>",
+            list_to_props([1, 2, 3]),
+            list_to_props([1, 2, 4]),
+            list_to_props([1, 3, 4]),
+            list_to_props([2, 3, 4]),
+            list_to_props([1, 2, 3, 4]),
         ]
         correct_choice = 4
-
-    choices = [Text.parse_html(choice) for choice in choices]
-    answer = [choices[correct_choice]]
     return choices, correct_choice
 
 
@@ -207,8 +225,19 @@ class PhyisicalUnit:
             return f"\\pu{{{self.value_string()}}}"
         return f"\\pu{{{self.value_string()} {self.unit}}}"
 
+    def to_qty(self):
+        if not self.unit:
+            return f"\\num{{{self.value_string()}}}"
+        return f"\\qty{{{self.value_string()}}}{{{self.unit}}}"
+
     def to_text(self):
-        return Text.parse_html(f'<span class="math inline">\\({self.to_pu()}\\)</span>')
+        return Text.parse_obj(
+            {
+                "html": f'<span class="math inline">\\({self.to_pu()}\\)</span>',
+                "tex": f"\\({self.to_qty()}\\)",
+                "md": f"${self.to_pu()}$",
+            }
+        )
 
     def value_string(self):
         sign = self.sign if self.sign else ""
@@ -262,7 +291,9 @@ def numerical_choices(answer: str, seed: int | str = None):
         raise AttributeError(f"Erro com seed {seed}")
 
 
-def ordering_choices(answer: str, seed: int | str = None) -> tuple[list, int]:
+def ordering_choices(
+    answer: str, seed: int | str = None, path=None
+) -> tuple[list, int]:
     """Gera múltilplas escolhas para problemas com resposta numérica."""
     if seed:
         random.seed(seed)
@@ -285,9 +316,9 @@ def ordering_choices(answer: str, seed: int | str = None) -> tuple[list, int]:
         distractor = "; ".join(distractor_list)
         if distractor not in choices_raw:
             choices_raw.append(distractor)
-            choices.append(Text.parse_html(distractor + "."))
+            choices.append(Text.parse_html(distractor + ".", path))
 
-    choices.insert(correct_choice, Text.parse_html(answer + "."))
+    choices.insert(correct_choice, Text.parse_html(answer + ".", path))
 
     return choices, correct_choice
 

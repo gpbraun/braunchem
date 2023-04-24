@@ -14,30 +14,34 @@
             "latex": "C"
         },
         {
-            "html": "A &gt; C &gt; B",
-            "latex": "A \\textgreater{} C \\textgreater{} B"
+            "html": "D",
+            "latex": "D"
         },
         {
-            "html": "B &gt; A &gt; C",
-            "latex": "B \\textgreater{} A \\textgreater{} C"
+            "html": "A ; B ; D ; C",
+            "latex": "A ; B ; D ; C"
         },
         {
-            "html": "B &gt; C &gt; A",
-            "latex": "B \\textgreater{} C \\textgreater{} A"
+            "html": "A ; D ; B ; C",
+            "latex": "A ; D ; B ; C"
         },
         {
-            "html": "C &gt; A &gt; B",
-            "latex": "C \\textgreater{} A \\textgreater{} B"
+            "html": "B ; C ; A ; D",
+            "latex": "B ; C ; A ; D"
+        },
+        {
+            "html": "B ; D ; C ; A",
+            "latex": "B ; D ; C ; A"
         }
     ],
     "correct_choice": 2,
-    "date": "2023-04-23T21:45:10",
+    "date": "2023-04-24T00:47:06",
     "solution": {
-        "html": "<p>Essa é a solução</p>\n<p><span class=\"math display\">\n    f(x) = x\n</span></p>",
-        "latex": "Essa é a solução\n\n\\[\n    f(x) = x\n\\]"
+        "html": "<p>Solução</p>",
+        "latex": "Solução"
     },
     "statement": {
-        "html": "<p>Um imã de ferro possui <span class=\"math inline\">\\pu{25 g}</span> de massa. A massa de um átomo de ferro é <span class=\"math inline\">\\pu{9,3e-26\nkg}</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do número de átomos de ferro no imã.</p>",
-        "latex": "Um imã de ferro possui \\(\\pu{25 g}\\) de massa. A massa de um átomo de ferro é \\(\\pu{9,3e-26 kg}\\).\n\n\\textbf{Assinale} a alternativa que mais se aproxima do número de átomos de ferro no imã."
+        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
+        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
     }
 }

@@ -175,12 +175,12 @@ class Topic(BaseModel):
                 }
             )
             for index, (title, content) in enumerate(
-                text.soup_split_header(soup), start=1
+                text.soup_split_header(soup, "h1", topic["path"]), start=1
             )
         ]
 
         # conteúdo
-        topic["content"] = Text.parse_md(content)
+        topic["content"] = Text.parse_md(content, topic["path"])
 
         return cls.parse_obj(topic)
 

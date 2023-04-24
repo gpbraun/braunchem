@@ -31,7 +31,7 @@ PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
 
 PANDOC_PROBLEM_FILTERS = [
-    "containers.py",
+    "containers.lua",
     "pu2qty.py",
     "problem_lists.lua",
 ]

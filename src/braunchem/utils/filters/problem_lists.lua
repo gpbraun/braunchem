@@ -88,9 +88,6 @@ local ORDER_CHOICES_MAP = {
 local choices
 local correct_choice
 
-local seed
-
-
 
 local function trimBlockContentSpaces(content)
     -- Remove espaços em volta de um bloco.
@@ -316,7 +313,6 @@ function BulletList(elem)
 end
 
 function Meta(metadata)
-    seed = metadata.id
     metadata.date = os.date("!%Y-%m-%dT%T")
     metadata.choices = choices
     metadata.correct_choice = correct_choice

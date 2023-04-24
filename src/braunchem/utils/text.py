@@ -42,9 +42,9 @@ PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 """Diretório contendo os filtros"""
 
 PANDOC_FILTERS = [
-    "containers.py",
+    "legacy_containers.lua",
+    "figures.py",
     "pu2qty.py",
-    "lists.lua",
 ]
 """Filtros para o pandoc."""
 
@@ -55,32 +55,6 @@ PANDOC_FILTER_PATHS = [
 
 PANDOC_COLUMN_NUM = 150
 """Número de colunas consideradas pelo pandoc"""
-
-
-def md2json(md_str: str) -> str:
-    """Converte markdown em HTML usando pandoc."""
-    return pypandoc.convert_text(
-        source=md_str,
-        to="json",
-        format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet", "--mathjax"],
-        filters=PANDOC_FILTER_PATHS,
-    )
-
-
-def md2problem(html_str: str) -> str:
-    """Converte HTML em LaTeX usando pandoc."""
-    tex_str = pypandoc.convert_text(
-        source=html_str,
-        to="/home/braun/Documents/Developer/braunchem/src/braunchem/utils/writers/problem.lua",
-        format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet", "--mathjax", f"--columns={PANDOC_COLUMN_NUM}"],
-        filters=PANDOC_FILTER_PATHS,
-    )
-    tex_str = tex_str.replace("\\toprule()", "\\toprule")
-    tex_str = tex_str.replace("\\midrule()", "\\midrule")
-    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
-    return tex_str
 
 
 def md2html(md_str: str) -> str:
@@ -103,48 +77,37 @@ def html2md(html_str: str) -> str:
     )
 
 
-def html2tex(html_str: str) -> str:
+def html2tex(html_str: str, path: Path = None) -> str:
     """Converte HTML em LaTeX usando pandoc."""
     tex_str = pypandoc.convert_text(
         source=html_str,
         to="latex",
         format="html+tex_math_dollars+tex_math_single_backslash",
-        extra_args=["--quiet", f"--columns={PANDOC_COLUMN_NUM}"],
+        extra_args=[
+            "--quiet",
+            f"--columns={PANDOC_COLUMN_NUM}",
+            f"--metadata=path:{path}" if path else "",
+        ],
         filters=PANDOC_FILTER_PATHS,
     )
-    tex_str = tex_str.replace("\\toprule()", "\\toprule")
-    tex_str = tex_str.replace("\\midrule()", "\\midrule")
-    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
+    # tex_str = tex_str.replace("\\noalign{}", "")
     return tex_str
 
 
-def md2tex(md_str: str) -> str:
+def md2tex(md_str: str, path: Path = None) -> str:
     """Converte markdown em LaTeX usando pandoc."""
     tex_str = pypandoc.convert_text(
         source=md_str,
         to="latex",
         format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet", f"--columns={PANDOC_COLUMN_NUM}"],
+        extra_args=[
+            "--quiet",
+            f"--columns={PANDOC_COLUMN_NUM}",
+            f"--metadata=path:{path}" if path else "",
+        ],
         filters=PANDOC_FILTER_PATHS,
     )
-    tex_str = tex_str.replace("\\toprule()", "\\toprule")
-    tex_str = tex_str.replace("\\midrule()", "\\midrule")
-    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
-    return tex_str
-
-
-def md2beamer(md_str: str) -> str:
-    """Converte markdown em beamer usando pandoc."""
-    tex_str = pypandoc.convert_text(
-        source=md_str,
-        to="beamer",
-        format=PANDOC_MARKDOWN_FORMAT,
-        extra_args=["--quiet", f"--columns={PANDOC_COLUMN_NUM}"],
-        filters=PANDOC_FILTER_PATHS,
-    )
-    tex_str = tex_str.replace("\\toprule()", "\\toprule")
-    tex_str = tex_str.replace("\\midrule()", "\\midrule")
-    tex_str = tex_str.replace("\\bottomrule()", "\\bottomrule")
+    # tex_str = tex_str.replace("\\noalign{}", "")
     return tex_str
 
 
@@ -178,7 +141,7 @@ class Text(pydantic.BaseModel):
     tex: str
 
     @classmethod
-    def parse_md(cls, md_str: str):
+    def parse_md(cls, md_str: str, path: Path = None):
         """Cria um `Text` a partir de uma string em markdown."""
         if not md_str:
             return
@@ -186,12 +149,12 @@ class Text(pydantic.BaseModel):
         md_str = str(md_str).strip()
 
         html_str = md2html(md_str)
-        tex_str = md2tex(md_str)
+        tex_str = md2tex(md_str, path)
 
         return cls(html=html_str, md=md_str, tex=tex_str)
 
     @classmethod
-    def parse_html(cls, html_str: str | bs4.BeautifulSoup):
+    def parse_html(cls, html_str: str | bs4.BeautifulSoup, path: Path = None):
         """Cria um `Text` a partir de uma string em LaTeX."""
         if not html_str:
             return
@@ -199,7 +162,7 @@ class Text(pydantic.BaseModel):
         html_str = str(html_str).strip()
 
         md_str = html2md(html_str)
-        tex_str = html2tex(html_str)
+        tex_str = html2tex(html_str, path)
 
         return cls(html=html_str, md=md_str, tex=tex_str)
 
@@ -281,7 +244,7 @@ def get_database_paths(database_dir: Path, generate_figures=True) -> list[Path]:
     return md_files
 
 
-def soup_split_header(soup: bs4.BeautifulSoup, tag="h1"):
+def soup_split_header(soup: bs4.BeautifulSoup, tag="h1", path: Path = None):
     """Divide um `BeaultifulSoup` por tag."""
     headers = soup.find_all(tag)
     if not headers:
@@ -301,4 +264,4 @@ def soup_split_header(soup: bs4.BeautifulSoup, tag="h1"):
                     break
                 content = "\n".join([content, str(next_node)])
 
-        yield header.text, Text.parse_html(content)
+        yield header.text, Text.parse_html(content, path)

@@ -970,95 +970,7 @@
 %                                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%============================================================%
-%   INLCUSÃO DE IMAGENS
-%============================================================%
-
-\RequirePackage { float, svg }
-
-\cs_set:Nn \graphics_include:n { \graphics_include:nn {} {#1} }
-
-\keys_define:nn { braun/graphics }
-	{
-    float-position .code:n = { \def \fps@figure {#1} },
-    float-position .initial:n = {tbh},
-
-    width .dim_set:N = \l_braun_graphics_width_dim,
-		width .initial:n = 5cm,
-
-		height .dim_set:N = \l_braun_graphics_height_dim,
-		height .initial:n = 4cm,
-
-    path .tl_set:N = \g_braun_graphics_path_tl,
-    path .initial:n = {},
-	}
-
-\cs_set:Npn \path #1 
-  { 
-    \seq_put_right:Nn \l_file_search_path_seq {#1} 
-    \tl_set:Nn \g_braun_graphics_path_tl {#1}
-  }
-
-\cs_set_eq:NN \legacyincludegraphics \includegraphics
-
-% #1 -> coffin
-% #2 -> content
-\cs_set:Nn \braun_graphics_box:Nn %%%% NÃO USADO
-  { 
-    \hcoffin_set:Nn #1
-      {
-        \group_begin:
-        \hbox_set:Nn \l_tmpa_box {#2}
-        \box_autosize_to_wd_and_ht:NVV \l_tmpa_box 
-            \l_braun_graphics_width_dim \l_braun_graphics_height_dim 
-        \box_use_drop:N \l_tmpa_box
-        \group_end:
-      }   
-  }
-
-% #1 -> coffin
-% #2 -> figure path
-\cs_set:Nn \braun_include_graphics:Nn
-  { 
-    \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
-      { 
-        \legacyincludegraphics { \g_braun_graphics_path_tl / #2 }
-      }
-  }
-
-% #1 -> coffin
-% #2 -> svg path
-\cs_set:Nn \braun_include_svg:Nn
-  { 
-    \file_if_exist:nT { \g_braun_graphics_path_tl / #2 }
-      { 
-        \includesvg [pretex=\sffamily] { \g_braun_graphics_path_tl / #2 }
-      }
-  }
-
-\tl_new:N \l_tmpc_tl
-
-% #1 -> keys: braun/graphics
-% #2 -> figure path
-\DeclareDocumentCommand \includegraphics { o m }
-  { 
-    \group_begin:
-    \IfValueT {#1} { \keys_set:nn { braun/graphics } {#1} }
-    \file_parse_full_name:nNNN {#2} \l_tmpa_tl \l_tmpb_tl \l_tmpc_tl
-    \str_case:VnF \l_tmpc_tl
-      {
-        { .svg }
-        {
-          \file_if_exist_input:nF 
-            { \g_braun_graphics_path_tl \l_tmpa_tl / \l_tmpb_tl .tex }
-            { \braun_include_svg:Nn \l_tmpa_coffin {#2} }
-        }
-      }
-      {
-        \braun_include_graphics:Nn \l_tmpa_coffin {#2}
-      }
-    \group_end:
-  }
+\RequirePackage { float }
 
 %============================================================%
 %   FIGURAS
@@ -1110,6 +1022,7 @@
 \cs_set_eq:NN \tightlist    \relax
 \cs_set_eq:NN \endhead      \relax
 \cs_set_eq:NN \endfirsthead \relax
+\cs_set_eq:NN \endlastfoot  \relax
 
 \NewDocumentEnvironment { longtable } { O{} m }
 	{

@@ -1,9 +1,11 @@
 if FORMAT:match 'latex' then
+    local title
+
     local gettitle = {
         Header = function(elem)
-            local text = pandoc.utils.stringify(elem)
-            if Title == "" then
-                Title = text
+            local text = elem.content
+            if title == nil then
+                title = text
                 return {}
             else
                 return pandoc.RawInline('latex', '\\subheader{' .. text .. '}')
@@ -14,11 +16,18 @@ if FORMAT:match 'latex' then
     function Div(elem)
         local class = elem.classes[1]
 
-        Title = ""
+        title = nil
         elem.content = elem.content:walk(gettitle)
 
+        if title == nil then
+            return {
+                pandoc.RawInline('latex', '\\begin{' .. class .. '}{}'),
+                elem,
+                pandoc.RawInline('latex', '\\end{' .. class .. '}'),
+            }
+        end
         return {
-            pandoc.RawInline('latex', '\\begin{' .. class .. '}{' .. Title .. '}'),
+            pandoc.RawInline('latex', '\\begin{' .. class .. '}{' .. title .. '}'),
             elem,
             pandoc.RawInline('latex', '\\end{' .. class .. '}'),
         }

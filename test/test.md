@@ -1,13 +1,9 @@
-Um imã de ferro possui $\pu{25 g}$ de massa. A massa de um átomo de ferro é $\pu{9,3e-26 kg}$.
+Considere os parâmetros para um átomo de hidrogênio.
 
-**Assinale** a alternativa que mais se aproxima do número de átomos de ferro no imã.
+**Assinale** a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital $\mathrm{1s}$ para o $\mathrm{2p}$.
 
-- [x] A > B > C
+- [x] A ; B ; C ; D
 
 ---
 
-Essa é a solução
-
-$$
-    f(x) = x
-$$
+Solução
