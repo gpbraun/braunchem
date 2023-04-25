@@ -1,0 +1,30 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{chemscheme}
+\begin{tikzpicture}
+    \node (C1) [3Datom=blue] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={- 30}{1}] at (C1) {};
+    \node (L2) [3Dbond={-150}{1}] at (C1) {};
+    \end{pgfonlayer}
+    \node (E1) [3Dlonepair=+90] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+    \end{scope}
+
+    \node (lewis) [anchor=east, shift={(-3em, -0.3em)}] at (C1) 
+        { 
+            \chemfig[fixed length=true]
+                {
+                    \charge{90:1.5pt=\.}{N}
+                        (-[-1]\charge{60:1pt=\:, -30:1pt=\:, -120:1pt=\:}{O})
+                        (=[7]\charge{-90:1.5pt=\:, 150:1pt=\:}{O})
+                }
+            \quad =
+        };
+\end{tikzpicture}
+\end{chemscheme}

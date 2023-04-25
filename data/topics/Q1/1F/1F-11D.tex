@@ -1,0 +1,85 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\tikzset { central3Datom/.style = { 3Datom=purple } }
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{tabular}{ c c c }
+%% LINEAR
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={   0}{1.0}] at (C1) {};
+    \node (L2) [3Dbond={+180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+\end{tikzpicture}
+&
+%% TRIGONAL PLANAR
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={ -30}{1.0}] at (C1) {};
+    \node (L2) [3Dbond={-150}{1.0}] at (C1) {};
+    \node (L3) [3Dbond={ +90}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+\end{tikzpicture}
+&
+%% TETRAEDRO
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={- 20}{0.8}] at (C1) {};
+    \node (L3) [3Dbond={-160}{0.8}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L2) [3Dbond={- 90}{0.9}] at (C1) {};
+    \node (L4) [3Dbond={+ 90}{1.0}] at (C1) {};
+\end{tikzpicture}
+\\
+Linear & Trigonal planar & Tetraedro 
+\\\\
+%% BIPIRÂMIDE TRIGONAL
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={ +20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={ -90}{1.0}] at (C1) {};
+    \node (L4) [3Dbond={+180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L3) [3Dbond={ -20}{1.1}] at (C1) {}; 
+    \node (L5) [3Dbond={ +90}{1.0}] at (C1) {};
+\end{tikzpicture}
+&
+%% OCTAEDRO
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={+160}{0.9}] at (C1) {};
+    \node (L3) [3Dbond={- 90}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L5) [3Dbond={- 20}{1.1}] at (C1) {};
+    \node (L6) [3Dbond={-160}{1.1}] at (C1) {};
+    \node (L4) [3Dbond={+ 90}{1.0}] at (C1) {};
+\end{tikzpicture}
+&
+%% BIPIRÂMIDE PENTAGONAL
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={+130}{0.5}] at (C1) {};
+    \node (L3) [3Dbond={- 90}{1.0}] at (C1) {};
+    \node (L6) [3Dbond={+180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L4) [3Dbond={- 20}{1.1}] at (C1) {};
+    \node (L5) [3Dbond={-130}{0.7}] at (C1) {};
+    \node (L7) [3Dbond={+ 90}{1.0}] at (C1) {};
+\end{tikzpicture}
+\\
+Bipirâmide & Octaedro & Bipirâmide 
+\\ trigonal && pentagonal
+\end{tabular}

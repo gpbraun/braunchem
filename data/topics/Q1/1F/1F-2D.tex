@@ -1,10 +1,11 @@
 \pgfdeclarelayer{back bonds}
 \pgfdeclarelayer{back atoms}
+\tikzset { central3Datom/.style = { 3Datom=purple } }
 \pgfsetlayers{back atoms, back bonds, main}
 \begin{tabular}{ c c c }
 %% LINEAR
 \begin{tikzpicture}
-    \node (C1) [3Datom=black] at (0,0) {};
+    \node (C1) [central3Datom] at (0,0) {};
 
     \begin{pgfonlayer}{back bonds}
     \node (L1) [3Dbond={   0}{1.0}] at (C1) {};
@@ -20,10 +21,25 @@
         to [out=80, in=100, edge node={node [above] {\footnotesize\ang{180}}}] 
         (L1.north east);
 \end{tikzpicture}
+    & 
+%% ANGULAR
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={ -30}{1.0}] at (C1) {};
+    \node (L2) [3Dbond={-150}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
 &
 %% TRIGONAL PLANAR
 \begin{tikzpicture}
-    \node (C1) [3Datom=black] at (0,0) {};
+    \node (C1) [central3Datom] at (0,0) {};
 
     \begin{pgfonlayer}{back bonds}
     \node (L1) [3Dbond={ -30}{1.0}] at (C1) {};
@@ -41,10 +57,49 @@
         to [out=0, in=60, edge node={node [above, shift={(6pt,2pt)}] {\footnotesize\ang{120}}}] 
         (L1.north east);
 \end{tikzpicture}
+\\
+Linear & Angular & Trigonal \\
+       &         & planar
+\\\\
+%% PIRAMIDE TRIGONAL
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={- 20}{0.8}] at (C1) {};
+    \node (L3) [3Dbond={-160}{0.8}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L2) [3Dbond={- 90}{0.9}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L2.top) + (L2.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+    &  
+    %% EM T
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={ -90}{1.0}] at (C1) {};
+    \node (L2) [3Dbond={ +90}{1.0}] at (C1) {};
+    \node (L3) [3Dbond={ 180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
 &
 %% TETRAEDRO
 \begin{tikzpicture}
-    \node (C1) [3Datom=black] at (0,0) {};
+    \node (C1) [central3Datom] at (0,0) {};
 
     \begin{pgfonlayer}{back bonds}
     \node (L1) [3Dbond={- 20}{0.8}] at (C1) {};
@@ -63,22 +118,64 @@
     \end{scope}
 
     \draw (L4.south east) 
-            to [out=0, in=70, edge node={node [above, shift={(8pt,2pt)}] {\footnotesize\ang{109,5}}}] 
+        to [out=0, in=70, edge node={node [above, shift={(8pt,2pt)}] {\footnotesize\ang{109,5}}}] 
         (L1.north east);
 \end{tikzpicture}
 \\
-Linear & Trigonal planar & Tetraedro 
+Pirâmide & Em T & Tetraedro \\
+trigonal &      &
 \\\\
-%% BIPIRÂMIDE TRIGONAL
+%% GANGORRA
 \begin{tikzpicture}
-    \node (C1) [3Datom=black] at (0,0) {};
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={- 90}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L3) [3Dbond={- 20}{1.1}] at (C1) {};
+    \node (L5) [3Dbond={+ 90}{1.0}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \node at ($(L5.top) + (L5.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+    &  
+    %% QUADRADO PLANAR
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={   0}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={  90}{0.9}] at (C1) {};
+    \node (L5) [3Dbond={ 180}{1.1}] at (C1) {};
+    \node (L6) [3Dbond={ 270}{1.1}] at (C1) {};
+    \end{pgfonlayer}
+   
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \node at ($(L5.top) + (L5.bottom)$) {};
+        \node at ($(L6.top) + (L6.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+&
+%% BIPIRAMIDE TRIGONAL
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
 
     \begin{pgfonlayer}{back bonds}
     \node (L1) [3Dbond={ +20}{0.9}] at (C1) {};
     \node (L2) [3Dbond={ -90}{1.0}] at (C1) {};
-    \node (L4) [3Dbond={+180}{1.0}] at (C1) {};
     \end{pgfonlayer}
-    \node (L3) [3Dbond={ -20}{1.1}] at (C1) {}; 
+    \node (L3) [3Dbond={ -20}{1.1}] at (C1) {};
+    \node (L4) [3Dbond={+180}{1.0}] at (C1) {};
     \node (L5) [3Dbond={ +90}{1.0}] at (C1) {};
 
     \begin{scope}[every node/.style={3Datom=red}]
@@ -98,10 +195,36 @@ Linear & Trigonal planar & Tetraedro
         to [out=-135, in=-70, edge node={node [below left, shift={(1pt,2pt)}] {\footnotesize\ang{120}}}] 
         (L4.north east);
 \end{tikzpicture}
-&
-%% OCTAEDRO
+\\
+Gangorra & Quadrado & Bipirâmide \\
+         & planar   & trigonal 
+\\\\
+%% PIRÂMIDE QUADRADA
 \begin{tikzpicture}
-    \node (C1) [3Datom=black] at (0,0) {};
+    \node (C1) [central3Datom] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={+160}{0.9}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L5) [3Dbond={- 20}{1.1}] at (C1) {};
+    \node (L6) [3Dbond={-160}{1.1}] at (C1) {};
+    \node (L4) [3Dbond={+ 90}{1.0}] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L4.top) + (L4.bottom)$) {};
+        \node at ($(L5.top) + (L5.bottom)$) {};
+        \node at ($(L6.top) + (L6.bottom)$) {};
+    \end{scope}
+\end{tikzpicture}
+    &  
+    %% OCTAEDRO
+\begin{tikzpicture}
+    \node (C1) [central3Datom] at (0,0) {};
 
     \begin{pgfonlayer}{back bonds}
     \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
@@ -123,26 +246,26 @@ Linear & Trigonal planar & Tetraedro
         \node at ($(L6.top) + (L6.bottom)$) {};
     \end{scope}
 
-    \draw (L4.south east) 
+\draw (L4.south east) 
         to [out=0, in=90, edge node={node [above, shift={(5pt,0)}] {\footnotesize\ang{90}}}] 
-        (L1.north east);
-    \draw (L5.south east) 
+    (L1.north east);
+\draw (L5.south east) 
         to [out=-135, in=-45, edge node={node [below right, shift={(1pt,2pt)}] {\footnotesize\ang{90}}}] 
-        (L6.north east);
+    (L6.north east);
 \end{tikzpicture}
 &
-%% BIPIRÂMIDE PENTAGONAL
+%% BIPIRAMIDE PENTAGONAL
 \begin{tikzpicture}
-    \node (C1) [3Datom=black] at (0,0) {};
+    \node (C1) [central3Datom] at (0,0) {};
 
     \begin{pgfonlayer}{back bonds}
     \node (L1) [3Dbond={+ 20}{0.9}] at (C1) {};
     \node (L2) [3Dbond={+130}{0.5}] at (C1) {};
     \node (L3) [3Dbond={- 90}{1.0}] at (C1) {};
-    \node (L6) [3Dbond={+180}{1.0}] at (C1) {};
     \end{pgfonlayer}
     \node (L4) [3Dbond={- 20}{1.1}] at (C1) {};
     \node (L5) [3Dbond={-130}{0.7}] at (C1) {};
+    \node (L6) [3Dbond={+180}{1.0}] at (C1) {};
     \node (L7) [3Dbond={+ 90}{1.0}] at (C1) {};
 
     \begin{scope}[every node/.style={3Datom=red}]
@@ -159,12 +282,12 @@ Linear & Trigonal planar & Tetraedro
 
     \draw (L7.south east) 
         to [out=0, in=90, edge node={node [above, shift={(5pt,0)}] {\footnotesize\ang{90}}}] 
-        (L1.north east);
+    (L1.north east);
     \draw (L4.south east) 
         to [out=-130, in=-30, edge node={node [below right, shift={(-2pt,1pt)}] {\footnotesize\ang{72}}}] 
-        (L5.north east);
+    (L5.north east);
 \end{tikzpicture}
 \\
-Bipirâmide & Octaedro & Bipirâmide 
-\\ trigonal && pentagonal
+Pirâmide & Octaedro & Bipirâmide \\
+quadrada &          & pentagonal 
 \end{tabular}

@@ -1,0 +1,34 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{chemscheme}
+\begin{tikzpicture}
+    \node (C1) [3Datom=green] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={+100}{0.9}] at (C1) {};
+    \node (L2) [3Dbond={-100}{1.0}] at (C1) {};
+    \node (L3) [3Dbond={+180}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+    \node (E1) [3Dlonepair=-30] at (C1) {};
+    \node (E2) [3Dlonepair=+30] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=lime}]
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+    \end{scope}
+
+    \node (lewis) [anchor=east, shift={(-3.5em, 0pt)}] at (C1) 
+        { 
+            \chemfig[fixed length=true]
+                {
+                    \charge{45:1pt=\:, -45:1pt=\:}{Cl}
+                        (-[3]\charge{0:1.5pt=\:, 180:1.5pt=\:, 90:1.5pt=\:}{F})
+                        (-[-3]\charge{0:1.5pt=\:, 180:1.5pt=\:, 270:1.5pt=\:}{F})
+                        (-[6]\charge{180:1.5pt=\:, 90:1.5pt=\:, 270:1.5pt=\:}{F})
+                }
+            \quad =
+        };
+\end{tikzpicture}
+\end{chemscheme}

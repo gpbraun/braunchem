@@ -7489,96 +7489,81 @@
     {
       "id_": "1F12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F12/1F12.md",
-      "date": "2023-04-24T14:11:13.997596",
+      "date": "2023-04-25T14:53:04.233452",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SnF4}\\)</span>, <span class=\"math inline\">\\(\\ce{SnF6^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{IF5}\\)</span> e <span class=\"math inline\">\\(\\ce{XeO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ângulos\naproximados de ligação de cada molécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{SnF4}$, $\\ce{SnF6^{2-}}$, $\\ce{IF5}$ e\n$\\ce{XeO4}$.\n\n**Assinale** a alternativa que relaciona os ângulos aproximados de\nligação de cada molécula, respectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{SnF4}\\)}, {\\(\\ce{SnF6^{2-}}\\)}, {\\(\\ce{IF5}\\)} e {\\(\\ce{XeO4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ângulos aproximados de ligação de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3^+}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2O}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{XeF3^+}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{CH3^-}$\n2.  $\\ce{CH3^+}$\n3.  $\\ce{CH2O}$\n4.  $\\ce{XeF3^+}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3^-}\\)}\n\\item\n  {\\(\\ce{CH3^+}\\)}\n\\item\n  {\\(\\ce{CH2O}\\)}\n\\item\n  {\\(\\ce{XeF3^+}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "$\\pu{90}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
-          "tex": "{\\(\\num{90}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "$\\pu{90}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{90}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
-          "tex": "{\\(\\num{90}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
-          "md": "$\\pu{90}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$.\n",
-          "tex": "{\\(\\num{90}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}.\n"
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "$\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$; $\\pu{90}^\\circ$ e $\\pu{180}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
-          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{90}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
-          "md": "$\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$ e\n$\\pu{180}^\\circ$; $\\pu{90}^\\circ$.\n",
-          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}.\n"
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
       "correct_choice": 3
     },
     {
-      "id_": "1F31",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F31/1F31.md",
-      "date": "2023-04-24T11:57:47.030683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "1F03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F03/1F03.md",
-      "date": "2023-04-24T13:27:21.183902",
+      "date": "2023-04-25T15:22:27.058698",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{HCN}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2F2}\\)</span>, <span class=\"math inline\">\\(\\ce{SeF6}\\)</span> e <span class=\"math inline\">\\(\\ce{IF7}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{HCN}$, $\\ce{CH2F2}$, $\\ce{SeF6}$ e\n$\\ce{IF7}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{HCN}\\)}, {\\(\\ce{CH2F2}\\)}, {\\(\\ce{SeF6}\\)} e {\\(\\ce{IF7}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{N2O}\\)</span>, <span class=\"math inline\">\\(\\ce{O3}\\)</span>, <span class=\"math inline\">\\(\\ce{KrF2}\\)</span> e <span class=\"math inline\">\\(\\ce{OF2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com ângulos de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{N2O}$, $\\ce{O3}$, $\\ce{KrF2}$ e $\\ce{OF2}$.\n\n**Assinale** a alternativa com ângulos de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{N2O}\\)}, {\\(\\ce{O3}\\)}, {\\(\\ce{KrF2}\\)} e {\\(\\ce{OF2}\\)}.\n\n\\textbf{Assinale} a alternativa com ângulos de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "octaedro; bipirâmide pentagonal; tetraedro; linear.",
-          "md": "octaedro; bipirâmide pentagonal; tetraedro; linear.\n",
-          "tex": "octaedro; bipirâmide pentagonal; tetraedro; linear.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{103,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{116,8}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{103,1}^\\circ$; $\\pu{116,8}^\\circ$;\n$\\pu{180}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{103,1}^\\circ\\)}; {\\(\\num{116,8}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
         },
         {
-          "html": "linear; octaedro; bipirâmide pentagonal; tetraedro.",
-          "md": "linear; octaedro; bipirâmide pentagonal; tetraedro.\n",
-          "tex": "linear; octaedro; bipirâmide pentagonal; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{103,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{116,8}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{180}^\\circ$; $\\pu{103,1}^\\circ$;\n$\\pu{116,8}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{103,1}^\\circ\\)}; {\\(\\num{116,8}^\\circ\\)}.\n"
         },
         {
-          "html": "octaedro; tetraedro; bipirâmide pentagonal; linear.",
-          "md": "octaedro; tetraedro; bipirâmide pentagonal; linear.\n",
-          "tex": "octaedro; tetraedro; bipirâmide pentagonal; linear.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{116,8}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{103,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{116,8}^\\circ$; $\\pu{103,1}^\\circ$;\n$\\pu{180}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{116,8}^\\circ\\)}; {\\(\\num{103,1}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
         },
         {
-          "html": "octaedro; linear; bipirâmide pentagonal; tetraedro.",
-          "md": "octaedro; linear; bipirâmide pentagonal; tetraedro.\n",
-          "tex": "octaedro; linear; bipirâmide pentagonal; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{116,8}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{103,1}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{180}^\\circ$; $\\pu{116,8}^\\circ$;\n$\\pu{103,1}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{116,8}^\\circ\\)}; {\\(\\num{103,1}^\\circ\\)}.\n"
         },
         {
-          "html": "linear; tetraedro; octaedro; bipirâmide pentagonal.",
-          "md": "linear; tetraedro; octaedro; bipirâmide pentagonal.\n",
-          "tex": "linear; tetraedro; octaedro; bipirâmide pentagonal.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{116,8}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{103,1}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{116,8}^\\circ$; $\\pu{180}^\\circ$;\n$\\pu{103,1}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{116,8}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{103,1}^\\circ\\)}.\n"
         }
       ],
       "correct_choice": 4
@@ -7586,40 +7571,40 @@
     {
       "id_": "1F08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F08/1F08.md",
-      "date": "2023-04-24T13:44:35.562374",
+      "date": "2023-04-25T14:46:22.036352",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SNF3}\\)</span>, <span class=\"math inline\">\\(\\ce{AsO4^{3-}}\\)</span>, <span class=\"math inline\">\\(\\ce{IO2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{IO6^{5-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{SNF3}$, $\\ce{AsO4^{3-}}$, $\\ce{IO2^-}$ e\n$\\ce{IO6^{5-}}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{SNF3}\\)}, {\\(\\ce{AsO4^{3-}}\\)}, {\\(\\ce{IO2^-}\\)} e {\\(\\ce{IO6^{5-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{PCl3}\\)</span>, <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>, <span class=\"math inline\">\\(\\ce{XeOF2}\\)</span> e <span class=\"math inline\">\\(\\ce{ClO3^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a hibridização do átomo\ncentral de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{PCl3}$, $\\ce{NO3^-}$, $\\ce{XeOF2}$ e\n$\\ce{ClO3^-}$.\n\n**Assinale** a alternativa com a hibridização do átomo central de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{PCl3}\\)}, {\\(\\ce{NO3^-}\\)}, {\\(\\ce{XeOF2}\\)} e {\\(\\ce{ClO3^-}\\)}.\n\n\\textbf{Assinale} a alternativa com a hibridização do átomo central de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "tetraedro; tetraedro; bipirâmide pentagonal; angular.",
-          "md": "tetraedro; tetraedro; bipirâmide pentagonal; angular.\n",
-          "tex": "tetraedro; tetraedro; bipirâmide pentagonal; angular.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^2}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
         },
         {
-          "html": "angular; tetraedro; tetraedro; bipirâmide pentagonal.",
-          "md": "angular; tetraedro; tetraedro; bipirâmide pentagonal.\n",
-          "tex": "angular; tetraedro; tetraedro; bipirâmide pentagonal.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3d}$; $\\mathrm{sp^3}$; $\\mathrm{sp^2}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
         },
         {
-          "html": "bipirâmide pentagonal; tetraedro; tetraedro; angular.",
-          "md": "bipirâmide pentagonal; tetraedro; tetraedro; angular.\n",
-          "tex": "bipirâmide pentagonal; tetraedro; tetraedro; angular.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^3}$; $\\mathrm{sp^3}$; $\\mathrm{sp^2}$; $\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
         },
         {
-          "html": "bipirâmide pentagonal; angular; tetraedro; tetraedro.",
-          "md": "bipirâmide pentagonal; angular; tetraedro; tetraedro.\n",
-          "tex": "bipirâmide pentagonal; angular; tetraedro; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^2}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
         },
         {
-          "html": "tetraedro; tetraedro; angular; bipirâmide pentagonal.",
-          "md": "tetraedro; tetraedro; angular; bipirâmide pentagonal.\n",
-          "tex": "tetraedro; tetraedro; angular; bipirâmide pentagonal.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3}$; $\\mathrm{sp^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
         }
       ],
       "correct_choice": 4
@@ -7627,96 +7612,122 @@
     {
       "id_": "1F06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F06/1F06.md",
-      "date": "2023-04-24T13:31:05.988389",
+      "date": "2023-04-25T14:44:11.465203",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{PF4^-}\\)</span>, <span class=\"math inline\">\\(\\ce{ICl4^+}\\)</span>, <span class=\"math inline\">\\(\\ce{PF5}\\)</span> e <span class=\"math inline\">\\(\\ce{XeF4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{PF4^-}$, $\\ce{ICl4^+}$, $\\ce{PF5}$ e\n$\\ce{XeF4}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{PF4^-}\\)}, {\\(\\ce{ICl4^+}\\)}, {\\(\\ce{PF5}\\)} e {\\(\\ce{XeF4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{NH2^+}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ClOF}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Br3^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{OCS}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{NH2^+}$\n2.  $\\ce{ClOF}$\n3.  $\\ce{Br3^-}$\n4.  $\\ce{OCS}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{NH2^+}\\)}\n\\item\n  {\\(\\ce{ClOF}\\)}\n\\item\n  {\\(\\ce{Br3^-}\\)}\n\\item\n  {\\(\\ce{OCS}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "gangorra; quadrado planar; gangorra; bipirâmide\ntrigonal.",
-          "md": "gangorra; quadrado planar; gangorra; bipirâmide trigonal.\n",
-          "tex": "gangorra; quadrado planar; gangorra; bipirâmide trigonal.\n"
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
         },
         {
-          "html": "gangorra; gangorra; bipirâmide\ntrigonal; quadrado planar.",
-          "md": "gangorra; gangorra; bipirâmide trigonal; quadrado planar.\n",
-          "tex": "gangorra; gangorra; bipirâmide trigonal; quadrado planar.\n"
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
         },
         {
-          "html": "gangorra; gangorra; quadrado planar; bipirâmide\ntrigonal.",
-          "md": "gangorra; gangorra; quadrado planar; bipirâmide trigonal.\n",
-          "tex": "gangorra; gangorra; quadrado planar; bipirâmide trigonal.\n"
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
         },
         {
-          "html": "bipirâmide\ntrigonal; gangorra; gangorra; quadrado planar.",
-          "md": "bipirâmide trigonal; gangorra; gangorra; quadrado planar.\n",
-          "tex": "bipirâmide trigonal; gangorra; gangorra; quadrado planar.\n"
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
         },
         {
-          "html": "gangorra; bipirâmide\ntrigonal; quadrado planar; gangorra.",
-          "md": "gangorra; bipirâmide trigonal; quadrado planar; gangorra.\n",
-          "tex": "gangorra; bipirâmide trigonal; quadrado planar; gangorra.\n"
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
-      "correct_choice": 1
+      "correct_choice": 3
     },
     {
       "id_": "1F18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F18/1F18.md",
-      "date": "2023-04-24T11:57:47.002683",
+      "date": "2023-04-25T15:06:49.246912",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F14",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F14/1F14.md",
-      "date": "2023-04-24T14:18:17.246228",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{OF2}\\)</span>, <span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span>, <span class=\"math inline\">\\(\\ce{N2O}\\)</span> e <span class=\"math inline\">\\(\\ce{BeCl2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ângulos\naproximados de ligação de cada molécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{OF2}$, $\\ce{ClO2^-}$, $\\ce{N2O}$ e\n$\\ce{BeCl2}$.\n\n**Assinale** a alternativa que relaciona os ângulos aproximados de\nligação de cada molécula, respectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{OF2}\\)}, {\\(\\ce{ClO2^-}\\)}, {\\(\\ce{N2O}\\)} e {\\(\\ce{BeCl2}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ângulos aproximados de ligação de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PF4^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2F2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{BrF4^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{AlCl4^-}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{PF4^-}$\n2.  $\\ce{CH2F2}$\n3.  $\\ce{BrF4^-}$\n4.  $\\ce{AlCl4^-}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PF4^-}\\)}\n\\item\n  {\\(\\ce{CH2F2}\\)}\n\\item\n  {\\(\\ce{BrF4^-}\\)}\n\\item\n  {\\(\\ce{AlCl4^-}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "$\\pu{180}^\\circ$; $\\pu{180}^\\circ$; menor que $\\pu{109,5}^\\circ$; menor\nque $\\pu{109,5}^\\circ$.\n",
-          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "1",
+          "md": "**1**",
+          "tex": "\\textbf{1}"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$; $\\pu{180}^\\circ$; menor\nque $\\pu{109,5}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "$\\pu{180}^\\circ$; menor que $\\pu{109,5}^\\circ$; menor que\n$\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$.\n",
-          "tex": "{\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; menor que $\\pu{109,5}^\\circ$;\n$\\pu{180}^\\circ$; $\\pu{180}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$; menor que\n$\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1F14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F14/1F14.md",
+      "date": "2023-04-25T14:58:30.382922",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{IF4^-}\\)</span>, <span class=\"math inline\">\\(\\ce{IO2F2^-}\\)</span>, <span class=\"math inline\">\\(\\ce{S2O3^{2-}}\\)</span> e <span class=\"math inline\">\\(\\ce{NSF3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a hibridização do átomo\ncentral de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{IF4^-}$, $\\ce{IO2F2^-}$, $\\ce{S2O3^{2-}}$ e\n$\\ce{NSF3}$.\n\n**Assinale** a alternativa com a hibridização do átomo central de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{IF4^-}\\)}, {\\(\\ce{IO2F2^-}\\)}, {\\(\\ce{S2O3^{2-}}\\)} e {\\(\\ce{NSF3}\\)}.\n\n\\textbf{Assinale} a alternativa com a hibridização do átomo central de cada molécula, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>.",
+          "md": "$\\mathrm{sp^3}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3d^2}$.\n",
+          "tex": "{\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d^2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^3d^2}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3}$; $\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3d}$; $\\mathrm{sp^3}$; $\\mathrm{sp^3d^2}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
         }
       ],
       "correct_choice": 3
@@ -7724,70 +7735,81 @@
     {
       "id_": "1F20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F20/1F20.md",
-      "date": "2023-04-24T11:57:47.006683",
+      "date": "2023-04-25T15:07:56.315722",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F28",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F28/1F28.md",
-      "date": "2023-04-24T11:57:47.026683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F04",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F04/1F04.md",
-      "date": "2023-04-24T13:30:49.888047",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{ClO2^+}\\)</span>, <span class=\"math inline\">\\(\\ce{SOCl2}\\)</span>, <span class=\"math inline\">\\(\\ce{ClF3}\\)</span> e <span class=\"math inline\">\\(\\ce{GeF4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{ClO2^+}$, $\\ce{SOCl2}$, $\\ce{ClF3}$ e\n$\\ce{GeF4}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{ClO2^+}\\)}, {\\(\\ce{SOCl2}\\)}, {\\(\\ce{ClF3}\\)} e {\\(\\ce{GeF4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{XeO3F2}\\)</span>, <span class=\"math inline\">\\(\\ce{SOF4}\\)</span>, <span class=\"math inline\">\\(\\ce{XeF5^+}\\)</span> e <span class=\"math inline\">\\(\\ce{XeO6^{4-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a hibridização do átomo\ncentral de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{XeO3F2}$, $\\ce{SOF4}$, $\\ce{XeF5^+}$ e\n$\\ce{XeO6^{4-}}$.\n\n**Assinale** a alternativa com a hibridização do átomo central de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{XeO3F2}\\)}, {\\(\\ce{SOF4}\\)}, {\\(\\ce{XeF5^+}\\)} e {\\(\\ce{XeO6^{4-}}\\)}.\n\n\\textbf{Assinale} a alternativa com a hibridização do átomo central de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "angular; pirâmide trigonal; em\nT; tetraedro.",
-          "md": "angular; pirâmide trigonal; em T; tetraedro.\n",
-          "tex": "angular; pirâmide trigonal; em T; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>.",
+          "md": "$\\mathrm{sp^3d}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3d^2}$;\n$\\mathrm{sp^3d^2}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d^2}\\)}.\n"
         },
         {
-          "html": "em\nT; tetraedro; pirâmide trigonal; angular.",
-          "md": "em T; tetraedro; pirâmide trigonal; angular.\n",
-          "tex": "em T; tetraedro; pirâmide trigonal; angular.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>.",
+          "md": "$\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3d}$;\n$\\mathrm{sp^3d^2}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d^2}\\)}.\n"
         },
         {
-          "html": "pirâmide trigonal; em\nT; angular; tetraedro.",
-          "md": "pirâmide trigonal; em T; angular; tetraedro.\n",
-          "tex": "pirâmide trigonal; em T; angular; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3d^2}$;\n$\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
         },
         {
-          "html": "pirâmide trigonal; angular; em\nT; tetraedro.",
-          "md": "pirâmide trigonal; angular; em T; tetraedro.\n",
-          "tex": "pirâmide trigonal; angular; em T; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^3d}$; $\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d^2}$;\n$\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
         },
         {
-          "html": "angular; em\nT; tetraedro; pirâmide trigonal.",
-          "md": "angular; em T; tetraedro; pirâmide trigonal.\n",
-          "tex": "angular; em T; tetraedro; pirâmide trigonal.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d^2}$; $\\mathrm{sp^3d}$;\n$\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1F04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F04/1F04.md",
+      "date": "2023-04-25T14:42:06.933954",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>, <span class=\"math inline\">\\(\\ce{C2O3}\\)</span>, <span class=\"math inline\">\\(\\ce{HNCO}\\)</span> e <span class=\"math inline\">\\(\\ce{HOCN}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima dos\nângulos de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{C2H2}$, $\\ce{C2O3}$, $\\ce{HNCO}$ e\n$\\ce{HOCN}$.\n\n**Assinale** a alternativa que mais se aproxima dos ângulos de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{C2H2}\\)}, {\\(\\ce{C2O3}\\)}, {\\(\\ce{HNCO}\\)} e {\\(\\ce{HOCN}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima dos ângulos de cada molécula, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{180}^\\circ$; $\\pu{180}^\\circ$ e $\\pu{120}^\\circ$;\n$\\pu{180}^\\circ$ e $\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{109,5}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{180}^\\circ$ e\n$\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$; $\\pu{180}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{180}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{180}^\\circ$;\n$\\pu{180}^\\circ$ e $\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{109,5}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$; $\\pu{180}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{180}^\\circ$\ne $\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
+          "md": "$\\pu{180}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{180}^\\circ$; $\\pu{180}^\\circ$\ne $\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$.\n",
+          "tex": "{\\(\\num{180}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
         }
       ],
       "correct_choice": 0
@@ -7795,91 +7817,154 @@
     {
       "id_": "1F16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F16/1F16.md",
-      "date": "2023-04-24T11:57:47.002683",
+      "date": "2023-04-25T15:01:34.105459",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F22",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F22/1F22.md",
-      "date": "2023-04-24T11:57:47.014683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F27",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F27/1F27.md",
-      "date": "2023-04-24T11:57:47.022683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F23",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F23/1F23.md",
-      "date": "2023-04-24T11:57:47.014683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F32",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F32/1F32.md",
-      "date": "2023-04-24T11:57:47.030683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F11",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F11/1F11.md",
-      "date": "2023-04-24T14:07:54.362929",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CF4}\\)</span>, <span class=\"math inline\">\\(\\ce{TeCl4}\\)</span>, <span class=\"math inline\">\\(\\ce{COF2}\\)</span> e <span class=\"math inline\">\\(\\ce{CH3^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ângulos\naproximados de ligação de cada molécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{CF4}$, $\\ce{TeCl4}$, $\\ce{COF2}$ e\n$\\ce{CH3^-}$.\n\n**Assinale** a alternativa que relaciona os ângulos aproximados de\nligação de cada molécula, respectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{CF4}\\)}, {\\(\\ce{TeCl4}\\)}, {\\(\\ce{COF2}\\)} e {\\(\\ce{CH3^-}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ângulos aproximados de ligação de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{O(CH3)2}\\)</span>, <span class=\"math inline\">\\(\\ce{Be(CH3)2}\\)</span>, <span class=\"math inline\">\\(\\ce{S2O8^{2-}}\\)</span> e <span class=\"math inline\">\\(\\ce{FSSF3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima dos\nângulos de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{O(CH3)2}$, $\\ce{Be(CH3)2}$,\n$\\ce{S2O8^{2-}}$ e $\\ce{FSSF3}$.\n\n**Assinale** a alternativa que mais se aproxima dos ângulos de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{O(CH3)2}\\)}, {\\(\\ce{Be(CH3)2}\\)}, {\\(\\ce{S2O8^{2-}}\\)} e {\\(\\ce{FSSF3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima dos ângulos de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>, <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{109,5}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$, $\\pu{109,5}^\\circ$ e\n$\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{109,5}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}, {\\(\\num{109,5}^\\circ\\)} e\n{\\(\\num{120}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>, <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$, $\\pu{109,5}^\\circ$ e $\\pu{120}^\\circ$;\n$\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$ e $\\pu{180}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)}, {\\(\\num{109,5}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)} e {\\(\\num{180}^\\circ\\)};\n{\\(\\num{109,5}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>, <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$, $\\pu{109,5}^\\circ$ e $\\pu{120}^\\circ$;\n$\\pu{109,5}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)}, {\\(\\num{109,5}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)};\n{\\(\\num{109,5}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>, <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$ e $\\pu{180}^\\circ$;\n$\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$, $\\pu{109,5}^\\circ$ e\n$\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}, {\\(\\num{109,5}^\\circ\\)} e\n{\\(\\num{120}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>, <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
+          "md": "$\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$,\n$\\pu{109,5}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$ e\n$\\pu{180}^\\circ$.\n",
+          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}, {\\(\\num{109,5}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)} e\n{\\(\\num{180}^\\circ\\)}.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1F22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F22/1F22.md",
+      "date": "2023-04-25T15:07:20.409724",
+      "statement": {
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PF4^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2F2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{BrF4^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{AlCl4^-}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{PF4^-}$\n2.  $\\ce{CH2F2}$\n3.  $\\ce{BrF4^-}$\n4.  $\\ce{AlCl4^-}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PF4^-}\\)}\n\\item\n  {\\(\\ce{CH2F2}\\)}\n\\item\n  {\\(\\ce{BrF4^-}\\)}\n\\item\n  {\\(\\ce{AlCl4^-}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1",
+          "md": "**1**",
+          "tex": "\\textbf{1}"
+        },
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1F11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F11/1F11.md",
+      "date": "2023-04-25T14:52:08.977869",
+      "statement": {
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{AsF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{IF3}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{BF3}$\n2.  $\\ce{AsF3}$\n3.  $\\ce{SO3}$\n4.  $\\ce{IF3}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{BF3}\\)}\n\\item\n  {\\(\\ce{AsF3}\\)}\n\\item\n  {\\(\\ce{SO3}\\)}\n\\item\n  {\\(\\ce{IF3}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1F10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F10/1F10.md",
+      "date": "2023-04-25T14:51:03.238358",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{N2H4}\\)</span>, <span class=\"math inline\">\\(\\ce{N2O4}\\)</span>, <span class=\"math inline\">\\(\\ce{C2H4}\\)</span> e <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima dos\nângulos de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{N2H4}$, $\\ce{N2O4}$, $\\ce{C2H4}$ e\n$\\ce{CH3NH2}$.\n\n**Assinale** a alternativa que mais se aproxima dos ângulos de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{N2H4}\\)}, {\\(\\ce{N2O4}\\)}, {\\(\\ce{C2H4}\\)} e {\\(\\ce{CH3NH2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima dos ângulos de cada molécula, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{120}^\\circ$; $\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{120}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}.\n"
+        },
         {
           "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
           "md": "$\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$; $\\pu{120}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
@@ -7889,118 +7974,47 @@
           "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
           "md": "$\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$;\n$\\pu{109,5}^\\circ$.\n",
           "tex": "{\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
-          "md": "$\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{120}^\\circ$.\n",
-          "tex": "{\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
-          "md": "$\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$;\n$\\pu{120}^\\circ$.\n",
-          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
-          "md": "$\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$; $\\pu{109,5}^\\circ$;\n$\\pu{120}^\\circ$.\n",
-          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}.\n"
-        }
-      ],
-      "correct_choice": 4
-    },
-    {
-      "id_": "1F10",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F10/1F10.md",
-      "date": "2023-04-24T13:58:20.650342",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SiCl4}\\)</span>, <span class=\"math inline\">\\(\\ce{PF5}\\)</span>, <span class=\"math inline\">\\(\\ce{SBr2}\\)</span> e <span class=\"math inline\">\\(\\ce{ICl2^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ângulos\naproximados de ligação de cada molécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{SiCl4}$, $\\ce{PF5}$, $\\ce{SBr2}$ e\n$\\ce{ICl2^+}$.\n\n**Assinale** a alternativa que relaciona os ângulos aproximados de\nligação de cada molécula, respectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{SiCl4}\\)}, {\\(\\ce{PF5}\\)}, {\\(\\ce{SBr2}\\)} e {\\(\\ce{ICl2^+}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ângulos aproximados de ligação de cada molécula, respectivamente.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "$\\pu{120}^\\circ$ e $\\pu{90}^\\circ$; menor que $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$; menor que $\\pu{109,5}^\\circ$.\n",
-          "tex": "{\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
-        },
-        {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; menor que $\\pu{109,5}^\\circ$;\n$\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}.\n"
-        },
-        {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; $\\pu{109,5}^\\circ$; menor que\n$\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "$\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$; menor que\n$\\pu{109,5}^\\circ$; menor que $\\pu{109,5}^\\circ$.\n",
-          "tex": "{\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
-        },
-        {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$;\n$\\pu{109,5}^\\circ$; menor que $\\pu{109,5}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
         }
       ],
       "correct_choice": 3
     },
     {
-      "id_": "1F24",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F24/1F24.md",
-      "date": "2023-04-24T11:57:47.018683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "1F09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F09/1F09.md",
-      "date": "2023-04-24T14:18:27.889683",
+      "date": "2023-04-25T14:47:32.795868",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{I3^-}\\)</span>, <span class=\"math inline\">\\(\\ce{POCl3}\\)</span>, <span class=\"math inline\">\\(\\ce{IO3^-}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ângulos\naproximados de ligação de cada molécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{I3^-}$, $\\ce{POCl3}$, $\\ce{IO3^-}$ e\n$\\ce{NO2^-}$.\n\n**Assinale** a alternativa que relaciona os ângulos aproximados de\nligação de cada molécula, respectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{I3^-}\\)}, {\\(\\ce{POCl3}\\)}, {\\(\\ce{IO3^-}\\)} e {\\(\\ce{NO2^-}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ângulos aproximados de ligação de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{BH3}\\)</span>, <span class=\"math inline\">\\(\\ce{NH3}\\)</span>, <span class=\"math inline\">\\(\\ce{ClF3}\\)</span> e <span class=\"math inline\">\\(\\ce{COCl2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com ângulos de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{BH3}$, $\\ce{NH3}$, $\\ce{ClF3}$ e\n$\\ce{COCl2}$.\n\n**Assinale** a alternativa com ângulos de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{BH3}\\)}, {\\(\\ce{NH3}\\)}, {\\(\\ce{ClF3}\\)} e {\\(\\ce{COCl2}\\)}.\n\n\\textbf{Assinale} a alternativa com ângulos de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; menor que $\\pu{120}^\\circ$;\n$\\pu{180}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{87,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{111,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{124,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{107,2}^\\circ\\)</span>.",
+          "md": "$\\pu{87,5}^\\circ$; $\\pu{111,8}^\\circ$ e $\\pu{124,1}^\\circ$;\n$\\pu{120}^\\circ$; $\\pu{107,2}^\\circ$.\n",
+          "tex": "{\\(\\num{87,5}^\\circ\\)}; {\\(\\num{111,8}^\\circ\\)} e {\\(\\num{124,1}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{107,2}^\\circ\\)}.\n"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{120}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$; menor\nque $\\pu{109,5}^\\circ$; $\\pu{180}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{120}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{111,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{124,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{107,2}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{87,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{111,8}^\\circ$ e $\\pu{124,1}^\\circ$; $\\pu{107,2}^\\circ$;\n$\\pu{87,5}^\\circ$; $\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{111,8}^\\circ\\)} e {\\(\\num{124,1}^\\circ\\)}; {\\(\\num{107,2}^\\circ\\)}; {\\(\\num{87,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}.\n"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{120}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$;\n$\\pu{180}^\\circ$; menor que $\\pu{109,5}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{120}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{111,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{124,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{107,2}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{87,5}^\\circ\\)</span>.",
+          "md": "$\\pu{111,8}^\\circ$ e $\\pu{124,1}^\\circ$; $\\pu{107,2}^\\circ$;\n$\\pu{120}^\\circ$; $\\pu{87,5}^\\circ$.\n",
+          "tex": "{\\(\\num{111,8}^\\circ\\)} e {\\(\\num{124,1}^\\circ\\)}; {\\(\\num{107,2}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{87,5}^\\circ\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
-          "md": "$\\pu{180}^\\circ$; $\\pu{120}^\\circ$ e $\\pu{90}^\\circ$; menor que\n$\\pu{109,5}^\\circ$; menor que $\\pu{120}^\\circ$.\n",
-          "tex": "{\\(\\num{180}^\\circ\\)}; {\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{120}^\\circ\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{107,2}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{87,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{111,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{124,1}^\\circ\\)</span>.",
+          "md": "$\\pu{120}^\\circ$; $\\pu{107,2}^\\circ$; $\\pu{87,5}^\\circ$;\n$\\pu{111,8}^\\circ$ e $\\pu{124,1}^\\circ$.\n",
+          "tex": "{\\(\\num{120}^\\circ\\)}; {\\(\\num{107,2}^\\circ\\)}; {\\(\\num{87,5}^\\circ\\)}; {\\(\\num{111,8}^\\circ\\)} e {\\(\\num{124,1}^\\circ\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
-          "md": "$\\pu{120}^\\circ$ e $\\pu{90}^\\circ$; menor que $\\pu{109,5}^\\circ$;\n$\\pu{180}^\\circ$; menor que $\\pu{120}^\\circ$.\n",
-          "tex": "{\\(\\num{120}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{120}^\\circ\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{107,2}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{87,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{111,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{124,1}^\\circ\\)</span>.",
+          "md": "$\\pu{107,2}^\\circ$; $\\pu{87,5}^\\circ$; $\\pu{120}^\\circ$;\n$\\pu{111,8}^\\circ$ e $\\pu{124,1}^\\circ$.\n",
+          "tex": "{\\(\\num{107,2}^\\circ\\)}; {\\(\\num{87,5}^\\circ\\)}; {\\(\\num{120}^\\circ\\)}; {\\(\\num{111,8}^\\circ\\)} e {\\(\\num{124,1}^\\circ\\)}.\n"
         }
       ],
       "correct_choice": 3
@@ -8008,40 +8022,40 @@
     {
       "id_": "1F13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F13/1F13.md",
-      "date": "2023-04-24T14:14:20.449540",
+      "date": "2023-04-25T14:56:47.671730",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{O3}\\)</span>,\n<span class=\"math inline\">\\(\\ce{N3^-}\\)</span>, <span class=\"math inline\">\\(\\ce{CNO^-}\\)</span> e <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ângulos\naproximados de ligação de cada molécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{O3}$, $\\ce{N3^-}$, $\\ce{CNO^-}$ e\n$\\ce{H3O^+}$.\n\n**Assinale** a alternativa que relaciona os ângulos aproximados de\nligação de cada molécula, respectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{O3}\\)}, {\\(\\ce{N3^-}\\)}, {\\(\\ce{CNO^-}\\)} e {\\(\\ce{H3O^+}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ângulos aproximados de ligação de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SiF4}\\)</span>, <span class=\"math inline\">\\(\\ce{IF4^+}\\)</span>, <span class=\"math inline\">\\(\\ce{SO2Cl2}\\)</span> e <span class=\"math inline\">\\(\\ce{ClF4^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a forma de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{SiF4}$, $\\ce{IF4^+}$, $\\ce{SO2Cl2}$ e\n$\\ce{ClF4^-}$.\n\n**Assinale** a alternativa com a forma de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{SiF4}\\)}, {\\(\\ce{IF4^+}\\)}, {\\(\\ce{SO2Cl2}\\)} e {\\(\\ce{ClF4^-}\\)}.\n\n\\textbf{Assinale} a alternativa com a forma de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
-          "md": "$\\pu{180}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{180}^\\circ$; menor que\n$\\pu{109,5}^\\circ$; menor que $\\pu{120}^\\circ$.\n",
-          "tex": "{\\(\\num{180}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{120}^\\circ\\)}.\n"
+          "html": "tetraedro; gangorra; quadrado planar; tetraedro.",
+          "md": "tetraedro; gangorra; quadrado planar; tetraedro.\n",
+          "tex": "tetraedro; gangorra; quadrado planar; tetraedro.\n"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{120}^\\circ$; menor que $\\pu{109,5}^\\circ$;\n$\\pu{180}^\\circ$; $\\pu{180}^\\circ$ e $\\pu{180}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{120}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "tetraedro; quadrado planar; gangorra; tetraedro.",
+          "md": "tetraedro; quadrado planar; gangorra; tetraedro.\n",
+          "tex": "tetraedro; quadrado planar; gangorra; tetraedro.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "$\\pu{180}^\\circ$ e $\\pu{180}^\\circ$; menor que $\\pu{109,5}^\\circ$; menor\nque $\\pu{120}^\\circ$; $\\pu{180}^\\circ$.\n",
-          "tex": "{\\(\\num{180}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "tetraedro; quadrado planar; tetraedro; gangorra.",
+          "md": "tetraedro; quadrado planar; tetraedro; gangorra.\n",
+          "tex": "tetraedro; quadrado planar; tetraedro; gangorra.\n"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{109,5}^\\circ$; menor que $\\pu{120}^\\circ$;\n$\\pu{180}^\\circ$ e $\\pu{180}^\\circ$; $\\pu{180}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{109,5}^\\circ\\)}; menor que {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}.\n"
+          "html": "quadrado planar; tetraedro; tetraedro; gangorra.",
+          "md": "quadrado planar; tetraedro; tetraedro; gangorra.\n",
+          "tex": "quadrado planar; tetraedro; tetraedro; gangorra.\n"
         },
         {
-          "html": "menor que <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{180}^\\circ\\)</span>; menor que <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
-          "md": "menor que $\\pu{120}^\\circ$; $\\pu{180}^\\circ$; $\\pu{180}^\\circ$ e\n$\\pu{180}^\\circ$; menor que $\\pu{109,5}^\\circ$.\n",
-          "tex": "menor que {\\(\\num{120}^\\circ\\)}; {\\(\\num{180}^\\circ\\)}; {\\(\\num{180}^\\circ\\)} e {\\(\\num{180}^\\circ\\)}; menor que {\\(\\num{109,5}^\\circ\\)}.\n"
+          "html": "tetraedro; gangorra; tetraedro; quadrado planar.",
+          "md": "tetraedro; gangorra; tetraedro; quadrado planar.\n",
+          "tex": "tetraedro; gangorra; tetraedro; quadrado planar.\n"
         }
       ],
       "correct_choice": 4
@@ -8049,85 +8063,81 @@
     {
       "id_": "1F15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F15/1F15.md",
-      "date": "2023-04-24T11:57:46.998683",
+      "date": "2023-04-25T14:59:51.662277",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F30",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F30/1F30.md",
-      "date": "2023-04-24T11:57:47.026683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F29",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F29/1F29.md",
-      "date": "2023-04-24T11:57:47.026683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F07",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F07/1F07.md",
-      "date": "2023-04-24T13:32:05.296004",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SbOCl3}\\)</span>, <span class=\"math inline\">\\(\\ce{SO2Cl2}\\)</span>, <span class=\"math inline\">\\(\\ce{IO2F2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{SOF4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{SbOCl3}$, $\\ce{SO2Cl2}$, $\\ce{IO2F2^-}$ e\n$\\ce{SOF4}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{SbOCl3}\\)}, {\\(\\ce{SO2Cl2}\\)}, {\\(\\ce{IO2F2^-}\\)} e {\\(\\ce{SOF4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{POCl3}\\)</span>, <span class=\"math inline\">\\(\\ce{SF4}\\)</span>, <span class=\"math inline\">\\(\\ce{BH4^-}\\)</span> e <span class=\"math inline\">\\(\\ce{XeF4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com ângulos de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{POCl3}$, $\\ce{SF4}$, $\\ce{BH4^-}$ e\n$\\ce{XeF4}$.\n\n**Assinale** a alternativa com ângulos de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{POCl3}\\)}, {\\(\\ce{SF4}\\)}, {\\(\\ce{BH4^-}\\)} e {\\(\\ce{XeF4}\\)}.\n\n\\textbf{Assinale} a alternativa com ângulos de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "gangorra; tetraedro; tetraedro; bipirâmide trigonal.",
-          "md": "gangorra; tetraedro; tetraedro; bipirâmide trigonal.\n",
-          "tex": "gangorra; tetraedro; tetraedro; bipirâmide trigonal.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{101,6}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{173,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{115,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{102,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$; $\\pu{101,6}^\\circ$ e $\\pu{173,1}^\\circ$;\n$\\pu{115,8}^\\circ$ e $\\pu{102,5}^\\circ$; $\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)}; {\\(\\num{101,6}^\\circ\\)} e {\\(\\num{173,1}^\\circ\\)}; {\\(\\num{115,8}^\\circ\\)} e {\\(\\num{102,5}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
         },
         {
-          "html": "tetraedro; gangorra; bipirâmide trigonal; tetraedro.",
-          "md": "tetraedro; gangorra; bipirâmide trigonal; tetraedro.\n",
-          "tex": "tetraedro; gangorra; bipirâmide trigonal; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{101,6}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{173,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{115,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{102,5}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{101,6}^\\circ$ e\n$\\pu{173,1}^\\circ$; $\\pu{115,8}^\\circ$ e $\\pu{102,5}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{101,6}^\\circ\\)} e {\\(\\num{173,1}^\\circ\\)}; {\\(\\num{115,8}^\\circ\\)} e {\\(\\num{102,5}^\\circ\\)}.\n"
         },
         {
-          "html": "bipirâmide trigonal; gangorra; tetraedro; tetraedro.",
-          "md": "bipirâmide trigonal; gangorra; tetraedro; tetraedro.\n",
-          "tex": "bipirâmide trigonal; gangorra; tetraedro; tetraedro.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{115,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{102,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{101,6}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{173,1}^\\circ\\)</span>.",
+          "md": "$\\pu{115,8}^\\circ$ e $\\pu{102,5}^\\circ$; $\\pu{90}^\\circ$;\n$\\pu{109,5}^\\circ$; $\\pu{101,6}^\\circ$ e $\\pu{173,1}^\\circ$.\n",
+          "tex": "{\\(\\num{115,8}^\\circ\\)} e {\\(\\num{102,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{101,6}^\\circ\\)} e {\\(\\num{173,1}^\\circ\\)}.\n"
         },
         {
-          "html": "bipirâmide trigonal; tetraedro; tetraedro; gangorra.",
-          "md": "bipirâmide trigonal; tetraedro; tetraedro; gangorra.\n",
-          "tex": "bipirâmide trigonal; tetraedro; tetraedro; gangorra.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{101,6}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{173,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{115,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{102,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>.",
+          "md": "$\\pu{101,6}^\\circ$ e $\\pu{173,1}^\\circ$; $\\pu{115,8}^\\circ$ e\n$\\pu{102,5}^\\circ$; $\\pu{90}^\\circ$; $\\pu{109,5}^\\circ$.\n",
+          "tex": "{\\(\\num{101,6}^\\circ\\)} e {\\(\\num{173,1}^\\circ\\)}; {\\(\\num{115,8}^\\circ\\)} e {\\(\\num{102,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}.\n"
         },
         {
-          "html": "tetraedro; tetraedro; gangorra; bipirâmide trigonal.",
-          "md": "tetraedro; tetraedro; gangorra; bipirâmide trigonal.\n",
-          "tex": "tetraedro; tetraedro; gangorra; bipirâmide trigonal.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{115,8}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{102,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{101,6}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{173,1}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{109,5}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
+          "md": "$\\pu{115,8}^\\circ$ e $\\pu{102,5}^\\circ$; $\\pu{101,6}^\\circ$ e\n$\\pu{173,1}^\\circ$; $\\pu{109,5}^\\circ$; $\\pu{90}^\\circ$.\n",
+          "tex": "{\\(\\num{115,8}^\\circ\\)} e {\\(\\num{102,5}^\\circ\\)}; {\\(\\num{101,6}^\\circ\\)} e {\\(\\num{173,1}^\\circ\\)}; {\\(\\num{109,5}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1F07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F07/1F07.md",
+      "date": "2023-04-25T14:45:27.364716",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{XeO3}\\)</span>, <span class=\"math inline\">\\(\\ce{SF3^-}\\)</span> e <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a forma de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{CO3^{2-}}$, $\\ce{XeO3}$, $\\ce{SF3^-}$ e\n$\\ce{H3O^+}$.\n\n**Assinale** a alternativa com a forma de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{CO3^{2-}}\\)}, {\\(\\ce{XeO3}\\)}, {\\(\\ce{SF3^-}\\)} e {\\(\\ce{H3O^+}\\)}.\n\n\\textbf{Assinale} a alternativa com a forma de cada molécula, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "em T; pirâmide trigonal; trigonal\nplanar; pirâmide trigonal.",
+          "md": "em T; pirâmide trigonal; trigonal planar; pirâmide trigonal.\n",
+          "tex": "em T; pirâmide trigonal; trigonal planar; pirâmide trigonal.\n"
+        },
+        {
+          "html": "pirâmide trigonal; em T; pirâmide trigonal; trigonal\nplanar.",
+          "md": "pirâmide trigonal; em T; pirâmide trigonal; trigonal planar.\n",
+          "tex": "pirâmide trigonal; em T; pirâmide trigonal; trigonal planar.\n"
+        },
+        {
+          "html": "pirâmide trigonal; em T; trigonal\nplanar; pirâmide trigonal.",
+          "md": "pirâmide trigonal; em T; trigonal planar; pirâmide trigonal.\n",
+          "tex": "pirâmide trigonal; em T; trigonal planar; pirâmide trigonal.\n"
+        },
+        {
+          "html": "pirâmide trigonal; pirâmide trigonal; trigonal\nplanar; em T.",
+          "md": "pirâmide trigonal; pirâmide trigonal; trigonal planar; em T.\n",
+          "tex": "pirâmide trigonal; pirâmide trigonal; trigonal planar; em T.\n"
+        },
+        {
+          "html": "pirâmide trigonal; trigonal\nplanar; em T; pirâmide trigonal.",
+          "md": "pirâmide trigonal; trigonal planar; em T; pirâmide trigonal.\n",
+          "tex": "pirâmide trigonal; trigonal planar; em T; pirâmide trigonal.\n"
         }
       ],
       "correct_choice": 4
@@ -8135,40 +8145,40 @@
     {
       "id_": "1F02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F02/1F02.md",
-      "date": "2023-04-24T13:27:16.599936",
+      "date": "2023-04-25T14:37:54.563215",
       "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{NH3}\\)</span>, <span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span>, <span class=\"math inline\">\\(\\ce{I3^-}\\)</span> e <span class=\"math inline\">\\(\\ce{PF5}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{NH3}$, $\\ce{ClO2^-}$, $\\ce{I3^-}$ e\n$\\ce{PF5}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{NH3}\\)}, {\\(\\ce{ClO2^-}\\)}, {\\(\\ce{I3^-}\\)} e {\\(\\ce{PF5}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{NOF}\\)</span>, <span class=\"math inline\">\\(\\ce{ClF2^-}\\)</span>, <span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{N3^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a hibridização do átomo\ncentral de cada molécula, respectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{NOF}$, $\\ce{ClF2^-}$, $\\ce{ClO2^-}$ e\n$\\ce{N3^-}$.\n\n**Assinale** a alternativa com a hibridização do átomo central de cada\nmolécula, respectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{NOF}\\)}, {\\(\\ce{ClF2^-}\\)}, {\\(\\ce{ClO2^-}\\)} e {\\(\\ce{N3^-}\\)}.\n\n\\textbf{Assinale} a alternativa com a hibridização do átomo central de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "linear; piramide trigonal; bipirâmide pentagonal; angular.",
-          "md": "linear; piramide trigonal; bipirâmide pentagonal; angular.\n",
-          "tex": "linear; piramide trigonal; bipirâmide pentagonal; angular.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>.",
+          "md": "$\\mathrm{sp^3}$; $\\mathrm{sp^2}$; $\\mathrm{sp}$; $\\mathrm{sp^3d}$.\n",
+          "tex": "{\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp}\\)}; {\\(\\mathrm{sp^3d}\\)}.\n"
         },
         {
-          "html": "piramide trigonal; angular; linear; bipirâmide pentagonal.",
-          "md": "piramide trigonal; angular; linear; bipirâmide pentagonal.\n",
-          "tex": "piramide trigonal; angular; linear; bipirâmide pentagonal.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp}\\)</span>.",
+          "md": "$\\mathrm{sp^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3}$; $\\mathrm{sp}$.\n",
+          "tex": "{\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp}\\)}.\n"
         },
         {
-          "html": "bipirâmide pentagonal; piramide trigonal; angular; linear.",
-          "md": "bipirâmide pentagonal; piramide trigonal; angular; linear.\n",
-          "tex": "bipirâmide pentagonal; piramide trigonal; angular; linear.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp}$; $\\mathrm{sp^2}$; $\\mathrm{sp^3d}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
         },
         {
-          "html": "angular; linear; piramide trigonal; bipirâmide pentagonal.",
-          "md": "angular; linear; piramide trigonal; bipirâmide pentagonal.\n",
-          "tex": "angular; linear; piramide trigonal; bipirâmide pentagonal.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp}\\)</span>.",
+          "md": "$\\mathrm{sp^3d}$; $\\mathrm{sp^3}$; $\\mathrm{sp^2}$; $\\mathrm{sp}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^3}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp}\\)}.\n"
         },
         {
-          "html": "angular; piramide trigonal; bipirâmide pentagonal; linear.",
-          "md": "angular; piramide trigonal; bipirâmide pentagonal; linear.\n",
-          "tex": "angular; piramide trigonal; bipirâmide pentagonal; linear.\n"
+          "html": "<span class=\"math inline\">\\(\\mathrm{sp^3d}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^2}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp}\\)</span>; <span class=\"math inline\">\\(\\mathrm{sp^3}\\)</span>.",
+          "md": "$\\mathrm{sp^3d}$; $\\mathrm{sp^2}$; $\\mathrm{sp}$; $\\mathrm{sp^3}$.\n",
+          "tex": "{\\(\\mathrm{sp^3d}\\)}; {\\(\\mathrm{sp^2}\\)}; {\\(\\mathrm{sp}\\)}; {\\(\\mathrm{sp^3}\\)}.\n"
         }
       ],
       "correct_choice": 1
@@ -8176,159 +8186,207 @@
     {
       "id_": "1F17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F17/1F17.md",
-      "date": "2023-04-24T11:57:47.002683",
+      "date": "2023-04-25T15:06:10.947223",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F05",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F05/1F05.md",
-      "date": "2023-04-24T13:30:57.514042",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SCl4}\\)</span>, <span class=\"math inline\">\\(\\ce{ICl3}\\)</span>, <span class=\"math inline\">\\(\\ce{IF4^-}\\)</span> e <span class=\"math inline\">\\(\\ce{XeO3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{SCl4}$, $\\ce{ICl3}$, $\\ce{IF4^-}$ e\n$\\ce{XeO3}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{SCl4}\\)}, {\\(\\ce{ICl3}\\)}, {\\(\\ce{IF4^-}\\)} e {\\(\\ce{XeO3}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{XeO4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{TeF4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{KrF4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{CH4}$\n2.  $\\ce{XeO4}$\n3.  $\\ce{TeF4}$\n4.  $\\ce{KrF4}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH4}\\)}\n\\item\n  {\\(\\ce{XeO4}\\)}\n\\item\n  {\\(\\ce{TeF4}\\)}\n\\item\n  {\\(\\ce{KrF4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "pirâmide trigonal; em T; gangorra; quadrado planar.",
-          "md": "pirâmide trigonal; em T; gangorra; quadrado planar.\n",
-          "tex": "pirâmide trigonal; em T; gangorra; quadrado planar.\n"
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
         },
         {
-          "html": "pirâmide trigonal; gangorra; quadrado planar; em T.",
-          "md": "pirâmide trigonal; gangorra; quadrado planar; em T.\n",
-          "tex": "pirâmide trigonal; gangorra; quadrado planar; em T.\n"
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
         },
         {
-          "html": "gangorra; em T; quadrado planar; pirâmide trigonal.",
-          "md": "gangorra; em T; quadrado planar; pirâmide trigonal.\n",
-          "tex": "gangorra; em T; quadrado planar; pirâmide trigonal.\n"
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "em T; quadrado planar; gangorra; pirâmide trigonal.",
-          "md": "em T; quadrado planar; gangorra; pirâmide trigonal.\n",
-          "tex": "em T; quadrado planar; gangorra; pirâmide trigonal.\n"
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "em T; gangorra; quadrado planar; pirâmide trigonal.",
-          "md": "em T; gangorra; quadrado planar; pirâmide trigonal.\n",
-          "tex": "em T; gangorra; quadrado planar; pirâmide trigonal.\n"
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
       "correct_choice": 2
     },
     {
-      "id_": "1F26",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F26/1F26.md",
-      "date": "2023-04-24T11:57:47.022683",
+      "id_": "1F05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F05/1F05.md",
+      "date": "2023-04-25T14:43:27.137478",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F21",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F21/1F21.md",
-      "date": "2023-04-24T11:57:47.010683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F19",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F19/1F19.md",
-      "date": "2023-04-24T11:57:47.006683",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "1F01",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F01/1F01.md",
-      "date": "2023-04-24T13:27:12.259969",
-      "statement": {
-        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{AsF5}\\)</span>, <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>, <span class=\"math inline\">\\(\\ce{IF5}\\)</span> e <span class=\"math inline\">\\(\\ce{SO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona a forma de cada\nmolécula, respectivamente.</p>",
-        "md": "Considere as moléculas: $\\ce{AsF5}$, $\\ce{C2H2}$, $\\ce{IF5}$ e\n$\\ce{SO2}$.\n\n**Assinale** a alternativa que relaciona a forma de cada molécula,\nrespectivamente.\n",
-        "tex": "Considere as moléculas: {\\(\\ce{AsF5}\\)}, {\\(\\ce{C2H2}\\)}, {\\(\\ce{IF5}\\)} e {\\(\\ce{SO2}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona a forma de cada molécula, respectivamente.\n"
+        "html": "<p>Considere as moléculas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{BeCl2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{XeF2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2S}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\n<em>polares</em>.</p>",
+        "md": "Considere as moléculas:\n\n1.  $\\ce{BeCl2}$\n2.  $\\ce{XeF2}$\n3.  $\\ce{SO2}$\n4.  $\\ce{H2S}$\n\n**Assinale** a alternativa que relaciona as moléculas *polares*.\n",
+        "tex": "Considere as moléculas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{BeCl2}\\)}\n\\item\n  {\\(\\ce{XeF2}\\)}\n\\item\n  {\\(\\ce{SO2}\\)}\n\\item\n  {\\(\\ce{H2S}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas \\emph{polares}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "bipirâmide trigonal; linear,\noctaedro; angular.",
-          "md": "bipirâmide trigonal; linear, octaedro; angular.\n",
-          "tex": "bipirâmide trigonal; linear, octaedro; angular.\n"
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
         },
         {
-          "html": "linear,\noctaedro; angular; bipirâmide trigonal.",
-          "md": "linear, octaedro; angular; bipirâmide trigonal.\n",
-          "tex": "linear, octaedro; angular; bipirâmide trigonal.\n"
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
         },
         {
-          "html": "bipirâmide trigonal; angular; linear,\noctaedro.",
-          "md": "bipirâmide trigonal; angular; linear, octaedro.\n",
-          "tex": "bipirâmide trigonal; angular; linear, octaedro.\n"
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "linear,\noctaedro; bipirâmide trigonal; angular.",
-          "md": "linear, octaedro; bipirâmide trigonal; angular.\n",
-          "tex": "linear, octaedro; bipirâmide trigonal; angular.\n"
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "angular; bipirâmide trigonal; linear,\noctaedro.",
-          "md": "angular; bipirâmide trigonal; linear, octaedro.\n",
-          "tex": "angular; bipirâmide trigonal; linear, octaedro.\n"
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1F21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F21/1F21.md",
+      "date": "2023-04-25T15:09:13.160957",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{PCl6^-}\\)</span>, <span class=\"math inline\">\\(\\ce{AsF5}\\)</span>, <span class=\"math inline\">\\(\\ce{IF7}\\)</span> e <span class=\"math inline\">\\(\\ce{IF5}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com ângulos de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{PCl6^-}$, $\\ce{AsF5}$, $\\ce{IF7}$ e\n$\\ce{IF5}$.\n\n**Assinale** a alternativa com ângulos de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{PCl6^-}\\)}, {\\(\\ce{AsF5}\\)}, {\\(\\ce{IF7}\\)} e {\\(\\ce{IF5}\\)}.\n\n\\textbf{Assinale} a alternativa com ângulos de cada molécula, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{72}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{81,9}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$; $\\pu{90}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{72}^\\circ$ e\n$\\pu{90}^\\circ$; $\\pu{81,9}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)}; {\\(\\num{90}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{72}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; {\\(\\num{81,9}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{81,9}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{72}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{81,9}^\\circ$; $\\pu{90}^\\circ$; $\\pu{72}^\\circ$ e $\\pu{90}^\\circ$;\n$\\pu{90}^\\circ$ e $\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{81,9}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{72}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; {\\(\\num{90}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{81,9}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{72}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$ e $\\pu{120}^\\circ$; $\\pu{81,9}^\\circ$; $\\pu{90}^\\circ$;\n$\\pu{72}^\\circ$ e $\\pu{90}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{81,9}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{72}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{81,9}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{72}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>.",
+          "md": "$\\pu{81,9}^\\circ$; $\\pu{90}^\\circ$; $\\pu{90}^\\circ$ e $\\pu{120}^\\circ$;\n$\\pu{72}^\\circ$ e $\\pu{90}^\\circ$.\n",
+          "tex": "{\\(\\num{81,9}^\\circ\\)}; {\\(\\num{90}^\\circ\\)}; {\\(\\num{90}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}; {\\(\\num{72}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{81,9}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{72}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span>; <span class=\"math inline\">\\(\\pu{90}^\\circ\\)</span> e <span class=\"math inline\">\\(\\pu{120}^\\circ\\)</span>.",
+          "md": "$\\pu{90}^\\circ$; $\\pu{81,9}^\\circ$; $\\pu{72}^\\circ$ e $\\pu{90}^\\circ$;\n$\\pu{90}^\\circ$ e $\\pu{120}^\\circ$.\n",
+          "tex": "{\\(\\num{90}^\\circ\\)}; {\\(\\num{81,9}^\\circ\\)}; {\\(\\num{72}^\\circ\\)} e {\\(\\num{90}^\\circ\\)}; {\\(\\num{90}^\\circ\\)} e {\\(\\num{120}^\\circ\\)}.\n"
         }
       ],
       "correct_choice": 0
     },
     {
-      "id_": "1F25",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F25/1F25.md",
-      "date": "2023-04-24T11:57:47.018683",
+      "id_": "1F19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F19/1F19.md",
+      "date": "2023-04-25T15:05:23.319610",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SeF6}\\)</span>, <span class=\"math inline\">\\(\\ce{SF5^+}\\)</span>, <span class=\"math inline\">\\(\\ce{XeOF4}\\)</span> e <span class=\"math inline\">\\(\\ce{SnF6^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a forma de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{SeF6}$, $\\ce{SF5^+}$, $\\ce{XeOF4}$ e\n$\\ce{SnF6^{2-}}$.\n\n**Assinale** a alternativa com a forma de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{SeF6}\\)}, {\\(\\ce{SF5^+}\\)}, {\\(\\ce{XeOF4}\\)} e {\\(\\ce{SnF6^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa com a forma de cada molécula, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "trigonal bipiramidal; octaedro; pirâmide quadrada; octaedro.",
+          "md": "trigonal bipiramidal; octaedro; pirâmide quadrada; octaedro.\n",
+          "tex": "trigonal bipiramidal; octaedro; pirâmide quadrada; octaedro.\n"
+        },
+        {
+          "html": "trigonal bipiramidal; octaedro; octaedro; pirâmide quadrada.",
+          "md": "trigonal bipiramidal; octaedro; octaedro; pirâmide quadrada.\n",
+          "tex": "trigonal bipiramidal; octaedro; octaedro; pirâmide quadrada.\n"
+        },
+        {
+          "html": "octaedro; pirâmide quadrada; trigonal bipiramidal; octaedro.",
+          "md": "octaedro; pirâmide quadrada; trigonal bipiramidal; octaedro.\n",
+          "tex": "octaedro; pirâmide quadrada; trigonal bipiramidal; octaedro.\n"
+        },
+        {
+          "html": "trigonal bipiramidal; pirâmide quadrada; octaedro; octaedro.",
+          "md": "trigonal bipiramidal; pirâmide quadrada; octaedro; octaedro.\n",
+          "tex": "trigonal bipiramidal; pirâmide quadrada; octaedro; octaedro.\n"
+        },
+        {
+          "html": "octaedro; trigonal bipiramidal; pirâmide quadrada; octaedro.",
+          "md": "octaedro; trigonal bipiramidal; pirâmide quadrada; octaedro.\n",
+          "tex": "octaedro; trigonal bipiramidal; pirâmide quadrada; octaedro.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1F01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1F/1F01/1F01.md",
+      "date": "2023-04-25T14:37:49.487236",
+      "statement": {
+        "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{BeH2}\\)</span>, <span class=\"math inline\">\\(\\ce{ClF2^+}\\)</span>, <span class=\"math inline\">\\(\\ce{I3^-}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com a forma de cada molécula,\nrespectivamente.</p>",
+        "md": "Considere as moléculas: $\\ce{BeH2}$, $\\ce{ClF2^+}$, $\\ce{I3^-}$ e\n$\\ce{NO2^-}$.\n\n**Assinale** a alternativa com a forma de cada molécula,\nrespectivamente.\n",
+        "tex": "Considere as moléculas: {\\(\\ce{BeH2}\\)}, {\\(\\ce{ClF2^+}\\)}, {\\(\\ce{I3^-}\\)} e {\\(\\ce{NO2^-}\\)}.\n\n\\textbf{Assinale} a alternativa com a forma de cada molécula, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "linear; angular; linear; angular.",
+          "md": "linear; angular; linear; angular.\n",
+          "tex": "linear; angular; linear; angular.\n"
+        },
+        {
+          "html": "linear; angular; angular; linear.",
+          "md": "linear; angular; angular; linear.\n",
+          "tex": "linear; angular; angular; linear.\n"
+        },
+        {
+          "html": "angular; linear; linear; angular.",
+          "md": "angular; linear; linear; angular.\n",
+          "tex": "angular; linear; linear; angular.\n"
+        },
+        {
+          "html": "angular; linear; angular; linear.",
+          "md": "angular; linear; angular; linear.\n",
+          "tex": "angular; linear; angular; linear.\n"
+        },
+        {
+          "html": "angular; angular; linear; linear.",
+          "md": "angular; angular; linear; linear.\n",
+          "tex": "angular; angular; linear; linear.\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "3F30",

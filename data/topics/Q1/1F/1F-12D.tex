@@ -1,0 +1,42 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{chemscheme}
+\begin{tikzpicture}
+    \node (C1) [3Datom=yellow] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L1) [3Dbond={- 20}{0.8}] at (C1) {};
+    \node (L3) [3Dbond={-160}{0.8}] at (C1) {};
+    \end{pgfonlayer}
+    \node (L2) [3Dbond={- 90}{0.9}] at (C1) {};
+    \node (L4) [3Dlonepair=+90] at (C1) {};
+
+    \begin{scope}[every node/.style={3Datom=red}]
+        \begin{pgfonlayer}{back atoms}
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \end{pgfonlayer}
+        \node at ($(L2.top) + (L2.bottom)$) {};
+    \end{scope}
+
+    \draw (L1.south east) 
+            to [out=-90, in=0, edge node={node [below, shift={(9pt,-2pt)}] {\footnotesize\ang{106}}}] 
+        (L2.north east);
+
+    \node (lewis) [anchor=east, shift={(-3em, -0.8em)}] at (C1) 
+        { 
+            \charge{25:4pt=$2-$}{\chemleft[
+            \chemfig[fixed length=true]
+                {
+                    \charge{90:1.5pt=\:}{S}
+                        (-[-3]\charge{0:1.5pt=\:, 180:1.5pt=\:, 270:1.5pt=\:}{O})
+                        (-[-1]\charge{60:1pt=\:, -30:1pt=\:, -120:1pt=\:}{O})
+                        (=[7]\charge{-90:1.5pt=\:, 150:1pt=\:}{O})
+                }
+            \chemright]}
+            \quad\quad =
+        };
+\end{tikzpicture}
+\end{chemscheme}
+

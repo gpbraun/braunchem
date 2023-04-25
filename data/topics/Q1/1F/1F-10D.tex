@@ -1,0 +1,48 @@
+\pgfdeclarelayer{back bonds}
+\pgfdeclarelayer{back atoms}
+\pgfsetlayers{back atoms, back bonds, main}
+\begin{chemscheme}
+\begin{tikzpicture}
+    \node (C1) [3Datom=gray] at (0,0) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L0) [3Dbond={   0}{1.0}] at (C1) {};
+    \node (L1) [3Dbond={ 120}{1.0}] at (C1) {};
+    \node (L2) [3Dbond={-120}{1.0}] at (C1) {};
+    \end{pgfonlayer}
+
+    \node (C2) [3Datom=gray] at ($(L0.top) + (L0.bottom)$) {};
+
+    \begin{pgfonlayer}{back bonds}
+    \node (L3) [3Dbond={ 60}{1.0}] at (C2) {};
+    \node (L4) [3Dbond={-60}{1.0}] at (C2) {};
+    \end{pgfonlayer}
+
+    \begin{scope}[every node/.style={3Datom=white}]
+        \node at ($(L1.top) + (L1.bottom)$) {};
+        \node at ($(L2.top) + (L2.bottom)$) {};
+    \end{scope}
+
+    \begin{scope}[every node/.style={3Datom=white}, shift={(C2)}]
+        \node at ($(L3.top) + (L3.bottom)$) {};
+        \node at ($(L4.top) + (L4.bottom)$) {};
+    \end{scope}
+
+    \draw (L3.90) 
+        to [out=150, in=90, edge node={node [above] {\footnotesize\ang{122}}}] 
+        (L0.north);
+    
+    \draw (L3.270) 
+        to [out=-45, in=45, edge node={node [right] {\footnotesize\ang{117}}}] 
+        (L4.north east);
+
+    \node (lewis) [anchor=east, shift={(-3em, 5pt)}] at (C1) 
+        { 
+            \chemfig[fixed length=true]
+                {
+                    C(-[4]H)(-[-4]H)=C(-[2]H)(-[-2]H)
+                }
+            \quad =
+        };
+\end{tikzpicture}
+\end{chemscheme}
