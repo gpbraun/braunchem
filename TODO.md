@@ -16,4 +16,5 @@
 ## Software
 
 - Usar o módulo `pydantic` para verificar possíveis erros nos problemas e tópicos. Sempre retornar o ID referente ao tópico em que o erro ocorreu.
+- Criar um filtro do PANDOC para corrigir as cores que o KaTeX usa.
 

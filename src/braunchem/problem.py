@@ -94,6 +94,9 @@ class Problem(BaseModel):
 
     def tex_solution(self):
         """Retorna a solução do problema em LaTeX."""
+        if not self.solution:
+            return ""
+
         contents = self.solution.tex
 
         parameters = {
