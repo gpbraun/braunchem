@@ -373,8 +373,6 @@ class ProblemSet(BaseModel):
         with Pool() as pool:
             problems = list(pool.imap_unordered(Problem.parse_mdfile, problem_paths))
 
-        problems = list(map(Problem.parse_mdfile, problem_paths))
-
         return cls(id_="root", title="ROOT", date=datetime.now(), problems=problems)
 
     @classmethod
