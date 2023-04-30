@@ -1,6 +1,6 @@
-import panflute as pf
-
 from pathlib import Path
+
+import panflute as pf
 
 
 def figures(elem, doc, debug=False):
