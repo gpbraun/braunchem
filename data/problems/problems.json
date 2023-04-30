@@ -24009,13 +24009,17 @@
     {
       "id_": "2C08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C08/2C08.md",
-      "date": "2023-03-09T12:55:50.812100",
+      "date": "2023-04-30T01:01:54.274520",
       "statement": {
         "html": "<p>Considere o diagrama de fases do carbono.</p>\n<figure>\n<img alt=\"Figura do problema 2C08.\" src=\"2C08-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2C08.</figcaption>\n</figure>\n<p>e as seguintes proposições.</p>\n<ol type=\"1\">\n<li>Em <span class=\"math inline\">\\(\\pu{2000 K}\\)</span>, a pressão mínima necessária\npara a conversão da grafita em diamante é cerca de <span class=\"math inline\">\\(\\pu{5 GPa}\\)</span>.</li>\n<li>A temperatura mínima na qual o\ncarbono líquido existe em pressões abaixo de <span class=\"math inline\">\\(\\pu{10000 atm}\\)</span> é cerca de <span class=\"math inline\">\\(\\pu{4100 K}\\)</span>.</li>\n<li>O ponto triplo\ndiamante-líquido-grafita é <span class=\"math inline\">\\(\\pu{4000\nK}\\)</span> e <span class=\"math inline\">\\(\\pu{10 GPa}\\)</span>.</li>\n<li>Os diamantes são termodinamicamente\nestáveis em condições normais.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
         "md": "Considere o diagrama de fases do carbono.\n\n![Figura do problema 2C08.](2C08-1P.svg)\n\ne as seguintes proposições.\n\n1.  Em $\\pu{2000 K}$, a pressão mínima necessária para a conversão da\n    grafita em diamante é cerca de $\\pu{5 GPa}$.\n2.  A temperatura mínima na qual o carbono líquido existe em pressões\n    abaixo de $\\pu{10000 atm}$ é cerca de $\\pu{4100 K}$.\n3.  O ponto triplo diamante-líquido-grafita é $\\pu{4000 K}$ e\n    $\\pu{10 GPa}$.\n4.  Os diamantes são termodinamicamente estáveis em condições normais.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
         "tex": "Considere o diagrama de fases do carbono.\n\n\\begin{figure}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}\n    [\n        grid = major,\n        ylabel = {Pressão, $P/\\unit{GPa}$},\n        xlabel = {Temperatura, $T/\\unit{K}$},\n        ymin=0, ymax=20,\n        xmin=0, xmax=5000,\n    ]       \n    \\draw [draw=blue, very thick]\n        (axis cs: 4000, 10) .. controls (4500, 8) and (4500, 4) .. (axis cs: 4000, 0);\n    \\draw [draw=blue, very thick]\n        (axis cs: 4000, 10) -- (axis cs: 2500, 30);\n    \\draw [draw=blue, very thick]\n        (axis cs: 0, 1) .. controls (1000, 2) .. (axis cs: 4000, 10);\n\n    \\addplot [ mark=*, color=blue, very thick ] coordinates\n        { \n            (4000, 10) \n        };\n\n    \\node [anchor = center] at (axis cs: 4250, 17.5) \n        { Líquido };\n    \\node [anchor = center] at (axis cs: 3300, 2.5) \n        { Grafita };\n    \\node [anchor = center] at (axis cs: 1800, 12.5) \n        { Diamante };\n\\end{axis}\n\\end{tikzpicture}\n\\caption{Figura do problema 2C08.}\n\\end{figure}\n\ne as seguintes proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Em {\\(\\qty{2000}{\\unit{K}}\\)}, a pressão mínima necessária para a conversão da grafita em diamante é cerca de {\\(\\qty{5}{\\unit{GPa}}\\)}.\n\\item\n  A temperatura mínima na qual o carbono líquido existe em pressões abaixo de {\\(\\qty{10000}{\\unit{atm}}\\)} é cerca de {\\(\\qty{4100}{\\unit{K}}\\)}.\n\\item\n  O ponto triplo diamante-líquido-grafita é {\\(\\qty{4000}{\\unit{K}}\\)} e {\\(\\qty{10}{\\unit{GPa}}\\)}.\n\\item\n  Os diamantes são termodinamicamente estáveis em condições normais.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><strong>Correta</strong>. Basta observar a curva de equilíbrio de\nfase diamante-grafite quando <span class=\"math inline\">\\(T=2000\\,\nK\\)</span></li>\n<li><strong>Correta</strong>. A temperatura mínima na qual carbono\nlíquido existem em pressões menores a 10000 atm está na faixa dos 4100\nK, a pressão de 10000 atm corresponde a pressão de 1 GPa.</li>\n<li><strong>Correta</strong>. Basta observar o gráfico e encontrar o o\nponto de interseção das duas curvas</li>\n<li><strong>Incorreta</strong>. Em condições normais(baixa pressão e\ntemperatura) o carbono se encontra no estado grafite.</li>\n</ol>",
+        "md": "1.  **Correta**. Basta observar a curva de equilíbrio de fase\n    diamante-grafite quando $T=2000\\, K$\n2.  **Correta**. A temperatura mínima na qual carbono líquido existem em\n    pressões menores a 10000 atm está na faixa dos 4100 K, a pressão de\n    10000 atm corresponde a pressão de 1 GPa.\n3.  **Correta**. Basta observar o gráfico e encontrar o o ponto de\n    interseção das duas curvas\n4.  **Incorreta**. Em condições normais(baixa pressão e temperatura) o\n    carbono se encontra no estado grafite.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Correta}. Basta observar a curva de equilíbrio de fase diamante-grafite quando {\\(T=2000\\, K\\)}\n\\item\n  \\textbf{Correta}. A temperatura mínima na qual carbono líquido existem em pressões menores a 10000 atm está na faixa dos 4100 K, a pressão de 10000\n  atm corresponde a pressão de 1 GPa.\n\\item\n  \\textbf{Correta}. Basta observar o gráfico e encontrar o o ponto de interseção das duas curvas\n\\item\n  \\textbf{Incorreta}. Em condições normais(baixa pressão e temperatura) o carbono se encontra no estado grafite.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24050,13 +24054,17 @@
     {
       "id_": "2C14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C14/2C14.md",
-      "date": "2023-01-10T22:42:11.217230",
+      "date": "2023-04-30T01:03:04.363250",
       "statement": {
         "html": "<p>Considere a reação de preparação de ácido fluorídrico a partir de\nflúor e água: <span class=\"math display\">\\[\n    \\ce{ 2 F2(g) + 2 H2O(l) -&gt; 4 HF(aq) + O2(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho não expansivo máximo que pode ser realizado por essa reação em\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span></p>",
         "md": "Considere a reação de preparação de ácido fluorídrico a partir de flúor\ne água: $$\n    \\ce{ 2 F2(g) + 2 H2O(l) -> 4 HF(aq) + O2(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima do trabalho não\nexpansivo máximo que pode ser realizado por essa reação em\n$\\pu{25 \\degree C}$\n",
         "tex": "Considere a reação de preparação de ácido fluorídrico a partir de flúor e água: {\\[\n    \\ce{ 2 F2(g) + 2 H2O(l) -> 4 HF(aq) + O2(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho não expansivo máximo que pode ser realizado por essa reação em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da energia livre: <span class=\"math display\">\\[\\Delta G=\n\\Delta G_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}\\]</span> <span class=\"math display\">\\[\\Delta G=4\\cdot(-297)-2\\cdot(-237)\\]</span> <span class=\"math display\">\\[\\Delta G=-714\\,kJ\\,mol^{-1}\\]</span> Cálculo do\ntrabalho expansivo máximo: <span class=\"math display\">\\[W_{\\text{máx}}=-\\Delta G\\]</span> <span class=\"math display\">\\[W_{\\text{máx}}=714\\,kJ\\,mol^{-1}\\]</span></p>",
+        "md": "Cálculo da energia livre: $$\\Delta G=\n\\Delta G_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}$$\n$$\\Delta G=4\\cdot(-297)-2\\cdot(-237)$$ $$\\Delta G=-714\\,kJ\\,mol^{-1}$$\nCálculo do trabalho expansivo máximo: $$W_{\\text{máx}}=-\\Delta G$$\n$$W_{\\text{máx}}=714\\,kJ\\,mol^{-1}$$\n",
+        "tex": "Cálculo da energia livre: {\\[\\Delta G=\n\\Delta G_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}\\]} {\\[\\Delta G=4\\cdot(-297)-2\\cdot(-237)\\]} {\\[\\Delta G=-714\\,kJ\\,mol^{-1}\\]} Cálculo do\ntrabalho expansivo máximo: {\\[W_{\\text{máx}}=-\\Delta G\\]} {\\[W_{\\text{máx}}=714\\,kJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24110,13 +24118,17 @@
     {
       "id_": "2C16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C16/2C16.md",
-      "date": "2023-01-11T20:54:53.352785",
+      "date": "2023-04-30T01:03:19.454718",
       "statement": {
         "html": "<p>Considere a reação de decomposição do carbonato de magnésio: <span class=\"math display\">\\[\n    \\ce{ MgCO3(s) -&gt; MgO(s) + CO2(g) }\n\\]</span> Suponha que <span class=\"math inline\">\\(\\Delta\nH^\\circ_\\mathrm{r}\\)</span> e <span class=\"math inline\">\\(\\Delta\nS^\\circ_\\mathrm{r}\\)</span> são independentes da temperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da menor\ntemperatura em que a redução da magnetita é espontânea.</p>",
         "md": "Considere a reação de decomposição do carbonato de magnésio: $$\n    \\ce{ MgCO3(s) -> MgO(s) + CO2(g) }\n$$ Suponha que $\\Delta H^\\circ_\\mathrm{r}$ e $\\Delta S^\\circ_\\mathrm{r}$\nsão independentes da temperatura.\n\n**Assinale** a alternativa que mais se aproxima da menor temperatura em\nque a redução da magnetita é espontânea.\n",
         "tex": "Considere a reação de decomposição do carbonato de magnésio: {\\[\n    \\ce{ MgCO3(s) -> MgO(s) + CO2(g) }\n\\]} Suponha que {\\(\\Delta H^\\circ_\\mathrm{r}\\)} e {\\(\\Delta S^\\circ_\\mathrm{r}\\)} são independentes da temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da menor temperatura em que a redução da magnetita é espontânea.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da variação de entropia: <span class=\"math display\">\\[\\Delta\nS=  S_{MgO}+  S_{CO_{2}}- S_{MgCO_{3}}\\]</span> <span class=\"math display\">\\[\\Delta S=26,9+ 214- 65,7\\]</span> <span class=\"math display\">\\[\\Delta S=175,2\\,J\\,mol^{-1}\\]</span> Cálculo da\nvariação de entalpia: <span class=\"math display\">\\[\\Delta H=  \\Delta\nH_{MgO} +\\Delta H_{CO_{2}}-\\Delta H_{MgCO_{3}}\\]</span> <span class=\"math display\">\\[\\Delta H=-602-394 -(-1100)\\]</span> <span class=\"math display\">\\[\\Delta H=104\\,kJ\\,mol^{-1}\\]</span> A temperatura\nmínima é aquela no limite da transição entre o processo não espontâneo e\no espontâneo, ou seja, quando <span class=\"math inline\">\\(\\Delta\nG=0\\)</span>: Cálculo da temperatura: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[0=\\Delta H- T \\Delta S\\]</span> <span class=\"math display\">\\[T= \\frac{\\Delta H}{\\Delta S}\\]</span> <span class=\"math display\">\\[T = \\frac{104000\\,J}{175,2\\,J\\,K^{-1}}=\n593,6\\,K\\]</span></p>",
+        "md": "Cálculo da variação de entropia: $$\\Delta\nS=  S_{MgO}+  S_{CO_{2}}- S_{MgCO_{3}}$$ $$\\Delta S=26,9+ 214- 65,7$$\n$$\\Delta S=175,2\\,J\\,mol^{-1}$$ Cálculo da variação de entalpia:\n$$\\Delta H=  \\Delta\nH_{MgO} +\\Delta H_{CO_{2}}-\\Delta H_{MgCO_{3}}$$\n$$\\Delta H=-602-394 -(-1100)$$ $$\\Delta H=104\\,kJ\\,mol^{-1}$$ A\ntemperatura mínima é aquela no limite da transição entre o processo não\nespontâneo e o espontâneo, ou seja, quando $\\Delta G=0$: Cálculo da\ntemperatura: $$\\Delta G= \\Delta H - T \\Delta S$$\n$$0=\\Delta H- T \\Delta S$$ $$T= \\frac{\\Delta H}{\\Delta S}$$\n$$T = \\frac{104000\\,J}{175,2\\,J\\,K^{-1}}=\n593,6\\,K$$\n",
+        "tex": "Cálculo da variação de entropia: {\\[\\Delta\nS=  S_{MgO}+  S_{CO_{2}}- S_{MgCO_{3}}\\]} {\\[\\Delta S=26,9+ 214- 65,7\\]} {\\[\\Delta S=175,2\\,J\\,mol^{-1}\\]} Cálculo da variação de entalpia:\n{\\[\\Delta H=  \\Delta\nH_{MgO} +\\Delta H_{CO_{2}}-\\Delta H_{MgCO_{3}}\\]} {\\[\\Delta H=-602-394 -(-1100)\\]} {\\[\\Delta H=104\\,kJ\\,mol^{-1}\\]} A temperatura mínima é aquela no\nlimite da transição entre o processo não espontâneo e o espontâneo, ou seja, quando {\\(\\Delta G=0\\)}: Cálculo da temperatura:\n{\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[0=\\Delta H- T \\Delta S\\]} {\\[T= \\frac{\\Delta H}{\\Delta S}\\]} {\\[T = \\frac{104000\\,J}{175,2\\,J\\,K^{-1}}=\n593,6\\,K\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24202,13 +24214,17 @@
     {
       "id_": "2C19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C19/2C19.md",
-      "date": "2023-01-11T00:15:32.112352",
+      "date": "2023-04-30T01:03:45.813914",
       "statement": {
         "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ A(l) + B(l) -&gt; C(g) + D(g) }\n\\]</span> Conduzida em pressão e temperatura constantes.</p>\n<p><strong>Assinale</strong> a alternativa <em>correta</em>.</p>",
         "md": "Considere a reação: $$\n    \\ce{ A(l) + B(l) -> C(g) + D(g) }\n$$ Conduzida em pressão e temperatura constantes.\n\n**Assinale** a alternativa *correta*.\n",
         "tex": "Considere a reação: {\\[\n    \\ce{ A(l) + B(l) -> C(g) + D(g) }\n\\]} Conduzida em pressão e temperatura constantes.\n\n\\textbf{Assinale} a alternativa \\emph{correta}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Líquidos virando gás -&gt; <span class=\"math inline\">\\(\\Delta\nS&gt;0\\)</span> Verificando a condição para a reação ser sempre\nespontânea <span class=\"math inline\">\\(\\Delta G&lt;0\\)</span> <span class=\"math display\">\\[\\underbrace{\\Delta G}_{\\huge-}=\\underbrace{\\Delta\nH}_{\\Large-}\\underbrace{-T \\Delta S}_{-}\\]</span>Para ser sempre\nespontânea, basta que <span class=\"math inline\">\\(\\Delta H&lt;0\\)</span>\nou seja, que a reação seja exotérmica</p>",
+        "md": "Líquidos virando gás -&gt; $\\Delta S>0$ Verificando a condição para a\nreação ser sempre espontânea $\\Delta G<0$\n$$\\underbrace{\\Delta G}_{\\huge-}=\\underbrace{\\Delta\nH}_{\\Large-}\\underbrace{-T \\Delta S}_{-}$$Para ser sempre espontânea,\nbasta que $\\Delta H<0$ ou seja, que a reação seja exotérmica\n",
+        "tex": "Líquidos virando gás -\\textgreater{} {\\(\\Delta S>0\\)} Verificando a condição para a reação ser sempre espontânea {\\(\\Delta G<0\\)}\n{\\[\\underbrace{\\Delta G}_{\\huge-}=\\underbrace{\\Delta\nH}_{\\Large-}\\underbrace{-T \\Delta S}_{-}\\]}Para ser sempre espontânea, basta que {\\(\\Delta H<0\\)} ou seja, que a reação seja exotérmica\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24243,13 +24259,17 @@
     {
       "id_": "2C17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C17/2C17.md",
-      "date": "2023-01-11T00:45:34.725953",
+      "date": "2023-04-30T01:03:29.146404",
       "statement": {
         "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ B2O3(s) + 6 HF(g) -&gt; 2 BF3(g) + 3 H2O(l) }\n\\]</span> Suponha que <span class=\"math inline\">\\(\\Delta\nH^\\circ_\\mathrm{r}\\)</span> e <span class=\"math inline\">\\(\\Delta\nS^\\circ_\\mathrm{r}\\)</span> são independentes da temperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da maior\ntemperatura em que a reação é espontânea.</p>",
         "md": "Considere a reação: $$\n    \\ce{ B2O3(s) + 6 HF(g) -> 2 BF3(g) + 3 H2O(l) }\n$$ Suponha que $\\Delta H^\\circ_\\mathrm{r}$ e $\\Delta S^\\circ_\\mathrm{r}$\nsão independentes da temperatura.\n\n**Assinale** a alternativa que mais se aproxima da maior temperatura em\nque a reação é espontânea.\n",
         "tex": "Considere a reação: {\\[\n    \\ce{ B2O3(s) + 6 HF(g) -> 2 BF3(g) + 3 H2O(l) }\n\\]} Suponha que {\\(\\Delta H^\\circ_\\mathrm{r}\\)} e {\\(\\Delta S^\\circ_\\mathrm{r}\\)} são independentes da temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da maior temperatura em que a reação é espontânea.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da energia livre: <span class=\"math display\">\\[\\Delta\nG=2\\cdot \\Delta G_{BF_{3}}+3\\cdot \\Delta G_{H_{2}O}-6\\cdot \\Delta G_{HF}\n-\\Delta G_{B_2O_3}\\]</span> <span class=\"math display\">\\[\\Delta G=\n2\\cdot (-1120)+3\\cdot(-237)-6\\cdot(-273)-\\cdot(-1190)\\]</span> <span class=\"math display\">\\[\\Delta G=-123\\,kJ\\,mol^{-1}\\]</span> Cálculo da\nvariação de entalpia: <span class=\"math display\">\\[\\Delta H=2\\cdot\n\\Delta H_{BF_{3}}+3\\cdot \\Delta H_{H_{2}O}-6\\cdot \\Delta H_{HF} -\\Delta\nH_{B_2O_3}\\]</span> <span class=\"math display\">\\[\\Delta H= 2\\cdot\n(-1140)+3\\cdot(-286)-6\\cdot(-271)-\\cdot(-1270)\\]</span> <span class=\"math display\">\\[\\Delta H=-242\\,kJ\\,mol^{-1}\\]</span> Cálculo da\nvariação de entropia assumindo que a energia livre dada é a 25°C: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[-123=-242-0,298\\cdot \\Delta S\\]</span> <span class=\"math display\">\\[\\Delta S=-399,3\\,J\\,mol^{-1}\\]</span> A\ntemperatura mínima é aquela no limite da transição entre o processo não\nespontâneo e o espontâneo, ou seja, quando <span class=\"math inline\">\\(\\Delta G=0\\)</span>: Cálculo da temperatura: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[0=\\Delta H- T \\Delta S\\]</span> <span class=\"math display\">\\[T= \\frac{\\Delta H}{\\Delta S}\\]</span> <span class=\"math display\">\\[T = \\frac{242000\\,J}{399,3\\,J\\,K^{-1}}=\n606,1\\,K\\]</span></p>",
+        "md": "Cálculo da energia livre: $$\\Delta\nG=2\\cdot \\Delta G_{BF_{3}}+3\\cdot \\Delta G_{H_{2}O}-6\\cdot \\Delta G_{HF}\n-\\Delta G_{B_2O_3}$$ $$\\Delta G=\n2\\cdot (-1120)+3\\cdot(-237)-6\\cdot(-273)-\\cdot(-1190)$$\n$$\\Delta G=-123\\,kJ\\,mol^{-1}$$ Cálculo da variação de entalpia:\n$$\\Delta H=2\\cdot\n\\Delta H_{BF_{3}}+3\\cdot \\Delta H_{H_{2}O}-6\\cdot \\Delta H_{HF} -\\Delta\nH_{B_2O_3}$$ $$\\Delta H= 2\\cdot\n(-1140)+3\\cdot(-286)-6\\cdot(-271)-\\cdot(-1270)$$\n$$\\Delta H=-242\\,kJ\\,mol^{-1}$$ Cálculo da variação de entropia\nassumindo que a energia livre dada é a 25°C:\n$$\\Delta G= \\Delta H - T \\Delta S$$ $$-123=-242-0,298\\cdot \\Delta S$$\n$$\\Delta S=-399,3\\,J\\,mol^{-1}$$ A temperatura mínima é aquela no limite\nda transição entre o processo não espontâneo e o espontâneo, ou seja,\nquando $\\Delta G=0$: Cálculo da temperatura:\n$$\\Delta G= \\Delta H - T \\Delta S$$ $$0=\\Delta H- T \\Delta S$$\n$$T= \\frac{\\Delta H}{\\Delta S}$$\n$$T = \\frac{242000\\,J}{399,3\\,J\\,K^{-1}}=\n606,1\\,K$$\n",
+        "tex": "Cálculo da energia livre: {\\[\\Delta\nG=2\\cdot \\Delta G_{BF_{3}}+3\\cdot \\Delta G_{H_{2}O}-6\\cdot \\Delta G_{HF}\n-\\Delta G_{B_2O_3}\\]} {\\[\\Delta G=\n2\\cdot (-1120)+3\\cdot(-237)-6\\cdot(-273)-\\cdot(-1190)\\]} {\\[\\Delta G=-123\\,kJ\\,mol^{-1}\\]} Cálculo da variação de entalpia: {\\[\\Delta H=2\\cdot\n\\Delta H_{BF_{3}}+3\\cdot \\Delta H_{H_{2}O}-6\\cdot \\Delta H_{HF} -\\Delta\nH_{B_2O_3}\\]} {\\[\\Delta H= 2\\cdot\n(-1140)+3\\cdot(-286)-6\\cdot(-271)-\\cdot(-1270)\\]} {\\[\\Delta H=-242\\,kJ\\,mol^{-1}\\]} Cálculo da variação de entropia assumindo que a energia livre dada\né a 25°C: {\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[-123=-242-0,298\\cdot \\Delta S\\]} {\\[\\Delta S=-399,3\\,J\\,mol^{-1}\\]} A temperatura mínima é aquela\nno limite da transição entre o processo não espontâneo e o espontâneo, ou seja, quando {\\(\\Delta G=0\\)}: Cálculo da temperatura:\n{\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[0=\\Delta H- T \\Delta S\\]} {\\[T= \\frac{\\Delta H}{\\Delta S}\\]} {\\[T = \\frac{242000\\,J}{399,3\\,J\\,K^{-1}}=\n606,1\\,K\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24351,13 +24371,17 @@
     {
       "id_": "2C20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C20/2C20.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-04-30T01:04:04.169441",
       "statement": {
         "html": "<p>Considere as reações exotérmicas:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{\nCaC2(s) + 2 HCl(aq) -&gt; CaCl2(aq) + C2H2(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{\nC(diamante) -&gt; C(grafita) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ 2 NO(g) +\nO2(g) -&gt; 2 NO2(g) }\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ CaO(s) +\nH2O(l) -&gt; Ca(OH)2(s) }\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> que relaciona as reações que são\nespontâneas em qualquer temperatura.</p>",
         "md": "Considere as reações exotérmicas:\n\n1.  $\\ce{ CaC2(s) + 2 HCl(aq) -> CaCl2(aq) + C2H2(g) }$\n2.  $\\ce{ C(diamante) -> C(grafita) }$\n3.  $\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }$\n4.  $\\ce{ CaO(s) + H2O(l) -> Ca(OH)2(s) }$\n\n**Assinale** que relaciona as reações que são espontâneas em qualquer\ntemperatura.\n",
         "tex": "Considere as reações exotérmicas:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{ CaC2(s) + 2 HCl(aq) -> CaCl2(aq) + C2H2(g) }\\)}\n\\item\n  {\\(\\ce{ C(diamante) -> C(grafita) }\\)}\n\\item\n  {\\(\\ce{ 2 NO(g) + O2(g) -> 2 NO2(g) }\\)}\n\\item\n  {\\(\\ce{ CaO(s) + H2O(l) -> Ca(OH)2(s) }\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} que relaciona as reações que são espontâneas em qualquer temperatura.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Como elas são exotérmicas, para serem sempre espontâneas, basta que\n<span class=\"math inline\">\\(\\Delta S&gt;0\\)</span> já que: <span class=\"math display\">\\[\\underbrace{\\Delta G}_{\\huge-}=\\underbrace{\\Delta\nH}_{\\Large-}\\underbrace{-T \\Delta S}_{-}\\]</span></p>\n<ol type=\"1\">\n<li><strong>Verdadeiro</strong>. <span class=\"math inline\">\\(\\Delta\nn_{\\text{gás}}&gt;0\\rightarrow \\Delta S&gt;0\\)</span></li>\n<li><strong>Verdadeiro</strong>. Diamante mais organizado, menos\nentrópico, portanto <span class=\"math inline\">\\(S_{\\text{grafita}}&gt;S_{diamante}\\rightarrow\n\\Delta S&gt;0\\)</span></li>\n<li><strong>Falso</strong>. <span class=\"math inline\">\\(\\Delta\nn_{\\text{gás}}&lt;0\\rightarrow \\Delta S&lt;0\\)</span></li>\n<li><strong>Falso</strong>. líquido virando sólido <span class=\"math inline\">\\(\\Delta S&lt;0\\)</span></li>\n</ol>",
+        "md": "Como elas são exotérmicas, para serem sempre espontâneas, basta que\n$\\Delta S>0$ já que: $$\\underbrace{\\Delta G}_{\\huge-}=\\underbrace{\\Delta\nH}_{\\Large-}\\underbrace{-T \\Delta S}_{-}$$\n\n1.  **Verdadeiro**. $\\Delta n_{\\text{gás}}>0\\rightarrow \\Delta S>0$\n2.  **Verdadeiro**. Diamante mais organizado, menos entrópico, portanto\n    $S_{\\text{grafita}}>S_{diamante}\\rightarrow \\Delta S>0$\n3.  **Falso**. $\\Delta n_{\\text{gás}}<0\\rightarrow \\Delta S<0$\n4.  **Falso**. líquido virando sólido $\\Delta S<0$\n",
+        "tex": "Como elas são exotérmicas, para serem sempre espontâneas, basta que {\\(\\Delta S>0\\)} já que: {\\[\\underbrace{\\Delta G}_{\\huge-}=\\underbrace{\\Delta\nH}_{\\Large-}\\underbrace{-T \\Delta S}_{-}\\]}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Verdadeiro}. {\\(\\Delta n_{\\text{gás}}>0\\rightarrow \\Delta S>0\\)}\n\\item\n  \\textbf{Verdadeiro}. Diamante mais organizado, menos entrópico, portanto {\\(S_{\\text{grafita}}>S_{diamante}\\rightarrow \\Delta S>0\\)}\n\\item\n  \\textbf{Falso}. {\\(\\Delta n_{\\text{gás}}<0\\rightarrow \\Delta S<0\\)}\n\\item\n  \\textbf{Falso}. líquido virando sólido {\\(\\Delta S<0\\)}\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24392,13 +24416,17 @@
     {
       "id_": "2C13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C13/2C13.md",
-      "date": "2023-01-10T22:42:08.217044",
+      "date": "2023-04-30T01:02:54.431632",
       "statement": {
         "html": "<p>Considere a reação de decomposição do peróxido de hidrogênio: <span class=\"math display\">\\[\n    \\ce{ 2 H2O2(l) -&gt; 2 H2O(l) + O2(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\ntrabalho não expansivo máximo que pode ser realizado por essa reação em\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span></p>",
         "md": "Considere a reação de decomposição do peróxido de hidrogênio: $$\n    \\ce{ 2 H2O2(l) -> 2 H2O(l) + O2(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima do trabalho não\nexpansivo máximo que pode ser realizado por essa reação em\n$\\pu{25 \\degree C}$\n",
         "tex": "Considere a reação de decomposição do peróxido de hidrogênio: {\\[\n    \\ce{ 2 H2O2(l) -> 2 H2O(l) + O2(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima do trabalho não expansivo máximo que pode ser realizado por essa reação em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da variação de entropia: <span class=\"math display\">\\[\\Delta\nS= 2\\cdot S_{H_{2}O}+  S_{O_{2}}- 2\\cdot S_{H_{2}O_2}\\]</span> <span class=\"math display\">\\[\\Delta S=2\\cdot69,9+205- 2\\cdot 110\\]</span>\n<span class=\"math display\">\\[\\Delta S=124,8\\,J\\,mol^{-1}\\]</span>\nCálculo da variação de entalpia: <span class=\"math display\">\\[\\Delta H=\n2\\cdot \\Delta H_{f(H_2O)}-2\\cdot \\Delta H_{f(H_{2}O_{2})}\\]</span> <span class=\"math display\">\\[\\Delta H=2\\cdot(-286) -2\\cdot(-188)\\]</span>\n<span class=\"math display\">\\[\\Delta H=-196\\,kJ\\,mol^{-1}\\]</span>\nCálculo da energia livre: <span class=\"math display\">\\[\\Delta G= \\Delta\nH - T \\Delta S\\]</span> <span class=\"math display\">\\[\\Delta\nG=-196\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(124,8\\,kJ\\,K^{-1}\\,mol^{-1})\\]</span> <span class=\"math display\">\\[\\Delta G=-233,19\\,kJ\\,mol^{-1}\\]</span> Cálculo\ndo trabalho expansivo máximo: <span class=\"math display\">\\[W_{\\text{máx}}=-\\Delta G\\]</span> <span class=\"math display\">\\[W_{\\text{máx}}=233,19\\,kJ\\,mol^{-1}\\]</span></p>",
+        "md": "Cálculo da variação de entropia: $$\\Delta\nS= 2\\cdot S_{H_{2}O}+  S_{O_{2}}- 2\\cdot S_{H_{2}O_2}$$\n$$\\Delta S=2\\cdot69,9+205- 2\\cdot 110$$ $$\\Delta S=124,8\\,J\\,mol^{-1}$$\nCálculo da variação de entalpia: $$\\Delta H=\n2\\cdot \\Delta H_{f(H_2O)}-2\\cdot \\Delta H_{f(H_{2}O_{2})}$$\n$$\\Delta H=2\\cdot(-286) -2\\cdot(-188)$$ $$\\Delta H=-196\\,kJ\\,mol^{-1}$$\nCálculo da energia livre: $$\\Delta G= \\Delta\nH - T \\Delta S$$ $$\\Delta\nG=-196\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(124,8\\,kJ\\,K^{-1}\\,mol^{-1})$$\n$$\\Delta G=-233,19\\,kJ\\,mol^{-1}$$ Cálculo do trabalho expansivo máximo:\n$$W_{\\text{máx}}=-\\Delta G$$ $$W_{\\text{máx}}=233,19\\,kJ\\,mol^{-1}$$\n",
+        "tex": "Cálculo da variação de entropia: {\\[\\Delta\nS= 2\\cdot S_{H_{2}O}+  S_{O_{2}}- 2\\cdot S_{H_{2}O_2}\\]} {\\[\\Delta S=2\\cdot69,9+205- 2\\cdot 110\\]} {\\[\\Delta S=124,8\\,J\\,mol^{-1}\\]} Cálculo da\nvariação de entalpia: {\\[\\Delta H=\n2\\cdot \\Delta H_{f(H_2O)}-2\\cdot \\Delta H_{f(H_{2}O_{2})}\\]} {\\[\\Delta H=2\\cdot(-286) -2\\cdot(-188)\\]} {\\[\\Delta H=-196\\,kJ\\,mol^{-1}\\]} Cálculo da\nenergia livre: {\\[\\Delta G= \\Delta\nH - T \\Delta S\\]} {\\[\\Delta\nG=-196\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(124,8\\,kJ\\,K^{-1}\\,mol^{-1})\\]} {\\[\\Delta G=-233,19\\,kJ\\,mol^{-1}\\]} Cálculo do trabalho expansivo máximo:\n{\\[W_{\\text{máx}}=-\\Delta G\\]} {\\[W_{\\text{máx}}=233,19\\,kJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24476,13 +24504,17 @@
     {
       "id_": "2C11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C11/2C11.md",
-      "date": "2023-01-10T20:09:32.717136",
+      "date": "2023-04-30T01:02:34.856458",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão da combustão de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de monóxido de carbono gasoso\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão da combustão de $\\pu{1 mol}$ de monóxido de carbono gasoso\n$\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão da combustão de {\\(\\qty{1}{\\unit{mol}}\\)} de monóxido de carbono\ngasoso {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A reação é a seguinte: <span class=\"math display\">\\[CO_{(g)}+\n\\frac{1}{2}O_{2(g)}\\rightarrow CO_{2(g)}\\]</span> Cálculo da energia\nlivre: <span class=\"math display\">\\[\\Delta G= \\Delta\nG_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}\\]</span> <span class=\"math display\">\\[\\Delta G=-394-(-137)\\]</span> <span class=\"math display\">\\[\\Delta G=-257\\,kJ\\,mol^{-1}\\]</span></p>",
+        "md": "A reação é a seguinte: $$CO_{(g)}+\n\\frac{1}{2}O_{2(g)}\\rightarrow CO_{2(g)}$$ Cálculo da energia livre:\n$$\\Delta G= \\Delta\nG_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}$$\n$$\\Delta G=-394-(-137)$$ $$\\Delta G=-257\\,kJ\\,mol^{-1}$$\n",
+        "tex": "A reação é a seguinte: {\\[CO_{(g)}+\n\\frac{1}{2}O_{2(g)}\\rightarrow CO_{2(g)}\\]} Cálculo da energia livre: {\\[\\Delta G= \\Delta\nG_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}\\]} {\\[\\Delta G=-394-(-137)\\]} {\\[\\Delta G=-257\\,kJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24536,13 +24568,17 @@
     {
       "id_": "2C09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C09/2C09.md",
-      "date": "2023-01-10T22:41:57.120348",
+      "date": "2023-04-30T01:02:05.421904",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão de formação da amônia gasosa em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão de formação da amônia gasosa em $\\pu{25 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão de formação da amônia gasosa em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A reação será a seguinte: <span class=\"math display\">\\[\\frac{1}{2}N_{2(g)}+\n\\frac{3}{2}H_{2(g)}\\rightarrow NH_{3(g)}\\]</span> Cálculo da variação de\nentropia: <span class=\"math display\">\\[\\Delta S= S_{NH_{3}}-\n\\frac{3}{2}\\cdot S_{H_{2}}- \\frac{1}{2}\\cdot S_{N_{2}}\\]</span> <span class=\"math display\">\\[\\Delta S=192- \\frac{3}{2}\\cdot131-\n\\frac{1}{2}\\cdot 192\\]</span> <span class=\"math display\">\\[\\Delta\nS=-100,5\\,J\\,mol^{-1}\\]</span> Cálculo da energia livre: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[\\Delta G=-46,1\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(-100,5\\,kJ\\,K^{-1} \\,mol^{-1})\\]</span> <span class=\"math display\">\\[\\Delta G=-16,151\\,kJ\\,mol^{-1}\\]</span></p>",
+        "md": "A reação será a seguinte: $$\\frac{1}{2}N_{2(g)}+\n\\frac{3}{2}H_{2(g)}\\rightarrow NH_{3(g)}$$ Cálculo da variação de\nentropia: $$\\Delta S= S_{NH_{3}}-\n\\frac{3}{2}\\cdot S_{H_{2}}- \\frac{1}{2}\\cdot S_{N_{2}}$$\n$$\\Delta S=192- \\frac{3}{2}\\cdot131-\n\\frac{1}{2}\\cdot 192$$ $$\\Delta\nS=-100,5\\,J\\,mol^{-1}$$ Cálculo da energia livre:\n$$\\Delta G= \\Delta H - T \\Delta S$$ $$\\Delta G=-46,1\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(-100,5\\,kJ\\,K^{-1} \\,mol^{-1})$$\n$$\\Delta G=-16,151\\,kJ\\,mol^{-1}$$\n",
+        "tex": "A reação será a seguinte: {\\[\\frac{1}{2}N_{2(g)}+\n\\frac{3}{2}H_{2(g)}\\rightarrow NH_{3(g)}\\]} Cálculo da variação de entropia: {\\[\\Delta S= S_{NH_{3}}-\n\\frac{3}{2}\\cdot S_{H_{2}}- \\frac{1}{2}\\cdot S_{N_{2}}\\]} {\\[\\Delta S=192- \\frac{3}{2}\\cdot131-\n\\frac{1}{2}\\cdot 192\\]} {\\[\\Delta\nS=-100,5\\,J\\,mol^{-1}\\]} Cálculo da energia livre: {\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[\\Delta G=-46,1\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(-100,5\\,kJ\\,K^{-1} \\,mol^{-1})\\]} {\\[\\Delta G=-16,151\\,kJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24612,13 +24648,17 @@
     {
       "id_": "2C21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C21/2C21.md",
-      "date": "2023-01-11T00:05:37.704070",
+      "date": "2023-04-30T01:06:03.215790",
       "statement": {
-        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PCl5}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HCN}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{NO}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se menos estáveis em relação aos elementos quando a\ntemperatura aumenta.</p>",
-        "md": "Considere os compostos.\n\n1.  $\\ce{PCl5}$ gasoso.\n2.  $\\ce{HCN}$ gasoso.\n3.  $\\ce{NO}$ gasoso.\n4.  $\\ce{SO2}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\nmenos estáveis em relação aos elementos quando a temperatura aumenta.\n",
-        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PCl5}\\)} gasoso.\n\\item\n  {\\(\\ce{HCN}\\)} gasoso.\n\\item\n  {\\(\\ce{NO}\\)} gasoso.\n\\item\n  {\\(\\ce{SO2}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se menos estáveis em relação aos elementos quando a temperatura aumenta.\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PCl5}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HCN}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{NO}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se <em>menos</em> estáveis em relação às substâncias simples\nquando a temperatura aumenta.</p>",
+        "md": "Considere os compostos.\n\n1.  $\\ce{PCl5}$ gasoso.\n2.  $\\ce{HCN}$ gasoso.\n3.  $\\ce{NO}$ gasoso.\n4.  $\\ce{SO2}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\n*menos* estáveis em relação às substâncias simples quando a temperatura\naumenta.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PCl5}\\)} gasoso.\n\\item\n  {\\(\\ce{HCN}\\)} gasoso.\n\\item\n  {\\(\\ce{NO}\\)} gasoso.\n\\item\n  {\\(\\ce{SO2}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se \\emph{menos} estáveis em relação às substâncias simples quando a temperatura\naumenta.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Para medir a estabilidade, basta observar o <span class=\"math inline\">\\(\\Delta G\\)</span> e para medir a variação dessa\nestabilidade com a temperatura, devemos olhar para o termo que acompanha\na temperatura, ou seja o <span class=\"math inline\">\\(\\Delta S\\)</span>\n<span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> Se\n<span class=\"math inline\">\\(\\Delta S&gt;0\\)</span> o aumento de\ntemperatura torna <span class=\"math inline\">\\(\\Delta G\\)</span> cada vez\nmais negativo ou seja fica mais estável Se <span class=\"math inline\">\\(\\Delta S&lt;0\\)</span> , ocorre justamente o\ncontrário, o aumento da temperatura o torna menos estável</p>\n<ol type=\"1\">\n<li></li>\n<li><p><span class=\"math display\">\\[P_{(s)}+\n\\frac{5}{2}Cl_{2(g)}\\rightarrow PCl_{5(g)}\\]</span> <span class=\"math display\">\\[\\Delta n_{\\text{gás}}&lt;0\\therefore \\Delta\nS&lt;0\\therefore \\text{menos estável}\\]</span></p></li>\n<li><p><span class=\"math display\">\\[\\frac{1}{2}H_{2(g)}+C_{(s)}+\n\\frac{1}{2}N_{2(g)}\\rightarrow HCN_{(g)}\\]</span> <span class=\"math display\">\\[\\Delta n_{\\text{gás}}=0\\therefore \\Delta\nS\\approx0\\therefore \\text{nada se pode afirmar}\\]</span></p></li>\n<li><p><span class=\"math display\">\\[\\frac{1}{2}O_{2(g)}+\n\\frac{1}{2}N_{2(g)}\\rightarrow NO_{(g)}\\]</span> <span class=\"math display\">\\[\\Delta n_{\\text{gás}}=0\\therefore \\Delta\nS\\approx0\\therefore \\text{nada se pode afirmar}\\]</span></p></li>\n<li><p><span class=\"math display\">\\[O_{2(g)}+ S_{(s)}\\rightarrow\nSO_{2(g)}\\]</span> <span class=\"math display\">\\[\\Delta\nn_{\\text{gás}}=0\\therefore \\Delta S\\approx0\\therefore \\text{nada se pode\nafirmar}\\]</span></p></li>\n</ol>",
+        "md": "Para medir a estabilidade, basta observar o $\\Delta G$ e para medir a\nvariação dessa estabilidade com a temperatura, devemos olhar para o\ntermo que acompanha a temperatura, ou seja o $\\Delta S$\n$$\\Delta G= \\Delta H - T \\Delta S$$ Se $\\Delta S>0$ o aumento de\ntemperatura torna $\\Delta G$ cada vez mais negativo ou seja fica mais\nestável Se $\\Delta S<0$ , ocorre justamente o contrário, o aumento da\ntemperatura o torna menos estável\n\n1.  \n\n2.  $$P_{(s)}+\n    \\frac{5}{2}Cl_{2(g)}\\rightarrow PCl_{5(g)}$$\n    $$\\Delta n_{\\text{gás}}<0\\therefore \\Delta\n    S<0\\therefore \\text{menos estável}$$\n\n3.  $$\\frac{1}{2}H_{2(g)}+C_{(s)}+\n    \\frac{1}{2}N_{2(g)}\\rightarrow HCN_{(g)}$$\n    $$\\Delta n_{\\text{gás}}=0\\therefore \\Delta\n    S\\approx0\\therefore \\text{nada se pode afirmar}$$\n\n4.  $$\\frac{1}{2}O_{2(g)}+\n    \\frac{1}{2}N_{2(g)}\\rightarrow NO_{(g)}$$\n    $$\\Delta n_{\\text{gás}}=0\\therefore \\Delta\n    S\\approx0\\therefore \\text{nada se pode afirmar}$$\n\n5.  $$O_{2(g)}+ S_{(s)}\\rightarrow\n    SO_{2(g)}$$ $$\\Delta\n    n_{\\text{gás}}=0\\therefore \\Delta S\\approx0\\therefore \\text{nada se pode\n    afirmar}$$\n",
+        "tex": "Para medir a estabilidade, basta observar o {\\(\\Delta G\\)} e para medir a variação dessa estabilidade com a temperatura, devemos olhar para o termo\nque acompanha a temperatura, ou seja o {\\(\\Delta S\\)} {\\[\\Delta G= \\Delta H - T \\Delta S\\]} Se {\\(\\Delta S>0\\)} o aumento de temperatura torna\n{\\(\\Delta G\\)} cada vez mais negativo ou seja fica mais estável Se {\\(\\Delta S<0\\)} , ocorre justamente o contrário, o aumento da temperatura o torna\nmenos estável\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\item\n\\item\n  {\\[P_{(s)}+\n  \\frac{5}{2}Cl_{2(g)}\\rightarrow PCl_{5(g)}\\]} {\\[\\Delta n_{\\text{gás}}<0\\therefore \\Delta\n  S<0\\therefore \\text{menos estável}\\]}\n\\item\n  {\\[\\frac{1}{2}H_{2(g)}+C_{(s)}+\n  \\frac{1}{2}N_{2(g)}\\rightarrow HCN_{(g)}\\]} {\\[\\Delta n_{\\text{gás}}=0\\therefore \\Delta\n  S\\approx0\\therefore \\text{nada se pode afirmar}\\]}\n\\item\n  {\\[\\frac{1}{2}O_{2(g)}+\n  \\frac{1}{2}N_{2(g)}\\rightarrow NO_{(g)}\\]} {\\[\\Delta n_{\\text{gás}}=0\\therefore \\Delta\n  S\\approx0\\therefore \\text{nada se pode afirmar}\\]}\n\\item\n  {\\[O_{2(g)}+ S_{(s)}\\rightarrow\n  SO_{2(g)}\\]} {\\[\\Delta\n  n_{\\text{gás}}=0\\therefore \\Delta S\\approx0\\therefore \\text{nada se pode\n  afirmar}\\]}\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24638,28 +24678,32 @@
           "tex": "\\textbf{1} e \\textbf{2}"
         },
         {
-          "html": "1, 2 e 3",
-          "md": "**1**, **2** e **3**",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
         },
         {
-          "html": "1, 2 e 4",
-          "md": "**1**, **2** e **4**",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 0
     },
     {
       "id_": "2C05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C05/2C05.md",
-      "date": "2023-02-06T03:49:46.537812",
+      "date": "2023-04-30T01:12:39.287827",
       "statement": {
         "html": "<p>Considere as condições para uma amostra de água: <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>, <span class=\"math inline\">\\(\\pu{200 \\degree C}\\)</span>; <span class=\"math inline\">\\(\\pu{100 atm}\\)</span>, <span class=\"math inline\">\\(\\pu{50 \\degree C}\\)</span>; <span class=\"math inline\">\\(\\pu{3 Torr}\\)</span>, <span class=\"math inline\">\\(\\pu{10 \\degree C}\\)</span>; <span class=\"math inline\">\\(\\pu{20 Torr}\\)</span>, <span class=\"math inline\">\\(\\pu{-10 \\degree C}\\)</span>.</p>\n<figure>\n<img alt=\"Figura do problema 2C05.\" src=\"2C05-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2C05.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com o estado de uma amostra\nde água em cada condição, respectivamente.</p>",
         "md": "Considere as condições para uma amostra de água: $\\pu{1 atm}$,\n$\\pu{200 \\degree C}$; $\\pu{100 atm}$, $\\pu{50 \\degree C}$;\n$\\pu{3 Torr}$, $\\pu{10 \\degree C}$; $\\pu{20 Torr}$,\n$\\pu{-10 \\degree C}$.\n\n![Figura do problema 2C05.](2C05-1P.svg)\n\n**Assinale** a alternativa com o estado de uma amostra de água em cada\ncondição, respectivamente.\n",
         "tex": "Considere as condições para uma amostra de água: {\\(\\qty{1}{\\unit{atm}}\\)}, {\\(\\qty{200}{\\unit{\\degree C}}\\)}; {\\(\\qty{100}{\\unit{atm}}\\)},\n{\\(\\qty{50}{\\unit{\\degree C}}\\)}; {\\(\\qty{3}{\\unit{Torr}}\\)}, {\\(\\qty{10}{\\unit{\\degree C}}\\)}; {\\(\\qty{20}{\\unit{Torr}}\\)},\n{\\(\\qty{-10}{\\unit{\\degree C}}\\)}.\n\n\\begin{figure}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}\n    [\n        grid = major,\n        ylabel = {Pressão, $P/\\unit{Torr}$},\n        xlabel = {Temperatura, $T/\\unit{\\degree C}$},\n        ymin=0, ymax=900,\n        xmin=-35, xmax=130,\n        xtick = {-5, 0, 100},\n        xticklabels = {0, , 100},\n        ytick = {200, 760},\n        yticklabels = {4.6, 760},\n    ]       \n    \\draw [draw=blue, very thick]\n        (axis cs: -35, 20) parabola \n        (axis cs: 0, 200);\n    \\draw [draw=blue, very thick]\n        (axis cs: 0, 200) --\n        (axis cs: -5, 760) --\n        (axis cs: -6, 900);\n    \\draw [draw=blue, very thick]\n        (axis cs: 0, 200) parabola\n        (axis cs: 100, 760) --\n        (axis cs: 130, 1100);\n\n    \\addplot [ mark=*, color=blue, only marks ] coordinates\n        { \n            (0, 200)\n        };\n\\end{axis}\n\\end{tikzpicture}\n\\caption{Figura do problema 2C05.}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa com o estado de uma amostra de água em cada condição, respectivamente.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Ponto 1: <span class=\"math inline\">\\(1\\,atm\\;\\;\\pu{200 \\degree\nC}\\rightarrow 760\\,tor\\;\\;\\pu{200 \\degree C}\\rightarrow\n\\text{vapor}\\)</span></p>\n<p>Ponto 2: <span class=\"math inline\">\\(100\\,atm\\;\\;\\pu{50 \\degree\nC}\\rightarrow 76000\\,tor\\;\\;\\pu{50 \\degree C}\\rightarrow\n\\text{líquido}\\)</span></p>\n<p>Ponto 3: <span class=\"math inline\">\\(3\\,tor\\;\\;\\pu{10 \\degree\nC}\\rightarrow \\text{vapor}\\)</span></p>\n<p>Ponto 4: <span class=\"math inline\">\\(20\\,tor\\;\\;-\\pu{10 \\degree\nC}\\rightarrow \\text{sólido}\\)</span></p>",
+        "md": "Ponto 1:\n$1\\,atm\\;\\;\\pu{200 \\degree C}\\rightarrow 760\\,tor\\;\\;\\pu{200 \\degree C}\\rightarrow \\text{vapor}$\n\nPonto 2:\n$100\\,atm\\;\\;\\pu{50 \\degree C}\\rightarrow 76000\\,tor\\;\\;\\pu{50 \\degree C}\\rightarrow \\text{líquido}$\n\nPonto 3: $3\\,tor\\;\\;\\pu{10 \\degree C}\\rightarrow \\text{vapor}$\n\nPonto 4: $20\\,tor\\;\\;-\\pu{10 \\degree C}\\rightarrow \\text{sólido}$\n",
+        "tex": "Ponto 1: {\\(1\\,atm\\;\\;\\qty{200}{\\unit{\\degree C}}\\rightarrow 760\\,tor\\;\\;\\qty{200}{\\unit{\\degree C}}\\rightarrow \\text{vapor}\\)}\n\nPonto 2: {\\(100\\,atm\\;\\;\\qty{50}{\\unit{\\degree C}}\\rightarrow 76000\\,tor\\;\\;\\qty{50}{\\unit{\\degree C}}\\rightarrow \\text{líquido}\\)}\n\nPonto 3: {\\(3\\,tor\\;\\;\\qty{10}{\\unit{\\degree C}}\\rightarrow \\text{vapor}\\)}\n\nPonto 4: {\\(20\\,tor\\;\\;-\\qty{10}{\\unit{\\degree C}}\\rightarrow \\text{sólido}\\)}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24694,13 +24738,17 @@
     {
       "id_": "2C04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C04/2C04.md",
-      "date": "2023-01-10T22:41:49.967893",
+      "date": "2023-04-30T01:00:36.416062",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs de vaporização do mercúrio em <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{370 \\degree C}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs de vaporização do mercúrio em $\\pu{1 atm}$ e $\\pu{370 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs de vaporização do mercúrio em {\\(\\qty{1}{\\unit{atm}}\\)} e\n{\\(\\qty{370}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da energia livre: <span class=\"math display\">\\[\\Delta G=\n\\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[\\Delta\nG=59,3\\,kJ\\,mol^{-1}-643\\,K\\cdot94,2\\cdot10^{-3}\\,kJ\\,K^{-1}\\,mol^{-1}\\]</span>\n<span class=\"math display\">\\[\\Delta G=-1,2706\\,kJ\\,mol^{-1}\\]</span></p>",
+        "md": "Cálculo da energia livre: $$\\Delta G=\n\\Delta H - T \\Delta S$$ $$\\Delta\nG=59,3\\,kJ\\,mol^{-1}-643\\,K\\cdot94,2\\cdot10^{-3}\\,kJ\\,K^{-1}\\,mol^{-1}$$\n$$\\Delta G=-1,2706\\,kJ\\,mol^{-1}$$\n",
+        "tex": "Cálculo da energia livre: {\\[\\Delta G=\n\\Delta H - T \\Delta S\\]} {\\[\\Delta\nG=59,3\\,kJ\\,mol^{-1}-643\\,K\\cdot94,2\\cdot10^{-3}\\,kJ\\,K^{-1}\\,mol^{-1}\\]} {\\[\\Delta G=-1,2706\\,kJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24754,13 +24802,17 @@
     {
       "id_": "2C15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C15/2C15.md",
-      "date": "2023-01-11T00:45:25.494004",
+      "date": "2023-04-30T01:03:12.590953",
       "statement": {
         "html": "<p>Considere a reação de produção do ferro a partir da redução da\nmagnetita: <span class=\"math display\">\\[\n    \\ce{ Fe3O4(s) + C(grafita) -&gt; Fe(s) + CO2(g) }\n\\]</span> Suponha que <span class=\"math inline\">\\(\\Delta\nH^\\circ_\\mathrm{r}\\)</span> e <span class=\"math inline\">\\(\\Delta\nS^\\circ_\\mathrm{r}\\)</span> são independentes da temperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da menor\ntemperatura em que a redução da magnetita é espontânea.</p>",
         "md": "Considere a reação de produção do ferro a partir da redução da\nmagnetita: $$\n    \\ce{ Fe3O4(s) + C(grafita) -> Fe(s) + CO2(g) }\n$$ Suponha que $\\Delta H^\\circ_\\mathrm{r}$ e $\\Delta S^\\circ_\\mathrm{r}$\nsão independentes da temperatura.\n\n**Assinale** a alternativa que mais se aproxima da menor temperatura em\nque a redução da magnetita é espontânea.\n",
         "tex": "Considere a reação de produção do ferro a partir da redução da magnetita: {\\[\n    \\ce{ Fe3O4(s) + C(grafita) -> Fe(s) + CO2(g) }\n\\]} Suponha que {\\(\\Delta H^\\circ_\\mathrm{r}\\)} e {\\(\\Delta S^\\circ_\\mathrm{r}\\)} são independentes da temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da menor temperatura em que a redução da magnetita é espontânea.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A reação balanceada é a seguinte: <span class=\"math display\">\\[Fe_{3}O_{4(s)}+2C_{(\\text{grafita})} \\rightarrow\n3Fe_{(s)}+ 2CO_{2(g)} \\]</span> Cálculo da variação de entropia: <span class=\"math display\">\\[\\Delta S=  3S_{Fe}+  2S_{CO_{2}}- 2\\cdot\nS_{C}-S_{Fe_{3}O_{4}}\\]</span> <span class=\"math display\">\\[\\Delta\nS=3\\cdot27,3+2\\cdot214- 2\\cdot 5,74-146\\]</span> <span class=\"math display\">\\[\\Delta S=352,42\\,J\\,mol^{-1}\\]</span> Cálculo da\nvariação de entalpia: <span class=\"math display\">\\[\\Delta H=   2\\Delta\nH_{CO_{2}}-\\Delta H_{Fe_{3}O_{4}}\\]</span> <span class=\"math display\">\\[\\Delta H=2\\cdot(-394) -(-1120)\\]</span> <span class=\"math display\">\\[\\Delta H=332\\,kJ\\,mol^{-1}\\]</span> A temperatura\nmínima é aquela no limite da transição entre o processo não espontâneo e\no espontâneo, ou seja, quando <span class=\"math inline\">\\(\\Delta\nG=0\\)</span>: Cálculo da temperatura: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[0=\\Delta H- T \\Delta S\\]</span> <span class=\"math display\">\\[T= \\frac{\\Delta H}{\\Delta S}\\]</span> <span class=\"math display\">\\[T = \\frac{332000\\,J}{352,42\\,J\\,K^{-1}}=\n942\\,K\\]</span></p>",
+        "md": "A reação balanceada é a seguinte:\n$$Fe_{3}O_{4(s)}+2C_{(\\text{grafita})} \\rightarrow\n3Fe_{(s)}+ 2CO_{2(g)} $$ Cálculo da variação de entropia:\n$$\\Delta S=  3S_{Fe}+  2S_{CO_{2}}- 2\\cdot\nS_{C}-S_{Fe_{3}O_{4}}$$ $$\\Delta\nS=3\\cdot27,3+2\\cdot214- 2\\cdot 5,74-146$$\n$$\\Delta S=352,42\\,J\\,mol^{-1}$$ Cálculo da variação de entalpia:\n$$\\Delta H=   2\\Delta\nH_{CO_{2}}-\\Delta H_{Fe_{3}O_{4}}$$ $$\\Delta H=2\\cdot(-394) -(-1120)$$\n$$\\Delta H=332\\,kJ\\,mol^{-1}$$ A temperatura mínima é aquela no limite\nda transição entre o processo não espontâneo e o espontâneo, ou seja,\nquando $\\Delta G=0$: Cálculo da temperatura:\n$$\\Delta G= \\Delta H - T \\Delta S$$ $$0=\\Delta H- T \\Delta S$$\n$$T= \\frac{\\Delta H}{\\Delta S}$$\n$$T = \\frac{332000\\,J}{352,42\\,J\\,K^{-1}}=\n942\\,K$$\n",
+        "tex": "A reação balanceada é a seguinte: {\\[Fe_{3}O_{4(s)}+2C_{(\\text{grafita})} \\rightarrow\n3Fe_{(s)}+ 2CO_{2(g)} \\]} Cálculo da variação de entropia: {\\[\\Delta S=  3S_{Fe}+  2S_{CO_{2}}- 2\\cdot\nS_{C}-S_{Fe_{3}O_{4}}\\]} {\\[\\Delta\nS=3\\cdot27,3+2\\cdot214- 2\\cdot 5,74-146\\]} {\\[\\Delta S=352,42\\,J\\,mol^{-1}\\]} Cálculo da variação de entalpia: {\\[\\Delta H=   2\\Delta\nH_{CO_{2}}-\\Delta H_{Fe_{3}O_{4}}\\]} {\\[\\Delta H=2\\cdot(-394) -(-1120)\\]} {\\[\\Delta H=332\\,kJ\\,mol^{-1}\\]} A temperatura mínima é aquela no limite da\ntransição entre o processo não espontâneo e o espontâneo, ou seja, quando {\\(\\Delta G=0\\)}: Cálculo da temperatura:\n{\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[0=\\Delta H- T \\Delta S\\]} {\\[T= \\frac{\\Delta H}{\\Delta S}\\]} {\\[T = \\frac{332000\\,J}{352,42\\,J\\,K^{-1}}=\n942\\,K\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24846,13 +24898,17 @@
     {
       "id_": "2C01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C01/2C01.md",
-      "date": "2023-01-10T19:55:22.568917",
+      "date": "2023-04-30T01:12:51.836073",
       "statement": {
         "html": "<p>Considere as proposições para processo em pressão e temperatura\nconstantes.</p>\n<ol type=\"1\">\n<li>Se a variação de entropia é positiva, o\nprocesso será espontâneo.</li>\n<li>Se a variação de entropia é negativa e o\nprocesso não for espontâneo, esse pode tornar-se espontâneo se a\ntemperatura for aumentada.</li>\n<li>Se a variação de entropia é\npositiva e o processo não for espontâneo, esse pode tornar-se espontâneo\nse a temperatura for aumentada.</li>\n<li>Se a variação de entropia é\npositiva e o processo não for espontâneo, então a variação de entalpia é\npositivo.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\ncorretas.</p>",
         "md": "Considere as proposições para processo em pressão e temperatura\nconstantes.\n\n1.  Se a variação de entropia é positiva, o processo será espontâneo.\n2.  Se a variação de entropia é negativa e o processo não for\n    espontâneo, esse pode tornar-se espontâneo se a temperatura for\n    aumentada.\n3.  Se a variação de entropia é positiva e o processo não for\n    espontâneo, esse pode tornar-se espontâneo se a temperatura for\n    aumentada.\n4.  Se a variação de entropia é positiva e o processo não for\n    espontâneo, então a variação de entalpia é positivo.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
         "tex": "Considere as proposições para processo em pressão e temperatura constantes.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Se a variação de entropia é positiva, o processo será espontâneo.\n\\item\n  Se a variação de entropia é negativa e o processo não for espontâneo, esse pode tornar-se espontâneo se a temperatura for aumentada.\n\\item\n  Se a variação de entropia é positiva e o processo não for espontâneo, esse pode tornar-se espontâneo se a temperatura for aumentada.\n\\item\n  Se a variação de entropia é positiva e o processo não for espontâneo, então a variação de entalpia é positivo.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Para medir a espontaneidade de uma reação, basta olhar para o <span class=\"math inline\">\\(\\Delta G\\)</span></p>\n<ol type=\"1\">\n<li><strong>Incorreta</strong>. Podemos ter uma reação não espontanea\nbasta o <span class=\"math inline\">\\(\\Delta H\\)</span> ser maior que\n<span class=\"math inline\">\\(-T \\Delta S\\)</span> : <span class=\"math display\">\\[\\underbrace{\\Delta\nG}_{\\Large+}=\\underbrace{\\Delta H}_{\\text{\\huge+}}\\underbrace{-T \\Delta\nS}_{-}\\]</span></li>\n<li><strong>Incorreta</strong>. Se variação de entropia é negativa,\n<span class=\"math inline\">\\(-T \\Delta S\\)</span> será positivo e\naumentar a temperatura, apenas o tornará mais positivo, então não irá\nfavorecer para que a reação se torne espontânea.</li>\n<li><strong>Correta</strong>. Se variação de entropia é positiva, <span class=\"math inline\">\\(-T \\Delta S\\)</span> será negativo e aumentar a\ntemperatura, o tornará mais negativo, então irá favorecer para que a\nreação se torne espontânea: <span class=\"math display\">\\[\\underbrace{\\Delta G}_{+}=\\underbrace{\\Delta\nH}_{\\text{\\Large+}}\\underbrace{-T \\Delta S}_{-}\\rightarrow\n\\underbrace{\\Delta G}_{\\Large-}=\\underbrace{\\Delta\nH}_{\\text{\\Large+}}\\underbrace{-\\uparrow T \\Delta\nS}_{\\huge-}\\]</span></li>\n<li><strong>Correta</strong>. Se variação de entropia é positiva, <span class=\"math inline\">\\(-T \\Delta S\\)</span> será negativo então dado que\na reação é não espontânea, a variação de entalpia terá de ser positiva\npara compensar: <span class=\"math display\">\\[\\underbrace{\\Delta\nG}_{\\Large+}=\\underbrace{\\Delta H}_{\\text{\\huge+}}\\underbrace{-T \\Delta\nS}_{-}\\]</span></li>\n</ol>",
+        "md": "Para medir a espontaneidade de uma reação, basta olhar para o $\\Delta G$\n\n1.  **Incorreta**. Podemos ter uma reação não espontanea basta o\n    $\\Delta H$ ser maior que $-T \\Delta S$ : $$\\underbrace{\\Delta\n    G}_{\\Large+}=\\underbrace{\\Delta H}_{\\text{\\huge+}}\\underbrace{-T \\Delta\n    S}_{-}$$\n2.  **Incorreta**. Se variação de entropia é negativa, $-T \\Delta S$\n    será positivo e aumentar a temperatura, apenas o tornará mais\n    positivo, então não irá favorecer para que a reação se torne\n    espontânea.\n3.  **Correta**. Se variação de entropia é positiva, $-T \\Delta S$ será\n    negativo e aumentar a temperatura, o tornará mais negativo, então\n    irá favorecer para que a reação se torne espontânea:\n    $$\\underbrace{\\Delta G}_{+}=\\underbrace{\\Delta\n    H}_{\\text{\\Large+}}\\underbrace{-T \\Delta S}_{-}\\rightarrow\n    \\underbrace{\\Delta G}_{\\Large-}=\\underbrace{\\Delta\n    H}_{\\text{\\Large+}}\\underbrace{-\\uparrow T \\Delta\n    S}_{\\huge-}$$\n4.  **Correta**. Se variação de entropia é positiva, $-T \\Delta S$ será\n    negativo então dado que a reação é não espontânea, a variação de\n    entalpia terá de ser positiva para compensar: $$\\underbrace{\\Delta\n    G}_{\\Large+}=\\underbrace{\\Delta H}_{\\text{\\huge+}}\\underbrace{-T \\Delta\n    S}_{-}$$\n",
+        "tex": "Para medir a espontaneidade de uma reação, basta olhar para o {\\(\\Delta G\\)}\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Incorreta}. Podemos ter uma reação não espontanea basta o {\\(\\Delta H\\)} ser maior que {\\(-T \\Delta S\\)} : {\\[\\underbrace{\\Delta\n  G}_{\\Large+}=\\underbrace{\\Delta H}_{\\text{\\huge+}}\\underbrace{-T \\Delta\n  S}_{-}\\]}\n\\item\n  \\textbf{Incorreta}. Se variação de entropia é negativa, {\\(-T \\Delta S\\)} será positivo e aumentar a temperatura, apenas o tornará mais positivo,\n  então não irá favorecer para que a reação se torne espontânea.\n\\item\n  \\textbf{Correta}. Se variação de entropia é positiva, {\\(-T \\Delta S\\)} será negativo e aumentar a temperatura, o tornará mais negativo, então irá\n  favorecer para que a reação se torne espontânea: {\\[\\underbrace{\\Delta G}_{+}=\\underbrace{\\Delta\n  H}_{\\text{\\Large+}}\\underbrace{-T \\Delta S}_{-}\\rightarrow\n  \\underbrace{\\Delta G}_{\\Large-}=\\underbrace{\\Delta\n  H}_{\\text{\\Large+}}\\underbrace{-\\uparrow T \\Delta\n  S}_{\\huge-}\\]}\n\\item\n  \\textbf{Correta}. Se variação de entropia é positiva, {\\(-T \\Delta S\\)} será negativo então dado que a reação é não espontânea, a variação de\n  entalpia terá de ser positiva para compensar: {\\[\\underbrace{\\Delta\n  G}_{\\Large+}=\\underbrace{\\Delta H}_{\\text{\\huge+}}\\underbrace{-T \\Delta\n  S}_{-}\\]}\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24887,13 +24943,17 @@
     {
       "id_": "2C10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C10/2C10.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-04-30T01:02:18.065251",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão de formação do ciclipropano gasoso em\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão de formação do ciclipropano gasoso em $\\pu{25 \\degree C}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão de formação do ciclipropano gasoso em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão de formação do ciclopropano gasoso em\n<span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão de formação do ciclopropano gasoso em $\\pu{25 \\degree C}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão de formação do ciclopropano gasoso em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A reação será a seguinte: <span class=\"math display\">\\[3C_{(s)}+\n3H_{2(g)}\\rightarrow C_3H_{6(g)}\\]</span> Cálculo da variação de\nentropia: <span class=\"math display\">\\[\\Delta S= S_{C_3H_{6}}- {3}\\cdot\nS_{C}- 3\\cdot S_{H_{2}}\\]</span> <span class=\"math display\">\\[\\Delta\nS=237- 3\\cdot5,74- 3\\cdot 131\\]</span> <span class=\"math display\">\\[\\Delta S=-173,22\\,J\\,mol^{-1}\\]</span> Cálculo da\nenergia livre: <span class=\"math display\">\\[\\Delta G= \\Delta H - T\n\\Delta S\\]</span> <span class=\"math display\">\\[\\Delta\nG=53,3\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(-173,22\\,kJ\\,K^{-1}\\,mol^{-1})\\]</span> <span class=\"math display\">\\[\\Delta G=104,92\\,kJ\\,mol^{-1}\\]</span></p>",
+        "md": "A reação será a seguinte: $$3C_{(s)}+\n3H_{2(g)}\\rightarrow C_3H_{6(g)}$$ Cálculo da variação de entropia:\n$$\\Delta S= S_{C_3H_{6}}- {3}\\cdot\nS_{C}- 3\\cdot S_{H_{2}}$$ $$\\Delta\nS=237- 3\\cdot5,74- 3\\cdot 131$$ $$\\Delta S=-173,22\\,J\\,mol^{-1}$$\nCálculo da energia livre: $$\\Delta G= \\Delta H - T\n\\Delta S$$ $$\\Delta\nG=53,3\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(-173,22\\,kJ\\,K^{-1}\\,mol^{-1})$$\n$$\\Delta G=104,92\\,kJ\\,mol^{-1}$$\n",
+        "tex": "A reação será a seguinte: {\\[3C_{(s)}+\n3H_{2(g)}\\rightarrow C_3H_{6(g)}\\]} Cálculo da variação de entropia: {\\[\\Delta S= S_{C_3H_{6}}- {3}\\cdot\nS_{C}- 3\\cdot S_{H_{2}}\\]} {\\[\\Delta\nS=237- 3\\cdot5,74- 3\\cdot 131\\]} {\\[\\Delta S=-173,22\\,J\\,mol^{-1}\\]} Cálculo da energia livre: {\\[\\Delta G= \\Delta H - T\n\\Delta S\\]} {\\[\\Delta\nG=53,3\\,kJ\\,mol^{-1}-\n\\frac{298\\,K}{1000}\\cdot(-173,22\\,kJ\\,K^{-1}\\,mol^{-1})\\]} {\\[\\Delta G=104,92\\,kJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24963,13 +25023,17 @@
     {
       "id_": "2C12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C12/2C12.md",
-      "date": "2023-01-10T20:09:18.413015",
+      "date": "2023-04-30T01:02:48.067889",
       "statement": {
         "html": "<p>A fotossíntese pode ser descrita pela reação química: <span class=\"math display\">\\[\n    \\ce{ 6 CO2(g) + 6 H2O(l) -&gt; C6H12O6(s) + 6 O2(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs padrão da fotossíntese de <span class=\"math inline\">\\(\\pu{1 mol}\\)</span> de glicose em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "A fotossíntese pode ser descrita pela reação química: $$\n    \\ce{ 6 CO2(g) + 6 H2O(l) -> C6H12O6(s) + 6 O2(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs padrão da fotossíntese de $\\pu{1 mol}$ de glicose em\n$\\pu{25 \\degree C}$.\n",
         "tex": "A fotossíntese pode ser descrita pela reação química: {\\[\n    \\ce{ 6 CO2(g) + 6 H2O(l) -> C6H12O6(s) + 6 O2(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs padrão da fotossíntese de {\\(\\qty{1}{\\unit{mol}}\\)} de glicose em\n{\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da energia livre: <span class=\"math display\">\\[\\Delta G=\n\\Delta G_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}\\]</span> <span class=\"math display\">\\[\\Delta G=\\Delta G_{C_{6}H_{12}O_{6}}-6\\cdot\n\\Delta G_{CO_{2}}-6\\cdot \\Delta G_{H_{2}O}\\]</span> <span class=\"math display\">\\[\\Delta G=-910-6\\cdot(-394)-6\\cdot(-237)\\]</span>\n<span class=\"math display\">\\[\\Delta G=2,876\\,MJ\\,mol^{-1}\\]</span></p>",
+        "md": "Cálculo da energia livre: $$\\Delta G=\n\\Delta G_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}$$\n$$\\Delta G=\\Delta G_{C_{6}H_{12}O_{6}}-6\\cdot\n\\Delta G_{CO_{2}}-6\\cdot \\Delta G_{H_{2}O}$$\n$$\\Delta G=-910-6\\cdot(-394)-6\\cdot(-237)$$\n$$\\Delta G=2,876\\,MJ\\,mol^{-1}$$\n",
+        "tex": "Cálculo da energia livre: {\\[\\Delta G=\n\\Delta G_{\\text{Produtos}}- \\Delta G_{\\text{Reagentes}}\\]} {\\[\\Delta G=\\Delta G_{C_{6}H_{12}O_{6}}-6\\cdot\n\\Delta G_{CO_{2}}-6\\cdot \\Delta G_{H_{2}O}\\]} {\\[\\Delta G=-910-6\\cdot(-394)-6\\cdot(-237)\\]} {\\[\\Delta G=2,876\\,MJ\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -25031,13 +25095,17 @@
     {
       "id_": "2C22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C22/2C22.md",
-      "date": "2023-01-11T00:05:27.946550",
+      "date": "2023-04-30T01:06:36.119681",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li>Ciclopropano, <span class=\"math inline\">\\(\\ce{C3H6}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{CaO}\\)</span> sólido.</li>\n<li><span class=\"math inline\">\\(\\ce{N2O}\\)</span> gasoso.</li>\n<li><span class=\"math inline\">\\(\\ce{HN3}\\)</span> gasoso.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos\nque tornam-se menos estáveis em relação aos elementos quando a\ntemperatura aumenta.</p>",
         "md": "Considere os compostos.\n\n1.  Ciclopropano, $\\ce{C3H6}$ gasoso.\n2.  $\\ce{CaO}$ sólido.\n3.  $\\ce{N2O}$ gasoso.\n4.  $\\ce{HN3}$ gasoso.\n\n**Assinale** a alternativa que relaciona os compostos que tornam-se\nmenos estáveis em relação aos elementos quando a temperatura aumenta.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ciclopropano, {\\(\\ce{C3H6}\\)} gasoso.\n\\item\n  {\\(\\ce{CaO}\\)} sólido.\n\\item\n  {\\(\\ce{N2O}\\)} gasoso.\n\\item\n  {\\(\\ce{HN3}\\)} gasoso.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos que tornam-se menos estáveis em relação aos elementos quando a temperatura aumenta.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Para medir a estabilidade, basta observar o <span class=\"math inline\">\\(\\Delta G\\)</span> e para medir a variação dessa\nestabilidade com a temperatura, devemos olhar para o termo que acompanha\na temperatura, ou seja o <span class=\"math inline\">\\(\\Delta S\\)</span>\n<span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> Se\n<span class=\"math inline\">\\(\\Delta S&gt;0\\)</span> o aumento de\ntemperatura torna <span class=\"math inline\">\\(\\Delta G\\)</span> cada vez\nmais negativo ou seja fica mais estável Se <span class=\"math inline\">\\(\\Delta S&lt;0\\)</span> , ocorre justamente o\ncontrário, o aumento da temperatura o torna menos estável</p>\n<ol type=\"1\">\n<li><p><span class=\"math display\">\\[3C_{(s)}+ {3}H_{2(g)}\\rightarrow\nC_3H_{6(g)}\\]</span> <span class=\"math display\">\\[\\Delta\nn_{\\text{gás}}&lt;0\\therefore \\Delta S&lt;0\\therefore \\text{menos\nestável}\\]</span></p></li>\n<li><p><span class=\"math display\">\\[\\frac{1}{2}O_{2(g)}+Ca_{(s)}\\rightarrow\nCaO_{(s)}\\]</span> <span class=\"math display\">\\[\\Delta\nn_{\\text{gás}}&lt;0\\therefore \\Delta S&lt;0\\therefore \\text{menos\nestável}\\]</span></p></li>\n<li><p><span class=\"math display\">\\[\\frac{1}{2}O_{2(g)}+\nN_{2(g)}\\rightarrow N_2O_{(g)}\\]</span> <span class=\"math display\">\\[\\Delta n_{\\text{gás}}&lt;0\\therefore \\Delta\nS&lt;0\\therefore \\text{menos estável}\\]</span></p></li>\n<li><p><span class=\"math display\">\\[\\frac{1}{2}H_{2(g)}+\n\\frac{3}{2}N_{2(g)}\\rightarrow HN_{3(g)}\\]</span> <span class=\"math display\">\\[\\Delta n_{\\text{gás}}&lt;0\\therefore \\Delta\nS&lt;0\\therefore \\text{menos estável}\\]</span></p></li>\n</ol>",
+        "md": "Para medir a estabilidade, basta observar o $\\Delta G$ e para medir a\nvariação dessa estabilidade com a temperatura, devemos olhar para o\ntermo que acompanha a temperatura, ou seja o $\\Delta S$\n$$\\Delta G= \\Delta H - T \\Delta S$$ Se $\\Delta S>0$ o aumento de\ntemperatura torna $\\Delta G$ cada vez mais negativo ou seja fica mais\nestável Se $\\Delta S<0$ , ocorre justamente o contrário, o aumento da\ntemperatura o torna menos estável\n\n1.  $$3C_{(s)}+ {3}H_{2(g)}\\rightarrow\n    C_3H_{6(g)}$$ $$\\Delta\n    n_{\\text{gás}}<0\\therefore \\Delta S<0\\therefore \\text{menos\n    estável}$$\n\n2.  $$\\frac{1}{2}O_{2(g)}+Ca_{(s)}\\rightarrow\n    CaO_{(s)}$$ $$\\Delta\n    n_{\\text{gás}}<0\\therefore \\Delta S<0\\therefore \\text{menos\n    estável}$$\n\n3.  $$\\frac{1}{2}O_{2(g)}+\n    N_{2(g)}\\rightarrow N_2O_{(g)}$$\n    $$\\Delta n_{\\text{gás}}<0\\therefore \\Delta\n    S<0\\therefore \\text{menos estável}$$\n\n4.  $$\\frac{1}{2}H_{2(g)}+\n    \\frac{3}{2}N_{2(g)}\\rightarrow HN_{3(g)}$$\n    $$\\Delta n_{\\text{gás}}<0\\therefore \\Delta\n    S<0\\therefore \\text{menos estável}$$\n",
+        "tex": "Para medir a estabilidade, basta observar o {\\(\\Delta G\\)} e para medir a variação dessa estabilidade com a temperatura, devemos olhar para o termo\nque acompanha a temperatura, ou seja o {\\(\\Delta S\\)} {\\[\\Delta G= \\Delta H - T \\Delta S\\]} Se {\\(\\Delta S>0\\)} o aumento de temperatura torna\n{\\(\\Delta G\\)} cada vez mais negativo ou seja fica mais estável Se {\\(\\Delta S<0\\)} , ocorre justamente o contrário, o aumento da temperatura o torna\nmenos estável\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\item\n  {\\[3C_{(s)}+ {3}H_{2(g)}\\rightarrow\n  C_3H_{6(g)}\\]} {\\[\\Delta\n  n_{\\text{gás}}<0\\therefore \\Delta S<0\\therefore \\text{menos\n  estável}\\]}\n\\item\n  {\\[\\frac{1}{2}O_{2(g)}+Ca_{(s)}\\rightarrow\n  CaO_{(s)}\\]} {\\[\\Delta\n  n_{\\text{gás}}<0\\therefore \\Delta S<0\\therefore \\text{menos\n  estável}\\]}\n\\item\n  {\\[\\frac{1}{2}O_{2(g)}+\n  N_{2(g)}\\rightarrow N_2O_{(g)}\\]} {\\[\\Delta n_{\\text{gás}}<0\\therefore \\Delta\n  S<0\\therefore \\text{menos estável}\\]}\n\\item\n  {\\[\\frac{1}{2}H_{2(g)}+\n  \\frac{3}{2}N_{2(g)}\\rightarrow HN_{3(g)}\\]} {\\[\\Delta n_{\\text{gás}}<0\\therefore \\Delta\n  S<0\\therefore \\text{menos estável}\\]}\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25072,13 +25140,17 @@
     {
       "id_": "2C03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C03/2C03.md",
-      "date": "2023-03-09T12:55:50.812100",
+      "date": "2023-04-30T01:00:29.996628",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nenergia livre de Gibbs de vaporização da água em <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{95 \\degree C}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da energia livre de\nGibbs de vaporização da água em $\\pu{1 atm}$ e $\\pu{95 \\degree C}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da energia livre de Gibbs de vaporização da água em {\\(\\qty{1}{\\unit{atm}}\\)} e\n{\\(\\qty{95}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da energia livre: <span class=\"math display\">\\[\\Delta G=\n\\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[\\Delta\nG=40700\\,J\\,mol^{-1}-368\\,K\\cdot109\\,J\\,K^{-1}\\,mol^{-1}\\]</span> <span class=\"math display\">\\[\\Delta G=588\\,J\\,mol^{-1}\\]</span></p>",
+        "md": "Cálculo da energia livre: $$\\Delta G=\n\\Delta H - T \\Delta S$$ $$\\Delta\nG=40700\\,J\\,mol^{-1}-368\\,K\\cdot109\\,J\\,K^{-1}\\,mol^{-1}$$\n$$\\Delta G=588\\,J\\,mol^{-1}$$\n",
+        "tex": "Cálculo da energia livre: {\\[\\Delta G=\n\\Delta H - T \\Delta S\\]} {\\[\\Delta\nG=40700\\,J\\,mol^{-1}-368\\,K\\cdot109\\,J\\,K^{-1}\\,mol^{-1}\\]} {\\[\\Delta G=588\\,J\\,mol^{-1}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -25132,13 +25204,17 @@
     {
       "id_": "2C06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C06/2C06.md",
-      "date": "2023-02-06T03:50:07.293079",
+      "date": "2023-04-30T01:00:58.926218",
       "statement": {
         "html": "<p>Considere as condição para uma amostra de dióxido de carbono, <span class=\"math inline\">\\(\\ce{CO2}\\)</span>: <span class=\"math inline\">\\(\\pu{6 atm}\\)</span>, <span class=\"math inline\">\\(\\pu{-80 \\degree C}\\)</span>; <span class=\"math inline\">\\(\\pu{1 atm}\\)</span>, <span class=\"math inline\">\\(\\pu{-56 \\degree C}\\)</span>; <span class=\"math inline\">\\(\\pu{80 atm}\\)</span>, <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>; <span class=\"math inline\">\\(\\pu{5,1 atm}\\)</span>, <span class=\"math inline\">\\(\\pu{-56 \\degree C}\\)</span>.</p>\n<figure>\n<img alt=\"Figura do problema 2C06.\" src=\"2C06-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2C06.</figcaption>\n</figure>\n<p><strong>Assinale</strong> a alternativa com o estado de uma amostra\nde dióxido de carbono em cada condição, respectivamente.</p>",
         "md": "Considere as condição para uma amostra de dióxido de carbono,\n$\\ce{CO2}$: $\\pu{6 atm}$, $\\pu{-80 \\degree C}$; $\\pu{1 atm}$,\n$\\pu{-56 \\degree C}$; $\\pu{80 atm}$, $\\pu{25 \\degree C}$;\n$\\pu{5,1 atm}$, $\\pu{-56 \\degree C}$.\n\n![Figura do problema 2C06.](2C06-1P.svg)\n\n**Assinale** a alternativa com o estado de uma amostra de dióxido de\ncarbono em cada condição, respectivamente.\n",
         "tex": "Considere as condição para uma amostra de dióxido de carbono, {\\(\\ce{CO2}\\)}: {\\(\\qty{6}{\\unit{atm}}\\)}, {\\(\\qty{-80}{\\unit{\\degree C}}\\)};\n{\\(\\qty{1}{\\unit{atm}}\\)}, {\\(\\qty{-56}{\\unit{\\degree C}}\\)}; {\\(\\qty{80}{\\unit{atm}}\\)}, {\\(\\qty{25}{\\unit{\\degree C}}\\)};\n{\\(\\qty{5,1}{\\unit{atm}}\\)}, {\\(\\qty{-56}{\\unit{\\degree C}}\\)}.\n\n\\begin{figure}\n\\centering\n\\begin{tikzpicture}\n\\begin{axis}\n    [\n        grid = major,\n        ylabel = {Pressão, $P/\\unit{atm}$},\n        xlabel = {Temperatura, $T/\\unit{\\degree C}$},\n        ymin=0, ymax=90,\n        xmin=-80\n        , xmax=60,\n        ytick = { 15, 73 },\n        yticklabels = { \\num{5.1}, \\num{73} },\n        xtick = { -56, 31 },\n    ]       \n    \\draw [draw=blue, very thick]\n        (axis cs: -100, 2) parabola \n        (axis cs: -56, 15);\n    \\draw [draw=blue, very thick]\n        (axis cs: -56, 15) parabola \n        (axis cs: 31, 73);\n    \\draw [draw=blue, very thick]\n        (axis cs: -56, 15) -- \n        (axis cs: -45, 90);\n    \n    \\addplot [ mark=*, color=blue, only marks ] coordinates\n        { \n            (-56, 15)\n            (31, 73)\n        };\n\\end{axis}\n\\end{tikzpicture}\n\\caption{Figura do problema 2C06.}\n\\end{figure}\n\n\\textbf{Assinale} a alternativa com o estado de uma amostra de dióxido de carbono em cada condição, respectivamente.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Ponto 1: <span class=\"math inline\">\\(6\\,atm\\;\\;-80°C\\rightarrow\n\\text{sólido}\\)</span></p>\n<p>Ponto 2: <span class=\"math inline\">\\(1\\,atm\\;\\;-56°C\\rightarrow\n\\text{vapor}\\)</span></p>\n<p>Ponto 3: <span class=\"math inline\">\\(80\\,atm\\;\\;25°C\\rightarrow\n\\text{líquido}\\)</span></p>\n<p>Ponto 4: <span class=\"math inline\">\\(5,1\\,atm\\;\\;-56°C\\rightarrow\n\\text{equilíbrio de fases}\\)</span></p>",
+        "md": "Ponto 1: $6\\,atm\\;\\;-80°C\\rightarrow \\text{sólido}$\n\nPonto 2: $1\\,atm\\;\\;-56°C\\rightarrow \\text{vapor}$\n\nPonto 3: $80\\,atm\\;\\;25°C\\rightarrow \\text{líquido}$\n\nPonto 4: $5,1\\,atm\\;\\;-56°C\\rightarrow \\text{equilíbrio de fases}$\n",
+        "tex": "Ponto 1: {\\(6\\,atm\\;\\;-80°C\\rightarrow \\text{sólido}\\)}\n\nPonto 2: {\\(1\\,atm\\;\\;-56°C\\rightarrow \\text{vapor}\\)}\n\nPonto 3: {\\(80\\,atm\\;\\;25°C\\rightarrow \\text{líquido}\\)}\n\nPonto 4: {\\(5,1\\,atm\\;\\;-56°C\\rightarrow \\text{equilíbrio de fases}\\)}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25173,13 +25249,17 @@
     {
       "id_": "2C07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C07/2C07.md",
-      "date": "2023-03-11T15:50:30.071571",
+      "date": "2023-04-30T01:01:28.976073",
       "statement": {
         "html": "<p>Considere diagrama de fases do hélio:</p>\n<figure>\n<img alt=\"Figura do problema 2C07.\" src=\"2C07-1P.svg\"/>\n<figcaption aria-hidden=\"true\">Figura do problema 2C07.</figcaption>\n</figure>\n<p>e as seguintes proposições.</p>\n<ol type=\"1\">\n<li>A temperatura máxima na qual o\nsuperfluido hélio-II pode existir é cerca de <span class=\"math inline\">\\(\\pu{2,7 K}\\)</span>.</li>\n<li>A pressão mínima na qual o hélio\nsólido pode existir é cerca de <span class=\"math inline\">\\(\\pu{10\natm}\\)</span>.</li>\n<li>O líquido hélio-I é mais denso\nque o hélio-II.</li>\n<li>O hélio sólido pode sublimar.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\n<em>corretas</em>.</p>",
         "md": "Considere diagrama de fases do hélio:\n\n![Figura do problema 2C07.](2C07-1P.svg)\n\ne as seguintes proposições.\n\n1.  A temperatura máxima na qual o superfluido hélio-II pode existir é\n    cerca de $\\pu{2,7 K}$.\n2.  A pressão mínima na qual o hélio sólido pode existir é cerca de\n    $\\pu{10 atm}$.\n3.  O líquido hélio-I é mais denso que o hélio-II.\n4.  O hélio sólido pode sublimar.\n\n**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
         "tex": "Considere diagrama de fases do hélio:\n\n\\begin{figure}\n\\centering\n\\begin{tikzpicture}\n\\begin{semilogyaxis}\n    [\n        grid = major,\n        minor tick style={draw=none},\n        ylabel = {Pressão, $P/\\unit{atm}$},\n        xlabel = {Temperatura, $T/\\unit{K}$},\n        ymin=0.003, ymax=100,\n        xmin=1, xmax=6,\n    ]       \n    \\draw [draw=blue, very thick]\n        (axis cs: 6, 1) parabola \n        (axis cs: 0.8, 0.003);\n    \\draw [draw=blue, very thick]\n        (axis cs: 1, 10) parabola \n        (axis cs: 4, 100);\n\n    \\addplot [ mark=*, color=blue, very thick ] coordinates\n        { \n            (2.7, 0.1) \n            (2, 13) \n        };\n\n    \\node [anchor = center] at (axis cs: 2, 40) \n        { Sólido };\n    \\node [anchor = center] at (axis cs: 4.5, 0.03) \n        { Gás };\n    \\node [anchor = north, align = center] at (axis cs: 4, 10) \n        { Líquido \\\\ (Hélio-I) };\n    \\node [anchor = north, align = center] at (axis cs: 1.7, 0.8) \n        { Líquido \\\\ (Hélio-II) };\n\\end{semilogyaxis}\n\\end{tikzpicture}\n\\caption{Figura do problema 2C07.}\n\\end{figure}\n\ne as seguintes proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  A temperatura máxima na qual o superfluido hélio-II pode existir é cerca de {\\(\\qty{2,7}{\\unit{K}}\\)}.\n\\item\n  A pressão mínima na qual o hélio sólido pode existir é cerca de {\\(\\qty{10}{\\unit{atm}}\\)}.\n\\item\n  O líquido hélio-I é mais denso que o hélio-II.\n\\item\n  O hélio sólido pode sublimar.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições \\emph{corretas}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><strong>Correta</strong>. Basta observar o ponto de equilíbrio de\nfases existente à pressão de <span class=\"math inline\">\\(10^{-1}\\,atm\\)</span> que ocorre a uma temperatura\naproximadamente igual a <span class=\"math inline\">\\(2,7\\,K\\)</span></li>\n<li><strong>Correta</strong>. A curva de equilíbrio entre o estado\nsólido e líquido tangencia a pressão de <span class=\"math inline\">\\(10^{1}\\,atm\\)</span></li>\n<li><strong>Correta</strong>. Para verificar densidade basta fazer a\nseguinte relação: <span class=\"math display\">\\[\\underbrace{\\frac{\\Delta\nP}{\\Delta T}}_{\\text{coeficiente angular}}= \\frac{\\Delta S}{\\Delta\nV}\\]</span> Olhando para a curva que divide os dois líquidos, vemos que\nela é decrescente, então seu coeficiente angular será negativo,\nportanto: <span class=\"math display\">\\[\\frac{\\Delta S}{\\Delta\nV}&lt;0\\therefore \\frac{S_{II}-S_{I}}{V_{II}-V_{I}}&lt;0\\]</span> Como o\nlíquido I existe a uma maior temperatura, naturalmente ele irá possuir\nmaior entropia, portanto <span class=\"math inline\">\\(S_{II}-S_{I}&lt;0\\)</span> , portanto: <span class=\"math display\">\\[V_{II}-V_{I}&gt;0\\therefore\nV_{II}&gt;V_{I}\\]</span> <span class=\"math display\">\\[\n\\frac{1}{V_{II}}&lt; \\frac{1}{V_{I}}\\therefore \\frac{m}{V_{II}}&lt;\n\\frac{m}{V_{I}}\\therefore \\mu_{II}&lt;\\mu_I\\]</span></li>\n<li><strong>Incorreta</strong>. Não existe interseção entre a curva de\nequilíbrio líquido-sólido com a de equilíbrio líquido-gasoso</li>\n</ol>",
+        "md": "1.  **Correta**. Basta observar o ponto de equilíbrio de fases existente\n    à pressão de $10^{-1}\\,atm$ que ocorre a uma temperatura\n    aproximadamente igual a $2,7\\,K$\n2.  **Correta**. A curva de equilíbrio entre o estado sólido e líquido\n    tangencia a pressão de $10^{1}\\,atm$\n3.  **Correta**. Para verificar densidade basta fazer a seguinte\n    relação: $$\\underbrace{\\frac{\\Delta\n    P}{\\Delta T}}_{\\text{coeficiente angular}}= \\frac{\\Delta S}{\\Delta\n    V}$$ Olhando para a curva que divide os dois líquidos, vemos que ela\n    é decrescente, então seu coeficiente angular será negativo,\n    portanto: $$\\frac{\\Delta S}{\\Delta\n    V}<0\\therefore \\frac{S_{II}-S_{I}}{V_{II}-V_{I}}<0$$ Como o líquido\n    I existe a uma maior temperatura, naturalmente ele irá possuir maior\n    entropia, portanto $S_{II}-S_{I}<0$ , portanto:\n    $$V_{II}-V_{I}>0\\therefore\n    V_{II}>V_{I}$$ $$\n    \\frac{1}{V_{II}}< \\frac{1}{V_{I}}\\therefore \\frac{m}{V_{II}}<\n    \\frac{m}{V_{I}}\\therefore \\mu_{II}<\\mu_I$$\n4.  **Incorreta**. Não existe interseção entre a curva de equilíbrio\n    líquido-sólido com a de equilíbrio líquido-gasoso\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Correta}. Basta observar o ponto de equilíbrio de fases existente à pressão de {\\(10^{-1}\\,atm\\)} que ocorre a uma temperatura\n  aproximadamente igual a {\\(2,7\\,K\\)}\n\\item\n  \\textbf{Correta}. A curva de equilíbrio entre o estado sólido e líquido tangencia a pressão de {\\(10^{1}\\,atm\\)}\n\\item\n  \\textbf{Correta}. Para verificar densidade basta fazer a seguinte relação: {\\[\\underbrace{\\frac{\\Delta\n  P}{\\Delta T}}_{\\text{coeficiente angular}}= \\frac{\\Delta S}{\\Delta\n  V}\\]} Olhando para a curva que divide os dois líquidos, vemos que ela é decrescente, então seu coeficiente angular será negativo, portanto:\n  {\\[\\frac{\\Delta S}{\\Delta\n  V}<0\\therefore \\frac{S_{II}-S_{I}}{V_{II}-V_{I}}<0\\]} Como o líquido I existe a uma maior temperatura, naturalmente ele irá possuir maior entropia,\n  portanto {\\(S_{II}-S_{I}<0\\)} , portanto: {\\[V_{II}-V_{I}>0\\therefore\n  V_{II}>V_{I}\\]} {\\[\n  \\frac{1}{V_{II}}< \\frac{1}{V_{I}}\\therefore \\frac{m}{V_{II}}<\n  \\frac{m}{V_{I}}\\therefore \\mu_{II}<\\mu_I\\]}\n\\item\n  \\textbf{Incorreta}. Não existe interseção entre a curva de equilíbrio líquido-sólido com a de equilíbrio líquido-gasoso\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25214,13 +25294,17 @@
     {
       "id_": "2C02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C02/2C02.md",
-      "date": "2023-01-10T20:17:50.064073",
+      "date": "2023-04-30T01:00:19.933553",
       "statement": {
         "html": "<p>Considere as proposições.</p>\n<ol type=\"1\">\n<li>Reações cujas energias livres de Gibbs de\nreação são negativas ocorrem espontânea e rapidamente.</li>\n<li>Todas as amostras de um elemento puro,\nindependentemente de seu estado físico, têm energia livre de Gibbs de\nformação nula.</li>\n<li>Uma reação exotérmica que produz mais mols\nde gás do que consome tem energia livre de Gibbs padrão de reação\npositivo.</li>\n<li>Uma reação exergônica ocorrendo\nem pressão e temperatura constantes é espontânea.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as proposições\ncorretas.</p>",
         "md": "Considere as proposições.\n\n1.  Reações cujas energias livres de Gibbs de reação são negativas\n    ocorrem espontânea e rapidamente.\n2.  Todas as amostras de um elemento puro, independentemente de seu\n    estado físico, têm energia livre de Gibbs de formação nula.\n3.  Uma reação exotérmica que produz mais mols de gás do que consome tem\n    energia livre de Gibbs padrão de reação positivo.\n4.  Uma reação exergônica ocorrendo em pressão e temperatura constantes\n    é espontânea.\n\n**Assinale** a alternativa que relaciona as proposições corretas.\n",
         "tex": "Considere as proposições.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Reações cujas energias livres de Gibbs de reação são negativas ocorrem espontânea e rapidamente.\n\\item\n  Todas as amostras de um elemento puro, independentemente de seu estado físico, têm energia livre de Gibbs de formação nula.\n\\item\n  Uma reação exotérmica que produz mais mols de gás do que consome tem energia livre de Gibbs padrão de reação positivo.\n\\item\n  Uma reação exergônica ocorrendo em pressão e temperatura constantes é espontânea.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as proposições corretas.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><strong>Incorreta</strong>. A energia livre de Gibbs não mede a\ncinética de uma reação para poder prever sua rapidez</li>\n<li><strong>Incorreta</strong>. A energia livre irá depender do estado\nfísico</li>\n<li><strong>Incorreta</strong>. Produz mais mols de gás do que consome\nimplica em <span class=\"math inline\">\\(\\Delta S&gt;0\\)</span> e a reação\né exotérmica portanto <span class=\"math inline\">\\(\\Delta H&lt;0\\)</span>\n, substituindo na equação da energia livre: <span class=\"math display\">\\[\\underbrace{\\Delta\nG}_{\\Large-}=\\underbrace{\\Delta H}_{-}\\underbrace{-T \\Delta\nS}_{-}\\]</span></li>\n<li><strong>Correta</strong>. Reações exergônicas apresentam <span class=\"math inline\">\\(\\Delta G&lt;0\\)</span></li>\n</ol>",
+        "md": "1.  **Incorreta**. A energia livre de Gibbs não mede a cinética de uma\n    reação para poder prever sua rapidez\n2.  **Incorreta**. A energia livre irá depender do estado físico\n3.  **Incorreta**. Produz mais mols de gás do que consome implica em\n    $\\Delta S>0$ e a reação é exotérmica portanto $\\Delta H<0$ ,\n    substituindo na equação da energia livre: $$\\underbrace{\\Delta\n    G}_{\\Large-}=\\underbrace{\\Delta H}_{-}\\underbrace{-T \\Delta\n    S}_{-}$$\n4.  **Correta**. Reações exergônicas apresentam $\\Delta G<0$\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\textbf{Incorreta}. A energia livre de Gibbs não mede a cinética de uma reação para poder prever sua rapidez\n\\item\n  \\textbf{Incorreta}. A energia livre irá depender do estado físico\n\\item\n  \\textbf{Incorreta}. Produz mais mols de gás do que consome implica em {\\(\\Delta S>0\\)} e a reação é exotérmica portanto {\\(\\Delta H<0\\)} ,\n  substituindo na equação da energia livre: {\\[\\underbrace{\\Delta\n  G}_{\\Large-}=\\underbrace{\\Delta H}_{-}\\underbrace{-T \\Delta\n  S}_{-}\\]}\n\\item\n  \\textbf{Correta}. Reações exergônicas apresentam {\\(\\Delta G<0\\)}\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25255,13 +25339,17 @@
     {
       "id_": "2C18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2C/2C18/2C18.md",
-      "date": "2023-01-11T03:12:32.026537",
+      "date": "2023-04-30T01:03:38.030135",
       "statement": {
         "html": "<p>Considere a reação de produção do <em>gás de síntese</em>, um\ncombustível industrial de baixa qualidade. <span class=\"math display\">\\[\n    \\ce{ CH4(g) + H2O(g) -&gt; CO(g) + 3 H2(g) }\n\\]</span> Suponha que <span class=\"math inline\">\\(\\Delta\nH^\\circ_\\mathrm{r}\\)</span> e <span class=\"math inline\">\\(\\Delta\nS^\\circ_\\mathrm{r}\\)</span> são independentes da temperatura.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da maior\ntemperatura em que a reação é espontânea.</p>",
         "md": "Considere a reação de produção do *gás de síntese*, um combustível\nindustrial de baixa qualidade. $$\n    \\ce{ CH4(g) + H2O(g) -> CO(g) + 3 H2(g) }\n$$ Suponha que $\\Delta H^\\circ_\\mathrm{r}$ e $\\Delta S^\\circ_\\mathrm{r}$\nsão independentes da temperatura.\n\n**Assinale** a alternativa que mais se aproxima da maior temperatura em\nque a reação é espontânea.\n",
         "tex": "Considere a reação de produção do \\emph{gás de síntese}, um combustível industrial de baixa qualidade. {\\[\n    \\ce{ CH4(g) + H2O(g) -> CO(g) + 3 H2(g) }\n\\]} Suponha que {\\(\\Delta H^\\circ_\\mathrm{r}\\)} e {\\(\\Delta S^\\circ_\\mathrm{r}\\)} são independentes da temperatura.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da maior temperatura em que a reação é espontânea.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Cálculo da energia livre: <span class=\"math display\">\\[\\Delta G=\n\\Delta G_{CO}+3\\cdot \\Delta G_{H_{2}}- \\Delta G_{H_2O} -\\Delta\nG_{CH_4}\\]</span> <span class=\"math display\">\\[\\Delta\nG=  (-137)+3\\cdot(0)- (-229)-(-50,7)\\]</span> <span class=\"math display\">\\[\\Delta G=142,7\\,kJ\\,mol^{-1}\\]</span> Cálculo da\nvariação de entalpia: <span class=\"math display\">\\[\\Delta H= \\Delta\nH_{CO}+3\\cdot \\Delta H_{H_{2}}- \\Delta H_{H_2O} -\\Delta\nH_{CH_4}\\]</span> <span class=\"math display\">\\[\\Delta\nH=  (-111)+3\\cdot(0)- (-242)-(-74,8)\\]</span> <span class=\"math display\">\\[\\Delta H=205,8\\,kJ\\,mol^{-1}\\]</span> Cálculo da\nvariação de entropia assumindo que a energia livre dada é a 25°C: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[142,7=205,8-0,298\\cdot \\Delta S\\]</span> <span class=\"math display\">\\[\\Delta S=211,7\\,J\\,mol^{-1}\\]</span> A\ntemperatura mínima é aquela no limite da transição entre o processo não\nespontâneo e o espontâneo, ou seja, quando <span class=\"math inline\">\\(\\Delta G=0\\)</span>: Cálculo da temperatura: <span class=\"math display\">\\[\\Delta G= \\Delta H - T \\Delta S\\]</span> <span class=\"math display\">\\[0=\\Delta H- T \\Delta S\\]</span> <span class=\"math display\">\\[T= \\frac{\\Delta H}{\\Delta S}\\]</span> <span class=\"math display\">\\[T = \\frac{205800\\,J}{211,7\\,J\\,K^{-1}}=\n972,1\\,K\\]</span></p>",
+        "md": "Cálculo da energia livre: $$\\Delta G=\n\\Delta G_{CO}+3\\cdot \\Delta G_{H_{2}}- \\Delta G_{H_2O} -\\Delta\nG_{CH_4}$$ $$\\Delta\nG=  (-137)+3\\cdot(0)- (-229)-(-50,7)$$ $$\\Delta G=142,7\\,kJ\\,mol^{-1}$$\nCálculo da variação de entalpia: $$\\Delta H= \\Delta\nH_{CO}+3\\cdot \\Delta H_{H_{2}}- \\Delta H_{H_2O} -\\Delta\nH_{CH_4}$$ $$\\Delta\nH=  (-111)+3\\cdot(0)- (-242)-(-74,8)$$ $$\\Delta H=205,8\\,kJ\\,mol^{-1}$$\nCálculo da variação de entropia assumindo que a energia livre dada é a\n25°C: $$\\Delta G= \\Delta H - T \\Delta S$$\n$$142,7=205,8-0,298\\cdot \\Delta S$$ $$\\Delta S=211,7\\,J\\,mol^{-1}$$ A\ntemperatura mínima é aquela no limite da transição entre o processo não\nespontâneo e o espontâneo, ou seja, quando $\\Delta G=0$: Cálculo da\ntemperatura: $$\\Delta G= \\Delta H - T \\Delta S$$\n$$0=\\Delta H- T \\Delta S$$ $$T= \\frac{\\Delta H}{\\Delta S}$$\n$$T = \\frac{205800\\,J}{211,7\\,J\\,K^{-1}}=\n972,1\\,K$$\n",
+        "tex": "Cálculo da energia livre: {\\[\\Delta G=\n\\Delta G_{CO}+3\\cdot \\Delta G_{H_{2}}- \\Delta G_{H_2O} -\\Delta\nG_{CH_4}\\]} {\\[\\Delta\nG=  (-137)+3\\cdot(0)- (-229)-(-50,7)\\]} {\\[\\Delta G=142,7\\,kJ\\,mol^{-1}\\]} Cálculo da variação de entalpia: {\\[\\Delta H= \\Delta\nH_{CO}+3\\cdot \\Delta H_{H_{2}}- \\Delta H_{H_2O} -\\Delta\nH_{CH_4}\\]} {\\[\\Delta\nH=  (-111)+3\\cdot(0)- (-242)-(-74,8)\\]} {\\[\\Delta H=205,8\\,kJ\\,mol^{-1}\\]} Cálculo da variação de entropia assumindo que a energia livre dada é a\n25°C: {\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[142,7=205,8-0,298\\cdot \\Delta S\\]} {\\[\\Delta S=211,7\\,J\\,mol^{-1}\\]} A temperatura mínima é aquela no\nlimite da transição entre o processo não espontâneo e o espontâneo, ou seja, quando {\\(\\Delta G=0\\)}: Cálculo da temperatura:\n{\\[\\Delta G= \\Delta H - T \\Delta S\\]} {\\[0=\\Delta H- T \\Delta S\\]} {\\[T= \\frac{\\Delta H}{\\Delta S}\\]} {\\[T = \\frac{205800\\,J}{211,7\\,J\\,K^{-1}}=\n972,1\\,K\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [

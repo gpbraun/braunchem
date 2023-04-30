@@ -19,7 +19,7 @@ def main():
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     FocusSet.parse_database(config.FOCUSES_DIR)
 
-    topic_id = "3E"
+    topic_id = "2C"
 
     topic_db[topic_id].write_pdf(
         problem_db,
