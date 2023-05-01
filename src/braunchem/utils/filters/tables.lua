@@ -48,10 +48,61 @@
 --                 latex(r'\bottomrule' '\n' r'\end{tabular}'),
 --                 latex(r'\end{table}')]
 
-local function tableAlignment(elem)
-    return
+
+ALIGNS = {
+    ["AlignDefault"] = "l",
+    ["AlignLeft"]    = "l",
+    ["AlignCenter"]  = "c",
+    ["AlignRight"]   = "r",
+}
+
+
+local function tableAlignment(colspecs)
+    local table_alignment = {}
+    for i, align in ipairs(colspecs) do
+        table.insert(table_alignment, ALIGNS[align[1]])
+    end
+    return table.concat(table_alignment)
 end
 
-function Table(elem)
-    return pandoc.Str("olá")
+
+local function tableRow(row)
+    local table_row = {}
+    local cells = row.cells
+
+    for i, cell in ipairs(cells) do
+        -- Concatena `table_head` e `cell.content`
+        for _, block in ipairs(cell.content) do
+            table.insert(table_row, block.content[1])
+        end
+        if i < #cells then
+            table.insert(table_row, pandoc.RawInline("latex", " & "))
+        end
+    end
+
+    return pandoc.Plain(table_row)
+end
+
+
+local function tableHead(head)
+    return tableRow(head.rows[1])
+end
+
+
+local tables = {}
+
+
+function Table(tbl)
+    local caption
+    if tbl.caption ~= nil then
+        caption = tbl.caption
+    end
+
+    table.insert(tables, tableHead(tbl.head))
+    return tableHead(tbl.head)
+end
+
+function Meta(metadata)
+    metadata.tables = tables
+    return metadata
 end

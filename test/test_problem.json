@@ -23,13 +23,46 @@
         }
     ],
     "correct_choice": 1,
-    "date": "2023-05-01T04:46:48",
+    "date": "2023-05-01T23:39:23",
     "solution": {
         "html": "<p>Solução</p>",
         "latex": "Solução"
     },
     "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\nolá\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
-        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\nolá\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
-    }
+        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\nOiOláTchau\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
+        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\nOi & Olá & Tchau\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
+    },
+    "table": [
+        {
+            "c": [
+                {
+                    "c": "Oi",
+                    "t": "Str"
+                },
+                {
+                    "c": [
+                        "latex",
+                        " & "
+                    ],
+                    "t": "RawInline"
+                },
+                {
+                    "c": "Olá",
+                    "t": "Str"
+                },
+                {
+                    "c": [
+                        "latex",
+                        " & "
+                    ],
+                    "t": "RawInline"
+                },
+                {
+                    "c": "Tchau",
+                    "t": "Str"
+                }
+            ],
+            "t": "Plain"
+        }
+    ]
 }

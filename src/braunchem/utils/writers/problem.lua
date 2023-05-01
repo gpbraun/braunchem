@@ -444,8 +444,8 @@ local problemLists = {
 
 
 function Writer(doc, opts)
-    if doc.meta.id ~= nil then
-        math.randomseed(doc.meta.id)
+    if doc.meta.seed ~= nil then
+        math.randomseed(doc.meta.seed)
     end
     doc = doc:walk(problemLists)
 
@@ -465,6 +465,7 @@ function Writer(doc, opts)
     end
 
     local problem_data = {
+        table          = doc.meta.tables,
         _id            = doc.meta.id,
         date           = os.date("!%Y-%m-%dT%T"),
         choices        = choices,

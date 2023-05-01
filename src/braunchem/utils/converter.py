@@ -63,6 +63,7 @@ def md2problem(md_str: str) -> str:
             "--katex",
             f"--columns={PANDOC_COLUMN_NUM}",
             "--metadata=id:123456",
+            "--metadata=seed:123456",
         ],
         filters=PANDOC_PROBLEM_FILTER_PATHS,
     )
