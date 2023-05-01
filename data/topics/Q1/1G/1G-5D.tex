@@ -1,0 +1,58 @@
+\begin{tikzpicture}
+    \def\cellWidth{1}
+    \tikzset
+        {
+            cell/.style=
+                {
+                    draw = #1,
+                    top color = #1!20, 
+                    bottom color = #1!20, 
+                    middle color = white,
+                    shading angle = 90,
+                },
+            solution/.style=
+                {
+                    opacity = 0.25,
+                    top color = #1!60, 
+                    bottom color = #1, 
+                    shading angle = 10,
+                },
+        }
+    
+    % CUBETA 1
+    \node [rectangle, minimum width=\cellWidth cm, minimum height=4cm] 
+        (cell1) at (0, 0) {};
+
+    \draw [thick, cell=gray, line cap=round] 
+        (cell1.south west) -- 
+        (cell1.north west) arc(180:0:\cellWidth/2 and 0.4) -- 
+        (cell1.south east) arc(0:180:\cellWidth/2 + 0.006 and -0.1);
+
+    % SOLUÇÃO 1
+    \path[solution=blue] 
+        (cell1.south west) -- 
+        ($(cell1.north west) - (0,0.7)$) arc(180:0:\cellWidth/2 and -0.5) --
+        ($(cell1.north east) - (0,0.7)$) -- 
+        (cell1.south east) arc(0:180:\cellWidth/2 and -0.1);
+
+    \node [anchor=south] at (cell1.south) {\ce{H2O}};
+
+     % CUBETA 2
+    \node [rectangle, minimum width=\cellWidth cm, minimum height=4cm] 
+        (cell2) at (2, 0) {};
+
+    \draw [thick, cell=gray, line cap=round] 
+        (cell2.south west) -- 
+        (cell2.north west) arc(180:0:\cellWidth/2 and 0.4) -- 
+        (cell2.south east) arc(0:180:\cellWidth/2 + 0.006 and -0.1);
+
+    % SOLUÇÃO 2
+    \path[solution=black] 
+        (cell2.south west) -- 
+        ($(cell2.north west) - (0,1.2)$) arc(180:0:\cellWidth/2 and +0.4) --
+        ($(cell2.north east) - (0,1.2)$) -- 
+        (cell2.south east) arc(0:180:\cellWidth/2 and -0.1);
+
+    \node [anchor=south] at (cell2.south) {\ce{Hg}};
+\end{tikzpicture}
+
