@@ -35,7 +35,7 @@ PANDOC_PROBLEM_FILTERS = [
     "containers.lua",
     "tables.lua",
     "pu2qty.py",
-    "problem_lists.lua",
+    # "problem_lists.lua",
 ]
 """Filtros usados nos problemas."""
 
@@ -62,7 +62,7 @@ def md2problem(md_str: str) -> str:
             "--quiet",
             "--katex",
             f"--columns={PANDOC_COLUMN_NUM}",
-            "--metadata=id:1234",
+            "--metadata=id:123456",
         ],
         filters=PANDOC_PROBLEM_FILTER_PATHS,
     )

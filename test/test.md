@@ -12,7 +12,7 @@ Table: Olá
 
 **Assinale** a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital $\mathrm{1s}$ para o $\mathrm{2p}$.
 
-- [x] A ; B ; C ; D
+- [x] $\pu{10 m}$
 
 ---
 
