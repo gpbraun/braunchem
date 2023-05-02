@@ -444,6 +444,7 @@ local problemLists = {
 
 
 function Writer(doc, opts)
+    -- Tratamento das listas
     if doc.meta.seed ~= nil then
         math.randomseed(doc.meta.seed)
     end

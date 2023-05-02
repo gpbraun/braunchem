@@ -77,6 +77,8 @@ local function tableRow(row)
         end
         if i < #cells then
             table.insert(table_row, pandoc.RawInline("latex", " & "))
+        elseif i == #cells then
+            table.insert(table_row, pandoc.RawInline("latex", " \\\\"))
         end
     end
 
@@ -98,8 +100,23 @@ function Table(tbl)
         caption = tbl.caption
     end
 
-    table.insert(tables, tableHead(tbl.head))
-    return tableHead(tbl.head)
+    -- table.insert(tables,)
+
+    local buffer = {}
+    table.insert(buffer,
+        pandoc.RawInline("latex",
+            "\\begin{tabular}{" .. tableAlignment(tbl.colspecs) .. "}")
+    )
+    table.insert(buffer, pandoc.RawInline("latex", "\\toprule\\\\"))
+    table.insert(buffer, tableHead(tbl.head))
+    table.insert(buffer, pandoc.RawInline("latex", "\\midrule\\\\"))
+
+    table.insert(buffer, pandoc.RawInline("latex", "\\bottomrule"))
+    table.insert(buffer, pandoc.RawInline("latex", "\\end{tabular}"))
+
+    table.insert(tables, buffer)
+
+    return buffer
 end
 
 function Meta(metadata)

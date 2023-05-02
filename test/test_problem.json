@@ -23,46 +23,102 @@
         }
     ],
     "correct_choice": 1,
-    "date": "2023-05-01T23:39:23",
+    "date": "2023-05-02T00:25:39",
     "solution": {
         "html": "<p>Solução</p>",
         "latex": "Solução"
     },
     "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\nOiOláTchau\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
-        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\nOi & Olá & Tchau\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
+        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n\n\nOiOláTchau\n\n\n\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
+        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{tabular}{lrc}\n\n\\toprule\\\\\n\nOi & Olá & Tchau \\\\\n\n\\midrule\\\\\n\n\\bottomrule\n\n\\end{tabular}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
     },
-    "table": [
-        {
-            "c": [
-                {
-                    "c": "Oi",
-                    "t": "Str"
-                },
+    "table": {
+        "1": {
+            "1": [
                 {
                     "c": [
                         "latex",
-                        " & "
+                        "\\begin{tabular}{lrc}"
                     ],
                     "t": "RawInline"
-                },
-                {
-                    "c": "Olá",
-                    "t": "Str"
-                },
-                {
-                    "c": [
-                        "latex",
-                        " & "
-                    ],
-                    "t": "RawInline"
-                },
-                {
-                    "c": "Tchau",
-                    "t": "Str"
                 }
             ],
-            "t": "Plain"
+            "2": [
+                {
+                    "c": [
+                        "latex",
+                        "\\toprule\\\\"
+                    ],
+                    "t": "RawInline"
+                }
+            ],
+            "3": [
+                {
+                    "c": [
+                        {
+                            "c": "Oi",
+                            "t": "Str"
+                        },
+                        {
+                            "c": [
+                                "latex",
+                                " & "
+                            ],
+                            "t": "RawInline"
+                        },
+                        {
+                            "c": "Olá",
+                            "t": "Str"
+                        },
+                        {
+                            "c": [
+                                "latex",
+                                " & "
+                            ],
+                            "t": "RawInline"
+                        },
+                        {
+                            "c": "Tchau",
+                            "t": "Str"
+                        },
+                        {
+                            "c": [
+                                "latex",
+                                " \\\\"
+                            ],
+                            "t": "RawInline"
+                        }
+                    ],
+                    "t": "Plain"
+                }
+            ],
+            "4": [
+                {
+                    "c": [
+                        "latex",
+                        "\\midrule\\\\"
+                    ],
+                    "t": "RawInline"
+                }
+            ],
+            "5": [
+                {
+                    "c": [
+                        "latex",
+                        "\\bottomrule"
+                    ],
+                    "t": "RawInline"
+                }
+            ],
+            "6": [
+                {
+                    "c": [
+                        "latex",
+                        "\\end{tabular}"
+                    ],
+                    "t": "RawInline"
+                }
+            ]
         }
-    ]
+    }
 }
