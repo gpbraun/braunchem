@@ -22028,77 +22028,237 @@
     {
       "id_": "2G16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G16/2G16.md",
-      "date": "2023-05-04T19:27:21.597059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{b}\\)</span> do íon <span class=\"math inline\">\\(\\ce{IO3^-}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do\n$\\mathrm{p}K_\\mathrm{b}$ do íon $\\ce{IO3^-}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {\\(\\mathrm{p}K_\\mathrm{b}\\)} do íon {\\(\\ce{IO3^-}\\)}.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa(HIO3)",
+            "name": "constante de acidez do ácido iódico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HIO3})",
+            "value": 0.77,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,6}\\)</span>",
+          "md": "$\\pu{4,6}$",
+          "tex": "\\(\\num{4,6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,5}\\)</span>",
+          "md": "$\\pu{6,5}$",
+          "tex": "\\(\\num{6,5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,3}\\)</span>",
+          "md": "$\\pu{9,3}$",
+          "tex": "\\(\\num{9,3}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13}\\)</span>",
+          "md": "$\\pu{13}$",
+          "tex": "\\(\\num{13}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19}\\)</span>",
+          "md": "$\\pu{19}$",
+          "tex": "\\(\\num{19}\\)"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G19/2G19.md",
-      "date": "2023-05-04T19:27:21.625059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ HNO2(aq) + NH3(aq) &lt;=&gt; NH4^+(aq) + NO2^-(aq) }\n\\]</span> <strong>Assinale</strong> a alternativa que mais se aproxima\nda constante de equilíbrio dessa reação.</p>",
+        "md": "Considere a reação: $$\n    \\ce{ HNO2(aq) + NH3(aq) <=> NH4^+(aq) + NO2^-(aq) }\n$$ **Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n",
+        "tex": "Considere a reação: {\\[\n    \\ce{ HNO2(aq) + NH3(aq) <=> NH4^+(aq) + NO2^-(aq) }\n\\]} \\textbf{Assinale} a alternativa que mais se aproxima da constante de equilíbrio dessa reação.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "Ka(HNO2)",
+            "name": "constante de acidez do ácido nitroso",
+            "symbol": "K_\\mathrm{a}(\\ce{HNO2})",
+            "value": 0.00043,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Kb(NH3)",
+            "name": "constante de basicidade da amônia",
+            "symbol": "K_\\mathrm{b}(\\ce{NH3})",
+            "value": 1.8e-05,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,7E5}\\)</span>",
+          "md": "$\\pu{7,7E5}$",
+          "tex": "\\(\\num{7,7E5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8E6}\\)</span>",
+          "md": "$\\pu{1,8E6}$",
+          "tex": "\\(\\num{1,8E6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,4E6}\\)</span>",
+          "md": "$\\pu{4,4E6}$",
+          "tex": "\\(\\num{4,4E6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,0E7}\\)</span>",
+          "md": "$\\pu{1,0E7}$",
+          "tex": "\\(\\num{1,0E7}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5E7}\\)</span>",
+          "md": "$\\pu{2,5E7}$",
+          "tex": "\\(\\num{2,5E7}\\)"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "2G32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G32/2G32.md",
-      "date": "2023-05-04T19:27:21.737059",
+      "date": "2023-05-06T20:58:09.906436",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G32-1D.svg\"/></li>\n<li><img src=\"2G32-2D.svg\"/></li>\n<li><img src=\"2G32-3D.svg\"/></li>\n<li><img src=\"2G32-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G32-1D.svg)\n2.  ![](2G32-2D.svg)\n3.  ![](2G32-3D.svg)\n4.  ![](2G32-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]}\n\\item\n  \\chemfig{-[1]-[-1]-[1](=[3,,,,fix]O)-[-1]-[1]-[-1]}\n\\item\n  \\chemfig{-[1]-[-1](-[-2]Cl)(-[-4]Cl)-[1](=[3,,,,fix]O)-[-1](-[-2]Cl)(-[-4]Cl)-[1]-[-1]}\n\\item\n  \\chemfig{-[1]-[-1](-[-2])(-[-4])-[1](=[3,,,,fix]O)-[-1](-[-2])(-[-4])-[1]-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>3</strong>; <strong>2</strong>; <strong>4</strong>; <strong>1</strong>.",
+          "md": "**3**; **2**; **4**; **1**.\n",
+          "tex": "\\textbf{3}; \\textbf{2}; \\textbf{4}; \\textbf{1}.\n"
+        },
+        {
+          "html": "<strong>2</strong>; <strong>3</strong>; <strong>4</strong>; <strong>1</strong>.",
+          "md": "**2**; **3**; **4**; **1**.\n",
+          "tex": "\\textbf{2}; \\textbf{3}; \\textbf{4}; \\textbf{1}.\n"
+        },
+        {
+          "html": "<strong>4</strong>; <strong>1</strong>; <strong>2</strong>; <strong>3</strong>.",
+          "md": "**4**; **1**; **2**; **3**.\n",
+          "tex": "\\textbf{4}; \\textbf{1}; \\textbf{2}; \\textbf{3}.\n"
+        },
+        {
+          "html": "<strong>4</strong>; <strong>3</strong>; <strong>1</strong>; <strong>2</strong>.",
+          "md": "**4**; **3**; **1**; **2**.\n",
+          "tex": "\\textbf{4}; \\textbf{3}; \\textbf{1}; \\textbf{2}.\n"
+        },
+        {
+          "html": "<strong>3</strong>; <strong>1</strong>; <strong>2</strong>; <strong>4</strong>.",
+          "md": "**3**; **1**; **2**; **4**.\n",
+          "tex": "\\textbf{3}; \\textbf{1}; \\textbf{2}; \\textbf{4}.\n"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2G31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G31/2G31.md",
-      "date": "2023-05-04T19:27:21.729059",
+      "date": "2023-05-06T21:02:57.633641",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G31-1D.svg\"/></li>\n<li><img src=\"2G31-2D.svg\"/></li>\n<li><img src=\"2G31-3D.svg\"/></li>\n<li><img src=\"2G31-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G31-1D.svg)\n2.  ![](2G31-2D.svg)\n3.  ![](2G31-3D.svg)\n4.  ![](2G31-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1]-[-1](-[-2]Cl)(-[-4]Cl)-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1]-[-1](-[-3]Cl)-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1]-[-1]-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{Cl-[1](-[2]Cl)(-[4]Cl)-[-1]-[1](=[3,,,,fix]O)-[-1]OH}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<strong>3</strong>; <strong>1</strong>; <strong>2</strong>; <strong>4</strong>.",
+          "md": "**3**; **1**; **2**; **4**.\n",
+          "tex": "\\textbf{3}; \\textbf{1}; \\textbf{2}; \\textbf{4}.\n"
+        },
+        {
+          "html": "<strong>1</strong>; <strong>2</strong>; <strong>3</strong>; <strong>4</strong>.",
+          "md": "**1**; **2**; **3**; **4**.\n",
+          "tex": "\\textbf{1}; \\textbf{2}; \\textbf{3}; \\textbf{4}.\n"
+        },
+        {
+          "html": "<strong>1</strong>; <strong>2</strong>; <strong>4</strong>; <strong>3</strong>.",
+          "md": "**1**; **2**; **4**; **3**.\n",
+          "tex": "\\textbf{1}; \\textbf{2}; \\textbf{4}; \\textbf{3}.\n"
+        },
+        {
+          "html": "<strong>2</strong>; <strong>4</strong>; <strong>1</strong>; <strong>3</strong>.",
+          "md": "**2**; **4**; **1**; **3**.\n",
+          "tex": "\\textbf{2}; \\textbf{4}; \\textbf{1}; \\textbf{3}.\n"
+        },
+        {
+          "html": "<strong>3</strong>; <strong>4</strong>; <strong>1</strong>; <strong>2</strong>.",
+          "md": "**3**; **4**; **1**; **2**.\n",
+          "tex": "\\textbf{3}; \\textbf{4}; \\textbf{1}; \\textbf{2}.\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G13/2G13.md",
-      "date": "2023-05-04T19:27:21.573059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa com a constante de acidez,\n<span class=\"math inline\">\\(K_\\mathrm{a}\\)</span>, do ácido cloroso,\n<span class=\"math inline\">\\(\\ce{HClO2}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa com a constante de acidez, $K_\\mathrm{a}$, do\nácido cloroso, $\\ce{HClO2}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa com a constante de acidez, {\\(K_\\mathrm{a}\\)}, do ácido cloroso, {\\(\\ce{HClO2}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [ClO2^-] }{ [HClO2]\n}}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [ClO2^-] }{ [HClO2] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [ClO2^-] }{ [HClO2] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [H3O^+] [ClO2^-] }{\n[HClO2] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [H3O^+] [ClO2^-] }{ [HClO2] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [H3O^+] [ClO2^-] }{ [HClO2] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [HClO2] }{ [H3O^+]\n[ClO2^-] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [HClO2] }{ [H3O^+] [ClO2^-] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [HClO2] }{ [H3O^+] [ClO2^-] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [H3O^+] [ClO2^-] }{\n[HClO2] [H2O] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [H3O^+] [ClO2^-] }{ [HClO2] [H2O] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [H3O^+] [ClO2^-] }{ [HClO2] [H2O] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [HClO2] [H2O] }{ [H3O^+]\n[ClO2^-] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [HClO2] [H2O] }{ [H3O^+] [ClO2^-] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [HClO2] [H2O] }{ [H3O^+] [ClO2^-] }}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2G05",
@@ -22144,32 +22304,84 @@
     {
       "id_": "2G12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G12/2G12.md",
-      "date": "2023-05-04T19:27:21.565059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um técnico de laboratório descuidado prepara <span class=\"math inline\">\\(\\pu{300 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,02 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span> e pipeta <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> da solução em um becher. O\nbécher fica em um ambiente aquecido pro dois dias antes do uso e, nesse\ntmepo, parte da água evapora e o volume se reduz a <span class=\"math inline\">\\(\\pu{15 mL}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndiferença entre o pH da solução preparada e o pH da solução após a\nevaporação.</p>",
+        "md": "Um técnico de laboratório descuidado prepara $\\pu{300 mL}$ de uma\nsolução $\\pu{0,02 mol.L-1}$ de $\\ce{KOH}$ e pipeta $\\pu{25 mL}$ da\nsolução em um becher. O bécher fica em um ambiente aquecido pro dois\ndias antes do uso e, nesse tmepo, parte da água evapora e o volume se\nreduz a $\\pu{15 mL}$.\n\n**Assinale** a alternativa que mais se aproxima da diferença entre o pH\nda solução preparada e o pH da solução após a evaporação.\n",
+        "tex": "Um técnico de laboratório descuidado prepara {\\(\\qty{300}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{KOH}\\)} e pipeta\n{\\(\\qty{25}{\\unit{mL}}\\)} da solução em um becher. O bécher fica em um ambiente aquecido pro dois dias antes do uso e, nesse tmepo, parte da água\nevapora e o volume se reduz a {\\(\\qty{15}{\\unit{mL}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da diferença entre o pH da solução preparada e o pH da solução após a evaporação.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,062}\\)</span>",
+          "md": "$\\pu{0,062}$",
+          "tex": "\\(\\num{0,062}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,083}\\)</span>",
+          "md": "$\\pu{0,083}$",
+          "tex": "\\(\\num{0,083}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,11}\\)</span>",
+          "md": "$\\pu{0,11}$",
+          "tex": "\\(\\num{0,11}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,15}\\)</span>",
+          "md": "$\\pu{0,15}$",
+          "tex": "\\(\\num{0,15}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,2}\\)</span>",
+          "md": "$\\pu{0,2}$",
+          "tex": "\\(\\num{0,2}\\)"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2G25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G25/2G25.md",
-      "date": "2023-05-04T19:27:21.677059",
+      "date": "2023-05-06T20:25:43.893221",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HClO}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HClO4}\\)</span> e <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HNO3}\\)</span> e <span class=\"math inline\">\\(\\ce{H2SO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HBrO3}\\)</span> e <span class=\"math inline\">\\(\\ce{HBrO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HClO}$ e $\\ce{HClO2}$\n2.  $\\ce{HClO4}$ e $\\ce{H3PO4}$\n3.  $\\ce{HNO3}$ e $\\ce{H2SO3}$\n4.  $\\ce{HBrO3}$ e $\\ce{HBrO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HClO}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{HClO4}\\)} e {\\(\\ce{H3PO4}\\)}\n\\item\n  {\\(\\ce{HNO3}\\)} e {\\(\\ce{H2SO3}\\)}\n\\item\n  {\\(\\ce{HBrO3}\\)} e {\\(\\ce{HBrO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G10",
@@ -22215,77 +22427,274 @@
     {
       "id_": "2G27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G27/2G27.md",
-      "date": "2023-05-04T19:27:21.693059",
+      "date": "2023-05-06T20:30:17.653536",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G27-1D.svg\"/></li>\n<li><img src=\"2G27-2D.svg\"/></li>\n<li><img src=\"2G27-3D.svg\"/></li>\n<li><img src=\"2G27-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G27-1D.svg)\n2.  ![](2G27-2D.svg)\n3.  ![](2G27-3D.svg)\n4.  ![](2G27-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1]-[-1](-[-3]{\\color{blue} H_A})-[1](-[3]{\\color{red} H_B})-[-1]=^[1]}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[:18]*5(-=(-{\\color{red} H_B})-=-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[-1]\\chembelow{N}{H}-[1]*6(-=-(--[-1]N(-[-3]{\\color{red} H_B})-[1])=-=)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{red} H_B})-[1]-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G26/2G26.md",
-      "date": "2023-05-04T19:27:21.685059",
+      "date": "2023-05-06T20:27:56.809390",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><img src=\"2G26-1D.svg\"/></li>\n<li><img src=\"2G26-2D.svg\"/></li>\n<li><img src=\"2G26-3D.svg\"/></li>\n<li><img src=\"2G26-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  ![](2G26-1D.svg)\n2.  ![](2G26-2D.svg)\n3.  ![](2G26-3D.svg)\n4.  ![](2G26-4D.svg)\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1]-[-1]OH}\n\\item\n  \\chemfig{*6(-=-(-OH)=-=)} e \\quad \\chemfig{*6(---(-OH)---)}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]O-[1]OH} \\quad e \\quad \\chemfig{-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]} \\quad e \\quad \\chemfig{-[1](-[3])-[-1]O-[1](-[3])-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2G24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G24/2G24.md",
-      "date": "2023-05-04T19:27:21.669059",
+      "date": "2023-05-06T20:28:07.989403",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G24-1D.svg\"/></li>\n<li><img src=\"2G24-2D.svg\"/></li>\n<li><img src=\"2G24-3D.svg\"/></li>\n<li><img src=\"2G24-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G24-1D.svg)\n2.  ![](2G24-2D.svg)\n3.  ![](2G24-3D.svg)\n4.  ![](2G24-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]O-[-1](=[-3,,,,fix]O)-[1]-[-1]-[1](=[3,,,,fix]S)-[-1]S-[1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]~[1]-[1]-[-1]N(-[-3]{\\color{red} H_B})-[1]}\n\\item\n  \\chemfig{*6(--(-S(=[-2]O)(=[-4]O)-[1]O-[-1]{\\color{red} H_B})---N(-{\\color{blue} H_A})-)=[-5]O}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]O-[-1](=[-3,,,,fix]O)-[1]-[-1]-[1](=[3,,,,fix]N-[1])-[-1]\\chembelow{N}{H}-[1]{\\color{red} H_B}}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G18/2G18.md",
-      "date": "2023-05-04T19:27:21.613059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de bases.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{C6H5NH2}\\)</span> e <span class=\"math inline\">\\(\\ce{(CH3)3N}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C5H5N}\\)</span> e <span class=\"math inline\">\\(\\ce{NH2NH2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{HSO3^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5CO2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{CH2ClCO2^-}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira base é mais forte.</p>",
+        "md": "Considere os pares de bases.\n\n1.  $\\ce{C6H5NH2}$ e $\\ce{(CH3)3N}$\n2.  $\\ce{C5H5N}$ e $\\ce{NH2NH2}$\n3.  $\\ce{ClO2^-}$ e $\\ce{HSO3^-}$\n4.  $\\ce{C6H5CO2^-}$ e $\\ce{CH2ClCO2^-}$\n\n**Assinale** a alternativa que relaciona os pares em que a primeira base\né mais forte.\n",
+        "tex": "Considere os pares de bases.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{C6H5NH2}\\)} e {\\(\\ce{(CH3)3N}\\)}\n\\item\n  {\\(\\ce{C5H5N}\\)} e {\\(\\ce{NH2NH2}\\)}\n\\item\n  {\\(\\ce{ClO2^-}\\)} e {\\(\\ce{HSO3^-}\\)}\n\\item\n  {\\(\\ce{C6H5CO2^-}\\)} e {\\(\\ce{CH2ClCO2^-}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira base é mais forte.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa(C6H5COOH)",
+            "name": "constante de acidez do ácido benzóico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{C6H5COOH})",
+            "value": 4.2,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa(CH2ClCOOH)",
+            "name": "constante de acidez do ácido cloroacético",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{CH2ClCOOH})",
+            "value": 2.8,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa(HClO2)",
+            "name": "constante de acidez do ácido cloroso",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HClO2})",
+            "value": 2,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa(H2SO3)",
+            "name": "constante de acidez do ácido sulfuroso",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{H2SO3})",
+            "value": 1.8,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(anilina)",
+            "name": "constante de basicidade da anilina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C6H5NH2})",
+            "value": 9.4,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(hidrazina)",
+            "name": "constante de basicidade da hidrazina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH2NH2})",
+            "value": 5.8,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(piridina)",
+            "name": "constante de basicidade da piridina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C5H5N})",
+            "value": 8.8,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(trimetilamina)",
+            "name": "constante de basicidade da trimetilamina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{(CH3)3N})",
+            "value": 4.2,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G22/2G22.md",
-      "date": "2023-05-04T19:27:21.649059",
+      "date": "2023-05-06T20:12:39.439574",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><img src=\"2G22-1D.svg\"/></li>\n<li><img src=\"2G22-2D.svg\"/></li>\n<li><img src=\"2G22-3D.svg\"/></li>\n<li><img src=\"2G22-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  ![](2G22-1D.svg)\n2.  ![](2G22-2D.svg)\n3.  ![](2G22-3D.svg)\n4.  ![](2G22-4D.svg)\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1](=[3,,,,fix]O)-[-1]NH_2}\n\\item\n  \\chemfig{-[1](-[3])-[-1]\\chembelow{P}{H}-[1]} \\quad e \\quad \\chemfig{-[1](-[3])-[-1]\\chembelow{N}{H}-[1]} \n\\item\n  \\chemfig{*6(---(-OH)---)} e \\quad \\chemfig{*6(---(-SH)---)}\n\\item\n  \\chemfig{*6(---(-NH_2)---)} e \\quad \\chemfig{*6(---(-C~[1]CH)---)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G09",
@@ -22331,17 +22740,43 @@
     {
       "id_": "2G30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G30/2G30.md",
-      "date": "2023-05-04T19:27:21.721059",
+      "date": "2023-05-06T20:46:59.034090",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G30-1D.svg\"/></li>\n<li><img src=\"2G30-2D.svg\"/></li>\n<li><img src=\"2G30-3D.svg\"/></li>\n<li><img src=\"2G30-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G30-1D.svg)\n2.  ![](2G30-2D.svg)\n3.  ![](2G30-3D.svg)\n4.  ![](2G30-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1]-[-1](-[-2]Cl)(-[-4]Cl)-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1]-[-1](-[-3]Cl)-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1]-[-1](-[-3]Br)-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1](-[3]Br)-[-1]-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{HO-[1]*6(-(-Cl)=(-Cl)-(-Cl)=(-Cl)-(-Cl)=)} \\quad e \\quad \\chemfig{HO-[1]*6(-(-)=(-)-(-)=(-)-(-)=)}\n\\item\n  \\chemfig{Cl-[1](-[2]Cl)(-[4]Cl)-[-1](-[-3]OH)-[1](-[2]Cl)(-[4]Cl)-[-1]Cl} \\quad e \\quad \\chemfig{-[1](-[2])(-[4])-[-1](-[-3]OH)-[1](-[2])(-[4])-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2G03",
@@ -22387,22 +22822,67 @@
     {
       "id_": "2G20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G20/2G20.md",
-      "date": "2023-05-04T19:27:21.633059",
+      "date": "2023-05-06T20:05:30.452178",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ HIO3(aq) + NH2NH2(aq) &lt;=&gt; NH2NH3^+(aq) + IO3^-(aq) }\n\\]</span> <strong>Assinale</strong> a alternativa que mais se aproxima\nda constante de equilíbrio dessa reação.</p>",
+        "md": "Considere a reação: $$\n    \\ce{ HIO3(aq) + NH2NH2(aq) <=> NH2NH3^+(aq) + IO3^-(aq) }\n$$ **Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n",
+        "tex": "Considere a reação: {\\[\n    \\ce{ HIO3(aq) + NH2NH2(aq) <=> NH2NH3^+(aq) + IO3^-(aq) }\n\\]} \\textbf{Assinale} a alternativa que mais se aproxima da constante de equilíbrio dessa reação.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "Ka(HIO3)",
+            "name": "constante de acidez do ácido iódico",
+            "symbol": "K_\\mathrm{a}(\\ce{HIO3})",
+            "value": 0.17,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Kb(hidrazina)",
+            "name": "constante de basicidade da hidrazina",
+            "symbol": "K_\\mathrm{b}(\\ce{NH2NH2})",
+            "value": 1.7e-06,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,5E5}\\)</span>",
+          "md": "$\\pu{5,5E5}$",
+          "tex": "\\(\\num{5,5E5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5E6}\\)</span>",
+          "md": "$\\pu{1,5E6}$",
+          "tex": "\\(\\num{1,5E6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,0E6}\\)</span>",
+          "md": "$\\pu{4,0E6}$",
+          "tex": "\\(\\num{4,0E6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,1E7}\\)</span>",
+          "md": "$\\pu{1,1E7}$",
+          "tex": "\\(\\num{1,1E7}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,9E7}\\)</span>",
+          "md": "$\\pu{2,9E7}$",
+          "tex": "\\(\\num{2,9E7}\\)"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2G08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G08/2G08.md",
-      "date": "2023-05-04T20:02:55.185108",
+      "date": "2023-05-06T19:57:16.767294",
       "statement": {
         "html": "<p>O pH dos fluidos pancreáticos, que ajudam na digestão da comida\ndepois que ela deixou o estômago, é cerca de <span class=\"math inline\">\\(\\pu{8,3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de íons hidróxido nos fluidos pancreáticos.</p>",
         "md": "O pH dos fluidos pancreáticos, que ajudam na digestão da comida depois\nque ela deixou o estômago, é cerca de $\\pu{8,3}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de íons\nhidróxido nos fluidos pancreáticos.\n",
@@ -22418,9 +22898,9 @@
           "tex": "\\(\\qty{8,5E-7}{\\unit{mol.L^{-1}}}\\)"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2E-6 mol.L-1}\\)</span>",
-          "md": "$\\pu{2E-6 mol.L-1}$",
-          "tex": "\\(\\qty{2E-6}{\\unit{mol.L^{-1}}}\\)"
+          "html": "<span class=\"math inline\">\\(\\pu{2,0E-6 mol.L-1}\\)</span>",
+          "md": "$\\pu{2,0E-6 mol.L-1}$",
+          "tex": "\\(\\qty{2,0E-6}{\\unit{mol.L^{-1}}}\\)"
         },
         {
           "html": "<span class=\"math inline\">\\(\\pu{4,7E-6 mol.L-1}\\)</span>",
@@ -22443,47 +22923,203 @@
     {
       "id_": "2G15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G15/2G15.md",
-      "date": "2023-05-04T19:27:21.589059",
+      "date": "2023-05-06T20:01:39.321122",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span> do cátion <span class=\"math inline\">\\(\\ce{C5H5NH^+}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do\n$\\mathrm{p}K_\\mathrm{a}$ do cátion $\\ce{C5H5NH^+}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {\\(\\mathrm{p}K_\\mathrm{a}\\)} do cátion {\\(\\ce{C5H5NH^+}\\)}.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKb(piridina)",
+            "name": "constante de basicidade da piridina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C5H5N})",
+            "value": 8.8,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,9}\\)</span>",
+          "md": "$\\pu{3,9}$",
+          "tex": "\\(\\num{3,9}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,2}\\)</span>",
+          "md": "$\\pu{5,2}$",
+          "tex": "\\(\\num{5,2}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,1}\\)</span>",
+          "md": "$\\pu{7,1}$",
+          "tex": "\\(\\num{7,1}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,5}\\)</span>",
+          "md": "$\\pu{9,5}$",
+          "tex": "\\(\\num{9,5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13}\\)</span>",
+          "md": "$\\pu{13}$",
+          "tex": "\\(\\num{13}\\)"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2G14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G14/2G14.md",
-      "date": "2023-05-04T19:27:21.581059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa com a constante de\nbasicidade, <span class=\"math inline\">\\(K_\\mathrm{b}\\)</span>, da\nmetilamina, <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa com a constante de basicidade,\n$K_\\mathrm{b}$, da metilamina, $\\ce{CH3NH2}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa com a constante de basicidade, {\\(K_\\mathrm{b}\\)}, da metilamina, {\\(\\ce{CH3NH2}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [CH3NH3^+] }{ [CH3NH2]\n}}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [CH3NH3^+] }{ [CH3NH2] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [CH3NH3^+] }{ [CH3NH2] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [OH^-] [CH3NH3^+] }{\n[CH3NH2] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [OH^-] [CH3NH3^+] }{ [CH3NH2] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [OH^-] [CH3NH3^+] }{ [CH3NH2] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [CH3NH2] }{ [OH^-]\n[CH3NH3^+] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [CH3NH2] }{ [OH^-] [CH3NH3^+] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [CH3NH2] }{ [OH^-] [CH3NH3^+] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [OH^-] [CH3NH3^+] }{\n[CH3NH2] [H2O] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [OH^-] [CH3NH3^+] }{ [CH3NH2] [H2O] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [OH^-] [CH3NH3^+] }{ [CH3NH2] [H2O] }}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{\\displaystyle\\frac{ [CH3NH2] [H2O] }{ [OH^-]\n[CH3NH3^+] }}\\)</span>",
+          "md": "$\\ce{\\displaystyle\\frac{ [CH3NH2] [H2O] }{ [OH^-] [CH3NH3^+] }}$\n",
+          "tex": "{\\(\\ce{\\displaystyle\\frac{ [CH3NH2] [H2O] }{ [OH^-] [CH3NH3^+] }}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2G17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G17/2G17.md",
-      "date": "2023-05-04T19:27:21.605059",
+      "date": "2023-05-06T20:02:03.512981",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HIO3}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH3^+}\\)</span> e <span class=\"math inline\">\\(\\ce{(CH3)3NH^+}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH^+}\\)</span> e <span class=\"math inline\">\\(\\ce{NH2NH3^+}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro ácido é mais forte.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HF}$ e $\\ce{HClO}$\n2.  $\\ce{HIO3}$ e $\\ce{HClO2}$\n3.  $\\ce{C6H5NH3^+}$ e $\\ce{(CH3)3NH^+}$\n4.  $\\ce{C6H5NH^+}$ e $\\ce{NH2NH3^+}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nácido é mais forte.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{HClO}\\)}\n\\item\n  {\\(\\ce{HIO3}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{C6H5NH3^+}\\)} e {\\(\\ce{(CH3)3NH^+}\\)}\n\\item\n  {\\(\\ce{C6H5NH^+}\\)} e {\\(\\ce{NH2NH3^+}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro ácido é mais forte.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa(HClO2)",
+            "name": "constante de acidez do ácido cloroso",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HClO2})",
+            "value": 2,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa(HF)",
+            "name": "constante de acidez do ácido fluorídrico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HF})",
+            "value": 3.4,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa(HClO)",
+            "name": "constante de acidez do ácido hipocloroso",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HClO})",
+            "value": 7.5,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa(HIO3)",
+            "name": "constante de acidez do ácido iódico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a}(\\ce{HIO3})",
+            "value": 0.77,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(anilina)",
+            "name": "constante de basicidade da anilina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C6H5NH2})",
+            "value": 9.4,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(hidrazina)",
+            "name": "constante de basicidade da hidrazina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{NH2NH2})",
+            "value": 5.8,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(piridina)",
+            "name": "constante de basicidade da piridina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{C5H5N})",
+            "value": 8.8,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKb(trimetilamina)",
+            "name": "constante de basicidade da trimetilamina",
+            "symbol": "\\mathrm{p}K_\\mathrm{b}(\\ce{(CH3)3N})",
+            "value": 4.2,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G07",
@@ -22529,17 +23165,43 @@
     {
       "id_": "2G23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G23/2G23.md",
-      "date": "2023-05-04T19:27:21.657059",
+      "date": "2023-05-06T20:23:38.149024",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G23-1D.svg\"/></li>\n<li><img src=\"2G23-2D.svg\"/></li>\n<li><img src=\"2G23-3D.svg\"/></li>\n<li><img src=\"2G23-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G23-1D.svg)\n2.  ![](2G23-2D.svg)\n3.  ![](2G23-3D.svg)\n4.  ![](2G23-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](-[3]{\\color{blue} H_A})-[-1]-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]S-[-1]-[1]-[-1]-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{*6(--(-O-[1]{\\color{red} H_B})---N(-{\\color{blue} H_A})-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]S-[-1]-[1]-[-1]-[1]N(-[3])-[-1]{\\color{red} H_B}}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G06",
@@ -22585,47 +23247,125 @@
     {
       "id_": "2G29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G29/2G29.md",
-      "date": "2023-05-04T19:27:21.709059",
+      "date": "2023-05-06T20:33:43.529704",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HBrO2}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2CO3}\\)</span> e <span class=\"math inline\">\\(\\ce{H2GeO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H3AsO4}\\)</span> e <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HClO}\\)</span> e <span class=\"math inline\">\\(\\ce{HIO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HBrO2}$ e $\\ce{HClO2}$\n2.  $\\ce{H2CO3}$ e $\\ce{H2GeO3}$\n3.  $\\ce{H3AsO4}$ e $\\ce{H3PO4}$\n4.  $\\ce{HClO}$ e $\\ce{HIO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HBrO2}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{H2CO3}\\)} e {\\(\\ce{H2GeO3}\\)}\n\\item\n  {\\(\\ce{H3AsO4}\\)} e {\\(\\ce{H3PO4}\\)}\n\\item\n  {\\(\\ce{HClO}\\)} e {\\(\\ce{HIO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G11/2G11.md",
-      "date": "2023-05-04T19:27:21.557059",
+      "date": "2023-05-06T19:59:54.229904",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Um técnico de laboratório descuidado quer preparar <span class=\"math inline\">\\(\\pu{250 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,025 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>, mas usa um balão volumétrico de\n<span class=\"math inline\">\\(\\pu{500 mL}\\)</span> por engano.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndiferença entre o pH da solução desejada e o pH da solução\npreparada.</p>",
+        "md": "Um técnico de laboratório descuidado quer preparar $\\pu{250 mL}$ de uma\nsolução $\\pu{0,025 mol.L-1}$ de $\\ce{HCl}$, mas usa um balão volumétrico\nde $\\pu{500 mL}$ por engano.\n\n**Assinale** a alternativa que mais se aproxima da diferença entre o pH\nda solução desejada e o pH da solução preparada.\n",
+        "tex": "Um técnico de laboratório descuidado quer preparar {\\(\\qty{250}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,025}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)},\nmas usa um balão volumétrico de {\\(\\qty{500}{\\unit{mL}}\\)} por engano.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da diferença entre o pH da solução desejada e o pH da solução preparada.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,3}\\)</span>",
+          "md": "$\\pu{0,3}$",
+          "tex": "\\(\\num{0,3}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,39}\\)</span>",
+          "md": "$\\pu{0,39}$",
+          "tex": "\\(\\num{0,39}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,51}\\)</span>",
+          "md": "$\\pu{0,51}$",
+          "tex": "\\(\\num{0,51}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,67}\\)</span>",
+          "md": "$\\pu{0,67}$",
+          "tex": "\\(\\num{0,67}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,87}\\)</span>",
+          "md": "$\\pu{0,87}$",
+          "tex": "\\(\\num{0,87}\\)"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "2G28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G28/2G28.md",
-      "date": "2023-05-04T19:27:21.701059",
+      "date": "2023-05-06T20:31:19.553591",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G28-1D.svg\"/></li>\n<li><img src=\"2G28-2D.svg\"/></li>\n<li><img src=\"2G28-3D.svg\"/></li>\n<li><img src=\"2G28-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
+        "md": "Considere os compostos.\n\n1.  ![](2G28-1D.svg)\n2.  ![](2G28-2D.svg)\n3.  ![](2G28-3D.svg)\n4.  ![](2G28-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{blue} H_A})-[1]-[-1](=[-3,,,,fix]O)-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{blue} H_A})-[1](=[3,,,,fix]O)-[-1]-[1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]*6(----N=(-{\\color{red} H_B})-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]*6(---N(-{\\color{red} H_B})-=N-)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G02",
@@ -22712,17 +23452,43 @@
     {
       "id_": "2G21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G21/2G21.md",
-      "date": "2023-05-04T19:27:21.641059",
+      "date": "2023-05-06T20:09:33.443744",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{HCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2O}\\)</span> e <span class=\"math inline\">\\(\\ce{H2S}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{H2O}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> e <span class=\"math inline\">\\(\\ce{CH4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HF}$ e $\\ce{HCl}$\n2.  $\\ce{H2O}$ e $\\ce{H2S}$\n3.  $\\ce{HF}$ e $\\ce{H2O}$\n4.  $\\ce{NH3}$ e $\\ce{CH4}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{HCl}\\)}\n\\item\n  {\\(\\ce{H2O}\\)} e {\\(\\ce{H2S}\\)}\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{H2O}\\)}\n\\item\n  {\\(\\ce{NH3}\\)} e {\\(\\ce{CH4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G04",
