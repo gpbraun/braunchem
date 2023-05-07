@@ -1,3 +1,4 @@
+import argparse
 import logging
 import shutil
 from pathlib import Path
@@ -10,7 +11,7 @@ from braunchem.topic import TopicSet
 WEB_PATH = Path("/home/braun/Documents/Developer/braunchem-web")
 
 
-def main():
+def update_database(topic_id):
     logging.basicConfig(level=logging.INFO, filename="bin/main.log", filemode="w")
 
     config.load_config("bin/config.cfg")
@@ -18,8 +19,6 @@ def main():
     problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR, force_update=False)
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     FocusSet.parse_database(config.FOCUSES_DIR)
-
-    topic_id = "2G"
 
     topic_db[topic_id].write_pdf(
         problem_db,
@@ -44,6 +43,15 @@ def main():
     shutil.copytree(
         config.IMAGES_DIR, WEB_PATH.joinpath("public", "images"), dirs_exist_ok=True
     )
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("filename")
+    args = parser.parse_args()
+    topic_id = args.filename[:2]
+
+    update_database(topic_id)
 
 
 if __name__ == "__main__":

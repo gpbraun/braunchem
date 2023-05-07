@@ -22,5 +22,8 @@
     ],
     "markdown.styles": [
         ".vscode/mdstyle.css"
-    ]
+    ],
+    "code-runner.executorMap": {
+        "markdown": "python bin/main.py $fileNameWithoutExt"
+    },
 }
