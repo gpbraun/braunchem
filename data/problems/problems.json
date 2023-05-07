@@ -22386,11 +22386,11 @@
     {
       "id_": "2G10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G10/2G10.md",
-      "date": "2023-05-04T20:04:36.799765",
+      "date": "2023-05-07T19:22:44.882545",
       "statement": {
-        "html": "<p>O pOH de uma solução de detergente é <span class=\"math inline\">\\(\\pu{9,6}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH\ndessa solução.</p>",
-        "md": "O pOH de uma solução de detergente é $\\pu{9,6}$ em $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do pH dessa solução.\n",
-        "tex": "O pOH de uma solução de detergente é {\\(\\num{9,6}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH dessa solução.\n"
+        "html": "<p>O pOH de uma solução de detergente é <span class=\"math inline\">\\(\\pu{9,6}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "O pOH de uma solução de detergente é $\\pu{9,6}$ em $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "O pOH de uma solução de detergente é {\\(\\num{9,6}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -22423,6 +22423,47 @@
         }
       ],
       "correct_choice": 1
+    },
+    {
+      "id_": "2G33",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G33/2G33.md",
+      "date": "2023-05-07T16:18:09.625602",
+      "statement": {
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{5e-8\nmol.L-1}\\)</span> de ácido perclórico, <span class=\"math inline\">\\(\\ce{HClO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{5e-8 mol.L-1}$ de ácido perclórico,\n$\\ce{HClO4}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{5e-8}{\\unit{mol.L^{-1}}}\\)} de ácido perclórico, {\\(\\ce{HClO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{2,0E-8 mol.L-1}$",
+          "tex": "\\(\\qty{2,0E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5,0E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{5,0E-8 mol.L-1}$",
+          "tex": "\\(\\qty{5,0E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,3E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{1,3E-7 mol.L-1}$",
+          "tex": "\\(\\qty{1,3E-7}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,4E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{3,4E-7 mol.L-1}$",
+          "tex": "\\(\\qty{3,4E-7}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,6E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{8,6E-7 mol.L-1}$",
+          "tex": "\\(\\qty{8,6E-7}{\\unit{mol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G27",
@@ -22699,11 +22740,11 @@
     {
       "id_": "2G09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G09/2G09.md",
-      "date": "2023-05-04T20:04:05.098868",
+      "date": "2023-05-07T19:22:40.034791",
       "statement": {
-        "html": "<p>O pH de uma solução de ácido clorídrico é <span class=\"math inline\">\\(\\pu{3,4}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pOH\ndessa solução.</p>",
-        "md": "O pH de uma solução de ácido clorídrico é $\\pu{3,4}$ em\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do pOH dessa solução.\n",
-        "tex": "O pH de uma solução de ácido clorídrico é {\\(\\num{3,4}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pOH dessa solução.\n"
+        "html": "<p>O pH de uma solução de ácido clorídrico é <span class=\"math inline\">\\(\\pu{3,4}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pOH\nda solução.</p>",
+        "md": "O pH de uma solução de ácido clorídrico é $\\pu{3,4}$ em\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do pOH da solução.\n",
+        "tex": "O pH de uma solução de ácido clorídrico é {\\(\\num{3,4}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pOH da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -22736,6 +22777,47 @@
         }
       ],
       "correct_choice": 3
+    },
+    {
+      "id_": "2G36",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G36/2G36.md",
+      "date": "2023-05-07T19:23:42.947157",
+      "statement": {
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{8e-7\nmol.L-1}\\)</span> de amida de sódio, <span class=\"math inline\">\\(\\ce{NaNH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{8e-7 mol.L-1}$ de amida de sódio,\n$\\ce{NaNH2}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{8e-7}{\\unit{mol.L^{-1}}}\\)} de amida de sódio, {\\(\\ce{NaNH2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,3E-9 mol.L-1}\\)</span>",
+          "md": "$\\pu{4,3E-9 mol.L-1}$",
+          "tex": "\\(\\qty{4,3E-9}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,2E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{1,2E-8 mol.L-1}$",
+          "tex": "\\(\\qty{1,2E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,3E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{3,3E-8 mol.L-1}$",
+          "tex": "\\(\\qty{3,3E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,3E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{9,3E-8 mol.L-1}$",
+          "tex": "\\(\\qty{9,3E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,6E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{2,6E-7 mol.L-1}$",
+          "tex": "\\(\\qty{2,6E-7}{\\unit{mol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2G30",
@@ -22777,6 +22859,47 @@
         }
       ],
       "correct_choice": 4
+    },
+    {
+      "id_": "2G34",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G34/2G34.md",
+      "date": "2023-05-07T16:18:38.694369",
+      "statement": {
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{2e-7\nmol.L-1}\\)</span> de ácido bromídrico, <span class=\"math inline\">\\(\\ce{HBr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{2e-7 mol.L-1}$ de ácido bromídrico,\n$\\ce{HBr}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{2e-7}{\\unit{mol.L^{-1}}}\\)} de ácido bromídrico, {\\(\\ce{HBr}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,8E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{3,8E-8 mol.L-1}$",
+          "tex": "\\(\\qty{3,8E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,5E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{9,5E-8 mol.L-1}$",
+          "tex": "\\(\\qty{9,5E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,4E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{2,4E-7 mol.L-1}$",
+          "tex": "\\(\\qty{2,4E-7}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,1E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{6,1E-7 mol.L-1}$",
+          "tex": "\\(\\qty{6,1E-7}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5E-6 mol.L-1}\\)</span>",
+          "md": "$\\pu{1,5E-6 mol.L-1}$",
+          "tex": "\\(\\qty{1,5E-6}{\\unit{mol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2G03",
@@ -23012,6 +23135,47 @@
         }
       ],
       "correct_choice": 1
+    },
+    {
+      "id_": "2G35",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G35/2G35.md",
+      "date": "2023-05-07T19:23:57.258573",
+      "statement": {
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{9e-8\nmol.L-1}\\)</span> de hidróxido de potássio, <span class=\"math inline\">\\(\\ce{KOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{9e-8 mol.L-1}$ de hidróxido de potássio,\n$\\ce{KOH}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{9e-8}{\\unit{mol.L^{-1}}}\\)} de hidróxido de potássio, {\\(\\ce{KOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5E-9 mol.L-1}\\)</span>",
+          "md": "$\\pu{3,5E-9 mol.L-1}$",
+          "tex": "\\(\\qty{3,5E-9}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,3E-9 mol.L-1}\\)</span>",
+          "md": "$\\pu{9,3E-9 mol.L-1}$",
+          "tex": "\\(\\qty{9,3E-9}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{2,5E-8 mol.L-1}$",
+          "tex": "\\(\\qty{2,5E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,5E-8 mol.L-1}\\)</span>",
+          "md": "$\\pu{6,5E-8 mol.L-1}$",
+          "tex": "\\(\\qty{6,5E-8}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,7E-7 mol.L-1}\\)</span>",
+          "md": "$\\pu{1,7E-7 mol.L-1}$",
+          "tex": "\\(\\qty{1,7E-7}{\\unit{mol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2G17",

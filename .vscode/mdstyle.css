@@ -1,0 +1,6 @@
+img {
+  filter: invert(1) hue-rotate(180deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
