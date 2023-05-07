@@ -1168,7 +1168,9 @@
 
         \dim_set:Nn \lightrulewidth {1pt}
 
+        % \rowcolors{1}{black!5}{}
         \begin{tabular} [#1] { @{\hspace{1ex}} #2 @{\hspace{1ex}} } 
+          % \rowcolor{}
           #3
         \end{tabular}
       }
