@@ -1,5 +1,9 @@
 {
     "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "markdown": "$pythonPath bin/main.py $fileNameWithoutExt"
+    },
+    "code-runner.ignoreSelection": true,
     "latex-workshop.latex.autoBuild.run": "never",
     "python.formatting.provider": "black",
     "python.analysis.typeCheckingMode": "off",
@@ -23,7 +27,4 @@
     "markdown.styles": [
         ".vscode/mdstyle.css"
     ],
-    "code-runner.executorMap": {
-        "markdown": "python bin/main.py $fileNameWithoutExt"
-    },
 }

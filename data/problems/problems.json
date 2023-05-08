@@ -2712,6 +2712,916 @@
       "correct_choice": 3
     },
     {
+      "id_": "1G06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G06/1G06.md",
+      "date": "2023-05-08T04:20:07.900225",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{H2S}\\)</span> e <span class=\"math inline\">\\(\\ce{H2Se}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaCl}\\)</span> e <span class=\"math inline\">\\(\\ce{CHCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> e <span class=\"math inline\">\\(\\ce{PH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SiH4}\\)</span> e <span class=\"math inline\">\\(\\ce{SiF4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
+        "md": "Considere os pares de substâncias.\n\n1.  $\\ce{H2S}$ e $\\ce{H2Se}$\n2.  $\\ce{NaCl}$ e $\\ce{CHCl3}$\n3.  $\\ce{NH3}$ e $\\ce{PH3}$\n4.  $\\ce{SiH4}$ e $\\ce{SiF4}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
+        "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{H2S}\\)} e {\\(\\ce{H2Se}\\)}\n\\item\n  {\\(\\ce{NaCl}\\)} e {\\(\\ce{CHCl3}\\)}\n\\item\n  {\\(\\ce{NH3}\\)} e {\\(\\ce{PH3}\\)}\n\\item\n  {\\(\\ce{SiH4}\\)} e {\\(\\ce{SiF4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G16/1G16.md",
+      "date": "2023-05-08T04:03:50.844940",
+      "statement": {
+        "html": "<p>Considere os compostos acetaldeído, <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>, etanol, <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span> e propano, <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de pressão de vapor em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
+        "md": "Considere os compostos acetaldeído, $\\ce{CH3CHO}$, etanol,\n$\\ce{CH3CH2OH}$ e propano, $\\ce{CH3CH2CH3}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de pressão de vapor em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere os compostos acetaldeído, {\\(\\ce{CH3CHO}\\)}, etanol, {\\(\\ce{CH3CH2OH}\\)} e propano, {\\(\\ce{CH3CH2CH3}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de pressão de vapor em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": {
+        "html": "<p>Primeiro analisamos as forças intermoleculares: <span class=\"math inline\">\\(CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}\\)</span>\n<span class=\"math inline\">\\(CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}\\)</span> <span class=\"math inline\">\\(CH_{3}CH_{2}CH_{3}\\rightarrow\n\\text{dipolo-induzido}\\)</span> Quanto mais intensa a força, menor a\npressão de vapor. <span class=\"math display\">\\[F_{\\text{etanol}}&gt;F_{\\text{acetaldeído}}&gt;F_{\\text{propano}}\\]</span>\n<span class=\"math display\">\\[P_{\\text{etanol}}&lt;P_{\\text{acetaldeído}}&lt;P_{\\text{propano}}\\]</span>\nGabarito: C (difere do gabarito)</p>",
+        "md": "Primeiro analisamos as forças intermoleculares:\n$CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}$\n$CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}$ $CH_{3}CH_{2}CH_{3}\\rightarrow \\text{dipolo-induzido}$\nQuanto mais intensa a força, menor a pressão de vapor.\n$$F_{\\text{etanol}}>F_{\\text{acetaldeído}}>F_{\\text{propano}}$$\n$$P_{\\text{etanol}}<P_{\\text{acetaldeído}}<P_{\\text{propano}}$$\nGabarito: C (difere do gabarito)\n",
+        "tex": "Primeiro analisamos as forças intermoleculares: {\\(CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}\\)} {\\(CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}\\)} {\\(CH_{3}CH_{2}CH_{3}\\rightarrow \\text{dipolo-induzido}\\)} Quanto mais intensa a força, menor a pressão de vapor.\n{\\[F_{\\text{etanol}}>F_{\\text{acetaldeído}}>F_{\\text{propano}}\\]} {\\[P_{\\text{etanol}}<P_{\\text{acetaldeído}}<P_{\\text{propano}}\\]} Gabarito: C\n(difere do gabarito)\n"
+      },
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.",
+          "md": "$\\ce{CH3CH2CH3}$; $\\ce{CH3CHO}$; $\\ce{CH3CH2OH}$.\n",
+          "tex": "{\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>.",
+          "md": "$\\ce{CH3CH2OH}$; $\\ce{CH3CH2CH3}$; $\\ce{CH3CHO}$.\n",
+          "tex": "{\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CHO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.",
+          "md": "$\\ce{CH3CHO}$; $\\ce{CH3CH2OH}$; $\\ce{CH3CH2CH3}$.\n",
+          "tex": "{\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CH2CH3}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>.",
+          "md": "$\\ce{CH3CH2CH3}$; $\\ce{CH3CH2OH}$; $\\ce{CH3CHO}$.\n",
+          "tex": "{\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CHO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.",
+          "md": "$\\ce{CH3CH2OH}$; $\\ce{CH3CHO}$; $\\ce{CH3CH2CH3}$.\n",
+          "tex": "{\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2CH3}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1G11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G11/1G11.md",
+      "date": "2023-05-08T03:24:27.098033",
+      "statement": {
+        "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HBr}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HNO2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\nque formar ligações de hidrogênio.</p>",
+        "md": "Considere as moléculas.\n\n1.  $\\ce{PH3}$\n2.  $\\ce{HBr}$\n3.  $\\ce{C2H4}$\n4.  $\\ce{HNO2}$\n\n**Assinale** a alternativa que relaciona as moléculas que formar\nligações de hidrogênio.\n",
+        "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PH3}\\)}\n\\item\n  {\\(\\ce{HBr}\\)}\n\\item\n  {\\(\\ce{C2H4}\\)}\n\\item\n  {\\(\\ce{HNO2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas que formar ligações de hidrogênio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1G20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G20/1G20.md",
+      "date": "2023-05-08T04:08:06.877440",
+      "statement": {
+        "html": "<p>Considere os grupos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{-OH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-CH2CH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-CONH2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-Cl}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os grupos\nhidrofóbicos.</p>",
+        "md": "Considere os grupos.\n\n1.  $\\ce{-OH}$\n2.  $\\ce{-CH2CH3}$\n3.  $\\ce{-CONH2}$\n4.  $\\ce{-Cl}$\n\n**Assinale** a alternativa que relaciona os grupos hidrofóbicos.\n",
+        "tex": "Considere os grupos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{-OH}\\)}\n\\item\n  {\\(\\ce{-CH2CH3}\\)}\n\\item\n  {\\(\\ce{-CONH2}\\)}\n\\item\n  {\\(\\ce{-Cl}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os grupos hidrofóbicos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G01/1G01.md",
+      "date": "2023-05-08T03:08:58.252768",
+      "statement": {
+        "html": "<p>Considere as substâncias: <span class=\"math inline\">\\(\\ce{NH2OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>, <span class=\"math inline\">\\(\\ce{H2SeO4}\\)</span> e <span class=\"math inline\">\\(\\ce{SO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de força\nintermolecular predominante entre as moléculas de cada substância,\nrespectivamente.</p>",
+        "md": "Considere as substâncias: $\\ce{NH2OH}$, $\\ce{CBr4}$, $\\ce{H2SeO4}$ e\n$\\ce{SO2}$.\n\n**Assinale** a alternativa com o tipo de força intermolecular\npredominante entre as moléculas de cada substância, respectivamente.\n",
+        "tex": "Considere as substâncias: {\\(\\ce{NH2OH}\\)}, {\\(\\ce{CBr4}\\)}, {\\(\\ce{H2SeO4}\\)} e {\\(\\ce{SO2}\\)}.\n\n\\textbf{Assinale} a alternativa com o tipo de força intermolecular predominante entre as moléculas de cada substância, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "ligações de hidrogênio; ligações de hidrogênio; forças\nde London; dipolo-dipolo.",
+          "md": "ligações de hidrogênio; ligações de hidrogênio; forças de London;\ndipolo-dipolo.\n",
+          "tex": "ligações de hidrogênio; ligações de hidrogênio; forças de London; dipolo-dipolo.\n"
+        },
+        {
+          "html": "ligações de hidrogênio; forças\nde London; dipolo-dipolo; ligações de hidrogênio.",
+          "md": "ligações de hidrogênio; forças de London; dipolo-dipolo; ligações de\nhidrogênio.\n",
+          "tex": "ligações de hidrogênio; forças de London; dipolo-dipolo; ligações de hidrogênio.\n"
+        },
+        {
+          "html": "forças\nde London; dipolo-dipolo; ligações de hidrogênio; ligações de hidrogênio.",
+          "md": "forças de London; dipolo-dipolo; ligações de hidrogênio; ligações de\nhidrogênio.\n",
+          "tex": "forças de London; dipolo-dipolo; ligações de hidrogênio; ligações de hidrogênio.\n"
+        },
+        {
+          "html": "ligações de hidrogênio; forças\nde London; ligações de hidrogênio; dipolo-dipolo.",
+          "md": "ligações de hidrogênio; forças de London; ligações de hidrogênio;\ndipolo-dipolo.\n",
+          "tex": "ligações de hidrogênio; forças de London; ligações de hidrogênio; dipolo-dipolo.\n"
+        },
+        {
+          "html": "ligações de hidrogênio; ligações de hidrogênio; dipolo-dipolo; forças\nde London.",
+          "md": "ligações de hidrogênio; ligações de hidrogênio; dipolo-dipolo; forças de\nLondon.\n",
+          "tex": "ligações de hidrogênio; ligações de hidrogênio; dipolo-dipolo; forças de London.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1G21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G21/1G21.md",
+      "date": "2023-05-08T04:21:12.781707",
+      "statement": {
+        "html": "<p>Considere os compostos <span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>, <span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span> e <span class=\"math inline\">\\(\\ce{C6H6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de viscosidade em <span class=\"math inline\">\\(\\pu{50 \\degree C}\\)</span>.</p>",
+        "md": "Considere os compostos $\\ce{C6H5SH}$, $\\ce{C6H5OH}$ e $\\ce{C6H6}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de viscosidade em $\\pu{50 \\degree C}$.\n",
+        "tex": "Considere os compostos {\\(\\ce{C6H5SH}\\)}, {\\(\\ce{C6H5OH}\\)} e {\\(\\ce{C6H6}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de viscosidade em {\\(\\qty{50}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H6}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>.",
+          "md": "$\\ce{C6H6}$; $\\ce{C6H5OH}$; $\\ce{C6H5SH}$.\n",
+          "tex": "{\\(\\ce{C6H6}\\)}; {\\(\\ce{C6H5OH}\\)}; {\\(\\ce{C6H5SH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H6}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>.",
+          "md": "$\\ce{C6H5SH}$; $\\ce{C6H6}$; $\\ce{C6H5OH}$.\n",
+          "tex": "{\\(\\ce{C6H5SH}\\)}; {\\(\\ce{C6H6}\\)}; {\\(\\ce{C6H5OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H6}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>.",
+          "md": "$\\ce{C6H6}$; $\\ce{C6H5SH}$; $\\ce{C6H5OH}$.\n",
+          "tex": "{\\(\\ce{C6H6}\\)}; {\\(\\ce{C6H5SH}\\)}; {\\(\\ce{C6H5OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H6}\\)</span>.",
+          "md": "$\\ce{C6H5OH}$; $\\ce{C6H5SH}$; $\\ce{C6H6}$.\n",
+          "tex": "{\\(\\ce{C6H5OH}\\)}; {\\(\\ce{C6H5SH}\\)}; {\\(\\ce{C6H6}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>; <span class=\"math inline\">\\(\\ce{C6H6}\\)</span>.",
+          "md": "$\\ce{C6H5SH}$; $\\ce{C6H5OH}$; $\\ce{C6H6}$.\n",
+          "tex": "{\\(\\ce{C6H5SH}\\)}; {\\(\\ce{C6H5OH}\\)}; {\\(\\ce{C6H6}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G18/1G18.md",
+      "date": "2023-05-08T04:06:30.884327",
+      "statement": {
+        "html": "<p>As substâncias a seguir devem ser dissolvidas em tetracloreto de\ncarbono ou água.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HNO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{N2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Br2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\npara as quais água é o melhor solvente.</p>",
+        "md": "As substâncias a seguir devem ser dissolvidas em tetracloreto de carbono\nou água.\n\n1.  $\\ce{NH3}$\n2.  $\\ce{HNO3}$\n3.  $\\ce{N2}$\n4.  $\\ce{Br2}$\n\n**Assinale** a alternativa que relaciona as substâncias para as quais\nágua é o melhor solvente.\n",
+        "tex": "As substâncias a seguir devem ser dissolvidas em tetracloreto de carbono ou água.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{NH3}\\)}\n\\item\n  {\\(\\ce{HNO3}\\)}\n\\item\n  {\\(\\ce{N2}\\)}\n\\item\n  {\\(\\ce{Br2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias para as quais água é o melhor solvente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1",
+          "md": "**1**",
+          "tex": "\\textbf{1}"
+        },
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G13/1G13.md",
+      "date": "2023-05-08T03:28:32.723222",
+      "statement": {
+        "html": "<p>Considere as propriedades.</p>\n<ol type=\"1\">\n<li>Ponto de ebulição.</li>\n<li>Viscosidade.</li>\n<li>Tensão superficial.</li>\n<li>Pressão de vapor.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as propriedades\nque aumentam com o aumento da intensidade das forças\nintermoleculares.</p>",
+        "md": "Considere as propriedades.\n\n1.  Ponto de ebulição.\n2.  Viscosidade.\n3.  Tensão superficial.\n4.  Pressão de vapor.\n\n**Assinale** a alternativa que relaciona as propriedades que aumentam\ncom o aumento da intensidade das forças intermoleculares.\n",
+        "tex": "Considere as propriedades.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ponto de ebulição.\n\\item\n  Viscosidade.\n\\item\n  Tensão superficial.\n\\item\n  Pressão de vapor.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as propriedades que aumentam com o aumento da intensidade das forças intermoleculares.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1G07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G07/1G07.md",
+      "date": "2023-05-08T04:20:59.349413",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PBr3}\\)</span> e <span class=\"math inline\">\\(\\ce{PF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> e <span class=\"math inline\">\\(\\ce{O3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span> e <span class=\"math inline\">\\(\\ce{BCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{AsF3}\\)</span> e <span class=\"math inline\">\\(\\ce{AsF5}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
+        "md": "Considere os pares de substâncias.\n\n1.  $\\ce{PBr3}$ e $\\ce{PF3}$\n2.  $\\ce{SO2}$ e $\\ce{O3}$\n3.  $\\ce{BF3}$ e $\\ce{BCl3}$\n4.  $\\ce{AsF3}$ e $\\ce{AsF5}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
+        "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PBr3}\\)} e {\\(\\ce{PF3}\\)}\n\\item\n  {\\(\\ce{SO2}\\)} e {\\(\\ce{O3}\\)}\n\\item\n  {\\(\\ce{BF3}\\)} e {\\(\\ce{BCl3}\\)}\n\\item\n  {\\(\\ce{AsF3}\\)} e {\\(\\ce{AsF5}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1G12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G12/1G12.md",
+      "date": "2023-05-08T03:24:57.349687",
+      "statement": {
+        "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2CH2OH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\nque formar ligações de hidrogênio.</p>",
+        "md": "Considere as moléculas.\n\n1.  $\\ce{CH3OCH3}$\n2.  $\\ce{CH3COOH}$\n3.  $\\ce{CH2CH2OH}$\n4.  $\\ce{CH3CHO}$\n\n**Assinale** a alternativa que relaciona as moléculas que formar\nligações de hidrogênio.\n",
+        "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3OCH3}\\)}\n\\item\n  {\\(\\ce{CH3COOH}\\)}\n\\item\n  {\\(\\ce{CH2CH2OH}\\)}\n\\item\n  {\\(\\ce{CH3CHO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas que formar ligações de hidrogênio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G04/1G04.md",
+      "date": "2023-05-08T03:12:08.522545",
+      "statement": {
+        "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{O2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{O3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nque as interações dipolo-dipolo são predominantes.</p>",
+        "md": "Considere as moléculas.\n\n1.  $\\ce{O2}$\n2.  $\\ce{O3}$\n3.  $\\ce{CO2}$\n4.  $\\ce{SO2}$\n\n**Assinale** a alternativa que relaciona as moléculas em que as\ninterações dipolo-dipolo são predominantes.\n",
+        "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{O2}\\)}\n\\item\n  {\\(\\ce{O3}\\)}\n\\item\n  {\\(\\ce{CO2}\\)}\n\\item\n  {\\(\\ce{SO2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em que as interações dipolo-dipolo são predominantes.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G10/1G10.md",
+      "date": "2023-05-08T03:23:34.854632",
+      "statement": {
+        "html": "<p>Considere as substâncias: 2-metilpentano, 3-metilpentano,\n2,2-dimetilpentano e 2,3-dimetilpentano.</p>\n<p><strong>Assinale</strong> a alternativa com que relaciona os\ncompostos em ordem <em>decrescente</em> de temperatura de ebulição.</p>",
+        "md": "Considere as substâncias: 2-metilpentano, 3-metilpentano,\n2,2-dimetilpentano e 2,3-dimetilpentano.\n\n**Assinale** a alternativa com que relaciona os compostos em ordem\n*decrescente* de temperatura de ebulição.\n",
+        "tex": "Considere as substâncias: 2-metilpentano, 3-metilpentano, 2,2-dimetilpentano e 2,3-dimetilpentano.\n\n\\textbf{Assinale} a alternativa com que relaciona os compostos em ordem \\emph{decrescente} de temperatura de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2-metilpentano; 3-metilpentano; 2,3-dimetilpentano; 2,2-dimetilpentano.",
+          "md": "2-metilpentano; 3-metilpentano; 2,3-dimetilpentano; 2,2-dimetilpentano.\n",
+          "tex": "2-metilpentano; 3-metilpentano; 2,3-dimetilpentano; 2,2-dimetilpentano.\n"
+        },
+        {
+          "html": "2,3-dimetilpentano; 3-metilpentano; 2-metilpentano; 2,2-dimetilpentano.",
+          "md": "2,3-dimetilpentano; 3-metilpentano; 2-metilpentano; 2,2-dimetilpentano.\n",
+          "tex": "2,3-dimetilpentano; 3-metilpentano; 2-metilpentano; 2,2-dimetilpentano.\n"
+        },
+        {
+          "html": "2,3-dimetilpentano; 2,2-dimetilpentano; 3-metilpentano; 2-metilpentano.",
+          "md": "2,3-dimetilpentano; 2,2-dimetilpentano; 3-metilpentano; 2-metilpentano.\n",
+          "tex": "2,3-dimetilpentano; 2,2-dimetilpentano; 3-metilpentano; 2-metilpentano.\n"
+        },
+        {
+          "html": "2-metilpentano; 3-metilpentano; 2,2-dimetilpentano; 2,3-dimetilpentano.",
+          "md": "2-metilpentano; 3-metilpentano; 2,2-dimetilpentano; 2,3-dimetilpentano.\n",
+          "tex": "2-metilpentano; 3-metilpentano; 2,2-dimetilpentano; 2,3-dimetilpentano.\n"
+        },
+        {
+          "html": "2,2-dimetilpentano; 2,3-dimetilpentano; 2-metilpentano; 3-metilpentano.",
+          "md": "2,2-dimetilpentano; 2,3-dimetilpentano; 2-metilpentano; 3-metilpentano.\n",
+          "tex": "2,2-dimetilpentano; 2,3-dimetilpentano; 2-metilpentano; 3-metilpentano.\n"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "1G03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G03/1G03.md",
+      "date": "2023-05-08T03:11:37.182909",
+      "statement": {
+        "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3Cl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2Cl2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CHCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CCl4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nque as interações dipolo-dipolo são predominantes.</p>",
+        "md": "Considere as moléculas.\n\n1.  $\\ce{CH3Cl3}$\n2.  $\\ce{CH2Cl2}$\n3.  $\\ce{CHCl3}$\n4.  $\\ce{CCl4}$\n\n**Assinale** a alternativa que relaciona as moléculas em que as\ninterações dipolo-dipolo são predominantes.\n",
+        "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3Cl3}\\)}\n\\item\n  {\\(\\ce{CH2Cl2}\\)}\n\\item\n  {\\(\\ce{CHCl3}\\)}\n\\item\n  {\\(\\ce{CCl4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em que as interações dipolo-dipolo são predominantes.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1G14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G14/1G14.md",
+      "date": "2023-05-08T03:34:34.702365",
+      "statement": {
+        "html": "<p>Considere as propriedades.</p>\n<ol type=\"1\">\n<li>Ponto de ebulição.</li>\n<li>Viscosidade.</li>\n<li>Tensão superficial.</li>\n<li>Pressão de vapor.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as propriedades\nque aumentam com o aumento da intensidade das forças\nintermoleculares.</p>",
+        "md": "Considere as propriedades.\n\n1.  Ponto de ebulição.\n2.  Viscosidade.\n3.  Tensão superficial.\n4.  Pressão de vapor.\n\n**Assinale** a alternativa que relaciona as propriedades que aumentam\ncom o aumento da intensidade das forças intermoleculares.\n",
+        "tex": "Considere as propriedades.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ponto de ebulição.\n\\item\n  Viscosidade.\n\\item\n  Tensão superficial.\n\\item\n  Pressão de vapor.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as propriedades que aumentam com o aumento da intensidade das forças intermoleculares.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
+        {
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1G05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G05/1G05.md",
+      "date": "2023-05-08T04:11:54.581534",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl}\\)</span> e <span class=\"math inline\">\\(\\ce{NaCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C2H5OC2H5}\\)</span> e <span class=\"math inline\">\\(\\ce{C4H9OH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CHI3}\\)</span> e <span class=\"math inline\">\\(\\ce{CHF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span> e <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
+        "md": "Considere os pares de substâncias.\n\n1.  $\\ce{HCl}$ e $\\ce{NaCl}$\n2.  $\\ce{C2H5OC2H5}$ e $\\ce{C4H9OH}$\n3.  $\\ce{CHI3}$ e $\\ce{CHF3}$\n4.  $\\ce{C2H4}$ e $\\ce{CH3OH}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
+        "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl}\\)} e {\\(\\ce{NaCl}\\)}\n\\item\n  {\\(\\ce{C2H5OC2H5}\\)} e {\\(\\ce{C4H9OH}\\)}\n\\item\n  {\\(\\ce{CHI3}\\)} e {\\(\\ce{CHF3}\\)}\n\\item\n  {\\(\\ce{C2H4}\\)} e {\\(\\ce{CH3OH}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "1G08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G08/1G08.md",
+      "date": "2023-05-08T04:21:09.257631",
+      "statement": {
+        "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span> e <span class=\"math inline\">\\(\\ce{ClF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SF4}\\)</span> e <span class=\"math inline\">\\(\\ce{CF4}\\)</span></li>\n<li><em>cis</em>-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span> e <em>trans</em>-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NO2}\\)</span> e <span class=\"math inline\">\\(\\ce{N2O}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
+        "md": "Considere os pares de substâncias.\n\n1.  $\\ce{BF3}$ e $\\ce{ClF3}$\n2.  $\\ce{SF4}$ e $\\ce{CF4}$\n3.  *cis*-$\\ce{CHCl=CHCl}$ e *trans*-$\\ce{CHCl=CHCl}$\n4.  $\\ce{NO2}$ e $\\ce{N2O}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
+        "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{BF3}\\)} e {\\(\\ce{ClF3}\\)}\n\\item\n  {\\(\\ce{SF4}\\)} e {\\(\\ce{CF4}\\)}\n\\item\n  \\emph{cis}-{\\(\\ce{CHCl=CHCl}\\)} e \\emph{trans}-{\\(\\ce{CHCl=CHCl}\\)}\n\\item\n  {\\(\\ce{NO2}\\)} e {\\(\\ce{N2O}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "2 e 3",
+          "md": "**2** e **3**",
+          "tex": "\\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "1G09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G09/1G09.md",
+      "date": "2023-05-08T03:23:31.694668",
+      "statement": {
+        "html": "<p>Considere as substâncias: <span class=\"math inline\">\\(\\ce{Br2}\\)</span>, <span class=\"math inline\">\\(\\ce{Hg}\\)</span>, <span class=\"math inline\">\\(\\ce{CO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com que relaciona os\ncompostos em ordem <em>crescente</em> de temperatura de ebulição.</p>",
+        "md": "Considere as substâncias: $\\ce{Br2}$, $\\ce{Hg}$, $\\ce{CO2}$.\n\n**Assinale** a alternativa com que relaciona os compostos em ordem\n*crescente* de temperatura de ebulição.\n",
+        "tex": "Considere as substâncias: {\\(\\ce{Br2}\\)}, {\\(\\ce{Hg}\\)}, {\\(\\ce{CO2}\\)}.\n\n\\textbf{Assinale} a alternativa com que relaciona os compostos em ordem \\emph{crescente} de temperatura de ebulição.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{Br2}\\)</span>; <span class=\"math inline\">\\(\\ce{Hg}\\)</span>..",
+          "md": "$\\ce{CO2}$; $\\ce{Br2}$; $\\ce{Hg}$..\n",
+          "tex": "{\\(\\ce{CO2}\\)}; {\\(\\ce{Br2}\\)}; {\\(\\ce{Hg}\\)}..\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Hg}\\)</span>.; <span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{Br2}\\)</span>.",
+          "md": "$\\ce{Hg}$.; $\\ce{CO2}$; $\\ce{Br2}$.\n",
+          "tex": "{\\(\\ce{Hg}\\)}.; {\\(\\ce{CO2}\\)}; {\\(\\ce{Br2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Br2}\\)</span>; <span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{Hg}\\)</span>..",
+          "md": "$\\ce{Br2}$; $\\ce{CO2}$; $\\ce{Hg}$..\n",
+          "tex": "{\\(\\ce{Br2}\\)}; {\\(\\ce{CO2}\\)}; {\\(\\ce{Hg}\\)}..\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CO2}\\)</span>; <span class=\"math inline\">\\(\\ce{Hg}\\)</span>.; <span class=\"math inline\">\\(\\ce{Br2}\\)</span>.",
+          "md": "$\\ce{CO2}$; $\\ce{Hg}$.; $\\ce{Br2}$.\n",
+          "tex": "{\\(\\ce{CO2}\\)}; {\\(\\ce{Hg}\\)}.; {\\(\\ce{Br2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Br2}\\)</span>; <span class=\"math inline\">\\(\\ce{Hg}\\)</span>.; <span class=\"math inline\">\\(\\ce{CO2}\\)</span>.",
+          "md": "$\\ce{Br2}$; $\\ce{Hg}$.; $\\ce{CO2}$.\n",
+          "tex": "{\\(\\ce{Br2}\\)}; {\\(\\ce{Hg}\\)}.; {\\(\\ce{CO2}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1G22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G22/1G22.md",
+      "date": "2023-05-08T04:15:38.756027",
+      "statement": {
+        "html": "<p>Considere os compostos <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span> e <span class=\"math inline\">\\(\\ce{H2O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de viscosidade em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
+        "md": "Considere os compostos $\\ce{CH3CH2OH}$, $\\ce{CH2OHCHOHCH2OH}$,\n$\\ce{CH2OHCH2OH}$ e $\\ce{H2O}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de viscosidade em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere os compostos {\\(\\ce{CH3CH2OH}\\)}, {\\(\\ce{CH2OHCHOHCH2OH}\\)}, {\\(\\ce{CH2OHCH2OH}\\)} e {\\(\\ce{H2O}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de viscosidade em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2O}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.",
+          "md": "$\\ce{CH2OHCH2OH}$; $\\ce{CH2OHCHOHCH2OH}$; $\\ce{H2O}$; $\\ce{CH3CH2OH}$.\n",
+          "tex": "{\\(\\ce{CH2OHCH2OH}\\)}; {\\(\\ce{CH2OHCHOHCH2OH}\\)}; {\\(\\ce{H2O}\\)}; {\\(\\ce{CH3CH2OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2O}\\)</span>.",
+          "md": "$\\ce{CH2OHCH2OH}$; $\\ce{CH2OHCHOHCH2OH}$; $\\ce{CH3CH2OH}$; $\\ce{H2O}$.\n",
+          "tex": "{\\(\\ce{CH2OHCH2OH}\\)}; {\\(\\ce{CH2OHCHOHCH2OH}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{H2O}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{H2O}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>.",
+          "md": "$\\ce{H2O}$; $\\ce{CH3CH2OH}$; $\\ce{CH2OHCH2OH}$; $\\ce{CH2OHCHOHCH2OH}$.\n",
+          "tex": "{\\(\\ce{H2O}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH2OHCH2OH}\\)}; {\\(\\ce{CH2OHCHOHCH2OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2O}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span>.",
+          "md": "$\\ce{CH2OHCHOHCH2OH}$; $\\ce{H2O}$; $\\ce{CH3CH2OH}$; $\\ce{CH2OHCH2OH}$.\n",
+          "tex": "{\\(\\ce{CH2OHCHOHCH2OH}\\)}; {\\(\\ce{H2O}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH2OHCH2OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2O}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>.",
+          "md": "$\\ce{CH2OHCH2OH}$; $\\ce{H2O}$; $\\ce{CH3CH2OH}$; $\\ce{CH2OHCHOHCH2OH}$.\n",
+          "tex": "{\\(\\ce{CH2OHCH2OH}\\)}; {\\(\\ce{H2O}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH2OHCHOHCH2OH}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G17/1G17.md",
+      "date": "2023-05-08T04:05:51.256058",
+      "statement": {
+        "html": "<p>As substâncias a seguir devem ser dissolvidas em benzeno ou água.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{KCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CCl4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H12}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\npara as quais água é o melhor solvente.</p>",
+        "md": "As substâncias a seguir devem ser dissolvidas em benzeno ou água.\n\n1.  $\\ce{KCl}$\n2.  $\\ce{CCl4}$\n3.  $\\ce{CH3COOH}$\n4.  $\\ce{C6H12}$\n\n**Assinale** a alternativa que relaciona as substâncias para as quais\nágua é o melhor solvente.\n",
+        "tex": "As substâncias a seguir devem ser dissolvidas em benzeno ou água.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{KCl}\\)}\n\\item\n  {\\(\\ce{CCl4}\\)}\n\\item\n  {\\(\\ce{CH3COOH}\\)}\n\\item\n  {\\(\\ce{C6H12}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias para as quais água é o melhor solvente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1",
+          "md": "**1**",
+          "tex": "\\textbf{1}"
+        },
+        {
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
+        },
+        {
+          "html": "1 e 3",
+          "md": "**1** e **3**",
+          "tex": "\\textbf{1} e \\textbf{3}"
+        },
+        {
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+        },
+        {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G19/1G19.md",
+      "date": "2023-05-08T04:07:25.769737",
+      "statement": {
+        "html": "<p>Considere os grupos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{-NH2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-CH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-Br}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-COOH}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os grupos\nhidrofílicos.</p>",
+        "md": "Considere os grupos.\n\n1.  $\\ce{-NH2}$\n2.  $\\ce{-CH3}$\n3.  $\\ce{-Br}$\n4.  $\\ce{-COOH}$\n\n**Assinale** a alternativa que relaciona os grupos hidrofílicos.\n",
+        "tex": "Considere os grupos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{-NH2}\\)}\n\\item\n  {\\(\\ce{-CH3}\\)}\n\\item\n  {\\(\\ce{-Br}\\)}\n\\item\n  {\\(\\ce{-COOH}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os grupos hidrofílicos.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "1",
+          "md": "**1**",
+          "tex": "\\textbf{1}"
+        },
+        {
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
+        },
+        {
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2 e 4",
+          "md": "**1**, **2** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "1G02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G02/1G02.md",
+      "date": "2023-05-08T03:09:51.284146",
+      "statement": {
+        "html": "<p>Considere as substâncias: <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{SiH4}\\)</span>, <span class=\"math inline\">\\(\\ce{N2H4}\\)</span> e <span class=\"math inline\">\\(\\ce{CHF3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de força\nintermolecular predominante entre as moléculas de cada substância,\nrespectivamente.</p>",
+        "md": "Considere as substâncias: $\\ce{H2S}$, $\\ce{SiH4}$, $\\ce{N2H4}$ e\n$\\ce{CHF3}$.\n\n**Assinale** a alternativa com o tipo de força intermolecular\npredominante entre as moléculas de cada substância, respectivamente.\n",
+        "tex": "Considere as substâncias: {\\(\\ce{H2S}\\)}, {\\(\\ce{SiH4}\\)}, {\\(\\ce{N2H4}\\)} e {\\(\\ce{CHF3}\\)}.\n\n\\textbf{Assinale} a alternativa com o tipo de força intermolecular predominante entre as moléculas de cada substância, respectivamente.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "dipolo-dipolo; forças de London; ligação de hidrogênio; dipolo-dipolo.",
+          "md": "dipolo-dipolo; forças de London; ligação de hidrogênio; dipolo-dipolo.\n",
+          "tex": "dipolo-dipolo; forças de London; ligação de hidrogênio; dipolo-dipolo.\n"
+        },
+        {
+          "html": "dipolo-dipolo; dipolo-dipolo; forças de London; ligação de hidrogênio.",
+          "md": "dipolo-dipolo; dipolo-dipolo; forças de London; ligação de hidrogênio.\n",
+          "tex": "dipolo-dipolo; dipolo-dipolo; forças de London; ligação de hidrogênio.\n"
+        },
+        {
+          "html": "forças de London; dipolo-dipolo; dipolo-dipolo; ligação de hidrogênio.",
+          "md": "forças de London; dipolo-dipolo; dipolo-dipolo; ligação de hidrogênio.\n",
+          "tex": "forças de London; dipolo-dipolo; dipolo-dipolo; ligação de hidrogênio.\n"
+        },
+        {
+          "html": "forças de London; dipolo-dipolo; ligação de hidrogênio; dipolo-dipolo.",
+          "md": "forças de London; dipolo-dipolo; ligação de hidrogênio; dipolo-dipolo.\n",
+          "tex": "forças de London; dipolo-dipolo; ligação de hidrogênio; dipolo-dipolo.\n"
+        },
+        {
+          "html": "ligação de hidrogênio; dipolo-dipolo; forças de London; dipolo-dipolo.",
+          "md": "ligação de hidrogênio; dipolo-dipolo; forças de London; dipolo-dipolo.\n",
+          "tex": "ligação de hidrogênio; dipolo-dipolo; forças de London; dipolo-dipolo.\n"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "1G15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G15/1G15.md",
+      "date": "2023-05-08T04:03:26.853677",
+      "statement": {
+        "html": "<p>Considere os compostos metano, <span class=\"math inline\">\\(\\ce{CH4}\\)</span>, tetraclorometano, <span class=\"math inline\">\\(\\ce{CCl4}\\)</span> e tetrabromometano, <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de pressão de vapor em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
+        "md": "Considere os compostos metano, $\\ce{CH4}$, tetraclorometano, $\\ce{CCl4}$\ne tetrabromometano, $\\ce{CBr4}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de pressão de vapor em $\\pu{25 \\degree C}$.\n",
+        "tex": "Considere os compostos metano, {\\(\\ce{CH4}\\)}, tetraclorometano, {\\(\\ce{CCl4}\\)} e tetrabromometano, {\\(\\ce{CBr4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de pressão de vapor em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
+      },
+      "solution": {
+        "html": "<p>Primeiro analisamos as forças intermoleculares em cada composto, como\nas três são dipolo-induzido fazemos o desempate na massa, então: <span class=\"math display\">\\[M_{CBr_{4}}&gt;M_{CCl_{4}}&gt;M_{CH_{4}}\\]</span>\nQuanto maior a massa molar, menor a pressão de vapor: <span class=\"math display\">\\[P_{CBr_{4}}&lt;P_{CCl_{4}}&lt;P_{CH_{4}}\\]</span></p>",
+        "md": "Primeiro analisamos as forças intermoleculares em cada composto, como as\ntrês são dipolo-induzido fazemos o desempate na massa, então:\n$$M_{CBr_{4}}>M_{CCl_{4}}>M_{CH_{4}}$$ Quanto maior a massa molar, menor\na pressão de vapor: $$P_{CBr_{4}}<P_{CCl_{4}}<P_{CH_{4}}$$\n",
+        "tex": "Primeiro analisamos as forças intermoleculares em cada composto, como as três são dipolo-induzido fazemos o desempate na massa, então:\n{\\[M_{CBr_{4}}>M_{CCl_{4}}>M_{CH_{4}}\\]} Quanto maior a massa molar, menor a pressão de vapor: {\\[P_{CBr_{4}}<P_{CCl_{4}}<P_{CH_{4}}\\]}\n"
+      },
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CH4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.",
+          "md": "$\\ce{CCl4}$; $\\ce{CH4}$; $\\ce{CBr4}$.\n",
+          "tex": "{\\(\\ce{CCl4}\\)}; {\\(\\ce{CH4}\\)}; {\\(\\ce{CBr4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CBr4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CH4}\\)</span>.",
+          "md": "$\\ce{CBr4}$; $\\ce{CCl4}$; $\\ce{CH4}$.\n",
+          "tex": "{\\(\\ce{CBr4}\\)}; {\\(\\ce{CCl4}\\)}; {\\(\\ce{CH4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>.",
+          "md": "$\\ce{CH4}$; $\\ce{CBr4}$; $\\ce{CCl4}$.\n",
+          "tex": "{\\(\\ce{CH4}\\)}; {\\(\\ce{CBr4}\\)}; {\\(\\ce{CCl4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>; <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.",
+          "md": "$\\ce{CH4}$; $\\ce{CCl4}$; $\\ce{CBr4}$.\n",
+          "tex": "{\\(\\ce{CH4}\\)}; {\\(\\ce{CCl4}\\)}; {\\(\\ce{CBr4}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CBr4}\\)</span>; <span class=\"math inline\">\\(\\ce{CH4}\\)</span>; <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>.",
+          "md": "$\\ce{CBr4}$; $\\ce{CH4}$; $\\ce{CCl4}$.\n",
+          "tex": "{\\(\\ce{CBr4}\\)}; {\\(\\ce{CH4}\\)}; {\\(\\ce{CCl4}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
       "id_": "1D39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1D/1D39/1D39.md",
       "date": "2023-02-22T22:30:18.962071",
