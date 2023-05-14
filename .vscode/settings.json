@@ -18,7 +18,7 @@
             "other": true,
             "comments": true,
             "strings": true
-        },
+        }
     },
     "Lua.diagnostics.globals": [
         "pandoc",
@@ -26,5 +26,5 @@
     ],
     "markdown.styles": [
         ".vscode/mdstyle.css"
-    ],
+    ]
 }
