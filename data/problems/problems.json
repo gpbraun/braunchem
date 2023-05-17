@@ -28383,17 +28383,62 @@
     {
       "id_": "2H45",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H45/2H45.md",
-      "date": "2023-05-14T18:00:37.754832",
+      "date": "2023-05-15T18:47:38.945436",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em\nbicarbonato de sódio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em bicarbonato de sódio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em bicarbonato de sódio.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa1(H2CO3)",
+            "name": "constante de acidez 1 do ácido carbônico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2CO3})",
+            "value": 6.4,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa2(H2CO3)",
+            "name": "constante de acidez 2 do ácido carbônico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2CO3})",
+            "value": 10,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,3}\\)</span>",
+          "md": "$\\pu{2,3}$",
+          "tex": "\\(\\num{2,3}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,1}\\)</span>",
+          "md": "$\\pu{3,1}$",
+          "tex": "\\(\\num{3,1}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,3}\\)</span>",
+          "md": "$\\pu{4,3}$",
+          "tex": "\\(\\num{4,3}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0}\\)</span>",
+          "md": "$\\pu{6,0}$",
+          "tex": "\\(\\num{6,0}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,3}\\)</span>",
+          "md": "$\\pu{8,3}$",
+          "tex": "\\(\\num{8,3}\\)"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2H36",
@@ -28473,7 +28518,7 @@
     {
       "id_": "2H09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H09/2H09.md",
-      "date": "2023-05-15T02:19:17.234079",
+      "date": "2023-05-15T21:28:59.237206",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,06\nmol.L-1}\\)</span> em amônia, <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde protonação da amônia na solução.</p>",
         "md": "Considere uma solução $\\pu{0,06 mol.L-1}$ em amônia, $\\ce{NH3}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de protonação da\namônia na solução.\n",
@@ -28667,11 +28712,11 @@
     {
       "id_": "2H08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H08/2H08.md",
-      "date": "2023-05-15T02:17:42.816181",
+      "date": "2023-05-15T21:28:55.753305",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em\nácido tricloroacético.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em ácido tricloroacético.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em ácido tricloroacético.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de ácido tricloroacético, <span class=\"math inline\">\\(\\ce{CCl3COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{0,1 mol.L-1}$ de ácido tricloroacético,\n$\\ce{CCl3COOH}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de ácido tricloroacético, {\\(\\ce{CCl3COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -28812,11 +28857,11 @@
     {
       "id_": "2H12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H12/2H12.md",
-      "date": "2023-05-15T02:23:10.202522",
+      "date": "2023-05-15T21:31:04.017641",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de hidróxido de uma solução <span class=\"math inline\">\\(\\pu{0,02 mol.L-1}\\)</span> em trietilamina.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima da concentração de\nhidróxido de uma solução $\\pu{0,02 mol.L-1}$ em trietilamina.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da concentração de hidróxido de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} em trietilamina.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,02\nmol.L-1}\\)</span> de trietilamina, <span class=\"math inline\">\\(\\ce{(CH3)3N}\\)</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de hidróxido na solução.</p>",
+        "md": "Considere uma solução $\\pu{0,02 mol.L-1}$ de trietilamina,\n$\\ce{(CH3)3N}$\n\n**Assinale** a alternativa que mais se aproxima da concentração de\nhidróxido na solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} de trietilamina, {\\(\\ce{(CH3)3N}\\)}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de hidróxido na solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -28864,11 +28909,11 @@
     {
       "id_": "2H11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H11/2H11.md",
-      "date": "2023-05-15T02:22:51.663894",
+      "date": "2023-05-15T21:30:23.566796",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em\nmetilamina.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em metilamina.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em metilamina.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de metilamina, <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{0,1 mol.L-1}$ de metilamina, $\\ce{CH3NH2}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de metilamina, {\\(\\ce{CH3NH2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -29054,17 +29099,70 @@
     {
       "id_": "2H46",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H46/2H46.md",
-      "date": "2023-05-14T18:00:37.758832",
+      "date": "2023-05-15T18:48:01.968736",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span> em\ndihidrogenofosfato de sódio, <span class=\"math inline\">\\(\\ce{NaH2PO4}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,2 mol.L-1}$ em dihidrogenofosfato de sódio, $\\ce{NaH2PO4}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} em dihidrogenofosfato de sódio,\n{\\(\\ce{NaH2PO4}\\)}.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa1(H3PO4)",
+            "name": "constante de acidez 1 do ácido fosfórico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H3PO4})",
+            "value": 2.1,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa2(H3PO4)",
+            "name": "constante de acidez 2 do ácido fosfórico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
+            "value": 7.2,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa3(H3PO4)",
+            "name": "constante de acidez 3 do ácido fosfórico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4})",
+            "value": 13,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5}\\)</span>",
+          "md": "$\\pu{1,5}$",
+          "tex": "\\(\\num{1,5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0}\\)</span>",
+          "md": "$\\pu{2,0}$",
+          "tex": "\\(\\num{2,0}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,6}\\)</span>",
+          "md": "$\\pu{2,6}$",
+          "tex": "\\(\\num{2,6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5}\\)</span>",
+          "md": "$\\pu{3,5}$",
+          "tex": "\\(\\num{3,5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,7}\\)</span>",
+          "md": "$\\pu{4,7}$",
+          "tex": "\\(\\num{4,7}\\)"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2H03",
@@ -29151,11 +29249,11 @@
     {
       "id_": "2H13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H13/2H13.md",
-      "date": "2023-05-15T02:27:22.688307",
+      "date": "2023-05-15T21:32:46.374722",
       "statement": {
-        "html": "<p>Considere as soluções.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl}\\)</span> <span class=\"math inline\">\\(\\pu{1e-5 mol.L-1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span> <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span> <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH2}\\)</span> <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem <em>crescente</em> de pH.</p>",
-        "md": "Considere as soluções.\n\n1.  $\\ce{HCl}$ $\\pu{1e-5 mol.L-1}$\n2.  $\\ce{CH3NH2}$ $\\pu{0,2 mol.L-1}$\n3.  $\\ce{CH3COOH}$ $\\pu{0,2 mol.L-1}$\n4.  $\\ce{C6H5NH2}$ $\\pu{0,2 mol.L-1}$\n\n**Assinale** a alternativa que relaciona as soluções em ordem\n*crescente* de pH.\n",
-        "tex": "Considere as soluções.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl}\\)} {\\(\\qty{1e-5}{\\unit{mol.L^{-1}}}\\)}\n\\item\n  {\\(\\ce{CH3NH2}\\)} {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n\\item\n  {\\(\\ce{CH3COOH}\\)} {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n\\item\n  {\\(\\ce{C6H5NH2}\\)} {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as soluções em ordem \\emph{crescente} de pH.\n"
+        "html": "<p>Considere as soluções.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl(aq, \\pu{10 \\mu\nmol.L-1})}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3NH2(aq, \\pu{0,2\nmol.L-1})}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH(aq, \\pu{0,2\nmol.L-1})}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH2(aq, \\pu{0,2\nmol.L-1})}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem <em>crescente</em> de pH.</p>",
+        "md": "Considere as soluções.\n\n1.  $\\ce{HCl(aq, \\pu{10 \\mu mol.L-1})}$\n2.  $\\ce{CH3NH2(aq, \\pu{0,2 mol.L-1})}$\n3.  $\\ce{CH3COOH(aq, \\pu{0,2 mol.L-1})}$\n4.  $\\ce{C6H5NH2(aq, \\pu{0,2 mol.L-1})}$\n\n**Assinale** a alternativa que relaciona as soluções em ordem\n*crescente* de pH.\n",
+        "tex": "Considere as soluções.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl(aq, \\qty{10}{\\unit{\\micro mol.L^{-1}}})}\\)}\n\\item\n  {\\(\\ce{CH3NH2(aq, \\qty{0,2}{\\unit{mol.L^{-1}}})}\\)}\n\\item\n  {\\(\\ce{CH3COOH(aq, \\qty{0,2}{\\unit{mol.L^{-1}}})}\\)}\n\\item\n  {\\(\\ce{C6H5NH2(aq, \\qty{0,2}{\\unit{mol.L^{-1}}})}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as soluções em ordem \\emph{crescente} de pH.\n"
       },
       "solution": null,
       "answer": null,
@@ -29386,20 +29484,20 @@
     {
       "id_": "2H06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H06/2H06.md",
-      "date": "2023-05-15T02:16:39.513775",
+      "date": "2023-05-17T19:47:39.385645",
       "statement": {
-        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{3,7e-3\nmol.L-1}\\)</span> em ácido lático, <span class=\"math inline\">\\(\\ce{CH3CH(OH)COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde desprotonação do ácido acético na solução.</p>",
-        "md": "Considere uma solução $\\pu{3,7e-3 mol.L-1}$ em ácido lático,\n$\\ce{CH3CH(OH)COOH}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de desprotonação\ndo ácido acético na solução.\n",
-        "tex": "Considere uma solução {\\(\\qty{3,7e-3}{\\unit{mol.L^{-1}}}\\)} em ácido lático, {\\(\\ce{CH3CH(OH)COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de desprotonação do ácido acético na solução.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{3,7\nmmol.L-1}\\)</span> em ácido lático, <span class=\"math inline\">\\(\\ce{CH3CH(OH)COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de ácido desprotonado em solução.</p>",
+        "md": "Considere uma solução $\\pu{3,7 mmol.L-1}$ em ácido lático,\n$\\ce{CH3CH(OH)COOH}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de ácido\ndesprotonado em solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{3,7}{\\unit{mmol.L^{-1}}}\\)} em ácido lático, {\\(\\ce{CH3CH(OH)COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de ácido desprotonado em solução.\n"
       },
       "solution": null,
       "answer": null,
       "data": {
         "quantities": [
           {
-            "id_": "Ka(ácido lático)",
-            "name": "constante de acidez do ácido lático",
-            "symbol": "K_\\mathrm{a}(\\ce{CH3CH(OH)COOH})",
+            "id_": "Ka(HC3H5O3)",
+            "name": "constante de acidez do \\ce{HC3H5O3}",
+            "symbol": "K_\\mathrm{a}(\\ce{HC3H5O3})",
             "value": 0.00084,
             "unit": "",
             "prec": 2
@@ -29438,11 +29536,11 @@
     {
       "id_": "2H14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H14/2H14.md",
-      "date": "2023-05-15T02:26:18.144809",
+      "date": "2023-05-15T21:33:39.357212",
       "statement": {
-        "html": "<p>Considere as soluções.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{NaOH}\\)</span> <span class=\"math inline\">\\(\\pu{1e-5 mol.L-1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaNO2}\\)</span> <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></li>\n<li><span class=\"math inline\">\\(\\pu{NaCN}\\)</span> <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem <em>crescente</em> de pH.</p>",
-        "md": "Considere as soluções.\n\n1.  $\\ce{NaOH}$ $\\pu{1e-5 mol.L-1}$\n2.  $\\ce{NaNO2}$ $\\pu{0,2 mol.L-1}$\n3.  $\\ce{NH3}$ $\\pu{0,2 mol.L-1}$\n4.  $\\pu{NaCN}$ $\\pu{0,2 mol.L-1}$\n\n**Assinale** a alternativa que relaciona as soluções em ordem\n*crescente* de pH.\n",
-        "tex": "Considere as soluções.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{NaOH}\\)} {\\(\\qty{1e-5}{\\unit{mol.L^{-1}}}\\)}\n\\item\n  {\\(\\ce{NaNO2}\\)} {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n\\item\n  {\\(\\ce{NH3}\\)} {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n\\item\n  {\\(\\unit{NaCN}\\)} {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as soluções em ordem \\emph{crescente} de pH.\n"
+        "html": "<p>Considere as soluções.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{NaOH(aq,\\pu{10 \\mu\nmol.L-1})}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaNO2(aq,\\pu{0,2\nmol.L-1})}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NH3(aq,\\pu{0,2\nmol.L-1})}\\)</span></li>\n<li><span class=\"math inline\">\\(\\pu{NaCN(aq,\\pu{0,2\nmol.L-1})}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem <em>crescente</em> de pH.</p>",
+        "md": "Considere as soluções.\n\n1.  $\\ce{NaOH(aq,\\pu{10 \\mu mol.L-1})}$\n2.  $\\ce{NaNO2(aq,\\pu{0,2 mol.L-1})}$\n3.  $\\ce{NH3(aq,\\pu{0,2 mol.L-1})}$\n4.  $\\pu{NaCN(aq,\\pu{0,2 mol.L-1})}$\n\n**Assinale** a alternativa que relaciona as soluções em ordem\n*crescente* de pH.\n",
+        "tex": "Considere as soluções.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{NaOH(aq,\\qty{10}{\\unit{\\micro mol.L^{-1}}})}\\)}\n\\item\n  {\\(\\ce{NaNO2(aq,\\qty{0,2}{\\unit{mol.L^{-1}}})}\\)}\n\\item\n  {\\(\\ce{NH3(aq,\\qty{0,2}{\\unit{mol.L^{-1}}})}\\)}\n\\item\n  {\\(\\pu{NaCN(aq,\\qty{0,2}{\\unit{mol.L^{-1}}})}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as soluções em ordem \\emph{crescente} de pH.\n"
       },
       "solution": null,
       "answer": null,
@@ -29644,7 +29742,7 @@
     {
       "id_": "2H38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H38/2H38.md",
-      "date": "2023-05-15T18:43:25.393316",
+      "date": "2023-05-15T18:46:30.643527",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,5\nmol.L-1}\\)</span> de glicina protonada, <span class=\"math inline\">\\(\\ce{[NH3CH2COOH]^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{HS-}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span> na soluçoão,\nrespectivamente.</p>",
         "md": "Considere uma solução $\\pu{0,5 mol.L-1}$ de glicina protonada,\n$\\ce{[NH3CH2COOH]^+}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$, $\\ce{H2S}$, $\\ce{HS-}$ e $\\ce{S^{2-}}$ na soluçoão,\nrespectivamente.\n",
@@ -29704,11 +29802,11 @@
     {
       "id_": "2H07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H07/2H07.md",
-      "date": "2023-05-15T02:17:14.275909",
+      "date": "2023-05-15T21:28:01.858848",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,08 mol.L-1}\\)</span> em\nácido acético.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,08}{\\unit{mol.L^{-1}}}\\)} em ácido acético.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,08\nmol.L-1}\\)</span> de ácido acético, <span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{0,08 mol.L-1}$ de ácido acético,\n$\\ce{CH3COOH}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,08}{\\unit{mol.L^{-1}}}\\)} de ácido acético, {\\(\\ce{CH3COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -30144,11 +30242,11 @@
     {
       "id_": "2H05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H05/2H05.md",
-      "date": "2023-05-15T02:04:00.927800",
+      "date": "2023-05-17T19:43:46.825937",
       "statement": {
-        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.L-1}\\)</span> em ácido acético, <span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde desprotonação do ácido acético na solução.</p>",
-        "md": "Considere uma solução $\\pu{0,2 mol.L-1}$ em ácido acético,\n$\\ce{CH3COOH}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de desprotonação\ndo ácido acético na solução.\n",
-        "tex": "Considere uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} em ácido acético, {\\(\\ce{CH3COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de desprotonação do ácido acético na solução.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.L-1}\\)</span> em ácido acético, <span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de ácido desprotonado em solução.</p>",
+        "md": "Considere uma solução $\\pu{0,2 mol.L-1}$ em ácido acético,\n$\\ce{CH3COOH}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de ácido\ndesprotonado em solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} em ácido acético, {\\(\\ce{CH3COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de ácido desprotonado em solução.\n"
       },
       "solution": null,
       "answer": null,

@@ -1,0 +1,57 @@
+\begin{tikzpicture}
+\def\Ki{10^(-2.1)}
+\def\Kii{10^(-7.2)*\Ki}
+\def\Kiii{10^(-12)*\Kii}
+\begin{axis}
+    [   
+        axis x line* = bottom,
+        xlabel = {pH},
+        axis y line  = none,
+        xmin = 0, xmax = 14,
+        ymin = 0, ymax = 1,
+    ]
+\end{axis}
+\begin{axis}
+    [
+        grid = major,
+        axis x line* = top,
+        ylabel = {Fração das espécies},
+        ytick = {0, 0.5, 1},
+        xtick = {2.1, 7.2, 12},
+        xticklabels = {
+            $\mathrm{p}K_\mathrm{a1}$,
+            $\mathrm{p}K_\mathrm{a2}$,
+            $\mathrm{p}K_\mathrm{a3}$,
+        },
+        xmin = 0, xmax = 14,
+        ymin = 0, ymax = 1,
+        domain=0:14,
+    ]
+    \addplot
+        {
+            10^(-3*x)/( 10^(-3*x) + \Ki * 10^(-2*x) + \Kii * 10^(-x) + \Kiii )
+        };
+    \addplot
+        {
+            \Ki * 10^(-2*x)/( 10^(-3*x) + \Ki * 10^(-2*x) + \Kii * 10^(-x) + \Kiii )
+        };
+    \addplot
+        {
+            \Kii * 10^(-x)/( 10^(-3*x) + \Ki * 10^(-2*x) + \Kii * 10^(-x) + \Kiii )
+        };
+    \addplot[purple]
+        {
+            \Kiii/( 10^(-3*x) + \Ki * 10^(-2*x) + \Kii * 10^(-x) + \Kiii )
+        };
+    \addplot [ mark=*, color=blue, only marks ] coordinates
+        { (2.1, 0.5) };
+    \addplot [ mark=*, color=red, only marks ] coordinates
+        { (7.2, 0.5) };
+    \addplot [ mark=*, color=green, only marks ] coordinates
+        { (12, 0.5) };
+    \node[blue,   anchor=base west] at (axis cs: 2.7, 0.3) { \ce{H3PO4} };
+    \node[red,    anchor=base west] at (axis cs: 2.7, 0.7) { \ce{H2PO4^-} };
+    \node[green,  anchor=base west] at (axis cs: 7.7, 0.7) { \ce{HPO4^{2-}} };
+    \node[purple, anchor=base east] at (axis cs: 11.5, 0.3) { \ce{PO4^{3-}} };
+\end{axis}
+\end{tikzpicture}

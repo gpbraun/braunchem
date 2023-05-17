@@ -1,0 +1,49 @@
+\begin{tikzpicture}
+\def\Ki{10^(-6.35)}
+\def\Kii{10^(-10.35)*\Ki}
+\begin{axis}
+    [   
+        axis x line* = bottom,
+        xlabel = {pH},
+        axis y line  = none,
+        xmin = 0, xmax = 14,
+        ymin = 0, ymax = 1,
+    ]
+\end{axis}
+\begin{axis}
+    [
+        grid = major,
+        axis x line* = top,
+        ylabel = {Fração das espécies},
+        ytick = {0, 0.5, 1},
+        xtick = {6.35, 10.35},
+        xticklabels = {
+            $\mathrm{p}K_\mathrm{a1}$,
+            $\mathrm{p}K_\mathrm{a2}$,
+        },
+        xmin = 0, xmax = 14,
+        ymin = 0, ymax = 1,
+        domain=0:14,
+    ]
+    \addplot
+        {
+            10^(-2*x)/( 10^(-2*x) + \Ki * 10^(-x) + \Kii )
+        };
+    \addplot
+        {
+            \Ki * 10^(-x)/( 10^(-2*x) + \Ki * 10^(-x) + \Kii )
+        };
+    \addplot
+        {
+            \Kii/( 10^(-2*x) + \Ki * 10^(-x) + \Kii )
+        };
+    \addplot [ mark=*, color=blue, only marks ] coordinates
+        { (6.35, 0.5) };
+    \addplot [ mark=*, color=red, only marks ] coordinates
+        { (10.35, 0.5) };
+    \node[blue, anchor=base]  at (axis cs:  4.0, 0.7) { \ce{H2CO3} };
+    \node[red, anchor=base]   at (axis cs:  8.3, 0.7) { \ce{HCO3^-} };
+    \node[green, anchor=base] at (axis cs: 12.4, 0.7) { \ce{CO3^{2-}} };
+\end{axis}
+\end{tikzpicture}
+    
