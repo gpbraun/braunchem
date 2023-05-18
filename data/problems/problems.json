@@ -28518,11 +28518,11 @@
     {
       "id_": "2H09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H09/2H09.md",
-      "date": "2023-05-15T21:28:59.237206",
+      "date": "2023-05-17T20:47:45.909087",
       "statement": {
-        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,06\nmol.L-1}\\)</span> em amônia, <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde protonação da amônia na solução.</p>",
-        "md": "Considere uma solução $\\pu{0,06 mol.L-1}$ em amônia, $\\ce{NH3}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de protonação da\namônia na solução.\n",
-        "tex": "Considere uma solução {\\(\\qty{0,06}{\\unit{mol.L^{-1}}}\\)} em amônia, {\\(\\ce{NH3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de protonação da amônia na solução.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,06\nmol.L-1}\\)</span> em amônia, <span class=\"math inline\">\\(\\ce{NH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de base protonada na solução.</p>",
+        "md": "Considere uma solução $\\pu{0,06 mol.L-1}$ em amônia, $\\ce{NH3}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de base\nprotonada na solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,06}{\\unit{mol.L^{-1}}}\\)} em amônia, {\\(\\ce{NH3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de base protonada na solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -28909,7 +28909,7 @@
     {
       "id_": "2H11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H11/2H11.md",
-      "date": "2023-05-15T21:30:23.566796",
+      "date": "2023-05-17T20:49:23.253617",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de metilamina, <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
         "md": "Considere uma solução $\\pu{0,1 mol.L-1}$ de metilamina, $\\ce{CH3NH2}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
@@ -28920,12 +28920,12 @@
       "data": {
         "quantities": [
           {
-            "id_": "Kb(metilamina).",
-            "name": "Kb(metilamina).",
-            "symbol": null,
-            "value": null,
-            "unit": null,
-            "prec": 3
+            "id_": "Kb(metilamina)",
+            "name": "constante de basicidade da metilamina",
+            "symbol": "K_\\mathrm{b}(\\ce{CH3NH2})",
+            "value": 0.00036,
+            "unit": "",
+            "prec": 2
           }
         ]
       },
@@ -29667,7 +29667,7 @@
     {
       "id_": "2H37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H37/2H37.md",
-      "date": "2023-05-15T18:40:14.595527",
+      "date": "2023-05-17T20:50:01.436255",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.L-1}\\)</span> de ácido sulfídrico, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{HS-}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span> na soluçoão,\nrespectivamente.</p>",
         "md": "Considere uma solução $\\pu{0,2 mol.L-1}$ de ácido sulfídrico,\n$\\ce{H2S}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$, $\\ce{H2S}$, $\\ce{HS-}$ e $\\ce{S^{2-}}$ na soluçoão,\nrespectivamente.\n",
@@ -29697,29 +29697,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>.",
-          "md": "$\\pu{0,2 M}$; $\\pu{1,6e-4 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$.\n",
-          "tex": "{\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{2,0e-1 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>.",
+          "md": "$\\pu{2,0e-1 M}$; $\\pu{1,6e-4 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$.\n",
+          "tex": "{\\(\\qty{2,0e-1}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>.",
-          "md": "$\\pu{7,1e-15 M}$; $\\pu{1,6e-4 M}$; $\\pu{1,6e-4 M}$; $\\pu{0,2 M}$.\n",
-          "tex": "{\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2,0e-1 M}\\)</span>.",
+          "md": "$\\pu{7,1e-15 M}$; $\\pu{1,6e-4 M}$; $\\pu{1,6e-4 M}$; $\\pu{2,0e-1 M}$.\n",
+          "tex": "{\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{2,0e-1}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>.",
-          "md": "$\\pu{1,6e-4 M}$; $\\pu{0,2 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$.\n",
-          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2,0e-1 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>.",
+          "md": "$\\pu{1,6e-4 M}$; $\\pu{2,0e-1 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$.\n",
+          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{2,0e-1}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>.",
-          "md": "$\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$; $\\pu{0,2 M}$; $\\pu{1,6e-4 M}$.\n",
-          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2,0e-1 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>.",
+          "md": "$\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$; $\\pu{2,0e-1 M}$; $\\pu{1,6e-4 M}$.\n",
+          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{2,0e-1}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>.",
-          "md": "$\\pu{0,2 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$; $\\pu{1,6e-4 M}$.\n",
-          "tex": "{\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{2,0e-1 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>.",
+          "md": "$\\pu{2,0e-1 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$; $\\pu{1,6e-4 M}$.\n",
+          "tex": "{\\(\\qty{2,0e-1}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}.\n"
         }
       ],
       "correct_choice": 2
@@ -29895,11 +29895,11 @@
     {
       "id_": "2H27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H27/2H27.md",
-      "date": "2023-05-15T18:24:40.963443",
+      "date": "2023-05-17T20:47:14.086221",
       "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,08 mol.L-1}\\)</span> em\nácido acético.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,08 mol.L-1}$ em ácido acético.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,08}{\\unit{mol.L^{-1}}}\\)} em ácido acético.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,18\nmol.L-1}\\)</span> de cloreto de amônio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{0,18 mol.L-1}$ de cloreto de amônio.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,18}{\\unit{mol.L^{-1}}}\\)} de cloreto de amônio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
@@ -30040,11 +30040,11 @@
     {
       "id_": "2H10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H10/2H10.md",
-      "date": "2023-05-15T02:22:14.838863",
+      "date": "2023-05-17T20:47:51.572885",
       "statement": {
-        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,012\nmol.L-1}\\)</span> em nicotina, <span class=\"math inline\">\\(\\ce{C10H14N2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do grau\nde protonação da amônia na solução.</p>",
-        "md": "Considere uma solução $\\pu{0,012 mol.L-1}$ em nicotina, $\\ce{C10H14N2}$.\n\n**Assinale** a alternativa que mais se aproxima do grau de protonação da\namônia na solução.\n",
-        "tex": "Considere uma solução {\\(\\qty{0,012}{\\unit{mol.L^{-1}}}\\)} em nicotina, {\\(\\ce{C10H14N2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do grau de protonação da amônia na solução.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,012\nmol.L-1}\\)</span> em nicotina, <span class=\"math inline\">\\(\\ce{C10H14N2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de base protonada na solução.</p>",
+        "md": "Considere uma solução $\\pu{0,012 mol.L-1}$ em nicotina, $\\ce{C10H14N2}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de base\nprotonada na solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,012}{\\unit{mol.L^{-1}}}\\)} em nicotina, {\\(\\ce{C10H14N2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de base protonada na solução.\n"
       },
       "solution": null,
       "answer": null,
