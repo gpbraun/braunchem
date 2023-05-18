@@ -21,6 +21,7 @@
 - [ ] Separar o repositório da engine com o repositório da base de dados. Fazer isso na atualização da versão que usa lua.
 - [ ] Criar um repositório `braunchem-figures` para dar uma atenção especial às figuras.
 - [ ] Usar o linter de markdown, desabilitando as regras adequadas.
+- [ ] Na hora de colocar as questões de ordenação, colocar na ordem correta. O programa embaralha as opções na hora de colocar (fica mais bem distribuido e eu não preciso pensar na ordem).
 
 ## Interface com o site
 
