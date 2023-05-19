@@ -10,6 +10,10 @@
 
 - [ ] Gerar a lista de elementos envolvidos em cada problema.
 
+## Diagramação das questões
+
+- [ ] Algumas questões estão com os dados digitados de maneira forçada para caber em duas colunas. Mudar isso na versão v2.
+
 ## Template
 
 - [ ] Formatar (como o Atkins em inglês) as referências às figuras e tabelas. Tentar colocar hiperlinks no pdf e no site.

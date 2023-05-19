@@ -28234,17 +28234,43 @@
     {
       "id_": "2H15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H15/2H15.md",
-      "date": "2023-05-14T18:00:37.690835",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>O pH de <span class=\"math inline\">\\(\\pu{1 L}\\)</span> de uma solução\nde ácido acético é 3. Deseja-se corrigir o pH da solução para 4 pela\nadição de água destilada.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume de água que deve ser adicionado à solução.</p>",
+        "md": "O pH de $\\pu{1 L}$ de uma solução de ácido acético é 3. Deseja-se\ncorrigir o pH da solução para 4 pela adição de água destilada.\n\n**Assinale** a alternativa que mais se aproxima do volume de água que\ndeve ser adicionado à solução.\n",
+        "tex": "O pH de {\\(\\qty{1}{\\unit{L}}\\)} de uma solução de ácido acético é 3. Deseja-se corrigir o pH da solução para 4 pela adição de água destilada.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume de água que deve ser adicionado à solução.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 L}\\)</span>",
+          "md": "$\\pu{55 L}$",
+          "tex": "\\(\\qty{55}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{87 L}\\)</span>",
+          "md": "$\\pu{87 L}$",
+          "tex": "\\(\\qty{87}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 L}\\)</span>",
+          "md": "$\\pu{140 L}$",
+          "tex": "\\(\\qty{140}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{220 L}\\)</span>",
+          "md": "$\\pu{220 L}$",
+          "tex": "\\(\\qty{220}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{350 L}\\)</span>",
+          "md": "$\\pu{350 L}$",
+          "tex": "\\(\\qty{350}{\\unit{L}}\\)"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2H19",
@@ -28381,66 +28407,6 @@
       "correct_choice": 2
     },
     {
-      "id_": "2H45",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H45/2H45.md",
-      "date": "2023-05-15T18:47:38.945436",
-      "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em\nbicarbonato de sódio.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em bicarbonato de sódio.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em bicarbonato de sódio.\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": {
-        "quantities": [
-          {
-            "id_": "pKa1(H2CO3)",
-            "name": "constante de acidez 1 do ácido carbônico",
-            "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2CO3})",
-            "value": 6.4,
-            "unit": "",
-            "prec": 2
-          },
-          {
-            "id_": "pKa2(H2CO3)",
-            "name": "constante de acidez 2 do ácido carbônico",
-            "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2CO3})",
-            "value": 10,
-            "unit": "",
-            "prec": 2
-          }
-        ]
-      },
-      "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{2,3}\\)</span>",
-          "md": "$\\pu{2,3}$",
-          "tex": "\\(\\num{2,3}\\)"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{3,1}\\)</span>",
-          "md": "$\\pu{3,1}$",
-          "tex": "\\(\\num{3,1}\\)"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{4,3}\\)</span>",
-          "md": "$\\pu{4,3}$",
-          "tex": "\\(\\num{4,3}\\)"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{6,0}\\)</span>",
-          "md": "$\\pu{6,0}$",
-          "tex": "\\(\\num{6,0}\\)"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\pu{8,3}\\)</span>",
-          "md": "$\\pu{8,3}$",
-          "tex": "\\(\\num{8,3}\\)"
-        }
-      ],
-      "correct_choice": 4
-    },
-    {
       "id_": "2H36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H36/2H36.md",
       "date": "2023-05-15T18:34:09.132579",
@@ -28503,17 +28469,70 @@
     {
       "id_": "2H42",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H42/2H42.md",
-      "date": "2023-05-14T18:00:37.750833",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{15\nmmol.L-1}\\)</span> de ácido fosfórico, <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span>. Um grande voluma da solução\nfoi tratado com base para ajustar o pH até <span class=\"math inline\">\\(\\pu{2,3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span>, <span class=\"math inline\">\\(\\ce{H2PO4^-}\\)</span>, <span class=\"math inline\">\\(\\ce{HPO4^{2-}}\\)</span> e <span class=\"math inline\">\\(\\ce{PO4^{3-}}\\)</span> na soluçoão,\nrespectivamente.</p>",
+        "md": "Considere uma solução $\\pu{15 mmol.L-1}$ de ácido fosfórico,\n$\\ce{H3PO4}$. Um grande voluma da solução foi tratado com base para\najustar o pH até $\\pu{2,3}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3PO4}$, $\\ce{H2PO4^-}$, $\\ce{HPO4^{2-}}$ e $\\ce{PO4^{3-}}$ na\nsoluçoão, respectivamente.\n",
+        "tex": "Considere uma solução {\\(\\qty{15}{\\unit{mmol.L^{-1}}}\\)} de ácido fosfórico, {\\(\\ce{H3PO4}\\)}. Um grande voluma da solução foi tratado com base para\najustar o pH até {\\(\\num{2,3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3PO4}\\)}, {\\(\\ce{H2PO4^-}\\)}, {\\(\\ce{HPO4^{2-}}\\)} e\n{\\(\\ce{PO4^{3-}}\\)} na soluçoão, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "Ka1(H3PO4)",
+            "name": "constante de acidez 1 do ácido fosfórico",
+            "symbol": "K_\\mathrm{a1}(\\ce{H3PO4})",
+            "value": 0.0076,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Ka2(H3PO4)",
+            "name": "constante de acidez 2 do ácido fosfórico",
+            "symbol": "K_\\mathrm{a2}(\\ce{H3PO4})",
+            "value": 6.2e-08,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Ka2(H3PO4)",
+            "name": "constante de acidez 2 do ácido fosfórico",
+            "symbol": "K_\\mathrm{a2}(\\ce{H3PO4})",
+            "value": 6.2e-08,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,5e-8 M}\\)</span>; <span class=\"math inline\">\\(\\pu{6,4e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{3,5e-18 M}\\)</span>; <span class=\"math inline\">\\(\\pu{8,6e-3 M}\\)</span>.",
+          "md": "$\\pu{9,5e-8 M}$; $\\pu{6,4e-3 M}$; $\\pu{3,5e-18 M}$; $\\pu{8,6e-3 M}$.\n",
+          "tex": "{\\(\\qty{9,5e-8}{\\unit{M}}\\)}; {\\(\\qty{6,4e-3}{\\unit{M}}\\)}; {\\(\\qty{3,5e-18}{\\unit{M}}\\)}; {\\(\\qty{8,6e-3}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,4e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{8,6e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{9,5e-8 M}\\)</span>; <span class=\"math inline\">\\(\\pu{3,5e-18 M}\\)</span>.",
+          "md": "$\\pu{6,4e-3 M}$; $\\pu{8,6e-3 M}$; $\\pu{9,5e-8 M}$; $\\pu{3,5e-18 M}$.\n",
+          "tex": "{\\(\\qty{6,4e-3}{\\unit{M}}\\)}; {\\(\\qty{8,6e-3}{\\unit{M}}\\)}; {\\(\\qty{9,5e-8}{\\unit{M}}\\)}; {\\(\\qty{3,5e-18}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5e-18 M}\\)</span>; <span class=\"math inline\">\\(\\pu{6,4e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{8,6e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{9,5e-8 M}\\)</span>.",
+          "md": "$\\pu{3,5e-18 M}$; $\\pu{6,4e-3 M}$; $\\pu{8,6e-3 M}$; $\\pu{9,5e-8 M}$.\n",
+          "tex": "{\\(\\qty{3,5e-18}{\\unit{M}}\\)}; {\\(\\qty{6,4e-3}{\\unit{M}}\\)}; {\\(\\qty{8,6e-3}{\\unit{M}}\\)}; {\\(\\qty{9,5e-8}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5e-18 M}\\)</span>; <span class=\"math inline\">\\(\\pu{9,5e-8 M}\\)</span>; <span class=\"math inline\">\\(\\pu{6,4e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{8,6e-3 M}\\)</span>.",
+          "md": "$\\pu{3,5e-18 M}$; $\\pu{9,5e-8 M}$; $\\pu{6,4e-3 M}$; $\\pu{8,6e-3 M}$.\n",
+          "tex": "{\\(\\qty{3,5e-18}{\\unit{M}}\\)}; {\\(\\qty{9,5e-8}{\\unit{M}}\\)}; {\\(\\qty{6,4e-3}{\\unit{M}}\\)}; {\\(\\qty{8,6e-3}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,4e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{3,5e-18 M}\\)</span>; <span class=\"math inline\">\\(\\pu{8,6e-3 M}\\)</span>; <span class=\"math inline\">\\(\\pu{9,5e-8 M}\\)</span>.",
+          "md": "$\\pu{6,4e-3 M}$; $\\pu{3,5e-18 M}$; $\\pu{8,6e-3 M}$; $\\pu{9,5e-8 M}$.\n",
+          "tex": "{\\(\\qty{6,4e-3}{\\unit{M}}\\)}; {\\(\\qty{3,5e-18}{\\unit{M}}\\)}; {\\(\\qty{8,6e-3}{\\unit{M}}\\)}; {\\(\\qty{9,5e-8}{\\unit{M}}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2H09",
@@ -28568,21 +28587,6 @@
       "correct_choice": 1
     },
     {
-      "id_": "2H52",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H52/2H52.md",
-      "date": "2023-05-14T18:00:37.770832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2H01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H01/2H01.md",
       "date": "2023-05-14T21:52:24.728687",
@@ -28626,47 +28630,103 @@
     {
       "id_": "2H16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H16/2H16.md",
-      "date": "2023-05-14T18:00:37.690835",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.L-1}\\)</span> de amonia. Deseja-se diminuir o pH da solução em uma\nunidade pela adição de água destilada.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do\nvolume de água que deve ser adicionado à solução.</p>",
+        "md": "Considere uma solução $\\pu{0,2 mol.L-1}$ de amonia. Deseja-se diminuir o\npH da solução em uma unidade pela adição de água destilada.\n\n**Assinale** a alternativa que mais se aproxima do volume de água que\ndeve ser adicionado à solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} de amonia. Deseja-se diminuir o pH da solução em uma unidade pela adição de água destilada.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do volume de água que deve ser adicionado à solução.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{58 L}\\)</span>",
+          "md": "$\\pu{58 L}$",
+          "tex": "\\(\\qty{58}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{93 L}\\)</span>",
+          "md": "$\\pu{93 L}$",
+          "tex": "\\(\\qty{93}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{150 L}\\)</span>",
+          "md": "$\\pu{150 L}$",
+          "tex": "\\(\\qty{150}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{240 L}\\)</span>",
+          "md": "$\\pu{240 L}$",
+          "tex": "\\(\\qty{240}{\\unit{L}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{380 L}\\)</span>",
+          "md": "$\\pu{380 L}$",
+          "tex": "\\(\\qty{380}{\\unit{L}}\\)"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2H41",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H41/2H41.md",
-      "date": "2023-05-14T18:00:37.746833",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,15\nmol.L-1}\\)</span> de ácido sulfuroso, <span class=\"math inline\">\\(\\ce{H2SO3}\\)</span>. Um grande voluma da solução\nfoi tratado com base para ajustar o pH até <span class=\"math inline\">\\(\\pu{5,5}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H2SO3}\\)</span>, <span class=\"math inline\">\\(\\ce{HSO3^-}\\)</span> e <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span> na soluçoão,\nrespectivamente.</p>",
+        "md": "Considere uma solução $\\pu{0,15 mol.L-1}$ de ácido sulfuroso,\n$\\ce{H2SO3}$. Um grande voluma da solução foi tratado com base para\najustar o pH até $\\pu{5,5}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H2SO3}$, $\\ce{HSO3^-}$ e $\\ce{SO3^{2-}}$ na soluçoão,\nrespectivamente.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,15}{\\unit{mol.L^{-1}}}\\)} de ácido sulfuroso, {\\(\\ce{H2SO3}\\)}. Um grande voluma da solução foi tratado com base para\najustar o pH até {\\(\\num{5,5}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H2SO3}\\)}, {\\(\\ce{HSO3^-}\\)} e {\\(\\ce{SO3^{2-}}\\)} na soluçoão,\nrespectivamente.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2H50",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H50/2H50.md",
-      "date": "2023-05-14T18:00:37.766832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+      "data": {
+        "quantities": [
+          {
+            "id_": "Ka1(H2S)",
+            "name": "constante de acidez 1 do ácido sulfídrico",
+            "symbol": "K_\\mathrm{a1}(\\ce{H2S})",
+            "value": 1.3e-07,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Ka2(H2S)",
+            "name": "constante de acidez 2 do ácido sulfídrico",
+            "symbol": "K_\\mathrm{a2}(\\ce{H2S})",
+            "value": 7.1e-15,
+            "unit": "",
+            "prec": 2
+          }
+        ]
       },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,2e-5 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,14 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,0054 M}\\)</span>.",
+          "md": "$\\pu{3,2e-5 M}$; $\\pu{0,14 M}$; $\\pu{0,0054 M}$.\n",
+          "tex": "{\\(\\qty{3,2e-5}{\\unit{M}}\\)}; {\\(\\qty{0,14}{\\unit{M}}\\)}; {\\(\\qty{0,0054}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,0054 M}\\)</span>; <span class=\"math inline\">\\(\\pu{3,2e-5 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,14 M}\\)</span>.",
+          "md": "$\\pu{0,0054 M}$; $\\pu{3,2e-5 M}$; $\\pu{0,14 M}$.\n",
+          "tex": "{\\(\\qty{0,0054}{\\unit{M}}\\)}; {\\(\\qty{3,2e-5}{\\unit{M}}\\)}; {\\(\\qty{0,14}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,2e-5 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,0054 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,14 M}\\)</span>.",
+          "md": "$\\pu{3,2e-5 M}$; $\\pu{0,0054 M}$; $\\pu{0,14 M}$.\n",
+          "tex": "{\\(\\qty{3,2e-5}{\\unit{M}}\\)}; {\\(\\qty{0,0054}{\\unit{M}}\\)}; {\\(\\qty{0,14}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,14 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,0054 M}\\)</span>; <span class=\"math inline\">\\(\\pu{3,2e-5 M}\\)</span>.",
+          "md": "$\\pu{0,14 M}$; $\\pu{0,0054 M}$; $\\pu{3,2e-5 M}$.\n",
+          "tex": "{\\(\\qty{0,14}{\\unit{M}}\\)}; {\\(\\qty{0,0054}{\\unit{M}}\\)}; {\\(\\qty{3,2e-5}{\\unit{M}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,14 M}\\)</span>; <span class=\"math inline\">\\(\\pu{3,2e-5 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,0054 M}\\)</span>.",
+          "md": "$\\pu{0,14 M}$; $\\pu{3,2e-5 M}$; $\\pu{0,0054 M}$.\n",
+          "tex": "{\\(\\qty{0,14}{\\unit{M}}\\)}; {\\(\\qty{3,2e-5}{\\unit{M}}\\)}; {\\(\\qty{0,0054}{\\unit{M}}\\)}.\n"
+        }
+      ],
+      "correct_choice": 0
     },
     {
       "id_": "2H18",
@@ -28961,17 +29021,70 @@
     {
       "id_": "2H44",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H44/2H44.md",
-      "date": "2023-05-14T18:00:37.754832",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span> em\ndihidrogenofosfato de sódio, <span class=\"math inline\">\\(\\ce{NaH2PO4}\\)</span>.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,2 mol.L-1}$ em dihidrogenofosfato de sódio, $\\ce{NaH2PO4}$.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} em dihidrogenofosfato de sódio,\n{\\(\\ce{NaH2PO4}\\)}.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa1(H3PO4)",
+            "name": "constante de acidez 1 do ácido fosfórico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H3PO4})",
+            "value": 2.1,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa2(H3PO4)",
+            "name": "constante de acidez 2 do ácido fosfórico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
+            "value": 7.2,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa3(H3PO4)",
+            "name": "constante de acidez 3 do ácido fosfórico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4})",
+            "value": 13,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0}\\)</span>",
+          "md": "$\\pu{2,0}$",
+          "tex": "\\(\\num{2,0}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,6}\\)</span>",
+          "md": "$\\pu{2,6}$",
+          "tex": "\\(\\num{2,6}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5}\\)</span>",
+          "md": "$\\pu{3,5}$",
+          "tex": "\\(\\num{3,5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,7}\\)</span>",
+          "md": "$\\pu{4,7}$",
+          "tex": "\\(\\num{4,7}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,2}\\)</span>",
+          "md": "$\\pu{6,2}$",
+          "tex": "\\(\\num{6,2}\\)"
+        }
+      ],
+      "correct_choice": 3
     },
     {
       "id_": "2H22",
@@ -29017,17 +29130,70 @@
     {
       "id_": "2H40",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H40/2H40.md",
-      "date": "2023-05-14T18:00:37.746833",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,5\nmol.L-1}\\)</span> de fosfato de sódio, <span class=\"math inline\">\\(\\ce{Na3PO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{0,5 mol.L-1}$ de fosfato de sódio,\n$\\ce{Na3PO4}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de fosfato de sódio, {\\(\\ce{Na3PO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "data": {
+        "quantities": [
+          {
+            "id_": "Ka1(H3PO4)",
+            "name": "constante de acidez 1 do ácido fosfórico",
+            "symbol": "K_\\mathrm{a1}(\\ce{H3PO4})",
+            "value": 0.0076,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Ka2(H3PO4)",
+            "name": "constante de acidez 2 do ácido fosfórico",
+            "symbol": "K_\\mathrm{a2}(\\ce{H3PO4})",
+            "value": 6.2e-08,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "Ka3(H3PO4)",
+            "name": "constante de acidez 3 do ácido fosfórico",
+            "symbol": "K_\\mathrm{a}(\\ce{H3PO4})",
+            "value": 2.1e-13,
+            "unit": "",
+            "prec": 2
+          }
+        ]
+      },
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,1}\\)</span>",
+          "md": "$\\pu{9,1}$",
+          "tex": "\\(\\num{9,1}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13}\\)</span>",
+          "md": "$\\pu{13}$",
+          "tex": "\\(\\num{13}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{18}\\)</span>",
+          "md": "$\\pu{18}$",
+          "tex": "\\(\\num{18}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26}\\)</span>",
+          "md": "$\\pu{26}$",
+          "tex": "\\(\\num{26}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37}\\)</span>",
+          "md": "$\\pu{37}$",
+          "tex": "\\(\\num{37}\\)"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2H25",
@@ -29084,52 +29250,29 @@
     {
       "id_": "2H39",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H39/2H39.md",
-      "date": "2023-05-14T18:00:37.742833",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2H46",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H46/2H46.md",
-      "date": "2023-05-15T18:48:01.968736",
-      "statement": {
-        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span> em\ndihidrogenofosfato de sódio, <span class=\"math inline\">\\(\\ce{NaH2PO4}\\)</span>.</p>",
-        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,2 mol.L-1}$ em dihidrogenofosfato de sódio, $\\ce{NaH2PO4}$.\n",
-        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} em dihidrogenofosfato de sódio,\n{\\(\\ce{NaH2PO4}\\)}.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,1\nmol.L-1}\\)</span> de fosfato de sódio, <span class=\"math inline\">\\(\\ce{Na3PO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
+        "md": "Considere uma solução $\\pu{0,1 mol.L-1}$ de fosfato de sódio,\n$\\ce{Na3PO4}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de fosfato de sódio, {\\(\\ce{Na3PO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
       "solution": null,
       "answer": null,
       "data": {
         "quantities": [
           {
-            "id_": "pKa1(H3PO4)",
-            "name": "constante de acidez 1 do ácido fosfórico",
-            "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H3PO4})",
-            "value": 2.1,
+            "id_": "Ka1(H2SO3)",
+            "name": "constante de acidez 1 do ácido sulfuroso",
+            "symbol": "K_\\mathrm{a1}(\\ce{H2SO3})",
+            "value": 0.015,
             "unit": "",
             "prec": 2
           },
           {
-            "id_": "pKa2(H3PO4)",
-            "name": "constante de acidez 2 do ácido fosfórico",
-            "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H3PO4})",
-            "value": 7.2,
-            "unit": "",
-            "prec": 2
-          },
-          {
-            "id_": "pKa3(H3PO4)",
-            "name": "constante de acidez 3 do ácido fosfórico",
-            "symbol": "\\mathrm{p}K_\\mathrm{a3}(\\ce{H3PO4})",
-            "value": 13,
+            "id_": "Ka2(H2SO3)",
+            "name": "constante de acidez 2 do ácido sulfuroso",
+            "symbol": "K_\\mathrm{a2}(\\ce{H2SO3})",
+            "value": 1.2e-07,
             "unit": "",
             "prec": 2
           }
@@ -29137,32 +29280,32 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,5}\\)</span>",
-          "md": "$\\pu{1,5}$",
-          "tex": "\\(\\num{1,5}\\)"
+          "html": "<span class=\"math inline\">\\(\\pu{5,1}\\)</span>",
+          "md": "$\\pu{5,1}$",
+          "tex": "\\(\\num{5,1}\\)"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,0}\\)</span>",
-          "md": "$\\pu{2,0}$",
-          "tex": "\\(\\num{2,0}\\)"
+          "html": "<span class=\"math inline\">\\(\\pu{7,1}\\)</span>",
+          "md": "$\\pu{7,1}$",
+          "tex": "\\(\\num{7,1}\\)"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{2,6}\\)</span>",
-          "md": "$\\pu{2,6}$",
-          "tex": "\\(\\num{2,6}\\)"
+          "html": "<span class=\"math inline\">\\(\\pu{10}\\)</span>",
+          "md": "$\\pu{10}$",
+          "tex": "\\(\\num{10}\\)"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{3,5}\\)</span>",
-          "md": "$\\pu{3,5}$",
-          "tex": "\\(\\num{3,5}\\)"
+          "html": "<span class=\"math inline\">\\(\\pu{14}\\)</span>",
+          "md": "$\\pu{14}$",
+          "tex": "\\(\\num{14}\\)"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{4,7}\\)</span>",
-          "md": "$\\pu{4,7}$",
-          "tex": "\\(\\num{4,7}\\)"
+          "html": "<span class=\"math inline\">\\(\\pu{20}\\)</span>",
+          "md": "$\\pu{20}$",
+          "tex": "\\(\\num{20}\\)"
         }
       ],
-      "correct_choice": 4
+      "correct_choice": 2
     },
     {
       "id_": "2H03",
@@ -29217,36 +29360,6 @@
       "correct_choice": 0
     },
     {
-      "id_": "2H49",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H49/2H49.md",
-      "date": "2023-05-14T18:00:37.766832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2H54",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H54/2H54.md",
-      "date": "2023-05-14T18:00:37.774832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2H13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H13/2H13.md",
       "date": "2023-05-15T21:32:46.374722",
@@ -29286,21 +29399,6 @@
         }
       ],
       "correct_choice": 0
-    },
-    {
-      "id_": "2H48",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H48/2H48.md",
-      "date": "2023-05-14T18:00:37.762832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
     },
     {
       "id_": "2H31",
@@ -29417,17 +29515,43 @@
     {
       "id_": "2H23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H23/2H23.md",
-      "date": "2023-05-15T18:23:01.257723",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "<p>ESCREVER</p>",
-        "md": "ESCREVER\n",
-        "tex": "ESCREVER\n"
+        "html": "<p>Considere soluções de mesma concentração dos nitratos de cátions\nmetálicos.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem crescente de pH.</p>",
+        "md": "Considere soluções de mesma concentração dos nitratos de cátions\nmetálicos.\n\n**Assinale** a alternativa que relaciona as soluções em ordem crescente\nde pH.\n",
+        "tex": "Considere soluções de mesma concentração dos nitratos de cátions metálicos.\n\n\\textbf{Assinale} a alternativa que relaciona as soluções em ordem crescente de pH.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
+          "md": "$\\ce{Al^{3+}}$; $\\ce{Fe^{3+}}$; $\\ce{K^{+}}$; $\\ce{Fe^{2+}}$;\n$\\ce{Mg^{2+}}$.\n",
+          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>.",
+          "md": "$\\ce{Al^{3+}}$; $\\ce{K^{+}}$; $\\ce{Fe^{2+}}$; $\\ce{Mg^{2+}}$;\n$\\ce{Fe^{3+}}$.\n",
+          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
+          "md": "$\\ce{Al^{3+}}$; $\\ce{Fe^{3+}}$; $\\ce{Fe^{2+}}$; $\\ce{Mg^{2+}}$;\n$\\ce{K^{+}}$.\n",
+          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
+          "md": "$\\ce{Fe^{3+}}$; $\\ce{Fe^{2+}}$; $\\ce{Al^{3+}}$; $\\ce{K^{+}}$;\n$\\ce{Mg^{2+}}$.\n",
+          "tex": "{\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
+          "md": "$\\ce{Mg^{2+}}$; $\\ce{Al^{3+}}$; $\\ce{Fe^{3+}}$; $\\ce{Fe^{2+}}$;\n$\\ce{K^{+}}$.\n",
+          "tex": "{\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
+        }
+      ],
+      "correct_choice": 2
     },
     {
       "id_": "2H28",
@@ -29635,43 +29759,13 @@
       "correct_choice": 2
     },
     {
-      "id_": "2H47",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H47/2H47.md",
-      "date": "2023-05-14T18:00:37.758832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2H53",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H53/2H53.md",
-      "date": "2023-05-14T18:00:37.774832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
-      },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
       "id_": "2H37",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H37/2H37.md",
-      "date": "2023-05-17T20:50:01.436255",
+      "date": "2023-05-18T18:30:10.621732",
       "statement": {
-        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.L-1}\\)</span> de ácido sulfídrico, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{HS-}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span> na soluçoão,\nrespectivamente.</p>",
-        "md": "Considere uma solução $\\pu{0,2 mol.L-1}$ de ácido sulfídrico,\n$\\ce{H2S}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$, $\\ce{H2S}$, $\\ce{HS-}$ e $\\ce{S^{2-}}$ na soluçoão,\nrespectivamente.\n",
-        "tex": "Considere uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} de ácido sulfídrico, {\\(\\ce{H2S}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)}, {\\(\\ce{H2S}\\)}, {\\(\\ce{HS-}\\)} e {\\(\\ce{S^{2-}}\\)} na\nsoluçoão, respectivamente.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,2\nmol.L-1}\\)</span> de ácido sulfídrico, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{HS-}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span> na solução,\nrespectivamente.</p>",
+        "md": "Considere uma solução $\\pu{0,2 mol.L-1}$ de ácido sulfídrico,\n$\\ce{H2S}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$, $\\ce{H2S}$, $\\ce{HS-}$ e $\\ce{S^{2-}}$ na solução,\nrespectivamente.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} de ácido sulfídrico, {\\(\\ce{H2S}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)}, {\\(\\ce{H2S}\\)}, {\\(\\ce{HS-}\\)} e {\\(\\ce{S^{2-}}\\)} na\nsolução, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
@@ -29727,44 +29821,70 @@
     {
       "id_": "2H24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H24/2H24.md",
-      "date": "2023-05-15T18:23:05.285456",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "<p>ESCREVER</p>",
-        "md": "ESCREVER\n",
-        "tex": "ESCREVER\n"
+        "html": "<p>Considere soluções de mesma concentração dos nitratos de cátions\nmetálicos.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem crescente de pH.</p>",
+        "md": "Considere soluções de mesma concentração dos nitratos de cátions\nmetálicos.\n\n**Assinale** a alternativa que relaciona as soluções em ordem crescente\nde pH.\n",
+        "tex": "Considere soluções de mesma concentração dos nitratos de cátions metálicos.\n\n\\textbf{Assinale} a alternativa que relaciona as soluções em ordem crescente de pH.\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cr^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ni^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cu^{2+}}\\)</span>.",
+          "md": "$\\ce{Cr^{3+}}$; $\\ce{K^{+}}$; $\\ce{Ni^{2+}}$; $\\ce{Ca^{2+}}$;\n$\\ce{Cu^{2+}}$.\n",
+          "tex": "{\\(\\ce{Cr^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Ni^{2+}}\\)}; {\\(\\ce{Ca^{2+}}\\)}; {\\(\\ce{Cu^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cr^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cu^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ni^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
+          "md": "$\\ce{Cr^{3+}}$; $\\ce{Cu^{2+}}$; $\\ce{Ni^{2+}}$; $\\ce{Ca^{2+}}$;\n$\\ce{K^{+}}$.\n",
+          "tex": "{\\(\\ce{Cr^{3+}}\\)}; {\\(\\ce{Cu^{2+}}\\)}; {\\(\\ce{Ni^{2+}}\\)}; {\\(\\ce{Ca^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Ni^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cr^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cu^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span>.",
+          "md": "$\\ce{Ni^{2+}}$; $\\ce{Cr^{3+}}$; $\\ce{Cu^{2+}}$; $\\ce{K^{+}}$;\n$\\ce{Ca^{2+}}$.\n",
+          "tex": "{\\(\\ce{Ni^{2+}}\\)}; {\\(\\ce{Cr^{3+}}\\)}; {\\(\\ce{Cu^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Ca^{2+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cu^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cr^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ni^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
+          "md": "$\\ce{Cu^{2+}}$; $\\ce{Ca^{2+}}$; $\\ce{Cr^{3+}}$; $\\ce{Ni^{2+}}$;\n$\\ce{K^{+}}$.\n",
+          "tex": "{\\(\\ce{Cu^{2+}}\\)}; {\\(\\ce{Ca^{2+}}\\)}; {\\(\\ce{Cr^{3+}}\\)}; {\\(\\ce{Ni^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{Cu^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Cr^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ni^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Ca^{2+}}\\)</span>.",
+          "md": "$\\ce{Cu^{2+}}$; $\\ce{Cr^{3+}}$; $\\ce{Ni^{2+}}$; $\\ce{K^{+}}$;\n$\\ce{Ca^{2+}}$.\n",
+          "tex": "{\\(\\ce{Cu^{2+}}\\)}; {\\(\\ce{Cr^{3+}}\\)}; {\\(\\ce{Ni^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Ca^{2+}}\\)}.\n"
+        }
+      ],
+      "correct_choice": 1
     },
     {
       "id_": "2H38",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H38/2H38.md",
-      "date": "2023-05-15T18:46:30.643527",
+      "date": "2023-05-18T18:46:33.142705",
       "statement": {
-        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,5\nmol.L-1}\\)</span> de glicina protonada, <span class=\"math inline\">\\(\\ce{[NH3CH2COOH]^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>, <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{HS-}\\)</span> e <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span> na soluçoão,\nrespectivamente.</p>",
-        "md": "Considere uma solução $\\pu{0,5 mol.L-1}$ de glicina protonada,\n$\\ce{[NH3CH2COOH]^+}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$, $\\ce{H2S}$, $\\ce{HS-}$ e $\\ce{S^{2-}}$ na soluçoão,\nrespectivamente.\n",
-        "tex": "Considere uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de glicina protonada, {\\(\\ce{[NH3CH2COOH]^+}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)}, {\\(\\ce{H2S}\\)}, {\\(\\ce{HS-}\\)} e {\\(\\ce{S^{2-}}\\)} na\nsoluçoão, respectivamente.\n"
+        "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,5\nmol.L-1}\\)</span> de glicina protonada, <span class=\"math inline\">\\(\\ce{^+NH3CH2COOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span>, <span class=\"math inline\">\\(\\ce{^+NH3CH2COO^-}\\)</span>, <span class=\"math inline\">\\(\\ce{^+NH3CH2COOH}\\)</span> e <span class=\"math inline\">\\(\\ce{NH3CH2COOH^-}\\)</span> na solução,\nrespectivamente.</p>",
+        "md": "Considere uma solução $\\pu{0,5 mol.L-1}$ de glicina protonada,\n$\\ce{^+NH3CH2COOH}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$, $\\ce{^+NH3CH2COO^-}$, $\\ce{^+NH3CH2COOH}$ e\n$\\ce{NH3CH2COOH^-}$ na solução, respectivamente.\n",
+        "tex": "Considere uma solução {\\(\\qty{0,5}{\\unit{mol.L^{-1}}}\\)} de glicina protonada, {\\(\\ce{^+NH3CH2COOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)}, {\\(\\ce{^+NH3CH2COO^-}\\)}, {\\(\\ce{^+NH3CH2COOH}\\)} e\n{\\(\\ce{NH3CH2COOH^-}\\)} na solução, respectivamente.\n"
       },
       "solution": null,
       "answer": null,
       "data": {
         "quantities": [
           {
-            "id_": "Ka(NH2CH2COOH)",
-            "name": "constante de acidez do \\ce{NH2CH2COOH}",
-            "symbol": "K_\\mathrm{a}(\\ce{NH2CH2COOH})",
-            "value": 1,
+            "id_": "Ka(C2H6NO2)",
+            "name": "constante de acidez do \\ce{C2H6NO2}",
+            "symbol": "K_\\mathrm{a}(\\ce{C2H6NO2})",
+            "value": 0.0045,
             "unit": "",
             "prec": 2
           },
           {
-            "id_": "Kb(NH2CH2COOH)",
-            "name": "constante de basicidade do \\ce{NH2CH2COOH}",
-            "symbol": "K_\\mathrm{b}(\\ce{NH2CH2COOH})",
-            "value": 2,
+            "id_": "Kb(C2H6NO2)",
+            "name": "constante de basicidade do \\ce{C2H6NO2}",
+            "symbol": "K_\\mathrm{b}(\\ce{C2H6NO2})",
+            "value": 6e-05,
             "unit": "",
             "prec": 2
           }
@@ -29772,29 +29892,29 @@
       },
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>.",
-          "md": "$\\pu{7,1e-15 M}$; $\\pu{0,2 M}$; $\\pu{1,6e-4 M}$; $\\pu{1,6e-4 M}$.\n",
-          "tex": "{\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{2.2e-13 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,45 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>.",
+          "md": "$\\pu{2.2e-13 M}$; $\\pu{0,045 M}$; $\\pu{0,45 M}$; $\\pu{0,045 M}$.\n",
+          "tex": "{\\(\\qty{2.2e-13}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{0,45}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>.",
-          "md": "$\\pu{1,6e-4 M}$; $\\pu{0,2 M}$; $\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$.\n",
-          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,45 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2.2e-13 M}\\)</span>.",
+          "md": "$\\pu{0,045 M}$; $\\pu{0,045 M}$; $\\pu{0,45 M}$; $\\pu{2.2e-13 M}$.\n",
+          "tex": "{\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{0,45}{\\unit{M}}\\)}; {\\(\\qty{2.2e-13}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>.",
-          "md": "$\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$; $\\pu{0,2 M}$; $\\pu{1,6e-4 M}$.\n",
-          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2.2e-13 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,45 M}\\)</span>.",
+          "md": "$\\pu{0,045 M}$; $\\pu{2.2e-13 M}$; $\\pu{0,045 M}$; $\\pu{0,45 M}$.\n",
+          "tex": "{\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{2.2e-13}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{0,45}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>.",
-          "md": "$\\pu{1,6e-4 M}$; $\\pu{1,6e-4 M}$; $\\pu{0,2 M}$; $\\pu{7,1e-15 M}$.\n",
-          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,45 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2.2e-13 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>.",
+          "md": "$\\pu{0,45 M}$; $\\pu{2.2e-13 M}$; $\\pu{0,045 M}$; $\\pu{0,045 M}$.\n",
+          "tex": "{\\(\\qty{0,45}{\\unit{M}}\\)}; {\\(\\qty{2.2e-13}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{7,1e-15 M}\\)</span>; <span class=\"math inline\">\\(\\pu{1,6e-4 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,2 M}\\)</span>.",
-          "md": "$\\pu{1,6e-4 M}$; $\\pu{7,1e-15 M}$; $\\pu{1,6e-4 M}$; $\\pu{0,2 M}$.\n",
-          "tex": "{\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{7,1e-15}{\\unit{M}}\\)}; {\\(\\qty{1,6e-4}{\\unit{M}}\\)}; {\\(\\qty{0,2}{\\unit{M}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,45 M}\\)</span>; <span class=\"math inline\">\\(\\pu{0,045 M}\\)</span>; <span class=\"math inline\">\\(\\pu{2.2e-13 M}\\)</span>.",
+          "md": "$\\pu{0,045 M}$; $\\pu{0,45 M}$; $\\pu{0,045 M}$; $\\pu{2.2e-13 M}$.\n",
+          "tex": "{\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{0,45}{\\unit{M}}\\)}; {\\(\\qty{0,045}{\\unit{M}}\\)}; {\\(\\qty{2.2e-13}{\\unit{M}}\\)}.\n"
         }
       ],
       "correct_choice": 1
@@ -30160,32 +30280,62 @@
     {
       "id_": "2H43",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H43/2H43.md",
-      "date": "2023-05-14T18:00:37.750833",
+      "date": "2023-05-18T18:29:59.226138",
       "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+        "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH de\numa solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> em\nbicarbonato de sódio.</p>",
+        "md": "**Assinale** a alternativa que mais se aproxima do pH de uma solução\n$\\pu{0,1 mol.L-1}$ em bicarbonato de sódio.\n",
+        "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do pH de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} em bicarbonato de sódio.\n"
       },
       "solution": null,
       "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
-    },
-    {
-      "id_": "2H51",
-      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H51/2H51.md",
-      "date": "2023-05-14T18:00:37.770832",
-      "statement": {
-        "html": "",
-        "md": "\n",
-        "tex": "\n"
+      "data": {
+        "quantities": [
+          {
+            "id_": "pKa1(H2CO3)",
+            "name": "constante de acidez 1 do ácido carbônico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a1}(\\ce{H2CO3})",
+            "value": 6.4,
+            "unit": "",
+            "prec": 2
+          },
+          {
+            "id_": "pKa2(H2CO3)",
+            "name": "constante de acidez 2 do ácido carbônico",
+            "symbol": "\\mathrm{p}K_\\mathrm{a2}(\\ce{H2CO3})",
+            "value": 10,
+            "unit": "",
+            "prec": 2
+          }
+        ]
       },
-      "solution": null,
-      "answer": null,
-      "data": null,
-      "choices": null,
-      "correct_choice": null
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,3}\\)</span>",
+          "md": "$\\pu{2,3}$",
+          "tex": "\\(\\num{2,3}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,1}\\)</span>",
+          "md": "$\\pu{3,1}$",
+          "tex": "\\(\\num{3,1}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,3}\\)</span>",
+          "md": "$\\pu{4,3}$",
+          "tex": "\\(\\num{4,3}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0}\\)</span>",
+          "md": "$\\pu{6,0}$",
+          "tex": "\\(\\num{6,0}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,3}\\)</span>",
+          "md": "$\\pu{8,3}$",
+          "tex": "\\(\\num{8,3}\\)"
+        }
+      ],
+      "correct_choice": 4
     },
     {
       "id_": "2H33",
