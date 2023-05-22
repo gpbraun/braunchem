@@ -18917,6 +18917,1318 @@
       "correct_choice": 0
     },
     {
+      "id_": "3G11",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G11/3G11.md",
+      "date": "2023-05-22T16:04:55.649236",
+      "statement": {
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span>\nsolução de <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span> foi\ntitulada com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de uma\nsolução acidificada de permanganato de potássio <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>.</p>",
+        "md": "Uma alíquota de $\\pu{100 mL}$ solução de $\\ce{Fe^{2+}}$ foi titulada com\n$\\pu{10 mL}$ de uma solução acidificada de permanganato de potássio\n$\\pu{0,1 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de $\\ce{Fe^{2+}}$.\n",
+        "tex": "Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} solução de {\\(\\ce{Fe^{2+}}\\)} foi titulada com {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução acidificada de\npermanganato de potássio {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de {\\(\\ce{Fe^{2+}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 mmol.L-1}\\)</span>",
+          "md": "$\\pu{17 mmol.L-1}$",
+          "tex": "\\(\\qty{17}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 mmol.L-1}\\)</span>",
+          "md": "$\\pu{25 mmol.L-1}$",
+          "tex": "\\(\\qty{25}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 mmol.L-1}\\)</span>",
+          "md": "$\\pu{37 mmol.L-1}$",
+          "tex": "\\(\\qty{37}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 mmol.L-1}\\)</span>",
+          "md": "$\\pu{55 mmol.L-1}$",
+          "tex": "\\(\\qty{55}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{81 mmol.L-1}\\)</span>",
+          "md": "$\\pu{81 mmol.L-1}$",
+          "tex": "\\(\\qty{81}{\\unit{mmol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3G02",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G02/3G02.md",
+      "date": "2023-05-22T15:14:02.588701",
+      "statement": {
+        "html": "<p>Considere as reações de oxidação e redução.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Cl2(g) + H2S(aq) -&gt; Cl^-(aq) +\nS(s) + H^+(aq)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C3H7OH(aq) + H^+(aq) +\nCr2O7^{2-}(aq) -&gt; C3H6O(aq) + Cr^{3+}(aq) + H2O(l)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Au(s) + H^+(aq) + SeO4^{2-}(aq)\n-&gt; Au^{3+} + SeO3^{2-}(aq) + H2O(l)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Zn(s) + H^+(aq) + H3SbO4(aq) -&gt;\nZn^{2+}(aq) + SbH3(aq) + H2O(l)}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para as reações balanceadas.</p>",
+        "md": "Considere as reações de oxidação e redução.\n\n1.  $\\ce{Cl2(g) + H2S(aq) -> Cl^-(aq) + S(s) + H^+(aq)}$\n2.  $\\ce{C3H7OH(aq) + H^+(aq) + Cr2O7^{2-}(aq) -> C3H6O(aq) + Cr^{3+}(aq) + H2O(l)}$\n3.  $\\ce{Au(s) + H^+(aq) + SeO4^{2-}(aq) -> Au^{3+} + SeO3^{2-}(aq) + H2O(l)}$\n4.  $\\ce{Zn(s) + H^+(aq) + H3SbO4(aq) -> Zn^{2+}(aq) + SbH3(aq) + H2O(l)}$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para as reações balanceadas.\n",
+        "tex": "Considere as reações de oxidação e redução.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Cl2(g) + H2S(aq) -> Cl^-(aq) + S(s) + H^+(aq)}\\)}\n\\item\n  {\\(\\ce{C3H7OH(aq) + H^+(aq) + Cr2O7^{2-}(aq) -> C3H6O(aq) + Cr^{3+}(aq) + H2O(l)}\\)}\n\\item\n  {\\(\\ce{Au(s) + H^+(aq) + SeO4^{2-}(aq) -> Au^{3+} + SeO3^{2-}(aq) + H2O(l)}\\)}\n\\item\n  {\\(\\ce{Zn(s) + H^+(aq) + H3SbO4(aq) -> Zn^{2+}(aq) + SbH3(aq) + H2O(l)}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para as reações balanceadas.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "7; 22; 19; 24.",
+          "md": "7; 22; 19; 24.\n",
+          "tex": "7; 22; 19; 24.\n"
+        },
+        {
+          "html": "7; 24; 19; 22.",
+          "md": "7; 24; 19; 22.\n",
+          "tex": "7; 24; 19; 22.\n"
+        },
+        {
+          "html": "7; 22; 24; 19.",
+          "md": "7; 22; 24; 19.\n",
+          "tex": "7; 22; 24; 19.\n"
+        },
+        {
+          "html": "22; 24; 19; 7.",
+          "md": "22; 24; 19; 7.\n",
+          "tex": "22; 24; 19; 7.\n"
+        },
+        {
+          "html": "19; 24; 7; 22.",
+          "md": "19; 24; 7; 22.\n",
+          "tex": "19; 24; 7; 22.\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3G29",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G29/3G29.md",
+      "date": "2023-05-22T17:39:40.783469",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{125 mg}\\)</span> de um\nexplosivo a base de clorato de potássio, <span class=\"math inline\">\\(\\ce{KClO3}\\)</span>, foi tratada com <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> de cátions ferro(II)\nconvertendo os íons clorato em cloreto. O excesso de ferro(II) foi\nretrotitulado com <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> de cátions\ncério(IV).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{KClO3}\\)</span> na\namostra.</p>",
+        "md": "Uma amostra de $\\pu{125 mg}$ de um explosivo a base de clorato de\npotássio, $\\ce{KClO3}$, foi tratada com $\\pu{50 mL}$ de uma solução\n$\\pu{0,1 mol.L-1}$ de cátions ferro(II) convertendo os íons clorato em\ncloreto. O excesso de ferro(II) foi retrotitulado com $\\pu{20 mL}$ de\numa solução $\\pu{0,1 mol.L-1}$ de cátions cério(IV).\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{KClO3}$ na amostra.\n",
+        "tex": "Uma amostra de {\\(\\qty{125}{\\unit{mg}}\\)} de um explosivo a base de clorato de potássio, {\\(\\ce{KClO3}\\)}, foi tratada com {\\(\\qty{50}{\\unit{mL}}\\)}\nde uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de cátions ferro(II) convertendo os íons clorato em cloreto. O excesso de ferro(II) foi\nretrotitulado com {\\(\\qty{20}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de cátions cério(IV).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{KClO3}\\)} na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{21 \\%}\\)</span>",
+          "md": "$\\pu{21 \\%}$",
+          "tex": "\\(\\qty{21}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{32 \\%}\\)</span>",
+          "md": "$\\pu{32 \\%}$",
+          "tex": "\\(\\qty{32}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{49 \\%}\\)</span>",
+          "md": "$\\pu{49 \\%}$",
+          "tex": "\\(\\qty{49}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{75 \\%}\\)</span>",
+          "md": "$\\pu{75 \\%}$",
+          "tex": "\\(\\qty{75}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 \\%}\\)</span>",
+          "md": "$\\pu{120 \\%}$",
+          "tex": "\\(\\qty{120}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G28",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G28/3G28.md",
+      "date": "2023-05-22T17:35:15.078074",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{25 L}\\)</span> de ar\naspirado em <span class=\"math inline\">\\(\\pu{1 atm}\\)</span> e <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span> da vizinhança de um\nforno doméstico foi passada através de pentóxido de iodo em <span class=\"math inline\">\\(\\pu{150 \\degree C}\\)</span>, no qual o <span class=\"math inline\">\\(\\ce{CO}\\)</span> foi convertido em <span class=\"math inline\">\\(\\ce{CO2}\\)</span> e uma quantidade equivalente de\niodo foi produzida.</p>\n<p>O iodo foi destilado e coletado em uma solução de <span class=\"math inline\">\\(\\ce{KI}\\)</span>. O triiodeto formado foi titulado\ncom <span class=\"math inline\">\\(\\pu{8 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{2 mmol.L-1}\\)</span> de tiossulfato de\nsódio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{CO}\\)</span> no ar.</p>",
+        "md": "Uma amostra de $\\pu{25 L}$ de ar aspirado em $\\pu{1 atm}$ e\n$\\pu{25 \\degree C}$ da vizinhança de um forno doméstico foi passada\natravés de pentóxido de iodo em $\\pu{150 \\degree C}$, no qual o\n$\\ce{CO}$ foi convertido em $\\ce{CO2}$ e uma quantidade equivalente de\niodo foi produzida.\n\nO iodo foi destilado e coletado em uma solução de $\\ce{KI}$. O triiodeto\nformado foi titulado com $\\pu{8 mL}$ de uma solução $\\pu{2 mmol.L-1}$ de\ntiossulfato de sódio.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{CO}$ no ar.\n",
+        "tex": "Uma amostra de {\\(\\qty{25}{\\unit{L}}\\)} de ar aspirado em {\\(\\qty{1}{\\unit{atm}}\\)} e {\\(\\qty{25}{\\unit{\\degree C}}\\)} da vizinhança de um forno\ndoméstico foi passada através de pentóxido de iodo em {\\(\\qty{150}{\\unit{\\degree C}}\\)}, no qual o {\\(\\ce{CO}\\)} foi convertido em {\\(\\ce{CO2}\\)} e\numa quantidade equivalente de iodo foi produzida.\n\nO iodo foi destilado e coletado em uma solução de {\\(\\ce{KI}\\)}. O triiodeto formado foi titulado com {\\(\\qty{8}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{2}{\\unit{mmol.L^{-1}}}\\)} de tiossulfato de sódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{CO}\\)} no ar.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 ppm}\\)</span>",
+          "md": "$\\pu{26 ppm}$",
+          "tex": "\\(\\qty{26}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{40 ppm}\\)</span>",
+          "md": "$\\pu{40 ppm}$",
+          "tex": "\\(\\qty{40}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{62 ppm}\\)</span>",
+          "md": "$\\pu{62 ppm}$",
+          "tex": "\\(\\qty{62}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{97 ppm}\\)</span>",
+          "md": "$\\pu{97 ppm}$",
+          "tex": "\\(\\qty{97}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{150 ppm}\\)</span>",
+          "md": "$\\pu{150 ppm}$",
+          "tex": "\\(\\qty{150}{\\unit{ppm}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G09",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G09/3G09.md",
+      "date": "2023-05-22T15:40:20.326552",
+      "statement": {
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{100 mL}\\)</span>\nsolução de <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span> foi\ntitulada com <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de nitrato\nde cério (IV) <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>.</p>",
+        "md": "Uma alíquota de $\\pu{100 mL}$ solução de $\\ce{Fe^{2+}}$ foi titulada com\n$\\pu{25 mL}$ de nitrato de cério (IV) $\\pu{0,1 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de $\\ce{Fe^{2+}}$.\n",
+        "tex": "Uma alíquota de {\\(\\qty{100}{\\unit{mL}}\\)} solução de {\\(\\ce{Fe^{2+}}\\)} foi titulada com {\\(\\qty{25}{\\unit{mL}}\\)} de nitrato de cério (IV)\n{\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de {\\(\\ce{Fe^{2+}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 mmol.L-1}\\)</span>",
+          "md": "$\\pu{11 mmol.L-1}$",
+          "tex": "\\(\\qty{11}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 mmol.L-1}\\)</span>",
+          "md": "$\\pu{17 mmol.L-1}$",
+          "tex": "\\(\\qty{17}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 mmol.L-1}\\)</span>",
+          "md": "$\\pu{25 mmol.L-1}$",
+          "tex": "\\(\\qty{25}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 mmol.L-1}\\)</span>",
+          "md": "$\\pu{37 mmol.L-1}$",
+          "tex": "\\(\\qty{37}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 mmol.L-1}\\)</span>",
+          "md": "$\\pu{55 mmol.L-1}$",
+          "tex": "\\(\\qty{55}{\\unit{mmol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G15",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G15/3G15.md",
+      "date": "2023-05-22T16:55:14.262409",
+      "statement": {
+        "html": "<p>O óxido de estanho(IV), <span class=\"math inline\">\\(\\ce{SnO2}\\)</span>, presente em uma amostra de\n<span class=\"math inline\">\\(\\pu{405 mg}\\)</span> de minério foi reduzido\npara <span class=\"math inline\">\\(\\ce{Sn^{2+}}\\)</span> pela reação com\nchumbo metálico e titulado com <span class=\"math inline\">\\(\\pu{30\nmL}\\)</span> de dicromato de potássio, <span class=\"math inline\">\\(\\pu{0,01 mol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de <span class=\"math inline\">\\(\\ce{SnO2}\\)</span> no minério.</p>",
+        "md": "O óxido de estanho(IV), $\\ce{SnO2}$, presente em uma amostra de\n$\\pu{405 mg}$ de minério foi reduzido para $\\ce{Sn^{2+}}$ pela reação\ncom chumbo metálico e titulado com $\\pu{30 mL}$ de dicromato de\npotássio, $\\pu{0,01 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de $\\ce{SnO2}$\nno minério.\n",
+        "tex": "O óxido de estanho(IV), {\\(\\ce{SnO2}\\)}, presente em uma amostra de {\\(\\qty{405}{\\unit{mg}}\\)} de minério foi reduzido para {\\(\\ce{Sn^{2+}}\\)} pela\nreação com chumbo metálico e titulado com {\\(\\qty{30}{\\unit{mL}}\\)} de dicromato de potássio, {\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de {\\(\\ce{SnO2}\\)} no minério.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{15 \\%}\\)</span>",
+          "md": "$\\pu{15 \\%}$",
+          "tex": "\\(\\qty{15}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{23 \\%}\\)</span>",
+          "md": "$\\pu{23 \\%}$",
+          "tex": "\\(\\qty{23}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{34 \\%}\\)</span>",
+          "md": "$\\pu{34 \\%}$",
+          "tex": "\\(\\qty{34}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{51 \\%}\\)</span>",
+          "md": "$\\pu{51 \\%}$",
+          "tex": "\\(\\qty{51}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{77 \\%}\\)</span>",
+          "md": "$\\pu{77 \\%}$",
+          "tex": "\\(\\qty{77}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G21",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G21/3G21.md",
+      "date": "2023-05-22T16:37:40.751272",
+      "statement": {
+        "html": "<p>Um amostra de <span class=\"math inline\">\\(\\pu{0,18 g}\\)</span> de\noxalato de sódio, <span class=\"math inline\">\\(\\ce{Na2C2O4}\\)</span> foi\ntitulada com <span class=\"math inline\">\\(\\pu{32 mL}\\)</span> de uma\nsolução de permanganato de potássio acidificada.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de permanganato de potássio.</p>",
+        "md": "Um amostra de $\\pu{0,18 g}$ de oxalato de sódio, $\\ce{Na2C2O4}$ foi\ntitulada com $\\pu{32 mL}$ de uma solução de permanganato de potássio\nacidificada.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de permanganato de potássio.\n",
+        "tex": "Um amostra de {\\(\\qty{0,18}{\\unit{g}}\\)} de oxalato de sódio, {\\(\\ce{Na2C2O4}\\)} foi titulada com {\\(\\qty{32}{\\unit{mL}}\\)} de uma solução de\npermanganato de potássio acidificada.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de permanganato de potássio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,0075 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,0075 mol.L-1}$",
+          "tex": "\\(\\qty{0,0075}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,012 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,012 mol.L-1}$",
+          "tex": "\\(\\qty{0,012}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,018 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,018 mol.L-1}$",
+          "tex": "\\(\\qty{0,018}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,028 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,028 mol.L-1}$",
+          "tex": "\\(\\qty{0,028}{\\unit{mol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,043 mol.L-1}\\)</span>",
+          "md": "$\\pu{0,043 mol.L-1}$",
+          "tex": "\\(\\qty{0,043}{\\unit{mol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G24",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G24/3G24.md",
+      "date": "2023-05-22T16:57:41.616400",
+      "statement": {
+        "html": "<p>Uma amostra de cloretos de metais alcalinos foi analisada em relação\nao teor de sódio pela dissolução de uma amostra de <span class=\"math inline\">\\(\\pu{0,8 g}\\)</span> em água e diluição para <span class=\"math inline\">\\(\\pu{500 mL}\\)</span>. Uma alíquota de <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> dessa solução foi tratada para\nprecipitar o sólido <span class=\"math inline\">\\(\\pu{NaZn(UO2)3(CH3CO2)9.6H20}\\)</span>. O\nprecipitado foi filtrado, dissolvido em ácido e passado através de uma\ncoluna redutora de chumbo, que converteu o urânio em <span class=\"math inline\">\\(\\pu{U^{4+}}\\)</span>. Os cátions urânio foram\ntitulados com <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> de\ndicromato de potássio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> na\namostra.</p>",
+        "md": "Uma amostra de cloretos de metais alcalinos foi analisada em relação ao\nteor de sódio pela dissolução de uma amostra de $\\pu{0,8 g}$ em água e\ndiluição para $\\pu{500 mL}$. Uma alíquota de $\\pu{25 mL}$ dessa solução\nfoi tratada para precipitar o sólido $\\pu{NaZn(UO2)3(CH3CO2)9.6H20}$. O\nprecipitado foi filtrado, dissolvido em ácido e passado através de uma\ncoluna redutora de chumbo, que converteu o urânio em $\\pu{U^{4+}}$. Os\ncátions urânio foram titulados com $\\pu{20 mL}$ de uma solução\n$\\pu{0,1 mol.L-1}$ de dicromato de potássio.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{NaCl}$ na amostra.\n",
+        "tex": "Uma amostra de cloretos de metais alcalinos foi analisada em relação ao teor de sódio pela dissolução de uma amostra de {\\(\\qty{0,8}{\\unit{g}}\\)} em\nágua e diluição para {\\(\\qty{500}{\\unit{mL}}\\)}. Uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} dessa solução foi tratada para precipitar o sólido\n{\\(\\pu{NaZn(UO2)3(CH3CO2)9.6H20}\\)}. O precipitado foi filtrado, dissolvido em ácido e passado através de uma coluna redutora de chumbo, que converteu\no urânio em {\\(\\pu{U^{4+}}\\)}. Os cátions urânio foram titulados com {\\(\\qty{20}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de\ndicromato de potássio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{NaCl}\\)} na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{15 \\%}\\)</span>",
+          "md": "$\\pu{15 \\%}$",
+          "tex": "\\(\\qty{15}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{22 \\%}\\)</span>",
+          "md": "$\\pu{22 \\%}$",
+          "tex": "\\(\\qty{22}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{31 \\%}\\)</span>",
+          "md": "$\\pu{31 \\%}$",
+          "tex": "\\(\\qty{31}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{44 \\%}\\)</span>",
+          "md": "$\\pu{44 \\%}$",
+          "tex": "\\(\\qty{44}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{64 \\%}\\)</span>",
+          "md": "$\\pu{64 \\%}$",
+          "tex": "\\(\\qty{64}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G18",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G18/3G18.md",
+      "date": "2023-05-22T16:27:44.648400",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{8 g}\\)</span> de um\nformicida foi decomposta por digestão com uma mistura sulfonítrica. O\narsênio presente no resíduo foi reduzido ao estado trivalente com\nhidrazina, <span class=\"math inline\">\\(\\ce{N2H4}\\)</span>. Após a\nremoção do agente redutor, o arsênio(III) foi titulado com <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,2 mol.L-1}\\)</span> de íons triiodeto em\nmeio fracamente alcalino.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{As2O3}\\)</span> na\namostra.</p>",
+        "md": "Uma amostra de $\\pu{8 g}$ de um formicida foi decomposta por digestão\ncom uma mistura sulfonítrica. O arsênio presente no resíduo foi reduzido\nao estado trivalente com hidrazina, $\\ce{N2H4}$. Após a remoção do\nagente redutor, o arsênio(III) foi titulado com $\\pu{25 mL}$ de uma\nsolução $\\pu{0,2 mol.L-1}$ de íons triiodeto em meio fracamente\nalcalino.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{As2O3}$ na amostra.\n",
+        "tex": "Uma amostra de {\\(\\qty{8}{\\unit{g}}\\)} de um formicida foi decomposta por digestão com uma mistura sulfonítrica. O arsênio presente no resíduo foi\nreduzido ao estado trivalente com hidrazina, {\\(\\ce{N2H4}\\)}. Após a remoção do agente redutor, o arsênio(III) foi titulado com\n{\\(\\qty{25}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,2}{\\unit{mol.L^{-1}}}\\)} de íons triiodeto em meio fracamente alcalino.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{As2O3}\\)} na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,8 \\%}\\)</span>",
+          "md": "$\\pu{1,8 \\%}$",
+          "tex": "\\(\\qty{1,8}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5 \\%}\\)</span>",
+          "md": "$\\pu{2,5 \\%}$",
+          "tex": "\\(\\qty{2,5}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,4 \\%}\\)</span>",
+          "md": "$\\pu{3,4 \\%}$",
+          "tex": "\\(\\qty{3,4}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,6 \\%}\\)</span>",
+          "md": "$\\pu{4,6 \\%}$",
+          "tex": "\\(\\qty{4,6}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,2 \\%}\\)</span>",
+          "md": "$\\pu{6,2 \\%}$",
+          "tex": "\\(\\qty{6,2}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "3G05",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G05/3G05.md",
+      "date": "2023-05-22T15:29:22.968530",
+      "statement": {
+        "html": "<p>Considere a reação. <span class=\"math display\">\\[\n\\begin{split}\n    \\ce{ S2O3^{2-}(aq) + H3O^+(aq) -&gt;\\\\ HSO3^-(aq) + H2O(l) + S(s) }\n\\end{split}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para a reação balanceada.</p>",
+        "md": "Considere a reação. $$\n\\begin{split}\n    \\ce{ S2O3^{2-}(aq) + H3O^+(aq) ->\\\\ HSO3^-(aq) + H2O(l) + S(s) }\n\\end{split}\n$$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para a reação balanceada.\n",
+        "tex": "Considere a reação. {\\[\n\\begin{split}\n    \\ce{ S2O3^{2-}(aq) + H3O^+(aq) ->\\\\ HSO3^-(aq) + H2O(l) + S(s) }\n\\end{split}\n\\]}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para a reação balanceada.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{10}\\)</span>",
+          "md": "$\\pu{10}$",
+          "tex": "\\(\\num{10}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14}\\)</span>",
+          "md": "$\\pu{14}$",
+          "tex": "\\(\\num{14}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{20}\\)</span>",
+          "md": "$\\pu{20}$",
+          "tex": "\\(\\num{20}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{27}\\)</span>",
+          "md": "$\\pu{27}$",
+          "tex": "\\(\\num{27}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{38}\\)</span>",
+          "md": "$\\pu{38}$",
+          "tex": "\\(\\num{38}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G19",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G19/3G19.md",
+      "date": "2023-05-22T16:36:22.899760",
+      "statement": {
+        "html": "<p>Um comprimido de <span class=\"math inline\">\\(\\pu{1 g}\\)</span>\nvitamina C, <span class=\"math inline\">\\(\\ce{C6H8O6}\\)</span> foi\ndissolvido em <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de água e\numa alíquota de <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> dessa\nsolução foi titulada com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span>\nde uma solução <span class=\"math inline\">\\(\\pu{0,05 mol.L-1}\\)</span> de\ntriiodeto de potássio, sendo a vitamina C convertida em ácido\ndesidroascórbico, <span class=\"math inline\">\\(\\ce{C6H6O6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de vitamina C no comprimido.</p>",
+        "md": "Um comprimido de $\\pu{1 g}$ vitamina C, $\\ce{C6H8O6}$ foi dissolvido em\n$\\pu{100 mL}$ de água e uma alíquota de $\\pu{10 mL}$ dessa solução foi\ntitulada com $\\pu{10 mL}$ de uma solução $\\pu{0,05 mol.L-1}$ de\ntriiodeto de potássio, sendo a vitamina C convertida em ácido\ndesidroascórbico, $\\ce{C6H6O6}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\nvitamina C no comprimido.\n",
+        "tex": "Um comprimido de {\\(\\qty{1}{\\unit{g}}\\)} vitamina C, {\\(\\ce{C6H8O6}\\)} foi dissolvido em {\\(\\qty{100}{\\unit{mL}}\\)} de água e uma alíquota de\n{\\(\\qty{10}{\\unit{mL}}\\)} dessa solução foi titulada com {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,05}{\\unit{mol.L^{-1}}}\\)} de triiodeto de\npotássio, sendo a vitamina C convertida em ácido desidroascórbico, {\\(\\ce{C6H6O6}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de vitamina C no comprimido.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,64 g}\\)</span>",
+          "md": "$\\pu{0,64 g}$",
+          "tex": "\\(\\qty{0,64}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,77 g}\\)</span>",
+          "md": "$\\pu{0,77 g}$",
+          "tex": "\\(\\qty{0,77}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,93 g}\\)</span>",
+          "md": "$\\pu{0,93 g}$",
+          "tex": "\\(\\qty{0,93}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,1 g}\\)</span>",
+          "md": "$\\pu{1,1 g}$",
+          "tex": "\\(\\qty{1,1}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 g}\\)</span>",
+          "md": "$\\pu{1,4 g}$",
+          "tex": "\\(\\qty{1,4}{\\unit{g}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G31",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G31/3G31.md",
+      "date": "2023-05-22T17:52:55.912115",
+      "statement": {
+        "html": "<p>O tetraetilchumbo, <span class=\"math inline\">\\(\\ce{Pb(C2H5)4}\\)</span>, presente em uma alíquota\nde <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de uma amostra de\ngasolina de avião foi agitado com <span class=\"math inline\">\\(\\pu{15\nmL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,02\nmol.L-1}\\)</span>, ocorrendo a reação: <span class=\"math display\">\\[\n    \\ce{ Pb(C2H5)4(aq) + I2(aq) -&gt; Pb(C2H5)2I(aq) + C2H5I(aq) }\n\\]</span> Ao final da reação, o excesso de <span class=\"math inline\">\\(\\ce{I2}\\)</span> foi retrotitulado com <span class=\"math inline\">\\(\\pu{6 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,04 mol.L-1}\\)</span> de tiossulfato de\nsódio, <span class=\"math inline\">\\(\\ce{Na2S2O3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de tetraetilchumbo na gasolina.</p>",
+        "md": "O tetraetilchumbo, $\\ce{Pb(C2H5)4}$, presente em uma alíquota de\n$\\pu{25 mL}$ de uma amostra de gasolina de avião foi agitado com\n$\\pu{15 mL}$ de uma solução $\\pu{0,02 mol.L-1}$, ocorrendo a reação: $$\n    \\ce{ Pb(C2H5)4(aq) + I2(aq) -> Pb(C2H5)2I(aq) + C2H5I(aq) }\n$$ Ao final da reação, o excesso de $\\ce{I2}$ foi retrotitulado com\n$\\pu{6 mL}$ de uma solução $\\pu{0,04 mol.L-1}$ de tiossulfato de sódio,\n$\\ce{Na2S2O3}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ntetraetilchumbo na gasolina.\n",
+        "tex": "O tetraetilchumbo, {\\(\\ce{Pb(C2H5)4}\\)}, presente em uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} de uma amostra de gasolina de avião foi agitado com\n{\\(\\qty{15}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)}, ocorrendo a reação: {\\[\n    \\ce{ Pb(C2H5)4(aq) + I2(aq) -> Pb(C2H5)2I(aq) + C2H5I(aq) }\n\\]} Ao final da reação, o excesso de {\\(\\ce{I2}\\)} foi retrotitulado com {\\(\\qty{6}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,04}{\\unit{mol.L^{-1}}}\\)}\nde tiossulfato de sódio, {\\(\\ce{Na2S2O3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de tetraetilchumbo na gasolina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,5 g.L-1}\\)</span>",
+          "md": "$\\pu{1,5 g.L-1}$",
+          "tex": "\\(\\qty{1,5}{\\unit{g.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,9 g.L-1}\\)</span>",
+          "md": "$\\pu{1,9 g.L-1}$",
+          "tex": "\\(\\qty{1,9}{\\unit{g.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,3 g.L-1}\\)</span>",
+          "md": "$\\pu{2,3 g.L-1}$",
+          "tex": "\\(\\qty{2,3}{\\unit{g.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,8 g.L-1}\\)</span>",
+          "md": "$\\pu{2,8 g.L-1}$",
+          "tex": "\\(\\qty{2,8}{\\unit{g.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{3,5 g.L-1}\\)</span>",
+          "md": "$\\pu{3,5 g.L-1}$",
+          "tex": "\\(\\qty{3,5}{\\unit{g.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G23",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G23/3G23.md",
+      "date": "2023-05-22T16:49:12.062874",
+      "statement": {
+        "html": "<p>O tratamento de uma alíquota de <span class=\"math inline\">\\(\\pu{50\nmL}\\)</span> de uma solução de hidroxilamina, <span class=\"math inline\">\\(\\ce{NH2OH}\\)</span>, com excesso de cátions\nferro(III) resulta na formação de <span class=\"math inline\">\\(\\ce{N2O}\\)</span>. Os cátions ferro(II) foram\ntitulados com <span class=\"math inline\">\\(\\pu{20 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,03 mol.L-1}\\)</span> de\ndicromato de potássio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de hidroxilamina.</p>",
+        "md": "O tratamento de uma alíquota de $\\pu{50 mL}$ de uma solução de\nhidroxilamina, $\\ce{NH2OH}$, com excesso de cátions ferro(III) resulta\nna formação de $\\ce{N2O}$. Os cátions ferro(II) foram titulados com\n$\\pu{20 mL}$ de uma solução $\\pu{0,03 mol.L-1}$ de dicromato de\npotássio.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de hidroxilamina.\n",
+        "tex": "O tratamento de uma alíquota de {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução de hidroxilamina, {\\(\\ce{NH2OH}\\)}, com excesso de cátions ferro(III) resulta\nna formação de {\\(\\ce{N2O}\\)}. Os cátions ferro(II) foram titulados com {\\(\\qty{20}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,03}{\\unit{mol.L^{-1}}}\\)}\nde dicromato de potássio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de hidroxilamina.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{24 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{24 mmmol.L-1}$",
+          "tex": "\\(\\qty{24}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{36 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{36 mmmol.L-1}$",
+          "tex": "\\(\\qty{36}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{54 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{54 mmmol.L-1}$",
+          "tex": "\\(\\qty{54}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{82 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{82 mmmol.L-1}$",
+          "tex": "\\(\\qty{82}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{120 mmmol.L-1}$",
+          "tex": "\\(\\qty{120}{\\unit{mmmol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3G20",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G20/3G20.md",
+      "date": "2023-05-22T16:35:48.094622",
+      "statement": {
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de\nsolução <span class=\"math inline\">\\(\\pu{19 g.L-1}\\)</span> de um\ncomposto binário de estanho e cloro foi titulada com <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,12 mol.L-1}\\)</span> de triiodeto, formando\noutro composto de estanho e cloro.</p>\n<p><strong>Assinale</strong> a alternativa com a fórmula empírica do\ncomposto de estanho na solução original.</p>",
+        "md": "Uma alíquota de $\\pu{25 mL}$ de solução $\\pu{19 g.L-1}$ de um composto\nbinário de estanho e cloro foi titulada com $\\pu{30 mL}$ de uma solução\n$\\pu{0,12 mol.L-1}$ de triiodeto, formando outro composto de estanho e\ncloro.\n\n**Assinale** a alternativa com a fórmula empírica do composto de estanho\nna solução original.\n",
+        "tex": "Uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} de solução {\\(\\qty{19}{\\unit{g.L^{-1}}}\\)} de um composto binário de estanho e cloro foi titulada com\n{\\(\\qty{30}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,12}{\\unit{mol.L^{-1}}}\\)} de triiodeto, formando outro composto de estanho e cloro.\n\n\\textbf{Assinale} a alternativa com a fórmula empírica do composto de estanho na solução original.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnCl}\\)</span>",
+          "md": "$\\ce{SnCl}$\n",
+          "tex": "{\\(\\ce{SnCl}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnCl2}\\)</span>",
+          "md": "$\\ce{SnCl2}$\n",
+          "tex": "{\\(\\ce{SnCl2}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnCl3}\\)</span>",
+          "md": "$\\ce{SnCl3}$\n",
+          "tex": "{\\(\\ce{SnCl3}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnCl4}\\)</span>",
+          "md": "$\\ce{SnCl4}$\n",
+          "tex": "{\\(\\ce{SnCl4}\\)}\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SnCl5}\\)</span>",
+          "md": "$\\ce{SnCl5}$\n",
+          "tex": "{\\(\\ce{SnCl5}\\)}\n"
+        }
+      ],
+      "correct_choice": 1
+    },
+    {
+      "id_": "3G12",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G12/3G12.md",
+      "date": "2023-05-22T16:11:16.049531",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{800 mg}\\)</span> de\nminério de ferro foi dissolvida e passada por um redutor de Jones,\nconvertendo o ferro em íons ferro(II). O ferro foi titulado com <span class=\"math inline\">\\(\\pu{40 mL}\\)</span> de uma solução acidificada de\npermanganato de potássio <span class=\"math inline\">\\(\\pu{0,02\nmol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração de <span class=\"math inline\">\\(\\ce{Fe2O3}\\)</span> no\nminério.</p>",
+        "md": "Uma amostra de $\\pu{800 mg}$ de minério de ferro foi dissolvida e\npassada por um redutor de Jones, convertendo o ferro em íons ferro(II).\nO ferro foi titulado com $\\pu{40 mL}$ de uma solução acidificada de\npermanganato de potássio $\\pu{0,02 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração de\n$\\ce{Fe2O3}$ no minério.\n",
+        "tex": "Uma amostra de {\\(\\qty{800}{\\unit{mg}}\\)} de minério de ferro foi dissolvida e passada por um redutor de Jones, convertendo o ferro em íons ferro(II).\nO ferro foi titulado com {\\(\\qty{40}{\\unit{mL}}\\)} de uma solução acidificada de permanganato de potássio {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração de {\\(\\ce{Fe2O3}\\)} no minério.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 \\%}\\)</span>",
+          "md": "$\\pu{11 \\%}$",
+          "tex": "\\(\\qty{11}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 \\%}\\)</span>",
+          "md": "$\\pu{17 \\%}$",
+          "tex": "\\(\\qty{17}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{26 \\%}\\)</span>",
+          "md": "$\\pu{26 \\%}$",
+          "tex": "\\(\\qty{26}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{40 \\%}\\)</span>",
+          "md": "$\\pu{40 \\%}$",
+          "tex": "\\(\\qty{40}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{61 \\%}\\)</span>",
+          "md": "$\\pu{61 \\%}$",
+          "tex": "\\(\\qty{61}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3G04",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G04/3G04.md",
+      "date": "2023-05-22T15:21:53.500735",
+      "statement": {
+        "html": "<p>Considere as reações de oxidação e redução.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{MnO4^-(aq) + H2O(l) + S^{2-}(aq)\n-&gt; MnO2(s) + OH^-(aq) + S(s)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Pb(OH)4^{2-}(aq) + ClO^-(aq) -&gt;\nPbO2(s) + Cl^-(aq) + H2O(l) + OH^-(aq)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Cr(OH)3(s) + OH^-(aq) + ClO^-(aq)\n-&gt; CrO4^{2-}(aq) + H2O(l) + Cl^-(aq)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2O(l) + IO3^-(aq) + I^-(aq) -&gt;\nI3^-(aq) + OH^-(aq)}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para as reações balanceadas.</p>",
+        "md": "Considere as reações de oxidação e redução.\n\n1.  $\\ce{MnO4^-(aq) + H2O(l) + S^{2-}(aq) -> MnO2(s) + OH^-(aq) + S(s)}$\n2.  $\\ce{Pb(OH)4^{2-}(aq) + ClO^-(aq) -> PbO2(s) + Cl^-(aq) + H2O(l) + OH^-(aq)}$\n3.  $\\ce{Cr(OH)3(s) + OH^-(aq) + ClO^-(aq) -> CrO4^{2-}(aq) + H2O(l) + Cl^-(aq)}$\n4.  $\\ce{H2O(l) + IO3^-(aq) + I^-(aq) -> I3^-(aq) + OH^-(aq)}$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para as reações balanceadas.\n",
+        "tex": "Considere as reações de oxidação e redução.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{MnO4^-(aq) + H2O(l) + S^{2-}(aq) -> MnO2(s) + OH^-(aq) + S(s)}\\)}\n\\item\n  {\\(\\ce{Pb(OH)4^{2-}(aq) + ClO^-(aq) -> PbO2(s) + Cl^-(aq) + H2O(l) + OH^-(aq)}\\)}\n\\item\n  {\\(\\ce{Cr(OH)3(s) + OH^-(aq) + ClO^-(aq) -> CrO4^{2-}(aq) + H2O(l) + Cl^-(aq)}\\)}\n\\item\n  {\\(\\ce{H2O(l) + IO3^-(aq) + I^-(aq) -> I3^-(aq) + OH^-(aq)}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para as reações balanceadas.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "21; 19; 7; 22.",
+          "md": "21; 19; 7; 22.\n",
+          "tex": "21; 19; 7; 22.\n"
+        },
+        {
+          "html": "22; 21; 7; 19.",
+          "md": "22; 21; 7; 19.\n",
+          "tex": "22; 21; 7; 19.\n"
+        },
+        {
+          "html": "7; 21; 22; 19.",
+          "md": "7; 21; 22; 19.\n",
+          "tex": "7; 21; 22; 19.\n"
+        },
+        {
+          "html": "22; 7; 19; 21.",
+          "md": "22; 7; 19; 21.\n",
+          "tex": "22; 7; 19; 21.\n"
+        },
+        {
+          "html": "21; 7; 22; 19.",
+          "md": "21; 7; 22; 19.\n",
+          "tex": "21; 7; 22; 19.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3G14",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G14/3G14.md",
+      "date": "2023-05-22T16:09:08.621514",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{11 g}\\)</span> de\nurânio foi dissolvida em ácido convertendo o urânio em <span class=\"math inline\">\\(\\ce{U^{4+}}\\)</span>. A solução resultante foi\ntitulada com <span class=\"math inline\">\\(\\pu{25,8 mL}\\)</span> de uma\nsolução permanganato de potássio <span class=\"math inline\">\\(\\pu{0,54\nmol.L-1}\\)</span>, sendo o arsênio convertido a <span class=\"math inline\">\\(\\ce{UO2^{2+}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza da amostra de urânio.</p>",
+        "md": "Uma amostra de $\\pu{11 g}$ de urânio foi dissolvida em ácido convertendo\no urânio em $\\ce{U^{4+}}$. A solução resultante foi titulada com\n$\\pu{25,8 mL}$ de uma solução permanganato de potássio\n$\\pu{0,54 mol.L-1}$, sendo o arsênio convertido a $\\ce{UO2^{2+}}$.\n\n**Assinale** a alternativa que mais se aproxima da pureza da amostra de\nurânio.\n",
+        "tex": "Uma amostra de {\\(\\qty{11}{\\unit{g}}\\)} de urânio foi dissolvida em ácido convertendo o urânio em {\\(\\ce{U^{4+}}\\)}. A solução resultante foi titulada\ncom {\\(\\qty{25,8}{\\unit{mL}}\\)} de uma solução permanganato de potássio {\\(\\qty{0,54}{\\unit{mol.L^{-1}}}\\)}, sendo o arsênio convertido a\n{\\(\\ce{UO2^{2+}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pureza da amostra de urânio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{30 \\%}\\)</span>",
+          "md": "$\\pu{30 \\%}$",
+          "tex": "\\(\\qty{30}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{48 \\%}\\)</span>",
+          "md": "$\\pu{48 \\%}$",
+          "tex": "\\(\\qty{48}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{75 \\%}\\)</span>",
+          "md": "$\\pu{75 \\%}$",
+          "tex": "\\(\\qty{75}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 \\%}\\)</span>",
+          "md": "$\\pu{120 \\%}$",
+          "tex": "\\(\\qty{120}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{190 \\%}\\)</span>",
+          "md": "$\\pu{190 \\%}$",
+          "tex": "\\(\\qty{190}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G06",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G06/3G06.md",
+      "date": "2023-05-22T15:30:07.093147",
+      "statement": {
+        "html": "<p>Considere a reação. <span class=\"math display\">\\[\n\\begin{split}\n    \\ce{ Cl2(g) + H2O(l) -&gt;\\\\ HOCl(aq) + Cl^-(aq) + H^+(aq) }\n\\end{split}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para a reação balanceada.</p>",
+        "md": "Considere a reação. $$\n\\begin{split}\n    \\ce{ Cl2(g) + H2O(l) ->\\\\ HOCl(aq) + Cl^-(aq) + H^+(aq) }\n\\end{split}\n$$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para a reação balanceada.\n",
+        "tex": "Considere a reação. {\\[\n\\begin{split}\n    \\ce{ Cl2(g) + H2O(l) ->\\\\ HOCl(aq) + Cl^-(aq) + H^+(aq) }\n\\end{split}\n\\]}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para a reação balanceada.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{5}\\)</span>",
+          "md": "$\\pu{5}$",
+          "tex": "\\(\\num{5}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,7}\\)</span>",
+          "md": "$\\pu{6,7}$",
+          "tex": "\\(\\num{6,7}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,0}\\)</span>",
+          "md": "$\\pu{9,0}$",
+          "tex": "\\(\\num{9,0}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12}\\)</span>",
+          "md": "$\\pu{12}$",
+          "tex": "\\(\\num{12}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{16}\\)</span>",
+          "md": "$\\pu{16}$",
+          "tex": "\\(\\num{16}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G08",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G08/3G08.md",
+      "date": "2023-05-22T15:28:50.407971",
+      "statement": {
+        "html": "<p>Considere a reação. <span class=\"math display\">\\[\n\\begin{split}\n    \\ce{ FeHPO3(aq) + OCl^-(aq) + OH^-(aq) -&gt;\\\\ Fe(OH)3(s) +\nPO4^{3-}(aq) + Cl^-(aq) + H2O(l) }\n\\end{split}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para a reação balanceada.</p>",
+        "md": "Considere a reação. $$\n\\begin{split}\n    \\ce{ FeHPO3(aq) + OCl^-(aq) + OH^-(aq) ->\\\\ Fe(OH)3(s) +\nPO4^{3-}(aq) + Cl^-(aq) + H2O(l) }\n\\end{split}\n$$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para a reação balanceada.\n",
+        "tex": "Considere a reação. {\\[\n\\begin{split}\n    \\ce{ FeHPO3(aq) + OCl^-(aq) + OH^-(aq) ->\\\\ Fe(OH)3(s) +\nPO4^{3-}(aq) + Cl^-(aq) + H2O(l) }\n\\end{split}\n\\]}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para a reação balanceada.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,0}\\)</span>",
+          "md": "$\\pu{9,0}$",
+          "tex": "\\(\\num{9,0}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{13}\\)</span>",
+          "md": "$\\pu{13}$",
+          "tex": "\\(\\num{13}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{19}\\)</span>",
+          "md": "$\\pu{19}$",
+          "tex": "\\(\\num{19}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{28}\\)</span>",
+          "md": "$\\pu{28}$",
+          "tex": "\\(\\num{28}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{40}\\)</span>",
+          "md": "$\\pu{40}$",
+          "tex": "\\(\\num{40}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G13",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G13/3G13.md",
+      "date": "2023-05-22T16:06:01.701347",
+      "statement": {
+        "html": "<p>Uma amostra de despejo industrial foi analisada para a presença de\nóxido de arsênio(III), <span class=\"math inline\">\\(\\ce{As4O6}\\)</span>.\nA amostra foi titulada com <span class=\"math inline\">\\(\\pu{28\nmL}\\)</span> de uma solução acidificada de permanganato de potássio\n<span class=\"math inline\">\\(\\pu{0,01 mol.L-1}\\)</span>, sendo o arsênio\nconvertido a <span class=\"math inline\">\\(\\ce{H3AsO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde óxido de arsênio(III) na amostra.</p>",
+        "md": "Uma amostra de despejo industrial foi analisada para a presença de óxido\nde arsênio(III), $\\ce{As4O6}$. A amostra foi titulada com $\\pu{28 mL}$\nde uma solução acidificada de permanganato de potássio\n$\\pu{0,01 mol.L-1}$, sendo o arsênio convertido a $\\ce{H3AsO4}$.\n\n**Assinale** a alternativa que mais se aproxima da massa de óxido de\narsênio(III) na amostra.\n",
+        "tex": "Uma amostra de despejo industrial foi analisada para a presença de óxido de arsênio(III), {\\(\\ce{As4O6}\\)}. A amostra foi titulada com\n{\\(\\qty{28}{\\unit{mL}}\\)} de uma solução acidificada de permanganato de potássio {\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)}, sendo o arsênio convertido a\n{\\(\\ce{H3AsO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de óxido de arsênio(III) na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{28 mg}\\)</span>",
+          "md": "$\\pu{28 mg}$",
+          "tex": "\\(\\qty{28}{\\unit{mg}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{45 mg}\\)</span>",
+          "md": "$\\pu{45 mg}$",
+          "tex": "\\(\\qty{45}{\\unit{mg}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{70 mg}\\)</span>",
+          "md": "$\\pu{70 mg}$",
+          "tex": "\\(\\qty{70}{\\unit{mg}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{110 mg}\\)</span>",
+          "md": "$\\pu{110 mg}$",
+          "tex": "\\(\\qty{110}{\\unit{mg}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{170 mg}\\)</span>",
+          "md": "$\\pu{170 mg}$",
+          "tex": "\\(\\qty{170}{\\unit{mg}}\\)"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
+      "id_": "3G30",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G30/3G30.md",
+      "date": "2023-05-22T17:47:14.964321",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{2 g}\\)</span> de\nminério contendo <span class=\"math inline\">\\(\\ce{TeO2}\\)</span> foi\ndissolvida e tratada com <span class=\"math inline\">\\(\\pu{50 mL}\\)</span>\nde uma solução <span class=\"math inline\">\\(\\pu{0,03 mol.L-1}\\)</span> de\ndicromato de potássio, sendo o óxido de telúrio convertido em <span class=\"math inline\">\\(\\pu{H2TeO4}\\)</span>. O excesso de íons dicromato\nfoi retrotitulado com <span class=\"math inline\">\\(\\pu{10 mL}\\)</span> de\numa solução <span class=\"math inline\">\\(\\pu{0,1 mol.L-1}\\)</span> de\ncátions ferro(II).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{TeO2}\\)</span> na\namostra.</p>",
+        "md": "Uma amostra de $\\pu{2 g}$ de minério contendo $\\ce{TeO2}$ foi dissolvida\ne tratada com $\\pu{50 mL}$ de uma solução $\\pu{0,03 mol.L-1}$ de\ndicromato de potássio, sendo o óxido de telúrio convertido em\n$\\pu{H2TeO4}$. O excesso de íons dicromato foi retrotitulado com\n$\\pu{10 mL}$ de uma solução $\\pu{0,1 mol.L-1}$ de cátions ferro(II).\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{TeO2}$ na amostra.\n",
+        "tex": "Uma amostra de {\\(\\qty{2}{\\unit{g}}\\)} de minério contendo {\\(\\ce{TeO2}\\)} foi dissolvida e tratada com {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{0,03}{\\unit{mol.L^{-1}}}\\)} de dicromato de potássio, sendo o óxido de telúrio convertido em {\\(\\unit{H^{2}TeO^{4}}\\)}. O excesso de íons\ndicromato foi retrotitulado com {\\(\\qty{10}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,1}{\\unit{mol.L^{-1}}}\\)} de cátions ferro(II).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{TeO2}\\)} na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,3 \\%}\\)</span>",
+          "md": "$\\pu{6,3 \\%}$",
+          "tex": "\\(\\qty{6,3}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{9,5 \\%}\\)</span>",
+          "md": "$\\pu{9,5 \\%}$",
+          "tex": "\\(\\qty{9,5}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{14 \\%}\\)</span>",
+          "md": "$\\pu{14 \\%}$",
+          "tex": "\\(\\qty{14}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{21 \\%}\\)</span>",
+          "md": "$\\pu{21 \\%}$",
+          "tex": "\\(\\qty{21}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{32 \\%}\\)</span>",
+          "md": "$\\pu{32 \\%}$",
+          "tex": "\\(\\qty{32}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 4
+    },
+    {
+      "id_": "3G22",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G22/3G22.md",
+      "date": "2023-05-22T16:44:38.005568",
+      "statement": {
+        "html": "<p>A matéria orgânica presenta em uma amostra de <span class=\"math inline\">\\(\\pu{0,93 g}\\)</span> de uma pomada para queimadura\nfoi eliminada por calcinação e, logo após, o resíduo sólido de <span class=\"math inline\">\\(\\ce{ZnO}\\)</span> foi dissolvido em ácido. O\ntratamento com oxalato de amônio, <span class=\"math inline\">\\(\\ce{(NH4)2C2O4}\\)</span>, resultou na precipitação\ndo oxalato de zinco. O sólido foi filtrado, lavado e então foi\nredissolvido em ácido diluído. O ácido oxálico liberado foi titulado com\n<span class=\"math inline\">\\(\\pu{40 mL}\\)</span> de permanganato de\npotássio <span class=\"math inline\">\\(\\pu{0,015 mol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{ZnO}\\)</span> no\ncomprimido.</p>",
+        "md": "A matéria orgânica presenta em uma amostra de $\\pu{0,93 g}$ de uma\npomada para queimadura foi eliminada por calcinação e, logo após, o\nresíduo sólido de $\\ce{ZnO}$ foi dissolvido em ácido. O tratamento com\noxalato de amônio, $\\ce{(NH4)2C2O4}$, resultou na precipitação do\noxalato de zinco. O sólido foi filtrado, lavado e então foi redissolvido\nem ácido diluído. O ácido oxálico liberado foi titulado com $\\pu{40 mL}$\nde permanganato de potássio $\\pu{0,015 mol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{ZnO}$ no comprimido.\n",
+        "tex": "A matéria orgânica presenta em uma amostra de {\\(\\qty{0,93}{\\unit{g}}\\)} de uma pomada para queimadura foi eliminada por calcinação e, logo após, o\nresíduo sólido de {\\(\\ce{ZnO}\\)} foi dissolvido em ácido. O tratamento com oxalato de amônio, {\\(\\ce{(NH4)2C2O4}\\)}, resultou na precipitação do\noxalato de zinco. O sólido foi filtrado, lavado e então foi redissolvido em ácido diluído. O ácido oxálico liberado foi titulado com\n{\\(\\qty{40}{\\unit{mL}}\\)} de permanganato de potássio {\\(\\qty{0,015}{\\unit{mol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{ZnO}\\)} no comprimido.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{4,2 \\%}\\)</span>",
+          "md": "$\\pu{4,2 \\%}$",
+          "tex": "\\(\\qty{4,2}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{6,0 \\%}\\)</span>",
+          "md": "$\\pu{6,0 \\%}$",
+          "tex": "\\(\\qty{6,0}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{8,5 \\%}\\)</span>",
+          "md": "$\\pu{8,5 \\%}$",
+          "tex": "\\(\\qty{8,5}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{12 \\%}\\)</span>",
+          "md": "$\\pu{12 \\%}$",
+          "tex": "\\(\\qty{12}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{17 \\%}\\)</span>",
+          "md": "$\\pu{17 \\%}$",
+          "tex": "\\(\\qty{17}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3G16",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G16/3G16.md",
+      "date": "2023-05-22T16:19:21.249158",
+      "statement": {
+        "html": "<p>Uma alíquota de <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> de\numa solução contendo cátions tálio(I) foi tratada com cromato de\npotássio, <span class=\"math inline\">\\(\\ce{K2CrO4}\\)</span>. O cromato de\ntálio(I) foi filtrado, lavado para remoção do excesso do agente\nprecipitante e dissolvido em <span class=\"math inline\">\\(\\ce{H2SO4}\\)</span> diluído. O dicromato produzido\nfoi titulado com <span class=\"math inline\">\\(\\pu{40 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,01 mol.L-1}\\)</span> de\nferro(II).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da massa\nde tálio na amostra.</p>",
+        "md": "Uma alíquota de $\\pu{25 mL}$ de uma solução contendo cátions tálio(I)\nfoi tratada com cromato de potássio, $\\ce{K2CrO4}$. O cromato de\ntálio(I) foi filtrado, lavado para remoção do excesso do agente\nprecipitante e dissolvido em $\\ce{H2SO4}$ diluído. O dicromato produzido\nfoi titulado com $\\pu{40 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ de\nferro(II).\n\n**Assinale** a alternativa que mais se aproxima da massa de tálio na\namostra.\n",
+        "tex": "Uma alíquota de {\\(\\qty{25}{\\unit{mL}}\\)} de uma solução contendo cátions tálio(I) foi tratada com cromato de potássio, {\\(\\ce{K2CrO4}\\)}. O cromato\nde tálio(I) foi filtrado, lavado para remoção do excesso do agente precipitante e dissolvido em {\\(\\ce{H2SO4}\\)} diluído. O dicromato produzido foi\ntitulado com {\\(\\qty{40}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)} de ferro(II).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da massa de tálio na amostra.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,56 g}\\)</span>",
+          "md": "$\\pu{0,56 g}$",
+          "tex": "\\(\\qty{0,56}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,70 g}\\)</span>",
+          "md": "$\\pu{0,70 g}$",
+          "tex": "\\(\\qty{0,70}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{0,88 g}\\)</span>",
+          "md": "$\\pu{0,88 g}$",
+          "tex": "\\(\\qty{0,88}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,1 g}\\)</span>",
+          "md": "$\\pu{1,1 g}$",
+          "tex": "\\(\\qty{1,1}{\\unit{g}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,4 g}\\)</span>",
+          "md": "$\\pu{1,4 g}$",
+          "tex": "\\(\\qty{1,4}{\\unit{g}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G07",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G07/3G07.md",
+      "date": "2023-05-22T15:30:05.189124",
+      "statement": {
+        "html": "<p>Considere a reação. <span class=\"math display\">\\[\n\\begin{split}\n    \\ce{ P4S3(aq) + NO3^-(aq) + H^+(aq) + H2O(l) -&gt;\\\\ H3PO4(aq) +\nSO4^{2-}(aq) + NO(g) }\n\\end{split}\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para a reação balanceada.</p>",
+        "md": "Considere a reação. $$\n\\begin{split}\n    \\ce{ P4S3(aq) + NO3^-(aq) + H^+(aq) + H2O(l) ->\\\\ H3PO4(aq) +\nSO4^{2-}(aq) + NO(g) }\n\\end{split}\n$$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para a reação balanceada.\n",
+        "tex": "Considere a reação. {\\[\n\\begin{split}\n    \\ce{ P4S3(aq) + NO3^-(aq) + H^+(aq) + H2O(l) ->\\\\ H3PO4(aq) +\nSO4^{2-}(aq) + NO(g) }\n\\end{split}\n\\]}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para a reação balanceada.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{130}\\)</span>",
+          "md": "$\\pu{130}$",
+          "tex": "\\(\\num{130}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{210}\\)</span>",
+          "md": "$\\pu{210}$",
+          "tex": "\\(\\num{210}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{340}\\)</span>",
+          "md": "$\\pu{340}$",
+          "tex": "\\(\\num{340}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{550}\\)</span>",
+          "md": "$\\pu{550}$",
+          "tex": "\\(\\num{550}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{880}\\)</span>",
+          "md": "$\\pu{880}$",
+          "tex": "\\(\\num{880}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G03",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G03/3G03.md",
+      "date": "2023-05-22T15:17:45.155204",
+      "statement": {
+        "html": "<p>Considere as reações de oxidação e redução.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{Br2(l) + OH^-(aq) -&gt; Br^-(aq) +\nBrO3^-(aq) + H2O(l)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Cr^{3+}(aq) + OH^-(aq) + MnO2(s)\n-&gt; CrO4^{2-}(aq) + H2O(l) + Mn^{2+}(aq)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{P4(s) + OH^-(aq) + H2O(l) -&gt;\nH2PO2^-(aq) + PH3(g)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Cl2O7(g) + H2O2(aq) + OH^-(aq) -&gt;\nClO2^-(aq) + O2(g) + H2O(l)}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para as reações balanceadas.</p>",
+        "md": "Considere as reações de oxidação e redução.\n\n1.  $\\ce{Br2(l) + OH^-(aq) -> Br^-(aq) + BrO3^-(aq) + H2O(l)}$\n2.  $\\ce{Cr^{3+}(aq) + OH^-(aq) + MnO2(s) -> CrO4^{2-}(aq) + H2O(l) + Mn^{2+}(aq)}$\n3.  $\\ce{P4(s) + OH^-(aq) + H2O(l) -> H2PO2^-(aq) + PH3(g)}$\n4.  $\\ce{Cl2O7(g) + H2O2(aq) + OH^-(aq) -> ClO2^-(aq) + O2(g) + H2O(l)}$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para as reações balanceadas.\n",
+        "tex": "Considere as reações de oxidação e redução.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{Br2(l) + OH^-(aq) -> Br^-(aq) + BrO3^-(aq) + H2O(l)}\\)}\n\\item\n  {\\(\\ce{Cr^{3+}(aq) + OH^-(aq) + MnO2(s) -> CrO4^{2-}(aq) + H2O(l) + Mn^{2+}(aq)}\\)}\n\\item\n  {\\(\\ce{P4(s) + OH^-(aq) + H2O(l) -> H2PO2^-(aq) + PH3(g)}\\)}\n\\item\n  {\\(\\ce{Cl2O7(g) + H2O2(aq) + OH^-(aq) -> ClO2^-(aq) + O2(g) + H2O(l)}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para as reações balanceadas.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "18; 18; 11; 16.",
+          "md": "18; 18; 11; 16.\n",
+          "tex": "18; 18; 11; 16.\n"
+        },
+        {
+          "html": "18; 16; 18; 11.",
+          "md": "18; 16; 18; 11.\n",
+          "tex": "18; 16; 18; 11.\n"
+        },
+        {
+          "html": "16; 11; 18; 18.",
+          "md": "16; 11; 18; 18.\n",
+          "tex": "16; 11; 18; 18.\n"
+        },
+        {
+          "html": "18; 16; 11; 18.",
+          "md": "18; 16; 11; 18.\n",
+          "tex": "18; 16; 11; 18.\n"
+        },
+        {
+          "html": "18; 18; 16; 11.",
+          "md": "18; 18; 16; 11.\n",
+          "tex": "18; 18; 16; 11.\n"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3G17",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G17/3G17.md",
+      "date": "2023-05-22T16:23:23.616821",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{1 g}\\)</span> sulfeto\nde antimônio, <span class=\"math inline\">\\(\\ce{Sb2S3}\\)</span>, foi\ndissolvida e titulada com <span class=\"math inline\">\\(\\pu{45\nmL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,03\nmol.L-1}\\)</span> de triiodeto, sendo o antimônio convertido em cátions\nantimônio(V).</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\npureza da amostra de sulfeto de antimônio.</p>",
+        "md": "Uma amostra de $\\pu{1 g}$ sulfeto de antimônio, $\\ce{Sb2S3}$, foi\ndissolvida e titulada com $\\pu{45 mL}$ de uma solução\n$\\pu{0,03 mol.L-1}$ de triiodeto, sendo o antimônio convertido em\ncátions antimônio(V).\n\n**Assinale** a alternativa que mais se aproxima da pureza da amostra de\nsulfeto de antimônio.\n",
+        "tex": "Uma amostra de {\\(\\qty{1}{\\unit{g}}\\)} sulfeto de antimônio, {\\(\\ce{Sb2S3}\\)}, foi dissolvida e titulada com {\\(\\qty{45}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{0,03}{\\unit{mol.L^{-1}}}\\)} de triiodeto, sendo o antimônio convertido em cátions antimônio(V).\n\n\\textbf{Assinale} a alternativa que mais se aproxima da pureza da amostra de sulfeto de antimônio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{7,2 \\%}\\)</span>",
+          "md": "$\\pu{7,2 \\%}$",
+          "tex": "\\(\\qty{7,2}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 \\%}\\)</span>",
+          "md": "$\\pu{11 \\%}$",
+          "tex": "\\(\\qty{11}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{16 \\%}\\)</span>",
+          "md": "$\\pu{16 \\%}$",
+          "tex": "\\(\\qty{16}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{23 \\%}\\)</span>",
+          "md": "$\\pu{23 \\%}$",
+          "tex": "\\(\\qty{23}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{34 \\%}\\)</span>",
+          "md": "$\\pu{34 \\%}$",
+          "tex": "\\(\\qty{34}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3G26",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G26/3G26.md",
+      "date": "2023-05-22T17:04:04.719209",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{0,16 g}\\)</span>\nminério foi dissolvida em ácido e o <span class=\"math inline\">\\(\\ce{MnO2}\\)</span> liberado foi titulado com\niodeto. O <span class=\"math inline\">\\(\\ce{I2}\\)</span> liberado foi\ntitulado com <span class=\"math inline\">\\(\\pu{30 mL}\\)</span> de uma\nsolução <span class=\"math inline\">\\(\\pu{0,08 mol.L-1}\\)</span> de\ntiossulfato de sódio, <span class=\"math inline\">\\(\\ce{Na2S2O3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica de <span class=\"math inline\">\\(\\ce{MnO2}\\)</span> no\nminério.</p>",
+        "md": "Uma amostra de $\\pu{0,16 g}$ minério foi dissolvida em ácido e o\n$\\ce{MnO2}$ liberado foi titulado com iodeto. O $\\ce{I2}$ liberado foi\ntitulado com $\\pu{30 mL}$ de uma solução $\\pu{0,08 mol.L-1}$ de\ntiossulfato de sódio, $\\ce{Na2S2O3}$.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica de\n$\\ce{MnO2}$ no minério.\n",
+        "tex": "Uma amostra de {\\(\\qty{0,16}{\\unit{g}}\\)} minério foi dissolvida em ácido e o {\\(\\ce{MnO2}\\)} liberado foi titulado com iodeto. O {\\(\\ce{I2}\\)}\nliberado foi titulado com {\\(\\qty{30}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,08}{\\unit{mol.L^{-1}}}\\)} de tiossulfato de sódio, {\\(\\ce{Na2S2O3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica de {\\(\\ce{MnO2}\\)} no minério.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{65 \\%}\\)</span>",
+          "md": "$\\pu{65 \\%}$",
+          "tex": "\\(\\qty{65}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{100 \\%}\\)</span>",
+          "md": "$\\pu{100 \\%}$",
+          "tex": "\\(\\qty{100}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{160 \\%}\\)</span>",
+          "md": "$\\pu{160 \\%}$",
+          "tex": "\\(\\qty{160}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{250 \\%}\\)</span>",
+          "md": "$\\pu{250 \\%}$",
+          "tex": "\\(\\qty{250}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{390 \\%}\\)</span>",
+          "md": "$\\pu{390 \\%}$",
+          "tex": "\\(\\qty{390}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G25",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G25/3G25.md",
+      "date": "2023-05-22T17:00:01.515372",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{0,1 g}\\)</span> de\nbromato de potássio foi dissolvida em ácido clorídrico, <span class=\"math inline\">\\(\\ce{HCl}\\)</span>, e tratada com excesso de iodeto\nde potássio, <span class=\"math inline\">\\(\\ce{KI}\\)</span>. O iodo\nliberado foi titulado com <span class=\"math inline\">\\(\\pu{40\nmL}\\)</span> de uma solução de tiossulfato de sódio, <span class=\"math inline\">\\(\\ce{Na2S2O3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de tiossulfato de sódio.</p>",
+        "md": "Uma amostra de $\\pu{0,1 g}$ de bromato de potássio foi dissolvida em\nácido clorídrico, $\\ce{HCl}$, e tratada com excesso de iodeto de\npotássio, $\\ce{KI}$. O iodo liberado foi titulado com $\\pu{40 mL}$ de\numa solução de tiossulfato de sódio, $\\ce{Na2S2O3}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de tiossulfato de sódio.\n",
+        "tex": "Uma amostra de {\\(\\qty{0,1}{\\unit{g}}\\)} de bromato de potássio foi dissolvida em ácido clorídrico, {\\(\\ce{HCl}\\)}, e tratada com excesso de iodeto de\npotássio, {\\(\\ce{KI}\\)}. O iodo liberado foi titulado com {\\(\\qty{40}{\\unit{mL}}\\)} de uma solução de tiossulfato de sódio, {\\(\\ce{Na2S2O3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de tiossulfato de sódio.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{90 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{90 mmmol.L-1}$",
+          "tex": "\\(\\qty{90}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{140 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{140 mmmol.L-1}$",
+          "tex": "\\(\\qty{140}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{230 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{230 mmmol.L-1}$",
+          "tex": "\\(\\qty{230}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{360 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{360 mmmol.L-1}$",
+          "tex": "\\(\\qty{360}{\\unit{mmmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{580 mmmol.L-1}\\)</span>",
+          "md": "$\\pu{580 mmmol.L-1}$",
+          "tex": "\\(\\qty{580}{\\unit{mmmol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G27",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G27/3G27.md",
+      "date": "2023-05-22T17:11:02.399303",
+      "statement": {
+        "html": "<p>Uma mistura gasosa com densidade <span class=\"math inline\">\\(\\pu{1,2\ng.L-1}\\)</span> foi passada através de uma solução de hidróxido de sódio\na uma vazão de <span class=\"math inline\">\\(\\pu{2,5 L.min-1}\\)</span> por\n<span class=\"math inline\">\\(\\ce{1 h}\\)</span>. O <span class=\"math inline\">\\(\\ce{SO2}\\)</span> presente na mistura foi retido\ncomo sulfito.</p>\n<p>Após a acidificação com <span class=\"math inline\">\\(\\ce{HCl}\\)</span>, o sulfito foi titulado com\n<span class=\"math inline\">\\(\\pu{5 mL}\\)</span> de iodato de potássio,\n<span class=\"math inline\">\\(\\ce{KIO3}\\)</span>, <span class=\"math inline\">\\(\\pu{3 mmol.L-1}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{SO2}\\)</span> na mistura\ngasosa.</p>",
+        "md": "Uma mistura gasosa com densidade $\\pu{1,2 g.L-1}$ foi passada através de\numa solução de hidróxido de sódio a uma vazão de $\\pu{2,5 L.min-1}$ por\n$\\ce{1 h}$. O $\\ce{SO2}$ presente na mistura foi retido como sulfito.\n\nApós a acidificação com $\\ce{HCl}$, o sulfito foi titulado com\n$\\pu{5 mL}$ de iodato de potássio, $\\ce{KIO3}$, $\\pu{3 mmol.L-1}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{SO2}$ na mistura gasosa.\n",
+        "tex": "Uma mistura gasosa com densidade {\\(\\qty{1,2}{\\unit{g.L^{-1}}}\\)} foi passada através de uma solução de hidróxido de sódio a uma vazão de\n{\\(\\qty{2,5}{\\unit{L.min^{-1}}}\\)} por {\\(\\ce{1 h}\\)}. O {\\(\\ce{SO2}\\)} presente na mistura foi retido como sulfito.\n\nApós a acidificação com {\\(\\ce{HCl}\\)}, o sulfito foi titulado com {\\(\\qty{5}{\\unit{mL}}\\)} de iodato de potássio, {\\(\\ce{KIO3}\\)},\n{\\(\\qty{3}{\\unit{mmol.L^{-1}}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{SO2}\\)} na mistura gasosa.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{11 ppm}\\)</span>",
+          "md": "$\\pu{11 ppm}$",
+          "tex": "\\(\\qty{11}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{15 ppm}\\)</span>",
+          "md": "$\\pu{15 ppm}$",
+          "tex": "\\(\\qty{15}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{22 ppm}\\)</span>",
+          "md": "$\\pu{22 ppm}$",
+          "tex": "\\(\\qty{22}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{31 ppm}\\)</span>",
+          "md": "$\\pu{31 ppm}$",
+          "tex": "\\(\\qty{31}{\\unit{ppm}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{43 ppm}\\)</span>",
+          "md": "$\\pu{43 ppm}$",
+          "tex": "\\(\\qty{43}{\\unit{ppm}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G10",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G10/3G10.md",
+      "date": "2023-05-22T15:40:21.726579",
+      "statement": {
+        "html": "<p>Uma amostra de <span class=\"math inline\">\\(\\pu{20,75 g}\\)</span> de\ncalcário para uso em cerâmica foi analisada pra a determinação do\nconteúdo de ferro. O calcário foi lavado com ácido clorídrico e o ferro\nconvertido em íons ferro(II). A solução resultante foi titulada com\n<span class=\"math inline\">\\(\\pu{13,45 mL}\\)</span> uma solução <span class=\"math inline\">\\(\\pu{1,34 mol.L-1}\\)</span> de sulfato de\ncério(IV), <span class=\"math inline\">\\(\\ce{Ce2SO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração da solução de <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>.</p>",
+        "md": "Uma amostra de $\\pu{20,75 g}$ de calcário para uso em cerâmica foi\nanalisada pra a determinação do conteúdo de ferro. O calcário foi lavado\ncom ácido clorídrico e o ferro convertido em íons ferro(II). A solução\nresultante foi titulada com $\\pu{13,45 mL}$ uma solução\n$\\pu{1,34 mol.L-1}$ de sulfato de cério(IV), $\\ce{Ce2SO4}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração da\nsolução de $\\ce{Fe^{2+}}$.\n",
+        "tex": "Uma amostra de {\\(\\qty{20,75}{\\unit{g}}\\)} de calcário para uso em cerâmica foi analisada pra a determinação do conteúdo de ferro. O calcário foi\nlavado com ácido clorídrico e o ferro convertido em íons ferro(II). A solução resultante foi titulada com {\\(\\qty{13,45}{\\unit{mL}}\\)} uma solução\n{\\(\\qty{1,34}{\\unit{mol.L^{-1}}}\\)} de sulfato de cério(IV), {\\(\\ce{Ce2SO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração da solução de {\\(\\ce{Fe^{2+}}\\)}.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{25 mmol.L-1}\\)</span>",
+          "md": "$\\pu{25 mmol.L-1}$",
+          "tex": "\\(\\qty{25}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{37 mmol.L-1}\\)</span>",
+          "md": "$\\pu{37 mmol.L-1}$",
+          "tex": "\\(\\qty{37}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{55 mmol.L-1}\\)</span>",
+          "md": "$\\pu{55 mmol.L-1}$",
+          "tex": "\\(\\qty{55}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{81 mmol.L-1}\\)</span>",
+          "md": "$\\pu{81 mmol.L-1}$",
+          "tex": "\\(\\qty{81}{\\unit{mmol.L^{-1}}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{120 mmol.L-1}\\)</span>",
+          "md": "$\\pu{120 mmol.L-1}$",
+          "tex": "\\(\\qty{120}{\\unit{mmol.L^{-1}}}\\)"
+        }
+      ],
+      "correct_choice": 0
+    },
+    {
+      "id_": "3G32",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G32/3G32.md",
+      "date": "2023-05-22T18:00:49.370598",
+      "statement": {
+        "html": "<p>A concentração de mercaptana de etila, <span class=\"math inline\">\\(\\ce{C2H5SH}\\)</span>, em uma mistura foi\ndeterminada pela agitação de uma amostra de <span class=\"math inline\">\\(\\pu{2,17 g}\\)</span> com <span class=\"math inline\">\\(\\pu{50 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,01 mol.L-1}\\)</span> de triiodeto, sendo o\n<span class=\"math inline\">\\(\\ce{C2H5SH}\\)</span> convertido em <span class=\"math inline\">\\(\\pu{C2H5SSC2H5}\\)</span>. O excesso de triiodeto\nfoi retrotitulado com <span class=\"math inline\">\\(\\pu{15 mL}\\)</span> de\numa solução <span class=\"math inline\">\\(\\pu{0,01 mol.L-1}\\)</span> de\ntiossulfato de sódio.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nfração mássica <span class=\"math inline\">\\(\\ce{C2H5SH}\\)</span> na\nmistura.</p>",
+        "md": "A concentração de mercaptana de etila, $\\ce{C2H5SH}$, em uma mistura foi\ndeterminada pela agitação de uma amostra de $\\pu{2,17 g}$ com\n$\\pu{50 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ de triiodeto, sendo o\n$\\ce{C2H5SH}$ convertido em $\\pu{C2H5SSC2H5}$. O excesso de triiodeto\nfoi retrotitulado com $\\pu{15 mL}$ de uma solução $\\pu{0,01 mol.L-1}$ de\ntiossulfato de sódio.\n\n**Assinale** a alternativa que mais se aproxima da fração mássica\n$\\ce{C2H5SH}$ na mistura.\n",
+        "tex": "A concentração de mercaptana de etila, {\\(\\ce{C2H5SH}\\)}, em uma mistura foi determinada pela agitação de uma amostra de {\\(\\qty{2,17}{\\unit{g}}\\)}\ncom {\\(\\qty{50}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)} de triiodeto, sendo o {\\(\\ce{C2H5SH}\\)} convertido em\n{\\(\\unit{C^{2}H^{5}SSC^{2}H^{5}}\\)}. O excesso de triiodeto foi retrotitulado com {\\(\\qty{15}{\\unit{mL}}\\)} de uma solução\n{\\(\\qty{0,01}{\\unit{mol.L^{-1}}}\\)} de tiossulfato de sódio.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da fração mássica {\\(\\ce{C2H5SH}\\)} na mistura.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,0 \\%}\\)</span>",
+          "md": "$\\pu{1,0 \\%}$",
+          "tex": "\\(\\qty{1,0}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,3 \\%}\\)</span>",
+          "md": "$\\pu{1,3 \\%}$",
+          "tex": "\\(\\qty{1,3}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{1,6 \\%}\\)</span>",
+          "md": "$\\pu{1,6 \\%}$",
+          "tex": "\\(\\qty{1,6}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,0 \\%}\\)</span>",
+          "md": "$\\pu{2,0 \\%}$",
+          "tex": "\\(\\qty{2,0}{\\unit{\\%}}\\)"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\pu{2,5 \\%}\\)</span>",
+          "md": "$\\pu{2,5 \\%}$",
+          "tex": "\\(\\qty{2,5}{\\unit{\\%}}\\)"
+        }
+      ],
+      "correct_choice": 3
+    },
+    {
+      "id_": "3G01",
+      "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3G/3G01/3G01.md",
+      "date": "2023-05-22T15:11:47.044597",
+      "statement": {
+        "html": "<p>Considere as reações de oxidação e redução.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{H^+(aq) + Cr2O7^{2-}(aq) +\nC2H5OH(aq) -&gt; Cr^{3+} + C2H4O(aq) + H2O(l)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2O(l) + H^+(aq) + Te(s) +\nClO3^-(aq) -&gt; H6TeO6(aq) + Cl2(g)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Cl2(g) + S2O3^{2-}(aq) + H2O(l)\n-&gt; Cl^-(aq) + SO4^{2-}(aq) + H^+(aq)}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{MnO4^-(aq) + H^+(aq) + H2SO3(aq)\n-&gt; Mn^{2+}(aq) + H2O(l) + HSO4^-(aq)}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa com a soma dos menores\ncoeficientes estequiométricos inteiros para as reações balanceadas.</p>",
+        "md": "Considere as reações de oxidação e redução.\n\n1.  $\\ce{H^+(aq) + Cr2O7^{2-}(aq) + C2H5OH(aq) -> Cr^{3+} + C2H4O(aq) + H2O(l)}$\n2.  $\\ce{H2O(l) + H^+(aq) + Te(s) + ClO3^-(aq) -> H6TeO6(aq) + Cl2(g)}$\n3.  $\\ce{Cl2(g) + S2O3^{2-}(aq) + H2O(l) -> Cl^-(aq) + SO4^{2-}(aq) + H^+(aq)}$\n4.  $\\ce{MnO4^-(aq) + H^+(aq) + H2SO3(aq) -> Mn^{2+}(aq) + H2O(l) + HSO4^-(aq)}$\n\n**Assinale** a alternativa com a soma dos menores coeficientes\nestequiométricos inteiros para as reações balanceadas.\n",
+        "tex": "Considere as reações de oxidação e redução.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{H^+(aq) + Cr2O7^{2-}(aq) + C2H5OH(aq) -> Cr^{3+} + C2H4O(aq) + H2O(l)}\\)}\n\\item\n  {\\(\\ce{H2O(l) + H^+(aq) + Te(s) + ClO3^-(aq) -> H6TeO6(aq) + Cl2(g)}\\)}\n\\item\n  {\\(\\ce{Cl2(g) + S2O3^{2-}(aq) + H2O(l) -> Cl^-(aq) + SO4^{2-}(aq) + H^+(aq)}\\)}\n\\item\n  {\\(\\ce{MnO4^-(aq) + H^+(aq) + H2SO3(aq) -> Mn^{2+}(aq) + H2O(l) + HSO4^-(aq)}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa com a soma dos menores coeficientes estequiométricos inteiros para as reações balanceadas.\n"
+      },
+      "solution": null,
+      "answer": null,
+      "data": null,
+      "choices": [
+        {
+          "html": "24; 18; 30; 37.",
+          "md": "24; 18; 30; 37.\n",
+          "tex": "24; 18; 30; 37.\n"
+        },
+        {
+          "html": "30; 37; 18; 24.",
+          "md": "30; 37; 18; 24.\n",
+          "tex": "30; 37; 18; 24.\n"
+        },
+        {
+          "html": "24; 37; 30; 18.",
+          "md": "24; 37; 30; 18.\n",
+          "tex": "24; 37; 30; 18.\n"
+        },
+        {
+          "html": "30; 18; 37; 24.",
+          "md": "30; 18; 37; 24.\n",
+          "tex": "30; 18; 37; 24.\n"
+        },
+        {
+          "html": "37; 30; 24; 18.",
+          "md": "37; 30; 24; 18.\n",
+          "tex": "37; 30; 24; 18.\n"
+        }
+      ],
+      "correct_choice": 2
+    },
+    {
       "id_": "3B49",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q3/3B/3B49/3B49.md",
       "date": "2023-04-25T19:21:36.537877",
@@ -23732,7 +25044,7 @@
     {
       "id_": "2G30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G30/2G30.md",
-      "date": "2023-05-06T20:46:59.034090",
+      "date": "2023-05-22T17:40:03.031610",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G30-1D.svg\"/></li>\n<li><img src=\"2G30-2D.svg\"/></li>\n<li><img src=\"2G30-3D.svg\"/></li>\n<li><img src=\"2G30-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G30-1D.svg)\n2.  ![](2G30-2D.svg)\n3.  ![](2G30-3D.svg)\n4.  ![](2G30-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
@@ -29515,7 +30827,7 @@
     {
       "id_": "2H23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2H/2H23/2H23.md",
-      "date": "2023-05-18T18:29:59.226138",
+      "date": "2023-05-21T15:10:09.559266",
       "statement": {
         "html": "<p>Considere soluções de mesma concentração dos nitratos de cátions\nmetálicos.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as soluções em\nordem crescente de pH.</p>",
         "md": "Considere soluções de mesma concentração dos nitratos de cátions\nmetálicos.\n\n**Assinale** a alternativa que relaciona as soluções em ordem crescente\nde pH.\n",
@@ -29526,29 +30838,29 @@
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
-          "md": "$\\ce{Al^{3+}}$; $\\ce{Fe^{3+}}$; $\\ce{K^{+}}$; $\\ce{Fe^{2+}}$;\n$\\ce{Mg^{2+}}$.\n",
-          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
+          "md": "$\\ce{Fe^{3+}}$; $\\ce{Al^{3+}}$; $\\ce{K^{+}}$; $\\ce{Fe^{2+}}$;\n$\\ce{Mg^{2+}}$.\n",
+          "tex": "{\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>.",
-          "md": "$\\ce{Al^{3+}}$; $\\ce{K^{+}}$; $\\ce{Fe^{2+}}$; $\\ce{Mg^{2+}}$;\n$\\ce{Fe^{3+}}$.\n",
-          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>.",
+          "md": "$\\ce{Fe^{3+}}$; $\\ce{K^{+}}$; $\\ce{Fe^{2+}}$; $\\ce{Mg^{2+}}$;\n$\\ce{Al^{3+}}$.\n",
+          "tex": "{\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
-          "md": "$\\ce{Al^{3+}}$; $\\ce{Fe^{3+}}$; $\\ce{Fe^{2+}}$; $\\ce{Mg^{2+}}$;\n$\\ce{K^{+}}$.\n",
-          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
+          "md": "$\\ce{Fe^{3+}}$; $\\ce{Al^{3+}}$; $\\ce{Fe^{2+}}$; $\\ce{Mg^{2+}}$;\n$\\ce{K^{+}}$.\n",
+          "tex": "{\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
-          "md": "$\\ce{Fe^{3+}}$; $\\ce{Fe^{2+}}$; $\\ce{Al^{3+}}$; $\\ce{K^{+}}$;\n$\\ce{Mg^{2+}}$.\n",
-          "tex": "{\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>.",
+          "md": "$\\ce{Al^{3+}}$; $\\ce{Fe^{2+}}$; $\\ce{Fe^{3+}}$; $\\ce{K^{+}}$;\n$\\ce{Mg^{2+}}$.\n",
+          "tex": "{\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{K^{+}}\\)}; {\\(\\ce{Mg^{2+}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
-          "md": "$\\ce{Mg^{2+}}$; $\\ce{Al^{3+}}$; $\\ce{Fe^{3+}}$; $\\ce{Fe^{2+}}$;\n$\\ce{K^{+}}$.\n",
-          "tex": "{\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>; <span class=\"math inline\">\\(\\ce{Fe^{2+}}\\)</span>; <span class=\"math inline\">\\(\\ce{K^{+}}\\)</span>.",
+          "md": "$\\ce{Mg^{2+}}$; $\\ce{Fe^{3+}}$; $\\ce{Al^{3+}}$; $\\ce{Fe^{2+}}$;\n$\\ce{K^{+}}$.\n",
+          "tex": "{\\(\\ce{Mg^{2+}}\\)}; {\\(\\ce{Fe^{3+}}\\)}; {\\(\\ce{Al^{3+}}\\)}; {\\(\\ce{Fe^{2+}}\\)}; {\\(\\ce{K^{+}}\\)}.\n"
         }
       ],
       "correct_choice": 2
