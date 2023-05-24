@@ -43,6 +43,10 @@ def update_database(topic_id):
     shutil.copytree(
         config.IMAGES_DIR, WEB_PATH.joinpath("public", "images"), dirs_exist_ok=True
     )
+    # COPIA OS PDFS PARA O SITE
+    shutil.copytree(
+        config.OUT_DIR, WEB_PATH.joinpath("public", "pdf"), dirs_exist_ok=True
+    )
 
 
 def main():
