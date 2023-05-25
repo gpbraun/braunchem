@@ -2714,13 +2714,17 @@
     {
       "id_": "1G06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G06/1G06.md",
-      "date": "2023-05-08T04:20:07.900225",
+      "date": "2023-05-25T15:20:03.784417",
       "statement": {
         "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{H2S}\\)</span> e <span class=\"math inline\">\\(\\ce{H2Se}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaCl}\\)</span> e <span class=\"math inline\">\\(\\ce{CHCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> e <span class=\"math inline\">\\(\\ce{PH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SiH4}\\)</span> e <span class=\"math inline\">\\(\\ce{SiF4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
         "md": "Considere os pares de substâncias.\n\n1.  $\\ce{H2S}$ e $\\ce{H2Se}$\n2.  $\\ce{NaCl}$ e $\\ce{CHCl3}$\n3.  $\\ce{NH3}$ e $\\ce{PH3}$\n4.  $\\ce{SiH4}$ e $\\ce{SiF4}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
         "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{H2S}\\)} e {\\(\\ce{H2Se}\\)}\n\\item\n  {\\(\\ce{NaCl}\\)} e {\\(\\ce{CHCl3}\\)}\n\\item\n  {\\(\\ce{NH3}\\)} e {\\(\\ce{PH3}\\)}\n\\item\n  {\\(\\ce{SiH4}\\)} e {\\(\\ce{SiF4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{H2S}\\)</span> : Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{H2S}}\\)</span>= 34 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{H2Se}\\)</span> : Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{H2Se}}\\)</span>= 81 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{H2S}\\)</span>) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{H2Se}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{NaCl}\\)</span> : Ligação iônica.\n<span class=\"math inline\">\\(\\ce{CHCl3}\\)</span> : Dipolo-dipolo. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{NaCl}\\)</span> ) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{CHCl3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> : Ligações de\nhidrogênio. <span class=\"math inline\">\\(\\ce{PH3}\\)</span> :\nDipolo-dipolo. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{NH3}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{PH3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{SiH4}\\)</span> : Ligações de London,\n<span class=\"math inline\">\\(M_{\\ce{SiH4}}\\)</span>= 32 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{SiF4}\\)</span> : Ligações de London, <span class=\"math inline\">\\(M_{\\ce{SiF4}}\\)</span>= 104 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{SiH4}\\)</span>)&lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{SiF4}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{H2S}$ : Dipolo-dipolo, $M_{\\ce{H2S}}$= 34 g $mol^{-1}$.\n    $\\ce{H2Se}$ : Dipolo-dipolo, $M_{\\ce{H2Se}}$= 81 g $mol^{-1}$.\n    $T_{eb}$ ($\\ce{H2S}$) &lt; $T_{eb}$ ($\\ce{H2Se}$)\n2.  $\\ce{NaCl}$ : Ligação iônica. $\\ce{CHCl3}$ : Dipolo-dipolo. $T_{eb}$\n    ($\\ce{NaCl}$ ) &gt; $T_{eb}$ ($\\ce{CHCl3}$)\n3.  $\\ce{NH3}$ : Ligações de hidrogênio. $\\ce{PH3}$ : Dipolo-dipolo.\n    $T_{eb}$ ($\\ce{NH3}$) &gt; $T_{eb}$ ($\\ce{PH3}$)\n4.  $\\ce{SiH4}$ : Ligações de London, $M_{\\ce{SiH4}}$= 32 g $mol^{-1}$.\n    $\\ce{SiF4}$ : Ligações de London, $M_{\\ce{SiF4}}$= 104 g $mol^{-1}$.\n    $T_{eb}$ ($\\ce{SiH4}$)&lt; $T_{eb}$ ($\\ce{SiF4}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{H2S}\\)} : Dipolo-dipolo, {\\(M_{\\ce{H2S}}\\)}= 34 g {\\(mol^{-1}\\)}. {\\(\\ce{H2Se}\\)} : Dipolo-dipolo, {\\(M_{\\ce{H2Se}}\\)}= 81 g {\\(mol^{-1}\\)}.\n  {\\(T_{eb}\\)} ({\\(\\ce{H2S}\\)}) \\textless{} {\\(T_{eb}\\)} ({\\(\\ce{H2Se}\\)})\n\\item\n  {\\(\\ce{NaCl}\\)} : Ligação iônica. {\\(\\ce{CHCl3}\\)} : Dipolo-dipolo. {\\(T_{eb}\\)} ({\\(\\ce{NaCl}\\)} ) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{CHCl3}\\)})\n\\item\n  {\\(\\ce{NH3}\\)} : Ligações de hidrogênio. {\\(\\ce{PH3}\\)} : Dipolo-dipolo. {\\(T_{eb}\\)} ({\\(\\ce{NH3}\\)}) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{PH3}\\)})\n\\item\n  {\\(\\ce{SiH4}\\)} : Ligações de London, {\\(M_{\\ce{SiH4}}\\)}= 32 g {\\(mol^{-1}\\)}. {\\(\\ce{SiF4}\\)} : Ligações de London, {\\(M_{\\ce{SiF4}}\\)}= 104 g\n  {\\(mol^{-1}\\)}. {\\(T_{eb}\\)} ({\\(\\ce{SiH4}\\)})\\textless{} {\\(T_{eb}\\)} ({\\(\\ce{SiF4}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2755,34 +2759,24 @@
     {
       "id_": "1G16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G16/1G16.md",
-      "date": "2023-05-08T04:03:50.844940",
+      "date": "2023-05-25T15:24:23.867663",
       "statement": {
         "html": "<p>Considere os compostos acetaldeído, <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>, etanol, <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span> e propano, <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de pressão de vapor em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere os compostos acetaldeído, $\\ce{CH3CHO}$, etanol,\n$\\ce{CH3CH2OH}$ e propano, $\\ce{CH3CH2CH3}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de pressão de vapor em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere os compostos acetaldeído, {\\(\\ce{CH3CHO}\\)}, etanol, {\\(\\ce{CH3CH2OH}\\)} e propano, {\\(\\ce{CH3CH2CH3}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de pressão de vapor em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": {
-        "html": "<p>Primeiro analisamos as forças intermoleculares: <span class=\"math inline\">\\(CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}\\)</span>\n<span class=\"math inline\">\\(CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}\\)</span> <span class=\"math inline\">\\(CH_{3}CH_{2}CH_{3}\\rightarrow\n\\text{dipolo-induzido}\\)</span> Quanto mais intensa a força, menor a\npressão de vapor. <span class=\"math display\">\\[F_{\\text{etanol}}&gt;F_{\\text{acetaldeído}}&gt;F_{\\text{propano}}\\]</span>\n<span class=\"math display\">\\[P_{\\text{etanol}}&lt;P_{\\text{acetaldeído}}&lt;P_{\\text{propano}}\\]</span>\nGabarito: C (difere do gabarito)</p>",
-        "md": "Primeiro analisamos as forças intermoleculares:\n$CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}$\n$CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}$ $CH_{3}CH_{2}CH_{3}\\rightarrow \\text{dipolo-induzido}$\nQuanto mais intensa a força, menor a pressão de vapor.\n$$F_{\\text{etanol}}>F_{\\text{acetaldeído}}>F_{\\text{propano}}$$\n$$P_{\\text{etanol}}<P_{\\text{acetaldeído}}<P_{\\text{propano}}$$\nGabarito: C (difere do gabarito)\n",
-        "tex": "Primeiro analisamos as forças intermoleculares: {\\(CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}\\)} {\\(CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}\\)} {\\(CH_{3}CH_{2}CH_{3}\\rightarrow \\text{dipolo-induzido}\\)} Quanto mais intensa a força, menor a pressão de vapor.\n{\\[F_{\\text{etanol}}>F_{\\text{acetaldeído}}>F_{\\text{propano}}\\]} {\\[P_{\\text{etanol}}<P_{\\text{acetaldeído}}<P_{\\text{propano}}\\]} Gabarito: C\n(difere do gabarito)\n"
+        "html": "<p>Primeiro analisamos as forças intermoleculares: <span class=\"math inline\">\\(CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}\\)</span>\n<span class=\"math inline\">\\(CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}\\)</span> <span class=\"math inline\">\\(CH_{3}CH_{2}CH_{3}\\rightarrow\n\\text{dipolo-induzido}\\)</span> Quanto mais intensa a força, menor a\npressão de vapor. <span class=\"math display\">\\[F_{\\text{etanol}}&gt;F_{\\text{acetaldeído}}&gt;F_{\\text{propano}}\\]</span>\n<span class=\"math display\">\\[P_{\\text{etanol}}&lt;P_{\\text{acetaldeído}}&lt;P_{\\text{propano}}\\]</span></p>",
+        "md": "Primeiro analisamos as forças intermoleculares:\n$CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}$\n$CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}$ $CH_{3}CH_{2}CH_{3}\\rightarrow \\text{dipolo-induzido}$\nQuanto mais intensa a força, menor a pressão de vapor.\n$$F_{\\text{etanol}}>F_{\\text{acetaldeído}}>F_{\\text{propano}}$$\n$$P_{\\text{etanol}}<P_{\\text{acetaldeído}}<P_{\\text{propano}}$$\n",
+        "tex": "Primeiro analisamos as forças intermoleculares: {\\(CH_{3}CHO\\rightarrow \\text{dipolo-dipolo}\\)} {\\(CH_{3}CH_{2}OH\\rightarrow \\text{ligação de\nhidrogênio}\\)} {\\(CH_{3}CH_{2}CH_{3}\\rightarrow \\text{dipolo-induzido}\\)} Quanto mais intensa a força, menor a pressão de vapor.\n{\\[F_{\\text{etanol}}>F_{\\text{acetaldeído}}>F_{\\text{propano}}\\]} {\\[P_{\\text{etanol}}<P_{\\text{acetaldeído}}<P_{\\text{propano}}\\]}\n"
       },
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.",
-          "md": "$\\ce{CH3CH2CH3}$; $\\ce{CH3CHO}$; $\\ce{CH3CH2OH}$.\n",
-          "tex": "{\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2OH}\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>.",
-          "md": "$\\ce{CH3CH2OH}$; $\\ce{CH3CH2CH3}$; $\\ce{CH3CHO}$.\n",
-          "tex": "{\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CHO}\\)}.\n"
-        },
-        {
-          "html": "<span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.",
-          "md": "$\\ce{CH3CHO}$; $\\ce{CH3CH2OH}$; $\\ce{CH3CH2CH3}$.\n",
-          "tex": "{\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CH2CH3}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.",
+          "md": "$\\ce{CH3CH2OH}$; $\\ce{CH3CHO}$; $\\ce{CH3CH2CH3}$.\n",
+          "tex": "{\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2CH3}\\)}.\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>.",
@@ -2790,9 +2784,19 @@
           "tex": "{\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CHO}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>.",
-          "md": "$\\ce{CH3CH2OH}$; $\\ce{CH3CHO}$; $\\ce{CH3CH2CH3}$.\n",
-          "tex": "{\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2CH3}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.",
+          "md": "$\\ce{CH3CHO}$; $\\ce{CH3CH2CH3}$; $\\ce{CH3CH2OH}$.\n",
+          "tex": "{\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CH2OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>.",
+          "md": "$\\ce{CH3CH2OH}$; $\\ce{CH3CH2CH3}$; $\\ce{CH3CHO}$.\n",
+          "tex": "{\\(\\ce{CH3CH2OH}\\)}; {\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CHO}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3CH2CH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>.",
+          "md": "$\\ce{CH3CH2CH3}$; $\\ce{CH3CHO}$; $\\ce{CH3CH2OH}$.\n",
+          "tex": "{\\(\\ce{CH3CH2CH3}\\)}; {\\(\\ce{CH3CHO}\\)}; {\\(\\ce{CH3CH2OH}\\)}.\n"
         }
       ],
       "correct_choice": 0
@@ -2800,13 +2804,17 @@
     {
       "id_": "1G11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G11/1G11.md",
-      "date": "2023-05-08T03:24:27.098033",
+      "date": "2023-05-25T15:22:43.750908",
       "statement": {
         "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HBr}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HNO2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\nque formar ligações de hidrogênio.</p>",
         "md": "Considere as moléculas.\n\n1.  $\\ce{PH3}$\n2.  $\\ce{HBr}$\n3.  $\\ce{C2H4}$\n4.  $\\ce{HNO2}$\n\n**Assinale** a alternativa que relaciona as moléculas que formar\nligações de hidrogênio.\n",
         "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PH3}\\)}\n\\item\n  {\\(\\ce{HBr}\\)}\n\\item\n  {\\(\\ce{C2H4}\\)}\n\\item\n  {\\(\\ce{HNO2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas que formar ligações de hidrogênio.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PH3}\\)</span> : hidrogênio ligado ao\nfósforo.</li>\n<li><span class=\"math inline\">\\(\\ce{HBr}\\)</span> : hidrogênio ligado ao\nbromo.</li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span> : hidrogênio ligado\nao carbono.</li>\n<li><span class=\"math inline\">\\(\\ce{HNO2}\\)</span> : hidrogênio ligado\nao oxigênio.</li>\n</ol>",
+        "md": "1.  $\\ce{PH3}$ : hidrogênio ligado ao fósforo.\n2.  $\\ce{HBr}$ : hidrogênio ligado ao bromo.\n3.  $\\ce{C2H4}$ : hidrogênio ligado ao carbono.\n4.  $\\ce{HNO2}$ : hidrogênio ligado ao oxigênio.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PH3}\\)} : hidrogênio ligado ao fósforo.\n\\item\n  {\\(\\ce{HBr}\\)} : hidrogênio ligado ao bromo.\n\\item\n  {\\(\\ce{C2H4}\\)} : hidrogênio ligado ao carbono.\n\\item\n  {\\(\\ce{HNO2}\\)} : hidrogênio ligado ao oxigênio.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2841,13 +2849,17 @@
     {
       "id_": "1G20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G20/1G20.md",
-      "date": "2023-05-08T04:08:06.877440",
+      "date": "2023-05-25T15:25:05.396988",
       "statement": {
         "html": "<p>Considere os grupos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{-OH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-CH2CH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-CONH2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-Cl}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os grupos\nhidrofóbicos.</p>",
         "md": "Considere os grupos.\n\n1.  $\\ce{-OH}$\n2.  $\\ce{-CH2CH3}$\n3.  $\\ce{-CONH2}$\n4.  $\\ce{-Cl}$\n\n**Assinale** a alternativa que relaciona os grupos hidrofóbicos.\n",
         "tex": "Considere os grupos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{-OH}\\)}\n\\item\n  {\\(\\ce{-CH2CH3}\\)}\n\\item\n  {\\(\\ce{-CONH2}\\)}\n\\item\n  {\\(\\ce{-Cl}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os grupos hidrofóbicos.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{-OH}\\)</span> : Grupo polar.</li>\n<li><span class=\"math inline\">\\(\\ce{-CH2CH3}\\)</span> : Grupo\napolar.</li>\n<li><span class=\"math inline\">\\(\\ce{-CONH2}\\)</span> : Grupo polar.</li>\n<li><span class=\"math inline\">\\(\\ce{-Cl}\\)</span> : Grupo apolar.</li>\n</ol>",
+        "md": "1.  $\\ce{-OH}$ : Grupo polar.\n2.  $\\ce{-CH2CH3}$ : Grupo apolar.\n3.  $\\ce{-CONH2}$ : Grupo polar.\n4.  $\\ce{-Cl}$ : Grupo apolar.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{-OH}\\)} : Grupo polar.\n\\item\n  {\\(\\ce{-CH2CH3}\\)} : Grupo apolar.\n\\item\n  {\\(\\ce{-CONH2}\\)} : Grupo polar.\n\\item\n  {\\(\\ce{-Cl}\\)} : Grupo apolar.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2882,13 +2894,17 @@
     {
       "id_": "1G01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G01/1G01.md",
-      "date": "2023-05-08T03:08:58.252768",
+      "date": "2023-05-25T15:18:02.491030",
       "statement": {
         "html": "<p>Considere as substâncias: <span class=\"math inline\">\\(\\ce{NH2OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>, <span class=\"math inline\">\\(\\ce{H2SeO4}\\)</span> e <span class=\"math inline\">\\(\\ce{SO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de força\nintermolecular predominante entre as moléculas de cada substância,\nrespectivamente.</p>",
         "md": "Considere as substâncias: $\\ce{NH2OH}$, $\\ce{CBr4}$, $\\ce{H2SeO4}$ e\n$\\ce{SO2}$.\n\n**Assinale** a alternativa com o tipo de força intermolecular\npredominante entre as moléculas de cada substância, respectivamente.\n",
         "tex": "Considere as substâncias: {\\(\\ce{NH2OH}\\)}, {\\(\\ce{CBr4}\\)}, {\\(\\ce{H2SeO4}\\)} e {\\(\\ce{SO2}\\)}.\n\n\\textbf{Assinale} a alternativa com o tipo de força intermolecular predominante entre as moléculas de cada substância, respectivamente.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math inline\">\\(\\ce{NH2OH}\\)</span> : Ligações de\nhidrogênio (hidrogênio ligado a nitrogênio e oxigênio). <span class=\"math inline\">\\(\\ce{CBr4}\\)</span> : Ligações de London (molécula\napolar). <span class=\"math inline\">\\(\\ce{H2SeO4}\\)</span> : Ligações de\nhidrogênio (hidrogênio ligado a oxigênio). <span class=\"math inline\">\\(\\ce{SO2}\\)</span> : Dipolo-dipolo (molécula\npolar).</p>",
+        "md": "$\\ce{NH2OH}$ : Ligações de hidrogênio (hidrogênio ligado a nitrogênio e\noxigênio). $\\ce{CBr4}$ : Ligações de London (molécula apolar).\n$\\ce{H2SeO4}$ : Ligações de hidrogênio (hidrogênio ligado a oxigênio).\n$\\ce{SO2}$ : Dipolo-dipolo (molécula polar).\n",
+        "tex": "{\\(\\ce{NH2OH}\\)} : Ligações de hidrogênio (hidrogênio ligado a nitrogênio e oxigênio). {\\(\\ce{CBr4}\\)} : Ligações de London (molécula apolar).\n{\\(\\ce{H2SeO4}\\)} : Ligações de hidrogênio (hidrogênio ligado a oxigênio). {\\(\\ce{SO2}\\)} : Dipolo-dipolo (molécula polar).\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2923,13 +2939,17 @@
     {
       "id_": "1G21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G21/1G21.md",
-      "date": "2023-05-08T04:21:12.781707",
+      "date": "2023-05-25T15:25:13.061198",
       "statement": {
         "html": "<p>Considere os compostos <span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>, <span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span> e <span class=\"math inline\">\\(\\ce{C6H6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de viscosidade em <span class=\"math inline\">\\(\\pu{50 \\degree C}\\)</span>.</p>",
         "md": "Considere os compostos $\\ce{C6H5SH}$, $\\ce{C6H5OH}$ e $\\ce{C6H6}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de viscosidade em $\\pu{50 \\degree C}$.\n",
         "tex": "Considere os compostos {\\(\\ce{C6H5SH}\\)}, {\\(\\ce{C6H5OH}\\)} e {\\(\\ce{C6H6}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de viscosidade em {\\(\\qty{50}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span> : Dipolo-dipolo.\n<span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span> : Ligações de\nhidrogênio. <span class=\"math inline\">\\(\\ce{C6H6}\\)</span> : Ligações de\nLondon. <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{C6H6}\\)</span>) &lt; <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{C6H5SH}\\)</span>) &lt; <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>)</p>",
+        "md": "$\\ce{C6H5SH}$ : Dipolo-dipolo. $\\ce{C6H5OH}$ : Ligações de hidrogênio.\n$\\ce{C6H6}$ : Ligações de London. $\\eta$ ($\\ce{C6H6}$) &lt; $\\eta$\n($\\ce{C6H5SH}$) &lt; $\\eta$ ($\\ce{C6H5OH}$)\n",
+        "tex": "{\\(\\ce{C6H5SH}\\)} : Dipolo-dipolo. {\\(\\ce{C6H5OH}\\)} : Ligações de hidrogênio. {\\(\\ce{C6H6}\\)} : Ligações de London. {\\(\\eta\\)} ({\\(\\ce{C6H6}\\)})\n\\textless{} {\\(\\eta\\)} ({\\(\\ce{C6H5SH}\\)}) \\textless{} {\\(\\eta\\)} ({\\(\\ce{C6H5OH}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2964,13 +2984,17 @@
     {
       "id_": "1G18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G18/1G18.md",
-      "date": "2023-05-08T04:06:30.884327",
+      "date": "2023-05-25T15:24:45.824404",
       "statement": {
         "html": "<p>As substâncias a seguir devem ser dissolvidas em tetracloreto de\ncarbono ou água.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HNO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{N2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{Br2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\npara as quais água é o melhor solvente.</p>",
         "md": "As substâncias a seguir devem ser dissolvidas em tetracloreto de carbono\nou água.\n\n1.  $\\ce{NH3}$\n2.  $\\ce{HNO3}$\n3.  $\\ce{N2}$\n4.  $\\ce{Br2}$\n\n**Assinale** a alternativa que relaciona as substâncias para as quais\nágua é o melhor solvente.\n",
         "tex": "As substâncias a seguir devem ser dissolvidas em tetracloreto de carbono ou água.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{NH3}\\)}\n\\item\n  {\\(\\ce{HNO3}\\)}\n\\item\n  {\\(\\ce{N2}\\)}\n\\item\n  {\\(\\ce{Br2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias para as quais água é o melhor solvente.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> : Molécula polar.</li>\n<li><span class=\"math inline\">\\(\\ce{HNO3}\\)</span> : Molécula\npolar.</li>\n<li><span class=\"math inline\">\\(\\ce{N2}\\)</span> : Molécula apolar.</li>\n<li><span class=\"math inline\">\\(\\ce{Br2}\\)</span> : Molécula\napolar.</li>\n</ol>",
+        "md": "1.  $\\ce{NH3}$ : Molécula polar.\n2.  $\\ce{HNO3}$ : Molécula polar.\n3.  $\\ce{N2}$ : Molécula apolar.\n4.  $\\ce{Br2}$ : Molécula apolar.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{NH3}\\)} : Molécula polar.\n\\item\n  {\\(\\ce{HNO3}\\)} : Molécula polar.\n\\item\n  {\\(\\ce{N2}\\)} : Molécula apolar.\n\\item\n  {\\(\\ce{Br2}\\)} : Molécula apolar.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3005,13 +3029,17 @@
     {
       "id_": "1G13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G13/1G13.md",
-      "date": "2023-05-08T03:28:32.723222",
+      "date": "2023-05-25T15:23:22.573050",
       "statement": {
         "html": "<p>Considere as propriedades.</p>\n<ol type=\"1\">\n<li>Ponto de ebulição.</li>\n<li>Viscosidade.</li>\n<li>Tensão superficial.</li>\n<li>Pressão de vapor.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as propriedades\nque aumentam com o aumento da intensidade das forças\nintermoleculares.</p>",
         "md": "Considere as propriedades.\n\n1.  Ponto de ebulição.\n2.  Viscosidade.\n3.  Tensão superficial.\n4.  Pressão de vapor.\n\n**Assinale** a alternativa que relaciona as propriedades que aumentam\ncom o aumento da intensidade das forças intermoleculares.\n",
         "tex": "Considere as propriedades.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ponto de ebulição.\n\\item\n  Viscosidade.\n\\item\n  Tensão superficial.\n\\item\n  Pressão de vapor.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as propriedades que aumentam com o aumento da intensidade das forças intermoleculares.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>O ponto de ebulição de uma substâncoa está associado a quebra de\nsuas ligações intermoleculares. Logo, quanto mais fortes forem essas\nligações, mais energia será necessária para quebrá-las e portanto, maior\nserá o ponto de ebulição.</li>\n<li>A viscosidade é a propriedade física que caracteriza a resistência\nde um fluido ao escoamento, ou seja, quanto mais fortes forem as\nligações intermoleculares, maior será a resistência e portanto, maior\nserá a viscosidade.</li>\n<li>A tensão superficial é um efeito físico que ocorre na interface\nentre duas fases químicas que faz com que a camada superficial de um\nlíquido se comporte como uma membrana elástica de forma que quanto mais\nfortes forem as ligações intermoleculares, maior será a “constante\nelástica” dessa membrana e portanto, maior será a tensão\nsuperficial.</li>\n<li>A pressão de vapor está associada a tendência de evaporação de um\nlíquido, ou seja, está associada a energia necessária para romper as\nligações intermoleculares deste de forma que quanto mais fortes forem\nessas ligações, maior a energia necessária para rompê-las e portanto,\nmenor será a pressão de vapor.</li>\n</ol>",
+        "md": "1.  O ponto de ebulição de uma substâncoa está associado a quebra de\n    suas ligações intermoleculares. Logo, quanto mais fortes forem essas\n    ligações, mais energia será necessária para quebrá-las e portanto,\n    maior será o ponto de ebulição.\n2.  A viscosidade é a propriedade física que caracteriza a resistência\n    de um fluido ao escoamento, ou seja, quanto mais fortes forem as\n    ligações intermoleculares, maior será a resistência e portanto,\n    maior será a viscosidade.\n3.  A tensão superficial é um efeito físico que ocorre na interface\n    entre duas fases químicas que faz com que a camada superficial de um\n    líquido se comporte como uma membrana elástica de forma que quanto\n    mais fortes forem as ligações intermoleculares, maior será a\n    \"constante elástica\" dessa membrana e portanto, maior será a tensão\n    superficial.\n4.  A pressão de vapor está associada a tendência de evaporação de um\n    líquido, ou seja, está associada a energia necessária para romper as\n    ligações intermoleculares deste de forma que quanto mais fortes\n    forem essas ligações, maior a energia necessária para rompê-las e\n    portanto, menor será a pressão de vapor.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  O ponto de ebulição de uma substâncoa está associado a quebra de suas ligações intermoleculares. Logo, quanto mais fortes forem essas ligações, mais\n  energia será necessária para quebrá-las e portanto, maior será o ponto de ebulição.\n\\item\n  A viscosidade é a propriedade física que caracteriza a resistência de um fluido ao escoamento, ou seja, quanto mais fortes forem as ligações\n  intermoleculares, maior será a resistência e portanto, maior será a viscosidade.\n\\item\n  A tensão superficial é um efeito físico que ocorre na interface entre duas fases químicas que faz com que a camada superficial de um líquido se\n  comporte como uma membrana elástica de forma que quanto mais fortes forem as ligações intermoleculares, maior será a ``constante elástica'' dessa\n  membrana e portanto, maior será a tensão superficial.\n\\item\n  A pressão de vapor está associada a tendência de evaporação de um líquido, ou seja, está associada a energia necessária para romper as ligações\n  intermoleculares deste de forma que quanto mais fortes forem essas ligações, maior a energia necessária para rompê-las e portanto, menor será a\n  pressão de vapor.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3046,13 +3074,17 @@
     {
       "id_": "1G07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G07/1G07.md",
-      "date": "2023-05-08T04:20:59.349413",
+      "date": "2023-05-25T15:20:29.075465",
       "statement": {
         "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PBr3}\\)</span> e <span class=\"math inline\">\\(\\ce{PF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> e <span class=\"math inline\">\\(\\ce{O3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span> e <span class=\"math inline\">\\(\\ce{BCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{AsF3}\\)</span> e <span class=\"math inline\">\\(\\ce{AsF5}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
         "md": "Considere os pares de substâncias.\n\n1.  $\\ce{PBr3}$ e $\\ce{PF3}$\n2.  $\\ce{SO2}$ e $\\ce{O3}$\n3.  $\\ce{BF3}$ e $\\ce{BCl3}$\n4.  $\\ce{AsF3}$ e $\\ce{AsF5}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
         "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PBr3}\\)} e {\\(\\ce{PF3}\\)}\n\\item\n  {\\(\\ce{SO2}\\)} e {\\(\\ce{O3}\\)}\n\\item\n  {\\(\\ce{BF3}\\)} e {\\(\\ce{BCl3}\\)}\n\\item\n  {\\(\\ce{AsF3}\\)} e {\\(\\ce{AsF5}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{PBr3}\\)</span> : Dipolo-dipolo,\n<span class=\"math inline\">\\(M_{\\ce{PBr3}}\\)</span>= 271 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{PF3}\\)</span> : Dipolo-dipolo1, <span class=\"math inline\">\\(M_{\\ce{PF3}}\\)</span>= 88 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{PBr3}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{PF3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> : Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{SO2}}\\)</span>= 64 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{O3}\\)</span> : Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{O3}}\\)</span>= 48 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{SO2}\\)</span> ) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{O3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span> : Ligações de London,\n<span class=\"math inline\">\\(M_{\\ce{BF3}}\\)</span>= 68 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{BCl3}\\)</span> : Ligações de London, <span class=\"math inline\">\\(M_{\\ce{BCl3}}\\)</span>= 117,5 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{BF3}\\)</span>) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{BCl3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{AsF3}\\)</span> : Dipolo-dipolo.\n<span class=\"math inline\">\\(\\ce{AsF5}\\)</span>: Ligações de London.\n<span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{AsF3}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{AsF5}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{PBr3}$ : Dipolo-dipolo, $M_{\\ce{PBr3}}$= 271 g $mol^{-1}$.\n    $\\ce{PF3}$ : Dipolo-dipolo1, $M_{\\ce{PF3}}$= 88 g $mol^{-1}$.\n    $T_{eb}$ ($\\ce{PBr3}$) &gt; $T_{eb}$ ($\\ce{PF3}$)\n2.  $\\ce{SO2}$ : Dipolo-dipolo, $M_{\\ce{SO2}}$= 64 g $mol^{-1}$.\n    $\\ce{O3}$ : Dipolo-dipolo, $M_{\\ce{O3}}$= 48 g $mol^{-1}$. $T_{eb}$\n    ($\\ce{SO2}$ ) &gt; $T_{eb}$ ($\\ce{O3}$)\n3.  $\\ce{BF3}$ : Ligações de London, $M_{\\ce{BF3}}$= 68 g $mol^{-1}$.\n    $\\ce{BCl3}$ : Ligações de London, $M_{\\ce{BCl3}}$= 117,5 g\n    $mol^{-1}$. $T_{eb}$ ($\\ce{BF3}$) &lt; $T_{eb}$ ($\\ce{BCl3}$)\n4.  $\\ce{AsF3}$ : Dipolo-dipolo. $\\ce{AsF5}$: Ligações de London.\n    $T_{eb}$ ($\\ce{AsF3}$) &gt; $T_{eb}$ ($\\ce{AsF5}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{PBr3}\\)} : Dipolo-dipolo, {\\(M_{\\ce{PBr3}}\\)}= 271 g {\\(mol^{-1}\\)}. {\\(\\ce{PF3}\\)} : Dipolo-dipolo1, {\\(M_{\\ce{PF3}}\\)}= 88 g\n  {\\(mol^{-1}\\)}. {\\(T_{eb}\\)} ({\\(\\ce{PBr3}\\)}) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{PF3}\\)})\n\\item\n  {\\(\\ce{SO2}\\)} : Dipolo-dipolo, {\\(M_{\\ce{SO2}}\\)}= 64 g {\\(mol^{-1}\\)}. {\\(\\ce{O3}\\)} : Dipolo-dipolo, {\\(M_{\\ce{O3}}\\)}= 48 g {\\(mol^{-1}\\)}.\n  {\\(T_{eb}\\)} ({\\(\\ce{SO2}\\)} ) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{O3}\\)})\n\\item\n  {\\(\\ce{BF3}\\)} : Ligações de London, {\\(M_{\\ce{BF3}}\\)}= 68 g {\\(mol^{-1}\\)}. {\\(\\ce{BCl3}\\)} : Ligações de London, {\\(M_{\\ce{BCl3}}\\)}= 117,5 g\n  {\\(mol^{-1}\\)}. {\\(T_{eb}\\)} ({\\(\\ce{BF3}\\)}) \\textless{} {\\(T_{eb}\\)} ({\\(\\ce{BCl3}\\)})\n\\item\n  {\\(\\ce{AsF3}\\)} : Dipolo-dipolo. {\\(\\ce{AsF5}\\)}: Ligações de London. {\\(T_{eb}\\)} ({\\(\\ce{AsF3}\\)}) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{AsF5}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3087,13 +3119,17 @@
     {
       "id_": "1G12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G12/1G12.md",
-      "date": "2023-05-08T03:24:57.349687",
+      "date": "2023-05-25T15:22:56.683669",
       "statement": {
         "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2CH2OH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3CHO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas\nque formar ligações de hidrogênio.</p>",
         "md": "Considere as moléculas.\n\n1.  $\\ce{CH3OCH3}$\n2.  $\\ce{CH3COOH}$\n3.  $\\ce{CH2CH2OH}$\n4.  $\\ce{CH3CHO}$\n\n**Assinale** a alternativa que relaciona as moléculas que formar\nligações de hidrogênio.\n",
         "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3OCH3}\\)}\n\\item\n  {\\(\\ce{CH3COOH}\\)}\n\\item\n  {\\(\\ce{CH2CH2OH}\\)}\n\\item\n  {\\(\\ce{CH3CHO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas que formar ligações de hidrogênio.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3-O-CH3}\\)</span> : hidrogênio\nligado ao carbono.</li>\n<li><span class=\"math inline\">\\(\\ce{CH3-COOH}\\)</span> : hidrogênio\nligado ao oxigênio.</li>\n<li><span class=\"math inline\">\\(\\ce{CH3-CH2-OH}\\)</span> : hidrogênio\nligado ao oxigênio.</li>\n<li><span class=\"math inline\">\\(\\ce{CH3-CHO}\\)</span> : hidrogênio\nligado ao carbono.</li>\n</ol>",
+        "md": "1.  $\\ce{CH3-O-CH3}$ : hidrogênio ligado ao carbono.\n2.  $\\ce{CH3-COOH}$ : hidrogênio ligado ao oxigênio.\n3.  $\\ce{CH3-CH2-OH}$ : hidrogênio ligado ao oxigênio.\n4.  $\\ce{CH3-CHO}$ : hidrogênio ligado ao carbono.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3-O-CH3}\\)} : hidrogênio ligado ao carbono.\n\\item\n  {\\(\\ce{CH3-COOH}\\)} : hidrogênio ligado ao oxigênio.\n\\item\n  {\\(\\ce{CH3-CH2-OH}\\)} : hidrogênio ligado ao oxigênio.\n\\item\n  {\\(\\ce{CH3-CHO}\\)} : hidrogênio ligado ao carbono.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3128,13 +3164,17 @@
     {
       "id_": "1G04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G04/1G04.md",
-      "date": "2023-05-08T03:12:08.522545",
+      "date": "2023-05-25T15:18:38.719308",
       "statement": {
         "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{O2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{O3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nque as interações dipolo-dipolo são predominantes.</p>",
         "md": "Considere as moléculas.\n\n1.  $\\ce{O2}$\n2.  $\\ce{O3}$\n3.  $\\ce{CO2}$\n4.  $\\ce{SO2}$\n\n**Assinale** a alternativa que relaciona as moléculas em que as\ninterações dipolo-dipolo são predominantes.\n",
         "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{O2}\\)}\n\\item\n  {\\(\\ce{O3}\\)}\n\\item\n  {\\(\\ce{CO2}\\)}\n\\item\n  {\\(\\ce{SO2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em que as interações dipolo-dipolo são predominantes.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{O2}\\)</span> : molécula apolar.</li>\n<li><span class=\"math inline\">\\(\\ce{O3}\\)</span> : molécula polar.</li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span> : molécula\napolar.</li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> : molécula polar.</li>\n</ol>",
+        "md": "1.  $\\ce{O2}$ : molécula apolar.\n2.  $\\ce{O3}$ : molécula polar.\n3.  $\\ce{CO2}$ : molécula apolar.\n4.  $\\ce{SO2}$ : molécula polar.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{O2}\\)} : molécula apolar.\n\\item\n  {\\(\\ce{O3}\\)} : molécula polar.\n\\item\n  {\\(\\ce{CO2}\\)} : molécula apolar.\n\\item\n  {\\(\\ce{SO2}\\)} : molécula polar.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3169,13 +3209,17 @@
     {
       "id_": "1G10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G10/1G10.md",
-      "date": "2023-05-08T03:23:34.854632",
+      "date": "2023-05-25T15:22:31.642151",
       "statement": {
         "html": "<p>Considere as substâncias: 2-metilpentano, 3-metilpentano,\n2,2-dimetilpentano e 2,3-dimetilpentano.</p>\n<p><strong>Assinale</strong> a alternativa com que relaciona os\ncompostos em ordem <em>decrescente</em> de temperatura de ebulição.</p>",
         "md": "Considere as substâncias: 2-metilpentano, 3-metilpentano,\n2,2-dimetilpentano e 2,3-dimetilpentano.\n\n**Assinale** a alternativa com que relaciona os compostos em ordem\n*decrescente* de temperatura de ebulição.\n",
         "tex": "Considere as substâncias: 2-metilpentano, 3-metilpentano, 2,2-dimetilpentano e 2,3-dimetilpentano.\n\n\\textbf{Assinale} a alternativa com que relaciona os compostos em ordem \\emph{decrescente} de temperatura de ebulição.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li>2-metilpentano : Ligações de London, M= 86 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. Maior área superficial de\ncontato entre os compostos com massa molar M= 86 g <span class=\"math inline\">\\(mol^{-1}\\)</span>.</li>\n<li>3-metilpentano : Ligações de London, M= 86 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. Menor área superficial de\ncontato entre os compostos com massa molar M= 86 g <span class=\"math inline\">\\(mol^{-1}\\)</span>.</li>\n<li>2,2-dimetilpentano : Ligações de London, M= 100 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. Maior área superficial de\ncontato entre os compostos com massa molar M= 100 g <span class=\"math inline\">\\(mol^{-1}\\)</span>.</li>\n<li>2,3-dimetilpentano : Ligações de London, M= 100 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. Menor área superficial de\ncontato entre os compostos com massa molar M= 100 g <span class=\"math inline\">\\(mol^{-1}\\)</span>.</li>\n</ul>\n<p><span class=\"math inline\">\\(T_{eb}\\)</span> (2,2-dimetilpentano) &gt;\n<span class=\"math inline\">\\(T_{eb}\\)</span> (2,3-dimetilpentano) &gt;\n<span class=\"math inline\">\\(T_{eb}\\)</span> (2-metilpentano) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (3-metilpentano)</p>",
+        "md": "-   2-metilpentano : Ligações de London, M= 86 g $mol^{-1}$. Maior área\n    superficial de contato entre os compostos com massa molar M= 86 g\n    $mol^{-1}$.\n-   3-metilpentano : Ligações de London, M= 86 g $mol^{-1}$. Menor área\n    superficial de contato entre os compostos com massa molar M= 86 g\n    $mol^{-1}$.\n-   2,2-dimetilpentano : Ligações de London, M= 100 g $mol^{-1}$. Maior\n    área superficial de contato entre os compostos com massa molar M=\n    100 g $mol^{-1}$.\n-   2,3-dimetilpentano : Ligações de London, M= 100 g $mol^{-1}$. Menor\n    área superficial de contato entre os compostos com massa molar M=\n    100 g $mol^{-1}$.\n\n$T_{eb}$ (2,2-dimetilpentano) &gt; $T_{eb}$ (2,3-dimetilpentano) &gt;\n$T_{eb}$ (2-metilpentano) &gt; $T_{eb}$ (3-metilpentano)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  2-metilpentano : Ligações de London, M= 86 g {\\(mol^{-1}\\)}. Maior área superficial de contato entre os compostos com massa molar M= 86 g\n  {\\(mol^{-1}\\)}.\n\\item\n  3-metilpentano : Ligações de London, M= 86 g {\\(mol^{-1}\\)}. Menor área superficial de contato entre os compostos com massa molar M= 86 g\n  {\\(mol^{-1}\\)}.\n\\item\n  2,2-dimetilpentano : Ligações de London, M= 100 g {\\(mol^{-1}\\)}. Maior área superficial de contato entre os compostos com massa molar M= 100 g\n  {\\(mol^{-1}\\)}.\n\\item\n  2,3-dimetilpentano : Ligações de London, M= 100 g {\\(mol^{-1}\\)}. Menor área superficial de contato entre os compostos com massa molar M= 100 g\n  {\\(mol^{-1}\\)}.\n\\end{itemize}\n\n{\\(T_{eb}\\)} (2,2-dimetilpentano) \\textgreater{} {\\(T_{eb}\\)} (2,3-dimetilpentano) \\textgreater{} {\\(T_{eb}\\)} (2-metilpentano) \\textgreater{}\n{\\(T_{eb}\\)} (3-metilpentano)\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3210,13 +3254,17 @@
     {
       "id_": "1G03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G03/1G03.md",
-      "date": "2023-05-08T03:11:37.182909",
+      "date": "2023-05-25T15:18:31.441949",
       "statement": {
         "html": "<p>Considere as moléculas.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3Cl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH2Cl2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CHCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CCl4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nque as interações dipolo-dipolo são predominantes.</p>",
         "md": "Considere as moléculas.\n\n1.  $\\ce{CH3Cl3}$\n2.  $\\ce{CH2Cl2}$\n3.  $\\ce{CHCl3}$\n4.  $\\ce{CCl4}$\n\n**Assinale** a alternativa que relaciona as moléculas em que as\ninterações dipolo-dipolo são predominantes.\n",
         "tex": "Considere as moléculas.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3Cl3}\\)}\n\\item\n  {\\(\\ce{CH2Cl2}\\)}\n\\item\n  {\\(\\ce{CHCl3}\\)}\n\\item\n  {\\(\\ce{CCl4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em que as interações dipolo-dipolo são predominantes.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3Cl3}\\)</span> : molécula\npolar.</li>\n<li><span class=\"math inline\">\\(\\ce{CH2Cl2}\\)</span> : molécula\npolar.</li>\n<li><span class=\"math inline\">\\(\\ce{CHCl3}\\)</span> : molécula\npolar.</li>\n<li><span class=\"math inline\">\\(\\ce{CCl4}\\)</span> : molécula\napolar.</li>\n</ol>",
+        "md": "1.  $\\ce{CH3Cl3}$ : molécula polar.\n2.  $\\ce{CH2Cl2}$ : molécula polar.\n3.  $\\ce{CHCl3}$ : molécula polar.\n4.  $\\ce{CCl4}$ : molécula apolar.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3Cl3}\\)} : molécula polar.\n\\item\n  {\\(\\ce{CH2Cl2}\\)} : molécula polar.\n\\item\n  {\\(\\ce{CHCl3}\\)} : molécula polar.\n\\item\n  {\\(\\ce{CCl4}\\)} : molécula apolar.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3251,13 +3299,17 @@
     {
       "id_": "1G14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G14/1G14.md",
-      "date": "2023-05-08T03:34:34.702365",
+      "date": "2023-05-25T15:23:42.465994",
       "statement": {
         "html": "<p>Considere as propriedades.</p>\n<ol type=\"1\">\n<li>Ponto de ebulição.</li>\n<li>Viscosidade.</li>\n<li>Tensão superficial.</li>\n<li>Pressão de vapor.</li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as propriedades\nque aumentam com o aumento da intensidade das forças\nintermoleculares.</p>",
         "md": "Considere as propriedades.\n\n1.  Ponto de ebulição.\n2.  Viscosidade.\n3.  Tensão superficial.\n4.  Pressão de vapor.\n\n**Assinale** a alternativa que relaciona as propriedades que aumentam\ncom o aumento da intensidade das forças intermoleculares.\n",
         "tex": "Considere as propriedades.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Ponto de ebulição.\n\\item\n  Viscosidade.\n\\item\n  Tensão superficial.\n\\item\n  Pressão de vapor.\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as propriedades que aumentam com o aumento da intensidade das forças intermoleculares.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>O ponto de ebulição de uma substância está associado a quebra de\nsuas ligações intermoleculares. Logo, quanto mais fortes forem essas\nligações, mais energia será necessária para quebrá-las e portanto, maior\nserá o ponto de ebulição.</li>\n<li>A viscosidade é a propriedade física que caracteriza a resistência\nde um fluido ao escoamento, ou seja, quanto mais fortes forem as\nligações intermoleculares, maior será a resistência e portanto, maior\nserá a viscosidade.</li>\n<li>A tensão superficial é um efeito físico que ocorre na interface\nentre duas fases químicas que faz com que a camada superficial de um\nlíquido se comporte como uma membrana elástica de forma que quanto mais\nfortes forem as ligações intermoleculares, maior será a “constante\nelástica” dessa membrana e portanto, maior será a tensão\nsuperficial.</li>\n<li>A pressão de vapor está associada a tendência de evaporação de um\nlíquido, ou seja, está associada a energia necessária para romper as\nligações intermoleculares deste de forma que quanto mais fortes forem\nessas ligações, maior a energia necessária para rompê-las e portanto,\nmenor será a pressão de vapor.</li>\n</ol>",
+        "md": "1.  O ponto de ebulição de uma substância está associado a quebra de\n    suas ligações intermoleculares. Logo, quanto mais fortes forem essas\n    ligações, mais energia será necessária para quebrá-las e portanto,\n    maior será o ponto de ebulição.\n2.  A viscosidade é a propriedade física que caracteriza a resistência\n    de um fluido ao escoamento, ou seja, quanto mais fortes forem as\n    ligações intermoleculares, maior será a resistência e portanto,\n    maior será a viscosidade.\n3.  A tensão superficial é um efeito físico que ocorre na interface\n    entre duas fases químicas que faz com que a camada superficial de um\n    líquido se comporte como uma membrana elástica de forma que quanto\n    mais fortes forem as ligações intermoleculares, maior será a\n    \"constante elástica\" dessa membrana e portanto, maior será a tensão\n    superficial.\n4.  A pressão de vapor está associada a tendência de evaporação de um\n    líquido, ou seja, está associada a energia necessária para romper as\n    ligações intermoleculares deste de forma que quanto mais fortes\n    forem essas ligações, maior a energia necessária para rompê-las e\n    portanto, menor será a pressão de vapor.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  O ponto de ebulição de uma substância está associado a quebra de suas ligações intermoleculares. Logo, quanto mais fortes forem essas ligações, mais\n  energia será necessária para quebrá-las e portanto, maior será o ponto de ebulição.\n\\item\n  A viscosidade é a propriedade física que caracteriza a resistência de um fluido ao escoamento, ou seja, quanto mais fortes forem as ligações\n  intermoleculares, maior será a resistência e portanto, maior será a viscosidade.\n\\item\n  A tensão superficial é um efeito físico que ocorre na interface entre duas fases químicas que faz com que a camada superficial de um líquido se\n  comporte como uma membrana elástica de forma que quanto mais fortes forem as ligações intermoleculares, maior será a ``constante elástica'' dessa\n  membrana e portanto, maior será a tensão superficial.\n\\item\n  A pressão de vapor está associada a tendência de evaporação de um líquido, ou seja, está associada a energia necessária para romper as ligações\n  intermoleculares deste de forma que quanto mais fortes forem essas ligações, maior a energia necessária para rompê-las e portanto, menor será a\n  pressão de vapor.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3292,13 +3344,17 @@
     {
       "id_": "1G05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G05/1G05.md",
-      "date": "2023-05-08T04:11:54.581534",
+      "date": "2023-05-25T15:19:35.144530",
       "statement": {
         "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl}\\)</span> e <span class=\"math inline\">\\(\\ce{NaCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C2H5OC2H5}\\)</span> e <span class=\"math inline\">\\(\\ce{C4H9OH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CHI3}\\)</span> e <span class=\"math inline\">\\(\\ce{CHF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span> e <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
         "md": "Considere os pares de substâncias.\n\n1.  $\\ce{HCl}$ e $\\ce{NaCl}$\n2.  $\\ce{C2H5OC2H5}$ e $\\ce{C4H9OH}$\n3.  $\\ce{CHI3}$ e $\\ce{CHF3}$\n4.  $\\ce{C2H4}$ e $\\ce{CH3OH}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
         "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl}\\)} e {\\(\\ce{NaCl}\\)}\n\\item\n  {\\(\\ce{C2H5OC2H5}\\)} e {\\(\\ce{C4H9OH}\\)}\n\\item\n  {\\(\\ce{CHI3}\\)} e {\\(\\ce{CHF3}\\)}\n\\item\n  {\\(\\ce{C2H4}\\)} e {\\(\\ce{CH3OH}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl}\\)</span> : Dipolo-dipolo. <span class=\"math inline\">\\(\\ce{NaCl}\\)</span> : Ligação iônica. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{HCl}\\)</span>) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{NaCl}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C2H5OC2H5}\\)</span> : Ligações de\nLondon. <span class=\"math inline\">\\(\\ce{C4H9OH}\\)</span> : Ligações de\nhidrogênio. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{C2H5OC2H5}\\)</span> ) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{C4H9OH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{CHI3}\\)</span> : Dipolo-dipolo,\n<span class=\"math inline\">\\(M_{\\ce{CHI3}}\\)</span>= 394 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{CHF3}\\)</span> : Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{CHF3}}\\)</span>= 70 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{CHI3}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{CHF3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span> : Ligações de London.\n<span class=\"math inline\">\\(\\ce{CH3OH}\\)</span> : Ligações de\nhidrogênio. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{C2H4}\\)</span>)&lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{HCl}$ : Dipolo-dipolo. $\\ce{NaCl}$ : Ligação iônica. $T_{eb}$\n    ($\\ce{HCl}$) &lt; $T_{eb}$ ($\\ce{NaCl}$)\n2.  $\\ce{C2H5OC2H5}$ : Ligações de London. $\\ce{C4H9OH}$ : Ligações de\n    hidrogênio. $T_{eb}$ ($\\ce{C2H5OC2H5}$ ) &lt; $T_{eb}$\n    ($\\ce{C4H9OH}$)\n3.  $\\ce{CHI3}$ : Dipolo-dipolo, $M_{\\ce{CHI3}}$= 394 g $mol^{-1}$.\n    $\\ce{CHF3}$ : Dipolo-dipolo, $M_{\\ce{CHF3}}$= 70 g $mol^{-1}$.\n    $T_{eb}$ ($\\ce{CHI3}$) &gt; $T_{eb}$ ($\\ce{CHF3}$)\n4.  $\\ce{C2H4}$ : Ligações de London. $\\ce{CH3OH}$ : Ligações de\n    hidrogênio. $T_{eb}$ ($\\ce{C2H4}$)&lt; $T_{eb}$ ($\\ce{CH3OH}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl}\\)} : Dipolo-dipolo. {\\(\\ce{NaCl}\\)} : Ligação iônica. {\\(T_{eb}\\)} ({\\(\\ce{HCl}\\)}) \\textless{} {\\(T_{eb}\\)} ({\\(\\ce{NaCl}\\)})\n\\item\n  {\\(\\ce{C2H5OC2H5}\\)} : Ligações de London. {\\(\\ce{C4H9OH}\\)} : Ligações de hidrogênio. {\\(T_{eb}\\)} ({\\(\\ce{C2H5OC2H5}\\)} ) \\textless{} {\\(T_{eb}\\)}\n  ({\\(\\ce{C4H9OH}\\)})\n\\item\n  {\\(\\ce{CHI3}\\)} : Dipolo-dipolo, {\\(M_{\\ce{CHI3}}\\)}= 394 g {\\(mol^{-1}\\)}. {\\(\\ce{CHF3}\\)} : Dipolo-dipolo, {\\(M_{\\ce{CHF3}}\\)}= 70 g\n  {\\(mol^{-1}\\)}. {\\(T_{eb}\\)} ({\\(\\ce{CHI3}\\)}) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{CHF3}\\)})\n\\item\n  {\\(\\ce{C2H4}\\)} : Ligações de London. {\\(\\ce{CH3OH}\\)} : Ligações de hidrogênio. {\\(T_{eb}\\)} ({\\(\\ce{C2H4}\\)})\\textless{} {\\(T_{eb}\\)}\n  ({\\(\\ce{CH3OH}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3333,13 +3389,17 @@
     {
       "id_": "1G08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G08/1G08.md",
-      "date": "2023-05-08T04:21:09.257631",
+      "date": "2023-05-25T15:20:56.306384",
       "statement": {
         "html": "<p>Considere os pares de substâncias.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span> e <span class=\"math inline\">\\(\\ce{ClF3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SF4}\\)</span> e <span class=\"math inline\">\\(\\ce{CF4}\\)</span></li>\n<li><em>cis</em>-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span> e <em>trans</em>-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NO2}\\)</span> e <span class=\"math inline\">\\(\\ce{N2O}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa em que a primeira substância\napresenta maior temperatura de ebulição.</p>",
         "md": "Considere os pares de substâncias.\n\n1.  $\\ce{BF3}$ e $\\ce{ClF3}$\n2.  $\\ce{SF4}$ e $\\ce{CF4}$\n3.  *cis*-$\\ce{CHCl=CHCl}$ e *trans*-$\\ce{CHCl=CHCl}$\n4.  $\\ce{NO2}$ e $\\ce{N2O}$\n\n**Assinale** a alternativa em que a primeira substância apresenta maior\ntemperatura de ebulição.\n",
         "tex": "Considere os pares de substâncias.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{BF3}\\)} e {\\(\\ce{ClF3}\\)}\n\\item\n  {\\(\\ce{SF4}\\)} e {\\(\\ce{CF4}\\)}\n\\item\n  \\emph{cis}-{\\(\\ce{CHCl=CHCl}\\)} e \\emph{trans}-{\\(\\ce{CHCl=CHCl}\\)}\n\\item\n  {\\(\\ce{NO2}\\)} e {\\(\\ce{N2O}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa em que a primeira substância apresenta maior temperatura de ebulição.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{BF3}\\)</span> : Ligações de London.\n<span class=\"math inline\">\\(\\ce{ClF3}\\)</span> : Dipolo-dipolo. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{BF3}\\)</span>) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{ClF3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{SF4}\\)</span> : Dipolo-dipolo. <span class=\"math inline\">\\(\\ce{CF4}\\)</span> : Ligações de London. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{SF4}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{CF4}\\)</span>)</li>\n<li>cis-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span> :\nDipolo-dipolo. trans-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span>\n: Ligações de London. <span class=\"math inline\">\\(T_{eb}\\)</span> (\ncis-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> ( trans-<span class=\"math inline\">\\(\\ce{CHCl=CHCl}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{NO2}\\)</span> : Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{NO2}}\\)</span>= 46 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{N2O}\\)</span>: Dipolo-dipolo, <span class=\"math inline\">\\(M_{\\ce{N2O}}\\)</span>= 44 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{NO2}\\)</span>) &gt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{N2O}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{BF3}$ : Ligações de London. $\\ce{ClF3}$ : Dipolo-dipolo.\n    $T_{eb}$ ($\\ce{BF3}$) &lt; $T_{eb}$ ($\\ce{ClF3}$)\n2.  $\\ce{SF4}$ : Dipolo-dipolo. $\\ce{CF4}$ : Ligações de London.\n    $T_{eb}$ ($\\ce{SF4}$) &gt; $T_{eb}$ ($\\ce{CF4}$)\n3.  cis-$\\ce{CHCl=CHCl}$ : Dipolo-dipolo. trans-$\\ce{CHCl=CHCl}$ :\n    Ligações de London. $T_{eb}$ ( cis-$\\ce{CHCl=CHCl}$) &gt; $T_{eb}$ (\n    trans-$\\ce{CHCl=CHCl}$)\n4.  $\\ce{NO2}$ : Dipolo-dipolo, $M_{\\ce{NO2}}$= 46 g $mol^{-1}$.\n    $\\ce{N2O}$: Dipolo-dipolo, $M_{\\ce{N2O}}$= 44 g $mol^{-1}$. $T_{eb}$\n    ($\\ce{NO2}$) &gt; $T_{eb}$ ($\\ce{N2O}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{BF3}\\)} : Ligações de London. {\\(\\ce{ClF3}\\)} : Dipolo-dipolo. {\\(T_{eb}\\)} ({\\(\\ce{BF3}\\)}) \\textless{} {\\(T_{eb}\\)} ({\\(\\ce{ClF3}\\)})\n\\item\n  {\\(\\ce{SF4}\\)} : Dipolo-dipolo. {\\(\\ce{CF4}\\)} : Ligações de London. {\\(T_{eb}\\)} ({\\(\\ce{SF4}\\)}) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{CF4}\\)})\n\\item\n  cis-{\\(\\ce{CHCl=CHCl}\\)} : Dipolo-dipolo. trans-{\\(\\ce{CHCl=CHCl}\\)} : Ligações de London. {\\(T_{eb}\\)} ( cis-{\\(\\ce{CHCl=CHCl}\\)}) \\textgreater{}\n  {\\(T_{eb}\\)} ( trans-{\\(\\ce{CHCl=CHCl}\\)})\n\\item\n  {\\(\\ce{NO2}\\)} : Dipolo-dipolo, {\\(M_{\\ce{NO2}}\\)}= 46 g {\\(mol^{-1}\\)}. {\\(\\ce{N2O}\\)}: Dipolo-dipolo, {\\(M_{\\ce{N2O}}\\)}= 44 g {\\(mol^{-1}\\)}.\n  {\\(T_{eb}\\)} ({\\(\\ce{NO2}\\)}) \\textgreater{} {\\(T_{eb}\\)} ({\\(\\ce{N2O}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3374,13 +3434,17 @@
     {
       "id_": "1G09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G09/1G09.md",
-      "date": "2023-05-08T03:23:31.694668",
+      "date": "2023-05-25T15:21:26.037185",
       "statement": {
         "html": "<p>Considere as substâncias: <span class=\"math inline\">\\(\\ce{Br2}\\)</span>, <span class=\"math inline\">\\(\\ce{Hg}\\)</span>, <span class=\"math inline\">\\(\\ce{CO2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com que relaciona os\ncompostos em ordem <em>crescente</em> de temperatura de ebulição.</p>",
         "md": "Considere as substâncias: $\\ce{Br2}$, $\\ce{Hg}$, $\\ce{CO2}$.\n\n**Assinale** a alternativa com que relaciona os compostos em ordem\n*crescente* de temperatura de ebulição.\n",
         "tex": "Considere as substâncias: {\\(\\ce{Br2}\\)}, {\\(\\ce{Hg}\\)}, {\\(\\ce{CO2}\\)}.\n\n\\textbf{Assinale} a alternativa com que relaciona os compostos em ordem \\emph{crescente} de temperatura de ebulição.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{Br2}\\)</span> : Ligações de London,\n<span class=\"math inline\">\\(M_{\\ce{Br2}}\\)</span>= 160 g <span class=\"math inline\">\\(mol^{-1}\\)</span>.</li>\n<li><span class=\"math inline\">\\(\\ce{Hg}\\)</span> : Ligação\nmetálica.</li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span> : Ligações de London,\n<span class=\"math inline\">\\(M_{\\ce{CO2}}\\)</span>= 44 g <span class=\"math inline\">\\(mol^{-1}\\)</span>.</li>\n</ul>\n<p><span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{CO2}\\)</span>) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{Br2}\\)</span>) &lt; <span class=\"math inline\">\\(T_{eb}\\)</span> (<span class=\"math inline\">\\(\\ce{Hg}\\)</span>)</p>",
+        "md": "-   $\\ce{Br2}$ : Ligações de London, $M_{\\ce{Br2}}$= 160 g $mol^{-1}$.\n-   $\\ce{Hg}$ : Ligação metálica.\n-   $\\ce{CO2}$ : Ligações de London, $M_{\\ce{CO2}}$= 44 g $mol^{-1}$.\n\n$T_{eb}$ ($\\ce{CO2}$) &lt; $T_{eb}$ ($\\ce{Br2}$) &lt; $T_{eb}$\n($\\ce{Hg}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{Br2}\\)} : Ligações de London, {\\(M_{\\ce{Br2}}\\)}= 160 g {\\(mol^{-1}\\)}.\n\\item\n  {\\(\\ce{Hg}\\)} : Ligação metálica.\n\\item\n  {\\(\\ce{CO2}\\)} : Ligações de London, {\\(M_{\\ce{CO2}}\\)}= 44 g {\\(mol^{-1}\\)}.\n\\end{itemize}\n\n{\\(T_{eb}\\)} ({\\(\\ce{CO2}\\)}) \\textless{} {\\(T_{eb}\\)} ({\\(\\ce{Br2}\\)}) \\textless{} {\\(T_{eb}\\)} ({\\(\\ce{Hg}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3415,13 +3479,17 @@
     {
       "id_": "1G22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G22/1G22.md",
-      "date": "2023-05-08T04:15:38.756027",
+      "date": "2023-05-25T15:26:47.267066",
       "statement": {
         "html": "<p>Considere os compostos <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span> e <span class=\"math inline\">\\(\\ce{H2O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de viscosidade em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere os compostos $\\ce{CH3CH2OH}$, $\\ce{CH2OHCHOHCH2OH}$,\n$\\ce{CH2OHCH2OH}$ e $\\ce{H2O}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de viscosidade em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere os compostos {\\(\\ce{CH3CH2OH}\\)}, {\\(\\ce{CH2OHCHOHCH2OH}\\)}, {\\(\\ce{CH2OHCH2OH}\\)} e {\\(\\ce{H2O}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de viscosidade em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span> : Ligações de\nhidrogênio (1 por molécula), <span class=\"math inline\">\\(M_{\\ce{CH3CH2OH}}\\)</span>= 46 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span> : Ligações de\nhidrogênio (3 por molécula). <span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span> : Ligações de hidrogênio\n(2 por molécula). <span class=\"math inline\">\\(\\ce{H2O}\\)</span> :\nLigações de hidrogênio (2 por molécula), <span class=\"math inline\">\\(M_{\\ce{H2O}}\\)</span>= 18 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{H2O}\\)</span>) &lt; <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>) &lt; <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{CH2OHCH2OH}\\)</span>) &lt; <span class=\"math inline\">\\(\\eta\\)</span> (<span class=\"math inline\">\\(\\ce{CH2OHCHOHCH2OH}\\)</span>)</p>",
+        "md": "$\\ce{CH3CH2OH}$ : Ligações de hidrogênio (1 por molécula),\n$M_{\\ce{CH3CH2OH}}$= 46 g $mol^{-1}$. $\\ce{CH2OHCHOHCH2OH}$ : Ligações\nde hidrogênio (3 por molécula). $\\ce{CH2OHCH2OH}$ : Ligações de\nhidrogênio (2 por molécula). $\\ce{H2O}$ : Ligações de hidrogênio (2 por\nmolécula), $M_{\\ce{H2O}}$= 18 g $mol^{-1}$. $\\eta$ ($\\ce{H2O}$) &lt;\n$\\eta$ ($\\ce{CH3CH2OH}$) &lt; $\\eta$ ($\\ce{CH2OHCH2OH}$) &lt; $\\eta$\n($\\ce{CH2OHCHOHCH2OH}$)\n",
+        "tex": "{\\(\\ce{CH3CH2OH}\\)} : Ligações de hidrogênio (1 por molécula), {\\(M_{\\ce{CH3CH2OH}}\\)}= 46 g {\\(mol^{-1}\\)}. {\\(\\ce{CH2OHCHOHCH2OH}\\)} : Ligações de\nhidrogênio (3 por molécula). {\\(\\ce{CH2OHCH2OH}\\)} : Ligações de hidrogênio (2 por molécula). {\\(\\ce{H2O}\\)} : Ligações de hidrogênio (2 por\nmolécula), {\\(M_{\\ce{H2O}}\\)}= 18 g {\\(mol^{-1}\\)}. {\\(\\eta\\)} ({\\(\\ce{H2O}\\)}) \\textless{} {\\(\\eta\\)} ({\\(\\ce{CH3CH2OH}\\)}) \\textless{} {\\(\\eta\\)}\n({\\(\\ce{CH2OHCH2OH}\\)}) \\textless{} {\\(\\eta\\)} ({\\(\\ce{CH2OHCHOHCH2OH}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3456,13 +3524,17 @@
     {
       "id_": "1G17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G17/1G17.md",
-      "date": "2023-05-08T04:05:51.256058",
+      "date": "2023-05-25T15:26:50.327107",
       "statement": {
         "html": "<p>As substâncias a seguir devem ser dissolvidas em benzeno ou água.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{KCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CCl4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H12}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona as substâncias\npara as quais água é o melhor solvente.</p>",
         "md": "As substâncias a seguir devem ser dissolvidas em benzeno ou água.\n\n1.  $\\ce{KCl}$\n2.  $\\ce{CCl4}$\n3.  $\\ce{CH3COOH}$\n4.  $\\ce{C6H12}$\n\n**Assinale** a alternativa que relaciona as substâncias para as quais\nágua é o melhor solvente.\n",
         "tex": "As substâncias a seguir devem ser dissolvidas em benzeno ou água.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{KCl}\\)}\n\\item\n  {\\(\\ce{CCl4}\\)}\n\\item\n  {\\(\\ce{CH3COOH}\\)}\n\\item\n  {\\(\\ce{C6H12}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona as substâncias para as quais água é o melhor solvente.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{KCl}\\)</span> : Molécula\niônica.</li>\n<li><span class=\"math inline\">\\(\\ce{CCl4}\\)</span> : Molécula\napolar.</li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span> : Molécula\npolar.</li>\n<li><span class=\"math inline\">\\(\\ce{C6H12}\\)</span> : Molécula\napolar.</li>\n</ol>",
+        "md": "1.  $\\ce{KCl}$ : Molécula iônica.\n2.  $\\ce{CCl4}$ : Molécula apolar.\n3.  $\\ce{CH3COOH}$ : Molécula polar.\n4.  $\\ce{C6H12}$ : Molécula apolar.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{KCl}\\)} : Molécula iônica.\n\\item\n  {\\(\\ce{CCl4}\\)} : Molécula apolar.\n\\item\n  {\\(\\ce{CH3COOH}\\)} : Molécula polar.\n\\item\n  {\\(\\ce{C6H12}\\)} : Molécula apolar.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3497,13 +3569,17 @@
     {
       "id_": "1G19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G19/1G19.md",
-      "date": "2023-05-08T04:07:25.769737",
+      "date": "2023-05-25T15:24:55.596704",
       "statement": {
         "html": "<p>Considere os grupos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{-NH2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-CH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-Br}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{-COOH}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os grupos\nhidrofílicos.</p>",
         "md": "Considere os grupos.\n\n1.  $\\ce{-NH2}$\n2.  $\\ce{-CH3}$\n3.  $\\ce{-Br}$\n4.  $\\ce{-COOH}$\n\n**Assinale** a alternativa que relaciona os grupos hidrofílicos.\n",
         "tex": "Considere os grupos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{-NH2}\\)}\n\\item\n  {\\(\\ce{-CH3}\\)}\n\\item\n  {\\(\\ce{-Br}\\)}\n\\item\n  {\\(\\ce{-COOH}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os grupos hidrofílicos.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{-NH2}\\)</span> : Grupo polar.</li>\n<li><span class=\"math inline\">\\(\\ce{-CH3}\\)</span> : Grupo apolar.</li>\n<li><span class=\"math inline\">\\(\\ce{-Br}\\)</span> : Grupo apolar.</li>\n<li><span class=\"math inline\">\\(\\ce{-COOH}\\)</span> : Grupo polar.</li>\n</ol>",
+        "md": "1.  $\\ce{-NH2}$ : Grupo polar.\n2.  $\\ce{-CH3}$ : Grupo apolar.\n3.  $\\ce{-Br}$ : Grupo apolar.\n4.  $\\ce{-COOH}$ : Grupo polar.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{-NH2}\\)} : Grupo polar.\n\\item\n  {\\(\\ce{-CH3}\\)} : Grupo apolar.\n\\item\n  {\\(\\ce{-Br}\\)} : Grupo apolar.\n\\item\n  {\\(\\ce{-COOH}\\)} : Grupo polar.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3538,13 +3614,17 @@
     {
       "id_": "1G02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G02/1G02.md",
-      "date": "2023-05-08T03:09:51.284146",
+      "date": "2023-05-25T15:18:18.487422",
       "statement": {
         "html": "<p>Considere as substâncias: <span class=\"math inline\">\\(\\ce{H2S}\\)</span>, <span class=\"math inline\">\\(\\ce{SiH4}\\)</span>, <span class=\"math inline\">\\(\\ce{N2H4}\\)</span> e <span class=\"math inline\">\\(\\ce{CHF3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa com o tipo de força\nintermolecular predominante entre as moléculas de cada substância,\nrespectivamente.</p>",
         "md": "Considere as substâncias: $\\ce{H2S}$, $\\ce{SiH4}$, $\\ce{N2H4}$ e\n$\\ce{CHF3}$.\n\n**Assinale** a alternativa com o tipo de força intermolecular\npredominante entre as moléculas de cada substância, respectivamente.\n",
         "tex": "Considere as substâncias: {\\(\\ce{H2S}\\)}, {\\(\\ce{SiH4}\\)}, {\\(\\ce{N2H4}\\)} e {\\(\\ce{CHF3}\\)}.\n\n\\textbf{Assinale} a alternativa com o tipo de força intermolecular predominante entre as moléculas de cada substância, respectivamente.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math inline\">\\(\\ce{H2S}\\)</span> : Dipolo-dipolo\n(molécula polar). <span class=\"math inline\">\\(\\ce{SiH4}\\)</span> :\nLigações de London (molécula apolar). <span class=\"math inline\">\\(\\ce{N2H4}\\)</span> : Ligações de hidrogênio\n(hidrogênio ligado a nitrogênio). <span class=\"math inline\">\\(\\ce{CH3F}\\)</span> : Dipolo-dipolo (molécula\npolar).</p>",
+        "md": "$\\ce{H2S}$ : Dipolo-dipolo (molécula polar). $\\ce{SiH4}$ : Ligações de\nLondon (molécula apolar). $\\ce{N2H4}$ : Ligações de hidrogênio\n(hidrogênio ligado a nitrogênio). $\\ce{CH3F}$ : Dipolo-dipolo (molécula\npolar).\n",
+        "tex": "{\\(\\ce{H2S}\\)} : Dipolo-dipolo (molécula polar). {\\(\\ce{SiH4}\\)} : Ligações de London (molécula apolar). {\\(\\ce{N2H4}\\)} : Ligações de hidrogênio\n(hidrogênio ligado a nitrogênio). {\\(\\ce{CH3F}\\)} : Dipolo-dipolo (molécula polar).\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -3579,16 +3659,16 @@
     {
       "id_": "1G15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1G/1G15/1G15.md",
-      "date": "2023-05-08T04:03:26.853677",
+      "date": "2023-05-25T15:23:54.098501",
       "statement": {
         "html": "<p>Considere os compostos metano, <span class=\"math inline\">\\(\\ce{CH4}\\)</span>, tetraclorometano, <span class=\"math inline\">\\(\\ce{CCl4}\\)</span> e tetrabromometano, <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de pressão de vapor em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere os compostos metano, $\\ce{CH4}$, tetraclorometano, $\\ce{CCl4}$\ne tetrabromometano, $\\ce{CBr4}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de pressão de vapor em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere os compostos metano, {\\(\\ce{CH4}\\)}, tetraclorometano, {\\(\\ce{CCl4}\\)} e tetrabromometano, {\\(\\ce{CBr4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de pressão de vapor em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
       "solution": {
-        "html": "<p>Primeiro analisamos as forças intermoleculares em cada composto, como\nas três são dipolo-induzido fazemos o desempate na massa, então: <span class=\"math display\">\\[M_{CBr_{4}}&gt;M_{CCl_{4}}&gt;M_{CH_{4}}\\]</span>\nQuanto maior a massa molar, menor a pressão de vapor: <span class=\"math display\">\\[P_{CBr_{4}}&lt;P_{CCl_{4}}&lt;P_{CH_{4}}\\]</span></p>",
-        "md": "Primeiro analisamos as forças intermoleculares em cada composto, como as\ntrês são dipolo-induzido fazemos o desempate na massa, então:\n$$M_{CBr_{4}}>M_{CCl_{4}}>M_{CH_{4}}$$ Quanto maior a massa molar, menor\na pressão de vapor: $$P_{CBr_{4}}<P_{CCl_{4}}<P_{CH_{4}}$$\n",
-        "tex": "Primeiro analisamos as forças intermoleculares em cada composto, como as três são dipolo-induzido fazemos o desempate na massa, então:\n{\\[M_{CBr_{4}}>M_{CCl_{4}}>M_{CH_{4}}\\]} Quanto maior a massa molar, menor a pressão de vapor: {\\[P_{CBr_{4}}<P_{CCl_{4}}<P_{CH_{4}}\\]}\n"
+        "html": "<p><span class=\"math inline\">\\(\\ce{CH4}\\)</span> : Ligações de London,\n<span class=\"math inline\">\\(M_{\\ce{CH4}}\\)</span>= 16 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{CCl4}\\)</span> : Ligações de London, <span class=\"math inline\">\\(M_{\\ce{CCl4}}\\)</span>= 154 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(\\ce{CBr4}\\)</span> : Ligações de London, <span class=\"math inline\">\\(M_{\\ce{CBr4}}\\)</span>= 332 g <span class=\"math inline\">\\(mol^{-1}\\)</span>. <span class=\"math inline\">\\(P_{vap}\\)</span> (<span class=\"math inline\">\\(\\ce{CBr4}\\)</span>) &lt; <span class=\"math inline\">\\(P_{vap}(\\)</span><span class=\"math inline\">\\(\\ce{CCl4}\\)</span>) &lt; <span class=\"math inline\">\\(P_{vap}\\)</span> (<span class=\"math inline\">\\(\\ce{CH4}\\)</span>)</p>",
+        "md": "$\\ce{CH4}$ : Ligações de London, $M_{\\ce{CH4}}$= 16 g $mol^{-1}$.\n$\\ce{CCl4}$ : Ligações de London, $M_{\\ce{CCl4}}$= 154 g $mol^{-1}$.\n$\\ce{CBr4}$ : Ligações de London, $M_{\\ce{CBr4}}$= 332 g $mol^{-1}$.\n$P_{vap}$ ($\\ce{CBr4}$) &lt; $P_{vap}($$\\ce{CCl4}$) &lt; $P_{vap}$\n($\\ce{CH4}$)\n",
+        "tex": "{\\(\\ce{CH4}\\)} : Ligações de London, {\\(M_{\\ce{CH4}}\\)}= 16 g {\\(mol^{-1}\\)}. {\\(\\ce{CCl4}\\)} : Ligações de London, {\\(M_{\\ce{CCl4}}\\)}= 154 g\n{\\(mol^{-1}\\)}. {\\(\\ce{CBr4}\\)} : Ligações de London, {\\(M_{\\ce{CBr4}}\\)}= 332 g {\\(mol^{-1}\\)}. {\\(P_{vap}\\)} ({\\(\\ce{CBr4}\\)}) \\textless{}\n{\\(P_{vap}(\\)}{\\(\\ce{CCl4}\\)}) \\textless{} {\\(P_{vap}\\)} ({\\(\\ce{CH4}\\)})\n"
       },
       "answer": null,
       "data": null,
