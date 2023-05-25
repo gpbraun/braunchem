@@ -1370,13 +1370,17 @@
     {
       "id_": "1E23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E23/1E23.md",
-      "date": "2023-04-11T15:34:53.000557",
+      "date": "2023-05-25T18:09:11.705530",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do metanol.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo metanol.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do metanol.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta H\\degree_f(CH3OH)=\\Delta\nH\\degree_{sub}(grafita)+2\\Delta H_L(\\ce{H2})+\\frac{1}{2}\\Delta\nH_L(\\ce{O2})-(3\\Delta H_L(\\ce{C-H})+\\Delta H_L(\\ce{C-O})+\\Delta\nH_L(\\ce{O-H}))\\]</span> <span class=\"math display\">\\[\\Delta\nH\\degree_f(CH3OH)=\\pu{716 kJ//mol}+\\pu{872 kJ//mol}+\\pu{248\nkJ//mol}-\\pu{1236 kJ//mol}-\\pu{360 kJ//mol}-\\pu{463 kJ//mol}\\]</span>\n<span class=\"math display\">\\[\\Delta H\\degree_f(CH3OH)=\\pu{-223\nkJ//mol}\\]</span></p>",
+        "md": "$$\\Delta H\\degree_f(CH3OH)=\\Delta\nH\\degree_{sub}(grafita)+2\\Delta H_L(\\ce{H2})+\\frac{1}{2}\\Delta\nH_L(\\ce{O2})-(3\\Delta H_L(\\ce{C-H})+\\Delta H_L(\\ce{C-O})+\\Delta\nH_L(\\ce{O-H}))$$ $$\\Delta\nH\\degree_f(CH3OH)=\\pu{716 kJ//mol}+\\pu{872 kJ//mol}+\\pu{248\nkJ//mol}-\\pu{1236 kJ//mol}-\\pu{360 kJ//mol}-\\pu{463 kJ//mol}$$\n$$\\Delta H\\degree_f(CH3OH)=\\pu{-223\nkJ//mol}$$\n",
+        "tex": "{\\[\\Delta H\\degree_f(CH3OH)=\\Delta\nH\\degree_{sub}(grafita)+2\\Delta H_L(\\ce{H2})+\\frac{1}{2}\\Delta\nH_L(\\ce{O2})-(3\\Delta H_L(\\ce{C-H})+\\Delta H_L(\\ce{C-O})+\\Delta\nH_L(\\ce{O-H}))\\]} {\\[\\Delta\nH\\degree_f(CH3OH)=\\qty{716}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{872}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{248}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-\\qty{1236}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-\\qty{360}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-\\qty{463}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n{\\[\\Delta H\\degree_f(CH3OH)=\\qty{-223}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -1462,13 +1466,17 @@
     {
       "id_": "1E18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E18/1E18.md",
-      "date": "2023-04-11T15:38:10.646267",
+      "date": "2023-05-25T18:08:15.217646",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de rede do cloreto de cálcio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de rede do\ncloreto de cálcio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de rede do cloreto de cálcio.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta\nH\\degree_f(\\ce{CaCl2_{(s)}})=\\Delta H\\degree_{sub}(\\ce{Ca})+\\Delta\nH\\degree_{ion}(\\ce{Ca})+\\Delta H\\degree_{ion}(\\ce{Ca^+})+\\Delta\nH_{L}(\\ce{Cl2})+2\\Delta H\\degree_{ge}(\\ce{Cl})+\\Delta\nH\\degree_{rede}(\\ce{CaCl2})\\]</span> <span class=\"math display\">\\[\\pu{-796 kJ//mol}=\\pu{190 kJ//mol}+\\pu{590\nkJ//mol}+\\pu{1150 kJ//mol}+\\pu{242 kJ//mol}+(\\pu{-698 kJ//mol})+\\Delta\nH\\degree_{rede}(\\ce{CaCl2})\\]</span> <span class=\"math display\">\\[\\Delta\nH\\degree_{rede}(\\ce{CaCl2})=\\pu{-2270 kJ//mol}\\]</span></p>",
+        "md": "$$\\Delta\nH\\degree_f(\\ce{CaCl2_{(s)}})=\\Delta H\\degree_{sub}(\\ce{Ca})+\\Delta\nH\\degree_{ion}(\\ce{Ca})+\\Delta H\\degree_{ion}(\\ce{Ca^+})+\\Delta\nH_{L}(\\ce{Cl2})+2\\Delta H\\degree_{ge}(\\ce{Cl})+\\Delta\nH\\degree_{rede}(\\ce{CaCl2})$$\n$$\\pu{-796 kJ//mol}=\\pu{190 kJ//mol}+\\pu{590\nkJ//mol}+\\pu{1150 kJ//mol}+\\pu{242 kJ//mol}+(\\pu{-698 kJ//mol})+\\Delta\nH\\degree_{rede}(\\ce{CaCl2})$$ $$\\Delta\nH\\degree_{rede}(\\ce{CaCl2})=\\pu{-2270 kJ//mol}$$\n",
+        "tex": "{\\[\\Delta\nH\\degree_f(\\ce{CaCl2_{(s)}})=\\Delta H\\degree_{sub}(\\ce{Ca})+\\Delta\nH\\degree_{ion}(\\ce{Ca})+\\Delta H\\degree_{ion}(\\ce{Ca^+})+\\Delta\nH_{L}(\\ce{Cl2})+2\\Delta H\\degree_{ge}(\\ce{Cl})+\\Delta\nH\\degree_{rede}(\\ce{CaCl2})\\]}\n{\\[\\qty{-796}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}=\\qty{190}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{590}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{1150}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{242}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+(\\qty{-698}{\\tfrac{\\unit{kJ}}{\\unit{mol}}})+\\Delta\nH\\degree_{rede}(\\ce{CaCl2})\\]} {\\[\\Delta\nH\\degree_{rede}(\\ce{CaCl2})=\\qty{-2270}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -1554,13 +1562,17 @@
     {
       "id_": "1E20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E20/1E20.md",
-      "date": "2023-04-11T15:36:04.221176",
+      "date": "2023-05-25T18:08:44.381586",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nsegunda afinidade eletrônica do enxofre.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da segunda afinidade\neletrônica do enxofre.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da segunda afinidade eletrônica do enxofre.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta\nH\\degree_f(\\ce{K2S_{(s)}})=2\\Delta H\\degree_{sub}(\\ce{K})+2\\Delta\nH\\degree_{ion}(\\ce{K})+\\Delta H\\degree_{sub}(\\ce{S})+\\Delta\nH\\degree_{ge}(\\ce{S})+\\Delta H\\degree_{ge}(\\ce{S^-})+\\Delta\nH\\degree_{rede}(\\ce{K2S})\\]</span> <span class=\"math display\">\\[\\pu{-381\nkJ//mol}=\\pu{180 kJ//mol}+\\pu{8 eV 6,02\\cdot 10^{23} mol^{-1} 1,6\\cdot\n10^{-22}\\frac{kJ}{eV}}+\\pu{277 kJ//mol}+(\\pu{-2 eV 6,02\\cdot 10^{23}\nmol^{-1} 1,6\\cdot 10^{-22}\\frac{kJ}{eV}})+\\Delta\nH\\degree_{ge}(\\ce{S^-})+(\\pu{-2050 kJ//mol})\\]</span> <span class=\"math display\">\\[\\pu{E_{ae2}(\\ce{S}) 6,02\\cdot 10^{23} mol^{-1}\n1,6\\cdot 10^{-22}\\frac{kJ}{eV}}=\\pu{634,08 kJ//mol}\\implies\nE_{ae2}(\\ce{S})\\approx\\pu{6,583 eV}\\]</span></p>",
+        "md": "$$\\Delta\nH\\degree_f(\\ce{K2S_{(s)}})=2\\Delta H\\degree_{sub}(\\ce{K})+2\\Delta\nH\\degree_{ion}(\\ce{K})+\\Delta H\\degree_{sub}(\\ce{S})+\\Delta\nH\\degree_{ge}(\\ce{S})+\\Delta H\\degree_{ge}(\\ce{S^-})+\\Delta\nH\\degree_{rede}(\\ce{K2S})$$ $$\\pu{-381\nkJ//mol}=\\pu{180 kJ//mol}+\\pu{8 eV 6,02\\cdot 10^{23} mol^{-1} 1,6\\cdot\n10^{-22}\\frac{kJ}{eV}}+\\pu{277 kJ//mol}+(\\pu{-2 eV 6,02\\cdot 10^{23}\nmol^{-1} 1,6\\cdot 10^{-22}\\frac{kJ}{eV}})+\\Delta\nH\\degree_{ge}(\\ce{S^-})+(\\pu{-2050 kJ//mol})$$\n$$\\pu{E_{ae2}(\\ce{S}) 6,02\\cdot 10^{23} mol^{-1}\n1,6\\cdot 10^{-22}\\frac{kJ}{eV}}=\\pu{634,08 kJ//mol}\\implies\nE_{ae2}(\\ce{S})\\approx\\pu{6,583 eV}$$\n",
+        "tex": "{\\[\\Delta\nH\\degree_f(\\ce{K2S_{(s)}})=2\\Delta H\\degree_{sub}(\\ce{K})+2\\Delta\nH\\degree_{ion}(\\ce{K})+\\Delta H\\degree_{sub}(\\ce{S})+\\Delta\nH\\degree_{ge}(\\ce{S})+\\Delta H\\degree_{ge}(\\ce{S^-})+\\Delta\nH\\degree_{rede}(\\ce{K2S})\\]}\n{\\[\\qty{-381}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}=\\qty{180}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\pu{8 eV 6,02\\cdot 10^{23} mol^{-1} 1,6\\cdot\n10^{-22}\\frac{kJ}{eV}}+\\qty{277}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+(\\pu{-2 eV 6,02\\cdot 10^{23}\nmol^{-1} 1,6\\cdot 10^{-22}\\frac{kJ}{eV}})+\\Delta\nH\\degree_{ge}(\\ce{S^-})+(\\qty{-2050}{\\tfrac{\\unit{kJ}}{\\unit{mol}}})\\]} {\\[\\pu{E_{ae2}(\\ce{S}) 6,02\\cdot 10^{23} mol^{-1}\n1,6\\cdot 10^{-22}\\frac{kJ}{eV}}=\\qty{634,08}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\implies\nE_{ae2}(\\ce{S})\\approx\\qty{6,583}{\\unit{eV}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -1646,13 +1658,17 @@
     {
       "id_": "1E16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E16/1E16.md",
-      "date": "2023-04-11T01:32:25.969194",
+      "date": "2023-05-25T18:08:00.089677",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>, <span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>, <span class=\"math inline\">\\(\\ce{HCN}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de energia de ligação <span class=\"math inline\">\\(\\ce{CN}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{NHCH2}$, $\\ce{NH2CH3}$, $\\ce{HCN}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de energia de ligação $\\ce{CN}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{NHCH2}\\)}, {\\(\\ce{NH2CH3}\\)}, {\\(\\ce{HCN}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de energia de ligação {\\(\\ce{CN}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{NHCH2}\\)</span> : A molécula possui\numa estrutura com o nitrogênio ligado ao carbono por ligação dupla de\nmodo que a ordem da ligação entre o carbono e o nitrogênio seja igual a\n2.</li>\n<li><span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span> : A molécula possui\numa estrutura com o nitrogênio ligado ao carbono por ligação simples de\nmodo que a ordem da ligação entre o carbono e o nitrogênio seja igual a\n1.</li>\n<li><span class=\"math inline\">\\(\\ce{HCN}\\)</span> : A molécula possui\numa estrutura com o nitrogênio ligado ao carbono por ligação tripla de\nmodo que a ordem da ligação entre o carbono e o nitrogênio seja igual a\n3.</li>\n</ul>\n<p>El (<span class=\"math inline\">\\(\\ce{HCN}\\)</span>) &gt; El (<span class=\"math inline\">\\(\\ce{NHCH2}\\)</span>) &gt; El (<span class=\"math inline\">\\(\\ce{NH2CH3}\\)</span>)</p>",
+        "md": "-   $\\ce{NHCH2}$ : A molécula possui uma estrutura com o nitrogênio\n    ligado ao carbono por ligação dupla de modo que a ordem da ligação\n    entre o carbono e o nitrogênio seja igual a 2.\n-   $\\ce{NH2CH3}$ : A molécula possui uma estrutura com o nitrogênio\n    ligado ao carbono por ligação simples de modo que a ordem da ligação\n    entre o carbono e o nitrogênio seja igual a 1.\n-   $\\ce{HCN}$ : A molécula possui uma estrutura com o nitrogênio ligado\n    ao carbono por ligação tripla de modo que a ordem da ligação entre o\n    carbono e o nitrogênio seja igual a 3.\n\nEl ($\\ce{HCN}$) &gt; El ($\\ce{NHCH2}$) &gt; El ($\\ce{NH2CH3}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{NHCH2}\\)} : A molécula possui uma estrutura com o nitrogênio ligado ao carbono por ligação dupla de modo que a ordem da ligação entre o\n  carbono e o nitrogênio seja igual a 2.\n\\item\n  {\\(\\ce{NH2CH3}\\)} : A molécula possui uma estrutura com o nitrogênio ligado ao carbono por ligação simples de modo que a ordem da ligação entre o\n  carbono e o nitrogênio seja igual a 1.\n\\item\n  {\\(\\ce{HCN}\\)} : A molécula possui uma estrutura com o nitrogênio ligado ao carbono por ligação tripla de modo que a ordem da ligação entre o\n  carbono e o nitrogênio seja igual a 3.\n\\end{itemize}\n\nEl ({\\(\\ce{HCN}\\)}) \\textgreater{} El ({\\(\\ce{NHCH2}\\)}) \\textgreater{} El ({\\(\\ce{NH2CH3}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -1687,13 +1703,17 @@
     {
       "id_": "1E07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E07/1E07.md",
-      "date": "2023-04-11T01:55:34.106939",
+      "date": "2023-05-25T17:00:01.668995",
       "statement": {
         "html": "<p>Considere os ânions: <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Br^-}\\)</span>, <span class=\"math inline\">\\(\\ce{N^{3-}}\\)</span>, <span class=\"math inline\">\\(\\ce{O^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ânions em\nordem <em>crescente</em> de polarizabilidade.</p>",
         "md": "Considere os ânions: $\\ce{Cl^-}$, $\\ce{Br^-}$, $\\ce{N^{3-}}$,\n$\\ce{O^{2-}}$.\n\n**Assinale** a alternativa que relaciona os ânions em ordem *crescente*\nde polarizabilidade.\n",
         "tex": "Considere os ânions: {\\(\\ce{Cl^-}\\)}, {\\(\\ce{Br^-}\\)}, {\\(\\ce{N^{3-}}\\)}, {\\(\\ce{O^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ânions em ordem \\emph{crescente} de polarizabilidade.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A polarizabilidade diz respeito a capacidade de um elemento de\npolarizar sua nuvem eletrônica de modo a formar um polo negativo. Daí,\nquanto maior o elemento, isto é, quanto maior a maleabilidade de sua\nnuvem, maior será sua polarizabilidade.</p>\n<p><span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{O^2-}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{N^3-}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{Br^-}\\)</span>)</p>",
+        "md": "A polarizabilidade diz respeito a capacidade de um elemento de polarizar\nsua nuvem eletrônica de modo a formar um polo negativo. Daí, quanto\nmaior o elemento, isto é, quanto maior a maleabilidade de sua nuvem,\nmaior será sua polarizabilidade.\n\n$\\delta^-$ ($\\ce{O^2-}$) &lt; $\\delta^-$ ($\\ce{N^3-}$) &lt; $\\delta^-$\n($\\ce{Cl^-}$) &lt; $\\delta^-$ ($\\ce{Br^-}$)\n",
+        "tex": "A polarizabilidade diz respeito a capacidade de um elemento de polarizar sua nuvem eletrônica de modo a formar um polo negativo. Daí, quanto maior o\nelemento, isto é, quanto maior a maleabilidade de sua nuvem, maior será sua polarizabilidade.\n\n{\\(\\delta^-\\)} ({\\(\\ce{O^2-}\\)}) \\textless{} {\\(\\delta^-\\)} ({\\(\\ce{N^3-}\\)}) \\textless{} {\\(\\delta^-\\)} ({\\(\\ce{Cl^-}\\)}) \\textless{} {\\(\\delta^-\\)}\n({\\(\\ce{Br^-}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -1728,13 +1748,17 @@
     {
       "id_": "1E15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E15/1E15.md",
-      "date": "2023-04-11T01:29:41.555479",
+      "date": "2023-05-25T18:07:41.633715",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CF4}\\)</span>, <span class=\"math inline\">\\(\\ce{CCl4}\\)</span>, <span class=\"math inline\">\\(\\ce{CBr4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de energia de ligação.</p>",
         "md": "Considere as moléculas: $\\ce{CF4}$, $\\ce{CCl4}$, $\\ce{CBr4}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de energia de ligação.\n",
         "tex": "Considere as moléculas: {\\(\\ce{CF4}\\)}, {\\(\\ce{CCl4}\\)}, {\\(\\ce{CBr4}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de energia de ligação.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Ambas as moléculas possuem a mesma estrutura e a mesma ordem de\nligação de modo que o que define a ordem das energias de ligação é a\nrepulsão entre os halogênios ligados ao carbono. Assim, quanto maior o\nhalogênio, maior a repulsão gerada e portanto, menor a energia da\nligação.</p>\n<p>El (<span class=\"math inline\">\\(\\ce{CF4}\\)</span>) &gt; El (<span class=\"math inline\">\\(\\ce{CCl4}\\)</span>) &gt; El (<span class=\"math inline\">\\(\\ce{CBr4}\\)</span>)</p>",
+        "md": "Ambas as moléculas possuem a mesma estrutura e a mesma ordem de ligação\nde modo que o que define a ordem das energias de ligação é a repulsão\nentre os halogênios ligados ao carbono. Assim, quanto maior o halogênio,\nmaior a repulsão gerada e portanto, menor a energia da ligação.\n\nEl ($\\ce{CF4}$) &gt; El ($\\ce{CCl4}$) &gt; El ($\\ce{CBr4}$)\n",
+        "tex": "Ambas as moléculas possuem a mesma estrutura e a mesma ordem de ligação de modo que o que define a ordem das energias de ligação é a repulsão entre os\nhalogênios ligados ao carbono. Assim, quanto maior o halogênio, maior a repulsão gerada e portanto, menor a energia da ligação.\n\nEl ({\\(\\ce{CF4}\\)}) \\textgreater{} El ({\\(\\ce{CCl4}\\)}) \\textgreater{} El ({\\(\\ce{CBr4}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -1769,13 +1793,17 @@
     {
       "id_": "1E24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E24/1E24.md",
-      "date": "2023-04-11T12:48:36.765349",
+      "date": "2023-05-25T18:09:46.149459",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da razão\nentre a energia liberada por átomo de hidrogênio na combustão completa\ndo octano gasoso e na célula de combustível de hidrogênio e\noxigênio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da razão entre a energia\nliberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da razão entre a energia liberada por átomo de hidrogênio na combustão completa do octano gasoso\ne na célula de combustível de hidrogênio e oxigênio.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Combustão completa do octano gasoso: <span class=\"math display\">\\[\\ce{C8H18 + \\frac{25}{2}O2 -&gt; 8CO2 +\n9H2O}\\]</span> <span class=\"math display\">\\[\\Delta H_C=7\\Delta\nH_L(\\ce{C-C})+18\\Delta H_L(\\ce{C-H})+\\frac{25}{2}\\Delta\nH_L(\\ce{O2})-(16\\Delta H_L(\\ce{C=O})+18\\Delta H_L(\\ce{O-H}))\\]</span>\n<span class=\"math display\">\\[\\Delta H_C=7\\cdot\\pu{348\nkJ//mol}+18\\cdot\\pu{412 kJ//mol}+\\frac{25}{2}\\cdot\\pu{496\nkJ//mol}-16\\cdot\\pu{803 kJ//mol}-18\\cdot\\pu{463 kJ//mol}\\]</span> <span class=\"math display\">\\[\\Delta H_C=\\pu{-5130 kJ//mol}\\implies\\frac{\\Delta\nH_C}{N(H)}=\\pu{-285 kJ//mol}\\]</span> Célula de combustível de\nhidrogênio e oxigênio: <span class=\"math display\">\\[\\ce{H2 +\n\\frac{1}{2}O2 -&gt; H2O}\\]</span> <span class=\"math display\">\\[\\Delta\nH=\\Delta H_L(\\ce{H2})+\\frac{1}{2}\\Delta H_L(\\ce{O2})-2\\Delta\nH_L(\\pu{O-H})\\]</span> <span class=\"math display\">\\[\\Delta H=\\pu{463\nkJ//mol}+\\pu{248 kJ//mol}-\\pu{926 kJ//mol}\\]</span> <span class=\"math display\">\\[\\Delta H=\\pu{-215 kJ//mol}\\implies\\frac{\\Delta\nH}{N(H)}=\\pu{-107,5 kJ//mol}\\]</span> Logo, a razão pedida é dada por:\n<span class=\"math display\">\\[r=\\frac{\\pu{-285 kJ//mol}}{\\pu{-107,5\nkJ//mol}}\\approx 2,65\\]</span></p>",
+        "md": "Combustão completa do octano gasoso:\n$$\\ce{C8H18 + \\frac{25}{2}O2 -> 8CO2 +\n9H2O}$$ $$\\Delta H_C=7\\Delta\nH_L(\\ce{C-C})+18\\Delta H_L(\\ce{C-H})+\\frac{25}{2}\\Delta\nH_L(\\ce{O2})-(16\\Delta H_L(\\ce{C=O})+18\\Delta H_L(\\ce{O-H}))$$\n$$\\Delta H_C=7\\cdot\\pu{348\nkJ//mol}+18\\cdot\\pu{412 kJ//mol}+\\frac{25}{2}\\cdot\\pu{496\nkJ//mol}-16\\cdot\\pu{803 kJ//mol}-18\\cdot\\pu{463 kJ//mol}$$\n$$\\Delta H_C=\\pu{-5130 kJ//mol}\\implies\\frac{\\Delta\nH_C}{N(H)}=\\pu{-285 kJ//mol}$$ Célula de combustível de hidrogênio e\noxigênio: $$\\ce{H2 +\n\\frac{1}{2}O2 -> H2O}$$ $$\\Delta\nH=\\Delta H_L(\\ce{H2})+\\frac{1}{2}\\Delta H_L(\\ce{O2})-2\\Delta\nH_L(\\pu{O-H})$$ $$\\Delta H=\\pu{463\nkJ//mol}+\\pu{248 kJ//mol}-\\pu{926 kJ//mol}$$\n$$\\Delta H=\\pu{-215 kJ//mol}\\implies\\frac{\\Delta\nH}{N(H)}=\\pu{-107,5 kJ//mol}$$ Logo, a razão pedida é dada por:\n$$r=\\frac{\\pu{-285 kJ//mol}}{\\pu{-107,5\nkJ//mol}}\\approx 2,65$$\n",
+        "tex": "Combustão completa do octano gasoso: {\\[\\ce{C8H18 + \\frac{25}{2}O2 -> 8CO2 +\n9H2O}\\]} {\\[\\Delta H_C=7\\Delta\nH_L(\\ce{C-C})+18\\Delta H_L(\\ce{C-H})+\\frac{25}{2}\\Delta\nH_L(\\ce{O2})-(16\\Delta H_L(\\ce{C=O})+18\\Delta H_L(\\ce{O-H}))\\]}\n{\\[\\Delta H_C=7\\cdot\\qty{348}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+18\\cdot\\qty{412}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\frac{25}{2}\\cdot\\qty{496}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-16\\cdot\\qty{803}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-18\\cdot\\qty{463}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n{\\[\\Delta H_C=\\qty{-5130}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\implies\\frac{\\Delta\nH_C}{N(H)}=\\qty{-285}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]} Célula de combustível de hidrogênio e oxigênio: {\\[\\ce{H2 +\n\\frac{1}{2}O2 -> H2O}\\]} {\\[\\Delta\nH=\\Delta H_L(\\ce{H2})+\\frac{1}{2}\\Delta H_L(\\ce{O2})-2\\Delta\nH_L(\\unit{O-H})\\]}\n{\\[\\Delta H=\\qty{463}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{248}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-\\qty{926}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n{\\[\\Delta H=\\qty{-215}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\implies\\frac{\\Delta\nH}{N(H)}=\\qty{-107,5}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]} Logo, a razão pedida é dada por:\n{\\[r=\\frac{\\qty{-285}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}}{\\qty{-107,5}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}}\\approx 2,65\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -1808,6 +1836,14 @@
             "name": "entalpia de ligação do \\ce{H2}",
             "symbol": "\\Delta H_\\mathrm{L}(\\ce{H2})",
             "value": 436,
+            "unit": "kJ//mol",
+            "prec": 3
+          },
+          {
+            "id_": "HL(O-H)",
+            "name": "entalpia de ligação do \\ce{O-H}",
+            "symbol": "\\Delta H_\\mathrm{L}(\\ce{O-H})",
+            "value": 463,
             "unit": "kJ//mol",
             "prec": 3
           },
@@ -1853,13 +1889,17 @@
     {
       "id_": "1E11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E11/1E11.md",
-      "date": "2023-04-11T01:17:49.670112",
+      "date": "2023-05-25T17:01:50.179121",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{HCN}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CN}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{HCN}$, $\\ce{CH2NH}$, $\\ce{CH3NH2}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CN}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{HCN}\\)}, {\\(\\ce{CH2NH}\\)}, {\\(\\ce{CH3NH2}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CN}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{HCN}\\)</span> : A molécula possui\numa estrutura com o nitrogênio ligado ao carbono por ligação tripla de\nmodo que a ordem da ligação entre o carbono e o nitrogênio seja igual a\n3.</li>\n<li><span class=\"math inline\">\\(\\ce{CH2NH}\\)</span> : A molécula possui\numa estrutura com o nitrogênio ligado ao carbono por ligação dupla de\nmodo que a ordem da ligação entre o carbono e o nitrogênio seja igual a\n2.</li>\n<li><span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span> : A molécula possui\numa estrutura com o nitrogênio ligado ao carbono por ligação simples de\nmodo que a ordem da ligação entre o carbono e o nitrogênio seja igual a\n1.</li>\n</ul>\n<p>Cl (<span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{CH2NH}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{HCN}\\)</span>)</p>",
+        "md": "-   $\\ce{HCN}$ : A molécula possui uma estrutura com o nitrogênio ligado\n    ao carbono por ligação tripla de modo que a ordem da ligação entre o\n    carbono e o nitrogênio seja igual a 3.\n-   $\\ce{CH2NH}$ : A molécula possui uma estrutura com o nitrogênio\n    ligado ao carbono por ligação dupla de modo que a ordem da ligação\n    entre o carbono e o nitrogênio seja igual a 2.\n-   $\\ce{CH3NH2}$ : A molécula possui uma estrutura com o nitrogênio\n    ligado ao carbono por ligação simples de modo que a ordem da ligação\n    entre o carbono e o nitrogênio seja igual a 1.\n\nCl ($\\ce{CH3NH2}$) &gt; Cl ($\\ce{CH2NH}$) &gt; Cl ($\\ce{HCN}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{HCN}\\)} : A molécula possui uma estrutura com o nitrogênio ligado ao carbono por ligação tripla de modo que a ordem da ligação entre o\n  carbono e o nitrogênio seja igual a 3.\n\\item\n  {\\(\\ce{CH2NH}\\)} : A molécula possui uma estrutura com o nitrogênio ligado ao carbono por ligação dupla de modo que a ordem da ligação entre o\n  carbono e o nitrogênio seja igual a 2.\n\\item\n  {\\(\\ce{CH3NH2}\\)} : A molécula possui uma estrutura com o nitrogênio ligado ao carbono por ligação simples de modo que a ordem da ligação entre o\n  carbono e o nitrogênio seja igual a 1.\n\\end{itemize}\n\nCl ({\\(\\ce{CH3NH2}\\)}) \\textgreater{} Cl ({\\(\\ce{CH2NH}\\)}) \\textgreater{} Cl ({\\(\\ce{HCN}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -1894,13 +1934,17 @@
     {
       "id_": "1E05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E05/1E05.md",
-      "date": "2023-04-11T01:03:48.333651",
+      "date": "2023-05-25T16:59:40.993353",
       "statement": {
         "html": "<p>Considere os cátions: <span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>,\n<span class=\"math inline\">\\(\\ce{K^+}\\)</span>, <span class=\"math inline\">\\(\\ce{Be^{2+}}\\)</span>, <span class=\"math inline\">\\(\\ce{Sr^{2+}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os cátions em\nordem <em>crescente</em> de capacidade de polarização.</p>",
         "md": "Considere os cátions: $\\ce{Rb^+}$, $\\ce{K^+}$, $\\ce{Be^{2+}}$,\n$\\ce{Sr^{2+}}$.\n\n**Assinale** a alternativa que relaciona os cátions em ordem *crescente*\nde capacidade de polarização.\n",
         "tex": "Considere os cátions: {\\(\\ce{Rb^+}\\)}, {\\(\\ce{K^+}\\)}, {\\(\\ce{Be^{2+}}\\)}, {\\(\\ce{Sr^{2+}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os cátions em ordem \\emph{crescente} de capacidade de polarização.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A capacidade de polarização diz respeito a capacidade de polarizar\numa nuvem eletrônica de modo a formar um polo negativo para interagir\ncom o núcleo positivo do elemento. Daí, quanto menor o elemento, isto é,\nquanto menor a interferência gerada pela repulsão de sua nuvem\neletrônica maior será sua capacidade de polarização, assim como quanto\nmaior sua carga, maior sua capacidade de polarização, tendo a carga um\nefeito, em geral, mais relevante que o tamanho.</p>\n<p>CP (<span class=\"math inline\">\\(\\ce{Rb^+}\\)</span>) &lt; CP (<span class=\"math inline\">\\(\\ce{K^+}\\)</span>) &lt; CP (<span class=\"math inline\">\\(\\ce{Sr^2+}\\)</span>) &lt; CP (<span class=\"math inline\">\\(\\ce{Be^2+}\\)</span>)</p>",
+        "md": "A capacidade de polarização diz respeito a capacidade de polarizar uma\nnuvem eletrônica de modo a formar um polo negativo para interagir com o\nnúcleo positivo do elemento. Daí, quanto menor o elemento, isto é,\nquanto menor a interferência gerada pela repulsão de sua nuvem\neletrônica maior será sua capacidade de polarização, assim como quanto\nmaior sua carga, maior sua capacidade de polarização, tendo a carga um\nefeito, em geral, mais relevante que o tamanho.\n\nCP ($\\ce{Rb^+}$) &lt; CP ($\\ce{K^+}$) &lt; CP ($\\ce{Sr^2+}$) &lt; CP\n($\\ce{Be^2+}$)\n",
+        "tex": "A capacidade de polarização diz respeito a capacidade de polarizar uma nuvem eletrônica de modo a formar um polo negativo para interagir com o núcleo\npositivo do elemento. Daí, quanto menor o elemento, isto é, quanto menor a interferência gerada pela repulsão de sua nuvem eletrônica maior será sua\ncapacidade de polarização, assim como quanto maior sua carga, maior sua capacidade de polarização, tendo a carga um efeito, em geral, mais relevante\nque o tamanho.\n\nCP ({\\(\\ce{Rb^+}\\)}) \\textless{} CP ({\\(\\ce{K^+}\\)}) \\textless{} CP ({\\(\\ce{Sr^2+}\\)}) \\textless{} CP ({\\(\\ce{Be^2+}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -1935,13 +1979,17 @@
     {
       "id_": "1E09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E09/1E09.md",
-      "date": "2023-04-11T01:13:07.700462",
+      "date": "2023-05-25T17:00:40.064332",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CO}\\)</span>,\n<span class=\"math inline\">\\(\\ce{CO2}\\)</span>, <span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CO}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{CO}$, $\\ce{CO2}$, $\\ce{CO3^{2-}}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CO}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{CO}\\)}, {\\(\\ce{CO2}\\)}, {\\(\\ce{CO3^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CO}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{CO}\\)</span> : Montando os orbitais\nmoleculares, obtêm-se que a ordem da ligação entre o carbono e o\noxigênio na molécula é igual 3.</li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span> : A molécula possui\numa estrutura com os dois oxigênios ligados ao carbono por ligação dupla\nde modo que a ordem das ligações entre o carbono e os oxigênios seja\nigual a 2.</li>\n<li><span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span> : A molécula\npossui uma estrutura com dois oxigênios ligados ao carbono por ligação\nsimples e um oxigênio ligado ao carbono por ligação dupla de modo que\npor efeito de ressonância a ligação <span class=\"math inline\">\\(\\pi\\)</span> se “divide” entre os três átomos de\noxigênio de modo que a ordem das ligações entre o carbono e os oxigênios\nseja igual a 4/3.</li>\n</ul>\n<p>Cl (<span class=\"math inline\">\\(\\ce{CO3^{2-}}\\)</span>) &gt; Cl\n(<span class=\"math inline\">\\(\\ce{CO2}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{CO}\\)</span>)</p>",
+        "md": "-   $\\ce{CO}$ : Montando os orbitais moleculares, obtêm-se que a ordem\n    da ligação entre o carbono e o oxigênio na molécula é igual 3.\n-   $\\ce{CO2}$ : A molécula possui uma estrutura com os dois oxigênios\n    ligados ao carbono por ligação dupla de modo que a ordem das\n    ligações entre o carbono e os oxigênios seja igual a 2.\n-   $\\ce{CO3^{2-}}$ : A molécula possui uma estrutura com dois oxigênios\n    ligados ao carbono por ligação simples e um oxigênio ligado ao\n    carbono por ligação dupla de modo que por efeito de ressonância a\n    ligação $\\pi$ se \"divide\" entre os três átomos de oxigênio de modo\n    que a ordem das ligações entre o carbono e os oxigênios seja igual a\n    4/3.\n\nCl ($\\ce{CO3^{2-}}$) &gt; Cl ($\\ce{CO2}$) &gt; Cl ($\\ce{CO}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{CO}\\)} : Montando os orbitais moleculares, obtêm-se que a ordem da ligação entre o carbono e o oxigênio na molécula é igual 3.\n\\item\n  {\\(\\ce{CO2}\\)} : A molécula possui uma estrutura com os dois oxigênios ligados ao carbono por ligação dupla de modo que a ordem das ligações entre o\n  carbono e os oxigênios seja igual a 2.\n\\item\n  {\\(\\ce{CO3^{2-}}\\)} : A molécula possui uma estrutura com dois oxigênios ligados ao carbono por ligação simples e um oxigênio ligado ao carbono por\n  ligação dupla de modo que por efeito de ressonância a ligação {\\(\\pi\\)} se ``divide'' entre os três átomos de oxigênio de modo que a ordem das\n  ligações entre o carbono e os oxigênios seja igual a 4/3.\n\\end{itemize}\n\nCl ({\\(\\ce{CO3^{2-}}\\)}) \\textgreater{} Cl ({\\(\\ce{CO2}\\)}) \\textgreater{} Cl ({\\(\\ce{CO}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -1976,13 +2024,17 @@
     {
       "id_": "1E04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E04/1E04.md",
-      "date": "2023-04-11T00:58:07.118851",
+      "date": "2023-05-25T16:59:31.005525",
       "statement": {
         "html": "<p>Considere os pares de compostos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HCl}\\)</span> e <span class=\"math inline\">\\(\\ce{HI}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CH4}\\)</span> e <span class=\"math inline\">\\(\\ce{CF4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{PH3}\\)</span> e <span class=\"math inline\">\\(\\ce{NH3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{SO2}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem o <em>maior</em> caráter iônico.</p>",
         "md": "Considere os pares de compostos:\n\n1.  $\\ce{HCl}$ e $\\ce{HI}$\n2.  $\\ce{CH4}$ e $\\ce{CF4}$\n3.  $\\ce{PH3}$ e $\\ce{NH3}$\n4.  $\\ce{SO2}$ e $\\ce{NO2}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem o *maior* caráter iônico.\n",
         "tex": "Considere os pares de compostos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HCl}\\)} e {\\(\\ce{HI}\\)}\n\\item\n  {\\(\\ce{CH4}\\)} e {\\(\\ce{CF4}\\)}\n\\item\n  {\\(\\ce{PH3}\\)} e {\\(\\ce{NH3}\\)}\n\\item\n  {\\(\\ce{SO2}\\)} e {\\(\\ce{NO2}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem o \\emph{maior} caráter iônico.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>O cloro é mais eletronegativo que o iodo de modo que a diferença\nentre a eletronegatividade dos elementos é mais acentuada no <span class=\"math inline\">\\(\\ce{HCl}\\)</span>.</li>\n<li>O flúor é mais eletronegativo que o hidrogênio de modo que a\ndiferença entre a eletronegatividade dos elementos é mais acentuada no\n<span class=\"math inline\">\\(\\ce{CF4}\\)</span>.</li>\n<li>O nitrogênio é mais eletronegativo que o fósforo de modo que a\ndiferença entre a eletronegatividade dos elementos é mais acentuada no\n<span class=\"math inline\">\\(\\ce{NH3}\\)</span>.</li>\n<li>O nitrogênio é mais eletronegativo que o enxofre de modo que a\ndiferença entre a eletronegatividade dos elementos é mais acentuada no\n<span class=\"math inline\">\\(\\ce{SO2}\\)</span>.</li>\n</ol>",
+        "md": "1.  O cloro é mais eletronegativo que o iodo de modo que a diferença\n    entre a eletronegatividade dos elementos é mais acentuada no\n    $\\ce{HCl}$.\n2.  O flúor é mais eletronegativo que o hidrogênio de modo que a\n    diferença entre a eletronegatividade dos elementos é mais acentuada\n    no $\\ce{CF4}$.\n3.  O nitrogênio é mais eletronegativo que o fósforo de modo que a\n    diferença entre a eletronegatividade dos elementos é mais acentuada\n    no $\\ce{NH3}$.\n4.  O nitrogênio é mais eletronegativo que o enxofre de modo que a\n    diferença entre a eletronegatividade dos elementos é mais acentuada\n    no $\\ce{SO2}$.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  O cloro é mais eletronegativo que o iodo de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no {\\(\\ce{HCl}\\)}.\n\\item\n  O flúor é mais eletronegativo que o hidrogênio de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no {\\(\\ce{CF4}\\)}.\n\\item\n  O nitrogênio é mais eletronegativo que o fósforo de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no\n  {\\(\\ce{NH3}\\)}.\n\\item\n  O nitrogênio é mais eletronegativo que o enxofre de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no\n  {\\(\\ce{SO2}\\)}.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2017,13 +2069,17 @@
     {
       "id_": "1E19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E19/1E19.md",
-      "date": "2023-04-11T15:37:03.985693",
+      "date": "2023-05-25T18:08:31.053613",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de sublimação do lítio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de\nsublimação do lítio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de sublimação do lítio.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta H\\degree_f(\\ce{LiI_{(s)}})=\\Delta\nH\\degree_{sub}(\\ce{Li})+\\Delta H\\degree_{ion}(\\ce{Li})+\\frac{1}{2}\\Delta\nH_{L}(\\ce{I2})+\\Delta H\\degree_{ge}(\\ce{I})+\\Delta\nH\\degree_{rede}(\\ce{LiI})\\]</span> <span class=\"math display\">\\[\\pu{-292\nkJ//mol}=\\Delta H\\degree_{sub}(\\ce{Li})+\\pu{520 kJ//mol}+\\pu{75,5\nkJ//mol}+(\\pu{-295 kJ//mol})+(\\pu{-753 kJ//mol})\\]</span> <span class=\"math display\">\\[\\Delta H\\degree_{sub}(\\ce{Li})=\\pu{160,5\nkJ//mol}\\]</span></p>",
+        "md": "$$\\Delta H\\degree_f(\\ce{LiI_{(s)}})=\\Delta\nH\\degree_{sub}(\\ce{Li})+\\Delta H\\degree_{ion}(\\ce{Li})+\\frac{1}{2}\\Delta\nH_{L}(\\ce{I2})+\\Delta H\\degree_{ge}(\\ce{I})+\\Delta\nH\\degree_{rede}(\\ce{LiI})$$ $$\\pu{-292\nkJ//mol}=\\Delta H\\degree_{sub}(\\ce{Li})+\\pu{520 kJ//mol}+\\pu{75,5\nkJ//mol}+(\\pu{-295 kJ//mol})+(\\pu{-753 kJ//mol})$$\n$$\\Delta H\\degree_{sub}(\\ce{Li})=\\pu{160,5\nkJ//mol}$$\n",
+        "tex": "{\\[\\Delta H\\degree_f(\\ce{LiI_{(s)}})=\\Delta\nH\\degree_{sub}(\\ce{Li})+\\Delta H\\degree_{ion}(\\ce{Li})+\\frac{1}{2}\\Delta\nH_{L}(\\ce{I2})+\\Delta H\\degree_{ge}(\\ce{I})+\\Delta\nH\\degree_{rede}(\\ce{LiI})\\]}\n{\\[\\qty{-292}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}=\\Delta H\\degree_{sub}(\\ce{Li})+\\qty{520}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{75,5}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+(\\qty{-295}{\\tfrac{\\unit{kJ}}{\\unit{mol}}})+(\\qty{-753}{\\tfrac{\\unit{kJ}}{\\unit{mol}}})\\]}\n{\\[\\Delta H\\degree_{sub}(\\ce{Li})=\\qty{160,5}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -2101,13 +2157,17 @@
     {
       "id_": "1E13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E13/1E13.md",
-      "date": "2023-04-11T01:21:11.224794",
+      "date": "2023-05-25T18:05:37.325970",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{C2H2}\\)</span>, <span class=\"math inline\">\\(\\ce{C2H4}\\)</span>, <span class=\"math inline\">\\(\\ce{C2H6}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CC}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{C2H2}$, $\\ce{C2H4}$, $\\ce{C2H6}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CC}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{C2H2}\\)}, {\\(\\ce{C2H4}\\)}, {\\(\\ce{C2H6}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CC}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{C2H2}\\)</span> : A molécula possui\numa estrutura com os carbonos ligados entre si por ligação tripla de\nmodo que a ordem de entre os átomos de carbono seja igual a 3.</li>\n<li><span class=\"math inline\">\\(\\ce{C2H4}\\)</span> : A molécula possui\numa estrutura com os carbonos ligados entre si por ligação dupla de modo\nque a ordem de entre os átomos de carbono seja igual a 2.</li>\n<li><span class=\"math inline\">\\(\\ce{C2H6}\\)</span> : A molécula possui\numa estrutura com os carbonos ligados entre si por ligação simples de\nmodo que a ordem de entre os átomos de carbono seja igual a 1.</li>\n</ul>\n<p>Cl (<span class=\"math inline\">\\(\\ce{C2H6}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{C2H4}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{C2H2}\\)</span>)</p>",
+        "md": "-   $\\ce{C2H2}$ : A molécula possui uma estrutura com os carbonos\n    ligados entre si por ligação tripla de modo que a ordem de entre os\n    átomos de carbono seja igual a 3.\n-   $\\ce{C2H4}$ : A molécula possui uma estrutura com os carbonos\n    ligados entre si por ligação dupla de modo que a ordem de entre os\n    átomos de carbono seja igual a 2.\n-   $\\ce{C2H6}$ : A molécula possui uma estrutura com os carbonos\n    ligados entre si por ligação simples de modo que a ordem de entre os\n    átomos de carbono seja igual a 1.\n\nCl ($\\ce{C2H6}$) &gt; Cl ($\\ce{C2H4}$) &gt; Cl ($\\ce{C2H2}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{C2H2}\\)} : A molécula possui uma estrutura com os carbonos ligados entre si por ligação tripla de modo que a ordem de entre os átomos de\n  carbono seja igual a 3.\n\\item\n  {\\(\\ce{C2H4}\\)} : A molécula possui uma estrutura com os carbonos ligados entre si por ligação dupla de modo que a ordem de entre os átomos de\n  carbono seja igual a 2.\n\\item\n  {\\(\\ce{C2H6}\\)} : A molécula possui uma estrutura com os carbonos ligados entre si por ligação simples de modo que a ordem de entre os átomos de\n  carbono seja igual a 1.\n\\end{itemize}\n\nCl ({\\(\\ce{C2H6}\\)}) \\textgreater{} Cl ({\\(\\ce{C2H4}\\)}) \\textgreater{} Cl ({\\(\\ce{C2H2}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2142,30 +2202,29 @@
     {
       "id_": "1E10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E10/1E10.md",
-      "date": "2023-04-11T01:17:02.143580",
+      "date": "2023-05-25T18:05:47.253949",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{SO3}\\)</span>, <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{SO}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{SO3}$, $\\ce{SO3^{2-}}$, $\\ce{SO4^{2-}}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{SO}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{SO3}\\)}, {\\(\\ce{SO3^{2-}}\\)}, {\\(\\ce{SO4^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{SO}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{SO3}\\)</span> : A molécula possui\numa estrutura com os três oxigênios ligados ao enxofre por ligação dupla\nde modo que a ordem das ligações entre o enxofre e os oxigênios seja\nigual a 2.</li>\n<li><span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span> : A molécula\npossui uma estrutura com dois oxigênios ligados ao enxofre por ligação\nsimples e um oxigênio ligado ao enxofre por ligação dupla de modo que\npor efeito de ressonância a ligação <span class=\"math inline\">\\(\\pi\\)</span> se “divide” entre os três átomos de\noxigênio de modo que a ordem das ligações entre o enxofre e os oxigênios\nseja igual a 4/3.</li>\n<li><span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span> : A molécula\npossui uma estrutura com dois oxigênios ligados ao enxofre por ligação\nsimples e dois oxigênios ligados ao enxofre por ligação dupla de modo\nque por efeito de ressonância as ligações <span class=\"math inline\">\\(\\pi\\)</span> se “dividem” entre os quatro átomos\nde oxigênio de modo que a ordem das ligações entre o enxofre e os\noxigênios seja igual a 3/2.</li>\n</ul>\n<p>Cl (<span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>) &gt; Cl\n(<span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{SO3}\\)</span>)</p>",
+        "md": "-   $\\ce{SO3}$ : A molécula possui uma estrutura com os três oxigênios\n    ligados ao enxofre por ligação dupla de modo que a ordem das\n    ligações entre o enxofre e os oxigênios seja igual a 2.\n-   $\\ce{SO3^{2-}}$ : A molécula possui uma estrutura com dois oxigênios\n    ligados ao enxofre por ligação simples e um oxigênio ligado ao\n    enxofre por ligação dupla de modo que por efeito de ressonância a\n    ligação $\\pi$ se \"divide\" entre os três átomos de oxigênio de modo\n    que a ordem das ligações entre o enxofre e os oxigênios seja igual a\n    4/3.\n-   $\\ce{SO4^{2-}}$ : A molécula possui uma estrutura com dois oxigênios\n    ligados ao enxofre por ligação simples e dois oxigênios ligados ao\n    enxofre por ligação dupla de modo que por efeito de ressonância as\n    ligações $\\pi$ se \"dividem\" entre os quatro átomos de oxigênio de\n    modo que a ordem das ligações entre o enxofre e os oxigênios seja\n    igual a 3/2.\n\nCl ($\\ce{SO4^{2-}}$) &gt; Cl ($\\ce{SO3^{2-}}$) &gt; Cl ($\\ce{SO3}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{SO3}\\)} : A molécula possui uma estrutura com os três oxigênios ligados ao enxofre por ligação dupla de modo que a ordem das ligações entre o\n  enxofre e os oxigênios seja igual a 2.\n\\item\n  {\\(\\ce{SO3^{2-}}\\)} : A molécula possui uma estrutura com dois oxigênios ligados ao enxofre por ligação simples e um oxigênio ligado ao enxofre por\n  ligação dupla de modo que por efeito de ressonância a ligação {\\(\\pi\\)} se ``divide'' entre os três átomos de oxigênio de modo que a ordem das\n  ligações entre o enxofre e os oxigênios seja igual a 4/3.\n\\item\n  {\\(\\ce{SO4^{2-}}\\)} : A molécula possui uma estrutura com dois oxigênios ligados ao enxofre por ligação simples e dois oxigênios ligados ao enxofre\n  por ligação dupla de modo que por efeito de ressonância as ligações {\\(\\pi\\)} se ``dividem'' entre os quatro átomos de oxigênio de modo que a ordem\n  das ligações entre o enxofre e os oxigênios seja igual a 3/2.\n\\end{itemize}\n\nCl ({\\(\\ce{SO4^{2-}}\\)}) \\textgreater{} Cl ({\\(\\ce{SO3^{2-}}\\)}) \\textgreater{} Cl ({\\(\\ce{SO3}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>.",
-          "md": "$\\ce{SO3}$; $\\ce{SO3^{2-}}$; $\\ce{SO4^{2-}}$.\n",
-          "tex": "{\\(\\ce{SO3}\\)}; {\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO4^{2-}}\\)}.\n"
-        },
         {
           "html": "<span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>.",
           "md": "$\\ce{SO4^{2-}}$; $\\ce{SO3^{2-}}$; $\\ce{SO3}$.\n",
           "tex": "{\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO3}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>.",
-          "md": "$\\ce{SO3}$; $\\ce{SO4^{2-}}$; $\\ce{SO3^{2-}}$.\n",
-          "tex": "{\\(\\ce{SO3}\\)}; {\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3^{2-}}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>.",
+          "md": "$\\ce{SO3}$; $\\ce{SO3^{2-}}$; $\\ce{SO4^{2-}}$.\n",
+          "tex": "{\\(\\ce{SO3}\\)}; {\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO4^{2-}}\\)}.\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>.",
@@ -2173,9 +2232,14 @@
           "tex": "{\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3}\\)}; {\\(\\ce{SO3^{2-}}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>.",
-          "md": "$\\ce{SO3^{2-}}$; $\\ce{SO4^{2-}}$; $\\ce{SO3}$.\n",
-          "tex": "{\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>.",
+          "md": "$\\ce{SO3}$; $\\ce{SO4^{2-}}$; $\\ce{SO3^{2-}}$.\n",
+          "tex": "{\\(\\ce{SO3}\\)}; {\\(\\ce{SO4^{2-}}\\)}; {\\(\\ce{SO3^{2-}}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{SO3^{2-}}\\)</span>; <span class=\"math inline\">\\(\\ce{SO3}\\)</span>; <span class=\"math inline\">\\(\\ce{SO4^{2-}}\\)</span>.",
+          "md": "$\\ce{SO3^{2-}}$; $\\ce{SO3}$; $\\ce{SO4^{2-}}$.\n",
+          "tex": "{\\(\\ce{SO3^{2-}}\\)}; {\\(\\ce{SO3}\\)}; {\\(\\ce{SO4^{2-}}\\)}.\n"
         }
       ],
       "correct_choice": 0
@@ -2183,13 +2247,17 @@
     {
       "id_": "1E08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E08/1E08.md",
-      "date": "2023-04-11T01:55:42.199069",
+      "date": "2023-05-25T17:00:19.276691",
       "statement": {
         "html": "<p>Considere os ânions: <span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Se^{2-}}\\)</span>, <span class=\"math inline\">\\(\\ce{F^-}\\)</span>, <span class=\"math inline\">\\(\\ce{S^{2-}}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os ânion em\nordem <em>crescente</em> de polarizabilidade.</p>",
         "md": "Considere os ânions: $\\ce{Cl^-}$, $\\ce{Se^{2-}}$, $\\ce{F^-}$,\n$\\ce{S^{2-}}$.\n\n**Assinale** a alternativa que relaciona os ânion em ordem *crescente*\nde polarizabilidade.\n",
         "tex": "Considere os ânions: {\\(\\ce{Cl^-}\\)}, {\\(\\ce{Se^{2-}}\\)}, {\\(\\ce{F^-}\\)}, {\\(\\ce{S^{2-}}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os ânion em ordem \\emph{crescente} de polarizabilidade.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A polarizabilidade diz respeito a capacidade de um elemento de\npolarizar sua nuvem eletrônica de modo a formar um polo negativo. Daí,\nquanto maior o elemento, isto é, quanto maior a maleabilidade de sua\nnuvem, maior será sua polarizabilidade.</p>\n<p><span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{F^-}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{Cl^-}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{S^2-}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^-\\)</span> (<span class=\"math inline\">\\(\\ce{Se^2-}\\)</span>)</p>",
+        "md": "A polarizabilidade diz respeito a capacidade de um elemento de polarizar\nsua nuvem eletrônica de modo a formar um polo negativo. Daí, quanto\nmaior o elemento, isto é, quanto maior a maleabilidade de sua nuvem,\nmaior será sua polarizabilidade.\n\n$\\delta^-$ ($\\ce{F^-}$) &lt; $\\delta^-$ ($\\ce{Cl^-}$) &lt; $\\delta^-$\n($\\ce{S^2-}$) &lt; $\\delta^-$ ($\\ce{Se^2-}$)\n",
+        "tex": "A polarizabilidade diz respeito a capacidade de um elemento de polarizar sua nuvem eletrônica de modo a formar um polo negativo. Daí, quanto maior o\nelemento, isto é, quanto maior a maleabilidade de sua nuvem, maior será sua polarizabilidade.\n\n{\\(\\delta^-\\)} ({\\(\\ce{F^-}\\)}) \\textless{} {\\(\\delta^-\\)} ({\\(\\ce{Cl^-}\\)}) \\textless{} {\\(\\delta^-\\)} ({\\(\\ce{S^2-}\\)}) \\textless{} {\\(\\delta^-\\)}\n({\\(\\ce{Se^2-}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2224,13 +2292,17 @@
     {
       "id_": "1E02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E02/1E02.md",
-      "date": "2023-04-11T00:59:34.999857",
+      "date": "2023-05-25T16:58:41.326385",
       "statement": {
         "html": "<p>Considere os elementos: <span class=\"math inline\">\\(\\ce{I}\\)</span>,\n<span class=\"math inline\">\\(\\ce{S}\\)</span>, <span class=\"math inline\">\\(\\ce{Br}\\)</span>, <span class=\"math inline\">\\(\\ce{O}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de eletronegatividade.</p>",
         "md": "Considere os elementos: $\\ce{I}$, $\\ce{S}$, $\\ce{Br}$, $\\ce{O}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de eletronegatividade.\n",
         "tex": "Considere os elementos: {\\(\\ce{I}\\)}, {\\(\\ce{S}\\)}, {\\(\\ce{Br}\\)}, {\\(\\ce{O}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de eletronegatividade.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Para os elementos de mesma família (<span class=\"math inline\">\\(\\ce{Br}\\)</span> e <span class=\"math inline\">\\(\\ce{I}\\)</span>, <span class=\"math inline\">\\(\\ce{O}\\)</span> e <span class=\"math inline\">\\(\\ce{S}\\)</span>) o efeito do aumento do raio é\nmais relevante que o efeito do aumento de carga de modo que os átomos\nmais acima na tabela periódica possuem maior eletronegatividade. Na\ncomparação entre enxofre e iodo, o aumento no raio do iodo é compensado\npelo aumento de sua carga. Já na comparação entre oxigênio e bromo, o\naumento no raio não é compensado pelo aumento de carga.</p>\n<p><span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{S}\\)</span>) &lt; <span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{I}\\)</span>) &lt; <span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{Br}\\)</span>) &lt; <span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{O}\\)</span>)</p>",
+        "md": "Para os elementos de mesma família ($\\ce{Br}$ e $\\ce{I}$, $\\ce{O}$ e\n$\\ce{S}$) o efeito do aumento do raio é mais relevante que o efeito do\naumento de carga de modo que os átomos mais acima na tabela periódica\npossuem maior eletronegatividade. Na comparação entre enxofre e iodo, o\naumento no raio do iodo é compensado pelo aumento de sua carga. Já na\ncomparação entre oxigênio e bromo, o aumento no raio não é compensado\npelo aumento de carga.\n\n$\\chi$ ($\\ce{S}$) &lt; $\\chi$ ($\\ce{I}$) &lt; $\\chi$ ($\\ce{Br}$) &lt;\n$\\chi$ ($\\ce{O}$)\n",
+        "tex": "Para os elementos de mesma família ({\\(\\ce{Br}\\)} e {\\(\\ce{I}\\)}, {\\(\\ce{O}\\)} e {\\(\\ce{S}\\)}) o efeito do aumento do raio é mais relevante que o\nefeito do aumento de carga de modo que os átomos mais acima na tabela periódica possuem maior eletronegatividade. Na comparação entre enxofre e iodo,\no aumento no raio do iodo é compensado pelo aumento de sua carga. Já na comparação entre oxigênio e bromo, o aumento no raio não é compensado pelo\naumento de carga.\n\n{\\(\\chi\\)} ({\\(\\ce{S}\\)}) \\textless{} {\\(\\chi\\)} ({\\(\\ce{I}\\)}) \\textless{} {\\(\\chi\\)} ({\\(\\ce{Br}\\)}) \\textless{} {\\(\\chi\\)} ({\\(\\ce{O}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2265,13 +2337,17 @@
     {
       "id_": "1E01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E01/1E01.md",
-      "date": "2023-04-11T00:58:57.351428",
+      "date": "2023-05-25T18:09:55.405440",
       "statement": {
         "html": "<p>Considere os elementos: <span class=\"math inline\">\\(\\ce{Sb}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Sb}\\)</span>, <span class=\"math inline\">\\(\\ce{Se}\\)</span>, <span class=\"math inline\">\\(\\ce{In}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de eletronegatividade.</p>",
         "md": "Considere os elementos: $\\ce{Sb}$, $\\ce{Sb}$, $\\ce{Se}$, $\\ce{In}$.\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de eletronegatividade.\n",
         "tex": "Considere os elementos: {\\(\\ce{Sb}\\)}, {\\(\\ce{Sb}\\)}, {\\(\\ce{Se}\\)}, {\\(\\ce{In}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de eletronegatividade.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Para os elementos do mesmo período (<span class=\"math inline\">\\(\\ce{In}\\)</span>, <span class=\"math inline\">\\(\\ce{Sn}\\)</span> e <span class=\"math inline\">\\(\\ce{Sb}\\)</span>) o efeito do aumento do raio é\nmuito menos relevante que o efeito do aumento de carga de modo que os\nátomos mais à direita na tabela periódica possuem maior\neletronegatividade. E para os elementos de períodos distintos o efeito\ndo aumento do raio é mais relevante que o efeito do aumento de carga de\nmodo que os átomos os mais acima na tabela tendem a ser mais\neletronegativos.</p>\n<p><span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{In}\\)</span>) &lt; <span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{Sn}\\)</span>) &lt; <span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{Sb}\\)</span>) &lt; <span class=\"math inline\">\\(\\chi\\)</span> (<span class=\"math inline\">\\(\\ce{Se}\\)</span>)</p>",
+        "md": "Para os elementos do mesmo período ($\\ce{In}$, $\\ce{Sn}$ e $\\ce{Sb}$) o\nefeito do aumento do raio é muito menos relevante que o efeito do\naumento de carga de modo que os átomos mais à direita na tabela\nperiódica possuem maior eletronegatividade. E para os elementos de\nperíodos distintos o efeito do aumento do raio é mais relevante que o\nefeito do aumento de carga de modo que os átomos os mais acima na tabela\ntendem a ser mais eletronegativos.\n\n$\\chi$ ($\\ce{In}$) &lt; $\\chi$ ($\\ce{Sn}$) &lt; $\\chi$ ($\\ce{Sb}$) &lt;\n$\\chi$ ($\\ce{Se}$)\n",
+        "tex": "Para os elementos do mesmo período ({\\(\\ce{In}\\)}, {\\(\\ce{Sn}\\)} e {\\(\\ce{Sb}\\)}) o efeito do aumento do raio é muito menos relevante que o efeito do\naumento de carga de modo que os átomos mais à direita na tabela periódica possuem maior eletronegatividade. E para os elementos de períodos distintos\no efeito do aumento do raio é mais relevante que o efeito do aumento de carga de modo que os átomos os mais acima na tabela tendem a ser mais\neletronegativos.\n\n{\\(\\chi\\)} ({\\(\\ce{In}\\)}) \\textless{} {\\(\\chi\\)} ({\\(\\ce{Sn}\\)}) \\textless{} {\\(\\chi\\)} ({\\(\\ce{Sb}\\)}) \\textless{} {\\(\\chi\\)} ({\\(\\ce{Se}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2306,13 +2382,17 @@
     {
       "id_": "1E21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E21/1E21.md",
-      "date": "2023-04-11T01:50:53.453671",
+      "date": "2023-05-25T18:08:50.817573",
       "statement": {
         "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ CCl3CHCl2(g) + 2 HF(g) -&gt; CCl3CHF2(g) + 2 HCl }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
         "md": "Considere a reação: $$\n    \\ce{ CCl3CHCl2(g) + 2 HF(g) -> CCl3CHF2(g) + 2 HCl }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
         "tex": "Considere a reação: {\\[\n    \\ce{ CCl3CHCl2(g) + 2 HF(g) -> CCl3CHF2(g) + 2 HCl }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta H=5\\Delta H_L(\\ce{C-Cl})+\\Delta\nH_L(\\ce{C-C})+\\Delta H_L(\\ce{C-H})+2\\Delta H_L(\\ce{HF})-(3\\Delta\nH_L(\\ce{C-Cl})+\\Delta H_L(\\ce{C-C})+\\Delta H_L(\\ce{C-H})+2\\Delta\nH_L(\\ce{C-F})+2\\Delta H_L(\\ce{HCl}))\\]</span> <span class=\"math display\">\\[\\Delta H=2\\cdot\\pu{338 kJ//mol}+2\\cdot\\pu{565\nkJ//mol}-2\\cdot\\pu{484 kJ//mol}-2\\cdot\\pu{431 kJ//mol}\\]</span> <span class=\"math display\">\\[\\Delta H=\\pu{-24 kJ//mol}\\]</span></p>",
+        "md": "$$\\Delta H=5\\Delta H_L(\\ce{C-Cl})+\\Delta\nH_L(\\ce{C-C})+\\Delta H_L(\\ce{C-H})+2\\Delta H_L(\\ce{HF})-(3\\Delta\nH_L(\\ce{C-Cl})+\\Delta H_L(\\ce{C-C})+\\Delta H_L(\\ce{C-H})+2\\Delta\nH_L(\\ce{C-F})+2\\Delta H_L(\\ce{HCl}))$$\n$$\\Delta H=2\\cdot\\pu{338 kJ//mol}+2\\cdot\\pu{565\nkJ//mol}-2\\cdot\\pu{484 kJ//mol}-2\\cdot\\pu{431 kJ//mol}$$\n$$\\Delta H=\\pu{-24 kJ//mol}$$\n",
+        "tex": "{\\[\\Delta H=5\\Delta H_L(\\ce{C-Cl})+\\Delta\nH_L(\\ce{C-C})+\\Delta H_L(\\ce{C-H})+2\\Delta H_L(\\ce{HF})-(3\\Delta\nH_L(\\ce{C-Cl})+\\Delta H_L(\\ce{C-C})+\\Delta H_L(\\ce{C-H})+2\\Delta\nH_L(\\ce{C-F})+2\\Delta H_L(\\ce{HCl}))\\]}\n{\\[\\Delta H=2\\cdot\\qty{338}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+2\\cdot\\qty{565}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-2\\cdot\\qty{484}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-2\\cdot\\qty{431}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n{\\[\\Delta H=\\qty{-24}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -2390,30 +2470,29 @@
     {
       "id_": "1E12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E12/1E12.md",
-      "date": "2023-04-11T01:17:56.633904",
+      "date": "2023-05-25T18:05:55.569932",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{NO}\\)</span>,\n<span class=\"math inline\">\\(\\ce{NO2}\\)</span>, <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{NO}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{NO}$, $\\ce{NO2}$, $\\ce{NO3^-}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{NO}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{NO}\\)}, {\\(\\ce{NO2}\\)}, {\\(\\ce{NO3^-}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{NO}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ul>\n<li><span class=\"math inline\">\\(\\ce{NO}\\)</span> : Montando os orbitais\nmoleculares, obtêm-se que a ordem da ligação entre o nitrogênio e o\noxigênio na molécula é igual 5/2.</li>\n<li><span class=\"math inline\">\\(\\ce{NO2}\\)</span> : A molécula possui é\nestabilizada por efeito de ressonância de modo que em duas das três\nestruturas há um oxigênio ligado ao nitrogênio por ligação simples e um\noxigênio ligado ao nitrogênio por ligação dupla e na terceira estrutura\nos dois oxigênio estão ligados ao nitrogênio por ligação dupla de modo\nque a ordem das ligações entre o nitrogênio e os oxigênios seja igual a\n5/3.</li>\n<li><span class=\"math inline\">\\(\\ce{NO3^-}\\)</span> : A molécula possui\numa estrutura com dois oxigênios ligados ao nitrogênio por ligação\nsimples e um oxigênio ligado ao nitrogênio por ligação dupla de modo que\npor efeito de ressonância a ligação <span class=\"math inline\">\\(\\pi\\)</span> se “divide” entre os três átomos de\noxigênio de modo que a ordem das ligações entre o nitrogênio e os\noxigênios seja igual a 4/3.</li>\n</ul>\n<p>Cl (<span class=\"math inline\">\\(\\ce{NO3^{-}}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{NO2}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{NO}\\)</span>)</p>",
+        "md": "-   $\\ce{NO}$ : Montando os orbitais moleculares, obtêm-se que a ordem\n    da ligação entre o nitrogênio e o oxigênio na molécula é igual 5/2.\n-   $\\ce{NO2}$ : A molécula possui é estabilizada por efeito de\n    ressonância de modo que em duas das três estruturas há um oxigênio\n    ligado ao nitrogênio por ligação simples e um oxigênio ligado ao\n    nitrogênio por ligação dupla e na terceira estrutura os dois\n    oxigênio estão ligados ao nitrogênio por ligação dupla de modo que a\n    ordem das ligações entre o nitrogênio e os oxigênios seja igual a\n    5/3.\n-   $\\ce{NO3^-}$ : A molécula possui uma estrutura com dois oxigênios\n    ligados ao nitrogênio por ligação simples e um oxigênio ligado ao\n    nitrogênio por ligação dupla de modo que por efeito de ressonância a\n    ligação $\\pi$ se \"divide\" entre os três átomos de oxigênio de modo\n    que a ordem das ligações entre o nitrogênio e os oxigênios seja\n    igual a 4/3.\n\nCl ($\\ce{NO3^{-}}$) &gt; Cl ($\\ce{NO2}$) &gt; Cl ($\\ce{NO}$)\n",
+        "tex": "\\begin{itemize}\n\\tightlist\n\\item\n  {\\(\\ce{NO}\\)} : Montando os orbitais moleculares, obtêm-se que a ordem da ligação entre o nitrogênio e o oxigênio na molécula é igual 5/2.\n\\item\n  {\\(\\ce{NO2}\\)} : A molécula possui é estabilizada por efeito de ressonância de modo que em duas das três estruturas há um oxigênio ligado ao\n  nitrogênio por ligação simples e um oxigênio ligado ao nitrogênio por ligação dupla e na terceira estrutura os dois oxigênio estão ligados ao\n  nitrogênio por ligação dupla de modo que a ordem das ligações entre o nitrogênio e os oxigênios seja igual a 5/3.\n\\item\n  {\\(\\ce{NO3^-}\\)} : A molécula possui uma estrutura com dois oxigênios ligados ao nitrogênio por ligação simples e um oxigênio ligado ao nitrogênio\n  por ligação dupla de modo que por efeito de ressonância a ligação {\\(\\pi\\)} se ``divide'' entre os três átomos de oxigênio de modo que a ordem das\n  ligações entre o nitrogênio e os oxigênios seja igual a 4/3.\n\\end{itemize}\n\nCl ({\\(\\ce{NO3^{-}}\\)}) \\textgreater{} Cl ({\\(\\ce{NO2}\\)}) \\textgreater{} Cl ({\\(\\ce{NO}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>.",
-          "md": "$\\ce{NO}$; $\\ce{NO2}$; $\\ce{NO3^-}$.\n",
-          "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{NO3^-}\\)}.\n"
-        },
         {
           "html": "<span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>.",
           "md": "$\\ce{NO3^-}$; $\\ce{NO2}$; $\\ce{NO}$.\n",
           "tex": "{\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{NO}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.",
-          "md": "$\\ce{NO3^-}$; $\\ce{NO}$; $\\ce{NO2}$.\n",
-          "tex": "{\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>.",
+          "md": "$\\ce{NO}$; $\\ce{NO2}$; $\\ce{NO3^-}$.\n",
+          "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}; {\\(\\ce{NO3^-}\\)}.\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.",
@@ -2421,9 +2500,14 @@
           "tex": "{\\(\\ce{NO}\\)}; {\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO2}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>.",
-          "md": "$\\ce{NO2}$; $\\ce{NO3^-}$; $\\ce{NO}$.\n",
-          "tex": "{\\(\\ce{NO2}\\)}; {\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO2}\\)</span>.",
+          "md": "$\\ce{NO3^-}$; $\\ce{NO}$; $\\ce{NO2}$.\n",
+          "tex": "{\\(\\ce{NO3^-}\\)}; {\\(\\ce{NO}\\)}; {\\(\\ce{NO2}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{NO2}\\)</span>; <span class=\"math inline\">\\(\\ce{NO}\\)</span>; <span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>.",
+          "md": "$\\ce{NO2}$; $\\ce{NO}$; $\\ce{NO3^-}$.\n",
+          "tex": "{\\(\\ce{NO2}\\)}; {\\(\\ce{NO}\\)}; {\\(\\ce{NO3^-}\\)}.\n"
         }
       ],
       "correct_choice": 0
@@ -2431,13 +2515,17 @@
     {
       "id_": "1E06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E06/1E06.md",
-      "date": "2023-04-11T01:03:42.386338",
+      "date": "2023-05-25T16:59:52.261158",
       "statement": {
         "html": "<p>Considere os cátions: <span class=\"math inline\">\\(\\ce{K^+}\\)</span>,\n<span class=\"math inline\">\\(\\ce{Mg^{2+}}\\)</span>, <span class=\"math inline\">\\(\\ce{Al^{3+}}\\)</span>, <span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona os cátions em\nordem <em>crescente</em> de capacidade de polarização.</p>",
         "md": "Considere os cátions: $\\ce{K^+}$, $\\ce{Mg^{2+}}$, $\\ce{Al^{3+}}$,\n$\\ce{Cs^+}$.\n\n**Assinale** a alternativa que relaciona os cátions em ordem *crescente*\nde capacidade de polarização.\n",
         "tex": "Considere os cátions: {\\(\\ce{K^+}\\)}, {\\(\\ce{Mg^{2+}}\\)}, {\\(\\ce{Al^{3+}}\\)}, {\\(\\ce{Cs^+}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona os cátions em ordem \\emph{crescente} de capacidade de polarização.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>A capacidade de polarização diz respeito a capacidade de polarizar\numa nuvem eletrônica de modo a formar um polo negativo para interagir\ncom o núcleo positivo do elemento. Daí, quanto menor o elemento, isto é,\nquanto menor a interferência gerada pela repulsão de sua nuvem\neletrônica maior será sua capacidade de polarização, assim como quanto\nmaior sua carga, maior sua capacidade de polarização, tendo a carga um\nefeito, em geral, mais relevante que o tamanho.</p>\n<p><span class=\"math inline\">\\(\\delta^+\\)</span> (<span class=\"math inline\">\\(\\ce{Cs^+}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^+\\)</span> (<span class=\"math inline\">\\(\\ce{K^+}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^+\\)</span> (<span class=\"math inline\">\\(\\ce{Mg^2+}\\)</span>) &lt; <span class=\"math inline\">\\(\\delta^+\\)</span> (<span class=\"math inline\">\\(\\ce{Al^3+}\\)</span>)</p>",
+        "md": "A capacidade de polarização diz respeito a capacidade de polarizar uma\nnuvem eletrônica de modo a formar um polo negativo para interagir com o\nnúcleo positivo do elemento. Daí, quanto menor o elemento, isto é,\nquanto menor a interferência gerada pela repulsão de sua nuvem\neletrônica maior será sua capacidade de polarização, assim como quanto\nmaior sua carga, maior sua capacidade de polarização, tendo a carga um\nefeito, em geral, mais relevante que o tamanho.\n\n$\\delta^+$ ($\\ce{Cs^+}$) &lt; $\\delta^+$ ($\\ce{K^+}$) &lt; $\\delta^+$\n($\\ce{Mg^2+}$) &lt; $\\delta^+$ ($\\ce{Al^3+}$)\n",
+        "tex": "A capacidade de polarização diz respeito a capacidade de polarizar uma nuvem eletrônica de modo a formar um polo negativo para interagir com o núcleo\npositivo do elemento. Daí, quanto menor o elemento, isto é, quanto menor a interferência gerada pela repulsão de sua nuvem eletrônica maior será sua\ncapacidade de polarização, assim como quanto maior sua carga, maior sua capacidade de polarização, tendo a carga um efeito, em geral, mais relevante\nque o tamanho.\n\n{\\(\\delta^+\\)} ({\\(\\ce{Cs^+}\\)}) \\textless{} {\\(\\delta^+\\)} ({\\(\\ce{K^+}\\)}) \\textless{} {\\(\\delta^+\\)} ({\\(\\ce{Mg^2+}\\)}) \\textless{} {\\(\\delta^+\\)}\n({\\(\\ce{Al^3+}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -2472,40 +2560,44 @@
     {
       "id_": "1E14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E14/1E14.md",
-      "date": "2023-04-11T01:22:01.779650",
+      "date": "2023-05-25T18:07:29.365740",
       "statement": {
         "html": "<p>Considere as moléculas: <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2O}\\)</span>, <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que relaciona as moléculas em\nordem <em>decrescente</em> de comprimento de ligação <span class=\"math inline\">\\(\\ce{CO}\\)</span>.</p>",
         "md": "Considere as moléculas: $\\ce{CH3OH}$, $\\ce{CH2O}$, $\\ce{CH3OCH3}$.\n\n**Assinale** a alternativa que relaciona as moléculas em ordem\n*decrescente* de comprimento de ligação $\\ce{CO}$.\n",
         "tex": "Considere as moléculas: {\\(\\ce{CH3OH}\\)}, {\\(\\ce{CH2O}\\)}, {\\(\\ce{CH3OCH3}\\)}.\n\n\\textbf{Assinale} a alternativa que relaciona as moléculas em ordem \\emph{decrescente} de comprimento de ligação {\\(\\ce{CO}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math inline\">\\(\\ce{CH3OH}\\)</span> : A molécula possui\numa estrutura com o oxigênio ligado ao carbono por ligação simples de\nmodo que a ordem da ligação entre o carbono e o oxigênio seja igual a 1.\n<span class=\"math inline\">\\(\\ce{CH2O}\\)</span> : A molécula possui uma\nestrutura com o oxigênio ligado ao carbono por ligação dupla de modo que\na ordem da ligação entre o carbono e o oxigênio seja igual a 2. <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span> : A molécula possui uma\nestrutura com o oxigênio ligado aos carbonos por ligação simples de modo\nque a ordem das ligações entre os carbono e o oxigênio seja igual a 1.\nAlém disso, há uma repulsão entre os hidrogênios de cada grupo metila de\nmodo a aumentar o comprimento das ligações <span class=\"math inline\">\\(\\ce{C-O}\\)</span>.</p>\n<p>Cl (<span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>) &gt; Cl (<span class=\"math inline\">\\(\\ce{CH2O}\\)</span>)</p>",
+        "md": "$\\ce{CH3OH}$ : A molécula possui uma estrutura com o oxigênio ligado ao\ncarbono por ligação simples de modo que a ordem da ligação entre o\ncarbono e o oxigênio seja igual a 1. $\\ce{CH2O}$ : A molécula possui uma\nestrutura com o oxigênio ligado ao carbono por ligação dupla de modo que\na ordem da ligação entre o carbono e o oxigênio seja igual a 2.\n$\\ce{CH3OCH3}$ : A molécula possui uma estrutura com o oxigênio ligado\naos carbonos por ligação simples de modo que a ordem das ligações entre\nos carbono e o oxigênio seja igual a 1. Além disso, há uma repulsão\nentre os hidrogênios de cada grupo metila de modo a aumentar o\ncomprimento das ligações $\\ce{C-O}$.\n\nCl ($\\ce{CH3OCH3}$) &gt; Cl ($\\ce{CH3OH}$) &gt; Cl ($\\ce{CH2O}$)\n",
+        "tex": "{\\(\\ce{CH3OH}\\)} : A molécula possui uma estrutura com o oxigênio ligado ao carbono por ligação simples de modo que a ordem da ligação entre o carbono\ne o oxigênio seja igual a 1. {\\(\\ce{CH2O}\\)} : A molécula possui uma estrutura com o oxigênio ligado ao carbono por ligação dupla de modo que a ordem\nda ligação entre o carbono e o oxigênio seja igual a 2. {\\(\\ce{CH3OCH3}\\)} : A molécula possui uma estrutura com o oxigênio ligado aos carbonos por\nligação simples de modo que a ordem das ligações entre os carbono e o oxigênio seja igual a 1. Além disso, há uma repulsão entre os hidrogênios de\ncada grupo metila de modo a aumentar o comprimento das ligações {\\(\\ce{C-O}\\)}.\n\nCl ({\\(\\ce{CH3OCH3}\\)}) \\textgreater{} Cl ({\\(\\ce{CH3OH}\\)}) \\textgreater{} Cl ({\\(\\ce{CH2O}\\)})\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
-        {
-          "html": "<span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.",
-          "md": "$\\ce{H2CO}$; $\\ce{CH3OH}$; $\\ce{CH3OCH3}$.\n",
-          "tex": "{\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OH}\\)}; {\\(\\ce{CH3OCH3}\\)}.\n"
-        },
         {
           "html": "<span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>.",
           "md": "$\\ce{CH3OCH3}$; $\\ce{CH3OH}$; $\\ce{H2CO}$.\n",
           "tex": "{\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{CH3OH}\\)}; {\\(\\ce{H2CO}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.",
-          "md": "$\\ce{CH3OH}$; $\\ce{H2CO}$; $\\ce{CH3OCH3}$.\n",
-          "tex": "{\\(\\ce{CH3OH}\\)}; {\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OCH3}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>.",
+          "md": "$\\ce{H2CO}$; $\\ce{CH3OH}$; $\\ce{CH3OCH3}$.\n",
+          "tex": "{\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OH}\\)}; {\\(\\ce{CH3OCH3}\\)}.\n"
         },
         {
-          "html": "<span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>.",
-          "md": "$\\ce{CH3OCH3}$; $\\ce{H2CO}$; $\\ce{CH3OH}$.\n",
-          "tex": "{\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OH}\\)}.\n"
+          "html": "<span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>.",
+          "md": "$\\ce{CH3OH}$; $\\ce{CH3OCH3}$; $\\ce{H2CO}$.\n",
+          "tex": "{\\(\\ce{CH3OH}\\)}; {\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{H2CO}\\)}.\n"
         },
         {
           "html": "<span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>.",
           "md": "$\\ce{H2CO}$; $\\ce{CH3OCH3}$; $\\ce{CH3OH}$.\n",
           "tex": "{\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{CH3OH}\\)}.\n"
+        },
+        {
+          "html": "<span class=\"math inline\">\\(\\ce{CH3OCH3}\\)</span>; <span class=\"math inline\">\\(\\ce{H2CO}\\)</span>; <span class=\"math inline\">\\(\\ce{CH3OH}\\)</span>.",
+          "md": "$\\ce{CH3OCH3}$; $\\ce{H2CO}$; $\\ce{CH3OH}$.\n",
+          "tex": "{\\(\\ce{CH3OCH3}\\)}; {\\(\\ce{H2CO}\\)}; {\\(\\ce{CH3OH}\\)}.\n"
         }
       ],
       "correct_choice": 0
@@ -2513,13 +2605,17 @@
     {
       "id_": "1E22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E22/1E22.md",
-      "date": "2023-04-11T01:53:06.964378",
+      "date": "2023-05-25T18:08:59.525555",
       "statement": {
         "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ CH4(g) + 2 F2(g) -&gt; CH2F2(g) + 2 HF(g) }\n\\]</span></p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de reação.</p>",
         "md": "Considere a reação: $$\n    \\ce{ CH4(g) + 2 F2(g) -> CH2F2(g) + 2 HF(g) }\n$$\n\n**Assinale** a alternativa que mais se aproxima da entalpia de reação.\n",
         "tex": "Considere a reação: {\\[\n    \\ce{ CH4(g) + 2 F2(g) -> CH2F2(g) + 2 HF(g) }\n\\]}\n\n\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de reação.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta H=4\\Delta H_L(\\ce{C-H})+2\\Delta\nH_L(\\ce{F2})-(2\\Delta H_L(\\ce{C-H})+2\\Delta H_L(\\ce{C-F})+2\\Delta\nH_L(\\ce{HF}))\\]</span> <span class=\"math display\">\\[\\Delta\nH=2\\cdot\\pu{412 kJ//mol}+2\\cdot\\pu{158 kJ//mol}-2\\cdot\\pu{484\nkJ//mol}-2\\cdot\\pu{565 kJ//mol}\\]</span> <span class=\"math display\">\\[\\Delta H=\\pu{-958 kJ//mol}\\]</span></p>",
+        "md": "$$\\Delta H=4\\Delta H_L(\\ce{C-H})+2\\Delta\nH_L(\\ce{F2})-(2\\Delta H_L(\\ce{C-H})+2\\Delta H_L(\\ce{C-F})+2\\Delta\nH_L(\\ce{HF}))$$ $$\\Delta\nH=2\\cdot\\pu{412 kJ//mol}+2\\cdot\\pu{158 kJ//mol}-2\\cdot\\pu{484\nkJ//mol}-2\\cdot\\pu{565 kJ//mol}$$ $$\\Delta H=\\pu{-958 kJ//mol}$$\n",
+        "tex": "{\\[\\Delta H=4\\Delta H_L(\\ce{C-H})+2\\Delta\nH_L(\\ce{F2})-(2\\Delta H_L(\\ce{C-H})+2\\Delta H_L(\\ce{C-F})+2\\Delta\nH_L(\\ce{HF}))\\]} {\\[\\Delta\nH=2\\cdot\\qty{412}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+2\\cdot\\qty{158}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-2\\cdot\\qty{484}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}-2\\cdot\\qty{565}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n{\\[\\Delta H=\\qty{-958}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -2589,54 +2685,62 @@
     {
       "id_": "1E03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E03/1E03.md",
-      "date": "2023-04-17T20:19:48.974540",
+      "date": "2023-05-25T16:59:20.537706",
       "statement": {
         "html": "<p>Considere os pares de compostos:</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{P4O10}\\)</span> e <span class=\"math inline\">\\(\\ce{PCl3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CO2}\\)</span> e <span class=\"math inline\">\\(\\ce{NO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NaBr}\\)</span> e <span class=\"math inline\">\\(\\ce{MgBr2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{CaS}\\)</span> e <span class=\"math inline\">\\(\\ce{CaO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem o <em>maior</em> caráter iônico.</p>",
         "md": "Considere os pares de compostos:\n\n1.  $\\ce{P4O10}$ e $\\ce{PCl3}$\n2.  $\\ce{CO2}$ e $\\ce{NO2}$\n3.  $\\ce{NaBr}$ e $\\ce{MgBr2}$\n4.  $\\ce{CaS}$ e $\\ce{CaO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem o *maior* caráter iônico.\n",
         "tex": "Considere os pares de compostos:\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{P4O10}\\)} e {\\(\\ce{PCl3}\\)}\n\\item\n  {\\(\\ce{CO2}\\)} e {\\(\\ce{NO2}\\)}\n\\item\n  {\\(\\ce{NaBr}\\)} e {\\(\\ce{MgBr2}\\)}\n\\item\n  {\\(\\ce{CaS}\\)} e {\\(\\ce{CaO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem o \\emph{maior} caráter iônico.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>O oxigênio é mais eletronegativo que o cloro de modo que a diferença\nentre a eletronegatividade dos elementos é mais acentuada no <span class=\"math inline\">\\(\\ce{P4O10}\\)</span>.</li>\n<li>O nitrogênio é mais eletronegativo que o carbono de modo que a\ndiferença entre a eletronegatividade dos elementos é mais acentuada no\n<span class=\"math inline\">\\(\\ce{CO2}\\)</span>.</li>\n<li>O magnésio é mais eletronegativo que o sódio de modo que a diferença\nentre a eletronegatividade dos elementos é mais acentuada no <span class=\"math inline\">\\(\\ce{NaBr}\\)</span>.</li>\n<li>O oxigênio é mais eletronegativo que o enxofre de modo que a\ndiferença entre a eletronegatividade dos elementos é mais acentuada no\n<span class=\"math inline\">\\(\\ce{CaO}\\)</span>.</li>\n</ol>",
+        "md": "1.  O oxigênio é mais eletronegativo que o cloro de modo que a diferença\n    entre a eletronegatividade dos elementos é mais acentuada no\n    $\\ce{P4O10}$.\n2.  O nitrogênio é mais eletronegativo que o carbono de modo que a\n    diferença entre a eletronegatividade dos elementos é mais acentuada\n    no $\\ce{CO2}$.\n3.  O magnésio é mais eletronegativo que o sódio de modo que a diferença\n    entre a eletronegatividade dos elementos é mais acentuada no\n    $\\ce{NaBr}$.\n4.  O oxigênio é mais eletronegativo que o enxofre de modo que a\n    diferença entre a eletronegatividade dos elementos é mais acentuada\n    no $\\ce{CaO}$.\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  O oxigênio é mais eletronegativo que o cloro de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no {\\(\\ce{P4O10}\\)}.\n\\item\n  O nitrogênio é mais eletronegativo que o carbono de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no\n  {\\(\\ce{CO2}\\)}.\n\\item\n  O magnésio é mais eletronegativo que o sódio de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no {\\(\\ce{NaBr}\\)}.\n\\item\n  O oxigênio é mais eletronegativo que o enxofre de modo que a diferença entre a eletronegatividade dos elementos é mais acentuada no {\\(\\ce{CaO}\\)}.\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
-        {
-          "html": "1",
-          "md": "**1**",
-          "tex": "\\textbf{1}"
-        },
-        {
-          "html": "2",
-          "md": "**2**",
-          "tex": "\\textbf{2}"
-        },
         {
           "html": "1 e 2",
           "md": "**1** e **2**",
           "tex": "\\textbf{1} e \\textbf{2}"
         },
         {
-          "html": "1, 2 e 3",
-          "md": "**1**, **2** e **3**",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
+          "html": "1 e 4",
+          "md": "**1** e **4**",
+          "tex": "\\textbf{1} e \\textbf{4}"
+        },
+        {
+          "html": "2 e 4",
+          "md": "**2** e **4**",
+          "tex": "\\textbf{2} e \\textbf{4}"
         },
         {
           "html": "1, 2 e 4",
           "md": "**1**, **2** e **4**",
           "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+        },
+        {
+          "html": "1, 2, 3 e 4",
+          "md": "**1**, **2**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
-      "correct_choice": 2
+      "correct_choice": 3
     },
     {
       "id_": "1E17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q1/1E/1E17/1E17.md",
-      "date": "2023-04-11T15:32:24.991253",
+      "date": "2023-05-25T18:08:20.709635",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nentalpia de formação do cloreto de potássio.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima da entalpia de formação\ndo cloreto de potássio.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima da entalpia de formação do cloreto de potássio.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\Delta H\\degree_f(\\ce{KCl})=\\Delta\nH\\degree_{sub}(\\ce{K})+\\Delta H\\degree_{ion}(\\ce{K})+\\frac{1}{2}\\Delta\nH_{L}(\\ce{Cl2})+\\Delta H\\degree_{ge}(\\ce{Cl})+\\Delta\nH\\degree_{rede}(\\ce{KCl})\\]</span> <span class=\"math display\">\\[\\Delta\nH\\degree_f(\\ce{KCl})=\\pu{90 kJ//mol}+\\pu{419 kJ//mol}+\\pu{121\nkJ//mol}+(\\pu{-349 kJ//mol})+(\\pu{-690 kJ//mol})\\]</span> <span class=\"math display\">\\[\\Delta H\\degree_f(\\ce{KCl})=\\pu{-409\nkJ//mol}\\]</span></p>",
+        "md": "$$\\Delta H\\degree_f(\\ce{KCl})=\\Delta\nH\\degree_{sub}(\\ce{K})+\\Delta H\\degree_{ion}(\\ce{K})+\\frac{1}{2}\\Delta\nH_{L}(\\ce{Cl2})+\\Delta H\\degree_{ge}(\\ce{Cl})+\\Delta\nH\\degree_{rede}(\\ce{KCl})$$ $$\\Delta\nH\\degree_f(\\ce{KCl})=\\pu{90 kJ//mol}+\\pu{419 kJ//mol}+\\pu{121\nkJ//mol}+(\\pu{-349 kJ//mol})+(\\pu{-690 kJ//mol})$$\n$$\\Delta H\\degree_f(\\ce{KCl})=\\pu{-409\nkJ//mol}$$\n",
+        "tex": "{\\[\\Delta H\\degree_f(\\ce{KCl})=\\Delta\nH\\degree_{sub}(\\ce{K})+\\Delta H\\degree_{ion}(\\ce{K})+\\frac{1}{2}\\Delta\nH_{L}(\\ce{Cl2})+\\Delta H\\degree_{ge}(\\ce{Cl})+\\Delta\nH\\degree_{rede}(\\ce{KCl})\\]} {\\[\\Delta\nH\\degree_f(\\ce{KCl})=\\qty{90}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{419}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+\\qty{121}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}+(\\qty{-349}{\\tfrac{\\unit{kJ}}{\\unit{mol}}})+(\\qty{-690}{\\tfrac{\\unit{kJ}}{\\unit{mol}}})\\]}\n{\\[\\Delta H\\degree_f(\\ce{KCl})=\\qty{-409}{\\tfrac{\\unit{kJ}}{\\unit{mol}}}\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
