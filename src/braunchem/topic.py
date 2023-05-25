@@ -125,7 +125,7 @@ class Topic(BaseModel):
             id_=self.id_ + "_gabarito",
             path=self.path.parent,
             title="Gabarito: " + self.title,
-            author="Renan Romariz e Gabriel Braun",
+            author="Daniel Sahadi, Renan Romariz, e Gabriel Braun",
             affiliation=self.affiliation,
             template="braun, twocolumn=true",
             toc=False,
