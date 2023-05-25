@@ -24418,13 +24418,17 @@
     {
       "id_": "2G16",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G16/2G16.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:20:16.878508",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{b}\\)</span> do íon <span class=\"math inline\">\\(\\ce{IO3^-}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima do\n$\\mathrm{p}K_\\mathrm{b}$ do íon $\\ce{IO3^-}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {\\(\\mathrm{p}K_\\mathrm{b}\\)} do íon {\\(\\ce{IO3^-}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\ce{HIO3_{(aq)} + H2O_{(l)} &lt;=&gt;\nIO3^-_{(aq)} + H3O^+_{(aq)}}\\]</span> <span class=\"math display\">\\[K_a=\\frac{[\\ce{H3O^+}][\\ce{IO3^-}]}{[\\ce{HIO3}]}\\]</span>\n<span class=\"math display\">\\[\\ce{IO3^-_{(aq)} + H2O_{(l)} &lt;=&gt;\nHIO3_{(aq)} + OH^-_{(aq)}}\\]</span> <span class=\"math display\">\\[K_b=\\frac{[\\ce{OH^-}][\\ce{HIO3}]}{[\\ce{IO3^-}]}=\\frac{[\\ce{H3O^+}][\\ce{OH^-}]}{K_a}=\\frac{K_w}{K_a}\\implies\\]</span>\n<span class=\"math display\">\\[pK_b=pK_w-pK_a=14-0,77=13,23\\]</span></p>",
+        "md": "$$\\ce{HIO3_{(aq)} + H2O_{(l)} <=>\nIO3^-_{(aq)} + H3O^+_{(aq)}}$$\n$$K_a=\\frac{[\\ce{H3O^+}][\\ce{IO3^-}]}{[\\ce{HIO3}]}$$\n$$\\ce{IO3^-_{(aq)} + H2O_{(l)} <=>\nHIO3_{(aq)} + OH^-_{(aq)}}$$\n$$K_b=\\frac{[\\ce{OH^-}][\\ce{HIO3}]}{[\\ce{IO3^-}]}=\\frac{[\\ce{H3O^+}][\\ce{OH^-}]}{K_a}=\\frac{K_w}{K_a}\\implies$$\n$$pK_b=pK_w-pK_a=14-0,77=13,23$$\n",
+        "tex": "{\\[\\ce{HIO3_{(aq)} + H2O_{(l)} <=>\nIO3^-_{(aq)} + H3O^+_{(aq)}}\\]} {\\[K_a=\\frac{[\\ce{H3O^+}][\\ce{IO3^-}]}{[\\ce{HIO3}]}\\]} {\\[\\ce{IO3^-_{(aq)} + H2O_{(l)} <=>\nHIO3_{(aq)} + OH^-_{(aq)}}\\]} {\\[K_b=\\frac{[\\ce{OH^-}][\\ce{HIO3}]}{[\\ce{IO3^-}]}=\\frac{[\\ce{H3O^+}][\\ce{OH^-}]}{K_a}=\\frac{K_w}{K_a}\\implies\\]}\n{\\[pK_b=pK_w-pK_a=14-0,77=13,23\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24470,13 +24474,17 @@
     {
       "id_": "2G19",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G19/2G19.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:47:05.762516",
       "statement": {
         "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ HNO2(aq) + NH3(aq) &lt;=&gt; NH4^+(aq) + NO2^-(aq) }\n\\]</span> <strong>Assinale</strong> a alternativa que mais se aproxima\nda constante de equilíbrio dessa reação.</p>",
         "md": "Considere a reação: $$\n    \\ce{ HNO2(aq) + NH3(aq) <=> NH4^+(aq) + NO2^-(aq) }\n$$ **Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n",
         "tex": "Considere a reação: {\\[\n    \\ce{ HNO2(aq) + NH3(aq) <=> NH4^+(aq) + NO2^-(aq) }\n\\]} \\textbf{Assinale} a alternativa que mais se aproxima da constante de equilíbrio dessa reação.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[K_a(\\ce{HNO2})=\\frac{[\\ce{H3O^+}][NO2^-]}{[\\ce{HNO2}]}\\]</span>\n<span class=\"math display\">\\[K_b(\\ce{NH3})=\\frac{[\\ce{OH^-}][NH4^+]}{[\\ce{NH3}]}\\]</span>\n<span class=\"math display\">\\[K=\\frac{[\\ce{NO2^-}][NH4^+]}{[HNO2][\\ce{NH3}]}=\\pu{K_a\nK_b//K_w}=\\frac{4,3e-4 1,8e-5}{10^{-14}}=7,74\\cdot 10^5\\]</span></p>",
+        "md": "$$K_a(\\ce{HNO2})=\\frac{[\\ce{H3O^+}][NO2^-]}{[\\ce{HNO2}]}$$\n$$K_b(\\ce{NH3})=\\frac{[\\ce{OH^-}][NH4^+]}{[\\ce{NH3}]}$$\n$$K=\\frac{[\\ce{NO2^-}][NH4^+]}{[HNO2][\\ce{NH3}]}=\\pu{K_a\nK_b//K_w}=\\frac{4,3e-4 1,8e-5}{10^{-14}}=7,74\\cdot 10^5$$\n",
+        "tex": "{\\[K_a(\\ce{HNO2})=\\frac{[\\ce{H3O^+}][NO2^-]}{[\\ce{HNO2}]}\\]} {\\[K_b(\\ce{NH3})=\\frac{[\\ce{OH^-}][NH4^+]}{[\\ce{NH3}]}\\]}\n{\\[K=\\frac{[\\ce{NO2^-}][NH4^+]}{[HNO2][\\ce{NH3}]}=\\tfrac{\\unit{K_a\nK_b}}{\\unit{K_w}}=\\frac{4,3e-4 1,8e-5}{10^{-14}}=7,74\\cdot 10^5\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -24530,25 +24538,34 @@
     {
       "id_": "2G32",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G32/2G32.md",
-      "date": "2023-05-06T20:58:09.906436",
+      "date": "2023-05-25T16:51:52.905477",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G32-1D.svg\"/></li>\n<li><img src=\"2G32-2D.svg\"/></li>\n<li><img src=\"2G32-3D.svg\"/></li>\n<li><img src=\"2G32-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G32-1D.svg)\n2.  ![](2G32-2D.svg)\n3.  ![](2G32-3D.svg)\n4.  ![](2G32-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]}\n\\item\n  \\chemfig{-[1]-[-1]-[1](=[3,,,,fix]O)-[-1]-[1]-[-1]}\n\\item\n  \\chemfig{-[1]-[-1](-[-2]Cl)(-[-4]Cl)-[1](=[3,,,,fix]O)-[-1](-[-2]Cl)(-[-4]Cl)-[1]-[-1]}\n\\item\n  \\chemfig{-[1]-[-1](-[-2])(-[-4])-[1](=[3,,,,fix]O)-[-1](-[-2])(-[-4])-[1]-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>Na base conjugada há estabilização por ressonância o que aumenta a\nestabilidade e portanto, aumenta a ionização.</li>\n<li>Na base conjugada há estabilização por ressonância o que aumenta a\nestabilidade e portanto, aumenta a ionização. Além disso, na molécula há\num grupo alquila responsável por um efeito indutivo doador de elétrons o\nque fortalece a ligação <span class=\"math inline\">\\(\\ce{C-H}\\)</span> e\nportanto, diminui a ionização.</li>\n<li>Na base conjugada não há estabilização por ressonância o que diminui\na estabilidade e portanto, diminui a ionização. Além disso, na molécula\nhá um grupo alquila responsável por um efeito indutivo doador de\nelétrons o que fortalece a ligação <span class=\"math inline\">\\(\\ce{C-H}\\)</span> e portanto, diminui a ionização\ne há dois átomos de cloro, majoritariamente, responsáveis por um efeito\nindutivo doador de elétrons o que enfraquece a ligação <span class=\"math inline\">\\(\\ce{C-H}\\)</span> e portanto, aumenta a\nionização.</li>\n<li>Na base conjugada não há estabilização por ressonância o que diminui\na estabilidade e portanto, diminui a ionização. Além disso, na molécula\nhá dois grupos alquila, majoritariamente, responsáveis por um efeito\nindutivo doador de elétrons o que fortalece a ligação <span class=\"math inline\">\\(\\ce{C-H}\\)</span> e portanto, diminui a ionização.\n<span class=\"math inline\">\\(pK_a\\)</span> (1) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (2) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (3) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (4)</li>\n</ol>",
+        "md": "1.  Na base conjugada há estabilização por ressonância o que aumenta a\n    estabilidade e portanto, aumenta a ionização.\n2.  Na base conjugada há estabilização por ressonância o que aumenta a\n    estabilidade e portanto, aumenta a ionização. Além disso, na\n    molécula há um grupo alquila responsável por um efeito indutivo\n    doador de elétrons o que fortalece a ligação $\\ce{C-H}$ e portanto,\n    diminui a ionização.\n3.  Na base conjugada não há estabilização por ressonância o que diminui\n    a estabilidade e portanto, diminui a ionização. Além disso, na\n    molécula há um grupo alquila responsável por um efeito indutivo\n    doador de elétrons o que fortalece a ligação $\\ce{C-H}$ e portanto,\n    diminui a ionização e há dois átomos de cloro, majoritariamente,\n    responsáveis por um efeito indutivo doador de elétrons o que\n    enfraquece a ligação $\\ce{C-H}$ e portanto, aumenta a ionização.\n4.  Na base conjugada não há estabilização por ressonância o que diminui\n    a estabilidade e portanto, diminui a ionização. Além disso, na\n    molécula há dois grupos alquila, majoritariamente, responsáveis por\n    um efeito indutivo doador de elétrons o que fortalece a ligação\n    $\\ce{C-H}$ e portanto, diminui a ionização. $pK_a$ (1) &lt;\n    $pK_a$ (2) &lt; $pK_a$ (3) &lt; $pK_a$ (4)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Na base conjugada há estabilização por ressonância o que aumenta a estabilidade e portanto, aumenta a ionização.\n\\item\n  Na base conjugada há estabilização por ressonância o que aumenta a estabilidade e portanto, aumenta a ionização. Além disso, na molécula há um grupo\n  alquila responsável por um efeito indutivo doador de elétrons o que fortalece a ligação {\\(\\ce{C-H}\\)} e portanto, diminui a ionização.\n\\item\n  Na base conjugada não há estabilização por ressonância o que diminui a estabilidade e portanto, diminui a ionização. Além disso, na molécula há um\n  grupo alquila responsável por um efeito indutivo doador de elétrons o que fortalece a ligação {\\(\\ce{C-H}\\)} e portanto, diminui a ionização e há\n  dois átomos de cloro, majoritariamente, responsáveis por um efeito indutivo doador de elétrons o que enfraquece a ligação {\\(\\ce{C-H}\\)} e portanto,\n  aumenta a ionização.\n\\item\n  Na base conjugada não há estabilização por ressonância o que diminui a estabilidade e portanto, diminui a ionização. Além disso, na molécula há dois\n  grupos alquila, majoritariamente, responsáveis por um efeito indutivo doador de elétrons o que fortalece a ligação {\\(\\ce{C-H}\\)} e portanto,\n  diminui a ionização. {\\(pK_a\\)} (1) \\textless{} {\\(pK_a\\)} (2) \\textless{} {\\(pK_a\\)} (3) \\textless{} {\\(pK_a\\)} (4)\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "<strong>3</strong>; <strong>2</strong>; <strong>4</strong>; <strong>1</strong>.",
-          "md": "**3**; **2**; **4**; **1**.\n",
-          "tex": "\\textbf{3}; \\textbf{2}; \\textbf{4}; \\textbf{1}.\n"
+          "html": "<strong>1</strong>; <strong>3</strong>; <strong>4</strong>; <strong>2</strong>.",
+          "md": "**1**; **3**; **4**; **2**.\n",
+          "tex": "\\textbf{1}; \\textbf{3}; \\textbf{4}; \\textbf{2}.\n"
         },
         {
-          "html": "<strong>2</strong>; <strong>3</strong>; <strong>4</strong>; <strong>1</strong>.",
-          "md": "**2**; **3**; **4**; **1**.\n",
-          "tex": "\\textbf{2}; \\textbf{3}; \\textbf{4}; \\textbf{1}.\n"
+          "html": "<strong>3</strong>; <strong>1</strong>; <strong>4</strong>; <strong>2</strong>.",
+          "md": "**3**; **1**; **4**; **2**.\n",
+          "tex": "\\textbf{3}; \\textbf{1}; \\textbf{4}; \\textbf{2}.\n"
+        },
+        {
+          "html": "<strong>4</strong>; <strong>2</strong>; <strong>3</strong>; <strong>1</strong>.",
+          "md": "**4**; **2**; **3**; **1**.\n",
+          "tex": "\\textbf{4}; \\textbf{2}; \\textbf{3}; \\textbf{1}.\n"
         },
         {
           "html": "<strong>4</strong>; <strong>1</strong>; <strong>2</strong>; <strong>3</strong>.",
@@ -24556,14 +24573,9 @@
           "tex": "\\textbf{4}; \\textbf{1}; \\textbf{2}; \\textbf{3}.\n"
         },
         {
-          "html": "<strong>4</strong>; <strong>3</strong>; <strong>1</strong>; <strong>2</strong>.",
-          "md": "**4**; **3**; **1**; **2**.\n",
-          "tex": "\\textbf{4}; \\textbf{3}; \\textbf{1}; \\textbf{2}.\n"
-        },
-        {
-          "html": "<strong>3</strong>; <strong>1</strong>; <strong>2</strong>; <strong>4</strong>.",
-          "md": "**3**; **1**; **2**; **4**.\n",
-          "tex": "\\textbf{3}; \\textbf{1}; \\textbf{2}; \\textbf{4}.\n"
+          "html": "<strong>1</strong>; <strong>2</strong>; <strong>3</strong>; <strong>4</strong>.",
+          "md": "**1**; **2**; **3**; **4**.\n",
+          "tex": "\\textbf{1}; \\textbf{2}; \\textbf{3}; \\textbf{4}.\n"
         }
       ],
       "correct_choice": 4
@@ -24571,13 +24583,17 @@
     {
       "id_": "2G31",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G31/2G31.md",
-      "date": "2023-05-06T21:02:57.633641",
+      "date": "2023-05-25T16:50:54.286501",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G31-1D.svg\"/></li>\n<li><img src=\"2G31-2D.svg\"/></li>\n<li><img src=\"2G31-3D.svg\"/></li>\n<li><img src=\"2G31-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nordem <em>crescente</em> de <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G31-1D.svg)\n2.  ![](2G31-2D.svg)\n3.  ![](2G31-3D.svg)\n4.  ![](2G31-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em ordem\n*crescente* de $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1]-[-1](-[-2]Cl)(-[-4]Cl)-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1]-[-1](-[-3]Cl)-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1]-[-1]-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{Cl-[1](-[2]Cl)(-[4]Cl)-[-1]-[1](=[3,,,,fix]O)-[-1]OH}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em ordem \\emph{crescente} de {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>Na molécula há dois átomos de cloro responsáveis por um efeito\nindutivo puxador de elétrons mais próximos da ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> o que a enfraquece e portanto,\naumenta a ionização.</li>\n<li>Na molécula há um átomo de cloro responsável por um efeito indutivo\npuxador de elétrons mais próximo da ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> o que a enfraquece e portanto,\naumenta a ionização.</li>\n<li>Na molécula há apenas um grupo alquila responsável por um efeito\nindutivo doador de elétrons o que fortalece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto, diminui a\nionização.</li>\n<li>Na molécula há três átomos de cloro responsáveis por um efeito\nindutivo puxador de elétrons mais distantes da ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> o que a enfraquece. <span class=\"math inline\">\\(pK_a\\)</span> (1) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (2) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (4) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (3)</li>\n</ol>",
+        "md": "1.  Na molécula há dois átomos de cloro responsáveis por um efeito\n    indutivo puxador de elétrons mais próximos da ligação $\\ce{O-H}$ o\n    que a enfraquece e portanto, aumenta a ionização.\n2.  Na molécula há um átomo de cloro responsável por um efeito indutivo\n    puxador de elétrons mais próximo da ligação $\\ce{O-H}$ o que a\n    enfraquece e portanto, aumenta a ionização.\n3.  Na molécula há apenas um grupo alquila responsável por um efeito\n    indutivo doador de elétrons o que fortalece a ligação $\\ce{O-H}$ e\n    portanto, diminui a ionização.\n4.  Na molécula há três átomos de cloro responsáveis por um efeito\n    indutivo puxador de elétrons mais distantes da ligação $\\ce{O-H}$ o\n    que a enfraquece. $pK_a$ (1) &lt; $pK_a$ (2) &lt; $pK_a$ (4) &lt;\n    $pK_a$ (3)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Na molécula há dois átomos de cloro responsáveis por um efeito indutivo puxador de elétrons mais próximos da ligação {\\(\\ce{O-H}\\)} o que a\n  enfraquece e portanto, aumenta a ionização.\n\\item\n  Na molécula há um átomo de cloro responsável por um efeito indutivo puxador de elétrons mais próximo da ligação {\\(\\ce{O-H}\\)} o que a enfraquece e\n  portanto, aumenta a ionização.\n\\item\n  Na molécula há apenas um grupo alquila responsável por um efeito indutivo doador de elétrons o que fortalece a ligação {\\(\\ce{O-H}\\)} e portanto,\n  diminui a ionização.\n\\item\n  Na molécula há três átomos de cloro responsáveis por um efeito indutivo puxador de elétrons mais distantes da ligação {\\(\\ce{O-H}\\)} o que a\n  enfraquece. {\\(pK_a\\)} (1) \\textless{} {\\(pK_a\\)} (2) \\textless{} {\\(pK_a\\)} (4) \\textless{} {\\(pK_a\\)} (3)\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24612,13 +24628,17 @@
     {
       "id_": "2G13",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G13/2G13.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:19:55.875062",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa com a constante de acidez,\n<span class=\"math inline\">\\(K_\\mathrm{a}\\)</span>, do ácido cloroso,\n<span class=\"math inline\">\\(\\ce{HClO2}\\)</span>.</p>",
         "md": "**Assinale** a alternativa com a constante de acidez, $K_\\mathrm{a}$, do\nácido cloroso, $\\ce{HClO2}$.\n",
         "tex": "\\textbf{Assinale} a alternativa com a constante de acidez, {\\(K_\\mathrm{a}\\)}, do ácido cloroso, {\\(\\ce{HClO2}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\ce{HClO2_{(aq)} + H2O_{(l)} &lt;=&gt;\nClO2^-_{(aq)} + H3O^+_{(aq)}}\\]</span> <span class=\"math display\">\\[K_a=\\frac{[\\ce{H3O^+}][\\ce{ClO2^-}]}{[\\ce{HClO2}]}\\]</span></p>",
+        "md": "$$\\ce{HClO2_{(aq)} + H2O_{(l)} <=>\nClO2^-_{(aq)} + H3O^+_{(aq)}}$$\n$$K_a=\\frac{[\\ce{H3O^+}][\\ce{ClO2^-}]}{[\\ce{HClO2}]}$$\n",
+        "tex": "{\\[\\ce{HClO2_{(aq)} + H2O_{(l)} <=>\nClO2^-_{(aq)} + H3O^+_{(aq)}}\\]} {\\[K_a=\\frac{[\\ce{H3O^+}][\\ce{ClO2^-}]}{[\\ce{HClO2}]}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24653,13 +24673,17 @@
     {
       "id_": "2G05",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G05/2G05.md",
-      "date": "2023-05-04T19:55:57.541627",
+      "date": "2023-05-25T16:56:24.136760",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{3e-3\nmol.L-1}\\)</span> de ácido perclórico, <span class=\"math inline\">\\(\\ce{HClO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere uma solução $\\pu{3e-3 mol.L-1}$ de ácido perclórico,\n$\\ce{HClO4}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução em\n$\\pu{25 \\degree C}$.\n",
         "tex": "Considere uma solução {\\(\\qty{3e-3}{\\unit{mol.L^{-1}}}\\)} de ácido perclórico, {\\(\\ce{HClO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[[\\ce{H3O^+}]\\approx[\\ce{HClO4}]=\\pu{3e-3\nmol.L-1}\\implies\\]</span> <span class=\"math display\">\\[\\implies\npH=-log(3e-3)\\approx 2,5\\]</span></p>",
+        "md": "$$[\\ce{H3O^+}]\\approx[\\ce{HClO4}]=\\pu{3e-3\nmol.L-1}\\implies$$ $$\\implies\npH=-log(3e-3)\\approx 2,5$$\n",
+        "tex": "{\\[[\\ce{H3O^+}]\\approx[\\ce{HClO4}]=\\qty{3e-3}{\\unit{mol.L^{-1}}}\\implies\\]} {\\[\\implies\npH=-log(3e-3)\\approx 2,5\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24694,13 +24718,17 @@
     {
       "id_": "2G12",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G12/2G12.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:56:24.136760",
       "statement": {
         "html": "<p>Um técnico de laboratório descuidado prepara <span class=\"math inline\">\\(\\pu{300 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,02 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{KOH}\\)</span> e pipeta <span class=\"math inline\">\\(\\pu{25 mL}\\)</span> da solução em um becher. O\nbécher fica em um ambiente aquecido pro dois dias antes do uso e, nesse\ntmepo, parte da água evapora e o volume se reduz a <span class=\"math inline\">\\(\\pu{15 mL}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndiferença entre o pH da solução preparada e o pH da solução após a\nevaporação.</p>",
         "md": "Um técnico de laboratório descuidado prepara $\\pu{300 mL}$ de uma\nsolução $\\pu{0,02 mol.L-1}$ de $\\ce{KOH}$ e pipeta $\\pu{25 mL}$ da\nsolução em um becher. O bécher fica em um ambiente aquecido pro dois\ndias antes do uso e, nesse tmepo, parte da água evapora e o volume se\nreduz a $\\pu{15 mL}$.\n\n**Assinale** a alternativa que mais se aproxima da diferença entre o pH\nda solução preparada e o pH da solução após a evaporação.\n",
         "tex": "Um técnico de laboratório descuidado prepara {\\(\\qty{300}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,02}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{KOH}\\)} e pipeta\n{\\(\\qty{25}{\\unit{mL}}\\)} da solução em um becher. O bécher fica em um ambiente aquecido pro dois dias antes do uso e, nesse tmepo, parte da água\nevapora e o volume se reduz a {\\(\\qty{15}{\\unit{mL}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da diferença entre o pH da solução preparada e o pH da solução após a evaporação.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Solução preparada: <span class=\"math display\">\\[[\\ce{OH^-}]\\approx[\\ce{KOH}]=\\pu{2e-2\nmol.L-1}\\implies pOH=-log(2e-2)\\approx 1,7\\]</span> <span class=\"math display\">\\[pH+pOH=14\\implies pH+1,7=14\\implies\npH=12,3\\]</span> Solução após a evaporação: <span class=\"math display\">\\[[\\ce{OH^-}]=\\pu{0,02 mol.L-1}\\frac{15 mL}{25\nmL}=\\pu{1,2e-2 mol.L-1}\\implies pOH=-log(1,2e-2)\\approx 1,9\\]</span>\n<span class=\"math display\">\\[pH+pOH=14\\implies pH+2,9=14\\implies\npH=12,1\\]</span> <span class=\"math display\">\\[\\Delta\npH=12,3-12,1=0,2\\]</span></p>",
+        "md": "Solução preparada: $$[\\ce{OH^-}]\\approx[\\ce{KOH}]=\\pu{2e-2\nmol.L-1}\\implies pOH=-log(2e-2)\\approx 1,7$$\n$$pH+pOH=14\\implies pH+1,7=14\\implies\npH=12,3$$ Solução após a evaporação:\n$$[\\ce{OH^-}]=\\pu{0,02 mol.L-1}\\frac{15 mL}{25\nmL}=\\pu{1,2e-2 mol.L-1}\\implies pOH=-log(1,2e-2)\\approx 1,9$$\n$$pH+pOH=14\\implies pH+2,9=14\\implies\npH=12,1$$ $$\\Delta\npH=12,3-12,1=0,2$$\n",
+        "tex": "Solução preparada: {\\[[\\ce{OH^-}]\\approx[\\ce{KOH}]=\\qty{2e-2}{\\unit{mol.L^{-1}}}\\implies pOH=-log(2e-2)\\approx 1,7\\]}\n{\\[pH+pOH=14\\implies pH+1,7=14\\implies\npH=12,3\\]} Solução após a evaporação: {\\[[\\ce{OH^-}]=\\qty{0,02}{\\unit{mol.L^{-1}}}\\frac{15 mL}{25\nmL}=\\qty{1,2e-2}{\\unit{mol.L^{-1}}}\\implies pOH=-log(1,2e-2)\\approx 1,9\\]} {\\[pH+pOH=14\\implies pH+2,9=14\\implies\npH=12,1\\]} {\\[\\Delta\npH=12,3-12,1=0,2\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24735,13 +24763,17 @@
     {
       "id_": "2G25",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G25/2G25.md",
-      "date": "2023-05-06T20:25:43.893221",
+      "date": "2023-05-25T16:49:05.248412",
       "statement": {
         "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HClO}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HClO4}\\)</span> e <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HNO3}\\)</span> e <span class=\"math inline\">\\(\\ce{H2SO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HBrO3}\\)</span> e <span class=\"math inline\">\\(\\ce{HBrO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HClO}$ e $\\ce{HClO2}$\n2.  $\\ce{HClO4}$ e $\\ce{H3PO4}$\n3.  $\\ce{HNO3}$ e $\\ce{H2SO3}$\n4.  $\\ce{HBrO3}$ e $\\ce{HBrO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HClO}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{HClO4}\\)} e {\\(\\ce{H3PO4}\\)}\n\\item\n  {\\(\\ce{HNO3}\\)} e {\\(\\ce{H2SO3}\\)}\n\\item\n  {\\(\\ce{HBrO3}\\)} e {\\(\\ce{HBrO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HClO}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{ClO^-}\\)</span>) a carga fica\nlocalizada no átomo de oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(\\ce{HClO2}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre os dois\nátomos de oxigênio, aumentando sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO2}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{HClO4}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{ClO4^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre os quatro\nátomos de oxigênio, aumentando sua ionização. <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{H2PO4^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre dois dos\nquatro átomos de oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO4}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H3PO4}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{HNO3}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{NO3^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre os três\nátomos de oxigênio, aumentando sua ionização. <span class=\"math inline\">\\(\\ce{H2SO3}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{HSO3^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre dois dos\ntrês átomos de oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HNO3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H2SO3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{HBrO3}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{BrO3^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre os três\nátomos de oxigênio, aumentando sua ionização. <span class=\"math inline\">\\(\\ce{HBrO}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{BrO^-}\\)</span>) a carga fica localizada no\nátomo de oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HBrO3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HBrO}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{HClO}$ : Na base conjugada ($\\ce{ClO^-}$) a carga fica\n    localizada no átomo de oxigênio, diminuindo sua ionização.\n    $\\ce{HClO2}$ : Na base conjugada ($\\ce{ClO2^-}$) há estabilização\n    por ressonância de modo que a carga negativa é \"dividida\" entre os\n    dois átomos de oxigênio, aumentando sua ionização. $pK_a$\n    ($\\ce{HClO}$) &gt; $pK_a$ ($\\ce{HClO2}$)\n2.  $\\ce{HClO4}$ : Na base conjugada ($\\ce{ClO4^-}$) há estabilização\n    por ressonância de modo que a carga negativa é \"dividida\" entre os\n    quatro átomos de oxigênio, aumentando sua ionização. $\\ce{H3PO4}$ :\n    Na base conjugada ($\\ce{H2PO4^-}$) há estabilização por ressonância\n    de modo que a carga negativa é \"dividida\" entre dois dos quatro\n    átomos de oxigênio, diminuindo sua ionização. $pK_a$ ($\\ce{HClO4}$)\n    &lt; $pK_a$ ($\\ce{H3PO4}$)\n3.  $\\ce{HNO3}$ : Na base conjugada ($\\ce{NO3^-}$) há estabilização por\n    ressonância de modo que a carga negativa é \"dividida\" entre os três\n    átomos de oxigênio, aumentando sua ionização. $\\ce{H2SO3}$ : Na base\n    conjugada ($\\ce{HSO3^-}$) há estabilização por ressonância de modo\n    que a carga negativa é \"dividida\" entre dois dos três átomos de\n    oxigênio, diminuindo sua ionização. $pK_a$ ($\\ce{HNO3}$) &lt; $pK_a$\n    ($\\ce{H2SO3}$)\n4.  $\\ce{HBrO3}$ : Na base conjugada ($\\ce{BrO3^-}$) há estabilização\n    por ressonância de modo que a carga negativa é \"dividida\" entre os\n    três átomos de oxigênio, aumentando sua ionização. $\\ce{HBrO}$ : Na\n    base conjugada ($\\ce{BrO^-}$) a carga fica localizada no átomo de\n    oxigênio, diminuindo sua ionização. $pK_a$ ($\\ce{HBrO3}$) &lt;\n    $pK_a$ ($\\ce{HBrO}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HClO}\\)} : Na base conjugada ({\\(\\ce{ClO^-}\\)}) a carga fica localizada no átomo de oxigênio, diminuindo sua ionização. {\\(\\ce{HClO2}\\)} : Na\n  base conjugada ({\\(\\ce{ClO2^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os dois átomos de oxigênio,\n  aumentando sua ionização. {\\(pK_a\\)} ({\\(\\ce{HClO}\\)}) \\textgreater{} {\\(pK_a\\)} ({\\(\\ce{HClO2}\\)})\n\\item\n  {\\(\\ce{HClO4}\\)} : Na base conjugada ({\\(\\ce{ClO4^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os\n  quatro átomos de oxigênio, aumentando sua ionização. {\\(\\ce{H3PO4}\\)} : Na base conjugada ({\\(\\ce{H2PO4^-}\\)}) há estabilização por ressonância de\n  modo que a carga negativa é ``dividida'' entre dois dos quatro átomos de oxigênio, diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{HClO4}\\)})\n  \\textless{} {\\(pK_a\\)} ({\\(\\ce{H3PO4}\\)})\n\\item\n  {\\(\\ce{HNO3}\\)} : Na base conjugada ({\\(\\ce{NO3^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os três\n  átomos de oxigênio, aumentando sua ionização. {\\(\\ce{H2SO3}\\)} : Na base conjugada ({\\(\\ce{HSO3^-}\\)}) há estabilização por ressonância de modo que\n  a carga negativa é ``dividida'' entre dois dos três átomos de oxigênio, diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{HNO3}\\)}) \\textless{}\n  {\\(pK_a\\)} ({\\(\\ce{H2SO3}\\)})\n\\item\n  {\\(\\ce{HBrO3}\\)} : Na base conjugada ({\\(\\ce{BrO3^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os três\n  átomos de oxigênio, aumentando sua ionização. {\\(\\ce{HBrO}\\)} : Na base conjugada ({\\(\\ce{BrO^-}\\)}) a carga fica localizada no átomo de oxigênio,\n  diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{HBrO3}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{HBrO}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24776,13 +24808,17 @@
     {
       "id_": "2G10",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G10/2G10.md",
-      "date": "2023-05-07T19:22:44.882545",
+      "date": "2023-05-25T16:18:17.905754",
       "statement": {
         "html": "<p>O pOH de uma solução de detergente é <span class=\"math inline\">\\(\\pu{9,6}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução.</p>",
         "md": "O pOH de uma solução de detergente é $\\pu{9,6}$ em $\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução.\n",
         "tex": "O pOH de uma solução de detergente é {\\(\\num{9,6}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[pH+pOH=14\\implies pH+9,6=14\\implies\npH=4,4\\]</span></p>",
+        "md": "$$pH+pOH=14\\implies pH+9,6=14\\implies\npH=4,4$$\n",
+        "tex": "{\\[pH+pOH=14\\implies pH+9,6=14\\implies\npH=4,4\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24817,13 +24853,17 @@
     {
       "id_": "2G33",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G33/2G33.md",
-      "date": "2023-05-07T16:18:09.625602",
+      "date": "2023-05-25T16:56:24.132761",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{5e-8\nmol.L-1}\\)</span> de ácido perclórico, <span class=\"math inline\">\\(\\ce{HClO4}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
         "md": "Considere uma solução $\\pu{5e-8 mol.L-1}$ de ácido perclórico,\n$\\ce{HClO4}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
         "tex": "Considere uma solução {\\(\\qty{5e-8}{\\unit{mol.L^{-1}}}\\)} de ácido perclórico, {\\(\\ce{HClO4}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Balanço de carga: <span class=\"math display\">\\[[\\ce{H3O^+}]=[\\ce{OH^-}]+[\\ce{ClO4^-}]\\]</span>\n<span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]-[\\ce{ClO4^-}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies\\]</span> <span class=\"math display\">\\[[\\ce{ClO4^-}]\\approx\\pu{5e-8\nmol.L-1}:[\\ce{H3O^+}]^2-5e-8[\\ce{H3O^+}]-10^{-14}=0\\implies\\]</span>\n<span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]&gt;0:[\\ce{H3O^+}]=\\frac{5e-8+\\sqrt{4,25e-14}}{2}\\approx\\pu{1,3e-7\nmol.L-1}\\]</span></p>",
+        "md": "Balanço de carga: $$[\\ce{H3O^+}]=[\\ce{OH^-}]+[\\ce{ClO4^-}]$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]-[\\ce{ClO4^-}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies$$ $$[\\ce{ClO4^-}]\\approx\\pu{5e-8\nmol.L-1}:[\\ce{H3O^+}]^2-5e-8[\\ce{H3O^+}]-10^{-14}=0\\implies$$ $$\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{5e-8+\\sqrt{4,25e-14}}{2}\\approx\\pu{1,3e-7\nmol.L-1}$$\n",
+        "tex": "Balanço de carga: {\\[[\\ce{H3O^+}]=[\\ce{OH^-}]+[\\ce{ClO4^-}]\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]-[\\ce{ClO4^-}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies\\]} {\\[[\\ce{ClO4^-}]\\approx\\qty{5e-8}{\\unit{mol.L^{-1}}}:[\\ce{H3O^+}]^2-5e-8[\\ce{H3O^+}]-10^{-14}=0\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{5e-8+\\sqrt{4,25e-14}}{2}\\approx\\qty{1,3e-7}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24858,13 +24898,17 @@
     {
       "id_": "2G27",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G27/2G27.md",
-      "date": "2023-05-06T20:30:17.653536",
+      "date": "2023-05-25T16:49:28.004013",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G27-1D.svg\"/></li>\n<li><img src=\"2G27-2D.svg\"/></li>\n<li><img src=\"2G27-3D.svg\"/></li>\n<li><img src=\"2G27-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G27-1D.svg)\n2.  ![](2G27-2D.svg)\n3.  ![](2G27-3D.svg)\n4.  ![](2G27-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1]-[-1](-[-3]{\\color{blue} H_A})-[1](-[3]{\\color{red} H_B})-[-1]=^[1]}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[:18]*5(-=(-{\\color{red} H_B})-=-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[-1]\\chembelow{N}{H}-[1]*6(-=-(--[-1]N(-[-3]{\\color{red} H_B})-[1])=-=)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{red} H_B})-[1]-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>Analisando as possíveis bases conjugadas, não há estabilização por\nressonância com a ionização de <span class=\"math inline\">\\(H_A\\)</span>,\ncontudo há estabilização por ressonância com a ionização de <span class=\"math inline\">\\(H_B\\)</span>, aumentando a ionização. Acidez\n(<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, há estabilização por\nressonância em ambos os casos, contudo as estruturas de ressonância\noriundas da ionização de <span class=\"math inline\">\\(H_A\\)</span> tornam\na molécula aromática o que aumenta ainda mais sua estabilidade e\nionização, e as estruturas de ressonância oriundas da ionização de <span class=\"math inline\">\\(H_B\\)</span> contém um carbono <span class=\"math inline\">\\(sp^3\\)</span> de modo que o anel não é plano e\nportanto, não é aromático, diminuindo sua ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, não há estabilização por\nressonância com a ionização de <span class=\"math inline\">\\(H_B\\)</span>,\ncontudo há estabilização por ressonância com a ionização de <span class=\"math inline\">\\(H_A\\)</span>, aumentando a ionização. Acidez\n(<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, não há estabilização por\nressonância com a ionização de <span class=\"math inline\">\\(H_A\\)</span>,\ncontudo há estabilização por ressonância com a ionização de <span class=\"math inline\">\\(H_B\\)</span>, aumentando a ionização. Acidez\n(<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n</ol>",
+        "md": "1.  Analisando as possíveis bases conjugadas, não há estabilização por\n    ressonância com a ionização de $H_A$, contudo há estabilização por\n    ressonância com a ionização de $H_B$, aumentando a ionização. Acidez\n    ($H_a$) &lt; Acidez ($H_b$)\n2.  Analisando as possíveis bases conjugadas, há estabilização por\n    ressonância em ambos os casos, contudo as estruturas de ressonância\n    oriundas da ionização de $H_A$ tornam a molécula aromática o que\n    aumenta ainda mais sua estabilidade e ionização, e as estruturas de\n    ressonância oriundas da ionização de $H_B$ contém um carbono $sp^3$\n    de modo que o anel não é plano e portanto, não é aromático,\n    diminuindo sua ionização. Acidez ($H_a$) &gt; Acidez ($H_b$)\n3.  Analisando as possíveis bases conjugadas, não há estabilização por\n    ressonância com a ionização de $H_B$, contudo há estabilização por\n    ressonância com a ionização de $H_A$, aumentando a ionização. Acidez\n    ($H_a$) &gt; Acidez ($H_b$)\n4.  Analisando as possíveis bases conjugadas, não há estabilização por\n    ressonância com a ionização de $H_A$, contudo há estabilização por\n    ressonância com a ionização de $H_B$, aumentando a ionização. Acidez\n    ($H_a$) &lt; Acidez ($H_b$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Analisando as possíveis bases conjugadas, não há estabilização por ressonância com a ionização de {\\(H_A\\)}, contudo há estabilização por\n  ressonância com a ionização de {\\(H_B\\)}, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, há estabilização por ressonância em ambos os casos, contudo as estruturas de ressonância oriundas da\n  ionização de {\\(H_A\\)} tornam a molécula aromática o que aumenta ainda mais sua estabilidade e ionização, e as estruturas de ressonância oriundas da\n  ionização de {\\(H_B\\)} contém um carbono {\\(sp^3\\)} de modo que o anel não é plano e portanto, não é aromático, diminuindo sua ionização. Acidez\n  ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, não há estabilização por ressonância com a ionização de {\\(H_B\\)}, contudo há estabilização por\n  ressonância com a ionização de {\\(H_A\\)}, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, não há estabilização por ressonância com a ionização de {\\(H_A\\)}, contudo há estabilização por\n  ressonância com a ionização de {\\(H_B\\)}, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24899,13 +24943,17 @@
     {
       "id_": "2G26",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G26/2G26.md",
-      "date": "2023-05-06T20:27:56.809390",
+      "date": "2023-05-25T16:49:16.516214",
       "statement": {
         "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><img src=\"2G26-1D.svg\"/></li>\n<li><img src=\"2G26-2D.svg\"/></li>\n<li><img src=\"2G26-3D.svg\"/></li>\n<li><img src=\"2G26-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os pares de ácidos.\n\n1.  ![](2G26-1D.svg)\n2.  ![](2G26-2D.svg)\n3.  ![](2G26-3D.svg)\n4.  ![](2G26-4D.svg)\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1]-[-1]OH}\n\\item\n  \\chemfig{*6(-=-(-OH)=-=)} e \\quad \\chemfig{*6(---(-OH)---)}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]O-[1]OH} \\quad e \\quad \\chemfig{-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]} \\quad e \\quad \\chemfig{-[1](-[3])-[-1]O-[1](-[3])-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{CH3COO^-}\\)</span>) há\nestabilização por ressonância de modo que a carga negativa é “dividida”\nentre os dois átomos de oxigênio, aumentando sua ionização. <span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{CH3CH2O^-}\\)</span>) a carga fica localizada\nno átomo de oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3CH2OH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{C6H5O^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre o átomo de\noxigênio e três dos seis átomos de carbono, aumentando sua ionização.\n<span class=\"math inline\">\\(\\ce{C6H11OH}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{C6H11O^-}\\)</span>) a carga fica\nlocalizada no átomo de oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6H5OH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6H11OH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{CH3COOOH}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{CH3COOO^-}\\)</span>) há\nestabilização por ressonância de modo que a carga negativa é “dividida”\nentre os três átomos de oxigênio, aumentando sua ionização. <span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{CH3COO^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre dois átomos\nde oxigênio, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3COOOH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{CH3COCH3}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{CH3COCH2^-}\\)</span>) há\nestabilização por ressonância de modo que a carga negativa é “dividida”\nentre um átomo de carbono e um átomo de oxigênio, aumentando sua\nionização. <span class=\"math inline\">\\(\\ce{(CH3)2CH2OCH2(CH3)2}\\)</span>\n: Na base conjugada (<span class=\"math inline\">\\(\\ce{(CH3)2CH2OCH(CH3)2^-}\\)</span>) não há\nestabilização por ressonância, diminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3COCH3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{(CH3)2CH2OCH2(CH3)2}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{CH3COOH}$ : Na base conjugada ($\\ce{CH3COO^-}$) há\n    estabilização por ressonância de modo que a carga negativa é\n    \"dividida\" entre os dois átomos de oxigênio, aumentando sua\n    ionização. $\\ce{CH3CH2OH}$ : Na base conjugada ($\\ce{CH3CH2O^-}$) a\n    carga fica localizada no átomo de oxigênio, diminuindo sua\n    ionização. $pK_a$ ($\\ce{CH3COOH}$) &lt; $pK_a$ ($\\ce{CH3CH2OH}$)\n2.  $\\ce{C6H5OH}$ : Na base conjugada ($\\ce{C6H5O^-}$) há estabilização\n    por ressonância de modo que a carga negativa é \"dividida\" entre o\n    átomo de oxigênio e três dos seis átomos de carbono, aumentando sua\n    ionização. $\\ce{C6H11OH}$ : Na base conjugada ($\\ce{C6H11O^-}$) a\n    carga fica localizada no átomo de oxigênio, diminuindo sua\n    ionização. $pK_a$ ($\\ce{C6H5OH}$) &lt; $pK_a$ ($\\ce{C6H11OH}$)\n3.  $\\ce{CH3COOOH}$ : Na base conjugada ($\\ce{CH3COOO^-}$) há\n    estabilização por ressonância de modo que a carga negativa é\n    \"dividida\" entre os três átomos de oxigênio, aumentando sua\n    ionização. $\\ce{CH3COOH}$ : Na base conjugada ($\\ce{CH3COO^-}$) há\n    estabilização por ressonância de modo que a carga negativa é\n    \"dividida\" entre dois átomos de oxigênio, diminuindo sua ionização.\n    $pK_a$ ($\\ce{CH3COOOH}$) &lt; $pK_a$ ($\\ce{CH3COOH}$)\n4.  $\\ce{CH3COCH3}$ : Na base conjugada ($\\ce{CH3COCH2^-}$) há\n    estabilização por ressonância de modo que a carga negativa é\n    \"dividida\" entre um átomo de carbono e um átomo de oxigênio,\n    aumentando sua ionização. $\\ce{(CH3)2CH2OCH2(CH3)2}$ : Na base\n    conjugada ($\\ce{(CH3)2CH2OCH(CH3)2^-}$) não há estabilização por\n    ressonância, diminuindo sua ionização. $pK_a$ ($\\ce{CH3COCH3}$) &lt;\n    $pK_a$ ($\\ce{(CH3)2CH2OCH2(CH3)2}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3COOH}\\)} : Na base conjugada ({\\(\\ce{CH3COO^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os\n  dois átomos de oxigênio, aumentando sua ionização. {\\(\\ce{CH3CH2OH}\\)} : Na base conjugada ({\\(\\ce{CH3CH2O^-}\\)}) a carga fica localizada no átomo\n  de oxigênio, diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{CH3COOH}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{CH3CH2OH}\\)})\n\\item\n  {\\(\\ce{C6H5OH}\\)} : Na base conjugada ({\\(\\ce{C6H5O^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre o\n  átomo de oxigênio e três dos seis átomos de carbono, aumentando sua ionização. {\\(\\ce{C6H11OH}\\)} : Na base conjugada ({\\(\\ce{C6H11O^-}\\)}) a carga\n  fica localizada no átomo de oxigênio, diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{C6H5OH}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{C6H11OH}\\)})\n\\item\n  {\\(\\ce{CH3COOOH}\\)} : Na base conjugada ({\\(\\ce{CH3COOO^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os\n  três átomos de oxigênio, aumentando sua ionização. {\\(\\ce{CH3COOH}\\)} : Na base conjugada ({\\(\\ce{CH3COO^-}\\)}) há estabilização por ressonância de\n  modo que a carga negativa é ``dividida'' entre dois átomos de oxigênio, diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{CH3COOOH}\\)}) \\textless{}\n  {\\(pK_a\\)} ({\\(\\ce{CH3COOH}\\)})\n\\item\n  {\\(\\ce{CH3COCH3}\\)} : Na base conjugada ({\\(\\ce{CH3COCH2^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre\n  um átomo de carbono e um átomo de oxigênio, aumentando sua ionização. {\\(\\ce{(CH3)2CH2OCH2(CH3)2}\\)} : Na base conjugada\n  ({\\(\\ce{(CH3)2CH2OCH(CH3)2^-}\\)}) não há estabilização por ressonância, diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{CH3COCH3}\\)}) \\textless{}\n  {\\(pK_a\\)} ({\\(\\ce{(CH3)2CH2OCH2(CH3)2}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24940,13 +24988,17 @@
     {
       "id_": "2G24",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G24/2G24.md",
-      "date": "2023-05-06T20:28:07.989403",
+      "date": "2023-05-25T16:48:53.148625",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G24-1D.svg\"/></li>\n<li><img src=\"2G24-2D.svg\"/></li>\n<li><img src=\"2G24-3D.svg\"/></li>\n<li><img src=\"2G24-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G24-1D.svg)\n2.  ![](2G24-2D.svg)\n3.  ![](2G24-3D.svg)\n4.  ![](2G24-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]O-[-1](=[-3,,,,fix]O)-[1]-[-1]-[1](=[3,,,,fix]S)-[-1]S-[1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]~[1]-[1]-[-1]N(-[-3]{\\color{red} H_B})-[1]}\n\\item\n  \\chemfig{*6(--(-S(=[-2]O)(=[-4]O)-[1]O-[-1]{\\color{red} H_B})---N(-{\\color{blue} H_A})-)=[-5]O}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]O-[-1](=[-3,,,,fix]O)-[1]-[-1]-[1](=[3,,,,fix]N-[1])-[-1]\\chembelow{N}{H}-[1]{\\color{red} H_B}}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>Analisando as possíveis bases conjugadas há estabilização por\nressonância, tendo as possibilidades de uma carga negativa “dividida”\nentre dois átomos de oxigênio ou dois átomos de enxofre. Como o enxofre\né maior, este comporta melhor a carga negativa de modo que seus pares\neletrônicos se encontram menos disponíveis para um ataque nucleofílico,\naumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, tem-se as possibilidades\nde uma carga negativa no átomo de carbono ou no átomo de nitrogênio.\nComo a carga negativa se encontra no orbital sp do carbono que por ser\nmuito pequeno se encontra muito próximo ao núcleo, a base é\nestabilizada, aumentando sua ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas há estabilização por\nressonância, tendo as possibilidades de uma carga negativa “dividida”\nentre um átomo de nitrogênio e um átomo de oxigênio ou três átomos de\noxigênio. Como o oxigênio é maior e no segundo caso a carga está\n“dividida” em um átomo a mais, este comporta melhor a carga negativa de\nmodo que seus pares eletrônicos se encontram menos disponíveis para um\nataque nucleofílico, aumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas há estabilização por\nressonância, tendo as possibilidades de uma carga negativa “dividida”\nentre dois átomos de oxigênio ou dois átomos de nitrogênio. Como o\noxigênio é maior, este comporta melhor a carga negativa de modo que seus\npares eletrônicos se encontram menos disponíveis para um ataque\nnucleofílico, aumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n</ol>",
+        "md": "1.  Analisando as possíveis bases conjugadas há estabilização por\n    ressonância, tendo as possibilidades de uma carga negativa\n    \"dividida\" entre dois átomos de oxigênio ou dois átomos de enxofre.\n    Como o enxofre é maior, este comporta melhor a carga negativa de\n    modo que seus pares eletrônicos se encontram menos disponíveis para\n    um ataque nucleofílico, aumentando a ionização. Acidez ($H_a$) &lt;\n    Acidez ($H_b$)\n2.  Analisando as possíveis bases conjugadas, tem-se as possibilidades\n    de uma carga negativa no átomo de carbono ou no átomo de nitrogênio.\n    Como a carga negativa se encontra no orbital sp do carbono que por\n    ser muito pequeno se encontra muito próximo ao núcleo, a base é\n    estabilizada, aumentando sua ionização. Acidez ($H_a$) &gt; Acidez\n    ($H_b$)\n3.  Analisando as possíveis bases conjugadas há estabilização por\n    ressonância, tendo as possibilidades de uma carga negativa\n    \"dividida\" entre um átomo de nitrogênio e um átomo de oxigênio ou\n    três átomos de oxigênio. Como o oxigênio é maior e no segundo caso a\n    carga está \"dividida\" em um átomo a mais, este comporta melhor a\n    carga negativa de modo que seus pares eletrônicos se encontram menos\n    disponíveis para um ataque nucleofílico, aumentando a ionização.\n    Acidez ($H_a$) &lt; Acidez ($H_b$)\n4.  Analisando as possíveis bases conjugadas há estabilização por\n    ressonância, tendo as possibilidades de uma carga negativa\n    \"dividida\" entre dois átomos de oxigênio ou dois átomos de\n    nitrogênio. Como o oxigênio é maior, este comporta melhor a carga\n    negativa de modo que seus pares eletrônicos se encontram menos\n    disponíveis para um ataque nucleofílico, aumentando a ionização.\n    Acidez ($H_a$) &gt; Acidez ($H_b$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Analisando as possíveis bases conjugadas há estabilização por ressonância, tendo as possibilidades de uma carga negativa ``dividida'' entre dois\n  átomos de oxigênio ou dois átomos de enxofre. Como o enxofre é maior, este comporta melhor a carga negativa de modo que seus pares eletrônicos se\n  encontram menos disponíveis para um ataque nucleofílico, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, tem-se as possibilidades de uma carga negativa no átomo de carbono ou no átomo de nitrogênio. Como a carga\n  negativa se encontra no orbital sp do carbono que por ser muito pequeno se encontra muito próximo ao núcleo, a base é estabilizada, aumentando sua\n  ionização. Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas há estabilização por ressonância, tendo as possibilidades de uma carga negativa ``dividida'' entre um átomo\n  de nitrogênio e um átomo de oxigênio ou três átomos de oxigênio. Como o oxigênio é maior e no segundo caso a carga está ``dividida'' em um átomo a\n  mais, este comporta melhor a carga negativa de modo que seus pares eletrônicos se encontram menos disponíveis para um ataque nucleofílico,\n  aumentando a ionização. Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas há estabilização por ressonância, tendo as possibilidades de uma carga negativa ``dividida'' entre dois\n  átomos de oxigênio ou dois átomos de nitrogênio. Como o oxigênio é maior, este comporta melhor a carga negativa de modo que seus pares eletrônicos\n  se encontram menos disponíveis para um ataque nucleofílico, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -24981,13 +25033,17 @@
     {
       "id_": "2G18",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G18/2G18.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:46:48.150827",
       "statement": {
         "html": "<p>Considere os pares de bases.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{C6H5NH2}\\)</span> e <span class=\"math inline\">\\(\\ce{(CH3)3N}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C5H5N}\\)</span> e <span class=\"math inline\">\\(\\ce{NH2NH2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{HSO3^-}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5CO2^-}\\)</span> e <span class=\"math inline\">\\(\\ce{CH2ClCO2^-}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\na primeira base é mais forte.</p>",
         "md": "Considere os pares de bases.\n\n1.  $\\ce{C6H5NH2}$ e $\\ce{(CH3)3N}$\n2.  $\\ce{C5H5N}$ e $\\ce{NH2NH2}$\n3.  $\\ce{ClO2^-}$ e $\\ce{HSO3^-}$\n4.  $\\ce{C6H5CO2^-}$ e $\\ce{CH2ClCO2^-}$\n\n**Assinale** a alternativa que relaciona os pares em que a primeira base\né mais forte.\n",
         "tex": "Considere os pares de bases.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{C6H5NH2}\\)} e {\\(\\ce{(CH3)3N}\\)}\n\\item\n  {\\(\\ce{C5H5N}\\)} e {\\(\\ce{NH2NH2}\\)}\n\\item\n  {\\(\\ce{ClO2^-}\\)} e {\\(\\ce{HSO3^-}\\)}\n\\item\n  {\\(\\ce{C6H5CO2^-}\\)} e {\\(\\ce{CH2ClCO2^-}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que a primeira base é mais forte.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{C6H5NH2}\\)</span> : <span class=\"math inline\">\\(K_b=\\pu{4e-10}\\)</span> <span class=\"math inline\">\\(\\ce{(CH3)3N}\\)</span> : <span class=\"math inline\">\\(K_b=\\pu{6,3e-5}\\)</span>, <span class=\"math inline\">\\(K_b\\)</span> (<span class=\"math inline\">\\(\\ce{C6H5NH2}\\)</span>) &lt; <span class=\"math inline\">\\(K_b\\)</span> (<span class=\"math inline\">\\(\\ce{(CH3)3N}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C5H5N}\\)</span> : <span class=\"math inline\">\\(K_b=\\pu{1,6e-9}\\)</span> <span class=\"math inline\">\\(\\ce{NH2NH2}\\)</span> : <span class=\"math inline\">\\(K_b=\\pu{1,6e-6}\\)</span> <span class=\"math inline\">\\(K_b\\)</span> (<span class=\"math inline\">\\(\\ce{C5H5N}\\)</span>) &lt; <span class=\"math inline\">\\(K_b\\)</span> (<span class=\"math inline\">\\(\\ce{NH2NH2}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span> : <span class=\"math inline\">\\(pK_b=14-pK_a\\implies pK_b=12\\implies\nK_b=\\pu{1e-12}\\)</span> <span class=\"math inline\">\\(\\ce{HSO3^-}\\)</span>\n: <span class=\"math inline\">\\(pK_b=14-pK_a\\implies pK_b=12,2\\implies\nK_b=\\pu{6,3e-13}\\)</span> <span class=\"math inline\">\\(K_b\\)</span>\n(<span class=\"math inline\">\\(\\ce{ClO2^-}\\)</span>) &gt; <span class=\"math inline\">\\(K_b\\)</span> (<span class=\"math inline\">\\(\\ce{HSO3^-}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C6H5CO2^-}\\)</span> : <span class=\"math inline\">\\(pK_a=14-pK_b\\implies pK_b=9,8\\implies\nK_b=\\pu{1,6e-10}\\)</span>, <span class=\"math inline\">\\(\\ce{CH2ClCO2^-}\\)</span> : <span class=\"math inline\">\\(pK_a=14-pK_b\\implies pK_a=11,2\\implies\nK_a=\\pu{6,3e-12}\\)</span>, <span class=\"math inline\">\\(K_b\\)</span>\n(<span class=\"math inline\">\\(\\ce{C6H5CO2^-}\\)</span>) &gt; <span class=\"math inline\">\\(K_b\\)</span> (<span class=\"math inline\">\\(\\ce{CH2ClCO2^-}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{C6H5NH2}$ : $K_b=\\pu{4e-10}$ $\\ce{(CH3)3N}$ :\n    $K_b=\\pu{6,3e-5}$, $K_b$ ($\\ce{C6H5NH2}$) &lt; $K_b$\n    ($\\ce{(CH3)3N}$)\n2.  $\\ce{C5H5N}$ : $K_b=\\pu{1,6e-9}$ $\\ce{NH2NH2}$ : $K_b=\\pu{1,6e-6}$\n    $K_b$ ($\\ce{C5H5N}$) &lt; $K_b$ ($\\ce{NH2NH2}$)\n3.  $\\ce{ClO2^-}$ :\n    $pK_b=14-pK_a\\implies pK_b=12\\implies K_b=\\pu{1e-12}$ $\\ce{HSO3^-}$\n    : $pK_b=14-pK_a\\implies pK_b=12,2\\implies K_b=\\pu{6,3e-13}$ $K_b$\n    ($\\ce{ClO2^-}$) &gt; $K_b$ ($\\ce{HSO3^-}$)\n4.  $\\ce{C6H5CO2^-}$ :\n    $pK_a=14-pK_b\\implies pK_b=9,8\\implies K_b=\\pu{1,6e-10}$,\n    $\\ce{CH2ClCO2^-}$ :\n    $pK_a=14-pK_b\\implies pK_a=11,2\\implies K_a=\\pu{6,3e-12}$, $K_b$\n    ($\\ce{C6H5CO2^-}$) &gt; $K_b$ ($\\ce{CH2ClCO2^-}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{C6H5NH2}\\)} : {\\(K_b=\\num{4e-10}\\)} {\\(\\ce{(CH3)3N}\\)} : {\\(K_b=\\num{6,3e-5}\\)}, {\\(K_b\\)} ({\\(\\ce{C6H5NH2}\\)}) \\textless{} {\\(K_b\\)}\n  ({\\(\\ce{(CH3)3N}\\)})\n\\item\n  {\\(\\ce{C5H5N}\\)} : {\\(K_b=\\num{1,6e-9}\\)} {\\(\\ce{NH2NH2}\\)} : {\\(K_b=\\num{1,6e-6}\\)} {\\(K_b\\)} ({\\(\\ce{C5H5N}\\)}) \\textless{} {\\(K_b\\)}\n  ({\\(\\ce{NH2NH2}\\)})\n\\item\n  {\\(\\ce{ClO2^-}\\)} : {\\(pK_b=14-pK_a\\implies pK_b=12\\implies K_b=\\num{1e-12}\\)} {\\(\\ce{HSO3^-}\\)} :\n  {\\(pK_b=14-pK_a\\implies pK_b=12,2\\implies K_b=\\num{6,3e-13}\\)} {\\(K_b\\)} ({\\(\\ce{ClO2^-}\\)}) \\textgreater{} {\\(K_b\\)} ({\\(\\ce{HSO3^-}\\)})\n\\item\n  {\\(\\ce{C6H5CO2^-}\\)} : {\\(pK_a=14-pK_b\\implies pK_b=9,8\\implies K_b=\\num{1,6e-10}\\)}, {\\(\\ce{CH2ClCO2^-}\\)} :\n  {\\(pK_a=14-pK_b\\implies pK_a=11,2\\implies K_a=\\num{6,3e-12}\\)}, {\\(K_b\\)} ({\\(\\ce{C6H5CO2^-}\\)}) \\textgreater{} {\\(K_b\\)} ({\\(\\ce{CH2ClCO2^-}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -25059,14 +25115,14 @@
       },
       "choices": [
         {
-          "html": "2 e 3",
-          "md": "**2** e **3**",
-          "tex": "\\textbf{2} e \\textbf{3}"
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
         },
         {
-          "html": "2 e 4",
-          "md": "**2** e **4**",
-          "tex": "\\textbf{2} e \\textbf{4}"
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
         },
         {
           "html": "3 e 4",
@@ -25074,69 +25130,77 @@
           "tex": "\\textbf{3} e \\textbf{4}"
         },
         {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        },
+        {
           "html": "2, 3 e 4",
           "md": "**2**, **3** e **4**",
           "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
-        },
-        {
-          "html": "1, 2, 3 e 4",
-          "md": "**1**, **2**, **3** e **4**",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 2
     },
     {
       "id_": "2G22",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G22/2G22.md",
-      "date": "2023-05-06T20:12:39.439574",
+      "date": "2023-05-25T16:48:27.677072",
       "statement": {
         "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><img src=\"2G22-1D.svg\"/></li>\n<li><img src=\"2G22-2D.svg\"/></li>\n<li><img src=\"2G22-3D.svg\"/></li>\n<li><img src=\"2G22-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os pares de ácidos.\n\n1.  ![](2G22-1D.svg)\n2.  ![](2G22-2D.svg)\n3.  ![](2G22-3D.svg)\n4.  ![](2G22-4D.svg)\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1](=[3,,,,fix]O)-[-1]NH_2}\n\\item\n  \\chemfig{-[1](-[3])-[-1]\\chembelow{P}{H}-[1]} \\quad e \\quad \\chemfig{-[1](-[3])-[-1]\\chembelow{N}{H}-[1]} \n\\item\n  \\chemfig{*6(---(-OH)---)} e \\quad \\chemfig{*6(---(-SH)---)}\n\\item\n  \\chemfig{*6(---(-NH_2)---)} e \\quad \\chemfig{*6(---(-C~[1]CH)---)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{CH3COO^-}\\)</span>) há\nestabilização por ressonância de modo que a carga negativa é “dividida”\nentre os átomos de oxigênio que por serem maiores comportam melhor essa\ncarga sendo seus pares eletrônicos menos disponíveis para um ataque\nnucleofílico, aumentando a ionização. <span class=\"math inline\">\\(\\ce{CH3CONH2}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{CH3CONH^-}\\)</span>) há estabilização por\nressonância de modo que a carga negativa é “dividida” entre o átomo de\noxigênio e o átomo de nitrogênio que por ser menor comporta pior essa\ncarga sendo seu par eletrônico mais disponível para um ataque\nnucleofílico, diminuindo a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3COOH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3CONH2}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{(CH3)2CH2PHCH3}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{(CH3)CH2PCH3^-}\\)</span>)\ncomo o fósforo é maior, este comporta melhor a carga negativa de modo\nque seu par eletrônico se encontra menos disponível para um ataque\nnucleofílico, aumentando a ionização. <span class=\"math inline\">\\(\\ce{(CH3)2CH2NHCH3}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{(CH3)CH2NCH3^-}\\)</span>) como o\nnitrogênio é menor, este comporta pior a carga negativa de modo que seu\npar eletrônico se encontra mais disponível para um ataque nucleofílico,\ndiminuindo a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{(CH3)CH2PHCH3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{(CH3)CH2NHCH3}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C6H11OH}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{C6H11O^-}\\)</span>) como o\noxigênio é menor, este comporta pior a carga negativa de modo que seu\npar eletrônico se encontra mais disponível para um ataque nucleofílico,\ndiminuindo a ionização. <span class=\"math inline\">\\(\\ce{C6H11SH}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{C6H11S^-}\\)</span>) como o enxofre é maior,\neste comporta melhor a carga negativa de modo que seu par eletrônico se\nencontra menos disponível para um ataque nucleofílico, aumentando a\nionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6H11OH}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6H11SH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C6H11NH2}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{C6H11NH^-}\\)</span>) como o\nnitrogênio é maior, este comporta melhor a carga negativa de modo que\nseu par eletrônico se encontra menos disponível para um ataque\nnucleofílico, aumentando a ionização. <span class=\"math inline\">\\(\\ce{C6H11CCH}\\)</span> : Na base conjugada (<span class=\"math inline\">\\(\\ce{C6H11CC^-}\\)</span>) como o carbono é menor,\neste comporta pior a carga negativa de modo que seu par eletrônico se\nencontra mais disponível para um ataque nucleofílico, diminuindo a\nionização. Contudo, a carga negativa se encontra no orbital sp do\ncarbono que por ser muito pequeno se encontra muito próximo ao núcleo, o\nque estabiliza essa base, aumentando sua ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6H11NH2}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6H11CCH}\\)</span>) (Gabarito errado)</li>\n</ol>",
+        "md": "1.  $\\ce{CH3COOH}$ : Na base conjugada ($\\ce{CH3COO^-}$) há\n    estabilização por ressonância de modo que a carga negativa é\n    \"dividida\" entre os átomos de oxigênio que por serem maiores\n    comportam melhor essa carga sendo seus pares eletrônicos menos\n    disponíveis para um ataque nucleofílico, aumentando a ionização.\n    $\\ce{CH3CONH2}$ : Na base conjugada ($\\ce{CH3CONH^-}$) há\n    estabilização por ressonância de modo que a carga negativa é\n    \"dividida\" entre o átomo de oxigênio e o átomo de nitrogênio que por\n    ser menor comporta pior essa carga sendo seu par eletrônico mais\n    disponível para um ataque nucleofílico, diminuindo a ionização.\n    $pK_a$ ($\\ce{CH3COOH}$) &lt; $pK_a$ ($\\ce{CH3CONH2}$)\n2.  $\\ce{(CH3)2CH2PHCH3}$ : Na base conjugada ($\\ce{(CH3)CH2PCH3^-}$)\n    como o fósforo é maior, este comporta melhor a carga negativa de\n    modo que seu par eletrônico se encontra menos disponível para um\n    ataque nucleofílico, aumentando a ionização. $\\ce{(CH3)2CH2NHCH3}$ :\n    Na base conjugada ($\\ce{(CH3)CH2NCH3^-}$) como o nitrogênio é menor,\n    este comporta pior a carga negativa de modo que seu par eletrônico\n    se encontra mais disponível para um ataque nucleofílico, diminuindo\n    a ionização. $pK_a$ ($\\ce{(CH3)CH2PHCH3}$) &lt; $pK_a$\n    ($\\ce{(CH3)CH2NHCH3}$)\n3.  $\\ce{C6H11OH}$ : Na base conjugada ($\\ce{C6H11O^-}$) como o oxigênio\n    é menor, este comporta pior a carga negativa de modo que seu par\n    eletrônico se encontra mais disponível para um ataque nucleofílico,\n    diminuindo a ionização. $\\ce{C6H11SH}$ : Na base conjugada\n    ($\\ce{C6H11S^-}$) como o enxofre é maior, este comporta melhor a\n    carga negativa de modo que seu par eletrônico se encontra menos\n    disponível para um ataque nucleofílico, aumentando a ionização.\n    $pK_a$ ($\\ce{C6H11OH}$) &gt; $pK_a$ ($\\ce{C6H11SH}$)\n4.  $\\ce{C6H11NH2}$ : Na base conjugada ($\\ce{C6H11NH^-}$) como o\n    nitrogênio é maior, este comporta melhor a carga negativa de modo\n    que seu par eletrônico se encontra menos disponível para um ataque\n    nucleofílico, aumentando a ionização. $\\ce{C6H11CCH}$ : Na base\n    conjugada ($\\ce{C6H11CC^-}$) como o carbono é menor, este comporta\n    pior a carga negativa de modo que seu par eletrônico se encontra\n    mais disponível para um ataque nucleofílico, diminuindo a ionização.\n    Contudo, a carga negativa se encontra no orbital sp do carbono que\n    por ser muito pequeno se encontra muito próximo ao núcleo, o que\n    estabiliza essa base, aumentando sua ionização. $pK_a$\n    ($\\ce{C6H11NH2}$) &gt; $pK_a$ ($\\ce{C6H11CCH}$) (Gabarito errado)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{CH3COOH}\\)} : Na base conjugada ({\\(\\ce{CH3COO^-}\\)}) há estabilização por ressonância de modo que a carga negativa é ``dividida'' entre os\n  átomos de oxigênio que por serem maiores comportam melhor essa carga sendo seus pares eletrônicos menos disponíveis para um ataque nucleofílico,\n  aumentando a ionização. {\\(\\ce{CH3CONH2}\\)} : Na base conjugada ({\\(\\ce{CH3CONH^-}\\)}) há estabilização por ressonância de modo que a carga negativa\n  é ``dividida'' entre o átomo de oxigênio e o átomo de nitrogênio que por ser menor comporta pior essa carga sendo seu par eletrônico mais disponível\n  para um ataque nucleofílico, diminuindo a ionização. {\\(pK_a\\)} ({\\(\\ce{CH3COOH}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{CH3CONH2}\\)})\n\\item\n  {\\(\\ce{(CH3)2CH2PHCH3}\\)} : Na base conjugada ({\\(\\ce{(CH3)CH2PCH3^-}\\)}) como o fósforo é maior, este comporta melhor a carga negativa de modo que\n  seu par eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização. {\\(\\ce{(CH3)2CH2NHCH3}\\)} : Na base conjugada\n  ({\\(\\ce{(CH3)CH2NCH3^-}\\)}) como o nitrogênio é menor, este comporta pior a carga negativa de modo que seu par eletrônico se encontra mais\n  disponível para um ataque nucleofílico, diminuindo a ionização. {\\(pK_a\\)} ({\\(\\ce{(CH3)CH2PHCH3}\\)}) \\textless{} {\\(pK_a\\)}\n  ({\\(\\ce{(CH3)CH2NHCH3}\\)})\n\\item\n  {\\(\\ce{C6H11OH}\\)} : Na base conjugada ({\\(\\ce{C6H11O^-}\\)}) como o oxigênio é menor, este comporta pior a carga negativa de modo que seu par\n  eletrônico se encontra mais disponível para um ataque nucleofílico, diminuindo a ionização. {\\(\\ce{C6H11SH}\\)} : Na base conjugada\n  ({\\(\\ce{C6H11S^-}\\)}) como o enxofre é maior, este comporta melhor a carga negativa de modo que seu par eletrônico se encontra menos disponível para\n  um ataque nucleofílico, aumentando a ionização. {\\(pK_a\\)} ({\\(\\ce{C6H11OH}\\)}) \\textgreater{} {\\(pK_a\\)} ({\\(\\ce{C6H11SH}\\)})\n\\item\n  {\\(\\ce{C6H11NH2}\\)} : Na base conjugada ({\\(\\ce{C6H11NH^-}\\)}) como o nitrogênio é maior, este comporta melhor a carga negativa de modo que seu par\n  eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização. {\\(\\ce{C6H11CCH}\\)} : Na base conjugada\n  ({\\(\\ce{C6H11CC^-}\\)}) como o carbono é menor, este comporta pior a carga negativa de modo que seu par eletrônico se encontra mais disponível para\n  um ataque nucleofílico, diminuindo a ionização. Contudo, a carga negativa se encontra no orbital sp do carbono que por ser muito pequeno se encontra\n  muito próximo ao núcleo, o que estabiliza essa base, aumentando sua ionização. {\\(pK_a\\)} ({\\(\\ce{C6H11NH2}\\)}) \\textgreater{} {\\(pK_a\\)}\n  ({\\(\\ce{C6H11CCH}\\)}) (Gabarito errado)\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
         {
-          "html": "1 e 2",
-          "md": "**1** e **2**",
-          "tex": "\\textbf{1} e \\textbf{2}"
+          "html": "3",
+          "md": "**3**",
+          "tex": "\\textbf{3}"
         },
         {
-          "html": "1 e 4",
-          "md": "**1** e **4**",
-          "tex": "\\textbf{1} e \\textbf{4}"
+          "html": "4",
+          "md": "**4**",
+          "tex": "\\textbf{4}"
         },
         {
-          "html": "2 e 4",
-          "md": "**2** e **4**",
-          "tex": "\\textbf{2} e \\textbf{4}"
+          "html": "3 e 4",
+          "md": "**3** e **4**",
+          "tex": "\\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "1, 2 e 4",
-          "md": "**1**, **2** e **4**",
-          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
         },
         {
-          "html": "1, 2, 3 e 4",
-          "md": "**1**, **2**, **3** e **4**",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 2
     },
     {
       "id_": "2G09",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G09/2G09.md",
-      "date": "2023-05-07T19:22:40.034791",
+      "date": "2023-05-25T16:18:08.214031",
       "statement": {
         "html": "<p>O pH de uma solução de ácido clorídrico é <span class=\"math inline\">\\(\\pu{3,4}\\)</span> em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pOH\nda solução.</p>",
         "md": "O pH de uma solução de ácido clorídrico é $\\pu{3,4}$ em\n$\\pu{25 \\degree C}$.\n\n**Assinale** a alternativa que mais se aproxima do pOH da solução.\n",
         "tex": "O pH de uma solução de ácido clorídrico é {\\(\\num{3,4}\\)} em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pOH da solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[pH+pOH=14\\implies 3,4+pOH=14\\implies\npOH=11,6\\]</span></p>",
+        "md": "$$pH+pOH=14\\implies 3,4+pOH=14\\implies\npOH=11,6$$\n",
+        "tex": "{\\[pH+pOH=14\\implies 3,4+pOH=14\\implies\npOH=11,6\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25171,13 +25235,17 @@
     {
       "id_": "2G36",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G36/2G36.md",
-      "date": "2023-05-07T19:23:42.947157",
+      "date": "2023-05-25T16:56:24.136760",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{8e-7\nmol.L-1}\\)</span> de amida de sódio, <span class=\"math inline\">\\(\\ce{NaNH2}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
         "md": "Considere uma solução $\\pu{8e-7 mol.L-1}$ de amida de sódio,\n$\\ce{NaNH2}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
         "tex": "Considere uma solução {\\(\\qty{8e-7}{\\unit{mol.L^{-1}}}\\)} de amida de sódio, {\\(\\ce{NaNH2}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Balanço de carga: <span class=\"math display\">\\[[\\ce{H3O^+}]+[\\ce{Na^+}]=[\\ce{OH^-}]\\]</span>\n<span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]+[\\ce{Na^+}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies\\]</span> <span class=\"math display\">\\[[\\ce{Na^+}]\\approx\\pu{8e-7\nmol.L-1}:[\\ce{H3O^+}]^2+8e-7[\\ce{H3O^+}]-10^{-14}=0\\implies\\]</span>\n<span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]&gt;0:[\\ce{H3O^+}]=\\frac{-8e-7+\\sqrt{68e-14}}{2}\\approx\\pu{1,2e-8\nmol.L-1}\\]</span></p>",
+        "md": "Balanço de carga: $$[\\ce{H3O^+}]+[\\ce{Na^+}]=[\\ce{OH^-}]$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]+[\\ce{Na^+}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies$$ $$[\\ce{Na^+}]\\approx\\pu{8e-7\nmol.L-1}:[\\ce{H3O^+}]^2+8e-7[\\ce{H3O^+}]-10^{-14}=0\\implies$$ $$\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{-8e-7+\\sqrt{68e-14}}{2}\\approx\\pu{1,2e-8\nmol.L-1}$$\n",
+        "tex": "Balanço de carga: {\\[[\\ce{H3O^+}]+[\\ce{Na^+}]=[\\ce{OH^-}]\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]+[\\ce{Na^+}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies\\]} {\\[[\\ce{Na^+}]\\approx\\qty{8e-7}{\\unit{mol.L^{-1}}}:[\\ce{H3O^+}]^2+8e-7[\\ce{H3O^+}]-10^{-14}=0\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{-8e-7+\\sqrt{68e-14}}{2}\\approx\\qty{1,2e-8}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25212,13 +25280,17 @@
     {
       "id_": "2G30",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G30/2G30.md",
-      "date": "2023-05-22T17:40:03.031610",
+      "date": "2023-05-25T16:50:40.486743",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G30-1D.svg\"/></li>\n<li><img src=\"2G30-2D.svg\"/></li>\n<li><img src=\"2G30-3D.svg\"/></li>\n<li><img src=\"2G30-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G30-1D.svg)\n2.  ![](2G30-2D.svg)\n3.  ![](2G30-3D.svg)\n4.  ![](2G30-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1]-[-1](-[-2]Cl)(-[-4]Cl)-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1]-[-1](-[-3]Cl)-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{-[1]-[-1](-[-3]Br)-[1](=[3,,,,fix]O)-[-1]OH} \\quad e \\quad \\chemfig{-[1](-[3]Br)-[-1]-[1](=[3,,,,fix]O)-[-1]OH}\n\\item\n  \\chemfig{HO-[1]*6(-(-Cl)=(-Cl)-(-Cl)=(-Cl)-(-Cl)=)} \\quad e \\quad \\chemfig{HO-[1]*6(-(-)=(-)-(-)=(-)-(-)=)}\n\\item\n  \\chemfig{Cl-[1](-[2]Cl)(-[4]Cl)-[-1](-[-3]OH)-[1](-[2]Cl)(-[4]Cl)-[-1]Cl} \\quad e \\quad \\chemfig{-[1](-[2])(-[4])-[-1](-[-3]OH)-[1](-[2])(-[4])-[-1]}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{C2H5CCl2COOH}\\)</span> : Na molécula\nhá dois átomos de cloro responsáveis por um efeito indutivo puxador de\nelétrons o que enfraquece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto, aumenta a ionização.\n<span class=\"math inline\">\\(\\ce{C2H5CHClCOOH}\\)</span> : Na molécula há\num átomo de cloro responsável por um efeito indutivo puxador de elétrons\no que enfraquece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span>. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C2H5CCl2COOH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C2H5CHClCOOH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C2H5CHBrCOOH}\\)</span> : Na molécula\nhá um átomo de bromo responsável por um efeito indutivo puxador de\nelétrons mais próximo da ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> o que a enfraquece e portanto,\naumenta a ionização. <span class=\"math inline\">\\(\\ce{CH3CHBrCH2COOH}\\)</span> : Na molécula há um\nátomo de bromo responsável por um efeito indutivo puxador de elétrons\nmais distante da ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span>.,\ndiminuindo sua ionização. <span class=\"math inline\">\\(pK_a\\)</span>\n(<span class=\"math inline\">\\(\\ce{C2H5CHBrCOOH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH3CHBrCH2COOHCOOH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C6Cl5OH}\\)</span> : Na molécula há\ncinco átomos de cloro responsáveis por um efeito indutivo puxador de\nelétrons o que enfraquece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto, aumenta a ionização.\n<span class=\"math inline\">\\(\\ce{C6(CH3)5OH}\\)</span> : Na molécula há\ncinco grupos alquila responsáveis por um efeito indutivo doador de\nelétrons o que fortalece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto, diminui a ionização.\n<span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6Cl5OH}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C6(CH3)5OH}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{CCl3CHOHCCl3}\\)</span> : Na molécula\nhá seis átomos de cloro responsáveis por um efeito indutivo puxador de\nelétrons o que enfraquece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto, aumenta a ionização.\n<span class=\"math inline\">\\(\\ce{C(CH3)3CHOHC(CH3)3}\\)</span> :Na\nmolécula há seis grupos alquila responsáveis por um efeito indutivo\ndoador de elétrons o que fortalece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto, diminui a ionização.\n<span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CCl3CHOHCCl3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{C(CH3)3CHOHC(CH3)3}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{C2H5CCl2COOH}$ : Na molécula há dois átomos de cloro\n    responsáveis por um efeito indutivo puxador de elétrons o que\n    enfraquece a ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $\\ce{C2H5CHClCOOH}$ : Na molécula há um átomo de cloro responsável\n    por um efeito indutivo puxador de elétrons o que enfraquece a\n    ligação $\\ce{O-H}$. $pK_a$ ($\\ce{C2H5CCl2COOH}$) &lt; $pK_a$\n    ($\\ce{C2H5CHClCOOH}$)\n2.  $\\ce{C2H5CHBrCOOH}$ : Na molécula há um átomo de bromo responsável\n    por um efeito indutivo puxador de elétrons mais próximo da ligação\n    $\\ce{O-H}$ o que a enfraquece e portanto, aumenta a ionização.\n    $\\ce{CH3CHBrCH2COOH}$ : Na molécula há um átomo de bromo responsável\n    por um efeito indutivo puxador de elétrons mais distante da ligação\n    $\\ce{O-H}$., diminuindo sua ionização. $pK_a$ ($\\ce{C2H5CHBrCOOH}$)\n    &lt; $pK_a$ ($\\ce{CH3CHBrCH2COOHCOOH}$)\n3.  $\\ce{C6Cl5OH}$ : Na molécula há cinco átomos de cloro responsáveis\n    por um efeito indutivo puxador de elétrons o que enfraquece a\n    ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $\\ce{C6(CH3)5OH}$ : Na molécula há cinco grupos alquila responsáveis\n    por um efeito indutivo doador de elétrons o que fortalece a ligação\n    $\\ce{O-H}$ e portanto, diminui a ionização. $pK_a$ ($\\ce{C6Cl5OH}$)\n    &lt; $pK_a$ ($\\ce{C6(CH3)5OH}$)\n4.  $\\ce{CCl3CHOHCCl3}$ : Na molécula há seis átomos de cloro\n    responsáveis por um efeito indutivo puxador de elétrons o que\n    enfraquece a ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $\\ce{C(CH3)3CHOHC(CH3)3}$ :Na molécula há seis grupos alquila\n    responsáveis por um efeito indutivo doador de elétrons o que\n    fortalece a ligação $\\ce{O-H}$ e portanto, diminui a ionização.\n    $pK_a$ ($\\ce{CCl3CHOHCCl3}$) &lt; $pK_a$ ($\\ce{C(CH3)3CHOHC(CH3)3}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{C2H5CCl2COOH}\\)} : Na molécula há dois átomos de cloro responsáveis por um efeito indutivo puxador de elétrons o que enfraquece a ligação\n  {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(\\ce{C2H5CHClCOOH}\\)} : Na molécula há um átomo de cloro responsável por um efeito indutivo\n  puxador de elétrons o que enfraquece a ligação {\\(\\ce{O-H}\\)}. {\\(pK_a\\)} ({\\(\\ce{C2H5CCl2COOH}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{C2H5CHClCOOH}\\)})\n\\item\n  {\\(\\ce{C2H5CHBrCOOH}\\)} : Na molécula há um átomo de bromo responsável por um efeito indutivo puxador de elétrons mais próximo da ligação\n  {\\(\\ce{O-H}\\)} o que a enfraquece e portanto, aumenta a ionização. {\\(\\ce{CH3CHBrCH2COOH}\\)} : Na molécula há um átomo de bromo responsável por um\n  efeito indutivo puxador de elétrons mais distante da ligação {\\(\\ce{O-H}\\)}., diminuindo sua ionização. {\\(pK_a\\)} ({\\(\\ce{C2H5CHBrCOOH}\\)})\n  \\textless{} {\\(pK_a\\)} ({\\(\\ce{CH3CHBrCH2COOHCOOH}\\)})\n\\item\n  {\\(\\ce{C6Cl5OH}\\)} : Na molécula há cinco átomos de cloro responsáveis por um efeito indutivo puxador de elétrons o que enfraquece a ligação\n  {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(\\ce{C6(CH3)5OH}\\)} : Na molécula há cinco grupos alquila responsáveis por um efeito indutivo\n  doador de elétrons o que fortalece a ligação {\\(\\ce{O-H}\\)} e portanto, diminui a ionização. {\\(pK_a\\)} ({\\(\\ce{C6Cl5OH}\\)}) \\textless{} {\\(pK_a\\)}\n  ({\\(\\ce{C6(CH3)5OH}\\)})\n\\item\n  {\\(\\ce{CCl3CHOHCCl3}\\)} : Na molécula há seis átomos de cloro responsáveis por um efeito indutivo puxador de elétrons o que enfraquece a ligação\n  {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(\\ce{C(CH3)3CHOHC(CH3)3}\\)} :Na molécula há seis grupos alquila responsáveis por um efeito\n  indutivo doador de elétrons o que fortalece a ligação {\\(\\ce{O-H}\\)} e portanto, diminui a ionização. {\\(pK_a\\)} ({\\(\\ce{CCl3CHOHCCl3}\\)})\n  \\textless{} {\\(pK_a\\)} ({\\(\\ce{C(CH3)3CHOHC(CH3)3}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25253,13 +25325,17 @@
     {
       "id_": "2G34",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G34/2G34.md",
-      "date": "2023-05-07T16:18:38.694369",
+      "date": "2023-05-25T16:56:24.132761",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{2e-7\nmol.L-1}\\)</span> de ácido bromídrico, <span class=\"math inline\">\\(\\ce{HBr}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
         "md": "Considere uma solução $\\pu{2e-7 mol.L-1}$ de ácido bromídrico,\n$\\ce{HBr}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
         "tex": "Considere uma solução {\\(\\qty{2e-7}{\\unit{mol.L^{-1}}}\\)} de ácido bromídrico, {\\(\\ce{HBr}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Balanço de carga: <span class=\"math display\">\\[[\\ce{H3O^+}]=[\\ce{OH^-}]+[\\ce{Br^-}]\\]</span>\n<span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]-[\\ce{Br^-}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies\\]</span> <span class=\"math display\">\\[[\\ce{Br^-}]\\approx\\pu{2e-7\nmol.L-1}:[\\ce{H3O^+}]^2-2e-7[\\ce{H3O^+}]-10^{-14}=0\\implies\\]</span>\n<span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]&gt;0:[\\ce{H3O^+}]=\\frac{2e-7+\\sqrt{8e-14}}{2}\\approx\\pu{2,4e-7\nmol.L-1}\\]</span></p>",
+        "md": "Balanço de carga: $$[\\ce{H3O^+}]=[\\ce{OH^-}]+[\\ce{Br^-}]$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]-[\\ce{Br^-}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies$$ $$[\\ce{Br^-}]\\approx\\pu{2e-7\nmol.L-1}:[\\ce{H3O^+}]^2-2e-7[\\ce{H3O^+}]-10^{-14}=0\\implies$$ $$\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{2e-7+\\sqrt{8e-14}}{2}\\approx\\pu{2,4e-7\nmol.L-1}$$\n",
+        "tex": "Balanço de carga: {\\[[\\ce{H3O^+}]=[\\ce{OH^-}]+[\\ce{Br^-}]\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]-[\\ce{Br^-}])=\\pu{10^{-14}\nmol^2 L^{-2}}\\implies\\]} {\\[[\\ce{Br^-}]\\approx\\qty{2e-7}{\\unit{mol.L^{-1}}}:[\\ce{H3O^+}]^2-2e-7[\\ce{H3O^+}]-10^{-14}=0\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{2e-7+\\sqrt{8e-14}}{2}\\approx\\qty{2,4e-7}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25294,13 +25370,17 @@
     {
       "id_": "2G03",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G03/2G03.md",
-      "date": "2023-05-04T19:51:27.587034",
+      "date": "2023-05-25T16:56:24.132761",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{0,04\nmol.L-1}\\)</span> de hidróxido de sódio, <span class=\"math inline\">\\(\\ce{NaOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração cátions hidrônio nessa solução em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere uma solução $\\pu{0,04 mol.L-1}$ de hidróxido de sódio,\n$\\ce{NaOH}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração cátions\nhidrônio nessa solução em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere uma solução {\\(\\qty{0,04}{\\unit{mol.L^{-1}}}\\)} de hidróxido de sódio, {\\(\\ce{NaOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração cátions hidrônio nessa solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[[\\ce{OH^-}]\\approx[\\ce{NaOH}]=\\pu{4e-2\nmol.L-1}\\]</span> <span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{4e-2 mol.L-1}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]=\\pu{2,5e-13 mol.L-1}\\]</span></p>",
+        "md": "$$[\\ce{OH^-}]\\approx[\\ce{NaOH}]=\\pu{4e-2\nmol.L-1}$$ $$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{4e-2 mol.L-1}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$\\implies\n[\\ce{H3O^+}]=\\pu{2,5e-13 mol.L-1}$$\n",
+        "tex": "{\\[[\\ce{OH^-}]\\approx[\\ce{NaOH}]=\\qty{4e-2}{\\unit{mol.L^{-1}}}\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\qty{4e-2}{\\unit{mol.L^{-1}}}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]=\\qty{2,5e-13}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25335,13 +25415,17 @@
     {
       "id_": "2G20",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G20/2G20.md",
-      "date": "2023-05-06T20:05:30.452178",
+      "date": "2023-05-25T16:47:10.934425",
       "statement": {
         "html": "<p>Considere a reação: <span class=\"math display\">\\[\n    \\ce{ HIO3(aq) + NH2NH2(aq) &lt;=&gt; NH2NH3^+(aq) + IO3^-(aq) }\n\\]</span> <strong>Assinale</strong> a alternativa que mais se aproxima\nda constante de equilíbrio dessa reação.</p>",
         "md": "Considere a reação: $$\n    \\ce{ HIO3(aq) + NH2NH2(aq) <=> NH2NH3^+(aq) + IO3^-(aq) }\n$$ **Assinale** a alternativa que mais se aproxima da constante de\nequilíbrio dessa reação.\n",
         "tex": "Considere a reação: {\\[\n    \\ce{ HIO3(aq) + NH2NH2(aq) <=> NH2NH3^+(aq) + IO3^-(aq) }\n\\]} \\textbf{Assinale} a alternativa que mais se aproxima da constante de equilíbrio dessa reação.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[K_a(\\ce{HIO3})=\\frac{[\\ce{H3O^+}][IO3^-]}{[\\ce{HIO3}]}\\]</span>\n<span class=\"math display\">\\[K_b(\\ce{NH2NH2})=\\frac{[\\ce{OH^-}][NH2NH3^+]}{[\\ce{NH2NH2}]}\\]</span>\n<span class=\"math display\">\\[K=\\frac{[\\ce{IO3^-}][NH2NH3^+]}{[HIO3][\\ce{NH2NH2}]}=\\pu{K_a\nK_b//K_w}=\\frac{1,7e-1 1,7e-6}{10^{-14}}=2,89\\cdot 10^7\\]</span></p>",
+        "md": "$$K_a(\\ce{HIO3})=\\frac{[\\ce{H3O^+}][IO3^-]}{[\\ce{HIO3}]}$$\n$$K_b(\\ce{NH2NH2})=\\frac{[\\ce{OH^-}][NH2NH3^+]}{[\\ce{NH2NH2}]}$$\n$$K=\\frac{[\\ce{IO3^-}][NH2NH3^+]}{[HIO3][\\ce{NH2NH2}]}=\\pu{K_a\nK_b//K_w}=\\frac{1,7e-1 1,7e-6}{10^{-14}}=2,89\\cdot 10^7$$\n",
+        "tex": "{\\[K_a(\\ce{HIO3})=\\frac{[\\ce{H3O^+}][IO3^-]}{[\\ce{HIO3}]}\\]} {\\[K_b(\\ce{NH2NH2})=\\frac{[\\ce{OH^-}][NH2NH3^+]}{[\\ce{NH2NH2}]}\\]}\n{\\[K=\\frac{[\\ce{IO3^-}][NH2NH3^+]}{[HIO3][\\ce{NH2NH2}]}=\\tfrac{\\unit{K_a\nK_b}}{\\unit{K_w}}=\\frac{1,7e-1 1,7e-6}{10^{-14}}=2,89\\cdot 10^7\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -25395,13 +25479,17 @@
     {
       "id_": "2G08",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G08/2G08.md",
-      "date": "2023-05-06T19:57:16.767294",
+      "date": "2023-05-25T16:56:24.132761",
       "statement": {
         "html": "<p>O pH dos fluidos pancreáticos, que ajudam na digestão da comida\ndepois que ela deixou o estômago, é cerca de <span class=\"math inline\">\\(\\pu{8,3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de íons hidróxido nos fluidos pancreáticos.</p>",
         "md": "O pH dos fluidos pancreáticos, que ajudam na digestão da comida depois\nque ela deixou o estômago, é cerca de $\\pu{8,3}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de íons\nhidróxido nos fluidos pancreáticos.\n",
         "tex": "O pH dos fluidos pancreáticos, que ajudam na digestão da comida depois que ela deixou o estômago, é cerca de {\\(\\num{8,3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de íons hidróxido nos fluidos pancreáticos.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[pH=8,3=9-0,7\\approx -log(5e-9)\\implies\n[\\ce{H3O^+}]\\approx\\pu{5e-9 mol.L-1}\\]</span> <span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-9 mol.L-1}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[\\implies\n[\\ce{OH^-}]=\\pu{2e-6 mol.L-1}\\]</span></p>",
+        "md": "$$pH=8,3=9-0,7\\approx -log(5e-9)\\implies\n[\\ce{H3O^+}]\\approx\\pu{5e-9 mol.L-1}$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-9 mol.L-1}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$\\implies\n[\\ce{OH^-}]=\\pu{2e-6 mol.L-1}$$\n",
+        "tex": "{\\[pH=8,3=9-0,7\\approx -log(5e-9)\\implies\n[\\ce{H3O^+}]\\approx\\qty{5e-9}{\\unit{mol.L^{-1}}}\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\qty{5e-9}{\\unit{mol.L^{-1}}}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[\\implies\n[\\ce{OH^-}]=\\qty{2e-6}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25436,13 +25524,17 @@
     {
       "id_": "2G15",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G15/2G15.md",
-      "date": "2023-05-06T20:01:39.321122",
+      "date": "2023-05-25T16:20:09.502702",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa que mais se aproxima do <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span> do cátion <span class=\"math inline\">\\(\\ce{C5H5NH^+}\\)</span>.</p>",
         "md": "**Assinale** a alternativa que mais se aproxima do\n$\\mathrm{p}K_\\mathrm{a}$ do cátion $\\ce{C5H5NH^+}$.\n",
         "tex": "\\textbf{Assinale} a alternativa que mais se aproxima do {\\(\\mathrm{p}K_\\mathrm{a}\\)} do cátion {\\(\\ce{C5H5NH^+}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\ce{C5H5N_{(aq)} + H2O_{(l)} &lt;=&gt;\nC5H5NH^+_{(aq)} + OH^-_{(aq)}}\\]</span> <span class=\"math display\">\\[K_b=\\frac{[\\ce{OH^-}][\\ce{C5H5NH^+}]}{[\\ce{C5H5N}]}\\]</span>\n<span class=\"math display\">\\[\\ce{C5H5NH^+_{(aq)} + H2O_{(l)} &lt;=&gt;\nC5H5N_{(aq)} + H3O^+_{(aq)}}\\]</span> <span class=\"math display\">\\[K_a=\\frac{[\\ce{H3O^+}][\\ce{C5H5N}]}{[\\ce{C5H5NH^+}]}=\\frac{[\\ce{H3O^+}][\\ce{OH^-}]}{K_b}=\\frac{K_w}{K_b}\\implies\\]</span>\n<span class=\"math display\">\\[pK_a=pK_w-pK_b=14-8,8=5,2\\]</span></p>",
+        "md": "$$\\ce{C5H5N_{(aq)} + H2O_{(l)} <=>\nC5H5NH^+_{(aq)} + OH^-_{(aq)}}$$\n$$K_b=\\frac{[\\ce{OH^-}][\\ce{C5H5NH^+}]}{[\\ce{C5H5N}]}$$\n$$\\ce{C5H5NH^+_{(aq)} + H2O_{(l)} <=>\nC5H5N_{(aq)} + H3O^+_{(aq)}}$$\n$$K_a=\\frac{[\\ce{H3O^+}][\\ce{C5H5N}]}{[\\ce{C5H5NH^+}]}=\\frac{[\\ce{H3O^+}][\\ce{OH^-}]}{K_b}=\\frac{K_w}{K_b}\\implies$$\n$$pK_a=pK_w-pK_b=14-8,8=5,2$$\n",
+        "tex": "{\\[\\ce{C5H5N_{(aq)} + H2O_{(l)} <=>\nC5H5NH^+_{(aq)} + OH^-_{(aq)}}\\]} {\\[K_b=\\frac{[\\ce{OH^-}][\\ce{C5H5NH^+}]}{[\\ce{C5H5N}]}\\]} {\\[\\ce{C5H5NH^+_{(aq)} + H2O_{(l)} <=>\nC5H5N_{(aq)} + H3O^+_{(aq)}}\\]} {\\[K_a=\\frac{[\\ce{H3O^+}][\\ce{C5H5N}]}{[\\ce{C5H5NH^+}]}=\\frac{[\\ce{H3O^+}][\\ce{OH^-}]}{K_b}=\\frac{K_w}{K_b}\\implies\\]}\n{\\[pK_a=pK_w-pK_b=14-8,8=5,2\\]}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -25488,13 +25580,17 @@
     {
       "id_": "2G14",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G14/2G14.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:20:04.218841",
       "statement": {
         "html": "<p><strong>Assinale</strong> a alternativa com a constante de\nbasicidade, <span class=\"math inline\">\\(K_\\mathrm{b}\\)</span>, da\nmetilamina, <span class=\"math inline\">\\(\\ce{CH3NH2}\\)</span>.</p>",
         "md": "**Assinale** a alternativa com a constante de basicidade,\n$K_\\mathrm{b}$, da metilamina, $\\ce{CH3NH2}$.\n",
         "tex": "\\textbf{Assinale} a alternativa com a constante de basicidade, {\\(K_\\mathrm{b}\\)}, da metilamina, {\\(\\ce{CH3NH2}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[\\ce{CH3NH2_{(aq)} + H2O_{(l)} &lt;=&gt;\nCH3NH3^+_{(aq)} + OH^-_{(aq)}}\\]</span> <span class=\"math display\">\\[K_b=\\frac{[\\ce{OH^-}][\\ce{CH3NH3^+}]}{[\\ce{CH3NH2}]}\\]</span></p>",
+        "md": "$$\\ce{CH3NH2_{(aq)} + H2O_{(l)} <=>\nCH3NH3^+_{(aq)} + OH^-_{(aq)}}$$\n$$K_b=\\frac{[\\ce{OH^-}][\\ce{CH3NH3^+}]}{[\\ce{CH3NH2}]}$$\n",
+        "tex": "{\\[\\ce{CH3NH2_{(aq)} + H2O_{(l)} <=>\nCH3NH3^+_{(aq)} + OH^-_{(aq)}}\\]} {\\[K_b=\\frac{[\\ce{OH^-}][\\ce{CH3NH3^+}]}{[\\ce{CH3NH2}]}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25529,13 +25625,17 @@
     {
       "id_": "2G35",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G35/2G35.md",
-      "date": "2023-05-07T19:23:57.258573",
+      "date": "2023-05-25T16:56:24.128761",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{9e-8\nmol.L-1}\\)</span> de hidróxido de potássio, <span class=\"math inline\">\\(\\ce{KOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de <span class=\"math inline\">\\(\\ce{H3O^+}\\)</span> nessa\nsolução.</p>",
         "md": "Considere uma solução $\\pu{9e-8 mol.L-1}$ de hidróxido de potássio,\n$\\ce{KOH}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\n$\\ce{H3O^+}$ nessa solução.\n",
         "tex": "Considere uma solução {\\(\\qty{9e-8}{\\unit{mol.L^{-1}}}\\)} de hidróxido de potássio, {\\(\\ce{KOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de {\\(\\ce{H3O^+}\\)} nessa solução.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Balanço de carga: <span class=\"math display\">\\[[\\ce{H3O^+}]+[\\ce{K^+}]=[\\ce{OH^-}]\\]</span>\n<span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]+[\\ce{K^+}])=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[[\\ce{K^+}]\\approx\\pu{9e-8\nmol.L-1}:[\\ce{H3O^+}]^2+9e-8[\\ce{H3O^+}]-10^{-14}=0\\implies\\]</span>\n<span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]&gt;0:[\\ce{H3O^+}]=\\frac{-9e-8+\\sqrt{4,81e-14}}{2}\\approx\\pu{6,5e-8\nmol.L-1}\\]</span></p>",
+        "md": "Balanço de carga: $$[\\ce{H3O^+}]+[\\ce{K^+}]=[\\ce{OH^-}]$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]+[\\ce{K^+}])=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$[\\ce{K^+}]\\approx\\pu{9e-8\nmol.L-1}:[\\ce{H3O^+}]^2+9e-8[\\ce{H3O^+}]-10^{-14}=0\\implies$$ $$\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{-9e-8+\\sqrt{4,81e-14}}{2}\\approx\\pu{6,5e-8\nmol.L-1}$$\n",
+        "tex": "Balanço de carga: {\\[[\\ce{H3O^+}]+[\\ce{K^+}]=[\\ce{OH^-}]\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies [\\ce{H3O^+}]([\\ce{H3O^+}]+[\\ce{K^+}])=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[[\\ce{K^+}]\\approx\\qty{9e-8}{\\unit{mol.L^{-1}}}:[\\ce{H3O^+}]^2+9e-8[\\ce{H3O^+}]-10^{-14}=0\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]>0:[\\ce{H3O^+}]=\\frac{-9e-8+\\sqrt{4,81e-14}}{2}\\approx\\qty{6,5e-8}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25570,13 +25670,17 @@
     {
       "id_": "2G17",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G17/2G17.md",
-      "date": "2023-05-06T20:02:03.512981",
+      "date": "2023-05-25T16:26:38.009551",
       "statement": {
-        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HIO3}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH3^+}\\)</span> e <span class=\"math inline\">\\(\\ce{(CH3)3NH^+}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH^+}\\)</span> e <span class=\"math inline\">\\(\\ce{NH2NH3^+}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro ácido é mais forte.</p>",
-        "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HF}$ e $\\ce{HClO}$\n2.  $\\ce{HIO3}$ e $\\ce{HClO2}$\n3.  $\\ce{C6H5NH3^+}$ e $\\ce{(CH3)3NH^+}$\n4.  $\\ce{C6H5NH^+}$ e $\\ce{NH2NH3^+}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nácido é mais forte.\n",
-        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{HClO}\\)}\n\\item\n  {\\(\\ce{HIO3}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{C6H5NH3^+}\\)} e {\\(\\ce{(CH3)3NH^+}\\)}\n\\item\n  {\\(\\ce{C6H5NH^+}\\)} e {\\(\\ce{NH2NH3^+}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro ácido é mais forte.\n"
+        "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HIO3}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH3^+}\\)</span> e <span class=\"math inline\">\\(\\ce{(CH3)3NH^+}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{C5H5NH^+}\\)</span> e <span class=\"math inline\">\\(\\ce{NH2NH3^+}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro ácido é mais forte.</p>",
+        "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HF}$ e $\\ce{HClO}$\n2.  $\\ce{HIO3}$ e $\\ce{HClO2}$\n3.  $\\ce{C6H5NH3^+}$ e $\\ce{(CH3)3NH^+}$\n4.  $\\ce{C5H5NH^+}$ e $\\ce{NH2NH3^+}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\nácido é mais forte.\n",
+        "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{HClO}\\)}\n\\item\n  {\\(\\ce{HIO3}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{C6H5NH3^+}\\)} e {\\(\\ce{(CH3)3NH^+}\\)}\n\\item\n  {\\(\\ce{C5H5NH^+}\\)} e {\\(\\ce{NH2NH3^+}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro ácido é mais forte.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> : <span class=\"math inline\">\\(K_a=\\pu{4e-4}\\)</span> <span class=\"math inline\">\\(\\ce{HClO}\\)</span> : <span class=\"math inline\">\\(K_a=\\pu{3e-8}\\)</span> <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{HF}\\)</span>) &gt; <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{HIO3}\\)</span> : <span class=\"math inline\">\\(K_a=\\pu{1,7e-1}\\)</span> <span class=\"math inline\">\\(\\ce{HClO2}\\)</span> : <span class=\"math inline\">\\(K_a=1e-2\\)</span> <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{HIO3}\\)</span>) &gt; <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO2}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C6H5NH3^+}\\)</span> : <span class=\"math inline\">\\(pK_a=14-pK_b\\implies pK_a=4,6\\implies\nK_a=\\pu{2,5e-5}\\)</span> <span class=\"math inline\">\\(\\ce{(CH3)3NH^+}\\)</span> : <span class=\"math inline\">\\(pK_a=14-pK_b\\implies pK_a=9,8\\implies\nK_a=\\pu{1,6e-10}\\)</span> <span class=\"math inline\">\\(K_a\\)</span>\n(<span class=\"math inline\">\\(\\ce{C6H5NH3^+}\\)</span>) &gt; <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{(CH3)3NH^+}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{C5H5NH^+}\\)</span> : <span class=\"math inline\">\\(pK_a=14-pK_b\\implies pK_a=5,2\\implies\nK_a=\\pu{6,3e-6}\\)</span> <span class=\"math inline\">\\(\\ce{NH2NH3^+}\\)</span> : <span class=\"math inline\">\\(pK_a=14-pK_b\\implies pK_a=8,2\\implies\nK_a=\\pu{6,3e-9}\\)</span> <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{C5H5NH^+}\\)</span>) &gt; <span class=\"math inline\">\\(K_a\\)</span> (<span class=\"math inline\">\\(\\ce{NH2NH3^+}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{HF}$ : $K_a=\\pu{4e-4}$ $\\ce{HClO}$ : $K_a=\\pu{3e-8}$ $K_a$\n    ($\\ce{HF}$) &gt; $K_a$ ($\\ce{HClO}$)\n2.  $\\ce{HIO3}$ : $K_a=\\pu{1,7e-1}$ $\\ce{HClO2}$ : $K_a=1e-2$ $K_a$\n    ($\\ce{HIO3}$) &gt; $K_a$ ($\\ce{HClO2}$)\n3.  $\\ce{C6H5NH3^+}$ :\n    $pK_a=14-pK_b\\implies pK_a=4,6\\implies K_a=\\pu{2,5e-5}$\n    $\\ce{(CH3)3NH^+}$ :\n    $pK_a=14-pK_b\\implies pK_a=9,8\\implies K_a=\\pu{1,6e-10}$ $K_a$\n    ($\\ce{C6H5NH3^+}$) &gt; $K_a$ ($\\ce{(CH3)3NH^+}$)\n4.  $\\ce{C5H5NH^+}$ :\n    $pK_a=14-pK_b\\implies pK_a=5,2\\implies K_a=\\pu{6,3e-6}$\n    $\\ce{NH2NH3^+}$ :\n    $pK_a=14-pK_b\\implies pK_a=8,2\\implies K_a=\\pu{6,3e-9}$ $K_a$\n    ($\\ce{C5H5NH^+}$) &gt; $K_a$ ($\\ce{NH2NH3^+}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} : {\\(K_a=\\num{4e-4}\\)} {\\(\\ce{HClO}\\)} : {\\(K_a=\\num{3e-8}\\)} {\\(K_a\\)} ({\\(\\ce{HF}\\)}) \\textgreater{} {\\(K_a\\)} ({\\(\\ce{HClO}\\)})\n\\item\n  {\\(\\ce{HIO3}\\)} : {\\(K_a=\\num{1,7e-1}\\)} {\\(\\ce{HClO2}\\)} : {\\(K_a=1e-2\\)} {\\(K_a\\)} ({\\(\\ce{HIO3}\\)}) \\textgreater{} {\\(K_a\\)} ({\\(\\ce{HClO2}\\)})\n\\item\n  {\\(\\ce{C6H5NH3^+}\\)} : {\\(pK_a=14-pK_b\\implies pK_a=4,6\\implies K_a=\\num{2,5e-5}\\)} {\\(\\ce{(CH3)3NH^+}\\)} :\n  {\\(pK_a=14-pK_b\\implies pK_a=9,8\\implies K_a=\\num{1,6e-10}\\)} {\\(K_a\\)} ({\\(\\ce{C6H5NH3^+}\\)}) \\textgreater{} {\\(K_a\\)} ({\\(\\ce{(CH3)3NH^+}\\)})\n\\item\n  {\\(\\ce{C5H5NH^+}\\)} : {\\(pK_a=14-pK_b\\implies pK_a=5,2\\implies K_a=\\num{6,3e-6}\\)} {\\(\\ce{NH2NH3^+}\\)} :\n  {\\(pK_a=14-pK_b\\implies pK_a=8,2\\implies K_a=\\num{6,3e-9}\\)} {\\(K_a\\)} ({\\(\\ce{C5H5NH^+}\\)}) \\textgreater{} {\\(K_a\\)} ({\\(\\ce{NH2NH3^+}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": {
         "quantities": [
@@ -25648,19 +25752,9 @@
       },
       "choices": [
         {
-          "html": "1 e 2",
-          "md": "**1** e **2**",
-          "tex": "\\textbf{1} e \\textbf{2}"
-        },
-        {
-          "html": "1 e 4",
-          "md": "**1** e **4**",
-          "tex": "\\textbf{1} e \\textbf{4}"
-        },
-        {
-          "html": "2 e 4",
-          "md": "**2** e **4**",
-          "tex": "\\textbf{2} e \\textbf{4}"
+          "html": "1, 2 e 3",
+          "md": "**1**, **2** e **3**",
+          "tex": "\\textbf{1}, \\textbf{2} e \\textbf{3}"
         },
         {
           "html": "1, 2 e 4",
@@ -25668,23 +25762,37 @@
           "tex": "\\textbf{1}, \\textbf{2} e \\textbf{4}"
         },
         {
+          "html": "1, 3 e 4",
+          "md": "**1**, **3** e **4**",
+          "tex": "\\textbf{1}, \\textbf{3} e \\textbf{4}"
+        },
+        {
+          "html": "2, 3 e 4",
+          "md": "**2**, **3** e **4**",
+          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
+        },
+        {
           "html": "1, 2, 3 e 4",
           "md": "**1**, **2**, **3** e **4**",
           "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 4
     },
     {
       "id_": "2G07",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G07/2G07.md",
-      "date": "2023-05-04T19:59:17.186642",
+      "date": "2023-05-25T16:56:24.128761",
       "statement": {
         "html": "<p>O pH dos fluidos estomacais é cerca de <span class=\"math inline\">\\(\\pu{1,7}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de cátions hidrônio no estômago.</p>",
         "md": "O pH dos fluidos estomacais é cerca de $\\pu{1,7}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração de\ncátions hidrônio no estômago.\n",
         "tex": "O pH dos fluidos estomacais é cerca de {\\(\\num{1,7}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de cátions hidrônio no estômago.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[pH=1,7=2-0,3\\approx -log(2e-2)\\implies\n[\\ce{H3O^+}]\\approx\\pu{2e-2 mol.L-1}\\]</span></p>",
+        "md": "$$pH=1,7=2-0,3\\approx -log(2e-2)\\implies\n[\\ce{H3O^+}]\\approx\\pu{2e-2 mol.L-1}$$\n",
+        "tex": "{\\[pH=1,7=2-0,3\\approx -log(2e-2)\\implies\n[\\ce{H3O^+}]\\approx\\qty{2e-2}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25719,13 +25827,17 @@
     {
       "id_": "2G23",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G23/2G23.md",
-      "date": "2023-05-06T20:23:38.149024",
+      "date": "2023-05-25T16:48:43.416795",
       "statement": {
         "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G23-1D.svg\"/></li>\n<li><img src=\"2G23-2D.svg\"/></li>\n<li><img src=\"2G23-3D.svg\"/></li>\n<li><img src=\"2G23-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
         "md": "Considere os compostos.\n\n1.  ![](2G23-1D.svg)\n2.  ![](2G23-2D.svg)\n3.  ![](2G23-3D.svg)\n4.  ![](2G23-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
         "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](-[3]{\\color{blue} H_A})-[-1]-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]S-[-1]-[1]-[-1]-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{*6(--(-O-[1]{\\color{red} H_B})---N(-{\\color{blue} H_A})-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]S-[-1]-[1]-[-1]-[1]N(-[3])-[-1]{\\color{red} H_B}}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>Analisando as possíveis bases conjugadas, tem-se as possibilidades\nde uma carga negativa no carbono ou no oxigênio. Como o oxigênio é\nmaior, este comporta melhor a carga negativa de modo que seu par\neletrônico se encontra menos disponível para um ataque nucleofílico,\naumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, tem-se as possibilidades\nde uma carga negativa no enxofre ou no oxigênio. Como o enxofre é maior,\neste comporta melhor a carga negativa de modo que seu par eletrônico se\nencontra menos disponível para um ataque nucleofílico, aumentando a\nionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez\n(<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, tem-se as possibilidades\nde uma carga negativa no nitrogênio ou no oxigênio. Como o oxigênio é\nmaior, este comporta melhor a carga negativa de modo que seu par\neletrônico se encontra menos disponível para um ataque nucleofílico,\naumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, tem-se as possibilidades\nde uma carga negativa no enxofre ou no nitrogênio. Como o enxofre é\nmaior, este comporta melhor a carga negativa de modo que seu par\neletrônico se encontra menos disponível para um ataque nucleofílico,\naumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n</ol>",
+        "md": "1.  Analisando as possíveis bases conjugadas, tem-se as possibilidades\n    de uma carga negativa no carbono ou no oxigênio. Como o oxigênio é\n    maior, este comporta melhor a carga negativa de modo que seu par\n    eletrônico se encontra menos disponível para um ataque nucleofílico,\n    aumentando a ionização. Acidez ($H_a$) &lt; Acidez ($H_b$)\n2.  Analisando as possíveis bases conjugadas, tem-se as possibilidades\n    de uma carga negativa no enxofre ou no oxigênio. Como o enxofre é\n    maior, este comporta melhor a carga negativa de modo que seu par\n    eletrônico se encontra menos disponível para um ataque nucleofílico,\n    aumentando a ionização. Acidez ($H_a$) &gt; Acidez ($H_b$)\n3.  Analisando as possíveis bases conjugadas, tem-se as possibilidades\n    de uma carga negativa no nitrogênio ou no oxigênio. Como o oxigênio\n    é maior, este comporta melhor a carga negativa de modo que seu par\n    eletrônico se encontra menos disponível para um ataque nucleofílico,\n    aumentando a ionização. Acidez ($H_a$) &lt; Acidez ($H_b$)\n4.  Analisando as possíveis bases conjugadas, tem-se as possibilidades\n    de uma carga negativa no enxofre ou no nitrogênio. Como o enxofre é\n    maior, este comporta melhor a carga negativa de modo que seu par\n    eletrônico se encontra menos disponível para um ataque nucleofílico,\n    aumentando a ionização. Acidez ($H_a$) &gt; Acidez ($H_b$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Analisando as possíveis bases conjugadas, tem-se as possibilidades de uma carga negativa no carbono ou no oxigênio. Como o oxigênio é maior, este\n  comporta melhor a carga negativa de modo que seu par eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização.\n  Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, tem-se as possibilidades de uma carga negativa no enxofre ou no oxigênio. Como o enxofre é maior, este\n  comporta melhor a carga negativa de modo que seu par eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização.\n  Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, tem-se as possibilidades de uma carga negativa no nitrogênio ou no oxigênio. Como o oxigênio é maior, este\n  comporta melhor a carga negativa de modo que seu par eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização.\n  Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, tem-se as possibilidades de uma carga negativa no enxofre ou no nitrogênio. Como o enxofre é maior, este\n  comporta melhor a carga negativa de modo que seu par eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização.\n  Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25760,13 +25872,17 @@
     {
       "id_": "2G06",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G06/2G06.md",
-      "date": "2023-05-04T19:58:17.195222",
+      "date": "2023-05-25T16:56:24.124761",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{50 \\mu\nmol.L-1}\\)</span> de hidróxido de potássio, <span class=\"math inline\">\\(\\ce{KOH}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do pH da\nsolução em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere uma solução $\\pu{50 \\mu mol.L-1}$ de hidróxido de potássio,\n$\\ce{KOH}$.\n\n**Assinale** a alternativa que mais se aproxima do pH da solução em\n$\\pu{25 \\degree C}$.\n",
         "tex": "Considere uma solução {\\(\\qty{50}{\\unit{\\micro mol.L^{-1}}}\\)} de hidróxido de potássio, {\\(\\ce{KOH}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima do pH da solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[[\\ce{OH^-}]\\approx[\\ce{KOH}]=\\pu{5e-5\nmol.L-1}\\]</span> <span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-5 mol.L-1}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]=\\pu{2e-10 mol.L-1}\\implies pH=-log(2e-10)\\approx 9,7\n\\]</span></p>",
+        "md": "$$[\\ce{OH^-}]\\approx[\\ce{KOH}]=\\pu{5e-5\nmol.L-1}$$ $$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-5 mol.L-1}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$\\implies\n[\\ce{H3O^+}]=\\pu{2e-10 mol.L-1}\\implies pH=-log(2e-10)\\approx 9,7\n$$\n",
+        "tex": "{\\[[\\ce{OH^-}]\\approx[\\ce{KOH}]=\\qty{5e-5}{\\unit{mol.L^{-1}}}\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\qty{5e-5}{\\unit{mol.L^{-1}}}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]=\\qty{2e-10}{\\unit{mol.L^{-1}}}\\implies pH=-log(2e-10)\\approx 9,7\n\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25801,13 +25917,17 @@
     {
       "id_": "2G29",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G29/2G29.md",
-      "date": "2023-05-06T20:33:43.529704",
+      "date": "2023-05-25T16:50:26.782983",
       "statement": {
         "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HBrO2}\\)</span> e <span class=\"math inline\">\\(\\ce{HClO2}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2CO3}\\)</span> e <span class=\"math inline\">\\(\\ce{H2GeO3}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H3AsO4}\\)</span> e <span class=\"math inline\">\\(\\ce{H3PO4}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HClO}\\)</span> e <span class=\"math inline\">\\(\\ce{HIO}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HBrO2}$ e $\\ce{HClO2}$\n2.  $\\ce{H2CO3}$ e $\\ce{H2GeO3}$\n3.  $\\ce{H3AsO4}$ e $\\ce{H3PO4}$\n4.  $\\ce{HClO}$ e $\\ce{HIO}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HBrO2}\\)} e {\\(\\ce{HClO2}\\)}\n\\item\n  {\\(\\ce{H2CO3}\\)} e {\\(\\ce{H2GeO3}\\)}\n\\item\n  {\\(\\ce{H3AsO4}\\)} e {\\(\\ce{H3PO4}\\)}\n\\item\n  {\\(\\ce{HClO}\\)} e {\\(\\ce{HIO}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li>Como o cloro é mais eletronegativo que o bromo, este é responsável\npor um efeito indutivo puxador de elétrons mais forte, o que enfraquece\na ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto,\naumenta a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HBrO2}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO2}\\)</span>)</li>\n<li>Como o carbono é mais eletronegativo que o germânio, este é\nresponsável por um efeito indutivo puxador de elétrons mais forte, o que\nenfraquece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e\nportanto, aumenta a ionização. <span class=\"math inline\">\\(pK_a\\)</span>\n(<span class=\"math inline\">\\(\\ce{H2CO3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H2GeO3}\\)</span>)</li>\n<li>Como o fósforo é mais eletronegativo que o arsênio, este é\nresponsável por um efeito indutivo puxador de elétrons mais forte, o que\nenfraquece a ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e\nportanto, aumenta a ionização. <span class=\"math inline\">\\(pK_a\\)</span>\n(<span class=\"math inline\">\\(\\ce{H3AsO4}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H3PO4}\\)</span>)</li>\n<li>Como o cloro é mais eletronegativo que o iodo, este é responsável\npor um efeito indutivo puxador de elétrons mais forte, o que enfraquece\na ligação <span class=\"math inline\">\\(\\ce{O-H}\\)</span> e portanto,\naumenta a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HClO}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HiO}\\)</span>)</li>\n</ol>",
+        "md": "1.  Como o cloro é mais eletronegativo que o bromo, este é responsável\n    por um efeito indutivo puxador de elétrons mais forte, o que\n    enfraquece a ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $pK_a$ ($\\ce{HBrO2}$) &gt; $pK_a$ ($\\ce{HClO2}$)\n2.  Como o carbono é mais eletronegativo que o germânio, este é\n    responsável por um efeito indutivo puxador de elétrons mais forte, o\n    que enfraquece a ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $pK_a$ ($\\ce{H2CO3}$) &lt; $pK_a$ ($\\ce{H2GeO3}$)\n3.  Como o fósforo é mais eletronegativo que o arsênio, este é\n    responsável por um efeito indutivo puxador de elétrons mais forte, o\n    que enfraquece a ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $pK_a$ ($\\ce{H3AsO4}$) &gt; $pK_a$ ($\\ce{H3PO4}$)\n4.  Como o cloro é mais eletronegativo que o iodo, este é responsável\n    por um efeito indutivo puxador de elétrons mais forte, o que\n    enfraquece a ligação $\\ce{O-H}$ e portanto, aumenta a ionização.\n    $pK_a$ ($\\ce{HClO}$) &lt; $pK_a$ ($\\ce{HiO}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Como o cloro é mais eletronegativo que o bromo, este é responsável por um efeito indutivo puxador de elétrons mais forte, o que enfraquece a ligação\n  {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(pK_a\\)} ({\\(\\ce{HBrO2}\\)}) \\textgreater{} {\\(pK_a\\)} ({\\(\\ce{HClO2}\\)})\n\\item\n  Como o carbono é mais eletronegativo que o germânio, este é responsável por um efeito indutivo puxador de elétrons mais forte, o que enfraquece a\n  ligação {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(pK_a\\)} ({\\(\\ce{H2CO3}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{H2GeO3}\\)})\n\\item\n  Como o fósforo é mais eletronegativo que o arsênio, este é responsável por um efeito indutivo puxador de elétrons mais forte, o que enfraquece a\n  ligação {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(pK_a\\)} ({\\(\\ce{H3AsO4}\\)}) \\textgreater{} {\\(pK_a\\)} ({\\(\\ce{H3PO4}\\)})\n\\item\n  Como o cloro é mais eletronegativo que o iodo, este é responsável por um efeito indutivo puxador de elétrons mais forte, o que enfraquece a ligação\n  {\\(\\ce{O-H}\\)} e portanto, aumenta a ionização. {\\(pK_a\\)} ({\\(\\ce{HClO}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{HiO}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25842,13 +25962,17 @@
     {
       "id_": "2G11",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G11/2G11.md",
-      "date": "2023-05-06T19:59:54.229904",
+      "date": "2023-05-25T16:56:24.120761",
       "statement": {
         "html": "<p>Um técnico de laboratório descuidado quer preparar <span class=\"math inline\">\\(\\pu{250 mL}\\)</span> de uma solução <span class=\"math inline\">\\(\\pu{0,025 mol.L-1}\\)</span> de <span class=\"math inline\">\\(\\ce{HCl}\\)</span>, mas usa um balão volumétrico de\n<span class=\"math inline\">\\(\\pu{500 mL}\\)</span> por engano.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\ndiferença entre o pH da solução desejada e o pH da solução\npreparada.</p>",
         "md": "Um técnico de laboratório descuidado quer preparar $\\pu{250 mL}$ de uma\nsolução $\\pu{0,025 mol.L-1}$ de $\\ce{HCl}$, mas usa um balão volumétrico\nde $\\pu{500 mL}$ por engano.\n\n**Assinale** a alternativa que mais se aproxima da diferença entre o pH\nda solução desejada e o pH da solução preparada.\n",
         "tex": "Um técnico de laboratório descuidado quer preparar {\\(\\qty{250}{\\unit{mL}}\\)} de uma solução {\\(\\qty{0,025}{\\unit{mol.L^{-1}}}\\)} de {\\(\\ce{HCl}\\)},\nmas usa um balão volumétrico de {\\(\\qty{500}{\\unit{mL}}\\)} por engano.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da diferença entre o pH da solução desejada e o pH da solução preparada.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p>Solução desejada: <span class=\"math display\">\\[[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\pu{2,5e-2\nmol.L-1}\\implies\\]</span> <span class=\"math display\">\\[\\implies\npH=-log(2,5e-2)\\approx 1,6\\]</span> Solução preparada: <span class=\"math display\">\\[[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\frac{1}{2}\\pu{2,5e-2\nmol.L-1}=\\pu{1,25e-2 mol.L-1}\\implies\\]</span> <span class=\"math display\">\\[\\implies pH=-log(1,25e-2)\\approx 1,9\\]</span>\n<span class=\"math display\">\\[\\Delta pH=1,6-1,9=-0,3\\]</span></p>",
+        "md": "Solução desejada: $$[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\pu{2,5e-2\nmol.L-1}\\implies$$ $$\\implies\npH=-log(2,5e-2)\\approx 1,6$$ Solução preparada:\n$$[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\frac{1}{2}\\pu{2,5e-2\nmol.L-1}=\\pu{1,25e-2 mol.L-1}\\implies$$\n$$\\implies pH=-log(1,25e-2)\\approx 1,9$$ $$\\Delta pH=1,6-1,9=-0,3$$\n",
+        "tex": "Solução desejada: {\\[[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\qty{2,5e-2}{\\unit{mol.L^{-1}}}\\implies\\]} {\\[\\implies\npH=-log(2,5e-2)\\approx 1,6\\]} Solução preparada:\n{\\[[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\frac{1}{2}\\qty{2,5e-2}{\\unit{mol.L^{-1}}}=\\qty{1,25e-2}{\\unit{mol.L^{-1}}}\\implies\\]}\n{\\[\\implies pH=-log(1,25e-2)\\approx 1,9\\]} {\\[\\Delta pH=1,6-1,9=-0,3\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25883,16 +26007,31 @@
     {
       "id_": "2G28",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G28/2G28.md",
-      "date": "2023-05-06T20:31:19.553591",
+      "date": "2023-05-25T16:50:16.219167",
       "statement": {
-        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G28-1D.svg\"/></li>\n<li><img src=\"2G28-2D.svg\"/></li>\n<li><img src=\"2G28-3D.svg\"/></li>\n<li><img src=\"2G28-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>",
-        "md": "Considere os compostos.\n\n1.  ![](2G28-1D.svg)\n2.  ![](2G28-2D.svg)\n3.  ![](2G28-3D.svg)\n4.  ![](2G28-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n",
-        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{blue} H_A})-[1]-[-1](=[-3,,,,fix]O)-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{blue} H_A})-[1](=[3,,,,fix]O)-[-1]-[1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]*6(----N=(-{\\color{red} H_B})-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]*6(---N(-{\\color{red} H_B})-=N-)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n"
+        "html": "<p>Considere os compostos.</p>\n<ol type=\"1\">\n<li><img src=\"2G28-1D.svg\"/></li>\n<li><img src=\"2G28-2D.svg\"/></li>\n<li><img src=\"2G28-3D.svg\"/></li>\n<li><img src=\"2G28-4D.svg\"/></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os compostos em\nque o hidrogênio <span class=\"math inline\">\\(\\color{blue}\\ce{H_A}\\)</span> é mais ácido que o\nhidrogênio <span class=\"math inline\">\\(\\color{red}\\ce{H_B}\\)</span>.</p>\n<p>–</p>\n<ol type=\"1\">\n<li>Analisando as possíveis bases conjugadas há estabilização por\nressonância, tendo as possibilidades de uma carga negativa “dividida”\nentre dois átomos de oxigênio ou um átomo de oxigênio e um átomo de\ncarbono. Como o oxigênio é maior, este comporta melhor a carga negativa\nde modo que seus pares eletrônicos se encontram menos disponíveis para\num ataque nucleofílico, aumentando a ionização. Acidez (<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, não há estabilização por\nressonância com a ionização de <span class=\"math inline\">\\(H_B\\)</span>,\ncontudo há estabilização por ressonância com a ionização de <span class=\"math inline\">\\(H_A\\)</span>, aumentando a ionização. Acidez\n(<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, não há estabilização por\nressonância com a ionização de <span class=\"math inline\">\\(H_B\\)</span>,\ncontudo há estabilização por ressonância com a ionização de <span class=\"math inline\">\\(H_A\\)</span>, aumentando a ionização. Acidez\n(<span class=\"math inline\">\\(H_a\\)</span>) &gt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n<li>Analisando as possíveis bases conjugadas, não há estabilização por\nressonância com a ionização de <span class=\"math inline\">\\(H_A\\)</span>,\ncontudo há estabilização por ressonância com a ionização de <span class=\"math inline\">\\(H_B\\)</span>, aumentando a ionização. Acidez\n(<span class=\"math inline\">\\(H_a\\)</span>) &lt; Acidez (<span class=\"math inline\">\\(H_b\\)</span>)</li>\n</ol>",
+        "md": "Considere os compostos.\n\n1.  ![](2G28-1D.svg)\n2.  ![](2G28-2D.svg)\n3.  ![](2G28-3D.svg)\n4.  ![](2G28-4D.svg)\n\n**Assinale** a alternativa que relaciona os compostos em que o\nhidrogênio $\\color{blue}\\ce{H_A}$ é mais ácido que o hidrogênio\n$\\color{red}\\ce{H_B}$.\n\n--\n\n1.  Analisando as possíveis bases conjugadas há estabilização por\n    ressonância, tendo as possibilidades de uma carga negativa\n    \"dividida\" entre dois átomos de oxigênio ou um átomo de oxigênio e\n    um átomo de carbono. Como o oxigênio é maior, este comporta melhor a\n    carga negativa de modo que seus pares eletrônicos se encontram menos\n    disponíveis para um ataque nucleofílico, aumentando a ionização.\n    Acidez ($H_a$) &lt; Acidez ($H_b$)\n2.  Analisando as possíveis bases conjugadas, não há estabilização por\n    ressonância com a ionização de $H_B$, contudo há estabilização por\n    ressonância com a ionização de $H_A$, aumentando a ionização. Acidez\n    ($H_a$) &gt; Acidez ($H_b$)\n3.  Analisando as possíveis bases conjugadas, não há estabilização por\n    ressonância com a ionização de $H_B$, contudo há estabilização por\n    ressonância com a ionização de $H_A$, aumentando a ionização. Acidez\n    ($H_a$) &gt; Acidez ($H_b$)\n4.  Analisando as possíveis bases conjugadas, não há estabilização por\n    ressonância com a ionização de $H_A$, contudo há estabilização por\n    ressonância com a ionização de $H_B$, aumentando a ionização. Acidez\n    ($H_a$) &lt; Acidez ($H_b$)\n",
+        "tex": "Considere os compostos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{blue} H_A})-[1]-[-1](=[-3,,,,fix]O)-[1]O-[-1]{\\color{red} H_B}}\n\\item\n  \\chemfig{-[1](=[3,,,,fix]O)-[-1](-[-3]{\\color{blue} H_A})-[1](=[3,,,,fix]O)-[-1]-[1]{\\color{red} H_B}}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]*6(----N=(-{\\color{red} H_B})-)}\n\\item\n  \\chemfig{{\\color{blue} H_A}-[1]*6(---N(-{\\color{red} H_B})-=N-)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os compostos em que o hidrogênio {\\(\\color{blue}\\ce{H_A}\\)} é mais ácido que o hidrogênio\n{\\(\\color{red}\\ce{H_B}\\)}.\n\n--\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  Analisando as possíveis bases conjugadas há estabilização por ressonância, tendo as possibilidades de uma carga negativa ``dividida'' entre dois\n  átomos de oxigênio ou um átomo de oxigênio e um átomo de carbono. Como o oxigênio é maior, este comporta melhor a carga negativa de modo que seus\n  pares eletrônicos se encontram menos disponíveis para um ataque nucleofílico, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textless{} Acidez\n  ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, não há estabilização por ressonância com a ionização de {\\(H_B\\)}, contudo há estabilização por\n  ressonância com a ionização de {\\(H_A\\)}, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, não há estabilização por ressonância com a ionização de {\\(H_B\\)}, contudo há estabilização por\n  ressonância com a ionização de {\\(H_A\\)}, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textgreater{} Acidez ({\\(H_b\\)})\n\\item\n  Analisando as possíveis bases conjugadas, não há estabilização por ressonância com a ionização de {\\(H_A\\)}, contudo há estabilização por\n  ressonância com a ionização de {\\(H_B\\)}, aumentando a ionização. Acidez ({\\(H_a\\)}) \\textless{} Acidez ({\\(H_b\\)})\n\\end{enumerate}\n"
       },
       "solution": null,
       "answer": null,
       "data": null,
       "choices": [
+        {
+          "html": "1",
+          "md": "**1**",
+          "tex": "\\textbf{1}"
+        },
+        {
+          "html": "2",
+          "md": "**2**",
+          "tex": "\\textbf{2}"
+        },
+        {
+          "html": "1 e 2",
+          "md": "**1** e **2**",
+          "tex": "\\textbf{1} e \\textbf{2}"
+        },
         {
           "html": "2 e 3",
           "md": "**2** e **3**",
@@ -25902,35 +26041,24 @@
           "html": "2 e 4",
           "md": "**2** e **4**",
           "tex": "\\textbf{2} e \\textbf{4}"
-        },
-        {
-          "html": "3 e 4",
-          "md": "**3** e **4**",
-          "tex": "\\textbf{3} e \\textbf{4}"
-        },
-        {
-          "html": "2, 3 e 4",
-          "md": "**2**, **3** e **4**",
-          "tex": "\\textbf{2}, \\textbf{3} e \\textbf{4}"
-        },
-        {
-          "html": "1, 2, 3 e 4",
-          "md": "**1**, **2**, **3** e **4**",
-          "tex": "\\textbf{1}, \\textbf{2}, \\textbf{3} e \\textbf{4}"
         }
       ],
-      "correct_choice": 3
+      "correct_choice": 1
     },
     {
       "id_": "2G02",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G02/2G02.md",
-      "date": "2023-05-04T19:51:09.246738",
+      "date": "2023-05-25T16:56:24.120761",
       "statement": {
         "html": "<p>Considere uma solução preparada pela adição de pu <span class=\"math inline\">\\(\\pu{7,3 mg}\\)</span> de ácido clorídrico, <span class=\"math inline\">\\(\\ce{HCl}\\)</span>, em <span class=\"math inline\">\\(\\pu{100 mL}\\)</span> de água.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de íons hidróxido nessa solução em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere uma solução preparada pela adição de pu $\\pu{7,3 mg}$ de ácido\nclorídrico, $\\ce{HCl}$, em $\\pu{100 mL}$ de água.\n\n**Assinale** a alternativa que mais se aproxima da concentração de íons\nhidróxido nessa solução em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere uma solução preparada pela adição de pu {\\(\\qty{7,3}{\\unit{mg}}\\)} de ácido clorídrico, {\\(\\ce{HCl}\\)}, em {\\(\\qty{100}{\\unit{mL}}\\)} de\nágua.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de íons hidróxido nessa solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\pu{\\;\n7,3e-3 g//36,5 g mol^{-1} 0,1 L}=\\pu{2e-3 mol.L-1}\\]</span> <span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{2e-3 mol.L-1}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[\\implies\n[\\ce{OH^-}]=\\pu{5e-12 mol.L-1}\\]</span></p>",
+        "md": "$$[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\pu{\\;\n7,3e-3 g//36,5 g mol^{-1} 0,1 L}=\\pu{2e-3 mol.L-1}$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{2e-3 mol.L-1}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$\\implies\n[\\ce{OH^-}]=\\pu{5e-12 mol.L-1}$$\n",
+        "tex": "{\\[[\\ce{H3O^+}]\\approx[\\ce{HCl}]=\\pu{\\;\n7,3e-3 g//36,5 g mol^{-1} 0,1 L}=\\qty{2e-3}{\\unit{mol.L^{-1}}}\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\qty{2e-3}{\\unit{mol.L^{-1}}}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[\\implies\n[\\ce{OH^-}]=\\qty{5e-12}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -25965,13 +26093,17 @@
     {
       "id_": "2G01",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G01/2G01.md",
-      "date": "2023-05-04T19:51:12.290780",
+      "date": "2023-05-25T16:56:26.864713",
       "statement": {
         "html": "<p>Considere uma solução <span class=\"math inline\">\\(\\pu{5e-4\nmol.L-1}\\)</span> de ácido nítrico, <span class=\"math inline\">\\(\\ce{HNO3}\\)</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração íons hidróxido nessa solução em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere uma solução $\\pu{5e-4 mol.L-1}$ de ácido nítrico, $\\ce{HNO3}$.\n\n**Assinale** a alternativa que mais se aproxima da concentração íons\nhidróxido nessa solução em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere uma solução {\\(\\qty{5e-4}{\\unit{mol.L^{-1}}}\\)} de ácido nítrico, {\\(\\ce{HNO3}\\)}.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração íons hidróxido nessa solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[[\\ce{H3O^+}]\\approx[\\ce{HNO3}]=\\pu{5e-4\nmol.L-1}\\]</span> <span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-4 mol.L-1}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[\\implies\n[\\ce{OH^-}]=\\pu{2e-11 mol.L-1}\\]</span></p>",
+        "md": "$$[\\ce{H3O^+}]\\approx[\\ce{HNO3}]=\\pu{5e-4\nmol.L-1}$$ $$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-4 mol.L-1}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$\\implies\n[\\ce{OH^-}]=\\pu{2e-11 mol.L-1}$$\n",
+        "tex": "{\\[[\\ce{H3O^+}]\\approx[\\ce{HNO3}]=\\qty{5e-4}{\\unit{mol.L^{-1}}}\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\qty{5e-4}{\\unit{mol.L^{-1}}}[\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[\\implies\n[\\ce{OH^-}]=\\qty{2e-11}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -26006,13 +26138,17 @@
     {
       "id_": "2G21",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G21/2G21.md",
-      "date": "2023-05-06T20:09:33.443744",
+      "date": "2023-05-25T16:47:28.554114",
       "statement": {
         "html": "<p>Considere os pares de ácidos.</p>\n<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{HCl}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{H2O}\\)</span> e <span class=\"math inline\">\\(\\ce{H2S}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> e <span class=\"math inline\">\\(\\ce{H2O}\\)</span></li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> e <span class=\"math inline\">\\(\\ce{CH4}\\)</span></li>\n</ol>\n<p><strong>Assinale</strong> a alternativa que relaciona os pares em que\no primeiro composto tem <em>menor</em> <span class=\"math inline\">\\(\\mathrm{p}K_\\mathrm{a}\\)</span>.</p>",
         "md": "Considere os pares de ácidos.\n\n1.  $\\ce{HF}$ e $\\ce{HCl}$\n2.  $\\ce{H2O}$ e $\\ce{H2S}$\n3.  $\\ce{HF}$ e $\\ce{H2O}$\n4.  $\\ce{NH3}$ e $\\ce{CH4}$\n\n**Assinale** a alternativa que relaciona os pares em que o primeiro\ncomposto tem *menor* $\\mathrm{p}K_\\mathrm{a}$.\n",
         "tex": "Considere os pares de ácidos.\n\n\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{HCl}\\)}\n\\item\n  {\\(\\ce{H2O}\\)} e {\\(\\ce{H2S}\\)}\n\\item\n  {\\(\\ce{HF}\\)} e {\\(\\ce{H2O}\\)}\n\\item\n  {\\(\\ce{NH3}\\)} e {\\(\\ce{CH4}\\)}\n\\end{enumerate}\n\n\\textbf{Assinale} a alternativa que relaciona os pares em que o primeiro composto tem \\emph{menor} {\\(\\mathrm{p}K_\\mathrm{a}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<ol type=\"1\">\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> : O flúor possui\ntamanho mais próximo do hidrogênio de modo que a ligação <span class=\"math inline\">\\(\\ce{H-F}\\)</span> possui maior compatibilidade de\norbitais sendo portanto, mais forte reduzindo a ionização do ácido em\nmeio aquoso. <span class=\"math inline\">\\(\\ce{HCl}\\)</span> : O cloro\npossui tamanho mais distante do hidrogênio de modo que a ligação <span class=\"math inline\">\\(\\ce{H-Cl}\\)</span> possui menor compatibilidade de\norbitais sendo portanto, mais fraca aumentando a ionização do ácido em\nmeio aquoso. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HF}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HCl}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{H2O}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{OH^-}\\)</span>) como o oxigênio é\nmenor, este comporta pior a carga negativa de modo que seu par\neletrônico se encontra mais disponível para um ataque nucleofílico,\ndiminuindo a ionização. <span class=\"math inline\">\\(\\ce{H2S}\\)</span> :\nNa base conjugada (<span class=\"math inline\">\\(\\ce{HS^-}\\)</span>) como\no enxofre é maior, este comporta melhor a carga negativa de modo que seu\npar eletrônico se encontra menos disponível para um ataque nucleofílico,\naumentando a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H2O}\\)</span>) &gt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H2S}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{HF}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{F^-}\\)</span>) como o flúor é maior,\neste comporta melhor a carga negativa de modo que seu par eletrônico se\nencontra menos disponível para um ataque nucleofílico, aumentando a\nionização. <span class=\"math inline\">\\(\\ce{H2O}\\)</span> : Na base\nconjugada (<span class=\"math inline\">\\(\\ce{OH^-}\\)</span>) como o\noxigênio é menor, este comporta pior a carga negativa de modo que seu\npar eletrônico se encontra mais disponível para um ataque nucleofílico,\ndiminuindo a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{HF}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{H2O}\\)</span>)</li>\n<li><span class=\"math inline\">\\(\\ce{NH3}\\)</span> : Na base conjugada\n(<span class=\"math inline\">\\(\\ce{NH2^-}\\)</span>) como o nitrogênio é\nmaior, este comporta melhor a carga negativa de modo que seu par\neletrônico se encontra menos disponível para um ataque nucleofílico,\naumentando a ionização. <span class=\"math inline\">\\(\\ce{CH4}\\)</span> :\nNa base conjugada (<span class=\"math inline\">\\(\\ce{CH3^-}\\)</span>) como\no carbono é menor, este comporta pior a carga negativa de modo que seu\npar eletrônico se encontra mais disponível para um ataque nucleofílico,\ndiminuindo a ionização. <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{NH3}\\)</span>) &lt; <span class=\"math inline\">\\(pK_a\\)</span> (<span class=\"math inline\">\\(\\ce{CH4}\\)</span>)</li>\n</ol>",
+        "md": "1.  $\\ce{HF}$ : O flúor possui tamanho mais próximo do hidrogênio de\n    modo que a ligação $\\ce{H-F}$ possui maior compatibilidade de\n    orbitais sendo portanto, mais forte reduzindo a ionização do ácido\n    em meio aquoso. $\\ce{HCl}$ : O cloro possui tamanho mais distante do\n    hidrogênio de modo que a ligação $\\ce{H-Cl}$ possui menor\n    compatibilidade de orbitais sendo portanto, mais fraca aumentando a\n    ionização do ácido em meio aquoso. $pK_a$ ($\\ce{HF}$) &gt; $pK_a$\n    ($\\ce{HCl}$)\n2.  $\\ce{H2O}$ : Na base conjugada ($\\ce{OH^-}$) como o oxigênio é\n    menor, este comporta pior a carga negativa de modo que seu par\n    eletrônico se encontra mais disponível para um ataque nucleofílico,\n    diminuindo a ionização. $\\ce{H2S}$ : Na base conjugada ($\\ce{HS^-}$)\n    como o enxofre é maior, este comporta melhor a carga negativa de\n    modo que seu par eletrônico se encontra menos disponível para um\n    ataque nucleofílico, aumentando a ionização. $pK_a$ ($\\ce{H2O}$)\n    &gt; $pK_a$ ($\\ce{H2S}$)\n3.  $\\ce{HF}$ : Na base conjugada ($\\ce{F^-}$) como o flúor é maior,\n    este comporta melhor a carga negativa de modo que seu par eletrônico\n    se encontra menos disponível para um ataque nucleofílico, aumentando\n    a ionização. $\\ce{H2O}$ : Na base conjugada ($\\ce{OH^-}$) como o\n    oxigênio é menor, este comporta pior a carga negativa de modo que\n    seu par eletrônico se encontra mais disponível para um ataque\n    nucleofílico, diminuindo a ionização. $pK_a$ ($\\ce{HF}$) &lt; $pK_a$\n    ($\\ce{H2O}$)\n4.  $\\ce{NH3}$ : Na base conjugada ($\\ce{NH2^-}$) como o nitrogênio é\n    maior, este comporta melhor a carga negativa de modo que seu par\n    eletrônico se encontra menos disponível para um ataque nucleofílico,\n    aumentando a ionização. $\\ce{CH4}$ : Na base conjugada\n    ($\\ce{CH3^-}$) como o carbono é menor, este comporta pior a carga\n    negativa de modo que seu par eletrônico se encontra mais disponível\n    para um ataque nucleofílico, diminuindo a ionização. $pK_a$\n    ($\\ce{NH3}$) &lt; $pK_a$ ($\\ce{CH4}$)\n",
+        "tex": "\\begin{enumerate}\n\\def\\labelenumi{\\arabic{enumi}.}\n\\tightlist\n\\item\n  {\\(\\ce{HF}\\)} : O flúor possui tamanho mais próximo do hidrogênio de modo que a ligação {\\(\\ce{H-F}\\)} possui maior compatibilidade de orbitais\n  sendo portanto, mais forte reduzindo a ionização do ácido em meio aquoso. {\\(\\ce{HCl}\\)} : O cloro possui tamanho mais distante do hidrogênio de\n  modo que a ligação {\\(\\ce{H-Cl}\\)} possui menor compatibilidade de orbitais sendo portanto, mais fraca aumentando a ionização do ácido em meio\n  aquoso. {\\(pK_a\\)} ({\\(\\ce{HF}\\)}) \\textgreater{} {\\(pK_a\\)} ({\\(\\ce{HCl}\\)})\n\\item\n  {\\(\\ce{H2O}\\)} : Na base conjugada ({\\(\\ce{OH^-}\\)}) como o oxigênio é menor, este comporta pior a carga negativa de modo que seu par eletrônico se\n  encontra mais disponível para um ataque nucleofílico, diminuindo a ionização. {\\(\\ce{H2S}\\)} : Na base conjugada ({\\(\\ce{HS^-}\\)}) como o enxofre é\n  maior, este comporta melhor a carga negativa de modo que seu par eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a\n  ionização. {\\(pK_a\\)} ({\\(\\ce{H2O}\\)}) \\textgreater{} {\\(pK_a\\)} ({\\(\\ce{H2S}\\)})\n\\item\n  {\\(\\ce{HF}\\)} : Na base conjugada ({\\(\\ce{F^-}\\)}) como o flúor é maior, este comporta melhor a carga negativa de modo que seu par eletrônico se\n  encontra menos disponível para um ataque nucleofílico, aumentando a ionização. {\\(\\ce{H2O}\\)} : Na base conjugada ({\\(\\ce{OH^-}\\)}) como o oxigênio\n  é menor, este comporta pior a carga negativa de modo que seu par eletrônico se encontra mais disponível para um ataque nucleofílico, diminuindo a\n  ionização. {\\(pK_a\\)} ({\\(\\ce{HF}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{H2O}\\)})\n\\item\n  {\\(\\ce{NH3}\\)} : Na base conjugada ({\\(\\ce{NH2^-}\\)}) como o nitrogênio é maior, este comporta melhor a carga negativa de modo que seu par\n  eletrônico se encontra menos disponível para um ataque nucleofílico, aumentando a ionização. {\\(\\ce{CH4}\\)} : Na base conjugada ({\\(\\ce{CH3^-}\\)})\n  como o carbono é menor, este comporta pior a carga negativa de modo que seu par eletrônico se encontra mais disponível para um ataque nucleofílico,\n  diminuindo a ionização. {\\(pK_a\\)} ({\\(\\ce{NH3}\\)}) \\textless{} {\\(pK_a\\)} ({\\(\\ce{CH4}\\)})\n\\end{enumerate}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
@@ -26047,13 +26183,17 @@
     {
       "id_": "2G04",
       "path": "/home/braun/Documents/Developer/braunchem/data/problems/Q2/2G/2G04/2G04.md",
-      "date": "2023-05-04T19:52:13.376148",
+      "date": "2023-05-25T16:56:24.136760",
       "statement": {
         "html": "<p>Considere uma solução preparada pela adição de pu <span class=\"math inline\">\\(\\pu{0,43 g}\\)</span> de hidróxido de bário, <span class=\"math inline\">\\(\\ce{Ba(OH)2}\\)</span>, em <span class=\"math inline\">\\(\\pu{1 L}\\)</span> de água.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima da\nconcentração de íons hidróxido nessa solução em <span class=\"math inline\">\\(\\pu{25 \\degree C}\\)</span>.</p>",
         "md": "Considere uma solução preparada pela adição de pu $\\pu{0,43 g}$ de\nhidróxido de bário, $\\ce{Ba(OH)2}$, em $\\pu{1 L}$ de água.\n\n**Assinale** a alternativa que mais se aproxima da concentração de íons\nhidróxido nessa solução em $\\pu{25 \\degree C}$.\n",
         "tex": "Considere uma solução preparada pela adição de pu {\\(\\qty{0,43}{\\unit{g}}\\)} de hidróxido de bário, {\\(\\ce{Ba(OH)2}\\)}, em {\\(\\qty{1}{\\unit{L}}\\)} de\nágua.\n\n\\textbf{Assinale} a alternativa que mais se aproxima da concentração de íons hidróxido nessa solução em {\\(\\qty{25}{\\unit{\\degree C}}\\)}.\n"
       },
-      "solution": null,
+      "solution": {
+        "html": "<p><span class=\"math display\">\\[[\\ce{OH^-}]\\approx 2[\\ce{Ba(OH)2}]=\\pu{2\n0,43 g//172 g mol^{-1} 1 L}=\\pu{5e-3 mol.L-1}\\]</span> <span class=\"math display\">\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-3 mol.L-1}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]</span> <span class=\"math display\">\\[\\implies\n[\\ce{H3O^+}]=\\pu{2e-12 mol.L-1}\\]</span></p>",
+        "md": "$$[\\ce{OH^-}]\\approx 2[\\ce{Ba(OH)2}]=\\pu{2\n0,43 g//172 g mol^{-1} 1 L}=\\pu{5e-3 mol.L-1}$$\n$$[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\pu{5e-3 mol.L-1}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies$$ $$\\implies\n[\\ce{H3O^+}]=\\pu{2e-12 mol.L-1}$$\n",
+        "tex": "{\\[[\\ce{OH^-}]\\approx 2[\\ce{Ba(OH)2}]=\\pu{2\n0,43 g//172 g mol^{-1} 1 L}=\\qty{5e-3}{\\unit{mol.L^{-1}}}\\]} {\\[[\\ce{H3O^+}][\\ce{OH^-}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\qty{5e-3}{\\unit{mol.L^{-1}}}[\\ce{H3O^+}]=\\pu{10^{-14} mol^2\nL^{-2}}\\implies\\]} {\\[\\implies\n[\\ce{H3O^+}]=\\qty{2e-12}{\\unit{mol.L^{-1}}}\\]}\n"
+      },
       "answer": null,
       "data": null,
       "choices": [
