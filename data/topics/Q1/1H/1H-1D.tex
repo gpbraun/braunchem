@@ -1,0 +1,48 @@
+\begin{tikzpicture}[scale = 1.5, 3d view={30}{20}]
+    %points on cube
+    \coordinate (A) at (0,0,0);
+    \coordinate (B) at (0,0,2);
+    \coordinate (D) at (0,2,0);
+    \coordinate (C) at (0,2,2);
+    \coordinate (E) at (2,0,0);
+    \coordinate (F) at (2,0,2);
+    \coordinate (H) at (2,2,0);
+    \coordinate (G) at (2,2,2);
+
+    % Atrás do cubo
+    \begin{scope}[thick, gray]
+        \draw (D) -- (A);
+        \draw (D) -- (C);
+        \draw (D) -- (H);
+    \end{scope}
+
+    % átomos atrás do plano
+    \begin{scope}[every node/.style={cell atom=blue}]
+        \node at (D) {};
+    \end{scope}
+
+    % plano
+    \fill [yellow, nearly transparent] (A) -- (B) -- (F) -- (E);
+    
+    % Frente do cubo
+    \begin{scope}[thick]
+        \draw (A) -- (B) -- (F) -- (G) -- (H) -- (E) -- cycle;
+        \draw (B) -- (C);
+        \draw (C) -- (G);
+        \draw (F) -- (E);
+    \end{scope}
+
+    % átomos na frente
+    \begin{scope}[every node/.style={cell atom=blue}]
+        \node at (A) {};
+        \node at (B) {};
+        \node at (C) {};
+        \node at (E) {};
+        \node at (F) {};
+        \node at (H) {};
+        \node at (G) {};   
+    \end{scope}
+
+    \node [anchor = {north east}] at (B) { $\dfrac{1}{8}$ };
+\end{tikzpicture}
+

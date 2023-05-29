@@ -1,0 +1,49 @@
+\begin{tikzpicture}[scale = 2]
+    %points on cube
+    \coordinate (A) at (0,0);
+    \coordinate (B) at (0,2);
+    \coordinate (H) at (2,0);
+    \coordinate (G) at (2,2);
+
+    \coordinate (center) at (1,1);
+
+    % plano
+    \fill [yellow, nearly transparent] 
+        (A) -- (B) -- (G) -- (H) -- cycle;
+
+    \begin{scope}
+        \clip (A) rectangle (G);
+
+        \begin{scope}[thick]
+            \draw [fill=red!70]  (center) circle [radius=0.705];
+
+            \draw [fill=blue!70] (A) circle [radius=0.705];
+            \draw [fill=blue!70] (B) circle [radius=0.705]; 
+            \draw [fill=blue!70] (G) circle [radius=0.705];
+            \draw [fill=blue!70] (H) circle [radius=0.705];   
+        \end{scope}
+    \end{scope}
+
+    \draw [thick]
+        (A) -- (B) -- (G) -- (H) -- cycle;
+
+    % átomos atrás do plano
+    \begin{scope}[every node/.style={circle, fill, inner sep = 1.5pt}]
+        \node at (A) {};
+        \node at (B) {};
+        \node at (G) {};
+        \node at (H) {};
+        \node at (center) {};
+    \end{scope}
+
+    \begin{scope} [draw=black, thick, stealth-stealth, shorten <= 3pt, shorten >= 3pt]
+        \draw
+            ($(B) + (0,3pt)$) -- node [above] {$a$} ($(G) + (0,3pt)$);
+        \draw
+            ($(A) + (-3pt,0)$) -- node [left] {$a$} ($(B) + (-3pt,0)$);
+        \draw
+            (A) -- node [above, sloped] {$4r = f = \sqrt{2}a$} (G);
+    \end{scope}
+
+\end{tikzpicture}
+

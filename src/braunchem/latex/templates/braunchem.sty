@@ -1716,3 +1716,45 @@
                 anchor = apex,
             }
     }
+
+	\tikzset
+    {
+        cell atom/.style=
+            {
+                shade,
+                circle,
+                shading = ball,
+                ball color = #1!90,
+            },
+		cell grid/.style=
+			{
+				dash pattern = on 0pt off 3\pgflinewidth, 
+				yellow!50!black, 
+				semithick, 
+				line cap = round,
+			}
+    }
+
+\NewDocumentCommand \cellbond { m m }
+    {
+        \path let  
+            \p1 = ($(#1)-(#2)$),
+            \n1 = {veclen(\x1,\y1)},
+            \n2 = {atan2(\x1,\y1)}
+        in
+           node at (#2) 
+            [
+                cylinder,
+                minimum height = \n1*1.25 - 1.2pt,    
+                aspect = 0.8,
+                anchor = bottom,
+                inner sep = 0.2ex,
+                top color = black, 
+                bottom color = black, 
+                middle color = gray!50!white,
+                shading angle = 90 - \n2,
+                rotate = 90 - \n2,
+                shift={(3.2pt,0)},
+            ] 
+            {};
+    }

@@ -345,6 +345,7 @@
         decorations.markings,
         decorations.pathmorphing,
         arrows.meta,
+        perspective,
       }
   }
 

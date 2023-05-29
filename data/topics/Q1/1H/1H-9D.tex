@@ -1,0 +1,49 @@
+\begin{tikzpicture}[scale = 1.5, 3d view={30}{20}]
+    %points on cube
+    \coordinate (A) at (0,0,0);
+    \coordinate (B) at (0,0,2);
+    \coordinate (D) at (0,2,0);
+    \coordinate (C) at (0,2,2);
+    \coordinate (E) at (2,0,0);
+    \coordinate (F) at (2,0,2);
+    \coordinate (H) at (2,2,0);
+    \coordinate (G) at (2,2,2);
+
+    % Atrás do cubo
+    \begin{scope}[thick, gray]
+        \draw (D) -- (A);
+        \draw (D) -- (C);
+        \draw (D) -- (H);
+    \end{scope}
+
+    % Frente do cubo
+    \begin{scope}[thick]
+        \draw (A) -- (B) -- (F) -- (G) -- (H) -- (E) -- cycle;
+        \draw (B) -- (C);
+        \draw (C) -- (G);
+        \draw (F) -- (E);
+    \end{scope}
+
+    % Cl
+    \begin{scope}[every node/.style={cell atom=green}]
+        \node at (0,0,0) {};
+        \node at (0,0,2) {};
+        \node at (0,2,0) {};
+        \node at (0,2,2) {};
+        
+        \node at (2,0,0) {};
+        \node at (2,0,2) {};
+        \node at (2,2,0) {};
+        \node at (2,2,2) {};   
+    \end{scope}
+
+    % Cs
+    \begin{scope}[every node/.style={cell atom=orange}]
+        \node at (1,1,1) {};
+    \end{scope}
+
+    \node [anchor = {north}, shift={(1pt,-3pt)}] at (1,1,1) { \ce{Cs^+} };
+    \node [anchor = {north west}] at (F) { \ce{Cl^-} };
+\end{tikzpicture}
+
+

@@ -1,0 +1,89 @@
+\begin{tikzpicture}[scale = 1.5, 3d view={30}{20}]
+    %points on cube
+    \coordinate (A) at (0,0,0);
+    \coordinate (B) at (0,0,2);
+    \coordinate (D) at (0,2,0);
+    \coordinate (C) at (0,2,2);
+    \coordinate (E) at (2,0,0);
+    \coordinate (F) at (2,0,2);
+    \coordinate (H) at (2,2,0);
+    \coordinate (G) at (2,2,2);
+
+    % Atrás do cubo
+    \begin{scope}[thick, gray]
+        \draw (D) -- (A);
+        \draw (D) -- (C);
+        \draw (D) -- (H);
+    \end{scope}
+
+    % Grid
+    \begin{scope}[cell grid]
+        \draw (0,1,0) -- (0,1,2);
+        \draw (0,1,0) -- (2,1,0);
+        \draw (2,1,0) -- (2,1,2);
+        \draw (2,1,2) -- (0,1,2);
+
+        \draw (1,0,0) -- (1,0,2);
+        \draw (1,0,0) -- (1,2,0);
+        \draw (1,2,0) -- (1,2,2);
+        \draw (1,2,2) -- (1,0,2);
+
+        \draw (0,0,1) -- (0,2,1);
+        \draw (0,0,1) -- (2,0,1);
+        \draw (2,0,1) -- (2,2,1);
+        \draw (2,2,1) -- (0,2,1);
+
+        \draw (0,1,1) -- (2,1,1);
+        \draw (1,0,1) -- (1,2,1);
+        \draw (1,1,0) -- (1,1,2);
+    \end{scope}
+
+    % Frente do cubo
+    \begin{scope}[thick]
+        \draw (A) -- (B) -- (F) -- (G) -- (H) -- (E) -- cycle;
+        \draw (B) -- (C);
+        \draw (C) -- (G);
+        \draw (F) -- (E);
+    \end{scope}
+
+    % Cl
+    \begin{scope}[every node/.style={cell atom=green}]
+        \node at (0,0,0) {};
+        \node at (0,0,2) {};
+        \node at (0,2,0) {};
+        \node at (0,2,2) {};
+        
+        \node at (0,1,1) {};
+        \node at (1,0,1) {};
+        \node at (1,1,0) {};
+        \node at (2,1,1) {};
+        \node at (1,2,1) {};
+        \node at (1,1,2) {};
+
+        \node at (2,0,0) {};
+        \node at (2,0,2) {};
+        \node at (2,2,0) {};
+        \node at (2,2,2) {};   
+    \end{scope}
+
+    % Na
+    \begin{scope}[every node/.style={cell atom=red}]
+        \node at (0,0,1) {};
+        \node at (0,1,0) {};
+        \node at (0,1,2) {};
+        \node at (0,2,1) {};
+
+        \node at (1,0,0) {};
+        \node at (1,2,0) {};
+        \node at (1,0,2) {};
+        \node at (1,2,2) {};
+        \node at (1,1,1) {};
+
+        \node at (2,0,1) {};
+        \node at (2,1,0) {};
+        \node at (2,1,2) {};
+        \node at (2,2,1) {};
+    \end{scope}
+\end{tikzpicture}
+
+

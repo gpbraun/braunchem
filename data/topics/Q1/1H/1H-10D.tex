@@ -1,0 +1,105 @@
+\begin{tikzpicture}[scale = 1.5, 3d view = {30}{20}]
+    % pontos do cubo
+    \coordinate (A) at (0,0,0);
+    \coordinate (B) at (0,0,2);
+    \coordinate (C) at (0,2,2);
+    \coordinate (D) at (0,2,0);
+    \coordinate (E) at (2,0,0);
+    \coordinate (F) at (2,0,2);
+    \coordinate (G) at (2,2,2);
+    \coordinate (H) at (2,2,0);
+
+    \coordinate (F1) at (0,1,1);
+    \coordinate (F2) at (2,1,1);
+    \coordinate (F3) at (1,0,1);
+    \coordinate (F4) at (1,2,1);
+    \coordinate (F5) at (1,1,0);
+    \coordinate (F6) at (1,1,2);
+
+    \coordinate (I1) at ($(G)!.50!(F2)!.33!(F4)!.25!(F6)$);
+    \coordinate (I2) at ($(B)!.50!(F1)!.33!(F3)!.25!(F6)$);
+    \coordinate (I3) at ($(E)!.50!(F2)!.33!(F3)!.25!(F5)$);
+    \coordinate (I4) at ($(D)!.50!(F1)!.33!(F4)!.25!(F5)$);
+
+    % Atrás do cubo
+    \begin{scope}[thick, gray]
+        \draw (D) -- (A);
+        \draw (D) -- (C);
+        \draw (D) -- (H);
+    \end{scope}
+    
+    % átomos de trás
+    \begin{scope}[every node/.style={cell atom=yellow}]
+        \node at (D)  {};
+        \node at (F1) {}; 
+        \node at (F4) {};
+        \node at (F5) {};
+    \end{scope}
+
+    % ligações chegando nos átomos de trás
+    \cellbond{I1}{F4}
+    \cellbond{I2}{F1}
+    \cellbond{I3}{F5}
+    \cellbond{I4}{D}
+
+    % Frente do cubo
+    \begin{scope}[thick]
+        \draw (A) -- (B) -- (F) -- (G) -- (H) -- (E) -- cycle;
+        \draw (B) -- (C);
+        \draw (C) -- (G);
+        \draw (F) -- (E);
+    \end{scope}
+
+    % átomos nos interstícios
+    \begin{scope}[every node/.style={cell atom=pink}]
+        \node at (I1) {};
+        \node at (I2) {}; 
+        \node at (I3) {};
+        \node at (I4) {};
+    \end{scope}
+
+    % ligações saindo dos átomos nos interstícios
+    \cellbond{I4}{F1}
+    \cellbond{I4}{F4}
+    \cellbond{I4}{F5}
+
+    \cellbond{I1}{G}
+    \cellbond{I1}{F2}
+    \cellbond{I1}{F6}
+
+    \cellbond{I3}{E}
+    \cellbond{I3}{F2}
+    \cellbond{I3}{F3}
+
+    \cellbond{I2}{B}
+    \cellbond{I2}{F3}
+    \cellbond{I2}{F6}
+    
+    % frente do cubo
+    \begin{scope}[thick]
+        \draw (A) -- (E) -- (F) -- (B);
+        \draw (G) -- (F);
+        \draw (H) -- (E);
+    \end{scope}
+
+     % átomos da frente
+     \begin{scope}[every node/.style={cell atom=yellow}]
+        \node at (A) {};
+        \node at (B) {}; 
+        \node at (C) {};
+        \node at (E) {};
+        \node at (F) {};
+        \node at (G) {};
+        \node at (H) {};
+
+        \node at (F2) {};
+        \node at (F3) {};
+        \node at (F6) {};
+    \end{scope}
+
+    \node [anchor = {north west}] at (F2) { \ce{S^{2-}} };
+    \node [anchor = {north west}, shift={(+2pt,0)}] at (I1) { \ce{Zn^{2+}} };
+
+\end{tikzpicture}
+
+
