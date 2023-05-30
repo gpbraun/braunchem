@@ -10,6 +10,7 @@ import re
 import csv
 import logging
 import importlib.resources
+import json
 from pathlib import Path
 from decimal import Decimal, Context
 
@@ -399,6 +400,9 @@ def qtys(qty_ids: list[str]) -> list[Quantity]:
     return QUANTITIES.filter(qty_ids)
 
 
+SNIPPETS_PATH = Path(".vscode/quantities.code-snippets")
+
+
 def main():
     logging.basicConfig(level=logging.DEBUG)
 
@@ -412,6 +416,17 @@ def main():
     QUANTITIES_DB_PATH.write_text(
         dt.json(indent=2, ensure_ascii=False), encoding="utf-8"
     )
+
+    snippet_dict = {}
+    for qty in dt:
+        snippet_dict[qty.id_] = {
+            "scope": "yaml",
+            "prefix": qty.id_,
+            "body": qty.id_,
+            "description": qty.name,
+        }
+
+    SNIPPETS_PATH.write_text(json.dumps(snippet_dict, indent=4), encoding="utf-8")
 
 
 if __name__ == "__main__":

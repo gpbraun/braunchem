@@ -1,104 +1,80 @@
 {
-	// Place your braunchem workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
-	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
-	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
-	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
-	// Placeholders with the same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"scope": "javascript,typescript",
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-	"alternativa": {
-		"scope": "markdown",
-		"prefix": "opt",
-		"body": [
-			"- [x] $1",
-		],
-		"description": "Inserir alternativa"
-	},
-	"Assinale": {
-		"scope": "markdown",
-		"prefix": "assinale",
-		"body": [
-			"**Assinale** a alternativa que mais se aproxima $1",
-		],
-		"description": "Inserir comando de assinalar."
-	},
-	"Assinale as corretas": {
-		"scope": "markdown",
-		"prefix": "corretas",
-		"body": [
-			"**Assinale** a alternativa que relaciona as proposições *corretas*.\n",
-		],
-		"description": "Inserir comando de assinalar."
-	},
-	"Dados": {
-		"scope": "markdown",
-		"prefix": "dados",
-		"body": [
-			"---",
-			"data:",
-			"\t- $1",
-			"---",
-			"$2"
-		],
-		"description": "Inserir dados."
-	},
-	"Resposta": {
-		"scope": "markdown",
-		"prefix": "resposta",
-		"body": [
-			"---",
-			"answer:",
-			"\t- $1",
-			"---",
-			"$2"
-		],
-		"description": "Inserir respostas."
-	},
-	"Unidade física": {
-		"scope": "markdown",
-		"prefix": "pu",
-		"body": [
-			"\\$\\pu{$1}\\$",
-		],
-		"description": "Inserir unidade física."
-	},
-	"Temperatura em celsius": {
-		"scope": "markdown",
-		"prefix": "celsius",
-		"body": [
-			"\\$\\pu{$1 \\degree C}\\$",
-		],
-		"description": "Inserir temperatura em Celsius."
-	},
-	"Fórmula química": {
-		"scope": "markdown",
-		"prefix": "ce",
-		"body": [
-			"\\$\\ce{$1}\\$",
-		],
-		"description": "Inserir fórmula química."
-	},
-	"Reação química": {
-		"scope": "markdown",
-		"prefix": [
-			"react",
-			"reaction"
-		],
-		"body": [
-			"\\$\\$",
-			"\t\\ce{ $1 }",
-			"\\$\\$",
-			"$2"
-		],
-		"description": "Inserir reação química."
-	}
+  // Place your braunchem workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "alternativa": {
+    "scope": "markdown",
+    "prefix": "opt",
+    "body": ["- [x] $1"],
+    "description": "Inserir alternativa"
+  },
+  "Assinale": {
+    "scope": "markdown",
+    "prefix": "assinale",
+    "body": ["**Assinale** a alternativa que mais se aproxima $1"],
+    "description": "Inserir comando de assinalar."
+  },
+  "Assinale as corretas": {
+    "scope": "markdown",
+    "prefix": "corretas",
+    "body": [
+      "**Assinale** a alternativa que relaciona as proposições *corretas*.\n"
+    ],
+    "description": "Inserir comando de assinalar."
+  },
+  "Dados": {
+    "scope": "markdown",
+    "prefix": "dados",
+    "body": ["---", "data:", "\t- $1", "---", "$2"],
+    "description": "Inserir dados."
+  },
+  "Resposta": {
+    "scope": "markdown",
+    "prefix": "resposta",
+    "body": ["---", "answer:", "\t- $1", "---", "$2"],
+    "description": "Inserir respostas."
+  },
+  "Unidade física": {
+    "scope": "markdown",
+    "prefix": "pu",
+    "body": ["\\$\\pu{$1}\\$"],
+    "description": "Inserir unidade física."
+  },
+  "Temperatura em celsius": {
+    "scope": "markdown",
+    "prefix": "celsius",
+    "body": ["\\$\\pu{$1 \\degree C}\\$"],
+    "description": "Inserir temperatura em Celsius."
+  },
+  "Fórmula química": {
+    "scope": "markdown",
+    "prefix": "ce",
+    "body": ["\\$\\ce{$1}\\$"],
+    "description": "Inserir fórmula química."
+  },
+  "Reação química": {
+    "scope": "markdown",
+    "prefix": ["react", "reaction"],
+    "body": ["\\$\\$", "\t\\ce{ $1 }", "\\$\\$", "$2"],
+    "description": "Inserir reação química."
+  },
+  "Kb(NH3)": {
+    "scope": "yaml",
+    "prefix": "Kb(NH3)",
+    "body": ["Kb(NH3)"],
+    "description": "Kb(NH3) = 1.8e-5"
+  }
 }

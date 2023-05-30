@@ -1,23 +1,16 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"cSpell.words": [
-			"autoprotólise",
-			"braun",
-			"braunchem"
-		],
-		"svg.preview.background": "editor",
-		"[python]": {
-			"editor.defaultFormatter": "ms-python.black-formatter"
-		},
-		"python.formatting.provider": "none",
-		"cSpell.enableFiletypes": [
-			"!json",
-			"!python"
-		]
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["autoprotólise", "braun", "braunchem"],
+    "svg.preview.background": "editor",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "cSpell.enableFiletypes": ["!json", "!python"]
+  }
 }
