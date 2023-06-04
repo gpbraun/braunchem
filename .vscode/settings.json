@@ -22,5 +22,12 @@
   },
   "editor.wordBasedSuggestions": false,
   "Lua.diagnostics.globals": ["pandoc", "FORMAT"],
-  "markdown.styles": [".vscode/mdstyle.css"]
+  "markdown.styles": [".vscode/mdstyle.css"],
+  "search.exclude": {
+    "**/*.json": true,
+    ".vscode": true
+  },
+  "files.exclude": {
+    "**/__init__.py": true
+  }
 }
