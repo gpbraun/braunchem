@@ -29,5 +29,8 @@
   },
   "files.exclude": {
     "**/__init__.py": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
   }
 }

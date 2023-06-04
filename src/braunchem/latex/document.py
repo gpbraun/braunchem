@@ -1,10 +1,10 @@
-import braunchem.utils.latex as latex
-
-import logging
-import subprocess
-import shutil
-from pathlib import Path
 import importlib.resources
+import logging
+import shutil
+import subprocess
+from pathlib import Path
+
+import braunchem.utils.latex as latex
 
 logger = logging.getLogger(__name__)
 

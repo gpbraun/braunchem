@@ -1,7 +1,7 @@
-from pathlib import Path
-import braunchem.utils.converter as converter
-
 import json
+from pathlib import Path
+
+import braunchem.utils.converter as converter
 
 
 def main():
