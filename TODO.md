@@ -5,6 +5,7 @@
 - [ ] Usa uma escala de cores (com intensidade relativa ao valor da propriedade) nas figuras com a tabela periódica.
 - [ ] Colocar uns "problemas de revisão/fixação" antes dos problemas de cada tópico?
 - [ ] Escrever a solução de todas as provas do IME e do ITA pro site.
+- [ ] 3I: Reações controladas por difusão (Keeler)
 
 ## Quality of life
 
