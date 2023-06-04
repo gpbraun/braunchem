@@ -8,17 +8,20 @@ import importlib.resources
 
 logger = logging.getLogger(__name__)
 
-TEX_TEMPLATES_PATH = importlib.resources.files("braunchem.latex.templates")
+TEXINPUTS = importlib.resources.files("braunchem").joinpath("../../latex")
 """Diretório da base de dados."""
 
 
 def run_latexmk(tex_path: Path, lualatex: bool = False):
     """Executa o comando `latexmk`."""
+    print(TEXINPUTS)
     logger.info(f"Compilando o arquivo '{tex_path}' com latexmk.")
     latexmk = subprocess.run(
         [
             shutil.which("latexmk"),
             "-lualatex" if lualatex else "-pdf",
+            "-e",
+            f"ensure_path('TEXINPUTS', '{str(TEXINPUTS)}//')",
             "-shell-escape",
             "-interaction=nonstopmode",
             "-file-line-error",
@@ -209,14 +212,6 @@ class Document:
             out_dir (Path): Diretório de saída.
         """
         tmp_dir.mkdir(parents=True, exist_ok=True)
-
-        # copia os arquivos do template para o diretório temporário
-        cls_path = TEX_TEMPLATES_PATH.joinpath(self.cls).with_suffix(".cls")
-        shutil.copy(cls_path, tmp_dir)
-
-        # copia o braunchem.sty (melhorar isso)
-        braun_chem_path = TEX_TEMPLATES_PATH.joinpath("braunchem.sty")
-        shutil.copy(braun_chem_path, tmp_dir)
 
         tex_path = tmp_dir.joinpath(self.id_).with_suffix(".tex")
         tex_path.write_text(self.document())

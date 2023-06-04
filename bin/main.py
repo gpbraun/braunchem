@@ -26,11 +26,11 @@ def update_database(topic_id):
         out_dir=config.OUT_DIR,
     )
 
-    topic_db[topic_id].write_solutions_pdf(
-        problem_db,
-        tmp_dir=config.TMP_TOPICS_DIR,
-        out_dir=config.OUT_DIR,
-    )
+    # topic_db[topic_id].write_solutions_pdf(
+    #     problem_db,
+    #     tmp_dir=config.TMP_TOPICS_DIR,
+    #     out_dir=config.OUT_DIR,
+    # )
 
     # COPIA A BASE DE DADOS PARA O SITE
     for db_file in [
