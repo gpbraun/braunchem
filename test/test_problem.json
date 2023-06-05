@@ -23,102 +23,13 @@
         }
     ],
     "correct_choice": 1,
-    "date": "2023-06-04T22:52:39",
+    "date": "2023-06-05T03:01:17",
     "solution": {
         "html": "<p>Solução</p>",
         "latex": "Solução"
     },
     "statement": {
-        "html": "<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n\n\nOiOláTchau\n\n\n\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
-        "latex": "Considere os parâmetros para um átomo de hidrogênio.\n\n\\begin{tabular}{lrc}\n\n\\toprule\\\\\n\nOi & Olá & Tchau \\\\\n\n\\midrule\\\\\n\n\\bottomrule\n\n\\end{tabular}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
-    },
-    "table": {
-        "1": {
-            "1": [
-                {
-                    "c": [
-                        "latex",
-                        "\\begin{tabular}{lrc}"
-                    ],
-                    "t": "RawInline"
-                }
-            ],
-            "2": [
-                {
-                    "c": [
-                        "latex",
-                        "\\toprule\\\\"
-                    ],
-                    "t": "RawInline"
-                }
-            ],
-            "3": [
-                {
-                    "c": [
-                        {
-                            "c": "Oi",
-                            "t": "Str"
-                        },
-                        {
-                            "c": [
-                                "latex",
-                                " & "
-                            ],
-                            "t": "RawInline"
-                        },
-                        {
-                            "c": "Olá",
-                            "t": "Str"
-                        },
-                        {
-                            "c": [
-                                "latex",
-                                " & "
-                            ],
-                            "t": "RawInline"
-                        },
-                        {
-                            "c": "Tchau",
-                            "t": "Str"
-                        },
-                        {
-                            "c": [
-                                "latex",
-                                " \\\\"
-                            ],
-                            "t": "RawInline"
-                        }
-                    ],
-                    "t": "Plain"
-                }
-            ],
-            "4": [
-                {
-                    "c": [
-                        "latex",
-                        "\\midrule\\\\"
-                    ],
-                    "t": "RawInline"
-                }
-            ],
-            "5": [
-                {
-                    "c": [
-                        "latex",
-                        "\\bottomrule"
-                    ],
-                    "t": "RawInline"
-                }
-            ],
-            "6": [
-                {
-                    "c": [
-                        "latex",
-                        "\\end{tabular}"
-                    ],
-                    "t": "RawInline"
-                }
-            ]
-        }
+        "html": "<h1>Título</h1>\n<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<example title=\"Cálculo do nada\">\n<div class=\"example\">\n<p>Calcule nada</p>\n<example-subheader index=\"1\">Use a fórmula para calcular nada</example-subheader>\n<p>Cálculo</p>\n<example-subheader index=\"2\">Conclua</example-subheader>\n<p>Cálculo da conclusão.</p>\n</div>\n</example>\n<table>\n<caption>Olá</caption>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: left;\">Oi</th>\n<th style=\"text-align: right;\">Olá</th>\n<th style=\"text-align: center;\">Tchau</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: left;\">Elemento</td>\n<td style=\"text-align: right;\">1</td>\n<td style=\"text-align: center;\">não o <span class=\"math inline\">\\ce{H2SO4}</span></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span class=\"math inline\">\\mathrm{2p}</span>.</p>",
+        "latex": "\\section{Título}\n\nConsidere os parâmetros para um átomo de hidrogênio.\n\n\\begin{example}{Cálculo do nada}\n\nCalcule nada\n\n\\subheader{Use a fórmula para calcular nada}\n\nCálculo\n\n\\subheader{Conclua}\n\nCálculo da conclusão.\n\n\\end{example}\n\n\\begin{longtable}[]{@{}lrc@{}}\n\\caption{Olá}\\tabularnewline\n\\toprule\\noalign{}\nOi & Olá & Tchau \\\\\n\\midrule\\noalign{}\n\\endfirsthead\n\\toprule\\noalign{}\nOi & Olá & Tchau \\\\\n\\midrule\\noalign{}\n\\endhead\n\\bottomrule\\noalign{}\n\\endlastfoot\nElemento & 1 & não o \\(\\ce{H2SO4}\\) \\\\\n\\end{longtable}\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
     }
 }

@@ -6,42 +6,15 @@
 
 local math = require "math"
 
-
-local gettitle = {
-    Header = function(elem)
-        local header_text = pandoc.utils.stringify(elem)
-        if EnvTitle == "" then
-            EnvTitle = header_text
-            return {}
-        else
-            return pandoc.RawInline('latex', '\\subheader{' .. header_text .. '}')
-        end
-    end
-}
-
-
-local latexFilters = {
-    -- Filtros específicos para o texto em LaTeX.
-    Div = function(elem)
-        local env_name = elem.classes[1]
-
-        EnvTitle = ""
-        elem.content = elem.content:walk(gettitle)
-
-        return {
-            pandoc.RawInline('latex', '\\begin{' .. env_name .. '}{' .. EnvTitle .. '}'),
-            elem,
-            pandoc.RawInline('latex', '\\end{' .. env_name .. '}'),
-        }
-    end
-}
+local html_filters = require "src.braunchem.utils.writers.html"
+local latex_filters = require "src.braunchem.utils.writers.latex"
 
 local text = function(block, opts)
     -- Converte um pandoc.Block em latex e html
     local doc = pandoc.Pandoc(block)
     return {
-        html  = pandoc.write(doc, 'html', opts),
-        latex = pandoc.write(doc:walk(latexFilters), 'latex', opts),
+        html = pandoc.write(doc:walk(html_filters), 'html', opts),
+        latex = pandoc.write(doc:walk(latex_filters), 'latex', opts),
     }
 end
 

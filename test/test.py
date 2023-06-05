@@ -15,7 +15,13 @@ def main():
     json_file.touch(exist_ok=True)
     json_file.write_text(problem_json_str)
 
-    print(problem_json["statement"]["latex"])
+    # tex_file = Path("test/test_problem.tex")
+    # tex_file.touch(exist_ok=True)
+    # tex_file.write_text(problem_json["statement"]["latex"])
+
+    html_file = Path("test/test_problem.html")
+    html_file.touch(exist_ok=True)
+    html_file.write_text(problem_json["statement"]["html"])
 
 
 if __name__ == "__main__":

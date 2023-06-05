@@ -3,8 +3,8 @@
 Esse módulo implementa funções para conversão entre diferentes formatos.
 """
 import importlib.resources
-import logging
 import json
+import logging
 
 import pypandoc
 
@@ -32,10 +32,8 @@ PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
 
 PANDOC_PROBLEM_FILTERS = [
-    "containers.lua",
-    "tables.lua",
     "pu2qty.py",
-    # "problem_lists.lua",
+    "containers.lua",
 ]
 """Filtros usados nos problemas."""
 
