@@ -1,7 +1,8 @@
 {
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
-    "markdown": "$pythonPath bin/main.py $fileNameWithoutExt"
+    "markdown": "$pythonPath bin/main.py $fileNameWithoutExt",
+    "lua": "$pythonPath test/test.py"
   },
   "code-runner.ignoreSelection": true,
   "latex-workshop.latex.autoBuild.run": "never",

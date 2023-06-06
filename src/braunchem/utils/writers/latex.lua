@@ -10,31 +10,38 @@
 
 function Div(elem)
     local env_name = elem.classes[1]
-    local env_title = ""
+    local env_title = {}
 
-    elem.content = elem.content:walk(
-        {
-            Header = function(hdr)
-                if env_title == "" then
-                    env_title = hdr.content
-                    return {}
-                else
-                    return pandoc.Plain({
-                        pandoc.RawInline('latex', '\\subheader{'),
-                        hdr.content,
-                        pandoc.RawInline('latex', '}')
-                    })
-                end
+    elem.content = elem.content:walk {
+        Header = function(hdr)
+            if #env_title == 0 then
+                env_title = hdr.content
+                return {}
+            else
+                local env_subtitle = hdr.content
+                table.insert(env_subtitle, 1,
+                    pandoc.RawInline('latex', '\\subheader{')
+                )
+                table.insert(env_subtitle,
+                    pandoc.RawInline('latex', '}')
+                )
+                return pandoc.Plain(env_subtitle)
             end
-        }
+        end
+    }
+
+    local env_header = env_title
+    table.insert(env_header, 1,
+        pandoc.RawInline('latex', '\\begin{' .. env_name .. '}[')
+    )
+    table.insert(env_header,
+        pandoc.RawInline('latex', ']')
     )
 
-    return {
-        pandoc.RawInline('latex', '\\begin{' .. env_name .. '}{'),
-        env_title,
-        pandoc.RawInline('latex', '}'),
+    return pandoc.Div {
+        pandoc.Plain(env_header),
         elem,
-        pandoc.RawInline('latex', '\\end{' .. env_name .. '}'),
+        pandoc.RawBlock('latex', '\\end{' .. env_name .. '}'),
     }
 end
 
@@ -96,7 +103,8 @@ function Table(tbl)
 
     return {
         pandoc.RawInline("latex",
-            "\\begin{tabular}{" .. tableAlignment(tbl.colspecs) .. "}"),
+            "\\begin{tabular}{" .. tableAlignment(tbl.colspecs) .. "}"
+        ),
         pandoc.LineBlock(buffer)
     }
 end
@@ -104,6 +112,7 @@ end
 -----------------------------------------------------------------
 
 return {
+    Meta = Meta,
     Div = Div,
     Table = Table
 }

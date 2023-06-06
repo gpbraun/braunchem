@@ -46,9 +46,6 @@ PANDOC_PROBLEM_FILTER_PATHS = [
 PANDOC_PROBLEM_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("problem.lua"))
 """Endereço do `writer` para problemas."""
 
-PANDOC_COLUMN_NUM = 150
-"""Número de colunas consideradas pelo pandoc"""
-
 
 def md2problem(md_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
@@ -59,7 +56,6 @@ def md2problem(md_str: str) -> str:
         extra_args=[
             "--quiet",
             "--katex",
-            f"--columns={PANDOC_COLUMN_NUM}",
             "--metadata=id:123456",
             "--metadata=seed:123456",
         ],

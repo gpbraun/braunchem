@@ -4,17 +4,11 @@ Considere os parâmetros para um átomo de hidrogênio.
 
 :::example
 
-### Cálculo de $x$
+# Título do exemplo
 
-Calcule nada
+Cálculo de $x$.
 
-#### Use a fórmula para calcular nada
-
-Cálculo
-
-#### Conclua
-
-Cálculo da conclusão.
+# Primeira etapa: calcule $x$.
 
 :::
 
