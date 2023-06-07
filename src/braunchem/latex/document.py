@@ -14,7 +14,6 @@ TEXINPUTS = importlib.resources.files("braunchem").joinpath("../../latex")
 
 def run_latexmk(tex_path: Path, lualatex: bool = False):
     """Executa o comando `latexmk`."""
-    print(TEXINPUTS)
     logger.info(f"Compilando o arquivo '{tex_path}' com latexmk.")
     latexmk = subprocess.run(
         [
