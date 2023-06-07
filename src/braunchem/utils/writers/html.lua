@@ -14,27 +14,25 @@ function Div(elem)
     local env_title = ""
     local header_env_index = 0
 
-    elem.content = elem.content:walk(
-        {
-            Header = function(hdr)
-                local header_text = pandoc.utils.stringify(hdr) -- mudar!
-                if env_title == "" then
-                    env_title = header_text
-                    return {}
-                else
-                    local header_env_name = env_name .. '-subheader'
-                    header_env_index = header_env_index + 1
-                    return pandoc.RawInline('html',
-                        '<' .. header_env_name ..
-                        ' index="' .. header_env_index .. '"' ..
-                        '>' ..
-                        header_text ..
-                        '</' .. header_env_name .. '>'
-                    )
-                end
+    elem.content = elem.content:walk {
+        Header = function(hdr)
+            local header_text = pandoc.utils.stringify(hdr)     -- mudar!
+            if env_title == "" then
+                env_title = header_text
+                return {}
+            else
+                local header_env_name = env_name .. '-subheader'
+                header_env_index = header_env_index + 1
+                return pandoc.RawInline('html',
+                    '<' .. header_env_name ..
+                    ' index="' .. header_env_index .. '"' ..
+                    '>' ..
+                    header_text ..
+                    '</' .. header_env_name .. '>'
+                )
             end
-        }
-    )
+        end
+    }
 
     return {
         pandoc.RawInline('html',

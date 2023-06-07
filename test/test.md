@@ -4,7 +4,7 @@ Considere os parâmetros para um átomo de hidrogênio.
 
 :::example
 
-# Título do exemplo
+# Título do exemplo $x$
 
 Cálculo de $x$.
 
@@ -12,11 +12,12 @@ Cálculo de $x$.
 
 :::
 
-Table: Legenda
+Table: Legenda com equação $x^2$
 
 | Oi       |  Olá |       Tchau        |
 | :------- | ---: | :----------------: |
 | Elemento |    1 | não o $\ce{H2SO4}$ |
+| Molécula |    2 |    $\ce{NaOH}$     |
 
 Equação display:
 $$
