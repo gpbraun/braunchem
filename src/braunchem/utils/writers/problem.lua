@@ -9,12 +9,19 @@ local math = require "math"
 local html_filters = require "src.braunchem.utils.writers.html"
 local latex_filters = require "src.braunchem.utils.writers.latex"
 
-local text = function(block, opts)
+local text = function(block)
     -- Converte um pandoc.Block em latex e html
     local doc = pandoc.Pandoc(block)
+    local html_opts = {
+        wrap_text = "none",
+        html_math_method = "katex"
+    }
+    local latex_opts = {
+        wrap_text = "none",
+    }
     return {
-        html = pandoc.write(doc:walk(html_filters), 'html', opts),
-        latex = pandoc.write(doc:walk(latex_filters), 'latex', opts),
+        html = pandoc.write(doc:walk(html_filters), 'html', html_opts),
+        latex = pandoc.write(doc:walk(latex_filters), 'latex', latex_opts),
     }
 end
 
@@ -24,7 +31,7 @@ end
 
 
 local choices
-local correct_choice
+local correct_choice = 0
 
 
 local function addChoice(choice)
@@ -443,8 +450,8 @@ function Writer(doc, opts)
         date           = os.date("!%Y-%m-%dT%T"),
         choices        = choices,
         correct_choice = correct_choice - 1,
-        statement      = text(statement, opts),
-        solution       = text(solution, opts),
+        statement      = text(statement),
+        solution       = text(solution),
     }
     return pandoc.json.encode(problem_data)
 end

@@ -75,15 +75,17 @@ local function tabularAlignment(colspecs)
 end
 
 
-local function tabularRow(row)
+local function tabularRow(row, bold)
     local tbl_row = {}
     local cells = row.cells
 
     for i, cell in ipairs(cells) do
-        -- Concatena `table_row` e `cell.content`
-        -- for _, block in ipairs(cell.content)
-        -- table.insert(tbl_row, cell)
-        -- end
+        local cell_content = pandoc.utils.blocks_to_inlines(cell.contents)
+        if bold == true then
+            table.insert(tbl_row, pandoc.Strong(cell_content))
+        else
+            table.insert(tbl_row, pandoc.Span(cell_content))
+        end
         if i < #cells then
             table.insert(tbl_row, latex " & ")
         end
@@ -94,42 +96,62 @@ end
 
 
 local function tabularHead(head)
-    return {
-        tabularRow(head.rows[1]),
-    }
+    return tabularRow(head.rows[1], true)
 end
 
 
-local function tabularBody(tbl)
-    return {
-        latex('\\begin{tabular}{' .. tabularAlignment(tbl.colspecs) .. '}'),
-        latex '\\toprule',
-        tabularHead(tbl.head),
-        latex '\\midrule',
-        latex '\\bottomrule',
-        latex '\\end{tabular}'
-    }
-end
+local function tabularBody(body)
+    local tbl_body = {}
 
+    for _, row in ipairs(body.body) do
+        table.insert(tbl_body, tabularRow(row))
+    end
 
-local function tabular(tbl)
-    return tabularBody(tbl)
+    return pandoc.LineBlock(tbl_body)
 end
 
 
 function Table(tbl)
-    if tbl.caption ~= nil then
+    if #tbl.caption.long > 0 then
+        -- Tabela com legenda: displaytable
         local env_header = pandoc.utils.blocks_to_inlines(tbl.caption.long)
         surround(env_header, '\\begin{displaytable}{', '}')
 
-        return tabularHead(tbl.head)
-        -- return pandoc.Div {
-        --     pandoc.Plain(env_header),
-        --     tabular(tbl),
-        --     block_latex '\\end{displaytable}'
-        -- }
+        return {
+            env_header,
+            latex('\\begin{tabular}{' .. tabularAlignment(tbl.colspecs) .. '}'),
+            tabularHead(tbl.head),
+            latex '\\\\ \\midrule',
+            tabularBody(tbl.bodies[1]),
+            latex '\\end{tabular}',
+            block_latex('\\end{displaytable}'),
+        }
     end
+
+    -- Tabela normal
+    return pandoc.Div {
+        block_latex('\\begin{center}'),
+        latex('\\begin{tabular}{' .. tabularAlignment(tbl.colspecs) .. '}'),
+        latex '\\toprule',
+        tabularHead(tbl.head),
+        latex '\\\\ \\midrule',
+        tabularBody(tbl.bodies[1]),
+        latex '\\\\ \\bottomrule',
+        latex '\\end{tabular}',
+        block_latex('\\end{center}'),
+    }
 end
+
+-----------------------------------------------------------------
+-- Figuras
+-----------------------------------------------------------------
+
+-- function Figure(fig)
+--     return {
+--         latex(fig.attr.identifier),
+--         fig,
+--     }
+-- end
 
 -----------------------------------------------------------------
 -- Filtro

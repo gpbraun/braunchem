@@ -1,35 +1,13 @@
 {
     "_id": "123456",
-    "choices": [
-        {
-            "html": "<span class=\"math inline\">$\\pu{7,1 m}$</span>",
-            "latex": "\\(\\pu{7,1 m}\\)"
-        },
-        {
-            "html": "<span class=\"math inline\">$\\pu{10 m}$</span>",
-            "latex": "\\(\\pu{10 m}\\)"
-        },
-        {
-            "html": "<span class=\"math inline\">$\\pu{14 m}$</span>",
-            "latex": "\\(\\pu{14 m}\\)"
-        },
-        {
-            "html": "<span class=\"math inline\">$\\pu{20 m}$</span>",
-            "latex": "\\(\\pu{20 m}\\)"
-        },
-        {
-            "html": "<span class=\"math inline\">$\\pu{27 m}$</span>",
-            "latex": "\\(\\pu{27 m}\\)"
-        }
-    ],
-    "correct_choice": 1,
-    "date": "2023-06-06T22:30:57",
+    "correct_choice": -1,
+    "date": "2023-06-09T18:17:21",
     "solution": {
-        "html": "<p>Solução</p>",
-        "latex": "Solução"
+        "html": "",
+        "latex": ""
     },
     "statement": {
-        "html": "<h1>Título</h1>\n<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<example title=\"Título do exemplo x\">\n<div class=\"example\">\n<p>Cálculo de <span class=\"math inline\">x</span>.</p>\n<example-subheader index=\"1\">Primeira etapa: calcule x.</example-subheader>\n</div>\n</example>\n<display-table>\n<table>\n<caption>Legenda com equação <span\nclass=\"math inline\">x^2</span></caption>\n<thead>\n<tr class=\"header\">\n<th style=\"text-align: left;\">Oi</th>\n<th style=\"text-align: right;\">Olá</th>\n<th style=\"text-align: center;\">Tchau</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"odd\">\n<td style=\"text-align: left;\">Elemento</td>\n<td style=\"text-align: right;\">1</td>\n<td style=\"text-align: center;\">não o <span\nclass=\"math inline\">\\ce{H2SO4}</span></td>\n</tr>\n<tr class=\"even\">\n<td style=\"text-align: left;\">Molécula</td>\n<td style=\"text-align: right;\">2</td>\n<td style=\"text-align: center;\"><span\nclass=\"math inline\">\\ce{NaOH}</span></td>\n</tr>\n</tbody>\n</table>\n</display-table>\n<p>Equação display: <span class=\"math display\">\n    f(x) = x\n</span></p>\n<p><strong>Assinale</strong> a alternativa que relaciona os parâmetros\nque aumentam quando o átomo faz a transição do orbital <span\nclass=\"math inline\">\\mathrm{1s}</span> para o <span\nclass=\"math inline\">\\mathrm{2p}</span>.</p>",
-        "latex": "\\section{Título}\n\nConsidere os parâmetros para um átomo de hidrogênio.\n\n\\begin{example}{Título do exemplo \\(x\\)}\n\nCálculo de \\(x\\).\n\n\\subheader{Primeira etapa: calcule \\(x\\).}\n\n\\end{example}\n\n &  & \n\nEquação display: \\[\n    f(x) = x\n\\]\n\n\\textbf{Assinale} a alternativa que relaciona os parâmetros que aumentam\nquando o átomo faz a transição do orbital \\(\\mathrm{1s}\\) para o\n\\(\\mathrm{2p}\\)."
+        "html": "<h1>Teste de conversão</h1>\n<p>Considere os parâmetros para um átomo de hidrogênio.</p>\n<h2>Equações</h2>\n<p>Equação display: <span id=\"eq:label1\"><span class=\"math display\">\n    f(x) = x\n\\qquad{(1)}</span></span></p>\n<p>Essa é a Eq. 1.</p>",
+        "latex": "\\section{Teste de conversão}\n\nConsidere os parâmetros para um átomo de hidrogênio.\n\n\\subsection{Equações}\n\nEquação display: \\protect\\hypertarget{eq:label1}{}{\\[\n    f(x) = x\n\\qquad{(1)}\\]}\n\nEssa é a Eq.~1."
     }
 }

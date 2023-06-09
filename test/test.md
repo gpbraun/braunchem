@@ -1,33 +1,14 @@
-# Título
+# Teste de conversão
 
 Considere os parâmetros para um átomo de hidrogênio.
 
-:::example
-
-# Título do exemplo $x$
-
-Cálculo de $x$.
-
-# Primeira etapa: calcule $x$.
-
-:::
-
-Table: Legenda com equação $x^2$
-
-| Oi       |  Olá |       Tchau        |
-| :------- | ---: | :----------------: |
-| Elemento |    1 | não o $\ce{H2SO4}$ |
-| Molécula |    2 |    $\ce{NaOH}$     |
+## Equações
 
 Equação display:
 $$
     f(x) = x
 $$
+{#eq:label1}
 
-**Assinale** a alternativa que relaciona os parâmetros que aumentam quando o átomo faz a transição do orbital $\mathrm{1s}$ para o $\mathrm{2p}$.
+Essa é a [@Eq:label1].
 
-- [x] $\pu{10 m}$
-
----
-
-Solução

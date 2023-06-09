@@ -18,8 +18,10 @@ MARKDOWN_EXTENSIONS = [
     "pipe_tables",
     "table_captions",
     "implicit_figures",
+    "link_attributes",
     "fenced_divs",
     "yaml_metadata_block",
+    "citations",
 ]
 """Extensões de markdown utilizadas"""
 
@@ -32,8 +34,8 @@ PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
 
 PANDOC_PROBLEM_FILTERS = [
+    "pandoc-crossref",
     "pu2qty.py",
-    "containers.lua",
 ]
 """Filtros usados nos problemas."""
 
@@ -47,6 +49,23 @@ PANDOC_PROBLEM_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("problem.lua"))
 """Endereço do `writer` para problemas."""
 
 
+def md2tex(md_str: str) -> str:
+    """Converte HTML em LaTeX usando pandoc."""
+    problem = pypandoc.convert_text(
+        source=md_str,
+        to="html",
+        # format=PANDOC_MARKDOWN_FORMAT,
+        format="markdown",
+        extra_args=[
+            "--quiet",
+            "--metadata=id:123456",
+            "--metadata=seed:123456",
+        ],
+        filters=PANDOC_PROBLEM_FILTER_PATHS,
+    )
+    return problem
+
+
 def md2problem(md_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
     problem = pypandoc.convert_text(
@@ -55,7 +74,6 @@ def md2problem(md_str: str) -> str:
         format=PANDOC_MARKDOWN_FORMAT,
         extra_args=[
             "--quiet",
-            "--katex",
             "--metadata=id:123456",
             "--metadata=seed:123456",
         ],
