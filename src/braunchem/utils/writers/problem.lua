@@ -452,7 +452,6 @@ function Writer(doc, opts)
         correct_choice = correct_choice - 1,
         statement      = text(statement),
         solution       = text(solution),
-        teste          = doc.meta.eqnInlineTemplate,
     }
     return pandoc.json.encode(problem_data)
 end

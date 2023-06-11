@@ -1,0 +1,35 @@
+{
+    "_id": "1A01",
+    "choices": [
+        {
+            "html": "<span class=\"math inline\">\\pu{4,6E22}</span>",
+            "latex": "\\(\\pu{4,6E22}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{2,7E23}</span>",
+            "latex": "\\(\\pu{2,7E23}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{1,6E24}</span>",
+            "latex": "\\(\\pu{1,6E24}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{9,4E24}</span>",
+            "latex": "\\(\\pu{9,4E24}\\)"
+        },
+        {
+            "html": "<span class=\"math inline\">\\pu{5,5E25}</span>",
+            "latex": "\\(\\pu{5,5E25}\\)"
+        }
+    ],
+    "correct_choice": 1,
+    "date": "2023-06-11T15:43:45",
+    "solution": {
+        "html": "<p>C\u00e1lculo do n\u00famero de \u00e1tomos de ferro: <span class=\"math display\">N=\\frac{m_{\\text{total}}}{m_{\\text{por \u00e1tomo}}}</span> <span class=\"math display\">N= \\frac{25\\cdot10^{-3}\\,kg}{9,3\\cdot10^{-26}\\,kg/\\text{\u00e1tomo}}\\approx 2,7\\cdot10^{23}\\text{ \u00e1tomos}</span></p>",
+        "latex": "C\u00e1lculo do n\u00famero de \u00e1tomos de ferro: \\[N=\\frac{m_{\\text{total}}}{m_{\\text{por \u00e1tomo}}}\\] \\[N= \\frac{25\\cdot10^{-3}\\,kg}{9,3\\cdot10^{-26}\\,kg/\\text{\u00e1tomo}}\\approx 2,7\\cdot10^{23}\\text{ \u00e1tomos}\\]"
+    },
+    "statement": {
+        "html": "<p>Um im\u00e3 de ferro possui <span class=\"math inline\">\\pu{25 g}</span> de massa. A massa de um \u00e1tomo de ferro \u00e9 <span class=\"math inline\">\\pu{9,3e-26 kg}</span>.</p>\n<p><strong>Assinale</strong> a alternativa que mais se aproxima do n\u00famero de \u00e1tomos de ferro no im\u00e3.</p>",
+        "latex": "Um im\u00e3 de ferro possui \\(\\pu{25 g}\\) de massa. A massa de um \u00e1tomo de ferro \u00e9 \\(\\pu{9,3e-26 kg}\\).\n\n\\textbf{Assinale} a alternativa que mais se aproxima do n\u00famero de \u00e1tomos de ferro no im\u00e3."
+    }
+}

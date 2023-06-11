@@ -1,7 +1,10 @@
+linkReferences: true
+nameInLink: true
 figureTitle: "Figura"
 tableTitle: "Tabela"
 figPrefix: "Fig."
 eqnPrefix: "Eq."
 tblPrefix: "Tabela"
-equationNumberTeX: \\tag
-eqnIndexTemplate: $$i$$
+equationNumberTeX: "\\tag"
+eqnIndexTemplate: "$$i$$"
+tableTemplate: "<span class=\"table-caption-label\">$$tableTitle$$ $$i$$$$titleDelim$$</span> $$t$$"

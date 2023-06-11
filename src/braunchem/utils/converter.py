@@ -11,32 +11,10 @@ import pypandoc
 logger = logging.getLogger(__name__)
 
 
-MARKDOWN_EXTENSIONS = [
-    "smart",
-    "fancy_lists",
-    "task_lists",
-    "pipe_tables",
-    "table_captions",
-    "implicit_figures",
-    "link_attributes",
-    "fenced_divs",
-    "yaml_metadata_block",
-    "citations",
-]
-"""Extensões de markdown utilizadas"""
-
-PANDOC_MARKDOWN_FORMAT = (
-    f"markdown_strict-raw_html+tex_math_dollars+{'+'.join(MARKDOWN_EXTENSIONS)}"
-)
-"""Formato markdown para o pandoc."""
-
 PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
 PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
 
-PANDOC_PROBLEM_FILTERS = [
-    "pandoc-crossref",
-    "pu2qty.py",
-]
+PANDOC_PROBLEM_FILTERS = ["pandoc-crossref"]
 """Filtros usados nos problemas."""
 
 PANDOC_PROBLEM_FILTER_PATHS = [
@@ -46,23 +24,38 @@ PANDOC_PROBLEM_FILTER_PATHS = [
 """Lista de endereços para os filtros do pandoc."""
 
 PANDOC_PROBLEM_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("problem.lua"))
-"""Endereço do `writer` para problemas."""
+PANDOC_SECTION_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("section.lua"))
+
+CROSSREF_YAML_PATH = str(PANDOC_FILTER_PATH.joinpath("pandoc-crossref.yaml"))
 
 
-def md2problem(md_str: str) -> str:
+def md2problem(md_str: str) -> dict:
     """Converte HTML em LaTeX usando pandoc."""
     problem = pypandoc.convert_text(
         source=md_str,
         to=PANDOC_PROBLEM_WRITER_PATH,
-        # format=PANDOC_MARKDOWN_FORMAT,
         format="markdown",
         extra_args=[
             "--quiet",
-            "--metadata=id:1A",
+            "--metadata=id:1A01",
             "--metadata=seed:123456",
-            # PANDOC CROSSREF OPTIONS
-            "--metadata=crossrefYaml:/home/braun/Documents/Developer/braunchem/src/braunchem/utils/filters/pandoc-crossref.yaml",
         ],
         filters=PANDOC_PROBLEM_FILTER_PATHS,
     )
     return json.loads(problem)
+
+
+def md2section(md_str: str) -> dict:
+    """Converte HTML em LaTeX usando pandoc."""
+    section = pypandoc.convert_text(
+        source=md_str,
+        to=PANDOC_SECTION_WRITER_PATH,
+        format="markdown",
+        extra_args=[
+            "--quiet",
+            "--metadata=id:1A",
+            f"--metadata=crossrefYaml:{CROSSREF_YAML_PATH}",
+        ],
+        filters=PANDOC_PROBLEM_FILTER_PATHS,
+    )
+    return json.loads(section)
