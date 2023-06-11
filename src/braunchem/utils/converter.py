@@ -49,33 +49,19 @@ PANDOC_PROBLEM_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("problem.lua"))
 """Endereço do `writer` para problemas."""
 
 
-def md2tex(md_str: str) -> str:
-    """Converte HTML em LaTeX usando pandoc."""
-    problem = pypandoc.convert_text(
-        source=md_str,
-        to="html",
-        # format=PANDOC_MARKDOWN_FORMAT,
-        format="markdown",
-        extra_args=[
-            "--quiet",
-            "--metadata=id:123456",
-            "--metadata=seed:123456",
-        ],
-        filters=PANDOC_PROBLEM_FILTER_PATHS,
-    )
-    return problem
-
-
 def md2problem(md_str: str) -> str:
     """Converte HTML em LaTeX usando pandoc."""
     problem = pypandoc.convert_text(
         source=md_str,
         to=PANDOC_PROBLEM_WRITER_PATH,
-        format=PANDOC_MARKDOWN_FORMAT,
+        # format=PANDOC_MARKDOWN_FORMAT,
+        format="markdown",
         extra_args=[
             "--quiet",
-            "--metadata=id:123456",
+            "--metadata=id:1A",
             "--metadata=seed:123456",
+            # PANDOC CROSSREF OPTIONS
+            "--metadata=crossrefYaml:/home/braun/Documents/Developer/braunchem/src/braunchem/utils/filters/pandoc-crossref.yaml",
         ],
         filters=PANDOC_PROBLEM_FILTER_PATHS,
     )

@@ -9,9 +9,6 @@ def main():
     md_text = test_file.read_text()
 
     problem_json = converter.md2problem(md_text)
-    problem_default_tex = converter.md2tex(md_text)
-    print(problem_default_tex)
-
     problem_json_str = json.dumps(problem_json, indent=4, ensure_ascii=False)
 
     json_file = Path("test/test_problem.json")

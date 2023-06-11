@@ -16,7 +16,7 @@ function Div(elem)
 
     elem.content = elem.content:walk {
         Header = function(hdr)
-            local header_text = pandoc.utils.stringify(hdr)     -- mudar!
+            local header_text = pandoc.utils.stringify(hdr) -- mudar!
             if env_title == "" then
                 env_title = header_text
                 return {}
@@ -73,6 +73,6 @@ end
 -----------------------------------------------------------------
 
 return {
-    Div = Div,
-    Table = Table
+    { Table = Table },
+    { Div = Div },
 }
