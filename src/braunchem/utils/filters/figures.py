@@ -13,7 +13,9 @@ def figures(elem, doc, debug=False):
             if tex_path.exists():
                 return pf.RawInline(tex_path.read_text(), "latex")
 
-            return pf.RawInline(f"includegraphics{{{figure_path}}}", "latex")
+            return pf.RawInline(
+                f"\\includegraphics[width=0.9\linewidth]{{{figure_path}}}", "latex"
+            )
 
         return elem
 
