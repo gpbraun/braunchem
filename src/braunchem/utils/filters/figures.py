@@ -13,6 +13,13 @@ def figures(elem, doc, debug=False):
             if tex_path.exists():
                 return pf.RawInline(tex_path.read_text(), "latex")
 
+            pdf_path = figure_path.with_suffix(".pdf")
+            if pdf_path.exists():
+                return pf.RawInline(f"\\includegraphics{{{pdf_path}}}", "latex")
+
+            if figure_path.suffix == ".svg":
+                return pf.RawInline(f"\\includesvg{{{figure_path}}}", "latex")
+
             return pf.RawInline(
                 f"\\includegraphics[width=0.9\linewidth]{{{figure_path}}}", "latex"
             )
