@@ -1,27 +1,31 @@
 import json
 from pathlib import Path
 
+from problem2 import Problem
+
 import braunchem.utils.converter as converter
 
 
 def test_problem():
     test_file = Path("test/problem/test_problem.md")
-    md_text = test_file.read_text()
+    problem = Problem.parse_mdfile(test_file)
 
-    problem_json = converter.md2problem(md_text)
-    problem_json_str = json.dumps(problem_json, indent=4, ensure_ascii=True)
+    # md_text = test_file.read_text()
 
-    json_file = Path("test/problem/test_problem.json")
-    json_file.touch(exist_ok=True)
-    json_file.write_text(problem_json_str)
+    # problem_json = converter.md2problem(md_text)
+    # problem_json_str = json.dumps(problem_json, indent=4, ensure_ascii=True)
+
+    # json_file = Path("test/problem/test_problem.json")
+    # json_file.touch(exist_ok=True)
+    # json_file.write_text(problem_json_str)
 
     tex_file = Path("test/problem/test_problem.tex")
     tex_file.touch(exist_ok=True)
-    tex_file.write_text(problem_json["statement"]["latex"])
+    tex_file.write_text(problem.render_latex())
 
-    html_file = Path("test/problem/test_problem.html")
-    html_file.touch(exist_ok=True)
-    html_file.write_text(problem_json["statement"]["html"])
+    # html_file = Path("test/problem/test_problem.html")
+    # html_file.touch(exist_ok=True)
+    # html_file.write_text(problem_json["statement"]["html"])
 
 
 def test_section():
@@ -45,7 +49,7 @@ def test_section():
 
 
 def main():
-    test_section()
+    test_problem()
 
 
 if __name__ == "__main__":

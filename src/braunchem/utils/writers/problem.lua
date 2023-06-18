@@ -446,7 +446,7 @@ function Writer(doc, opts)
     end
 
     local problem_data = {
-        _id            = doc.meta.id,
+        id_            = doc.meta.id,
         date           = os.date("!%Y-%m-%dT%T"),
         choices        = choices,
         correct_choice = correct_choice - 1,
