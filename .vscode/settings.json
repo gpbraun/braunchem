@@ -8,8 +8,12 @@
   "latex-workshop.latex.autoBuild.run": "never",
   "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "off",
+  "[python]": {
+    "editor.tabSize": 4
+  },
   "[latex]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
   },
   "[latex-expl3]": {
     "editor.formatOnSave": false
