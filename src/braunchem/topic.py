@@ -151,7 +151,10 @@ class Topic(BaseModel):
         """Cria um `Topic` a partir de um arquivo `.md`."""
         logger.info(f"Atualizando tópico em {topic_path}.")
 
-        metadata, content = frontmatter.parse(topic_path.read_text())
+        try:
+            metadata, content = frontmatter.parse(topic_path.read_text())
+        except:
+            raise Exception(f"Problema no tópico {topic_path}")
 
         # informações básicas
         topic = {
