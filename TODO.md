@@ -22,6 +22,7 @@
 ## Template
 
 - [ ] Formatar (como o Atkins em inglês) as referências às figuras e tabelas. Tentar colocar hiperlinks no pdf e no site.
+- [ ] Legenda de figuras pequenas aparecendo do lado (testar).
 
 ## Software
 
