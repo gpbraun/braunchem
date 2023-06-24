@@ -52,8 +52,8 @@ class Topic(BaseModel):
     title: str
     author: str = "Gabriel Braun"
     affiliation: str = "Colégio e Curso Pensi, Coordenação de Química"
-    sections: list[Section]
-    content: Text
+    sections: list[Section] | None
+    content: Text | None
     problem_sets: dict = None
 
     def problem_collections(self, problem_db: ProblemSet):
@@ -104,6 +104,9 @@ class Topic(BaseModel):
 
     def tex(self, problem_db: ProblemSet):
         """Retorna o conteúdo do tópico em LaTeX."""
+        if not self.content:
+            return self.tex_problems(problem_db)
+
         return self.content.tex + self.tex_problems(problem_db)
 
     def tex_document(self, problem_db: ProblemSet):
@@ -115,7 +118,7 @@ class Topic(BaseModel):
             author=self.author,
             affiliation=self.affiliation,
             template="braun, twocolumn=true",
-            toc=True,
+            toc=True if self.content is not None else False,
             contents=self.tex(problem_db),
         )
 
@@ -169,18 +172,22 @@ class Topic(BaseModel):
         # extrai as seções
         soup = text.md2soup(content)
 
-        topic["sections"] = [
-            Section.parse_obj(
-                {
-                    "id_": f"{topic_path.stem}{index:02d}",
-                    "title": title,
-                    "content": content,
-                }
-            )
-            for index, (title, content) in enumerate(
-                text.soup_split_header(soup, "h1", topic["path"]), start=1
-            )
-        ]
+        split_content = text.soup_split_header(soup, "h1", topic["path"])
+
+        sections = []
+        try:
+            for index, (title, content) in enumerate(split_content, start=1):
+                section = Section.parse_obj(
+                    {
+                        "id_": f"{topic_path.stem}{index:02d}",
+                        "title": title,
+                        "content": content,
+                    }
+                )
+                sections.append(section)
+            topic["sections"] = sections
+        except RuntimeError:
+            topic["sections"] = None
 
         # conteúdo
         topic["content"] = Text.parse_md(content, topic["path"])

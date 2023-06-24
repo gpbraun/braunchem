@@ -20,17 +20,19 @@ def update_database(topic_id):
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     FocusSet.parse_database(config.FOCUSES_DIR)
 
-    topic_db[topic_id].write_pdf(
-        problem_db,
-        tmp_dir=config.TMP_TOPICS_DIR,
-        out_dir=config.OUT_DIR,
-    )
-
-    topic_db[topic_id].write_solutions_pdf(
-        problem_db,
-        tmp_dir=config.TMP_TOPICS_DIR,
-        out_dir=config.OUT_DIR,
-    )
+    try:
+        topic_db[topic_id].write_pdf(
+            problem_db,
+            tmp_dir=config.TMP_TOPICS_DIR,
+            out_dir=config.OUT_DIR,
+        )
+        topic_db[topic_id].write_solutions_pdf(
+            problem_db,
+            tmp_dir=config.TMP_TOPICS_DIR,
+            out_dir=config.OUT_DIR,
+        )
+    except AttributeError:
+        raise Exception(f"Tópico {topic_id} não encontrado!")
 
     # COPIA A BASE DE DADOS PARA O SITE
     for db_file in [
@@ -53,7 +55,12 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("filename")
     args = parser.parse_args()
-    topic_id = args.filename[:2]
+    topic_id = args.filename.split(".")[0]
+
+    if topic_id[:3] in ["IME", "ITA"]:
+        topic_id = topic_id[:3]
+    else:
+        topic_id = topic_id[:2]
 
     update_database(topic_id)
 
