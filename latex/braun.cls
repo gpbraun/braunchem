@@ -1736,7 +1736,7 @@
     maketitle / date / value = \int_use:N \c_sys_year_int,
     maketitle / date / font  = \Large\bfseries,
     maketitle / logo / value = pensi,
-    maketitle / contact / value = {gabriel.braun@pensi.com.br,\;(21)\,99848-4949},
+    maketitle / contact / value = {contato@gpbraun.com,\;(21)\,99848-4949},
 
     % Legendas
     captions = nooneline,
