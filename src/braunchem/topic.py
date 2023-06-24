@@ -176,12 +176,12 @@ class Topic(BaseModel):
 
         sections = []
         try:
-            for index, (title, content) in enumerate(split_content, start=1):
+            for index, (title, section_content) in enumerate(split_content, start=1):
                 section = Section.parse_obj(
                     {
                         "id_": f"{topic_path.stem}{index:02d}",
                         "title": title,
-                        "content": content,
+                        "content": section_content,
                     }
                 )
                 sections.append(section)
