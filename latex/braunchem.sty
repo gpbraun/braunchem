@@ -257,9 +257,6 @@
             cap          = butt,
         },
         fix       /. style = { shorten~<= - 0.15 ex },
-        fixout    /. style = { shorten~>= - 0.15 ex },
-        dbfix     /. style = { shorten~<= - #1 ex },
-        dbfixout  /. style = { shorten~>= - #1 ex },
 
         %% MOL2CHEMFIG
         mcfwavy   /. style =
@@ -274,7 +271,7 @@
             },
         
         mcfbond    /. style = { cap = round }, 
-        mcfbgcolor /. style = {white},
+        mcfbgcolor /. style = { white },
         mcfx       /. style~2~args =
             {
                 preaction=
@@ -287,7 +284,7 @@
                     },
                 mcfbond,
             },
-        mcfcrossbond /. style = { mcfx = { 100 }{ 100 } },
+        crossbond /. style = { mcfx = { 300 }{ 300 } },
         secondbond   /. style~2~args =
             {
                 shorten~<= { #1 * \dim_use:N \g_bchem_bond_spacing_dim / 100 }, 
