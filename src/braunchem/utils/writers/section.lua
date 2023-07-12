@@ -31,10 +31,10 @@ end
 
 
 function Writer(doc, opts)
-    local problem_data = {
+    local section_data = {
         _id     = doc.meta.id,
         date    = os.date("!%Y-%m-%dT%T"),
         content = text(doc.blocks)
     }
-    return pandoc.json.encode(problem_data)
+    return pandoc.json.encode(section_data)
 end

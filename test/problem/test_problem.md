@@ -7,5 +7,6 @@ Um imã de ferro possui $\pu{25 g}$ de massa. A massa de um átomo de ferro é $
 ---
 
 Cálculo do número de átomos de ferro:
-$$N=\frac{m_{\text{total}}}{m_{\text{por átomo}}}$$
-$$N= \frac{25\cdot10^{-3}\,kg}{9,3\cdot10^{-26}\,kg/\text{átomo}}\approx 2,7\cdot10^{23}\text{ átomos}$$
+$$
+    N = \frac{m_{\text{total}}}{m_{\text{por átomo}}}
+$$

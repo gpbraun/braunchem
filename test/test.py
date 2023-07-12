@@ -49,7 +49,7 @@ def test_section():
 
 
 def main():
-    test_problem()
+    test_section()
 
 
 if __name__ == "__main__":
