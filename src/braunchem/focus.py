@@ -2,14 +2,14 @@
 
 Esse módulo implementa uma classe para as áreas da química,
 """
-import braunchem.utils.text as text
-
 import logging
 from datetime import datetime
 from pathlib import Path
 
 import frontmatter
 from pydantic import BaseModel
+
+import braunchem.utils.text as text
 
 logger = logging.getLogger(__name__)
 

@@ -2,19 +2,19 @@
 
 Esse módulo implementa uma classe para os problemas.
 """
-import braunchem.utils.text as text
-import braunchem.utils.latex as latex
-from braunchem.utils.text import Text
-from braunchem.quantities import Table, qtys
-from braunchem.utils.autoprops import autoprops, numerical_choices, ordering_choices
-
 import logging
 from datetime import datetime
-from pathlib import Path
 from multiprocessing import Pool
+from pathlib import Path
 
 import frontmatter
 from pydantic import BaseModel
+
+import braunchem.utils.latex as latex
+import braunchem.utils.text as text
+from braunchem.quantities import Table, qtys
+from braunchem.utils.autoprops import autoprops, numerical_choices, ordering_choices
+from braunchem.utils.text import Text
 
 logger = logging.getLogger(__name__)
 

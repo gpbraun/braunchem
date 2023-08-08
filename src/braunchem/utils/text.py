@@ -2,19 +2,19 @@
 
 Esse módulo implementa funções para conversão entre diferentes formatos.
 """
-from braunchem.latex.document import Document
-import braunchem.utils.latex as latex
-import braunchem.utils.config as config
-
-import os
-import shutil
 import importlib.resources
 import logging
+import os
+import shutil
 from pathlib import Path
 
-import pypandoc
 import bs4
 import pydantic
+import pypandoc
+
+import braunchem.utils.config as config
+import braunchem.utils.latex as latex
+from braunchem.latex.document import Document
 
 logger = logging.getLogger(__name__)
 

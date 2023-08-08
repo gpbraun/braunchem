@@ -2,9 +2,9 @@
 
 Este módulo implementa funções para geração automática de distratores para problemas de múltipla escolha.
 """
-import re
 import random
-from decimal import Decimal, Context
+import re
+from decimal import Context, Decimal
 from itertools import permutations
 
 from braunchem.utils.text import Text

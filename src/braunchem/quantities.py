@@ -2,20 +2,19 @@
 
 Esse módulo implementa uma API para propriedades termodinâmicas.
 """
-import braunchem.utils.latex as latex
-from braunchem.utils.filters import pu2qty
-
-import os
-import re
 import csv
-import logging
 import importlib.resources
 import json
+import logging
+import os
+import re
+from decimal import Context, Decimal
 from pathlib import Path
-from decimal import Decimal, Context
 
 from pydantic import BaseModel
 
+import braunchem.utils.latex as latex
+from braunchem.utils.filters import pu2qty
 
 DB_PATH = importlib.resources.files("braunchem.data")
 """Diretório da base de dados."""
