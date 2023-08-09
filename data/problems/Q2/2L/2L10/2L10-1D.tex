@@ -1,10 +1,14 @@
+\vspace{1cm}
+\phantom{o}\\
 \ce{
     \tikzmarknode{A}{\ce{MnO4^-}} -> 
     \tikzmarknode{B}{\ce{MnO2}} ->[\qty{+0,95}{V}] 
     \tikzmarknode{C}{\ce{Mn^{3+}}} -> 
     \tikzmarknode{D}{\ce{Mn^{2+}}} ->[\qty{-1,18}{V}] 
     \tikzmarknode{E}{\ce{Mn}}
-}
+} \\
+\phantom{o}
+\vspace{1cm}
 \begin{tikzpicture}[remember picture, overlay, xshift=1em]
     \draw[-CF] 
         ([shift={(0,1ex)}]A.north) 
@@ -17,3 +21,4 @@
         -| node [above left] {\scriptsize \qty{+0,28}{V}} 
         ([shift={(0,-1ex)}]E.south);
 \end{tikzpicture}
+
