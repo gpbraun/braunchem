@@ -1,0 +1,14 @@
+\ce{
+    \tikzmarknode{A}{\ce{SO4^{2-}}} ->[\qty{-0,94}{V}]  
+    \tikzmarknode{B}{\ce{SO3^{2-}}} ->
+    \tikzmarknode{C}{\ce{S2O3^{2-}}} ->[\qty{-0,74}{V}]  
+    \tikzmarknode{D}{\ce{S8}} ->[\qty{-0,47}{V}] 
+    \tikzmarknode{E}{\ce{HS^-}}
+}
+\begin{tikzpicture}[remember picture, overlay, xshift=1em]
+    \draw[-CF] 
+        ([shift={(0,-1ex)}]B.south) 
+        --++(0,-2em) 
+        -| node [above left] {\scriptsize \qty{-0,66}{V}} 
+        ([shift={(0,-1ex)}]D.south);
+\end{tikzpicture}

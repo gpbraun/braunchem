@@ -1,0 +1,19 @@
+\ce{
+    \tikzmarknode{A}{\ce{MnO4^-}} -> 
+    \tikzmarknode{B}{\ce{MnO2}} ->[\qty{+0,95}{V}] 
+    \tikzmarknode{C}{\ce{Mn^{3+}}} -> 
+    \tikzmarknode{D}{\ce{Mn^{2+}}} ->[\qty{-1,18}{V}] 
+    \tikzmarknode{E}{\ce{Mn}}
+}
+\begin{tikzpicture}[remember picture, overlay, xshift=1em]
+    \draw[-CF] 
+        ([shift={(0,1ex)}]A.north) 
+        --++(0,2em) 
+        -| node [above left] {\scriptsize \qty{+1,51}{V}} 
+        ([shift={(0,1ex)}]D.north);
+    \draw[-CF] 
+        ([shift={(0,-1ex)}]C.south) 
+        --++(0,-2em) 
+        -| node [above left] {\scriptsize \qty{+0,28}{V}} 
+        ([shift={(0,-1ex)}]E.south);
+\end{tikzpicture}

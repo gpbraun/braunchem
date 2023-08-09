@@ -1,15 +1,25 @@
 {
+  "search.exclude": {
+    "**/*.json": true,
+    ".vscode": true
+  },
+  "files.exclude": {
+    "**/__init__.py": true
+  },
+  "editor.wordBasedSuggestions": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
   "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
   "code-runner.executorMap": {
     "markdown": "$pythonPath bin/main.py $fileNameWithoutExt",
     "lua": "$pythonPath test/test.py"
   },
-  "code-runner.ignoreSelection": true,
-  "latex-workshop.latex.autoBuild.run": "never",
-  "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "off",
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "[latex]": {
     "editor.formatOnSave": true,
@@ -18,6 +28,7 @@
   "[latex-expl3]": {
     "editor.formatOnSave": false
   },
+  "latex-workshop.latex.autoBuild.run": "never",
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,
@@ -25,18 +36,21 @@
       "strings": true
     }
   },
-  "editor.wordBasedSuggestions": false,
-  "Lua.diagnostics.globals": ["pandoc", "FORMAT"],
-  "markdown.styles": [".vscode/mdstyle.css"],
-  "search.exclude": {
-    "**/*.json": true,
-    ".vscode": true
+  "markdown.styles": [
+    ".vscode/mdstyle.css"
+  ],
+  "markdown.extension.katex.macros": {
+    "\\pH": "\\mathrm{pH}",
   },
-  "files.exclude": {
-    "**/__init__.py": true
+  "markdown.math.macros": {
+    "\\pH": "\\mathrm{pH}"
   },
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
-  "cSpell.words": ["diastereoisômeros", "Diastereoisômeros"]
+  "Lua.diagnostics.globals": [
+    "pandoc",
+    "FORMAT"
+  ],
+  "cSpell.words": [
+    "diastereoisômeros",
+    "Diastereoisômeros"
+  ],
 }
