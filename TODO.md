@@ -9,6 +9,8 @@
 - [ ] 3I: Reações controladas por difusão (Keeler)
 - [ ] Resolver os problemas de pH tipo $\ce{NH4CN}$ e $\ce{NaHCO3}$ somando as reações.
 - [ ] Usar M em vez de mol.L-1 (condensar as alternativas): $\pu{2 {\scriptsize M}}$
+- [ ] Pensar melhor nos distratores! No site, colocar um textinho explicando o erro do distrator.
+- [ ] Aquela ideia de transformar os títulos em perguntas.
 
 ## Quality of life
 
