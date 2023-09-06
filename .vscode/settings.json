@@ -3,9 +3,6 @@
     "**/*.json": true,
     ".vscode": true
   },
-  "files.exclude": {
-    "**/__init__.py": true
-  },
   "editor.wordBasedSuggestions": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
@@ -36,21 +33,7 @@
       "strings": true
     }
   },
-  "markdown.styles": [
-    ".vscode/mdstyle.css"
-  ],
-  "markdown.extension.katex.macros": {
-    "\\pH": "\\mathrm{pH}",
-  },
-  "markdown.math.macros": {
-    "\\pH": "\\mathrm{pH}"
-  },
-  "Lua.diagnostics.globals": [
-    "pandoc",
-    "FORMAT"
-  ],
-  "cSpell.words": [
-    "diastereoisômeros",
-    "Diastereoisômeros"
-  ],
+  "markdown.styles": [".vscode/mdstyle.css"],
+  "Lua.diagnostics.globals": ["pandoc", "FORMAT"],
+  "cSpell.words": ["diastereoisômeros", "Diastereoisômeros"]
 }

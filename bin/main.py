@@ -17,6 +17,7 @@ def update_database(topic_id):
     config.load_config("bin/config.cfg")
 
     problem_db = ProblemSet.parse_database(config.PROBLEMS_DIR, force_update=False)
+    print(f"{len(problem_db)} problemas na base de dados")
     topic_db = TopicSet.parse_database(config.TOPICS_DIR, force_update=False)
     FocusSet.parse_database(config.FOCUSES_DIR)
 
