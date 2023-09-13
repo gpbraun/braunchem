@@ -6,7 +6,7 @@ Considere os parâmetros para um átomo de hidrogênio.
 
 ### Equação em linha
 
-Equação em linha: $f(x) = ax + b$.
+Equação em linha: $f(x) = cx + d$.
 
 ### Equação em bloco
 
