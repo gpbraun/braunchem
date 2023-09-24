@@ -30,3 +30,13 @@ Table: Legenda com equação $x^2$ {#tbl:tbl1}
 | :------- | ---: | :----------------: |
 | Elemento |    1 | não o $\ce{H2SO4}$ |
 | Molécula |    2 |    $\ce{NaOH}$     |
+
+
+Tabela com legenda:
+
+Table: Legenda com equação $x^2$ {#tbl:tbl2}
+
+| Oi       |  Olá | Uma tabela com uma equação gigante, tipo $\Delta_\mathrm{r}H^\circ$ |
+| :------- | ---: | :-----------------------------------------------------------------: |
+| Elemento |    1 |                         não o $\ce{H2SO4}$                          |
+| Molécula |    2 |                             $\ce{NaOH}$                             |

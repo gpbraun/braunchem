@@ -75,57 +75,54 @@ local function tabularAlignment(colspecs)
 end
 
 
-local function tabularRow(row, bold)
+local function tabularRow(row)
     local tbl_row = {}
     local cells = row.cells
 
     for i, cell in ipairs(cells) do
         local cell_content = pandoc.utils.blocks_to_inlines(cell.contents)
-        if bold == true then
-            table.insert(tbl_row, pandoc.Strong(cell_content))
-        else
-            table.insert(tbl_row, pandoc.Span(cell_content))
-        end
+        table.insert(tbl_row, pandoc.Span(cell_content))
         if i < #cells then
             table.insert(tbl_row, latex " & ")
         end
     end
 
-    return tbl_row
+    return pandoc.Inlines(tbl_row)
 end
 
 
-local function tabularHead(head)
-    return tabularRow(head.rows[1], true)
-end
-
-
-local function tabularBody(body)
+local function tabularBody(head, body)
     local tbl_body = {}
 
+    table.insert(tbl_body, latex "\\begin{tabular}")
+    table.insert(tbl_body, tabularRow(head.rows[1]))
     for _, row in ipairs(body.body) do
         table.insert(tbl_body, tabularRow(row))
     end
+    table.insert(tbl_body, latex "\\end{tabular}")
 
     return pandoc.LineBlock(tbl_body)
+    --     latex('\\begin{tblr}'),
+    --     tbl_body,
+    --     latex('\\end{tblr}'),
+    -- }
 end
 
 
 function Table(tbl)
     if #tbl.caption.long > 0 then
-        -- Tabela com legenda: displaytable
+        -- Tabela com legenda: table
         local env_header = pandoc.utils.blocks_to_inlines(tbl.caption.long)
-        surround(env_header, '\\begin{displaytable}{', '}')
+        surround(env_header, '\\begin{table}{', '}')
 
-        return {
-            env_header,
-            latex('\\begin{tabular}{' .. tabularAlignment(tbl.colspecs) .. '}'),
-            tabularHead(tbl.head),
-            latex '\\\\ \\midrule',
-            tabularBody(tbl.bodies[1]),
-            latex '\\end{tabular}',
-            block_latex('\\end{displaytable}'),
-        }
+        return tabularBody(tbl.head, tbl.bodies[1])
+        -- {
+        --     env_header,
+        --     latex('\\begin{tblr}{' .. tabularAlignment(tbl.colspecs) .. '}'),
+        --     tabularBody(tbl.head, tbl.bodies[1]),
+        --     latex('\\end{tblr}'),
+        --     latex('\\end{table}'),
+        -- }
     end
 
     -- Tabela normal
@@ -133,10 +130,7 @@ function Table(tbl)
         block_latex('\\begin{center}'),
         latex('\\begin{tabular}{' .. tabularAlignment(tbl.colspecs) .. '}'),
         latex '\\toprule',
-        tabularHead(tbl.head),
-        latex '\\\\ \\midrule',
-        tabularBody(tbl.bodies[1]),
-        latex '\\\\ \\bottomrule',
+        tabularBody(tbl.head, tbl.bodies[1]),
         latex '\\end{tabular}',
         block_latex('\\end{center}'),
     }
