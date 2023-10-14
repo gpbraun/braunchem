@@ -29,23 +29,22 @@ def test_problem():
 
 
 def test_section():
-    test_file = Path("test/section/test_section.md")
-    md_text = test_file.read_text()
+    test_file = Path("test/section/1T01.md")
 
-    problem_json = converter.md2section(md_text)
-    problem_json_str = json.dumps(problem_json, indent=4, ensure_ascii=True)
+    section_json = converter.md2section(test_file)
+    section_json_str = json.dumps(section_json, indent=4, ensure_ascii=True)
 
     json_file = Path("test/section/test_section.json")
     json_file.touch(exist_ok=True)
-    json_file.write_text(problem_json_str)
+    json_file.write_text(section_json_str)
 
     tex_file = Path("test/section/test_section.tex")
     tex_file.touch(exist_ok=True)
-    tex_file.write_text(problem_json["content"]["latex"])
+    tex_file.write_text(section_json["content"]["latex"])
 
     html_file = Path("test/section/test_section.html")
     html_file.touch(exist_ok=True)
-    html_file.write_text(problem_json["content"]["html"])
+    html_file.write_text(section_json["content"]["html"])
 
 
 def main():

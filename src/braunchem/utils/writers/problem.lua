@@ -5,30 +5,11 @@
 -----------------------------------------------------------------
 
 local math = require "math"
-
-local html_filters = require "src.braunchem.utils.writers.html"
-local latex_filters = require "src.braunchem.utils.writers.latex"
-
-local text = function(block)
-    -- Converte um pandoc.Block em latex e html
-    local doc = pandoc.Pandoc(block)
-    local html_opts = {
-        wrap_text = "none",
-        html_math_method = "katex"
-    }
-    local latex_opts = {
-        wrap_text = "none",
-    }
-    return {
-        html = pandoc.write(doc:walk(html_filters), 'html', html_opts),
-        latex = pandoc.write(doc:walk(latex_filters), 'latex', latex_opts),
-    }
-end
+local text = require "lhlatex"
 
 -----------------------------------------------------------------
 -- Geração automática de alternativas
 -----------------------------------------------------------------
-
 
 local choices
 local correct_choice = 0
@@ -39,11 +20,9 @@ local function addChoice(choice)
     table.insert(choices, choice)
 end
 
-
 -----------------------------------------------------------------
 -- Geração automática de alternativas numéricas
 -----------------------------------------------------------------
-
 
 local function formatValue(value)
     -- Converte um valor em uma string com formatação correta.
@@ -67,7 +46,11 @@ local function autoNumChoices(math_text)
         -- Cria uma alternativa numérica a partir de seu valor.
         local choice_value_str = formatValue(value)
         local math_choice_text = string.gsub(math_text, correct_value_str, choice_value_str)
-        addChoice(text(pandoc.Plain(pandoc.Math("InlineMath", math_choice_text))))
+        addChoice(
+            text.simple(
+                pandoc.Plain(pandoc.Math("InlineMath", math_choice_text))
+            )
+        )
     end
 
     ---@diagnostic disable-next-line: param-type-mismatch
@@ -78,11 +61,9 @@ local function autoNumChoices(math_text)
     end
 end
 
-
 -----------------------------------------------------------------
 -- Geração de alternativas de V ou F
 -----------------------------------------------------------------
-
 
 local PROP_CHOICES_MAP = {
     [""] = {
@@ -196,6 +177,7 @@ local PROP_CHOICES_MAP = {
 local function addPropChoice(prop_choice_nums)
     -- Cria uma alternativa para proposições.
     local prop_choice = {}
+
     if #prop_choice_nums == 0 then
         table.insert(prop_choice, pandoc.Str("NDA"))
     else
@@ -213,7 +195,8 @@ local function addPropChoice(prop_choice_nums)
             end
         end
     end
-    addChoice(text(pandoc.Plain(prop_choice)))
+
+    addChoice(text.simple(pandoc.Plain(prop_choice)))
 end
 
 
@@ -245,7 +228,6 @@ end
 -----------------------------------------------------------------
 -- Geração automática de alternativas de ordenação
 -----------------------------------------------------------------
-
 
 local ORDER_CHOICES_MAP = {
     [3] = {
@@ -330,11 +312,9 @@ local function autoOrderChoices(choice_content)
     end
 end
 
-
 -----------------------------------------------------------------
 -- Listas dos problemas
 -----------------------------------------------------------------
-
 
 local function autoChoices(choice)
     -- Gera distratores a partir de uma alternativa correta.
@@ -417,11 +397,9 @@ local problemLists = {
     end
 }
 
-
 -----------------------------------------------------------------
 -- Writer
 -----------------------------------------------------------------
-
 
 function Writer(doc, opts)
     -- Tratamento das listas
@@ -450,8 +428,8 @@ function Writer(doc, opts)
         date           = os.date("!%Y-%m-%dT%T"),
         choices        = choices,
         correct_choice = correct_choice - 1,
-        statement      = text(statement),
-        solution       = text(solution),
+        statement      = text.simple(statement),
+        solution       = text.simple(solution),
     }
     return pandoc.json.encode(problem_data)
 end

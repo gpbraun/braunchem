@@ -1,67 +1,120 @@
-<h1 id="teste-de-conversão">Teste de conversão</h1>
-<p>Considere os parâmetros para um átomo de hidrogênio.</p>
-<h2 id="equações">Equações</h2>
-<h3 id="equação-em-linha">Equação em linha</h3>
-<p>Equação em linha: <span class="math inline">f(x) = cx + d</span>.</p>
-<h3 id="equação-em-bloco">Equação em bloco</h3>
-<p>Equação em bloco: <span id="eq:eq1"><span class="math display">
-    x = \dfrac{ -b \pm \sqrt{b^2 - 4 ac} }{ 2a }
-{1}</span></span></p>
-<p>Essa é a <a href="#eq:eq1">Eq. 1</a>.</p>
+<h1 id="teste">Teste</h1>
+<h2 id="sec:sec1">Equações</h2>
+<p><span id="eq:raoult"><span class="math display"> 
+    \boxed{
+        \text{Lei de Raoult:}
+        \quad
+        P = P_\text{sat} x_\text{solvente}
+    }
+</span></span></p>
+<p>Essa é a <a href="#eq:raoult">Eq. 1</a> da seção <a href="#sec:sec1">Sec. 1.1</a></p>
+<h2 id="figuras">Figuras</h2>
+<h3 id="imagem">Imagem</h3>
+<p>Figura sem legenda:</p>
+<figure id="fig:latex">
+
+<figcaption>Figura em latex.</figcaption>
+</figure>
+<h3 id="imagem-1">Imagem</h3>
+<p>Figura sem legenda:</p>
+<p><img src="image.png" /></p>
+<h3 id="figura-com-legenda">Figura com legenda</h3>
+<p>Figura com legenda:</p>
+<figure id="fig:fig1">
+<img src="image.png" alt="Legenda da figura." />
+<figcaption aria-hidden="true">Legenda da figura.</figcaption>
+</figure>
+<p>Essa é a <a href="#fig:fig1">Fig. 2</a>.</p>
+<h3 id="figura-de-página-inteira-todo">Figura de página inteira (TODO)</h3>
+<p>Figura na página inteira:</p>
+<figure id="fig:fig2">
+<img src="image.png" alt="Legenda da figura de página inteira" />
+<figcaption aria-hidden="true">Legenda da figura de página inteira</figcaption>
+</figure>
+<p>Essa é a <a href="#fig:fig2">Fig. 3</a>.</p>
+<h3 id="tikz">Tikz</h3>
+<p>Uma figura:</p>
+<p><img src="1T01img01.svg" /></p>
+<p>E outra figura:</p>
+<p><img src="1T01img02.svg" /></p>
 <h2 id="tabelas">Tabelas</h2>
+<h3 id="tabela-sem-legenda">Tabela sem legenda</h3>
+<table>
+<colgroup>
+<col style="width: 300%" />
+<col style="width: 200%" />
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"> x</th>
+<th style="text-align: right;"> Olá</th>
+<th style="text-align: center;"> Tchau</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Elemento 1</td>
+<td style="text-align: right;">1 1</td>
+<td style="text-align: center;">não é o <span class="math inline">\ce{H2SO4}</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Molécula</td>
+<td style="text-align: right;">2 1</td>
+<td style="text-align: center;"><span class="math inline">\ce{NaOH}</span> 1</td>
+</tr>
+</tbody>
+</table>
 <h3 id="tabela-com-legenda">Tabela com legenda</h3>
 <p>Tabela com legenda:</p>
 <div id="tbl:tbl1">
 <table>
 <caption>Legenda com equação <span class="math inline">x^2</span></caption>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Oi</th>
-<th style="text-align: right;">Olá</th>
-<th style="text-align: center;">Tchau</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Elemento</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: center;">não o <span class="math inline">\ce{H2SO4}</span></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Molécula</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: center;"><span class="math inline">\ce{NaOH}</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Tabela com legenda:</p>
-<div id="tbl:tbl2">
-<table>
-<caption>Legenda com equação <span class="math inline">x^2</span></caption>
 <colgroup>
-<col style="width: 10%" />
-<col style="width: 5%" />
-<col style="width: 84%" />
+<col style="width: 100%" />
+<col style="width: 200%" />
+<col style="width: 300%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Oi</th>
-<th style="text-align: right;">Olá</th>
-<th style="text-align: center;">Uma tabela com uma equação gigante, tipo <span class="math inline">\Delta_\mathrm{r}H^\circ</span></th>
+<th style="text-align: left;"> x</th>
+<th style="text-align: right;"> Olá</th>
+<th style="text-align: center;"> Tchau</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Elemento</td>
-<td style="text-align: right;">1</td>
-<td style="text-align: center;">não o <span class="math inline">\ce{H2SO4}</span></td>
+<td style="text-align: left;">Elemento 1</td>
+<td style="text-align: right;">1 1</td>
+<td style="text-align: center;">não é o <span class="math inline">\ce{H2SO4}</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Molécula</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: center;"><span class="math inline">\ce{NaOH}</span></td>
+<td style="text-align: right;">2 1</td>
+<td style="text-align: center;"><span class="math inline">\ce{NaOH}</span> 1</td>
 </tr>
 </tbody>
 </table>
 </div>
+<p>Essa é a <a href="#tbl:tbl1">Tab. 1</a>.</p>
+<h2 id="ambientes-curtos">Ambientes curtos</h2>
+<p>Esse é um warning:</p>
+<section id="atenção" class="warning">
+<h3>Atenção</h3>
+<p>Presta atenção nessa parada!</p>
+</section>
+<h2 id="ambientes-longos">Ambientes longos</h2>
+<p>Esse é um exemplo:</p>
+<section id="cálculo-do-comprimento-de-onda-da-luz-a-partir-da-frequência" class="example">
+<h3>Cálculo do comprimento de onda da luz a partir da frequência</h3>
+<p><strong>Calcule</strong> o comprimento de onda da luz vermelha, de frequência <span class="math inline">\pu{4,3e14 Hz}</span>.</p>
+<h4 id="use-a-relação-entre-frequência-e-comprimento-de-onda-da-radiação.">Use a relação entre frequência e comprimento de onda da radiação.</h4>
+<p>De <span class="math inline">\lambda = c/f</span> <span class="math display">
+    \lambda = \dfrac{ \pu{3e8 m.s-1} }{ \pu{4,3e14 Hz} } = \boxed{ \pu{700 nm} }
+</span></p>
+</section>
+<p>Esse exemplo, o exemplo 1, é pica dms!</p>
+<h2 id="resumo">Resumo</h2>
+<blockquote>
+<p>Esse é resumo do final da seção!</p>
+</blockquote>

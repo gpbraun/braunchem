@@ -1,11 +1,8 @@
 linkReferences: true
 nameInLink: true
-figureTitle: "Figura"
-tableTitle: "Tabela"
 figPrefix: "Fig."
 eqnPrefix: "Eq."
-tblPrefix: "Tabela"
-equationNumberTeX: "\\tag"
-eqnIndexTemplate: "$$i$$"
+tblPrefix: "Tab."
+eqnInlineTemplate: "$$e$$"
+figureTemplate: "$$t$$"
 tableTemplate: "$$t$$"
-numberSections: true

@@ -2,35 +2,64 @@
 
 Esse módulo implementa funções para conversão entre diferentes formatos.
 """
-import importlib.resources
 import json
 import logging
+from importlib import resources
+from pathlib import Path
 
 import pypandoc
 
 logger = logging.getLogger(__name__)
 
 
-PANDOC_FILTER_PATH = importlib.resources.files("braunchem.utils.filters")
-PANDOC_WRITER_PATH = importlib.resources.files("braunchem.utils.writers")
+TEXINPUTS = resources.files("braunchem").joinpath("../../latex")
 
-PANDOC_PROBLEM_FILTERS = ["pandoc-crossref"]
-"""Filtros usados nos problemas."""
+PANDOC_FILTER_PATH = resources.files("braunchem.utils").joinpath("filters")
+PANDOC_WRITER_PATH = resources.files("braunchem.utils").joinpath("writers")
+
+PANDOC_PROBLEM_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("problem.lua"))
+PANDOC_SECTION_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("section.lua"))
+
+PANDOC_PROBLEM_FILTERS = [
+    "row_width.lua",
+]
+PANDOC_SECTION_FILTERS = [
+    "pandoc-crossref",
+    "row_width.lua",
+    "tikz_img.lua",
+]
 
 PANDOC_PROBLEM_FILTER_PATHS = [
     str(PANDOC_FILTER_PATH.joinpath(pandoc_filter))
     for pandoc_filter in PANDOC_PROBLEM_FILTERS
 ]
-"""Lista de endereços para os filtros do pandoc."""
-
-PANDOC_PROBLEM_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("problem.lua"))
-PANDOC_SECTION_WRITER_PATH = str(PANDOC_WRITER_PATH.joinpath("section.lua"))
+PANDOC_SECTION_FILTER_PATHS = [
+    str(PANDOC_FILTER_PATH.joinpath(pandoc_filter))
+    for pandoc_filter in PANDOC_SECTION_FILTERS
+]
 
 CROSSREF_YAML_PATH = str(PANDOC_FILTER_PATH.joinpath("pandoc-crossref.yaml"))
 
 
+def pandoc_args(meta: dict) -> str:
+    """Converte um `.dics` nos argumentos para o Pandoc."""
+    args = ["--quiet"]
+    meta.update(
+        {
+            "texinputs": TEXINPUTS,
+            "filterpath": PANDOC_FILTER_PATH,
+            "writerpath": PANDOC_WRITER_PATH,
+            "crossrefYaml": CROSSREF_YAML_PATH,
+        }
+    )
+    for key, val in meta.items():
+        args.append(f"--metadata={key}:{val}")
+
+    return args
+
+
 def md2problem(md_str: str) -> dict:
-    """Converte HTML em LaTeX usando pandoc."""
+    """Converte um arquivo `.md` em um `Problem`."""
     problem = pypandoc.convert_text(
         source=md_str,
         to=PANDOC_PROBLEM_WRITER_PATH,
@@ -42,20 +71,24 @@ def md2problem(md_str: str) -> dict:
         ],
         filters=PANDOC_PROBLEM_FILTER_PATHS,
     )
+
     return json.loads(problem)
 
 
-def md2section(md_str: str) -> dict:
-    """Converte HTML em LaTeX usando pandoc."""
-    section = pypandoc.convert_text(
-        source=md_str,
-        to=PANDOC_SECTION_WRITER_PATH,
+def md2section(path: Path) -> dict:
+    """Converte um arquivo `.md` em um `Section`."""
+    section = pypandoc.convert_file(
+        source_file=path,
         format="markdown",
-        extra_args=[
-            "--quiet",
-            "--metadata=id:1A",
-            f"--metadata=crossrefYaml:{CROSSREF_YAML_PATH}",
-        ],
-        filters=PANDOC_PROBLEM_FILTER_PATHS,
+        to=PANDOC_SECTION_WRITER_PATH,
+        filters=PANDOC_SECTION_FILTER_PATHS,
+        extra_args=pandoc_args(
+            {
+                "id": path.stem,
+                "path": path.parent,
+                "imgpath": Path("img"),
+            }
+        ),
     )
+
     return json.loads(section)

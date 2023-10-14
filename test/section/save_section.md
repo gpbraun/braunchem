@@ -52,7 +52,7 @@ Essa é a [@Tbl:tbl1].
 
 Esse é um exemplo:
 
-:::example
+:::example {#example .example}
 
 ### Título do exemplo
 
